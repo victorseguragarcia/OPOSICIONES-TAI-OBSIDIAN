@@ -20,14 +20,14 @@
 
 ## 🔴 Bloque 1: Administración Pública y Normativa (10 Temas)
 - [[wiki/sources/bloque1-tema01|Resumen Fuente: Bloque 1 - Tema 01 (UD012183): La Constitución Española de 1978, Derechos y Deberes Fundamentales y La Corona]]
-- [[wiki/sources/bloque1-tema02|Resumen Fuente: Bloque 1 - Tema 02: El Gobierno y la Administración General del Estado]]
-- [[wiki/sources/bloque1-tema03|Resumen Fuente: Bloque 1 - Tema 03: Organización Territorial del Estado y Entidades Locales]]
-- [[wiki/sources/bloque1-tema04|Resumen Fuente: Bloque 1 - Tema 04: La Unión Europea, Instituciones y Derecho Comunitario]]
+- [[wiki/sources/bloque1-tema02|Resumen Fuente: Bloque 1 - Tema 02 (UD012185): El Gobierno, Ley 50/1997, Composición y Órganos de la AGE]]
+- [[wiki/sources/bloque1-tema03|Resumen Fuente: Bloque 1 - Tema 03: Organización Territorial del Estado, CCAA y Entidades Locales (Título VIII CE)]]
+- [[wiki/sources/bloque1-tema04|Resumen Fuente: Bloque 1 - Tema 04: La Unión Europea, Instituciones Comunitarias y Fuentes del Derecho Comunitario]]
 - [[wiki/sources/bloque1-tema05|Resumen Fuente: Bloque 1 - Tema 05 (UD022580): El TREBEP (RDL 5/2015), Personal al Servicio de las AAPP y Régimen Disciplinario]]
 - [[wiki/sources/bloque1-tema06|Resumen Fuente: Bloque 1 - Tema 06 (UD011320): Políticas de Igualdad de Género (LO 3/2007) y Violencia de Género (LO 1/2004)]]
 - [[wiki/sources/bloque1-tema07|Resumen Fuente: Bloque 1 - Tema 07: El Procedimiento Administrativo Común (Ley 39/2015 LPACAP)]]
-- [[wiki/sources/bloque1-tema08|Resumen Fuente: Bloque 1 - Tema 08: Régimen Jurídico del Sector Público (Ley 40/2015 LRJSP)]]
-- [[wiki/sources/bloque1-tema09|Resumen Fuente: Bloque 1 - Tema 09: Protección de Datos Personales (RGPD y LOPDGDD)]]
+- [[wiki/sources/bloque1-tema08|Resumen Fuente: Bloque 1 - Tema 08 (UD012192 y UD012193): Régimen Jurídico del Sector Público (Ley 40/2015) y Administración Digital]]
+- [[wiki/sources/bloque1-tema09|Resumen Fuente: Bloque 1 - Tema 09 (UD012191): Protección de Datos Personales (RGPD UE 2016/679, LOPDGDD LO 3/2018 y Título X)]]
 - [[wiki/sources/bloque1-tema10|Resumen Fuente: Bloque 1 - Tema 10 (UD022580): Ley 19/2013 de Transparencia, Acceso a la Información Pública y Buen Gobierno]]
 
 ## 🔴 Bloque 2: Tecnología Básica (5 Temas)
@@ -64,9 +64,9 @@
 
 ---
 
-## 🟣 2. Subtemas: Entidades y Conceptos Teóricos (111 Fichas)
+## 🟣 2. Subtemas: Entidades y Conceptos Teóricos (113 Fichas)
 
-### 🟣 Entidades Técnicas y Normativas (72 Fichas)
+### 🟣 Entidades Técnicas y Normativas (74 Fichas)
 - [[wiki/entities/active-directory|Active Directory Domain Services (AD DS)]]
 - [[wiki/entities/aepd-agencia-proteccion-datos|Agencia Española de Protección de Datos (AEPD)]]
 - [[wiki/entities/bash-and-shell-scripting|Bash y Shell Scripting en Linux]]
@@ -103,6 +103,8 @@
 - [[wiki/entities/ley-19-2013-transparencia|Ley 19/2013 de Transparencia, Acceso a la Información y Buen Gobierno]]
 - [[wiki/entities/ley-39-2015-lpacap|Ley 39/2015 del Procedimiento Administrativo Común (LPACAP)]]
 - [[wiki/entities/ley-40-2015-lrjsp|Ley 40/2015 de Régimen Jurídico del Sector Público (LRJSP)]]
+- [[wiki/entities/ley-50-1997-del-gobierno|Ley 50/1997, de 27 de noviembre, del Gobierno]]
+- [[wiki/entities/ley-7-1985-bases-regimen-local|Ley 7/1985, de 2 de abril, Reguladora de las Bases del Régimen Local (LRBRL)]]
 - [[wiki/entities/ley-igualdad-y-violencia-genero|Leyes de Igualdad (LO 3/2007) y Violencia de Género (LO 1/2004)]]
 - [[wiki/entities/ley-incompatibilidades-53-1984|Ley 53/1984 de Incompatibilidades del Personal al Servicio de las Administraciones Públicas]]
 - [[wiki/entities/linux-kernel|Linux Kernel y Software de Base]]
@@ -183,12 +185,13 @@
 
 ---
 
-### 🔵 3. Conocimientos Concretos, Guías de Síntesis y Tablas de Examen (52 Guías)
+### 🔵 3. Conocimientos Concretos, Guías de Síntesis y Tablas de Examen (53 Guías)
 
 - [[wiki/synthesis/active-directory-and-ldap-guide|Guía Comparativa y Práctica de Active Directory y LDAP]]
 - [[wiki/synthesis/actos-nulos-vs-anulables-guia|Guía de Invalidez: Actos Nulos de Pleno Derecho vs Actos Anulables]]
 - [[wiki/synthesis/algorithms-complexity-and-sorting-matrix|Matriz Comparativa de Algoritmos de Ordenación y Complejidad Big-O]]
 - [[wiki/synthesis/bloque1-informatica-y-administracion-digital-master-guide|Guía Maestra de Informática, Administración Electrónica y Marco Digital de la AGE (Bloque 1)]]
+- [[wiki/synthesis/bloque1-organos-superiores-y-directivos-age-cheatsheet|Cheatsheet: Órganos Superiores y Directivos de la AGE (Ley 40/2015)]]
 - [[wiki/synthesis/bloque1-tai-oposiciones-master-guide|Guía Maestra de Bloque 1: Organización del Estado, Administración Pública y Marco Digital (TAI)]]
 - [[wiki/synthesis/bloque2-tai-oposiciones-master-guide|Guía Maestra de Bloque 2: Tecnología Básica, Hardware, Algoritmos, SO y SGBD (TAI)]]
 - [[wiki/synthesis/bloque3-tai-oposiciones-master-guide|Guía Maestra de Bloque 3: Desarrollo de Sistemas, Metodologías, BBDD y Software (TAI)]]
@@ -239,17 +242,22 @@
 - [[wiki/synthesis/windows-server-administration-guide|Guía Maestra de Administración de Windows Server para Oposiciones TAI]]
 ---
 
-## 📝 4. Banco de Tests y Autoevaluaciones (8 Baterías)
+## 📝 4. Banco de Tests y Autoevaluaciones (13 Baterías)
 
 ### 📝 Tests y Simulacros por Bloques (1 Recursos)
 - [[wiki/tests/bloques/index-tests-bloques|Banco de Tests por Bloques del Temario TAI]]
 
-### 📝 Tests por Temas Individuales (7 Recursos)
+### 📝 Tests por Temas Individuales (12 Recursos)
 - [[wiki/tests/temas/index-tests-temas|Banco de Tests por Temas Individuales del Temario TAI]]
 - [[wiki/tests/temas/test-bloque1-tema01-constitucion|Test de Autoevaluación: Tema 1 - La Constitución Española de 1978]]
+- [[wiki/tests/temas/test-bloque1-tema02-gobierno-age|Test de Autoevaluación: Bloque 1 - Tema 02 (El Gobierno y la Ley 50/1997)]]
+- [[wiki/tests/temas/test-bloque1-tema03-organizacion-territorial|Test de Autoevaluación: Bloque 1 - Tema 03 (Organización Territorial del Estado y CCAA)]]
+- [[wiki/tests/temas/test-bloque1-tema04-union-europea|Test de Autoevaluación: Bloque 1 - Tema 04 (La Unión Europea y el Derecho Comunitario)]]
 - [[wiki/tests/temas/test-bloque1-tema05-trebep|Test de Autoevaluación: Bloque 1 - Tema 05 (El TREBEP y Régimen Disciplinario)]]
 - [[wiki/tests/temas/test-bloque1-tema06-igualdad|Test de Autoevaluación: Bloque 1 - Tema 06 (Políticas de Igualdad y Violencia de Género)]]
 - [[wiki/tests/temas/test-bloque1-tema07-lpacap|Test de Autoevaluación: Bloque 1 - Tema 07 (Ley 39/2015 LPACAP)]]
+- [[wiki/tests/temas/test-bloque1-tema08-lrjsp-admon-digital|Test de Autoevaluación: Bloque 1 - Tema 08 (Ley 40/2015 LRJSP y Administración Digital)]]
+- [[wiki/tests/temas/test-bloque1-tema09-rgpd-lopdgdd|Test de Autoevaluación: Bloque 1 - Tema 09 (RGPD, LOPDGDD y Título X Derechos Digitales)]]
 - [[wiki/tests/temas/test-bloque1-tema10-transparencia|Test de Autoevaluación: Bloque 1 - Tema 10 (Transparencia y Acceso a la Información - Ley 19/2013)]]
 - [[wiki/tests/temas/test-bloque4-tema07-redes-tcp-ip|Test de Autoevaluación: Bloque 4 - Tema 07 (Redes TCP/IP y Subnetting)]]
 

@@ -1,53 +1,80 @@
 ---
-title: "Resumen Fuente: Bloque 1 - Tema 09: Protección de Datos Personales (RGPD y LOPDGDD)"
+title: "Resumen Fuente: Bloque 1 - Tema 09 (UD012191): Protección de Datos Personales (RGPD UE 2016/679, LOPDGDD LO 3/2018 y Título X)"
 type: "source"
 tags:
   - source-summary
-  - oposiciones
-  - tai
   - bloque-1
-  - tema09
+  - tema-09
   - rgpd
   - lopdgdd
   - proteccion-datos
   - aepd
-  - derechos-arco-pol
+  - derechos-digitales
 sources:
-  - "raw/sources/bloque1-tema09.md"
+  - "raw/bloque 1/623847 (1).pdf"
 created: "2026-08-17"
 updated: "2026-08-17"
 aliases:
-  - "Resumen Protección de Datos RGPD y LOPDGDD"
-  - "bloque1-tema09"
+  - "Resumen Bloque 1 Tema 09"
+  - "Protección de Datos y Garantía de Derechos Digitales"
 ---
 
-# Resumen Fuente: Bloque 1 - Tema 09: Protección de Datos Personales (RGPD y LOPDGDD)
+# 🔴 Resumen Fuente: Bloque 1 - Tema 09: Protección de Datos Personales (RGPD y LOPDGDD)
 
-Resumen exhaustivo procesado desde la fuente oficial [[raw/sources/bloque1-tema09.md|bloque1-tema09.md]].
-
----
-
-## 📖 Resumen Ejecutivo
-
-Este tema aborda la normativa europea y nacional de protección de datos: el **Reglamento (UE) 2016/679 (RGPD)** y la **Ley Orgánica 3/2018 (LOPDGDD)**. Se analizan los principios del tratamiento (licitud, lealtad, transparencia, limitación de la finalidad, minimización de datos, exactitud, limitación de conservación, integridad/confidencialidad y responsabilidad proactiva o *accountability*), las 6 bases jurídicas de legitimación, el catálogo de derechos ciudadanos (**ARCO-POL**: Acceso, Rectificación, Supresión/Olvido, Limitación, Portabilidad, Oposición y no sumisión a decisiones automatizadas/perfiles), la figura del **Delegado de Protección de Datos (DPD/DPO)** obligatorio en el sector público, y las potestades de la **Agencia Española de Protección de Datos (AEPD)**.
+Resumen exhaustivo de la Unidad Didáctica **UD012191** sobre el Reglamento (UE) 2016/679 (**RGPD**), la Ley Orgánica 3/2018 (**LOPDGDD**), la Agencia Española de Protección de Datos (**AEPD**), el Delegado de Protección de Datos (**DPO**) y el **Título X de Derechos Digitales**.
 
 ---
 
-## 🎯 Datos Clave para Oposiciones TAI
+## 🗺️ 1. Principios del Tratamiento de Datos (Art. 5 RGPD)
 
-| Parámetro | Especificación Legal |
-|-----------|----------------------|
-| Aplicación RGPD | **25 de mayo de 2018** (Reglamento UE 2016/679) |
-| Ley Española de Adaptación | **Ley Orgánica 3/2018**, de 5 de diciembre (LOPDGDD) |
-| Plazo General de Respuesta Derechos ARCO-POL | **1 mes** desde la recepción de la solicitud (prorrogable 2 meses más) |
-| DPD en el Sector Público | **Obligatorio por Ley** para todas las autoridades y organismos públicos |
-| Comunicación DPD a la AEPD | En el plazo de **10 días** desde su designación |
-| Sanción a AAPP por Infracción de Datos | **Apercibimiento formal** (sin multa económica en AAPP españolas, Art. 77 LOPDGDD) |
+| Principio | Definición y Requisito Técnico |
+|:---|:---|
+| **Licitud, Lealtad y Transparencia** | Tratamiento fundamentado en bases legales del Art. 6 con información clara al interesado. |
+| **Limitación de la Finalidad** | Recogidos con fines determinados, explícitos y legítimos, y no tratados ulteriormente de manera incompatible. |
+| **Minimización de Datos** | Adecuados, pertinentes y limitados a lo estrictamente necesario en relación con los fines. |
+| **Exactitud** | Exactos y, si es necesario, actualizados; supresión o rectificación inmediata de datos inexactos. |
+| **Limitación del Plazo de Conservación** | Mantenidos en forma que permita la identificación durante no más tiempo del necesario para los fines. |
+| **Integridad y Confidencialidad** | Garantía de seguridad adecuada mediante medidas técnicas contra pérdida, destrucción o daño accidental (**Seguridad de la información**). |
+| **Responsabilidad Proactiva (*Accountability*)** | El responsable del tratamiento debe ser capaz de **demostrar documentalmente** el cumplimiento de todos los principios anteriores. |
 
 ---
 
-## 🔗 Enlaces del Grafo de Conocimiento
-- Entidad: [[wiki/entities/rgpd-y-lopdgdd|RGPD y LOPDGDD]]
-- Entidad: [[wiki/entities/aepd-agencia-proteccion-datos|Agencia Española de Protección de Datos (AEPD)]]
-- Concepto: [[wiki/concepts/derechos-digitales-y-arco-pol|Derechos Ciudadanos ARCO-POL y Derechos Digitales]]
-- Síntesis: [[wiki/synthesis/rgpd-lopdgdd-derechos-y-sanciones-guia|Guía del RGPD y LOPDGDD: Principios, Derechos y DPD]]
+## 🟣 2. Derechos de los Interesados y Plazos de Ejercicio (Arts. 15 a 22 RGPD y Arts. 13 a 18 LOPDGDD)
+
+```
+                            DERECHOS DE LOS INTERESADOS
+                                         │
+       ┌────────────────┬────────────────┼────────────────┬────────────────┐
+       ▼                ▼                ▼                ▼                ▼
+    ACCESO        RECTIFICACIÓN      SUPRESIÓN       LIMITACIÓN       PORTABILIDAD
+  (Art. 15)         (Art. 16)       ("Al Olvido")     (Art. 18)        (Art. 20)
+                                      (Art. 17)                      (Formato JSON /
+                                                                      estructurado)
+```
+
+- **Plazo de Respuesta**: El responsable del tratamiento responderá en el plazo máximo de **1 mes** a partir de la recepción de la solicitud.
+- **Prórroga**: Prorrogable por **2 meses más** (total 3 meses) teniendo en cuenta la complejidad y número de solicitudes.
+- **Gratuidad**: El ejercicio de derechos es **gratuito**.
+
+---
+
+## 🟣 3. El Delegado de Protección de Datos (DPD / DPO - Arts. 37 RGPD y 34 LOPDGDD)
+- **Obligatoriedad**: Preceptivo en todas las **autoridades y organismos públicos** (excepto tribunales en ejercicio de función judicial), entidades que realicen observación habitual y sistemática a gran escala o tratamiento masivo de categorías especiales.
+- **Cualificación**: Nombrado en función de sus cualificaciones profesionales y conocimientos especializados del Derecho de protección de datos.
+- **Registro**: Debe comunicarse su nombramiento a la **AEPD** en plazo de **10 días**.
+
+---
+
+## 🟣 4. Título X LOPDGDD: Garantía de los Derechos Digitales (Arts. 79 a 97)
+- **Consentimiento de menores en redes sociales (Art. 84)**: Válido a partir de los **14 años**.
+- **Desconexión digital en el ámbito laboral (Art. 88)**: Derecho a no responder comunicaciones profesionales fuera del horario laboral.
+- **Intimidad frente al uso de dispositivos de videovigilancia y grabación de sonidos (Art. 89)**: Prohibida expresamente la instalación de cámaras en lugares de descanso, vestuarios, comedores y aseos.
+- **Derecho al testamento digital (Art. 96)**: Acceso y supresión de cuentas de personas fallecidas por sus herederos legítimos.
+
+---
+
+## 🔵 5. Entidades y Conceptos Asociados
+- [[wiki/entities/rgpd-y-lopdgdd|RGPD y LOPDGDD]]
+- [[wiki/entities/aepd-agencia-proteccion-datos|Agencia Española de Protección de Datos (AEPD)]]
+- [[wiki/synthesis/derechos-digitales-titulo-x-lopdgdd-cheatsheet|Cheatsheet de Derechos Digitales (Título X)]]
+- [[wiki/tests/temas/test-bloque1-tema09-rgpd-lopdgdd|Test Tema 09: Protección de Datos y Derechos Digitales]]

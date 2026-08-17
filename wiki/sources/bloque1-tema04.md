@@ -1,52 +1,66 @@
 ---
-title: "Resumen Fuente: Bloque 1 - Tema 04: La Unión Europea, Instituciones y Derecho Comunitario"
+title: "Resumen Fuente: Bloque 1 - Tema 04: La Unión Europea, Instituciones Comunitarias y Fuentes del Derecho Comunitario"
 type: "source"
 tags:
   - source-summary
-  - oposiciones
-  - tai
   - bloque-1
-  - tema04
+  - tema-04
   - union-europea
-  - parlamento-europeo
-  - comision-europea
-  - tjue
+  - instituciones-ue
+  - derecho-comunitario
+  - directivas-reglamentos
 sources:
-  - "raw/sources/bloque1-tema04.md"
+  - "raw/bloque 1/623835 (1).pdf"
 created: "2026-08-17"
 updated: "2026-08-17"
 aliases:
-  - "Resumen La Unión Europea y Derecho Comunitario"
-  - "bloque1-tema04"
+  - "Resumen Bloque 1 Tema 04"
+  - "La Unión Europea y sus Instituciones"
 ---
 
-# Resumen Fuente: Bloque 1 - Tema 04: La Unión Europea, Instituciones y Derecho Comunitario
+# 🔴 Resumen Fuente: Bloque 1 - Tema 04: La Unión Europea y el Derecho Comunitario
 
-Resumen exhaustivo procesado desde la fuente oficial [[raw/sources/bloque1-tema04.md|bloque1-tema04.md]].
-
----
-
-## 📖 Resumen Ejecutivo
-
-Este tema profundiza en la arquitectura política y jurídica de la Unión Europea: la evolución de los Tratados constitutivos hasta el **Tratado de Lisboa de 2007** (en vigor el 1 de diciembre de 2009 con personalidad jurídica única, TUE, TFUE y Carta de Derechos Fundamentales vinculante); la composición y funciones de las instituciones clave (Parlamento Europeo elegido cada 5 años, Consejo Europeo, Consejo de la UE con Mayoría Cualificada del 55%/65%, Comisión Europea como guardiana de los tratados y TJUE en Luxemburgo); y el sistema de fuentes comunitarias (Reglamentos directamente aplicables vs Directivas con transposición) y principios de **Primacía** y **Efecto Directo**.
+Resumen exhaustivo sobre el origen de la Unión Europea, el Tratado de Lisboa (TUE y TFUE), las 7 instituciones comunitarias y la jerarquía de las fuentes del Derecho de la Unión Europea.
 
 ---
 
-## 🎯 Datos Clave para Oposiciones TAI
+## 🗺️ 1. Las 7 Instituciones de la Unión Europea (Art. 13 TUE)
 
-| Institución / Norma | Característica Clave |
-|---------------------|----------------------|
-| Entrada en vigor Tratado de Lisboa | **1 de diciembre de 2009** |
-| Mandato Parlamento Europeo | **5 años** (Sufragio universal directo) |
-| Mayoría Cualificada en el Consejo | **55% de Estados miembros (mínimo 15)** que representen al **65% de la población** |
-| Reglamento Comunitario | Alcance general, obligatorio y **directamente aplicable** sin transposición |
-| Directiva Comunitaria | Obliga en el resultado (**requiere transposición nacional** en plazo) |
-| Principio de Primacía | **Sentencia Costa c. ENEL (1964)** |
-| Principio de Efecto Directo | **Sentencia Van Gend en Loos (1963)** |
+| Institución | Sede Principal | Composición | Funciones Clave |
+|:---|:---|:---|:---|
+| **Parlamento Europeo** | Estrasburgo (plenos) / Bruselas / Luxemburgo | 720 diputados (elegidos por sufragio universal directo cada 5 años). | Colegislador con el Consejo, control político de la Comisión y aprobación del presupuesto. |
+| **Consejo Europeo** | Bruselas | Jefes de Estado o de Gobierno de los Estados miembros + su Presidente + Presidente de la Comisión. | Define la orientación y prioridades políticas generales de la UE. **No ejerce función legislativa**. |
+| **Consejo de la Unión Europea (*Consejo de Ministros*)** | Bruselas | 1 Ministro por cada Estado miembro según la materia (ECOFIN, Telecomunicaciones, etc.). | Función legislativa y presupuestaria conjunta con el Parlamento. Presidencia rotatoria semestral. |
+| **Comisión Europea** | Bruselas | 1 Comisario por Estado miembro (incluye Presidente y Alto Representante). | **Monopolio de la iniciativa legislativa** ("guardiana de los Tratados"), ejecuta el presupuesto y aplica las políticas. |
+| **Tribunal de Justicia de la Unión Europea (TJUE)** | Luxemburgo | Tribunal de Justicia (1 juez por Estado miembro) + Tribunal General (2 jueces por Estado). | Garantiza el respeto del Derecho en la interpretación y aplicación de los Tratados (cuestiones prejudiciales). |
+| **Banco Central Europeo (BCE)** | Fráncfort del Meno | Comité Ejecutivo + Consejo de Gobierno. | Política monetaria de la zona euro, estabilidad de precios y emisión del euro. |
+| **Tribunal de Cuentas Europeo** | Luxemburgo | 1 miembro por cada Estado miembro. | Fiscalización y auditoría de la legalidad de los ingresos y gastos de la UE. |
 
 ---
 
-## 🔗 Enlaces del Grafo de Conocimiento
-- Entidad: [[wiki/entities/instituciones-union-europea|Instituciones de la Unión Europea]]
-- Concepto: [[wiki/concepts/fuentes-derecho-comunitario|Fuentes del Derecho Comunitario y Principios de Aplicación]]
-- Síntesis: [[wiki/synthesis/instituciones-europeas-composicion-y-sedes-guia|Guía de Instituciones Europeas, Composición y Sedes]]
+## 🟣 2. Fuentes del Derecho de la Unión Europea (Art. 288 TFUE)
+
+```
+                            FUENTES DEL DERECHO DE LA UE
+                                         │
+       ┌─────────────────────────────────┴─────────────────────────────────┐
+       ▼                                                                   ▼
+DERECHO ORIGINARIO / PRIMARIO                                   DERECHO DERIVADO / SECUNDARIO
+ • Tratados Constitutivos (TUE, TFUE)                           (Actos aprobados por las Instituciones)
+ • Carta de los Derechos Fundamentales                            • Actos Vinculantes (Reglamentos,
+ • Tratados de Adhesión (España 1986)                               Directivas, Decisiones)
+                                                                  • Actos No Vinculantes (Recomendaciones,
+                                                                    Dictámenes)
+```
+
+### Tipología de Actos Jurídicos Vinculantes (Art. 288 TFUE):
+1. **Reglamento**: Tendrá un **alcance general**. Será **obligatorio en todos sus elementos** y **directamente aplicable** en cada Estado miembro sin necesidad de transposición nacional (ej. RGPD UE 2016/679).
+2. **Directiva**: **Obligará al Estado miembro destinatario en cuanto al resultado que deba conseguirse**, dejando a las autoridades nacionales la elección de la forma y de los medios mediante una **norma de transposición** en un plazo fijado (ej. Directiva de Accesibilidad Web UE 2016/2102).
+3. **Decisión**: Será obligatoria en todos sus elementos para sus destinatarios individuales expresamente designados.
+
+---
+
+## 🔵 3. Entidades y Conceptos Asociados
+- [[wiki/entities/instituciones-union-europea|Instituciones de la Unión Europea]]
+- [[wiki/synthesis/instituciones-europeas-composicion-y-sedes-guia|Guía de Sedes y Composición de Instituciones UE]]
+- [[wiki/tests/temas/test-bloque1-tema04-union-europea|Test Tema 04: La Unión Europea]]
