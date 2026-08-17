@@ -244,12 +244,12 @@
 - [[wiki/synthesis/windows-server-administration-guide|Guía Maestra de Administración de Windows Server para Oposiciones TAI]]
 ---
 
-## 📝 4. Banco de Tests y Autoevaluaciones (18 Baterías)
+## 📝 4. Banco de Tests y Autoevaluaciones (26 Baterías)
 
 ### 📝 Tests y Simulacros por Bloques (1 Recursos)
 - [[wiki/tests/bloques/index-tests-bloques|Banco de Tests por Bloques del Temario TAI]]
 
-### 📝 Tests por Temas Individuales (17 Recursos)
+### 📝 Tests por Temas Individuales (25 Recursos)
 - [[wiki/tests/temas/index-tests-temas|Banco de Tests por Temas Individuales del Temario TAI]]
 - [[wiki/tests/temas/test-bloque1-tema01-constitucion|Test de Autoevaluación: Tema 1 - La Constitución Española de 1978]]
 - [[wiki/tests/temas/test-bloque1-tema02-gobierno-age|Test de Autoevaluación: Bloque 1 - Tema 02 (El Gobierno y la Ley 50/1997)]]
@@ -266,7 +266,15 @@
 - [[wiki/tests/temas/test-bloque2-tema03-estructuras-algoritmos|Test de Autoevaluación: Bloque 2 - Tema 03 (Estructuras de Datos, Algoritmos y Ficheros)]]
 - [[wiki/tests/temas/test-bloque2-tema04-sistemas-operativos|Test de Autoevaluación: Bloque 2 - Tema 04 (Sistemas Operativos, Planificación y Memoria)]]
 - [[wiki/tests/temas/test-bloque2-tema05-sgbd-nosql|Test de Autoevaluación: Bloque 2 - Tema 05 (SGBD Relacionales, NoSQL y Teorema CAP)]]
+- [[wiki/tests/temas/test-bloque3-tema01-normalizacion-bbdd|Test de Autoevaluación: Bloque 3 - Tema 01 (Modelado de Datos y Normalización)]]
+- [[wiki/tests/temas/test-bloque3-tema03-sql-interrogacion|Test de Autoevaluación: Bloque 3 - Tema 03 (SQL ANSI, DDL, DML y Transacciones)]]
+- [[wiki/tests/temas/test-bloque3-tema04-poo-patrones-uml|Test de Autoevaluación: Bloque 3 - Tema 04 (POO, Patrones de Diseño GoF y UML 2.x)]]
+- [[wiki/tests/temas/test-bloque3-tema09-metodologias-qa-git|Test de Autoevaluación: Bloque 3 - Tema 09 (MÉTRICA v3, QA McCabe y Git)]]
+- [[wiki/tests/temas/test-bloque4-tema02-windows-server|Test de Autoevaluación: Bloque 4 - Tema 02 (Administración de Windows Server y Active Directory)]]
+- [[wiki/tests/temas/test-bloque4-tema03-linux-administracion|Test de Autoevaluación: Bloque 4 - Tema 03 (Administración de Sistemas Linux y Bash)]]
+- [[wiki/tests/temas/test-bloque4-tema05-almacenamiento-cpd-raid|Test de Autoevaluación: Bloque 4 - Tema 05 (Almacenamiento, RAID, CPD TIER y Backup)]]
 - [[wiki/tests/temas/test-bloque4-tema07-redes-tcp-ip|Test de Autoevaluación: Bloque 4 - Tema 07 (Redes TCP/IP y Subnetting)]]
+- [[wiki/tests/temas/test-bloque4-tema09-seguridad-criptografia-ens|Test de Autoevaluación: Bloque 4 - Tema 09 (Seguridad en Redes, Criptografía y ENS RD 311/2022)]]
 
 ---
 

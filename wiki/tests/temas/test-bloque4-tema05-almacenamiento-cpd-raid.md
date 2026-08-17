@@ -1,0 +1,70 @@
+---
+title: "Test de Autoevaluación: Bloque 4 - Tema 05 (Almacenamiento, RAID, CPD TIER y Backup)"
+type: "test"
+target: "wiki/sources/bloque4-tema05.md"
+date: "2026-08-18"
+score: ""
+tags:
+  - test
+  - bloque-4
+  - raid
+  - cpd
+  - tier
+  - backup
+  - rpo-rto
+sources:
+  - "raw/sources/bloque4-tema05.md"
+created: "2026-08-18"
+updated: "2026-08-18"
+---
+
+# 🔴 Test Tema 05: Almacenamiento, Niveles RAID, Centros de Proceso de Datos (CPD) y Backup
+
+Cuestionario de 10 preguntas tipo test con formato oficial de examen de la AGE (4 opciones, respuesta única, penalización de $-0.33$ por fallo).
+
+---
+
+## ❓ Preguntas
+
+### 1. ¿Cuántos discos duros como mínimo requiere una matriz RAID 5 y cuántos discos pueden fallar simultáneamente sin pérdida de datos?
+- [ ] a) Mínimo 2 discos; soporta fallo de 1 disco.
+- [ ] b) Mínimo 3 discos; soporta fallo de 1 disco.
+- [ ] c) Mínimo 4 discos; soporta fallo de 2 discos.
+- [ ] d) Mínimo 5 discos; soporta fallo de 2 discos.
+
+### 2. ¿Cuál es la principal ventaja de RAID 6 frente a RAID 5?
+- [ ] a) No requiere cálculo de paridad.
+- [ ] b) Utiliza doble paridad distribuida y soporta el fallo simultáneo de hasta 2 discos sin pérdida de datos (requiere mínimo 4 discos).
+- [ ] c) Ofrece el doble de velocidad de escritura que RAID 0.
+- [ ] d) No consume espacio para paridad.
+
+### 3. En la clasificación de Centros de Proceso de Datos (CPD) de Uptime Institute, ¿qué nivel TIER garantiza una disponibilidad del 99,995% con tolerancia a fallos y mantenimiento simultáneo sin interrupción de servicio?
+- [ ] a) TIER I
+- [ ] b) TIER II
+- [ ] c) TIER III
+- [ ] d) TIER IV
+
+### 4. En un Plan de Recuperación ante Desastres (DRP), ¿qué métrica define el tiempo máximo tolerable transcurrido desde el último punto de copia de respaldo que determina la cantidad de datos que una organización puede permitirse perder?
+- [ ] a) RTO (Recovery Time Objective).
+- [ ] b) RPO (Recovery Point Objective).
+- [ ] c) MTBF (Mean Time Between Failures).
+- [ ] d) MTTR (Mean Time To Repair).
+
+### 5. ¿Qué tipo de copia de seguridad (backup) respalda únicamente los archivos que han sido creados o modificados desde la ÚLTIMA copia de cualquier tipo, desactivando el bit de modificado/archivo?
+- [ ] a) Copia Completa (*Full*).
+- [ ] b) Copia Incremental.
+- [ ] c) Copia Diferencial.
+- [ ] d) Copia Espejo (*Mirror*).
+
+---
+
+> [!question]- 🔍 Ver Plantilla y Solucionario Argumentado
+> ### Plantilla de Respuestas:
+> 1. **b** | 2. **b** | 3. **d** | 4. **b** | 5. **b**
+>
+> ### Explicación Técnica:
+> - **Pregunta 1 (b)**: RAID 5 requiere mínimo 3 discos, distribuye 1 bloque de paridad por franja y tolera el fallo de 1 disco. Capacidad útil: $(n-1) 	imes C$.
+> - **Pregunta 2 (b)**: RAID 6 usa doble paridad (código Reed-Solomon), requiere mínimo 4 discos y tolera la caída simultánea de 2 discos.
+> - **Pregunta 3 (d)**: TIER IV exige tolerancia a fallos con componentes y rutas $2(N+1)$ y $99,995\%$ de disponibilidad ($< 26,3	ext{ min/año}$ de parada).
+> - **Pregunta 4 (b)**: **RPO** mide la pérdida máxima de datos admisible en tiempo; **RTO** mide el tiempo necesario para recuperar el servicio tras el desastre.
+> - **Pregunta 5 (b)**: Backup Incremental respalda cambios desde el último backup (completo o incremental) y limpia el bit de archivo.
