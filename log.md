@@ -54,3 +54,11 @@ Append-only chronological timeline of wiki operations.
 - Created `scripts/extract_pdfs.py` using PyMuPDF (`fitz`).
 - Extracted all 10 PDF topics from `raw/bloque 4/` into individual Markdown files in `raw/sources/`.
 - Embedded YAML frontmatter with standardized schema (`title`, `type: "source"`, `tags`, `sources`, timestamps, `aliases`).
+
+## [2026-08-17] ingest | Bloque 4 TAI Oposiciones (Temas 01 al 10)
+- Ingested 10 raw sources from `raw/sources/bloque4-tema01.md` through `bloque4-tema10.md`.
+- Created 10 structured summaries in `wiki/sources/`.
+- Extracted 21 specialized entities in `wiki/entities/` covering operating systems, databases, containers, protocols and cybersecurity standards.
+- Extracted 12 foundational concepts in `wiki/concepts/` covering networking models, memory management, architectures and security paradigms.
+- Generated 4 high-level synthesis documents in `wiki/synthesis/` (Master guide, OSI vs TCP/IP, IPv4 vs IPv6, VMs vs Containers).
+- Rebuilt `index.md` master catalog.
