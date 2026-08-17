@@ -1,37 +1,58 @@
 {
   "collapse-filter": false,
   "search": "",
-  "showTags": true,
-  "showAttachments": false,
-  "hideUnresolved": false,
-  "showOrphans": true,
+  "threshold": 0,
+  "scale": 1,
+  "close": 0.5,
+  "repel": 1.5,
+  "linkStrength": 1,
+  "linkDistance": 250,
+  "fontSize": 12,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1.1,
+  "lineSizeMultiplier": 1,
   "colorGroups": [
     {
-      "query": "path:sources",
+      "query": "tag:#bloque-1 OR path:bloque1",
       "color": {
         "a": 1,
-        "rgb": 15022389
+        "rgb": 15684432
       }
     },
     {
-      "query": "path:entities OR path:concepts",
+      "query": "tag:#bloque-2 OR path:bloque2",
       "color": {
         "a": 1,
-        "rgb": 9315498
+        "rgb": 12216520
       }
     },
     {
-      "query": "path:synthesis",
+      "query": "tag:#bloque-3 OR path:bloque3",
       "color": {
         "a": 1,
-        "rgb": 2001125
+        "rgb": 6732714
+      }
+    },
+    {
+      "query": "tag:#bloque-4 OR path:bloque4",
+      "color": {
+        "a": 1,
+        "rgb": 4367861
+      }
+    },
+    {
+      "query": "tag:#test OR path:tests",
+      "color": {
+        "a": 1,
+        "rgb": 15483002
+      }
+    },
+    {
+      "query": "tag:#supuesto-practico",
+      "color": {
+        "a": 1,
+        "rgb": 16753920
       }
     }
-  ],
-  "linkStrength": 0.8,
-  "linkDistance": 120,
-  "nodeSizeMultiplier": 1.25,
-  "lineSizeMultiplier": 1.0,
-  "textFadeMultiplier": 0.5,
-  "centerStrength": 0.55
+  ]
 }

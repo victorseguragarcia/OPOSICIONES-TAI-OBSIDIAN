@@ -1,288 +1,111 @@
 /* ==========================================================================
-   TAI Oposiciones - Suite Visual y Estilística Pedagógica
-   - 🔴 Nivel 1: Temas Principales / Bloques / Leyes (Coral Pastel: #EF5350 / #E57373)
-   - 🟣 Nivel 2: Subtemas / Entidades / Conceptos (Orquídea Pastel: #BA68C8 / #CE93D8)
-   - 🔵 Nivel 3: Conocimientos Concretos / Síntesis / Tablas (Azul Cielo: #64B5F6 / #90CAF9)
-   - ⚠️ Trampas de Examen (Ámbar / Coral: #FFB74D / #EF5350)
-   - 🧠 Mnemotecnias (Esmeralda / Menta: #81C784 / #A5D6A7)
+   TAI OPOSICIONES - DESIGN SYSTEM & COLOR CODING STANDARD (PASTEL LUXURY)
+   Optimizado para Bóveda Obsidian de Oposiciones TAI / AGE
    ========================================================================== */
 
 :root {
-  --tai-tema-red: #ef5350;
-  --tai-tema-red-soft: #e57373;
-  --tai-tema-red-bg: rgba(239, 83, 80, 0.08);
-  --tai-tema-red-border: rgba(239, 83, 80, 0.28);
+  --tai-red-primary: #EF5350;
+  --tai-red-bg: rgba(239, 83, 80, 0.08);
+  --tai-red-border: rgba(239, 83, 80, 0.35);
 
-  --tai-subtema-purple: #ba68c8;
-  --tai-subtema-purple-soft: #ce93d8;
-  --tai-subtema-purple-bg: rgba(186, 104, 200, 0.08);
-  --tai-subtema-purple-border: rgba(186, 104, 200, 0.28);
+  --tai-purple-primary: #BA68C8;
+  --tai-purple-bg: rgba(186, 104, 200, 0.08);
+  --tai-purple-border: rgba(186, 104, 200, 0.35);
 
-  --tai-concreto-blue: #64b5f6;
-  --tai-concreto-blue-soft: #90caf9;
-  --tai-concreto-blue-bg: rgba(100, 181, 246, 0.08);
-  --tai-concreto-blue-border: rgba(100, 181, 246, 0.28);
+  --tai-blue-primary: #64B5F6;
+  --tai-blue-bg: rgba(100, 181, 246, 0.08);
+  --tai-blue-border: rgba(100, 181, 246, 0.35);
 
-  --tai-amber-trampa: #ffb74d;
-  --tai-amber-trampa-bg: rgba(255, 183, 77, 0.09);
-  --tai-amber-trampa-border: rgba(255, 183, 77, 0.35);
+  --tai-green-primary: #81C784;
+  --tai-green-bg: rgba(129, 199, 132, 0.08);
 
-  --tai-green-mnemo: #81c784;
-  --tai-green-mnemo-bg: rgba(129, 199, 132, 0.09);
-  --tai-green-mnemo-border: rgba(129, 199, 132, 0.35);
+  --tai-amber-primary: #FFB74D;
+  --tai-amber-bg: rgba(255, 183, 77, 0.08);
 }
 
-/* ==========================================================================
-   1. ENCABEZADOS Y TIPOGRAFÍA (OBSIDIAN + PREVIEW)
-   ========================================================================== */
-
-h1,
-.markdown-rendered h1,
-.markdown-preview-view h1,
-.cm-header-1,
-.theme-dark h1,
-.theme-light h1,
-.vscode-body h1 {
-  color: var(--tai-tema-red) !important;
-  font-weight: 750 !important;
-  border-bottom: 1.5px solid var(--tai-tema-red-border) !important;
-  padding-bottom: 6px !important;
-  margin-top: 24px !important;
-  margin-bottom: 14px !important;
-  letter-spacing: -0.01em;
+/* --- Encabezados con Jerarquía de 3 Niveles --- */
+.markdown-rendered h1, .cm-header-1 {
+  color: var(--tai-red-primary) !important;
+  font-weight: 700 !important;
+  border-bottom: 2px solid var(--tai-red-border);
+  padding-bottom: 6px;
+  margin-top: 24px;
 }
 
-h2,
-.markdown-rendered h2,
-.markdown-preview-view h2,
-.cm-header-2,
-.theme-dark h2,
-.theme-light h2,
-.vscode-body h2 {
-  color: var(--tai-subtema-purple) !important;
-  font-weight: 650 !important;
-  border-left: 3.5px solid var(--tai-subtema-purple-soft) !important;
-  padding-left: 10px !important;
-  margin-top: 20px !important;
-  margin-bottom: 12px !important;
-}
-
-h3,
-.markdown-rendered h3,
-.markdown-preview-view h3,
-.cm-header-3,
-.theme-dark h3,
-.theme-light h3,
-.vscode-body h3 {
-  color: var(--tai-concreto-blue) !important;
+.markdown-rendered h2, .cm-header-2 {
+  color: var(--tai-purple-primary) !important;
   font-weight: 600 !important;
-  margin-top: 16px !important;
-  margin-bottom: 8px !important;
+  border-bottom: 1px solid var(--tai-purple-border);
+  padding-bottom: 4px;
+  margin-top: 20px;
 }
 
-h4,
-.markdown-rendered h4,
-.markdown-preview-view h4,
-.cm-header-4,
-.theme-dark h4,
-.theme-light h4,
-.vscode-body h4 {
-  color: #81d4fa !important;
+.markdown-rendered h3, .cm-header-3 {
+  color: var(--tai-blue-primary) !important;
   font-weight: 600 !important;
+  margin-top: 16px;
 }
 
-/* ==========================================================================
-   2. TABLAS PEDAGÓGICAS CON EFECTO CEBRA Y HOVER
-   ========================================================================== */
-
-.markdown-rendered table,
-.markdown-preview-view table,
-.vscode-body table {
+/* --- Tablas Cebra con Bordes Suaves --- */
+.markdown-rendered table {
+  border-collapse: collapse;
   width: 100%;
-  border-collapse: separate;
-  border-spacing: 0;
+  margin: 16px 0;
   border-radius: 8px;
   overflow: hidden;
-  border: 1px solid rgba(100, 181, 246, 0.2) !important;
-  margin: 16px 0;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
 }
 
-.markdown-rendered table th,
-.markdown-preview-view table th,
-.vscode-body table th {
-  background-color: var(--tai-concreto-blue-bg) !important;
-  color: var(--tai-concreto-blue) !important;
-  border-bottom: 2px solid var(--tai-concreto-blue-border) !important;
-  padding: 10px 14px !important;
-  font-weight: 650 !important;
+.markdown-rendered th {
+  background-color: var(--tai-red-bg) !important;
+  color: var(--tai-red-primary) !important;
+  font-weight: 600;
+  border: 1px solid var(--tai-red-border);
+  padding: 10px 14px;
   text-align: left;
 }
 
-.markdown-rendered table td,
-.markdown-preview-view table td,
-.vscode-body table td {
-  padding: 9px 14px !important;
-  border-bottom: 1px solid rgba(120, 120, 120, 0.12) !important;
+.markdown-rendered td {
+  border: 1px solid rgba(128, 128, 128, 0.15);
+  padding: 8px 12px;
 }
 
-.markdown-rendered table tr:nth-child(even) td,
-.markdown-preview-view table tr:nth-child(even) td {
-  background-color: rgba(120, 120, 120, 0.035);
+.markdown-rendered tr:nth-child(even) {
+  background-color: rgba(128, 128, 128, 0.03);
 }
 
-.markdown-rendered table tr:hover td,
-.markdown-preview-view table tr:hover td {
-  background-color: rgba(100, 181, 246, 0.06) !important;
-  transition: background-color 0.15s ease-in-out;
-}
-
-/* ==========================================================================
-   3. SUITE DE CALLOUTS ESPECIALIZADOS DE OPOSICIÓN
-   ========================================================================== */
-
-.callout[data-callout="tema"],
-.callout[data-callout="danger"],
-.callout[data-callout="important"] {
-  --callout-color: 239, 83, 80;
-  border-left: 4px solid var(--tai-tema-red-soft) !important;
-  background-color: var(--tai-tema-red-bg) !important;
-  border-radius: 6px;
-}
-
-.callout[data-callout="subtema"],
-.callout[data-callout="example"] {
-  --callout-color: 186, 104, 200;
-  border-left: 4px solid var(--tai-subtema-purple-soft) !important;
-  background-color: var(--tai-subtema-purple-bg) !important;
-  border-radius: 6px;
-}
-
-.callout[data-callout="concreto"],
-.callout[data-callout="note"],
-.callout[data-callout="tip"],
-.callout[data-callout="info"] {
-  --callout-color: 100, 181, 246;
-  border-left: 4px solid var(--tai-concreto-blue-soft) !important;
-  background-color: var(--tai-concreto-blue-bg) !important;
-  border-radius: 6px;
-}
-
-.callout[data-callout="trampa"],
-.callout[data-callout="warning"] {
+/* --- Callouts Especializados para Examen --- */
+.callout[data-callout="trampa"], .callout[data-callout="warning"] {
   --callout-color: 255, 183, 77;
-  border-left: 4px solid var(--tai-amber-trampa) !important;
-  background-color: var(--tai-amber-trampa-bg) !important;
-  border-radius: 6px;
+  --callout-icon: alert-triangle;
+  border-left: 4px solid #FFB74D !important;
+  background-color: rgba(255, 183, 77, 0.08) !important;
 }
 
-.callout[data-callout="mnemo"],
-.callout[data-callout="success"] {
+.callout[data-callout="mnemo"], .callout[data-callout="success"] {
   --callout-color: 129, 199, 132;
-  border-left: 4px solid var(--tai-green-mnemo) !important;
-  background-color: var(--tai-green-mnemo-bg) !important;
-  border-radius: 6px;
+  --callout-icon: brain;
+  border-left: 4px solid #81C784 !important;
+  background-color: rgba(129, 199, 132, 0.08) !important;
 }
 
-.callout[data-callout="question"],
-.callout[data-callout="test"],
-.callout[data-callout="faq"] {
-  --callout-color: 149, 117, 205;
-  border-left: 4px solid #9575cd !important;
-  background-color: rgba(149, 117, 205, 0.08) !important;
-  border-radius: 6px;
+.callout[data-callout="question"] {
+  --callout-color: 186, 104, 200;
+  --callout-icon: help-circle;
+  border-left: 4px solid #BA68C8 !important;
+  background-color: rgba(186, 104, 200, 0.08) !important;
 }
 
-.callout[data-callout="repaso"],
-.callout[data-callout="abstract"],
-.callout[data-callout="summary"] {
-  --callout-color: 77, 208, 225;
-  border-left: 4px solid #4dd0e1 !important;
-  background-color: rgba(77, 208, 225, 0.08) !important;
-  border-radius: 6px;
+.callout[data-callout="repaso"], .callout[data-callout="summary"] {
+  --callout-color: 100, 181, 246;
+  --callout-icon: zap;
+  border-left: 4px solid #64B5F6 !important;
+  background-color: rgba(100, 181, 246, 0.08) !important;
 }
 
-/* ==========================================================================
-   4. VISTA GRÁFICA INTERACTIVA (GRAPH VIEW)
-   ========================================================================== */
-
-.graph-view.color-fill-1,
-.graph-view.color-circle-1 {
-  color: var(--tai-tema-red-soft) !important;
-  fill: var(--tai-tema-red-soft) !important;
-}
-
-.graph-view.color-fill-2,
-.graph-view.color-circle-2 {
-  color: var(--tai-subtema-purple-soft) !important;
-  fill: var(--tai-subtema-purple-soft) !important;
-}
-
-.graph-view.color-fill-3,
-.graph-view.color-circle-3 {
-  color: var(--tai-concreto-blue-soft) !important;
-  fill: var(--tai-concreto-blue-soft) !important;
-}
-
-/* ==========================================================================
-   5. OBSIDIAN CANVAS (LIENZOS VISUALES)
-   ========================================================================== */
-
-.canvas-node[data-color="1"],
-.canvas-node[data-color="#E53935"],
-.canvas-node[data-color="#ef5350"],
-.canvas-node[data-color="#e57373"] {
-  border-color: var(--tai-tema-red-soft) !important;
-  background-color: rgba(239, 83, 80, 0.06) !important;
-  border-radius: 8px;
-}
-
-.canvas-node[data-color="6"],
-.canvas-node[data-color="#8E24AA"],
-.canvas-node[data-color="#ba68c8"],
-.canvas-node[data-color="#ce93d8"] {
-  border-color: var(--tai-subtema-purple-soft) !important;
-  background-color: rgba(186, 104, 200, 0.06) !important;
-  border-radius: 8px;
-}
-
-.canvas-node[data-color="5"],
-.canvas-node[data-color="#1E88E5"],
-.canvas-node[data-color="#64b5f6"],
-.canvas-node[data-color="#90caf9"] {
-  border-color: var(--tai-concreto-blue-soft) !important;
-  background-color: rgba(100, 181, 246, 0.06) !important;
-  border-radius: 8px;
-}
-
-/* ==========================================================================
-   6. ETIQUETAS (TAGS / BADGES)
-   ========================================================================== */
-
-.tag[href*="bloque"],
-.tag[href*="tema"] {
-  background-color: var(--tai-tema-red-bg) !important;
-  color: var(--tai-tema-red-soft) !important;
-  border: 1px solid var(--tai-tema-red-border) !important;
-  border-radius: 12px;
-  padding: 2px 8px;
-}
-
-.tag[href*="entity"],
-.tag[href*="concept"] {
-  background-color: var(--tai-subtema-purple-bg) !important;
-  color: var(--tai-subtema-purple-soft) !important;
-  border: 1px solid var(--tai-subtema-purple-border) !important;
-  border-radius: 12px;
-  padding: 2px 8px;
-}
-
-.tag[href*="synthesis"],
-.tag[href*="cheatsheet"],
-.tag[href*="guide"] {
-  background-color: var(--tai-concreto-blue-bg) !important;
-  color: var(--tai-concreto-blue-soft) !important;
-  border: 1px solid var(--tai-concreto-blue-border) !important;
-  border-radius: 12px;
-  padding: 2px 8px;
+/* --- Estilo de Nodos en Canvas de Obsidian --- */
+.canvas-node-container {
+  border-radius: 12px !important;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1) !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
 }

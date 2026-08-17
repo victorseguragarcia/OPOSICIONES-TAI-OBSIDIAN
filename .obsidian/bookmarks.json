@@ -1,0 +1,92 @@
+{
+  "items": [
+    {
+      "type": "file",
+      "title": "🏠 Dashboard Principal de Estudio",
+      "path": "Dashboard.md"
+    },
+    {
+      "type": "file",
+      "title": "📚 Catálogo Maestro del Temario",
+      "path": "index.md"
+    },
+    {
+      "type": "group",
+      "title": "🗺️ Mapas Visuales (Canvas)",
+      "items": [
+        {
+          "type": "file",
+          "title": "🌐 Mapa Global del Temario",
+          "path": "temario-tai-visual-map.canvas"
+        },
+        {
+          "type": "file",
+          "title": "🏛️ Bloque 1: Administración Digital",
+          "path": "temario-bloque1-administracion.canvas"
+        },
+        {
+          "type": "file",
+          "title": "💻 Bloque 2: Tecnología Básica",
+          "path": "temario-bloque2-tecnologia.canvas"
+        },
+        {
+          "type": "file",
+          "title": "⚙️ Bloque 3: Desarrollo y BBDD",
+          "path": "temario-bloque3-desarrollo.canvas"
+        },
+        {
+          "type": "file",
+          "title": "🌐 Bloque 4: Sistemas y Redes",
+          "path": "temario-bloque4-sistemas.canvas"
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "title": "🧮 Supuestos Prácticos de Examen",
+      "items": [
+        {
+          "type": "file",
+          "title": "Bloque 4: Redes, Subnetting, AD y ENS",
+          "path": "wiki/synthesis/supuestos-practicos-bloque4-redes-subnetting-ad-ens.md"
+        },
+        {
+          "type": "file",
+          "title": "Bloque 2: IEEE 754, Paginación y Banquero",
+          "path": "wiki/synthesis/supuestos-practicos-bloque2-ieee754-paginacion-deadlocks.md"
+        },
+        {
+          "type": "file",
+          "title": "Bloque 3: Normalización BBDD y SQL",
+          "path": "wiki/synthesis/supuestos-practicos-bloque3-normalizacion-bbdd.md"
+        },
+        {
+          "type": "file",
+          "title": "Bloque 3: Trazas Código Java y PHP",
+          "path": "wiki/synthesis/supuestos-practicos-bloque3-java-php-programacion.md"
+        },
+        {
+          "type": "file",
+          "title": "Bloque 3: Simulacro Oficial Examen TAI",
+          "path": "wiki/synthesis/supuestos-practicos-bloque3-simulacro-examen-tai.md"
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "title": "📝 Banco de Tests por Bloques",
+      "items": [
+        {
+          "type": "file",
+          "title": "Simulacro Global Bloque 1",
+          "path": "wiki/tests/bloques/test-bloque1-simulacro-oficial.md"
+        },
+        {
+          "type": "file",
+          "title": "Simulacro Global Bloque 3",
+          "path": "wiki/tests/bloques/test-bloque3-simulacro-desarrollo.md"
+        }
+      ]
+    }
+  ]
+}
