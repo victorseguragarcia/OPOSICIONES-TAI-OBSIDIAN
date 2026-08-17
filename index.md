@@ -55,7 +55,7 @@ Fichas técnicas de sistemas operativos, protocolos, arquitecturas de hardware, 
 - [[wiki/entities/transformer-architecture|Transformer Architecture]]
 - [[wiki/entities/voip-sip-and-rtp|Telefonía IP (VoIP): Protocolos SIP, SDP, RTP y RTCP]]
 - [[wiki/entities/wi-fi-and-mobile-standards|Estándares Wi-Fi (IEEE 802.11) y Tecnologías Móviles (5G NR)]]
-- [[wiki/entities/windows-server|Windows Server y Administración de Dominios]]
+- [[wiki/entities/windows-server|Windows Server: Arquitectura, Roles, Servicios y Administración de Dominios]]
 
 ---
 
@@ -105,6 +105,7 @@ Matrices comparativas, resúmenes monográficos de alto nivel y tablas maestras 
 - [[wiki/synthesis/subnetting-and-ipv4-ipv6-addressing-guide|Guía Práctica de Subnetting, VLSM y Direccionamiento IPv4 e IPv6]]
 - [[wiki/synthesis/sysadmin-commands-windows-and-linux-cheatsheet|Cheatsheet de Comandos de Administración de Sistemas Windows y Linux]]
 - [[wiki/synthesis/virtualization-vs-containerization-comparison|Comparativa Arquitectónica: Máquinas Virtuales vs Contenedores]]
+- [[wiki/synthesis/windows-server-administration-guide|Guía Maestra de Administración de Windows Server para Oposiciones TAI]]
 
 ---
 

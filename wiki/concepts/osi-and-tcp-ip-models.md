@@ -48,10 +48,14 @@ Los modelos arquitectónicos estratificados proporcionan un marco modular y esta
 
 A medida que los datos descienden por las capas del emisor, cada nivel añade su propia cabecera de control (**PCI - Protocol Control Information**):
 1. **Capa de Aplicación**: Genera el mensaje o flujo de datos original.
-2. **Capa de Transporte**: Añade cabecera TCP o UDP (puertos) $ightarrow$ **Segmento** (TCP) o **Datagrama** (UDP).
-3. **Capa de Red**: Añade cabecera IP (direcciones IP origen/destino) $ightarrow$ **Paquete** o **Datagrama IP**.
-4. **Capa de Enlace**: Añade cabecera MAC y cola de comprobación (**FCS / CRC-32**) $ightarrow$ **Trama (Frame)**.
-5. **Capa Física**: Convierte la trama en una secuencia de señales binarias $ightarrow$ **Bits**.
+2. **Capa de Transporte**: Añade cabecera TCP o UDP (puertos) $
+ightarrow$ **Segmento** (TCP) o **Datagrama** (UDP).
+3. **Capa de Red**: Añade cabecera IP (direcciones IP origen/destino) $
+ightarrow$ **Paquete** o **Datagrama IP**.
+4. **Capa de Enlace**: Añade cabecera MAC y cola de comprobación (**FCS / CRC-32**) $
+ightarrow$ **Trama (Frame)**.
+5. **Capa Física**: Convierte la trama en una secuencia de señales binarias $
+ightarrow$ **Bits**.
 
 ---
 
