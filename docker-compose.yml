@@ -1,0 +1,19 @@
+version: "3.8"
+
+services:
+  obsidian-remote:
+    image: lscr.io/linuxserver/obsidian:latest
+    container_name: obsidian-tai-remote
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/Madrid
+      - TITLE=Boveda Oposiciones TAI
+    volumes:
+      - ./config:/config
+      - ./vault:/vaults/OPOSICIONES-TAI
+    ports:
+      - 3000:3000
+      - 3001:3001
+    shm_size: "1gb"
+    restart: unless-stopped
