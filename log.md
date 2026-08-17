@@ -44,3 +44,8 @@ Append-only chronological timeline of wiki operations.
 - Documented associative linking mechanics, wikilink syntax, and graph topology guidelines in `tutorials/04-cross-referencing.md`.
 - Defined hub node patterns, bidirectional linking rules, and anti-orphan policies.
 - Validated complete graph integrity with `scripts/lint.py`.
+
+## [2026-08-17] tutorial | Tutorial 05: Indexing and Logging
+- Documented dual tracking architecture: content-oriented catalog (`index.md`) vs. chronological audit trail (`log.md`).
+- Established categorized index schema and machine-parseable log prefixes (`## [YYYY-MM-DD] <op> | <title>`).
+- Validated complete index synchronization via `scripts/lint.py`.
