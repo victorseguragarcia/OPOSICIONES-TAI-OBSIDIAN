@@ -21,14 +21,14 @@ This final tutorial validates the full lifecycle of the LLM Wiki: querying index
 ## 1. Querying Knowledge
 Execute query tool to retrieve notes by topic, tag, or keyword:
 ```bash
-python scripts/query.py "transformer architecture attention"
+python scripts/query.py "Constitucion Cortes Generales"
 ```
 
 Expected output:
 - Returns matching notes ranked by relevance:
-  - [[wiki/entities/transformer-architecture|Transformer Architecture]]
-  - [[wiki/entities/attention-mechanism|Attention Mechanism]]
-  - [[wiki/synthesis/llm-wiki-vs-rag-comparison|LLM Wiki vs RAG Comparison]]
+  - [[wiki/entities/constitucion-espanola-1978|Constitución Española de 1978]]
+  - [[wiki/entities/cortes-generales|Cortes Generales: Congreso y Senado]]
+  - [[wiki/synthesis/constitucion-espanola-articulos-clave-cheatsheet|Cheatsheet Constitución Española]]
 
 ## 2. Running Automated Lint Check
 Run the integrity linter to verify wiki health:

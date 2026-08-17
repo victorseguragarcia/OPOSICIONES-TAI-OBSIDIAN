@@ -19,7 +19,7 @@ This tutorial demonstrates generating high-level syntheses and filing valuable q
 
 ## The Filing Flow
 1. When answering complex user questions (e.g. comparing architectures or synthesizing topics), generate structured markdown.
-2. File the resulting analysis into `wiki/synthesis/` (e.g. [[wiki/synthesis/llm-wiki-vs-rag-comparison|LLM Wiki vs RAG Comparison]]).
+2. File the resulting analysis into `wiki/synthesis/` (e.g. [[wiki/synthesis/bloque1-tai-oposiciones-master-guide|Guía Maestra de Bloque 1: Administración Pública y Normativa]]).
 3. Register the new synthesis in `index.md` and log the event in `log.md`.
 4. This ensures valuable analytical synthesis is persisted and available for future queries.
 

@@ -16,7 +16,7 @@
 
 ---
 
-# 🔴 1. Temas Principales del Temario Oficial (35 Fuentes)
+# 🔴 1. Temas Principales del Temario Oficial (34 Fuentes)
 
 ## 🔴 Bloque 1: Administración Pública y Normativa (10 Temas)
 - [[wiki/sources/bloque1-tema01|Resumen Fuente: Bloque 1 - Tema 01: La Constitución Española de 1978]]
@@ -60,17 +60,15 @@
 - [[wiki/sources/bloque4-tema09|Resumen Fuente: Bloque 4 - Tema 09: Seguridad en Redes, Perímetros, Organismos y VPN]]
 - [[wiki/sources/bloque4-tema10|Resumen Fuente: Bloque 4 - Tema 10: Topologías LAN, Arquitectura IEEE 802 y Control de Acceso al Medio]]
 
-## 🔴 Otras Fuentes
-- [[wiki/sources/transformers-and-llms-overview|Summary: Transformer Architecture and LLM Knowledge Systems]]
+
 
 ---
 
-## 🟣 2. Subtemas: Entidades y Conceptos Teóricos (113 Fichas)
+## 🟣 2. Subtemas: Entidades y Conceptos Teóricos (109 Fichas)
 
-### 🟣 Entidades Técnicas y Normativas (72 Fichas)
+### 🟣 Entidades Técnicas y Normativas (70 Fichas)
 - [[wiki/entities/active-directory|Active Directory Domain Services (AD DS)]]
 - [[wiki/entities/aepd-agencia-proteccion-datos|Agencia Española de Protección de Datos (AEPD)]]
-- [[wiki/entities/attention-mechanism|Attention Mechanism]]
 - [[wiki/entities/bash-and-shell-scripting|Bash y Shell Scripting en Linux]]
 - [[wiki/entities/bgp-and-ospf|Protocolos de Enrutamiento Dinámico: OSPF y BGP]]
 - [[wiki/entities/ccn-cert-and-ens|CCN-CERT, Guías CCN-STIC y Esquema Nacional de Seguridad (ENS)]]
@@ -131,7 +129,6 @@
 - [[wiki/entities/sql-ansi-and-stored-procedures|Estándar ANSI SQL, Procedimientos Almacenados, Triggers y Transacciones ACID]]
 - [[wiki/entities/tcp-and-udp|Protocolos de Transporte: TCP y UDP]]
 - [[wiki/entities/tls-ssl-protocols|Protocolos TLS/SSL y Criptografía Web]]
-- [[wiki/entities/transformer-architecture|Transformer Architecture]]
 - [[wiki/entities/trebep-empleado-publico|TREBEP: Estatuto Básico del Empleado Público (RD Legislativo 5/2015)]]
 - [[wiki/entities/uml-diagrams-and-modeling|Diagramas UML 2.x y Lenguaje de Modelado]]
 - [[wiki/entities/virtual-memory-paging-and-segmentation|Memoria Virtual, Paginación, Segmentación y Algoritmos de Reemplazo]]
@@ -141,7 +138,7 @@
 - [[wiki/entities/wi-fi-and-mobile-standards|Estándares Wi-Fi (IEEE 802.11) y Tecnologías Móviles (5G NR)]]
 - [[wiki/entities/windows-server|Windows Server: Arquitectura, Roles, Servicios y Administración de Dominios]]
 
-### 🟣 Conceptos Teóricos y Arquitecturas (41 Fichas)
+### 🟣 Conceptos Teóricos y Arquitecturas (39 Fichas)
 - [[wiki/concepts/cache-memory-and-coherence|Memoria Caché, Principios de Localidad y Coherencia]]
 - [[wiki/concepts/cap-theorem-and-base-model|Teorema CAP de Brewer y Modelo BASE]]
 - [[wiki/concepts/ci-cd-pipelines-and-devops|Pipelines CI/CD, DevOps y Calidad de Código]]
@@ -170,11 +167,9 @@
 - [[wiki/concepts/operating-system-architecture|Arquitectura de Sistemas Operativos y Software de Base]]
 - [[wiki/concepts/osi-and-tcp-ip-models|Modelos Arquitectónicos ISO-OSI y TCP-IP]]
 - [[wiki/concepts/page-replacement-algorithms-and-thrashing|Algoritmos de Reemplazo de Páginas e Hiperpaginación (Thrashing)]]
-- [[wiki/concepts/persistent-llm-wiki|Persistent LLM Wiki Pattern]]
 - [[wiki/concepts/process-and-memory-management|Gestión de Procesos y Memoria en Sistemas Operativos]]
 - [[wiki/concepts/recursos-administrativos-y-plazos|Recursos Administrativos en Vía Administrativa y Régimen de Plazos]]
 - [[wiki/concepts/responsabilidad-patrimonial-administracion|Responsabilidad Patrimonial de las Administraciones Públicas]]
-- [[wiki/concepts/retrieval-augmented-generation|Retrieval-Augmented Generation]]
 - [[wiki/concepts/routing-and-switching-mechanisms|Mecanismos de Conmutación (Switching) y Enrutamiento LAN]]
 - [[wiki/concepts/situaciones-administrativas-funcionarios|Situaciones Administrativas de los Funcionarios de Carrera]]
 - [[wiki/concepts/software-lifecycle-models|Modelos del Ciclo de Vida del Software]]
@@ -186,7 +181,7 @@
 
 ---
 
-### 🔵 3. Conocimientos Concretos, Guías de Síntesis y Tablas de Examen (50 Guías)
+### 🔵 3. Conocimientos Concretos, Guías de Síntesis y Tablas de Examen (49 Guías)
 
 - [[wiki/synthesis/active-directory-and-ldap-guide|Guía Comparativa y Práctica de Active Directory y LDAP]]
 - [[wiki/synthesis/actos-nulos-vs-anulables-guia|Guía de Invalidez: Actos Nulos de Pleno Derecho vs Actos Anulables]]
@@ -215,7 +210,6 @@
 - [[wiki/synthesis/ipv4-vs-ipv6-comparison|Comparativa de Direccionamiento y Protocolo: IPv4 vs IPv6]]
 - [[wiki/synthesis/java-ee-vs-dotnet-comparison-guide|Guía Comparativa: Plataforma Java EE / Jakarta EE vs Plataforma .NET]]
 - [[wiki/synthesis/kubernetes-and-docker-complete-guide|Guía Completa de Contenedores y Kubernetes para Oposiciones TAI]]
-- [[wiki/synthesis/llm-wiki-vs-rag-comparison|Comparison: LLM Wiki vs Retrieval-Augmented Generation (RAG)]]
 - [[wiki/synthesis/metrica-v3-processes-and-artifacts-guide|Guía de Procesos, Actividades y Artefactos de MÉTRICA Versión 3]]
 - [[wiki/synthesis/network-cabling-and-fiber-optics-guide|Guía de Cableado Estructurado, Par Trenzado y Fibra Óptica]]
 - [[wiki/synthesis/network-ports-and-protocols-cheatsheet|Cheatsheet de Puertos y Protocolos de Red para Oposiciones TAI]]

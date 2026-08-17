@@ -35,14 +35,14 @@ We standardize on Obsidian-compatible Markdown links:
 
 ### A. Direct Page Links
 ```markdown
-[[wiki/concepts/persistent-llm-wiki|Persistent LLM Wiki]]
+[[wiki/concepts/derechos-fundamentales-y-libertades-publicas|Derechos Fundamentales]]
 ```
 - **Syntax**: `[[Target File Path | Display Alias]]`
 - Enables click-through navigation and displays clean alias text.
 
 ### B. In-Text Concept Anchoring
 When introducing core ideas in notes, link directly inside natural paragraphs:
-> *"Unlike traditional [[wiki/concepts/retrieval-augmented-generation|Retrieval-Augmented Generation (RAG)]], a compiled knowledge base persists synthesis over time."*
+> *"Unlike ordinary administrative procedures, [[wiki/concepts/derechos-fundamentales-y-libertades-publicas|Derechos Fundamentales]] enjoy preferential and summary judicial protection under the Constitution."*
 
 ### C. Standard "See Also" / "References" Section
 Every note ends with an explicit references block connecting:
@@ -80,16 +80,16 @@ Every note ends with an explicit references block connecting:
 ### Critical Rules:
 1. **No Orphan Notes**: Every note in `wiki/` must have at least one inbound link from another wiki page, synthesis, or master index.
 2. **Dense Bidirectionality**: If Entity A relies on Concept B, Concept B should mention Entity A in its examples or references.
-3. **Hub Nodes**: Syntheses (e.g. [[wiki/synthesis/llm-wiki-vs-rag-comparison|LLM Wiki vs RAG Comparison]]) act as graph hubs connecting related concept and entity clusters.
+3. **Hub Nodes**: Syntheses (e.g. [[wiki/synthesis/bloque1-tai-oposiciones-master-guide|Guía Maestra Bloque 1]]) act as graph hubs connecting related concept and entity clusters.
 
 ---
 
 ## 4. Live Graph Verification
 
 Verify cross-references present in our active wiki:
-- [[wiki/entities/transformer-architecture|Transformer Architecture]] $\longleftrightarrow$ [[wiki/entities/attention-mechanism|Attention Mechanism]]
-- [[wiki/concepts/persistent-llm-wiki|Persistent LLM Wiki]] $\longleftrightarrow$ [[wiki/concepts/retrieval-augmented-generation|Retrieval-Augmented Generation]]
-- [[wiki/synthesis/llm-wiki-vs-rag-comparison|LLM Wiki vs RAG Comparison]] (Hub note)
+- [[wiki/entities/constitucion-espanola-1978|Constitución Española de 1978]] $\longleftrightarrow$ [[wiki/entities/cortes-generales|Cortes Generales]]
+- [[wiki/concepts/derechos-fundamentales-y-libertades-publicas|Derechos Fundamentales]] $\longleftrightarrow$ [[wiki/concepts/eficacia-validez-y-nulidad-actos-administrativos|Actos Administrativos]]
+- [[wiki/synthesis/bloque1-tai-oposiciones-master-guide|Guía Maestra Bloque 1]] (Hub note)
 
 Run the automated graph and link health check:
 ```bash

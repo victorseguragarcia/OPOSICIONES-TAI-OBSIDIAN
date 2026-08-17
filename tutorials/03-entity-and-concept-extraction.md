@@ -27,14 +27,14 @@ Understanding the distinction is key to maintaining a clean taxonomy:
 
 | Category | Folder | Nature | Examples |
 | :--- | :--- | :--- | :--- |
-| **Entities** | `wiki/entities/` | Concrete tools, specific architectures, protocols, libraries, organizations, hardware. | [[wiki/entities/transformer-architecture\|Transformer Architecture]], [[wiki/entities/attention-mechanism\|Attention Mechanism]] |
-| **Concepts** | `wiki/concepts/` | Abstract patterns, theoretical paradigms, mental models, methodologies. | [[wiki/concepts/persistent-llm-wiki\|Persistent LLM Wiki]], [[wiki/concepts/retrieval-augmented-generation\|Retrieval-Augmented Generation (RAG)]] |
+| **Entities** | `wiki/entities/` | Concrete tools, specific architectures, protocols, libraries, organizations, hardware. | [[wiki/entities/constitucion-espanola-1978|Constitución Española de 1978]], [[wiki/entities/cortes-generales|Cortes Generales]] |
+| **Concepts** | `wiki/concepts/` | Abstract patterns, theoretical paradigms, mental models, methodologies. | [[wiki/concepts/derechos-fundamentales-y-libertades-publicas|Derechos Fundamentales]], [[wiki/concepts/eficacia-validez-y-nulidad-actos-administrativos|Actos Administrativos]] |
 
 ---
 
 ## 2. Extraction Pipeline
 
-When a raw source like `raw/transformers-and-llms-overview.md` is processed:
+When a raw source like `raw/sources/bloque1-tema01.md` is processed:
 
 1. **Scan for Core Nouns & Terminology**: Identify architectural components and conceptual themes.
 2. **Check Existing Knowledge Base**: Search `wiki/` using `scripts/query.py` or consult `index.md` to see if a note already exists.
@@ -46,18 +46,18 @@ When a raw source like `raw/transformers-and-llms-overview.md` is processed:
 
 ## 3. Practical Example
 
-From our source summary [[wiki/sources/transformers-and-llms-overview|Summary: Transformers & LLMs]], the following notes were extracted and populated:
-- **Entity**: [[wiki/entities/transformer-architecture|Transformer Architecture]]
-- **Entity**: [[wiki/entities/attention-mechanism|Attention Mechanism]]
-- **Concept**: [[wiki/concepts/persistent-llm-wiki|Persistent LLM Wiki Pattern]]
-- **Concept**: [[wiki/concepts/retrieval-augmented-generation|Retrieval-Augmented Generation]]
+From our source summary [[wiki/sources/bloque1-tema01|Resumen Bloque 1 - Tema 01]], the following notes were extracted and populated:
+- **Entity**: [[wiki/entities/constitucion-espanola-1978|Constitución Española de 1978]]
+- **Entity**: [[wiki/entities/cortes-generales|Cortes Generales]]
+- **Concept**: [[wiki/concepts/derechos-fundamentales-y-libertades-publicas|Derechos Fundamentales, Garantías y Recurso de Amparo]]
+- **Concept**: [[wiki/concepts/eficacia-validez-y-nulidad-actos-administrativos|Eficacia, Validez y Nulidad de los Actos Administrativos]]
 
 ---
 
 ## 4. Verification
 Run the query tool to verify that all extracted entities and concepts are searchable:
 ```bash
-python scripts/query.py "attention transformer"
+python scripts/query.py "Constitucion Derechos"
 ```
 
 ## Next Step

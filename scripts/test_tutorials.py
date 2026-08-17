@@ -42,8 +42,8 @@ def test_tutorials():
 
     # 2. Test query functionality
     print("\n[*] Testing query execution...")
-    res_query = subprocess.run([sys.executable, str(ROOT_DIR / "scripts" / "query.py"), "transformer"], capture_output=True, text=True, encoding="utf-8")
-    if res_query.returncode != 0 or "Transformer Architecture" not in res_query.stdout:
+    res_query = subprocess.run([sys.executable, str(ROOT_DIR / "scripts" / "query.py"), "Constitucion"], capture_output=True, text=True, encoding="utf-8")
+    if res_query.returncode != 0 or "Constitución Española" not in res_query.stdout:
         print(f"[X] Query test failed:\n{res_query.stderr}")
         return 1
     print("[OK] Query tool verified.")

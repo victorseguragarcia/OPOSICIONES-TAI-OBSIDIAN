@@ -15,18 +15,18 @@ scripts/create_*.py
 scripts/enhance_*.py
 scripts/verify_*.py
 
-# Initial setup demo notes (non-TAI)
-wiki/sources/transformers-and-llms-overview.md
-wiki/entities/attention-mechanism.md
-wiki/entities/transformer-architecture.md
-wiki/synthesis/llm-wiki-vs-rag-comparison.md
-
 # Obsidian internal workspace, cache and untitled temp files
 .obsidian/workspace*
 .obsidian/cache/
 .obsidian/local/
 Sin título*.canvas
 *.canvas.tmp
+
+# Editor configurations and caches
+.vscode/
+.idea/
+.agents/
+.claude/
 
 # Python caches and temporary files
 __pycache__/
