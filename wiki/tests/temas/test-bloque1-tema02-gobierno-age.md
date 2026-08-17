@@ -55,7 +55,7 @@ Cuestionario de 10 preguntas tipo test con formato oficial de examen de la AGE (
 - [ ] c) Mayoría de 3/5 de la Cámara.
 - [ ] d) Mayoría de 2/3 de los diputados presentes.
 
-### 5. Si transcurridos 2 meses desde la primera votación de investidura ningún candidato obtiene la confianza, ¿quién refrenda el Real Decreto del Rey de disolución de Cortes?
+### 5. Si transcurridos 2 meses desde la primera votación de investidura ningún candidato obtiene la confianza, ¿Quién refrenda el Real Decreto del Rey de disolución de Cortes?
 - [ ] a) El Presidente del Gobierno en funciones.
 - [ ] b) El Presidente del Congreso de los Diputados.
 - [ ] c) El Presidente del Senado.
