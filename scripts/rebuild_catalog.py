@@ -1,6 +1,10 @@
 # -*- coding: utf-8 -*-
 """
-Script para reconstruir dinámicamente index.md y log.md tras la expansión masiva de la wiki.
+Script para reconstruir dinámicamente index.md y log.md aplicando la jerarquía
+de colores de estudio:
+- 🔴 Temas Principales (Nivel 1 / H1 / Bloques)
+- 🟣 Subtemas (Nivel 2 / H2 / Entidades & Conceptos)
+- 🔵 Conocimientos Concretos (Nivel 3+ / H3 / Síntesis & Tablas)
 """
 import os
 import re
@@ -28,7 +32,14 @@ def parse_frontmatter(file_path):
 
 def rebuild():
     wiki_dir = os.path.join(BASE_DIR, "wiki")
-    sources = []
+    
+    # Categorías agrupadas
+    sources_b1 = []
+    sources_b2 = []
+    sources_b3 = []
+    sources_b4 = []
+    sources_other = []
+    
     entities = []
     concepts = []
     syntheses = []
@@ -45,8 +56,18 @@ def rebuild():
             slug = rel.replace(".md", "")
             
             item = f"- [[{slug}|{title}]]"
+            
             if ntype == "source":
-                sources.append(item)
+                if "bloque1" in f:
+                    sources_b1.append(item)
+                elif "bloque2" in f:
+                    sources_b2.append(item)
+                elif "bloque3" in f:
+                    sources_b3.append(item)
+                elif "bloque4" in f:
+                    sources_b4.append(item)
+                else:
+                    sources_other.append(item)
             elif ntype == "entity":
                 entities.append(item)
             elif ntype == "concept":
@@ -54,42 +75,55 @@ def rebuild():
             elif ntype == "synthesis":
                 syntheses.append(item)
 
-    index_content = f"""# Master Wiki Index
+    all_sources_count = len(sources_b1) + len(sources_b2) + len(sources_b3) + len(sources_b4) + len(sources_other)
 
-Bienvenido al catálogo maestro del **LLM Wiki** de Informática y Comunicaciones para Oposiciones TAI.
-Este repositorio compila de forma exhaustiva, estructurada y bidireccionalmente enlazada todos los temas del **Bloque 4 (Sistemas y Comunicaciones)**.
+    index_content = f"""# 🏛️ Catálogo Maestro del Temario Oficial TAI (AGE)
+
+> [!important]
+> **Esquema de Estudio Visual y Jerarquía de Colores**
+> - 🔴 **Temas Principales (Nivel 1 / H1 / Bloques)**: Rojo (`#E53935`)
+> - 🟣 **Subtemas (Nivel 2 / H2 / Entidades & Conceptos)**: Morado (`#8E24AA`)
+> - 🔵 **Conocimientos Concretos (Nivel 3+ / H3 / Síntesis & Tablas)**: Azul (`#1E88E5`)
+>
+> 🗺️ **Lienzo Gráfico Interactivo**: [[temario-tai-visual-map.canvas|Abrir Mapa Visual en Obsidian Canvas]]
 
 ---
 
-## 📑 1. Fuentes Resumidas (`wiki/sources/`)
-Resúmenes ejecutivos, desglose temático detallado y tablas de datos clave extraídas directamente de los documentos PDF oficiales:
+# 🔴 1. Temas Principales del Temario Oficial ({all_sources_count} Fuentes)
 
-{chr(10).join(sources)}
+## 🔴 Bloque 1: Administración Pública y Normativa (10 Temas)
+{chr(10).join(sources_b1)}
+
+## 🔴 Bloque 2: Tecnología Básica (5 Temas)
+{chr(10).join(sources_b2)}
+
+## 🔴 Bloque 3: Desarrollo de Sistemas (9 Temas)
+{chr(10).join(sources_b3)}
+
+## 🔴 Bloque 4: Sistemas y Comunicaciones (10 Temas)
+{chr(10).join(sources_b4)}
+
+{"## 🔴 Otras Fuentes" + chr(10) + chr(10).join(sources_other) if sources_other else ""}
 
 ---
 
-## ⚙️ 2. Entidades (`wiki/entities/`)
-Fichas técnicas de sistemas operativos, protocolos, arquitecturas de hardware, estándares IEEE/RFC, comandos y herramientas:
+## 🟣 2. Subtemas: Entidades y Conceptos Teóricos ({len(entities) + len(concepts)} Fichas)
 
+### 🟣 Entidades Técnicas y Normativas ({len(entities)} Fichas)
 {chr(10).join(entities)}
 
----
-
-## 🧠 3. Conceptos Teóricos (`wiki/concepts/`)
-Explicaciones en profundidad sobre arquitecturas de sistemas, algoritmos, modelos de capas, criptografía, topologías y gobernanza TI:
-
+### 🟣 Conceptos Teóricos y Arquitecturas ({len(concepts)} Fichas)
 {chr(10).join(concepts)}
 
 ---
 
-## 📚 4. Síntesis y Guías de Estudio (`wiki/synthesis/`)
-Matrices comparativas, resúmenes monográficos de alto nivel y tablas maestras para memorización de examen:
+### 🔵 3. Conocimientos Concretos, Guías de Síntesis y Tablas de Examen ({len(syntheses)} Guías)
 
 {chr(10).join(syntheses)}
 
 ---
 
-## 🛠️ Herramientas y Scripts de Automatización
+## 🛠️ Herramientas y Scripts del Repositorio
 - `scripts/query.py`: Motor de búsqueda y consulta en consola sobre la base de conocimiento.
 - `scripts/lint.py`: Linter de integridad de grafo, enlaces rotos y formato frontmatter.
 - `scripts/test_tutorials.py`: Suite de validación automatizada de los tutoriales del wiki.
@@ -98,25 +132,7 @@ Matrices comparativas, resúmenes monográficos de alto nivel y tablas maestras 
     index_path = os.path.join(BASE_DIR, "index.md")
     with open(index_path, "w", encoding="utf-8", newline="\n") as f:
         f.write(index_content.strip() + "\n")
-    print(f"[OK] index.md reconstruido con {len(sources)} fuentes, {len(entities)} entidades, {len(concepts)} conceptos y {len(syntheses)} síntesis.")
-
-    # Actualizar log.md
-    log_path = os.path.join(BASE_DIR, "log.md")
-    today = datetime.now().strftime("%Y-%m-%d")
-    log_entry = f"""
-
-## [{today}] expansion | Ampliación Exhaustiva de Contenidos del Bloque 4
-- Ampliación masiva de contenido técnico a partir de las ~37.000 líneas de los 10 PDFs del Bloque 4.
-- Generadas notas de alta densidad técnica (100-250 líneas por fichero) con puertos, RFCs, comandos, tablas de examen y algoritmos.
-- 10 Fuentes ampliadas en `wiki/sources/` (Temas 01 al 10).
-- 25 Entidades ampliadas y creadas en `wiki/entities/` (incluyendo `active-directory`, `ldap-protocol`, `raid-storage`, `http-protocol`).
-- 15 Conceptos ampliados y creados en `wiki/concepts/` (incluyendo `cryptography-and-digital-signatures`, `directory-services-and-identity`, `incident-management-and-itil`).
-- 10 Síntesis monográficas en `wiki/synthesis/` (incluyendo `network-ports-and-protocols-cheatsheet`, `cryptography-algorithms-comparison`, `active-directory-and-ldap-guide`, `cpd-tier-levels-and-disaster-recovery`, `email-protocols-smtp-pop-imap-guide`, `security-frameworks-ens-magerit-ccn`).
-- Catálogo maestro `index.md` reconstruido y sincronizado.
-"""
-    with open(log_path, "a", encoding="utf-8", newline="\n") as f:
-        f.write(log_entry)
-    print("[OK] log.md actualizado.")
+    print(f"[OK] index.md reconstruido con {all_sources_count} fuentes, {len(entities)} entidades, {len(concepts)} conceptos y {len(syntheses)} síntesis con jerarquía cromática.")
 
 if __name__ == "__main__":
     rebuild()

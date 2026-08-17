@@ -1,13 +1,18 @@
-# Master Wiki Index
+# 🏛️ Catálogo Maestro del Temario Oficial TAI (AGE)
 
-Bienvenido al catálogo maestro del **LLM Wiki** de Informática y Comunicaciones para Oposiciones TAI.
-Este repositorio compila de forma exhaustiva, estructurada y bidireccionalmente enlazada todos los temas del **Bloque 4 (Sistemas y Comunicaciones)**.
+> [!important]
+> **Esquema de Estudio Visual y Jerarquía de Colores**
+> - 🔴 **Temas Principales (Nivel 1 / H1 / Bloques)**: Rojo (`#E53935`)
+> - 🟣 **Subtemas (Nivel 2 / H2 / Entidades & Conceptos)**: Morado (`#8E24AA`)
+> - 🔵 **Conocimientos Concretos (Nivel 3+ / H3 / Síntesis & Tablas)**: Azul (`#1E88E5`)
+>
+> 🗺️ **Lienzo Gráfico Interactivo**: [[temario-tai-visual-map.canvas|Abrir Mapa Visual en Obsidian Canvas]]
 
 ---
 
-## 📑 1. Fuentes Resumidas (`wiki/sources/`)
-Resúmenes ejecutivos, desglose temático detallado y tablas de datos clave extraídas directamente de los documentos PDF oficiales:
+# 🔴 1. Temas Principales del Temario Oficial (35 Fuentes)
 
+## 🔴 Bloque 1: Administración Pública y Normativa (10 Temas)
 - [[wiki/sources/bloque1-tema01|Resumen Fuente: Bloque 1 - Tema 01: La Constitución Española de 1978]]
 - [[wiki/sources/bloque1-tema02|Resumen Fuente: Bloque 1 - Tema 02: El Gobierno y la Administración General del Estado]]
 - [[wiki/sources/bloque1-tema03|Resumen Fuente: Bloque 1 - Tema 03: Organización Territorial del Estado y Entidades Locales]]
@@ -18,11 +23,15 @@ Resúmenes ejecutivos, desglose temático detallado y tablas de datos clave extr
 - [[wiki/sources/bloque1-tema08|Resumen Fuente: Bloque 1 - Tema 08: Régimen Jurídico del Sector Público (Ley 40/2015 LRJSP)]]
 - [[wiki/sources/bloque1-tema09|Resumen Fuente: Bloque 1 - Tema 09: Protección de Datos Personales (RGPD y LOPDGDD)]]
 - [[wiki/sources/bloque1-tema10|Resumen Fuente: Bloque 1 - Tema 10: Transparencia y Acceso a la Información Pública (Ley 19/2013)]]
+
+## 🔴 Bloque 2: Tecnología Básica (5 Temas)
 - [[wiki/sources/bloque2-tema01|Resumen Fuente: Bloque 2 - Tema 01: Arquitectura de Ordenadores, CPU, Memoria y Buses]]
 - [[wiki/sources/bloque2-tema02|Resumen Fuente: Bloque 2 - Tema 02: Periféricos, Conectividad e Interfaces (USB, PCIe, NVMe)]]
 - [[wiki/sources/bloque2-tema03|Resumen Fuente: Bloque 2 - Tema 03: Representación de la Información: C2, IEEE 754, ASCII y Unicode]]
 - [[wiki/sources/bloque2-tema04|Resumen Fuente: Bloque 2 - Tema 04: Estructuras de Datos, Algoritmos de Ordenación y Complejidad Big-O]]
 - [[wiki/sources/bloque2-tema05|Resumen Fuente: Bloque 2 - Tema 05: Ficheros, Organización y Sistemas de Archivos: FAT32, NTFS, ext4, XFS]]
+
+## 🔴 Bloque 3: Desarrollo de Sistemas (9 Temas)
 - [[wiki/sources/bloque3-tema01|Resumen Fuente: Bloque 3 - Tema 01 (UD012107): Modelado de Datos, Modelo E/R y Normalización]]
 - [[wiki/sources/bloque3-tema02|Resumen Fuente: Bloque 3 - Tema 02 (UD012109): Lenguajes de Programación, Paradigmas y Compiladores]]
 - [[wiki/sources/bloque3-tema03|Resumen Fuente: Bloque 3 - Tema 03 (UD012110): Lenguajes de Interrogación SQL, Stored Procedures y Triggers]]
@@ -32,6 +41,8 @@ Resúmenes ejecutivos, desglose temático detallado y tablas de datos clave extr
 - [[wiki/sources/bloque3-tema07|Resumen Fuente: Bloque 3 - Tema 07 (UD012114): Aplicaciones y Desarrollo Web: HTML5, DOM, CSS y JavaScript]]
 - [[wiki/sources/bloque3-tema08|Resumen Fuente: Bloque 3 - Tema 08 (UD012115): Accesibilidad Web, Usabilidad y Seguridad en Puesto de Usuario]]
 - [[wiki/sources/bloque3-tema09|Resumen Fuente: Bloque 3 - Tema 09 (UD012116): Repositorios, Metodologías, Pruebas y Git]]
+
+## 🔴 Bloque 4: Sistemas y Comunicaciones (10 Temas)
 - [[wiki/sources/bloque4-tema01|Resumen Fuente: Bloque 4 - Tema 01: Administración del Sistema Operativo y Software de Base]]
 - [[wiki/sources/bloque4-tema02|Resumen Fuente: Bloque 4 - Tema 02: Administración de Bases de Datos, Virtualización y Cloud]]
 - [[wiki/sources/bloque4-tema03|Resumen Fuente: Bloque 4 - Tema 03: Servidores de Correo, Contenedores y Microservicios]]
@@ -42,13 +53,15 @@ Resúmenes ejecutivos, desglose temático detallado y tablas de datos clave extr
 - [[wiki/sources/bloque4-tema08|Resumen Fuente: Bloque 4 - Tema 08: Arquitectura de Internet, Protocolos Web y Servicios]]
 - [[wiki/sources/bloque4-tema09|Resumen Fuente: Bloque 4 - Tema 09: Seguridad en Redes, Perímetros, Organismos y VPN]]
 - [[wiki/sources/bloque4-tema10|Resumen Fuente: Bloque 4 - Tema 10: Topologías LAN, Arquitectura IEEE 802 y Control de Acceso al Medio]]
+
+## 🔴 Otras Fuentes
 - [[wiki/sources/transformers-and-llms-overview|Summary: Transformer Architecture and LLM Knowledge Systems]]
 
 ---
 
-## ⚙️ 2. Entidades (`wiki/entities/`)
-Fichas técnicas de sistemas operativos, protocolos, arquitecturas de hardware, estándares IEEE/RFC, comandos y herramientas:
+## 🟣 2. Subtemas: Entidades y Conceptos Teóricos (101 Fichas)
 
+### 🟣 Entidades Técnicas y Normativas (64 Fichas)
 - [[wiki/entities/active-directory|Active Directory Domain Services (AD DS)]]
 - [[wiki/entities/aepd-agencia-proteccion-datos|Agencia Española de Protección de Datos (AEPD)]]
 - [[wiki/entities/attention-mechanism|Attention Mechanism]]
@@ -114,11 +127,7 @@ Fichas técnicas de sistemas operativos, protocolos, arquitecturas de hardware, 
 - [[wiki/entities/wi-fi-and-mobile-standards|Estándares Wi-Fi (IEEE 802.11) y Tecnologías Móviles (5G NR)]]
 - [[wiki/entities/windows-server|Windows Server: Arquitectura, Roles, Servicios y Administración de Dominios]]
 
----
-
-## 🧠 3. Conceptos Teóricos (`wiki/concepts/`)
-Explicaciones en profundidad sobre arquitecturas de sistemas, algoritmos, modelos de capas, criptografía, topologías y gobernanza TI:
-
+### 🟣 Conceptos Teóricos y Arquitecturas (37 Fichas)
 - [[wiki/concepts/cache-memory-and-coherence|Memoria Caché, Principios de Localidad y Coherencia]]
 - [[wiki/concepts/ci-cd-pipelines-and-devops|Pipelines CI/CD, DevOps y Calidad de Código]]
 - [[wiki/concepts/ciphers-modes-and-cryptanalysis|Modos de Operación en Cifrado en Bloque y Criptoanálisis]]
@@ -159,8 +168,7 @@ Explicaciones en profundidad sobre arquitecturas de sistemas, algoritmos, modelo
 
 ---
 
-## 📚 4. Síntesis y Guías de Estudio (`wiki/synthesis/`)
-Matrices comparativas, resúmenes monográficos de alto nivel y tablas maestras para memorización de examen:
+### 🔵 3. Conocimientos Concretos, Guías de Síntesis y Tablas de Examen (39 Guías)
 
 - [[wiki/synthesis/active-directory-and-ldap-guide|Guía Comparativa y Práctica de Active Directory y LDAP]]
 - [[wiki/synthesis/actos-nulos-vs-anulables-guia|Guía de Invalidez: Actos Nulos de Pleno Derecho vs Actos Anulables]]
@@ -204,7 +212,7 @@ Matrices comparativas, resúmenes monográficos de alto nivel y tablas maestras 
 
 ---
 
-## 🛠️ Herramientas y Scripts de Automatización
+## 🛠️ Herramientas y Scripts del Repositorio
 - `scripts/query.py`: Motor de búsqueda y consulta en consola sobre la base de conocimiento.
 - `scripts/lint.py`: Linter de integridad de grafo, enlaces rotos y formato frontmatter.
 - `scripts/test_tutorials.py`: Suite de validación automatizada de los tutoriales del wiki.
