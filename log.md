@@ -28,3 +28,8 @@ Append-only chronological timeline of wiki operations.
   - `json-canvas`: JSON Canvas (`.canvas`) diagramming and graph nodes.
   - `obsidian-cli`: CLI automation for vault interaction.
   - `defuddle`: Web content extraction and clutter removal.
+
+## [2026-08-17] tutorial | Tutorial 02: Schema and Agents
+- Documented YAML frontmatter standard and agent execution routines in `tutorials/02-schema-and-agents.md`.
+- Updated `index.md` catalog and test suites.
+- Passed full integrity lint check.

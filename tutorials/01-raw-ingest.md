@@ -23,4 +23,4 @@ This tutorial guides you through ingesting raw, immutable source materials into 
 4. Verify source summary exists: [[wiki/sources/transformers-and-llms-overview|Summary: Transformers & LLMs]].
 
 ## Next Step
-Proceed to [[tutorials/02-entity-concept-extraction|Tutorial 02: Entity & Concept Extraction]].
+Proceed to [[tutorials/02-schema-and-agents|Tutorial 02: Schema and Agents]].

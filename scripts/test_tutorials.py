@@ -26,6 +26,7 @@ def test_tutorials():
     # 1. Check tutorials 01 - 06 exist
     tutorials = [
         "01-raw-ingest.md",
+        "02-schema-and-agents.md",
         "02-entity-concept-extraction.md",
         "03-cross-referencing.md",
         "04-index-and-logging.md",
