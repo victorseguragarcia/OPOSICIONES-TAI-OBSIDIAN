@@ -240,13 +240,14 @@
 - [[wiki/synthesis/windows-server-administration-guide|Guía Maestra de Administración de Windows Server para Oposiciones TAI]]
 ---
 
-## 📝 4. Banco de Tests y Autoevaluaciones (2 Baterías)
+## 📝 4. Banco de Tests y Autoevaluaciones (3 Baterías)
 
 ### 📝 Tests y Simulacros por Bloques (1 Recursos)
 - [[wiki/tests/bloques/index-tests-bloques|Banco de Tests por Bloques del Temario TAI]]
 
-### 📝 Tests por Temas Individuales (1 Recursos)
+### 📝 Tests por Temas Individuales (2 Recursos)
 - [[wiki/tests/temas/index-tests-temas|Banco de Tests por Temas Individuales del Temario TAI]]
+- [[wiki/tests/temas/test-bloque1-tema01-constitucion|Test de Autoevaluación: Tema 1 - La Constitución Española de 1978]]
 
 ---
 
