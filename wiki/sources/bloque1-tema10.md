@@ -1,51 +1,76 @@
 ---
-title: "Resumen Fuente: Bloque 1 - Tema 10: Transparencia y Acceso a la Información Pública (Ley 19/2013)"
+title: "Resumen Fuente: Bloque 1 - Tema 10 (UD022580): Ley 19/2013 de Transparencia, Acceso a la Información Pública y Buen Gobierno"
 type: "source"
 tags:
   - source-summary
-  - oposiciones
-  - tai
   - bloque-1
-  - tema10
+  - tema-10
   - transparencia
   - buen-gobierno
-  - ley-19-2013
-  - consejo-transparencia
+  - acceso-informacion
+  - ctbg
 sources:
-  - "raw/sources/bloque1-tema10.md"
+  - "raw/bloque 1/623853 (1).pdf"
 created: "2026-08-17"
 updated: "2026-08-17"
 aliases:
-  - "Resumen Transparencia y Buen Gobierno"
-  - "bloque1-tema10"
+  - "Resumen Bloque 1 Tema 10"
+  - "Transparencia y Buen Gobierno (Ley 19/2013)"
 ---
 
-# Resumen Fuente: Bloque 1 - Tema 10: Transparencia y Acceso a la Información Pública (Ley 19/2013)
+# 🔴 Resumen Fuente: Bloque 1 - Tema 10: Ley 19/2013 de Transparencia, Acceso a la Información Pública y Buen Gobierno
 
-Resumen exhaustivo procesado desde la fuente oficial [[raw/sources/bloque1-tema10.md|bloque1-tema10.md]].
-
----
-
-## 📖 Resumen Ejecutivo
-
-Este tema analiza la **Ley 19/2013 de Transparencia, Acceso a la Información Pública y Buen Gobierno**: el doble pilar de la transparencia formado por la **Publicidad Activa** (obligación de publicar de oficio información institucional, jurídica y económico-presupuestaria en el Portal de la Transparencia) y el **Derecho de Acceso a la Información Pública** (solicitud universal sin necesidad de motivar, límites tasados, plazo de resolución de 1 mes con silencio negativo/desestimatorio), la reclamación potestativa ante el **Consejo de Transparencia y Buen Gobierno (CTBG)** y los principios de buen gobierno.
+Resumen exhaustivo de la Unidad Didáctica **UD022580** (Parte II) sobre la Ley 19/2013, de 9 de diciembre, los 3 ejes de transparencia (Publicidad Activa, Derecho de Acceso y Buen Gobierno) y el Consejo de Transparencia y Buen Gobierno (**CTBG**).
 
 ---
 
-## 🎯 Datos Clave para Oposiciones TAI
+## 🗺️ 1. Los Tres Pilares de la Ley 19/2013
 
-| Parámetro Ley 19/2013 | Especificación |
-|-----------------------|----------------|
-| Norma de Transparencia | **Ley 19/2013**, de 9 de diciembre |
-| Motivación de Solicitud de Acceso | **No requerida** (el solicitante no necesita justificar su interés) |
-| Plazo de Resolución de Acceso | **1 mes** (prorrogable otro mes en casos complejos) |
-| Silencio Administrativo en Acceso | **DESESTIMATORIO** (Silencio negativo) |
-| Plazo Reclamación ante el Consejo de Transparencia | **1 mes** desde la notificación o silencio |
-| Plazo Resolución Reclamación Consejo | **3 meses** (Silencio desestimatorio) |
-| Mandato Presidente Consejo Transparencia | **5 años no renovable** |
+```
+                             LEY 19/2013 DE TRANSPARENCIA
+                                          │
+       ┌──────────────────────────────────┼──────────────────────────────────┐
+       ▼                                  ▼                                  ▼
+1. PUBLICIDAD ACTIVA             2. DERECHO DE ACCESO               3. BUEN GOBIERNO
+(Portal de Transparencia)        (Solicitud del Ciudadano)          (Altos Cargos)
+ • Información Institucional      • Toda información en poder       • Principios éticos
+ • Información Jurídica             de la Administración             • Principios de conducta
+ • Información Económica          • Plazo de resolución: 1 mes       • Régimen sancionador
+   y Presupuestaria                 (prorrogable 1 mes más)            (inhabilitación 5-10 a.)
+```
 
 ---
 
-## 🔗 Enlaces del Grafo de Conocimiento
-- Entidad: [[wiki/entities/ley-19-2013-transparencia|Ley 19/2013 de Transparencia y Buen Gobierno]]
-- Síntesis: [[wiki/synthesis/bloque1-tai-oposiciones-master-guide|Guía Maestra de Bloque 1 (TAI)]]
+## 🟣 2. El Derecho de Acceso a la Información Pública (Arts. 12 a 22)
+
+### A. Titularidad y Requisitos
+- Todas las personas tienen derecho a acceder a la información pública, en los términos previstos en el art. 105.b) de la Constitución.
+- **NO requiere motivar la solicitud** (la ausencia de motivación no será motivo de rechazo).
+
+### B. Límites al Derecho de Acceso (Art. 14)
+El derecho de acceso podrá ser limitado cuando suponga un perjuicio para:
+- La seguridad nacional, la defensa o las relaciones exteriores.
+- La seguridad pública o la prevención/investigación de delitos.
+- El secreto profesional y la propiedad intelectual o industrial.
+- La garantía de confidencialidad en procesos de toma de decisión.
+- La protección del medio ambiente.
+
+### C. Procedimiento de Acceso (Arts. 17 a 20)
+- **Plazo de Resolución y Notificación**: **1 mes** desde la recepción de la solicitud por el órgano competente para resolver.
+- **Prórroga**: Ampliable por **otro mes más** en caso de que el volumen o complejidad de la información lo justifique.
+- **Sentido del Silencio**: Si no se resuelve en plazo, el silencio es **DESESTIMATORIO** (*Silencio Negativo*).
+
+---
+
+## 🟣 3. Reclamaciones ante el Consejo de Transparencia (CTBG - Art. 24)
+- Contra toda resolución expresa o presunta en materia de derecho de acceso podrá interponerse una **Reclamación potestativa y gratuita** ante el **Consejo de Transparencia y Buen Gobierno (CTBG)**.
+- Esta reclamación sustituye a los recursos administrativos ordinarios (Alzada / Reposición).
+- **Plazo de Interposición**: **1 mes** a contar desde la notificación del acto o desde el día siguiente a aquel en que se produzcan los efectos del silencio.
+- **Plazo de Resolución del CTBG**: **3 meses** (el silencio de la reclamación es desestimatorio).
+
+---
+
+## 🔵 4. Entidades y Conceptos Asociados
+- [[wiki/entities/ley-19-2013-transparencia|Ley 19/2013 de Transparencia y CTBG]]
+- [[wiki/synthesis/bloque1-tai-oposiciones-master-guide|Guía Maestra Bloque 1]]
+- [[wiki/tests/temas/test-bloque1-tema10-transparencia|Test Tema 10: Transparencia y Buen Gobierno]]

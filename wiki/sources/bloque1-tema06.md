@@ -1,49 +1,59 @@
 ---
-title: "Resumen Fuente: Bloque 1 - Tema 06: Políticas de Igualdad y Violencia de Género"
+title: "Resumen Fuente: Bloque 1 - Tema 06 (UD011320): Políticas de Igualdad de Género (LO 3/2007) y Violencia de Género (LO 1/2004)"
 type: "source"
 tags:
   - source-summary
-  - oposiciones
-  - tai
   - bloque-1
-  - tema06
+  - tema-06
   - igualdad
   - violencia-genero
-  - lo-3-2007
-  - lo-1-2004
+  - discapacidad
+  - lgtbi
 sources:
-  - "raw/sources/bloque1-tema06.md"
+  - "raw/bloque 1/617340 (1).pdf"
 created: "2026-08-17"
 updated: "2026-08-17"
 aliases:
-  - "Resumen Políticas de Igualdad y Violencia de Género"
-  - "bloque1-tema06"
+  - "Resumen Bloque 1 Tema 06"
+  - "Políticas de Igualdad y Violencia de Género"
 ---
 
-# Resumen Fuente: Bloque 1 - Tema 06: Políticas de Igualdad y Violencia de Género
+# 🔴 Resumen Fuente: Bloque 1 - Tema 06: Políticas de Igualdad de Género y Contra la Violencia de Género
 
-Resumen exhaustivo procesado desde la fuente oficial [[raw/sources/bloque1-tema06.md|bloque1-tema06.md]].
-
----
-
-## 📖 Resumen Ejecutivo
-
-Este tema analiza las políticas públicas de igualdad de género y lucha contra la violencia sobre la mujer: la **Ley Orgánica 3/2007 para la igualdad efectiva de mujeres y hombres** (conceptos de discriminación directa e indirecta, acoso sexual y por razón de sexo, acciones positivas, transversalidad *mainstreaming*, presencia equilibrada 40/60% y obligatoriedad de planes de igualdad en empresas de 50 o más trabajadores); y la **Ley Orgánica 1/2004 de Medidas de Protección Integral contra la Violencia de Género** (definición, derechos laborales y asistenciales de las víctimas, y Juzgados de Violencia sobre la Mujer).
+Resumen exhaustivo de la Unidad Didáctica **UD011320** sobre la Ley Orgánica 3/2007 para la igualdad efectiva de mujeres y hombres, la Ley Orgánica 1/2004 de Medidas de Protección Integral contra la Violencia de Género, políticas LGTBI (Ley 4/2023) y Discapacidad (RDL 1/2013).
 
 ---
 
-## 🎯 Datos Clave para Oposiciones TAI
+## 🗺️ 1. Ley Orgánica 3/2007: Igualdad Efectiva de Mujeres y Hombres
 
-| Concepto / Norma | Especificación |
-|------------------|----------------|
-| Ley Orgánica de Igualdad | **Ley Orgánica 3/2007**, de 22 de marzo |
-| Ley de Violencia de Género | **Ley Orgánica 1/2004**, de 28 de diciembre |
-| Obligación Planes de Igualdad | Empresas de **50 o más personas trabajadoras** |
-| Presencia Equilibrada | Ningún sexo con porcentaje inferior al **40%** ni superior al **60%** |
-| Ámbito Violencia de Género | Ejercida por quienes sean o hayan sido **cónyuges o relaciones de afectividad similares, aun sin convivencia** |
+### A. Principios Generales
+- **Discriminación Directa (Art. 6.1)**: Situación en que se encuentra una persona que sea, haya sido o pudiera ser tratada de manera menos favorable que otra en situación comparable por razón de sexo.
+- **Discriminación Indirecta (Art. 6.2)**: Situación en que una disposición, criterio o práctica aparentemente neutros pone a personas de un sexo en desventaja particular con respecto a personas del otro sexo, salvo que responda a una finalidad legítima y los medios sean proporcionados y necesarios.
+- **Acoso Sexual y Acoso por Razón de Sexo (Art. 7)**: Se consideran discriminatorios en todo caso. El condicionamiento de un derecho o expectativa a la aceptación de una situación de acoso se considerará también acto de discriminación.
+- **Acción Positiva (Art. 11)**: Medidas específicas a favor de las mujeres para corregir situaciones patentes de desigualdad de hecho respecto de los hombres.
+
+### B. Planes de Igualdad en las Empresas (Art. 45 y RDL 6/2019)
+- **Obligatoriedad**: Empresas con **50 o más trabajadores**.
+- **Registro Obligatorio**: En el Registro de Convenios y Acuerdos Colectivos de Trabajo (**REGCON**).
+- **Diagnóstico Previo**: Auditoría retributiva, clasificación profesional, condiciones de trabajo, conciliación y prevención del acoso.
+
+### C. El Principio de Presencia Equilibrada (Disposición Adicional 1ª)
+- Presencia equilibrada de mujeres y hombres en órganos colegiados, comités de selección y directivas de modo que las personas de cada sexo **no superen el 60% ni sean menos del 40%**.
 
 ---
 
-## 🔗 Enlaces del Grafo de Conocimiento
-- Entidad: [[wiki/entities/ley-igualdad-y-violencia-genero|Leyes de Igualdad (LO 3/2007) y Violencia de Género (LO 1/2004)]]
-- Síntesis: [[wiki/synthesis/bloque1-tai-oposiciones-master-guide|Guía Maestra de Bloque 1 (TAI)]]
+## 🟣 2. Ley Orgánica 1/2004: Protección Integral contra la Violencia de Género
+
+### A. Concepto y Ámbito
+Violencia ejercida sobre las mujeres por parte de quienes sean o hayan sido sus **cónyuges o de quienes estén o hayan estado ligados a ellas por relaciones similares de afectividad, aun sin convivencia**.
+
+### B. Derechos de las Funcionarias Víctimas de Violencia de Género
+1. **Reducción o Reordenación de Jornada**: Con disminución proporcional de retribuciones o flexibilización de horarios.
+2. **Movilidad Geográfica y Traslado**: Derecho preferente al traslado a otro puesto de trabajo en distinta localidad de análogas características sin necesidad de vacante pública.
+3. **Excedencia por Violencia de Género**: Sin requisito de tiempo previo de servicios. Los **6 primeros meses** con reserva de plaza y derecho al cobro de retribuciones íntegras (prorrogable por períodos de 3 meses hasta un máximo de **18 meses**).
+
+---
+
+## 🔵 3. Entidades y Conceptos Asociados
+- [[wiki/entities/ley-igualdad-y-violencia-genero|Leyes de Igualdad y Violencia de Género (LO 3/2007 y LO 1/2004)]]
+- [[wiki/tests/temas/test-bloque1-tema06-igualdad|Test Tema 06: Políticas de Igualdad y Violencia de Género]]

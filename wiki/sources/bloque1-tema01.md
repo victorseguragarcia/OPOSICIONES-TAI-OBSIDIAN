@@ -1,112 +1,110 @@
 ---
-title: "Resumen Fuente: Bloque 1 - Tema 01: La Constitución Española de 1978"
+title: "Resumen Fuente: Bloque 1 - Tema 01 (UD012183): La Constitución Española de 1978, Derechos y Deberes Fundamentales y La Corona"
 type: "source"
 tags:
   - source-summary
-  - oposiciones
-  - tai
   - bloque-1
-  - tema01
+  - tema-01
   - constitucion
-  - derechos-fundamentales
   - corona
-  - cortes-generales
-  - tribunal-constitucional
+  - derechos-fundamentales
 sources:
-  - "raw/sources/bloque1-tema01.md"
+  - "raw/bloque 1/623835 (1).pdf"
 created: "2026-08-17"
 updated: "2026-08-17"
 aliases:
-  - "Resumen La Constitución Española de 1978"
-  - "bloque1-tema01"
+  - "Resumen Bloque 1 Tema 01"
+  - "La Constitución Española de 1978 y la Corona"
 ---
 
-# Resumen Fuente: Bloque 1 - Tema 01: La Constitución Española de 1978
+# 🔴 Resumen Fuente: Bloque 1 - Tema 01: La Constitución Española de 1978, Derechos y Deberes y la Corona
 
-Resumen exhaustivo procesado desde la fuente oficial [[raw/sources/bloque1-tema01.md|bloque1-tema01.md]].
-
----
-
-## 📖 Resumen Ejecutivo
-
-Este tema abarca la norma suprema del ordenamiento jurídico español: la **Constitución Española de 1978**. Se analiza su estructura sistemática (169 artículos, Título Preliminar y 10 Títulos), los valores superiores y principios del Estado social y democrático de Derecho, la declaración y catálogo de derechos y deberes fundamentales (Título I) con su triple nivel de protección constitucional y el Defensor del Pueblo, la institución de la Corona y el refrendo de los actos regios (Título II), la composición bicameral y potestades de las Cortes Generales (Título III), las competencias y composición del Tribunal Constitucional (Título IX), y los procedimientos de reforma ordinario y agravado (Título X).
+Resumen exhaustivo de la Unidad Didáctica **UD012183** sobre la génesis, estructura dogmática y orgánica de la Constitución Española de 1978, los derechos y deberes fundamentales y las funciones constitucionales de la Corona.
 
 ---
 
-## 🧩 Estructura y Desglose Temático
+## 🗺️ 1. Estructura y Características de la Constitución Española de 1978
 
-### 1. Estructura y Principios Constitucionales
-- **Fechas Clave de Aprobación**:
-  - Aprobada por las Cortes Generales: **31 de octubre de 1978**.
-  - Ratificada en referéndum por el pueblo español: **6 de diciembre de 1978**.
-  - Sancionada y promulgada por el Rey: **27 de diciembre de 1978**.
-  - Publicada en el BOE y entrada en vigor: **29 de diciembre de 1978**.
-- **Estructura Numérica**: 1 Preámbulo, 169 Artículos, 1 Título Preliminar, 10 Títulos numerados, 4 Disposiciones Adicionales, 9 Disposiciones Transitorias, 1 Disposición Derogatoria y 1 Disposición Final.
-- **Principios del Título Preliminar**:
-  - Art. 1.1: Estado social y democrático de Derecho. Valores superiores: **Libertad, Justicia, Igualdad y Pluralismo político**.
-  - Art. 1.2: Soberanía nacional reside en el pueblo español.
-  - Art. 1.3: Forma política: **Monarquía parlamentaria**.
-  - Art. 2: Indisoluble unidad de la Nación española y derecho a la autonomía de nacionalidades y regiones.
-  - Art. 9.3: Principios de legalidad, jerarquía normativa, publicidad, irretroactividad de sanciones desfavorables, seguridad jurídica e interdicción de la arbitrariedad.
+### A. Cronología y Aprobación
+- **Aprobación en Cortes**: 31 de octubre de 1978 (Plenos de Congreso y Senado).
+- **Referéndum Popular**: 6 de diciembre de 1978.
+- **Sanción y Promulgación Real**: 27 de diciembre de 1978 por el Rey Juan Carlos I.
+- **Publicación y Entrada en Vigor**: **29 de diciembre de 1978** en el BOE (mismo día de publicación).
 
-### 2. Título I: Derechos y Deberes Fundamentales y Garantías
-- **Estructura del Título I (Art. 10 a 55)**:
-  - Art. 14: Principio de igualdad ante la ley.
-  - **Sección 1ª (Art. 15-29)**: Derechos Fundamentales y Libertades Públicas (Vida, integridad, libertad ideológica/religiosa, libertad personal y detención máx 72h, intimidad/domicilio, libre expresión, reunión, asociación, sufragio, tutela judicial efectiva art. 24, educación, sindicación y huelga, petición).
-  - **Sección 2ª (Art. 30-38)**: Derechos y Deberes de los ciudadanos (Objeción de conciencia art. 30, tributos justos art. 31, propiedad privada art. 33, trabajo art. 35, libertad de empresa art. 38).
-  - **Capítulo III (Art. 39-52)**: Principios rectores de la política social y económica.
-- **Sistema de Garantías (Art. 53)**:
-  - **Nivel Máximo (Art. 14 + Art. 15-29 + Art. 30.2)**: Reserva de **Ley Orgánica** (art. 15-29), tutela judicial preferente y sumaria, y **Recurso de Amparo ante el Tribunal Constitucional**.
-  - **Nivel Medio (Art. 30-38)**: Reserva de ley ordinaria (respetando contenido esencial) y Recurso de Inconstitucionalidad.
-  - **Nivel Básico (Art. 39-52)**: Solo alegables ante la jurisdicción ordinaria según las leyes que los desarrollen.
-- **El Defensor del Pueblo (Art. 54)**: Alto comisionado de las Cortes Generales regulado por LO 3/1981. Elegido por mayoría de **3/5 del Congreso y 3/5 del Senado** por mandato de **5 años**.
+### B. Estructura Formal
+Consta de **1 Preámbulo** (sin fuerza jurídica vinculante directa), **169 Artículos**, distribuidos en:
+- **1 Título Preliminar** (Arts. 1 a 9).
+- **10 Títulos Numerados** (Arts. 10 a 169).
+- **4 Disposiciones Adicionales**.
+- **9 Disposiciones Transitorias**.
+- **1 Disposición Derogatoria**.
+- **1 Disposición Final**.
 
-### 3. La Corona (Título II, Art. 56 a 65)
-- El Rey es el Jefe del Estado, símbolo de su unidad y permanencia.
-- **Inviolabilidad y Refrendo (Art. 56.3 y 64)**: La persona del Rey es inviolable y no está sujeta a responsabilidad. Sus actos están siempre **refrendados** por el Presidente del Gobierno, Ministros competentes o el Presidente del Congreso (propuesta/nombramiento de Presidente y disolución art. 99). Carecen de validez sin refrendo.
-- **Sucesión (Art. 57)**: Primogenitura y representación (línea anterior a posteriores, grado más próximo, varón a mujer, mayor a menor edad).
-
-### 4. Las Cortes Generales (Título III, Art. 66 a 96)
-- **Congreso de los Diputados (Art. 68)**: 350 Diputados elegidos por sufragio universal proporcional (regla D'Hondt) en circunscripciones provinciales por mandato de **4 años**.
-- **Senado (Art. 69)**: Cámara de representación territorial por mandato de **4 años** (4 senadores por provincia peninsular + senadores insulares + senadores designados por Asambleas de CCAA: 1 fijo + 1 por millón de habitantes).
-- **Tipos de Normas Legales**:
-  - **Leyes Orgánicas (Art. 81)**: Desarrollo de DDFF (art. 15-29), Estatutos de Autonomía y Régimen Electoral General. Exigen **mayoría absoluta del Congreso** en votación final de conjunto.
-  - **Reales Decretos-Leyes (Art. 86)**: Extraordinaria y urgente necesidad. Sometidos a convalidación del Congreso en **30 días**.
-
-### 5. El Tribunal Constitucional (Título IX, Art. 159 a 165)
-- **Composición**: **12 magistrados** nombrados por el Rey por **9 años** (renovación de 4 miembros cada 3 años): 4 Congreso (3/5), 4 Senado (3/5), 2 Gobierno y 2 CGPJ.
-- **Procesos**: Recurso de Inconstitucionalidad, Cuestión de Inconstitucionalidad, Recurso de Amparo y Conflictos de Competencia.
-
-### 6. Reforma Constitucional (Título X, Art. 166 a 169)
-- **Ordinaria (Art. 167)**: Mayoría de **3/5 de cada Cámara**. Referéndum facultativo si lo pide el 10% de Diputados o Senadores en 15 días.
-- **Agravada (Art. 168)**: Revisión total o de Título Preliminar, Título I Secc. 1ª (15-29) o Título II (Corona). Mayoría de **2/3 de cada Cámara** $ightarrow$ Disolución de Cortes $ightarrow$ Ratificación por nuevas Cortes (2/3) $ightarrow$ **Referéndum obligatorio y vinculante**.
+| Título | Denominación Oficial | Artículos | Contenido Esencial |
+|:---|:---|:---:|:---|
+| **Preliminar** | Principios Generales del Estado | 1 - 9 | Estado social y democrático de Derecho, soberanía popular, monarquía parlamentaria, partidos políticos, sindicatos, FFAA, lenguas oficiales, bandera y principios de legalidad y seguridad jurídica (Art. 9.3). |
+| **Título I** | De los derechos y deberes fundamentales | 10 - 55 | Dignidad de la persona, nacionalidad, derechos fundamentales y libertades públicas, derechos de los ciudadanos, principios rectores y garantías (Art. 53) y suspensión (Art. 55). |
+| **Título II** | De la Corona | 56 - 65 | Funciones del Rey, sucesión, regencia, tutela, refrendo de los actos regios y dotación de la Casa Real. |
+| **Título III** | De las Cortes Generales | 66 - 96 | Congreso, Senado, elaboración de leyes, tratados internacionales. |
+| **Título IV** | Del Gobierno y de la Administración | 97 - 107 | Composición, funciones del Gobierno, AGE, Consejo de Estado. |
+| **Título V** | De las relaciones entre el Gobierno y las Cortes Generales | 108 - 116 | Responsabilidad política, moción de censura, cuestión de confianza, estados de alarma, excepción y sitio. |
+| **Título VI** | Del Poder Judicial | 117 - 127 | Principios de justicia, jueces y magistrados, CGPJ, Tribunal Supremo y Ministerio Fiscal. |
+| **Título VII** | Economía y Hacienda | 128 - 136 | Subordinación al interés general, iniciativa pública, Presupuestos Generales del Estado (Art. 134), estabilidad presupuestaria (Art. 135) y Tribunal de Cuentas (Art. 136). |
+| **Título VIII** | De la Organización Territorial del Estado | 137 - 158 | Municipios, provincias y Comunidades Autónomas. Competencias (Arts. 148 y 149). |
+| **Título IX** | Del Tribunal Constitucional | 159 - 165 | Composición (12 miembros), competencias, recursos de inconstitucionalidad, amparo y conflictos. |
+| **Título X** | De la Reforma Constitucional | 166 - 169 | Procedimiento ordinario (Art. 167) y procedimiento agravado (Art. 168). |
 
 ---
 
-## 🎯 Datos Clave para Oposiciones TAI
+## 🟣 2. Título I: Derechos y Deberes Fundamentales y su Sistema de Garantías (Art. 53)
 
-| Parámetro / Artículo | Especificación Constitucional |
-|----------------------|-------------------------------|
-| Fecha Ratificación Referéndum | **6 de diciembre de 1978** |
-| Fecha Entrada en Vigor | **29 de diciembre de 1978** (publicación BOE) |
-| Número de Artículos | **169 artículos** |
-| Mayoría Ley Orgánica (Art. 81) | **Mayoría Absoluta del Congreso** |
-| Convalidación Real Decreto-Ley | **30 días naturales** ante el Congreso |
-| Mandato Defensor del Pueblo | **5 años** (Mayoría de 3/5 en ambas Cámaras) |
-| Composición Tribunal Constitucional | **12 miembros** por mandato de **9 años** (renovación 1/3 cada 3 años) |
-| Reforma Agravada (Art. 168) | Mayoría de **2/3**, disolución de Cortes y **referéndum preceptivo** |
+El sistema de protección constitucional se divide en 3 niveles estrictos:
+
+```
+                                SISTEMA DE GARANTÍAS (ART. 53 CE)
+                                                │
+       ┌────────────────────────┬───────────────┴───────────────┬────────────────────────┐
+       ▼                        ▼                               ▼                        ▼
+   NIVEL MÁXIMO             NIVEL MEDIO                     NIVEL BÁSICO            SUSPENSIÓN (Art. 55)
+(Arts. 14 a 29 + 30.2)     (Arts. 30 a 38)                 (Arts. 39 a 52)          Alarma, Excepción, Sitio
+ • Recurso de Inconst.      • Recurso de Inconst.           • Solo alegables ante    • Suspensión individual
+ • Reserva de Ley Orgánica  • Reserva de Ley Ordinaria        la jurisdicción          (Art. 55.2 bandas
+ • Procedimiento Sumario    • Vinculación a todos los         ordinaria según          armadas / terrorismo)
+   y Preferente               poderes públicos                leyes de desarrollo
+ • Recurso de Amparo (TC)
+```
+
+| Nivel de Protección | Artículos | Garantías Aplicables | Procedimiento de Protección |
+|:---|:---:|:---|:---|
+| **Nivel Máximo (Sección 1ª Cap. II + Art. 14 + Art. 30.2)** | **Arts. 14 a 29 y 30.2** | - Reserva de **Ley Orgánica** (Art. 81 CE).<br>- Respeto del **contenido esencial**.<br>- Vinculación directa a todos los poderes públicos.<br>- Recurso de Inconstitucionalidad. | - Procedimiento judicial basado en principios de **preferencia y sumariedad**.<br>- **Recurso de Amparo** ante el Tribunal Constitucional. |
+| **Nivel Medio (Sección 2ª Cap. II)** | **Arts. 30 a 38** | - Reserva de **Ley Ordinaria**.<br>- Respeto del contenido esencial.<br>- Vinculación a los poderes públicos.<br>- Recurso de Inconstitucionalidad. | - Jurisdicción ordinaria (tribunales ordinarios).<br>- **NO** cabe amparo ni procedimiento sumario/preferente. |
+| **Nivel Básico (Capítulo III)** | **Arts. 39 a 52** | - Informarán la legislación positiva, la práctica judicial y la actuación de los poderes públicos. | - Solo pueden ser alegados ante la jurisdicción ordinaria de acuerdo con lo que dispongan las leyes que los desarrollen. |
+
+> [!trampa] ⚠️ Trampa Clásica de Examen
+> El **artículo 14** (Principio de Igualdad ante la Ley) y el **artículo 30.2** (Objeción de Conciencia) **SÍ** tienen recurso de amparo ante el Tribunal Constitucional, pero **NO** requieren Ley Orgánica para su desarrollo (la objeción de conciencia se regula por ley ordinaria).
 
 ---
 
-## 🔗 Enlaces del Grafo de Conocimiento
+## 🟣 3. Título II: La Corona y las Funciones del Rey
 
-### Entidades Relacionadas:
+### A. Estatuto Jurídico del Rey (Art. 56)
+- El Rey es el **Jefe del Estado**, símbolo de su unidad y permanencia, arbitra y modera el funcionamiento regular de las instituciones.
+- La persona del Rey es **inviolable y no está sujeta a responsabilidad**.
+- Sus actos estarán **siempre refrendados** por el Presidente del Gobierno, los Ministros competentes y, en los casos del art. 99 (propuesta y nombramiento del Presidente y disolución de Cortes por falta de investidura), por el **Presidente del Congreso de los Diputados**. De los actos del Rey serán responsables las personas que los refrenden.
+
+### B. Orden Sucesorio (Art. 57)
+- La sucesión sigue el orden regular de primogenitura y representación, siendo preferida la línea anterior a las posteriores; en la misma línea, el grado más próximo al más remoto; en el mismo grado, el **varón a la mujer**, y en el mismo sexo, la persona de más edad a la de menos.
+- Las abdicaciones y renuncias se resuelven por **Ley Orgánica**.
+- Si se extinguen todas las líneas llamadas por derecho, las **Cortes Generales proveerán a la sucesión** en la forma que más convenga a los intereses de España.
+
+### C. Regencia y Tutela (Arts. 59 y 60)
+- **Regencia**: Entra en juego cuando el Rey fuera menor de edad (padre/madre o pariente más próximo a suceder) o inhabilitado para el ejercicio de sus funciones (reconocido por las Cortes Generales). La regencia se ejerce en nombre del Rey y por mandato constitucional. Se requiere ser **español y mayor de edad**.
+- **Tutela del Rey Menor**: No pueden acumularse los cargos de Regente y Tutor salvo en la madre, padre o ascendientes directos del Rey.
+
+---
+
+## 🔵 4. Entidades y Conceptos Asociados
 - [[wiki/entities/constitucion-espanola-1978|Constitución Española de 1978]]
-- [[wiki/entities/cortes-generales|Cortes Generales y Procedimiento Legislativo]]
-
-### Conceptos Teóricos:
-- [[wiki/concepts/derechos-fundamentales-y-libertades-publicas|Derechos Fundamentales, Garantías y Recurso de Amparo]]
-
-### Síntesis de Estudio:
-- [[wiki/synthesis/bloque1-tai-oposiciones-master-guide|Guía Maestra de Bloque 1: Administración Pública y Normativa (TAI)]]
-- [[wiki/synthesis/constitucion-espanola-articulos-clave-cheatsheet|Cheatsheet de Artículos Clave de la Constitución Española]]
+- [[wiki/entities/cortes-generales|Cortes Generales]]
+- [[wiki/concepts/derechos-fundamentales-y-libertades-publicas|Derechos Fundamentales y Recurso de Amparo]]
+- [[wiki/synthesis/constitucion-espanola-articulos-clave-cheatsheet|Cheatsheet de Artículos Clave de la Constitución]]

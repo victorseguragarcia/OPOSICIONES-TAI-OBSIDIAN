@@ -19,16 +19,16 @@
 # 🔴 1. Temas Principales del Temario Oficial (34 Fuentes)
 
 ## 🔴 Bloque 1: Administración Pública y Normativa (10 Temas)
-- [[wiki/sources/bloque1-tema01|Resumen Fuente: Bloque 1 - Tema 01: La Constitución Española de 1978]]
+- [[wiki/sources/bloque1-tema01|Resumen Fuente: Bloque 1 - Tema 01 (UD012183): La Constitución Española de 1978, Derechos y Deberes Fundamentales y La Corona]]
 - [[wiki/sources/bloque1-tema02|Resumen Fuente: Bloque 1 - Tema 02: El Gobierno y la Administración General del Estado]]
 - [[wiki/sources/bloque1-tema03|Resumen Fuente: Bloque 1 - Tema 03: Organización Territorial del Estado y Entidades Locales]]
 - [[wiki/sources/bloque1-tema04|Resumen Fuente: Bloque 1 - Tema 04: La Unión Europea, Instituciones y Derecho Comunitario]]
-- [[wiki/sources/bloque1-tema05|Resumen Fuente: Bloque 1 - Tema 05: El Personal Funcionario al Servicio de las AAPP (TREBEP)]]
-- [[wiki/sources/bloque1-tema06|Resumen Fuente: Bloque 1 - Tema 06: Políticas de Igualdad y Violencia de Género]]
+- [[wiki/sources/bloque1-tema05|Resumen Fuente: Bloque 1 - Tema 05 (UD022580): El TREBEP (RDL 5/2015), Personal al Servicio de las AAPP y Régimen Disciplinario]]
+- [[wiki/sources/bloque1-tema06|Resumen Fuente: Bloque 1 - Tema 06 (UD011320): Políticas de Igualdad de Género (LO 3/2007) y Violencia de Género (LO 1/2004)]]
 - [[wiki/sources/bloque1-tema07|Resumen Fuente: Bloque 1 - Tema 07: El Procedimiento Administrativo Común (Ley 39/2015 LPACAP)]]
 - [[wiki/sources/bloque1-tema08|Resumen Fuente: Bloque 1 - Tema 08: Régimen Jurídico del Sector Público (Ley 40/2015 LRJSP)]]
 - [[wiki/sources/bloque1-tema09|Resumen Fuente: Bloque 1 - Tema 09: Protección de Datos Personales (RGPD y LOPDGDD)]]
-- [[wiki/sources/bloque1-tema10|Resumen Fuente: Bloque 1 - Tema 10: Transparencia y Acceso a la Información Pública (Ley 19/2013)]]
+- [[wiki/sources/bloque1-tema10|Resumen Fuente: Bloque 1 - Tema 10 (UD022580): Ley 19/2013 de Transparencia, Acceso a la Información Pública y Buen Gobierno]]
 
 ## 🔴 Bloque 2: Tecnología Básica (5 Temas)
 - [[wiki/sources/bloque2-tema01|Resumen Fuente: Bloque 2 - Tema 01 (UD011929): Informática Básica, Representación de la Información y Arquitectura de Computadores]]
@@ -64,9 +64,9 @@
 
 ---
 
-## 🟣 2. Subtemas: Entidades y Conceptos Teóricos (109 Fichas)
+## 🟣 2. Subtemas: Entidades y Conceptos Teóricos (111 Fichas)
 
-### 🟣 Entidades Técnicas y Normativas (70 Fichas)
+### 🟣 Entidades Técnicas y Normativas (72 Fichas)
 - [[wiki/entities/active-directory|Active Directory Domain Services (AD DS)]]
 - [[wiki/entities/aepd-agencia-proteccion-datos|Agencia Española de Protección de Datos (AEPD)]]
 - [[wiki/entities/bash-and-shell-scripting|Bash y Shell Scripting en Linux]]
@@ -104,7 +104,9 @@
 - [[wiki/entities/ley-39-2015-lpacap|Ley 39/2015 del Procedimiento Administrativo Común (LPACAP)]]
 - [[wiki/entities/ley-40-2015-lrjsp|Ley 40/2015 de Régimen Jurídico del Sector Público (LRJSP)]]
 - [[wiki/entities/ley-igualdad-y-violencia-genero|Leyes de Igualdad (LO 3/2007) y Violencia de Género (LO 1/2004)]]
+- [[wiki/entities/ley-incompatibilidades-53-1984|Ley 53/1984 de Incompatibilidades del Personal al Servicio de las Administraciones Públicas]]
 - [[wiki/entities/linux-kernel|Linux Kernel y Software de Base]]
+- [[wiki/entities/lssi-ce-ley-34-2002|LSSI-CE: Ley 34/2002 de Servicios de la Sociedad de la Información y de Comercio Electrónico]]
 - [[wiki/entities/memory-hierarchy-and-ram|Jerarquía de Memoria, Memoria RAM y Memorias ROM]]
 - [[wiki/entities/metrica-v3-methodology|Metodología MÉTRICA Versión 3 (MÉTRICA v3)]]
 - [[wiki/entities/nosql-databases-and-cap-theorem|Bases de Datos NoSQL, Familias y Teorema CAP]]
@@ -237,15 +239,18 @@
 - [[wiki/synthesis/windows-server-administration-guide|Guía Maestra de Administración de Windows Server para Oposiciones TAI]]
 ---
 
-## 📝 4. Banco de Tests y Autoevaluaciones (5 Baterías)
+## 📝 4. Banco de Tests y Autoevaluaciones (8 Baterías)
 
 ### 📝 Tests y Simulacros por Bloques (1 Recursos)
 - [[wiki/tests/bloques/index-tests-bloques|Banco de Tests por Bloques del Temario TAI]]
 
-### 📝 Tests por Temas Individuales (4 Recursos)
+### 📝 Tests por Temas Individuales (7 Recursos)
 - [[wiki/tests/temas/index-tests-temas|Banco de Tests por Temas Individuales del Temario TAI]]
 - [[wiki/tests/temas/test-bloque1-tema01-constitucion|Test de Autoevaluación: Tema 1 - La Constitución Española de 1978]]
+- [[wiki/tests/temas/test-bloque1-tema05-trebep|Test de Autoevaluación: Bloque 1 - Tema 05 (El TREBEP y Régimen Disciplinario)]]
+- [[wiki/tests/temas/test-bloque1-tema06-igualdad|Test de Autoevaluación: Bloque 1 - Tema 06 (Políticas de Igualdad y Violencia de Género)]]
 - [[wiki/tests/temas/test-bloque1-tema07-lpacap|Test de Autoevaluación: Bloque 1 - Tema 07 (Ley 39/2015 LPACAP)]]
+- [[wiki/tests/temas/test-bloque1-tema10-transparencia|Test de Autoevaluación: Bloque 1 - Tema 10 (Transparencia y Acceso a la Información - Ley 19/2013)]]
 - [[wiki/tests/temas/test-bloque4-tema07-redes-tcp-ip|Test de Autoevaluación: Bloque 4 - Tema 07 (Redes TCP/IP y Subnetting)]]
 
 ---
