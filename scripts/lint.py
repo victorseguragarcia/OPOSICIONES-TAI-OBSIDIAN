@@ -65,7 +65,7 @@ def parse_frontmatter(content, rel_path):
         if field not in data:
             errors.append(f"Missing required frontmatter field '{field}' in {rel_path}")
             
-    valid_types = ["source", "entity", "concept", "synthesis", "tutorial", "index"]
+    valid_types = ["source", "entity", "concept", "synthesis", "test", "tutorial", "index"]
     if data.get("type") and data.get("type") not in valid_types:
         errors.append(f"Invalid type '{data.get('type')}' in {rel_path}. Allowed: {valid_types}")
         

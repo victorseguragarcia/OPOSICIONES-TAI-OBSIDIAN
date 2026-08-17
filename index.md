@@ -238,6 +238,15 @@
 - [[wiki/synthesis/virtualization-vs-containerization-comparison|Comparativa Arquitectónica: Máquinas Virtuales vs Contenedores]]
 - [[wiki/synthesis/wcag-accessibility-principles-pour-cheatsheet|Cheatsheet de Principios POUR y Accesibilidad Web en el Sector Público (RD 1112/2018)]]
 - [[wiki/synthesis/windows-server-administration-guide|Guía Maestra de Administración de Windows Server para Oposiciones TAI]]
+---
+
+## 📝 4. Banco de Tests y Autoevaluaciones (2 Baterías)
+
+### 📝 Tests y Simulacros por Bloques (1 Recursos)
+- [[wiki/tests/bloques/index-tests-bloques|Banco de Tests por Bloques del Temario TAI]]
+
+### 📝 Tests por Temas Individuales (1 Recursos)
+- [[wiki/tests/temas/index-tests-temas|Banco de Tests por Temas Individuales del Temario TAI]]
 
 ---
 

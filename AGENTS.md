@@ -13,6 +13,9 @@ This repository follows the **LLM Wiki Pattern** (inspired by Andrej Karpathy's 
   - `wiki/entities/` : Pages for distinct tools, libraries, hardware, standards, organizations, people.
   - `wiki/concepts/` : Deep-dive concept explanations, theoretical foundations, architectural patterns.
   - `wiki/synthesis/` : Higher-level topic guides, comparison matrices, study notes, structured overviews.
+  - `wiki/tests/` : Self-assessment question banks, official exam simulations, and flashcards.
+    - `wiki/tests/bloques/` : Multi-topic exam simulations and comprehensive assessments covering entire Bloques (Bloques 1-4).
+    - `wiki/tests/temas/` : Unit-level tests and topic-specific question banks with detailed explanations.
 - `index.md` : Master categorized catalog listing all wiki pages with one-line summaries and metadata.
 - `log.md` : Append-only chronological timeline of wiki operations (ingest, query, lint, synthesis).
 - `scripts/` : Automation scripts for linting, indexing, and querying the wiki.
@@ -27,7 +30,7 @@ Every wiki page must include YAML frontmatter:
 ```yaml
 ---
 title: "Page Title"
-type: "source | entity | concept | synthesis"
+type: "source | entity | concept | synthesis | test"
 tags:
   - topic
   - subtopic

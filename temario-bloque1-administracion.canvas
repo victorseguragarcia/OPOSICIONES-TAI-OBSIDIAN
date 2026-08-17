@@ -1,96 +1,17 @@
 {
-  "nodes": [
-    {
-      "id": "904d01494978418e",
-      "type": "text",
-      "x": -150,
-      "y": -380,
-      "width": 550,
-      "height": 130,
-      "color": "#EF5350",
-      "text": "# \ud83c\udfdb\ufe0f Bloque 1: Administraci\u00f3n P\u00fablica y Marco Digital (TAI)\n\nMapa interactivo de navegaci\u00f3n y estudio visual."
-    },
-    {
-      "id": "962275d7794a4066",
-      "type": "text",
-      "x": -450,
-      "y": -200,
-      "width": 400,
-      "height": 220,
-      "color": "#EF5350",
-      "text": "## \ud83d\udd34 Bloque 1: AGE, UE y TREBEP\n- CE 1978 y Derechos Fundamentales\n- Gobierno, AGE y CCAA\n- Instituciones de la UE\n- TREBEP (Situaciones y R\u00e9gimen Disciplinario)\n- Igualdad y Violencia de G\u00e9nero"
-    },
-    {
-      "id": "313e5a5ea9e74d0a",
-      "type": "text",
-      "x": 50,
-      "y": -200,
-      "width": 420,
-      "height": 220,
-      "color": "#EF5350",
-      "text": "## \ud83d\udd34 Administraci\u00f3n Digital y Datos\n- Ley 39/2015 LPACAP y Ley 40/2015 LRJSP\n- eIDAS, Ley 6/2020 y DNIe\n- Red SARA, Cl@ve, SIR, FACe, INSIDE, ARCHIVE\n- RGPD y LOPDGDD 3/2018 (Derechos Digitales)"
-    },
-    {
-      "id": "41a87cbaedea4fc6",
-      "type": "file",
-      "file": "wiki/synthesis/bloque1-informatica-y-administracion-digital-master-guide.md",
-      "x": 50,
-      "y": 80,
-      "width": 420,
-      "height": 240,
-      "color": "#64B5F6"
-    },
-    {
-      "id": "48118818ec874b9b",
-      "type": "file",
-      "file": "wiki/synthesis/servicios-comunes-age-administracion-electronica-cheatsheet.md",
-      "x": 520,
-      "y": 80,
-      "width": 400,
-      "height": 240,
-      "color": "#64B5F6"
-    },
-    {
-      "id": "a738263935d349ce",
-      "type": "file",
-      "file": "wiki/synthesis/bloque1-tai-oposiciones-master-guide.md",
-      "x": -450,
-      "y": 80,
-      "width": 400,
-      "height": 240,
-      "color": "#64B5F6"
-    }
-  ],
-  "edges": [
-    {
-      "id": "0bf2027389d14c0f",
-      "fromNode": "904d01494978418e",
-      "toNode": "962275d7794a4066",
-      "color": "#EF5350"
-    },
-    {
-      "id": "d128f2b89acf4c5c",
-      "fromNode": "904d01494978418e",
-      "toNode": "313e5a5ea9e74d0a",
-      "color": "#EF5350"
-    },
-    {
-      "id": "db9a604d29904e0d",
-      "fromNode": "904d01494978418e",
-      "toNode": "41a87cbaedea4fc6",
-      "color": "#64B5F6"
-    },
-    {
-      "id": "556a7e27e1854618",
-      "fromNode": "904d01494978418e",
-      "toNode": "48118818ec874b9b",
-      "color": "#64B5F6"
-    },
-    {
-      "id": "8fc01054b0644bfd",
-      "fromNode": "904d01494978418e",
-      "toNode": "a738263935d349ce",
-      "color": "#64B5F6"
-    }
-  ]
+	"nodes":[
+		{"id":"904d01494978418e","type":"text","x":-150,"y":-380,"width":550,"height":130,"color":"#EF5350","text":"# 🏛️ Bloque 1: Administración Pública y Marco Digital (TAI)\n\nMapa interactivo de navegación y estudio visual."},
+		{"id":"962275d7794a4066","type":"text","x":-450,"y":-200,"width":400,"height":220,"color":"#EF5350","text":"## 🔴 Bloque 1: AGE, UE y TREBEP\n- CE 1978 y Derechos Fundamentales\n- Gobierno, AGE y CCAA\n- Instituciones de la UE\n- TREBEP (Situaciones y Régimen Disciplinario)\n- Igualdad y Violencia de Género"},
+		{"id":"313e5a5ea9e74d0a","type":"text","x":50,"y":-200,"width":420,"height":220,"color":"#EF5350","text":"## 🔴 Administración Digital y Datos\n- Ley 39/2015 LPACAP y Ley 40/2015 LRJSP\n- eIDAS, Ley 6/2020 y DNIe\n- Red SARA, Cl@ve, SIR, FACe, INSIDE, ARCHIVE\n- RGPD y LOPDGDD 3/2018 (Derechos Digitales)"},
+		{"id":"41a87cbaedea4fc6","type":"file","file":"wiki/synthesis/bloque1-informatica-y-administracion-digital-master-guide.md","x":50,"y":80,"width":420,"height":240,"color":"#64B5F6"},
+		{"id":"48118818ec874b9b","type":"file","file":"wiki/synthesis/servicios-comunes-age-administracion-electronica-cheatsheet.md","x":520,"y":80,"width":400,"height":240,"color":"#64B5F6"},
+		{"id":"a738263935d349ce","type":"file","file":"wiki/synthesis/bloque1-tai-oposiciones-master-guide.md","x":-450,"y":80,"width":400,"height":240,"color":"#64B5F6"}
+	],
+	"edges":[
+		{"id":"0bf2027389d14c0f","fromNode":"904d01494978418e","toNode":"962275d7794a4066","color":"#EF5350","fromSide":"bottom","toSide":"top"},
+		{"id":"d128f2b89acf4c5c","fromNode":"904d01494978418e","toNode":"313e5a5ea9e74d0a","color":"#EF5350","fromSide":"bottom","toSide":"top"},
+		{"id":"db9a604d29904e0d","fromNode":"904d01494978418e","toNode":"41a87cbaedea4fc6","color":"#64B5F6","fromSide":"bottom","toSide":"top"},
+		{"id":"556a7e27e1854618","fromNode":"904d01494978418e","toNode":"48118818ec874b9b","color":"#64B5F6","fromSide":"bottom","toSide":"top"},
+		{"id":"8fc01054b0644bfd","fromNode":"904d01494978418e","toNode":"a738263935d349ce","color":"#64B5F6","fromSide":"bottom","toSide":"top"}
+	]
 }

@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Script para reconstruir dinámicamente index.md y log.md aplicando la jerarquía
-de colores de estudio y enlaces directos a los lienzos Canvas.
+de colores de estudio, enlaces a Canvas y catálogo de tests y autoevaluaciones.
 """
 import os
 import re
@@ -39,6 +39,9 @@ def rebuild():
     entities = []
     concepts = []
     syntheses = []
+    
+    tests_bloques = []
+    tests_temas = []
 
     for root, _, files in os.walk(wiki_dir):
         for f in sorted(files):
@@ -70,8 +73,27 @@ def rebuild():
                 concepts.append(item)
             elif ntype == "synthesis":
                 syntheses.append(item)
+            elif ntype == "test":
+                if "bloques" in rel:
+                    tests_bloques.append(item)
+                else:
+                    tests_temas.append(item)
 
     all_sources_count = len(sources_b1) + len(sources_b2) + len(sources_b3) + len(sources_b4) + len(sources_other)
+    all_tests_count = len(tests_bloques) + len(tests_temas)
+
+    tests_section = ""
+    if all_tests_count > 0:
+        tests_section = f"""---
+
+## 📝 4. Banco de Tests y Autoevaluaciones ({all_tests_count} Baterías)
+
+### 📝 Tests y Simulacros por Bloques ({len(tests_bloques)} Recursos)
+{chr(10).join(tests_bloques) if tests_bloques else "- *No hay tests por bloques registrados aún.*"}
+
+### 📝 Tests por Temas Individuales ({len(tests_temas)} Recursos)
+{chr(10).join(tests_temas) if tests_temas else "- *No hay tests por temas registrados aún.*"}
+"""
 
     index_content = f"""# 🏛️ Catálogo Maestro del Temario Oficial TAI (AGE)
 
@@ -122,7 +144,7 @@ def rebuild():
 ### 🔵 3. Conocimientos Concretos, Guías de Síntesis y Tablas de Examen ({len(syntheses)} Guías)
 
 {chr(10).join(syntheses)}
-
+{tests_section}
 ---
 
 ## 🛠️ Herramientas y Scripts del Repositorio
@@ -134,7 +156,7 @@ def rebuild():
     index_path = os.path.join(BASE_DIR, "index.md")
     with open(index_path, "w", encoding="utf-8", newline="\n") as f:
         f.write(index_content.strip() + "\n")
-    print(f"[OK] index.md reconstruido con {all_sources_count} fuentes, {len(entities)} entidades, {len(concepts)} conceptos y {len(syntheses)} síntesis con jerarquía cromática y Canvas.")
+    print(f"[OK] index.md reconstruido con {all_sources_count} fuentes, {len(entities)} entidades, {len(concepts)} conceptos, {len(syntheses)} síntesis y {all_tests_count} tests.")
 
 if __name__ == "__main__":
     rebuild()

@@ -1,96 +1,17 @@
 {
-  "nodes": [
-    {
-      "id": "c7cc8cc5ad6b4da4",
-      "type": "text",
-      "x": -150,
-      "y": -380,
-      "width": 550,
-      "height": 130,
-      "color": "#EF5350",
-      "text": "# \u2699\ufe0f Bloque 3: Desarrollo de Sistemas (TAI)\n\nMapa interactivo de navegaci\u00f3n y estudio visual."
-    },
-    {
-      "id": "02339a93d8b245f6",
-      "type": "text",
-      "x": -450,
-      "y": -200,
-      "width": 400,
-      "height": 220,
-      "color": "#EF5350",
-      "text": "## \ud83d\udd34 Metodolog\u00edas, UML y BBDD\n- M\u00c9TRICA v3 (PSI, EVS, ASI, DSI, CSI, IAS)\n- Scrum (PO/SM/Devs), Kanban (WIP), XP\n- Normalizaci\u00f3n Relacional (1FN a 5FN, BCNF)\n- ANSI SQL, Triggers, Stored Procedures"
-    },
-    {
-      "id": "31d8e3c03f644b06",
-      "type": "text",
-      "x": 50,
-      "y": -200,
-      "width": 420,
-      "height": 220,
-      "color": "#EF5350",
-      "text": "## \ud83d\udd34 Programaci\u00f3n, Web y QA\n- Java EE / JVM vs Microsoft .NET CLR\n- RESTful (HATEOAS) vs SOAP (WSDL/XML)\n- Testing: Caja Blanca (McCabe), Caja Negra\n- Accesibilidad: WCAG 2.1 POUR y RD 1112/2018"
-    },
-    {
-      "id": "8869c9ff3034485c",
-      "type": "file",
-      "file": "wiki/synthesis/bloque3-tai-oposiciones-master-guide.md",
-      "x": -450,
-      "y": 80,
-      "width": 400,
-      "height": 240,
-      "color": "#64B5F6"
-    },
-    {
-      "id": "7b30707b01434c48",
-      "type": "file",
-      "file": "wiki/synthesis/metrica-v3-processes-and-artifacts-guide.md",
-      "x": 50,
-      "y": 80,
-      "width": 420,
-      "height": 240,
-      "color": "#64B5F6"
-    },
-    {
-      "id": "e5d4e6282f464441",
-      "type": "file",
-      "file": "wiki/synthesis/supuestos-practicos-bloque3-normalizacion-bbdd.md",
-      "x": 520,
-      "y": 80,
-      "width": 400,
-      "height": 240,
-      "color": "#64B5F6"
-    }
-  ],
-  "edges": [
-    {
-      "id": "edcd81a11e3e4554",
-      "fromNode": "c7cc8cc5ad6b4da4",
-      "toNode": "02339a93d8b245f6",
-      "color": "#EF5350"
-    },
-    {
-      "id": "6bfe1fed4871480a",
-      "fromNode": "c7cc8cc5ad6b4da4",
-      "toNode": "31d8e3c03f644b06",
-      "color": "#EF5350"
-    },
-    {
-      "id": "53a9ff06f7f04b78",
-      "fromNode": "c7cc8cc5ad6b4da4",
-      "toNode": "8869c9ff3034485c",
-      "color": "#64B5F6"
-    },
-    {
-      "id": "2ba9fa0fdbda4855",
-      "fromNode": "c7cc8cc5ad6b4da4",
-      "toNode": "7b30707b01434c48",
-      "color": "#64B5F6"
-    },
-    {
-      "id": "45db8a471f234111",
-      "fromNode": "c7cc8cc5ad6b4da4",
-      "toNode": "e5d4e6282f464441",
-      "color": "#64B5F6"
-    }
-  ]
+	"nodes":[
+		{"id":"c7cc8cc5ad6b4da4","type":"text","x":-150,"y":-380,"width":550,"height":130,"color":"#EF5350","text":"# ⚙️ Bloque 3: Desarrollo de Sistemas (TAI)\n\nMapa interactivo de navegación y estudio visual."},
+		{"id":"02339a93d8b245f6","type":"text","x":-450,"y":-200,"width":400,"height":220,"color":"#EF5350","text":"## 🔴 Metodologías, UML y BBDD\n- MÉTRICA v3 (PSI, EVS, ASI, DSI, CSI, IAS)\n- Scrum (PO/SM/Devs), Kanban (WIP), XP\n- Normalización Relacional (1FN a 5FN, BCNF)\n- ANSI SQL, Triggers, Stored Procedures"},
+		{"id":"31d8e3c03f644b06","type":"text","x":50,"y":-200,"width":420,"height":220,"color":"#EF5350","text":"## 🔴 Programación, Web y QA\n- Java EE / JVM vs Microsoft .NET CLR\n- RESTful (HATEOAS) vs SOAP (WSDL/XML)\n- Testing: Caja Blanca (McCabe), Caja Negra\n- Accesibilidad: WCAG 2.1 POUR y RD 1112/2018"},
+		{"id":"8869c9ff3034485c","type":"file","file":"wiki/synthesis/bloque3-tai-oposiciones-master-guide.md","x":-450,"y":80,"width":400,"height":240,"color":"#64B5F6"},
+		{"id":"7b30707b01434c48","type":"file","file":"wiki/synthesis/metrica-v3-processes-and-artifacts-guide.md","x":50,"y":80,"width":420,"height":240,"color":"#64B5F6"},
+		{"id":"e5d4e6282f464441","type":"file","file":"wiki/synthesis/supuestos-practicos-bloque3-normalizacion-bbdd.md","x":520,"y":80,"width":400,"height":240,"color":"#64B5F6"}
+	],
+	"edges":[
+		{"id":"edcd81a11e3e4554","fromNode":"c7cc8cc5ad6b4da4","toNode":"02339a93d8b245f6","color":"#EF5350","fromSide":"bottom","toSide":"top"},
+		{"id":"6bfe1fed4871480a","fromNode":"c7cc8cc5ad6b4da4","toNode":"31d8e3c03f644b06","color":"#EF5350","fromSide":"bottom","toSide":"top"},
+		{"id":"53a9ff06f7f04b78","fromNode":"c7cc8cc5ad6b4da4","toNode":"8869c9ff3034485c","color":"#64B5F6","fromSide":"bottom","toSide":"top"},
+		{"id":"2ba9fa0fdbda4855","fromNode":"c7cc8cc5ad6b4da4","toNode":"7b30707b01434c48","color":"#64B5F6","fromSide":"bottom","toSide":"top"},
+		{"id":"45db8a471f234111","fromNode":"c7cc8cc5ad6b4da4","toNode":"e5d4e6282f464441","color":"#64B5F6","fromSide":"bottom","toSide":"top"}
+	]
 }

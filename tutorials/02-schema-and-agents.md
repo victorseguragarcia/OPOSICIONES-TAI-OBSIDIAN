@@ -34,7 +34,7 @@ Every note created in `wiki/` must adhere to this schema:
 ```yaml
 ---
 title: "Human-Readable Title"
-type: "source | entity | concept | synthesis"
+type: "source | entity | concept | synthesis | test"
 tags:
   - primary-topic
   - sub-topic
@@ -52,7 +52,7 @@ aliases:
 | Field | Type | Description |
 | :--- | :--- | :--- |
 | `title` | `string` | The official name of the note. |
-| `type` | `enum` | One of `source`, `entity`, `concept`, `synthesis`, `tutorial`. |
+| `type` | `enum` | One of `source`, `entity`, `concept`, `synthesis`, `test`, `tutorial`. |
 | `tags` | `list` | Categorical and searchable keywords. |
 | `sources`| `list` | Relative paths to immutable files in `raw/` that ground this note. |
 | `created`| `date` | Creation timestamp (`YYYY-MM-DD`). |
