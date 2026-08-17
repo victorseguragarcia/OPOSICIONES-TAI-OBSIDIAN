@@ -168,7 +168,7 @@
 
 ---
 
-### 🔵 3. Conocimientos Concretos, Guías de Síntesis y Tablas de Examen (39 Guías)
+### 🔵 3. Conocimientos Concretos, Guías de Síntesis y Tablas de Examen (42 Guías)
 
 - [[wiki/synthesis/active-directory-and-ldap-guide|Guía Comparativa y Práctica de Active Directory y LDAP]]
 - [[wiki/synthesis/actos-nulos-vs-anulables-guia|Guía de Invalidez: Actos Nulos de Pleno Derecho vs Actos Anulables]]
@@ -204,6 +204,9 @@
 - [[wiki/synthesis/security-frameworks-ens-magerit-ccn|Marco de Seguridad Pública: Esquema Nacional de Seguridad (ENS), MAGERIT y CCN-STIC]]
 - [[wiki/synthesis/software-testing-and-qa-guide|Guía de Pruebas de Software, Métricas de Cobertura y McCabe]]
 - [[wiki/synthesis/subnetting-and-ipv4-ipv6-addressing-guide|Guía Práctica de Subnetting, VLSM y Direccionamiento IPv4 e IPv6]]
+- [[wiki/synthesis/supuestos-practicos-bloque3-java-php-programacion|Supuesto Práctico Resuelto: Trazas de Código Java y PHP (Bucles, Herencia y Operadores)]]
+- [[wiki/synthesis/supuestos-practicos-bloque3-normalizacion-bbdd|Supuesto Práctico Resuelto: Normalización de Bases de Datos (1FN a 5FN) y SQL DDL]]
+- [[wiki/synthesis/supuestos-practicos-bloque3-simulacro-examen-tai|Supuesto Práctico Oficial TAI: Simulacro Completo de Examen Bloque III (20 Preguntas)]]
 - [[wiki/synthesis/sysadmin-commands-windows-and-linux-cheatsheet|Cheatsheet de Comandos de Administración de Sistemas Windows y Linux]]
 - [[wiki/synthesis/trebep-situaciones-y-regimen-disciplinario-guia|Guía del TREBEP: Situaciones Administrativas y Régimen Disciplinario]]
 - [[wiki/synthesis/virtualization-vs-containerization-comparison|Comparativa Arquitectónica: Máquinas Virtuales vs Contenedores]]
