@@ -219,7 +219,7 @@ Para una experiencia óptima en Obsidian, se recomienda configurar:
 1. **Ajustes de Enlaces (*Files and links*)**:
    - *Default location for new notes*: Misma carpeta que el archivo actual.
    - *New link format*: **Shortest path when possible**.
-   - *Use [[Wikilinks]]*: **Activado**.
+   - *Use `[[Wikilinks]]`*: **Activado**.
 2. **Plugins de la Comunidad Recomendados**:
    - **Dataview**: Para generar tablas dinámicas automáticas basadas en etiquetas y frontmatter.
    - **Omnisearch**: Motor de búsqueda indexada ultrarrápida con previsualización en Obsidian.
