@@ -246,10 +246,11 @@
 - [[wiki/synthesis/windows-server-administration-guide|Guía Maestra de Administración de Windows Server para Oposiciones TAI]]
 ---
 
-## 📝 4. Banco de Tests y Autoevaluaciones (26 Baterías)
+## 📝 4. Banco de Tests y Autoevaluaciones (27 Baterías)
 
-### 📝 Tests y Simulacros por Bloques (1 Recursos)
+### 📝 Tests y Simulacros por Bloques (2 Recursos)
 - [[wiki/tests/bloques/index-tests-bloques|Banco de Tests por Bloques del Temario TAI]]
+- [[wiki/tests/bloques/simulacro-oficial-tai-100-preguntas-bloque1-4|Simulacro Oficial Completo TAI: Examen General de 50 Preguntas (Bloques 1 a 4)]]
 
 ### 📝 Tests por Temas Individuales (25 Recursos)
 - [[wiki/tests/temas/index-tests-temas|Banco de Tests por Temas Individuales del Temario TAI]]

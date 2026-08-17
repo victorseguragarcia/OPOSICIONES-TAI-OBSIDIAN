@@ -1,26 +1,21 @@
 /* ==========================================================================
-   TAI OPOSICIONES - DESIGN SYSTEM & COLOR CODING STANDARD (PASTEL LUXURY)
-   Optimizado para Bóveda Obsidian de Oposiciones TAI / AGE
+   TAI OPOSICIONES - DESIGN SYSTEM & INTERACTIVE EXAM ENGINE (OBSIDIAN)
    ========================================================================== */
 
 :root {
   --tai-red-primary: #EF5350;
-  --tai-red-bg: rgba(239, 83, 80, 0.08);
-  --tai-red-border: rgba(239, 83, 80, 0.35);
+  --tai-red-bg: rgba(239, 83, 80, 0.10);
+  --tai-red-border: rgba(239, 83, 80, 0.40);
+
+  --tai-green-primary: #4CAF50;
+  --tai-green-bg: rgba(76, 175, 80, 0.12);
+  --tai-green-border: rgba(76, 175, 80, 0.45);
 
   --tai-purple-primary: #BA68C8;
   --tai-purple-bg: rgba(186, 104, 200, 0.08);
-  --tai-purple-border: rgba(186, 104, 200, 0.35);
 
-  --tai-blue-primary: #64B5F6;
-  --tai-blue-bg: rgba(100, 181, 246, 0.08);
-  --tai-blue-border: rgba(100, 181, 246, 0.35);
-
-  --tai-green-primary: #81C784;
-  --tai-green-bg: rgba(129, 199, 132, 0.08);
-
-  --tai-amber-primary: #FFB74D;
-  --tai-amber-bg: rgba(255, 183, 77, 0.08);
+  --tai-blue-primary: #42A5F5;
+  --tai-blue-bg: rgba(66, 165, 245, 0.08);
 }
 
 /* --- Encabezados con Jerarquía de 3 Niveles --- */
@@ -35,7 +30,7 @@
 .markdown-rendered h2, .cm-header-2 {
   color: var(--tai-purple-primary) !important;
   font-weight: 600 !important;
-  border-bottom: 1px solid var(--tai-purple-border);
+  border-bottom: 1px solid var(--tai-purple-bg);
   padding-bottom: 4px;
   margin-top: 20px;
 }
@@ -46,66 +41,90 @@
   margin-top: 16px;
 }
 
-/* --- Tablas Cebra con Bordes Suaves --- */
-.markdown-rendered table {
-  border-collapse: collapse;
-  width: 100%;
-  margin: 16px 0;
-  border-radius: 8px;
-  overflow: hidden;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+/* ==========================================================================
+   SISTEMA DE CHECKBOXES INTERACTIVOS DE EXAMEN (VERDE / ROJO / RESALTADO)
+   ========================================================================== */
+
+/* Opción sin marcar */
+.markdown-rendered li.task-list-item {
+  list-style-type: none;
+  padding: 4px 8px;
+  margin: 3px 0;
+  border-radius: 6px;
+  transition: all 0.2s ease-in-out;
 }
 
-.markdown-rendered th {
+.markdown-rendered li.task-list-item:hover {
+  background-color: rgba(128, 128, 128, 0.06);
+}
+
+/* Checkbox estándar marcado [x] -> Azul/Resaltado */
+.markdown-rendered li.task-list-item.is-checked {
+  background-color: rgba(66, 165, 245, 0.12);
+  border-left: 3px solid #42A5F5;
+  font-weight: 500;
+}
+
+/* Opción CORRECTA [v] o [c] -> VERDE INTENSO */
+.markdown-rendered li[data-task="v"], 
+.markdown-rendered li[data-task="c"],
+.markdown-rendered li[data-task="y"] {
+  background-color: var(--tai-green-bg) !important;
+  border-left: 4px solid var(--tai-green-primary) !important;
+  color: #2E7D32 !important;
+  font-weight: 600 !important;
+}
+
+.markdown-rendered li[data-task="v"] input[type="checkbox"], 
+.markdown-rendered li[data-task="c"] input[type="checkbox"] {
+  accent-color: var(--tai-green-primary) !important;
+  filter: hue-rotate(85deg);
+}
+
+/* Opción INCORRECTA / FALLO [f] o [w] o [-] -> ROJO ALERTA */
+.markdown-rendered li[data-task="f"], 
+.markdown-rendered li[data-task="w"],
+.markdown-rendered li[data-task="-"] {
   background-color: var(--tai-red-bg) !important;
-  color: var(--tai-red-primary) !important;
-  font-weight: 600;
-  border: 1px solid var(--tai-red-border);
-  padding: 10px 14px;
-  text-align: left;
+  border-left: 4px solid var(--tai-red-primary) !important;
+  color: #C62828 !important;
+  text-decoration: line-through;
 }
 
-.markdown-rendered td {
-  border: 1px solid rgba(128, 128, 128, 0.15);
-  padding: 8px 12px;
+.markdown-rendered li[data-task="f"] input[type="checkbox"], 
+.markdown-rendered li[data-task="w"] input[type="checkbox"] {
+  accent-color: var(--tai-red-primary) !important;
+  filter: hue-rotate(300deg);
 }
 
-.markdown-rendered tr:nth-child(even) {
-  background-color: rgba(128, 128, 128, 0.03);
+/* --- Clases manuales para Solucionarios --- */
+.tai-correct {
+  background-color: rgba(76, 175, 80, 0.15);
+  color: #2E7D32;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-weight: bold;
+  border: 1px solid rgba(76, 175, 80, 0.4);
 }
 
-/* --- Callouts Especializados para Examen --- */
-.callout[data-callout="trampa"], .callout[data-callout="warning"] {
+.tai-wrong {
+  background-color: rgba(239, 83, 80, 0.15);
+  color: #C62828;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-weight: bold;
+  border: 1px solid rgba(239, 83, 80, 0.4);
+}
+
+/* --- Callouts de Solucionario y Alertas --- */
+.callout[data-callout="question"] {
+  --callout-color: 76, 175, 80;
+  border-left: 4px solid #4CAF50 !important;
+  background-color: rgba(76, 175, 80, 0.08) !important;
+}
+
+.callout[data-callout="trampa"] {
   --callout-color: 255, 183, 77;
-  --callout-icon: alert-triangle;
   border-left: 4px solid #FFB74D !important;
   background-color: rgba(255, 183, 77, 0.08) !important;
-}
-
-.callout[data-callout="mnemo"], .callout[data-callout="success"] {
-  --callout-color: 129, 199, 132;
-  --callout-icon: brain;
-  border-left: 4px solid #81C784 !important;
-  background-color: rgba(129, 199, 132, 0.08) !important;
-}
-
-.callout[data-callout="question"] {
-  --callout-color: 186, 104, 200;
-  --callout-icon: help-circle;
-  border-left: 4px solid #BA68C8 !important;
-  background-color: rgba(186, 104, 200, 0.08) !important;
-}
-
-.callout[data-callout="repaso"], .callout[data-callout="summary"] {
-  --callout-color: 100, 181, 246;
-  --callout-icon: zap;
-  border-left: 4px solid #64B5F6 !important;
-  background-color: rgba(100, 181, 246, 0.08) !important;
-}
-
-/* --- Estilo de Nodos en Canvas de Obsidian --- */
-.canvas-node-container {
-  border-radius: 12px !important;
-  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1) !important;
-  border: 1px solid rgba(255, 255, 255, 0.1) !important;
 }
