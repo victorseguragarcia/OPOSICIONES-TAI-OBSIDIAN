@@ -1,0 +1,10 @@
+{
+  "id": "obsidian-tai-quiz",
+  "name": "TAI Interactive Exam Engine",
+  "version": "1.0.0",
+  "minAppVersion": "0.15.0",
+  "description": "Motor interactivo oficial de simulación de exámenes tipo test para Oposiciones TAI (AGE). Corrección en vivo, penalización -0.33, temporizador y feedback visual verde/rojo.",
+  "author": "Antigravity & Víctor Segura",
+  "authorUrl": "https://github.com/victorseguragarcia/OPOSICIONES-TAI-OBSIDIAN",
+  "isDesktopOnly": false
+}
