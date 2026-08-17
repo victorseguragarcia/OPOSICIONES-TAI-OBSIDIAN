@@ -1,35 +1,56 @@
 ---
-title: "Sistemas SIEM, IDS e IPS de Ciberseguridad"
+title: "Sistemas SIEM, IDS e IPS de Monitorización y Seguridad"
 type: "entity"
 tags:
-  - security
   - siem
   - ids
   - ips
   - soc
-  - incident-management
+  - cybersecurity
 sources:
   - "raw/sources/bloque4-tema05.md"
+  - "raw/sources/bloque4-tema09.md"
 created: "2026-08-17"
 updated: "2026-08-17"
 aliases:
   - "SIEM"
-  - "IDS"
-  - "IPS"
-  - "SOC Tools"
+  - "IDS/IPS"
 ---
 
-# Sistemas SIEM, IDS e IPS de Ciberseguridad
+# Sistemas SIEM, IDS e IPS de Monitorización y Seguridad
 
-Sistemas de detección, prevención y correlación de eventos de seguridad fundamentales en centros de operaciones de seguridad (SOC).
+Los sistemas de detección y prevención de intrusiones (**IDS/IPS**) y los sistemas de gestión de eventos de seguridad (**SIEM**) forman el núcleo de las operaciones de defensa y respuesta en Centros de Operaciones de Seguridad (SOC).
 
-## Tecnologías Principales
-- **IDS (Intrusion Detection System)**: Analiza tráfico pasivamente mediante copia en puerto SPAN/Mirroring y genera alertas ante patrones maliciosos conocidos (firmas) o anomalías de comportamiento.
-- **IPS (Intrusion Prevention System)**: Dispositivo en línea (*in-line*) capaz de bloquear paquetes y cortar flujos de ataque en tiempo real (ej: Snort, Suricata).
-- **SIEM (Security Information and Event Management)**: Agrega, normaliza y correlaciona registros (logs) procedentes de cortafuegos, servidores, routers y aplicaciones (ej: Splunk, Elastic SIEM, Wazuh, QRadar).
+---
 
-## Referencias
+## 🏛️ Diferencias Clave: IDS vs IPS vs SIEM
+
+| Sistema | Modo de Operación | Ubicación en Red | Acción ante Incidentes | Ejemplos Líderes |
+|---------|-------------------|------------------|------------------------|------------------|
+| **IDS** (Detection) | Pasivo / Fuera de banda | Puerto SPAN / TAP / Espejo | Genera alarmas, registra logs | Snort, Suricata, Zeek |
+| **IPS** (Prevention) | Activo / En línea (*In-Line*) | Entre interfaces de red / NGFW | **Bloquea activamente** tráfico malicioso | Snort IPS, Cisco Firepower |
+| **SIEM** (Event Mgmt) | Correlación global | Servidor centralizado | Recopila logs, correlaciona eventos en tiempo real | Splunk, Elastic SIEM, Wazuh, Sentinel |
+
+---
+
+## 🧩 Métodos de Detección en IDS/IPS
+
+- **Basado en Firmas (Pattern Matching)**: Compara patrones de bytes y cabeceras contra bases de datos de vulnerabilidades conocidas (CVE). Rápido y preciso, pero vulnerable a ataques de día cero (*0-Day*).
+- **Basado en Anomalías / Comportamiento**: Establece una línea base de tráfico legítimo y dispara alertas ante desviaciones estadísticas significativas.
+
+---
+
+## 🎯 Datos Clave para Oposiciones TAI
+
+| Concepto | Especificación Técnica |
+|----------|------------------------|
+| NIDS vs HIDS | NIDS monitoriza subredes; HIDS monitoriza archivos y llamadas al sistema del host |
+| Funciones Clave SIEM | Agregación, Normalización, Correlación en tiempo real y Alertas |
+| Herramienta HIDS Open Source | **Wazuh** / **OSSEC** |
+
+---
+
+## 🔗 Referencias Cruzadas
 - Fuente: [[wiki/sources/bloque4-tema05|Resumen Bloque 4 - Tema 05]]
-- Perímetro: [[wiki/entities/firewalls-and-vpn|Cortafuegos y Redes Privadas Virtuales (VPN)]]
-- Normativa: [[wiki/entities/ccn-cert-and-ens|CCN-CERT y Esquema Nacional de Seguridad (ENS)]]
-
+- Fuente: [[wiki/sources/bloque4-tema09|Resumen Bloque 4 - Tema 09]]
+- Entidad: [[wiki/entities/ccn-cert-and-ens|CCN-CERT y ENS]]

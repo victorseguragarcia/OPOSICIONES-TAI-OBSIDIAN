@@ -1,40 +1,74 @@
 ---
-title: "Estándares Inalámbricos Wi-Fi y Redes Móviles (4G/5G)"
+title: "Estándares Wi-Fi (IEEE 802.11) y Tecnologías Móviles (5G NR)"
 type: "entity"
 tags:
   - wifi
-  - mobile
+  - 802-11
   - 5g
-  - lte
+  - mobile
   - wireless
-  - communications
 sources:
   - "raw/sources/bloque4-tema06.md"
 created: "2026-08-17"
 updated: "2026-08-17"
 aliases:
   - "Wi-Fi"
-  - "802.11"
+  - "IEEE 802.11"
   - "5G NR"
-  - "Redes Inalámbricas"
 ---
 
-# Estándares Inalámbricos Wi-Fi y Redes Móviles (4G/5G)
+# Estándares Wi-Fi (IEEE 802.11) y Tecnologías Móviles (5G NR)
 
-Evolución de las tecnologías de comunicación por radiofrecuencia y acceso inalámbrico para entornos locales y metropolitanos.
+Las tecnologías de comunicaciones inalámbricas abarcan las redes de área local inalámbricas (**WLAN - IEEE 802.11**) y las redes móviles de última generación (**5G NR**).
 
-## Evolución de Estándares Wi-Fi (IEEE 802.11)
-- **802.11n (Wi-Fi 4)**: 2.4 / 5 GHz, MIMO, hasta 600 Mbps.
-- **802.11ac (Wi-Fi 5)**: 5 GHz, MU-MIMO, modulación 256-QAM, hasta 6.9 Gbps.
-- **802.11ax (Wi-Fi 6 / 6E)**: 2.4, 5 y 6 GHz, OFDMA, 1024-QAM, Target Wake Time (TWT).
-- **802.11be (Wi-Fi 7)**: Anchos de canal de 320 MHz, 4096-QAM, Multi-Link Operation (MLO).
+---
 
-## Pilares de 5G New Radio (NR)
-1. **eMBB (Enhanced Mobile Broadband)**: Velocidades pico superiores a 10 Gbps.
-2. **URLLC (Ultra-Reliable Low Latency Communications)**: Latencias inferiores a 1 ms para vehículos autónomos e industria.
-3. **mMTC (Massive Machine Type Communications)**: Densidad masiva de dispositivos IoT (1 millón de disp/km²).
+## 🏛️ Evolución de Estándares Wi-Fi (IEEE 802.11)
 
-## Referencias
+| Nombre Comercial | Estándar IEEE | Año | Frecuencias | Velocidad Máxima Teórica | Tecnología Clave |
+|------------------|---------------|-----|-------------|--------------------------|------------------|
+| **Wi-Fi 1** | 802.11b | 1999 | 2.4 GHz | 11 Mbps | DSSS |
+| **Wi-Fi 2** | 802.11a | 1999 | 5 GHz | 54 Mbps | OFDM |
+| **Wi-Fi 3** | 802.11g | 2003 | 2.4 GHz | 54 Mbps | OFDM |
+| **Wi-Fi 4** | 802.11n | 2009 | 2.4 / 5 GHz | 600 Mbps | MIMO (hasta 4x4) |
+| **Wi-Fi 5** | 802.11ac | 2013 | 5 GHz | 6.93 Gbps | MU-MIMO, Canales 80/160 MHz, 256-QAM |
+| **Wi-Fi 6 / 6E** | 802.11ax | 2019 / 2021 | 2.4 / 5 / **6 GHz** | **9.6 Gbps** | **OFDMA**, 1024-QAM, BSS Coloring, TWT |
+| **Wi-Fi 7** | 802.11be | 2024 | 2.4 / 5 / 6 GHz | **46 Gbps** | Canales 320 MHz, 4096-QAM, MLO |
+
+---
+
+## 🧩 Protocolos de Seguridad Wi-Fi
+
+- **WEP**: Cifrado RC4 con claves de 64/128 bits e IVs cortos de 24 bits (completamente vulnerable).
+- **WPA**: Incorporó **TKIP** (Temporal Key Integrity Protocol) y comprobación de integridad Michael.
+- **WPA2**: Estándar basado en **IEEE 802.11i** con cifrado robusto **AES-CCMP**.
+- **WPA3**: Protocolo actual obligatorio. Sustituye el handshake de 4 vías por **SAE (Simultaneous Authentication of Equals)** basado en protocolo Dragonfly (inmune a ataques de diccionario offline). En modo Enterprise utiliza cifrado de **192 bits**.
+
+---
+
+## 📱 Tecnologías Móviles 5G NR (3GPP)
+
+- **Pilares de 5G NR**:
+  1. **eMBB (Enhanced Mobile Broadband)**: Alta velocidad de descarga (hasta 10-20 Gbps).
+  2. **URLLC (Ultra-Reliable Low-Latency Communications)**: Latencia ultra baja (<1 ms) para vehículos autónomos e industria 4.0.
+  3. **mMTC (Massive Machine-Type Communications)**: Conexión simultánea de hasta $10^6$ dispositivos IoT por $	ext{km}^2$.
+- **Modos de Despliegue**:
+  - **NSA (Non-Standalone)**: Señalización sobre núcleo 4G (EPC) y radio 5G NR.
+  - **SA (Standalone)**: Radio 5G NR conectada directamente al nuevo núcleo nativo **5G Core (5GC)**.
+
+---
+
+## 🎯 Datos Clave para Oposiciones TAI
+
+| Parámetro | Especificación Técnica |
+|-----------|------------------------|
+| Wi-Fi 6 Estándar | **IEEE 802.11ax** (OFDMA, 1024-QAM) |
+| Banda nueva en Wi-Fi 6E / 7 | **Banda de 6 GHz** |
+| Autenticación WPA3 | **SAE** (Simultaneous Authentication of Equals) |
+| Latencia objetivo URLLC | **< 1 milisegundo** |
+
+---
+
+## 🔗 Referencias Cruzadas
 - Fuente: [[wiki/sources/bloque4-tema06|Resumen Bloque 4 - Tema 06]]
-- Medios: [[wiki/concepts/transmission-media-and-modes|Medios y Modos de Transmisión]]
-
+- Concepto: [[wiki/concepts/transmission-media-and-modes|Medios de Transmisión Guiados y No Guiados]]

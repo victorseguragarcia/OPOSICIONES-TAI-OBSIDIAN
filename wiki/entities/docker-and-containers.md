@@ -1,11 +1,11 @@
 ---
-title: "Docker y Tecnologías de Contenedores"
+title: "Docker y Motores de Contenedores"
 type: "entity"
 tags:
-  - containers
   - docker
+  - containers
+  - oci
   - devops
-  - virtualization
 sources:
   - "raw/sources/bloque4-tema03.md"
 created: "2026-08-17"
@@ -13,25 +13,53 @@ updated: "2026-08-17"
 aliases:
   - "Docker"
   - "Contenedores"
-  - "Containerization"
 ---
 
-# Docker y Tecnologías de Contenedores
+# Docker y Motores de Contenedores
 
-**Docker** es una plataforma de virtualización a nivel de sistema operativo que permite empaquetar aplicaciones y sus dependencias en contenedores ligeros, portables y reproducibles.
+**Docker** es una plataforma de software de código abierto que automatiza el despliegue de aplicaciones dentro de **contenedores de software**, proporcionando una capa adicional de abstracción y automatización de virtualización a nivel de sistema operativo sobre Linux.
 
-## Mecanismos del Kernel Subyacentes
-- **Linux Namespaces**: Proveen aislamiento de recursos (`pid`, `net`, `ipc`, `mnt`, `uts`, `user`).
-- **Control Groups (cgroups)**: Limitan y monitorizan el consumo de CPU, memoria, I/O y red.
-- **Union File Systems (Overlay2)**: Capas de almacenamiento de solo lectura con una capa superior modificable (Copy-on-Write).
+---
 
-## Objetos Docker
-- **Dockerfile**: Receta declarativa de construcción de imágenes.
-- **Docker Image**: Plantilla inmutable de solo lectura.
-- **Container**: Instancia en ejecución de una imagen.
+## 🏛️ Primitivas del Kernel de Linux Subyacentes
 
-## Referencias
+1. **Namespaces (Aislamiento de Recursos)**:
+   - `pid`: Aislamiento del árbol de procesos (el proceso principal dentro del contenedor es PID 1).
+   - `net`: Interfaces de red virtuales, tablas de enrutamiento y puertos propios.
+   - `mnt`: Puntos de montaje del sistema de ficheros.
+   - `ipc`: Comunicación entre procesos (memoria compartida, colas de mensajes).
+   - `uts`: Nombre de host (*hostname*) y dominio.
+   - `user`: Mapeo de UIDs/GIDs (permite ser root dentro del contenedor y usuario sin privilegios fuera).
+2. **Control Groups (cgroups v1/v2)**:
+   - Medición y limitación estricta de recursos de hardware: CPU (`cpu.shares`, `cpuset`), Memoria RAM (`memory.limit_in_bytes`, swap), I/O de disco y ancho de banda de red.
+3. **Union File Systems (Overlay2)**:
+   - Sistema de almacenamiento por capas inmutables de solo lectura apiladas (*Image Layers*) con una fina capa superior efímera de lectura/escritura (*Container Layer*).
+
+---
+
+## 🎯 Instrucciones del Dockerfile y Comandos
+
+- `FROM`: Define la imagen base.
+- `RUN`: Ejecuta comandos durante la construcción de la imagen.
+- `COPY` / `ADD`: Copia ficheros del host a la imagen (`ADD` soporta descompresión tar y URLs).
+- `CMD` vs `ENTRYPOINT`: `ENTRYPOINT` fija el ejecutable principal; `CMD` proporciona los parámetros por defecto modificables por CLI.
+- `EXPOSE`: Documenta los puertos de escucha.
+- Comandos CLI: `docker build -t app:v1 .`, `docker run -d -p 8080:80 --name web app:v1`, `docker ps`, `docker logs -f web`, `docker exec -it web bash`.
+
+---
+
+## 🎯 Datos Clave para Oposiciones TAI
+
+| Elemento | Especificación Técnica |
+|----------|------------------------|
+| Primitivas Kernel | **Namespaces** (Aislamiento) + **cgroups** (Límites de recursos) |
+| Driver de Almacenamiento | **Overlay2** (UnionFS) |
+| Runtime de Bajo Nivel OCI | **runc** |
+| Runtime de Alto Nivel | **containerd** / **CRI-O** |
+
+---
+
+## 🔗 Referencias Cruzadas
 - Fuente: [[wiki/sources/bloque4-tema03|Resumen Bloque 4 - Tema 03]]
-- Orquestación: [[wiki/entities/kubernetes|Kubernetes]]
-- Concepto: [[wiki/concepts/virtualization-and-cloud-computing|Virtualización y Cloud Computing]]
-
+- Entidad: [[wiki/entities/kubernetes|Kubernetes]]
+- Síntesis: [[wiki/synthesis/virtualization-vs-containerization-comparison|Comparativa: Máquinas Virtuales vs Contenedores]]

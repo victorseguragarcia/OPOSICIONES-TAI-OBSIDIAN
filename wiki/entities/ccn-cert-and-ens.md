@@ -1,45 +1,71 @@
 ---
-title: "CCN-CERT y Esquema Nacional de Seguridad (ENS)"
+title: "CCN-CERT, Guías CCN-STIC y Esquema Nacional de Seguridad (ENS)"
 type: "entity"
 tags:
-  - ens
   - ccn-cert
-  - ciberseguridad
-  - administracion-publica
-  - regulacion
+  - ens
+  - cni
+  - magerit
+  - public-sector-security
 sources:
+  - "raw/sources/bloque4-tema05.md"
   - "raw/sources/bloque4-tema09.md"
 created: "2026-08-17"
 updated: "2026-08-17"
 aliases:
-  - "ENS"
   - "CCN-CERT"
+  - "ENS"
   - "Esquema Nacional de Seguridad"
-  - "Guías CCN-STIC"
 ---
 
-# CCN-CERT y Esquema Nacional de Seguridad (ENS)
+# CCN-CERT, Guías CCN-STIC y Esquema Nacional de Seguridad (ENS)
 
-Marco normativo y organizativo de la ciberseguridad en el sector público español (Real Decreto 311/2022 regulador del ENS).
+El **CCN-CERT** es el Centro Criptológico Nacional - Computer Emergency Response Team, adscrito al **Centro Nacional de Inteligencia (CNI)**, responsable de la ciberseguridad del Sector Público español y del cumplimiento del **Esquema Nacional de Seguridad (ENS)**.
 
-## El CCN-CERT
-- Es la Capacidad de Respuesta a Incidentes de Seguridad del **Centro Criptológico Nacional (CCN)** adscrito al CNI.
-- Responsable de la coordinación de ciberincidentes de origen estatal y administración pública.
-- Emite las reconocidas **Guías CCN-STIC** con directrices de bastionado y configuración segura.
+---
 
-## Dimensiones de Seguridad del ENS
-El ENS categoriza los sistemas en niveles **Básico, Medio o Alto** en función de 5 dimensiones:
-1. **Disponibilidad (D)**
-2. **Autenticidad (A)**
-3. **Integridad (I)**
-4. **Confidencialidad (C)**
-5. **Trazabilidad (T)**
+## 🏛️ Marco Legal y Normativo
 
-## Principios Básicos del ENS
-- Seguridad integral, gestión de riesgos, prevención, detección, respuesta, vigilancia continua y reevaluación periódica.
+- **Regulación del ENS**: **Real Decreto 311/2022**, de 3 de mayo (derogó el RD 3/2010 para adaptarse a las nuevas amenazas y a la Directiva NIS).
+- **Ámbito de Aplicación**: Obligatorio para toda la Administración General del Estado (AGE), Administraciones Autonómicas, Entidades Locales y entidades privadas que les presten servicios tecnológicos.
+- **Dimensiones de Seguridad del ENS (CITAD)**:
+  - **C**: Confidencialidad
+  - **I**: Integridad
+  - **T**: Trazabilidad
+  - **A**: Autenticidad
+  - **D**: Disponibilidad
+- **Categorías de los Sistemas**:
+  - **BÁSICA**: Daño limitado en caso de incidente.
+  - **MEDIA**: Daño grave sobre los servicios o derechos ciudadanos.
+  - **ALTA**: Daño muy grave sobre la seguridad nacional, infraestructuras críticas o servicios esenciales.
 
-## Referencias
+---
+
+## 🧩 Herramientas y Guías CCN-STIC
+
+- **Guías CCN-STIC**: Normas de seguridad de obligado cumplimiento o buenas prácticas (ej. Guía 800 para el ENS, serie 400 para comunicaciones seguras).
+- **Herramientas del CCN-CERT**:
+  - **LUCIA**: Gestión unificada de incidentes y cibercrisis.
+  - **CARMEN**: Detección de Amenazas Persistentes Avanzadas (APT).
+  - **CLARA**: Auditoría y verificación de cumplimiento de configuraciones en Windows y Linux.
+  - **INES**: Declaración y auditoría del Estado de Seguridad del ENS.
+  - **PILAR**: Análisis y gestión cuantitativa/cualitativa de riesgos según metodología **MAGERIT v3**.
+  - **REYES**: Plataforma de ciberinteligencia y compartición de IOCs.
+
+---
+
+## 🎯 Datos Clave para Oposiciones TAI
+
+| Elemento | Especificación Legal / Técnica |
+|----------|--------------------------------|
+| Real Decreto Vigente del ENS | **Real Decreto 311/2022** (3 de mayo de 2022) |
+| Organismo Adscripción CCN | **Centro Nacional de Inteligencia (CNI)** (Ley 11/2002) |
+| Categorías de Seguridad ENS | **Básica, Media, Alta** |
+| Dimensiones de Seguridad | **Confidencialidad, Integridad, Trazabilidad, Autenticidad, Disponibilidad (CITAD)** |
+| Metodología de Riesgos Oficial | **MAGERIT v3** (Herramienta PILAR) |
+
+---
+
+## 🔗 Referencias Cruzadas
 - Fuente: [[wiki/sources/bloque4-tema09|Resumen Bloque 4 - Tema 09]]
-- Detección: [[wiki/entities/siem-and-ids-ips|Sistemas SIEM e IDS/IPS]]
-- Perímetro: [[wiki/entities/firewalls-and-vpn|Cortafuegos y Redes Privadas Virtuales (VPN)]]
-
+- Síntesis: [[wiki/synthesis/security-frameworks-ens-magerit-ccn|Marco de Seguridad Pública: ENS, MAGERIT y CCN-STIC]]

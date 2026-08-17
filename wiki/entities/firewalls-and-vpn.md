@@ -1,12 +1,10 @@
 ---
-title: "Cortafuegos y Redes Privadas Virtuales (VPN)"
+title: "Cortafuegos, Redes Privadas Virtuales (VPN) e IPsec"
 type: "entity"
 tags:
   - firewalls
   - vpn
   - ipsec
-  - wireguard
-  - security
   - network-security
 sources:
   - "raw/sources/bloque4-tema09.md"
@@ -16,26 +14,45 @@ aliases:
   - "Firewalls"
   - "VPN"
   - "IPsec"
-  - "Seguridad Perimetral"
 ---
 
-# Cortafuegos y Redes Privadas Virtuales (VPN)
+# Cortafuegos, Redes Privadas Virtuales (VPN) e IPsec
 
-Tecnologías centrales para el aislamiento perimetral y la interconexión cifrada de sedes y usuarios remotos.
+Los **cortafuegos** y las **VPNs** constituyen las tecnologías fundamentales de protección perimetral e interconexión segura de redes sobre infraestructuras públicas.
 
-## Tipologías de Cortafuegos
-1. **Filtrado de Paquetes Stateless**: Inspección básica de IPs, puertos y flags TCP en Capa 3/4.
-2. **Stateful Inspection**: Mantiene una tabla de estado de conexiones para autorizar respuestas legítimas.
-3. **Next-Generation Firewalls (NGFW)**: Inspección profunda de paquetes (DPI) en Capa 7, control de aplicaciones y prevención de amenazas integrada.
-4. **WAF (Web Application Firewall)**: Protección especializada contra ataques web (OWASP Top 10: SQLi, XSS, CSRF).
+---
 
-## Tecnologías VPN
-- **IPsec**: Protocolo en Capa 3 con modos Transporte y Túnel. Protocolos AH (autenticación e integridad) y ESP (cifrado y autenticación).
-- **SSL/TLS VPN** (OpenVPN): Opera en Capa de Transporte/Aplicación.
-- **WireGuard**: Protocolo VPN moderno, simple y de alto rendimiento en el kernel Linux.
+## 🏛️ Protocolos IPsec (IP Security - RFC 4301)
 
-## Referencias
+Operan en la **Capa de Red (Nivel 3)** y constan de dos protocolos de seguridad y un protocolo de gestión de claves:
+
+1. **AH (Authentication Header - RFC 4302, Protocolo IP 51)**:
+   - Proporciona autenticación de origen e integridad sin cifrado (**NO aporta confidencialidad**).
+   - Incompatible con NAT (el reemplazo de IPs por NAT rompe el hash de integridad de la cabecera IP).
+2. **ESP (Encapsulating Security Payload - RFC 4303, Protocolo IP 50)**:
+   - Proporciona **confidencialidad (cifrado)**, autenticación e integridad.
+   - Compatible con NAT mediante **NAT-Traversal (NAT-T)** encapsulando en **UDP puerto 4500**.
+3. **IKE (Internet Key Exchange - IKEv2 RFC 7296)**:
+   - Negocia las Asociaciones de Seguridad (SA) y claves criptográficas sobre el puerto **500 UDP**.
+
+### Modos de Operación de IPsec
+- **Modo Transporte**: Protege solo la carga útil (*payload*); la cabecera IP original queda visible. Empleado en comunicaciones host-a-host directas.
+- **Modo Túnel**: Encapsula el paquete IP original completo dentro de un nuevo paquete IP con una nueva cabecera externa. Empleado en VPNs Site-to-Site y Remote Access.
+
+---
+
+## 🎯 Datos Clave para Oposiciones TAI
+
+| Protocolo / Función | Valor Técnico |
+|---------------------|---------------|
+| Protocolo IP AH | **Protocolo 51** (Solo autenticación/integridad) |
+| Protocolo IP ESP | **Protocolo 50** (Cifrado + autenticación) |
+| Puertos IKE / NAT-Traversal | **500 UDP** (IKE) / **4500 UDP** (NAT-T) |
+| Puerto OpenVPN Estándar | **1194 UDP/TCP** |
+
+---
+
+## 🔗 Referencias Cruzadas
 - Fuente: [[wiki/sources/bloque4-tema09|Resumen Bloque 4 - Tema 09]]
-- Normativa: [[wiki/entities/ccn-cert-and-ens|CCN-CERT y Esquema Nacional de Seguridad (ENS)]]
 - Concepto: [[wiki/concepts/network-security-and-perimeter-defense|Seguridad en Redes y Defensa Perimetral]]
-
+- Síntesis: [[wiki/synthesis/security-frameworks-ens-magerit-ccn|Marco de Seguridad Pública: ENS, MAGERIT y CCN-STIC]]

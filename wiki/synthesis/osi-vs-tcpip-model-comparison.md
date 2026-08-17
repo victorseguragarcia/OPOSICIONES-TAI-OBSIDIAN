@@ -1,5 +1,5 @@
 ---
-title: "Comparativa de Arquitecturas: Modelo ISO-OSI vs TCP-IP"
+title: "Comparativa: Modelo de Referencia ISO-OSI vs Pila de Protocolos TCP-IP"
 type: "synthesis"
 tags:
   - synthesis
@@ -12,26 +12,32 @@ sources:
 created: "2026-08-17"
 updated: "2026-08-17"
 aliases:
-  - "OSI vs TCP-IP"
-  - "Comparativa Modelos de Red"
+  - "OSI vs TCP/IP"
+  - "Comparativa OSI y TCP/IP"
 ---
 
-# Comparativa de Arquitecturas: Modelo ISO-OSI vs TCP-IP
+# Comparativa: Modelo de Referencia ISO-OSI vs Pila de Protocolos TCP-IP
 
-Análisis comparativo de los dos modelos de referencia más importantes en ingeniería de redes para oposiciones de informática.
+Matriz de contraste técnico y conceptual entre los dos modelos fundamentales de redes de ordenadores.
 
-## Tabla Comparativa
+---
 
-| Dimensión | [[wiki/concepts/osi-and-tcp-ip-models\|Modelo ISO-OSI]] | [[wiki/concepts/osi-and-tcp-ip-models\|Modelo TCP-IP]] |
-| :--- | :--- | :--- |
-| **Desarrollo** | Teórico / Académico (ISO / ITU-T) | Práctico / Operativo (DARPA / IETF) |
-| **Número de Capas** | 7 Capas | 4 Capas |
-| **Capa Aplicación** | Descompuesta en Aplicación (7), Presentación (6) y Sesión (5) | Una única capa de Aplicación integrando formateo y sesión |
-| **Capa de Red** | Soporta servicios orientados y no orientados a conexión | Solo servicio de datagramas no orientado a conexión (IP) |
-| **Capa de Transporte** | Solo orientada a conexión | Orientada a conexión (TCP) y No orientada (UDP) |
-| **Adopción Real** | Modelo de referencia conceptual | Estándar universal de Internet |
+## 🏛️ Matriz Comparativa Estructural
 
-## Referencias
+| Criterio | Modelo de Referencia ISO-OSI | Pila de Protocolos TCP/IP |
+|----------|------------------------------|---------------------------|
+| **Origen / Organismo** | Desarrollado por ISO e ITU-T (estándar formal teórico) | Desarrollado por DARPA y formalizado por IETF (estándar práctico) |
+| **Número de Capas** | **7 Capas** estrictamente definidas | **4 Capas** (o 5 en modelo híbrido didáctico) |
+| **Filosofía de Diseño** | Define claramente **Servicios, Interfaces y Protocolos** antes de su implementación | Los protocolos surgieron primero; el modelo describió la arquitectura existente |
+| **Capa de Transporte** | Soporta servicios orientados a conexión y no orientados | Soporta ambos (**TCP** orientado a conexión, **UDP** no orientado) |
+| **Capa de Red** | Soporta servicios con conexión (X.25) y sin conexión (CLNS) | **Solo sin conexión (Protocolo IP / Datagramas)** |
+| **Sesión y Presentación** | Capas independientes dedicadas (5 y 6) | Integradas directamente en la **Capa de Aplicación** |
+| **Adopción en el Mundo Real** | Éxito teórico conceptual; escasa adopción comercial directa | **El estándar de facto absoluto de Internet y redes modernas** |
+
+---
+
+## 🔗 Referencias Cruzadas
 - Fuente: [[wiki/sources/bloque4-tema07|Resumen Bloque 4 - Tema 07]]
-- Protocolos: [[wiki/entities/ipv4-and-ipv6|IPv4 e IPv6]], [[wiki/entities/tcp-and-udp|TCP y UDP]]
-
+- Concepto: [[wiki/concepts/osi-and-tcp-ip-models|Modelos Arquitectónicos ISO-OSI y TCP-IP]]
+- Entidad: [[wiki/entities/ipv4-and-ipv6|Protocolos de Red: IPv4 e IPv6]]
+- Entidad: [[wiki/entities/tcp-and-udp|Protocolos de Transporte: TCP y UDP]]

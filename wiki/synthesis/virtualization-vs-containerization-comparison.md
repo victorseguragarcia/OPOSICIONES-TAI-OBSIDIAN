@@ -1,5 +1,5 @@
 ---
-title: "Comparativa de Arquitecturas: Máquinas Virtuales vs Contenedores"
+title: "Comparativa Arquitectónica: Máquinas Virtuales vs Contenedores"
 type: "synthesis"
 tags:
   - synthesis
@@ -13,26 +13,35 @@ sources:
 created: "2026-08-17"
 updated: "2026-08-17"
 aliases:
-  - "VMs vs Contenedores"
+  - "VM vs Containers"
   - "Virtualización vs Contenedores"
 ---
 
-# Comparativa de Arquitecturas: Máquinas Virtuales vs Contenedores
+# Comparativa Arquitectónica: Máquinas Virtuales vs Contenedores
 
-Evaluación de trade-offs entre aislamiento a nivel de hardware (Virtualización tradicional) y aislamiento a nivel de sistema operativo (Contenedores).
+Análisis comparativo entre la virtualización basada en hipervisores (máquinas virtuales completas) y la virtualización ligera a nivel de sistema operativo (contenedores).
 
-## Matriz de Arquitectura
+---
 
-| Parámetro | [[wiki/concepts/virtualization-and-cloud-computing\|Máquinas Virtuales (VMs)]] | [[wiki/entities/docker-and-containers\|Contenedores (Docker)]] |
-| :--- | :--- | :--- |
-| **Capa de Aislamiento** | Aislamiento completo de hardware mediante hipervisor | Aislamiento de procesos mediante namespaces y cgroups en el kernel anfitrión |
-| **Sistema Operativo Invitado** | Cada VM ejecuta su propio SO completo (Guest OS) | Comparten el mismo kernel del SO anfitrión |
-| **Tiempo de Arranque** | Minutos / decenas de segundos | Milisegundos / pocos segundos |
-| **Consumo de Recursos** | Alto (requiere asignar RAM, vCPU y almacenamiento dedicado) | Mínimo (comparte memoria y binarios base con Copy-on-Write) |
-| **Rendimiento I/O** | Ligera penalización por emulación/paravirtualización | Rendimiento cercano al nativo (*Near-Bare-Metal*) |
-| **Orquestación Típica** | VMware vSphere, OpenStack, Proxmox | [[wiki/entities/kubernetes\|Kubernetes (K8s)]], Docker Swarm |
+## 🏛️ Matriz de Comparación Arquitectónica
 
-## Referencias
-- Fuente: [[wiki/sources/bloque4-tema02|Resumen Bloque 4 - Tema 02]] y [[wiki/sources/bloque4-tema03|Resumen Bloque 4 - Tema 03]]
-- Entidades: [[wiki/entities/docker-and-containers|Docker]], [[wiki/entities/kubernetes|Kubernetes]]
+| Característica | Máquinas Virtuales (VMs) | Contenedores (Docker / OCI) |
+|----------------|--------------------------|-----------------------------|
+| **Nivel de Abstracción** | **Hardware completo** (CPU, RAM, Disco, BIOS) | **Sistema Operativo (Espacio de Usuario)** |
+| **Capa de Virtualización** | **Hipervisor** (ESXi, Hyper-V, KVM) | **Motor de Contenedores** (Docker, containerd) |
+| **Sistema Operativo Invitado** | Requiere un **Guest OS completo e independiente** | **Comparte el Kernel del SO Anfitrión (Host)** |
+| **Tiempo de Arranque** | Minutos (arranque de SO completo) | **Milisegundos a Segundos** |
+| **Consumo de Recursos** | Alto (Gigabytes de RAM/disco por VM) | Muy bajo (Megabytes de memoria por contenedor) |
+| **Densidad de Despliegue** | Decenas de VMs por host físico | Cientos o miles de contenedores por host |
+| **Aislamiento y Seguridad** | **Muy alto** (Aislamiento por hardware/anillos) | Alto (Basado en **Namespaces** y **cgroups**) |
+| **Portabilidad** | Dependiente del formato de disco virtual (VMDK/VHDX) | **Total** mediante imágenes estándar OCI |
+| **Orquestación Típica** | VMware vSphere, OpenStack, Proxmox | **Kubernetes (K8s)**, Docker Swarm |
 
+---
+
+## 🔗 Referencias Cruzadas
+- Fuente: [[wiki/sources/bloque4-tema02|Resumen Bloque 4 - Tema 02]]
+- Fuente: [[wiki/sources/bloque4-tema03|Resumen Bloque 4 - Tema 03]]
+- Entidad: [[wiki/entities/docker-and-containers|Docker y Contenedores]]
+- Entidad: [[wiki/entities/kubernetes|Kubernetes]]
+- Concepto: [[wiki/concepts/virtualization-and-cloud-computing|Virtualización y Cloud]]
