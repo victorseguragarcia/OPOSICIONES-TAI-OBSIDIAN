@@ -181,7 +181,7 @@
 
 ---
 
-### 🔵 3. Conocimientos Concretos, Guías de Síntesis y Tablas de Examen (49 Guías)
+### 🔵 3. Conocimientos Concretos, Guías de Síntesis y Tablas de Examen (52 Guías)
 
 - [[wiki/synthesis/active-directory-and-ldap-guide|Guía Comparativa y Práctica de Active Directory y LDAP]]
 - [[wiki/synthesis/actos-nulos-vs-anulables-guia|Guía de Invalidez: Actos Nulos de Pleno Derecho vs Actos Anulables]]
@@ -192,6 +192,7 @@
 - [[wiki/synthesis/bloque3-tai-oposiciones-master-guide|Guía Maestra de Bloque 3: Desarrollo de Sistemas, Metodologías, BBDD y Software (TAI)]]
 - [[wiki/synthesis/bloque4-tai-oposiciones-master-guide|Guía Maestra de Bloque 4: Sistemas, Comunicaciones, Redes y Seguridad (TAI)]]
 - [[wiki/synthesis/constitucion-espanola-articulos-clave-cheatsheet|Cheatsheet de Artículos Clave de la Constitución Española para TAI]]
+- [[wiki/synthesis/contratacion-publica-tic-lcsp-cheatsheet|Cheatsheet: Contratación Pública TIC y Ley 9/2017 (LCSP) en la AGE]]
 - [[wiki/synthesis/cpd-tier-levels-and-disaster-recovery|Guía de Niveles TIER de CPD, RAID y Planes de Continuidad de Negocio]]
 - [[wiki/synthesis/cpu-scheduling-and-deadlocks-cheatsheet|Cheatsheet de Planificación de CPU, Algoritmos y Bloqueos Mutuos (Deadlocks)]]
 - [[wiki/synthesis/cryptography-algorithms-comparison|Comparativa Exhaustiva de Algoritmos Criptográficos y Firma Digital]]
@@ -223,9 +224,11 @@
 - [[wiki/synthesis/servicios-comunes-age-administracion-electronica-cheatsheet|Cheatsheet de Servicios Comunes, Plataformas e Infraestructuras Digitales de la AGE]]
 - [[wiki/synthesis/software-testing-and-qa-guide|Guía de Pruebas de Software, Métricas de Cobertura y McCabe]]
 - [[wiki/synthesis/subnetting-and-ipv4-ipv6-addressing-guide|Guía Práctica de Subnetting, VLSM y Direccionamiento IPv4 e IPv6]]
+- [[wiki/synthesis/supuestos-practicos-bloque2-ieee754-paginacion-deadlocks|Supuesto Práctico Oficial TAI: IEEE 754, Paginación de Memoria y Algoritmo del Banquero (Bloque II)]]
 - [[wiki/synthesis/supuestos-practicos-bloque3-java-php-programacion|Supuesto Práctico Resuelto: Trazas de Código Java y PHP (Bucles, Herencia y Operadores)]]
 - [[wiki/synthesis/supuestos-practicos-bloque3-normalizacion-bbdd|Supuesto Práctico Resuelto: Normalización de Bases de Datos (1FN a 5FN) y SQL DDL]]
 - [[wiki/synthesis/supuestos-practicos-bloque3-simulacro-examen-tai|Supuesto Práctico Oficial TAI: Simulacro Completo de Examen Bloque III (20 Preguntas)]]
+- [[wiki/synthesis/supuestos-practicos-bloque4-redes-subnetting-ad-ens|Supuesto Práctico Oficial TAI: Redes, Subnetting VLSM, Active Directory y Seguridad ENS (Bloque IV)]]
 - [[wiki/synthesis/sysadmin-commands-windows-and-linux-cheatsheet|Cheatsheet de Comandos de Administración de Sistemas Windows y Linux]]
 - [[wiki/synthesis/trebep-situaciones-y-regimen-disciplinario-guia|Guía del TREBEP: Situaciones Administrativas y Régimen Disciplinario]]
 - [[wiki/synthesis/virtual-memory-and-paging-algorithms-guide|Guía de Memoria Virtual, Paginación y Algoritmos de Reemplazo]]
@@ -234,14 +237,16 @@
 - [[wiki/synthesis/windows-server-administration-guide|Guía Maestra de Administración de Windows Server para Oposiciones TAI]]
 ---
 
-## 📝 4. Banco de Tests y Autoevaluaciones (3 Baterías)
+## 📝 4. Banco de Tests y Autoevaluaciones (5 Baterías)
 
 ### 📝 Tests y Simulacros por Bloques (1 Recursos)
 - [[wiki/tests/bloques/index-tests-bloques|Banco de Tests por Bloques del Temario TAI]]
 
-### 📝 Tests por Temas Individuales (2 Recursos)
+### 📝 Tests por Temas Individuales (4 Recursos)
 - [[wiki/tests/temas/index-tests-temas|Banco de Tests por Temas Individuales del Temario TAI]]
 - [[wiki/tests/temas/test-bloque1-tema01-constitucion|Test de Autoevaluación: Tema 1 - La Constitución Española de 1978]]
+- [[wiki/tests/temas/test-bloque1-tema07-lpacap|Test de Autoevaluación: Bloque 1 - Tema 07 (Ley 39/2015 LPACAP)]]
+- [[wiki/tests/temas/test-bloque4-tema07-redes-tcp-ip|Test de Autoevaluación: Bloque 4 - Tema 07 (Redes TCP/IP y Subnetting)]]
 
 ---
 
