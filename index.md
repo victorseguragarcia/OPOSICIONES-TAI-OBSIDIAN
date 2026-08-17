@@ -257,9 +257,9 @@
 ### 📝 Tests por Temas Individuales (35 Recursos)
 - [[wiki/tests/temas/index-tests-temas|Banco de Tests por Temas Individuales del Temario TAI]]
 - [[wiki/tests/temas/test-bloque1-tema01-constitucion|Test de Autoevaluación: Bloque 1 - Tema 01 (La Constitución Española de 1978 y la Corona)]]
-- [[wiki/tests/temas/test-bloque1-tema02-gobierno-age|Test de Autoevaluación: Bloque 1 - Tema 02 (El Gobierno y la Ley 50/1997)]]
-- [[wiki/tests/temas/test-bloque1-tema03-organizacion-territorial|Test de Autoevaluación: Bloque 1 - Tema 03 (Organización Territorial del Estado y CCAA)]]
-- [[wiki/tests/temas/test-bloque1-tema04-union-europea|Test de Autoevaluación: Bloque 1 - Tema 04 (La Unión Europea y el Derecho Comunitario)]]
+- [[wiki/tests/temas/test-bloque1-tema02-gobierno-age|Test Tema 02: El Gobierno, Ley 50/1997, Altos Cargos y AGE (Nivel Avanzado)]]
+- [[wiki/tests/temas/test-bloque1-tema03-organizacion-territorial|Test Tema 03: Organización Territorial del Estado, CCAA y Régimen Local (Nivel Avanzado)]]
+- [[wiki/tests/temas/test-bloque1-tema04-union-europea|Test Tema 04: La Unión Europea, Instituciones y Fuentes del Derecho Comunitario (Nivel Avanzado)]]
 - [[wiki/tests/temas/test-bloque1-tema05-trebep|Test de Autoevaluación: Bloque 1 - Tema 05 (El TREBEP y Régimen Disciplinario)]]
 - [[wiki/tests/temas/test-bloque1-tema06-igualdad|Test de Autoevaluación: Bloque 1 - Tema 06 (Políticas de Igualdad y Violencia de Género)]]
 - [[wiki/tests/temas/test-bloque1-tema07-lpacap|Test de Autoevaluación: Bloque 1 - Tema 07 (Ley 39/2015 LPACAP)]]
