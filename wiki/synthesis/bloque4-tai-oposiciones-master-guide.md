@@ -1,5 +1,5 @@
 ---
-title: "Guía Maestra de Bloque 4: Sistemas y Comunicaciones (TAI)"
+title: "Guía Maestra de Bloque 4: Sistemas, Comunicaciones, Redes y Seguridad (TAI)"
 type: "synthesis"
 tags:
   - synthesis
@@ -7,6 +7,13 @@ tags:
   - bloque-4
   - oposiciones
   - tai
+  - redes
+  - tcp-ip
+  - windows-server
+  - linux
+  - virtualizacion
+  - ens
+  - seguridad
 sources:
   - "raw/sources/bloque4-tema01.md"
   - "raw/sources/bloque4-tema02.md"
@@ -25,36 +32,65 @@ aliases:
   - "Bloque 4 TAI Master Guide"
 ---
 
-# Guía Maestra de Bloque 4: Sistemas y Comunicaciones (TAI)
+# 🔴 Guía Maestra de Bloque 4: Sistemas, Comunicaciones, Redes y Seguridad (TAI)
 
-Esta guía de síntesis reúne el mapa integral de conocimientos del **Bloque 4 (Sistemas y Comunicaciones)** del temario de Técnicos Auxiliares de Informática (TAI) de la Administración General del Estado.
-
----
-
-## 🗺️ Mapa Temático del Bloque 4
-
-| Tema | Área Temática Principal | Resumen de Fuente | Entidades Clave | Conceptos Clave |
-|------|-------------------------|-------------------|-----------------|-----------------|
-| **Tema 01** | Administración de Sistemas Operativos y Software de Base | [[wiki/sources/bloque4-tema01\|Resumen Tema 01]] | [[wiki/entities/linux-kernel\|Linux Kernel]], [[wiki/entities/windows-server\|Windows Server]], [[wiki/entities/active-directory\|Active Directory]], [[wiki/entities/ldap-protocol\|LDAP]], [[wiki/entities/bash-and-shell-scripting\|Bash]], [[wiki/entities/powershell\|PowerShell]] | [[wiki/concepts/operating-system-architecture\|Arquitectura SO]], [[wiki/concepts/process-and-memory-management\|Gestión Procesos/Memoria]], [[wiki/concepts/directory-services-and-identity\|Servicios Directorio]] |
-| **Tema 02** | Administración de BBDD, Virtualización y Cloud | [[wiki/sources/bloque4-tema02\|Resumen Tema 02]] | [[wiki/entities/relational-databases-rdbms\|RDBMS]], [[wiki/entities/nosql-databases\|NoSQL]], [[wiki/entities/raid-storage\|Almacenamiento RAID/SAN]] | [[wiki/concepts/database-normalization-and-acid\|Normalización/ACID]], [[wiki/concepts/virtualization-and-cloud-computing\|Virtualización/Cloud]], [[wiki/concepts/datacenter-infrastructure-and-disaster-recovery\|CPD y Continuidad]] |
-| **Tema 03** | Servidores de Correo, Contenedores y Microservicios | [[wiki/sources/bloque4-tema03\|Resumen Tema 03]] | [[wiki/entities/smtp-imap-pop3\|SMTP/IMAP/POP3]], [[wiki/entities/docker-and-containers\|Docker]], [[wiki/entities/kubernetes\|Kubernetes]] | [[wiki/concepts/microservices-and-middleware\|Microservicios/Middleware]] |
-| **Tema 04** | Administración de Redes LAN y Servicios Básicos | [[wiki/sources/bloque4-tema04\|Resumen Tema 04]] | [[wiki/entities/dns-protocol\|DNS]], [[wiki/entities/dhcp-protocol\|DHCP]] | [[wiki/concepts/routing-and-switching-mechanisms\|Switching/Routing LAN]], [[wiki/concepts/network-security-and-perimeter-defense\|Seguridad Perimetral]] |
-| **Tema 05** | Seguridad, Criptografía, CPDs y Gestión de Incidencias | [[wiki/sources/bloque4-tema05\|Resumen Tema 05]] | [[wiki/entities/tls-ssl-protocols\|TLS/SSL]], [[wiki/entities/siem-and-ids-ips\|SIEM/IDS/IPS]], [[wiki/entities/snmp-protocol\|SNMP]] | [[wiki/concepts/cryptography-and-digital-signatures\|Criptografía/Firma]], [[wiki/concepts/datacenter-infrastructure-and-disaster-recovery\|Niveles TIER TIA-942]], [[wiki/concepts/incident-management-and-itil\|ITIL/Incidencias]] |
-| **Tema 06** | Medios de Transmisión, Modulación y Wi-Fi/5G | [[wiki/sources/bloque4-tema06\|Resumen Tema 06]] | [[wiki/entities/wi-fi-and-mobile-standards\|Wi-Fi (802.11) y 5G NR]], [[wiki/entities/ethernet-and-ieee-standards\|Ethernet]] | [[wiki/concepts/transmission-media-and-modes\|Medios Transmisión/Fibra]] |
-| **Tema 07** | Modelos ISO-OSI / TCP-IP, IPv4 e IPv6 | [[wiki/sources/bloque4-tema07\|Resumen Tema 07]] | [[wiki/entities/ipv4-and-ipv6\|IPv4 e IPv6]], [[wiki/entities/tcp-and-udp\|TCP y UDP]] | [[wiki/concepts/osi-and-tcp-ip-models\|Modelos OSI vs TCP/IP]] |
-| **Tema 08** | Arquitectura de Internet, Protocolos Web y Servicios | [[wiki/sources/bloque4-tema08\|Resumen Tema 08]] | [[wiki/entities/http-protocol\|HTTP/1-3]], [[wiki/entities/bgp-and-ospf\|OSPF y BGP]], [[wiki/entities/tls-ssl-protocols\|TLS 1.3]] | [[wiki/concepts/internet-architecture-and-web-protocols\|Arquitectura Internet]] |
-| **Tema 09** | Seguridad en Redes, ENS, CCN-CERT y VPNs | [[wiki/sources/bloque4-tema09\|Resumen Tema 09]] | [[wiki/entities/ccn-cert-and-ens\|CCN-CERT y ENS]], [[wiki/entities/firewalls-and-vpn\|Firewalls, IPsec y VPN]] | [[wiki/concepts/network-security-and-perimeter-defense\|Seguridad Redes]] |
-| **Tema 10** | Topologías LAN, IEEE 802 y Control de Acceso | [[wiki/sources/bloque4-tema10\|Resumen Tema 10]] | [[wiki/entities/ethernet-and-ieee-standards\|Familia IEEE 802]] | [[wiki/concepts/lan-topologies-and-mac-protocols\|Topologías y CSMA/CD]] |
+Compendio estructurado de estudio para el **Bloque 4**, integrando modelos de red ISO/OSI y TCP/IP, subnetting IPv4/IPv6, protocolos de transporte y aplicación, administración avanzada de Windows Server y Linux, virtualización y Esquema Nacional de Seguridad (ENS).
 
 ---
 
-## 📚 Síntesis Monográficas Recomendadas
-- [[wiki/synthesis/network-ports-and-protocols-cheatsheet|Cheatsheet de Puertos y Protocolos de Red]]
-- [[wiki/synthesis/osi-vs-tcpip-model-comparison|Comparativa: Modelo ISO-OSI vs TCP-IP]]
-- [[wiki/synthesis/ipv4-vs-ipv6-comparison|Comparativa Técnica de Direccionamiento: IPv4 vs IPv6]]
-- [[wiki/synthesis/virtualization-vs-containerization-comparison|Comparativa: Máquinas Virtuales vs Contenedores]]
-- [[wiki/synthesis/active-directory-and-ldap-guide|Guía Comparativa de Active Directory y LDAP]]
-- [[wiki/synthesis/cryptography-algorithms-comparison|Comparativa Exhaustiva de Algoritmos Criptográficos y Firma Digital]]
-- [[wiki/synthesis/cpd-tier-levels-and-disaster-recovery|Guía de Niveles TIER de CPD, RAID y Planes de Continuidad]]
-- [[wiki/synthesis/email-protocols-smtp-pop-imap-guide|Guía Completa de Protocolos de Correo y Seguridad SPF/DKIM/DMARC]]
-- [[wiki/synthesis/security-frameworks-ens-magerit-ccn|Marco de Seguridad Pública: ENS, MAGERIT y CCN-STIC]]
+## 🗺️ 1. Matriz de Temas Oficiales del Bloque 4 (10 Temas)
+
+| Tema | Materia Oficial | Fuente Oficial | Entidades Clave | Guías de Síntesis y Cheatsheets |
+|:---|:---|:---|:---|:---|
+| **Tema 01** | Conceptos de SO y Arquitectura | [[wiki/sources/bloque4-tema01|Resumen Tema 01]] | [[wiki/entities/docker-and-containers|Docker y Contenedores]] | [[wiki/synthesis/virtualization-vs-containerization-comparison|Comparativa VMs vs Contenedores]] |
+| **Tema 02** | Administración de Windows Server | [[wiki/sources/bloque4-tema02|Resumen Tema 02]] | [[wiki/entities/windows-server|Windows Server]], [[wiki/entities/active-directory|Active Directory]] | [[wiki/synthesis/windows-server-administration-guide|Guía Maestra Windows Server]], [[wiki/synthesis/active-directory-and-ldap-guide|LDAP / Kerberos]] |
+| **Tema 03** | Administración de Sistemas Linux | [[wiki/sources/bloque4-tema03|Resumen Tema 03]] | [[wiki/entities/linux-kernel|Linux Kernel]], [[wiki/entities/bash-and-shell-scripting|Bash Scripting]] | [[wiki/synthesis/sysadmin-commands-windows-and-linux-cheatsheet|Cheatsheet Comandos Sysadmin]] |
+| **Tema 04** | Redes LAN, DHCP y DNS | [[wiki/sources/bloque4-tema04|Resumen Tema 04]] | [[wiki/entities/dns-protocol|DNS]], [[wiki/entities/dhcp-protocol|DHCP]] | [[wiki/synthesis/network-ports-and-protocols-cheatsheet|Cheatsheet Puertos de Red]] |
+| **Tema 05** | Almacenamiento, CPD, RAID y Backup | [[wiki/sources/bloque4-tema05|Resumen Tema 05]] | [[wiki/entities/raid-storage|Sistemas RAID]] | [[wiki/synthesis/cpd-tier-levels-and-disaster-recovery|Guía TIER, RAID y DRP]] |
+| **Tema 06** | Medios de Transmisión y Cableado | [[wiki/sources/bloque4-tema06|Resumen Tema 06]] | [[wiki/entities/optical-fiber-and-gpon|Fibra Óptica y GPON]] | [[wiki/synthesis/network-cabling-and-fiber-optics-guide|Guía Cableado y Fibras]] |
+| **Tema 07** | Modelo OSI, TCP/IP e IPv4/IPv6 | [[wiki/sources/bloque4-tema07|Resumen Tema 07]] | [[wiki/entities/tcp-and-udp|TCP y UDP]], [[wiki/entities/ipv4-and-ipv6|IPv4 e IPv6]] | [[wiki/synthesis/osi-vs-tcpip-model-comparison|Comparativa OSI vs TCP/IP]], [[wiki/synthesis/subnetting-and-ipv4-ipv6-addressing-guide|Subnetting VLSM]] |
+| **Tema 08** | Internet, Protocolos Web y Correo | [[wiki/sources/bloque4-tema08|Resumen Tema 08]] | [[wiki/entities/http-protocol|Protocolo HTTP]], [[wiki/entities/smtp-imap-pop3|SMTP, IMAP, POP3]] | [[wiki/synthesis/http-status-codes-and-headers-guide|Guía Códigos HTTP]], [[wiki/synthesis/email-protocols-smtp-pop-imap-guide|Guía Email]] |
+| **Tema 09** | Seguridad, Criptografía y ENS | [[wiki/sources/bloque4-tema09|Resumen Tema 09]] | [[wiki/entities/ccn-cert-and-ens|CCN-CERT y ENS]], [[wiki/entities/tls-ssl-protocols|TLS / SSL]] | [[wiki/synthesis/ens-rd-311-2022-and-ccn-stic-guide|Guía Exhaustiva ENS]], [[wiki/synthesis/cryptography-algorithms-comparison|Criptografía]] |
+| **Tema 10** | Topologías LAN, IEEE 802 y Switching | [[wiki/sources/bloque4-tema10|Resumen Tema 10]] | [[wiki/entities/ethernet-and-ieee-standards|Estándares IEEE Ethernet]] | CSMA/CD vs CSMA/CA, Spanning Tree (STP) |
+
+---
+
+## 🟣 2. Núcleos Conceptuales de Alta Frecuencia de Examen
+
+### A. Modelo OSI vs Pila TCP/IP y Protocolos Clave
+- **OSI (7 Capas)**: *Física, Enlace, Red, Transporte, Sesión, Presentación, Aplicación*.
+- **TCP/IP (4 Capas)**: *Acceso a Red, Internet, Transporte, Aplicación*.
+- **Puertos Esenciales**:
+  - **DNS**: 53 (UDP consultas, TCP transferencias de zona).
+  - **DHCP**: 67 (Servidor), 68 (Cliente).
+  - **HTTP**: 80 | **HTTPS / TLS**: 443 | **HTTP/3**: 443 (sobre protocolo **QUIC / UDP**).
+  - **SSH**: 22 | **Telnet**: 23 | **FTP**: 20 (Datos) y 21 (Control).
+  - **SMTP**: 25 / 587 | **IMAP**: 143 / 993 (SSL) | **POP3**: 110 / 995 (SSL).
+  - **LDAP**: 389 / 636 (LDAPS) | **Kerberos**: 88.
+
+---
+
+### B. Subnetting IPv4 y Direccionamiento IPv6
+- **Subnetting IPv4**:
+  - `/24`: $256$ IPs ($254$ hosts) | Máscara `255.255.255.0`
+  - `/25`: $128$ IPs ($126$ hosts) | Máscara `255.255.255.128`
+  - `/26`: $64$ IPs ($62$ hosts) | Máscara `255.255.255.192`
+  - `/27`: $32$ IPs ($30$ hosts) | Máscara `255.255.255.224`
+  - `/28`: $16$ IPs ($14$ hosts) | Máscara `255.255.255.240`
+  - `/29`: $8$ IPs ($6$ hosts) | Máscara `255.255.255.248`
+  - `/30`: $4$ IPs ($2$ hosts - enlaces punto a punto) | Máscara `255.255.255.252`
+- **IPv6**: 128 bits expresados en 8 grupos hexadecimales de 16 bits. Sin broadcast (sustituido por *Multicast* y *Anycast*). Autoconfiguración SLAAC mediante EUI-64 (invierte el 7º bit del OUI MAC e inserta `FF:FE`).
+
+---
+
+### C. Esquema Nacional de Seguridad (ENS - RD 311/2022)
+- **7 Principios Básicos**: Seguridad integral, gestión de riesgos, prevención/reacción/recuperación, líneas de defensa, reevaluación periódica, función diferenciada de seguridad y vigilancia continua.
+- **5 Dimensiones de Seguridad**: **Disponibilidad (D), Autenticidad (A), Integridad (I), Confidencialidad (C) y Trazabilidad (T)**.
+- **3 Categorías de Seguridad**: **Básica, Media y Alta** (determinadas por el impacto mayor de las dimensiones).
+
+---
+
+## 🔵 3. Batería de Autoevaluación del Bloque 4
+- [[wiki/synthesis/network-ports-and-protocols-cheatsheet|Cheatsheet Completo de Puertos y Protocolos]]
+- [[wiki/synthesis/subnetting-and-ipv4-ipv6-addressing-guide|Guía Práctica de Subnetting VLSM]]
+- [[wiki/tests/bloques/index-tests-bloques|Simulacros Globales de Bloque 4]]
