@@ -32,8 +32,8 @@
 - [[wiki/sources/bloque2-tema05|Resumen Fuente: Bloque 2 - Tema 05: Ficheros, Organización y Sistemas de Archivos: FAT32, NTFS, ext4, XFS]]
 
 ## 🔴 Bloque 3: Desarrollo de Sistemas (9 Temas)
-- [[wiki/sources/bloque3-tema01|Resumen Fuente: Bloque 3 - Tema 01 (UD012107): Modelado de Datos, Modelo E/R y Normalización]]
-- [[wiki/sources/bloque3-tema02|Resumen Fuente: Bloque 3 - Tema 02 (UD012109): Lenguajes de Programación, Paradigmas y Compiladores]]
+- [[wiki/sources/bloque3-tema01|Resumen Fuente: Bloque 3 - Tema 01 (UD012107): Modelado de Datos, Modelo E/R, Diseño Relacional y Normalización]]
+- [[wiki/sources/bloque3-tema02|Resumen Fuente: Bloque 3 - Tema 02 (UD012109): Lenguajes de Programación, Paradigmas, Compiladores y Jerarquía de Chomsky]]
 - [[wiki/sources/bloque3-tema03|Resumen Fuente: Bloque 3 - Tema 03 (UD012110): Lenguajes de Interrogación SQL, Stored Procedures y Triggers]]
 - [[wiki/sources/bloque3-tema04|Resumen Fuente: Bloque 3 - Tema 04 (UD012111): POO, Patrones de Diseño GoF y UML]]
 - [[wiki/sources/bloque3-tema05|Resumen Fuente: Bloque 3 - Tema 05 (UD012112): Componentes, Java EE / Jakarta EE y Plataforma .NET]]
@@ -104,7 +104,7 @@
 - [[wiki/entities/optical-fiber-and-gpon|Fibra Óptica, Ventanas de Transmisión y Redes GPON/FTTH]]
 - [[wiki/entities/peripheral-interfaces-usb-pcie-nvme|Interfaces Periféricas: USB, PCIe, NVMe y Thunderbolt]]
 - [[wiki/entities/powershell|PowerShell y Cmdlets en Entornos Windows]]
-- [[wiki/entities/programming-languages-and-compilers|Lenguajes de Programación, Paradigmas y Compiladores]]
+- [[wiki/entities/programming-languages-and-compilers|Lenguajes de Programación, Paradigmas, Compiladores y Jerarquía de Chomsky]]
 - [[wiki/entities/raid-storage|Sistemas de Almacenamiento RAID, DAS, NAS y SAN]]
 - [[wiki/entities/relational-database-modeling-and-normalization|Modelado de Datos Relacional, Modelo E/R y Normalización Rigurosa]]
 - [[wiki/entities/relational-databases-rdbms|Bases de Datos Relacionales (RDBMS)]]
