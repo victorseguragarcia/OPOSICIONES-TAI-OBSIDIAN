@@ -228,7 +228,20 @@ Para una experiencia óptima en Obsidian, se recomienda configurar:
 
 ---
 
-## 📜 Licencia y Autoría
-- **Autor / Mantenedor**: Víctor Segura García ([@victorseguragarcia](https://github.com/victorseguragarcia))
-- **Destinatarios**: Estudiantes y opositores al Cuerpo de **Técnicos Auxiliares de Informática (TAI) de la Administración General del Estado (AGE)**.
-- **Licencia**: Código y notas bajo licencia libre para fines educativos y de preparación de oposiciones.
+## 📜 11. Créditos, Reconocimientos y Licencia
+
+### 👤 Autoría y Mantenedor
+- **Autor**: **Víctor Segura García** ([@victorseguragarcia](https://github.com/victorseguragarcia))
+- **Objetivo**: Proyecto libre y abierto para la comunidad de opositores al Cuerpo de **Técnicos Auxiliares de Informática (TAI) de la Administración General del Estado (AGE)**.
+
+### 🌟 Créditos y Reconocimientos
+- **Arquitectura de Base de Conocimiento**: Basado en el concepto y diseño arquitectónico del **LLM Wiki Pattern** formulado por **[Andrej Karpathy](https://github.com/karpathy)** (*ex-OpenAI / Tesla AI*) para sistemas de conocimiento persistente con modelos de lenguaje.
+- **Programa Oficial y Normativa**: Basado en las convocatorias y temarios oficiales del **[INAP](https://www.inap.es/)** (*Instituto Nacional de Administración Pública*) y del **Ministerio para la Transformación Digital y de la Función Pública**.
+- **Entorno de Visualización**: Diseñado para y optimizado sobre el ecosistema de notas enlazadas de **[Obsidian.md](https://obsidian.md/)**.
+
+### 📄 Licencia
+Este proyecto se distribuye bajo la licencia **MIT License**. Puedes consultar los términos completos en el archivo [`LICENSE`](LICENSE).
+
+```
+MIT License - Copyright (c) 2026 Víctor Segura García
+```
