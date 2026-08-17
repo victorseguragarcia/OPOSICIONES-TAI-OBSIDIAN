@@ -1,5 +1,5 @@
 ---
-title: "Tutorial 05: Synthesis and Filing Back"
+title: "Tutorial 06: Synthesis and Filing Back"
 type: "tutorial"
 tags:
   - tutorial
@@ -8,10 +8,12 @@ tags:
 created: "2026-08-17"
 updated: "2026-08-17"
 aliases:
-  - "Tutorial 05"
+  - "Tutorial 06"
+  - "tutorial-06"
+  - "tutorial-06-synthesis-and-filing"
 ---
 
-# Tutorial 05: Synthesis and Filing Back
+# Tutorial 06: Synthesis and Filing Back
 
 This tutorial demonstrates generating high-level syntheses and filing valuable query answers back into the knowledge base.
 
@@ -22,4 +24,4 @@ This tutorial demonstrates generating high-level syntheses and filing valuable q
 4. This ensures valuable analytical synthesis is persisted and available for future queries.
 
 ## Next Step
-Proceed to [[tutorials/06-query-and-lint|Tutorial 06: Query and Lint]].
+Proceed to [[tutorials/07-query-and-lint|Tutorial 07: Query and Lint]].

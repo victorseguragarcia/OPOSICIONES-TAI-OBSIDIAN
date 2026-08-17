@@ -1,5 +1,5 @@
 ---
-title: "Tutorial 04: Indexing and Logging"
+title: "Tutorial 05: Indexing and Logging"
 type: "tutorial"
 tags:
   - tutorial
@@ -8,10 +8,12 @@ tags:
 created: "2026-08-17"
 updated: "2026-08-17"
 aliases:
-  - "Tutorial 04"
+  - "Tutorial 05"
+  - "tutorial-05"
+  - "tutorial-05-index-and-logging"
 ---
 
-# Tutorial 04: Indexing and Logging
+# Tutorial 05: Indexing and Logging
 
 This tutorial covers keeping `index.md` and `log.md` up to date on every operation.
 
@@ -29,4 +31,4 @@ This tutorial covers keeping `index.md` and `log.md` up to date on every operati
 - Enables quick inspection via Git history or terminal tools.
 
 ## Next Step
-Proceed to [[tutorials/05-synthesis-and-filing|Tutorial 05: Synthesis and Filing]].
+Proceed to [[tutorials/06-synthesis-and-filing|Tutorial 06: Synthesis and Filing Back]].

@@ -1,5 +1,5 @@
 ---
-title: "Tutorial 06: Query and Lint"
+title: "Tutorial 07: Query and Lint"
 type: "tutorial"
 tags:
   - tutorial
@@ -9,11 +9,12 @@ tags:
 created: "2026-08-17"
 updated: "2026-08-17"
 aliases:
-  - "Tutorial 06"
+  - "Tutorial 07"
   - "tutorial-06-query-and-lint"
+  - "tutorial-07-query-and-lint"
 ---
 
-# Tutorial 06: Query and Lint
+# Tutorial 07: Query and Lint
 
 This final tutorial validates the full lifecycle of the LLM Wiki: querying indexed knowledge and running automated health checks.
 

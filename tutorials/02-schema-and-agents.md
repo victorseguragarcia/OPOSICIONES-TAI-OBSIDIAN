@@ -79,4 +79,4 @@ python scripts/lint.py
 ```
 
 ## Next Step
-Proceed to [[tutorials/03-cross-referencing|Tutorial 03: Cross-Referencing and Graph Topology]].
+Proceed to [[tutorials/03-entity-and-concept-extraction|Tutorial 03: Entity and Concept Extraction]].

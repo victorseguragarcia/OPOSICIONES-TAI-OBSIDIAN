@@ -33,3 +33,9 @@ Append-only chronological timeline of wiki operations.
 - Documented YAML frontmatter standard and agent execution routines in `tutorials/02-schema-and-agents.md`.
 - Updated `index.md` catalog and test suites.
 - Passed full integrity lint check.
+
+## [2026-08-17] tutorial | Tutorial 03: Entity and Concept Extraction
+- Created comprehensive guide in `tutorials/03-entity-and-concept-extraction.md`.
+- Documented ontology differentiation (Entities in `wiki/entities/` vs. Concepts in `wiki/concepts/`).
+- Streamlined full tutorial sequence (01 to 07) and updated master index.
+- All integrity and linter checks passed with zero errors.

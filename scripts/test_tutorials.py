@@ -27,11 +27,11 @@ def test_tutorials():
     tutorials = [
         "01-raw-ingest.md",
         "02-schema-and-agents.md",
-        "02-entity-concept-extraction.md",
-        "03-cross-referencing.md",
-        "04-index-and-logging.md",
-        "05-synthesis-and-filing.md",
-        "06-query-and-lint.md",
+        "03-entity-and-concept-extraction.md",
+        "04-cross-referencing.md",
+        "05-index-and-logging.md",
+        "06-synthesis-and-filing.md",
+        "07-query-and-lint.md",
     ]
     for tut in tutorials:
         tut_path = ROOT_DIR / "tutorials" / tut

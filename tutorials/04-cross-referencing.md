@@ -1,17 +1,20 @@
 ---
-title: "Tutorial 03: Cross-Referencing and Graph Topology"
+title: "Tutorial 04: Cross-Referencing and Graph Topology"
 type: "tutorial"
 tags:
   - tutorial
   - cross-referencing
   - graph
+  - topology
 created: "2026-08-17"
 updated: "2026-08-17"
 aliases:
-  - "Tutorial 03"
+  - "Tutorial 04"
+  - "tutorial-04"
+  - "tutorial-04-cross-referencing"
 ---
 
-# Tutorial 03: Cross-Referencing and Graph Topology
+# Tutorial 04: Cross-Referencing and Graph Topology
 
 In this tutorial, we connect individual pages to form an associative knowledge web.
 
@@ -25,4 +28,4 @@ In this tutorial, we connect individual pages to form an associative knowledge w
 - Check links from [[wiki/concepts/persistent-llm-wiki|Persistent LLM Wiki]] to [[wiki/concepts/retrieval-augmented-generation|RAG]].
 
 ## Next Step
-Proceed to [[tutorials/04-index-and-logging|Tutorial 04: Indexing and Logging]].
+Proceed to [[tutorials/05-index-and-logging|Tutorial 05: Indexing and Logging]].

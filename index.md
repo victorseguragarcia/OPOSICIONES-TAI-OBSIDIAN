@@ -37,8 +37,8 @@ Welcome to the Master Index of the LLM Wiki. This catalog indexes all knowledge 
 ## 🛠️ Tutorials & Operations
 - [[tutorials/01-raw-ingest|Tutorial 01: Raw Source Ingestion]] — Ingestion pipeline from `raw/` to `wiki/sources/`.
 - [[tutorials/02-schema-and-agents|Tutorial 02: Schema and Agents]] — Defining frontmatter schemas, agent directives, and system prompts.
-- [[tutorials/02-entity-concept-extraction|Tutorial 02 (B): Entity & Concept Extraction]] — Extracting structured entities and concepts.
-- [[tutorials/03-cross-referencing|Tutorial 03: Cross-Referencing and Graph Topology]] — Building bidirectional links and graph density.
-- [[tutorials/04-index-and-logging|Tutorial 04: Indexing and Logging]] — Maintaining `index.md` and `log.md`.
-- [[tutorials/05-synthesis-and-filing|Tutorial 05: Synthesis and Filing Back]] — Generating syntheses and filing back into `wiki/synthesis/`.
-- [[tutorials/06-query-and-lint|Tutorial 06: Query and Lint]] — Querying the wiki and validating health with linter.
+- [[tutorials/03-entity-and-concept-extraction|Tutorial 03: Entity and Concept Extraction]] — Extracting structured entities and concepts.
+- [[tutorials/04-cross-referencing|Tutorial 04: Cross-Referencing and Graph Topology]] — Building bidirectional links and graph density.
+- [[tutorials/05-index-and-logging|Tutorial 05: Indexing and Logging]] — Maintaining `index.md` and `log.md`.
+- [[tutorials/06-synthesis-and-filing|Tutorial 06: Synthesis and Filing Back]] — Generating syntheses and filing back into `wiki/synthesis/`.
+- [[tutorials/07-query-and-lint|Tutorial 07: Query and Lint]] — Querying the wiki and validating health with linter.
