@@ -19,60 +19,70 @@ created: "2026-08-17"
 updated: "2026-08-17"
 ---
 
-# 🔴 Test Tema 05: SGBD Relacionales, Familias NoSQL y Teorema CAP
+# 🔴 Test de Autoevaluación: Bloque 2 - Tema 05 (SGBD Relacionales, NoSQL y Teorema CAP)
 
-Cuestionario de 10 preguntas tipo test con formato oficial de examen de la AGE (4 opciones, respuesta única, penalización de $-0.33$ por fallo).
+> [!info] 🎯 **Simulador Interactivo de Examen (Motor Nativo)**
+> Selecciona las opciones que consideres correctas y pulsa el botón **"✅ Corregir Examen"** al final para calcular tu nota oficial (Acierto: $+1.0$ \| Fallo: $-0.33$) con corrección visual verde/rojo y justificaciones.
 
----
-
-
-> [!info] 🎯 **Registro de Puntuación y Autoevaluación**
-> - **Aciertos (+1.0)**: ____ | **Fallos (-0.33)**: ____ | **En Blanco (0.0)**: ____
-> - **Nota Final**: **____ / 10.0** (Mínimo para aprobar: **5.0**)
-
----
-
-## ❓ Preguntas
-
-### 1. Según el Teorema CAP de Eric Brewer para sistemas distribuidos, ante la presencia inevitable de una partición de red ($P$), ¿qué dos garantías son mutuamente excluyentes?
-- [ ] a) Atomicidad y Durabilidad.
-- [ ] b) Consistencia estricta ($C$) y Disponibilidad ($A$).
-- [ ] c) Rendimiento y Seguridad.
-- [ ] d) Concurrencia y Aislamiento.
-
-### 2. ¿A qué familia de bases de datos NoSQL pertenece MongoDB, almacenando la información en documentos semiestructurados BSON (JSON binario)?
-- [ ] a) Clave-Valor.
-- [ ] b) Documental (*Document-oriented*).
-- [ ] c) Columnas Anchas (*Wide-Column Store*).
-- [ ] d) Grafos (*Graph Database*).
-
-### 3. ¿Qué modelo alternativo a ACID caracteriza a las bases de datos NoSQL distribuidas de alta disponibilidad (AP) como Apache Cassandra?
-- [ ] a) Modelo REST.
-- [ ] b) Modelo BASE (*Basically Available, Soft state, Eventual consistency*).
-- [ ] c) Modelo ANSI SPARC.
-- [ ] d) Modelo CRUD.
-
-### 4. ¿Cuál de los siguientes motores de base de datos NoSQL es un almacén Clave-Valor en memoria RAM de ultra alto rendimiento utilizado frecuentemente para caché y colas de mensajes?
-- [ ] a) Neo4j.
-- [ ] b) Redis.
-- [ ] c) PostgreSQL.
-- [ ] d) Apache CouchDB.
-
-### 5. En el modelo relacional tradicional, ¿qué propiedad de las transacciones ACID garantiza que las modificaciones realizadas por una transacción confirmada persistan incluso ante fallos catastróficos del sistema?
-- [ ] a) Atomicidad.
-- [ ] b) Consistencia.
-- [ ] c) Aislamiento.
-- [ ] d) Durabilidad (*Durability*).
-
----
-
-> [!question]- 🔍 Ver Plantilla y Solucionario Argumentado
-> ### Plantilla de Respuestas:
-> 1. **b** | 2. **b** | 3. **b** | 4. **b** | 5. **d**
->
-> ### Explicación Técnica:
-> - **Pregunta 1 (b)**: El Teorema CAP establece que en un sistema distribuido particionado ($P$) solo se puede garantizar Consistencia ($CP$) o Disponibilidad ($AP$).
-> - **Pregunta 2 (b)**: MongoDB es el motor NoSQL documental líder y utiliza BSON (*Binary JSON*).
-> - **Pregunta 3 (b)**: BASE: Disponibilidad básica, estado flexible y consistencia eventual.
-> - **Pregunta 4 (b)**: Redis es un almacén Clave-Valor en memoria RAM con soporte para estructuras complejas.
-> - **Pregunta 5 (d)**: Durabilidad asegura que los cambios de un `COMMIT` queden grabados permanentemente en almacenamiento no volátil.
+```tai-quiz
+{
+  "title": "Test de Autoevaluación: Bloque 2 - Tema 05 (SGBD Relacionales, NoSQL y Teorema CAP)",
+  "questions": [
+    {
+      "question": "Según el Teorema CAP de Eric Brewer para sistemas distribuidos, ante la presencia inevitable de una partición de red ($P$), ¿qué dos garantías son mutuamente excluyentes?",
+      "options": [
+        "Atomicidad y Durabilidad.",
+        "Consistencia estricta ($C$) y Disponibilidad ($A$).",
+        "Rendimiento y Seguridad.",
+        "Concurrencia y Aislamiento."
+      ],
+      "answer": "b",
+      "explanation": "El Teorema CAP establece que en un sistema distribuido particionado ($P$) solo se puede garantizar Consistencia ($CP$) o Disponibilidad ($AP$)."
+    },
+    {
+      "question": "¿A qué familia de bases de datos NoSQL pertenece MongoDB, almacenando la información en documentos semiestructurados BSON (JSON binario)?",
+      "options": [
+        "Clave-Valor.",
+        "Documental (*Document-oriented*).",
+        "Columnas Anchas (*Wide-Column Store*).",
+        "Grafos (*Graph Database*)."
+      ],
+      "answer": "b",
+      "explanation": "MongoDB es el motor NoSQL documental líder y utiliza BSON (*Binary JSON*)."
+    },
+    {
+      "question": "¿Qué modelo alternativo a ACID caracteriza a las bases de datos NoSQL distribuidas de alta disponibilidad (AP) como Apache Cassandra?",
+      "options": [
+        "Modelo REST.",
+        "Modelo BASE (*Basically Available, Soft state, Eventual consistency*).",
+        "Modelo ANSI SPARC.",
+        "Modelo CRUD."
+      ],
+      "answer": "b",
+      "explanation": "BASE: Disponibilidad básica, estado flexible y consistencia eventual."
+    },
+    {
+      "question": "¿Cuál de los siguientes motores de base de datos NoSQL es un almacén Clave-Valor en memoria RAM de ultra alto rendimiento utilizado frecuentemente para caché y colas de mensajes?",
+      "options": [
+        "Neo4j.",
+        "Redis.",
+        "PostgreSQL.",
+        "Apache CouchDB."
+      ],
+      "answer": "b",
+      "explanation": "Redis es un almacén Clave-Valor en memoria RAM con soporte para estructuras complejas."
+    },
+    {
+      "question": "En el modelo relacional tradicional, ¿qué propiedad de las transacciones ACID garantiza que las modificaciones realizadas por una transacción confirmada persistan incluso ante fallos catastróficos del sistema?",
+      "options": [
+        "Atomicidad.",
+        "Consistencia.",
+        "Aislamiento.",
+        "Durabilidad (*Durability*)."
+      ],
+      "answer": "d",
+      "explanation": "Durabilidad asegura que los cambios de un `COMMIT` queden grabados permanentemente en almacenamiento no volátil."
+    }
+  ]
+}
+```

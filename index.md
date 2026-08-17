@@ -256,7 +256,7 @@
 
 ### 📝 Tests por Temas Individuales (25 Recursos)
 - [[wiki/tests/temas/index-tests-temas|Banco de Tests por Temas Individuales del Temario TAI]]
-- [[wiki/tests/temas/test-bloque1-tema01-constitucion|Test de Autoevaluación: Tema 1 - La Constitución Española de 1978]]
+- [[wiki/tests/temas/test-bloque1-tema01-constitucion|Test de Autoevaluación: Bloque 1 - Tema 01 (La Constitución Española de 1978 y la Corona)]]
 - [[wiki/tests/temas/test-bloque1-tema02-gobierno-age|Test de Autoevaluación: Bloque 1 - Tema 02 (El Gobierno y la Ley 50/1997)]]
 - [[wiki/tests/temas/test-bloque1-tema03-organizacion-territorial|Test de Autoevaluación: Bloque 1 - Tema 03 (Organización Territorial del Estado y CCAA)]]
 - [[wiki/tests/temas/test-bloque1-tema04-union-europea|Test de Autoevaluación: Bloque 1 - Tema 04 (La Unión Europea y el Derecho Comunitario)]]
