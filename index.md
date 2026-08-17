@@ -59,9 +59,9 @@
 
 ---
 
-## 🟣 2. Subtemas: Entidades y Conceptos Teóricos (101 Fichas)
+## 🟣 2. Subtemas: Entidades y Conceptos Teóricos (106 Fichas)
 
-### 🟣 Entidades Técnicas y Normativas (64 Fichas)
+### 🟣 Entidades Técnicas y Normativas (68 Fichas)
 - [[wiki/entities/active-directory|Active Directory Domain Services (AD DS)]]
 - [[wiki/entities/aepd-agencia-proteccion-datos|Agencia Española de Protección de Datos (AEPD)]]
 - [[wiki/entities/attention-mechanism|Attention Mechanism]]
@@ -75,12 +75,15 @@
 - [[wiki/entities/cpu-architecture-von-neumann|Arquitectura de CPU y Modelo Von Neumann]]
 - [[wiki/entities/data-structures-trees-and-graphs|Estructuras de Datos: Pilas, Colas, Árboles y Grafos]]
 - [[wiki/entities/dhcp-protocol|Protocolo DHCP (Dynamic Host Configuration Protocol)]]
+- [[wiki/entities/dnie-dni-electronico|DNI Electrónico (DNIe 3.0 / DNI 4.0)]]
 - [[wiki/entities/dns-protocol|Protocolo DNS (Domain Name System)]]
 - [[wiki/entities/docker-and-containers|Docker y Motores de Contenedores]]
 - [[wiki/entities/dotnet-framework-and-clr|Plataforma Microsoft .NET y Entorno de Ejecución CLR]]
+- [[wiki/entities/esquema-nacional-interoperabilidad-eni|Esquema Nacional de Interoperabilidad (ENI - Real Decreto 4/2010)]]
 - [[wiki/entities/ethernet-and-ieee-standards|Estándares Ethernet y Familia IEEE 802]]
 - [[wiki/entities/file-systems-ntfs-ext4-fat32|Sistemas de Archivos: FAT32, NTFS, ext4 y XFS]]
 - [[wiki/entities/firewalls-and-vpn|Cortafuegos, Redes Privadas Virtuales (VPN) e IPsec]]
+- [[wiki/entities/firma-electronica-y-reglamento-eidas|Firma Electrónica, Servicios de Confianza y Reglamento eIDAS (UE 910/2014)]]
 - [[wiki/entities/git-version-control-system|Sistema de Control de Versiones Distribuido Git]]
 - [[wiki/entities/gobierno-y-age|El Gobierno y la Administración General del Estado (AGE)]]
 - [[wiki/entities/gof-design-patterns|Patrones de Diseño GoF (Gang of Four)]]
@@ -111,6 +114,7 @@
 - [[wiki/entities/rest-and-soap-web-services|Servicios Web: APIs RESTful y Protocolo SOAP]]
 - [[wiki/entities/rgpd-y-lopdgdd|RGPD (UE 2016/679) y LOPDGDD (Ley Orgánica 3/2018)]]
 - [[wiki/entities/scrum-and-agile-frameworks|Metodologías Ágiles: Scrum, Kanban y eXtreme Programming (XP)]]
+- [[wiki/entities/servicios-comunes-administracion-electronica|Servicios Comunes, Plataformas y Red SARA de la AGE]]
 - [[wiki/entities/siem-and-ids-ips|Sistemas SIEM, IDS e IPS de Monitorización y Seguridad]]
 - [[wiki/entities/smtp-imap-pop3|Protocolos de Correo Electrónico: SMTP, IMAP y POP3]]
 - [[wiki/entities/snmp-protocol|Protocolo SNMP (Simple Network Management Protocol)]]
@@ -127,7 +131,7 @@
 - [[wiki/entities/wi-fi-and-mobile-standards|Estándares Wi-Fi (IEEE 802.11) y Tecnologías Móviles (5G NR)]]
 - [[wiki/entities/windows-server|Windows Server: Arquitectura, Roles, Servicios y Administración de Dominios]]
 
-### 🟣 Conceptos Teóricos y Arquitecturas (37 Fichas)
+### 🟣 Conceptos Teóricos y Arquitecturas (38 Fichas)
 - [[wiki/concepts/cache-memory-and-coherence|Memoria Caché, Principios de Localidad y Coherencia]]
 - [[wiki/concepts/ci-cd-pipelines-and-devops|Pipelines CI/CD, DevOps y Calidad de Código]]
 - [[wiki/concepts/ciphers-modes-and-cryptanalysis|Modos de Operación en Cifrado en Bloque y Criptoanálisis]]
@@ -139,6 +143,7 @@
 - [[wiki/concepts/derechos-digitales-y-arco-pol|Derechos Ciudadanos ARCO-POL y Derechos Digitales (RGPD / LOPDGDD)]]
 - [[wiki/concepts/derechos-fundamentales-y-libertades-publicas|Derechos Fundamentales, Garantías Constitucionales y Recurso de Amparo]]
 - [[wiki/concepts/directory-services-and-identity|Servicios de Directorio y Gestión de Identidades]]
+- [[wiki/concepts/documento-y-expediente-electronico-nti|Documento Administrativo Electrónico, Expediente y Metadatos Mínimos (NTI)]]
 - [[wiki/concepts/eficacia-validez-y-nulidad-actos-administrativos|Eficacia, Validez, Nulidad y Anulabilidad de los Actos Administrativos]]
 - [[wiki/concepts/file-organization-and-access-methods|Organización de Ficheros y Métodos de Acceso]]
 - [[wiki/concepts/fuentes-derecho-comunitario|Fuentes del Derecho Comunitario y Principios de Primacía y Efecto Directo]]
@@ -168,11 +173,12 @@
 
 ---
 
-### 🔵 3. Conocimientos Concretos, Guías de Síntesis y Tablas de Examen (42 Guías)
+### 🔵 3. Conocimientos Concretos, Guías de Síntesis y Tablas de Examen (47 Guías)
 
 - [[wiki/synthesis/active-directory-and-ldap-guide|Guía Comparativa y Práctica de Active Directory y LDAP]]
 - [[wiki/synthesis/actos-nulos-vs-anulables-guia|Guía de Invalidez: Actos Nulos de Pleno Derecho vs Actos Anulables]]
 - [[wiki/synthesis/algorithms-complexity-and-sorting-matrix|Matriz Comparativa de Algoritmos de Ordenación y Complejidad Big-O]]
+- [[wiki/synthesis/bloque1-informatica-y-administracion-digital-master-guide|Guía Maestra de Informática, Administración Electrónica y Marco Digital de la AGE (Bloque 1)]]
 - [[wiki/synthesis/bloque1-tai-oposiciones-master-guide|Guía Maestra de Bloque 1: Administración Pública y Normativa (TAI)]]
 - [[wiki/synthesis/bloque2-tai-oposiciones-master-guide|Guía Maestra de Bloque 2: Tecnología Básica (TAI)]]
 - [[wiki/synthesis/bloque3-tai-oposiciones-master-guide|Guía Maestra de Bloque 3: Desarrollo de Sistemas (TAI)]]
@@ -181,9 +187,12 @@
 - [[wiki/synthesis/cpd-tier-levels-and-disaster-recovery|Guía de Niveles TIER de CPD, RAID y Planes de Continuidad de Negocio]]
 - [[wiki/synthesis/cryptography-algorithms-comparison|Comparativa Exhaustiva de Algoritmos Criptográficos y Firma Digital]]
 - [[wiki/synthesis/database-normalization-and-sql-cheatsheet|Cheatsheet de Normalización de Bases de Datos y Estándar ANSI SQL]]
+- [[wiki/synthesis/derechos-digitales-titulo-x-lopdgdd-cheatsheet|Cheatsheet de Derechos Digitales: Título X de la LOPDGDD (Artículos 79 al 97)]]
 - [[wiki/synthesis/email-protocols-smtp-pop-imap-guide|Guía Completa de Protocolos de Correo y Seguridad SPF/DKIM/DMARC]]
 - [[wiki/synthesis/ens-rd-311-2022-and-ccn-stic-guide|Guía Exhaustiva del Esquema Nacional de Seguridad (ENS RD 311/2022)]]
 - [[wiki/synthesis/file-systems-comparison-matrix|Matriz Comparativa de Sistemas de Archivos: FAT32, NTFS, ext4 y XFS]]
+- [[wiki/synthesis/firma-electronica-eidas-ley6-2020-dnie-guia|Guía de Identidad Digital, Reglamento eIDAS, Ley 6/2020 y DNI Electrónico (DNIe)]]
+- [[wiki/synthesis/gestion-documento-y-expediente-electronico-eni-guia|Guía del Documento y Expediente Electrónico, Metadatos Mínimos (NTI) y Archivo Único]]
 - [[wiki/synthesis/gof-design-patterns-cheatsheet|Cheatsheet de Patrones de Diseño GoF (Gang of Four)]]
 - [[wiki/synthesis/hardware-ports-and-buses-cheatsheet|Cheatsheet de Puertos, Buses y Velocidades de Transferencia]]
 - [[wiki/synthesis/http-status-codes-and-headers-guide|Guía de Códigos de Estado, Métodos y Cabeceras HTTP para TAI]]
@@ -202,6 +211,7 @@
 - [[wiki/synthesis/rest-vs-soap-comparison-guide|Guía Comparativa de Servicios Web: REST vs SOAP]]
 - [[wiki/synthesis/rgpd-lopdgdd-derechos-y-sanciones-guia|Guía del RGPD y LOPDGDD: Principios, Derechos ARCO-POL y Régimen Sancionador]]
 - [[wiki/synthesis/security-frameworks-ens-magerit-ccn|Marco de Seguridad Pública: Esquema Nacional de Seguridad (ENS), MAGERIT y CCN-STIC]]
+- [[wiki/synthesis/servicios-comunes-age-administracion-electronica-cheatsheet|Cheatsheet de Servicios Comunes, Plataformas e Infraestructuras Digitales de la AGE]]
 - [[wiki/synthesis/software-testing-and-qa-guide|Guía de Pruebas de Software, Métricas de Cobertura y McCabe]]
 - [[wiki/synthesis/subnetting-and-ipv4-ipv6-addressing-guide|Guía Práctica de Subnetting, VLSM y Direccionamiento IPv4 e IPv6]]
 - [[wiki/synthesis/supuestos-practicos-bloque3-java-php-programacion|Supuesto Práctico Resuelto: Trazas de Código Java y PHP (Bucles, Herencia y Operadores)]]
