@@ -1,0 +1,9 @@
+# Git Ignore for LLM Wiki
+.obsidian/workspace*
+.obsidian/cache/
+*.tmp
+*.temp
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
