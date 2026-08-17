@@ -1,146 +1,194 @@
 /* ==========================================================================
-   TAI INTERACTIVE EXAM ENGINE - LUXURY OBSIDIAN THEME
+   TAI INTERACTIVE EXAM ENGINE - ESTILO CORRECCIÓN INMEDIATA 1 A 1
    ========================================================================== */
 
 .tai-quiz-container {
   background: var(--background-secondary);
   border: 1px solid var(--background-modifier-border);
-  border-radius: 12px;
-  padding: 20px;
-  margin: 16px 0;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
-  font-family: var(--font-text);
+  border-radius: 14px;
+  padding: 22px;
+  margin: 18px 0;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
 }
 
 .tai-quiz-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 2px solid var(--tai-red-border, rgba(239, 83, 80, 0.3));
+  border-bottom: 2px solid rgba(239, 83, 80, 0.35);
   padding-bottom: 12px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .tai-quiz-title {
-  font-size: 1.3em;
+  font-size: 1.25em;
   font-weight: 700;
-  color: var(--tai-red-primary, #EF5350);
+  color: #EF5350;
 }
 
 .tai-quiz-score-badge {
   background: var(--background-primary);
   border: 1px solid var(--background-modifier-border);
   border-radius: 20px;
-  padding: 6px 14px;
-  font-weight: 600;
+  padding: 6px 16px;
   font-size: 0.95em;
   display: flex;
-  gap: 12px;
+  gap: 14px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
 }
 
-.tai-score-correct { color: #4CAF50; font-weight: bold; }
-.tai-score-wrong { color: #EF5350; font-weight: bold; }
-.tai-score-total { color: #42A5F5; font-weight: bold; }
+.tai-score-correct { color: #2E7D32; font-weight: 700; }
+.tai-score-wrong { color: #C62828; font-weight: 700; }
+.tai-score-total { color: #1976D2; font-weight: 700; }
+
+.tai-quiz-mode-banner {
+  font-size: 0.85em;
+  color: var(--text-muted);
+  margin-bottom: 18px;
+  font-style: italic;
+}
 
 .tai-question-card {
   background: var(--background-primary);
   border: 1px solid var(--background-modifier-border);
   border-radius: 10px;
-  padding: 16px;
+  padding: 16px 18px;
   margin-bottom: 18px;
-  transition: all 0.2s ease;
+  transition: border-color 0.2s;
+}
+
+.tai-question-card.answered {
+  border-color: rgba(66, 165, 245, 0.4);
+}
+
+.tai-question-header {
+  margin-bottom: 6px;
+}
+
+.tai-q-num {
+  font-size: 0.8em;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #42A5F5;
+  background: rgba(66, 165, 245, 0.1);
+  padding: 2px 8px;
+  border-radius: 12px;
 }
 
 .tai-question-text {
   font-weight: 600;
   font-size: 1.05em;
-  margin-bottom: 12px;
+  margin: 8px 0 14px 0;
   color: var(--text-normal);
+  line-height: 1.45;
+}
+
+.tai-options-container {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
 }
 
 .tai-option-item {
   display: flex;
   align-items: center;
   padding: 10px 14px;
-  margin: 6px 0;
   border-radius: 8px;
   border: 1px solid var(--background-modifier-border);
+  background: var(--background-secondary-alt, var(--background-primary));
   cursor: pointer;
   transition: all 0.15s ease-in-out;
   user-select: none;
 }
 
-.tai-option-item:hover {
-  background: rgba(128, 128, 128, 0.08);
-  border-color: var(--interactive-accent);
-}
-
-.tai-option-item.selected {
-  background: rgba(66, 165, 245, 0.15);
+.tai-option-item:hover:not(.is-correct):not(.is-wrong) {
+  background: rgba(66, 165, 245, 0.1);
   border-color: #42A5F5;
-  font-weight: 500;
+  transform: translateX(3px);
 }
 
-/* --- Estados de Corrección Visual --- */
-.tai-option-item.is-correct {
-  background: rgba(76, 175, 80, 0.18) !important;
-  border-color: #4CAF50 !important;
-  color: #2E7D32 !important;
-  font-weight: 600 !important;
-}
-
-.tai-option-item.is-wrong {
-  background: rgba(239, 83, 80, 0.18) !important;
-  border-color: #EF5350 !important;
-  color: #C62828 !important;
-  text-decoration: line-through;
-}
-
-.tai-option-radio {
-  margin-right: 12px;
-  cursor: pointer;
-  accent-color: #42A5F5;
-}
-
-.tai-explanation-box {
-  margin-top: 10px;
-  padding: 10px 14px;
-  background: rgba(76, 175, 80, 0.08);
-  border-left: 4px solid #4CAF50;
-  border-radius: 4px;
-  font-size: 0.9em;
+.tai-opt-letter {
+  font-weight: 700;
+  margin-right: 10px;
   color: var(--text-muted);
 }
 
-.tai-quiz-actions {
-  display: flex;
-  gap: 12px;
+.tai-opt-text {
+  flex-grow: 1;
+}
+
+/* --- Feedback Inmediato: Verde Acierto --- */
+.tai-option-item.is-correct {
+  background: rgba(76, 175, 80, 0.18) !important;
+  border-color: #4CAF50 !important;
+  color: #1B5E20 !important;
+  font-weight: 600 !important;
+  box-shadow: 0 0 8px rgba(76, 175, 80, 0.2);
+}
+
+/* --- Feedback Inmediato: Rojo Fallo --- */
+.tai-option-item.is-wrong {
+  background: rgba(239, 83, 80, 0.18) !important;
+  border-color: #EF5350 !important;
+  color: #B71C1C !important;
+  text-decoration: line-through;
+}
+
+.tai-feedback-badge-correct {
+  margin-left: auto;
+  font-size: 0.85em;
+  color: #2E7D32;
+  font-weight: 700;
+  background: rgba(76, 175, 80, 0.2);
+  padding: 2px 8px;
+  border-radius: 10px;
+}
+
+.tai-feedback-badge-wrong {
+  margin-left: auto;
+  font-size: 0.85em;
+  color: #C62828;
+  font-weight: 700;
+  background: rgba(239, 83, 80, 0.2);
+  padding: 2px 8px;
+  border-radius: 10px;
+}
+
+.tai-explanation-box {
+  margin-top: 14px;
+  padding: 12px 16px;
+  background: rgba(66, 165, 245, 0.08);
+  border-left: 4px solid #42A5F5;
+  border-radius: 6px;
+  font-size: 0.92em;
+  line-height: 1.5;
+  color: var(--text-normal);
+  animation: fadeIn 0.25s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.tai-quiz-footer {
   margin-top: 20px;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .tai-btn {
-  padding: 10px 20px;
+  padding: 9px 18px;
   border-radius: 8px;
   font-weight: 600;
   cursor: pointer;
-  border: none;
+  border: 1px solid var(--background-modifier-border);
+  background: var(--background-primary);
+  color: var(--text-normal);
   transition: all 0.2s;
 }
 
-.tai-btn-primary {
-  background: #4CAF50;
-  color: white;
-}
-
-.tai-btn-primary:hover {
-  background: #43A047;
-}
-
-.tai-btn-secondary {
-  background: var(--background-modifier-border);
-  color: var(--text-normal);
-}
-
-.tai-btn-secondary:hover {
-  background: rgba(128, 128, 128, 0.25);
+.tai-btn:hover {
+  background: rgba(128, 128, 128, 0.15);
+  border-color: var(--text-muted);
 }
