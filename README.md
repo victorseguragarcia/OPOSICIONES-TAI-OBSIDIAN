@@ -59,8 +59,8 @@ Estado y Normativa   Hardware, SO y SGBD             Sistemas y Web      Comunic
 ### Paso 1: Clonar el Repositorio
 Abre tu terminal o consola Git y clona el proyecto en tu equipo:
 ```bash
-git clone https://github.com/victorseguragarcia/OPO-TAI-OBSIDIAN.git
-cd OPO-TAI-OBSIDIAN
+git clone https://github.com/victorseguragarcia/OPOSICIONES-TAI-OBSIDIAN.git
+cd OPOSICIONES-TAI-OBSIDIAN
 ```
 
 ### Paso 2: Abrir en Obsidian
