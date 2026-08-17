@@ -1,0 +1,216 @@
+{
+  "nodes": [
+    {
+      "id": "4d002b9a9ecb4b82",
+      "type": "text",
+      "x": 0,
+      "y": 0,
+      "width": 500,
+      "height": 220,
+      "color": "#E53935",
+      "text": "# \ud83c\udfdb\ufe0f Temario Oficial TAI (AGE)\n\n**Mapa Mental Jer\u00e1rquico de Estudio**\n- \ud83d\udd34 **Temas Principales**: Rojo (`#E53935`)\n- \ud83d\udfe3 **Subtemas / Entidades**: Morado (`#8E24AA`)\n- \ud83d\udd35 **Datos Concretos / S\u00edntesis**: Azul (`#1E88E5`)"
+    },
+    {
+      "id": "4041bb29906a4147",
+      "type": "text",
+      "x": -1100,
+      "y": -700,
+      "width": 420,
+      "height": 180,
+      "color": "#E53935",
+      "text": "## \ud83d\udd34 Bloque 1: Administraci\u00f3n P\u00fablica y Normativa\n\n10 Temas oficiales: CE 1978, AGE, CCAA, UE, TREBEP, Igualdad, LPACAP 39/2015, LRJSP 40/2015, RGPD, Transparencia."
+    },
+    {
+      "id": "f95a0b96ba124774",
+      "type": "file",
+      "file": "wiki/entities/constitucion-espanola-1978.md",
+      "x": -640,
+      "y": -730,
+      "width": 380,
+      "height": 220,
+      "color": "#8E24AA"
+    },
+    {
+      "id": "d2727549ccd1416d",
+      "type": "file",
+      "file": "wiki/synthesis/bloque1-tai-oposiciones-master-guide.md",
+      "x": -640,
+      "y": -490,
+      "width": 380,
+      "height": 220,
+      "color": "#1E88E5"
+    },
+    {
+      "id": "33d29930e03340f5",
+      "type": "text",
+      "x": 600,
+      "y": -700,
+      "width": 420,
+      "height": 180,
+      "color": "#E53935",
+      "text": "## \ud83d\udd34 Bloque 2: Tecnolog\u00eda B\u00e1sica\n\n5 Temas oficiales: CPU Von Neumann, RAM/Cach\u00e9, USB/PCIe/NVMe, C2, IEEE 754, Unicode, Algoritmos Big-O, Sistemas Archivos."
+    },
+    {
+      "id": "aba7ec65f9e14946",
+      "type": "file",
+      "file": "wiki/entities/cpu-architecture-von-neumann.md",
+      "x": 1060,
+      "y": -730,
+      "width": 380,
+      "height": 220,
+      "color": "#8E24AA"
+    },
+    {
+      "id": "be41b447e58f4dfc",
+      "type": "file",
+      "file": "wiki/synthesis/bloque2-tai-oposiciones-master-guide.md",
+      "x": 1060,
+      "y": -490,
+      "width": 380,
+      "height": 220,
+      "color": "#1E88E5"
+    },
+    {
+      "id": "8acfa58cb29d4704",
+      "type": "text",
+      "x": -1100,
+      "y": 450,
+      "width": 420,
+      "height": 180,
+      "color": "#E53935",
+      "text": "## \ud83d\udd34 Bloque 3: Desarrollo de Sistemas\n\n9 Temas oficiales: Normalizaci\u00f3n/SQL, M\u00e9trica v3, Scrum, UML 2.x, Patrones GoF, Java/JVM, .NET, REST/SOAP, Testing/McCabe, WCAG."
+    },
+    {
+      "id": "711c8ae36da84151",
+      "type": "file",
+      "file": "wiki/entities/metrica-v3-methodology.md",
+      "x": -640,
+      "y": 420,
+      "width": 380,
+      "height": 220,
+      "color": "#8E24AA"
+    },
+    {
+      "id": "7f399c21b58e4393",
+      "type": "file",
+      "file": "wiki/synthesis/bloque3-tai-oposiciones-master-guide.md",
+      "x": -640,
+      "y": 660,
+      "width": 380,
+      "height": 220,
+      "color": "#1E88E5"
+    },
+    {
+      "id": "41e2a8e70e3047f1",
+      "type": "text",
+      "x": 600,
+      "y": 450,
+      "width": 420,
+      "height": 180,
+      "color": "#E53935",
+      "text": "## \ud83d\udd34 Bloque 4: Sistemas y Comunicaciones\n\n10 Temas oficiales: Windows Server, Linux, Virtualizaci\u00f3n, DBA, Redes OSI/TCP-IP, IPv4/IPv6, Protocolos, Criptograf\u00eda, ENS/Magerit."
+    },
+    {
+      "id": "407f077d291a4853",
+      "type": "file",
+      "file": "wiki/entities/windows-server.md",
+      "x": 1060,
+      "y": 420,
+      "width": 380,
+      "height": 220,
+      "color": "#8E24AA"
+    },
+    {
+      "id": "f627782ce1d74d7e",
+      "type": "file",
+      "file": "wiki/synthesis/bloque4-tai-oposiciones-master-guide.md",
+      "x": 1060,
+      "y": 660,
+      "width": 380,
+      "height": 220,
+      "color": "#1E88E5"
+    }
+  ],
+  "edges": [
+    {
+      "id": "26a68e36c1dc4dc3",
+      "fromNode": "4d002b9a9ecb4b82",
+      "toNode": "4041bb29906a4147",
+      "color": "#E53935"
+    },
+    {
+      "id": "2060a6adff214384",
+      "fromNode": "4041bb29906a4147",
+      "toNode": "f95a0b96ba124774",
+      "color": "#8E24AA",
+      "label": "\ud83d\udfe3 Subtemas / Entidades"
+    },
+    {
+      "id": "b70de8d39e2d4670",
+      "fromNode": "4041bb29906a4147",
+      "toNode": "d2727549ccd1416d",
+      "color": "#1E88E5",
+      "label": "\ud83d\udd35 Gu\u00edas / Datos Concretos"
+    },
+    {
+      "id": "204fe24390fe489f",
+      "fromNode": "4d002b9a9ecb4b82",
+      "toNode": "33d29930e03340f5",
+      "color": "#E53935"
+    },
+    {
+      "id": "085ce17b8cdb4549",
+      "fromNode": "33d29930e03340f5",
+      "toNode": "aba7ec65f9e14946",
+      "color": "#8E24AA",
+      "label": "\ud83d\udfe3 Subtemas / Entidades"
+    },
+    {
+      "id": "56651aec48c0457b",
+      "fromNode": "33d29930e03340f5",
+      "toNode": "be41b447e58f4dfc",
+      "color": "#1E88E5",
+      "label": "\ud83d\udd35 Gu\u00edas / Datos Concretos"
+    },
+    {
+      "id": "a87a90a2d77041f5",
+      "fromNode": "4d002b9a9ecb4b82",
+      "toNode": "8acfa58cb29d4704",
+      "color": "#E53935"
+    },
+    {
+      "id": "65dbead3b8974f31",
+      "fromNode": "8acfa58cb29d4704",
+      "toNode": "711c8ae36da84151",
+      "color": "#8E24AA",
+      "label": "\ud83d\udfe3 Subtemas / Entidades"
+    },
+    {
+      "id": "957004497720414c",
+      "fromNode": "8acfa58cb29d4704",
+      "toNode": "7f399c21b58e4393",
+      "color": "#1E88E5",
+      "label": "\ud83d\udd35 Gu\u00edas / Datos Concretos"
+    },
+    {
+      "id": "ea410ad23ae14454",
+      "fromNode": "4d002b9a9ecb4b82",
+      "toNode": "41e2a8e70e3047f1",
+      "color": "#E53935"
+    },
+    {
+      "id": "ee79243650254132",
+      "fromNode": "41e2a8e70e3047f1",
+      "toNode": "407f077d291a4853",
+      "color": "#8E24AA",
+      "label": "\ud83d\udfe3 Subtemas / Entidades"
+    },
+    {
+      "id": "d6fc979736284a35",
+      "fromNode": "41e2a8e70e3047f1",
+      "toNode": "f627782ce1d74d7e",
+      "color": "#1E88E5",
+      "label": "\ud83d\udd35 Gu\u00edas / Datos Concretos"
+    }
+  ]
+}

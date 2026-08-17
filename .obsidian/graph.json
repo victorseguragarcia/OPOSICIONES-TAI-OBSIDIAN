@@ -10,14 +10,14 @@
       "query": "path:sources",
       "color": {
         "a": 1,
-        "rgb": 15022645
+        "rgb": 15022389
       }
     },
     {
       "query": "path:entities OR path:concepts",
       "color": {
         "a": 1,
-        "rgb": 9315504
+        "rgb": 9315498
       }
     },
     {
@@ -27,5 +27,11 @@
         "rgb": 2001125
       }
     }
-  ]
+  ],
+  "linkStrength": 0.8,
+  "linkDistance": 120,
+  "nodeSizeMultiplier": 1.25,
+  "lineSizeMultiplier": 1.0,
+  "textFadeMultiplier": 0.5,
+  "centerStrength": 0.55
 }
