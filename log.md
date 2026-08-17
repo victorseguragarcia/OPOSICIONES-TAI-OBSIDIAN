@@ -49,3 +49,8 @@ Append-only chronological timeline of wiki operations.
 - Documented dual tracking architecture: content-oriented catalog (`index.md`) vs. chronological audit trail (`log.md`).
 - Established categorized index schema and machine-parseable log prefixes (`## [YYYY-MM-DD] <op> | <title>`).
 - Validated complete index synchronization via `scripts/lint.py`.
+
+## [2026-08-17] extract | Extracted 10 PDFs from raw/bloque 4 to raw/sources/
+- Created `scripts/extract_pdfs.py` using PyMuPDF (`fitz`).
+- Extracted all 10 PDF topics from `raw/bloque 4/` into individual Markdown files in `raw/sources/`.
+- Embedded YAML frontmatter with standardized schema (`title`, `type: "source"`, `tags`, `sources`, timestamps, `aliases`).
