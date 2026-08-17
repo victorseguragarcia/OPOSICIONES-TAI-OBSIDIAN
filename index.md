@@ -246,7 +246,7 @@
 - [[wiki/synthesis/windows-server-administration-guide|Guía Maestra de Administración de Windows Server para Oposiciones TAI]]
 ---
 
-## 📝 4. Banco de Tests y Autoevaluaciones (29 Baterías)
+## 📝 4. Banco de Tests y Autoevaluaciones (39 Baterías)
 
 ### 📝 Tests y Simulacros por Bloques (4 Recursos)
 - [[wiki/tests/bloques/index-tests-bloques|Banco de Tests por Bloques del Temario TAI]]
@@ -254,7 +254,7 @@
 - [[wiki/tests/bloques/simulacro-oficial-tai-100-preguntas-bloque1-4|Simulacro Oficial Completo TAI: Examen General de 50 Preguntas (Bloques 1 a 4)]]
 - [[wiki/tests/bloques/simulador-interactivo-plugin-tai|Simulador Interactivo con Plugin: Bloque 1 - Examen Rápido de Prueba]]
 
-### 📝 Tests por Temas Individuales (25 Recursos)
+### 📝 Tests por Temas Individuales (35 Recursos)
 - [[wiki/tests/temas/index-tests-temas|Banco de Tests por Temas Individuales del Temario TAI]]
 - [[wiki/tests/temas/test-bloque1-tema01-constitucion|Test de Autoevaluación: Bloque 1 - Tema 01 (La Constitución Española de 1978 y la Corona)]]
 - [[wiki/tests/temas/test-bloque1-tema02-gobierno-age|Test de Autoevaluación: Bloque 1 - Tema 02 (El Gobierno y la Ley 50/1997)]]
@@ -272,14 +272,24 @@
 - [[wiki/tests/temas/test-bloque2-tema04-sistemas-operativos|Test de Autoevaluación: Bloque 2 - Tema 04 (Sistemas Operativos, Planificación y Memoria)]]
 - [[wiki/tests/temas/test-bloque2-tema05-sgbd-nosql|Test de Autoevaluación: Bloque 2 - Tema 05 (SGBD Relacionales, NoSQL y Teorema CAP)]]
 - [[wiki/tests/temas/test-bloque3-tema01-normalizacion-bbdd|Test de Autoevaluación: Bloque 3 - Tema 01 (Modelado de Datos y Normalización)]]
+- [[wiki/tests/temas/test-bloque3-tema02-lenguajes-compiladores|Test Tema 02: Lenguajes de Programación, Compiladores y Paradigmas]]
 - [[wiki/tests/temas/test-bloque3-tema03-sql-interrogacion|Test de Autoevaluación: Bloque 3 - Tema 03 (SQL ANSI, DDL, DML y Transacciones)]]
 - [[wiki/tests/temas/test-bloque3-tema04-poo-patrones-uml|Test de Autoevaluación: Bloque 3 - Tema 04 (POO, Patrones de Diseño GoF y UML 2.x)]]
+- [[wiki/tests/temas/test-bloque3-tema05-componentes-java-dotnet|Test Tema 05: Componentes Software, Java EE / Jakarta EE y Plataforma .NET]]
+- [[wiki/tests/temas/test-bloque3-tema06-arquitecturas-web-servicios|Test Tema 06: Arquitecturas Multicapa, Servicios Web SOAP y RESTful]]
+- [[wiki/tests/temas/test-bloque3-tema07-aplicaciones-web-frontend|Test Tema 07: Aplicaciones Web, HTML5, CSS3, DOM y JavaScript]]
+- [[wiki/tests/temas/test-bloque3-tema08-accesibilidad-wcag-usabilidad|Test Tema 08: Accesibilidad Web (WCAG 2.1), RD 1112/2018 y Usabilidad]]
 - [[wiki/tests/temas/test-bloque3-tema09-metodologias-qa-git|Test de Autoevaluación: Bloque 3 - Tema 09 (MÉTRICA v3, QA McCabe y Git)]]
+- [[wiki/tests/temas/test-bloque4-tema01-conceptos-so-virtualizacion|Test Tema 01: Conceptos de SO, Arquitectura y Virtualización]]
 - [[wiki/tests/temas/test-bloque4-tema02-windows-server|Test de Autoevaluación: Bloque 4 - Tema 02 (Administración de Windows Server y Active Directory)]]
 - [[wiki/tests/temas/test-bloque4-tema03-linux-administracion|Test de Autoevaluación: Bloque 4 - Tema 03 (Administración de Sistemas Linux y Bash)]]
+- [[wiki/tests/temas/test-bloque4-tema04-redes-lan-dhcp-dns|Test Tema 04: Redes Locales LAN, Switching, VLANs 802.1Q, DHCP y DNS]]
 - [[wiki/tests/temas/test-bloque4-tema05-almacenamiento-cpd-raid|Test de Autoevaluación: Bloque 4 - Tema 05 (Almacenamiento, RAID, CPD TIER y Backup)]]
+- [[wiki/tests/temas/test-bloque4-tema06-medios-transmision-fibra|Test Tema 06: Medios de Transmisión, Par Trenzado y Fibra Óptica]]
 - [[wiki/tests/temas/test-bloque4-tema07-redes-tcp-ip|Test de Autoevaluación: Bloque 4 - Tema 07 (Redes TCP/IP y Subnetting)]]
+- [[wiki/tests/temas/test-bloque4-tema08-internet-web-correo|Test Tema 08: Arquitectura de Internet, Protocolos Web y Servidores de Correo]]
 - [[wiki/tests/temas/test-bloque4-tema09-seguridad-criptografia-ens|Test de Autoevaluación: Bloque 4 - Tema 09 (Seguridad en Redes, Criptografía y ENS RD 311/2022)]]
+- [[wiki/tests/temas/test-bloque4-tema10-topologias-ieee802-wifi|Test Tema 10: Topologías de Red, Arquitectura IEEE 802 y Estándares Wi-Fi]]
 
 ---
 
