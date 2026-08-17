@@ -1,9 +1,21 @@
 # Git Ignore for LLM Wiki
+
+# Raw immutable sources & binary documents (PDFs, large binaries)
+raw/
+*.pdf
+
+# Obsidian internal workspace and cache
 .obsidian/workspace*
 .obsidian/cache/
-*.tmp
-*.temp
+.obsidian/local/
+
+# Python caches and temporary files
 __pycache__/
 *.pyc
+*.tmp
+*.temp
+
+# OS metadata
 .DS_Store
 Thumbs.db
+desktop.ini
