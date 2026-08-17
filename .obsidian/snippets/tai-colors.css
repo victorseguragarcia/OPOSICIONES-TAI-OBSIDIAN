@@ -1,95 +1,117 @@
 /* ==========================================================================
-   TAI Oposiciones - Esquema Cromático Jerárquico de Estudio y Vistas Gráficas
-   - 🔴 Temas Principales (Nivel 1 / H1 / Bloques): ROJO (#E53935 / #EF5350)
-   - 🟣 Subtemas (Nivel 2 / H2 / Entidades & Conceptos): MORADO (#8E24AA / #AB47BC)
-   - 🔵 Conocimientos Concretos (Nivel 3+ / H3 / H4 / Tablas / Síntesis): AZUL (#1E88E5 / #42A5F5)
+   TAI Oposiciones - Esquema Cromático Suave y Elegante de Estudio
+   - 🔴 Temas Principales (Nivel 1 / H1 / Bloques): Coral Suave / Rose (#EF5350 / #E57373)
+   - 🟣 Subtemas (Nivel 2 / H2 / Entidades & Conceptos): Lavanda / Orquídea Pastel (#BA68C8 / #CE93D8)
+   - 🔵 Conocimientos Concretos (Nivel 3+ / H3 / Tablas / Síntesis): Azul Cielo Pastel (#64B5F6 / #90CAF9)
    ========================================================================== */
 
 :root {
-  --tai-tema-red: #e53935;
-  --tai-tema-red-bg: rgba(229, 57, 53, 0.12);
-  --tai-tema-red-border: rgba(229, 57, 53, 0.4);
+  --tai-tema-red: #ef5350;
+  --tai-tema-red-soft: #e57373;
+  --tai-tema-red-bg: rgba(239, 83, 80, 0.07);
+  --tai-tema-red-border: rgba(239, 83, 80, 0.25);
 
-  --tai-subtema-purple: #8e24aa;
-  --tai-subtema-purple-bg: rgba(142, 36, 170, 0.12);
-  --tai-subtema-purple-border: rgba(142, 36, 170, 0.4);
+  --tai-subtema-purple: #ba68c8;
+  --tai-subtema-purple-soft: #ce93d8;
+  --tai-subtema-purple-bg: rgba(186, 104, 200, 0.07);
+  --tai-subtema-purple-border: rgba(186, 104, 200, 0.25);
 
-  --tai-concreto-blue: #1e88e5;
-  --tai-concreto-blue-bg: rgba(30, 136, 229, 0.12);
-  --tai-concreto-blue-border: rgba(30, 136, 229, 0.4);
+  --tai-concreto-blue: #64b5f6;
+  --tai-concreto-blue-soft: #90caf9;
+  --tai-concreto-blue-bg: rgba(100, 181, 246, 0.07);
+  --tai-concreto-blue-border: rgba(100, 181, 246, 0.25);
 }
 
 /* ==========================================================================
-   1. VISTA DE LECTURA Y EDICIÓN (MARKDOWN)
+   1. SELECTORES GLOBALES (OBSIDIAN + VS CODE + PREVIEWS)
    ========================================================================== */
 
-/* 1.1 ENCABEZADOS DE TEMA PRINCIPAL (ROJO) */
+/* 1.1 ENCABEZADOS DE TEMA PRINCIPAL (ROJO CORAL SUAVE) */
+h1,
 .markdown-rendered h1,
+.markdown-preview-view h1,
 .cm-header-1,
+.cm-s-obsidian span.cm-header-1,
 .theme-dark h1,
-.theme-light h1 {
+.theme-light h1,
+.vscode-body h1 {
   color: var(--tai-tema-red) !important;
-  font-weight: 800 !important;
-  border-bottom: 2px solid var(--tai-tema-red) !important;
-  padding-bottom: 6px !important;
-  margin-top: 24px !important;
-  margin-bottom: 16px !important;
-  letter-spacing: -0.02em;
+  font-weight: 750 !important;
+  border-bottom: 1.5px solid var(--tai-tema-red-border) !important;
+  padding-bottom: 5px !important;
+  margin-top: 22px !important;
+  margin-bottom: 14px !important;
+  letter-spacing: -0.01em;
 }
 
-/* 1.2 ENCABEZADOS DE SUBTEMA (MORADO) */
+/* 1.2 ENCABEZADOS DE SUBTEMA (LAVANDA / ORQUÍDEA SUAVE) */
+h2,
 .markdown-rendered h2,
+.markdown-preview-view h2,
 .cm-header-2,
+.cm-s-obsidian span.cm-header-2,
 .theme-dark h2,
-.theme-light h2 {
+.theme-light h2,
+.vscode-body h2 {
   color: var(--tai-subtema-purple) !important;
-  font-weight: 700 !important;
-  border-left: 4px solid var(--tai-subtema-purple) !important;
-  padding-left: 10px !important;
-  margin-top: 20px !important;
-  margin-bottom: 12px !important;
+  font-weight: 650 !important;
+  border-left: 3px solid var(--tai-subtema-purple-soft) !important;
+  padding-left: 8px !important;
+  margin-top: 18px !important;
+  margin-bottom: 10px !important;
 }
 
-/* 1.3 CONOCIMIENTOS CONCRETOS Y DETALLES ESPECÍFICOS (AZUL) */
+/* 1.3 CONOCIMIENTOS CONCRETOS Y DETALLES ESPECÍFICOS (AZUL CIELO SUAVE) */
+h3,
 .markdown-rendered h3,
+.markdown-preview-view h3,
 .cm-header-3,
+.cm-s-obsidian span.cm-header-3,
 .theme-dark h3,
-.theme-light h3 {
+.theme-light h3,
+.vscode-body h3 {
   color: var(--tai-concreto-blue) !important;
   font-weight: 600 !important;
-  margin-top: 16px !important;
-  margin-bottom: 8px !important;
+  margin-top: 14px !important;
+  margin-bottom: 6px !important;
 }
 
+h4,
 .markdown-rendered h4,
+.markdown-preview-view h4,
 .cm-header-4,
+.cm-s-obsidian span.cm-header-4,
 .theme-dark h4,
-.theme-light h4 {
-  color: #0288d1 !important;
+.theme-light h4,
+.vscode-body h4 {
+  color: #81d4fa !important;
   font-weight: 600 !important;
 }
 
 /* 1.4 TABLAS DE DATOS CONCRETOS DE EXAMEN */
-.markdown-rendered table th {
+table th,
+thead th,
+.markdown-rendered table th,
+.vscode-body table th {
   background-color: var(--tai-concreto-blue-bg) !important;
   color: var(--tai-concreto-blue) !important;
-  border-bottom: 2px solid var(--tai-concreto-blue) !important;
-  font-weight: 700 !important;
+  border-bottom: 1.5px solid var(--tai-concreto-blue-border) !important;
+  font-weight: 650 !important;
 }
 
-/* 1.5 CALLOUTS POR COLOR */
+/* 1.5 CALLOUTS POR COLOR SUAVE */
 .callout[data-callout="tema"],
 .callout[data-callout="danger"],
 .callout[data-callout="important"] {
-  --callout-color: 229, 57, 53;
-  border-left: 4px solid var(--tai-tema-red) !important;
+  --callout-color: 239, 83, 80;
+  border-left: 3px solid var(--tai-tema-red-soft) !important;
   background-color: var(--tai-tema-red-bg) !important;
 }
 
 .callout[data-callout="subtema"],
 .callout[data-callout="example"] {
-  --callout-color: 142, 36, 170;
-  border-left: 4px solid var(--tai-subtema-purple) !important;
+  --callout-color: 186, 104, 200;
+  border-left: 3px solid var(--tai-subtema-purple-soft) !important;
   background-color: var(--tai-subtema-purple-bg) !important;
 }
 
@@ -97,8 +119,8 @@
 .callout[data-callout="note"],
 .callout[data-callout="tip"],
 .callout[data-callout="info"] {
-  --callout-color: 30, 136, 229;
-  border-left: 4px solid var(--tai-concreto-blue) !important;
+  --callout-color: 100, 181, 246;
+  border-left: 3px solid var(--tai-concreto-blue-soft) !important;
   background-color: var(--tai-concreto-blue-bg) !important;
 }
 
@@ -106,25 +128,22 @@
    2. VISTA GRÁFICA INTERACTIVA (GRAPH VIEW & LOCAL GRAPH)
    ========================================================================== */
 
-/* Nodos de Fuentes/Temas (Rojo) */
 .graph-view.color-fill-1,
 .graph-view.color-circle-1 {
-  color: var(--tai-tema-red) !important;
-  fill: var(--tai-tema-red) !important;
+  color: var(--tai-tema-red-soft) !important;
+  fill: var(--tai-tema-red-soft) !important;
 }
 
-/* Nodos de Subtemas/Entidades/Conceptos (Morado) */
 .graph-view.color-fill-2,
 .graph-view.color-circle-2 {
-  color: var(--tai-subtema-purple) !important;
-  fill: var(--tai-subtema-purple) !important;
+  color: var(--tai-subtema-purple-soft) !important;
+  fill: var(--tai-subtema-purple-soft) !important;
 }
 
-/* Nodos de Síntesis/Conocimientos Concretos (Azul) */
 .graph-view.color-fill-3,
 .graph-view.color-circle-3 {
-  color: var(--tai-concreto-blue) !important;
-  fill: var(--tai-concreto-blue) !important;
+  color: var(--tai-concreto-blue-soft) !important;
+  fill: var(--tai-concreto-blue-soft) !important;
 }
 
 /* ==========================================================================
@@ -133,37 +152,40 @@
 
 .canvas-node[data-color="1"],
 .canvas-node[data-color="#E53935"],
-.canvas-node[data-color="#e53935"] {
-  border-color: var(--tai-tema-red) !important;
-  background-color: rgba(229, 57, 53, 0.08) !important;
+.canvas-node[data-color="#ef5350"],
+.canvas-node[data-color="#e57373"] {
+  border-color: var(--tai-tema-red-soft) !important;
+  background-color: rgba(239, 83, 80, 0.05) !important;
 }
 
 .canvas-node[data-color="6"],
 .canvas-node[data-color="#8E24AA"],
-.canvas-node[data-color="#8e24aa"] {
-  border-color: var(--tai-subtema-purple) !important;
-  background-color: rgba(142, 36, 170, 0.08) !important;
+.canvas-node[data-color="#ba68c8"],
+.canvas-node[data-color="#ce93d8"] {
+  border-color: var(--tai-subtema-purple-soft) !important;
+  background-color: rgba(186, 104, 200, 0.05) !important;
 }
 
 .canvas-node[data-color="5"],
 .canvas-node[data-color="#1E88E5"],
-.canvas-node[data-color="#1e88e5"] {
-  border-color: var(--tai-concreto-blue) !important;
-  background-color: rgba(30, 136, 229, 0.08) !important;
+.canvas-node[data-color="#64b5f6"],
+.canvas-node[data-color="#90caf9"] {
+  border-color: var(--tai-concreto-blue-soft) !important;
+  background-color: rgba(100, 181, 246, 0.05) !important;
 }
 
 /* 4. ETIQUETAS (TAGS) */
 .tag[href*="bloque"],
 .tag[href*="tema"] {
   background-color: var(--tai-tema-red-bg) !important;
-  color: var(--tai-tema-red) !important;
+  color: var(--tai-tema-red-soft) !important;
   border: 1px solid var(--tai-tema-red-border) !important;
 }
 
 .tag[href*="entity"],
 .tag[href*="concept"] {
   background-color: var(--tai-subtema-purple-bg) !important;
-  color: var(--tai-subtema-purple) !important;
+  color: var(--tai-subtema-purple-soft) !important;
   border: 1px solid var(--tai-subtema-purple-border) !important;
 }
 
@@ -171,6 +193,6 @@
 .tag[href*="cheatsheet"],
 .tag[href*="guide"] {
   background-color: var(--tai-concreto-blue-bg) !important;
-  color: var(--tai-concreto-blue) !important;
+  color: var(--tai-concreto-blue-soft) !important;
   border: 1px solid var(--tai-concreto-blue-border) !important;
 }

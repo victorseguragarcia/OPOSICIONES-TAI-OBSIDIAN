@@ -1,39 +1,72 @@
 ---
-title: "Estándar ANSI SQL, Procedimientos Almacenados y Triggers"
+title: "Estándar ANSI SQL, Procedimientos Almacenados, Triggers y Transacciones ACID"
 type: "entity"
 tags:
   - sql
   - ddl
   - dml
-  - stored-procedures
+  - acid
   - triggers
-  - transacciones
+  - stored-procedures
 sources:
   - "raw/sources/bloque3-tema03-sql-interrogacion-bbdd.md"
 created: "2026-08-17"
 updated: "2026-08-17"
 aliases:
-  - "ANSI SQL"
-  - "Stored Procedures y Triggers"
-  - "Lenguaje SQL"
+  - "ANSI SQL y Programación BBDD"
+  - "SQL Transacciones y Triggers"
 ---
 
-# Estándar ANSI SQL, Procedimientos Almacenados y Triggers
+# Estándar ANSI SQL, Procedimientos Almacenados, Triggers y Transacciones ACID
 
-Lenguaje estándar para la definición, manipulación y control de datos en Sistemas Gestores de Bases de Datos Relacionales (RDBMS).
+Lenguaje estructurado de consultas normalizado por ANSI/ISO (SQL-86, SQL-92, SQL:1999 con soporte OO, SQL:2016 con JSON) para gestión y programación de bases de datos relacionales.
 
 ---
 
-## 🏛️ Sublenguajes y Objetos de Base de Datos
+## 🏛️ 1. Clasificación de Sentencias SQL
 
-- **DDL (Data Definition Language)**: `CREATE`, `ALTER`, `DROP`, `TRUNCATE`.
-- **DML (Data Manipulation Language)**: `SELECT`, `INSERT`, `UPDATE`, `DELETE`.
-- **DCL (Data Control Language)**: `GRANT`, `REVOKE`.
-- **TCL (Transaction Control Language)**: `COMMIT`, `ROLLBACK`, `SAVEPOINT`.
-- **Objetos Programables**:
-  - **Stored Procedures**: Procedimientos compilados y guardados en el motor de BD.
-  - **Triggers**: Disparadores automáticos ante eventos `INSERT`, `UPDATE` o `DELETE` (`BEFORE`, `AFTER`, `INSTEAD OF`).
-  - **Vistas (Views)**: Tablas virtuales basadas en consultas predefinidas.
+```
+                               Sublenguajes SQL
+                                       │
+     ┌──────────────────┬──────────────┴─────┬──────────────────┐
+     ▼                  ▼                    ▼                  ▼
+  [ DDL ]            [ DML ]              [ DCL ]            [ TCL ]
+Definición         Manipulación           Control          Transacciones
+ • CREATE           • SELECT               • GRANT            • COMMIT
+ • ALTER            • INSERT               • REVOKE           • ROLLBACK
+ • DROP             • UPDATE                                  • SAVEPOINT
+ • TRUNCATE         • DELETE                                  • SET TRANS.
+```
+
+---
+
+## ⚙️ 2. Disparadores (Triggers) y Objetos Programables
+
+- **Tipos de Triggers según Momento**:
+  - `BEFORE`: Se ejecuta antes de la operación DML (ideal para validaciones o cálculo de valores por defecto).
+  - `AFTER`: Se ejecuta después de la operación DML (ideal para auditoría, replicación o actualización de tablas resumen).
+  - `INSTEAD OF`: Reemplaza la sentencia DML (utilizado obligatoriamente para permitir modificaciones en **Vistas complejas no actualizables**).
+- **Ámbito de Ejecución**:
+  - `FOR EACH ROW`: Disparador de fila (utiliza las pseudotablas / registros `:OLD` y `:NEW` en Oracle/PostgreSQL o `INSERTED`/`DELETED` en SQL Server).
+  - `FOR EACH STATEMENT`: Disparador de sentencia (se ejecuta una única vez por instrucción independientemente del número de filas afectadas).
+
+---
+
+## 🔒 3. Transacciones y Propiedades ACID
+
+1. **Atomicidad (Atomicity)**: La transacción se ejecuta en su totalidad o no se ejecuta nada (*All or Nothing*).
+2. **Consistencia (Consistency)**: La transacción traslada la base de datos de un estado válido a otro estado válido cumpliendo todas las restricciones de integridad.
+3. **Aislamiento (Isolation)**: Las operaciones de transacciones concurrentes son invisibles entre sí hasta su confirmación.
+4. **Durabilidad (Durability)**: Una vez confirmada (`COMMIT`), los cambios persisten de forma permanente incluso ante caídas del sistema (*Write-Ahead Logging* / WAL).
+
+### Niveles de Aislamiento SQL ANSI vs Anomalías Concurrencia:
+
+| Nivel de Aislamiento | Lectura Sucia (*Dirty Read*) | Lectura No Repetible (*Non-Repeatable Read*) | Lectura Fantasma (*Phantom Read*) |
+|----------------------|------------------------------|---------------------------------------------|-----------------------------------|
+| **Read Uncommitted** | Permitida | Permitida | Permitida |
+| **Read Committed** | **Prevenida** | Permitida | Permitida |
+| **Repeatable Read** | **Prevenida** | **Prevenida** | Permitida |
+| **Serializable** | **Prevenida** | **Prevenida** | **Prevenida** |
 
 ---
 

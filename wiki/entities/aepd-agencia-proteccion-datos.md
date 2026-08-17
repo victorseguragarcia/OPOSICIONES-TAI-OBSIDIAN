@@ -19,7 +19,7 @@ aliases:
 
 La **Agencia Española de Protección de Datos (AEPD)** es la autoridad administrativa independiente de ámbito estatal encargada de velar por el cumplimiento de la legislación de protección de datos personales.
 
----
+---r
 
 ## 🏛️ Funciones y Potestades
 
