@@ -2,11 +2,17 @@
 
 > [!important]
 > **Esquema de Estudio Visual y Jerarquía de Colores**
-> - 🔴 **Temas Principales (Nivel 1 / H1 / Bloques)**: Rojo (`#E53935`)
-> - 🟣 **Subtemas (Nivel 2 / H2 / Entidades & Conceptos)**: Morado (`#8E24AA`)
-> - 🔵 **Conocimientos Concretos (Nivel 3+ / H3 / Síntesis & Tablas)**: Azul (`#1E88E5`)
+> - 🔴 **Temas Principales (Nivel 1 / H1 / Bloques)**: Coral Pastel (`#EF5350`)
+> - 🟣 **Subtemas (Nivel 2 / H2 / Entidades & Conceptos)**: Orquídea Pastel (`#BA68C8`)
+> - 🔵 **Conocimientos Concretos (Nivel 3+ / H3 / Síntesis & Tablas)**: Azul Cielo (`#64B5F6`)
+> - ⚠️ **Trampas de Examen**: Ámbar (`#FFB74D`) | 🧠 **Mnemotecnias**: Menta (`#81C784`)
 >
-> 🗺️ **Lienzo Gráfico Interactivo**: [[temario-tai-visual-map.canvas|Abrir Mapa Visual en Obsidian Canvas]]
+> 🗺️ **Lienzos Gráficos Interactivos (Obsidian Canvas)**:
+> - 🌐 [[temario-tai-visual-map.canvas|Mapa Global del Temario TAI]]
+> - 🏛️ [[temario-bloque1-administracion.canvas|Lienzo Bloque 1: Administración y Marco Digital]]
+> - 💻 [[temario-bloque2-tecnologia.canvas|Lienzo Bloque 2: Tecnología Básica y Hardware]]
+> - ⚙️ [[temario-bloque3-desarrollo.canvas|Lienzo Bloque 3: Desarrollo de Sistemas]]
+> - 🌐 [[temario-bloque4-sistemas.canvas|Lienzo Bloque 4: Sistemas y Comunicaciones]]
 
 ---
 

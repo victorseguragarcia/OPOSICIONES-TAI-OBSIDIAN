@@ -1,10 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Script para reconstruir dinámicamente index.md y log.md aplicando la jerarquía
-de colores de estudio:
-- 🔴 Temas Principales (Nivel 1 / H1 / Bloques)
-- 🟣 Subtemas (Nivel 2 / H2 / Entidades & Conceptos)
-- 🔵 Conocimientos Concretos (Nivel 3+ / H3 / Síntesis & Tablas)
+de colores de estudio y enlaces directos a los lienzos Canvas.
 """
 import os
 import re
@@ -33,7 +30,6 @@ def parse_frontmatter(file_path):
 def rebuild():
     wiki_dir = os.path.join(BASE_DIR, "wiki")
     
-    # Categorías agrupadas
     sources_b1 = []
     sources_b2 = []
     sources_b3 = []
@@ -81,11 +77,17 @@ def rebuild():
 
 > [!important]
 > **Esquema de Estudio Visual y Jerarquía de Colores**
-> - 🔴 **Temas Principales (Nivel 1 / H1 / Bloques)**: Rojo (`#E53935`)
-> - 🟣 **Subtemas (Nivel 2 / H2 / Entidades & Conceptos)**: Morado (`#8E24AA`)
-> - 🔵 **Conocimientos Concretos (Nivel 3+ / H3 / Síntesis & Tablas)**: Azul (`#1E88E5`)
+> - 🔴 **Temas Principales (Nivel 1 / H1 / Bloques)**: Coral Pastel (`#EF5350`)
+> - 🟣 **Subtemas (Nivel 2 / H2 / Entidades & Conceptos)**: Orquídea Pastel (`#BA68C8`)
+> - 🔵 **Conocimientos Concretos (Nivel 3+ / H3 / Síntesis & Tablas)**: Azul Cielo (`#64B5F6`)
+> - ⚠️ **Trampas de Examen**: Ámbar (`#FFB74D`) | 🧠 **Mnemotecnias**: Menta (`#81C784`)
 >
-> 🗺️ **Lienzo Gráfico Interactivo**: [[temario-tai-visual-map.canvas|Abrir Mapa Visual en Obsidian Canvas]]
+> 🗺️ **Lienzos Gráficos Interactivos (Obsidian Canvas)**:
+> - 🌐 [[temario-tai-visual-map.canvas|Mapa Global del Temario TAI]]
+> - 🏛️ [[temario-bloque1-administracion.canvas|Lienzo Bloque 1: Administración y Marco Digital]]
+> - 💻 [[temario-bloque2-tecnologia.canvas|Lienzo Bloque 2: Tecnología Básica y Hardware]]
+> - ⚙️ [[temario-bloque3-desarrollo.canvas|Lienzo Bloque 3: Desarrollo de Sistemas]]
+> - 🌐 [[temario-bloque4-sistemas.canvas|Lienzo Bloque 4: Sistemas y Comunicaciones]]
 
 ---
 
@@ -132,7 +134,7 @@ def rebuild():
     index_path = os.path.join(BASE_DIR, "index.md")
     with open(index_path, "w", encoding="utf-8", newline="\n") as f:
         f.write(index_content.strip() + "\n")
-    print(f"[OK] index.md reconstruido con {all_sources_count} fuentes, {len(entities)} entidades, {len(concepts)} conceptos y {len(syntheses)} síntesis con jerarquía cromática.")
+    print(f"[OK] index.md reconstruido con {all_sources_count} fuentes, {len(entities)} entidades, {len(concepts)} conceptos y {len(syntheses)} síntesis con jerarquía cromática y Canvas.")
 
 if __name__ == "__main__":
     rebuild()

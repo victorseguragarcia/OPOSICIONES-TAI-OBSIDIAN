@@ -1,0 +1,96 @@
+{
+  "nodes": [
+    {
+      "id": "aee90de21dc04226",
+      "type": "text",
+      "x": -150,
+      "y": -380,
+      "width": 550,
+      "height": 130,
+      "color": "#EF5350",
+      "text": "# \ud83c\udf10 Bloque 4: Sistemas y Comunicaciones (TAI)\n\nMapa interactivo de navegaci\u00f3n y estudio visual."
+    },
+    {
+      "id": "4c4da0ecb6b043f4",
+      "type": "text",
+      "x": -450,
+      "y": -200,
+      "width": 420,
+      "height": 230,
+      "color": "#EF5350",
+      "text": "## \ud83d\udd34 Redes, TCP/IP y Seguridad\n- Modelo OSI (7 capas) vs Pila TCP/IP (4 capas)\n- IPv4 Subnetting VLSM y Direccionamiento IPv6\n- Protocolos: DNS, DHCP, HTTP/3 QUIC, TLS 1.3, SNMP\n- Criptograf\u00eda (RSA, AES, SHA-2/3, Curvas El\u00edpticas)\n- Esquema Nacional de Seguridad (ENS RD 311/2022)"
+    },
+    {
+      "id": "d9934c890f364c0a",
+      "type": "text",
+      "x": 30,
+      "y": -200,
+      "width": 420,
+      "height": 230,
+      "color": "#EF5350",
+      "text": "## \ud83d\udd34 Windows Server, Linux y Cloud\n- Active Directory (Kerberos, FSMO, GPOs)\n- Linux SysAdmin (Systemd, LVM, Bash, SSH)\n- Virtualizaci\u00f3n (ESXi, KVM, Docker, Kubernetes)\n- Alta Disponibilidad y CPD (TIER I a IV, RAID)"
+    },
+    {
+      "id": "88c165be391c4e1b",
+      "type": "file",
+      "file": "wiki/synthesis/bloque4-tai-oposiciones-master-guide.md",
+      "x": -450,
+      "y": 90,
+      "width": 420,
+      "height": 240,
+      "color": "#64B5F6"
+    },
+    {
+      "id": "15b9dab82226459b",
+      "type": "file",
+      "file": "wiki/synthesis/network-ports-and-protocols-cheatsheet.md",
+      "x": 30,
+      "y": 90,
+      "width": 420,
+      "height": 240,
+      "color": "#64B5F6"
+    },
+    {
+      "id": "206ecbe28dc54795",
+      "type": "file",
+      "file": "wiki/synthesis/windows-server-administration-guide.md",
+      "x": 500,
+      "y": 90,
+      "width": 400,
+      "height": 240,
+      "color": "#64B5F6"
+    }
+  ],
+  "edges": [
+    {
+      "id": "30d2a3f34b9b4cb5",
+      "fromNode": "aee90de21dc04226",
+      "toNode": "4c4da0ecb6b043f4",
+      "color": "#EF5350"
+    },
+    {
+      "id": "022a7de470a5437a",
+      "fromNode": "aee90de21dc04226",
+      "toNode": "d9934c890f364c0a",
+      "color": "#EF5350"
+    },
+    {
+      "id": "627d723d6a4447d2",
+      "fromNode": "aee90de21dc04226",
+      "toNode": "88c165be391c4e1b",
+      "color": "#64B5F6"
+    },
+    {
+      "id": "5895fac56a704104",
+      "fromNode": "aee90de21dc04226",
+      "toNode": "15b9dab82226459b",
+      "color": "#64B5F6"
+    },
+    {
+      "id": "bd65c3d26c484ee8",
+      "fromNode": "aee90de21dc04226",
+      "toNode": "206ecbe28dc54795",
+      "color": "#64B5F6"
+    }
+  ]
+}
