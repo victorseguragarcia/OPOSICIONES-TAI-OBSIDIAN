@@ -23,13 +23,32 @@ Cuestionario de 10 preguntas tipo test con formato oficial de examen de la AGE (
 
 ---
 
+
+> [!info] 🎯 **Registro de Puntuación y Autoevaluación**
+> - **Aciertos (+1.0)**: ____ | **Fallos (-0.33)**: ____ | **En Blanco (0.0)**: ____
+> - **Nota Final**: **____ / 10.0** (Mínimo para aprobar: **5.0**)
+
+---
+
 ## ❓ Preguntas
 
 ### 1. En Active Directory Domain Services (AD DS), ¿cuál es el orden exacto de procesamiento y aplicación de las Directivas de Grupo (GPOs)?
-- [ ] a) Dominio $ightarrow$ Sitio $ightarrow$ OU $ightarrow$ Local
-- [ ] b) Local $ightarrow$ Sitio $ightarrow$ Dominio $ightarrow$ Unidad Organizativa (LSDOU)
-- [ ] c) OU $ightarrow$ Dominio $ightarrow$ Sitio $ightarrow$ Local
-- [ ] d) Sitio $ightarrow$ Dominio $ightarrow$ OU $ightarrow$ Equipo
+- [ ] a) Dominio $
+ightarrow$ Sitio $
+ightarrow$ OU $
+ightarrow$ Local
+- [ ] b) Local $
+ightarrow$ Sitio $
+ightarrow$ Dominio $
+ightarrow$ Unidad Organizativa (LSDOU)
+- [ ] c) OU $
+ightarrow$ Dominio $
+ightarrow$ Sitio $
+ightarrow$ Local
+- [ ] d) Sitio $
+ightarrow$ Dominio $
+ightarrow$ OU $
+ightarrow$ Equipo
 
 ### 2. ¿Qué protocolo criptográfico de autenticación de red basado en tickets (TGT y TGS) es el protocolo predeterminado en Active Directory desde Windows 2000?
 - [ ] a) NTLMv2.

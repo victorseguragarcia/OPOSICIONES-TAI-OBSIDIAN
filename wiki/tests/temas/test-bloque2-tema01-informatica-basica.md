@@ -24,6 +24,13 @@ Cuestionario de 10 preguntas tipo test con formato oficial de examen de la AGE (
 
 ---
 
+
+> [!info] 🎯 **Registro de Puntuación y Autoevaluación**
+> - **Aciertos (+1.0)**: ____ | **Fallos (-0.33)**: ____ | **En Blanco (0.0)**: ____
+> - **Nota Final**: **____ / 10.0** (Mínimo para aprobar: **5.0**)
+
+---
+
 ## ❓ Preguntas
 
 ### 1. ¿Cuál es el rango de valores enteros representables en Complemento a 2 utilizando un registro de $n = 8$ bits?
@@ -99,7 +106,8 @@ Cuestionario de 10 preguntas tipo test con formato oficial de examen de la AGE (
 > - **Pregunta 4 (c)**: UTF-8 es de longitud variable de 1 a 4 bytes (los primeros 128 caracteres ASCII ocupan exactamente 1 byte).
 > - **Pregunta 5 (a)**: Von Neumann comparte bus y memoria de datos/instrucciones (cuello de botella de Von Neumann); Harvard utiliza memorias y buses independientes.
 > - **Pregunta 6 (b)**: El PC almacena la dirección de la siguiente instrucción. El IR almacena la instrucción en curso de decodificación.
-> - **Pregunta 7 (b)**: Complemento a 2 de $+45$ (`00101101`): invertimos bits (C1 = `11010010`) y sumamos 1 $ightarrow$ `11010011`.
+> - **Pregunta 7 (b)**: Complemento a 2 de $+45$ (`00101101`): invertimos bits (C1 = `11010010`) y sumamos 1 $
+ightarrow$ `11010011`.
 > - **Pregunta 8 (b)**: Los registros de la CPU operan en $< 1$ ciclo de reloj ($< 0.5	ext{ ns}$), siendo más rápidos que la caché L1 (1-4 ciclos).
 > - **Pregunta 9 (b)**: ISO 8859-1 (Latin-1) usa 8 bits (256 caracteres) para caracteres de Europa Occidental.
 > - **Pregunta 10 (c)**: Exponente todo 1s y mantisa no nula codifica NaN. Si la mantisa fuera todo ceros, codificaría $\pm\infty$.

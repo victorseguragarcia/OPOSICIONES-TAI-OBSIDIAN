@@ -24,6 +24,13 @@ Cuestionario de 10 preguntas tipo test con formato oficial de examen de la AGE (
 
 ---
 
+
+> [!info] 🎯 **Registro de Puntuación y Autoevaluación**
+> - **Aciertos (+1.0)**: ____ | **Fallos (-0.33)**: ____ | **En Blanco (0.0)**: ____
+> - **Nota Final**: **____ / 10.0** (Mínimo para aprobar: **5.0**)
+
+---
+
 ## ❓ Preguntas
 
 ### 1. ¿Cuál de los siguientes algoritmos de planificación de CPU es apropiativo (*preemptive*) y asigna a cada proceso un intervalo de tiempo fijo de CPU denominado *quantum*?
@@ -67,4 +74,5 @@ Cuestionario de 10 preguntas tipo test con formato oficial de examen de la AGE (
 > - **Pregunta 2 (b)**: La Anomalía de Belady ocurre en FIFO cuando más memoria física genera más fallos de página.
 > - **Pregunta 3 (a)**: Las 4 condiciones de Coffman (1971): Exclusión mutua, retención y espera, no desapropiación y espera circular.
 > - **Pregunta 4 (b)**: El Algoritmo del Banquero de Dijkstra evalúa si conceder recursos mantiene el sistema en estado seguro.
-> - **Pregunta 5 (b)**: La TLB es una memoria asociativa de alta velocidad dentro de la MMU que cachea las traducciones página $ightarrow$ marco.
+> - **Pregunta 5 (b)**: La TLB es una memoria asociativa de alta velocidad dentro de la MMU que cachea las traducciones página $
+ightarrow$ marco.

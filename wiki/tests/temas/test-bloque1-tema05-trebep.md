@@ -23,6 +23,13 @@ Cuestionario de 10 preguntas tipo test con formato oficial de examen de la AGE (
 
 ---
 
+
+> [!info] 🎯 **Registro de Puntuación y Autoevaluación**
+> - **Aciertos (+1.0)**: ____ | **Fallos (-0.33)**: ____ | **En Blanco (0.0)**: ____
+> - **Nota Final**: **____ / 10.0** (Mínimo para aprobar: **5.0**)
+
+---
+
 ## ❓ Preguntas
 
 ### 1. Según el artículo 9.2 del TREBEP, ¿a qué clase de personal corresponde en exclusiva el ejercicio de las potestades públicas?

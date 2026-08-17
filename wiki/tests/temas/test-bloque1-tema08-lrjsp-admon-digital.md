@@ -25,6 +25,13 @@ Cuestionario de 10 preguntas tipo test con formato oficial de examen de la AGE (
 
 ---
 
+
+> [!info] 🎯 **Registro de Puntuación y Autoevaluación**
+> - **Aciertos (+1.0)**: ____ | **Fallos (-0.33)**: ____ | **En Blanco (0.0)**: ____
+> - **Nota Final**: **____ / 10.0** (Mínimo para aprobar: **5.0**)
+
+---
+
 ## ❓ Preguntas
 
 ### 1. Según el artículo 55 de la Ley 40/2015, ¿cuáles de los siguientes son Órganos Superiores de la AGE?

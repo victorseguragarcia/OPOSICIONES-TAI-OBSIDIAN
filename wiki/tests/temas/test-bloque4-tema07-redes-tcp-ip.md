@@ -25,6 +25,13 @@ Cuestionario de 10 preguntas tipo test con formato oficial de examen de la AGE (
 
 ---
 
+
+> [!info] 🎯 **Registro de Puntuación y Autoevaluación**
+> - **Aciertos (+1.0)**: ____ | **Fallos (-0.33)**: ____ | **En Blanco (0.0)**: ____
+> - **Nota Final**: **____ / 10.0** (Mínimo para aprobar: **5.0**)
+
+---
+
 ## ❓ Preguntas
 
 ### 1. ¿En qué capa del modelo OSI opera el protocolo ICMP (Internet Control Message Protocol)?
@@ -52,10 +59,18 @@ Cuestionario de 10 preguntas tipo test con formato oficial de examen de la AGE (
 - [ ] d) Hop Limit (Límite de saltos).
 
 ### 5. En el protocolo TCP, ¿cuál es la secuencia exacta de flags en el saludo de tres vías (*Three-Way Handshake*) para el establecimiento de conexión?
-- [ ] a) `SYN` $ightarrow$ `ACK` $ightarrow$ `SYN-ACK`
-- [ ] b) `SYN` $ightarrow$ `SYN-ACK` $ightarrow$ `ACK`
-- [ ] c) `FIN` $ightarrow$ `ACK` $ightarrow$ `FIN-ACK`
-- [ ] d) `RST` $ightarrow$ `SYN` $ightarrow$ `ACK`
+- [ ] a) `SYN` $
+ightarrow$ `ACK` $
+ightarrow$ `SYN-ACK`
+- [ ] b) `SYN` $
+ightarrow$ `SYN-ACK` $
+ightarrow$ `ACK`
+- [ ] c) `FIN` $
+ightarrow$ `ACK` $
+ightarrow$ `FIN-ACK`
+- [ ] d) `RST` $
+ightarrow$ `SYN` $
+ightarrow$ `ACK`
 
 ### 6. ¿Qué mecanismo utiliza IPv6 para autoconfigurar automáticamente la dirección de enlace local (*Link-Local*) a partir de la dirección MAC física de la tarjeta de red?
 - [ ] a) DHCPv6 Stateful.

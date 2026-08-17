@@ -23,6 +23,13 @@ Cuestionario de 10 preguntas tipo test con formato oficial de examen de la AGE (
 
 ---
 
+
+> [!info] 🎯 **Registro de Puntuación y Autoevaluación**
+> - **Aciertos (+1.0)**: ____ | **Fallos (-0.33)**: ____ | **En Blanco (0.0)**: ____
+> - **Nota Final**: **____ / 10.0** (Mínimo para aprobar: **5.0**)
+
+---
+
 ## ❓ Preguntas
 
 ### 1. En la metodología oficial del Consejo Superior de Administración Electrónica MÉTRICA Versión 3, ¿cuál es el proceso principal encargado de analizar los requisitos y elaborar el catálogo de requisitos y casos de uso?

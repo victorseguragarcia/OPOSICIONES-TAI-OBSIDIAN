@@ -185,7 +185,7 @@
 
 ---
 
-### 🔵 3. Conocimientos Concretos, Guías de Síntesis y Tablas de Examen (55 Guías)
+### 🔵 3. Conocimientos Concretos, Guías de Síntesis y Tablas de Examen (57 Guías)
 
 - [[wiki/synthesis/active-directory-and-ldap-guide|Guía Comparativa y Práctica de Active Directory y LDAP]]
 - [[wiki/synthesis/actos-nulos-vs-anulables-guia|Guía de Invalidez: Actos Nulos de Pleno Derecho vs Actos Anulables]]
@@ -231,11 +231,13 @@
 - [[wiki/synthesis/servicios-comunes-age-administracion-electronica-cheatsheet|Cheatsheet de Servicios Comunes, Plataformas e Infraestructuras Digitales de la AGE]]
 - [[wiki/synthesis/software-testing-and-qa-guide|Guía de Pruebas de Software, Métricas de Cobertura y McCabe]]
 - [[wiki/synthesis/subnetting-and-ipv4-ipv6-addressing-guide|Guía Práctica de Subnetting, VLSM y Direccionamiento IPv4 e IPv6]]
+- [[wiki/synthesis/supuestos-practicos-bloque1-contratacion-licitacion-lcsp-y-procedimiento|Supuesto Práctico Bloque 1: Expediente de Contratación Pública TIC (LCSP 9/2017) y Procedimiento Electrónico]]
 - [[wiki/synthesis/supuestos-practicos-bloque2-ieee754-paginacion-deadlocks|Supuesto Práctico Oficial TAI: IEEE 754, Paginación de Memoria y Algoritmo del Banquero (Bloque II)]]
 - [[wiki/synthesis/supuestos-practicos-bloque3-java-php-programacion|Supuesto Práctico Resuelto: Trazas de Código Java y PHP (Bucles, Herencia y Operadores)]]
 - [[wiki/synthesis/supuestos-practicos-bloque3-normalizacion-bbdd|Supuesto Práctico Resuelto: Normalización de Bases de Datos (1FN a 5FN) y SQL DDL]]
 - [[wiki/synthesis/supuestos-practicos-bloque3-simulacro-examen-tai|Supuesto Práctico Oficial TAI: Simulacro Completo de Examen Bloque III (20 Preguntas)]]
 - [[wiki/synthesis/supuestos-practicos-bloque4-redes-subnetting-ad-ens|Supuesto Práctico Oficial TAI: Redes, Subnetting VLSM, Active Directory y Seguridad ENS (Bloque IV)]]
+- [[wiki/synthesis/supuestos-practicos-bloque4-seguridad-firewalls-iptables-ens-dmz|Supuesto Práctico Bloque 4: Diseño de Arquitectura DMZ, Reglas iptables, Hardening y Categorización ENS]]
 - [[wiki/synthesis/sysadmin-commands-windows-and-linux-cheatsheet|Cheatsheet de Comandos de Administración de Sistemas Windows y Linux]]
 - [[wiki/synthesis/trebep-situaciones-y-regimen-disciplinario-guia|Guía del TREBEP: Situaciones Administrativas y Régimen Disciplinario]]
 - [[wiki/synthesis/virtual-memory-and-paging-algorithms-guide|Guía de Memoria Virtual, Paginación y Algoritmos de Reemplazo]]

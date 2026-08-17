@@ -24,6 +24,13 @@ Cuestionario de 10 preguntas tipo test con formato oficial de examen de la AGE (
 
 ---
 
+
+> [!info] 🎯 **Registro de Puntuación y Autoevaluación**
+> - **Aciertos (+1.0)**: ____ | **Fallos (-0.33)**: ____ | **En Blanco (0.0)**: ____
+> - **Nota Final**: **____ / 10.0** (Mínimo para aprobar: **5.0**)
+
+---
+
 ## ❓ Preguntas
 
 ### 1. En Linux, si un fichero tiene permisos `rwxr-x---`, ¿cuál es su representación numérica en notación octal?
@@ -45,10 +52,19 @@ Cuestionario de 10 preguntas tipo test con formato oficial de examen de la AGE (
 - [ ] d) `chkconfig nginx on`
 
 ### 4. En la arquitectura de Logical Volume Manager (LVM), ¿cuál es la jerarquía correcta de abstracción desde el almacenamiento físico hasta el sistema de ficheros?
-- [ ] a) LV (Logical Volume) $ightarrow$ VG (Volume Group) $ightarrow$ PV (Physical Volume)
-- [ ] b) PV (Physical Volume) $ightarrow$ VG (Volume Group) $ightarrow$ LV (Logical Volume) $ightarrow$ Filesystem
-- [ ] c) VG $ightarrow$ PV $ightarrow$ LV
-- [ ] d) LUN $ightarrow$ RAID $ightarrow$ PV
+- [ ] a) LV (Logical Volume) $
+ightarrow$ VG (Volume Group) $
+ightarrow$ PV (Physical Volume)
+- [ ] b) PV (Physical Volume) $
+ightarrow$ VG (Volume Group) $
+ightarrow$ LV (Logical Volume) $
+ightarrow$ Filesystem
+- [ ] c) VG $
+ightarrow$ PV $
+ightarrow$ LV
+- [ ] d) LUN $
+ightarrow$ RAID $
+ightarrow$ PV
 
 ### 5. ¿Qué comando de Linux permite consultar los logs centralizados gestionados por el demonio `systemd-journald` en tiempo real?
 - [ ] a) `dmesg -f`
@@ -63,7 +79,8 @@ Cuestionario de 10 preguntas tipo test con formato oficial de examen de la AGE (
 > 1. **a** | 2. **a** | 3. **b** | 4. **b** | 5. **b**
 >
 > ### Explicación Técnica:
-> - **Pregunta 1 (a)**: `rwx` = $4+2+1 = 7$; `r-x` = $4+0+1 = 5$; `---` = $0 ightarrow$ **750**.
+> - **Pregunta 1 (a)**: `rwx` = $4+2+1 = 7$; `r-x` = $4+0+1 = 5$; `---` = $0 
+ightarrow$ **750**.
 > - **Pregunta 2 (a)**: Ficheros base máxima `666` (`rw-rw-rw-`). Con umask `027`: `666 - 027 = 640` (`rw-r-----`).
 > - **Pregunta 3 (b)**: `systemctl enable --now` habilita el symlink en el target y arranca el servicio simultáneamente.
 > - **Pregunta 4 (b)**: PVs (discos/particiones) se agrupan en VGs, que se dividen en LVs donde se formatea el sistema de ficheros.

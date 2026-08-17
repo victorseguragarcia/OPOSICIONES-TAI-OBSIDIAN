@@ -23,12 +23,20 @@ Cuestionario de 10 preguntas tipo test con formato oficial de examen de la AGE (
 
 ---
 
+
+> [!info] 🎯 **Registro de Puntuación y Autoevaluación**
+> - **Aciertos (+1.0)**: ____ | **Fallos (-0.33)**: ____ | **En Blanco (0.0)**: ____
+> - **Nota Final**: **____ / 10.0** (Mínimo para aprobar: **5.0**)
+
+---
+
 ## ❓ Preguntas
 
 ### 1. Una relación está en Segunda Forma Normal (2FN) si y solo si:
 - [ ] a) Está en 1FN y no contiene dependencias transitivas entre atributos no primos.
 - [ ] b) Está en 1FN y todo atributo no primo tiene dependencia funcional completa de cada una de las claves candidatas.
-- [ ] c) Para toda dependencia funcional $X ightarrow Y$, $X$ es superclave.
+- [ ] c) Para toda dependencia funcional $X 
+ightarrow Y$, $X$ es superclave.
 - [ ] d) Todos sus dominios contienen exclusivamente valores atómicos y no existen grupos repetitivos.
 
 ### 2. ¿Qué condición define que una relación esté en Tercera Forma Normal (3FN)?
@@ -39,7 +47,8 @@ Cuestionario de 10 preguntas tipo test con formato oficial de examen de la AGE (
 
 ### 3. La Forma Normal de Boyce-Codd (BCNF) se diferencia de la 3FN estricta en que:
 - [ ] a) Solo aplica a relaciones con claves foráneas compuestas.
-- [ ] b) Exige que para TODA dependencia funcional no trivial $X ightarrow A$, el determinante $X$ sea superclave (incluso si $A$ es un atributo primo).
+- [ ] b) Exige que para TODA dependencia funcional no trivial $X 
+ightarrow A$, el determinante $X$ sea superclave (incluso si $A$ es un atributo primo).
 - [ ] c) Permite dependencias parciales de atributos primos.
 - [ ] d) Requiere la ausencia total de valores nulos (NOT NULL) en toda la tabla.
 
@@ -63,7 +72,9 @@ Cuestionario de 10 preguntas tipo test con formato oficial de examen de la AGE (
 >
 > ### Explicación Técnica:
 > - **Pregunta 1 (b)**: 2FN elimina dependencias funcionales parciales respecto a claves compuestas.
-> - **Pregunta 2 (a)**: 3FN exige 2FN y que ningún atributo no primo dependa transitivamente de la clave ($X ightarrow Y ightarrow Z$).
+> - **Pregunta 2 (a)**: 3FN exige 2FN y que ningún atributo no primo dependa transitivamente de la clave ($X 
+ightarrow Y 
+ightarrow Z$).
 > - **Pregunta 3 (b)**: En BCNF todo determinante debe ser superclave, sin excepción para atributos primos.
 > - **Pregunta 4 (c)**: 4FN trata las dependencias multivaluadas independientes de Fagin ($X 	woheadrightarrow Y$).
 > - **Pregunta 5 (c)**: En E/R de Chen: Entidades = Rectángulos, Atributos = Elipses, Relaciones = Rombos.
