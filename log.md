@@ -20,3 +20,11 @@ Append-only chronological timeline of wiki operations.
 - Generated synthesis: `wiki/synthesis/llm-wiki-vs-rag-comparison.md`.
 - Created tutorials 01 through 06 in `tutorials/`.
 - Updated `index.md` master catalog.
+
+## [2026-08-17] skills | Installed Obsidian Skills (kepano/obsidian-skills)
+- Installed skills into `.agents/skills/` and `.claude/skills/`:
+  - `obsidian-markdown`: Obsidian syntax, wikilinks, callouts, embeds, frontmatter properties.
+  - `obsidian-bases`: Obsidian Bases (`.base`) format, views, filters, formulas.
+  - `json-canvas`: JSON Canvas (`.canvas`) diagramming and graph nodes.
+  - `obsidian-cli`: CLI automation for vault interaction.
+  - `defuddle`: Web content extraction and clutter removal.
