@@ -1,0 +1,31 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": true,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "colorGroups": [
+    {
+      "query": "path:sources",
+      "color": {
+        "a": 1,
+        "rgb": 15022645
+      }
+    },
+    {
+      "query": "path:entities OR path:concepts",
+      "color": {
+        "a": 1,
+        "rgb": 9315504
+      }
+    },
+    {
+      "query": "path:synthesis",
+      "color": {
+        "a": 1,
+        "rgb": 2001125
+      }
+    }
+  ]
+}

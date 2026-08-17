@@ -1,0 +1,122 @@
+/* ==========================================================================
+   TAI Oposiciones - Esquema Cromático Jerárquico de Estudio
+   - Temas Principales (Nivel 1 / H1): ROJO (#E53935 / #EF5350)
+   - Subtemas (Nivel 2 / H2): MORADO (#8E24AA / #AB47BC)
+   - Conocimientos Concretos / Datos Específicos (Nivel 3+ / H3 / H4 / Callouts): AZUL (#1E88E5 / #42A5F5)
+   ========================================================================== */
+
+:root {
+  --tai-tema-red: #e53935;
+  --tai-tema-red-bg: rgba(229, 57, 53, 0.12);
+  --tai-tema-red-border: rgba(229, 57, 53, 0.4);
+
+  --tai-subtema-purple: #8e24aa;
+  --tai-subtema-purple-bg: rgba(142, 36, 170, 0.12);
+  --tai-subtema-purple-border: rgba(142, 36, 170, 0.4);
+
+  --tai-concreto-blue: #1e88e5;
+  --tai-concreto-blue-bg: rgba(30, 136, 229, 0.12);
+  --tai-concreto-blue-border: rgba(30, 136, 229, 0.4);
+}
+
+/* 1. ENCABEZADOS DE TEMA PRINCIPAL (ROJO) */
+.markdown-rendered h1,
+.cm-header-1,
+.theme-dark h1,
+.theme-light h1 {
+  color: var(--tai-tema-red) !important;
+  font-weight: 800 !important;
+  border-bottom: 2px solid var(--tai-tema-red) !important;
+  padding-bottom: 6px !important;
+  margin-top: 24px !important;
+  margin-bottom: 16px !important;
+  letter-spacing: -0.02em;
+}
+
+/* 2. ENCABEZADOS DE SUBTEMA (MORADO) */
+.markdown-rendered h2,
+.cm-header-2,
+.theme-dark h2,
+.theme-light h2 {
+  color: var(--tai-subtema-purple) !important;
+  font-weight: 700 !important;
+  border-left: 4px solid var(--tai-subtema-purple) !important;
+  padding-left: 10px !important;
+  margin-top: 20px !important;
+  margin-bottom: 12px !important;
+}
+
+/* 3. CONOCIMIENTOS CONCRETOS Y DETALLES ESPECÍFICOS (AZUL) */
+.markdown-rendered h3,
+.cm-header-3,
+.theme-dark h3,
+.theme-light h3 {
+  color: var(--tai-concreto-blue) !important;
+  font-weight: 600 !important;
+  margin-top: 16px !important;
+  margin-bottom: 8px !important;
+}
+
+.markdown-rendered h4,
+.cm-header-4,
+.theme-dark h4,
+.theme-light h4 {
+  color: #0288d1 !important;
+  font-weight: 600 !important;
+}
+
+/* 4. TABLAS DE DATOS CONCRETOS DE EXAMEN */
+.markdown-rendered table th {
+  background-color: var(--tai-concreto-blue-bg) !important;
+  color: var(--tai-concreto-blue) !important;
+  border-bottom: 2px solid var(--tai-concreto-blue) !important;
+  font-weight: 700 !important;
+}
+
+/* 5. CALLOUTS ESPECÍFICOS POR COLOR */
+.callout[data-callout="tema"],
+.callout[data-callout="danger"],
+.callout[data-callout="important"] {
+  --callout-color: 229, 57, 53;
+  border-left: 4px solid var(--tai-tema-red) !important;
+  background-color: var(--tai-tema-red-bg) !important;
+}
+
+.callout[data-callout="subtema"],
+.callout[data-callout="example"] {
+  --callout-color: 142, 36, 170;
+  border-left: 4px solid var(--tai-subtema-purple) !important;
+  background-color: var(--tai-subtema-purple-bg) !important;
+}
+
+.callout[data-callout="concreto"],
+.callout[data-callout="note"],
+.callout[data-callout="tip"],
+.callout[data-callout="info"] {
+  --callout-color: 30, 136, 229;
+  border-left: 4px solid var(--tai-concreto-blue) !important;
+  background-color: var(--tai-concreto-blue-bg) !important;
+}
+
+/* 6. GRAFO DE OBSIDIAN Y ETIQUETAS */
+.tag[href*="bloque"],
+.tag[href*="tema"] {
+  background-color: var(--tai-tema-red-bg) !important;
+  color: var(--tai-tema-red) !important;
+  border: 1px solid var(--tai-tema-red-border) !important;
+}
+
+.tag[href*="entity"],
+.tag[href*="concept"] {
+  background-color: var(--tai-subtema-purple-bg) !important;
+  color: var(--tai-subtema-purple) !important;
+  border: 1px solid var(--tai-subtema-purple-border) !important;
+}
+
+.tag[href*="synthesis"],
+.tag[href*="cheatsheet"],
+.tag[href*="guide"] {
+  background-color: var(--tai-concreto-blue-bg) !important;
+  color: var(--tai-concreto-blue) !important;
+  border: 1px solid var(--tai-concreto-blue-border) !important;
+}

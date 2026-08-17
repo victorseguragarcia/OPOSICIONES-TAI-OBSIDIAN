@@ -78,3 +78,17 @@ Periodically run `scripts/lint.py` to check for:
 - Prefer standard Obsidian wikilinks: `[[Target Page]]` or `[[Target Page|Display Alias]]`.
 - Relative Markdown links `[Display](relative/path.md)` are also fully supported.
 - Keep links contextual and dense to build an associative knowledge graph.
+
+---
+
+## 5. Visual Hierarchy & Color Coding Standard
+
+To optimize human study and visual recall in Obsidian, the wiki enforces a strict 3-tier color hierarchy defined in `.obsidian/snippets/tai-colors.css`:
+
+- 🔴 **Temas Principales (Nivel 1 / H1 / Bloques)**: **Rojo** (`#E53935`)
+  - Identifica títulos de temas generales, bloques y portadas maestras.
+- 🟣 **Subtemas (Nivel 2 / H2 / Entidades & Conceptos)**: **Morado** (`#8E24AA`)
+  - Identifica secciones intermedias, clasificaciones de conceptos y entidades.
+- 🔵 **Conocimientos Concretos (Nivel 3+ / H3 / H4 / Tablas / Datos Clave)**: **Azul** (`#1E88E5`)
+  - Identifica datos precisos de examen (puertos, RFCs, artículos, plazos, fórmulas, tablas y callouts específicos).
+
