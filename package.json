@@ -1,0 +1,14 @@
+{
+  "name": "oposiciones-tai-wiki",
+  "version": "1.0.0",
+  "description": "Bóveda de Estudio y Wiki LLM para Oposiciones TAI / AGE",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "npx @jackyzha0/quartz build --directory .",
+    "serve": "npx @jackyzha0/quartz build --directory . --serve"
+  },
+  "dependencies": {
+    "@jackyzha0/quartz": "^4.4.0"
+  }
+}
