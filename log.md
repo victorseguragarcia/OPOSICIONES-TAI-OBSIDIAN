@@ -112,3 +112,13 @@ Append-only chronological timeline of wiki operations.
 - 15 Conceptos ampliados y creados en `wiki/concepts/` (incluyendo `cryptography-and-digital-signatures`, `directory-services-and-identity`, `incident-management-and-itil`).
 - 10 Síntesis monográficas en `wiki/synthesis/` (incluyendo `network-ports-and-protocols-cheatsheet`, `cryptography-algorithms-comparison`, `active-directory-and-ldap-guide`, `cpd-tier-levels-and-disaster-recovery`, `email-protocols-smtp-pop-imap-guide`, `security-frameworks-ens-magerit-ccn`).
 - Catálogo maestro `index.md` reconstruido y sincronizado.
+
+
+## [2026-08-17] expansion | Ampliación Exhaustiva de Contenidos del Bloque 4
+- Ampliación masiva de contenido técnico a partir de las ~37.000 líneas de los 10 PDFs del Bloque 4.
+- Generadas notas de alta densidad técnica (100-250 líneas por fichero) con puertos, RFCs, comandos, tablas de examen y algoritmos.
+- 10 Fuentes ampliadas en `wiki/sources/` (Temas 01 al 10).
+- 25 Entidades ampliadas y creadas en `wiki/entities/` (incluyendo `active-directory`, `ldap-protocol`, `raid-storage`, `http-protocol`).
+- 15 Conceptos ampliados y creados en `wiki/concepts/` (incluyendo `cryptography-and-digital-signatures`, `directory-services-and-identity`, `incident-management-and-itil`).
+- 10 Síntesis monográficas en `wiki/synthesis/` (incluyendo `network-ports-and-protocols-cheatsheet`, `cryptography-algorithms-comparison`, `active-directory-and-ldap-guide`, `cpd-tier-levels-and-disaster-recovery`, `email-protocols-smtp-pop-imap-guide`, `security-frameworks-ens-magerit-ccn`).
+- Catálogo maestro `index.md` reconstruido y sincronizado.
