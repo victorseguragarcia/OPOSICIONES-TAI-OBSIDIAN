@@ -1,5 +1,5 @@
 ---
-title: "Resumen Fuente: Bloque 2 - Tema 01: Arquitectura de Ordenadores, CPU, Memoria y Buses"
+title: "Resumen Fuente: Bloque 2 - Tema 01 (UD011929): Informática Básica, Representación de la Información y Arquitectura de Computadores"
 type: "source"
 tags:
   - source-summary
@@ -7,47 +7,93 @@ tags:
   - tai
   - bloque-2
   - tema01
-  - arquitectura-ordenadores
-  - cpu
-  - jerarquia-memoria
-  - buses
+  - representacion-informacion
+  - von-neumann
+  - ieee-754
+  - complemento-a-dos
+  - unicode
 sources:
-  - "raw/sources/bloque2-tema01.md"
+  - "raw/sources/bloque2-tema01-informatica-basica-representacion.md"
 created: "2026-08-17"
 updated: "2026-08-17"
 aliases:
-  - "Resumen Arquitectura de Ordenadores y CPU"
+  - "Resumen Informática Básica y Representación"
   - "bloque2-tema01"
 ---
 
-# Resumen Fuente: Bloque 2 - Tema 01: Arquitectura de Ordenadores, CPU, Memoria y Buses
+# 🔴 Resumen Fuente: Bloque 2 - Tema 01 (UD011929): Informática Básica, Representación de la Información y Arquitectura de Computadores
 
-Resumen exhaustivo procesado desde la fuente oficial [[raw/sources/bloque2-tema01.md|bloque2-tema01.md]].
+Resumen procesado y profundizado a partir de la fuente oficial [[raw/sources/bloque2-tema01-informatica-basica-representacion.md|bloque2-tema01-informatica-basica-representacion.md]] (88 páginas).
 
 ---
 
-## 📖 Resumen Ejecutivo
+## 📖 1. Unidades de Medida y Sistemas de Numeración
 
-Este tema profundiza en la estructura y funcionamiento interno de un sistema informático: los modelos arquitectónicos **Von Neumann** (memoria única compartida para datos e instrucciones) frente a **Harvard** (memorias y buses físicos separados), los componentes y registros de la **CPU** (Unidad de Control con PC, IR, decodificador; Unidad Aritmético-Lógica ALU con acumulador y registro de estado PSW; y registros de memoria MAR/MBR), el ciclo de instrucción (*fetch-decode-execute*), las filosofías **CISC vs RISC**, la **jerarquía de memoria** (registros, cachés L1/L2/L3, memoria RAM DRAM y almacenamiento secundario) con sus principios de localidad y políticas de correspondencia/reemplazo/escritura, y la clasificación y capacidad de direccionamiento de los **buses del sistema** (datos, direcciones y control).
+- **Unidades de Medida (SI vs IEC)**:
+  - Sistema Internacional (decimal): $1	ext{ KB} = 10^3 = 1.000	ext{ bytes}$, $1	ext{ MB} = 10^6	ext{ bytes}$, $1	ext{ GB} = 10^9	ext{ bytes}$.
+  - Estándar IEC (binario): $1	ext{ KiB} = 2^{10} = 1.024	ext{ bytes}$, $1	ext{ MiB} = 2^{20}	ext{ bytes}$, $1	ext{ GiB} = 2^{30}	ext{ bytes}$, $1	ext{ TiB} = 2^{40}	ext{ bytes}$.
+- **Sistemas de Numeración**: Binario (base 2), Octal (base 8: grupos de 3 bits), Decimal (base 10) y Hexadecimal (base 16: grupos de 4 bits).
+
+---
+
+## 🟣 2. Representación de Datos: Enteros y Coma Flotante
+
+### A. Representación de Enteros con Signo ($n$ bits):
+1. **Signo y Magnitud (SM)**: Bit más significativo (MSB) para el signo ($0$ positivo, $1$ negativo). Rango: $[-(2^{n-1}-1), +(2^{n-1}-1)]$. Doble cero ($+0$ y $-0$).
+2. **Complemento a 1 (C1)**: Se invierten todos los bits para números negativos. Doble cero ($+0$ y $-0$).
+3. **Complemento a 2 (C2)**: Estándar universal. Se calcula invirtiendo los bits y sumando $1$ ($	ext{C2}(x) = \overline{x} + 1 = 2^n - |x|$).
+   - Rango: $[-2^{n-1}, +(2^{n-1}-1)]$. **Cero único** ($00...0$). Para 8 bits: $[-128, +127]$.
+
+### B. Coma Flotante Estándar IEEE 754:
+$$N = (-1)^S 	imes 1.M 	imes 2^{E - 	ext{Sesgo}}$$
+- **Simple Precisión (32 bits)**: 1 bit de signo ($S$), **8 bits de exponente ($E$)** con sesgo **127**, y **23 bits de mantisa ($M$)**.
+- **Doble Precisión (64 bits)**: 1 bit de signo ($S$), **11 bits de exponente ($E$)** con sesgo **1023**, y **52 bits de mantisa ($M$)**.
+- **Valores Especiales**:
+  - Exponente todo 1s y Mantisa 0: **$\pm\infty$** (Infinito).
+  - Exponente todo 1s y Mantisa $
+e 0$: **NaN** (*Not a Number*).
+  - Exponente todo 0s y Mantisa $
+e 0$: **Números desnormalizados** (sin el 1 implícito).
+
+---
+
+## 🔵 3. Codificación de Caracteres
+
+- **ASCII (7 bits)**: 128 caracteres (0 a 127). Códigos de control 0 a 31; 'A' = 65 (0x41), 'a' = 97 (0x61), '0' = 48 (0x30).
+- **ASCII Extendido / ISO 8859-1 (Latin-1 - 8 bits)**: 256 caracteres para lenguas de Europa occidental (incluye 'ñ', 'ç', vocales con tilde).
+- **ISO 8859-15 (Latin-9)**: Reemplaza caracteres poco usados de ISO 8859-1 para incorporar el símbolo del **Euro (€)** y las letras 'Š', 'š', 'Ž', 'ž', 'Œ', 'œ', 'Ÿ'.
+- **Unicode**:
+  - **UTF-8**: Longitud variable (1 a 4 bytes). Totalmente compatible hacia atrás con ASCII (los primeros 128 caracteres ocupan 1 byte).
+  - **UTF-16**: Longitud variable (2 o 4 bytes mediante pares sustitutos / *surrogates*).
+  - **UTF-32**: Longitud fija de 4 bytes (32 bits) por carácter.
+
+---
+
+## 🔵 4. Arquitectura de Computadores (Von Neumann vs Harvard)
+
+- **Von Neumann**: Memoria unificada para instrucciones de programa y datos. Un único bus compartido genera el **cuello de botella de Von Neumann**.
+- **Harvard**: Memorias y buses físicos separados para instrucciones y datos (permite lecturas simultáneas).
+- **Componentes CPU**:
+  - **Unidad de Control (UC)**: Contador de Programa (PC), Registro de Instrucción (RI), Decodificador, Reloj.
+  - **Unidad Aritmético-Lógica (ALU)**: Operaciones lógicas y aritméticas, Acumulador, Registro de Estado (*Flags*).
+  - **Buses del Sistema**: Bus de Datos (bidireccional), Bus de Direcciones (unidireccional desde CPU hacia memoria/periféricos) y Bus de Control.
 
 ---
 
 ## 🎯 Datos Clave para Oposiciones TAI
 
-| Componente / Concepto | Función / Fórmula de Examen |
-|-----------------------|-----------------------------|
-| **Modelo Von Neumann** | Memoria **única compartida** para datos e instrucciones (Cuello de botella de bus único) |
-| **Modelo Harvard** | Memorias y buses **separados físicamente** para datos e instrucciones |
-| **Contador de Programa (PC)** | Contiene la **dirección de memoria de la siguiente instrucción** a ejecutar |
-| **Registro de Instrucción (IR)** | Almacena la **instrucción que se está ejecutando** actualmente |
-| **Registro MAR / MBR** | **MAR**: Dirección física conectada al bus de direcciones \| **MBR**: Datos conectados al bus de datos |
-| **Espacio Direccionable Bus Direcciones** | $2^N$ bytes, donde $N$ es el número de líneas de dirección ($2^{32} = 4\text{ GB}$) |
-| **Caché Write-Through vs Write-Back** | **Write-Through**: Escribe en caché y RAM a la vez \| **Write-Back**: Escribe solo en caché (bit sucio) |
+| Concepto | Especificación Técnica de Examen |
+|----------|----------------------------------|
+| **Rango C2 en 8 bits** | **$-128$ a $+127$** ($-128$ se representa como `10000000`) |
+| **Sesgo IEEE 754 32 bits** | **127** ($2^{8-1} - 1$) \| 64 bits: **1023** ($2^{11-1} - 1$) |
+| **UTF-8 Longitud** | **1 a 4 bytes** (compatible con ASCII en el byte 1) |
+| **Bus de Direcciones** | Si el bus tiene $N$ líneas, puede direccionar un espacio de memoria de $2^N$ posiciones. |
 
 ---
 
 ## 🔗 Enlaces del Grafo de Conocimiento
-- Entidad: [[wiki/entities/cpu-architecture-von-neumann|Arquitectura de CPU y Modelo Von Neumann]]
-- Entidad: [[wiki/entities/memory-hierarchy-and-ram|Jerarquía de Memoria y Memoria RAM]]
-- Concepto: [[wiki/concepts/cache-memory-and-coherence|Memoria Caché y Coherencia]]
-- Síntesis: [[wiki/synthesis/bloque2-tai-oposiciones-master-guide|Guía Maestra de Bloque 2: Tecnología Básica (TAI)]]
+- Entidad: [[wiki/entities/cpu-architecture-von-neumann|Arquitectura de CPU Von Neumann y Harvard]]
+- Entidad: [[wiki/entities/ieee-754-floating-point|Estándar IEEE 754 de Coma Flotante]]
+- Entidad: [[wiki/entities/character-encoding-unicode-utf8|Codificación de Caracteres: ASCII, ISO 8859 y Unicode]]
+- Concepto: [[wiki/concepts/two-complement-and-binary-arithmetic|Complemento a Dos y Aritmética Binaria]]
+- Síntesis: [[wiki/synthesis/ieee-754-and-binary-representation-cheatsheet|Cheatsheet de IEEE 754 y Representación Binaria]]

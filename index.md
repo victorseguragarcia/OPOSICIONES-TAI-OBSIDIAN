@@ -25,11 +25,11 @@
 - [[wiki/sources/bloque1-tema10|Resumen Fuente: Bloque 1 - Tema 10: Transparencia y Acceso a la Información Pública (Ley 19/2013)]]
 
 ## 🔴 Bloque 2: Tecnología Básica (5 Temas)
-- [[wiki/sources/bloque2-tema01|Resumen Fuente: Bloque 2 - Tema 01: Arquitectura de Ordenadores, CPU, Memoria y Buses]]
-- [[wiki/sources/bloque2-tema02|Resumen Fuente: Bloque 2 - Tema 02: Periféricos, Conectividad e Interfaces (USB, PCIe, NVMe)]]
-- [[wiki/sources/bloque2-tema03|Resumen Fuente: Bloque 2 - Tema 03: Representación de la Información: C2, IEEE 754, ASCII y Unicode]]
-- [[wiki/sources/bloque2-tema04|Resumen Fuente: Bloque 2 - Tema 04: Estructuras de Datos, Algoritmos de Ordenación y Complejidad Big-O]]
-- [[wiki/sources/bloque2-tema05|Resumen Fuente: Bloque 2 - Tema 05: Ficheros, Organización y Sistemas de Archivos: FAT32, NTFS, ext4, XFS]]
+- [[wiki/sources/bloque2-tema01|Resumen Fuente: Bloque 2 - Tema 01 (UD011929): Informática Básica, Representación de la Información y Arquitectura de Computadores]]
+- [[wiki/sources/bloque2-tema02|Resumen Fuente: Bloque 2 - Tema 02 (UD012103): Periféricos, Conectividad, Puertos Físicos y Buses de Expansión]]
+- [[wiki/sources/bloque2-tema03|Resumen Fuente: Bloque 2 - Tema 03 (DOCUMENTO3): Tipos y Estructuras de Datos, Organización de Ficheros y Algoritmos]]
+- [[wiki/sources/bloque2-tema04|Resumen Fuente: Bloque 2 - Tema 04 (UD012105): Sistemas Operativos: Gestión de Procesos, Memoria y Sistemas de Archivos]]
+- [[wiki/sources/bloque2-tema05|Resumen Fuente: Bloque 2 - Tema 05 (UD012106): Sistemas Gestores de Bases de Datos, NoSQL y Teorema CAP]]
 
 ## 🔴 Bloque 3: Desarrollo de Sistemas (9 Temas)
 - [[wiki/sources/bloque3-tema01|Resumen Fuente: Bloque 3 - Tema 01 (UD012107): Modelado de Datos, Modelo E/R, Diseño Relacional y Normalización]]
@@ -59,9 +59,9 @@
 
 ---
 
-## 🟣 2. Subtemas: Entidades y Conceptos Teóricos (106 Fichas)
+## 🟣 2. Subtemas: Entidades y Conceptos Teóricos (113 Fichas)
 
-### 🟣 Entidades Técnicas y Normativas (68 Fichas)
+### 🟣 Entidades Técnicas y Normativas (72 Fichas)
 - [[wiki/entities/active-directory|Active Directory Domain Services (AD DS)]]
 - [[wiki/entities/aepd-agencia-proteccion-datos|Agencia Española de Protección de Datos (AEPD)]]
 - [[wiki/entities/attention-mechanism|Attention Mechanism]]
@@ -103,10 +103,13 @@
 - [[wiki/entities/linux-kernel|Linux Kernel y Software de Base]]
 - [[wiki/entities/memory-hierarchy-and-ram|Jerarquía de Memoria, Memoria RAM y Memorias ROM]]
 - [[wiki/entities/metrica-v3-methodology|Metodología MÉTRICA Versión 3 (MÉTRICA v3)]]
+- [[wiki/entities/nosql-databases-and-cap-theorem|Bases de Datos NoSQL, Familias y Teorema CAP]]
 - [[wiki/entities/nosql-databases|Bases de Datos NoSQL y Big Data]]
+- [[wiki/entities/operating-systems-architecture-and-scheduling|Sistemas Operativos: Arquitectura, Procesos y Planificación de CPU]]
 - [[wiki/entities/optical-fiber-and-gpon|Fibra Óptica, Ventanas de Transmisión y Redes GPON/FTTH]]
 - [[wiki/entities/peripheral-interfaces-usb-pcie-nvme|Interfaces Periféricas: USB, PCIe, NVMe y Thunderbolt]]
 - [[wiki/entities/powershell|PowerShell y Cmdlets en Entornos Windows]]
+- [[wiki/entities/process-synchronization-and-deadlocks|Sincronización de Procesos, Condiciones de Coffman y Deadlocks]]
 - [[wiki/entities/programming-languages-and-compilers|Lenguajes de Programación, Paradigmas, Compiladores y Jerarquía de Chomsky]]
 - [[wiki/entities/raid-storage|Sistemas de Almacenamiento RAID, DAS, NAS y SAN]]
 - [[wiki/entities/relational-database-modeling-and-normalization|Modelado de Datos Relacional, Modelo E/R y Normalización Rigurosa]]
@@ -125,18 +128,21 @@
 - [[wiki/entities/transformer-architecture|Transformer Architecture]]
 - [[wiki/entities/trebep-empleado-publico|TREBEP: Estatuto Básico del Empleado Público (RD Legislativo 5/2015)]]
 - [[wiki/entities/uml-diagrams-and-modeling|Diagramas UML 2.x y Lenguaje de Modelado]]
+- [[wiki/entities/virtual-memory-paging-and-segmentation|Memoria Virtual, Paginación, Segmentación y Algoritmos de Reemplazo]]
 - [[wiki/entities/voip-sip-and-rtp|Telefonía IP (VoIP): Protocolos SIP, SDP, RTP y RTCP]]
 - [[wiki/entities/web-accessibility-wcag-and-rd-1112-2018|Accesibilidad Web: Pautas WCAG 2.1/2.2, Norma EN 301 549 y Real Decreto 1112/2018]]
 - [[wiki/entities/web-technologies-html5-css-javascript|Tecnologías Web Frontend: HTML5, DOM, CSS3 y JavaScript]]
 - [[wiki/entities/wi-fi-and-mobile-standards|Estándares Wi-Fi (IEEE 802.11) y Tecnologías Móviles (5G NR)]]
 - [[wiki/entities/windows-server|Windows Server: Arquitectura, Roles, Servicios y Administración de Dominios]]
 
-### 🟣 Conceptos Teóricos y Arquitecturas (38 Fichas)
+### 🟣 Conceptos Teóricos y Arquitecturas (41 Fichas)
 - [[wiki/concepts/cache-memory-and-coherence|Memoria Caché, Principios de Localidad y Coherencia]]
+- [[wiki/concepts/cap-theorem-and-base-model|Teorema CAP de Brewer y Modelo BASE]]
 - [[wiki/concepts/ci-cd-pipelines-and-devops|Pipelines CI/CD, DevOps y Calidad de Código]]
 - [[wiki/concepts/ciphers-modes-and-cryptanalysis|Modos de Operación en Cifrado en Bloque y Criptoanálisis]]
 - [[wiki/concepts/computational-complexity-and-big-o|Complejidad Computacional y Notación Asintótica Big-O]]
 - [[wiki/concepts/computo-de-plazos-administrativos|Cómputo de Plazos Administrativos (Ley 39/2015)]]
+- [[wiki/concepts/cpu-scheduling-algorithms|Algoritmos de Planificación de CPU en Sistemas Operativos]]
 - [[wiki/concepts/cryptography-and-digital-signatures|Criptografía Simétrica, Asimétrica y Firma Digital]]
 - [[wiki/concepts/database-normalization-and-acid|Normalización de Bases de Datos y Propiedades ACID]]
 - [[wiki/concepts/datacenter-infrastructure-and-disaster-recovery|Infraestructura de Centros de Proceso de Datos (CPD) y Recuperación ante Desastres]]
@@ -157,6 +163,7 @@
 - [[wiki/concepts/normalization-and-normal-forms|Formas Normales, Dependencias Funcionales y Descomposición Relacional]]
 - [[wiki/concepts/operating-system-architecture|Arquitectura de Sistemas Operativos y Software de Base]]
 - [[wiki/concepts/osi-and-tcp-ip-models|Modelos Arquitectónicos ISO-OSI y TCP-IP]]
+- [[wiki/concepts/page-replacement-algorithms-and-thrashing|Algoritmos de Reemplazo de Páginas e Hiperpaginación (Thrashing)]]
 - [[wiki/concepts/persistent-llm-wiki|Persistent LLM Wiki Pattern]]
 - [[wiki/concepts/process-and-memory-management|Gestión de Procesos y Memoria en Sistemas Operativos]]
 - [[wiki/concepts/recursos-administrativos-y-plazos|Recursos Administrativos en Vía Administrativa y Régimen de Plazos]]
@@ -173,7 +180,7 @@
 
 ---
 
-### 🔵 3. Conocimientos Concretos, Guías de Síntesis y Tablas de Examen (47 Guías)
+### 🔵 3. Conocimientos Concretos, Guías de Síntesis y Tablas de Examen (50 Guías)
 
 - [[wiki/synthesis/active-directory-and-ldap-guide|Guía Comparativa y Práctica de Active Directory y LDAP]]
 - [[wiki/synthesis/actos-nulos-vs-anulables-guia|Guía de Invalidez: Actos Nulos de Pleno Derecho vs Actos Anulables]]
@@ -185,6 +192,7 @@
 - [[wiki/synthesis/bloque4-tai-oposiciones-master-guide|Guía Maestra de Bloque 4: Sistemas y Comunicaciones (TAI)]]
 - [[wiki/synthesis/constitucion-espanola-articulos-clave-cheatsheet|Cheatsheet de Artículos Clave de la Constitución Española para TAI]]
 - [[wiki/synthesis/cpd-tier-levels-and-disaster-recovery|Guía de Niveles TIER de CPD, RAID y Planes de Continuidad de Negocio]]
+- [[wiki/synthesis/cpu-scheduling-and-deadlocks-cheatsheet|Cheatsheet de Planificación de CPU, Algoritmos y Bloqueos Mutuos (Deadlocks)]]
 - [[wiki/synthesis/cryptography-algorithms-comparison|Comparativa Exhaustiva de Algoritmos Criptográficos y Firma Digital]]
 - [[wiki/synthesis/database-normalization-and-sql-cheatsheet|Cheatsheet de Normalización de Bases de Datos y Estándar ANSI SQL]]
 - [[wiki/synthesis/derechos-digitales-titulo-x-lopdgdd-cheatsheet|Cheatsheet de Derechos Digitales: Título X de la LOPDGDD (Artículos 79 al 97)]]
@@ -205,6 +213,7 @@
 - [[wiki/synthesis/metrica-v3-processes-and-artifacts-guide|Guía de Procesos, Actividades y Artefactos de MÉTRICA Versión 3]]
 - [[wiki/synthesis/network-cabling-and-fiber-optics-guide|Guía de Cableado Estructurado, Par Trenzado y Fibra Óptica]]
 - [[wiki/synthesis/network-ports-and-protocols-cheatsheet|Cheatsheet de Puertos y Protocolos de Red para Oposiciones TAI]]
+- [[wiki/synthesis/nosql-families-and-cap-theorem-guide|Guía de Familias NoSQL, Teorema CAP de Brewer y Modelo BASE]]
 - [[wiki/synthesis/osi-vs-tcpip-model-comparison|Comparativa: Modelo de Referencia ISO-OSI vs Pila de Protocolos TCP-IP]]
 - [[wiki/synthesis/plazos-procedimiento-administrativo-cheatsheet|Cheatsheet de Plazos del Procedimiento Administrativo (Ley 39/2015 y Ley 40/2015)]]
 - [[wiki/synthesis/recursos-administrativos-comparativa-guia|Guía Comparativa de Recursos Administrativos: Alzada, Reposición y Revisión]]
@@ -219,6 +228,7 @@
 - [[wiki/synthesis/supuestos-practicos-bloque3-simulacro-examen-tai|Supuesto Práctico Oficial TAI: Simulacro Completo de Examen Bloque III (20 Preguntas)]]
 - [[wiki/synthesis/sysadmin-commands-windows-and-linux-cheatsheet|Cheatsheet de Comandos de Administración de Sistemas Windows y Linux]]
 - [[wiki/synthesis/trebep-situaciones-y-regimen-disciplinario-guia|Guía del TREBEP: Situaciones Administrativas y Régimen Disciplinario]]
+- [[wiki/synthesis/virtual-memory-and-paging-algorithms-guide|Guía de Memoria Virtual, Paginación y Algoritmos de Reemplazo]]
 - [[wiki/synthesis/virtualization-vs-containerization-comparison|Comparativa Arquitectónica: Máquinas Virtuales vs Contenedores]]
 - [[wiki/synthesis/wcag-accessibility-principles-pour-cheatsheet|Cheatsheet de Principios POUR y Accesibilidad Web en el Sector Público (RD 1112/2018)]]
 - [[wiki/synthesis/windows-server-administration-guide|Guía Maestra de Administración de Windows Server para Oposiciones TAI]]
