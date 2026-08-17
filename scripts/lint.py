@@ -11,8 +11,16 @@ Validates wiki integrity:
 import os
 import re
 import sys
-import yaml
 from pathlib import Path
+
+# Force UTF-8 on Windows stdout if possible
+if sys.platform == "win32" and hasattr(sys.stdout, "reconfigure"):
+    try:
+        sys.stdout.reconfigure(encoding="utf-8")
+    except Exception:
+        pass
+
+import yaml
 
 ROOT_DIR = Path(__file__).resolve().parent.parent
 WIKI_DIR = ROOT_DIR / "wiki"
@@ -22,6 +30,8 @@ TUTORIALS_DIR = ROOT_DIR / "tutorials"
 WIKILINK_PATTERN = re.compile(r'\[\[([^\]|#]+)(?:#[^\]|]+)?(?:\|[^\]]+)?\]\]')
 MDLINK_PATTERN = re.compile(r'\[([^\]]+)\]\(([^)]+)\)')
 FRONTMATTER_PATTERN = re.compile(r'^---\s*\n(.*?)\n---\s*\n', re.DOTALL)
+CODE_BLOCK_PATTERN = re.compile(r'```.*?```', re.DOTALL)
+INLINE_CODE_PATTERN = re.compile(r'`[^`]+`')
 
 def get_all_md_files():
     files = {}
@@ -63,16 +73,19 @@ def parse_frontmatter(content, rel_path):
 
 def extract_links(content, file_path):
     links = []
-    # Strip frontmatter first
+    # 1. Strip frontmatter
     content_no_fm = FRONTMATTER_PATTERN.sub('', content)
+    # 2. Strip code blocks and inline code to prevent false positives in tutorials/examples
+    content_clean = CODE_BLOCK_PATTERN.sub('', content_no_fm)
+    content_clean = INLINE_CODE_PATTERN.sub('', content_clean)
     
-    # 1. Wikilinks [[target]]
-    for match in WIKILINK_PATTERN.finditer(content_no_fm):
+    # 3. Wikilinks [[target]]
+    for match in WIKILINK_PATTERN.finditer(content_clean):
         target = match.group(1).strip()
         links.append(('wikilink', target))
         
-    # 2. Markdown links [text](target)
-    for match in MDLINK_PATTERN.finditer(content_no_fm):
+    # 4. Markdown links [text](target)
+    for match in MDLINK_PATTERN.finditer(content_clean):
         target = match.group(2).strip()
         if not target.startswith(("http://", "https://", "mailto:", "#")):
             links.append(('mdlink', target))
@@ -80,13 +93,18 @@ def extract_links(content, file_path):
     return links
 
 def resolve_target(source_file, target_str, link_type, all_files):
-    # Normalize
-    clean_target = target_str.split('#')[0].strip()
+    clean_target = target_str.split('#')[0].strip().replace('\\', '/')
     if not clean_target:
         return True
     
+    # Check if target is a raw file path or asset
+    raw_candidate = ROOT_DIR / clean_target
+    if raw_candidate.exists():
+        return raw_candidate.resolve()
+    if (ROOT_DIR / f"{clean_target}.md").exists():
+        return (ROOT_DIR / f"{clean_target}.md").resolve()
+
     if link_type == 'mdlink':
-        # Resolve relative to source file
         try:
             target_path = (source_file.parent / clean_target).resolve()
             if target_path in all_files or target_path.exists():
@@ -94,7 +112,7 @@ def resolve_target(source_file, target_str, link_type, all_files):
         except Exception:
             pass
 
-    # Try matching filename / path in wiki
+    # Try matching filename / path in wiki or root
     candidates = [
         ROOT_DIR / clean_target,
         ROOT_DIR / f"{clean_target}.md",
@@ -117,7 +135,7 @@ def resolve_target(source_file, target_str, link_type, all_files):
 
 def run_lint():
     print("=" * 60)
-    print(" 🔍 RUNNING LLM WIKI LINT & HEALTH CHECK")
+    print("[*] RUNNING LLM WIKI LINT & HEALTH CHECK")
     print("=" * 60)
     
     all_files = get_all_md_files()
@@ -169,21 +187,21 @@ def run_lint():
                 warnings.append(f"Orphan note with 0 inbound links: {rel_path}")
 
     # Summary Output
-    print(f"\n📁 Scanned {len(all_files)} markdown files.")
+    print(f"\n[i] Scanned {len(all_files)} markdown files.")
     
     if warnings:
-        print(f"\n⚠️  {len(warnings)} WARNINGS:")
+        print(f"\n[!] {len(warnings)} WARNINGS:")
         for w in warnings:
             print(f"  - {w}")
             
     if errors:
-        print(f"\n❌ {len(errors)} ERRORS FOUND:")
+        print(f"\n[X] {len(errors)} ERRORS FOUND:")
         for e in errors:
             print(f"  - {e}")
-        print("\n❌ LINT FAILED")
+        print("\n[X] LINT FAILED")
         return 1
     else:
-        print("\n✅ ALL CHECKS PASSED: Wiki structure is healthy and fully connected!")
+        print("\n[OK] ALL CHECKS PASSED: Wiki structure is healthy and fully connected!")
         return 0
 
 if __name__ == "__main__":

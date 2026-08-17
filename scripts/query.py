@@ -7,8 +7,16 @@ Performs fast hybrid matching across frontmatter (tags, aliases, title) and body
 import sys
 import os
 import re
-import yaml
 from pathlib import Path
+
+# Force UTF-8 on Windows stdout if possible
+if sys.platform == "win32" and hasattr(sys.stdout, "reconfigure"):
+    try:
+        sys.stdout.reconfigure(encoding="utf-8")
+    except Exception:
+        pass
+
+import yaml
 
 ROOT_DIR = Path(__file__).resolve().parent.parent
 WIKI_DIR = ROOT_DIR / "wiki"
@@ -78,7 +86,7 @@ def search_wiki(query):
     results.sort(key=lambda x: x["score"], reverse=True)
     
     print("=" * 60)
-    print(f" 🔎 WIKI QUERY RESULTS FOR: '{query}'")
+    print(f"[*] WIKI QUERY RESULTS FOR: '{query}'")
     print("=" * 60)
     
     if not results:
@@ -87,12 +95,12 @@ def search_wiki(query):
         
     print(f"Found {len(results)} relevant note(s):\n")
     for r in results:
-        print(f"📄 [{r['type'].upper()}] {r['title']} (Score: {r['score']})")
-        print(f"   Path: {r['path']}")
+        print(f"[*] [{r['type'].upper()}] {r['title']} (Score: {r['score']})")
+        print(f"    Path: {r['path']}")
         if r['tags']:
-            print(f"   Tags: {', '.join(r['tags'])}")
+            print(f"    Tags: {', '.join(r['tags'])}")
         for s in r['snippets']:
-            print(f"   > {s[:120]}...")
+            print(f"    > {s[:120]}...")
         print("-" * 50)
 
 if __name__ == "__main__":
