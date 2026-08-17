@@ -185,7 +185,7 @@
 
 ---
 
-### 🔵 3. Conocimientos Concretos, Guías de Síntesis y Tablas de Examen (53 Guías)
+### 🔵 3. Conocimientos Concretos, Guías de Síntesis y Tablas de Examen (55 Guías)
 
 - [[wiki/synthesis/active-directory-and-ldap-guide|Guía Comparativa y Práctica de Active Directory y LDAP]]
 - [[wiki/synthesis/actos-nulos-vs-anulables-guia|Guía de Invalidez: Actos Nulos de Pleno Derecho vs Actos Anulables]]
@@ -193,6 +193,8 @@
 - [[wiki/synthesis/bloque1-informatica-y-administracion-digital-master-guide|Guía Maestra de Informática, Administración Electrónica y Marco Digital de la AGE (Bloque 1)]]
 - [[wiki/synthesis/bloque1-organos-superiores-y-directivos-age-cheatsheet|Cheatsheet: Órganos Superiores y Directivos de la AGE (Ley 40/2015)]]
 - [[wiki/synthesis/bloque1-tai-oposiciones-master-guide|Guía Maestra de Bloque 1: Organización del Estado, Administración Pública y Marco Digital (TAI)]]
+- [[wiki/synthesis/bloque2-arboles-ficheros-y-estructuras-datos-cheatsheet|Cheatsheet: Árboles, Complejidad Big-O y Organización de Ficheros (Bloque II)]]
+- [[wiki/synthesis/bloque2-hardware-cpu-memoria-y-buses-cheatsheet|Cheatsheet: Hardware, Registros de CPU, Jerarquía de Memoria y Buses (Bloque II)]]
 - [[wiki/synthesis/bloque2-tai-oposiciones-master-guide|Guía Maestra de Bloque 2: Tecnología Básica, Hardware, Algoritmos, SO y SGBD (TAI)]]
 - [[wiki/synthesis/bloque3-tai-oposiciones-master-guide|Guía Maestra de Bloque 3: Desarrollo de Sistemas, Metodologías, BBDD y Software (TAI)]]
 - [[wiki/synthesis/bloque4-tai-oposiciones-master-guide|Guía Maestra de Bloque 4: Sistemas, Comunicaciones, Redes y Seguridad (TAI)]]
@@ -242,12 +244,12 @@
 - [[wiki/synthesis/windows-server-administration-guide|Guía Maestra de Administración de Windows Server para Oposiciones TAI]]
 ---
 
-## 📝 4. Banco de Tests y Autoevaluaciones (13 Baterías)
+## 📝 4. Banco de Tests y Autoevaluaciones (18 Baterías)
 
 ### 📝 Tests y Simulacros por Bloques (1 Recursos)
 - [[wiki/tests/bloques/index-tests-bloques|Banco de Tests por Bloques del Temario TAI]]
 
-### 📝 Tests por Temas Individuales (12 Recursos)
+### 📝 Tests por Temas Individuales (17 Recursos)
 - [[wiki/tests/temas/index-tests-temas|Banco de Tests por Temas Individuales del Temario TAI]]
 - [[wiki/tests/temas/test-bloque1-tema01-constitucion|Test de Autoevaluación: Tema 1 - La Constitución Española de 1978]]
 - [[wiki/tests/temas/test-bloque1-tema02-gobierno-age|Test de Autoevaluación: Bloque 1 - Tema 02 (El Gobierno y la Ley 50/1997)]]
@@ -259,6 +261,11 @@
 - [[wiki/tests/temas/test-bloque1-tema08-lrjsp-admon-digital|Test de Autoevaluación: Bloque 1 - Tema 08 (Ley 40/2015 LRJSP y Administración Digital)]]
 - [[wiki/tests/temas/test-bloque1-tema09-rgpd-lopdgdd|Test de Autoevaluación: Bloque 1 - Tema 09 (RGPD, LOPDGDD y Título X Derechos Digitales)]]
 - [[wiki/tests/temas/test-bloque1-tema10-transparencia|Test de Autoevaluación: Bloque 1 - Tema 10 (Transparencia y Acceso a la Información - Ley 19/2013)]]
+- [[wiki/tests/temas/test-bloque2-tema01-informatica-basica|Test de Autoevaluación: Bloque 2 - Tema 01 (Informática Básica y Representación de Datos)]]
+- [[wiki/tests/temas/test-bloque2-tema02-perifericos-interfaces|Test de Autoevaluación: Bloque 2 - Tema 02 (Periféricos, Puertos y Conectividad)]]
+- [[wiki/tests/temas/test-bloque2-tema03-estructuras-algoritmos|Test de Autoevaluación: Bloque 2 - Tema 03 (Estructuras de Datos, Algoritmos y Ficheros)]]
+- [[wiki/tests/temas/test-bloque2-tema04-sistemas-operativos|Test de Autoevaluación: Bloque 2 - Tema 04 (Sistemas Operativos, Planificación y Memoria)]]
+- [[wiki/tests/temas/test-bloque2-tema05-sgbd-nosql|Test de Autoevaluación: Bloque 2 - Tema 05 (SGBD Relacionales, NoSQL y Teorema CAP)]]
 - [[wiki/tests/temas/test-bloque4-tema07-redes-tcp-ip|Test de Autoevaluación: Bloque 4 - Tema 07 (Redes TCP/IP y Subnetting)]]
 
 ---
