@@ -39,3 +39,8 @@ Append-only chronological timeline of wiki operations.
 - Documented ontology differentiation (Entities in `wiki/entities/` vs. Concepts in `wiki/concepts/`).
 - Streamlined full tutorial sequence (01 to 07) and updated master index.
 - All integrity and linter checks passed with zero errors.
+
+## [2026-08-17] tutorial | Tutorial 04: Cross-Referencing and Graph Topology
+- Documented associative linking mechanics, wikilink syntax, and graph topology guidelines in `tutorials/04-cross-referencing.md`.
+- Defined hub node patterns, bidirectional linking rules, and anti-orphan policies.
+- Validated complete graph integrity with `scripts/lint.py`.
