@@ -1,5 +1,5 @@
 ---
-title: "Resumen Fuente: Bloque 3 - Tema 04: Arquitecturas Web, Servicios SOAP, RESTful y Microservicios"
+title: "Resumen Fuente: Bloque 3 - Tema 04 (UD012111): POO, Patrones de Diseño GoF y UML"
 type: "source"
 tags:
   - source-summary
@@ -7,46 +7,46 @@ tags:
   - tai
   - bloque-3
   - tema04
-  - arquitecturas-web
-  - rest
-  - soap
-  - microservicios
-  - apis
+  - poo
+  - solid
+  - patrones-gof
+  - uml
 sources:
-  - "raw/sources/bloque3-tema04.md"
+  - "raw/sources/bloque3-tema04-poo-patrones-uml.md"
 created: "2026-08-17"
 updated: "2026-08-17"
 aliases:
-  - "Resumen Arquitecturas Web, REST y SOAP"
+  - "Resumen POO, Patrones GoF y UML"
   - "bloque3-tema04"
 ---
 
-# Resumen Fuente: Bloque 3 - Tema 04: Arquitecturas Web, Servicios SOAP, RESTful y Microservicios
+# Resumen Fuente: Bloque 3 - Tema 04 (UD012111): POO, Patrones de Diseño GoF y UML
 
-Resumen exhaustivo procesado desde la fuente oficial [[raw/sources/bloque3-tema04.md|bloque3-tema04.md]].
+Resumen procesado desde la fuente oficial [[raw/sources/bloque3-tema04-poo-patrones-uml.md|bloque3-tema04-poo-patrones-uml.md]] (68 páginas).
 
 ---
 
 ## 📖 Resumen Ejecutivo
 
-Este tema examina las arquitecturas distribuidas modernas: el modelo multicapa (*N-Tier*: Presentación, Lógica de Negocio y Persistencia), la comparativa técnica entre servicios web **SOAP** (basado en XML, con Envelope/Header/Body/Fault, descriptores WSDL, UDDI y seguridad WS-Security) y servicios **REST / RESTful** (basado en HTTP, sin estado *Stateless*, con recursos identificados por URIs, representaciones JSON, verbos GET/POST/PUT/PATCH/DELETE y madurez Richardson/HATEOAS), y las arquitecturas de **microservicios** con patrones API Gateway, Service Discovery, Circuit Breaker y mensajería asíncrona con brokers como RabbitMQ y Apache Kafka.
+Este tema profundiza en el diseño orientado a objetos: los pilares de la POO (abstracción, encapsulamiento, herencia y polimorfismo con ligadura dinámica), los principios **SOLID**, el lenguaje de modelado **UML 2.x** distinguiendo diagramas estructurales (clases, objetos, componentes, despliegue, paquetes) y de comportamiento (casos de uso con `<<include>>` obligatoria y `<<extend>>` opcional, secuencia, actividades, estados), y el catálogo de **23 Patrones de Diseño GoF** clasificados en Creacionales (Singleton, Factory Method, Abstract Factory, Builder, Prototype), Estructurales (Adapter, Composite, Decorator, Facade, Proxy, Bridge, Flyweight) y de Comportamiento (Observer, Strategy, Command, Template Method, Iterator, State).
 
 ---
 
 ## 🎯 Datos Clave para Oposiciones TAI
 
-| Tecnología / Criterio | SOAP | REST |
-|-----------------------|------|------|
-| **Naturaleza** | Protocolo formal W3C | Estilo arquitectónico (Roy Fielding) |
-| **Formato de Mensaje** | **Exclusivamente XML** | **JSON** (predominante), XML, texto |
-| **Descripción de Servicio** | **WSDL** (Web Services Description Language) | OpenAPI / Swagger |
-| **Estado de Sesión** | Puede mantener estado | Estrictamente **Sin Estado (Stateless)** |
-| **Seguridad Estándar** | **WS-Security** (a nivel de mensaje) | **HTTPS/TLS + OAuth 2.0 / JWT** |
-| **Verbos HTTP** | Habitualmente solo POST con payload XML | **GET, POST, PUT, PATCH, DELETE** |
+| Patrón / Diagrama UML | Categoría / Definición de Examen |
+|-----------------------|----------------------------------|
+| **Singleton** | Creacional: Garantiza una **única instancia** con punto de acceso global |
+| **Factory Method** | Creacional: Delega la instanciación de objetos en las subclases |
+| **Adapter** | Estructural: **Convierte la interfaz** de una clase en otra esperada por el cliente |
+| **Decorator** | Estructural: **Añade responsabilidades dinámicamente** sin modificar la clase |
+| **Observer** | Comportamiento: Dependencia 1 a N donde el cambio de estado del sujeto notifica a observadores |
+| **Strategy** | Comportamiento: Encapsula una familia de algoritmos haciéndolos intercambiables |
+| **UML `<<include>>` vs `<<extend>>`** | `<<include>>`: Ejecución **obligatoria** \| `<<extend>>`: Ejecución **opcional / condicional** |
 
 ---
 
 ## 🔗 Enlaces del Grafo de Conocimiento
-- Entidad: [[wiki/entities/rest-and-soap-web-services|Servicios Web RESTful y SOAP]]
-- Concepto: [[wiki/concepts/multitier-and-microservices-architectures|Arquitecturas Multicapa y Microservicios]]
-- Síntesis: [[wiki/synthesis/rest-vs-soap-comparison-guide|Guía Comparativa REST vs SOAP]]
+- Entidad: [[wiki/entities/uml-diagrams-and-modeling|Diagramas UML 2.x y Modelado]]
+- Entidad: [[wiki/entities/gof-design-patterns|Patrones de Diseño GoF (Gang of Four)]]
+- Síntesis: [[wiki/synthesis/gof-design-patterns-cheatsheet|Cheatsheet de Patrones de Diseño GoF]]

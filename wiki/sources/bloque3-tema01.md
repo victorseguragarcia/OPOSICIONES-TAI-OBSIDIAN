@@ -1,5 +1,5 @@
 ---
-title: "Resumen Fuente: Bloque 3 - Tema 01: Ciclo de Vida del Software, Metodologías Ágiles y MÉTRICA Versión 3"
+title: "Resumen Fuente: Bloque 3 - Tema 01 (UD012107): Modelado de Datos, Modelo E/R y Normalización"
 type: "source"
 tags:
   - source-summary
@@ -7,50 +7,45 @@ tags:
   - tai
   - bloque-3
   - tema01
-  - ciclo-de-vida
-  - metrica-v3
-  - scrum
-  - kanban
-  - xp
+  - modelado-datos
+  - modelo-er
+  - normalizacion
+  - formas-normales
 sources:
-  - "raw/sources/bloque3-tema01.md"
+  - "raw/sources/bloque3-tema01-modelado-datos-bbdd.md"
 created: "2026-08-17"
 updated: "2026-08-17"
 aliases:
-  - "Resumen Ciclo de Vida y Métrica v3"
+  - "Resumen Modelado de Datos y Normalización"
   - "bloque3-tema01"
 ---
 
-# Resumen Fuente: Bloque 3 - Tema 01: Ciclo de Vida del Software, Metodologías Ágiles y MÉTRICA Versión 3
+# Resumen Fuente: Bloque 3 - Tema 01 (UD012107): Modelado de Datos, Modelo Entidad-Relación y Normalización
 
-Resumen exhaustivo procesado desde la fuente oficial [[raw/sources/bloque3-tema01.md|bloque3-tema01.md]].
+Resumen procesado desde la fuente oficial [[raw/sources/bloque3-tema01-modelado-datos-bbdd.md|bloque3-tema01-modelado-datos-bbdd.md]] (90 páginas).
 
 ---
 
 ## 📖 Resumen Ejecutivo
 
-Este tema aborda la ingeniería de procesos del software: los modelos clásicos de ciclo de vida (Cascada, Modelo en V con su simetría desarrollo-pruebas, Prototipado y Espiral de Boehm con análisis de riesgos), el marco de metodologías ágiles (**Scrum** con roles PO/SM/Devs, eventos Sprint/Daily/Review/Retro y artefactos Backlog/Incremento; **Kanban** con límites WIP; y **XP** con TDD y *Pair Programming*), y la metodología oficial de las AAPP españolas: **MÉTRICA Versión 3 (MÉTRICA v3)** con sus procesos estructurados y orientados a objetos (**PSI**, **EVS**, **ASI**, **DSI**, **CSI**, **IAS**) e interfaces de soporte (Gestión de Proyectos, Seguridad, Calidad y Configuración).
+Este tema profundiza en las fases de diseño de bases de datos (Conceptual, Lógico y Físico): el **Modelo Entidad-Relación (E/R de Peter Chen)** (entidades fuertes y débiles, atributos simples/compuestos/multivaluados/derivados, relaciones 1:1, 1:N, M:N, cardinalidades mínimas y máximas), las reglas de transformación del modelo conceptual al **Modelo Lógico Relacional de Codd** (tablas, tuplas, atributos, dominios, claves primarias PK y foráneas FK, integridad de entidad e integridad referencial), y la **Teoría de la Normalización** (Dependencias Funcionales, 1FN, 2FN, 3FN, Forma Normal de Boyce-Codd BCNF, 4FN con dependencias multivaluadas y 5FN con dependencias de unión).
 
 ---
 
 ## 🎯 Datos Clave para Oposiciones TAI
 
-| Metodología / Proceso | Función / Especificación de Examen |
-|-----------------------|------------------------------------|
-| **Modelo en Espiral (Boehm)** | Ciclo iterativo guiado por el **análisis y gestión de riesgos** |
-| **Scrum Roles** | **Product Owner (PO)** (negocio/backlog), **Scrum Master (SM)** (facilitador) y **Developers** |
-| **Métrica v3 - PSI** | **Planificación de Sistemas de Información** (marco estratégico global) |
-| **Métrica v3 - EVS** | **Estudio de Viabilidad del Sistema** (alternativas técnica, económica y legal) |
-| **Métrica v3 - ASI** | **Análisis del Sistema de Información** (requisitos lógicos y casos de uso) |
-| **Métrica v3 - DSI** | **Diseño del Sistema de Información** (arquitectura física, BD, interfaces y plan de pruebas) |
-| **Métrica v3 - CSI** | **Construcción del Sistema de Información** (codificación, pruebas unitarias e integración) |
-| **Métrica v3 - IAS** | **Implantación y Aceptación del Sistema** (puesta en producción y aceptación final) |
+| Fase / Regla | Concepto / Fórmula de Examen |
+|--------------|------------------------------|
+| **Fases de Diseño BBDD** | 1. **Conceptual** (Modelo E/R) $ightarrow$ 2. **Lógico** (Relacional) $ightarrow$ 3. **Físico** (Tablas, índices y archivos) |
+| **Primera Forma Normal (1FN)** | Todos los atributos son **atómicos** (valores indivisibles, sin grupos repetitivos) |
+| **Segunda Forma Normal (2FN)** | Está en 1FN y todo atributo no clave tiene **dependencia funcional completa** de la PK (sin dependencias parciales) |
+| **Tercera Forma Normal (3FN)** | Está en 2FN y **no existen dependencias transitivas** entre atributos no clave ($X ightarrow Y ightarrow Z$) |
+| **Forma Normal de Boyce-Codd (BCNF)** | Para toda dependencia funcional $X ightarrow Y$, $X$ es **superclave / clave candidata** |
+| **Integridad Referencial** | Toda clave foránea (FK) debe coincidir con un valor de clave primaria (PK) existente o ser nula |
 
 ---
 
 ## 🔗 Enlaces del Grafo de Conocimiento
-- Entidad: [[wiki/entities/metrica-v3-methodology|Metodología MÉTRICA Versión 3]]
-- Entidad: [[wiki/entities/scrum-and-agile-frameworks|Metodologías Ágiles: Scrum, Kanban y XP]]
-- Concepto: [[wiki/concepts/software-lifecycle-models|Modelos del Ciclo de Vida del Software]]
-- Síntesis: [[wiki/synthesis/bloque3-tai-oposiciones-master-guide|Guía Maestra de Bloque 3: Desarrollo de Sistemas (TAI)]]
-- Síntesis: [[wiki/synthesis/metrica-v3-processes-and-artifacts-guide|Guía de Procesos y Artefactos de MÉTRICA v3]]
+- Entidad: [[wiki/entities/relational-database-modeling-and-normalization|Modelado de Datos Relacional y Normalización]]
+- Concepto: [[wiki/concepts/normalization-and-normal-forms|Formas Normales y Dependencias Funcionales]]
+- Síntesis: [[wiki/synthesis/database-normalization-and-sql-cheatsheet|Cheatsheet de Normalización de BBDD y SQL]]

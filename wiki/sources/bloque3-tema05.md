@@ -1,5 +1,5 @@
 ---
-title: "Resumen Fuente: Bloque 3 - Tema 05: Calidad, Pruebas de Software, Complejidad de McCabe y CI/CD"
+title: "Resumen Fuente: Bloque 3 - Tema 05 (UD012112): Componentes, Java EE / Jakarta EE y Plataforma .NET"
 type: "source"
 tags:
   - source-summary
@@ -7,46 +7,47 @@ tags:
   - tai
   - bloque-3
   - tema05
-  - pruebas-software
-  - caja-blanca
-  - caja-negra
-  - mccabe
-  - cicd
+  - componentes
+  - java-ee
+  - jakarta-ee
+  - dotnet
+  - clr
 sources:
-  - "raw/sources/bloque3-tema05.md"
+  - "raw/sources/bloque3-tema05-componentes-javaee-dotnet.md"
 created: "2026-08-17"
 updated: "2026-08-17"
 aliases:
-  - "Resumen Calidad, Pruebas y CI/CD"
+  - "Resumen Componentes, Java EE y .NET"
   - "bloque3-tema05"
 ---
 
-# Resumen Fuente: Bloque 3 - Tema 05: Calidad, Pruebas de Software, Complejidad de McCabe y CI/CD
+# Resumen Fuente: Bloque 3 - Tema 05 (UD012112): Desarrollo Basado en Componentes, Java EE / Jakarta EE y Plataforma .NET
 
-Resumen exhaustivo procesado desde la fuente oficial [[raw/sources/bloque3-tema05.md|bloque3-tema05.md]].
+Resumen procesado desde la fuente oficial [[raw/sources/bloque3-tema05-componentes-javaee-dotnet.md|bloque3-tema05-componentes-javaee-dotnet.md]] (132 páginas).
 
 ---
 
 ## 📖 Resumen Ejecutivo
 
-Este tema profundiza en el aseguramiento de la calidad del software: la jerarquía de niveles de pruebas (Unitarias, Integración, Sistema, Aceptación Alpha/Beta y Regresión), las técnicas de diseño de casos de prueba de **Caja Blanca** (coberturas y la métrica de **Complejidad Ciclomática de McCabe** $V(G) = E - N + 2P$ para caminos básicos independientes) frente a **Caja Negra** (particiones de equivalencia y análisis de valores límite), y los pipelines de integración y despliegue continuo (**CI/CD** con Jenkins, GitLab CI, GitHub Actions) integrados con análisis estático de código mediante **SonarQube** para evaluar deuda técnica y *Quality Gates*.
+Este tema examina el Desarrollo Basado en Componentes (CBD) y las dos grandes plataformas empresariales:
+1. **Plataforma Java EE / Jakarta EE**: Arquitectura de contenedores (Web Container, EJB Container), componentes (Servlets, JSP, EJB Session Stateless/Stateful, Message-Driven Beans MDB), APIs empresariales (JPA/Hibernate, JTA transacciones, JMS mensajería, JAX-RS REST, JAX-WS SOAP) y servidores de aplicaciones (WildFly/JBoss, GlassFish, WebLogic, Tomcat/Jetty).
+2. **Plataforma Microsoft .NET**: Arquitectura de ejecución **CLR (Common Language Runtime)**, código intermedio **MSIL / CIL**, compilación JIT, biblioteca de clases base (BCL), lenguajes (C#, VB.NET, F#), **ASP.NET Core**, ADO.NET y Entity Framework (ORM).
 
 ---
 
 ## 🎯 Datos Clave para Oposiciones TAI
 
-| Concepto / Métrica | Fórmula / Definición de Examen |
-|--------------------|--------------------------------|
-| **Complejidad Ciclomática ($V(G)$)** | **$V(G) = E - N + 2P$** ($E$ aristas, $N$ nodos, $P$ componentes conexos) |
-| **Fórmula Alternativa McCabe** | **$V(G) = 	ext{Nodos Predicado} + 1$** |
-| **Pruebas de Caja Blanca** | Analizan la **estructura interna y código fuente** (sentencias, ramas, caminos) |
-| **Pruebas de Caja Negra** | Basadas en **especificación externa** (clases de equivalencia, valores límite) |
-| **Pruebas de Regresión** | Verifican que los cambios nuevos no hayan roto funcionalidades previas |
-| **CI vs CD** | **CI**: Integración y tests automáticos \| **CD**: Despliegue automático a producción |
+| Plataforma / Componente | Función Técnica |
+|-------------------------|-----------------|
+| **EJB (Enterprise Java Beans)** | Componentes de lógica de negocio del lado servidor (Session Beans, MDB para JMS) |
+| **JPA (Java Persistence API)** | Estándar de mapeo objeto-relacional (ORM) en Java |
+| **CLR (Common Language Runtime)** | Motor de ejecución virtual de la plataforma .NET (equivalente a la JVM) |
+| **MSIL / CIL** | Código intermedio en .NET compilado a binario por el JIT |
+| **Entity Framework** | Framework ORM oficial de Microsoft para .NET |
 
 ---
 
 ## 🔗 Enlaces del Grafo de Conocimiento
-- Concepto: [[wiki/concepts/white-box-and-black-box-testing|Pruebas de Caja Blanca, Caja Negra y Métrica de McCabe]]
-- Concepto: [[wiki/concepts/ci-cd-pipelines-and-devops|Pipelines CI/CD, DevOps y Calidad de Código]]
-- Síntesis: [[wiki/synthesis/software-testing-and-qa-guide|Guía de Pruebas de Software y QA]]
+- Entidad: [[wiki/entities/java-platform-and-jvm|Plataforma Java, JVM y Ecosistema Spring]]
+- Entidad: [[wiki/entities/dotnet-framework-and-clr|Plataforma .NET y Entorno CLR]]
+- Síntesis: [[wiki/synthesis/java-ee-vs-dotnet-comparison-guide|Guía Comparativa Java EE / Jakarta EE vs Plataforma .NET]]

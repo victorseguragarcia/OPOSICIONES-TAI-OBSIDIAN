@@ -1,5 +1,5 @@
 ---
-title: "Resumen Fuente: Bloque 3 - Tema 03: Lenguajes, Plataforma Java/JVM y Git"
+title: "Resumen Fuente: Bloque 3 - Tema 03 (UD012110): Lenguajes de Interrogación SQL, Stored Procedures y Triggers"
 type: "source"
 tags:
   - source-summary
@@ -7,46 +7,45 @@ tags:
   - tai
   - bloque-3
   - tema03
-  - java
-  - jvm
-  - git
-  - control-versiones
-  - spring
+  - sql
+  - ddl
+  - dml
+  - stored-procedures
+  - triggers
+  - transacciones
 sources:
-  - "raw/sources/bloque3-tema03.md"
+  - "raw/sources/bloque3-tema03-sql-interrogacion-bbdd.md"
 created: "2026-08-17"
 updated: "2026-08-17"
 aliases:
-  - "Resumen Lenguajes, Java y Git"
+  - "Resumen SQL, Stored Procedures y Triggers"
   - "bloque3-tema03"
 ---
 
-# Resumen Fuente: Bloque 3 - Tema 03: Lenguajes, Plataforma Java/JVM y Git
+# Resumen Fuente: Bloque 3 - Tema 03 (UD012110): Lenguajes de Interrogación SQL, Stored Procedures y Triggers
 
-Resumen exhaustivo procesado desde la fuente oficial [[raw/sources/bloque3-tema03.md|bloque3-tema03.md]].
+Resumen procesado desde la fuente oficial [[raw/sources/bloque3-tema03-sql-interrogacion-bbdd.md|bloque3-tema03-sql-interrogacion-bbdd.md]] (140 páginas).
 
 ---
 
 ## 📖 Resumen Ejecutivo
 
-Este tema analiza los lenguajes de programación y herramientas de desarrollo: los paradigmas (imperativo, POO, funcional y declarativo), la arquitectura de la **Plataforma Java / JVM** (*WORA*, Bytecode `.class`, compilador JIT, gestión de memoria Stack vs Heap con Young/Old Generation y Metaspace, y recolector de basura Garbage Collector), el ecosistema empresarial con **Spring Boot** (Inversión de Control e Inyección de Dependencias) y JPA/Hibernate, y el sistema de control de versiones distribuido **Git** (las tres zonas: Working Tree, Staging Area y Repositorio Local; comandos esenciales, diferencias entre `git merge` y `git rebase`, y el modelo de ramas GitFlow).
+Este tema aborda el estándar **ANSI SQL** para sistemas relacionales: sublenguajes **DDL** (`CREATE`, `ALTER`, `DROP`, `TRUNCATE`), **DML** (`SELECT`, `INSERT`, `UPDATE`, `DELETE`), **DCL** (`GRANT`, `REVOKE`) y **TCL** (`COMMIT`, `ROLLBACK`, `SAVEPOINT`), consultas avanzadas con agregación (`GROUP BY`, `HAVING`), tipos de combinaciones (**INNER JOIN**, **LEFT/RIGHT/FULL OUTER JOIN**, **CROSS JOIN**, **NATURAL JOIN**), subconsultas correlacionadas, objetos de programación en servidor: **Procedimientos Almacenados (Stored Procedures)**, **Funciones de Usuario (UDF)** y **Disparadores (Triggers `BEFORE`/`AFTER`/`INSTEAD OF`)**, y las propiedades transaccionales **ACID** y niveles de aislamiento SQL.
 
 ---
 
 ## 🎯 Datos Clave para Oposiciones TAI
 
-| Concepto / Comando | Especificación Técnica |
-|--------------------|------------------------|
-| **Java Bytecode** | Código intermedio ejecutable por la **JVM** (`.class` generado por `javac`) |
-| **Java Heap vs Stack** | **Heap**: Objetos e instancias gestionados por GC \| **Stack**: Variables locales y llamadas |
-| **Spring IoC / DI** | Inversión de Control delegando la creación y enlace de objetos al contenedor Spring |
-| **Git: Staging Area (Index)** | Zona intermedia donde se preparan los cambios con `git add` antes del commit |
-| **`git rebase` vs `git merge`** | `rebase`: Reescribe la base creando un historial lineal \| `merge`: Crea un commit de unión |
-| **`git cherry-pick`** | Aplica un commit específico de otra rama sobre la rama actual |
+| Objeto / Comando SQL | Función / Definición |
+|----------------------|----------------------|
+| **`WHERE` vs `HAVING`** | `WHERE`: Filtra filas antes de agrupar \| `HAVING`: Filtra grupos tras el `GROUP BY` |
+| **`TRUNCATE` vs `DELETE`** | `TRUNCATE`: DDL rápido, reinicia identidad, sin WHERE \| `DELETE`: DML fila a fila con rollback |
+| **Triggers (Disparadores)** | Procedimientos automáticos ejecutados ante eventos DML (`INSERT`, `UPDATE`, `DELETE`) |
+| **Propiedades ACID** | **Atomicidad** (todo o nada), **Consistencia**, **Aislamiento** y **Durabilidad** |
+| **Niveles de Aislamiento** | *Read Uncommitted*, *Read Committed*, *Repeatable Read*, *Serializable* |
 
 ---
 
 ## 🔗 Enlaces del Grafo de Conocimiento
-- Entidad: [[wiki/entities/java-platform-and-jvm|Plataforma Java, JVM y Ecosistema Spring]]
-- Entidad: [[wiki/entities/git-version-control-system|Sistema de Control de Versiones Git]]
-- Síntesis: [[wiki/synthesis/bloque3-tai-oposiciones-master-guide|Guía Maestra de Bloque 3: Desarrollo de Sistemas (TAI)]]
+- Entidad: [[wiki/entities/sql-ansi-and-stored-procedures|Estándar ANSI SQL, Procedimientos Almacenados y Triggers]]
+- Síntesis: [[wiki/synthesis/database-normalization-and-sql-cheatsheet|Cheatsheet de Normalización de BBDD y SQL]]
