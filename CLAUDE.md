@@ -11,3 +11,4 @@ Please follow the conventions and workflow defined in `AGENTS.md` and `llm-wiki.
 - Keep `raw/` immutable.
 - Always maintain `index.md` and `log.md` when creating or modifying wiki pages.
 - Ensure all pages in `wiki/` contain valid frontmatter and inbound links.
+- When generating tests (`wiki/tests/`), strictly ground questions on the specific Tema/Bloque sources and concepts without hallucinating external information.

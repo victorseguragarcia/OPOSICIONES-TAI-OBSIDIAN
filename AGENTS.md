@@ -75,6 +75,14 @@ Periodically run `scripts/lint.py` to check for:
 - Malformed YAML frontmatter.
 - Stale or contradicting claims between notes.
 
+### D. Test Generation (wiki/ -> wiki/tests/)
+When asked to generate a test for a `Tema` or `Bloque`:
+1. **Strict Source Grounding**: The AI must **ONLY** use the ingested concepts, entities, and raw sources associated with that specific Tema or Bloque. Do not hallucinate external information or incorporate unverified facts.
+2. **Oposiciones Format**: Generate 4-option multiple-choice questions (`a, b, c, d`) typical of Spanish civil service exams (*Oposiciones TAI / AGE*), featuring plausible distractors, exact legal/technical terminology, and official exam traps.
+3. **Template & Structure**: Use the schema defined in `templates/test-tema.md` (for topic tests) or `templates/test-bloque.md` (for block simulations), saving the output to `wiki/tests/temas/` or `wiki/tests/bloques/`.
+4. **Hidden Solutions**: Place answers and detailed technical/legal rationales inside a collapsible Obsidian callout (`> [!question]- 🔍 Ver Plantilla y Solucionario`) at the bottom of the note to support active recall.
+5. **Catalog & Log Update**: Register new test files in `index.md` under `## 📝 4. Banco de Tests y Autoevaluaciones` and record the operation in `log.md`.
+
 ---
 
 ## 4. Linking Conventions

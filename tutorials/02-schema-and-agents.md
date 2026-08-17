@@ -69,6 +69,7 @@ Agents operating on this repository must execute these four core routines:
 2. **Catalog Synchronization**: Automatically append new notes to [[index|index.md]] with one-line descriptions.
 3. **Audit Trail**: Record every ingest, query, and maintenance operation in [[log|log.md]].
 4. **Integrity Checks**: Ensure zero broken links (`[[...]]`) and zero orphan pages.
+5. **Test Generation**: Generate grounded 4-option multiple-choice tests for Temas/Bloques using strictly ingested concepts and raw sources, filing them into `wiki/tests/`.
 
 ---
 
