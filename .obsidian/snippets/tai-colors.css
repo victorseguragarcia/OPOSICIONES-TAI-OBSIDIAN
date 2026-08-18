@@ -16,6 +16,12 @@
 
   --tai-blue-primary: #42A5F5;
   --tai-blue-bg: rgba(66, 165, 245, 0.08);
+
+  --tai-amber-primary: #FF5722;
+  --tai-amber-bg: rgba(255, 87, 34, 0.10);
+  
+  --tai-mint-primary: #00BFA5;
+  --tai-mint-bg: rgba(0, 191, 165, 0.10);
 }
 
 /* --- Encabezados con Jerarquía de 3 Niveles --- */
@@ -39,6 +45,69 @@
   color: var(--tai-blue-primary) !important;
   font-weight: 600 !important;
   margin-top: 16px;
+}
+
+/* ==========================================================================
+   CALLOUTS ESPECIALIZADOS DE EXAMEN (TRAMPA, MNEMO, REPASO, QUESTION)
+   ========================================================================== */
+
+/* ⚠️ Callout Trampa de Examen (Rojo-Ámbar Brillante) */
+.callout[data-callout="trampa"],
+.callout[data-callout="warning"] {
+  --callout-color: 255, 87, 34;
+  --callout-icon: lucide-alert-triangle;
+  border-left: 5px solid #FF5722 !important;
+  background-color: var(--tai-amber-bg) !important;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(255, 87, 34, 0.08);
+}
+
+.callout[data-callout="trampa"] .callout-title,
+.callout[data-callout="warning"] .callout-title {
+  color: #D84315 !important;
+  font-weight: 700 !important;
+}
+
+/* 🧠 Callout Mnemotecnia (Verde Menta / Esmeralda Suave) */
+.callout[data-callout="mnemo"],
+.callout[data-callout="success"] {
+  --callout-color: 0, 191, 165;
+  --callout-icon: lucide-brain;
+  border-left: 5px solid #00BFA5 !important;
+  background-color: var(--tai-mint-bg) !important;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 191, 165, 0.08);
+}
+
+.callout[data-callout="mnemo"] .callout-title,
+.callout[data-callout="success"] .callout-title {
+  color: #00796B !important;
+  font-weight: 700 !important;
+}
+
+/* ⚡ Callout Repaso Express / Resumen (Cian Eléctrico) */
+.callout[data-callout="repaso"],
+.callout[data-callout="summary"] {
+  --callout-color: 0, 188, 212;
+  --callout-icon: lucide-zap;
+  border-left: 5px solid #00BCD4 !important;
+  background-color: rgba(0, 188, 212, 0.08) !important;
+  border-radius: 8px;
+}
+
+.callout[data-callout="repaso"] .callout-title,
+.callout[data-callout="summary"] .callout-title {
+  color: #00838F !important;
+  font-weight: 700 !important;
+}
+
+/* ❓ Callout Pregunta / Solucionario */
+.callout[data-callout="question"] {
+  --callout-color: 76, 175, 80;
+  --callout-icon: lucide-help-circle;
+  border-left: 5px solid #4CAF50 !important;
+  background-color: rgba(76, 175, 80, 0.08) !important;
+  border-radius: 8px;
 }
 
 /* ==========================================================================
@@ -114,17 +183,4 @@
   border-radius: 4px;
   font-weight: bold;
   border: 1px solid rgba(239, 83, 80, 0.4);
-}
-
-/* --- Callouts de Solucionario y Alertas --- */
-.callout[data-callout="question"] {
-  --callout-color: 76, 175, 80;
-  border-left: 4px solid #4CAF50 !important;
-  background-color: rgba(76, 175, 80, 0.08) !important;
-}
-
-.callout[data-callout="trampa"] {
-  --callout-color: 255, 183, 77;
-  border-left: 4px solid #FFB74D !important;
-  background-color: rgba(255, 183, 77, 0.08) !important;
 }
