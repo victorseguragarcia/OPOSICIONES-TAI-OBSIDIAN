@@ -21,7 +21,7 @@
 8. [Herramientas CLI y Scripts Automatizados](#-8-herramientas-cli-y-scripts-automatizados)
 9. [Cómo Crear y Añadir Nuevos Contenidos](#-9-cómo-crear-y-añadir-nuevos-contenidos)
 10. [Plugins y Ajustes Recomendados para Obsidian](#-10-plugins-y-ajustes-recomendados-para-obsidian)
-11. [Hosting Privado en Raspberry Pi 4 (Servidor 24/7)](#-11-hosting-privado-en-raspberry-pi-4-servidor-247-y-acceso-remoto-tailscale)
+11. [Hosting Privado en Linux / Raspberry Pi / VPS](#-11-hosting-privado-en-linux--raspberry-pi--vps-servidor-247-y-tailscale)
 12. [Créditos, Reconocimientos y Licencia](#-12-créditos-reconocimientos-y-licencia)
 
 ---
@@ -230,26 +230,27 @@ Para una experiencia óptima en Obsidian, se recomienda configurar:
 
 ---
 
-## 🍓 11. Hosting Privado en Raspberry Pi 4 (Servidor 24/7 y Acceso Remoto Tailscale)
+## 🐧 11. Hosting Privado en Linux / Raspberry Pi / VPS (Servidor 24/7 y Tailscale)
 
-Puedes convertir una **Raspberry Pi 4** (o cualquier servidor Linux / NAS) en tu propio **servidor privado de estudio 24/7** con sincronización automática desde GitHub y acceso remoto seguro.
+Puedes convertir **cualquier máquina o servidor Linux** (Ubuntu, Debian, Raspberry Pi, Fedora, Arch, VPS en la nube o NAS) en tu propio **servidor privado de estudio 24/7** con sincronización automática desde GitHub y acceso remoto seguro.
 
-### 🚀 Despliegue en 1 solo comando (Vía SSH):
+### 🚀 Despliegue Universal en 1 solo comando (Vía SSH / Terminal):
 
-1. Conéctate por SSH a tu servidor o Raspberry Pi:
+1. Conéctate por SSH a tu servidor o abre la terminal en Linux:
    ```bash
-   ssh usuario@IP_DE_TU_RASPBERRY
+   ssh usuario@IP_DE_TU_SERVIDOR
    ```
-2. Ejecuta el script maestro de auto-instalación:
+2. Ejecuta el script maestro de auto-instalación universal:
    ```bash
-   curl -sSL https://raw.githubusercontent.com/victorseguragarcia/OPOSICIONES-TAI-OBSIDIAN/main/scripts/host-on-raspberry.sh | bash
+   curl -sSL https://raw.githubusercontent.com/victorseguragarcia/OPOSICIONES-TAI-OBSIDIAN/main/scripts/host-on-linux.sh | bash
    ```
 
-### ✨ Características del Servidor:
+### ✨ Características del Servidor en Linux:
+- **Compatibilidad Total**: Detecta automáticamente la distribución (Debian/Ubuntu, Fedora/RHEL, Arch, openSUSE) y la arquitectura (x86_64, ARM64, ARMv7).
 - **Apertura Automática Directa**: Configura Obsidian para abrir la bóveda de Oposiciones TAI de forma nativa e inmediata al entrar al navegador.
 - **Auto-Actualización Continua**: Una tarea de Cron sincroniza con GitHub cada 5 minutos.
 - **Acceso Local y Remoto Seguro**:
-  - **En casa (Red Local / WiFi)**: `https://<IP_LOCAL_SERVIDOR>:3001`
+  - **En red local (WiFi/LAN)**: `https://<IP_LOCAL_SERVIDOR>:3001`
   - **Fuera de casa (4G/5G con Tailscale)**: `https://<IP_TAILSCALE>:3001`
 
 ---
