@@ -236,21 +236,21 @@ Puedes convertir una **Raspberry Pi 4** (o cualquier servidor Linux / NAS) en tu
 
 ### 🚀 Despliegue en 1 solo comando (Vía SSH):
 
-1. Conéctate por SSH a tu Raspberry Pi:
+1. Conéctate por SSH a tu servidor o Raspberry Pi:
    ```bash
-   ssh rewi@192.168.1.226
+   ssh usuario@IP_DE_TU_RASPBERRY
    ```
 2. Ejecuta el script maestro de auto-instalación:
    ```bash
    curl -sSL https://raw.githubusercontent.com/victorseguragarcia/OPOSICIONES-TAI-OBSIDIAN/main/scripts/host-on-raspberry.sh | bash
    ```
 
-### ✨ Características del Servidor en Raspberry Pi:
+### ✨ Características del Servidor:
 - **Apertura Automática Directa**: Configura Obsidian para abrir la bóveda de Oposiciones TAI de forma nativa e inmediata al entrar al navegador.
 - **Auto-Actualización Continua**: Una tarea de Cron sincroniza con GitHub cada 5 minutos.
 - **Acceso Local y Remoto Seguro**:
-  - **En casa (WiFi)**: `https://192.168.1.226:3001`
-  - **Fuera de casa (4G/5G con Tailscale)**: `https://<TU_IP_TAILSCALE>:3001`
+  - **En casa (Red Local / WiFi)**: `https://<IP_LOCAL_SERVIDOR>:3001`
+  - **Fuera de casa (4G/5G con Tailscale)**: `https://<IP_TAILSCALE>:3001`
 
 ---
 

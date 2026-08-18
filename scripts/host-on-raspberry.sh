@@ -98,7 +98,7 @@ else
     docker-compose up -d
 fi
 
-LOCAL_IP=$(hostname -I 2>/dev/null | awk '{print $1}' || echo "192.168.1.226")
+LOCAL_IP=$(hostname -I 2>/dev/null | awk '{print $1}' || echo "127.0.0.1")
 TAILSCALE_IP=$(tailscale ip -4 2>/dev/null || echo "")
 
 echo ""
