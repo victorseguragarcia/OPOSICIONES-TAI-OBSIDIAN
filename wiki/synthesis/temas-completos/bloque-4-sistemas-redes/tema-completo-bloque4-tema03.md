@@ -24,237 +24,17 @@ updated: "2026-08-18"
 
 ---
 
----
-
-Administración de servidores 
-de correo electrónico, sus 
-protocolos. Administración de 
-contenedores y microservicios 
-
----
-
-ÍNDICE 
-1. Administración de servidores de correo electrónico 
-6 
-1.1. Correo electrónico 
-6 
-1.2. Elementos de un correo electrónico 
-7 
-1.2.1. Cliente de correo electrónico (MUA) 
-7 
-1.2.2. Mensajes de correo 
-9 
-1.2.3. Direcciones 
-10 
-1.2.4. Cuentas de correo 
-11 
-1.2.5. El servidor DNS en el envío de correo 
-11 
-1.3. Envío de un correo electrónico 
-12 
-2. Protocolos de correo electrónico 
-16 
-2.1. SMTP 
-16 
-2.1.1. Historia del protocolo SMTP 
-18 
-2.1.2. Cómo es una comunicación SMTP 
-18 
-2.1.3. Internacionalización 
-21 
-2.1.4. Correo saliente con SMTP 
-21 
-2.1.5. Diálogo entre un cliente SMTP y un servidor SMTP 
-23 
-2.1.6. Conexión del cliente SMTP al servidor SMTP 
-24 
-2.1.7. Comandos SMTP 
-24 
-2.2. POP 
-33 
-2.2.1. Operación básica 
-34 
-2.2.2. Estado de "Autorización" 
-35 
-2.2.3. Estado de "Transacción" 
-36 
-2.2.4. Estado de "Actualización" 
-38 
-2.2.5. Comandos que brindan seguridad 
-38 
-2.2.6. Inseguridades del protocolo POP 
-40 
-2.3. IMAP 
-41 
-2.4. MIME 
-41 
-2.5. S/MIME 
-42
-
----
-
-2.6. Otros protocolos 
-42 
-2.6.1. RFC 2142 
-42 
-2.6.2. Justificación y Alcance 
-43 
-2.6.3. Invariantes 
-45 
-2.6.4. Nombres de buzones 
-45 
-2.6.4.1. Nombres de Buzones Relacionados con la Empresa 
-45 
-2.6.4.2. Nombres de Correos de Red 
-46 
-2.6.4.3. Nombres de Correos de Apoyo para Servicios de Internet Específicos 
-46 
-2.6.4.4. Lista de Correo: Buzón de Administración 
-47 
-2.6.5. Administración del Buzón de Nombres de Dominio 
-47 
-2.6.6. Correos de los Sistemas Autónomos 
-47 
-2.6.7. Consideraciones de Seguridad 
-48 
-3. Administración del correo electrónico 
-48 
-3.1. Monitorización 
-48 
-3.2. Seguridad 
-52 
-3.2.1. Entorno del servidor 
-52 
-3.2.2. Configuración segura de los servidores 
-53 
-3.2.3. Seguridad en servicios de correo 
-54 
-3.2.4. Auditorías del sistema 
-55 
-3.2.5. Seguridad en clientes de correo 
-56 
-3.2.5.1. Clientes de correo 
-56 
-3.2.5.2. Correo WEB 
-56 
-3.2.6. Dispositivos móviles 
-57 
-3.2.7. Gestión de contraseñas 
-57 
-4. Administración de contenedores y microservicios 
-59 
-4.1. Que son los microservicios 
-60 
-4.2. Ventajas de la arquitectura de microservicios 
-61 
-4.2.1. Especialización del equipo 
-61 
-4.2.2. Altamente escalable 
-61 
-4.2.3. Independencia y versatilidad, aplicaciones más abiertas 
-62
-
----
-
-4.2.4. Consistencia: aislamiento de fallos y capacidad de recuperación 
-62 
-4.2.5. Rapidez de respuesta implementación y actualización 
-62 
-5. Arquitectura de microservicios frente a la arquitectura monolítica 
-63 
-6. El cambio a microservicios 
-64 
-6.1. Desafios (problemas) en la arquitectura de microservicios 
-66 
-6.2. Implementación de una arquitectura de microservicios 
-68 
-6.3. Ejemplos de sistemas con arquitectura de microservicios 
-69 
-6.3.1. Netflix 
-69 
-6.3.2. Spotify 
-70 
-6.3.3. eBay 
-70 
-7. El uso de contenedores (Kubernetes y Docker) 
-71 
-7.1. Microservicios y contenedores 
-72 
-7.2. Orquestación de contenedores 
-73 
-7.3. Seguridad en los contenedores 
-74 
-7.4. Los contenedores en La Nube 
-76 
-8. Malla de servicios (Service Mesh) 
-76 
-8.1. Arquitectura 
-78 
-8.2. Características 
-80 
-8.2.1. Multiusuario 
-80 
-8.2.2. Seguridad 
-81 
-8.2.3. Observabilidad y análisis 
-82 
-8.2.4. Cumplimiento de políticas y reglas 
-84 
-8.2.5. Control del tráfico 
-85 
-8.2.6. Resiliencia 
-87 
-8.3. Consideraciones del diseño 
-88 
-8.4. Pruebas 
-90 
-8.5. Ejemplos de malla de servicios 
-91
-
----
-
-9. Soluciones de administración de contenedores 
-92 
-9.1. Docker 
-92 
-9.1.1. Comandos principales 
-96 
-9.2. Azure Kubernetes Service 
-101 
-9.3. Kubernetes 
-101 
-9.3.1. Objetos básicos de Kubernetes 
-102 
-9.3.2. Objetos avanzados 
-103 
-9.3.3. Principales protocolos utilizados en Kubernetes 
-103 
-9.4. Hyper-V Containers 
-105 
-9.5. OpenShift 
-105 
-9.6. Otras soluciones de Orquestación de Contenedores 
-105 
-10. Bibliografía 
-106
-
----
-
-Administración de servidores de correo electrónico, sus protocolos. Administración de contenedores 
-y microservicios 
-6 
-1. Administración de servidores de correo electrónico 
+## 🟣 1. Administración de servidores de correo electrónico
  
 Fuente: (https://pixabay.com/es/correo-\nelectr%C3%B3nico-comercializaci%C3%B3n-156765/) 
 La persona que se encarga de la administración de los servidores de correo electrónico es el 
 administrador de servidor de correo o, en su defecto, el administrador de sistemas. 
 Vamos a ver qué es un correo electrónico, sus elementos y cómo funciona un servidor de correo 
 antes de ver la forma de administrarlo. 
-1.1. Correo electrónico 
+### 🔵 1.1. Correo electrónico
  
 Fuente: 
-Correo_electrónico_redire
-ccionado de Wikipedia 
+Correo_electrónico_redire ccionado de Wikipedia 
 Un correo electrónico es un servicio de red que permite a los usuarios enviar y recibir mensajes (también 
 denominados mensajes electrónicos o cartas digitales) mediante redes de comunicación electrónica.
 
@@ -262,7 +42,6 @@ denominados mensajes electrónicos o cartas digitales) mediante redes de comunic
 
 Administración de servidores de correo electrónico, sus protocolos. Administración de contenedores 
 y microservicios 
-7 
 El nombre "correo electrónico", en inglés es: electronic mail, por lo que comúnmente, al abreviarlo se 
 le denomina e-mail o email. 
 El término «correo electrónico» proviene de la analogía con el correo postal: ambos sirven para enviar y 
@@ -275,15 +54,15 @@ temporalmente los mensajes antes de enviarse a sus destinatarios.
 Para poder enviar o recibir mensajes de un correo electrónico es necesario disponer de una cuenta de 
 correo (existen multitud de servidores de correo, gratuitos y de pago, para poder crear una cuenta de 
 correo). 
-1.2. Elementos de un correo electrónico 
+### 🔵 1.2. Elementos de un correo electrónico
 Vamos a ir desarrollando los diferentes elementos para el funcionamiento de envío y recepción de un 
 correo electrónico, que son: 
-• Cliente de correo electrónico (MUA). 
-• Mensajes de correo. 
-• Direcciones. 
-• Cuentas. 
-• Servidor DNS. 
-1.2.1. Cliente de correo electrónico (MUA) 
+- Cliente de correo electrónico (MUA).
+- Mensajes de correo.
+- Direcciones.
+- Cuentas.
+- Servidor DNS.
+#### 🔹 1.2.1. Cliente de correo electrónico (MUA)
 Un cliente de correo electrónico (MUA) es un programa de ordenador usado para leer y enviar 
 mensajes de correo electrónico. 
 Los clientes de correo deben soportar protocolos como POP3 e IMAP para comunicarse con un MTA 
@@ -294,7 +73,6 @@ IMAP está optimizado para almacenar correos electrónicos en el servidor.
 
 Administración de servidores de correo electrónico, sus protocolos. Administración de contenedores 
 y microservicios 
-8 
 POP3 asume generalmente que los mensajes de correo electrónico se descargan al cliente. 
 La gran mayoría de clientes de correo electrónico emplean el protocolo SMTP para enviar los mensajes 
 de correo electrónico. 
@@ -303,17 +81,17 @@ web.
 Un importante estándar soportado por la mayoría de los clientes de correo electrónico es MIME. 
 MIME se emplea para el envío de archivos binarios adjuntos al correo. 
 Ejemplos de clientes de correo son: 
-• De escritorio: 
-• Microsoft Outlook. 
-• Mozilla Thunderbird. 
-• IncrediMail. 
-• Apple Mail. 
-• Opera Mail. 
-• En Web: 
-• SquirrelMail. 
-• Horde. 
-• OpenWebMail. 
-• RoundCube. 
+- De escritorio:
+- Microsoft Outlook.
+- Mozilla Thunderbird.
+- IncrediMail.
+- Apple Mail.
+- Opera Mail.
+- En Web:
+- SquirrelMail.
+- Horde.
+- OpenWebMail.
+- RoundCube.
  
 Clientes de correo web. Fuente: (https://commons.wikimedia.org/wiki/File:Men%C3%BA_webmail.jpg)
 
@@ -321,26 +99,25 @@ Clientes de correo web. Fuente: (https://commons.wikimedia.org/wiki/File:Men%C3%
 
 Administración de servidores de correo electrónico, sus protocolos. Administración de contenedores 
 y microservicios 
-9 
-1.2.2. Mensajes de correo 
+#### 🔹 1.2.2. Mensajes de correo
  
 Fuente: 
 https://pixabay.com/es/en-
 correo-electr%C3%B3nico-\nenviar-1019990/ 
 La estructura de un mensaje de correo tiene tres elementos básicos: 
-• Para (Destinatario). 
+- Para (Destinatario).
 Una o varias direcciones (separadas por ;) de correo a las que se enviará el mensaje. 
-• Asunto. 
+- Asunto.
 Breve descripción del contenido del mensaje. Es opcional. Se puede ver antes de abrir el correo. 
-• Mensaje. 
+- Mensaje.
 Texto con o sin formato, imágenes, etc. 
 También tenemos la opción de adjuntar archivos. 
 Además del campo Para existen los campos CC y CCO. Estos son opcionales y sirven para añadir 
 destinatarios de forma especial: 
-• CC (Copia de Carbón). 
+- CC (Copia de Carbón).
 Quienes estén en esta lista recibirán también el mensaje, pero verán que no va directamente 
 dirigido a ellos. 
-• Campo CCO (Copia de Carbón Oculta). 
+- Campo CCO (Copia de Carbón Oculta).
 Igual que CC, pero la lista de destinatarios aquí incluida no pueden verla ninguno de los 
 destinatarios.
 
@@ -348,37 +125,35 @@ destinatarios.
 
 Administración de servidores de correo electrónico, sus protocolos. Administración de contenedores 
 y microservicios 
-10 
  
 Mensaje de correo electrónico 
-1.2.3. Direcciones 
+#### 🔹 1.2.3. Direcciones
 Una dirección de correo electrónico es una cadena de texto que identifica a una persona. 
 Cada dirección es única. 
 La estructura de una dirección de correo es: usuario@dominio 
-• Usuario: Normalmente lo podemos elegir (si está disponible en el proveedor). 
-• La @ es obligatoria. 
+- Usuario: Normalmente lo podemos elegir (si está disponible en el proveedor).
+- La @ es obligatoria.
 El símbolo arroba forma parte de todos los correos electrónicos y está especificada en la norma 
 RFC 5321. 
-• Proveedor: Proveedor del servicio de correo.
+- Proveedor: Proveedor del servicio de correo.
 
 ---
 
 Administración de servidores de correo electrónico, sus protocolos. Administración de contenedores 
 y microservicios 
-11 
  
  
  
-Atención 
+### 🔵 Atención 
 Las direcciones de correo electrónico no diferencian entre 
 mayúsculas y minúsculas. 
  
-1.2.4. Cuentas de correo 
+#### 🔹 1.2.4. Cuentas de correo
 Es un servicio online que provee un espacio para el almacenamiento de mensajes de correo electrónico. 
 Una cuenta se asocia a un único usuario, el cual puede acceder a su cuenta a través de un nombre de 
 usuario y contraseña. 
 Este servicio lo ofrecen los servidores de mail. 
-1.2.5. El servidor DNS en el envío de correo 
+#### 🔹 1.2.5. El servidor DNS en el envío de correo
 El DNS (Domain Name System o sistema de nombres de dominio) es una tecnología esencial para el 
 funcionamiento del correo electrónico, ya que permite resolver la dirección IP de los servidores de 
 correo asociados a un dominio. En particular, cuando se envía un mensaje a través de Internet, el 
@@ -399,11 +174,10 @@ nombre.
 
 Administración de servidores de correo electrónico, sus protocolos. Administración de contenedores 
 y microservicios 
-12 
  
  
  
-Ejemplo 
+### 🔵 Ejemplo 
 Puedes hacer la comprobación desde Windows con el comando 
 "nslookup" desde "cmd". 
 Ejecuta "nslookup 81.89.32.200 10.31.15.6" y te dará el nombre del 
@@ -413,38 +187,34 @@ consulta en el servidor que has indicado en la segunda dirección IP.
  
 El protocolo de aplicación DNS (de la capa 7 del modelo OSI) se explica más ampliamente en la Ud. 8 
 del bloque IV, "Internet: arquitectura de red." en el epígrafe 2.3. DNS. 
-1.3. Envío de un correo electrónico 
+### 🔵 1.3. Envío de un correo electrónico
  
 Fuente: e-mail-97624_960_720 de 
-Pixabay 
+### 🔵 Pixabay 
 Cuando se envía un correo electrónico, el mensaje se enruta, (va pasando) de servidor a servidor hasta 
 llegar al servidor de correo electrónico del receptor. 
 De forma más detallada, se siguen los siguientes pasos: 
-• El mensaje se envía al servidor del correo saliente (MTA, Mail Transport Agent o Agente de 
+- El mensaje se envía al servidor del correo saliente (MTA, Mail Transport Agent o Agente de
 Entrega de Correo). 
-• La labor del MTA es transportar el mensaje al MTA del destinatario. 
-• En Internet, los MTA se comunican entre sí usando el protocolo SMTP (por lo que a veces nos 
-referimos a ellos como servidores SMTP).
+- La labor del MTA es transportar el mensaje al MTA del destinatario.
+- En Internet, los MTA se comunican entre sí usando el protocolo SMTP (por lo que a veces nos referimos a ellos como servidores SMTP).
 
 ---
 
 Administración de servidores de correo electrónico, sus protocolos. Administración de contenedores 
 y microservicios 
-13 
-• Una vez que el MTA del destinatario recibe el correo electrónico, lo entrega al servidor de 
-correo entrante (MDA, Mail Delivery Agent o Agente de Entrega de Correo). 
-• El MDA almacena el correo electrónico hasta que el usuario lo acepte. 
-• El MUA proporciona al usuario acceso al correo una vez que el MDA lo ha almacenado en el 
-servidor de correo entrante. 
+- Una vez que el MTA del destinatario recibe el correo electrónico, lo entrega al servidor de correo entrante (MDA, Mail Delivery Agent o Agente de Entrega de Correo). 
+- El MDA almacena el correo electrónico hasta que el usuario lo acepte.
+- El MUA proporciona al usuario acceso al correo una vez que el MDA lo ha almacenado en el servidor de correo entrante. 
 Puede hacerlo a través de 2 protocolos: 
-• POP3. 
+- POP3.
 Post Office Protocol o Protocolo de Oficina de Correo. 
 Es el más antiguo. 
 Elimina por defecto los mensajes del servidor después de descargarlos al cliente a menos 
 que se realice una configuración específica en este último para conservar una copia en el 
 servidor. 
 A los servidores que usan este protocolo se les suele llamar servidores POP. 
-• IMAP. 
+- IMAP.
 Internet Message Access Protocol o Protocolo de Acceso a Mensajes de Internet). 
 Se utiliza para coordinar el estado de los correos (leído, eliminado, etc.) en múltiples 
 clientes de correo. 
@@ -455,7 +225,7 @@ A los servidores que usan este protocolo se les suele llamar servidores IMAP.
  
  
  
-Ejemplo 
+### 🔵 Ejemplo 
 Hagamos una analogía con el servicio de correos. 
 Los MTA serían las oficinas de correos (clasifican y transportan 
 (transmiten) los mensajes).
@@ -464,7 +234,6 @@ Los MTA serían las oficinas de correos (clasifican y transportan
 
 Administración de servidores de correo electrónico, sus protocolos. Administración de contenedores 
 y microservicios 
-14 
  
  
  
@@ -482,7 +251,7 @@ A continuación, te mostramos una imagen para que lo veas más claro.
  
 Elementos implicados en el envío de un correo electrónico 
 Algunos MTA son: 
-• Exim Internet Mailer: 
+- Exim Internet Mailer:
 Exim es un agente de transferencia de mensajes (MTA) desarrollado en la Universidad de 
 Cambridge para su uso en sistemas Unix conectados a Internet. 
 Está disponible gratuitamente bajo los términos de la Licencia Pública General de GNU.
@@ -491,31 +260,30 @@ Está disponible gratuitamente bajo los términos de la Licencia Pública Genera
 
 Administración de servidores de correo electrónico, sus protocolos. Administración de contenedores 
 y microservicios 
-15 
-• POSTFIX: 
+- POSTFIX:
 Es el servidor de correo LINUX de Wietse Venema que comenzó su vida en la investigación de 
 IBM como una alternativa al ampliamente utilizando programa Sendmail. Ahora en Google, 
 Wietse continúa apoyando Postfix. 
-• Microsoft Exchange Server: 
+- Microsoft Exchange Server:
 Es un servidor de correo electrónico al que se puede acceder mediante un navegador web y es 
 compatible con aplicaciones cliente como Microsoft Outlook. 
 Algunas de sus características son: 
-• Exchange Server Deployment Assistant: 
+- Exchange Server Deployment Assistant:
 Es una herramienta gratuita en línea que ayuda a implementar rápidamente Exchange en la 
 organización al hacer algunas preguntas y crear una lista de verificación de implementación 
 personalizada. 
-• Arquitectura: 
+- Arquitectura:
 Exchange utiliza una arquitectura de bloques de construcción única que proporciona 
 servicios de correo electrónico para implementaciones de todos los tamaños. 
-• Exchange Server permissions: 
+- Exchange Server permissions:
 Microsoft Exchange Server incluye un gran conjunto de permisos predefinidos, basados en \nel modelo de permisos de Control de acceso basado en roles (RBAC), que puede usar de 
 inmediato para otorgar fácilmente permisos a sus administradores y usuarios. 
-• Mail flow and the transport pipeline: 
+- Mail flow and the transport pipeline:
 En Exchange Server, el flujo de correo se produce a través de la canalización de transporte. 
 La canalización de transporte es una colección de servicios, conexiones, componentes y 
 colas que trabajan juntos para enrutar todos los mensajes al categorizador en el servicio de 
 transporte en un servidor de buzones de Exchange dentro de la organización. 
-• Database availability groups: 
+- Database availability groups:
 Un grupo de disponibilidad de base de datos (DAG) es el componente base del marco de 
 alta disponibilidad y resistencia del sitio del servidor de buzones integrado en Microsoft 
 Exchange Server. 
@@ -528,20 +296,19 @@ datos solo serán "activos" o "pasivos".
 
 Administración de servidores de correo electrónico, sus protocolos. Administración de contenedores 
 y microservicios 
-16 
-2. Protocolos de correo electrónico 
+## 🟣 2. Protocolos de correo electrónico
 Existen diferentes protocolos, que vas a estudiar a continuación, para la transmisión de correos \nelectrónicos: 
-• SMTP. 
-• POP. 
-• IMAP. 
-• MIME. 
-• S/MIME. 
-2.1. SMTP 
+- SMTP.
+- POP.
+- IMAP.
+- MIME.
+- S/MIME.
+### 🔵 2.1. SMTP
 SMTP (Simple Mail Transfer Protocol o Protocolo Simple de Transferencia de Correo). 
 SMTP es un protocolo de la capa de aplicación. 
 Utiliza los siguientes puertos: 
-• Los puertos 25, 587 y 2525 para conexiones no encriptadas. 
-• Los puertos 465 y 25025 para las encriptadas. 
+- Los puertos 25, 587 y 2525 para conexiones no encriptadas.
+- Los puertos 465 y 25025 para las encriptadas.
  
  
  
@@ -556,17 +323,14 @@ En este tema no hablaremos del modelo OSI.
 
 Administración de servidores de correo electrónico, sus protocolos. Administración de contenedores 
 y microservicios 
-17 
 Características de SMTP: 
-• Es un protocolo de red basado en textos utilizados para el intercambio de mensajes de correo \nelectrónico entre dispositivos. 
-• Está basado en el modelo cliente-servidor. 
-• La comunicación entre el cliente y el servidor consiste enteramente en líneas de texto 
-compuestas por caracteres ASCII. 
-• El tamaño máximo permitido para estas líneas es de 1000 caracteres. 
-• Las respuestas del servidor constan de un código numérico de tres dígitos, seguido de un texto \nexplicativo. 
-• El número va dirigido a un procesado automático de la respuesta, mientras que el texto permite 
-que un humano interprete la respuesta. 
-• En el protocolo SMTP todas las órdenes, réplicas o datos son líneas de texto, delimitadas por 
+- Es un protocolo de red basado en textos utilizados para el intercambio de mensajes de correo \nelectrónico entre dispositivos.
+- Está basado en el modelo cliente-servidor.
+- La comunicación entre el cliente y el servidor consiste enteramente en líneas de texto compuestas por caracteres ASCII. 
+- El tamaño máximo permitido para estas líneas es de 1000 caracteres.
+- Las respuestas del servidor constan de un código numérico de tres dígitos, seguido de un texto \nexplicativo.
+- El número va dirigido a un procesado automático de la respuesta, mientras que el texto permite que un humano interprete la respuesta. 
+- En el protocolo SMTP todas las órdenes, réplicas o datos son líneas de texto, delimitadas por
 <CRLF>. 
  
  
@@ -591,7 +355,6 @@ conexión cifrada que éste último podrá aceptar o no.
 
 Administración de servidores de correo electrónico, sus protocolos. Administración de contenedores 
 y microservicios 
-18 
  
  
  
@@ -611,25 +374,24 @@ con el comando STARTTLS si el servidor lo acepta.
 Por otro lado, los puertos 465 y 25025 salen por defecto con la 
 transmisión cifrada. 
  
-2.1.1. Historia del protocolo SMTP 
+#### 🔹 2.1.1. Historia del protocolo SMTP
 Definido inicialmente en agosto de 1982 por el RFC 821 (para la transferencia) y el RFC 822 (para el 
 mensaje). 
 Son estándares oficiales de Internet que fueron reemplazados respectivamente por el RFC 2821 y el 
 RFC 2822, que a su vez lo fueron por el RFC 5321 y el RFC 5322. 
 A la fecha en que se actualiza este documento (mediados de 2020) el protocolo en vigor es el RFC 
 5321, por tanto, la información indicada a continuación, hace referencia a este protocolo. 
-2.1.2. Cómo es una comunicación SMTP 
+#### 🔹 2.1.2. Cómo es una comunicación SMTP
 Según el protocolo RFC 5321 una transacción SMTP se compone de los comandos (los indicaremos un 
 poco más adelante). 
-• MAIL FROM. 
-• RCPT TO. 
-• DATA.
+- MAIL FROM.
+- RCPT TO.
+- DATA.
 
 ---
 
 Administración de servidores de correo electrónico, sus protocolos. Administración de contenedores 
 y microservicios 
-19 
 El mensaje es enviado por el cliente después de que éste manda la orden DATA al servidor. 
 Ejemplo: 
 S: 220 Servidor SMTP 
@@ -655,7 +417,7 @@ S: 250 Ok: queued as 12345
 C: quit 
 S: 221 Bye 
 El mensaje está compuesto por dos partes: 
-• Cabecera: 
+- Cabecera:
 En el ejemplo las tres primeras líneas del mensaje son la cabecera. En ellas se usan unas palabras 
 clave para definir los campos del mensaje. Estos campos ayudan a los clientes de correo a 
 organizarlos y mostrarlos. Los más típicos son subject (asunto), from (emisor) y to (receptor). 
@@ -666,11 +428,10 @@ pertenecen al protocolo, pero no al formato del mensaje.
 
 Administración de servidores de correo electrónico, sus protocolos. Administración de contenedores 
 y microservicios 
-20 
-• Cuerpo del mensaje: 
+- Cuerpo del mensaje:
 Es el mensaje propiamente dicho. En el SMTP básico está compuesto únicamente por texto, y 
 finalizado con una línea en la que el único carácter es un punto. 
-SMTP vs Recuperación de correo 
+### 🔵 SMTP vs Recuperación de correo 
 El Protocolo Simple de Transferencia de Correo (SMTP) es el protocolo estándar para el envío de 
 correos electrónicos entre servidores. Su función principal es entregar mensajes de un servidor de 
 correo a otro, siguiendo una ruta determinada por el dominio del destinatario. Los servidores de correo 
@@ -683,7 +444,7 @@ forma individual. Concebidos para funcionar después de que los correos han sido
 protocolos se encargan de la recuperación de mensajes, la organización de buzones y otras funciones 
 relacionadas con la interacción del usuario con su correo, mientras que con el protocolo SMTP los 
 mensajes salientes de varios usuarios pueden confluir en el servidor de correo saliente. 
-Inicio remoto de mensaje en cola 
+### 🔵 Inicio remoto de mensaje en cola 
 Es una característica de SMTP que permite a un host remoto para iniciar el procesamiento de la cola de 
 correo en el servidor por lo que puede recibir mensajes destinados a ella mediante el envío del comando 
 TURN. 
@@ -705,15 +466,14 @@ IP fija.
 
 Administración de servidores de correo electrónico, sus protocolos. Administración de contenedores 
 y microservicios 
-21 
-2.1.3. Internacionalización 
+#### 🔹 2.1.3. Internacionalización
 Los usuarios cuyo lenguaje base no es el latín, han tenido dificultades con el requisito de correo \nelectrónico en América, para resolver este problema se creó RFC 6531, proporcionando características 
 de internacionalización de SMTP; la extensión SMTPUTF8. 
 RFC 6531 proporciona soporte para caracteres de varios bytes y no para ASCII en las direcciones de 
 correo electrónico. 
 El soporte de internacionalización actualmente es limitada, pero hay un gran interés en la ampliación del 
 RFC 6531. (RFC en países como en China, que tiene una gran base de usuarios en América). 
-2.1.4. Correo saliente con SMTP 
+#### 🔹 2.1.4. Correo saliente con SMTP
 Un cliente de correo electrónico tiene que saber la dirección IP de su servidor SMTP inicial y esto tiene 
 que ser dado como parte de su configuración (usualmente dada como un nombre DNS). Este servidor \nenviará mensajes salientes en nombre del usuario. 
 Restricción de acceso y salida al servidor de correo 
@@ -730,7 +490,7 @@ la falsificación de direcciones en el envío de correo electrónico.
 Identifica, a través de los registros de nombres de dominio (DNS), a los servidores de correo SMTP 
 autorizados para el transporte de los mensajes a un dominio determinado. 
 Este convenio busca ayudar para disminuir abusos como el spam y otros males del correo electrónico. 
-Restringir el acceso por ubicación 
+### 🔵 Restringir el acceso por ubicación 
 Mediante este sistema, el servidor SMTP relativo al ISP no permitirá el acceso de los usuarios que están 
 fuera de la red del ISP. 
 Específicamente, el servidor solo puede permitir el acceso de aquellos usuarios cuya dirección IP fue 
@@ -741,7 +501,6 @@ mismo ISP.
 
 Administración de servidores de correo electrónico, sus protocolos. Administración de contenedores 
 y microservicios 
-22 
 Un usuario móvil suele estar a menudo en una red distinta a la normal de su ISP, y luego descubrir que el \nenvío de correo electrónico falla porque la elección del servidor SMTP configurado ya no es accesible. 
 Este sistema tiene distintas variaciones, por ejemplo, el servidor SMTP de la organización sólo puede 
 proporcionar servicio a los usuarios en la misma red, esto se hace cumplir mediante cortafuegos para 
@@ -751,50 +510,43 @@ Estos métodos son utilizados normalmente por empresas e instituciones, como las
 proporcionan un servidor SMTP para el correo saliente solo para su uso interno dentro de la 
 organización. 
 Sin embargo, la mayoría de estos organismos utilizan ahora métodos de autenticación de cliente: 
-• Al restringir el acceso a determinadas direcciones IP, los administradores de servidores pueden 
-reconocer fácilmente la dirección IP de cualquier agresor. 
-• Como está representa una dirección significativa para ellos, los administradores pueden hacer 
-frente a la máquina o usuario sospechoso. 
-• Cuando un usuario es móvil, y puede utilizar diferentes proveedores para conectarse a internet, \neste tipo de restricción de uso es costoso, y la alteración de la configuración perteneciente a la 
-dirección de correo electrónico del servidor SMTP saliente resulta ser poco práctica. 
-• Es altamente deseable poder utilizar la información de configuración del cliente de correo \nelectrónico que no necesita cambiar. 
+- Al restringir el acceso a determinadas direcciones IP, los administradores de servidores pueden reconocer fácilmente la dirección IP de cualquier agresor. 
+- Como está representa una dirección significativa para ellos, los administradores pueden hacer frente a la máquina o usuario sospechoso. 
+- Cuando un usuario es móvil, y puede utilizar diferentes proveedores para conectarse a internet, \neste tipo de restricción de uso es costoso, y la alteración de la configuración perteneciente a la dirección de correo electrónico del servidor SMTP saliente resulta ser poco práctica. 
+- Es altamente deseable poder utilizar la información de configuración del cliente de correo \nelectrónico que no necesita cambiar.
 En entornos reales, uno de los servidores SMTP más utilizados para gestionar el correo saliente es 
 Postfix, un agente de transporte de correo (MTA, por Mail Transport Agent) presente en la mayoría de 
 sistemas Unix/Linux. Para implementar políticas como autenticación de clientes, control de acceso por 
 IP o personalización del nombre del servidor en el saludo SMTP, es necesario configurar adecuadamente 
 su archivo principal: main.cf. 
-Postfix 
+### 🔵 Postfix 
 Postfix como decíamos, es ampliamente utilizado en sistemas Unix/Linux para el envío y la recepción 
 de correos electrónicos. Su configuración principal se realiza a través del archivo main.cf, ubicado en 
 /etc/postfix/, donde se definen las variables que controlan su comportamiento. 
 Para cambiar valores en Postfix, se edita directamente este archivo con un editor de texto (por \nejemplo, nano o vi). Algunas variables comunes que pueden modificarse son: 
-• myhostname: define el nombre del servidor de correo (por ejemplo, myhostname = 
+- myhostname: define el nombre del servidor de correo (por ejemplo, myhostname =
 mail.ejemplo.com). 
-• mydomain: establece el dominio principal usado por el servidor (por ejemplo, mydomain = \nejemplo.com).
+- mydomain: establece el dominio principal usado por el servidor (por ejemplo, mydomain = \nejemplo.com).
 
 ---
 
 Administración de servidores de correo electrónico, sus protocolos. Administración de contenedores 
 y microservicios 
-23 
-• relayhost: permite enviar el correo a través de otro servidor SMTP (por ejemplo, relayhost = 
+- relayhost: permite enviar el correo a través de otro servidor SMTP (por ejemplo, relayhost =
 [smtp.gmail.com]:587). 
-• mynetworks: lista de direcciones IP o redes desde las cuales se permite el envío sin 
-autenticación (por ejemplo, mynetworks = 127.0.0.0/8, 192.168.1.0/24). 
-• smtp_helo_name: especifica el nombre que el servidor enviará en los comandos HELO/EHLO al 
-conectarse con otros servidores (por ejemplo, smtp_helo_name = CORREOBIBLIOTECA). 
+- mynetworks: lista de direcciones IP o redes desde las cuales se permite el envío sin autenticación (por ejemplo, mynetworks = 127.0.0.0/8, 192.168.1.0/24). 
+- smtp_helo_name: especifica el nombre que el servidor enviará en los comandos HELO/EHLO al conectarse con otros servidores (por ejemplo, smtp_helo_name = CORREOBIBLIOTECA). 
 Una vez realizados los cambios, es imprescindible reiniciar el servicio para que surtan efecto. Esto puede 
 hacerse con el comando sudo systemctl restart postfix o, en sistemas más antiguos, sudo service postfix 
 restart. De este modo, la nueva configuración queda activada en el servidor de correo. 
-2.1.5. Diálogo entre un cliente SMTP y un servidor SMTP 
+#### 🔹 2.1.5. Diálogo entre un cliente SMTP y un servidor SMTP
 El diálogo entre un cliente SMTP y un servidor SMTP se basa en un conjunto de comandos enviados por \nel cliente SMTP, que son palabras en formato texto ASCII legibles con facilidad y unos códigos de 
 respuesta numéricos seguidos de un texto que explica dicho código, que son enviados por el servidor 
 SMTP. 
-• Códigos de respuesta. 
+- Códigos de respuesta.
 Los códigos de respuesta están formados por tres dígitos, cada uno de los cuales tiene un 
 significado. 
-• El primero de los dígitos de un código de respuesta, indica si el comando funcionó 
-correctamente o si falló. La siguiente tabla representa los significados del primer dígito de 
+- El primero de los dígitos de un código de respuesta, indica si el comando funcionó correctamente o si falló. La siguiente tabla representa los significados del primer dígito de 
 un código de respuesta (RFC 5321): 
 Primer dígito: Significado: 
 2: Respuesta de finalización positiva. El comando finalizo correctamente. 
@@ -803,7 +555,7 @@ Primer dígito: Significado:
 cliente debería intentarlo de nuevo. 
 5: Respuesta de finalización negativa permanente. Se rechazó el comando y no se debe 
 reintentar sin corregir el error. 
-• El segundo de los dígitos de un código de respuesta especifica la categoría de la respuesta \nenviada. La siguiente tabla indica el significado del segundo dígito: 
+- El segundo de los dígitos de un código de respuesta especifica la categoría de la respuesta \nenviada. La siguiente tabla indica el significado del segundo dígito:
 Segundo dígito: Significado. 
 0: Sintaxis.
 
@@ -811,22 +563,20 @@ Segundo dígito: Significado.
 
 Administración de servidores de correo electrónico, sus protocolos. Administración de contenedores 
 y microservicios 
-24 
 1: Información. 
 2: Conexiones. 
 (3, 4 y 5 no están asignados en SMTP.) 
-• El tercer dígito de un código de respuesta especifica más el significado de las categorías de 
-las respuestas. 
-2.1.6. Conexión del cliente SMTP al servidor SMTP 
+- El tercer dígito de un código de respuesta especifica más el significado de las categorías de las respuestas. 
+#### 🔹 2.1.6. Conexión del cliente SMTP al servidor SMTP
 Vamos a ver cómo se realiza la conexión del cliente SMTP al servidor SMTP. 
 Para establecer una conexión, el cliente se conecta al servidor mediante el puerto TCP 25. 
 Cuando se establece la conexión, el cliente recibe un código de respuesta que le indica si el servidor está \nen disposición de aceptar la conexión y si es capaz de abrir una sesión o bien si el servicio de correo no \nestá disponible en ese momento. 
 Los códigos de respuesta posibles son: 
-• 220: El servicio de correo está disponible. 
-• 421: El servicio de correo no está disponible. 
-2.1.7. Comandos SMTP 
+- 220: El servicio de correo está disponible.
+- 421: El servicio de correo no está disponible.
+#### 🔹 2.1.7. Comandos SMTP
 Vamos a indicar los comandos SMTP en detalle: 
-• DATA: 
+- DATA:
 Este comando indica al servidor que el texto que va a continuación del comando es ya el 
 mensaje de correo que debe de llevarse al destinatario indicado por el encabezado del mensaje. 
 El texto del mensaje debe de estar de acuerdo con el estándar del formato de mensaje de 
@@ -841,142 +591,134 @@ Sintaxis:DATA#13#10
 
 Administración de servidores de correo electrónico, sus protocolos. Administración de contenedores 
 y microservicios 
-25 
 Los posibles códigos de respuesta a este comando son: 
-• 250: La acción solicitada se ha completado. 
-• 354: Comenzar la introducción del correo, acabando con <CRLF>.<CRLF>. 
-• 421: El servicio no está disponible. 
-• 451: Se abandonó la acción por un error de procesamiento local. 
-• 452: No se produjo la acción por que el disco no tiene espacio de almacenamiento 
-suficiente. 
-• 500: Error en la sintaxis, no se pudo reconocer el comando. 
-• 501: Error en la sintaxis de los parámetros del comando. 
-• 503: Secuencia de comandos incorrecta. 
-• 552: Abandono de la acción porque se superó la reserva de espacio. 
-• 554: Se produjo un fallo en la transacción. 
-• EXPN - (expandir): 
+- 250: La acción solicitada se ha completado.
+- 354: Comenzar la introducción del correo, acabando con <CRLF>.<CRLF>.
+- 421: El servicio no está disponible.
+- 451: Se abandonó la acción por un error de procesamiento local.
+- 452: No se produjo la acción por que el disco no tiene espacio de almacenamiento suficiente. 
+- 500: Error en la sintaxis, no se pudo reconocer el comando.
+- 501: Error en la sintaxis de los parámetros del comando.
+- 503: Secuencia de comandos incorrecta.
+- 552: Abandono de la acción porque se superó la reserva de espacio.
+- 554: Se produjo un fallo en la transacción.
+- EXPN - (expandir):
 Este comando se utiliza para verificar las listas de correo. Si se le pasa como parámetro un 
 nombre de lista de correo, el servidor nos devuelve los nombres de usuario y las direcciones de 
 los destinatarios de la lista de correo. 
 Sintaxis: EXPT nombre_lista_de_correo#13#10 
 Los posibles códigos de respuesta a este comando son: 
-• 250: La acción solicitada se ha completado. 
-• 421: El servicio no está disponible. 
-• 500: Error en la sintaxis, no se pudo reconocer el comando. 
-• 501: Error en la sintaxis de los parámetros del comando. 
-• 502: El comando no está implementado. 
-• 504: El parámetro del comando no está implementado. 
-• 550: La acción no se realizó por que no se ha encontrado el buzón.
+- 250: La acción solicitada se ha completado.
+- 421: El servicio no está disponible.
+- 500: Error en la sintaxis, no se pudo reconocer el comando.
+- 501: Error en la sintaxis de los parámetros del comando.
+- 502: El comando no está implementado.
+- 504: El parámetro del comando no está implementado.
+- 550: La acción no se realizó por que no se ha encontrado el buzón.
 
 ---
 
 Administración de servidores de correo electrónico, sus protocolos. Administración de contenedores 
 y microservicios 
-26 
-• HELO: 
+- HELO:
 Este comando es el encargado de iniciar el dialogo SMTP. 
 Este comando tiene como parámetro el nombre del cliente para establecer su identidad. 
 El servidor responderá con un código de respuesta 250 seguido del nombre del servidor. 
 Sintaxis: HELO nombre_cliente#13#10 
 Los posibles códigos de respuesta a este comando son: 
-• 250: La acción solicitada se ha completado. 
-• 421: El servicio no está disponible. 
-• 500: Error en la sintaxis, no se pudo reconocer el comando. 
-• 501: Error en la sintaxis de los parámetros del comando. 
-• 504: El parámetro del comando no está implementado. 
-• HELP: 
+- 250: La acción solicitada se ha completado.
+- 421: El servicio no está disponible.
+- 500: Error en la sintaxis, no se pudo reconocer el comando.
+- 501: Error en la sintaxis de los parámetros del comando.
+- 504: El parámetro del comando no está implementado.
+- HELP:
 Este comando hace que el servidor envíe información de ayuda sobre todos los comandos o 
 sobre un comando en concreto. 
 Sintaxis: HELP [ cadena-comandos ]#13#10 
 Los posibles códigos de respuesta a este comando son: 
-• 211: El sistema tiene disponible la ayuda. 
-• 214: Mensaje de información de ayuda. 
-• 421: El servicio no está disponible. 
-• 500: Error en la sintaxis, no se pudo reconocer el comando. 
-• 501: Error en la sintaxis de los parámetros del comando. 
-• 502: El comando no está implementado. 
-• 504: El parámetro del comando no está implementado.
+- 211: El sistema tiene disponible la ayuda.
+- 214: Mensaje de información de ayuda.
+- 421: El servicio no está disponible.
+- 500: Error en la sintaxis, no se pudo reconocer el comando.
+- 501: Error en la sintaxis de los parámetros del comando.
+- 502: El comando no está implementado.
+- 504: El parámetro del comando no está implementado.
 
 ---
 
 Administración de servidores de correo electrónico, sus protocolos. Administración de contenedores 
 y microservicios 
-27 
-• MAIL: 
+- MAIL:
 Este comando indica al servidor el inicio de un mensaje de correo y le indica además quien es el 
 remitente del mensaje. 
 Sintaxis: MAIL FROM: nombre_remitente@host_remitente#13#10 
 Los posibles códigos de respuesta a este comando son: 
-• 250: La acción solicitada se ha completado. 
-• 421: El servicio no está disponible. 
-• 451: Se abandonó la acción por un error de procesamiento local. 
-• 452: No se produjo la acción por que el disco no tiene espacio de almacenamiento 
-suficiente. 
-• 500: Error en la sintaxis, no se pudo reconocer el comando. 
-• 501: Error en la sintaxis de los parámetros del comando. 
-• 552: Abandono de la acción porque se superó la reserva de espacio. 
-• NOOP (no operación): 
+- 250: La acción solicitada se ha completado.
+- 421: El servicio no está disponible.
+- 451: Se abandonó la acción por un error de procesamiento local.
+- 452: No se produjo la acción por que el disco no tiene espacio de almacenamiento suficiente. 
+- 500: Error en la sintaxis, no se pudo reconocer el comando.
+- 501: Error en la sintaxis de los parámetros del comando.
+- 552: Abandono de la acción porque se superó la reserva de espacio.
+- NOOP (no operación):
 Este comando provoca que el servidor responda con un OK. 
 No afecta a ningún comando enviado anteriormente o posteriormente. Se suele usar para 
 asegurarse de que la conexión permanece activa. 
 Sintaxis: NOOP#13#10 
 Los posibles códigos de respuesta a este comando son: 
-• 250: La acción solicitada se ha completado. 
-• 421: El servicio no está disponible. 
-• 500: Error en la sintaxis, no se pudo reconocer el comando.
+- 250: La acción solicitada se ha completado.
+- 421: El servicio no está disponible.
+- 500: Error en la sintaxis, no se pudo reconocer el comando.
 
 ---
 
 Administración de servidores de correo electrónico, sus protocolos. Administración de contenedores 
 y microservicios 
-28 
-• QUIT: 
+- QUIT:
 Este comando le indica al servidor que el cliente no tiene más operaciones que realizar y que se 
 debería cerrar la conexión. 
 El servidor responde OK y seguidamente, cierra la conexión con el cliente. 
 Sintaxis: QUIT#13#10 
 Los posibles códigos de respuesta a este comando son: 
-• 221: Se está cerrando la conexión. 
-• 500: Error en la sintaxis, no se pudo reconocer el comando. 
-• RCPT (destinatario): 
+- 221: Se está cerrando la conexión.
+- 500: Error en la sintaxis, no se pudo reconocer el comando.
+- RCPT (destinatario):
 Este comando indica al servidor quien es el destinatario del mensaje que se está enviando. 
 Si el mensaje debe de ir a varios destinatarios, se pueden expresar separados por comas. 
 La sintaxis del comando es: 
 RCPT TO: nombre_destinatario@host_destinatario 
 [,nombre_destinatario@host_destinatario, ...]#13#10 
 Los posibles códigos de respuesta a este comando son: 
-• 250: La acción solicitada se ha completado. 
-• 251: El usuario no es local, entonces se remite el mensaje a nombre-servidor. 
-• 421: El servicio no está disponible. 
-• 450: No ser realizo la acción porque el buzón no está disponible. 
-• 451: Se abandonó la acción por un error de procesamiento local. 
-• 452 No se produjo la acción por que el disco no tiene espacio de almacenamiento 
-suficiente. 
-• 500: Error en la sintaxis, no se pudo reconocer el comando.
+- 250: La acción solicitada se ha completado.
+- 251: El usuario no es local, entonces se remite el mensaje a nombre-servidor.
+- 421: El servicio no está disponible.
+- 450: No ser realizo la acción porque el buzón no está disponible.
+- 451: Se abandonó la acción por un error de procesamiento local.
+- 452 No se produjo la acción por que el disco no tiene espacio de almacenamiento suficiente. 
+- 500: Error en la sintaxis, no se pudo reconocer el comando.
 
 ---
 
 Administración de servidores de correo electrónico, sus protocolos. Administración de contenedores 
 y microservicios 
-29 
-• 501: Error en la sintaxis de los parámetros del comando. 
-• 503: Secuencia de comandos incorrecta. 
-• 550: La acción no se realizó por que no se ha encontrado el buzón. 
-• 551: El usuario no es local, el cliente debería conectarse a nombre-servidor. 
-• 552: Abandono de la acción porque se superó la reserva de espacio. 
-• 553: No se realizó la operación porque la sintaxis del nombre del buzón es incorrecta. 
-• RSET (reinicio): 
+- 501: Error en la sintaxis de los parámetros del comando.
+- 503: Secuencia de comandos incorrecta.
+- 550: La acción no se realizó por que no se ha encontrado el buzón.
+- 551: El usuario no es local, el cliente debería conectarse a nombre-servidor.
+- 552: Abandono de la acción porque se superó la reserva de espacio.
+- 553: No se realizó la operación porque la sintaxis del nombre del buzón es incorrecta.
+- RSET (reinicio):
 Este comando le indica al servidor que abandone la transacción de correo actual, que descarte 
 los datos introducidos del remitente, destinatario o el mensaje. 
 RSET provoca que se vacíen y reinicien todos los buffers y tablas de estado. 
 Sintaxis: RSET#13#10 
 Los posibles códigos de respuesta a este comando son: 
-• 250: La acción solicitada se ha completado. 
-• 421: El servicio no está disponible. 
-• 500: Error en la sintaxis, no se pudo reconocer el comando. 
-• 501: Error en la sintaxis de los parámetros del comando. 
-• 504: El parámetro del comando no está implementado. 
-• SEND: 
+- 250: La acción solicitada se ha completado.
+- 421: El servicio no está disponible.
+- 500: Error en la sintaxis, no se pudo reconocer el comando.
+- 501: Error en la sintaxis de los parámetros del comando.
+- 504: El parámetro del comando no está implementado.
+- SEND:
 Este comando se utiliza para enviar correo a la pantalla del terminal de la sesión actual del 
 destinatario del mensaje. No se envía el mensaje al buzón del destinatario. 
 Este comando se utiliza fundamentalmente cuando se necesita enviar un mensaje crítico, por \nejemplo, al administrador del sistema. 
@@ -988,53 +730,49 @@ RCPT que debería seguir al comando SEND.
 
 Administración de servidores de correo electrónico, sus protocolos. Administración de contenedores 
 y microservicios 
-30 
 Sintaxis: SEND FROM: nombre_remitente@host_remitente#13#10 
 Los posibles códigos de respuesta a este comando son: 
-• 250: La acción solicitada se ha completado. 
-• 421: El servicio no está disponible. 
-• 451: Se abandonó la acción por un error de procesamiento local. 
-• 452: No se produjo la acción por que el disco no tiene espacio de almacenamiento suficiente. 
-• 500: Error en la sintaxis, no se pudo reconocer el comando. 
-• 501: Error en la sintaxis de los parámetros del comando. 
-• 502: El comando no está implementado. 
-• 552: Abandono de la acción porque se superó la reserva de espacio. 
-• SOML (enviar o enviar por correo): 
+- 250: La acción solicitada se ha completado.
+- 421: El servicio no está disponible.
+- 451: Se abandonó la acción por un error de procesamiento local.
+- 452: No se produjo la acción por que el disco no tiene espacio de almacenamiento suficiente.
+- 500: Error en la sintaxis, no se pudo reconocer el comando.
+- 501: Error en la sintaxis de los parámetros del comando.
+- 502: El comando no está implementado.
+- 552: Abandono de la acción porque se superó la reserva de espacio.
+- SOML (enviar o enviar por correo):
 Este comando funciona como el comando SEND, con la diferencia de que, si la pantalla del 
 terminal de destinatario del mensaje no puede recibir, por el motivo que sea, el mensaje, el 
 buzón de dicho usuario recibirá de forma automática el mensaje. 
 Sintaxis: SOML FROM: nombre_remitente@host_remitente#13#10 
 Los posibles códigos de respuesta a este comando son: 
-• 250: La acción solicitada se ha completado. 
-• 421: El servicio no está disponible. 
-• 451: Se abandonó la acción por un error de procesamiento local. 
-• 452: No se produjo la acción por que el disco no tiene espacio de almacenamiento 
-suficiente. 
-• 500: Error en la sintaxis, no se pudo reconocer el comando. 
-• 501: Error en la sintaxis de los parámetros del comando. 
-• 502: El comando no está implementado. 
-• 552: Abandono de la acción porque se superó la reserva de espacio.
+- 250: La acción solicitada se ha completado.
+- 421: El servicio no está disponible.
+- 451: Se abandonó la acción por un error de procesamiento local.
+- 452: No se produjo la acción por que el disco no tiene espacio de almacenamiento suficiente. 
+- 500: Error en la sintaxis, no se pudo reconocer el comando.
+- 501: Error en la sintaxis de los parámetros del comando.
+- 502: El comando no está implementado.
+- 552: Abandono de la acción porque se superó la reserva de espacio.
 
 ---
 
 Administración de servidores de correo electrónico, sus protocolos. Administración de contenedores 
 y microservicios 
-31 
-• SAML (enviar y enviar por correo): 
+- SAML (enviar y enviar por correo):
 Este comando funciona igual que el comando SOML, con la diferencia de que siempre se envía el 
 mensaje al buzón independientemente de que llegue a la pantalla del terminal o no. 
 Sintaxis: SAML FROM: nombre_remitente@host_remitente#13#10 
 Los posibles códigos de respuesta a este comando son: 
-• 250: La acción solicitada se ha completado. 
-• 421: El servicio no está disponible. 
-• 451: Se abandonó la acción por un error de procesamiento local. 
-• 452: No se produjo la acción por que el disco no tiene espacio de almacenamiento 
-suficiente. 
-• 500: Error en la sintaxis, no se pudo reconocer el comando. 
-• 501: Error en la sintaxis de los parámetros del comando. 
-• 502: El comando no está implementado. 
-• 552: Abandono de la acción porque se superó la reserva de espacio. 
-• TURN: 
+- 250: La acción solicitada se ha completado.
+- 421: El servicio no está disponible.
+- 451: Se abandonó la acción por un error de procesamiento local.
+- 452: No se produjo la acción por que el disco no tiene espacio de almacenamiento suficiente. 
+- 500: Error en la sintaxis, no se pudo reconocer el comando.
+- 501: Error en la sintaxis de los parámetros del comando.
+- 502: El comando no está implementado.
+- 552: Abandono de la acción porque se superó la reserva de espacio.
+- TURN:
 Este comando invierte los papeles del servidor y del cliente. 
 El cliente toma el papel de destinatario y el servidor toma el papel de remitente. 
 Este comando se usa para recibir los mensajes de correo que desde el servidor se quiera enviar 
@@ -1042,32 +780,31 @@ sin tener que esperar a que el servidor inicie una sesión SMTP con el cliente d
 la actual. 
 Sintaxis: TURN#13#10 
 Los posibles códigos de respuesta a este comando son: 
-• 250: La acción solicitada se ha completado. 
-• 500: Error en la sintaxis, no se pudo reconocer el comando. 
-• 502: El comando no está implementado. 
-• 503: Secuencia de comandos incorrecta.
+- 250: La acción solicitada se ha completado.
+- 500: Error en la sintaxis, no se pudo reconocer el comando.
+- 502: El comando no está implementado.
+- 503: Secuencia de comandos incorrecta.
 
 ---
 
 Administración de servidores de correo electrónico, sus protocolos. Administración de contenedores 
 y microservicios 
-32 
-• VRFY (verificar): 
+- VRFY (verificar):
 Este comando le indica al servidor que verifique que el destinatario especificado, sea un usuario 
 real y válido, por tanto, del sistema servidor. 
 Este comando se utiliza antes de iniciar un nuevo mensaje de correo. 
 Sintaxis: VRFY nombre_usuario#13#10 
 Los posibles códigos de respuesta a este comando son: 
-• 250: La acción solicitada se ha completado. 
-• 251: El usuario no es local, entonces se remite el mensaje a nombre-servidor. 
-• 421: El servicio no está disponible. 
-• 500: Error en la sintaxis, no se pudo reconocer el comando. 
-• 501: Error en la sintaxis de los parámetros del comando. 
-• 502: El comando no está implementado. 
-• 504: El parámetro del comando no está implementado. 
-• 550: La acción no se realizó porque no se ha encontrado el buzón. 
-• 551: El usuario no es local, el cliente debería conectarse a nombre-servidor. 
-• 553: No se realizó la operación porque la sintaxis del nombre del buzón es incorrecta. 
+- 250: La acción solicitada se ha completado.
+- 251: El usuario no es local, entonces se remite el mensaje a nombre-servidor.
+- 421: El servicio no está disponible.
+- 500: Error en la sintaxis, no se pudo reconocer el comando.
+- 501: Error en la sintaxis de los parámetros del comando.
+- 502: El comando no está implementado.
+- 504: El parámetro del comando no está implementado.
+- 550: La acción no se realizó porque no se ha encontrado el buzón.
+- 551: El usuario no es local, el cliente debería conectarse a nombre-servidor.
+- 553: No se realizó la operación porque la sintaxis del nombre del buzón es incorrecta.
 RFC 1651 
 Estos son los comandos de la especificación del SMTP. Pero este es un protocolo que lleva funcionando 
 ya muchos años y se han realizado algunas extensiones. 
@@ -1080,7 +817,6 @@ sintaxis.
 
 Administración de servidores de correo electrónico, sus protocolos. Administración de contenedores 
 y microservicios 
-33 
 Si el servidor no admite ninguna extensión, responde con un código de respuesta 500, es decir, no 
 reconoce el comando. En el caso de que sí reconozca el comando, responde con un código 250 y si 
 admite alguna extensión, envía varias líneas que ofrecen una lista de las extensiones que soporta dicho 
@@ -1109,7 +845,7 @@ de transmisión de correo electrónico diseñado para tener un mejor rendimiento
 de transferencia de correo (SMTP), el estándar de facto. 
 Fue diseñado e implementado por Daniel J. Bernstein. QMTP se puede usar sobre TCP. Un servidor 
 QMTP sobre TCP escucha conexiones TCP en el puerto 209. 
-2.2. POP 
+### 🔵 2.2. POP
 POP (Post Office Protocol o Protocolo de la oficina de correo). POP3 es su versión más utilizada. 
 POP3 se usa en clientes locales de correo para obtener los mensajes de correo electrónico 
 almacenados en un servidor remoto.
@@ -1118,10 +854,9 @@ almacenados en un servidor remoto.
 
 Administración de servidores de correo electrónico, sus protocolos. Administración de contenedores 
 y microservicios 
-34 
 Utiliza los siguientes puertos: 
-• El puerto 110 para conexiones no encriptadas. 
-• El puerto 995 para las encriptadas. 
+- El puerto 110 para conexiones no encriptadas.
+- El puerto 995 para las encriptadas.
 Es un protocolo de la capa de aplicación en el Modelo OSI. 
 POP3 está diseñado para recibir correo. No sirve para enviarlo. 
 Permite a los usuarios descargar su correo electrónico mientras tienen conexión y revisarlo 
@@ -1129,15 +864,15 @@ posteriormente sin conexión.
 Cabe mencionar que la mayoría de los clientes de correo incluyen la opción de dejar una copia de los 
 mensajes en el servidor. 
 Cuando un cliente utiliza POP3 realiza los siguientes pasos: 
-• Se conecta. 
-• Obtiene todos los mensajes. 
-• Los almacena en la computadora del usuario como mensajes nuevos. 
-• Los elimina del servidor. 
-• Se desconecta. 
+- Se conecta.
+- Obtiene todos los mensajes.
+- Los almacena en la computadora del usuario como mensajes nuevos.
+- Los elimina del servidor.
+- Se desconecta.
 POP 3 es un protocolo de la capa de aplicación (del modelo OSI) que utiliza TCP como protocolo de 
 capa de transporte. Como dijimos, este protocolo está pensado para recuperar mensajes de correo 
 accediendo al servidor en forma dinámica desde una workstation. 
-2.2.1. Operación básica 
+#### 🔹 2.2.1. Operación básica
 Para establecer una conexión a un servidor POP, el cliente de correo abre una conexión TCP en el 
 puerto 110 del servidor. 
 Cuando la conexión se ha establecido, el servidor POP envía al cliente POP una invitación y después las 
@@ -1152,39 +887,37 @@ respectivamente.
 
 Administración de servidores de correo electrónico, sus protocolos. Administración de contenedores 
 y microservicios 
-35 
 Los mensajes definidos para su eliminación no se quitan realmente del servidor hasta que el cliente POP \nenvía la orden QUIT para terminar la sesión. En ese momento, el servidor POP pasa al Estado de 
 actualización, fase en la que se eliminan los mensajes marcados y se limpian todos los recursos restantes 
 de la sesión. 
 Puedes conectarte manualmente al servidor POP3 haciendo Telnet al puerto 110 (ten en cuenta que \neste protocolo usa por defecto el puerto 23). Es muy útil cuando te envían un mensaje con un fichero 
 muy largo que no quieres recibir. 
 Los comandos son: 
-• USER Identificación de usuario (Solo se realiza una vez). 
-• PASS Envías la clave del servidor. 
-• STAT Da el número de mensajes no borrados en el buzón y su longitud total. 
-• LIST Muestra todos los mensajes no borrados con su longitud. 
-• RETR Solicita el envío del mensaje especificando el número (no se borra del buzón). 
-• TOP Muestra la cabecera y el número de líneas requerido del mensaje especificando el número. 
-• DELE Borra el mensaje especificando el número. 
-• RSET Recupera los mensajes borrados (en la conexión actual). 
-• QUIT Salir. 
-2.2.2. Estado de "Autorización" 
+- USER Identificación de usuario (Solo se realiza una vez).
+- PASS Envías la clave del servidor.
+- STAT Da el número de mensajes no borrados en el buzón y su longitud total.
+- LIST Muestra todos los mensajes no borrados con su longitud.
+- RETR Solicita el envío del mensaje especificando el número (no se borra del buzón).
+- TOP Muestra la cabecera y el número de líneas requerido del mensaje especificando el número.
+- DELE Borra el mensaje especificando el número.
+- RSET Recupera los mensajes borrados (en la conexión actual).
+- QUIT Salir.
+#### 🔹 2.2.2. Estado de "Autorización"
 Establecida la conexión TCP solicitada por el cliente, el servidor de POP 3 envía el "saludo" que puede ser: 
 s: +OK POP3 server ready 
 Ahora el cliente debe identificarse ante el servidor, puede usar 2 tipos de mecanismos, que son 
 mecanismos de autenticación, y el servidor está obligado a soportar como mínimo alguno de ellos. Son 
 los siguientes: 
-• A través de los comandos de USER y PASS. 
-• O por el comando APOP.
+- A través de los comandos de USER y PASS.
+- O por el comando APOP.
 
 ---
 
 Administración de servidores de correo electrónico, sus protocolos. Administración de contenedores 
 y microservicios 
-36 
 Ante los comandos mencionados, el servidor debe enviar como respuesta: 
-• Un +OK: el usuario y password correctos. 
-• O un –ERR: el usuario y/o password son incorrectos. 
+- Un +OK: el usuario y password correctos.
+- O un –ERR: el usuario y/o password son incorrectos.
 Otro comando utilizado en esta etapa es el QUIT, que el usuario puede enviar cuando el servidor no 
 termina por sí solo la conexión, ante el envío de un indicador de estado negativo de la casilla por el cual 
 no se le puede dar acceso al cliente. 
@@ -1192,19 +925,18 @@ Después de que el servidor ha abierto y desactivado el estado negativo de la ca
 vez ha cerrado la entrada para evitar el ingreso de nuevos mails durante este período, asigna un número 
 de mensaje a cada mensaje y declara el tamaño de cada uno en octetos. Aquí ya estamos en el estado 
 de transacción. 
-2.2.3. Estado de "Transacción" 
+#### 🔹 2.2.3. Estado de "Transacción"
 Si el resultado de la autenticación es correcto, se pasa al Estado de transacción, donde se utilizan 
 órdenes para mostrar, descargar y eliminar mensajes del servidor. 
 Los mensajes definidos para su eliminación no se quitan realmente del servidor hasta que el cliente POP \nenvía la orden QUIT para terminar la sesión. 
 Tras recibir cada orden, el servidor POP3 envía una respuesta. (el cliente puede enviar la orden QUIT y 
 la sesión POP3 entrara en fase de Actualización). 
 Comandos que el cliente puede utilizar en este estado: 
-• STAT: el servidor puede responder positivamente con una línea conteniendo la cantidad de 
-mensajes en la casilla y la cantidad de octetos total de todos los mensajes. 
+- STAT: el servidor puede responder positivamente con una línea conteniendo la cantidad de mensajes en la casilla y la cantidad de octetos total de todos los mensajes. 
 Ejemplo: 
 c: STAT. 
 s: + OK 2 320. 
-• LIST (msg): Si el server responde positivamente, envía una línea conteniendo información sobre \nel mensaje determinado en el argumento del comando. 
+- LIST (msg): Si el server responde positivamente, envía una línea conteniendo información sobre \nel mensaje determinado en el argumento del comando.
 Ejemplo: 
 c: LIST 
 s: +OK 2 messages (320 octets) 
@@ -1215,29 +947,26 @@ s: 2 200
 
 Administración de servidores de correo electrónico, sus protocolos. Administración de contenedores 
 y microservicios 
-37 
 ..... 
 c: LIST 2 
 s: +OK 2 200 
 .... 
 c: LIST 3 
 s: -ERR no such message, only 2 messages in maildrop 
-• RETR msg: El servidor ante una respuesta positiva envía el mensaje indicado en el argumento 
-del comando. 
+- RETR msg: El servidor ante una respuesta positiva envía el mensaje indicado en el argumento del comando. 
 Ejemplo: 
 c: RETR 1 
 s: +OK 120 octets. 
 s: "the pop 3 server sends the entire message here". 
 s: ... 
-• DELE msg: con esto el server marca el mensaje a borrar, pero realmente no lo hará hasta que la 
-sesión de POP3 entre en el estado de "ACTUALIZACION". Cualquier referencia posterior al 
+- DELE msg: con esto el server marca el mensaje a borrar, pero realmente no lo hará hasta que la sesión de POP3 entre en el estado de "ACTUALIZACION". Cualquier referencia posterior al 
 mensaje será errónea. 
 Ejemplo: 
 c:DELE 1. 
 s:+OK message 1 deleted. 
 Comandos opcionales en el estado de "Transacción" 
 Existe una serie de comandos opcionales que permiten manejar con mayor soltura los mensajes: 
-• Comando TOP. 
+- Comando TOP.
 sintaxis: TOP msg n 
 Tras el +OK inicial, el servidor de POP3 envía el encabezado del mensaje, una línea blanca 
 separando el encabezado del cuerpo y luego el número de líneas del cuerpo del mensaje 
@@ -1247,29 +976,28 @@ indicadas en el argumento del comando.
 
 Administración de servidores de correo electrónico, sus protocolos. Administración de contenedores 
 y microservicios 
-38 
 Ejemplo: 
 c: TOP 1 10 
 s: + OK 
 s: "the POP3 servers sends the headers of the message, a blank line, and the first 10 lines of the 
 body of the message" 
-• Comando UIDL. 
+- Comando UIDL.
 Sintaxis: UIDL (msg) 
 Da como resultado una línea que contiene el id único del mensaje indicado en el argumento del 
 comando. 
 Este id único es un string determinado por el mismo server que consta de 1 a 70 caracteres en el 
 rango 0x21 a 0x7E, que identifica en forma única un mensaje dentro del buzón y que persiste 
 durante toda la sesión. 
-2.2.4. Estado de "Actualización" 
+#### 🔹 2.2.4. Estado de "Actualización"
 Cuando el cliente envía el comando QUIT del estado de "Transaccion", la sesión POP3 entra en el \nestado de "Actualización". 
 Si la sesión termina por cualquier otra razón distinta del comando QUIT, la sesión no entra en el estado " 
 Actualización " y no debe remover ningún mensaje de la casilla. 
 En el estado de "Actualización", se eliminan los mensajes marcados como "borrados", se limpian todos 
 los recursos restantes de la sesión y cierra la conexión TCP. 
-2.2.5. Comandos que brindan seguridad 
+#### 🔹 2.2.5. Comandos que brindan seguridad
 Existen comandos que brindan mayor seguridad sobre todo en la etapa de "AUTORIZACION" que es la 
 más crítica dado que en ella es necesario dar el nombre de usuario y password al server. 
-• Comando APOP. 
+- Comando APOP.
 Normalmente, cada sesión POP3 comienza con el intercambio de USER/PASS, lo que hace que 
 tanto el usuario y password se envíen en forma clara por la red. Si esto no se realiza 
 frecuentemente el riesgo es mínimo, pero, si el uso es frecuente, aumenta el riesgo de la posible 
@@ -1279,7 +1007,6 @@ captura del password.
 
 Administración de servidores de correo electrónico, sus protocolos. Administración de contenedores 
 y microservicios 
-39 
 Para evitar este riesgo, se utiliza el comando APOP dando seguridad al emisor tanto con la 
 autenticación como con la protección en la respuesta. 
 Sintaxis: APOP name digest 
@@ -1288,9 +1015,9 @@ corresponde a una identificación de mensaje y debe ser diferente cada vez que s
 sesión POP3. 
 Este string sigue un algoritmo MD5 y la sintaxis es: 
 "process-ID.clock@hostame" 
-• Donde "proces -id" es un valor decimal del proceso PID (en UNIX). 
-• Clock es el valor decimal del sistema de reloj. 
-• Y hostname es el nombre de dominio del servidor sobre el cual corre POP3. 
+- Donde "proces -id" es un valor decimal del proceso PID (en UNIX).
+- Clock es el valor decimal del sistema de reloj.
+- Y hostname es el nombre de dominio del servidor sobre el cual corre POP3.
 Los parámetros de este comando tienen una semántica idéntica a la del parámetro "name" del 
 comando USER. El parámetro "digest" se calcula aplicando un algoritmo MD5 al string que 
 representa al timestamp, seguido de una clave secreta que conocen el servidor y el cliente. Se 
@@ -1311,11 +1038,10 @@ al string.
 
 Administración de servidores de correo electrónico, sus protocolos. Administración de contenedores 
 y microservicios 
-40 
 <1896.697170952"deb.mtview.ca.us>tanstaaff 
 Produce el valor: 
 c4c9334bac560ecc979e58001b3e22fb 
-• Comando AUTH. 
+- Comando AUTH.
 Solamente se utiliza durante el estado de "Autorización". 
 Sirve para indicar un mecanismo de autenticación al server, establecer un intercambio de 
 protocolo de autenticación y opcionalmente negociar un mecanismo de protección para 
@@ -1335,7 +1061,7 @@ S: + AmFYig==
 S: + or//EoAADZI= 
 C: DiAF5A4gA+oOIALuBkAAmw== 
 S: +OK Kerberos V4 authentication successful 
-2.2.6. Inseguridades del protocolo POP 
+#### 🔹 2.2.6. Inseguridades del protocolo POP
 Es posible que para algunos usuarios (para algunas casillas en realidad) se permita la secuencia de 
 comandos USER/PASS o el comando APOP, pero no ambos. 
 A pesar de tener clave secreta utilizando el comando APOP, cuanto más larga más segura pero también 
@@ -1345,42 +1071,40 @@ más difícil para escribirla.
 
 Administración de servidores de correo electrónico, sus protocolos. Administración de contenedores 
 y microservicios 
-41 
 Aquellos servers que dan respuesta –ERR al comando USER, dan pistas a posibles atacantes sobre los 
 nombres válidos. 
 Utilizando el comando PASS se envían passwords en forma clara a través de la red. 
 Este protocolo no puede leer ningún header donde se indica el originador del mensaje o el lugar desde 
 donde se realizó. 
-2.3. IMAP 
+### 🔵 2.3. IMAP
 IMAP (Internet Message Access Protocol). 
 IMAP es un protocolo de red de acceso a mensajes electrónicos almacenados en un servidor. 
 Utiliza los siguientes puertos: 
-• El puerto 143 para conexiones no encriptadas. 
-• El puerto 993 para las encriptadas con TLS. 
+- El puerto 143 para conexiones no encriptadas.
+- El puerto 993 para las encriptadas con TLS.
 Mediante IMAP se puede tener acceso al correo electrónico desde cualquier equipo que tenga una 
 conexión a Internet. 
 Ventajas de IMAP sobre POP: 
-• Es posible especificar en IMAP carpetas del lado servidor. 
-• Permite visualizar los mensajes de manera remota sin descargarlos. 
-2.4. MIME 
+- Es posible especificar en IMAP carpetas del lado servidor.
+- Permite visualizar los mensajes de manera remota sin descargarlos.
+### 🔵 2.4. MIME
 MIME (Multipurpose Internet Mail Extensions, Extensiones Multipropósito de Correo de Internet). 
 MIME es un estándar propuesto en 1991 por Bell Communications para expandir las capacidades 
 limitadas del correo electrónico y en particular para permitir la inserción de documentos (como 
 imágenes, sonido y texto) en un mensaje. 
 En sentido general las extensiones de MIME van encaminadas a soportar: 
-• Texto en conjuntos de caracteres distintos de US-ASCII. 
-• Adjuntos que no son de tipo texto.
+- Texto en conjuntos de caracteres distintos de US-ASCII.
+- Adjuntos que no son de tipo texto.
 
 ---
 
 Administración de servidores de correo electrónico, sus protocolos. Administración de contenedores 
 y microservicios 
-42 
-• Cuerpos de mensajes con múltiples partes (multi-part). 
-• Información de encabezados con conjuntos de caracteres distintos de ASCII. 
+- Cuerpos de mensajes con múltiples partes (multi-part).
+- Información de encabezados con conjuntos de caracteres distintos de ASCII.
 Los mensajes de correo electrónico en Internet están tan cercanamente asociados con el SMTP y MIME 
 que usualmente se les llama mensaje SMTP/MIME. 
-2.5. S/MIME 
+### 🔵 2.5. S/MIME
 S/MIME es un acrónimo que hace referencia a "extensiones seguras /multipropósito de correo en 
 Internet ("Secure/Multipurpose Internet Mail Extensions", por sus siglas originales en inglés). 
 S/MIME es una tecnología que le permite cifrar correos electrónicos. 
@@ -1389,8 +1113,8 @@ matemáticamente relacionadas –una pública y otra privada– para funcionar.
 Su finalidad es proteger los correos electrónicos frente a accesos no deseados. 
 Además, esta tecnología le permite firmar digitalmente los correos electrónicos para autenticarse como \nel remitente legítimo del mensaje, lo cual la convierte en una eficaz arma contra los numerosos ataques 
 de phishing, que se producen cada día en Internet. 
-2.6. Otros protocolos 
-2.6.1. RFC 2142 
+### 🔵 2.6. Otros protocolos
+#### 🔹 2.6.1. RFC 2142
 Otro protocolo que debemos conocer es el RFC 2142 es un protocolo utilizado para definir nombres de 
 correo obligatorios en una organización privada. 
 El protocolo RFC 2142 especifica un protocolo de seguimiento de estándares de Internet para la 
@@ -1399,7 +1123,7 @@ Comunidad de Internet, y solicita discusión y sugerencias para mejoras.
  
  
  
-Resumiendo 
+### 🔵 Resumiendo 
 Esta especificación enumera y describe las direcciones de correo 
 de Internet (nombre del buzón @ referencia del host) que se 
 utilizarán al contactar al personal de una organización.
@@ -1408,7 +1132,6 @@ utilizarán al contactar al personal de una organización.
 
 Administración de servidores de correo electrónico, sus protocolos. Administración de contenedores 
 y microservicios 
-43 
  
  
  
@@ -1429,16 +1152,16 @@ El documento define un conjunto de nombres estándar de buzones para facilitar l
 roles y servicios comunes dentro de un dominio de Internet. La idea es que las personas que necesiten 
 contactar con un servicio o rol específico puedan hacerlo fácilmente al usar direcciones de correo 
 predecibles. 
-2.6.2. Justificación y Alcance 
+#### 🔹 2.6.2. Justificación y Alcance
 Varios documentos de Solicitud de Comentarios o RFCs recomiendan nombres de buzones específicos 
 para el uso de servicios determinados; por ejemplo, (RFC5321, 4.5.1) requiere la presencia de un 
 nombre de buzón <POSTMASTER@domain> en todos los hosts que tienen un servidor SMTP. 
 Otros protocolos tienen estándares de facto para nombres de buzones conocidos, como: 
-• <USENET@domain> para NNTP, consulte RFC 977. 
-• Y <WEBMASTER@domain> para HTTP, RFC 2142. 
+- <USENET@domain> para NNTP, consulte RFC 977.
+- Y <WEBMASTER@domain> para HTTP, RFC 2142.
 También existen estándares predeterminados para nombres de buzones conocidos que no tienen nada 
 que ver con un protocolo en particular, por ejemplo: 
-• <ABUSE@domain>, RFC 2142. 
+- <ABUSE@domain>, RFC 2142.
 El propósito de este protocolo es agregar y especificar el conjunto básico de nombres de buzones que 
 las organizaciones deben admitir. La mayoría de las organizaciones no necesitan admitir el conjunto 
 completo de nombres de buzones definidos aquí, ya que no todas las organizaciones implementarán 
@@ -1450,7 +1173,6 @@ servicio o rol referenciado.
 
 Administración de servidores de correo electrónico, sus protocolos. Administración de contenedores 
 y microservicios 
-44 
 Si un host no está configurado para aceptar correo directamente, pero implementa un servicio para el 
 cual esta especificación define un nombre de buzón, ese host debe tener un conjunto MX RR y los 
 intercambiadores de correo especificados. Por este conjunto RR deben reconocer el nombre de dominio 
@@ -1461,7 +1183,7 @@ del host.
  
  
  
-Ejemplo 
+### 🔵 Ejemplo 
 Si el nombre de host de un servidor NNTP es 
 DATA.RAMONA.VIX.COM pero anuncia el nombre de dominio 
 VIX.COM en sus encabezados "Ruta:", entonces el correo debe 
@@ -1476,7 +1198,7 @@ los nombres de los buzones de ese dominio, incluso si el servidor en sí no admi
  
  
  
-Ejemplo 
+### 🔵 Ejemplo 
 Si un servidor NNTP anuncia el dominio de nivel superior de la 
 organización en los encabezados "Path:", los intercambiadores de 
 correo para ese dominio de nivel superior deben aceptar el correo 
@@ -1486,15 +1208,14 @@ a <USENET@domain> incluso si el intercambiador de correo aloja \nellos mismos no
 
 Administración de servidores de correo electrónico, sus protocolos. Administración de contenedores 
 y microservicios 
-45 
-2.6.3. Invariantes 
+#### 🔹 2.6.3. Invariantes
 Para nombres conocidos que no están relacionados con protocolos específicos, solo se requiere que el 
 nombre de dominio de nivel superior de la organización sea válido. 
  
  
  
  
-Ejemplo 
+### 🔵 Ejemplo 
 Si el nombre de dominio de un proveedor de servicios de Internet es 
 COMPANY.COM, entonces la dirección <ABUSE@COMPANY.COM> 
 debe ser válida y admitida, a pesar de que los clientes cuya actividad 
@@ -1511,12 +1232,12 @@ Las implementaciones de estos nombres bien conocidos, deben tener en cuenta las 
 remitentes que los usarán. 
 Enviar un acuse de recibo de correo automático suele ser útil (aunque sugerimos precaución contra la 
 posibilidad de "enfrentarse a robots de correo" y los bucles de correo resultantes). 
-2.6.4. Nombres de buzones 
-2.6.4.1. Nombres de Buzones Relacionados con la Empresa 
+#### 🔹 2.6.4. Nombres de buzones
+##### 2.6.4.1. Nombres de Buzones Relacionados con la Empresa
 Estos nombres están relacionados con las actividades de línea de negocio de una organización. El 
 nombre INFO a menudo está vinculado a un autoresponder, con una gama de archivos estándar 
 disponibles. 
-Mailbox 
+### 🔵 Mailbox 
 AREA 
 USO 
 INFO 
@@ -1528,65 +1249,64 @@ Información empaquetada sobre la organización, productos y
 
 Administración de servidores de correo electrónico, sus protocolos. Administración de contenedores 
 y microservicios 
-46 
-Mailbox 
+### 🔵 Mailbox 
 AREA 
 USO 
 MARKETING 
 Marketing 
 Marketing de productos y Comunicaciones de marketing 
-SOPORTE DE 
+### 🔵 SOPORTE DE 
 VENTAS 
 SERVICIO DE VENTA 
 AL CLIENTE 
 Problemas de información de compra del producto con el 
 producto o servicio 
-2.6.4.2. Nombres de Correos de Red 
+##### 2.6.4.2. Nombres de Correos de Red
 Las direcciones de operaciones están destinadas a proporcionar recursos a clientes, proveedores y otras 
 personas que están experimentando dificultades con el servicio de Internet de la organización. 
-Mailbox 
+### 🔵 Mailbox 
 AREA 
 USO 
 ABUSE 
 Relaciones con los clientes 
-Comportamiento público inapropiado 
+### 🔵 Comportamiento público inapropiado 
 NOC 
 Operaciones de RED 
-Operaciones de RED 
+### 🔵 Operaciones de RED 
 SECURITY 
 Seguridad de RED 
 Boletines de seguridad o consultas 
-2.6.4.3. Nombres de Correos de Apoyo para Servicios de Internet 
-Específicos 
+##### 2.6.4.3. Nombres de Correos de Apoyo para Servicios de Internet
+### 🔵 Específicos 
 Para los principales servicios de protocolo de Internet, hay un buzón definido para recibir consultas e 
 informes: si una organización proporciona servicios que utilizan los protocolos SMTP, FTP y HTTP, sería 
 recomendable tener buzones de correo electrónico específicos para cada uno de estos servicios. (Aquí 
 se incluyen los sinónimos, debido a su extensa base instalada). 
-Mailbox 
+### 🔵 Mailbox 
 SERVICIO 
 PROTOCOLOS 
 POSTMASTER 
-SMPT 
+### 🔵 SMPT 
 RFC821, RFC822 
-HOTMASTER 
+### 🔵 HOTMASTER 
 DNS 
 RFC1033-RFC1035 
-USENET 
+### 🔵 USENET 
 NNTP 
 RFC977 
-NEWS 
+### 🔵 NEWS 
 NNTP 
 Sinónimo de USENET 
 WEBMASTER 
-HTTP 
+### 🔵 HTTP 
 RFC2068 
-WWW 
+### 🔵 WWW 
 HTTP 
 Sinónimo de WEBMASTER 
 UUCP 
 UUCP 
 RFC976 
-FTP 
+### 🔵 FTP 
 FTP 
 RFC959
 
@@ -1594,21 +1314,20 @@ RFC959
 
 Administración de servidores de correo electrónico, sus protocolos. Administración de contenedores 
 y microservicios 
-47 
-2.6.4.4. Lista de Correo: Buzón de Administración 
+##### 2.6.4.4. Lista de Correo: Buzón de Administración
 Las listas de correo tienen un nombre de buzón administrativo al que se pueden enviar solicitudes de 
 agregar / quitar y otras metaconsultas. 
 Para una lista de correo cuyo nombre de buzón de envío es: 
-• <LIST@DOMINIO>. 
+- <LIST@DOMINIO>.
 DEBE haber el nombre del buzón administrativo: 
-• <LIST-REQUEST@DOMINIO>. 
+- <LIST-REQUEST@DOMINIO>.
 El software de administración de la Lista de distribución, como MajorDomo y Listserv, también tiene un 
 solo nombre de buzón asociado con el software en ese sistema, generalmente el nombre del software, \nen lugar de una lista particular en ese sistema. El uso de dichos nombres de buzones requiere que los 
 participantes conozcan el tipo de software de lista empleado en el sitio. 
 Esto puede ser problemático, por lo que: 
 Se requieren nombres de correo específicos de lista (-Request), independientes de la disponibilidad 
 de nombres de software de la lista genérica. 
-2.6.5. Administración del Buzón de Nombres de Dominio 
+#### 🔹 2.6.5. Administración del Buzón de Nombres de Dominio
 En DNS, el registro de inicio de autoridad (SOA RR) tiene un campo para especificar el nombre del 
 buzón del administrador de la zona. 
 Este campo debe ser una palabra simple sin metacaracteres (como "%" o "!" o "::"), y se debe usar un 
@@ -1616,7 +1335,7 @@ alias de correo en los hosts del intercambiador de correo relevante para dirigir
 administración de zona al buzón apropiado. 
 Por simplicidad y regularidad, se recomienda encarecidamente que el conocido nombre de buzón 
 HOSTMASTER se use siempre <HOSTMASTER@dominio>. 
-2.6.6. Correos de los Sistemas Autónomos 
+#### 🔹 2.6.6. Correos de los Sistemas Autónomos
 No existe una orden que obligue a los SA (Servicio Autónomo) a tener un buzón de correo electrónico 
 por cada servicio que ofrece. Puede tener buzones diferentes para diferentes servicios, un único buzón 
 para todos los servicios o incluso carecer de buzones de correo electrónico. 
@@ -1629,12 +1348,11 @@ que como un error o una violación de los estándares.
 
 Administración de servidores de correo electrónico, sus protocolos. Administración de contenedores 
 y microservicios 
-48 
-2.6.7. Consideraciones de Seguridad 
+#### 🔹 2.6.7. Consideraciones de Seguridad
 Los ataques de denegación de servicio ("Denial of service attacks" inundar un buzón con basura) serán 
 más fáciles después de que este protocolo se convierta en un estándar, ya que más sistemas admitirán \nel mismo conjunto de nombres de buzones. 
-3. Administración del correo electrónico 
-3.1. Monitorización 
+## 🟣 3. Administración del correo electrónico
+### 🔵 3.1. Monitorización
  
 Fuente: (https://pixabay.com/es/gran-hermano-monitoreo-2783030/) 
 La monitorización de servidores consiste en la vigilancia de los servicios activos que un servidor nos 
@@ -1654,7 +1372,6 @@ En caso de mal funcionamiento deberá alertarnos.
 
 Administración de servidores de correo electrónico, sus protocolos. Administración de contenedores 
 y microservicios 
-49 
 Existen programas de monitorización específicos para servidores de correo, pero se puede utilizar 
 software de monitorización de redes, que incluyen también monitorización de servidores de correo. 
 Nosotros te proponemos varias alternativas: 
@@ -1662,10 +1379,10 @@ Nosotros te proponemos varias alternativas:
  
  
  
-El experto opina 
+### 🔵 El experto opina 
 Ten en cuenta, que con el tiempo quedarán obsoletas. 
  
-Nagios 
+### 🔵 Nagios 
  
 Fuente: (https://www.flickr.com/photos/xmodulo/11700273965) 
 Es un software de monitorización de equipos y servicios de red, creado para ayudar a los 
@@ -1681,41 +1398,35 @@ memoria libre.
 
 Administración de servidores de correo electrónico, sus protocolos. Administración de contenedores 
 y microservicios 
-50 
 O NRPE (Nagios Remote Plugin Executor), que permite ejecutar plugins en una máquina remota. 
 Nagios está licenciado bajo la GNU General Public License Version 2. 
 A continuación presentamos los comandos esenciales de Nagios: 
 Comandos de Control del Servicio: 
-• systemctl start nagios: inicia el servicio de Nagios. 
-• systemctl stop nagios: detiene el servicio de Nagios. 
-• systemctl restart nagios: reinicia el servicio de Nagios. 
-• systemctl status nagios: verifica el estado del servicio de Nagios. 
+- systemctl start nagios: inicia el servicio de Nagios.
+- systemctl stop nagios: detiene el servicio de Nagios.
+- systemctl restart nagios: reinicia el servicio de Nagios.
+- systemctl status nagios: verifica el estado del servicio de Nagios.
 Comandos de Configuración y Verificación: 
 nagios -v /etc/nagios/nagios.cfg: verifica la sintaxis y validez del archivo de configuración de Nagios. 
 nagios -v: muestra la versión de Nagios instalada en el sistema. 
 cat /usr/local/nagios/var/nagios.log → Muestra los registros de eventos y errores de Nagios. 
 Comandos para Manejo de Objetos y Hosts: 
-• htpasswd -c /usr/local/nagios/etc/htpasswd.users <usuario>: crea un nuevo usuario para 
-acceder a la interfaz web de Nagios. 
-• htpasswd /usr/local/nagios/etc/htpasswd.users <usuario>: modifica la contraseña de un 
-usuario existente. 
-• service nagios reload: recarga la configuración de Nagios sin reiniciar el servicio. 
+- htpasswd -c /usr/local/nagios/etc/htpasswd.users <usuario>: crea un nuevo usuario para acceder a la interfaz web de Nagios. 
+- htpasswd /usr/local/nagios/etc/htpasswd.users <usuario>: modifica la contraseña de un usuario existente. 
+- service nagios reload: recarga la configuración de Nagios sin reiniciar el servicio.
 Comandos de Notificación y Estados: 
-• tail -f /usr/local/nagios/var/nagios.log → Monitorea en tiempo real los eventos del sistema de 
+- tail -f /usr/local/nagios/var/nagios.log → Monitorea en tiempo real los eventos del sistema de
 Nagios. 
-• nagios -s → Muestra estadísticas del sistema de monitoreo. 
+- nagios -s → Muestra estadísticas del sistema de monitoreo.
 Comandos de Plugins y Chequeos Manuales: 
-• /usr/local/nagios/libexec/check_ping -H <host> -w 100.0,20% -c 500.0,60% → Realiza un 
-chequeo manual de ping a un host. 
-• /usr/local/nagios/libexec/check_http -H <host> → Verifica el estado de un servicio web en un 
-host específico. 
-• /usr/local/nagios/libexec/check_disk -w 20% -c 10% -p /dev/sda1 → Comprueba el espacio \nen disco de una partición específica.
+- /usr/local/nagios/libexec/check_ping -H <host> -w 100.0,20% -c 500.0,60% → Realiza un chequeo manual de ping a un host. 
+- /usr/local/nagios/libexec/check_http -H <host> → Verifica el estado de un servicio web en un host específico. 
+- /usr/local/nagios/libexec/check_disk -w 20% -c 10% -p /dev/sda1 → Comprueba el espacio \nen disco de una partición específica.
 
 ---
 
 Administración de servidores de correo electrónico, sus protocolos. Administración de contenedores 
 y microservicios 
-51 
 Check_MK 
  
 Fuente (https://checkmk.com/company/brand-assets) 
@@ -1727,29 +1438,27 @@ Algunas de sus mejores con respecto a Nagios son una configuración con interfaz
 monitoreo eficiente y con un menor consumo de recursos del sistema, la identificación automática de 
 nuevos hosts o servicios de red, notificaciones de estado en tiempo real que permiten una respuesta 
 inmediata a eventos críticos. 
-Pandora FMS 
+### 🔵 Pandora FMS 
  
 Fuente: 
-(https://commons.wikimedia.org/wiki/Fi
-le:Logo_Pandor_FMS_community_edition
+(https://commons.wikimedia.org/wiki/Fi le:Logo_Pandor_FMS_community_edition
 .png) 
 Pandora FMS es un software de monitorización para gestión de infraestructura TI. 
 Esto incluye: 
-• Equipamiento de red. 
-• Servidores Windows. 
-• Servidores Unix. 
-• Infraestructura virtualizada. 
-• Aplicaciones.
+- Equipamiento de red.
+- Servidores Windows.
+- Servidores Unix.
+- Infraestructura virtualizada.
+- Aplicaciones.
 
 ---
 
 Administración de servidores de correo electrónico, sus protocolos. Administración de contenedores 
 y microservicios 
-52 
 Pandora FMS tiene multitud de funcionalidades, lo cual lo convierte en un software de nueva generación 
 que cubre todos los aspectos de monitorización necesarios. 
 Es un software de código abierto. 
-3.2. Seguridad 
+### 🔵 3.2. Seguridad
  
 Fuente: (https://pixabay.com/es/seguridad-cibern%C3%A9tica-
 protecci%C3%B3n-3400657/) 
@@ -1763,7 +1472,7 @@ También proponen otros enlaces interesantes.
 http://www.formacion.andaluciaesdigital.es/c/ 
 document_library/get_file?uuid=3381a004-24d7-4d99-82bf-\ne47949cc80d7&groupId=20195 
  
-3.2.1. Entorno del servidor 
+#### 🔹 3.2.1. Entorno del servidor
 El entorno del servidor debe ser seguro y no verse amenazado por las vulnerabilidades que pudieran \nexistir en otras aplicaciones o servicios de la organización. 
 Para ello, es importante ubicar los servidores de correo, especialmente si estos tienen exposición a la 
 red externa (Internet), en una zona de la red suficientemente aislada y controlada.
@@ -1772,15 +1481,13 @@ red externa (Internet), en una zona de la red suficientemente aislada y controla
 
 Administración de servidores de correo electrónico, sus protocolos. Administración de contenedores 
 y microservicios 
-53 
 Habitualmente y según las recomendaciones del CCN-CERT, esta zona será la DMZ (DeMillitarized 
 Zone, en castellano, zona desmilitarizada) de la red, convenientemente aislada del resto de las redes de 
 la organización haciendo uso de cortafuegos que filtren los accesos desde Internet hasta nuestros 
 servidores, así como desde estos al resto de redes de nuestra organización. 
  
 Fuente: 
-(https://es.wikipedia.org/wiki/Archivo:DMZ_net
-work_diagram_2_firewall.svg) 
+(https://es.wikipedia.org/wiki/Archivo:DMZ_net work_diagram_2_firewall.svg) 
 Se debería considerar en la política de filtrado del firewall limitar todo el tráfico saliente SMTP 
 únicamente a nuestro servidor de correo para evitar que otras aplicaciones puedan enviar correo 
 directamente al exterior. 
@@ -1796,30 +1503,27 @@ correo, así como registrar tráfico anómalo que pudiera producirse.
 Es importante que los registros de estos sistemas sean analizados periódicamente por el equipo de 
 seguridad para así verificar que el comportamiento de este elemento de seguridad sea el adecuado y 
 que no se estén generando alertas que requieran algún tipo de revisión manual. 
-3.2.2. Configuración segura de los servidores 
+#### 🔹 3.2.2. Configuración segura de los servidores
 Los servicios de correo electrónico deben cumplir una serie de requisitos que deben estar definidos en 
 nuestra política de seguridad. 
 Algunos requisitos podrían ser: 
-• Instalación únicamente de los servicios y aplicaciones necesarios para la prestación del servicio. 
-• El resto de los servicios se eliminarán o desactivarán.
+- Instalación únicamente de los servicios y aplicaciones necesarios para la prestación del servicio.
+- El resto de los servicios se eliminarán o desactivarán.
 
 ---
 
 Administración de servidores de correo electrónico, sus protocolos. Administración de contenedores 
 y microservicios 
-54 
-• Instalar los parches y actualizaciones de las aplicaciones utilizadas. Esto implica informarse a 
-diario de los parches y actualizaciones que van apareciendo. 
-• Política de gestión de usuarios control de accesos y permisos. Se debe garantizar la 
-confidencialidad de la información almacenada. 
-• Monitorización continua y auditorías periódicas para mejorar los servicios. 
-3.2.3. Seguridad en servicios de correo 
+- Instalar los parches y actualizaciones de las aplicaciones utilizadas. Esto implica informarse a diario de los parches y actualizaciones que van apareciendo. 
+- Política de gestión de usuarios control de accesos y permisos. Se debe garantizar la confidencialidad de la información almacenada. 
+- Monitorización continua y auditorías periódicas para mejorar los servicios.
+#### 🔹 3.2.3. Seguridad en servicios de correo
  
 Fuente: (https://pixabay.com/es/spam-
 casilla-de-correo-2636258/) 
 Se deben establecer medidas de seguridad específicas para los servicios de correo electrónico que 
 respondan a los problemas de seguridad que los afectan con más frecuencia. 
-Ataque típico Open Relay 
+### 🔵 Ataque típico Open Relay 
 Se denomina ataque por Open Relay al mecanismo de usar el MTA como puente para correos 
 (usualmente spam) que de otra manera no podrían llegar a destino porque la IP de origen está 
 bloqueada. 
@@ -1832,7 +1536,6 @@ Para que se saque una IP de estas listas negras, se deben pasar ciertas pruebas 
 
 Administración de servidores de correo electrónico, sus protocolos. Administración de contenedores 
 y microservicios 
-55 
  
  
  
@@ -1845,11 +1548,10 @@ no la persona que realiza el ataque.
 Para solucionarlo, la configuración del servicio debería permitir únicamente el envío o clientes de correo 
 autenticados, con lo que sólo se permitiría la utilización de la plataforma de envío a los usuarios 
 legítimos del sistema. 
-3.2.4. Auditorías del sistema 
+#### 🔹 3.2.4. Auditorías del sistema
  
 Fuente: 
-(https://pxhere.com/es/pho
-to/1446123) 
+(https://pxhere.com/es/pho to/1446123) 
 Una vez establecidas las medidas de seguridad necesarias en nuestros sistemas, se debería realizar una 
 auditoría de seguridad de la plataforma completa para verificar que se cumple nuestra política de 
 seguridad. 
@@ -1859,48 +1561,42 @@ Esta auditoría del sistema debería repetirse periódicamente.
 
 Administración de servidores de correo electrónico, sus protocolos. Administración de contenedores 
 y microservicios 
-56 
-3.2.5. Seguridad en clientes de correo 
+#### 🔹 3.2.5. Seguridad en clientes de correo
 Los clientes de correo electrónico son un punto crítico por tres motivos: 
-• Están menos controlados. 
-• Es el principal punto de entrada de amenazas. 
-• Los usuarios no conocen bien los clientes de correo ni están concienciados (por norma general) 
-con la política de seguridad. 
+- Están menos controlados.
+- Es el principal punto de entrada de amenazas.
+- Los usuarios no conocen bien los clientes de correo ni están concienciados (por norma general) con la política de seguridad. 
 Algunas de las medidas de seguridad a contemplar son: 
-• Los sistemas operativos y las aplicaciones deberían actualizarse de forma automática. 
-• Los usuarios no deben tener permisos de administrador. 
-• Deben tener un antivirus instalado. 
-• Los equipos de usuario deberían tener activado el servicio de firewall. 
-3.2.5.1. Clientes de correo 
+- Los sistemas operativos y las aplicaciones deberían actualizarse de forma automática.
+- Los usuarios no deben tener permisos de administrador.
+- Deben tener un antivirus instalado.
+- Los equipos de usuario deberían tener activado el servicio de firewall.
+##### 3.2.5.1. Clientes de correo
 Los clientes de correo deben configurarse de manera segura y evitar que los usuarios modifiquen esta 
 configuración. 
 Algunas medidas de seguridad en la configuración de los clientes de correo son: 
-• Utilizar de protocolos seguros (SSL/TLS) tanto para el envío como para la recepción de correos. 
-• Desactivar de la carga de contenidos externos y la reproducción automática de contenidos 
+- Utilizar de protocolos seguros (SSL/TLS) tanto para el envío como para la recepción de correos.
+- Desactivar de la carga de contenidos externos y la reproducción automática de contenidos
 (JavaScript, ActiveX). 
-• No almacenar las contraseñas en la configuración del cliente de correo. 
-3.2.5.2. Correo WEB 
+- No almacenar las contraseñas en la configuración del cliente de correo.
+##### 3.2.5.2. Correo WEB
 Si se accede a correo web con navegadores, se deberían contemplar los siguientes aspectos: 
-• No permitir el autoguardado de contraseñas. 
-• Establecer una contraseña maestra para acceder a certificados o cualquier tipo de información 
-privada. 
-• Desactivar la reproducción de contenido remoto dentro de los correos electrónicos. 
-• Limitar o deshabilitar la instalación de addons. 
-• Cerrar la sesión de manera automática y eliminar historial y cookies una vez se cierre la ventana 
-del navegador.
+- No permitir el autoguardado de contraseñas.
+- Establecer una contraseña maestra para acceder a certificados o cualquier tipo de información privada. 
+- Desactivar la reproducción de contenido remoto dentro de los correos electrónicos.
+- Limitar o deshabilitar la instalación de addons.
+- Cerrar la sesión de manera automática y eliminar historial y cookies una vez se cierre la ventana del navegador.
 
 ---
 
 Administración de servidores de correo electrónico, sus protocolos. Administración de contenedores 
 y microservicios 
-57 
-3.2.6. Dispositivos móviles 
+#### 🔹 3.2.6. Dispositivos móviles
 Estos dispositivos deben ser tratados de igual manera que los equipos de escritorio y mantener las 
 mismas medidas de seguridad. 
 Además, tenemos que considerar algunos riesgos adicionales: 
-• Estos dispositivos están más expuestos a riesgos como el extravío o el robo de los mismos, por 
-lo que debemos asegurarnos de establecer algún mecanismo de control de acceso. 
-• Cifrar la información intercambiada con los servidores de correo (por si utiliza redes públicas). 
+- Estos dispositivos están más expuestos a riesgos como el extravío o el robo de los mismos, por lo que debemos asegurarnos de establecer algún mecanismo de control de acceso. 
+- Cifrar la información intercambiada con los servidores de correo (por si utiliza redes públicas).
 Un ejemplo de programas especialmente diseñados para el correo en dispositivos móviles es el 
 Microsoft Exchange. 
 Este servicio trabaja con el protocolo ActiveSync, Exchange ActiveSync es un protocolo de 
@@ -1913,7 +1609,7 @@ calendario, contactos y tareas y les permite seguir teniendo acceso a esta infor
 sin conexión. 
 Los servicios de cifrado estándar agregan seguridad a las comunicaciones móviles con el servidor. Puede 
 configurar Exchange ActiveSync para utilizar el cifrado de Capa de sockets seguros (SSL) a fin de \nestablecer la comunicación entre el servidor Exchange y el dispositivo móvil. 
-3.2.7. Gestión de contraseñas 
+#### 🔹 3.2.7. Gestión de contraseñas
  
 Fuente: (https://pixabay.com/es/internet-de-seguridad-
 contrase%C3%B1a-1952019/) 
@@ -1925,31 +1621,29 @@ las contraseñas, así como periodos de renovación de estas.
 
 Administración de servidores de correo electrónico, sus protocolos. Administración de contenedores 
 y microservicios 
-58 
 Todas estas condiciones y medidas de seguridad deberían estar definidas en la política de seguridad de 
 la organización. 
 Las contraseñas deben ser robustas y secretas. Para ello: 
-• Deben tener una longitud adecuada. (A mayor número de caracteres, mayor dificultad de 
-obtenerla con algoritmos de fuerza bruta). 
-• Longitud mínima de ocho caracteres. 
-• No deben utilizarse palabras conocidas: 
-• Palabras del diccionario. 
-• Nombres propios. 
-• Lugares. 
+- Deben tener una longitud adecuada. (A mayor número de caracteres, mayor dificultad de obtenerla con algoritmos de fuerza bruta). 
+- Longitud mínima de ocho caracteres.
+- No deben utilizarse palabras conocidas:
+- Palabras del diccionario.
+- Nombres propios.
+- Lugares.
 Las contraseñas con estas palabras son más fáciles de romper con ataques de diccionario. 
-• Las contraseñas deben incluir variedad de caracteres: 
-• Mayúsculas. 
-• Minúsculas. 
-• Números. 
-• Signos de puntuación. 
-• No se deben reutilizar claves. Cada servicio que usemos debe tener una clave diferente. 
+- Las contraseñas deben incluir variedad de caracteres:
+- Mayúsculas.
+- Minúsculas.
+- Números.
+- Signos de puntuación.
+- No se deben reutilizar claves. Cada servicio que usemos debe tener una clave diferente.
 Se deberían establecer políticas de seguridad que obliguen a los usuarios a cambiar la contraseña 
 periódicamente, evitando la reutilización de estas. 
  
  
  
  
-Recomendación 
+### 🔵 Recomendación 
 Visita la siguiente web para que conozcas diferentes herramientas 
 de administración de contraseñas.  
 Gestores de contraseñas
@@ -1958,8 +1652,7 @@ Gestores de contraseñas
 
 Administración de servidores de correo electrónico, sus protocolos. Administración de contenedores 
 y microservicios 
-59 
-4. Administración de contenedores y microservicios 
+## 🟣 4. Administración de contenedores y microservicios
 Los microservicios, que también se les conoce como la arquitectura de microservicios (MSA), es una 
 forma diferente de desarrollar un software, que consiste en la creación de una aplicación con la unión 
 de pequeños servicios independientes, que corren bajo sus propios procesos, y que debido a esa 
@@ -1997,8 +1690,7 @@ directamente sin tener que depender del resto de procesos.
 
 Administración de servidores de correo electrónico, sus protocolos. Administración de contenedores 
 y microservicios 
-60 
-4.1. Que son los microservicios 
+### 🔵 4.1. Que son los microservicios
 En una arquitectura de microservicios cada función se llama servicio y se construye e implementa de 
 forma independiente, por tanto, cada servicio puede funcionar (y fallar) sin afectar a los demás. 
  
@@ -2006,14 +1698,14 @@ El uso de microservicios es un enfoque arquitectónico para la creación de apli
 independientes y acoplarse. Así el fallo en uno de ellos no afecta al resto al igual que los equipos de 
 desarrollo ante nuevas necesidades del mercado, pueden construir rápidamente nuevos componentes 
 de aplicaciones para satisfacerlas. 
-Movimiento tecnológico de devops 
+### 🔵 Movimiento tecnológico de devops 
 Gracias al sistema de individualidad de cada función, se puede adoptar el movimiento tecnológico de 
 DevOps, consiguiendo los objetivos que pretende este movimiento: 
-• Automatización y el monitoreo en todos los pasos de la construcción del software. 
+- Automatización y el monitoreo en todos los pasos de la construcción del software.
 Tanto las pruebas, el despliegue, la implementación y la administración de la infraestructura, se 
 realiza de forma independiente para cada microservicio. 
-• Acortar el ciclo de vida del desarrollo de software. 
-• Mayor frecuencia de implementación. 
+- Acortar el ciclo de vida del desarrollo de software.
+- Mayor frecuencia de implementación.
 Lanzamientos más efectivos, con una entrega continua de alta calidad (constant iteration and 
 delivery o CI/CD).
 
@@ -2021,7 +1713,6 @@ delivery o CI/CD).
 
 Administración de servidores de correo electrónico, sus protocolos. Administración de contenedores 
 y microservicios 
-61 
  
  
  
@@ -2031,14 +1722,14 @@ operations (operaciones).
 Es un conjunto de prácticas que agrupan el desarrollo de software 
 (Dev) y las operaciones de TI (Ops). 
  
-4.2. Ventajas de la arquitectura de microservicios 
+### 🔵 4.2. Ventajas de la arquitectura de microservicios
 Al ser componentes modulares independientes, son más fáciles de probar, mantener y comprender. Lo 
 que da como resultado un incremento de la agilidad, mejora de los flujos de trabajo y menor tiempo 
 para mejorar la producción. 
 Algunas de las ventajas que ofrecen los microservicios: 
-4.2.1. Especialización del equipo 
+#### 🔹 4.2.1. Especialización del equipo
 Puesto que cada microservicio realiza una tarea determinada buscando su perfección, facilita la \nespecialización del equipo encargado de su desarrollo, lo que hace que pueda lograrse más fácilmente \nesa perfección. 
-4.2.2. Altamente escalable 
+#### 🔹 4.2.2. Altamente escalable
 Cada microservicio puede ser escalado independientemente de la aplicación completa, lo que posibilita 
 una gran capacidad de expansión. 
 Se pueden lanzar nuevas instancias y/o eliminar las que ya no son necesarias. En función de la variación 
@@ -2056,8 +1747,7 @@ De esta forma el producto final es mucho más ligero y necesita menos recursos.
 
 Administración de servidores de correo electrónico, sus protocolos. Administración de contenedores 
 y microservicios 
-62 
-4.2.3. Independencia y versatilidad, aplicaciones más abiertas 
+#### 🔹 4.2.3. Independencia y versatilidad, aplicaciones más abiertas
 Los microservicios permiten el uso de diferentes tecnologías y lenguajes, se puede elegir el lenguaje de 
 programación o la base de datos que se adapte mejor a la funcionalidad requerida (servicio) en lugar de 
 tener que tomar una más estandarizada. 
@@ -2069,8 +1759,7 @@ microservicio.
 Como cada servicio tiene su propio entorno de ejecución, es posible incluso utilizar lenguajes de 
 programación diferentes para diversos microservicios o implementar bases de datos o sistemas para 
 gestionarlas de desarrollo propio. 
-4.2.4. Consistencia: aislamiento de fallos y capacidad 
-de recuperación 
+#### 🔹 4.2.4. Consistencia: aislamiento de fallos y capacidad de recuperación 
 Como resultado de esa independencia de los microservicios el sistema se hace más robusto. Si se 
 produce un error en un servicio, la aplicación completa no tiene por qué dejar de funcionar. La caída de 
 una instancia puede superarse desplegando rápidamente nuevas instancias. 
@@ -2079,7 +1768,7 @@ aplicación de arquitectura monolítica.
 Al ser independientes, el fallo de un microservicio no compromete la integridad y el buen 
 funcionamiento de los demás, no afecta a toda la aplicación, lo que si ocurre en las aplicaciones 
 monolíticas. 
-4.2.5. Rapidez de respuesta implementación y actualización 
+#### 🔹 4.2.5. Rapidez de respuesta implementación y actualización
 Puesto que se trata de partes más pequeñas, los desarrolladores pueden comprender, actualizar y 
 mejorar más fácilmente cada microservicio, obteniéndose ciclos de desarrollo más rápidos, 
 (especialmente si se utilizan metodologías de desarrollo ágiles). 
@@ -2090,9 +1779,7 @@ actualización de las aplicaciones. Se produce la entrega continua (continuous d
 
 Administración de servidores de correo electrónico, sus protocolos. Administración de contenedores 
 y microservicios 
-63 
-5. Arquitectura de microservicios frente 
-a la arquitectura monolítica 
+## 🟣 5. Arquitectura de microservicios frente a la arquitectura monolítica 
 La gran ventaja que ofrece una arquitectura de microservicios es su agilidad. Y es que, antes de su 
 aparición, todo se basaba en arquitecturas monolíticas y las distintas partes que conformaban un 
 programa de software estaban acopladas y esto genera el problema de que, por ejemplo, todos esos 
@@ -2120,22 +1807,19 @@ independencia, sin supeditarse a una administración central. Por tanto, cada eq
 su propio producto final en cada fase de su ciclo de vida, dando lugar a una arquitectura de software 
 modular, que ofrece numerosas ventajas. 
 Diferenciamos: 
-• En el desarrollo de una aplicación tradicional, como un monolito, todos los equipos dependen 
-unos de otros. 
-• En una arquitectura de microservicios, se debe evitar esa interdependencia. 
+- En el desarrollo de una aplicación tradicional, como un monolito, todos los equipos dependen unos de otros. 
+- En una arquitectura de microservicios, se debe evitar esa interdependencia.
 Se forman equipos pequeños, para que cada uno de ellos se ocupe de un solo servicio realizado \nen un microservicio.
 
 ---
 
 Administración de servidores de correo electrónico, sus protocolos. Administración de contenedores 
 y microservicios 
-64 
 Con este enfoque monolítico los equipos se organizan de forma diferente en función de la tecnología 
 que utilizan: 
-• Mientas uno se dedica a las bases de datos. 
-• Otro se ocupa de programar los diversos servicios y otro se encarga de diseñar la interfaz de usuario. 
-• Otros grupos de trabajo son responsables de publicar actualizaciones, del mantenimiento y de la 
-monitorización. 
+- Mientas uno se dedica a las bases de datos.
+- Otro se ocupa de programar los diversos servicios y otro se encarga de diseñar la interfaz de usuario.
+- Otros grupos de trabajo son responsables de publicar actualizaciones, del mantenimiento y de la monitorización. 
  
  
  
@@ -2150,7 +1834,7 @@ que los desarrolla.
 La arquitectura basada en microservicios es una evolución de la arquitectura orientada a servicios o 
 SOA (Service-Oriented Architecture), pero en ella los servicios siguen estando integrados en un 
 sistema mayor, y no tienen la autonomía que deben tener en una arquitectura de microservicicios. 
-6. El cambio a microservicios 
+## 🟣 6. El cambio a microservicios
 El objetivo de una empresa al querer convertir las aplicaciones monolíticas en microservicios, es la 
 disminución del "time-to-market" (plazo de lanzamiento) de las aplicaciones, y de una mayor agilidad, 
 con todas las ventajas que ya hemos visto que ofrecen los microservicios. 
@@ -2169,7 +1853,6 @@ También es conocido como Speed to market.
 
 Administración de servidores de correo electrónico, sus protocolos. Administración de contenedores 
 y microservicios 
-65 
 El cambio a una arquitectura de microservicios implica como está desarrollada la aplicación, pero es algo 
 más que la división de tareas, su individualidad y su acoplamiento, también y muy importante, la forma \nen que las personas trabajan, es necesario reestructurar los equipos de desarrollo y la coordinación \nentre ellos. 
 Este cambio organizativo en los equipos son un gran desafío, ya que cada equipo tendrá su propia 
@@ -2209,19 +1892,17 @@ Golang y Python.
 
 Administración de servidores de correo electrónico, sus protocolos. Administración de contenedores 
 y microservicios 
-66 
-6.1. Desafios (problemas) en la arquitectura 
-de microservicios 
+### 🔵 6.1. Desafios (problemas) en la arquitectura de microservicios 
 Adoptar la arquitectura de microservicios, contenedores y orquestadores ayuda a simplificar la creación 
 de servicios individuales, lo cual como hemos visto, ofrece muchas ventajas, pero también genera 
 complejidades adicionales o mayores, como son enfrentarse a: 
-• Seguridad. 
+- Seguridad.
 Dentro de una aplicación monolítica, todas las llamadas de función a función son seguras. 
 En los microservicios, hay que tener en cuenta que cada uno de ellos se debe autenticar, 
 autorizar, encriptar y que se comunican entre sí. 
 También son necesarias herramientas de auditoria para el seguimiento de la comunicación 
 servicio a servicio. 
-• Resiliencia de la red. 
+- Resiliencia de la red.
 La resiliencia de la red se define como qué tan rápido puede volver a funcionar "algo" con todas 
 sus capacidades y velocidad tras una caída/interrupción en la señal y reanudar la conexión. 
 Esta característica es imprescindible a la hora de prestar cualquier servicio a través de la red, y \nen el uso de microservicios, se debe lograr que cada uno de ellos sea resiliente, es decir, que, en 
@@ -2229,7 +1910,7 @@ caso de error, un microservicio puede reiniciarse en otra máquina para seguir e
 disponible, para ello es necesario tener en cuenta su tolerancia a fallos, conmutación por error 
 (failover), recuperación de desastres, interrupción de circuitos, aislamiento, etc. 
 La arquitectura de micoservicios debe proporcionar alta disponibilidad. 
-• Política de comunicación. 
+- Política de comunicación.
 En aplicación monolítica, se crea un único perímetro solido de comunicación, pero en las 
 arquitecturas de microservicios, se pueden generar cuellos de botella en algunos servicios, y 
 además pueden ser dependencias para otros servicios. 
@@ -2244,8 +1925,7 @@ y cuáles no.
 
 Administración de servidores de correo electrónico, sus protocolos. Administración de contenedores 
 y microservicios 
-67 
-• Observabilidad. 
+- Observabilidad.
 La observabilidad es más importante en las arquitecturas de microservicios que en las 
 monolíticas donde los archivos de registro son suficientes para identificar el origen de un 
 problema. 
@@ -2258,40 +1938,39 @@ El uso de la malla de servicios proporciona soluciones de gestión a estos retos
 Categorías de desafío ante el uso de Microservicios 
 John Frizelle, arquitecto de plataforma para Red Hat Mobile, expuso estas ocho categorías de desafío en 
 su charla de 2017 en Red Hat Summit: 
-• Construcción: 
+- Construcción:
 Es necesario invertir el tiempo necesario en identificar dependencias entre los servicios, así 
 como tener en cuenta los efectos que el uso de los microservicios tiene sobre los datos. 
-• Pruebas: 
+- Pruebas:
 En función de cómo se diseñen los servicios para apoyarse mutuamente, una falla en una parte 
 de la arquitectura podría causar que falle un par de saltos, por lo que las pruebas de integración 
 y de extremo a extremo cobran mucha más importancia en este tipo de arquitectura, y mayor 
 dificultad. 
-• Control de versiones: 
+- Control de versiones:
 Cuando se actualiza a nuevas versiones se debe mantener la compatibilidad con versiones 
 anteriores. 
 Se podrían soportar múltiples versiones en vivo para diferentes clientes, pero eso aumenta 
 mucho la complejidad en mantenimiento y administración. 
-• Implementación: 
+- Implementación:
 Hay que plantear bien como se a realizar la implementación de los servicios y en qué orden ya 
 que es necesario invertir en mucha automatización. 
-• Registro: 
+- Registro:
 Se necesitan registros centralizados para unir todo, y poder realizar una gestión correcta.
 
 ---
 
 Administración de servidores de correo electrónico, sus protocolos. Administración de contenedores 
 y microservicios 
-68 
-• Monitoreo: 
+- Monitoreo:
 Tener una vista centralizada del sistema es imprescindible para poder identificar las fuentes de 
 problemas. 
-• Depuración: 
+- Depuración:
 Al tratarse de un numero de servicios que puede ser muy elevado, decena, cientos o miles, no 
 funcionará la depuración remota a través de su entorno de desarrollo integrado local (IDE) por 
 lo que no es una opción. 
-• Conectividad: 
+- Conectividad:
 Los servicios están conectados entre sí, con lo que ello implica. 
-6.2. Implementación de una arquitectura de microservicios 
+### 🔵 6.2. Implementación de una arquitectura de microservicios
 Aunque cada microservicio es independiente, se mantienen aislados unos de otros, pueden tener una \nestructura diferente, y se ejecutan en su propio entorno, todos deben encajar, han de contener puntos 
 de conexión comunes, ya que solo se comunican entre sí a través de interfaces. 
 Cada microservicio debe diseñarse de la forma más simple posible para que la conexión tenga poco 
@@ -2300,14 +1979,14 @@ microservicio se puede comunicar fácilmente con los demás e intercambiar infor
 medio de HTTP, como GET o POST). 
 Para lograr ese aislamiento entre ellos que es lo que proporciona las ventajas de los microservicios, se 
 pueden utilizar diferentes opciones: 
-• Basarse en Contenedores: 
+- Basarse en Contenedores:
 Esta es la forma más común de desarrollar una arquitectura de microservicios. 
 Los contenedores no utilizan máquinas virtuales completas, sino que se parte de un mismo 
 sistema operativo y se utiliza su núcleo o kernel, por lo que representan un método muy ligero 
 de virtualización. 
 En los contenedores, los microservicios son completamente autónomos, pues todo lo que 
 necesitan para funcionar está ya contenido en ellos. 
-• Máquinas virtuales: 
+- Máquinas virtuales:
 Se puede crear una máquina virtual para cada microservicio, lo que conlleva que cada máquina 
 necesita su propio sistema operativo y por tanto muchos recursos. 
 Lógicamente, de esta forma, también se logra que cada microservicio funcione de forma aislada 
@@ -2317,8 +1996,7 @@ del resto.
 
 Administración de servidores de correo electrónico, sus protocolos. Administración de contenedores 
 y microservicios 
-69 
-• Instalar una instancia-servidor física propia para cada microservicio. 
+- Instalar una instancia-servidor física propia para cada microservicio.
 Esta opción, no es práctica, ya que resultaría en un derroche de recursos, por lo que suele 
 optarse por la virtualización. 
 Hay que lograr un aislamiento real entre los microservicios, por ello no se recomienda ejecutar varios 
@@ -2333,12 +2011,12 @@ Hay que evitar sobrecargas en el sistema.
 Se utilizan balanceadores de carga que reparten la carga 
 automáticamente entre las diferentes instancias para evitar fallos. 
  
-6.3. Ejemplos de sistemas con arquitectura de microservicios 
+### 🔵 6.3. Ejemplos de sistemas con arquitectura de microservicios
 Muchas grandes empresas con sistemas monolíticos consolidados, ya han decidido cambiar a 
 microservicios, lo que les ha ayudado también a resolver ciertos problemas u optimizar sus procesos. 
 Algunos ejemplos son Netflix, Spotify y eBay, que vamos a indicar a continuación (compañías como 
 Google o Amazon también trabajan con microservicios): 
-6.3.1. Netflix 
+#### 🔹 6.3.1. Netflix
 Cuando únicamente enviaba por correo películas en formato DVD, (no era todavía un servicio de 
 streaming) se basaba en un sistema monolítico. 
 En 2008 un error en una base de datos provocó una interrupción del servicio durante cuatro días, y fue 
@@ -2354,7 +2032,6 @@ logró que la empresa pudiera realizar las reparaciones y los cambios mucho más
 
 Administración de servidores de correo electrónico, sus protocolos. Administración de contenedores 
 y microservicios 
-70 
 Dada la gran extensión del sistema de Netflix, la empresa desarrolló un programa propio, que es 
 conocido como Conductor, para poder coordinar los diferentes microservicios entre sí, que permite 
 gestionar los microservicios de forma central (pausar o reiniciar) o escalarlos. En el núcleo de este 
@@ -2372,7 +2049,7 @@ publica sus programaciones en la red. Puedes consultarse en su
 perfil en GitHub. 
 https://github.com/Netflix 
  
-6.3.2. Spotify 
+#### 🔹 6.3.2. Spotify
 El mercado de audio de streaming tiene una gran competencia actualmente. Spotify debe competir con 
 grandes empresas como Google, Amazon y Apple. 
 Spotify, apuesta por los microservicios, para mejorar la prestación de su servicio frente a la competencia 
@@ -2393,7 +2070,6 @@ mediante REST).
 
 Administración de servidores de correo electrónico, sus protocolos. Administración de contenedores 
 y microservicios 
-71 
  
  
  
@@ -2404,18 +2080,16 @@ crecimiento el sistema resultara torpe y estático, dificultando el
 crecimiento. Por ello hay que plantear correctamente la 
 arquitectura adecuada a la hora de realizar un desarrollo. 
  
-7. El uso de contenedores (Kubernetes y Docker) 
+## 🟣 7. El uso de contenedores (Kubernetes y Docker)
 Para el desarrollo de una arquitectura de microservicios, es necesario el uso de los contenedores (bins \nen inglés) y los orquestadores. 
 Veamos diferentes formas de describir la función, ventajas y capacidades de los contenedores: 
-• Son los que permiten empaquetar todo lo necesario para que un servicio se ejecute de manera \nencapsulada, completamente independiente del servidor anfitrión. 
-• Son los más adecuados para ofrecer microservicios. 
+- Son los que permiten empaquetar todo lo necesario para que un servicio se ejecute de manera \nencapsulada, completamente independiente del servidor anfitrión.
+- Son los más adecuados para ofrecer microservicios.
 Proporcionan entornos virtuales portátiles y aislados para que las aplicaciones se ejecuten sin 
 interferencia de otras aplicaciones en ejecución. 
-• Reúnen todos los recursos necesarios para que una aplicación necesita sea ejecutada con éxito, 
-y que si se transporta a otra máquina siga funcionando correctamente. 
-• Se maximiza la portabilidad, los contenedores pueden ejecutarse en varias plataformas 
-diferentes en la nube. 
-• Ofrecen aplicaciones escalables de alto rendimiento, en cualquier infraestructura que se elija. 
+- Reúnen todos los recursos necesarios para que una aplicación necesita sea ejecutada con éxito, y que si se transporta a otra máquina siga funcionando correctamente. 
+- Se maximiza la portabilidad, los contenedores pueden ejecutarse en varias plataformas diferentes en la nube. 
+- Ofrecen aplicaciones escalables de alto rendimiento, en cualquier infraestructura que se elija.
 Por tanto, aseguran la disponibilidad del servicio independientemente del sistema operativo en \nel que este alojado. 
 La principal finalidad de los contenedores es fomentar la ligereza y portabilidad de una aplicación 
 para pueda transferirse entre diferentes entornos en el menor tiempo posible. Una aplicación se 
@@ -2425,8 +2099,7 @@ puede dividir en muchos dominios, todos los cuales residen en contenedores.
 
 Administración de servidores de correo electrónico, sus protocolos. Administración de contenedores 
 y microservicios 
-72 
-7.1. Microservicios y contenedores 
+### 🔵 7.1. Microservicios y contenedores
 Los Microservicios son aplicaciones ligeras, que pueden desarrollarse utilizando diferentes lenguajes de 
 programación, con sus propias dependencias, bibliotecas y requisitos. 
 Es necesario empaquetar la aplicación junto con sus dependencias para asegurar que tenga todo lo 
@@ -2434,13 +2107,13 @@ necesario para su correcta ejecución.
 Los Contenedores encapsulan Microservicios y sus Dependencias, pero no los ejecutan directamente, lo 
 que hacen los contenedores es ejecutar las Imágenes de Contenedores. 
 Una Imagen de Contenedor: 
-• Agrupa la aplicación junto sus dependencias y su ambiente de ejecución. 
-• Entonces se implementa un Contenedor a partir de la Imagen de Contenedor que ofrece un \nentorno ejecutable aislado para la aplicación. 
+- Agrupa la aplicación junto sus dependencias y su ambiente de ejecución.
+- Entonces se implementa un Contenedor a partir de la Imagen de Contenedor que ofrece un \nentorno ejecutable aislado para la aplicación.
 Los Contenedores se pueden implementar desde una imagen específica en muchas plataformas, como: 
-• Máquinas virtuales. 
-• Estaciones de trabajo. 
-• Nube pública. 
-• Etc. 
+- Máquinas virtuales.
+- Estaciones de trabajo.
+- Nube pública.
+- Etc.
 Existen diferentes soluciones en el mercado para realizar la función de contenedores, indicaremos 
 algunas más adelante. La más extendida es Docker, pero su uso no es satisfactorio si la arquitectura de 
 microservicios requiere que haya cientos de contenedores alojados en diferentes hosts. Ante esta 
@@ -2448,11 +2121,10 @@ situación ha cobrado auge el uso de Kubernetes.
 Docker se ejecuta en un nodo único, y Kubernetes se diseñó para ejecutarse en un clúster. 
 Docker y Kubernetes son tecnologías distintas que funcionan bien de forma conjunta para compilar, \nentregar y escalar aplicaciones en contenedores. 
 A modo de resumen: 
-• Dockers. 
-• Es un runtime (sistema operativo) para contenedores. 
-• Docker son los contenedores, el que tiene la información necesaria para desarrollar una 
-aplicación. 
-• Docker lidera el mercado de contenedores, pero existen otras alternativas. 
+- Dockers.
+- Es un runtime (sistema operativo) para contenedores.
+- Docker son los contenedores, el que tiene la información necesaria para desarrollar una aplicación. 
+- Docker lidera el mercado de contenedores, pero existen otras alternativas.
 (La empresa CoreOS tiene su propio estándar de contenedor llamado Rocket, y hay 
 muchos productos y estándares que se están construyendo alrededor de esta tecnología).
 
@@ -2460,11 +2132,10 @@ muchos productos y estándares que se están construyendo alrededor de esta tecn
 
 Administración de servidores de correo electrónico, sus protocolos. Administración de contenedores 
 y microservicios 
-73 
-• Kubernetes. 
-• Es un gestor de contenedores, "el orquestador", que coordina a todos los contenedores. 
-• Es el estándar de facto para gestionar los contenedores, ya sean Docker u otros. 
-7.2. Orquestación de contenedores 
+- Kubernetes.
+- Es un gestor de contenedores, "el orquestador", que coordina a todos los contenedores.
+- Es el estándar de facto para gestionar los contenedores, ya sean Docker u otros.
+### 🔵 7.2. Orquestación de contenedores
 Con las Imágenes de Contenedor, podemos limitar el código de la aplicación, su tiempo de ejecución y 
 todas sus dependencias en un formato predefinido. 
 Con tiempos de ejecución de contenedores como, por ejemplo, containerd, runC, o rkt, se pueden usar \nesas imágenes preempaquetadas para crear uno o más Contenedores. 
@@ -2478,33 +2149,30 @@ Los "Orquestadores de Contenedores" son herramientas que agrupan sistemas para f
 En estos clústeres se habilita un ambiente para la automatización y la escalabilidad en la 
 implementación y administración de Contenedores, pudiendo así cumplir los siguientes requisitos 
 necesarios: 
-• Uso óptimo de recursos. 
-• Tolerancia a fallos. 
-• Escalabilidad bajo demanda. 
-• Descubrimiento automático para comunicarse entre sí automáticamente. 
-• Accesibilidad desde el mundo exterior. 
-• Actualizaciones/reversiones sin interrupciones y/o tiempo de inactividad. 
+- Uso óptimo de recursos.
+- Tolerancia a fallos.
+- Escalabilidad bajo demanda.
+- Descubrimiento automático para comunicarse entre sí automáticamente.
+- Accesibilidad desde el mundo exterior.
+- Actualizaciones/reversiones sin interrupciones y/o tiempo de inactividad.
 Como ya hemos indicado, la orquestación de contenedores facilita la administración de los 
 contenedores, que es imprescindible cuando se trata de un número elevado de ellos que se ejecutan en 
 una infraestructura global (se puede mantener manualmente unos cuantos contenedores o escribir 
 scripts, pero en inviable para cientos o miles de contenedores. Para facilitar esta administración, en 
 general, todos los Orquestadores de Contenedores pueden: 
-• Agrupar "hosts" mientras se crea un clúster. 
-• Programar contenedores para que se ejecuten en "hosts" en el clúster según sea la 
-disponibilidad de recursos.
+- Agrupar "hosts" mientras se crea un clúster.
+- Programar contenedores para que se ejecuten en "hosts" en el clúster según sea la disponibilidad de recursos.
 
 ---
 
 Administración de servidores de correo electrónico, sus protocolos. Administración de contenedores 
 y microservicios 
-74 
-• Permitir la comunicación entre sí de los contenedores de un clúster con independencia del host \nen el que estén implementados en el clúster. 
-• Vincular los contenedores y los recursos de almacenamiento. 
-• Agrupar conjuntos de contenedores similares y vincularlos a construcciones de balanceo de 
-carga. 
+- Permitir la comunicación entre sí de los contenedores de un clúster con independencia del host \nen el que estén implementados en el clúster.
+- Vincular los contenedores y los recursos de almacenamiento.
+- Agrupar conjuntos de contenedores similares y vincularlos a construcciones de balanceo de carga. 
 Así se simplificar el acceso a las aplicaciones en contenedores creando un nivel de abstracción \nentre los contenedores y el usuario. 
-• Gestionar el uso de recursos para optimizarlos. 
-• Permitir la implementación de políticas. 
+- Gestionar el uso de recursos para optimizarlos.
+- Permitir la implementación de políticas.
 Es necesario proteger el acceso a cada contenedor. 
  
  
@@ -2513,35 +2181,34 @@ Es necesario proteger el acceso a cada contenedor.
 + Info 
 Casi todos los Orquestadores de Contenedores se pueden 
 implementar en diferentes infraestructuras: 
-• Servidores físicos. 
-• Máquinas virtuales. 
-• Propias instalaciones (On-premise). 
-• La Nube Privada o en la Nube Pública. 
+- Servidores físicos.
+- Máquinas virtuales.
+- Propias instalaciones (On-premise).
+- La Nube Privada o en la Nube Pública.
  
-7.3. Seguridad en los contenedores 
+### 🔵 7.3. Seguridad en los contenedores
 Al trabajar en entornos de infraestructura compartida, la seguridad se debe trabajar de un modo 
 diferente, es necesario ya en su proceso de desarrollo, como parte del ciclo de vida de entrega continua 
 para lograr la reducción del riesgo y de las vulnerabilidades, de dos formas: 
-• De forma automatizada para eliminar los puntos de contacto manuales. 
-• De forma y extendida en el mantenimiento y la operación de la infraestructura subyacente.
+- De forma automatizada para eliminar los puntos de contacto manuales.
+- De forma y extendida en el mantenimiento y la operación de la infraestructura subyacente.
 
 ---
 
 Administración de servidores de correo electrónico, sus protocolos. Administración de contenedores 
 y microservicios 
-75 
 Para ello se debe trabajar correctamente: 
-• La protección de sus imágenes de contenedor en la canalización de desarrollo. 
-• De la plataforma del host en tiempo de ejecución. 
-• Y las capas de aplicación. 
+- La protección de sus imágenes de contenedor en la canalización de desarrollo.
+- De la plataforma del host en tiempo de ejecución.
+- Y las capas de aplicación.
 Para proteger los contenedores, los principales aspectos a tener en cuenta son: 
-• La seguridad del host del contenedor. 
+- La seguridad del host del contenedor.
 Esta protección comienza con la elección del sistema operativo, debe ser un sistema operativo 
 distribuido que esté optimizado para ejecutar contenedores. 
 Hay que deshabilitar o eliminar los servicios innecesarios fortaleciendo así el sistema operativo. 
 Añadir una capa de seguridad y herramientas de supervisión para garantizar que el host se \nejecute correctamente. 
 Resulta útil el uso de herramientas del control de aplicaciones. 
-• La seguridad en el contenedor y el tráfico de red del contenedor. 
+- La seguridad en el contenedor y el tráfico de red del contenedor.
 Cuando el contenedor se está ejecutando, interactúa con otros contenedores y recursos, por lo 
 que hay que supervisar todo ese tráfico de red garantizando que pasa a través de un IPS 
 ((Intrusion Prevention System) o sistema de prevención de intrusiones). 
@@ -2552,34 +2219,29 @@ del contenedor funcionen a la perfección, ya que cuando el contenedor se está 
 constantemente está procesando datos, generando archivos de caché y de registro, etc. 
 El uso de un IPS, desempeña también un papel importante aquí, utilizando un patrón llamado 
 parche virtual: 
-• El motor del IPS, si una vulnerabilidad queda expuesta de forma remota, puede detectar 
-intentos de exploit y lanzar paquetes para proteger la aplicación. 
-• En lugar de forzar una solución de emergencia, proporciona un tiempo para poder abordar 
-la causa raíz en la siguiente versión del contenedor. 
-• El comportamiento malicioso en su aplicación. 
+- El motor del IPS, si una vulnerabilidad queda expuesta de forma remota, puede detectar intentos de exploit y lanzar paquetes para proteger la aplicación. 
+- En lugar de forzar una solución de emergencia, proporciona un tiempo para poder abordar la causa raíz en la siguiente versión del contenedor. 
+- El comportamiento malicioso en su aplicación.
 También es de ayuda a la hora de implementar una aplicación en un contenedor, el uso de un 
 control de seguridad de autoprotección e en tiempo de ejecución (RASP), ya que: 
-• Se ejecutan en el código de aplicación y pueden interceptar o enlazan llamadas claves en su 
-código.
+- Se ejecutan en el código de aplicación y pueden interceptar o enlazan llamadas claves en su código.
 
 ---
 
 Administración de servidores de correo electrónico, sus protocolos. Administración de contenedores 
 y microservicios 
-76 
-• Ofrecen la supervisión del lenguaje de consulta estructurado (SQL), la remediación y 
-comprobación de dependencias, la verificación de URL y demás controles. 
-• También puede realizar la identificación de la causa raíz. 
+- Ofrecen la supervisión del lenguaje de consulta estructurado (SQL), la remediación y comprobación de dependencias, la verificación de URL y demás controles. 
+- También puede realizar la identificación de la causa raíz.
 Como se colocan en el código de la aplicación, estos controles de seguridad pueden 
 proporcionar ayuda para conectar los puntos entre una incidencia de seguridad y la línea de 
 código que lo creó. 
-• Capas de administración. 
+- Capas de administración.
 La tecnología de agrupación, programación y orquestación, herramientas pueden administrar 
 grupos de contenedores utilizando una capa de administración de contenedores bien definida, 
 que proporciona que los contenedores puedan escalar y ser resistentes. 
 Para construir con éxito aplicaciones "contenerizadas" son necesarias estas capas de 
 administración. 
-7.4. Los contenedores en La Nube 
+### 🔵 7.4. Los contenedores en La Nube
 La portabilidad ha sido un gran empuje en el desarrollo de la Computación en La Nube, esta tecnología 
 permite abstraer las aplicaciones en contenedores virtuales que se pueden mover de una nube a otra. 
 Ahora hay una forma estándar de dividir las aplicaciones en objetos distribuidos o contenedores, y es 
@@ -2592,7 +2254,7 @@ que exista un soporte directamente desde las herramientas y tecnología empresar
 también aparezcan numerosas startups (empresas emergentes) bien financiadas, que ofrezcan 
 soluciones innovadoras para aumentar el interés del desarrollo de contenedores, y que su uso sea cada 
 vez más productivo. 
-8. Malla de servicios (Service Mesh) 
+## 🟣 8. Malla de servicios (Service Mesh)
 Cuando se realiza una aplicación con microservicios, se facilita la seguridad, la resilencia de la red, la 
 política y la observabilidad, pero hay que tener en cuenta que el número de estos microservicios pueden 
 ser muy elevado, y que deben ser escalables. Esta escalabilidad debe hacerse de forma correcta. 
@@ -2603,14 +2265,11 @@ infraestructura seleccionada, para ello es necesario el uso de una malla de serv
 
 Administración de servidores de correo electrónico, sus protocolos. Administración de contenedores 
 y microservicios 
-77 
 La malla de servicios es la capa de infraestructura configurable, que proporciona la comunicación \nentre cada instancia de servicio, de forma fluida, confiable y rápida. 
 La malla de servicios (Service Mesh) es la capa de comunicación en su configuración de microservicio. 
-• Todas las solicitudes desde y hacia cada uno de tus servicios pasarán por la malla. 
-• Cada servicio tendrá su propio servicio de proxy y todos estos servicios de proxy juntos forman 
-la "malla de servicios". 
-• Si un servicio quiere llamar a otro servicio, no llama directamente al servicio de destino, enruta 
-la solicitud primero al proxy local y el proxy la enruta al servicio de destino. 
+- Todas las solicitudes desde y hacia cada uno de tus servicios pasarán por la malla.
+- Cada servicio tendrá su propio servicio de proxy y todos estos servicios de proxy juntos forman la "malla de servicios". 
+- Si un servicio quiere llamar a otro servicio, no llama directamente al servicio de destino, enruta la solicitud primero al proxy local y el proxy la enruta al servicio de destino. 
 (Su instancia de servicio no tiene ninguna idea sobre el mundo exterior y solo conoce el proxy 
 local). 
  
@@ -2628,41 +2287,39 @@ Your Service (servicio) → Envoy (solicitud enviada).
 El objetivo de las mallas de servicios es proporcionar funcionalidades específicas para administrar y 
 controlar las relaciones de comunicación entre los servicios. 
 Las mallas de servicios proporcionan: 
-• Descubrimiento de servicios. 
-• Observabilidad (métricas). 
-• Limitación de tasa. 
-• Rotura de circuito. 
-• Cambio de tráfico.
+- Descubrimiento de servicios.
+- Observabilidad (métricas).
+- Limitación de tasa.
+- Rotura de circuito.
+- Cambio de tráfico.
 
 ---
 
 Administración de servidores de correo electrónico, sus protocolos. Administración de contenedores 
 y microservicios 
-78 
-• Balanceo de carga. 
-• Autenticación y autorización. 
-• Seguimiento distribuido. 
+- Balanceo de carga.
+- Autenticación y autorización.
+- Seguimiento distribuido.
 Las mallas de servicios: 
-• Son transparentes para la aplicación. 
-• Con las herramientas que ofrecen, permiten excluir de la ejecución de un determinado servicio, 
-cosas tales como la supervisión, las redes y la seguridad. 
-• Supervisa todo el tráfico a través de un proxy. 
+- Son transparentes para la aplicación.
+- Con las herramientas que ofrecen, permiten excluir de la ejecución de un determinado servicio, cosas tales como la supervisión, las redes y la seguridad. 
+- Supervisa todo el tráfico a través de un proxy.
 El proxy se implementa mediante un patrón de proxy de sidecar en los microservicios, que 
 separa la lógica de la aplicación de las funciones de red. 
-• Posibilitan que los equipos de operaciones y de desarrollo separen el trabajo entre sí. 
+- Posibilitan que los equipos de operaciones y de desarrollo separen el trabajo entre sí.
 Los operadores y los desarrolladores de servicios pueden centrarse en crear y administrar 
 aplicaciones. 
-8.1. Arquitectura 
+### 🔵 8.1. Arquitectura
 Básicamente, una malla de servicios consiste en servicios y proxies que se ejecutan como archivos 
 adicionales a los servicios. 
 Todas las solicitudes hacia o desde un servicio pasan por dos proxies dentro de la malla: el proxy para el 
 servicio de llamadas y el proxy para el servicio receptor. 
 También incluye cierta autoridad que configura esos proxies para combinar en un sistema distribuido 
 adecuado: 
-• Data Plane. El plano de datos de la malla de servicios: 
+- Data Plane. El plano de datos de la malla de servicios:
 Administra los proxies y servicios. 
 Es responsable de: 
-• Registro de servicio: 
+- Registro de servicio:
 El plano de control debe tener una lista de servicios y extremos disponibles para 
 proporcionarlos a los proxies.
 
@@ -2670,21 +2327,20 @@ proporcionarlos a los proxies.
 
 Administración de servidores de correo electrónico, sus protocolos. Administración de contenedores 
 y microservicios 
-79 
 El plano de control compila este registro mediante una consulta al sistema de programación 
 de infraestructura subyacente, (como por ejemplo Kubernetes), para obtener una lista de 
 todos los servicios disponibles. 
-• Configuración del proxy de sidecar: 
+- Configuración del proxy de sidecar:
 Incluye las políticas y la configuración en toda la malla que los proxies deben tener en 
 cuenta para realizar sus funciones adecuadamente 
-• Control Plane. El plano de control de la malla de servicios: 
+- Control Plane. El plano de control de la malla de servicios:
 Es la autoridad que proporciona la política y la configuración al plano de datos. 
 Permite que los proxies realicen las siguientes funciones: 
-• Descubrimiento de servicios. 
-• Enrutamiento del servicio. 
-• Balanceo de cargas. 
-• Autenticación y autorización. 
-• Observabilidad. 
+- Descubrimiento de servicios.
+- Enrutamiento del servicio.
+- Balanceo de cargas.
+- Autenticación y autorización.
+- Observabilidad.
  
  
  
@@ -2692,20 +2348,19 @@ Permite que los proxies realicen las siguientes funciones:
 + Info 
 La configuración del Envoy (solicitud enviada) consiste 
 principalmente en: 
-• Oyentes. 
-• Rutas. 
-• Clusteres. 
-• Puntos finales.
+- Oyentes.
+- Rutas.
+- Clusteres.
+- Puntos finales.
 
 ---
 
 Administración de servidores de correo electrónico, sus protocolos. Administración de contenedores 
 y microservicios 
-80 
-8.2. Características 
+### 🔵 8.2. Características
 Algunas de las funcionalidades de las mallas de servicios para administrar y controlar las relaciones de 
 comunicación entre los servicios son: 
-8.2.1. Multiusuario 
+#### 🔹 8.2.1. Multiusuario
 El patrón de implementación de multiusuario aísla grupos de microservicios entre sí. 
 La forma más simple de multiusuario es tener infraestructura dedicada a una sola instancia, donde cada 
 usuario, sin compartir infraestructura, tiene su propia red, almacenamiento, procesamiento y 
@@ -2713,7 +2368,7 @@ componentes adicionales (como Kubernetes y microservicios), pero esta forma de m
 muchas situaciones ofrece una infraestructura ineficiente, por tanto, es más eficaz compartir la 
 infraestructura entre los usuarios, y que la malla de servicios se encargue de separarlas. 
 Los multiusuarios de malla de servicio se basan en uno de los siguientes formatos: 
-• Usuarios del espacio de nombres. 
+- Usuarios del espacio de nombres.
 El formulario de usuario del espacio de nombres proporciona a cada instancia un espacio de 
 nombres dedicado dentro de un clúster, y como cada clúster admite varios usuarios, el usuario 
 del Espacio de nombres maximiza el uso compartido de la infraestructura. 
@@ -2725,9 +2380,9 @@ Debido a que el acceso a cada servicio está autorizado, solo los usuarios permi
 acceder a los servicios de los otros. Si bien la federación de varias mallas admite este caso de 
 uso, no es necesario crear una federación de malla múltiple. 
 Un espacio de nombres: 
-• Puede abarcar uno o más clústeres. 
-• Define al usuario de forma exclusiva. 
-• Es independiente de los clústeres que lo admiten. 
+- Puede abarcar uno o más clústeres.
+- Define al usuario de forma exclusiva.
+- Es independiente de los clústeres que lo admiten.
 Dos mallas de servicios diferentes pueden tener el mismo espacio de nombres. 
 Un ejemplo de este concepto es una malla de servicios que representa una instancia de \netapa de pruebas y una malla de servicios que representa una instancia de producción. 
 Ambos pueden tener un espacio de nombres de cliente. Como este esquema de nombres es 
@@ -2737,13 +2392,12 @@ confuso, no es lo ideal.
 
 Administración de servidores de correo electrónico, sus protocolos. Administración de contenedores 
 y microservicios 
-81 
-• Usuarios de clústeres. 
+- Usuarios de clústeres.
 El formulario de usuario del clúster dedica exclusivamente un clúster completo, incluidos todos 
 los espacios de nombres, a un usuario. 
 Una instancia también puede tener más de un clúster. 
 Cada clúster tiene su propia malla. 
-8.2.2. Seguridad 
+#### 🔹 8.2.2. Seguridad
 La seguridad es imprescindible en cualquier aspecto informático. 
 En la arquitectura de microservicios surgen unas necesidades de seguridad adicionales en comparación 
 con otras arquitecturas, que deben ser abordadas por las mallas de servicios, como son: la 
@@ -2777,7 +2431,6 @@ y los verbos HTTP que se permiten para ciertos servicios.
 
 Administración de servidores de correo electrónico, sus protocolos. Administración de contenedores 
 y microservicios 
-82 
 Las mallas de servicios ofrecen a los desarrolladores de la plataforma la capacidad de aplicar políticas, 
 como cargas de trabajo solo se comuniquen mediante TLS mutuo, para garantizar el tráfico encriptado \nentre servicios y ayudar a evitar los ataques de intermediario. 
  
@@ -2791,7 +2444,7 @@ directamente entre sí.
  
 Una vez implementada la malla de servicios, es ella la responsable de la encriptación y la 
 desencriptación de todas las solicitudes y respuestas 
-8.2.3. Observabilidad y análisis 
+#### 🔹 8.2.3. Observabilidad y análisis
 La observabilidad es un conjunto de actividades que incluyen la medición, la recopilación y el análisis de 
 varias señales de un sistema. 
 En las arquitecturas de microservicio, la observabilidad es más compleja, ya que las solicitudes no llegan 
@@ -2804,7 +2457,7 @@ Generalmente, para proveer observabilidad, una malla de servicios genera distint
 (monitorización y al análisis de información sobre sistemas informáticos para monitorizar el 
 rendimiento e identificar problemas) como son métricas, seguimientos distribuidos y registros de 
 acceso. 
-• Métricas. 
+- Métricas.
 La malla produce métricas para todo el tráfico que ingresa a la malla, tanto dentro de ella como 
 fuera de ella, para ayudar a los desarrolladores a observar y comprender el comportamiento del 
 servicio. 
@@ -2815,25 +2468,24 @@ respuesta de las solicitudes y también las tasas de errores.
 
 Administración de servidores de correo electrónico, sus protocolos. Administración de contenedores 
 y microservicios 
-83 
 La malla puede producir las siguientes métricas: 
-• Métricas a nivel de proxy: 
+- Métricas a nivel de proxy:
 Los proxies de sidecar generan un gran conjunto de métricas sobre todo el tráfico del proxy 
 de entrada y de salida, incluyendo estadísticas detalladas sobre las funciones administrativas 
 del proxy (por ejemplo, la información de configuración y la información de estado). 
-• Métricas de nivel de servicio: 
+- Métricas de nivel de servicio:
 Abarcan las cuatro señales importantísimas de la supervisión: 
 » Latencia. 
 » Tráfico. 
 » Errores. 
 » Saturación. 
-• Métricas del plano de control: 
+- Métricas del plano de control:
 Supervisan el plano de control de la malla de servicios en lugar de los servicios dentro de la 
 malla. 
-• Generar intervalos de seguimientos distribuidos. 
+- Generar intervalos de seguimientos distribuidos.
 Estos seguimientos se utilizan para seguir una sola solicitud a través de la malla en varios 
 servicios y proxies. 
-• Generar registros de acceso. 
+- Generar registros de acceso.
 Para poder realizar la auditoría a nivel del servicio, la malla puede generar un registro de acceso 
 completo, que abarca todas las llamadas de servicio (fuente de la llamada y su destino). 
  
@@ -2851,22 +2503,21 @@ https://istio.io/latest/docs/concepts/observability.
 
 Administración de servidores de correo electrónico, sus protocolos. Administración de contenedores 
 y microservicios 
-84 
-8.2.4. Cumplimiento de políticas y reglas 
+#### 🔹 8.2.4. Cumplimiento de políticas y reglas
 Existen unas políticas y reglas impuestas por regulaciones del gobierno o la industria o bien 
 autoimpuestas por la propia empresa desarrolladora. 
 Para cumplirlas es necesario: 
-• Supervisar y auditar las cargar de trabajo, viendo si se produce algún incumplimiento 
+- Supervisar y auditar las cargar de trabajo, viendo si se produce algún incumplimiento
 Supervisión y auditoría: Las cargas de trabajo de supervisión y auditoría ayudan a determinar si 
 hay incumplimientos de políticas o reglas dentro del sistema. 
-• Controlar la seguridad (sistemas seguros). 
+- Controlar la seguridad (sistemas seguros).
 Todos los sistemas deben ser autenticados, y proporcionar control acceso autorizado a todos 
 sus extremos. 
-• Redundancia: 
+- Redundancia:
 Debe realizarse la implementación de cada servicio en más de una ubicación, para evitar un 
 punto único de fallo. 
 Si se implementa en la misma zona la arquitectura no proporciona alta disponibilidad. 
-• Alta disponibilidad: 
+- Alta disponibilidad:
 Para ofrecer una implementación de alta disponibilidad, cada servicio y cada componente deben 
 implementarse como mínimo en dos zonas. 
 (Un componente de servicio configura una implementación de servicio). 
@@ -2876,7 +2527,7 @@ La zona no se convierte en un punto único de fallo.
 La propia funcionalidad del microservicio puede reaccionar a una interrupción de zona, la 
 configuración de la malla de servicios permite, además, que se analice de forma automática la 
 redundancia completa en al menos dos zonas. 
-• Recuperación ante desastres: 
+- Recuperación ante desastres:
 A diferencia del concepto de alta disponibilidad, la recuperación ante desastres hace que un 
 sistema continúe funcionando durante una interrupción en una sola región. 
 La malla de servicios puede analizar de forma automática que la implementación se realice de 
@@ -2887,14 +2538,13 @@ interrupción.
 
 Administración de servidores de correo electrónico, sus protocolos. Administración de contenedores 
 y microservicios 
-85 
-• Partición (multiusuario): 
+- Partición (multiusuario):
 Los microservicios permiten implementar sistemas de multiusuario. 
 La configuración de la malla de servicios debe ayudar a garantizar que se realice la partición \nentre usuarios de forma correcta. 
-• Propiedades de entorno de ejecución: 
+- Propiedades de entorno de ejecución:
 Las políticas y reglas pueden ser: 
-• Enfocadas en una implementación o configuración estática. 
-• O pueden ser políticas del entorno de ejecución. 
+- Enfocadas en una implementación o configuración estática.
+- O pueden ser políticas del entorno de ejecución.
 Por ejemplo, una política del entorno de ejecución puede aplicar un límite de latencia superior. 
 (Aquí cobra importancia la función de resiliencia, que indicamos un poco más adelante). 
  
@@ -2907,12 +2557,12 @@ de servicios, como almacenar durante una cantidad determinada
 de años, todos los datos y su historial, o controlar que los datos de 
 usuario estén en el mismo país que la ubicación de inicio \nespecificada. 
  
-8.2.5. Control del tráfico 
+#### 🔹 8.2.5. Control del tráfico
 Una malla de servicios permite varios controles en cuanto al tráfico que se produce: 
-• Controla el flujo de tráfico entre servicios tanto hacia la malla como hacia servicios externos. 
+- Controla el flujo de tráfico entre servicios tanto hacia la malla como hacia servicios externos.
 Los recursos personalizados, que variaran según la malla elegida, permiten a los usuarios 
 administrar este tráfico, pudiendo: 
-• Crear lanzamientos de versiones Canary. 
+- Crear lanzamientos de versiones Canary.
 Las versiones Canary generalmente se lanzan primero, o un pequeño porcentaje, como el 
 2% de los servidores, principalmente para la verificación del tráfico, también conocidas 
 como pruebas canarias o pruebas en escala de grises.
@@ -2921,14 +2571,13 @@ como pruebas canarias o pruebas en escala de grises.
 
 Administración de servidores de correo electrónico, sus protocolos. Administración de contenedores 
 y microservicios 
-86 
 Su nombre deriva del uso de un pájaro (canario) para comprobar si existían gases tóxicos \nen las minas. 
 Las pruebas canarias simples generalmente se verifican mediante pruebas manuales, 
 mientras que las pruebas canarias complejas requieren una infraestructura de monitoreo 
 relativamente completa. 
 Si pasan las pruebas las versiones se actualizan y si fallan, se revierte directamente la 
 versión y la liberación falla. 
-• Crear lanzamientos azul-verde. 
+- Crear lanzamientos azul-verde.
 Es un modelo de lanzamiento de aplicaciones que transfiere poco a poco el tráfico de 
 usuarios de cierta versión anterior de una aplicación o microservicio a una versión nueva 
 casi idéntica, cuando ambas se encuentran en producción. 
@@ -2938,15 +2587,14 @@ Cuando el tráfico de producción se transfiere por completo del entorno azul al
 versión azul puede conservarse en caso de ser necesaria una restauración, o extraerse de la 
 producción y actualizarse para convertirse en la plantilla a partir de la cual se realizará la 
 próxima actualización. 
-• Y control detallado sobre rutas específicas para servicios. 
-• La malla de servicio: 
-• Mantiene un registro de todos los servicios en la malla por nombre y por sus extremos 
-respectivos. 
-• Mantiene el registro para administrar el flujo de tráfico. 
+- Y control detallado sobre rutas específicas para servicios.
+- La malla de servicio:
+- Mantiene un registro de todos los servicios en la malla por nombre y por sus extremos respectivos. 
+- Mantiene el registro para administrar el flujo de tráfico.
 (Por ejemplo, las direcciones IP del Pod de Kubernetes). 
 Cuando se usa este registro de servicio y se ejecutan los proxies junto con los servicios, la malla 
 puede dirigir el tráfico al extremo adecuado. 
-• Balanceo de cargas. 
+- Balanceo de cargas.
 Con los microservicios, hay varias instancias de cada servicio en ejecución (por ejemplo, pods en 
 Kubernetes), y las cargas del tráfico se balancean en todas las instancias. 
 Esto puede ser controlado por la malla de servicios, normalmente el comportamiento en las 
@@ -2958,24 +2606,23 @@ ocupado", que es el equilibrio de carga en un nivel alto.
 
 Administración de servidores de correo electrónico, sus protocolos. Administración de contenedores 
 y microservicios 
-87 
 El DNS round-Robin es una técnica de distribución de carga, equilibrio de carga o tolerancia a 
 fallas que proporciona múltiples hosts de servicios de protocolo de Internet redundantes, por \nejemplo, servidor web, servidores FTP, mediante la administración de las respuestas del Sistema 
 de nombres de dominio (DNS) a las solicitudes de direcciones. desde los equipos cliente de 
 acuerdo con un modelo estadístico apropiado. 
-8.2.6. Resiliencia 
+#### 🔹 8.2.6. Resiliencia
 Una malla de servicios puede aumentar la resiliencia de invocación de los microservicios. Existen dos 
 clases de medidas de resiliencia: 
-• Aumentar la confiabilidad de las invocaciones de microservicios. 
+- Aumentar la confiabilidad de las invocaciones de microservicios.
 La confiabilidad de una invocación de microservicio aumenta si las fallas se abstraen del emisor. 
 Si se produce un error, la malla de servicios puede usar las siguientes estrategias para tratar de 
 abordarlo con transparencia sin mostrar una falla al emisor: 
-• Tiempo de espera. 
+- Tiempo de espera.
 Cantidad de tiempo que un proxy Envoy debe esperar las respuestas de un servicio 
 determinado, lo que garantiza que los servicios no se queden esperando respuestas 
 indefinidamente y que las llamadas tengan éxito o fallen dentro de un período de tiempo 
 predecible. 
-• Reintentar. 
+- Reintentar.
 Especifica el número máximo de veces que un proxy Envoy intenta conectarse a un servicio 
 si falla la llamada inicial. 
 Los reintentos pueden mejorar la disponibilidad del servicio y el rendimiento de la 
@@ -2984,7 +2631,7 @@ problemas transitorios, como un servicio o una red sobrecargados temporalmente.
 El intervalo entre reintentos (25ms +) es variable. 
 El comportamiento de reintento predeterminado para las solicitudes HTTP es reintentar 
 dos veces antes de devolver el error. 
-• Disyuntores. 
+- Disyuntores.
 La rotura de circuitos es un patrón importante para crear aplicaciones de microservicio 
 resistentes. Hay que configurar la interrupción del circuito para conexiones, solicitudes y 
 detección de valores atípicos. 
@@ -2995,18 +2642,17 @@ picos de latencia y otros efectos indeseables de las peculiaridades de la red.
 
 Administración de servidores de correo electrónico, sus protocolos. Administración de contenedores 
 y microservicios 
-88 
 Hay que configurar las reglas de interrupción del circuito y luego probar la configuración 
 "disparando" intencionalmente el interruptor. 
 (El término disyuntor significa un aparato eléctrico que abre automáticamente el paso de la 
 corriente eléctrica). 
-• Crear fallas de invocación de forma intencional. 
+- Crear fallas de invocación de forma intencional.
 La malla de servicios permite incorporar fallas de invocación intencional para probar que una 
 aplicación funcione de forma correcta, estas fallas pueden ser: 
-• Una demora o retraso. 
+- Una demora o retraso.
 La invocación se retrasa de forma intencional y esa demora prueba la capacidad de la 
 aplicación para lidiar con una variación en latencias. 
-• La anulación o aborto. 
+- La anulación o aborto.
 Una anulación interrumpe la invocación, la aplicación detecta una falla de invocación y 
 decide cómo abordarla. 
 Por ejemplo, una aplicación pude invocar cuatro microservicios de forma secuencial para 
@@ -3014,39 +2660,35 @@ procesar la entrada y obtener un resultado. Si una de estas invocaciones falla, 
 puede volver a invocarla para ver si funcionan en el segundo intento. 
 Estas medidas se aplican en el entorno de ejecución a las invocaciones reales en un sistema de 
 producción. 
-8.3. Consideraciones del diseño 
+### 🔵 8.3. Consideraciones del diseño
 Hay que tener en cuenta algunos aspectos sobre las mallas de servicios a la hora de considerarlas como 
 una solución perfecta para el diseño de un sistema de microservicios y su implementación. 
 Estos aspectos son: 
-• Sobrecarga de procesamiento. 
+- Sobrecarga de procesamiento.
 Hay que determinar si la sobrecarga de un caso de uso determinado es significativa, 
 analizándola con mediciones del rendimiento y la escalabilidad. 
 Estos casos son: 
-• Las invocaciones de un microservicio a otro se enrutan a través de un proxy, y puede usarse 
-también un balanceador de cargas. 
-• La realización de un seguimiento de las invocaciones y, posiblemente, se modifican a través 
-de la encriptación. 
-• La encriptación, que, aunque no causa una sobrecarga significativa a nivel individual, en 
-conjunto, sí que aumenta la latencia y los requisitos de recursos.
+- Las invocaciones de un microservicio a otro se enrutan a través de un proxy, y puede usarse también un balanceador de cargas. 
+- La realización de un seguimiento de las invocaciones y, posiblemente, se modifican a través de la encriptación. 
+- La encriptación, que, aunque no causa una sobrecarga significativa a nivel individual, en conjunto, sí que aumenta la latencia y los requisitos de recursos.
 
 ---
 
 Administración de servidores de correo electrónico, sus protocolos. Administración de contenedores 
 y microservicios 
-89 
-• Complejidad del diseño de configuración. 
+- Complejidad del diseño de configuración.
 Crear una configuración de la malla de servicios es una actividad de diseño que debe garantizar 
 que los requisitos se implementen de forma correcta. 
 Para ello es necesario tener conocimiento sobre las capacidades de configuración de las mallas 
 de servicios en general, y sobre cómo crear la configuración correcta para aplicaciones \nespecíficas. 
 La configuración de una malla de servicios debe reflejar los requisitos del sistema. 
-• Prueba la validez de la configuración. 
+- Prueba la validez de la configuración.
 Hay que utilizar herramientas para validar la configuración de una malla después de su 
 implementación (por ejemplo, Istioctl Analyze). 
 Como la configuración puede ir variando, es necesario también repetir esta validación de forma 
 constante como parte del proceso de CI/CD. 
 La prueba la configuración de la malla de servicios debe mostrar el comportamiento expresado \nen la configuración. 
-• Verifica la configuración de la malla de servicios. 
+- Verifica la configuración de la malla de servicios.
 Aunque exista un plano de control de la malla de servicios, esto no garantiza de forma 
 automática la seguridad y confiabilidad del sistema. 
 Debe probarse la configuración de una malla de servicios y verificar que se comporta de forma 
@@ -3070,16 +2712,14 @@ tratados por separado.
 
 Administración de servidores de correo electrónico, sus protocolos. Administración de contenedores 
 y microservicios 
-90 
-8.4. Pruebas 
+### 🔵 8.4. Pruebas
 Se deben realizar pruebas que garanticen la configuración y el funcionamiento adecuados de una malla 
 de servicios, realizando las pruebas integrales que incluyan las siguientes verificaciones: 
-• Verificación de configuración general de la malla de servicios. 
-• Comprobación de la configuración de la malla de servicios con los requisitos de microservicios: 
-• Comunicación de los microservicios. 
-• Seguridad de la comunicación (uso de HTTP o HTTPS). 
-• Comportamiento dinámico: La malla de servicios debe limitar la comunicación lo suficiente 
-como para evitar sobrecarga en uno o más microservicios. 
+- Verificación de configuración general de la malla de servicios.
+- Comprobación de la configuración de la malla de servicios con los requisitos de microservicios:
+- Comunicación de los microservicios.
+- Seguridad de la comunicación (uso de HTTP o HTTPS).
+- Comportamiento dinámico: La malla de servicios debe limitar la comunicación lo suficiente como para evitar sobrecarga en uno o más microservicios. 
 La configuración de la malla de servicios se realiza a través de archivos de configuración 
 declarativos que forma parte de repositorio de código, contienen especificaciones de casos de 
 uso, como por ejemplo que microservicios pueden comunicarse y cuáles no, o indicar cuánta 
@@ -3096,7 +2736,7 @@ de servicios, de forma que cuando la malla de servicios está presente, la invoc
 MS2 debe funcionar, mientras que la invocación de MS2 a MS1 debe fallar. 
 Es aconsejable definir pruebas adicionales que consideren la resiliencia, verificando, por ejemplo, 
 si la inserción de errores crea demoras de invocación. 
-• Comprobación de la versión de implementación del plan de control de la malla de servicios. 
+- Comprobación de la versión de implementación del plan de control de la malla de servicios.
 Es necesario verificar la versión de implementación del plano de control. 
 Se puede instalar y ejecutar dos versiones diferentes del plano de control de la malla de servicios 
 al mismo tiempo, donde las pruebas deben establecer que la versión actual del plano de control 
@@ -3106,25 +2746,24 @@ y la versión más reciente del plano de control se comporten de la misma manera
 
 Administración de servidores de correo electrónico, sus protocolos. Administración de contenedores 
 y microservicios 
-91 
 Las pruebas de integración y de unidad específicas deben comportarse de la misma manera, si 
 no es así, hay una degradación del servicio que se debe evaluar, (esto es habitual en pruebas y 
 CI/CD). Es un proceso es importante para cambios en la configuración de la aplicación y 
 cambios en la plataforma. 
 Es recomendable que las pruebas de integración y unidad se ejecuten de forma continua como 
 parte de la canalización de CI/CD. 
-8.5. Ejemplos de malla de servicios 
+### 🔵 8.5. Ejemplos de malla de servicios
 Veamos algunas destacadas mallas de servicios: 
-• Istio. 
+- Istio.
 La arquitectura de Istio contiene: 
-• Un plano de datos. 
+- Un plano de datos.
 Consta de proxies de Envoy que controlan la comunicación entre microservicios: 
 » Tráfico entrante (llamado Ingress). 
 » Tráfico saliente (llamado salida). 
 » Y tráfico entre servicios (tráfico de malla). 
 Cada instancia de microservicio (contenedor o VM) tiene un proxy Envoy dedicado. 
 Los proxies de Envoy también recopilan métricas. 
-• Un plano de control. 
+- Un plano de control.
 Es la capa de administración para los proxies de Envoy, administra los proxies para que se 
 produzca el enrutamiento de invocación correcto. 
 El objeto binario istiod es el núcleo del plano de control y proporciona descubrimiento de 
@@ -3139,26 +2778,25 @@ Istio admite los modelos de implementación con:
 
 Administración de servidores de correo electrónico, sus protocolos. Administración de contenedores 
 y microservicios 
-92 
-• Linkerd. 
+- Linkerd.
 Es de código abierto, con licencia bajo Apache v2, y es un proyecto graduado de Cloud Native 
 Computing Foundation. Se desarrolla de forma abierta en la organización Linkerd GitHub. 
 Linkerd es una malla de servicio para Kubernetes. 
-• Anthos Service Mesh. 
+- Anthos Service Mesh.
 Es la malla de servicios completamente administrada de Google Cloud, ofrece a los 
 desarrolladores una distribución de Istio probada y compatible con Anthos, permitiendo crear e 
 implementar una malla de servicios en Google Cloud o en clústeres de Anthos alojados en 
 VMware con una asistencia completa de Google. 
-9. Soluciones de administración de contenedores 
+## 🟣 9. Soluciones de administración de contenedores
 Para decidir cuál es la herramienta más adecuada, debemos considerar que características ofrece dicho 
 software, como son: 
-• Puesta en marcha automatizada y restauración automatizada. 
-• Supervisión de la seguridad. 
-• Escalamiento y flexibilidad. 
-• Capacidades de administración ofrecidas. 
-• Conectividad y Orquestadores. 
+- Puesta en marcha automatizada y restauración automatizada.
+- Supervisión de la seguridad.
+- Escalamiento y flexibilidad.
+- Capacidades de administración ofrecidas.
+- Conectividad y Orquestadores.
 Indicamos algunas de las herramientas más destacadas en el mercado: 
-9.1. Docker 
+### 🔵 9.1. Docker
  
 Logo de docker. Fuente: Wikipedia 
 Docker es el sistema más utilizado para gestión de contenedores. 
@@ -3173,14 +2811,13 @@ contenedor, como Docker Hub o Azure Container Registry".
 
 Administración de servidores de correo electrónico, sus protocolos. Administración de contenedores 
 y microservicios 
-93 
 Información: 
-• Tipo de programa: software libre y de código abierto. 
-• Autor Solomon: Hykes. 
-• Desarrollador: Docker, Inc. 
-• Lanzamiento inicial: marzo de 2013. 
-• Licencia: Apache License 2.0. 
-• Programado en: Go. 
+- Tipo de programa: software libre y de código abierto.
+- Autor Solomon: Hykes.
+- Desarrollador: Docker, Inc.
+- Lanzamiento inicial: marzo de 2013.
+- Licencia: Apache License 2.0.
+- Programado en: Go.
 Go es un lenguaje de programación concurrente y compilado inspirado en la sintaxis de C, que 
 intenta ser dinámico como Python y con el rendimiento de C o C++. Ha sido desarrollado por 
 Google y actualmente está disponible en formato binario para los sistemas operativos Windows, 
@@ -3197,7 +2834,7 @@ disposición del usuario un gran conjunto de herramientas. Se puede obtener como
 Libre, en términos similares a GNU/linux o BSD. El nombre del sistema y muchos de sus 
 programas asociados, así como el nombre mismo de la compañía Vita Nuva, están inspirados en 
 la obra literaria de Dante Alighieri, Divina comedia. 
-• Última versión estable (a fecha agosto de 2021): 20.10.8. 
+- Última versión estable (a fecha agosto de 2021): 20.10.8.
  
  
  
@@ -3216,20 +2853,16 @@ instalaciones físicas, la nube pública, nube privada, etc."
 
 Administración de servidores de correo electrónico, sus protocolos. Administración de contenedores 
 y microservicios 
-94 
 Docker utiliza características de aislamiento de recursos del kernel Linux, para permitir que 
 "contenedores" independientes se ejecuten dentro de una sola instancia de Linux, evitando la 
 sobrecarga de iniciar y mantener máquinas virtuales. 
-• El soporte del kernel Linux para los espacios de nombres aísla la vista que tiene una aplicación de 
-su entorno operativo. 
+- El soporte del kernel Linux para los espacios de nombres aísla la vista que tiene una aplicación de su entorno operativo. 
 (Incluyendo árboles de proceso, red, ID de usuario y sistemas de archivos montados). 
-• Los cgroups del kernel proporcionan aislamiento de recursos. 
+- Los cgroups del kernel proporcionan aislamiento de recursos.
 (Incluyendo la CPU, la memoria, el bloque de E/S y de la red). 
 Desde la versión 0.9, Docker: 
-• Incluye la biblioteca libcontainer como su propia manera de utilizar directamente las facilidades 
-de virtualización que ofrece el kernel Linux. 
-• Utiliza las interfaces abstraídas de virtualización mediante libvirt, LXC (Linux Containers) y 
-systemd-nspawn. 
+- Incluye la biblioteca libcontainer como su propia manera de utilizar directamente las facilidades de virtualización que ofrece el kernel Linux. 
+- Utiliza las interfaces abstraídas de virtualización mediante libvirt, LXC (Linux Containers) y systemd-nspawn. 
  
  
  
@@ -3241,28 +2874,27 @@ Amazon Web Services, Ansible, Cfengine, Chef,1Google Cloud
 Platform,DigitalOcean, IBM Bluemix, Jelastic, Jenkins, Microsoft 
 Azure, OpenStack Nova, OpenSVC, Puppet, Salt, y Vagrant. 
  
-Historia 
+### 🔵 Historia 
 Solomon Hykes comenzó Docker como un proyecto interno dentro dotCloud,31 empresa enfocado a 
 una plataforma como un servicio (PaaS). 
 Docker representa una evolución de la tecnología patentada de dotCloud, que es a su vez construida 
 sobre proyectos de código abierto anteriores como Cloudlets. 
 Veamos su evolución: 
-• 2013. 
+- 2013.
 En marzo de 2013 fue liberado como código abierto.
 
 ---
 
 Administración de servidores de correo electrónico, sus protocolos. Administración de contenedores 
 y microservicios 
-95 
-• 2014. 
+- 2014.
 En marzo de 2014, con el lanzamiento de la versión 0.9, Docker dejó de utilizar LXC como el \nentorno de ejecución por defecto y lo reemplazó con su propia biblioteca, libcontainer, escrito \nen Go. 
-• 2015. 
+- 2015.
 El 13 de abril de 2015, el proyecto tenía: 
-• Más de 20.700 estrellas de GitHub. 
-• Convirtiéndolo en uno de los proyectos con más estrellas de GitHub, (en 20ª posición). 
-• Más de 4 700 bifurcaciones (forks). 
-• Casi 900 colaboradores. 
+- Más de 20.700 estrellas de GitHub.
+- Convirtiéndolo en uno de los proyectos con más estrellas de GitHub, (en 20ª posición).
+- Más de 4 700 bifurcaciones (forks).
+- Casi 900 colaboradores.
 En ingeniería de software se considera una bifurcación (en inglés fork) al desarrollo de un 
 proyecto informático tomando como base un código fuente que ya existe o a la ramificación de 
 un proyecto madre en varios proyectos que son independientes entre sí y que cuentan con 
@@ -3270,45 +2902,44 @@ objetivos o desarrolladores diferentes. Como resultado de una bifurcación se pu
 varios proyectos de uno preexistente, los cuales pueden intentar cubrir necesidades distintas, 
 aunque similares o implementar diferentes soluciones con el fin de abordar los mismos 
 problemas pudiendo llegar a competir entre ellos. 
-• 2018. 
+- 2018.
 Un análisis mostró las siguientes organizaciones como las principales contribuyentes de Docker: 
-• Red Hat. 
-• mayores contribuyentes, más que el equipo de Docker en sí. 
-• el equipo de Docker. 
-• Microsoft. 
-• IBM. 
-• Google. 
-• Cisco Systems. 
-• Y Amadeus IT Group.
+- Red Hat.
+- mayores contribuyentes, más que el equipo de Docker en sí.
+- el equipo de Docker.
+- Microsoft.
+- IBM.
+- Google.
+- Cisco Systems.
+- Y Amadeus IT Group.
 
 ---
 
 Administración de servidores de correo electrónico, sus protocolos. Administración de contenedores 
 y microservicios 
-96 
-• 2020 (aparición de un malware). 
+- 2020 (aparición de un malware).
 El 29 de julio de 2020 se dio a conocer la existencia de Doki, un malware que corre en el sistema 
 operativo Linux que tiene por finalidad infectar la API de los contenedores Docker mal 
 configurados. 
 Algunas de sus acciones son: 
-• Crea URL única con vidas cortas para descargar payloads durante el ataque. 
-• Ha sido creado para ejecutar comandos recibidos desde sus operadores. 
-• Usa la biblioteca TLS para funciones criptográficas. 
-9.1.1. Comandos principales 
+- Crea URL única con vidas cortas para descargar payloads durante el ataque.
+- Ha sido creado para ejecutar comandos recibidos desde sus operadores.
+- Usa la biblioteca TLS para funciones criptográficas.
+#### 🔹 9.1.1. Comandos principales
 Vamos a ver algunos de los comandos más importantes en el uso de Docker: 
-• docker. 
+- docker.
 Sin argumentos, nos mostrará todos los comandos que tenemos disponibles. 
-• docker –v. 
+- docker –v.
 Muestra la versión que tenemos instalada. 
 Si deseamos obtener más información sobre la instalación, podemos usar el comando docker 
 version o docker info. 
-• docker run hello-world. 
+- docker run hello-world.
 Comprueba que la instalación funciona correctamente, ejecutamos un contenedor de prueba o 
 «hello world». 
 Mostrará un mensaje de bienvenida en el caso de que el funcionamiento haya sido correcto. 
 La imagen de hello-world es un ejemplo, (con un único fichero hello.c) que imprime el mensaje \nen la terminal. El comando predeterminado de esta imagen es ejecutar este binario. 
-• Comandos de Contenedor (seguido del identificador del contenedor o de su nombre). 
-• Lifecycle (ciclo de vida de un contenedor). 
+- Comandos de Contenedor (seguido del identificador del contenedor o de su nombre).
+- Lifecycle (ciclo de vida de un contenedor).
 » docker créate. 
 Crea un contenedor, pero no lo comienza.
 
@@ -3316,7 +2947,6 @@ Crea un contenedor, pero no lo comienza.
 
 Administración de servidores de correo electrónico, sus protocolos. Administración de contenedores 
 y microservicios 
-97 
 » docker run. 
 Crea y comienza un contenedor en una operación. 
 » docker rename. 
@@ -3325,7 +2955,7 @@ Permite renombrar al contenedor.
 Eliminar un contenedor. Podemos indicar una lista de identificadores separados por \nespacios para que realicen la acción en todos ellos. 
 » docker update. 
 Actualiza los recursos limitados de un contenedor. 
-• Comenzar y detener. 
+- Comenzar y detener.
 » docker start. 
 Iniciar contenedor. 
 » docker stop. 
@@ -3346,12 +2976,11 @@ Envía una SIGKILL (mata) a un contenedor corriendo.
 
 Administración de servidores de correo electrónico, sus protocolos. Administración de contenedores 
 y microservicios 
-98 
 » docker attach. 
 Se conecta a un contenedor corriendo. 
 » docker cleanup. 
 Limpia todos los contenedores en funcionamiento. 
-• Información de contenedores. 
+- Información de contenedores.
 » docker ps. 
 Muestra los contenedores corriendo. 
 » docker logs. 
@@ -3378,7 +3007,6 @@ Si queremos listar también los contenedores que no se encuentran en ejecución
 
 Administración de servidores de correo electrónico, sus protocolos. Administración de contenedores 
 y microservicios 
-99 
  
  
  
@@ -3395,48 +3023,47 @@ montado el directorio /tmp/testdir de la máquina host en la ruta
 > docker run -v /tmp/testdir:/root/testdir httpd 
  
  
-• Comandos de imagen de un contenedor. 
-• docker image –help. 
+- Comandos de imagen de un contenedor.
+- docker image –help.
 Muestra un listado de todos los comandos que puedes ejecutar para trabajar con imágenes. 
-• docker pull. 
+- docker pull.
 Descargar una imagen de un repositorio. 
-• docker image ls. 
+- docker image ls.
 Listar las imágenes descargadas en el sistema. 
 Para que se muestren también las imágenes intermedias hay que utilizar la opción –a 
 (docker image ls –a), y para ver los números de identificación, (ID) se indica la opción -q. 
-• docker import. 
+- docker import.
 Crea una imagen de un tarball (archivo comprimido de una imagen). 
-• docker build. 
+- docker build.
 Crea imagen de un Dockerfile.
 
 ---
 
 Administración de servidores de correo electrónico, sus protocolos. Administración de contenedores 
 y microservicios 
-100 
 Los Dockerfiles son archivos que se utilizan para crear imágenes Docker mediante 
 programación, y que permiten crear de forma rápida y reproducible una imagen de Docker 
 (utilizando el comando de docker build). 
 (Dockerfiles contiene instrucciones para construir una imagen de Docker, donde cada 
 instrucción se escribe en una fila y se da en la forma). 
-• docker commit. 
+- docker commit.
 Crea imagen de un contenedor, pausándolo temporalmente si está corriendo. 
-• docker rm. 
+- docker rm.
 Elimina una o varias imágenes. 
 También se puede utilizar docker rmi. Puedes indicar el nombre de la imagen o parte del 
 número de identificación de la imagen, no es necesario indicar todo el ID de la imagen. (Si \nexisten dos imágenes y empiezan con diferentes caracteres, puedes utilizar solo un carácter). 
 No es posible borrar una imagen si existe un contenedor. 
-• docker load. 
+- docker load.
 Carga una imagen de un archivo tar como STDIN, incluyendo imagenes y tags. 
-• docker save. 
+- docker save.
 Salva una imagen a un archivo tar a STDOUT con todas las capas padre, tags y versiones. 
-• docker history. 
+- docker history.
 Muestra el historial de una imagen. 
-• docker tag. 
+- docker tag.
 Taggea una imagen a un nombre asignado. 
-• docker run -i -t image_name /bin/bash. 
+- docker run -i -t image_name /bin/bash.
 Ejecutar imagen como contenedor. 
-• docker exec -it /bin/bash. 
+- docker exec -it /bin/bash.
 Para acceder a la terminal de un contenedor en ejecución de forma interactiva (dicho 
 contenedor debe tener disponible bash).
 
@@ -3444,12 +3071,11 @@ contenedor debe tener disponible bash).
 
 Administración de servidores de correo electrónico, sus protocolos. Administración de contenedores 
 y microservicios 
-101 
-• Comandos equivalentes de imágenes. 
-• docker images es equivalente a docker image ls. 
-• docker rmi es la versión corta docker image rm. 
-• docker pull alternativa a docker image pull. 
-• docker push es equivalente a docker image push. 
+- Comandos equivalentes de imágenes.
+- docker images es equivalente a docker image ls.
+- docker rmi es la versión corta docker image rm.
+- docker pull alternativa a docker image pull.
+- docker push es equivalente a docker image push.
  
  
  
@@ -3458,14 +3084,14 @@ y microservicios
 Puedes obtener más información en la web oficial de Docker. 
 https://docs.docker.com/engine/reference/run/ 
  
-9.2. Azure Kubernetes Service 
+### 🔵 9.2. Azure Kubernetes Service
 Azure Kubernetes Service (AKS) ofrece Kubernetes sin servidor, proporciona integración y entrega 
 continuas (CI/CD) integrada y seguridad y gobernanza de nivel empresarial. 
 Ofrece una sola plataforma para crear, entregar y escalar aplicaciones. 
 AKS proporciona el aprovisionamiento de clústeres mediante la plataforma de Azure, la línea de 
 comando de Azure o mediante herramientas de infraestructura como código como Azure Resources 
 Manager y Terraform. 
-9.3. Kubernetes 
+### 🔵 9.3. Kubernetes
 Es la plataforma de orquestación de contenedores de código abierto desarrollada por Google y 
 mantenida ahora por la Cloud Native Computing Foundation. 
 Es una poderosa herramienta para el despliegue automatización, escalamiento y administración de 
@@ -3478,7 +3104,6 @@ Kubernetes funciona con Docker, y se ha incorporado a múltiples plataformas de 
 
 Administración de servidores de correo electrónico, sus protocolos. Administración de contenedores 
 y microservicios 
-102 
 La API de Kubernetes permite manejar programación básica de unidades llamadas pods, dentro de los 
 cuales residen los contenedores, que se conectan con un volumen de almacenamiento (ya sea un 
 directorio en el disco local o un disco en red). 
@@ -3488,35 +3113,27 @@ La combinación de un registro de contenedor con Kubernetes permite reforzar aut
 seguridad y calidad en los contenedores en todo su proceso de implementación. 
 Kubernetes proporciona una variedad de controles de seguridad y operacionales, como las políticas de 
 seguridad de red y pod (recursos a nivel del clúster). 
-9.3.1. Objetos básicos de Kubernetes 
-• Pods: Un pod es la unidad más pequeña y básica en Kubernetes. Representa un único pro-ceso \nen un contenedor y puede contener uno o varios contenedores. Los pods son escala-bles y 
-proporcionan aislamiento y recursos compartidos a los contenedores dentro de ellos. 
-• Servicios: Los servicios definen conjuntos de pods y una política de acceso para acceder a ellos. 
+#### 🔹 9.3.1. Objetos básicos de Kubernetes
+- Pods: Un pod es la unidad más pequeña y básica en Kubernetes. Representa un único pro-ceso \nen un contenedor y puede contener uno o varios contenedores. Los pods son escala-bles y proporcionan aislamiento y recursos compartidos a los contenedores dentro de ellos. 
+- Servicios: Los servicios definen conjuntos de pods y una política de acceso para acceder a ellos.
 Proporcionan una abstracción que permite a las aplicaciones descubrir y comunicarse con otros 
 componentes de la aplicación sin conocer sus direcciones IP. 
-• ReplicaSets: Una ReplicaSet garantiza que un número especificado de réplicas de un pod se \nestén ejecutando en todo momento. Si un pod falla, la ReplicaSet crea uno nuevo para 
-reemplazarlo. 
-• Deployment: Los objetos de implementación administran actualizaciones de aplicaciones, lo que 
-permite el despliegue y escalado de aplicaciones de manera declarativa. Los Deploy-ments se 
+- ReplicaSets: Una ReplicaSet garantiza que un número especificado de réplicas de un pod se \nestén ejecutando en todo momento. Si un pod falla, la ReplicaSet crea uno nuevo para reemplazarlo. 
+- Deployment: Los objetos de implementación administran actualizaciones de aplicaciones, lo que permite el despliegue y escalado de aplicaciones de manera declarativa. Los Deploy-ments se 
 utilizan para definir el estado deseado de la aplicación y Kubernetes se encarga de llevar la 
 aplicación a ese estado. 
-• Namespace: Los namespaces son espacios aislados lógicos que se utilizan para organizar y 
-gestionar recursos en un clúster de Kubernetes. Permiten la segmentación y el aislamiento de 
+- Namespace: Los namespaces son espacios aislados lógicos que se utilizan para organizar y gestionar recursos en un clúster de Kubernetes. Permiten la segmentación y el aislamiento de 
 recursos y aplicaciones en un clúster. 
-• ConfigMap y Secret: ConfigMap es un objeto que almacena datos de configuración, mien-tras 
-que Secret almacena datos confidenciales, como contraseñas y tokens. Estos objetos permiten 
+- ConfigMap y Secret: ConfigMap es un objeto que almacena datos de configuración, mien-tras que Secret almacena datos confidenciales, como contraseñas y tokens. Estos objetos permiten 
 separar la configuración de la aplicación de los archivos de definición de pods. 
-• Volume: los Volumes permiten la persistencia aun si los Pods son destruidos o reiniciados, son 
-objetos que definen almacenamientos persistentes prar los Pods. 
-• PersistentVolumes (PV) y PersistentVolumeClaims (PVC): Estos objetos se utilizan pa-ra 
-gestionar el almacenamiento persistente en clústeres de Kubernetes. Un PersistentVolu-me es 
+- Volume: los Volumes permiten la persistencia aun si los Pods son destruidos o reiniciados, son objetos que definen almacenamientos persistentes prar los Pods. 
+- PersistentVolumes (PV) y PersistentVolumeClaims (PVC): Estos objetos se utilizan pa-ra gestionar el almacenamiento persistente en clústeres de Kubernetes. Un PersistentVolu-me es 
 una unidad de almacenamiento, y un PersistentVolumeClaim es una solicitud para el acceso a \nese almacenamiento.
 
 ---
 
 Administración de servidores de correo electrónico, sus protocolos. Administración de contenedores 
 y microservicios 
-103 
  
  
  
@@ -3529,16 +3146,14 @@ metadata.namespace que unidos proporcionan un identificador
 unicidad en todo el cluster, incluso aunque cambien los subcampos 
 name y namespace. 
  
-9.3.2. Objetos avanzados 
-• StatefulSets: Los StatefulSets son utilizados para aplicaciones que requieren identidad y 
-persistencia de red. Permiten la gestión de aplicaciones con estados, como bases de datos, en 
+#### 🔹 9.3.2. Objetos avanzados
+- StatefulSets: Los StatefulSets son utilizados para aplicaciones que requieren identidad y persistencia de red. Permiten la gestión de aplicaciones con estados, como bases de datos, en 
 un clúster de Kubernetes. 
-• DaemonSets: Los DaemonSets se utilizan para garantizar que un pod se ejecute en todos los 
-nodos del clúster. Son útiles para tareas de infraestructura, como recolección de registros o 
+- DaemonSets: Los DaemonSets se utilizan para garantizar que un pod se ejecute en todos los nodos del clúster. Son útiles para tareas de infraestructura, como recolección de registros o 
 monitoreo. 
-• Job y CronJob: Los objetos Job y CronJob se utilizan para ejecutar trabajos en el clúster. Los 
+- Job y CronJob: Los objetos Job y CronJob se utilizan para ejecutar trabajos en el clúster. Los
 CronJobs permiten la programación de trabajos de acuerdo a un horario específico. 
-9.3.3. Principales protocolos utilizados en Kubernetes 
+#### 🔹 9.3.3. Principales protocolos utilizados en Kubernetes
 HTTP/HTTPS: 
 Utilizado para la comunicación entre servicios, API y aplicaciones desplegadas. HTTPS es preferido para 
 garantizar seguridad mediante cifrado TLS. 
@@ -3552,7 +3167,6 @@ Services y StatefulSets.
 
 Administración de servidores de correo electrónico, sus protocolos. Administración de contenedores 
 y microservicios 
-104 
 UDP: 
 Priorizado en aplicaciones de baja latencia como streaming y gaming. Kubernetes permite definir 
 servicios UDP. 
@@ -3582,8 +3196,7 @@ autenticación y cifrado de datos.
 
 Administración de servidores de correo electrónico, sus protocolos. Administración de contenedores 
 y microservicios 
-105 
-9.4. Hyper-V Containers 
+### 🔵 9.4. Hyper-V Containers
 Esta plataforma maneja virtualización anidada dentro de Hyper-V, permitiendo a los usuarios acceder a 
 Docker, y también proporciona sus propios cmdlets de PowerShell desde la línea de comandos. 
 Hyper-V fue es una plataforma de configuración ligera que inserta o saca contenedores del Docker Hub 
@@ -3594,98 +3207,95 @@ virtual, así se pueden correr aplicaciones no firmadas y aplicaciones multitena
 la misma instancia. 
 Microsoft introdujo Hyper-V Containers con Windows Server 2016, al mismo tiempo que Windows 
 Server Containers. 
-9.5. OpenShift 
+### 🔵 9.5. OpenShift
 La plataforma de contenedores de OpenShift, es un producto bajo premisas y ofrecido como 
 Plataforma como servicio, desarrollada por Red Hat. 
 Se apoya en contenedores de Docker que son orquestados por Kubernetes y funcionan sobre Red Hat. 
 El entorno a través de arquitecturas conectables y bajo demanda, maneja tanto aplicaciones heredadas 
 como nativas de la nube. 
-9.6. Otras soluciones de Orquestación de Contenedores 
+### 🔵 9.6. Otras soluciones de Orquestación de Contenedores
 Debido al auge cada vez mayor de desarrollar las aplicaciones en contenedores, y que puedan 
 trasladarse a La Nube, se ha producido una creciente demanda de soluciones de software de 
 Orquestación de Contenedores. 
 Vamos a indicar algunas herramientas y servicios de orquestación de contenedores disponibles en la 
 actualidad: 
-• Amazon Elastic Container Service (ECS). 
+- Amazon Elastic Container Service (ECS).
 Se trata de un servicio alojado que proporciona Amazon Web Services (AWS) para ejecutar 
 contenedores Docker a escala en su infraestructura. 
-• Azure Container Instance (ACI). 
+- Azure Container Instance (ACI).
 Es el servicio básico que proporciona Microsoft Azure de orquestación de contenedores.
 
 ---
 
 Administración de servidores de correo electrónico, sus protocolos. Administración de contenedores 
 y microservicios 
-106 
-• Azure Service Fabric. 
+- Azure Service Fabric.
 Es el servicio de código abierto que proporciona Microsoft Azure como Orquestador de 
 contenedores. 
-• Maratón. 
+- Maratón.
 Marco (framework) para ejecutar contenedores a escala en Apache Mesos. 
-• Nomad. 
+- Nomad.
 Orquestador de contenedores que proporciona HashiCorp. 
-• Docker Swarm. 
+- Docker Swarm.
 Es parte de Docker Engine. Es el Orquestador de contenedores proporcionado por Docker, Inc. 
-10. Bibliografía 
-• CARPIO, J., MÍGUEZ, J. V., MARTÍNEZ, S., GUIRADO, R., DEL VALLE-INCLÁN BOLAÑO, J. L. 
+## 🟣 10. Bibliografía
+- CARPIO, J., MÍGUEZ, J. V., MARTÍNEZ, S., GUIRADO, R., DEL VALLE-INCLÁN BOLAÑO, J. L.
 Instalación y mantenimiento de sistemas informáticos. Editorial Universidad Nacional de 
 Educación a Distancia (UNED). 
-• https://infosegur.wordpress.com/category/1-conceptos-basicos-de-la-seguridad-
+- https://infosegur.wordpress.com/category/1-conceptos-basicos-de-la-seguridad-
 informatica/. 
-• http://catarina.udlap.mx/u_dl_a/tales/documentos/lis/jerez_l_ca/capitulo1.pdf. 
-• http://www.bscconsultores.cl/descargas/C.9%20ConceptosdeSeguridaddelaInformacion.pdf. 
-• https://es.slideshare.net/vaceitunofist/analisisy-gestionderiesgos. 
-• http://es.wikipedia.org. 
-• http://es.wikipedia.org. 
-• http://www.seguridadinformatica.unlu.edu.ar/?q=node/12. 
-• https://www.welivesecurity.com/la-es/2015/04/01/que-es-declaracion-de-aplicabilidad-soa/. 
-• https://www.infospyware.com/articulos/que-son-los-malwares/. 
-• https://support.kaspersky.com/mx/614. 
-• https://myslide.es/documents/analisisygestionderiesgos.html. 
-• https://www.optical.pe/tipos-de-ataques-informaticos-y-previsiones-para-el-2018/.
+- http://catarina.udlap.mx/u_dl_a/tales/documentos/lis/jerez_l_ca/capitulo1.pdf.
+- http://www.bscconsultores.cl/descargas/C.9%20ConceptosdeSeguridaddelaInformacion.pdf.
+- https://es.slideshare.net/vaceitunofist/analisisy-gestionderiesgos.
+- http://es.wikipedia.org.
+- http://es.wikipedia.org.
+- http://www.seguridadinformatica.unlu.edu.ar/?q=node/12.
+- https://www.welivesecurity.com/la-es/2015/04/01/que-es-declaracion-de-aplicabilidad-soa/.
+- https://www.infospyware.com/articulos/que-son-los-malwares/.
+- https://support.kaspersky.com/mx/614.
+- https://myslide.es/documents/analisisygestionderiesgos.html.
+- https://www.optical.pe/tipos-de-ataques-informaticos-y-previsiones-para-el-2018/.
 
 ---
 
 Administración de servidores de correo electrónico, sus protocolos. Administración de contenedores 
 y microservicios 
-107 
-• https://sdei.unican.es/Paginas/informacion/infraestructura/CPDs.aspx. 
-• https://integriaims.com/mejores-software-de-help-desk/. 
-• https://www.capterra.com/help-desk-software/. 
-• https://es.slideshare.net/vaceitunofist/analisisy-gestionderiesgos. 
-• https://www.cloudhispano.com/que-son-los-data-center-tipos/. 
-• https://es.wikipedia.org/wiki/RJ-45. 
-• https://es.wikipedia.org/wiki/Fibra_%C3%B3ptica_multimodo. 
-• https://ciberseguridad.com/servicios/analisis-forense/. 
-• https://sii-concatel.com/microservicios-contenedores-y-kubernetes/. 
-• https://www.ionos.es/digitalguide/paginas-web/desarrollo-web/los-microservicios-en-el-
+- https://sdei.unican.es/Paginas/informacion/infraestructura/CPDs.aspx.
+- https://integriaims.com/mejores-software-de-help-desk/.
+- https://www.capterra.com/help-desk-software/.
+- https://es.slideshare.net/vaceitunofist/analisisy-gestionderiesgos.
+- https://www.cloudhispano.com/que-son-los-data-center-tipos/.
+- https://es.wikipedia.org/wiki/RJ-45.
+- https://es.wikipedia.org/wiki/Fibra_%C3%B3ptica_multimodo.
+- https://ciberseguridad.com/servicios/analisis-forense/.
+- https://sii-concatel.com/microservicios-contenedores-y-kubernetes/.
+- https://www.ionos.es/digitalguide/paginas-web/desarrollo-web/los-microservicios-en-el-
 desarrollo-de-aplicaciones/. 
-• https://blog.techdata.com/ts/latam/antes-de-entender-contenedores-entendamos-
+- https://blog.techdata.com/ts/latam/antes-de-entender-contenedores-entendamos-
 microservicios. 
-• https://revistabyte.es/tema-de-portada-byte-ti/un-mundo-de-contenedores/. 
-• https://revistabyte.es/tema-de-portada-byte-ti/un-mundo-de-contenedores/. 
-• https://blog.nubity.com/las-6-mejores-soluciones-de-administracion-de-contenedores/. 
-• https://blog.techdata.com/ts/latam/antes-de-entender-contenedores-entendamos-
+- https://revistabyte.es/tema-de-portada-byte-ti/un-mundo-de-contenedores/.
+- https://revistabyte.es/tema-de-portada-byte-ti/un-mundo-de-contenedores/.
+- https://blog.nubity.com/las-6-mejores-soluciones-de-administracion-de-contenedores/.
+- https://blog.techdata.com/ts/latam/antes-de-entender-contenedores-entendamos-
 microservicios. 
-• https://cloud.google.com/architecture/service-meshes-in-microservices-architecture?hl=es-
+- https://cloud.google.com/architecture/service-meshes-in-microservices-architecture?hl=es-
 419. 
-• https://www.nginx.com/blog/what-is-a-service-mesh/. 
-• https://programmerclick.com/article/6166562189/. 
-• https://blog.techdata.com/ts/latam/gu%C3%ADa-esencial-de-contenedores. 
-• https://es.wikipedia.org/wiki/Docker_(software). 
-• https://es.wikipedia.org/wiki/Go_(lenguaje_de_programaci%C3%B3n). 
-• https://es.wikipedia.org/wiki/Inferno_(sistema_operativo). 
-• https://blog.techdata.com/ts/latam/orquestaci%C3%B3n-de-contenedores.
+- https://www.nginx.com/blog/what-is-a-service-mesh/.
+- https://programmerclick.com/article/6166562189/.
+- https://blog.techdata.com/ts/latam/gu%C3%ADa-esencial-de-contenedores.
+- https://es.wikipedia.org/wiki/Docker_(software).
+- https://es.wikipedia.org/wiki/Go_(lenguaje_de_programaci%C3%B3n).
+- https://es.wikipedia.org/wiki/Inferno_(sistema_operativo).
+- https://blog.techdata.com/ts/latam/orquestaci%C3%B3n-de-contenedores.
 
 ---
 
 Administración de servidores de correo electrónico, sus protocolos. Administración de contenedores 
 y microservicios 
-108 
-• https://www.trendmicro.com/es_es/what-is/container-security.html. 
-• https://hackernoon.com/service-mesh-with-envoy-101-e6b2131ee30b. 
-• https://www.redhat.com/es/topics/devops/what-is-blue-green-deployment. 
-• https://programmerclick.com/article/50831276543/.
+- https://www.trendmicro.com/es_es/what-is/container-security.html.
+- https://hackernoon.com/service-mesh-with-envoy-101-e6b2131ee30b.
+- https://www.redhat.com/es/topics/devops/what-is-blue-green-deployment.
+- https://programmerclick.com/article/50831276543/.
 
 ---
 
