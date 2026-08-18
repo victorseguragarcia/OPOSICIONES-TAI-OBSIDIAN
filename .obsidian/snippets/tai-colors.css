@@ -245,8 +245,8 @@
 
 .markdown-rendered li.task-list-item {
   list-style-type: none;
-  padding: 4px 8px;
-  margin: 3px 0;
+  padding: 6px 10px;
+  margin: 4px 0;
   border-radius: 6px;
   transition: all 0.2s ease-in-out;
 }
@@ -289,4 +289,75 @@
 .markdown-rendered li[data-task="w"] input[type="checkbox"] {
   accent-color: var(--tai-red-primary) !important;
   filter: hue-rotate(300deg);
+}
+
+/* ==========================================================================
+   9. OPTIMIZACIÓN RESPONSIVA PARA DISPOSITIVOS MÓVILES (SMARTPHONES & TABLETS)
+   ========================================================================== */
+
+@media (max-width: 768px) {
+  /* 1. Tablas responsivas con desplazamiento suave horizontal */
+  .markdown-rendered table {
+    display: block !important;
+    width: 100% !important;
+    overflow-x: auto !important;
+    -webkit-overflow-scrolling: touch !important;
+    border-radius: 6px;
+    font-size: 0.88em;
+  }
+  
+  .markdown-rendered th, 
+  .markdown-rendered td {
+    padding: 8px 10px !important;
+    white-space: nowrap;
+  }
+
+  /* 2. Áreas táctiles cómodas para dedos (Touch Targets) */
+  .markdown-rendered li.task-list-item {
+    padding: 10px 12px !important;
+    margin: 6px 0 !important;
+    min-height: 44px;
+    display: flex;
+    align-items: center;
+  }
+
+  .markdown-rendered li.task-list-item input[type="checkbox"] {
+    transform: scale(1.25);
+    margin-right: 12px;
+    cursor: pointer;
+  }
+
+  /* 3. Barra de navegación Breadcrumbs adaptable */
+  .markdown-rendered blockquote {
+    padding: 8px 12px !important;
+    margin: 10px 0 !important;
+    font-size: 0.92em !important;
+    line-height: 1.6 !important;
+  }
+
+  /* 4. Encabezados fluidos en móvil */
+  .markdown-rendered h1, .cm-header-1 {
+    font-size: 1.45em !important;
+    margin-top: 18px !important;
+    padding-bottom: 4px !important;
+    line-height: 1.3 !important;
+  }
+
+  .markdown-rendered h2, .cm-header-2 {
+    font-size: 1.25em !important;
+    margin-top: 16px !important;
+    line-height: 1.3 !important;
+  }
+
+  .markdown-rendered h3, .cm-header-3 {
+    font-size: 1.10em !important;
+    margin-top: 14px !important;
+  }
+
+  /* 5. Callouts optimizados para márgenes de pantalla estrecha */
+  .callout {
+    padding: 10px 12px !important;
+    margin: 12px 0 !important;
+    border-radius: 6px !important;
+  }
 }

@@ -192,3 +192,34 @@
   background: rgba(128, 128, 128, 0.15);
   border-color: var(--text-muted);
 }
+
+/* --- Adaptación Móvil para Tests --- */
+@media (max-width: 768px) {
+  .tai-quiz-container {
+    padding: 14px 10px;
+    border-radius: 10px;
+  }
+  
+  .tai-quiz-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  
+  .tai-quiz-score-badge {
+    width: 100%;
+    justify-content: space-around;
+    padding: 6px 10px;
+    font-size: 0.88em;
+  }
+  
+  .tai-question-card {
+    padding: 12px 10px;
+  }
+  
+  .tai-option-item {
+    padding: 12px 12px;
+    min-height: 48px;
+    font-size: 0.95em;
+  }
+}
