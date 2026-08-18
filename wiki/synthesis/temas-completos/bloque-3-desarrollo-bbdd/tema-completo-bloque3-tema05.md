@@ -24,381 +24,7 @@ updated: "2026-08-18"
 
 ---
 
-# 🔴 Bloque 3 - Tema 05 (UD012112): Desarrollo Basado en Componentes, Java EE / Jakarta EE y Plataforma .NET
-
-<!-- Page 1 -->
-
- 
- 
-Desarrollo Basado en 
-Componentes. Arquitectura Java 
-EE/Jakarta EE. Plataforma .NET 
-
-<!-- Page 2 -->
-
-ÍNDICE 
-1. Principios basicos de programacion 
-5 
-1.1. Tipos de datos, variables y operadores 
-6 
-1.2. Estructuras de Control y Decisiones 
-7 
-1.3. Definición de Clases, Métodos y Buenas Prácticas de Encapsulación 
-8 
-1.4. Colecciones Básicas y Eficiencia en Batch Processing 
-8 
-1.5. Excepciones y Gestión de Errores Defensiva 
-9 
-2. Java clasico: conceptos fundamentales 
-13 
-2.1. Elementos Sintacticos y Operadores 
-14 
-2.1.1. Palabras Reservadas 
-16 
-2.1.2. Separadores y Símbolos del Lenguaje 
-17 
-2.1.3. Operadores y Precedencia 
-18 
-2.2. Cadenas, variables y entrada/salida 
-20 
-2.2.1. Comparación de cadenas: == y equals() 
-21 
-2.2.2. Variables, ámbito y conversión de tipos 
-22 
-2.2.3. Entrada Estándar y Scanner 
-23 
-2.3. Gestion de memoria y modelo de ejecucion 
-24 
-2.3.1. JVM y bytecode 
-24 
-2.3.2. Recolectores de Basura 
-25 
-2.3.3. Ergonomía y System.GC() 
-26 
-2.4. Clases esenciales del paquete java.lang 
-27 
-2.4.1. Inmutabilidad y clases envolventes 
-28 
-2.4.2. String, StringBuilder y StringBuffer 
-29 
-2.4.3. Clase System 
-29 
-2.4.4. Clase Math 
-30 
-2.4.5. Excepciones Habituales 
-31 
-2.5. Estructura de un programa Java 
-32 
-2.5.1. Método main 
-33 
-2.5.2. Proceso de Compilación y Ejecución 
-33 
-2.5.3. Applets y servlets: una Perspectiva Histórica 
-34 
-
-<!-- Page 3 -->
-
- 
- 
-3. Fundamentos del desarrollo basado en componentes 
-35 
-3.1. Introducción al DBC en el contexto empresarial público 
-36 
-3.2. Relación entre componentes, microservicios y servicios web 
-38 
-3.3. Principios arquitectónicos: contratos, polimorfismo y composición tardía 
-40 
-3.4. Lenguajes soportados y requisitos del CLR/CTS 
-43 
-3.5. Estrategias de testing y calidad en componentes 
-45 
-3.6. Seguridad de la cadena de suministro (dependencias) en Java/.NET 
-47 
-3.7. Estrategias de evaluación y autoevaluación conceptual 
-49 
-4. Arquitectura Java EE/Jakarta EE moderna 
-51 
-4.1. Evolución histórica: de Java EE 8 a Jakarta EE 11 
-52 
-4.2. Perfiles y arquitectura cloud-native en Jakarta EE 
-55 
-4.3. Contenedores: CDI, EJB Lite y MicroProfile 6.1 
-57 
-4.4. Servicios empresariales: JTA, JNDI y Jakarta Security 3.0 
-59 
-4.5. Persistencia con JDBC: control raw y sus costes 
-61 
-4.6. Persistencia: Jakarta Persistence 3.2 y alternativas ORM 
-65 
-4.7. APIs RESTful con Jakarta RESTful Web Services 3.1 
-67 
-4.8. Modelo de seguridad completo en Jakarta EE 
-70 
-5. Ecosistema y compatibilidad en el desarrollo basado en componentes 
-72 
-5.1. Gobernanza y certificación de las Plataformas Empresariales 
-73 
-5.2. Principales especificaciones Jakarta EE 11: migración y adopción en entornos 
-públicos 
-75 
-5.3. Compatibilidad de Servidores y Perfiles de Despliegue 
-80 
-5.4. Ecosistema complementario: MicroProfile, Quarkus, Helidon y frameworks 
-cloud-native 
-83 
-6. Plataforma .NET 8+ y componentes 
-87 
-6.1. Transición de .NET Framework a .NET 8 LTS 
-88 
-6.2. CLR, BCL y Native AOT compilation 
-90 
-6.3. Plataforma .NET en entornos de soporte: composición, DI y gestión de 
-paquetes (NuGet) 
-92 
-6.4. Desarrollo y distribución de componentes con NuGet 
-94 
-
-<!-- Page 4 -->
-
- 
- 
-6.5. Persistencia con Entity Framework Core 8 y LINQ 
-96 
-6.6. Seguridad: ASP.NET Core Identity y Data Protection API 
-99 
-6.7. Gestión de configuración y secretos 
-102 
-7. Desarrollo de interfaces 
-104 
-7.1. Interfaces web: Jakarta Server Faces 4.0 vs. ASP.NET Core Razor/Blazor 
-105 
-7.2. Interfaces de escritorio: JavaFX vs. Windows Presentation Foundation (WPF) 
-106 
-7.3. APIs de programación: diseño y documentación de interfaces de servicio 
-109 
-7.4. Observabilidad básica en componentes (logs, métricas, trazas) orientada a 
-diagnóstico 
-111 
-7.5. Diseño y documentación de APIs: OpenAPI/Swagger vs. Swashbuckle 
-113 
-7.6. Gobernanza de contratos y versionado de APIs (SemVer + deprecación) 
-115 
-7.7. Principios UI/UX para componentes empresariales 
-117 
-7.8. Accesibilidad y estándares WCAG 2.2 en aplicaciones públicas 
-119 
-8. Comparativa e interoperabilidad 
-121 
-8.1. Análisis comparativo matricial: Jakarta EE 11 vs .NET 8 
-122 
-8.2. Caso de estudio: Sistema de Gestión de Recursos Humanos 
-124 
-8.3. Patrones de integración entre plataformas heterogéneas 
-125 
-8.4. Despliegue en contenedores Docker y Kubernetes 
-126 
-8.5. Costes, licenciamiento y TCO en entornos públicos 
-128 
-8.6. Estrategias de migración de sistemas monolíticos 
-128 
-9. Bibliografía 
-130 
-
-<!-- Page 5 -->
-
- 
- 
-Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-5 
-1. Principios basicos de programacion 
-La realidad tecnológica de la Administración Pública española no es monolingüe. En la misma 
-arquitectura empresarial conviven sistemas Java que gestionan el 80% del presupuesto del Estado, 
-servicios C# que integran identidad corporativa con Azure AD, y componentes C++ que validan 
-certificados de la FNMT o gestionan el acceso al DNIe. Esta heterogeneidad no es fruto de la 
-improvisación, sino de décadas de evolución, contratación segmentada y necesidades específicas de 
-seguridad y rendimiento. Un técnico especialista no debe ser experto en los tres lenguajes, pero sí estar 
-capacitado para leer código, diagnosticar fallos de integración y auditar vulnerabilidades en cualquiera 
-de ellos. La migración a cloud-native y microservicios ha intensificado esta necesidad: desplegar en 
-Kubernetes no elimina el legado, lo expone, y quien no entienda la base no podrá modernizar sin 
-romper. 
-La interoperabilidad entre JVM y .NET Runtime en el mismo entorno de producción genera conflictos de 
-puertos JMX vs. CLR Profiler, y el uso de JNI o P/Invoke para comunicar Java/C# con C++ introduce 
-vulnerabilidades de corrupción de memoria que el ENS cataloga como "críticas". En la SEPE, una llamada 
-mal gestionada a un validador C++ a través de JNI provocó un heap corruption que dejó sin servicio el 
-portal de autenticación durante 6 horas, afectando a 50.000 demandantes de empleo. 
-Java sigue siendo el pilar del core empresarial por su robustez y ecosistema de especificaciones abiertas 
-ahora en Jakarta EE. Sus fundamentos son imprescindibles para mantener sistemas de la AEAT o la 
-Seguridad Social que permanecerán operativos una década más. C# ha irrumpido con fuerza en nuevos 
-desarrollos, especialmente en integraciones con Azure y servicios de identidad, donde su curva de 
-aprendizaje más suave permite incorporar técnicos rápidamente en proyectos urgentes. C++, más allá 
-de su uso histórico, permanece irrenunciable en componentes de bajo nivel: drivers de lectores de DNIe, 
-librerías criptográficas de la FNMT y cálculos actuariales heredados. No se espera que se programe 
-rutinariamente en C++, pero sí que se comprenda lo suficiente para auditar seguridad y coordinar con \nequipos especializados, evitando que un error en una capa nativa comprometa toda la arquitectura. 
-El Esquema Nacional de Interoperabilidad exige que los sistemas críticos utilicen estándares abiertos y 
-documentados, pero no prescribe un lenguaje único, reconociendo la heterogeneidad tecnológica como 
-realidad operativa. Esta normativa justifica técnicamente el dominio de múltiples lenguajes y establece 
-que la capacidad de diagnóstico entre plataformas es un requisito de idoneidad, no un plus. 
-Este epígrafe no pretende convertirte en un experto políglota, sino dotarte de un mapa de conceptos 
-imprescindibles para navegar la infraestructura real. La mitad de los incidentes críticos no nacen de \nerrores en frameworks modernos, sino de mal uso de fundamentos: un == en lugar de equals(), un 
-System.gc() abusivo, o un arraycopy con índices mal calculados. Cada ejemplo aquí está extraído de 
-incidencias reales en la AGE y comunidades autónomas, porque solo entendiendo por qué fallan estas 
-bases podrás argumentar soluciones técnicas con autoridad en reuniones con auditores, jefes de 
-proyecto y proveedores. 
-
-<!-- Page 6 -->
-
- 
- 
-Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-6 
-1.1. Tipos de datos, variables y operadores 
-El dominio de tipos y operadores constituye el cimiento sobre el que se construyen los sistemas de 
-gestión del sector público. En aplicaciones como el cálculo de retenciones del IRPF o la validación de 
-pluses de transporte, la precisión en el manejo de tipos numéricos no es una formalidad, sino una 
-necesidad legal. Un int (32 bits, -2³¹ a 2³¹-1) resulta adecuado para contar expedientes, mientras que 
-double (64 bits, IEEE 754) es indispensable para operaciones monetarias con decimales, aunque 
-BigDecimal de java.math evita errores de redondeo en cálculos presupuestarios críticos. 
-Los tipos primitivos no aceptan null, lo que en sistemas legados provocaba valores -1 como comodín. 
-Con los wrappers (Integer, Double), podemos diferenciar entre "cero" y "no informado", crucial en 
-bases de datos de personal donde un sueldo vacío no equivale a sueldo cero. La conversión implícita (int 
-→ double) es segura, pero la explícita con casting (double → int) trunca sin aviso, generando 
-diferencias de céntimos que en la nómina de 5.000 empleados pueden suponer desviaciones mensuales 
-de miles de euros. 
-Los operadores con precedencia incorrecta son fuente de bugs silenciosos. En una expresión como base 
-+ plus * 1.15, la multiplicación prevalece, pero si pretendíamos (base + plus) * 1.15, los paréntesis son 
-obligatorios. He auditado funciones de cálculo de indemnizaciones donde faltaban paréntesis, 
-produciendo liquidaciones incorrectas que tardaron meses en detectarse. Tabla esencial: 
-Operador 
-Precedencia 
-Ejemplo 
-Error común 
-++ -- 
-1 (alta) 
-i++ en iterador 
-Confundir con i+1 sin asignar 
-* / % 
-2 
-base * porcentaje 
-Dividir enteros: 5/2 = 2 (esperado 2.5) 
-+ - 
-3 
-sueldo + plus 
-Concatenación: "A"+1 = "A1" 
-< <= > >= 
-4 
-antiguedad >= 15 
-Asignación = en lugar de comparación == 
-&& 
-5 
-activo && !jubilado 
-Cortocircuito: no evalúa segundo operando si es innecesario 
- 
- 
- 
- 
-Nota práctica 
-En el desarrollo para la AGE, se exige documentar con comentarios 
-de bloque (/* */) cualquier expresión con más de tres operadores. 
-Esta normativa, establecida tras el informe de la Cámara de 
-Cuentas de 2023 sobre errores de cálculo en ayudas al alquiler, 
-obliga a explicitar la intención, no solo el resultado. 
- 
-
-<!-- Page 7 -->
-
- 
- 
-Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-7 
-1.2. Estructuras de Control y Decisiones 
-Los flujos de trabajo públicos están dominados por reglas condicionales complejas. Una solicitud de baja 
-laboral puede requerir revisar estadoTramite, diasAcumulados, tipoContingencia y periodoProvisional. 
-Una cadena de if-else if lineal resulta ilegible; el switch moderno (Java 14+) con -> y múltiples valores 
-mejora mantenibilidad: 
-// ANTES (Java 8): propenso a errores de break 
-switch (tipo) { 
-    case "IT": 
-    case "EP": 
-        procesarBajaMedica(); 
-        break; 
-    default: registrarError(); 
-} 
-// AHORA (Java 21): expresión con yield 
-String categoria = switch (tipo) { 
-    case "IT", "EP" -> "MEDICA"; 
-    case "ACC" -> "LABORAL"; 
-    default -> { 
-        logger.warn("Tipo desconocido: {}", tipo); 
-        yield "OTRA"; 
-    } 
-}; 
-El bucle for-each (for (Empleado e : lista)) es preferible sobre for (int i=0; i<n; i++) porque elimina \nerrores de índice fuera de rango. En un batch de 10.000 altas, un ArrayIndexOutOfBoundsException 
-interrumpe todo el proceso y deja la base de datos en estado inconsistente, requiriendo rollback 
-manual. Los streams (lista.stream().filter()) son más legibles pero tienen overhead; en cálculos masivos 
-de nóminas, un bucle tradicional puede ser 30% más rápido, decisión que debe documentarse en el 
-código con métricas de JMH. 
-Los breaks etiquetados (break etiqueta;) permiten salir de bucles anidados, útil en validaciones 
-cruzadas de expedientes, pero su uso es controvertido por dificultar la lectura. 
-
-<!-- Page 8 -->
-
- 
- 
-Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-8 
-1.3. Definición de Clases, Métodos y Buenas Prácticas 
-de Encapsulación 
-Una clase mal diseñada es la semilla de la deuda técnica. Atributos public permiten modificaciones sin 
-control, invalidando invariantes (ej: sueldoBase no puede ser negativo). La encapsulación con private y 
-métodos public con validación es obligatoria en sistemas con trazabilidad legal. El método final indica 
-que no se puede sobrescribir, útil en validadores de cálculo que no deben alterarse en subclases. 
-La sobrecarga de métodos (mismo nombre, distintos parámetros) simplifica APIs. calcularPlus(int 
-antiguedad) vs calcularPlus(int antiguedad, String categoria) evita nombres como calcularPlusSimple() 
-y calcularPlusComplejo(). Sin embargo, más de tres sobrecargas genera confusión.  
-Los constructores deben inicializar totalmente el objeto. Un Empleado sin nif asignado es un objeto 
-inválido en el dominio público. El patrón Builder no se usa solo por elegancia, sino para evitar 
-constructores con 15 parámetros donde un técnico puede invertir el orden de categoria y nivel. 
-Ejemplo: 
-// MAL: Caso real que generó pagos incorrectos 
-public Empleado(String nif, String nombre, String categoria, int nivel,  
-                String grupo, String subgrupo, BigDecimal sueldo) { ... } 
-// BIEN: Flujo legible, validaciones por etapa 
-Empleado e = Empleado.builder() 
-    .nif("12345678A") 
-    .nombre("Juan") 
-    .categoria("A1") 
-    .nivel(2) 
-    .validar() // Lanza excepción si inconsistente 
-    .build(); 
-1.4. Colecciones Básicas y Eficiencia en Batch Processing 
-La elección entre ArrayList y LinkedList impacta el rendimiento de procesos masivos. En la generación 
-de listados de pago a proveedores (50.000 registros), ArrayList con capacidad predefinida (new 
-ArrayList<>(50000)) evita redimensionados costosos, mientras que LinkedList sería ineficiente para 
-acceso aleatorio. La interfaz Map es fundamental para caches de datos maestros: Map<String, 
-UnidadOrganica> unidades = new HashMap<>(); permite búsquedas O(1) de unidades por código. 
-
-<!-- Page 9 -->
-
- 
- 
-Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-9 
-El viejo java.util.Date y Calendar han sido reemplazados por java.time (Java 8+). LocalDate representa 
-fechas sin hora (útil para fechas de alta), LocalDateTime para timestamps de auditoría y ZonedDateTime 
-para eventos con zona horaria (crucial en convocatorias con plazo hasta las 23:59 CET). 
-El error más común es mezclar LocalDate con Date en JPA, lo que genera desplazamientos de un día por 
-conversiones de zona. La anotación @Column(columnDefinition = "DATE") con LocalDate soluciona \nesto en PostgreSQL. 
-Para volúmenes masivos, parallelStream() aprovecha múltiples cores, pero en entornos JEE 
-compartidos puede saturar el pool de hilos del contenedor. La recomendación del CTTI es usar 
-stream() normal y configurar ManagedExecutorService (JSR 236) para paralelismo controlado. 
-1.5. Excepciones y Gestión de Errores Defensiva 
-En el sector público, un error mal gestionado no es solo un bug: es una vulneración del ENS, una 
-potencial sanción de la AEPD y, en casos graves, una causa de responsabilidad patrimonial. Imagina que \nel sistema de cálculo de pensiones del CNMM lanza una SQLException que no controlas: la transacción 
-se rompe, la nómina de 15.000 funcionarios queda incompleta y tardas 48 horas en identificar el 
-problema. Eso ya pasó en 2022. Por eso, gestionar excepciones no es opcional: es un requisito de 
-seguridad legal. 
-Las tres familias de excepciones (y por qué no son iguales) 
-1. Excepciones Checked (obligatorias) 
+## 🟣 1. Excepciones Checked (obligatorias)
 Son errores previsibles que el compilador te obliga a manejar: IOException, SQLException, 
 ClassNotFoundException. 
 //  MAL: declarar "throws Exception" contamina toda la cadena 
@@ -414,16 +40,13 @@ public void procesarExpediente() {
     } 
 } 
 
-<!-- Page 10 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-10 
 ¿Por qué es crucial en el sector público? Porque el ENS exige que toda operación con datos personales 
 tenga control de errores. Un throws SQLException en tu API REST expone detalles de tu base de datos 
 al usuario final: violación de seguridad directa. 
-2. Excepciones Unchecked (Runtime) 
+## 🟣 2. Excepciones Unchecked (Runtime)
 Son errores de programación o lógica de negocio: IllegalArgumentException, NullPointerException, 
 ValidacionException. 
 // 膆
@@ -441,7 +64,7 @@ if (!ValidadorNIF.esValido(nif)) {
 } 
 Ventaja: No contaminan la firma del método. Una API REST puede devolver 400 Bad Request con un 
 JSON descriptivo sin necesidad de throws en toda la cadena. 
-3. Errores (críticos del sistema) 
+## 🟣 3. Errores (críticos del sistema)
 OutOfMemoryError, StackOverflowError. Estos no son excepciones: son señales de que la JVM está 
 colapsando. 
 //  MAL: atrapar Exception captura también estos errores fatales 
@@ -450,12 +73,9 @@ catch (Exception e) {
      return null; // Ocultas un fallo crítico 
 } 
 
-<!-- Page 11 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-11 
 Si atrapas OutOfMemoryError y sigues operando, tu sistema seguirá en un estado inconsistente y 
 corromperá datos. Debes dejar que estos errores maten el proceso para que Kubernetes reinicie el 
 contenedor sano. 
@@ -479,18 +99,14 @@ public class IntegracionException extends BusinessException { /* Fallos externos
 public class SeguridadException extends BusinessException { /* Accesos no 
 autorizados */ } 
 ¿Por qué esta jerarquía? 
-• Facilita la auditoría: El SIEM puede filtrar por tipo de excepción. 
-• Simplifica el manejo: En tu API REST, un solo @ExceptionHandler para BusinessException 
-gestiona todos los casos. 
-• Cumple el ENS: El artículo 28 exige clasificar errores por criticidad. 
-• El try-with-resources: tu seguro contra fugas de memoria. 
-
-<!-- Page 12 -->
+- Facilita la auditoría: El SIEM puede filtrar por tipo de excepción.
+- Simplifica el manejo: En tu API REST, un solo @ExceptionHandler para BusinessException gestiona todos los casos. 
+- Cumple el ENS: El artículo 28 exige clasificar errores por criticidad.
+- El try-with-resources: tu seguro contra fugas de memoria.
 
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-12 
 En el Registro Civil de Valencia, un Connection no cerrado en finally causaba agotamiento del pool cada 
 3 horas. La solución: 
 //  MAL: fácil olvidar cerrar el recurso 
@@ -518,12 +134,9 @@ try {
     em.close(); // Obligatorio para liberar el contexto de persistencia 
 } 
 
-<!-- Page 13 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-13 
 Tabla de decisiones: ¿qué excepción uso? 
 Escenario 
 Excepción a lanzar 
@@ -550,7 +163,7 @@ OutOfMemoryError
 No atrapar 
 500 Internal Error 
 FATAL 
-2. Java clasico: conceptos fundamentales 
+## 🟣 2. Java clasico: conceptos fundamentales
 Este epígrafe no repasa los "básicos de Java": es el armazón técnico que garantiza que el sistema de 
 cálculo de nóminas de la Seguridad Social no caiga el día 25, o que el Registro Electrónico no pierda \nexpedientes por un null mal gestionado. En oposiciones a Técnico Especialista, dominar estos 
 fundamentos te hace responsable de la continuidad de servicios públicos, no solo un buen programador. 
@@ -573,12 +186,9 @@ Intervención. Porque tu trabajo no es escribir código que funcione hoy, sino g
 funcionando en 2035 cuando otro técnico deba refactorizar tu código sin entenderlo del todo, pero 
 sintiéndose seguro de que los fundamentos son sólidos. 
 
-<!-- Page 14 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-14 
 La progresión de los epígrafes no es arbitraria: primero sintaxis te da el léxico para leer bytecode y \nentender por qué un literal String internado puede ser == pero un new String nunca lo es. Luego 
 cadenas y variables te enseña a detectar por qué un CSV mal parseado con Scanner corrompe millones 
 de registros de pensiones. La memoria te prepara para argumentar ante la comisión de infraestructura 
@@ -594,7 +204,7 @@ Scanner.nextInt() podía fallar: entendió que la causa raíz era la codificaci�
 solución pasaba por reemplazar Scanner por BufferedReader con StandardCharsets.UTF_8. 
 Ese diagnóstico exigió dominar sintaxis, variables, memoria y clases fundamentales simultáneamente y 
 redactar un informe que justificara la refactorización ante Intervención. Esa es la competencia que este \nepígrafe busca desarrollar. 
-2.1. Elementos Sintacticos y Operadores 
+### 🔵 2.1. Elementos Sintacticos y Operadores
 La sintaxis de Java no es una mera formalidad burocrática del lenguaje, sino el armazón léxico que 
 determina el significado exacto de cada construcción. En los sistemas críticos de la Administración, 
 donde un solo símbolo mal situado puede alterar el cálculo de una nómina o la validación de un 
@@ -617,12 +227,9 @@ traduce este flujo de entrada en un flujo de tokens de entrada, donde cada token
 identificador, literal o separador. Esta traducción léxica es la primera fase del compilador, y cualquier \nerror aquí detiene la compilación antes siquiera de analizar tipos, lo que la hace la base de todo el 
 proceso. 
 
-<!-- Page 15 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-15 
 Lo que encontrarás a continuación en este epígrafe no es una lista memorística, sino una herramienta 
 de diagnóstico. Las palabras reservadas te permitirán leer código heredado dónde aparecen términos 
 obsoletos como strictfp y reconocerás por qué un nombre de variable es inválido sin adivinar. Los 
@@ -660,13 +267,10 @@ paréntisis explícitos.
 Esta decisión de diseño, especificada en la gramática del lenguaje, demuestra cómo Java prioriza la 
 legibilidad y la prevención de errores sobre la brevedad del código. 
 
-<!-- Page 16 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-16 
-2.1.1. Palabras Reservadas 
+#### 🔹 2.1.1. Palabras Reservadas
 Las palabras reservadas de Java constituyen el vocabulario inamovible del lenguaje, actuando como 
 pilares semánticos que el compilador reconoce para estructurar el flujo lógico del programa. Desde las 
 clásicas public, private y protected que gobiernan la visibilidad, hasta final que garantiza inmutabilidad o 
@@ -701,12 +305,9 @@ sistemas heredados de la Administración, aún se encuentran errores de compilac
 strictfp o transient, palabras reservadas de uso específico que confunden a desarrolladores menos \nexperimentados. 
  
 
-<!-- Page 17 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-17 
  
  
  
@@ -726,12 +327,12 @@ abstract, assert, boolean, break, byte, case, catch, char, class, const, continu
 native, new, package, private, protected, public, return, short, static, strictfp, super, switch, 
 synchronized, this, throw, throws, transient, try, void, volatile, while 
 Recordatorios útiles para pruebas tipo test: 
-• strictfp: asegura precisión IEEE-754. 
-• native: método implementado en código nativo (JNI). 
-• transient: excluye un campo de la serialización. 
-• volatile: garantiza visibilidad entre hilos. 
-• goto y const están reservadas pero no tienen uso. 
-2.1.2. Separadores y Símbolos del Lenguaje 
+- strictfp: asegura precisión IEEE-754.
+- native: método implementado en código nativo (JNI).
+- transient: excluye un campo de la serialización.
+- volatile: garantiza visibilidad entre hilos.
+- goto y const están reservadas pero no tienen uso.
+#### 🔹 2.1.2. Separadores y Símbolos del Lenguaje
 Los separadores en Java son los signos de puntuación del código, y su correcto uso determina la 
 legibilidad y funcionalidad del programa de manera más profunda de lo que aparenta. Los paréntesis () 
 no solo delimitan parámetros, sino que en expresiones condicionales o de casting, su posicionamiento 
@@ -740,12 +341,9 @@ acceso indexado, y su mal posicionamiento en declaraciones múltiples como int[]
 unidimensional y otro bidimensional, una trampa frecuente en exámenes. Las llaves {} marcan bloques 
 que definen el ámbito léxico, influyendo directamente en el tiempo de vida de variables y la visibilidad \nen concurrencia. 
 
-<!-- Page 18 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-18 
  
  
  
@@ -769,7 +367,7 @@ minucia es crucial cuando se refactorizan cientos de líneas en sistemas crític
 Un tipo array se escribe como el nombre del tipo de elemento seguido de varios pares de corchetes 
 vacíos []. El número de pares indica el nivel de anidamiento del array. Esta definición formal de la \nespecificación del lenguaje explica por qué int[][] es un array de arrays, mientras que int[] a, b[] 
 declara tipos diferentes para cada variable. 
-2.1.3. Operadores y Precedencia 
+#### 🔹 2.1.3. Operadores y Precedencia
 La precedencia de operadores en Java sigue una jerarquía rigurosa que, si no se domina, introduce bugs 
 sutiles y difíciles de depurar. Los operadores post-unarios (expr++, expr--) tienen la mayor precedencia, 
 seguidos de pre-unarios (++expr, --expr, !, ~), luego multiplicativos (*, /, %), aditivos (+, -), y así 
@@ -778,12 +376,9 @@ asignación y el ternario son right-to-left. Una expresión como a = b = c se ev
 asignando primero c a b y luego b a a. 
  
 
-<!-- Page 19 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-19 
  
  
  
@@ -820,13 +415,10 @@ izquierda a derecha.
 Esta regla de la especificación oficial explica por qué a / b * c se evalúa como (a / b) * c, no como a / (b 
 * c), un detalle crucial en cálculos financieros de la Administración. 
 
-<!-- Page 20 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-20 
-2.2. Cadenas, variables y entrada/salida 
+### 🔵 2.2. Cadenas, variables y entrada/salida
 Este epígrafe aborda tres conceptos que, aunque presentes en cualquier tutorial básico, ocultan 
 trampas que han hecho fracasar a candidatos con excelentes conocimientos de algoritmia. En la 
 práctica diaria de un técnico especialista en la Administración, manipular cadenas de forma eficiente, 
@@ -865,12 +457,9 @@ un proceso de importación de expedientes puede tardar 10 veces más que un Buff
 comparte entre threads, corrompe los datos. En arquitecturas modernas de microservicios, donde la \nentrada no viene de consola sino de System.in redirigida desde un pipe, estos detalles marcan la 
 diferencia entre un servicio que procesa 1000 expedientes/segundo y uno que se colapsa a los 100. 
 
-<!-- Page 21 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-21 
 En resumen, estos tres subepígrafes no son independientes: una mala conversión de tipos puede 
 generar una cadena incorrecta que al compararse con equals() falle, y un Scanner mal configurado 
 puede leer esa cadena corrupta desde un CSV, propagando el error por toda la base de datos. Más de la 
@@ -891,7 +480,7 @@ migran a Java 17, reemplazar Scanner por BufferedReader.lines()
 reduce consumo de memoria en procesos ETL de volcado de datos 
 históricos en un 40%. 
  
-2.2.1. Comparación de cadenas: == y equals() 
+#### 🔹 2.2.1. Comparación de cadenas: == y equals()
 La diferencia entre == y equals() en Java es quizás el concepto más mencionado y menos comprendido 
 por programadores junior, y su dominio separa quienes aprueban oposiciones de quienes las suspenden. 
 El operador == compara referencias de objeto, es decir, las direcciones de memoria en el heap, mientras 
@@ -909,12 +498,9 @@ compilación a un solo literal, mientras que String b = "h"; b += "o" crea nuevo
 En bucles con miles de iteraciones, esto genera presión insostenible sobre el recolector de basura. Por \neso, StringBuilder es obligatorio para concatenaciones dinámicas intensivas, como en la generación de 
 informes HTML en portales de transparencia. 
 
-<!-- Page 22 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-22 
 El contrato de equals() exige que sea reflexivo, simétrico, transitivo, consistente y maneje null. 
 Violaciones de este contrato causan bugs esporádicos en HashMap o HashSet. Por ejemplo, si 
 a.equals(b) pero a.hashCode() != b.hashCode(), la búsqueda en tablas hash fallará silenciosamente, un \nerror catastrófico en sistemas de identificación tributaria. 
@@ -931,7 +517,7 @@ deben tener códigos hash iguales
  
 Cita técnica: 'Esta recomendación del libro "Effective Java" (Joshua Bloch) es obligatoria en desarrollos 
 oficiales y fallar en ella es causa de defectos críticos en auditorías'. 
-2.2.2. Variables, ámbito y conversión de tipos 
+#### 🔹 2.2.2. Variables, ámbito y conversión de tipos
 El ámbito de variables en Java está rigidamente definido por el bloque donde se declaran, pero en 
 práctica genera sutilezas que confunden hasta a programadores experimentados. Una variable local 
 solo existe dentro de sus llaves {}, pero una variable de instancia es accesible por todos los métodos no \nestáticos de la clase. El problema surge con el sombreado (shadowing): una variable local con el mismo 
@@ -951,19 +537,16 @@ métodos frecuentemente invocados son alojadas en el stack y destruidas al retor
 del GC. Pero si una variable local escapa del método (ej: se añade a una colección estática), pasa al heap 
 y su liberación depende de la colección. Este "escaping" es fuente de memory leaks en aplicaciones de \nescaneo de documentos que acumulan metadatos sin control. 
 
-<!-- Page 23 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-23 
 Una variable local debe recibir un valor explícitamente antes de ser usada, ya sea mediante inicialización 
 o asignación, de forma que el compilador pueda verificarlo mediante análisis de flujo. 
 Recuerda inicializar siempre las variables al definirlas!!! 
 Esta especificación del lenguaje explica por qué int x; System.out.println(x); genera error de 
 compilación, mientras que atributos de clase se inicializan por defecto, una diferencia que causa 
 confusiones en ejercicios de inicialización. 
-2.2.3. Entrada Estándar y Scanner 
+#### 🔹 2.2.3. Entrada Estándar y Scanner
 El patrón Scanner es la puerta de entrada para interacción con el usuario en ejercicios académicos, pero 
 su implementación oculta complejidades que explican por qué muchos desarrolladores abandonan su 
 uso en producción. El problema del salto de línea pendiente surge porque nextInt() lee el token 
@@ -993,13 +576,10 @@ cerrará automáticamente cuando sea elegible para garbage
 collection. 
  
 
-<!-- Page 24 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-24 
-2.3. Gestion de memoria y modelo de ejecucion 
+### 🔵 2.3. Gestion de memoria y modelo de ejecucion
 La gestión de memoria en Java no es un detalle de implementación opcional, sino el pilar que garantiza 
 la estabilidad de los sistemas críticos de la Administración. Cuando la JVM ejecuta un proceso de cálculo 
 de nóminas para 500.000 empleados públicos o valida simultáneamente 10.000 solicitudes de ayudas, la 
@@ -1020,7 +600,7 @@ también una de las menos comprendidas; mal configurada, puede convertirse en la
 de rendimiento más difíciles de diagnosticar. Esta advertencia de la documentación de Oracle resume 
 por qué el 60% de los cuellos de botella en sistemas de la Seguridad Social no están en el código de 
 negocio, sino en la interacción entre la aplicación y la JVM. 
-2.3.1. JVM y bytecode 
+#### 🔹 2.3.1. JVM y bytecode
 La JVM es mucho más que un intérprete de bytecode: es una máquina de stack sofisticada que incluye 
 verificación, preparación, resolución y ejecución en tiempo real. El bytecode generado por javac no es 
 código máquina nativo, sino instrucciones de 1 byte (opcode) que la JVM ejecuta mediante un bucle de 
@@ -1034,12 +614,9 @@ módulos (EARs, WARs), los Class Loaders aislados causan ClassCastException cuan
 un objeto cargado por un loader distinto al esperado, un problema frecuente en migraciones de 
 WebLogic a Tomcat. 
 
-<!-- Page 25 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-25 
 El bytecode incluye instrucciones especializadas: invokevirtual para métodos de instancia, invokestatic 
 para métodos estáticos, invokeinterface para interfaces, e invokespecial para constructores y métodos 
 privados. Desde Java 7, invokedynamic permite optimizar llamadas dinámicas, fundamental para 
@@ -1059,7 +636,7 @@ tecnología de implementación, plataforma host o plataforma
 guest. Son un lenguaje abstracto para una máquina orientada a 
 stack. 
  
-2.3.2. Recolectores de Basura 
+#### 🔹 2.3.2. Recolectores de Basura
 Los recolectores de basura de Java han evolucionado de simples mark-sweep a sofisticados algoritmos 
 heurísticos que adaptan su comportamiento al runtime. El Serial GC, aunque obsoleto, sigue siendo el 
 default en clientes Java 8 y es único para heaps pequeños (<100MB). Parallel GC maximiza throughput 
@@ -1080,12 +657,9 @@ Performance Computing) de cálculo estadístico, -XX:+UseZGC con -Xmx100g permit
 con pausas <1ms, algo impensable con GCs clásicos. Monitorizar el GC con -Xlog:gc* o JMX es esencial 
 para detectar memory leaks en aplicaciones de archivo de registros electrónicos. 
 
-<!-- Page 26 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-26 
  
  
  
@@ -1095,7 +669,7 @@ máquinas multi-procesador con grandes memorias. Cumple los
 objetivos de tiempo de pausa con alta probabilidad, mientras logra 
 un alto throughput. 
  
-2.3.3. Ergonomía y System.GC() 
+#### 🔹 2.3.3. Ergonomía y System.GC()
 La ergonomía de la JVM es su capacidad de auto-ajustar parámetros como heap size, tamaño de threads 
 y estrategia de GC en función del hardware detectado. Sin embargo, esta "magia" tiene límites: en 
 contenedores Docker, la JVM hasta Java 8 detectaba la memoria del host, no del contenedor, causando 
@@ -1126,17 +700,14 @@ Recorder (Java Mission Control) detectan estas anomalías como "GC Pressure". En
 rendimiento de la Sede Electrónica, encontramos un módulo que llamaba gc() cada 100 iteraciones, 
 aumentando la latencia media de 50ms a 2 segundos. 
 
-<!-- Page 27 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-27 
 Llamar al método gc sugiere a la Máquina Virtual de Java que dedique esfuerzo a reciclar objetos no 
 usados para hacer disponible rápidamente la memoria que ocupan. Cuando el control retorna, la JVM ha 
 hecho su mejor esfuerzo por reclamar espacio. La ambigüedad de "mejor esfuerzo" es deliberada: no 
 garantiza nada, lo que hace su uso impredecible. 
-2.4. Clases esenciales del paquete java.lang 
+### 🔵 2.4. Clases esenciales del paquete java.lang
 El paquete java.lang es el núcleo invisible de todo programa Java, importado automáticamente y 
 cargado por el Bootstrap Class Loader de la JVM. Sus clases no son meras utilidades, sino los cimientos 
 sobre los que se construyen sistemas críticos de la Administración: desde la validación de un DNI con 
@@ -1171,13 +742,10 @@ warnings de encapsulación ilegal que en Java 17 se convierten en errores de com
 hacks requiere reescribir algoritmos usando VarHandle o bibliotecas aprobadas, una tarea que los 
 técnicos deben planificar años antes de la migración. 
 
-<!-- Page 28 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-28 
-2.4.1. Inmutabilidad y clases envolventes 
+#### 🔹 2.4.1. Inmutabilidad y clases envolventes
 La inmutabilidad de String y clases envolventes (Integer, Double, etc.) no es una casualidad de diseño, 
 sino una estrategia deliberada para garantizar thread-safety sin sincronización. Un objeto inmutable, 
 una vez construido, no puede cambiar de estado, lo que lo hace inherentemente seguro para compartir \nentre threads. En sistemas de alta concurrencia como el Registro Electrónico Común, donde miles de 
@@ -1216,13 +784,10 @@ que las mutables. Son menos propensas a errores y más seguras.
 Esta recomendación del libro "Effective Java" es ley en desarrollos oficiales, donde la seguridad y 
 predecibilidad son no negociables. 
 
-<!-- Page 29 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-29 
-2.4.2. String, StringBuilder y StringBuffer 
+#### 🔹 2.4.2. String, StringBuilder y StringBuffer
 La elección entre String, StringBuilder y StringBuffer impacta directamente el rendimiento y la 
 correcitud concurrente. String es inmutable y seguro, pero cada concatenación en un bucle crea n 
 objetos intermedios. En un proceso de normalización de cadenas DNI en un fichero de 10 millones de 
@@ -1249,19 +814,16 @@ Cita técnica
 String". En benchmarks, StringBuilder es 10-100x más rápido en 
 bucles, diferencia que se nota en SLAs de servicios públicos. 
  
-2.4.3. Clase System 
+#### 🔹 2.4.3. Clase System
 La clase System es el puente entre la JVM y el entorno operativo, y sus métodos son herramientas de 
 diagnóstico esenciales. System.out y System.err son PrintStream que escriben a file descriptors 1 y 2. 
 En producción, redirigir System.err a un fichero de log con System.setErr(new PrintStream(new 
 FileOutputStream("errors.log"))) permite capturar trazas sin tocar código legado. Sin embargo, esto es 
 síncrono y bloqueante; en sistemas de alta carga, es preferible usar java.util.logging o Logback. 
 
-<!-- Page 30 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-30 
 System.getProperty("user.dir") devuelve el directorio de trabajo, pero en contenedores Docker esto 
 puede ser / o un path inesperado. 
 System.getProperty("line.separator") es crucial para generar ficheros de intercambio con otros 
@@ -1288,7 +850,7 @@ a la posición especificada del array destino.
  
 Esta implementación nativa usa memmove de C, por lo que opera a velocidad de RAM, crítico en 
 procesamiento de documentos masivos. 
-2.4.4. Clase Math 
+#### 🔹 2.4.4. Clase Math
 Math es una colección de funciones estáticas que delegan a implementaciones nativas de FDLIBM, 
 garantizando precisión IEEE 754. Sin embargo, muchos métodos tienen limitaciones: 
 Math.abs(Integer.MIN_VALUE) devuelve un número negativo (overflow), y Math.random() usa un 
@@ -1300,12 +862,9 @@ de índices de calidad de servicio, se debe evitar pow para exponentes enteros p
 Math.sqrt usa intrínsecas de CPU cuando disponible, pero aún así StrictMath.sqrt garantiza portabilidad 
 bitwise a costa de performance. 
 
-<!-- Page 31 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-31 
 Los métodos de redondeo son fuente de bugs financieros: Math.round(1.5) devuelve 2 (redondeo al \nentero más cercano), pero Math.round(-1.5) devuelve -1 (redondeo hacia arriba). Para contabilidad 
 pública, esto es incorrecto. Debe usarse BigDecimal con RoundingMode.HALF_EVEN (redondeo al par 
 más cercano) para evitar sesgos estadísticos. El error de usar double para dinero ha causado desfases de 
@@ -1325,7 +884,7 @@ lineal.
  
 Esta "calidad de implementación" admite predicibilidad, lo que lo hace inseguro: si se conoce la semilla, 
 se pueden predecir todos los números siguientes. 
-2.4.5. Excepciones Habituales 
+#### 🔹 2.4.5. Excepciones Habituales
 Las excepciones en Java no son solo errores, sino un mecanismo de control de flujo diseñado para 
 manejar condiciones excepcionales. NullPointerException es la más común y costosa: en producción, 
 cada NPE representa una transacción fallida. Desde Java 14, NPE incluye mensajes detallados ("Cannot 
@@ -1341,12 +900,9 @@ NaN sin excepción. En cálculos de presupuesto, NaN se propaga contaminando tod
 sigue siendo NaN. Deben usarse validaciones explícitas con Double.isNaN() o BigDecimal que lanza 
 ArithmeticException en divisiones por cero y overflow controlado. 
 
-<!-- Page 32 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-32 
 La jerarquía distingue entre checked exceptions (que deben declararse o capturarse) y unchecked 
 (RuntimeException y sus hijas). 
 ClassCastException es unchecked, pero en código genérico con casting inseguro no se detecta hasta 
@@ -1355,7 +911,7 @@ findbugs/SpotBugs detecta casts inseguros que podrían lanzar ClassCastException
 La clase Exception y sus subclases que no son también subclases de RuntimeException son excepciones 
 verificadas. Esta distinción de la especificación del lenguaje dictamina si un método debe declarar 
 throws o no, afectando la firma de APIs públicas en sistemas interadministrativos. 
-2.5. Estructura de un programa Java 
+### 🔵 2.5. Estructura de un programa Java
 Antes de abordar frameworks complejos o arquitecturas empresariales, el técnico especialista debe 
 dominar la estructura física y lógica de un programa Java, pues las decisiones tomadas en estos 
 fundamentos condicionan el despliegue, el mantenimiento y la evolución de sistemas críticos. 
@@ -1382,13 +938,10 @@ tipo declarado es array de String. Esta especificación formal del lenguaje pare
 convencional, y por qué public void main(String[] args) no es punto de entrada, un detalle clave al 
 refactorizar legados con múltiples métodos main de utilidad que compilan pero no ejecutan. 
 
-<!-- Page 33 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-33 
-2.5.1. Método main 
+#### 🔹 2.5.1. Método main
 El método main es el punto de entrada estándar, pero su firma exacta public static void main(String[] 
 args) tiene matices. public permite que la JVM lo invoque desde fuera del paquete; static permite la 
 invocación sin instancia (la JVM no ejecuta new Main().main()); void indica que no retorna valor al 
@@ -1411,7 +964,7 @@ usage en caso de error.
 El método main debe declararse public, static, y void. Debe especificar un parámetro formal cuyo tipo 
 declarado es array de String. Esta especificación formal de la documentación explica por qué static 
 public void main compila (orden de modificadores no importa) pero no es convencional. 
-2.5.2. Proceso de Compilación y Ejecución 
+#### 🔹 2.5.2. Proceso de Compilación y Ejecución
 El ciclo javac + java es simple en apariencia, pero oculta complejidad. javac -cp lib/* src/Main.java -d bin 
 compila con classpath explícito, resolviendo dependencias en runtime. Sin -cp, javac solo ve clases del 
 JDK. En proyectos Maven/Gradle, el classpath se gestiona automáticamente, pero en legados ANT es 
@@ -1428,12 +981,9 @@ se compilan. En benchmarks, el "warmup" es esencial; medir performance sin calen
 resultados irreales. En sistemas de validación de firma, el primer documento tarda 500ms, el décimo 
 50ms tras JIT. 
 
-<!-- Page 34 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-34 
 El flag -server vs -client ya no existe en Java 9+; la JVM detecta automáticamente si es servidor (64-bit, 
 >2GB RAM) y usa optimizaciones agresivas. Sin embargo, -XX:+AggressiveOpts y -
 XX:+UseStringDeduplication pueden mejorar performance en heaps con muchas cadenas duplicadas, 
@@ -1450,7 +1000,7 @@ clases e interfaces.
  
 Esta carga dinámica de la especificación permite lazy loading, cargando clases solo cuando se usan, 
 optimizando startup en aplicaciones modulares. 
-2.5.3. Applets y servlets: una Perspectiva Histórica 
+#### 🔹 2.5.3. Applets y servlets: una Perspectiva Histórica
 Los applets fueron la apuesta de Java para aplicaciones ricas en navegador, pero fallaron por razones 
 técnicas y de seguridad. Ejecutaban en un sandbox con permisos restringidos, pero exploits como 
 deserialización maliciosa y vulnerabilidades en Java Plugin permitían escape del sandbox. Los 
@@ -1472,12 +1022,9 @@ y registra un DispatcherServlet que enruta todas las peticiones. Entender el cic
 ayuda a debuggear problemas de inicialización y filtros. Los filtros (javax.servlet.Filter) permiten 
 interceptar requests para logging, seguridad o CORS, siendo esenciales en APIs interadministrativas. 
 
-<!-- Page 35 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-35 
  
  
  
@@ -1490,7 +1037,7 @@ completado exitosamente.
  
 Esta secuencia de la especificación de Servlets de Jakarta garantiza que init() configure recursos (pools 
 de conexiones) antes de procesar peticiones, patrón clave en servicios robustos. 
-3. Fundamentos del desarrollo basado \nen componentes 
+## 🟣 3. Fundamentos del desarrollo basado \nen componentes
 El Desarrollo Basado en Componentes (DBC) constituye el pilar vertebral de la ingeniería del software \nen el sector público moderno, donde la reutilización efectiva trasciende la mera eficiencia técnica para 
 convertirse en un mandato legal derivado del Esquema Nacional de Interoperabilidad y del principio de \neficiencia en el uso de recursos públicos. 
 Según Clemens Szyperski "Un componente de software es una unidad de composición con interfaz y 
@@ -1509,13 +1056,10 @@ Principios arquitectónicos: Los contratos, el polimorfismo y la composición ta
 de confianza entre componentes. Su comprensión superficial es la causa del 80% de los fallos de 
 integración detectados en auditorías de la Cuenta General de la Nación. 
 
-<!-- Page 36 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-36 
-Taxonomía de arquitecturas: La distinción entre componentes, microservicios y servicios web no es 
+Taxonomía de arquitecturas: La distinción entre componentes, microservicios y 
 teórica; determina costes de despliegue, ventanas de mantenimiento, estrategias de escalado y 
 responsabilidades legales ante incumplimiento de SLAs. Confundirlos es el error más costoso en la 
 modernización de sistemas públicos. 
@@ -1532,7 +1076,7 @@ función del Expediente de Contratación, y argumentar ante un responsable de se
 actualización requiere nueva homologación ENS. 
 El desafío es que no basta con saber; es preciso construir argumentos técnicos que sean jurídicamente 
 defensibles. Por eso, cada epígrafe incluye referencias normativas, métricas de la AGE, etc. 
-3.1. Introducción al DBC en el contexto empresarial público 
+### 🔵 3.1. Introducción al DBC en el contexto empresarial público
 El Desarrollo Basado en Componentes (DBC) representa un paradigma fundamental en la ingeniería del 
 software moderna, especialmente relevante en el ámbito de la administración pública donde la 
 reutilización y estandarización no son meras conveniencias, sino verdaderos imperativos legislativos. 
@@ -1553,12 +1097,9 @@ anticipar no solo los requisitos funcionales actuales, sino también las futuras
 como las modificaciones en el Reglamento General de Protección de Datos o las nuevas directrices de 
 seguridad europeas. 
 
-<!-- Page 37 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-37 
 El DBC transforma el día a día de manera radical. En lugar de depurar monolitos de código espagueti 
 con dependencias ocultas, el profesional se enfrenta a arquitecturas donde cada componente es una 
 caja negra con comportamiento predecible. Esto facilita la localización de fallos: si el servicio de 
@@ -1580,10 +1121,9 @@ JavaFX en el contexto de cliente de escritorio
 Su finalidad es construir UI multiplataforma de escritorio con experiencia rica y consistente (p. ej., 
 utilidades administrativas internas o paneles de operación). 
 Características clave: 
-• Integración directa con el ecosistema Java (Java/Kotlin). 
-• Binding de datos y sistema de componentes; soporte de animaciones/escenas. 
-• Distribución modular (desacoplado del JDK) y empaquetado nativo para despliegues 
-controlados. 
+- Integración directa con el ecosistema Java (Java/Kotlin).
+- Binding de datos y sistema de componentes; soporte de animaciones/escenas.
+- Distribución modular (desacoplado del JDK) y empaquetado nativo para despliegues controlados. 
 Es adecuado cuando se requiere homogeneidad de interfaz en puestos Windows/Linux/macOS sin 
 depender del navegador y/o uando la latencia de red o las políticas de seguridad (p. ej., entornos 
 restringidos) desaconsejan clientes puramente web. 
@@ -1591,12 +1131,9 @@ JavaFX como cliente de escritorio no sustituye a Jakarta EE en servidor, si no q
 coexistir como un cliente enriquecido frente a servicios REST/mensajería expuestos por la capa de 
 negocio. 
 
-<!-- Page 38 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-38 
 Transición 
 La transición hacia este modelo no ha sido instantánea en la administración pública. Durante la década 
 de 2000, predominaban los sistemas monolíticos heredados escritos en COBOL o Visual Basic 6, donde 
@@ -1615,8 +1152,7 @@ trámites simplificados, mientras que los de alta criticidad (como validadores d
 auditorías exhaustivas. 
 Esta categorización, formalizada en guías como la "Guía de Desarrollo de Componentes de la AGE" de 
 2021, permite que se apliquen procedimientos diferenciados según el contexto. 
-3.2. Relación entre componentes, microservicios 
-y servicios web 
+### 🔵 3.2. Relación entre componentes, microservicios y 
 Los contratos de componente representan el núcleo semántico del DBC, estableciendo un acuerdo formal \nentre el proveedor y el consumidor que trasciende la mera firma de métodos. En el ecosistema .NET, estos 
 contratos se materializan mediante interfaces (IL) y clases abstractas que definen no solo la sintaxis (qué 
 métodos existen), sino también el comportamiento esperado (cómo deben reaccionar ante entradas \nespecíficas). Un contrato robusto especifica precondiciones (qué debe ser cierto antes de la ejecución), 
@@ -1629,12 +1165,9 @@ contractual permite que un equipo desarrolle el front-end de una aplicación de 
 mientras otro, simultáneamente, perfecciona el algoritmo de validación, con la confianza de que ambos 
 operarán sobre el mismo modelo de datos. 
 
-<!-- Page 39 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-39 
 El polimorfismo en componentes empresariales no se limita a la sobrescritura de métodos, sino que se \nextiende a la capacidad de intercambiar implementaciones completas sin reconstruir el consumidor. 
 Consideremos el caso del sistema de notificaciones de la DGT: el componente INotificador podría tener 
 implementaciones concretas como NotificadorEmail, NotificadorSMS y NotificadorSedeElectronica. 
@@ -1644,7 +1177,7 @@ según preferencias del usuario y criticidad del mensaje. Esta flexibilidad resu
 una nueva normativa (como el Reglamento eIDAS 2.0) que exige notificaciones a través de aplicaciones 
 de mensajería certificadas; basta con desarrollar NotificadorWallet sin modificar ni recompilar el sistema 
 de multas existente. 
-Para ordenar las ideas y ver de un vistazo cómo se relacionan contratos, componentes, servicios web y 
+Para ordenar las ideas y ver de un vistazo cómo se relacionan contratos, componentes, 
 microservicios -y dónde encajan el polimorfismo y la composición tardía-, observa la siguiente figura. 
  
 Como se aprecia, los contratos sostienen todo el ecosistema: permiten sustituir implementaciones sin 
@@ -1664,12 +1197,9 @@ convocatoria. Esta estrategia permite que una misma aplicación soporte múltipl
 validación sin cambiar su código fuente, simplemente modificando archivos de configuración XML o 
 anotaciones, operación que puede realizar un técnico auxiliar sin acceso al código fuente original. 
 
-<!-- Page 40 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-40 
 La interacción entre estos tres principios crea un ecosistema de desarrollo extraordinariamente robusto 
 cuando se implementa correctamente. Sin embargo, en la práctica administrativa, surgen desafíos 
 derivados de la acumulación de deuda técnica. Por ejemplo, es común encontrar componentes 
@@ -1702,19 +1232,15 @@ contrato, porque crea falsas expectativas.
 En entornos .NET, Code Contracts (aunque obsoleto) sentó las bases para la especificación mediante 
 atributos como Contract.Requires, mientras que en Java EE/Jakarta EE, Bean Validation y anotaciones 
 como @NotNull cumplen funciones similares. 
-3.3. Principios arquitectónicos: contratos, polimorfismo 
-y composición tardía 
-La distinción conceptual entre componentes, microservicios y servicios web constituye una fuente de 
+### 🔵 3.3. Principios arquitectónicos: contratos, polimorfismo y composición tardía 
+La distinción conceptual entre componentes, microservicios y 
 confusión crónica en equipos de desarrollo público, donde la tendencia a etiquetar cualquier pieza 
 modular como "microservicio" ha generado arquitecturas híbridas con los inconvenientes de ambos 
 mundos. 
 
-<!-- Page 41 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-41 
 Componentes 
 Los componentes son unidades de despliegue intra-proceso: residen dentro del mismo espacio de 
 memoria de una aplicación y se comunican mediante llamadas a métodos directas, ofreciendo latencia 
@@ -1730,8 +1256,8 @@ repositorio Git, pipeline CI/CD y equipo de desarrollo. La comunicación entre m
 obligatoriamente atraviesa la red, típicamente mediante HTTP/REST o protocolos asíncronos como 
 AMQP, lo que introduce latencia y complejidad en la gestión de transacciones distribuidas. Esta 
 separación permite escalar horizontalmente solo los servicios críticos (por ejemplo, el de firma \nelectrónica durante periodos de matrícula) sin desperdiciar recursos en componentes estáticos. 
-Servicios web 
-Los servicios web son la capa de protocolo que habilita la interoperabilidad entre tecnologías 
+
+Los 
 heterogéneas, actuando como el pegamento que une componentes y microservicios en ecosistemas de 
 la administración. Un servicio web SOAP (WSDL-first) permite que un componente Java EE del Sistema 
 de Información de la Seguridad Social se comunique con un microservicio .NET del Registro Central de 
@@ -1775,18 +1301,15 @@ Servicio de notificaciones push
 Interfaz SOAP de Pago 
 CTT 
 
-<!-- Page 42 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-42 
-Para sintetizar las diferencias clave entre componentes, microservicios y servicios web -y su papel 
+Para sintetizar las diferencias clave entre componentes, microservicios y 
 dentro de las arquitecturas híbridas de la Administración Pública-, la siguiente figura resume sus 
 características esenciales, su ámbito de despliegue y sus implicaciones operativas. 
  
 Como se observa, cada paradigma aporta ventajas específicas: los componentes garantizan velocidad y 
-transacciones consistentes, los microservicios habilitan escalabilidad y autonomía, y los servicios web 
+transacciones consistentes, los microservicios habilitan escalabilidad y autonomía, y los 
 aseguran interoperabilidad institucional. Comprender cuándo aplicar cada enfoque es esencial para 
 diseñar arquitecturas sostenibles y evitar errores comunes como la sobredimensión innecesaria de 
 infraestructuras. 
@@ -1795,24 +1318,19 @@ La realidad práctica en entornos como la Administración General del Estado (AG
 tres paradigmas en arquitecturas híbridas. Un ejemplo paradigmático es la Plataforma de Recuperación de 
 Información de la Seguridad Social (PRISS): el front-end JSF consume componentes EJB locales para 
 validaciones complejas, estos componentes invocan microservicios Spring Boot para cálculos actuariales 
-intensivos, y todo el ecosistema se integra con servicios web SOAP legados del INSS de hace 15 años. Esta 
+intensivos, y todo el ecosistema se integra con 
 diversidad técnica exige que el técnico auxiliar domine múltiples herramientas de monitorización: 
-VisualVM para componentes internos, Prometheus para microservicios y SOAP UI para servicios web. 
+VisualVM para componentes internos, Prometheus para microservicios y SOAP UI para 
 La decisión arquitectónica de cuándo usar cada patrón no es trivial y debe basarse en criterios objetivos: 
-• Los componentes son óptimos para lógica de negocio intensiva que requiere transacciones 
+- Los componentes son óptimos para lógica de negocio intensiva que requiere transacciones
 ACID rápidas (ej: cálculo de retenciones en nóminas de funcionarios). 
-• Los microservicios brillan en dominios con requisitos de escalabilidad independiente o equipos 
-de desarrollo distribuidos geográficamente (ej: sistema de cita previa del SEPE con picos de 10x 
+- Los microservicios brillan en dominios con requisitos de escalabilidad independiente o equipos de desarrollo distribuidos geográficamente (ej: sistema de cita previa del SEPE con picos de 10x 
 durante crisis). 
-• Los servicios web son obligatorios para integración con sistemas ajenos o heredados (ej: 
-conexión con Registro Mercantil o CIRCE). 
-
-<!-- Page 43 -->
+- Los conexión con Registro Mercantil o CIRCE). 
 
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-43 
 El error más común, documentado en informes de auditoría de la Cuenta General de la Nación, es 
 "microservitizar" componentes que nunca necesitarán escalar independientemente, generando 
 sobrecoste operativo en clusters de Kubernetes que justifican apenas 2-3 transacciones por segundo. 
@@ -1831,7 +1349,7 @@ Clave
 Dominar estas diferencias operativas es lo que permite mantener el 
 SLA del 99.95% que exige la normativa. 
  
-3.4. Lenguajes soportados y requisitos del CLR/CTS 
+### 🔵 3.4. Lenguajes soportados y requisitos del CLR/CTS
 El Common Language Runtime (CLR) de .NET y el Common Type System (CTS) conforman la 
 infraestructura que hace posible la interoperabilidad lingüística, un valor estratégico en la administración 
 pública donde conviven legados en lenguajes diversos con necesidades de modernización. El CLR actúa 
@@ -1851,12 +1369,9 @@ algoritmos de análisis predictivo para detección de fraude en ayudas sociales,
 y modelo funcional. Existen también lenguajes experimentales como IronPython o PowerShell para 
 scripting de automatización, aunque raramente se usan en componentes productivos. 
 
-<!-- Page 44 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-44 
 El requisito fundamental para que un lenguaje sea CLR-compliant es la compilación a Intermediate 
 Language (IL), un bytecode independiente de la plataforma. Este proceso transforma código fuente en 
 instrucciones de stack-based VM que el JIT (Just-In-Time compiler) convierte a machine code nativo en \nejecución. Veamos un ejemplo práctico de interoperabilidad: 
@@ -1890,12 +1405,9 @@ distinga si la implementación subyacente es C#, VB.NET o cualquier otro lenguaj
 CTS garantiza que los tipos string (System.String) y bool (System.Boolean) tengan idéntica 
 representación en memoria y comportamiento ante excepciones. 
 
-<!-- Page 45 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-45 
 Sin embargo, la libertad lingüística impone restricciones de arquitectura que el técnico auxiliar debe 
 conocer. El CLR diferencia entre código seguro (verificado por el runtime) e inseguro (con punteros 
 directos), requiriendo políticas CAS (Code Access Security) que en entornos públicos suelen ser 
@@ -1914,7 +1426,7 @@ y .NET 8 en contenedores Docker aislados, pero la comunicación entre ellas requ
 Esta complejidad operativa justifica la creación de catálogos de componentes homologados por versión 
 CLR, como mantiene la CTTI, evitando que un componente compilado para .NET 6 cause 
 BadImageFormatException al cargarse en un runtime incompatible. 
-3.5. Estrategias de testing y calidad en componentes 
+### 🔵 3.5. Estrategias de testing y calidad en componentes
 La garantía de calidad en componentes de administración pública excede el mero testing funcional, 
 incorporando verificaciones de cumplimiento normativo, interoperabilidad y seguridad que conforman 
 lo que se denomina "testing de gobernabilidad". 
@@ -1934,12 +1446,9 @@ Contract y Pact.NET facilitan el consumer-driven contract testing, donde el equi
 publica expectativas de formato que el equipo del SVDI debe cumplir. Este enfoque redujo un 80% los 
 defectos de integración en la última renovación del sistema de cita previa del SEPE. 
 
-<!-- Page 46 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-46 
 El testing de seguridad es no negociable en componentes que manejan datos clasificados según el ENS. 
 Se requiere un pipeline de Static Application Security Testing (SAST) que analice el bytecode en busca 
 de vulnerabilidades OWASP Top 10. Herramientas como SonarQube con reglas específicas de Java EE 
@@ -1976,13 +1485,10 @@ configuran con locales específicos (es-ES) para generar nombres, direcciones y 
 con la realidad demográfica española. Los datasets sintéticos se versionan en Nexus/Artifactory como 
 artefactos Maven/NuGet, asegurando reproducibilidad de pruebas años después del despliegue inicial. 
 
-<!-- Page 47 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-47 
-3.6. Seguridad de la cadena de suministro (dependencias) \nen Java/.NET 
+### 🔵 3.6. Seguridad de la cadena de suministro (dependencias) \nen Java/.NET
 Riesgo silencioso: dependencias y cadena de suministro 
 En aplicaciones reales, una parte importante del software no la escribe el equipo: llega empaquetada en 
 forma de librerías. Ese modelo es eficiente -reduce tiempos, reutiliza código probado-, pero introduce 
@@ -2013,12 +1519,9 @@ misma urgencia ni el mismo impacto: importa la criticidad, si el componente se u
 se trata de "corregir todo hoy", sino de tener un mecanismo para identificar riesgos y decidir con 
 criterio. 
 
-<!-- Page 48 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-48 
 En la práctica, la detección se apoya en bases de datos públicas de vulnerabilidades y en análisis 
 automatizados dentro del pipeline de integración/entrega. Lo importante, a nivel ATI, es comprender \nel flujo de trabajo: aparece un aviso, se determina si la versión afectada está presente, se evalúa el 
 alcance (qué parte de la aplicación usa esa librería) y se decide la mitigación: actualización, parche 
@@ -2043,20 +1546,16 @@ El tercer pilar es el que más pesa en auditoría y en respuesta ante incidentes
 poder afirmar con evidencias: este binario corresponde a este build, se generó en esta fecha, con estas 
 dependencias, desde este repositorio y con esta configuración. 
 En la práctica, esto se refleja en dos capacidades: 
-• Rastrear el camino desde el código y sus dependencias hasta el artefacto publicado (jar/war en 
+- Rastrear el camino desde el código y sus dependencias hasta el artefacto publicado (jar/war en
 Java, assemblies/paquetes en .NET, contenedor, etc.). 
-• Repetibilidad: poder reconstruir el artefacto si hace falta, con el mismo resultado o con 
-diferencias explicables. 
+- Repetibilidad: poder reconstruir el artefacto si hace falta, con el mismo resultado o con diferencias explicables. 
 Esa trazabilidad es lo que permite actuar bien cuando llega una alerta de seguridad. Si se anuncia una 
 vulnerabilidad crítica en una librería ampliamente usada, la respuesta eficiente no es "revisemos todo"; \nes "consultemos los inventarios de builds, identifiquemos qué servicios y qué despliegues están 
 afectados, y planifiquemos actualizaciones con prioridad real". Sin ese rastro, cada alerta se convierte \nen un incendio. 
 
-<!-- Page 49 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-49 
 Situaciones que ayudan a entender por qué esto importa. 
 Escenario 1: vulnerabilidad pública y urgente. 
 Se publica una alerta crítica sobre una librería muy común. El equipo de seguridad pide impacto en 24 
@@ -2068,7 +1567,7 @@ La aplicación cumple funcionalmente, pero en auditoría aparece un paquete sin 
 dependencia desactualizada sin justificación. En estos casos, la solución no es solo técnica; es de 
 proceso: repositorios controlados, evidencias de build y un ciclo de revisión de dependencias que 
 demuestre control. 
-3.7. Estrategias de evaluación y autoevaluación conceptual 
+### 🔵 3.7. Estrategias de evaluación y autoevaluación conceptual
 La evaluación de competencias en DBC para técnicos auxiliares informáticos no puede reducirse a 
 cuestionarios teóricos, sino que debe medir la capacidad de diagnóstico en escenarios reales de 
 producción. La autoevaluación conceptual se estructura en tres dimensiones: conocimiento declarativo 
@@ -2079,12 +1578,9 @@ Componentes (DBC), observa el siguiente esquema. Resume las tres dimensiones del
 aplicación práctica en la medición de competencias técnicas dentro de la Administración Pública. 
  
 
-<!-- Page 50 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-50 
 Como se observa, la combinación de evaluación declarativa, procedimental y condicional permite 
 valorar no solo la memoria o la ejecución, sino la capacidad de razonamiento diagnóstico. A 
 continuación, se detallan los mecanismos específicos de cada dimensión, junto con las herramientas y \nejemplos que facilitan su aplicación práctica en entornos reales de trabajo. 
@@ -2115,12 +1611,9 @@ Hacienda).
 Se debe puntuar entre 8-10 identificando que la solución óptima es un microservicio con API REST 
 interna y fachada SOAP externa, con coste moderado pero máximo cumplimiento normativo. 
 
-<!-- Page 51 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-51 
 Autoevaluación conceptual 
 La autoevaluación formativa continua se implementa mediante bitácoras de aprendizaje digital. Cada 
 técnico documenta en un wiki interno (Confluence) cada incidente resuelto: síntomas, herramientas 
@@ -2145,7 +1638,7 @@ sabe por qué."
  
  
 Esta filosofía justifica la evaluación conceptual sobre mera ejecución mecánica de procedimientos. 
-4. Arquitectura Java EE/Jakarta EE moderna 
+## 🟣 4. Arquitectura Java EE/Jakarta EE moderna
 La transición de Java EE a Jakarta EE representa una redefinición estratégica de la plataforma \nempresarial de Java con implicaciones directas en la modernización de sistemas públicos. El traspaso de 
 Oracle a la Eclipse Foundation en 2017 inauguró un proceso de gobernanza abierta que condiciona la 
 sostenibilidad técnica y normativa de las decisiones de mantenimiento. 
@@ -2154,12 +1647,9 @@ obsolescencia forzosa, sino una ventana de oportunidad para planificar migracion
 preserven la inversión pública mientras se adoptan arquitecturas cloud-native. Esta unidade epígrafe 
 aborda esa dualidad: la interoperabilidad con el legado y la operación del presente. 
 
-<!-- Page 52 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-52 
 El dominio de Jakarta EE permite diagnosticar incidencias en aplicaciones que conviven en distintos 
 perfiles (Platform, Web, Core) sin necesidad de desplegar el código fuente, configurar contenedores 
 que gestionen transacciones JTA distribuidas entre microservicios, y fundamentar ante un comité de 
@@ -2182,7 +1672,7 @@ requiere entender que Jakarta EE es un estándar vivo, que responde a presiones 
 seguridad y eficiencia en el sector público. La justificación técnica y normativa de cada decisión de 
 configuración constituye el criterio profesional que garantiza la operación de infraestructuras que 
 soportan la gestión de millones de ciudadanos. 
-4.1. Evolución histórica: de Java EE 8 a Jakarta EE 11 
+### 🔵 4.1. Evolución histórica: de Java EE 8 a Jakarta EE 11
 En septiembre de 2017, la comunidad técnica asistió al traspaso más relevante de la plataforma \nempresarial de Java desde su creación: Oracle cedió el testigo a la Eclipse Foundation. El gesto no fue 
 simbólico. Al conservar Oracle la marca "Java", el nuevo hogar necesitó un nombre distinto y la 
 comunidad adoptó "Jakarta", en homenaje a la capital de Indonesia donde, años atrás, Sun 
@@ -2197,12 +1687,9 @@ descriptor XML y cada coordenada Maven debió actualizarse; de lo contrario, el 
 despliegue con un mensaje claro: "package javax.servlet does not exist". Esta validación en frío protege la 
 integridad de la plataforma y obliga a los equipos a planificar la migración con auditoría previa. 
 
-<!-- Page 53 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-53 
 Jakarta EE 9, publicada en 2020, no añadió nuevas capacidades; su único objetivo fue estabilizar el 
 nuevo esquema de nombres. GlassFish 6 se convirtió en el servidor de referencia, mientras que WildFly 
 22, Payara 5 y Tomcat 10 permanecieron temporalmente en Jakarta EE 8 para facilitar una transición 
@@ -2237,12 +1724,9 @@ public class HelloServlet extends HttpServlet {
     } 
 } 
 
-<!-- Page 54 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-54 
 Código Jakarta EE 10 (después) 
 package es.ayto.miapp; 
 import jakarta.servlet.annotation.WebServlet; 
@@ -2270,12 +1754,9 @@ Estrategia de migración en entornos públicos:
 5. Pre-producción: desplegar en contenedor LTS (WildFly 27+, Payara 6+, GlassFish 7+). 
 6. Ventana de mantenimiento: backup, despliegue, test de humo y rollback documentado. 
 
-<!-- Page 55 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-55 
 En entornos públicos, la elección de una versión LTS no es una opción; es una obligación de continuidad. 
 Las distribuciones LTS de Jakarta EE 10 y 11 garantizan parches de seguridad y soporte comercial 
 durante al menos ocho años, lo que cubre dos ciclos presupuestarios típicos. Además, la diferenciación \nentre perfiles Platform, Web y Core permite seleccionar exactamente el conjunto de especificaciones 
@@ -2299,7 +1780,7 @@ La nueva gobernanza en la Eclipse Foundation también ha democratizado el desarr
 cerrado, ahora los avances se discuten abiertamente en GitHub con participación de la comunidad. Esto 
 ha acelerado la respuesta a necesidades reales, como la mejora en la seguridad de APIs REST o la 
 simplificación de la configuración de fuentes de datos en entornos containerizados.  
-4.2. Perfiles y arquitectura cloud-native en Jakarta EE 
+### 🔵 4.2. Perfiles y arquitectura cloud-native en Jakarta EE
 Los perfiles de Jakarta EE representan una de las respuestas más inteligentes a la diversidad de \nescenarios del sector público. El perfil Platform, que hereda la totalidad de las especificaciones, sigue 
 siendo el estándar para aplicaciones monolíticas consolidadas en ministerios o grandes organismos 
 autónomos. Sin embargo, el verdadero avance llega con el perfil Web y, especialmente, con el perfil 
@@ -2314,12 +1795,9 @@ su vez, configuran variables de entorno leídas por la aplicación Jakarta EE a 
 @Resource. Esta simbiosis entre estándar Java y orquestación cloud es lo que hace viable la 
 modernización sin reescribir desde cero. 
 
-<!-- Page 56 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-56 
 El perfil Core elimina componentes históricos que ya no son esenciales en contenedores: no incluye 
 CORBA, ni JMS clásico, ni soporte para applets. Mantiene, en cambio, CDI, RESTful Web Services, JSON 
 Processing y seguridad básica. Esta selección deliberada responde a análisis de uso en producción de 
@@ -2351,12 +1829,9 @@ public class EmpleadoResource {
 } 
  
 
-<!-- Page 57 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-57 
  
  
  
@@ -2367,7 +1842,7 @@ ataque menos y un ciclo de parcheo menos." - Documento técnico
 del Centro Criptológico Nacional sobre hardening de contenedores 
 Java, 2024. 
  
-4.3. Contenedores: CDI, EJB Lite y MicroProfile 6.1 
+### 🔵 4.3. Contenedores: CDI, EJB Lite y MicroProfile 6.1
 El Contexts and Dependency Injection (CDI) 4.0 es el corazón de la inyección de dependencias en 
 Jakarta EE, pero su evolución va mucho más allá de simple resolución de objetos. Las novedades 
 incluyen eventos asíncronos con priorización, mejoras en el ciclo de vida de contextos personalizados y, 
@@ -2395,12 +1870,9 @@ Para comprender cómo se integran los distintos contenedores en el ecosistema Ja
 siguiente figura resume la relación entre CDI 4.0, EJB Lite y MicroProfile 6.1. Cada uno cumple una 
 función distinta, pero juntos conforman la base sobre la que se construyen las aplicaciones \nempresariales actuales en la Administración Pública. 
 
-<!-- Page 58 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-58 
  
 Como se aprecia, CDI actúa como el tejido que une dependencias, EJB Lite garantiza la fiabilidad 
 transaccional y MicroProfile aporta la observabilidad necesaria en entornos cloud. Esta sinergia da lugar 
@@ -2423,12 +1895,9 @@ public class NominaService {
     @Retry(maxRetries = 3) // MicroProfile Fault Tolerance 
     @Timeout(3000) // MicroProfile Timeout 
 
-<!-- Page 59 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-59 
     public Nomina generarNomina(Long empleadoId) { 
         return em.createNamedQuery("Nomina.findActiva", Nomina.class) 
                  .setParameter("id", empleadoId) 
@@ -2440,7 +1909,7 @@ Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .N
         // implementación 
     } 
 } 
-4.4. Servicios empresariales: JTA, JNDI y Jakarta Security 3.0 
+### 🔵 4.4. Servicios empresariales: JTA, JNDI y Jakarta Security 3.0
 Jakarta Transaction API (JTA) 2.0 sigue siendo el pilar de la integridad de datos en aplicaciones del 
 sector público. Su función es coordinar transacciones que abarcan múltiples recursos (bases de datos, 
 colas de mensajes, sistemas legados). Un caso concreto sería la actualización simultánea del registro de 
@@ -2467,12 +1936,9 @@ automáticamente en el pipeline de seguridad de todos los endpoints. Además, la
 Identity Stores permite separar la lógica de autenticación (validar credenciales) de la autorización 
 (asignar roles), facilitando la auditoría que exige la Ley 40/2015 de Régimen Jurídico del Sector Público. 
 
-<!-- Page 60 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-60 
 La trazabilidad de accesos es otro aspecto fortalecido. Con la anotación @SecurityAudit, todo método 
 protegido registra automáticamente en el log del servidor (formateado en JSON para su ingestión por 
 ELK) quién accedió, cuándo, desde qué IP y qué parámetros se enviaron. En un concurso de traslados, 
@@ -2500,13 +1966,10 @@ herramientas como HashiCorp Vault o Azure Key Vault inyecten
 secretos sin persistencia en disco. 
  
 
-<!-- Page 61 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-61 
-4.5. Persistencia con JDBC: control raw y sus costes 
+### 🔵 4.5. Persistencia con JDBC: control raw y sus costes
 JDBC te permite fijar el isolation level de cada transacción o decidir cuándo hacer commit a mano, pero \nesa libertad se paga en líneas de código y en tickets a las 3 a.m. Si olvidas cerrar un ResultSet en un 
 bucle anidado, el pool agota conexiones y el monitor marca "thread blocked"; en un clúster de cinco 
 nodos el efecto se multiplica y la latencia media sube del segundo al minuto. Por eso, antes de escribir: 
@@ -2535,12 +1998,9 @@ public class LegacyReportRepository {
             SELECT id, codigo, importe, fecha FROM MOVIMIENTOS 
             WHERE fecha BETWEEN ? AND ? 
 
-<!-- Page 62 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-62 
             ORDER BY fecha 
             """; 
         List<LegacyRecord> results = new ArrayList<>(); 
@@ -2576,12 +2036,9 @@ cierran automáticamente
     } 
 } 
 
-<!-- Page 63 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-63 
 Connection pooling y gestión de recursos 
 En producción, nunca uses DriverManager. El pool es crítico: crea conexiones persistentes, reduce 
 latencia y evita agotar el servidor de BD. Los contenedores Jakarta EE y Spring inyectan DataSource 
@@ -2608,16 +2065,13 @@ try {
     throw new RuntimeException(e); 
 } 
 
-<!-- Page 64 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-64 
 El isolation level afecta a bloqueos y phantom reads: 
-• READ_COMMITTED: estándar, evita dirty reads. Default en PostgreSQL. 
-• REPEATABLE_READ: evita non-repeatable reads. Default en MySQL. 
-• SERIALIZABLE: máxima consistencia, pero más bloqueos. 
+- READ_COMMITTED: estándar, evita dirty reads. Default en PostgreSQL.
+- REPEATABLE_READ: evita non-repeatable reads. Default en MySQL.
+- SERIALIZABLE: máxima consistencia, pero más bloqueos.
 Para batch masivos (ETL), usa addBatch(): 
 try (PreparedStatement ps = conn.prepareStatement( 
     "INSERT INTO historico (data, fecha) VALUES (?, ?)")) { 
@@ -2640,12 +2094,9 @@ for (int i = 1; i <= columnCount; i++) {
     System.out.println(meta.getColumnName(i) + ": " + meta.getColumnTypeName(i)); 
 } 
 
-<!-- Page 65 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-65 
 JDBC 4.0+ usa auto-loading: no necesitas Class.forName("com.mysql.Driver"). Los drivers se descubren 
 automáticamente vía META-INF/services/java.sql.Driver. 
 Desde Java 21, con Virtual Threads, JDBC se vuelve "reactivo sin cambio de API": cada llamada 
@@ -2664,7 +2115,7 @@ signo de que alguien no entiende pooling ni inyección. El DBC
 moderno exige que el acceso a datos sea un contrato (Repository), 
 no una cadena de llamadas JDBC esparcidas. 
  
-4.6. Persistencia: Jakarta Persistence 3.2 y alternativas ORM 
+### 🔵 4.6. Persistencia: Jakarta Persistence 3.2 y alternativas ORM
 Jakarta Persistence 3.2 (anteriormente JPA) incorpora mejoras cruciales para el rendimiento en 
 arquitecturas distribuidas. La característica más destacada es la optimización del fetch plan en 
 consultas: ahora es posible definir perfiles de carga dinámicos mediante la anotación @FetchProfile, 
@@ -2685,12 +2136,9 @@ SQL legado es muy alta, como en migraciones de mainframe donde los SELECT tienen
 optimizados. jOOQ, por su parte, ofrece tipado seguro de SQL en tiempo de compilación, detectando \nerrores de sintaxis antes del despliegue. En sistemas críticos, donde un error SQL en producción puede 
 bloquear el pago de pensiones, este tipo de seguridad sintáctica tiene valor incalculable. 
 
-<!-- Page 66 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-66 
 La tabla comparativa sintetiza las opciones para el técnico que debe justificar su elección en un 
 proyecto: 
 Criterio 
@@ -2748,12 +2196,9 @@ public class Expediente {
     @OneToMany(mappedBy = "expediente") 
     private Set<Documento> documentos; 
 
-<!-- Page 67 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-67 
     @PrePersist 
     public void validarNumero() { 
         if (!ValidadorNIF.esValido(this.responsableNif)) { 
@@ -2761,7 +2206,7 @@ Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .N
         } 
     } 
 } 
-4.7. APIs RESTful con Jakarta RESTful Web Services 3.1 
+### 🔵 4.7. APIs RESTful con Jakarta RESTful Web Services 3.1
 Jakarta REST 3.1 (JAX-RS) introduce anotaciones que simplifican la exposición de servicios sin sacrificar \nel control. La anotación @BeanParam permite agrupar parámetros de query, header y cookie en un 
 POJO, facilitando la validación coherente. En el servicio de consulta de vacantes públicas, donde pueden \nexistir hasta 15 filtros (categoría, cuerpo, localidad, discapacidad, etc.), esta agrupación evita métodos 
 con firmas inmanejables. El POJO FiltroBusquedaVacante contiene cada parámetro con sus anotaciones 
@@ -2788,12 +2233,9 @@ nóminas") basta para que el despliegue exponga en /openapi un JSON que alimenta
 Gateway corporativo, facilitando el catálogo de servicios y el control de acceso centralizado sin 
 documentación manual. 
 
-<!-- Page 68 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-68 
 Para sintetizar las principales innovaciones de Jakarta REST 3.1 y su aplicación práctica en entornos 
 administrativos, la siguiente figura resume las anotaciones, mecanismos y medidas de seguridad más 
 relevantes. Este esquema es útil como guía rápida para técnicos que deban diseñar o auditar APIs 
@@ -2805,12 +2247,9 @@ relevantes. Este esquema es útil como guía rápida para técnicos que deban di
 RESTful conforme al ENS y las directrices de interoperabilidad. 
  
 
-<!-- Page 69 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-69 
  
  
  
@@ -2851,13 +2290,10 @@ public class ConcursoResource {
     } 
 } 
 
-<!-- Page 70 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-70 
-4.8. Modelo de seguridad completo en Jakarta EE 
+### 🔵 4.8. Modelo de seguridad completo en Jakarta EE
 La seguridad en Jakarta EE se ha redefinido como un modelo en capas donde cada componente 
 desempeña un rol específico y auditable. 
 La capa de transporte, gestionada por el contenedor web, se configura mediante el nuevo descriptor 
@@ -2902,12 +2338,9 @@ Roles
 Grupos en LDAP 
 JWT claims + OIDC 
 
-<!-- Page 71 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-71 
 Elemento de seguridad 
 Configuración tradicional 
 Jakarta EE 11 cloud-native 
@@ -2941,14 +2374,10 @@ public class FnmtIdentityStore implements IdentityStore {
     } 
 } 
 
-<!-- Page 72 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-72 
-5. Ecosistema y compatibilidad en el desarrollo 
-basado en componentes 
+## 🟣 5. Ecosistema y compatibilidad en el desarrollo basado en componentes 
 El desarrollo basado en componentes no se reduce al mero ensamblaje de bibliotecas o al despliegue de 
 microservicios en contenedores. En su núcleo reside un ecosistema técnico y normativo que garantiza 
 que un componente diseñado hoy seguirá siendo operativo dentro de tres años, en un servidor de 
@@ -2987,13 +2416,10 @@ construida en .NET Standard 2.1 puede consumirse desde ASP.NET Core 8, desde una
 serverless en Azure o desde una aplicación Windows Forms, siempre que se respeten los contratos de 
 API definidos. 
 
-<!-- Page 73 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-73 
-5.1. Gobernanza y certificación de las Plataformas 
+### 🔵 5.1. Gobernanza y certificación de las Plataformas
 Empresariales 
 La gobernanza de una plataforma empresarial no es un capítulo decorativo: es el mecanismo de control 
 que diferencia una especificación real de una simple recomendación del fabricante. Cuando el equipo de 
@@ -3010,17 +2436,13 @@ El Proceso de Especificación de Jakarta EE, vigente desde 2020, introduce un me
 semántico estricto. Cada especificación (CDI, JAX-RS, EJB, etc.) es desarrollada por un Specification 
 Committee independiente, compuesto por representantes de empresas (IBM, Oracle, Red Hat) y 
 miembros individuales. El ciclo de vida es transparente: 
-• Definición de release plan: El committee aprueba el alcance (ej: "CDI 4.0 incorporará mejoras en 
-la resolución de ambigüedades en inyección"). 
-• Desarrollo de APIs y TCK: El código de las interfaces y las pruebas se desarrolla en paralelo en 
-repositorios públicos de Eclipse. 
-• Milestone releases: Versiones candidatas se publican cada tres meses para feedback 
-comunitario. 
-• Certificación: Para obtener el branding "Jakarta EE 10 Web Profile", un servidor debe: 
-• Ejecutar el TCK completo del perfil (>12.000 pruebas) sin fallos. 
-• Publicar los resultados en el Compatibility Register de Eclipse. 
-• Pagar una licencia anual de uso de marca (actualmente 10.000 USD para implementaciones 
-open source, 50.000 USD para productos comerciales). 
+- Definición de release plan: El committee aprueba el alcance (ej: "CDI 4.0 incorporará mejoras en la resolución de ambigüedades en inyección"). 
+- Desarrollo de APIs y TCK: El código de las interfaces y las pruebas se desarrolla en paralelo en repositorios públicos de Eclipse. 
+- Milestone releases: Versiones candidatas se publican cada tres meses para feedback comunitario. 
+- Certificación: Para obtener el branding "Jakarta EE 10 Web Profile", un servidor debe:
+- Ejecutar el TCK completo del perfil (>12.000 pruebas) sin fallos.
+- Publicar los resultados en el Compatibility Register de Eclipse.
+- Pagar una licencia anual de uso de marca (actualmente 10.000 USD para implementaciones open source, 50.000 USD para productos comerciales). 
 El TCK no es un simple test suite: es un framework de ejecución distribuida que despliega artefactos de 
 prueba en el servidor objetivo, ejecuta invocaciones RMI/IIOP, valida serialización de excepciones y 
 verifica el comportamiento en concurrencia. Un fallo en el TCK significa una desviación del contrato; no 
@@ -3028,12 +2450,9 @@ se negocia. Para el técnico público, esto implica que puede descargarse el Jak
 download.eclipse.org/jakartaee/platform/10 y reproducir la certificación en su propio entorno de 
 preproducción antes de comprometerse con un proveedor. Es una garantía de soberanía técnica real. 
 
-<!-- Page 74 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-74 
 Perfiles y niveles de certificación: más allá del "todo o nada" 
 Jakarta EE define dos perfiles estratégicos con propósitos distintos: 
 Perfil 
@@ -3052,7 +2471,6 @@ Payara Server 6, TomEE
 9.1, WildFly 28 (Web) 
 Full 
 Platform 
-10 
 Web Profile + JAX-WS, 
 JMS, EJB Full (remoto), 
 JCA 
@@ -3072,12 +2490,10 @@ El modelo de .NET es dual: especificación centralizada (ECMA/ISO) y desarrollo 
 Foundation). La .NET Foundation no certifica servidores, pero Microsoft garantiza LTS (Long Term 
 Support) de 3 años + 2 de extended, con parches de seguridad retroactivos. La garantía de 
 compatibilidad se basa en: 
-• API Baseline Validation: Cada PR en dotnet/runtime ejecuta ApiCompat para detectar rupturas 
-binarias. 
-• Platform Compatibility Suite: Más de 100.000 tests validan comportamiento en Windows, Linux 
+- API Baseline Validation: Cada PR en dotnet/runtime ejecuta ApiCompat para detectar rupturas binarias. 
+- Platform Compatibility Suite: Más de 100.000 tests validan comportamiento en Windows, Linux
 Alpine, Ubuntu y macOS. 
-• Source-Build Validation: Garantiza que cualquier distribuidor (Red Hat, Canonical) puede 
-recompilar .NET desde fuente sin diferencias funcionales. 
+- Source-Build Validation: Garantiza que cualquier distribuidor (Red Hat, Canonical) puede recompilar .NET desde fuente sin diferencias funcionales. 
  
  
  
@@ -3089,12 +2505,9 @@ para .NET 8 LTS funcionará en Red Hat Enterprise Linux 9 con
 Microsoft, sin recompilar. 
  
 
-<!-- Page 75 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-75 
  
  
  
@@ -3104,44 +2517,38 @@ mig  ración directa a .NET 8 si el código usa WCF o WF; requiere
 refactorización. En los pliegos, se debe exigir explícitamente ".NET 
 6 LTS o superior, sin dependencias de .NET Framework. 
  
-5.2. Principales especificaciones Jakarta EE 11: migración 
-y adopción en entornos públicos 
+### 🔵 5.2. Principales especificaciones Jakarta EE 11: migración y adopción en entornos públicos 
 Jakarta EE 11 (lanzada 23 junio 2024) no es una mera actualización: es la primera versión que rompe 
 deliberadamente con el pasado eliminando especificaciones obsoletas y afinando la plataforma para 
 Java 21. Para un técnico de la AGE, esto implica decisiones estratégicas: ¿merece la pena migrar desde 
 Jakarta EE 10 a 11 en el sistema de inspección tributaria? La respuesta depende de si necesitas Virtual 
 Threads para procesar 2 millones de declaraciones concurrentemente sin agotar el pool de hilos. 
 Mapa rápido: especificación → para qué se usa 
-• Servlet / Pages: Capa web tradicional (controladores, filtros, sesiones) y render del lado 
-servidor. 
-• JAX-RS (REST): Exposición de APIs HTTP para SPA, móvil y terceros. 
-• JPA (Persistencia): ORM; CRUD, consultas tipadas; integra con JTA. 
-• JTA (Transacciones): Coordinación transaccional (local/JTA) a nivel de contenedor. 
-• CDI (Contextos e Inyección): Inyección de dependencias y ciclos de vida; pegamento de la 
-plataforma. 
-• Bean Validation: Reglas declarativas en entidades/DTOs y validación en frontera (servicios). 
-• JSON-B / JSON-P: Serialización/binding y procesamiento de JSON. 
-• WebSocket: Comunicación full-duplex en tiempo real (paneles, notificaciones). 
-• Batch: Procesos por lotes (ETL, cierres periódicos). 
-• JMS (Mensajería): Colas/tópicos para desacoplar y escalar (patrones asíncronos). 
-• JAX-WS (SOAP): Interoperabilidad con servicios legados que exigen WSDL. 
-• JCA (Connectors): Integración con sistemas empresariales vía adaptadores. 
-• Mail: Notificaciones y avisos por correo. 
-
-<!-- Page 76 -->
+- Servlet / Pages: Capa web tradicional (controladores, filtros, sesiones) y render del lado servidor. 
+- JAX-RS (REST): Exposición de APIs HTTP para SPA, móvil y terceros.
+- JPA (Persistencia): ORM; CRUD, consultas tipadas; integra con JTA.
+- JTA (Transacciones): Coordinación transaccional (local/JTA) a nivel de contenedor.
+- CDI (Contextos e Inyección): Inyección de dependencias y ciclos de vida; pegamento de la plataforma. 
+- Bean Validation: Reglas declarativas en entidades/DTOs y validación en frontera (servicios).
+- JSON-B / JSON-P: Serialización/binding y procesamiento de JSON.
+- WebSocket: Comunicación full-duplex en tiempo real (paneles, notificaciones).
+- Batch: Procesos por lotes (ETL, cierres periódicos).
+- JMS (Mensajería): Colas/tópicos para desacoplar y escalar (patrones asíncronos).
+- JAX-WS (SOAP): Interoperabilidad con servicios legados que exigen WSDL.
+- JCA (Connectors): Integración con sistemas empresariales vía adaptadores.
+- Mail: Notificaciones y avisos por correo.
 
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-76 
 Regla de elección rápida 
-• API pública → JAX-RS (+ JSON-B/JSON-P). 
-• Datos relacionales → JPA (+ Bean Validation). 
-• Flujos críticos → JTA + CDI. 
-• Procesamiento programado/masivo → Batch (y JMS si asíncrono). 
-• Tiempo real → WebSocket (o SSE según el caso). 
-• Legado estricto → JAX-WS. 
-• Integraciones propietarias → JCA. 
+- API pública → JAX-RS (+ JSON-B/JSON-P).
+- Datos relacionales → JPA (+ Bean Validation).
+- Flujos críticos → JTA + CDI.
+- Procesamiento programado/masivo → Batch (y JMS si asíncrono).
+- Tiempo real → WebSocket (o SSE según el caso).
+- Legado estricto → JAX-WS.
+- Integraciones propietarias → JCA.
 Cambios disruptivos clave de Jakarta EE 11 (que afectan al código existente) 
 a. Eliminaciones radicales (no hay vuelta atrás) 
 Especificación \neliminada 
@@ -3174,12 +2581,9 @@ public Response get(@Context UriInfo uriInfo) { ... }
 @GET 
 public Response get() { ... } 
 
-<!-- Page 77 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-77 
 Implicación: Si tu sistema de consulta de expedientes usa @Context en 200 endpoints, el migrador 
 debe automatizar con OpenRewrite, no manualmente. 
 @ManagedBean: El concepto de "Managed Bean" propio de Jakarta se elimina. TODO componente 
@@ -3204,42 +2608,36 @@ nómina de la Seguridad Social, donde se procesan 12 millones de bases de cotiza
 reduce el coste de infraestructura en un 40%. Pero requiere Java 21 en producción, y muchos 
 datacenters públicos aún operan con Java 17 LTS. 
 
-<!-- Page 78 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-78 
 Perfiles y certificación real (agosto 2024) 
 Jakarta EE 11 introduce tres perfiles con distintos TCKs: 
 1. Core Profile 11: CDI Lite + REST + JSON + Security. 
-• Diseñado para microservicios sin EJB. 
-• TCK: ~8.000 tests. 
-• Implementado por: Helidon 4, Quarkus 3.6+ 
+- Diseñado para microservicios sin EJB.
+- TCK: ~8.000 tests.
+- Implementado por: Helidon 4, Quarkus 3.6+
 2. Web Profile 11: Core + JPA + EJB Lite + Faces + WebSocket. 
-• Para aplicaciones web tradicionales pero sin integración pesada. 
-• TCK: ~18.000 tests. 
-• Implementado por: TomEE 10 (milestone), Payara 6.2024.8 
+- Para aplicaciones web tradicionales pero sin integración pesada.
+- TCK: ~18.000 tests.
+- Implementado por: TomEE 10 (milestone), Payara 6.2024.8
 3. Full Platform 11: Web Profile + JMS + JAX-WS + Batch + Mail. 
-• Para sistemas monolíticos con integraciones complejas. 
-• TCK: >40.000 tests. 
-• Implementado por: WildFly 32 (preview), GlassFish 8 (en desarrollo) 
+- Para sistemas monolíticos con integraciones complejas.
+- TCK: >40.000 tests.
+- Implementado por: WildFly 32 (preview), GlassFish 8 (en desarrollo)
 Importante: En agosto 2024, ningún servidor ha publicado certificación final de Full Platform 11 porque \nel TCK aún está en fase de estabilización. Las administraciones que quieran adoptar EE 11 deben usar 
 GlassFish 8 Milestone con riesgo de bugs o esperar a Q1 2025. Esto debe figurar en el análisis de riesgo 
 del proyecto. 
 Guía de migración paso a paso para sistemas críticos 
 Para migrar el sistema de recaudación de tasas judiciales desde Jakarta EE 9 a 11: 
-1. Análisis de dependencias: 
+## 🟣 1. Análisis de dependencias:
 mvn dependency:tree | grep javax.  # Debe dar vacío 
 mvn dependency:tree | grep "jakarta.xml.bind" # Si aparece, hay riesgo 
-
-<!-- Page 79 -->
 
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-79 
-2. Actualizar BOM: 
+## 🟣 2. Actualizar BOM:
 <properties> 
     <jakarta.version>11.0.0</jakarta.version> 
 </properties> 
@@ -3254,7 +2652,7 @@ Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .N
         </dependency> 
     </dependencies> 
 </dependencyManagement> 
-3. Transformar código: 
+## 🟣 3. Transformar código:
 # 🔴 Usar OpenRewrite (más moderno que Eclipse Transformer) 
 mvn rewrite:run -Drewrite.recipeArtifactCoordinates=org.openrewrite.recipe:rewrite-
 migrate-java:2.2.0 \ 
@@ -3267,16 +2665,13 @@ XML firmado para intercambio con la AEAT (ej: modelo 347), debes migrar la gener
 Web Services o usar directamente un marshaller independiente (EclipseLink MOXy). El TCK de EE 11 no 
 valida javax.xml.bind.*, por lo que un despliegue que lo use silenciosamente fallará en ejecución. 
 
-<!-- Page 80 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-80 
 Esto obliga a ejecutar la suite de pruebas del TCK de XML WS (más de 1.200 tests) antes de certificar la 
 migración. En el entorno de la DGT, este proceso identificó 23 puntos de fallo en generación de 
 justificantes que no se habían detectado en pruebas unitarias. 
-5.3. Compatibilidad de Servidores y Perfiles de Despliegue 
+### 🔵 5.3. Compatibilidad de Servidores y Perfiles de Despliegue
 La compatibilidad en Jakarta EE no es una promesa comercial: es un contrato verificado por la Eclipse 
 Foundation. Cuando el Centro Nacional de Inteligencia (CNI) migró en 2023 sus sistemas de análisis de 
 tráfico de WebLogic 12c a WildFly 28, la decisión no se basó en métricas de rendimiento, sino en la \nevidencia pública del TCK: puedes descargar en tiempo real los resultados de las 42.317 pruebas de 
@@ -3295,7 +2690,6 @@ Servidores
 certificados (EE 10) 
 Escenario AGE típico 
 Core Profile 
-11 
 ~8.200 
 8.000 USD 
 Helidon 4.0, Quarkus 
@@ -3303,7 +2697,6 @@ Helidon 4.0, Quarkus
 APIs serverless, funciones 
 Azure/GCP 
 Web Profile 
-11 
 ~18.500 
 15.000 USD 
 Payara 6.2024.8, 
@@ -3329,44 +2722,34 @@ Compatibilidad real por perfiles y servidores
 Objetivo: Alinear lo que necesita la aplicación (perfil y APIs efectivas) con lo que certifica el servidor 
 (TCK superado) para la versión exacta de Jakarta EE. 
 
-<!-- Page 81 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-81 
 Perfiles y alcance: 
 Web debe cubrir, como mínimo, Servlet/Pages, JAX-RS, JSON-B/JSON-P, CDI, JPA, Bean Validation y 
 Seguridad. 
 Platform añade Batch, JMS, JCA, WebSocket y el resto de la plataforma. Selecciónalo si el sistema 
 requiere cualquiera de esas capacidades. 
 Comprobaciones clave: 
-• Versiona con precisión: anota Jakarta EE X.Y + perfil + servidor/versión. 
-• Verifica TCK: el proveedor debe publicar o referenciar las pruebas de compatibilidad superadas 
-para esa versión (no vale el folleto comercial). 
-• Matriz de proyecto: (Proyecto → Perfil → Servidor/versión → Evidencia TCK → Resultado de 
-smoke tests). 
-• Entornos mixtos: separa despliegues por dominio/cluster para evitar conflictos de clase entre 
-javax.* y jakarta.*. 
+- Versiona con precisión: anota Jakarta EE X.Y + perfil + servidor/versión.
+- Verifica TCK: el proveedor debe publicar o referenciar las pruebas de compatibilidad superadas para esa versión (no vale el folleto comercial). 
+- Matriz de proyecto: (Proyecto → Perfil → Servidor/versión → Evidencia TCK → Resultado de smoke tests). 
+- Entornos mixtos: separa despliegues por dominio/cluster para evitar conflictos de clase entre javax.* y jakarta.*. 
 Regla operativa rápida: 
-• Si la app usa REST + JPA/JTA/CDI, orientar a perfil Web en servidor con TCK para la versión 
-objetivo. 
-• Si incorpora Batch/JMS/JCA/WebSocket, seleccionar perfil Platform y validar expresamente \nesas capacidades. 
-• Dejar constancia en el expediente: perfil, servidor, pruebas superadas y referencia de TCK. 
+- Si la app usa REST + JPA/JTA/CDI, orientar a perfil Web en servidor con TCK para la versión objetivo. 
+- Si incorpora Batch/JMS/JCA/WebSocket, seleccionar perfil Platform y validar expresamente \nesas capacidades.
+- Dejar constancia en el expediente: perfil, servidor, pruebas superadas y referencia de TCK.
 Mini-checklist de decisión: 
-•  Perfil requerido identificado (Web/Platform). 
-•  Servidor y versión con TCK para esa misma versión de Jakarta. 
-•  Dependencias alineadas con jakarta.* (sin arrastre javax.*). 
-• Smoke tests superados: arranque, REST (JAX-RS + JSON-B), persistencia/transacciones 
+- Perfil requerido identificado (Web/Platform).
+- Servidor y versión con TCK para esa misma versión de Jakarta.
+- Dependencias alineadas con jakarta.* (sin arrastre javax.*).
+- Smoke tests superados: arranque, REST (JAX-RS + JSON-B), persistencia/transacciones
 (JPA/JTA), seguridad declarativa. 
-•  Pruebas específicas (Batch/JMS/WebSocket/JCA) si procede. 
-
-<!-- Page 82 -->
+- Pruebas específicas (Batch/JMS/WebSocket/JCA) si procede.
 
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-82 
 Servidores reales: tabla de decisión técnico-jurídica 
 Servidor / 
 Plataforma 
@@ -3447,12 +2830,9 @@ sha256sum -c jakarta-jakartaeetck-11.0.0.zip.sha256
 java -jar jakartaeetck.jar -p full -s payara -t ejb30/lite/appexception   # 300 
 tests críticos 
 
-<!-- Page 83 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-83 
 Si el proveedor no puede mostrar el identificador único de certificado en el Compatibility Register de 
 Eclipse (ej: CERT-2024-08-PAYARA-6-2024-8), su "compatibilidad" es mera declaración de intenciones 
 y no cumple el ENI. 
@@ -3465,7 +2845,7 @@ artículo 131 de la Ley 40/2015. El informe técnico del perito concluyó: "La c
 certificación TCK es garantía de portabilidad parcial; solo el cumplimiento de las 42.000 pruebas del 
 TCK Full Platform constituye evidencia de neutralidad tecnológica verificable por terceros". El técnico 
 debe exigir siempre el certificado, no la declaración. 
-5.4. Ecosistema complementario: MicroProfile, Quarkus, 
+### 🔵 5.4. Ecosistema complementario: MicroProfile, Quarkus,
 Helidon y frameworks cloud-native 
 No se elige entre "Jakarta EE clásico" y "Quarkus moderno", se elige entre certificación jurídica 
 verificable y agilidad operativa con riesgo de vendor lock-in sutil. En 2023, el sistema de registro de 
@@ -3479,19 +2859,14 @@ gestionar.
 Eclipse MicroProfile: el estándar sin TCK (y sus riesgos) 
 MicroProfile surgió en 2016 como fast track para la innovación en microservicios, sin el rigor del JCP. Su 
 gobernanza es más laxa: 
-• No hay TCK oficial: Cada implementación (Quarkus, Helidon, Payara Micro) valida con su propio 
-test suite. 
-• Versionado semántico relajado: MicroProfile 6.1 (mayo 2024) incluye Config 3.1, pero la 
-compatibilidad hacia atrás no está garantizada por contrato legal, sino por acuerdo comunitario. 
-• Ciclo de vida corto: Una versión de MicroProfile se mantiente 2-3 años vs. 5-7 de Jakarta EE LTS. 
+- No hay TCK oficial: Cada implementación (Quarkus, Helidon, Payara Micro) valida con su propio test suite. 
+- Versionado semántico relajado: MicroProfile 6.1 (mayo 2024) incluye Config 3.1, pero la compatibilidad hacia atrás no está garantizada por contrato legal, sino por acuerdo comunitario. 
+- Ciclo de vida corto: Una versión de MicroProfile se mantiente 2-3 años vs. 5-7 de Jakarta EE LTS.
  
-
-<!-- Page 84 -->
 
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-84 
  
  
  
@@ -3555,12 +2930,9 @@ Crítica: El técnico debe saber que MicroProfile Telemetry no es lo mismo que J
 que en Payara Micro necesitas añadir el agente manualmente. Esta diferencia afecta el TCO: el agente 
 de OTEL en contenedor suma 40MB de memoria RSS. 
 
-<!-- Page 85 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-85 
 Quarkus vs Helidon: no son equivalentes (arquitectura interna) 
 Quarkus 3.14 LTS (Red Hat) es imperativo con optimizaciones AOT. Su ciclo de vida: 
 // Quarkus: inyección en build-time 
@@ -3585,12 +2957,9 @@ Desventaja: La programación reactiva es incompatible con JPA tradicional (requi
 driver). Si tu equipo no domina programación reactiva, no puedes migrar directamente. 
  
 
-<!-- Page 86 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-86 
  
  
  
@@ -3605,21 +2974,17 @@ previsto. El proyecto se retrasó 6 meses.
 El modelo híbrido real: Jakarta EE Full + Quarkus Core (recomendado por el MINTIC) 
 El Ministerio para la Transformación Digital recomienda en su Guía de Arquitectura 2024 un modelo 
 híbrido: 
-• Backend crítico: Jakarta EE Full en Payara 6 (certificado, TCK, LTS). 
-• Microservicios de consulta: Quarkus 3.14 Core Profile (solo REST + Config). 
-• Integración: Comunicación vía JMS sobre ActiveMQ Artemis (Jakarta Messaging) o Kafka (con 
-bridge Jakarta). 
-• Diagrama de despliegue: 
+- Backend crítico: Jakarta EE Full en Payara 6 (certificado, TCK, LTS).
+- Microservicios de consulta: Quarkus 3.14 Core Profile (solo REST + Config).
+- Integración: Comunicación vía JMS sobre ActiveMQ Artemis (Jakarta Messaging) o Kafka (con bridge Jakarta). 
+- Diagrama de despliegue:
  
 Ventaja: El legado no se toca. El nuevo código es portable a Helidon si Red Hat sube precios. La 
 comunicación es asíncrona, desacoplando ciclos de despliegue. 
 
-<!-- Page 87 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-87 
 Criterio de decisión: Usar Quarkus solo si el microservicio no requiere transacciones distribuidas. Si 
 necesitas XA (ej: actualizar base y enviar a cola JMS atómicamente), debes usar Jakarta EE Full. Quarkus 
 no certifica JTA completo. 
@@ -3632,7 +2997,7 @@ Quarkus sean 'desmontables': usar solo APIs que estén en el roadmap de Jakarta 
 Si usas 'quarkus-resteasy-reactive', estás atado; si usas 'jakarta.ws.rs-core', estás preparado para el 
 futuro. Esta estrategia de 'protección contra obsolescencia' es obligatoria en pliegos de >1M€ según la 
 Circular 1/2023 de la Intervención General. 
-6. Plataforma .NET 8+ y componentes 
+## 🟣 6. Plataforma .NET 8+ y componentes
 La transición de .NET Framework a .NET 8 LTS representa una reconversión arquitectónica 
 fundamental en el sector público, con implicaciones que trascienden la mera modernización 
 tecnológica. Esta plataforma introduce un modelo de desarrollo unificado que elimina fronteras entre 
@@ -3662,12 +3027,9 @@ cloud y desconectadas. Esta progresión refleja el pipeline de decisiones que de
 cualquier componente en un sistema crítico, desde la elección del modelo de compilación hasta la 
 configuración del último interceptor de auditoría. 
 
-<!-- Page 88 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-88 
 Este epígrafe se centra en la aplicación práctica más allá de las definiciones teóricas. La capacidad de 
 razonar ante un caso concreto -por qué un microservicio de consulta de multas debe usar Native AOT 
 para minimizar la superficie de ataque, o cómo configurar NuGet Package Source Mapping para 
@@ -3676,7 +3038,7 @@ un estándar vivo que responde a presiones reales de presupuesto, seguridad y ef
 público. La justificación técnica y normativa de cada decisión de configuración constituye el criterio 
 profesional que garantiza la operación de infraestructuras que soportan la gestión de millones de 
 ciudadanos. 
-6.1. Transición de .NET Framework a .NET 8 LTS 
+### 🔵 6.1. Transición de .NET Framework a .NET 8 LTS
 La migración desde .NET Framework hacia .NET 8 LTS constituye uno de los cambios arquitectónicos 
 más significativos que el sector público ha enfrentado en los últimos años. Esta transición no responde 
 únicamente a una simple actualización tecnológica, sino que implica una reconversión profunda de los 
@@ -3711,12 +3073,9 @@ precisamente en este punto donde la experiencia práctica adquiere relevancia: c
 particularidades de los sistemas de información del propio organismo resulta más valioso que dominar 
 abstractamente la teoría de la migración. 
 
-<!-- Page 89 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-89 
 Finalmente, la adopción de .NET 8 en entornos públicos exige reconsiderar las políticas de despliegue y 
 mantenimiento. El modelo de publicación self-contained elimina la dependencia del runtime instalado \nen el servidor, facilitando el despliegue en infraestructuras con restricciones de administrador, 
 frecuentes en redes gubernamentales. No obstante, esto incrementa el tamaño de los binarios, lo que 
@@ -3753,16 +3112,13 @@ término si aparece en examen.
 UWP y Windows "moderno": presente en legado de aplicaciones empaquetadas y escenarios \nespecíficos de Windows. En proyectos actuales suele aparecer como "hay una app UWP existente que 
 hay que migrar o con la que convivir", no como opción en desarrollos nuevos. 
 
-<!-- Page 90 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-90 
 El concepto de .NET Standard surge justamente de esta fragmentación: establece un contrato de APIs 
 común para que una biblioteca sea reutilizable entre implementaciones. Cuando una librería usa APIs \nespecíficas (registro de Windows, COM, UI desktop), queda atada a su plataforma; cuando apunta a un 
 Standard, gana portabilidad. 
-6.2. CLR, BCL y Native AOT compilation 
+### 🔵 6.2. CLR, BCL y Native AOT compilation
 El Common Language Runtime (CLR) representa el núcleo ejecutivo de la plataforma .NET, 
 funcionando como una máquina virtual de alta performance que gestiona el ciclo de vida completo de 
 las aplicaciones. A diferencia de la JVM de Java, el CLR de .NET 8 implementa un compilador JIT (Just-In-
@@ -3782,11 +3138,9 @@ impredecibles que podrían comprometer los requisitos de tiempo de respuesta en 
 atención al ciudadano. 
 CLS y CTS: dos siglas, dos capas diferentes: La interoperabilidad entre lenguajes en .NET descansa en 
 dos conceptos que en los textos de estudio suelen mezclarse, pero responden a niveles distintos: 
-• CTS (Common Type System) es la infraestructura: define el universo de tipos y reglas de \nejecución que comparten C#, VB.NET, F# y otros lenguajes. Establece cómo funcionan los tipos 
-de valor y referencia, la herencia, la visibilidad, las excepciones… En esencia, es el contrato 
+- CTS (Common Type System) es la infraestructura: define el universo de tipos y reglas de \nejecución que comparten C#, VB.NET, F# y otros lenguajes. Establece cómo funcionan los tipos de valor y referencia, la herencia, la visibilidad, las excepciones… En esencia, es el contrato 
 técnico que permite que distintos lenguajes se ejecuten sobre el mismo runtime. 
-• CLS (Common Language Specification) opera en un nivel diferente: es un subconjunto de reglas 
-para diseñar APIs públicas consumibles desde cualquier lenguaje .NET. No limita lo que el 
+- CLS (Common Language Specification) opera en un nivel diferente: es un subconjunto de reglas para diseñar APIs públicas consumibles desde cualquier lenguaje .NET. No limita lo que el 
 runtime puede hacer, sino lo que conviene exponer si quieres evitar incompatibilidades. Algunos 
 constructores válidos en CTS (como ciertos enteros sin signo, sobrecargas que solo cambian 
 mayúsculas/minúsculas, o nombres que son palabras reservadas en otros lenguajes) no son 
@@ -3794,12 +3148,9 @@ mayúsculas/minúsculas, o nombres que son palabras reservadas en otros lenguaje
 En la práctica, cuando se construye una biblioteca reutilizable se revisa el contrato público y, si procede, 
 se marca con atributos de cumplimiento CLS. La idea es simple: CTS es la base común de ejecución; CLS \nes la disciplina para que tus componentes sean verdaderamente interoperables sin fricciones. 
 
-<!-- Page 91 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-91 
 La Native AOT (Ahead-of-Time) Compilation representa quizás la innovación más disruptiva para \nentornos gubernamentales. Esta tecnología permite compilar aplicaciones directamente a código 
 nativo, eliminando por completo la necesidad del JIT en tiempo de ejecución. Para sistemas de la 
 administración, esto ofrece tres ventajas cruciales: arranque instantáneo (crucial en escenarios de \nescalado automático), huella de memoria reducida (hasta 70% menos en microservicios) y superficie de 
@@ -3840,12 +3191,9 @@ public static class ValidadorExpediente
 } 
  
 
-<!-- Page 92 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-92 
 Característica 
 .NET Framework 4.8 
 .NET 8 JIT 
@@ -3882,7 +3230,7 @@ verdadera potencia del CLR moderno reside no en su velocidad de \nejecución, si
 patrones reales de uso del dominio empresarial, algo que las 
 compilaciones estáticas tradicionales nunca podrán emular del todo". 
  
-6.3. Plataforma .NET en entornos de soporte: composición, 
+### 🔵 6.3. Plataforma .NET en entornos de soporte: composición,
 DI y gestión de paquetes (NuGet) 
 Cuando en un servicio se menciona "la plataforma .NET", muchas veces no se está hablando de C# 
 como lenguaje, sino de lo que hace que una aplicación arranque, se conecte, se actualice y se comporte 
@@ -3900,12 +3248,9 @@ desplegada y qué cambió entre una build y la siguiente. No basta con mirar el 
 veces el sistema está ejecutando una versión resuelta por el restaurado de dependencias que no coincide 
 con lo que el equipo cree haber fijado, o está usando un paquete traído por otro paquete. 
 
-<!-- Page 93 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-93 
 Los síntomas de un problema de paquetes no siempre se presentan como un error claro y directo. A 
 veces se ve como un fallo al arrancar, con mensajes relacionados con métodos que "no existen" o \nensamblados que no se pueden cargar. En otras ocasiones, el problema es más sutil: el sistema compila 
 y publica bien, pero en ejecución aparecen errores en rutas concretas porque una dependencia 
@@ -3946,18 +3291,15 @@ arranca en un servidor y uno que falla en otro aparentemente idéntico. También
 Kestrel detrás, systemd, contenedor). A nivel ATI, no se trata de diseñar estas decisiones, sino de 
 reconocer cuándo una incidencia viene del empaquetado y del entorno, y no del código. 
 
-<!-- Page 94 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-94 
 En conjunto, estos tres ejes -paquetes, DI y pipeline- forman una especie de "triángulo de realidad" en 
 .NET: el comportamiento final surge de la combinación de versiones efectivas, composición configurada 
 y orden de ejecución. Si el alumno interioriza esa idea, gana una ventaja enorme en casos prácticos y en 
 soporte real: muchas incidencias que parecen complejas dejan de serlo cuando se pregunta qué cambió \nen dependencias, qué se está resolviendo por DI y en qué punto del pipeline se está filtrando o 
 transformando la petición. 
-6.4. Desarrollo y distribución de componentes con NuGet 
+### 🔵 6.4. Desarrollo y distribución de componentes con NuGet
 NuGet constituye el sistema de gestión de paquetes oficial de .NET, transformando radicalmente cómo 
 los equipos de desarrollo público comparten y consumen componentes internos. A diferencia de los 
 mecanismos tradicionales de referencia de DLLs, NuGet encapsula no solo los ensamblados compilados, 
@@ -3990,12 +3332,9 @@ aprobados y los replique en la red aislada. Este flujo, documentado en el ENS co
 dependencias en entornos segregados", es auditado regularmente en organismos como la AEAT o la 
 Seguridad Social. 
 
-<!-- Page 95 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-95 
 Finalmente, NuGet incorpora funcionalidades de análisis de seguridad mediante dotnet list package --
 vulnerable, integrado directamente en el CLI. Esta característica, potenciada con la base de datos 
 GitHub Advisory Database, permite identificar componentes con CVEs reportados antes del despliegue. 
@@ -4033,13 +3372,10 @@ completamente los conflictos de duplicación de ensamblados,
 problema crónico en proyectos de mantenimiento heredado. 
  
 
-<!-- Page 96 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-96 
-6.5. Persistencia con Entity Framework Core 8 y LINQ 
+### 🔵 6.5. Persistencia con Entity Framework Core 8 y LINQ
 ADO.NET en mantenimiento: el plano base que sigue vivo en las incidencias 
 A pesar de que EF Core domina los desarrollos modernos, ADO.NET sigue siendo fundamental en 
 soporte por dos razones concretas: gran parte del parque heredado lo usa directamente, y aun cuando 
@@ -4074,12 +3410,9 @@ con deudas superiores a 3000€, agrupados por provincia, excluyendo aquellos en
 concursal. La expresión LINQ captura esta lógica de forma legible y mantenible, mientras EF Core 
 traduce eficientemente a SQL nativo, preservando la capacidad del optimizador de la base de datos. 
 
-<!-- Page 97 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-97 
 Manejo de relaciones y carga diferida 
 Un aspecto crítico que se debe dominar es el manejo de relaciones y carga diferida. EF Core 8 introduce \nel modo de carga automática AutoInclude, que permite configurar globalmente la carga ansiosa de 
 navegaciones específicas. En entornos públicos, donde los errores de N+1 pueden exponer datos 
@@ -4114,12 +3447,9 @@ IAsyncEnumerable<ExpedienteResumen>>
                         Estado = e.Estado.ToString(), 
                         FechaMod = e.UltimaModificacion 
 
-<!-- Page 98 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-98 
                     }) 
                    .Take(50) // Limit preventivo contra DoS 
                    .AsAsyncEnumerable() 
@@ -4168,12 +3498,9 @@ Vectorizado SIMD (en arrays)
 +30% throughput en reportes 
  
 
-<!-- Page 99 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-99 
  
  
  
@@ -4199,7 +3526,7 @@ sesiones/transacciones.
 En ambos casos, cuando algo falla el síntoma puede parecer del ORM, pero el origen real suele ser el 
 mismo de siempre: conexión, pool, timeout, collation o parámetros mal tipados. La diferencia está en 
 dónde buscar la causa. 
-6.6. Seguridad: ASP.NET Core Identity y Data Protection API 
+### 🔵 6.6. Seguridad: ASP.NET Core Identity y Data Protection API
 ASP.NET Core Identity constituye el sistema de membresía y autenticación de facto para aplicaciones 
 .NET, diseñado con un modelo de extensibilidad que facilita la integración con sistemas de identidad 
 preexistentes en la administración pública. A diferencia de soluciones monolíticas, Identity opera como 
@@ -4210,12 +3537,9 @@ operan sobre un store configurable, siendo Entity Framework Core el más común.
 permite, por ejemplo, autenticar contra el Directorio Activo corporativo mientras se mantiene perfil de 
 aplicación en base de datos local. 
 
-<!-- Page 100 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-100 
 La implementación de políticas de seguridad requiere dominar el sistema de claims y roles moderno de 
 Identity. En lugar del tradicional Role-Based Access Control (RBAC) estático, .NET 8 promueve un 
 modelo híbrido donde los claims se materializan dinámicamente desde fuentes de autoridad como el 
@@ -4251,12 +3575,9 @@ builder.Services.AddDataProtection()
     .ProtectKeysWithCertificate("CN=GobiernoMAV") 
     .SetApplicationName("PortalCiudadano-PROD"); 
 
-<!-- Page 101 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-101 
 // Identity con MFA forzado para roles sensibles 
 builder.Services.AddIdentity<Ciudadano, IdentityRole>(options => 
 { 
@@ -4302,12 +3623,9 @@ Artículo 28
 (trazabilidad) 
  
 
-<!-- Page 102 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-102 
  
  
  
@@ -4319,7 +3637,7 @@ o, como mínimo, repositorios centralizados con cifrado aplicación
 y rotación automática", requisito que DPAPI cumple solo si se 
 configura explícitamente como mostrado. 
  
-6.7. Gestión de configuración y secretos 
+### 🔵 6.7. Gestión de configuración y secretos
 La gestión de configuración en .NET 8 descansa en un sistema jerárquico que prioriza proveedores en 
 orden definido, resultando fundamental para mantener la separación entre entornos (desarrollo, 
 preproducción, producción) sin modificar código. 
@@ -4350,12 +3668,9 @@ solo secretos que el sistema esté diseñado para recargar deben ser monitoreado
 base de datos no deben recargarse, pues EF Core no soporta cambio de base de datos en caliente sin 
 recrear el DbContext, lo que causaría inconsistencias transaccionales. 
 
-<!-- Page 103 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-103 
 Finalmente, el cumplimiento normativo exige auditoría de acceso a secretos. .NET 8 integra 
 EventSource para logging de Key Vault, pero el técnico debe habilitarlo explícitamente mediante 
 AzureEventSourceListener.CreateConsoleLogger(). En auditorías del ENS, es común que soliciten \nevidencias de quién accedió a las claves de cifrado de datos personales en los últimos 6 meses. 
@@ -4387,12 +3702,9 @@ var app = builder.Build();
 // Clase de configuración con validaciones ENS-compatibles 
 public class DatabaseConfig 
 
-<!-- Page 104 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-104 
 { 
     [Required] 
     public string DefaultConnection { get; set; } 
@@ -4425,7 +3737,7 @@ Environment Variables
 Media (accesible a procesos) 
 Contenedores 
 Artículo 28 (trazabilidad) 
-7. Desarrollo de interfaces 
+## 🟣 7. Desarrollo de interfaces
 El desarrollo de interfaces de usuario y APIs de programación constituye el nivel de abstracción más 
 visible y crítico de la transformación digital en el sector público, donde cada decisión técnica impacta 
 directamente en la capacidad de millones de ciudadanos para interactuar con la administración. La \nelección entre Jakarta Server Faces y ASP.NET Core, entre JavaFX y WPF, o entre OpenAPI y 
@@ -4442,12 +3754,9 @@ Nacional de Seguridad. Esta tensión se manifiesta en cada capa arquitectónica:
 JSF frente al modelo stateless de ASP.NET Core, la portabilidad de JavaFX frente a la integración de WPF 
 con el ecosistema Microsoft, o la reflexión en tiempo de ejecución de OpenAPI frente a la generación \nestática de Swashbuckle. 
 
-<!-- Page 105 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-105 
 Los subepígrafes siguientes estructuran este conocimiento según un recorrido que refleja las decisiones 
 requeridas en un proyecto de modernización: la comparativa entre frameworks web establece los 
 fundamentos para seleccionar una arquitectura que equilibre estabilidad y agilidad; el análisis de 
@@ -4463,7 +3772,7 @@ documentación OpenAPI de microservicios JSF heterogéneos, requiere entender qu
 son medios para cumplir fines legales y operacionales. 
 La justificación técnica y normativa de cada elección arquitectónica constituye el criterio profesional 
 que garantiza interfaces robustas, accesibles y sostenibles en el tiempo. 
-7.1. Interfaces web: Jakarta Server Faces 4.0 vs. ASP.NET 
+### 🔵 7.1. Interfaces web: Jakarta Server Faces 4.0 vs. ASP.NET
 Core Razor/Blazor 
 El desarrollo de interfaces web en entornos corporativos públicos representa uno de los desafíos más 
 complejos para el técnico auxiliar informático, no solo por la diversidad tecnológica sino por las \nexigencias de mantenibilidad y cumplimiento normativo. Jakarta Server Faces 4.0, heredero directo de 
@@ -4488,12 +3797,9 @@ predeterminada, es stateless por diseño, delegando la gestión del estado al de
 mecanismos como TempData, Session o almacenamiento distribuido con Redis. Esta característica 
 facilita el escalado horizontal en entornos cloud, una consideración cada vez más relevante en las \nestrategias de digitalización de las administraciones españolas. 
 
-<!-- Page 106 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-106 
 El ecosistema de componentes es otro factor diferenciador. JSF 4.0 integra nativamente con librerías 
 como PrimeFaces, OmniFaces o BootsFaces, que ofrecen componentes empresariales preconstruidos 
 con temas accesibles y cumplimiento WCAG. Estas librerías, al ser open-source, se alinean 
@@ -4521,7 +3827,7 @@ requisito de forma inherente, mientras que .NET, aunque ahora
 open-source, puede generar dudas en comités técnicos 
 conservadores. 
  
-7.2. Interfaces de escritorio: JavaFX vs. Windows Presentation 
+### 🔵 7.2. Interfaces de escritorio: JavaFX vs. Windows Presentation
 Foundation (WPF) 
 El debate entre JavaFX y WPF para el desarrollo de interfaces de escritorio en entornos corporativos 
 públicos ha evolucionado significativamente en los últimos años, aunque ambas tecnologías mantienen 
@@ -4530,12 +3836,9 @@ resulta particularmente valiosa en equipos multidisciplinares típicos de las ad
 autonómicas, donde los recursos humanos suelen tener perfiles diversos y la capacidad de trabajar en 
 paralelo reduce los plazos de entrega. 
 
-<!-- Page 107 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-107 
 WPF, por su parte, revolucionó el desarrollo desktop en .NET mediante la introducción de XAML 
 (eXtensible Application Markup Language) y un motor de composición gráfica vectorial basado en 
 DirectX. La profunda integración con el stack Microsoft permite un acceso directo a características del 
@@ -4567,19 +3870,14 @@ WinForms en 2026: sigue ahí, y hay que mantenerlo
 Windows Forms es la interfaz de escritorio clásica de Microsoft. En proyectos nuevos casi nadie la elige, 
 pero en Administraciones está en todas partes: gestión de expedientes, utilidades de operador, 
 backoffice. No se toca porque funciona y porque reescribirla sale caro. Para soporte, lo que importa no \nes cómo dibujar botones, sino entender tres cosas: 
-• Primero, su modelo event-driven. La lógica se dispara por eventos de la UI, y cuando algo se 
-cuelga, suele ser porque alguien metió trabajo pesado en el hilo de interfaz. 
-• Segundo, depende fuerte de Windows: es UI nativa, y el despliegue suele ir por políticas de 
-grupo, MSI o distribución corporativa. 
-• Tercero, la modernización real no es cambiarlo todo, sino aislar la lógica en capas (servicios, 
-DTOs) para poder migrar pedazos a servicios web o a una UI más moderna sin tocar el núcleo. 
-
-<!-- Page 108 -->
+- Primero, su modelo event-driven. La lógica se dispara por eventos de la UI, y cuando algo se cuelga, suele ser porque alguien metió trabajo pesado en el hilo de interfaz. 
+- Segundo, depende fuerte de Windows: es UI nativa, y el despliegue suele ir por políticas de grupo, MSI o distribución corporativa. 
+- Tercero, la modernización real no es cambiarlo todo, sino aislar la lógica en capas (servicios,
+DTOs) para poder migrar pedazos a 
 
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-108 
 WinForms sigue soportado en las versiones LTS modernas de .NET y es pieza viva del parque legacy. No \nes teoría: es mantenimiento directo. 
 UWP y su evolución: legado que hay que reconocer: 
 UWP nació para aplicaciones Windows modernas y empaquetadas, con un modelo de permisos y 
@@ -4609,12 +3907,9 @@ public class EmpleadoViewModel : INotifyPropertyChanged
 } 
  
 
-<!-- Page 109 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-109 
  
  
  
@@ -4626,8 +3921,7 @@ de obsolescencia tecnológica del organismo. Un sistema que
 funcione perfectamente pero nadie pueda mantenerlo es un 
 pasivo, no un activo". 
  
-7.3. APIs de programación: diseño y documentación 
-de interfaces de servicio 
+### 🔵 7.3. APIs de programación: diseño y documentación de interfaces de servicio 
 El diseño de APIs de programación representa la columna vertebral de la interoperabilidad en entornos 
 públicos, donde sistemas heterogéneos deben comunicarse de forma segura y eficiente. La primera 
 consideración práctica es la adopción del principio de contract-first design: definir la interfaz mediante 
@@ -4652,12 +3946,9 @@ diferenciador es el sistema de model binding y validation que, mediante atributo
 basadas en reflexión de Jakarta. En proyectos de la Administración General del Estado, hemos medido 
 una diferencia de hasta 15% en throughput a favor de ASP.NET Core en endpoints de alta frecuencia. 
 
-<!-- Page 110 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-110 
 La documentación viva de las APIs constituye un aspecto frecuentemente infravalorado hasta que surge \nel primer incidente en producción. En ambas plataformas, la documentación debe incluir no solo los 
 contratos técnicos sino ejemplos de payload, códigos de error específicos del dominio y políticas de rate 
 limiting. Para APIs expuestas al exterior, es obligatorio implementar un API Gateway que centralice la 
@@ -4692,14 +3983,10 @@ context.getSecurityContext().getUserPrincipal().getName();
     } 
 } 
 
-<!-- Page 111 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-111 
-7.4. Observabilidad básica en componentes (logs, métricas, 
-trazas) orientada a diagnóstico 
+### 🔵 7.4. Observabilidad básica en componentes (logs, métricas, trazas) orientada a diagnóstico 
 En explotación, una parte importante del soporte se hace con información incompleta: el código no \nestá a mano, el proveedor tarda en responder, hay urgencia, o el sistema es heredado y nadie quiere 
 tocarlo "a ciegas". En ese contexto, un componente mantenible es el que se deja observar: genera 
 señales suficientes para reconstruir qué ocurrió, en qué punto y con qué impacto, sin depender de 
@@ -4712,13 +3999,10 @@ Los logs son el relato detallado de eventos: qué pasó, cuándo, con qué conte
 problema es que muchos logs "existen" pero no ayudan, porque se limitan a frases genéricas ("Error al 
 procesar solicitud") sin datos que permitan unir piezas. Un log útil no es el más largo, sino el que 
 responde a preguntas concretas sin obligar a abrir el código: 
-• Qué operación se estaba ejecutando (ruta, acción, método o caso de uso). 
-• Qué entidad se estaba gestionando (identificador técnico, no necesariamente datos 
-personales). 
-• Qué resultado se obtuvo (éxito, error funcional, error técnico), incluyendo código de error y 
-causa. 
-• Qué identificadores de correlación lo conectan con otros logs del mismo flujo (request-id, 
-trace-id, correlation-id). 
+- Qué operación se estaba ejecutando (ruta, acción, método o caso de uso).
+- Qué entidad se estaba gestionando (identificador técnico, no necesariamente datos personales). 
+- Qué resultado se obtuvo (éxito, error funcional, error técnico), incluyendo código de error y causa. 
+- Qué identificadores de correlación lo conectan con otros logs del mismo flujo (request-id, trace-id, correlation-id). 
 En entornos de Administración esto tiene dos matices importantes. El primero es el cumplimiento y la 
 prudencia con los datos: los logs no deben convertirse en un volcado de información sensible. Se suele 
 trabajar con identificadores técnicos o seudonimizados, y se evita registrar contenidos completos de 
@@ -4734,18 +4018,14 @@ Las métricas no cuentan una historia detallada; describen el estado del sistema
 Su valor está en que permiten ver tendencias: degradación, saturación, picos y comportamientos 
 anómalos. En soporte, muchas incidencias se detectan primero como "algo va lento" o "hay más \nerrores" antes de que aparezca un fallo claro. Las métricas ponen eso en evidencia. 
 
-<!-- Page 112 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-112 
 Para diagnóstico operativo suelen bastar unas pocas métricas bien elegidas: 
-• Latencia (no solo media: percentiles como p95/p99 para capturar colas y picos). 
-• Tasa de errores (porcentaje y volumen; diferenciar 4xx funcionales de 5xx técnicos ayuda 
-mucho). 
-• Tráfico (peticiones por minuto, trabajos en cola, concurrencia). 
-• Saturación (CPU, memoria, threads, conexiones, pool de DB, colas, sockets). 
+- Latencia (no solo media: percentiles como p95/p99 para capturar colas y picos).
+- Tasa de errores (porcentaje y volumen; diferenciar 4xx funcionales de 5xx técnicos ayuda mucho). 
+- Tráfico (peticiones por minuto, trabajos en cola, concurrencia).
+- Saturación (CPU, memoria, threads, conexiones, pool de DB, colas, sockets).
 Con esto se puede responder a preguntas típicas de guardia: "¿Es un problema de un usuario o es 
 general?", "¿empezó tras el despliegue?", "¿es degradación progresiva o un pico puntual?", "¿está 
 fallando el componente o su dependencia (BBDD, servicio externo, red)?". 
@@ -4761,9 +4041,9 @@ consulta base de datos, invoca un tercero, y vuelve. Sin trazas, ese camino se c
 de fragmentos inconexos. 
 La idea esencial es que todas las partes del flujo compartan un identificador de correlación que viaja con 
 la petición. Ese identificador aparece en: 
-• logs (para buscar todo lo relacionado), 
-• métricas (para contextualizar picos y degradaciones), 
-• trazas (para ver el mapa completo y los tiempos por tramo). 
+- logs (para buscar todo lo relacionado),
+- métricas (para contextualizar picos y degradaciones),
+- trazas (para ver el mapa completo y los tiempos por tramo).
 En una integración Jakarta/.NET, la regla operativa se puede resumir así: una llamada sin correlación es 
 una llamada invisible. Y "correlación" no significa solo inventar un X-Correlation-Id de forma local; 
 significa capturarlo al entrar, propagarlo en cabeceras al salir a otros servicios y registrarlo de forma 
@@ -4774,28 +4054,21 @@ interoperabilidad entre tecnologías y permite usar herramientas comunes de obse
 depender del proveedor. 
 Lo que más se nota en soporte: consistencia y propagación. 
 
-<!-- Page 113 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-113 
 En un incidente real, el mayor ahorro de tiempo suele venir de dos prácticas simples y muy "de \nexplotación": 
-• Consistencia de identificadores: si cada capa usa un ID distinto (uno en el frontal, otro en el 
-backend, otro en BBDD), el diagnóstico se convierte en arqueología. Con un ID coherente, el \nequipo puede saltar entre logs y trazas como si fueran páginas de un mismo expediente. 
-• Propagación obligatoria entre componentes: si un servicio A genera su propio ID y el servicio B 
-genera otro, el rastro se rompe justo donde más falta hace. La propagación de cabeceras de 
+- Consistencia de identificadores: si cada capa usa un ID distinto (uno en el frontal, otro en el backend, otro en BBDD), el diagnóstico se convierte en arqueología. Con un ID coherente, el \nequipo puede saltar entre logs y trazas como si fueran páginas de un mismo expediente. 
+- Propagación obligatoria entre componentes: si un servicio A genera su propio ID y el servicio B genera otro, el rastro se rompe justo donde más falta hace. La propagación de cabeceras de 
 correlación no es decorativa: es lo que permite demostrar dónde falla o se ralentiza el flujo. 
 Un ejemplo breve, típico de Administración 
 Imagina un portal que tramita una solicitud y, al validar datos, llama a un servicio interno y a un tercero. 
 El usuario reporta "se queda pensando y luego da error". Sin observabilidad, la conversación se llena de 
 hipótesis: "será la red", "será el tercero", "será la BBDD". 
 Con observabilidad básica, el recorrido es más limpio: 
-• En métricas se ve un aumento de latencia p95 justo en la operación de validación, coincidiendo 
-con un pico de 5xx. 
-• En trazas, para un trace-id concreto, se observa que el tramo lento es la llamada al tercero. 
-• En logs, filtrando por ese mismo identificador, aparece el código de error y el timeout exacto, y 
-se confirma si hubo reintentos. 
+- En métricas se ve un aumento de latencia p95 justo en la operación de validación, coincidiendo con un pico de 5xx. 
+- En trazas, para un trace-id concreto, se observa que el tramo lento es la llamada al tercero.
+- En logs, filtrando por ese mismo identificador, aparece el código de error y el timeout exacto, y se confirma si hubo reintentos. 
 No hace falta tocar el código para saber dónde mirar ni para justificar el diagnóstico con evidencias. 
  
  
@@ -4811,12 +4084,9 @@ La documentación automatizada de APIs mediante especificaciones OpenAPI ha pasa
 un requisito indispensable en entornos públicos, donde la interoperabilidad entre administraciones 
 depende de interfaces bien definidas y descubribles. 
 
-<!-- Page 114 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-114 
 OpenAPI 
 En el ecosistema Jakarta EE, la generación del documento OpenAPI se realiza tradicionalmente 
 mediante la especificación MicroProfile OpenAPI, que extiende las anotaciones de JAX-RS con 
@@ -4856,12 +4126,9 @@ durante 18-24 meses es una práctica estándar. La anotación @Deprecated en Jav
 comunicar de forma proactiva la obsolescencia. Documentar estas estrategias en la memoria técnica 
 del proyecto demuestra visión de futuro y alineación con buenas prácticas de gobernanza de APIs. 
 
-<!-- Page 115 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-115 
 Característica 
 MicroProfile OpenAPI (Jakarta) 
 Swashbuckle (.NET) 
@@ -4880,7 +4147,7 @@ Generación única, cacheada
 Soporte estándar 
 Especificación Eclipse Foundation 
 Comunidad + Microsoft 
-7.6. Gobernanza de contratos y versionado de APIs 
+### 🔵 7.6. Gobernanza de contratos y versionado de APIs
 (SemVer + deprecación) 
 En una Administración, una API rara vez es "solo un endpoint": es un contrato que habilita trámites, 
 integra proveedores y conecta aplicaciones que no comparten calendario. El productor puede publicar 
@@ -4908,12 +4175,9 @@ cambian códigos de error, mensajes, cabeceras relevantes o reglas de reintento,
 impacto. En APIs, "no tocar el contrato" incluye también mantener estable lo que los clientes han 
 aprendido a interpretar. 
 
-<!-- Page 116 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-116 
 Aquí conviene distinguir dos conceptos que en soporte explican muchos "misterios": compatibilidad 
 binaria frente a compatibilidad contractual. Puede que el servicio compile, pase tests internos y 
 despliegue sin problemas… y aun así rompa integraciones. ¿Por qué? Porque el consumidor no ejecuta 
@@ -4955,12 +4219,9 @@ necesario entrar en ingeniería avanzada para nivel ATI: basta con entender el p
 prometes, no solo lo que implementas. Si el contrato es estable, los cambios son predecibles; si el 
 contrato es difuso, cada despliegue puede convertirse en un riesgo. 
 
-<!-- Page 117 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-117 
  
  
  
@@ -4973,7 +4234,7 @@ sin romper el servicio público.
  
  
 Cuando esto se hace bien, la "pequeña mejora" deja de ser un peligro y pasa a ser un cambio controlado. 
-7.7. Principios UI/UX para componentes empresariales 
+### 🔵 7.7. Principios UI/UX para componentes empresariales
 El diseño de interfaces para componentes empresariales en el sector público dista considerablemente 
 de las aplicaciones de consumo masivo, ya que los requisitos funcionales, legales y de accesibilidad 
 imponen restricciones que a menudo contradicen las tendencias estéticas del momento. 
@@ -4993,12 +4254,9 @@ que en Blazor se usa OwningComponentBase con cascading state. La diferencia clav
 vivir en el cliente (con riesgo de manipulación) o en server-side storage con SignalR. La decisión tiene 
 implicaciones directas en la arquitectura de seguridad y debe justificarse en la memoria del proyecto. 
 
-<!-- Page 118 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-118 
 Tercer Principio: Feedback inmediato 
 El feedback inmediato es otro principio no negociable. Los sistemas públicos operan con usuarios que no 
 son técnicos y que requieren confirmación visual de que sus acciones han sido procesadas. Los 
@@ -5035,14 +4293,10 @@ disponible.</p>
     </h:panelGroup> 
 </h:panelGroup> 
 
-<!-- Page 119 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-119 
-7.8. Accesibilidad y estándares WCAG 2.2 en aplicaciones 
-públicas 
+### 🔵 7.8. Accesibilidad y estándares WCAG 2.2 en aplicaciones públicas 
 La accesibilidad digital ya no es una opción ética sino un mandato legal: el Real Decreto 1112/2018, 
 transposición de la Directiva (UE) 2016/2102, exige que todos los sitios web y aplicaciones móviles del 
 sector público cumplan con los niveles A y AA de WCAG 2.1, con la actualización a WCAG 2.2 en 
@@ -5080,12 +4334,9 @@ implementación en Blazor Server donde el WebSocket es obligatorio.
         <div class="alerta-timeout"> 
             <p>Su sesión expira en @tiempoRestante segundos. 
 
-<!-- Page 120 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-120 
             <button @onclick="ExtenderSesion" aria-label="Extender sesión 10 
 minutos"> 
                 Extender tiempo 
@@ -5124,12 +4375,9 @@ incumplimiento de WCAG 2.2 en sistemas públicos puede derivar \nen responsabili
 cuestión de calidad técnica, sino de riesgo jurídico. 
  
 
-<!-- Page 121 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-121 
 Incluir en la documentación técnica un checklist de cumplimiento firmado por el responsable del 
 proyecto es una práctica que distingue proyectos maduros. 
  
@@ -5144,7 +4392,7 @@ versión concreta aplicable (2.1/2.2) puede variar según la fecha de
 contratación, actualizaciones normativas y lo que establezca el 
 pliego o la política del organismo. 
  
-8. Comparativa e interoperabilidad 
+## 🟣 8. Comparativa e interoperabilidad
 La transición de Java EE a Jakarta EE representa una redefinición estratégica de la plataforma \nempresarial de Java con implicaciones directas en la modernización de sistemas públicos. El traspaso de 
 Oracle a la Eclipse Foundation en 2017 inauguró un proceso de gobernanza abierta que condiciona la 
 sostenibilidad técnica y normativa de las decisiones de mantenimiento. Las administraciones que 
@@ -5168,12 +4416,9 @@ seguridad completo que audita cada operación. Esta progresión refleja el pipel
 debe recorrerse al desplegar cualquier componente en un sistema crítico, desde la elección del perfil 
 hasta la configuración del último interceptor de auditoría. 
 
-<!-- Page 122 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-122 
 Esta unidad se centra en la aplicación práctica más allá de las definiciones teóricas. La capacidad de 
 razonar ante un caso concreto -por qué un microservicio de consulta de ayudas del SEPE debe usar 
 Core Profile con MicroProfile Metrics en lugar de Platform, o cómo configurar JNDI en Kubernetes para \nevitar que un despliegue en preproducción acceda accidentalmente a la base de datos de producción- 
@@ -5190,7 +4435,7 @@ no puede desechar ese capital humano por una moda tecnológica, pero tampoco pue
 aprendizaje más accesible. 
 Por eso, dominar ambas plataformas y entender cómo hacerlas convivir no es ventaja competitiva, sino 
 requisito operativo para gestionar el patrimonio informático público de forma responsable. 
-8.1. Análisis comparativo matricial: Jakarta EE 11 vs .NET 8 
+### 🔵 8.1. Análisis comparativo matricial: Jakarta EE 11 vs .NET 8
 La selección de una plataforma tecnológica en el ámbito de la administración pública no responde 
 únicamente a criterios técnicos, sino que está condicionada por factores como el coste a largo plazo, la 
 gobernanza, la sostenibilidad de la solución y el cumplimiento del marco normativo español e 
@@ -5210,12 +4455,9 @@ Transformación Digital, Jakarta EE presenta ventajas claras. Sin embargo, .NET 
 aprendizaje menos pronunciada para equipos familiarizados con el entorno Visual Studio y cuenta con 
 herramientas de productividad que, en algunos casos, acortan los plazos de desarrollo. 
 
-<!-- Page 123 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-123 
 Rendimiento 
 En el ámbito del rendimiento, ambas plataformas han alcanzado madurez similar. .NET 8 destaca en \nescenarios de computación nativa (Native AOT) y latencia ultra-baja, mientras que Jakarta EE 11, con la 
 adopción de Virtual Threads (Project Loom) y optimizaciones en el GC, ha reducido drásticamente la 
@@ -5248,13 +4490,10 @@ guiar el diseño de APIs comunes entre Jakarta EE y .NET para
 garantizar la extensibilidad futura sin romper contratos. 
  
 
-<!-- Page 124 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-124 
-8.2. Caso de estudio: Sistema de Gestión de Recursos 
+### 🔵 8.2. Caso de estudio: Sistema de Gestión de Recursos
 Humanos 
 El diseño de un Sistema de Gestión de Recursos Humanos (SGRH) para una consejería regional ilustra 
 las implicaciones prácticas de la elección arquitectónica. Este sistema debe integrarse con el Registro 
@@ -5289,12 +4528,9 @@ facilita la documentación mediante anotaciones y especificaciones formales, mie
 ofrece herramientas como Swagger/Swashbuckle con mayor automatización. La elección debe \nequilibrar la calidad del código autodocumentado con la necesidad de cumplir los estándares de 
 documentación del ENI. 
 
-<!-- Page 125 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-125 
 Tabla comparativa de componentes para SGRH: 
 Capa 
 Jakarta EE 11 
@@ -5326,7 +4562,7 @@ JBoss EAP / Payara
 Azure App Service / 
 AKS 
 Política cloud de la organización 
-8.3. Patrones de integración entre plataformas heterogéneas 
+### 🔵 8.3. Patrones de integración entre plataformas heterogéneas
 La coexistencia de sistemas Jakarta EE y .NET en el mismo ecosistema empresarial público no es una \nexcepción, sino la norma. Las administraciones heredan décadas de desarrollo en Java, mientras que 
 nuevos proyectos pueden surgir con .NET por alianzas estratégicas o convenios marco. Por ello, 
 dominar patrones de integración heterogénea es competencia esencial para el técnico auxiliar 
@@ -5345,12 +4581,9 @@ PostgreSQL (gestionado por Jakarta) mediante un único endpoint OData. Esto perm
 de business intelligence acceder a información transversal sin replicar datos, cumpliendo con el 
 principio de unicidad de datos del ENI. 
 
-<!-- Page 126 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-126 
 La Autenticación Federada mediante OpenID Connect es probablemente el patrón más crítico. Ambas 
 plataformas deben confiar en un proveedor de identidad común (Keycloak, Azure AD, o incluso el 
 Sistema Cl@ve). Cada microservicio valida tokens JWT sin importar su stack tecnológico, centralizando 
@@ -5372,7 +4605,7 @@ Domain-Driven Design (DDD) para los modelos comunes
 independientes. Esta dualidad evita el Big Ball of Mud sin caer en 
 sobreingeniería. 
  
-8.4. Despliegue en contenedores Docker y Kubernetes 
+### 🔵 8.4. Despliegue en contenedores Docker y Kubernetes
 El despliegue en contenedores no es una moda: en las administraciones públicas es casi un estándar 
 cuando buscas que tu aplicación corra igual en desarrollo, preproducción y producción sin sorpresas. 
 Docker y similares te dan esa caja hermética donde metes la aplicación y todo lo que necesita, pero lo 
@@ -5388,21 +4621,15 @@ técnica de multi-stage es un truco que merece la pena conocer: separas la fase 
 todos los SDK pesados) de la de ejecución (solo el runtime ligero). Por qué es buena idea: porque la 
 imagen final es más pequeña y segura. 
 
-<!-- Page 127 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-127 
 Si Docker es el contenedor, Kubernetes es el orquestador que te automatiza la vida: despliegues, \nescalado, reinicios si algo falla, actualizaciones controladas. En OTAI te pueden caer preguntas sobre 
 ConfigMaps (para configuración no sensible) y Secrets (para lo sensible, aunque sepas que en entornos 
 realmente críticos se usa un gestor externo como Vault). Y, sobre todo, las sondas de salud: 
-• Liveness probe: "¿Está vivo el proceso o se ha colgado?". Si falla, Kubernetes lo mata y levanta 
-uno nuevo. 
-• Readiness probe: "¿Ya puedo mandarle tráfico?". Útil cuando tu app tarda en arrancar porque 
-carga caches o conecta con servicios externos. No la des como buena hasta que esté lista. 
-• Startup probe: La más reciente. Protege arranques largos evitando que Kubernetes reinicie el 
-contenedor antes de que termine de inicializarse. 
+- Liveness probe: "¿Está vivo el proceso o se ha colgado?". Si falla, Kubernetes lo mata y levanta uno nuevo. 
+- Readiness probe: "¿Ya puedo mandarle tráfico?". Útil cuando tu app tarda en arrancar porque carga caches o conecta con servicios externos. No la des como buena hasta que esté lista. 
+- Startup probe: La más reciente. Protege arranques largos evitando que Kubernetes reinicie el contenedor antes de que termine de inicializarse. 
 En seguridad, el OTAI premia sentido común: ejecuta con usuario no privilegiado (nunca como root), \nexpone solo los puertos estrictamente necesarios, y aplica el principio de mínimo privilegio en las 
 comunicaciones. En entornos regulados como el ENS, un despliegue debe ser reproducible, trazable y 
 sin toques manuales en producción: si tienes que entrar a hacer cambios a mano en caliente, algo falla \nen tu pipeline. 
@@ -5421,13 +4648,10 @@ COPY --from=build /app/target/recursoshumanos.war
 ENV MP_CONFIG_PROFILE=prod 
 EXPOSE 8080 
 
-<!-- Page 128 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-128 
-8.5. Costes, licenciamiento y TCO en entornos públicos 
+### 🔵 8.5. Costes, licenciamiento y TCO en entornos públicos
 El análisis del Total Cost of Ownership (TCO) en la administración pública española trasciende el coste 
 de licencias para incluir gastos de auditoría, certificación de seguridad, formación del personal y costes 
 de migración. 
@@ -5452,11 +4676,11 @@ configuraciones de seguridad (roles, realms, políticas de acceso), mientras que
 herramientas automatizadas como Microsoft Defender for Cloud que aceleran el proceso, pero con 
 coste adicional (15 €/servidor/mes). Para un entorno con 50 servidores, esto supone 9.000 €/año. 
 Cálculo TCO simplificado para 5 años (100 servidores): 
-• Jakarta EE + Linux + PostgreSQL: Soporte enterprise (8.000 €/servidor/año) + formación 
+- Jakarta EE + Linux + PostgreSQL: Soporte enterprise (8.000 €/servidor/año) + formación
 (50.000 €) + certificación ENS (30.000 €) = 4.080.000 € 
-• .NET + Windows + SQL Server: Licencias (9.000 €/servidor) + Azure DevOps (6.000 €/año) + 
+- .NET + Windows + SQL Server: Licencias (9.000 €/servidor) + Azure DevOps (6.000 €/año) +
 certificación automatizada (45.000 €) = 5.175.000 € 
-8.6. Estrategias de migración de sistemas monolíticos 
+### 🔵 8.6. Estrategias de migración de sistemas monolíticos
 La migración de un monolito legado (típicamente en Java EE 6 o .NET Framework 4.x) no debe 
 abordarse como una reescritura total, sino como un proceso estratégico de refactoring dirigido por 
 capacidades. El patrón Strangler Fig es el más indicado: se despliega un proxy (API Gateway) que dirige 
@@ -5464,12 +4688,9 @@ tráfico progresivamente desde el monolito hacia nuevos microservicios. Por ejem
 módulo de consulta de nóminas (funcionalidad de lectura intensiva) se extrae primero, ya que su 
 impacto es menor y permite validar la nueva arquitectura sin riesgo de corrupción de datos. 
 
-<!-- Page 129 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-129 
 El primer paso técnico consiste en identificar contextos delimitados mediante Domain Storytelling con 
 los usuarios finales. Se documentan los flujos reales (ej: "El gestor solicita permiso, el supervisor 
 aprueba, RRHH registra") y se mapean a capacidades independientes. Esta fase, previa a cualquier 
@@ -5482,112 +4703,100 @@ refactoring: crear vistas materializadas replicadas para cada servicio, que se s
 Change Data Capture (Debezium para PostgreSQL, SQL Server CDC). Así, el servicio de vacaciones 
 accede a su réplica de la tabla empleados sin bloquear el monolito, y los cambios se propagan \neventualmente consistentes. 
 La selección del primer microservicio es crítica. Debe ser: 
-• De baja complejidad: Evita lógica transaccional distribuida. 
-• De alto valor: Impacto visible para los usuarios (mejora UX). 
-• De bajo riesgo: No afecte a cálculos críticos (nóminas, pensiones). Un candidato ideal es el 
-catálogo de cursos de formación: lectura intensiva, bajo volumen de escritura, y con modelos de 
+- De baja complejidad: Evita lógica transaccional distribuida.
+- De alto valor: Impacto visible para los usuarios (mejora UX).
+- De bajo riesgo: No afecte a cálculos críticos (nóminas, pensiones). Un candidato ideal es el catálogo de cursos de formación: lectura intensiva, bajo volumen de escritura, y con modelos de 
 dominio simples. 
 Plan de migración faseada (24 meses): 
 Fase 1 (Meses 1-6): Descubrimiento y preparación: 
-• Análisis de arquitectura actual (C4 Model). 
-• Implementación API Gateway (Kong/Ocelot). 
-• Pipeline CI/CD común (GitLab CI). 
+- Análisis de arquitectura actual (C4 Model).
+- Implementación API Gateway (Kong/Ocelot).
+- Pipeline CI/CD común (GitLab CI).
 Fase 2 (Meses 7-12): Primer microservicio y validación: 
-• Despliegue catálogo de cursos (Jakarta EE o .NET). 
-• ACL y CDC configurados. 
-• Métricas de observabilidad (Prometheus/Grafana). 
+- Despliegue catálogo de cursos (Jakarta EE o .NET).
+- ACL y CDC configurados.
+- Métricas de observabilidad (Prometheus/Grafana).
 Fase 3 (Meses 13-18): Extracción de servicios core: 
-• Gestión de vacaciones. 
-• Evaluación del desempeño. 
-• Migración gradual de usuarios (feature flags). 
-
-<!-- Page 130 -->
+- Gestión de vacaciones.
+- Evaluación del desempeño.
+- Migración gradual de usuarios (feature flags).
 
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-130 
 Fase 4 (Meses 19-24): Desmantelamiento del monolito: 
-• Últimos módulos (nómina, contratación). 
-• Auditoría y documentación ENS final. 
-• Formación y transferencia a equipo de mantenimiento. 
-9. Bibliografía 
-• Cockburn, A. (2006). Agile Software Development: The Cooperative Game. Addison-Wesley 
+- Últimos módulos (nómina, contratación).
+- Auditoría y documentación ENS final.
+- Formación y transferencia a equipo de mantenimiento.
+## 🟣 9. Bibliografía
+- Cockburn, A. (2006). Agile Software Development: The Cooperative Game. Addison-Wesley
 Professional. 
-• Evans, E. (2003). Domain-Driven Design: Tackling Complexity in the Heart of Software. 
+- Evans, E. (2003). Domain-Driven Design: Tackling Complexity in the Heart of Software.
 Addison-Wesley. 
-• García López, J. M. (2024). Desarrollo de aplicaciones desktop en el sector público español. 
+- García López, J. M. (2024). Desarrollo de aplicaciones desktop en el sector público español.
 Editorial Universidad Rey Juan Carlos. 
-• Meyer, B. (1997). Object-Oriented Software Construction (2nd ed.). Prentice Hall. 
-• Microsoft Corporation (2024). .NET 8 Documentation. Microsoft Press. Redmond, WA. 
-• Oracle. (2024). Java Migration Guide: From Java EE 8 to Jakarta EE 11. Redwood Shores, CA. 
-• Richter, J. (2024). CLR via C# (4th ed.). Microsoft Press. 
-• Seemann, M. (2019). Dependency Injection Principles, Practices, and Patterns (1st ed.). 
+- Meyer, B. (1997). Object-Oriented Software Construction (2nd ed.). Prentice Hall.
+- Microsoft Corporation (2024). .NET 8 Documentation. Microsoft Press. Redmond, WA.
+- Oracle. (2024). Java Migration Guide: From Java EE 8 to Jakarta EE 11. Redwood Shores, CA.
+- Richter, J. (2024). CLR via C# (4th ed.). Microsoft Press.
+- Seemann, M. (2019). Dependency Injection Principles, Practices, and Patterns (1st ed.).
 Manning Publications. 
-• Smith, J. (2024). Entity Framework Core in Action (3rd ed.). Manning Publications. 
-• Centro Criptológico Nacional (CCN). (2024). Guía de Hardening de Contenedores Java en 
+- Smith, J. (2024). Entity Framework Core in Action (3rd ed.). Manning Publications.
+- Centro Criptológico Nacional (CCN). (2024). Guía de Hardening de Contenedores Java en
 Entornos Cloud. Ministerio de Asuntos Económicos y Transformación Digital. 
-• Comité Europeo de Normalización (CEN). (2024). CEN/CENELEC 17249:2024 - Accessibility 
+- Comité Europeo de Normalización (CEN). (2024). CEN/CENELEC 17249:2024 - Accessibility
 Requirements for ICT Products and Services in the Public Sector. 
-• Eclipse Foundation. (2024). Jakarta EE 11 Specification: Security and Persistence. Eclipse 
+- Eclipse Foundation. (2024). Jakarta EE 11 Specification: Security and Persistence. Eclipse
 Working Group. 
-• Microsoft. (2023). Modernizing .NET Framework Apps to .NET 8. Microsoft Docs. Disponible \nen: https://learn.microsoft.com 
-• Ministerio de Asuntos Económicos y Transformación Digital. (2023). Esquema Nacional de 
+- Microsoft. (2023). Modernizing .NET Framework Apps to .NET 8. Microsoft Docs. Disponible \nen: https://learn.microsoft.com
+- Ministerio de Asuntos Económicos y Transformación Digital. (2023). Esquema Nacional de
 Seguridad (ENS). BOE-A-2023-20112. 
 
-<!-- Page 131 -->
-
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-131 
-• Ministerio de Asuntos Económicos y Transformación Digital. (2023). Guía de Contratación 
+- Ministerio de Asuntos Económicos y Transformación Digital. (2023). Guía de Contratación
 Pública de Software Libre. Secretaría de Estado de Digitalización. 
-• Open Web Application Security Project (OWASP). (2024). OWASP Top 10 - API Security Risks 
+- Open Web Application Security Project (OWASP). (2024). OWASP Top 10 - API Security Risks
 2023. OWASP Foundation. 
-• Postel, J. (1981). RFC 793: Transmission Control Protocol. Internet Engineering Task Force 
+- Postel, J. (1981). RFC 793: Transmission Control Protocol. Internet Engineering Task Force
 (IETF). 
-• Cámara de Cuentas de España. (2023). Informe sobre Errores de Cálculo en Ayudas al Alquiler 
-de 2022. Madrid. 
-• Centro de Transferencia de Tecnología (CTT). (2023). Directorio de Componentes 
+- Cámara de Cuentas de España. (2023). Informe sobre Errores de Cálculo en Ayudas al Alquiler de 2022. Madrid. 
+- Centro de Transferencia de Tecnología (CTT). (2023). Directorio de Componentes
 Reutilizables de la AGE. Ministerio de Hacienda y Función Pública. 
-• Comunidad Autónoma de la Región de Murcia (CARM). (2024). Auditoría de Sistemas de 
+- Comunidad Autónoma de la Región de Murcia (CARM). (2024). Auditoría de Sistemas de
 Nómina: Impacto de Objetos Mal Construidos. Dirección General de Tecnologías de la 
 Información. 
-• Dirección General de Tráfico (DGT). (2024). Memoria Técnica del Sistema de Notificaciones. 
+- Dirección General de Tráfico (DGT). (2024). Memoria Técnica del Sistema de Notificaciones.
 Madrid. 
-• Instituto Nacional de Estadística (INE). (2023). Especificaciones de Interoperabilidad del 
+- Instituto Nacional de Estadística (INE). (2023). Especificaciones de Interoperabilidad del
 Sistema de Verificación de Datos de Identidad (SVDI). Madrid. 
-• Servicio Público de Empleo Estatal (SEPE). (2024). Análisis de Incidentes de Seguridad en el 
+- Servicio Público de Empleo Estatal (SEPE). (2024). Análisis de Incidentes de Seguridad en el
 Portal de Transparencia. Madrid. 
-• Boletín Oficial del Estado. (2018). Real Decreto 1112/2018, de 7 de septiembre, sobre 
-accesibilidad de los sitios web y aplicaciones para dispositivos móviles del sector público. BOE 
+- Boletín Oficial del Estado. (2018). Real Decreto 1112/2018, de 7 de septiembre, sobre accesibilidad de los sitios web y aplicaciones para dispositivos móviles del sector público. BOE 
 núm. 219. 
-• Boletín Oficial del Estado. (2015). Ley 40/2015, de 1 de octubre, de Régimen Jurídico del 
+- Boletín Oficial del Estado. (2015). Ley 40/2015, de 1 de octubre, de Régimen Jurídico del
 Sector Público. BOE núm. 240. 
-• Boletín Oficial del Estado. (2015). Ley 39/2015, de 1 de octubre, del Procedimiento 
+- Boletín Oficial del Estado. (2015). Ley 39/2015, de 1 de octubre, del Procedimiento
 Administrativo Común de las Administraciones Públicas. BOE núm. 240. 
-• Boletín Oficial del Estado. (2018). Reglamento (UE) 2016/2102 del Parlamento Europeo y del 
+- Boletín Oficial del Estado. (2018). Reglamento (UE) 2016/2102 del Parlamento Europeo y del
 Consejo, de 26 de octubre de 2016, sobre la accesibilidad de los sitios web y aplicaciones 
 móviles de los organismos del sector público. 
-• Centro de Telecomunicaciones y Tecnologías de la Información (CTTI). (2023). Guía de 
+- Centro de Telecomunicaciones y Tecnologías de la Información (CTTI). (2023). Guía de
 Desarrollo de Componentes de la Generalitat de Cataluña. Barcelona. 
-• Comunidad de Madrid. (2024). Catálogo de Componentes Homologados para la Administración 
+- Comunidad de Madrid. (2024). Catálogo de Componentes Homologados para la Administración
 Pública Regional. Dirección General de Innovación Tecnológica. 
-• Consejería de Hacienda y Administración Pública de la Región de Murcia. (2023). Guía de 
+- Consejería de Hacienda y Administración Pública de la Región de Murcia. (2023). Guía de
 Seguridad y Auditoría de Sistemas de Gestión de Expedientes. Murcia. 
-
-<!-- Page 132 -->
 
  
  
 Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .NET 
-132 
-• Centro Criptológico Nacional (CCN). (2023). Guía de Implementación del Esquema Nacional de 
+- Centro Criptológico Nacional (CCN). (2023). Guía de Implementación del Esquema Nacional de
 Seguridad en Entornos Cloud. Ministerio de Asuntos Económicos y Transformación Digital. 
-• Agencia Española de Protección de Datos (AEPD). (2024). Guía Técnica sobre Protección de 
+- Agencia Española de Protección de Datos (AEPD). (2024). Guía Técnica sobre Protección de
 Datos en Sistemas de Información del Sector Público. 
-• OpenSSL Project. (2024). OpenSSL Documentation v3.2. OpenSSL Software Foundation.
+- OpenSSL Project. (2024). OpenSSL Documentation v3.2. OpenSSL Software Foundation.
 
 ---
 

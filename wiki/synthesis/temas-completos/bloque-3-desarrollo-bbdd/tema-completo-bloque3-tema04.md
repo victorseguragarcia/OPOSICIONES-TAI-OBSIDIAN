@@ -24,9 +24,7 @@ updated: "2026-08-18"
 
 ---
 
-# 🔴 Bloque 3 - Tema 04 (UD012111): Diseño y Programación Orientada a Objetos, Patrones de Diseño GoF y UML
-
-<!-- Page 1 -->
+# 🔴 Bloque 3 - Tema 04 (UD012111): Diseño y 
 
  
  
@@ -35,247 +33,149 @@ Orientada a Objetos. Patrones
 de Diseño y Lenguaje de 
 Modelado Unificado (UML) 
 
-<!-- Page 2 -->
-
-ÍNDICE 
-1. Programación orientada a objetos 
-4 
-1.1. Estructura de un programa orientado a objetos 
-7 
-1.2. Modelado de sistemas 
-8 
-1.3. Ejemplos de POO 
-9 
-2. Elementos y componentes software 
-10 
-2.1. Mensajes 
-11 
-2.2. Objetos 
-11 
-2.3. Métodos 
-13 
-2.4. Clases 
-13 
-2.4.1. Instanciar una clase (Instancia) 
-16 
-2.5. Ejemplo 
-17 
-3. Propiedades básicas de LPOO 
-19 
-3.1. Técnicas del sexenio 
-19 
-3.1.1. Herencia 
-19 
-3.1.1.1. Generalización 
-20 
-3.1.1.2. Especialización 
-21 
-3.1.2. Abstracción 
-22 
-3.1.3. Polimorfismo 
-24 
-3.1.3.1. Sobrecarga 
-25 
-3.1.4. Acoplamiento 
-28 
-3.1.5. Cohesión 
-28 
-3.1.6. Encapsulamiento 
-29 
-3.2. Reutilización o reusabilidad de código 
-31 
-3.3. Relaciones entre clases 
-32 
-3.3.1. Asociación 
-33 
-3.3.2. Agregación 
-34 
-3.3.3. Composición 
-36 
-3.3.4. Determinar las relaciones 
-37 
-3.4. Recolección de basura 
-38 
-3.5. Caja negra 
-39 
-
-<!-- Page 3 -->
+## 🟣 2. Elementos y componentes software
+### 🔵 2.1. Mensajes
+### 🔵 2.2. Objetos
+### 🔵 2.3. Métodos
+### 🔵 2.4. Clases
+#### 🔹 2.4.1. Instanciar una clase (Instancia)
+### 🔵 2.5. Ejemplo
+## 🟣 3. Propiedades básicas de LPOO
+### 🔵 3.1. Técnicas del sexenio
+#### 🔹 3.1.1. Herencia
+##### 3.1.1.1. Generalización
+##### 3.1.1.2. Especialización
+#### 🔹 3.1.2. Abstracción
+#### 🔹 3.1.3. Polimorfismo
+##### 3.1.3.1. Sobrecarga
+#### 🔹 3.1.4. Acoplamiento
+#### 🔹 3.1.5. Cohesión
+#### 🔹 3.1.6. Encapsulamiento
+### 🔵 3.2. Reutilización o reusabilidad de código
+### 🔵 3.3. Relaciones entre clases
+#### 🔹 3.3.1. Asociación
+#### 🔹 3.3.2. Agregación
+#### 🔹 3.3.3. Composición
+#### 🔹 3.3.4. Determinar las relaciones
+### 🔵 3.4. Recolección de basura
+### 🔵 3.5. Caja negra
 
  
  
-4. Ventajas y desventajas de la POO 
-39 
-5. Patrones de diseño (GOF) 
-40 
-5.1. Patrones GOF de Creación 
-42 
-5.2. Patrones GOF Estructurales 
-43 
-5.3. Patrones GOF de Comportamiento 
-45 
-6. GRASP (General Responsibility Assignment Software Patterns) 
-46 
-7. Modelado de aplicaciones: UML 
-48 
-7.1. Bloques de construcción de UML 
-52 
-7.1.1. Elementos 
-52 
-7.1.2. Relaciones 
-54 
-7.2. Diagramas UML 
-55 
-7.2.1. Diagramas UML Estructurales 
-56 
-7.2.2. Diagramas UML de Comportamiento 
-58 
-7.2.2.1. Diagramas de casos de uso 
-61 
-7.2.3. Manual de Modelado UML 
-63 
-8. El Proceso Racional Unificado (RUP) 
-65 
-9. Bibliografía 
-67 
+## 🟣 4. Ventajas y desventajas de la POO
+## 🟣 5. Patrones de diseño (GOF)
+### 🔵 5.1. Patrones GOF de Creación
+### 🔵 5.2. Patrones GOF Estructurales
+### 🔵 5.3. Patrones GOF de Comportamiento
+## 🟣 6. GRASP (General Responsibility Assignment Software Patterns)
+## 🟣 7. Modelado de aplicaciones: UML
+### 🔵 7.1. Bloques de construcción de UML
+#### 🔹 7.1.1. Elementos
+#### 🔹 7.1.2. Relaciones
+### 🔵 7.2. Diagramas UML
+#### 🔹 7.2.1. Diagramas UML Estructurales
+#### 🔹 7.2.2. Diagramas UML de Comportamiento
+##### 7.2.2.1. Diagramas de casos de uso
+#### 🔹 7.2.3. Manual de Modelado UML
+## 🟣 8. El Proceso Racional Unificado (RUP)
+## 🟣 9. Bibliografía
  
 
-<!-- Page 4 -->
-
  
  
-Diseño y Programación Orientada a Objetos. Patrones de Diseño y Lenguaje de Modelado Unificado (UML) 
-4 
-1. Programación orientada a objetos 
+Diseño y 
+1. 
 Debido a las limitaciones de la programación estructurada, se crea la programación orientada a 
 objetos POO. (Según sus siglas en inglés, OOP) 
 En el mundo real, existen con objetos (personas, coches…) que tienen atributos (datos) y 
 comportamientos (funciones). 
-• Atributos. 
+- Atributos.
 Son las características o propiedades de los objetos. 
 Ejemplos: estatura de una persona, color de un coche, número de plantas de un edificio. 
-• Comportamiento. 
+- Comportamiento.
 Son las acciones que realizan los objetos del mundo real en respuesta a un determinado \nestímulo. 
 Ejemplo: una persona puede sentarse, caminar, conducir…. un coche puede acelerar, frenar… 
-La programación orientada a objetos, es un paradigma de programación que utiliza objetos y sus 
+La 
 interacciones, innova la forma de obtener resultados, los objetos manipulan los datos de entrada para 
 la obtención de datos de salida específicos, donde cada objeto ofrece una funcionalidad especial. 
 Es un conjunto de objetos que interactúan entre sí enviándose mensajes. 
 Este lenguaje, está basado en varias técnicas: abstracción, herencia, polimorfismo, encapsulamiento… 
 Su uso comenzó a principios de los años 1990 y se hizo muy popular, por lo que actualmente, existen 
-muchos lenguajes de programación que soportan la orientación a objetos. 
+muchos 
 Los objetos tienen atributos y métodos. 
 Esta característica permite modelar los objetos del mundo real de un modo mucho más eficiente que 
 utilizando funciones y datos. 
 
-<!-- Page 5 -->
-
  
  
-Diseño y Programación Orientada a Objetos. Patrones de Diseño y Lenguaje de Modelado Unificado (UML) 
-5 
+Diseño y 
 Objetivos 
-Enfoques de los lenguajes de programación: 
-• En el enfoque procedimental, nos preguntamos: 
+Enfoques de los 
+- En el enfoque procedimental, nos preguntamos:
 ¿Qué hace este programa? 
-• En el enfoque orientado a objetos nos preguntamos: 
+- En el enfoque orientado a objetos nos preguntamos:
 ¿Qué objetos del mundo real podemos modelar? 
 Por lo tanto, en lugar de ajustar un problema al enfoque procedimental de un lenguaje, en la 
-programación orientada a objetos intentamos ajustar el lenguaje al problema. 
-La POO (programación orientada a objetos): 
-• Se basa en el hecho de que se debe dividir el programa en modelos de los objetos físicos en lugar 
-de en tareas. 
-• La idea fundamental es combinar en una sola entidad (objeto) tanto los datos como las 
-funciones que actúan sobre los datos. 
-• Tiene como base averiguar que objetos necesita el programa y cuáles deben ser sus atributos y 
-sus métodos. 
+
+La POO (
+- Se basa en el hecho de que se debe dividir el programa en modelos de los objetos físicos en lugar de en tareas. 
+- La idea fundamental es combinar en una sola entidad (objeto) tanto los datos como las funciones que actúan sobre los datos. 
+- Tiene como base averiguar que objetos necesita el programa y cuáles deben ser sus atributos y sus métodos. 
 Diseño 
 Al crear un sistema de BD Orientado a Objetos debemos tener en cuenta unas características que están 
 divididas en tres grupos: 
-• Mandatorias. Son las características obligatorias que un sistema de bases de datos orientado a 
-objetos debe cumplir para poder considerarse como tal. 
-• Objetos e Identidad (OID): Cada objeto tiene un identificador único permanente, 
-independiente de los valores de sus atributos. 
-• Encapsulación: Los datos (atributos) y el comportamiento (métodos) se empaquetan 
-juntos dentro de un objeto. 
-• Clases: Las clases definen la estructura y el comportamiento común para un grupo de 
-objetos similares. 
-• Herencia: Las clases pueden heredar atributos y métodos de sus superclases, facilitando la 
-reutilización. 
-• Polimorfismo y Enlace Tardío: El mismo mensaje puede provocar comportamientos 
-diferentes dependiendo del objeto receptor. 
-
-<!-- Page 6 -->
+- Mandatorias. Son las características obligatorias que un sistema de bases de datos orientado a objetos debe cumplir para poder considerarse como tal. 
+- Objetos e Identidad (OID): Cada objeto tiene un identificador único permanente, independiente de los valores de sus atributos. 
+- Encapsulación: Los datos (atributos) y el comportamiento (métodos) se empaquetan juntos dentro de un objeto. 
+- Clases: Las clases definen la estructura y el comportamiento común para un grupo de objetos similares. 
+- Herencia: Las clases pueden heredar atributos y métodos de sus superclases, facilitando la reutilización. 
+- Polimorfismo y Enlace Tardío: El mismo mensaje puede provocar comportamientos diferentes dependiendo del objeto receptor. 
 
  
  
-Diseño y Programación Orientada a Objetos. Patrones de Diseño y Lenguaje de Modelado Unificado (UML) 
-6 
-• Completitud Computacional: El lenguaje del sistema debe ser capaz de resolver cualquier 
-problema computable. 
-• Persistencia Transparente: Los objetos sobreviven al programa que los creó sin necesidad 
-de conversión. 
-• Opcionales. No son estrictamente necesarias, pero su incorporación mejora el sistema al añadir 
-funcionalidad extra o un mejor rendimiento. 
-• Herencia Múltiple: Una clase puede heredar estructura y comportamiento de más de una 
-superclase directa. 
-• Verificación de Tipos: El sistema asegura la compatibilidad de tipos tanto en compilación 
-como en ejecución. 
-• Distribución: La base de datos y el procesamiento pueden estar repartidos en múltiples 
-ubicaciones físicas. 
-• Transacciones: Soporte para operaciones complejas que deben cumplir las propiedades 
+Diseño y 
+- Completitud Computacional: El lenguaje del sistema debe ser capaz de resolver cualquier problema computable. 
+- Persistencia Transparente: Los objetos sobreviven al programa que los creó sin necesidad de conversión. 
+- Opcionales. No son estrictamente necesarias, pero su incorporación mejora el sistema al añadir funcionalidad extra o un mejor rendimiento. 
+- Herencia Múltiple: Una clase puede heredar estructura y comportamiento de más de una superclase directa. 
+- Verificación de Tipos: El sistema asegura la compatibilidad de tipos tanto en compilación como en ejecución. 
+- Distribución: La base de datos y el procesamiento pueden estar repartidos en múltiples ubicaciones físicas. 
+- Transacciones: Soporte para operaciones complejas que deben cumplir las propiedades
 ACID (atomicidad, consistencia, aislamiento, durabilidad). 
-• Consultas (Querying): Capacidad de realizar búsquedas complejas y declarativas sobre los 
-objetos persistidos. 
-• Control de Versiones: Mecanismo para guardar, gestionar y acceder a distintas versiones de 
-un objeto. 
-• Abiertas. Son aquellas en las que el diseñador puede aportar libertad de implementación. Están 
-ligadas al entorno de programación y permiten extender o adaptar el sistema a necesidades \nespecíficas. 
-• Paradigma del Lenguaje: Decisión de acoplar la base de datos a un lenguaje de 
-programación específico o ser multi-lenguaje. 
-• Sistema de Tipos: Diseño e implementación específica de cómo se comprueban y manejan 
-los tipos de datos. 
-• Estrategia de Persistencia: Elección del método para lograr la persistencia (por herencia, 
-reachability o declaración). 
-• Gestión de Caché: Implementación de algoritmos para manejar qué objetos se mantienen \nen memoria RAM. 
-• Mecanismo de Indexación: Diseño de cómo se indexan los objetos para acelerar las 
-consultas. 
+- Consultas (Querying): Capacidad de realizar búsquedas complejas y declarativas sobre los objetos persistidos. 
+- Control de Versiones: Mecanismo para guardar, gestionar y acceder a distintas versiones de un objeto. 
+- Abiertas. Son aquellas en las que el diseñador puede aportar libertad de implementación. Están ligadas al entorno de programación y permiten extender o adaptar el sistema a necesidades \nespecíficas. 
+- Paradigma del Lenguaje: Decisión de acoplar la base de datos a un lenguaje de programación específico o ser multi-lenguaje. 
+- Sistema de Tipos: Diseño e implementación específica de cómo se comprueban y manejan los tipos de datos. 
+- Estrategia de Persistencia: Elección del método para lograr la persistencia (por herencia, reachability o declaración). 
+- Gestión de Caché: Implementación de algoritmos para manejar qué objetos se mantienen \nen memoria RAM.
+- Mecanismo de Indexación: Diseño de cómo se indexan los objetos para acelerar las consultas. 
 Cuando escribimos un programa en un lenguaje orientado a objetos, estamos creando un modelo de 
 una parte del mundo real. 
 Las partes que construimos son objetos que aparecen en el dominio del problema. 
 
-<!-- Page 7 -->
-
  
  
-Diseño y Programación Orientada a Objetos. Patrones de Diseño y Lenguaje de Modelado Unificado (UML) 
-7 
+Diseño y 
 Los lenguajes orientados a objetos: 
-• Utilizan atributos de una forma equivalente a las variables. 
-• Utilizan métodos de una forma equivalente a las funciones. 
+- Utilizan atributos de una forma equivalente a las variables.
+- Utilizan métodos de una forma equivalente a las funciones.
  
  
  
  
-Recuerda ver las clases emitidas en Temario 
-Audiovisual 
-Las clases impartidas en directo y disponibles en Campus, en 
-Temario Audiovisual, te ayudarán al entendimiento de la unidad, y 
-además pueden tener información adicional. 
-ACCEDE DIRECTAMENTE DESDE AQUÍ 
  
-1.1. Estructura de un programa orientado a objetos 
+ 
+### 🔵 1.1. Estructura de un programa orientado a objetos
 En un sistema orientado a objetos, el programa se organiza como un conjunto finito de objetos que 
 contienen datos y métodos, (funciones miembro) que operan sobre esos datos y que se comunican \nentre sí mediante mensajes. 
 La estructura de un programa orientado a objetos sería la siguiente: 
  
 
-<!-- Page 8 -->
-
  
  
-Diseño y Programación Orientada a Objetos. Patrones de Diseño y Lenguaje de Modelado Unificado (UML) 
-8 
-1.2. Modelado de sistemas 
+Diseño y 
+### 🔵 1.2. Modelado de sistemas
 Las etapas necesarias para modelar un sistema y resolver un problema son: 
 1. Identificación de los objetos del problema. 
 2. Agrupamiento los objetos en clases (tipos o categorías de objetos) según sus características y 
@@ -286,29 +186,26 @@ Identificación de objetos
 Un objeto en software es una entidad individual de un sistema que guarda una relación directa con los 
 objetos del mundo real. La correspondencia entre objetos de programación y objetos del mundo real es \nel resultado práctico de combinar atributos y operaciones. 
 Un objeto tiene un estado, un comportamiento y una identidad: 
-• Estado. 
+- Estado.
 Es el conjunto de valores de todos los atributos de un objeto en un instante de tiempo 
 determinado. 
 El estado de un objeto tiene un carácter dinámico que varía a lo largo del tiempo. 
-• Comportamiento. 
+- Comportamiento.
 Es el conjunto de operaciones que se pueden realizar sobre un objeto. 
 Las operaciones pueden ser de observación del estado interno del objeto (consultar el valor de 
 un atributo), o bien de modificación de dicho estado (cambiar el valor de un atributo). 
 El estado de un objeto evoluciona en función de la aplicación de sus operaciones. 
 Estas operaciones se realizan tras la recepción de un mensaje o estímulo externo enviado por 
 otro objeto. 
-• Identidad. 
+- Identidad.
 Permite diferenciar los objetos de modo no ambiguo. Es independiente de su estado y permite 
 distinguir dos objetos idénticos en cuanto a los valores de sus atributos. 
 Cada objeto posee su propia identidad y ocupa su propia posición en la memoria de la 
 computadora. 
 
-<!-- Page 9 -->
-
  
  
-Diseño y Programación Orientada a Objetos. Patrones de Diseño y Lenguaje de Modelado Unificado (UML) 
-9 
+Diseño y 
 Cuando se diseña un problema en un lenguaje orientado a objetos, se debe pensar en dividir 
 dicho problema en objetos. Dicho de otro modo, es preciso identificar y seleccionar los objetos 
 del dominio del problema de modo que exista una correspondencia entre los objetos desde el 
@@ -319,22 +216,19 @@ El tipo de cosas que pueden convertirse en objetos es infinito.
  
 Ejemplo 
 Algunos casos típicos de objetos podrían ser: 
-• Personas (clientes, alumnos, empleados). 
-• Estructuras de datos (pilas, árboles). 
-• Archivos de datos (fichero, almacén de datos). 
-• Objetos físicos (coches, muebles, juguetes). 
-• Software (S.O., procesador de textos). 
+- Personas (clientes, alumnos, empleados).
+- Estructuras de datos (pilas, árboles).
+- Archivos de datos (fichero, almacén de datos).
+- Objetos físicos (coches, muebles, juguetes).
+- Software (S.O., procesador de textos).
 Podríamos seguir y no terminaríamos nunca. 
  
-1.3. Ejemplos de POO 
+### 🔵 1.3. Ejemplos de POO
  
 
-<!-- Page 10 -->
-
  
  
-Diseño y Programación Orientada a Objetos. Patrones de Diseño y Lenguaje de Modelado Unificado (UML) 
-10 
+Diseño y 
 Tengamos en cuenta: 
  
  
@@ -350,7 +244,7 @@ traits. La abstracción de clases se realiza extendiendo otras clases y
 usando un mecanismo de composición basado en mixins como un 
 reemplazo limpio de la herencia múltiple. 
  
-2. Elementos y componentes software 
+## 🟣 2. Elementos y componentes software
 Un componente de software es un elemento de un sistema que ofrece un servicio predefinido, y es 
 capaz de comunicarse con otros componentes. 
 Un componente es un objeto escrito de acuerdo a unas especificaciones, debe ser diseñado e 
@@ -360,19 +254,16 @@ Esta capacidad de reusabilidad (reusability), es una característica importante 
 software de alta calidad. Un componente. 
 Requiere gran esfuerzo y atención escribir un componente que es realmente reutilizable. 
 El componente debe estar: 
-• Completamente documentado. 
-• Probado intensivamente. 
-• Debe ser robusto, comprobando la validez de las entradas. 
-• Debe ser capaz de pasar mensajes de error apropiados. 
-• Diseñado pensando en que será usado de maneras imprevistas. 
-
-<!-- Page 11 -->
+- Completamente documentado.
+- Probado intensivamente.
+- Debe ser robusto, comprobando la validez de las entradas.
+- Debe ser capaz de pasar mensajes de error apropiados.
+- Diseñado pensando en que será usado de maneras imprevistas.
 
  
  
-Diseño y Programación Orientada a Objetos. Patrones de Diseño y Lenguaje de Modelado Unificado (UML) 
-11 
-2.1. Mensajes 
+Diseño y 
+### 🔵 2.1. Mensajes
 Un mensaje es la petición que enviamos a un objeto para que se comporte de una determinada manera, \nes decir, que realice una acción. 
 En respuesta al mensaje, el objeto receptor se comportará de una determinada forma. 
 "El mensaje invoca a un método que realizará la acción sobre el objeto". 
@@ -386,28 +277,23 @@ Cada mensaje consta de tres partes:
 2. Operación solicitada (método). 
 3. Información adicional (argumentos), necesaria para poder ejecutar el método. 
 Mediante el mensaje podemos: 
-• Activar el comportamiento de un objeto: Un mensaje desencadena la ejecución de un método \nen el objeto receptor. 
-• Establecer interacciones entre objetos: Los objetos colaboran entre sí enviándose mensajes. 
-• Implementar el principio de encapsulación: El mensaje es la única forma de acceder al 
-comportamiento de un objeto, sin exponer su implementación interna. 
-2.2. Objetos 
-El objeto es el centro de la programación orientada a objetos. Un objeto es algo que se visualiza, se 
+- Activar el comportamiento de un objeto: Un mensaje desencadena la ejecución de un método \nen el objeto receptor.
+- Establecer interacciones entre objetos: Los objetos colaboran entre sí enviándose mensajes.
+- Implementar el principio de encapsulación: El mensaje es la única forma de acceder al comportamiento de un objeto, sin exponer su implementación interna. 
+### 🔵 2.2. Objetos
+El objeto es el centro de la 
 utiliza y que juega un papel o un rol. 
 Cuando se programa de modo orientado a objetos se trata de descubrir e implementar los objetos que 
 juegan un rol en el dominio del problema del programa. 
 La estructura interna y el comportamiento de un objeto, en consecuencia, no son prioritarios durante el 
 modelado del problema (abstraemos las particularidades internas del objeto). 
 
-<!-- Page 12 -->
-
  
  
-Diseño y Programación Orientada a Objetos. Patrones de Diseño y Lenguaje de Modelado Unificado (UML) 
-12 
+Diseño y 
 Un objeto: 
-• Almacena unos valores, se denominan atributos, variables o propiedades. 
-• Pueden realizar acciones, que, se denominan: servicios, funciones, métodos, procedimientos u 
-operaciones. 
+- Almacena unos valores, se denominan atributos, variables o propiedades.
+- Pueden realizar acciones, que, se denominan: servicios, funciones, métodos, procedimientos u operaciones. 
 ¿Qué puede ser un objeto? 
 Un objeto no tiene que ser necesariamente algo concreto o tangible. Puede ser totalmente abstracto e 
 incluso describir un proceso. 
@@ -417,32 +303,26 @@ incluso describir un proceso.
  
 Ejemplo 
 Una asociación de senderismo podría ser un objeto. 
-• Los atributos podrían ser el nombre, número de miembros, 
-la ubicación de la sede. 
-• Los métodos podrían ser convocar salida, añadir miembro, 
-dar de baja a un miembro, etcétera. 
-• Una instancia podría ser: 
-• Nombre: Asociación de Senderismo Amigos del 
+- Los atributos podrían ser el nombre, número de miembros, la ubicación de la sede. 
+- Los métodos podrían ser convocar salida, añadir miembro, dar de baja a un miembro, etcétera. 
+- Una instancia podría ser:
+- Nombre: Asociación de Senderismo Amigos del
 Calvario. 
-• Miembros: 200. 
-• Ubicación de la sede: Villafranca de Córdoba. 
+- Miembros: 200.
+- Ubicación de la sede: Villafranca de Córdoba.
  
  
 Fuente: https://pxhere.com/en/photo/916422 
 
-<!-- Page 13 -->
-
  
  
-Diseño y Programación Orientada a Objetos. Patrones de Diseño y Lenguaje de Modelado Unificado (UML) 
-13 
+Diseño y 
 Los fundamentales elementos de un objeto son tres: 
-• Estado. 
-• Comportamiento: El conjunto de operaciones que se pueden realizar sobre un objeto en un 
-momento dado. 
-• Identidad. 
-2.3. Métodos 
-En programación orientada a objetos, las operaciones definidas para los objetos, se denominan 
+- Estado.
+- Comportamiento: El conjunto de operaciones que se pueden realizar sobre un objeto en un momento dado. 
+- Identidad.
+### 🔵 2.3. Métodos
+En 
 métodos. 
 Los métodos son subrutinas de manipulación de dichos datos, implementan la funcionalidad asociada al 
 objeto. 
@@ -458,18 +338,15 @@ variables de la clase de forma implícita o incluida.
 Cuando se llama a un método de un objeto, se interpreta como el envío de un mensaje a dicho objeto. 
 Un programa orientado a objetos se forma enviando mensajes a los objetos, que a su vez envían 
 mensajes a otros objetos. 
-2.4. Clases 
+### 🔵 2.4. Clases
 Todos los objetos del mismo tipo se agrupan en clases. Una clase, es una plantilla con un modelo 
 predefinido, para la creación de objetos de datos de determinado tipo. 
 Una clase es la implementación de un tipo abstracto de dato y describe no solo los atributos (datos) de 
 un objeto, sino también sus operaciones (comportamiento). 
 
-<!-- Page 14 -->
-
  
  
-Diseño y Programación Orientada a Objetos. Patrones de Diseño y Lenguaje de Modelado Unificado (UML) 
-14 
+Diseño y 
 Una clase puede existir sin que se haya creado ningún objeto a partir de ella. Los objetos dependen 
 de la clase, pero no al revés.Una  
  
@@ -484,16 +361,14 @@ métodos de la clase (funciones).
  
  
 Cada clase define: 
-• Los atributos son las características que describen a un objeto, en la práctica se implementan 
-como variables de objeto, también llamadas variables de instancia. 
-• Los métodos, son las operaciones que pueden realizar los objetos de una clase (sobre sí mismos 
-o sobre otros objetos). 
+- Los atributos son las características que describen a un objeto, en la práctica se implementan como variables de objeto, también llamadas variables de instancia. 
+- Los métodos, son las operaciones que pueden realizar los objetos de una clase (sobre sí mismos o sobre otros objetos). 
 Cada objeto creado a partir de la clase se denomina instancia de la clase. 
  
  
  
 + Info 
-Los lenguajes de programación que soportan clases, pueden diferir \nen su soporte algunas características de las clases. La mayoría 
+Los 
 soportan diversas formas de herencia y, también características 
 para proporcionar encapsulación, como especificadores de acceso. 
  
@@ -502,26 +377,22 @@ Una clase puede tener una representación (meta-objeto) en tiempo de ejecución,
 apoyo en tiempo de ejecución para la manipulación de los datos relacionados con la clase. 
 Una clase puede tener elementos privados, por tanto, cuando una clase hereda de otra, todos los \nelementos privados de la clase base no son accesibles a la clase derivada. 
 
-<!-- Page 15 -->
-
  
  
-Diseño y Programación Orientada a Objetos. Patrones de Diseño y Lenguaje de Modelado Unificado (UML) 
-15 
+Diseño y 
 Componentes 
 Las clases se componen de "miembros" (elementos) de varios tipos: 
-• Campos de datos: almacenan el estado de la clase por medio de "variables o miembros". 
+- Campos de datos: almacenan el estado de la clase por medio de "variables o miembros".
 Los datos pueden estar almacenados en variables, o en estructuras más complejas como son: 
 uniones, structs e incluso otras clases. 
 (Struct: es una declaración de tipo de datos compuestos que define una lista de variables 
 agrupadas físicamente con un solo nombre en un bloque de memoria). 
 Las variables miembro, normalmente, son privadas al objeto (principio de ocultación) y su 
 acceso se realiza mediante propiedades o métodos que realizan comprobaciones adicionales. 
-• Las "propiedades": Las propiedades son los atributos de la computadora. Debido a que es 
-común que las variables miembro sean privadas, para controlar el acceso y mantener la 
+- Las "propiedades": Las propiedades son los atributos de la computadora. Debido a que es común que las variables miembro sean privadas, para controlar el acceso y mantener la 
 coherencia, surge la necesidad de permitir consultar o modificar su valor, mediante pares de 
 métodos: GetVariable y SetVariable. 
-• Métodos en las clases: Los métodos implementan la funcionalidad asociada al objeto. 
+- Métodos en las clases: Los métodos implementan la funcionalidad asociada al objeto.
 Cuando se desea realizar una acción sobre un objeto, se dice que se le manda un mensaje invocando 
 a un método que realizará la acción. 
 Son el equivalente a las funciones en programación estructurada. Se diferencian de ellos en que es 
@@ -533,23 +404,20 @@ posible acceder a las variables de la clase de forma implícita o incluida.
 Pista 
 Haciendo una comparación con la gramática en lenguaje, si las 
 clases representan sustantivos: 
-• Los campos de datos pueden ser sustantivos o adjetivos. 
-• Los métodos son los verbos. 
+- Los campos de datos pueden ser sustantivos o adjetivos.
+- Los métodos son los verbos.
  
 
-<!-- Page 16 -->
-
  
  
-Diseño y Programación Orientada a Objetos. Patrones de Diseño y Lenguaje de Modelado Unificado (UML) 
-16 
-2.4.1. Instanciar una clase (Instancia) 
+Diseño y 
+#### 🔹 2.4.1. Instanciar una clase (Instancia)
 Una instancia (en inglés, instance) es el resultado "crear" un objeto, su realización específica u 
 ocurrencia. Cuando creamos un objeto, estamos instanciando una clase. 
 Una clase describe un conjunto de objetos mediante atributos y métodos que resumen sus características 
 y comportamientos. Es una plantilla o definición de los objetos que se crearán a partir de ella. 
 Definir clases permite trabajar con código reutilizable. 
-En los lenguajes de programación orientada a objetos, podemos decir, que un objeto y la instancia de 
+En los 
 una clase son sinónimos, el matiz es que cuando hablamos de instancia nos referimos de manera velada 
 al molde (la clase). 
 Las instancias son la implementación de los objetos descritos en una clase. 
@@ -566,7 +434,7 @@ implementación común y se potencia mediante composición, herencia y polimorfi
 últimos que veremos un poco más tarde. 
 Las clases definen qué atributos existen y qué operaciones posibilitan, dejando que cada objeto 
 particular tenga sus propios valores, en lo que se definirá como estado. 
-Un progreso importante en la historia de los lenguajes de programación se produjo cuando se comenzó 
+Un progreso importante en la historia de los 
 a encapsular o empaquetar diferentes propiedades en un tipo de dato. 
 Las estructuras de datos permiten agrupar en una sola variable varios campos relacionados. El objeto 
 surge como evolución del struct de la programación estructurada, al incorporar no solo datos, sino 
@@ -575,54 +443,47 @@ Sin embargo, aunque en las estructuras y registros se pueden almacenar las propi
 los objetos, no pueden representar qué hacer con estos objetos (acelerar, frenar, etcétera). Por lo 
 tanto, se necesita que estas operaciones también se incorporen al objeto. 
 
-<!-- Page 17 -->
-
  
  
-Diseño y Programación Orientada a Objetos. Patrones de Diseño y Lenguaje de Modelado Unificado (UML) 
-17 
+Diseño y 
 El tipo abstracto de datos (TAD) describe los atributos de un objeto y también su comportamiento 
 (operaciones o funciones). El término tipo abstracto de dato se consigue en programación orientada a 
 objetos con el término clase. El TAD se corresponde con la clase en POO. 
-2.5. Ejemplo 
+### 🔵 2.5. Ejemplo
 Recordamos 
 Cada clase define: (describe todos los objetos de una determinada categoría). 
-• Un conjunto de variables. 
-• El comportamiento: métodos apropiados para operar con dichos datos. 
+- Un conjunto de variables.
+- El comportamiento: métodos apropiados para operar con dichos datos.
 Cada objeto creado a partir de la clase se denomina instancia de la clase. 
 Los objetos se crean a partir de las clases: 
-• La clase describe el tipo del objeto. 
-• Los objetos representan instanciaciones individuales de la clase. 
+- La clase describe el tipo del objeto.
+- Los objetos representan instanciaciones individuales de la clase.
 Los fundamentales elementos de un objeto son tres: 
-• Estado. 
+- Estado.
 El conjunto de valores de los atributos en un momento determinado. 
-• Comportamiento. 
+- Comportamiento.
 El conjunto de operaciones (que hemos definido) que se pueden realizar sobre un objeto en un 
 momento dado. 
-• Identidad. 
+- Identidad.
 Propiedad que permite distinguir un objeto de cualquier otro, aunque tengan el mismo estado. 
 A nivel de implementación, suele corresponder a la referencia o dirección de memoria (o a un 
 identificador interno) asignada por el sistema. 
 Ejemplo: 
 Un automóvil sería una clase con: 
-• Atributos: 
+- Atributos:
 Modelo, color, número de puertas, tapicería. 
 
-<!-- Page 18 -->
-
  
  
-Diseño y Programación Orientada a Objetos. Patrones de Diseño y Lenguaje de Modelado Unificado (UML) 
-18 
-• Comportamientos: 
+Diseño y 
+- Comportamientos:
 Acelerar, girar, frenar. 
 Una instancia de la clase automóvil sería: 
-• Un coche específico, es una instancia de la clase automóvil (teniendo en cuenta el modelo, 
-numero de puertas, color, etc.) 
+- Un coche específico, es una instancia de la clase automóvil (teniendo en cuenta el modelo, numero de puertas, color, etc.) 
 Una persona sería una clase con: 
-• Atributos. 
+- Atributos.
 Altura, peso, edad, etc. 
-• Comportamientos: 
+- Comportamientos:
 Caminar, conducir (acelerar, girar el volante, frenar). 
  
  
@@ -643,24 +504,21 @@ Fuente: imágenes cedidas por Daniel Sanz
 El conductor deberá, tener el comportamiento de conducir, y enviar mensajes al objeto coche, para 
 que acelere, gire, frene etc. 
 
-<!-- Page 19 -->
-
  
  
-Diseño y Programación Orientada a Objetos. Patrones de Diseño y Lenguaje de Modelado Unificado (UML) 
-19 
-3. Propiedades básicas de LPOO 
-La mayoría de los lenguajes de programación actuales, incluyen bibliotecas o librerías. 
+Diseño y 
+## 🟣 3. Propiedades básicas de LPOO
+La mayoría de los 
 También permiten al usuario la creación de sus propias bibliotecas. 
-3.1. Técnicas del sexenio 
+### 🔵 3.1. Técnicas del sexenio
 El lenguaje de Programación Orientado a Objetos, se basa en varias técnicas del sexenio: 
-• Herencia (generalización). 
-• Abstracción. 
-• Polimorfismo. 
-• Acoplamiento. 
-• Cohesión. 
-• Encapsulamiento. 
-3.1.1. Herencia 
+- Herencia (generalización).
+- Abstracción.
+- Polimorfismo.
+- Acoplamiento.
+- Cohesión.
+- Encapsulamiento.
+#### 🔹 3.1.1. Herencia
 Es uno de los conceptos más importantes del paradigma orientado a objetos. 
 Es una abstracción que permite la reutilización de código, y, además, habilita las capacidades del 
 polimorfismo, a través de la sobre escritura de métodos. 
@@ -678,12 +536,9 @@ Las clases pueden dividirse en subclases.
 Ejemplo: La clase mueble se puede dividir en sillas, mesas, armarios, etcétera. (todo fabricado en el 
 mismo material, como por ejemplo madera). 
 
-<!-- Page 20 -->
-
  
  
-Diseño y Programación Orientada a Objetos. Patrones de Diseño y Lenguaje de Modelado Unificado (UML) 
-20 
+Diseño y 
  
 Herencia simple 
 La clase de la que se hereda se suele denominar clase principal, clase base, clase padre, superclase o 
@@ -694,28 +549,25 @@ Cada subclase comparte características con la clase de la que deriva (por ejemp
 Además, cada subclase tendrá sus propias características (la subclase "armario" tendrá el atributo 
 "número de puertas" y la silla el "número de patas"). 
 Hay dos tipos de herencias: 
-• Herencia simple. Una clase sólo puede derivar de otra (solo puede tener una superclase. 
-• Herencia múltiple. Una clase deriva de dos o más clases, (puede tener más de una superclase). 
+- Herencia simple. Una clase sólo puede derivar de otra (solo puede tener una superclase.
+- Herencia múltiple. Una clase deriva de dos o más clases, (puede tener más de una superclase).
 No todos los lenguajes POO ofrecen esta posibilidad. 
 Lenguajes que soportan herencia múltiple en su mayor parte son: C++, Centura SQL Windows, 
 CLOS, Eiffel, Object REXX, Perl y Python. 
 Es una herramienta muy potente, pero puede producir problemas, como un conflicto de nombres 
 cuando el mismo nombre se utiliza en dos o más clases. Por eso algunos lenguajes no la implementan. 
-En programación orientada a objetos, la herencia es, después de la agregación o composición, el 
+En 
 mecanismo más utilizado para alcanzar algunos de los objetivos más preciados en el desarrollo de 
 software como lo son la reutilización y la extensibilidad. 
-3.1.1.1. Generalización 
+##### 3.1.1.1. Generalización
 La herencia modela el hecho de que estos objetos tienden a organizarse en jerarquías. Esta jerarquía, 
 desde el punto de vista del modelado, se denomina relación de generalización y se define con el 
 predicado "es-un". 
 
-<!-- Page 21 -->
-
  
  
-Diseño y Programación Orientada a Objetos. Patrones de Diseño y Lenguaje de Modelado Unificado (UML) 
-21 
-• Ejemplo: una cama es un mueble. 
+Diseño y 
+- Ejemplo: una cama es un mueble.
 Por lo tanto, la herencia es la relación de generalización. 
 Cada clase derivada hereda las características de la clase base y cada clase derivada añade sus propias 
 características (atributos y operaciones). 
@@ -729,30 +581,27 @@ Ejemplo: los tipos conserje y recepcionista obteniendo el supertipo empleado.
 La herencia nos permite abstraer un tipo de entidad de nivel superior (supertipo) a partir de varios tipos 
 de entidad (subtipos); en estos casos los atributos comunes y relaciones de los subtipos se asignan al 
 supertipo. 
-3.1.1.2. Especialización 
+##### 3.1.1.2. Especialización
 Es la relación opuesta a la generalización. Se puede definir con la relación "es un". Esta relación es 
 transitiva. 
  
 
-<!-- Page 22 -->
-
  
  
-Diseño y Programación Orientada a Objetos. Patrones de Diseño y Lenguaje de Modelado Unificado (UML) 
-22 
+Diseño y 
  
  
  
 Ejemplo 
 Perro: 
-• Un perro es un canino. 
-• Un canino es un mamífero. 
+- Un perro es un canino.
+- Un canino es un mamífero.
 Como esta relación es transitiva, tenemos que: 
 Un perro es un mamífero. 
  
  
 Nuestra perrita Kora es un mamífero 
-3.1.2. Abstracción 
+#### 🔹 3.1.2. Abstracción
 La abstracción es la propiedad que considera los aspectos más significativos o notables de un problema 
 y expresa una solución en esos términos, omitiendo la información no relevante para simplificar el 
 problema. 
@@ -761,12 +610,9 @@ abstracción posee diversos grados, denominados niveles de abstracción, que ayu
 complejidad intrínseca que poseen los sistemas del mundo real. 
 En el análisis de un sistema hay que concentrarse en ¿qué hace? y no en ¿cómo lo hace? 
 
-<!-- Page 23 -->
-
  
  
-Diseño y Programación Orientada a Objetos. Patrones de Diseño y Lenguaje de Modelado Unificado (UML) 
-23 
+Diseño y 
  
  
  
@@ -790,27 +636,21 @@ Siempre que la llamada a la función y los parámetros no cambien, no nos import
 codificado internamente. Incluso podríamos modificarla y no tendría repercusión para los programas y 
 usuarios que la utilizan (siempre que se mantenga la misma interfaz). 
 
-<!-- Page 24 -->
-
  
  
-Diseño y Programación Orientada a Objetos. Patrones de Diseño y Lenguaje de Modelado Unificado (UML) 
-24 
+Diseño y 
 Bridge 
 El patrón Bridge, también conocido como Handle/Body, es una técnica usada en programación para 
 desacoplar una abstracción de su implementación, de manera que ambas puedan ser modificadas 
 independientemente sin necesidad de alterar por ello la otra. 
 Esto es, se desacopla una abstracción de su implementación para que puedan variar independientemente. 
 Aplicabilidad, se usa el patrón Bridge cuando: 
-• Se desea evitar un enlace permanente entre la abstracción y su implementación. Esto puede ser 
-debido a que la implementación debe ser seleccionada o cambiada en tiempo de ejecución. 
-• Tanto las abstracciones como sus implementaciones deben ser extensibles por medio de 
-subclases. En este caso, el patrón Bridge permite combinar abstracciones e implementaciones 
+- Se desea evitar un enlace permanente entre la abstracción y su implementación. Esto puede ser debido a que la implementación debe ser seleccionada o cambiada en tiempo de ejecución. 
+- Tanto las abstracciones como sus implementaciones deben ser extensibles por medio de subclases. En este caso, el patrón Bridge permite combinar abstracciones e implementaciones 
 diferentes y extenderlas independientemente. 
-• Cambios en la implementación de una abstracción no deben impactar en los clientes, es decir, su 
-código no debe tener que ser recompilado. 
-• Se desea compartir una implementación entre múltiples objetos (quizá usando contadores), y \neste hecho debe ser escondido a los clientes. 
-3.1.3. Polimorfismo 
+- Cambios en la implementación de una abstracción no deben impactar en los clientes, es decir, su código no debe tener que ser recompilado. 
+- Se desea compartir una implementación entre múltiples objetos (quizá usando contadores), y \neste hecho debe ser escondido a los clientes.
+#### 🔹 3.1.3. Polimorfismo
 Un objeto puede presentar diferentes comportamientos. 
 El poliformismo, es la propiedad por la cual un mismo mensaje puede originar conductas 
 completamente diferentes al ser recibido por diferentes objetos. 
@@ -824,24 +664,21 @@ Esto es común en el mundo real, ya que una misma operación se realiza de forma
 dependiendo del objeto al que se aplique. 
  
 
-<!-- Page 25 -->
-
  
  
-Diseño y Programación Orientada a Objetos. Patrones de Diseño y Lenguaje de Modelado Unificado (UML) 
-25 
+Diseño y 
  
  
  
 Ejemplo 
 El método encender puede actuar de muchas formas diferentes 
 según el objeto: 
-• Encender un ordenador. 
-• Encender una cerilla. 
-• Encender una lámpara. 
-• Encender un cigarro. 
-• Encender un coche. 
-• Encender los ánimos. 
+- Encender un ordenador.
+- Encender una cerilla.
+- Encender una lámpara.
+- Encender un cigarro.
+- Encender un coche.
+- Encender los ánimos.
  
  
 La apariencia del código puede ser muy diferente dependiendo del lenguaje que se utilice, más allá de 
@@ -850,7 +687,7 @@ En lenguajes de tipado dinámico como Smalltalk, Python o Ruby, el polimorfismo 
 typing: dos objetos pueden usarse de manera polimórfica si responden al mismo mensaje (método), sin 
 necesidad de pertenecer a una jerarquía de clases común. El sistema verifica en tiempo de ejecución si el 
 objeto entiende el mensaje. 
-3.1.3.1. Sobrecarga 
+##### 3.1.3.1. Sobrecarga
 La sobrecarga en LPOO es un tipo de polimorfismo estático (resuelto en tiempo de compilación) que 
 permite definir múltiples versiones de una función o operador con el mismo nombre, pero con 
 parámetros diferentes (en tipo, número o orden). 
@@ -858,23 +695,18 @@ Es la posibilidad de tener dos o más funciones con el mismo nombre, pero funcio
 decir, dos o más funciones con el mismo nombre que realizan acciones diferentes. El compilador usará 
 una u otra dependiendo de los parámetros usados. A esto se llama también sobrecarga de funciones o 
 funciones sobrecargadas. 
-• Sobrecarga de métodos: En una clase, puedes tener varios métodos con el mismo nombre pero 
-distintas firmas. El compilador elige cuál ejecutar según los argumentos. 
-• Sobrecarga de operadores: Algunos lenguajes (como C++ o Python) permiten redefinir 
-operadores (ej: +, -) para que se comporten de forma distinta con diferentes tipos de datos. 
+- Sobrecarga de métodos: En una clase, puedes tener varios métodos con el mismo nombre pero distintas firmas. El compilador elige cuál ejecutar según los argumentos. 
+- Sobrecarga de operadores: Algunos lenguajes (como C++ o Python) permiten redefinir operadores (ej: +, -) para que se comporten de forma distinta con diferentes tipos de datos. 
 Usamos los operadores o funciones de forma diferente dependiendo de los objetos sobre los que actúa. 
 
-<!-- Page 26 -->
-
  
  
-Diseño y Programación Orientada a Objetos. Patrones de Diseño y Lenguaje de Modelado Unificado (UML) 
-26 
+Diseño y 
 Ejemplos sobrecarga de funciones 
 Vamos a ver algunos ejemplos, ya que este concepto puede ser difícil de ver si estás acostumbrado a la 
 programación estructurada. 
 En el ejemplo a continuación aunque ambos métodos difieren en el tipo de retorno y en los argumentos, \nel compilador solo considera las diferencias en los argumentos para elegir cuál ejecutar. 
-• Ejemplo 1: imaginemos que tenemos un método que suma dos números y devuelve el resultado. 
+- Ejemplo 1: imaginemos que tenemos un método que suma dos números y devuelve el resultado.
 Entero suma (entero A, entero B) 
        { 
        suma = A + B 
@@ -887,7 +719,7 @@ float suma (float A, float B)
        suma = A + B 
        Return suma 
        } 
-• Ejemplo 2: de igual forma, podríamos crear un método para inicializar una variable. 
+- Ejemplo 2: de igual forma, podríamos crear un método para inicializar una variable.
 // Método 1: Con parámetro \nentero inicializarA(entero A) { 
        return A; // Devuelve el valor recibido 
 } 
@@ -897,12 +729,9 @@ float suma (float A, float B)
 En este caso tenemos dos versiones de la misma función. Si se lanza con un parámetro, se 
 utilizará ese valor. Si no se especifica ningún parámetro, devolverá 0. 
 
-<!-- Page 27 -->
-
  
  
-Diseño y Programación Orientada a Objetos. Patrones de Diseño y Lenguaje de Modelado Unificado (UML) 
-27 
+Diseño y 
 Ejemplo sobrecarga de operadores 
 Imaginemos dos clases: Metros y Centimetros, cada una con un atributo cantidad. Si intentamos sumar 
 un objeto de cada clase sin sobrecargar el operador +, el compilador dará un error porque no sabe cómo 
@@ -938,12 +767,9 @@ Metros operator+(const Metros& m1, const Metros& m2) {
      return Metros(m1.cantidad + m2.cantidad); 
 } 
 
-<!-- Page 28 -->
-
  
  
-Diseño y Programación Orientada a Objetos. Patrones de Diseño y Lenguaje de Modelado Unificado (UML) 
-28 
+Diseño y 
 // Sobrecarga 4: Centimetros + Centimetros 
 Centimetros operator+(const Centimetros& cm1, const Centimetros& cm2) { 
      return Centimetros(cm1.cantidad + cm2.cantidad); 
@@ -956,7 +782,7 @@ Metros r1 = m + cm; // Usa sobrecarga 1 (Metros + Centimetros)
 Centimetros r2 = cm + m; // Usa sobrecarga 2 (Centimetros + Metros) 
 Metros r3 = m + m; // Usa sobrecarga 3 (Metros + Metros) 
 Centimetros r4 = cm + cm; // Usa sobrecarga 4 (Centimetros + Centimetros) 
-3.1.4. Acoplamiento 
+#### 🔹 3.1.4. Acoplamiento
 Grado de interdependencia entre los distintos módulos de un programa. 
 Es la forma y nivel de interdependencia entre módulos, una medida de qué tan cercanamente 
 conectados están dos rutinas o módulos del software (programa), así como el grado de fuerza de la 
@@ -967,21 +793,18 @@ dependerá del valor del componente B, por lo tanto, están acoplados.
 El acoplamiento mide el grado de dependencia entre módulos. 
 El bajo acoplamiento es frecuentemente una señal de un sistema bien estructurado y de un buen diseño 
 de software. 
-3.1.5. Cohesión 
+#### 🔹 3.1.5. Cohesión
 La cohesión tiene que ver con que cada módulo del sistema se refiera a un único proceso o entidad. 
 A mayor cohesión mejor: el módulo será más sencillo de diseñar, programar, probar y mantener. 
 
-<!-- Page 29 -->
-
  
  
-Diseño y Programación Orientada a Objetos. Patrones de Diseño y Lenguaje de Modelado Unificado (UML) 
-29 
+Diseño y 
 La cohesión se refiere a lo que ocurre dentro de un módulo: mide si sus elementos (funciones, atributos, 
 responsabilidades) están relacionados entre sí y contribuyen a un mismo propósito. 
 Cohesión significa que un módulo hace una sola cosa y la hace bien: 
-• Un módulo con alta cohesión tiene responsabilidades claras y bien delimitadas. 
-• Un módulo con baja cohesión mezcla tareas distintas o inconexas. 
+- Un módulo con alta cohesión tiene responsabilidades claras y bien delimitadas.
+- Un módulo con baja cohesión mezcla tareas distintas o inconexas.
 La meta principal del diseño orientado a objetos es alcanzar una alta cohesión modular y un bajo 
 acoplamiento. Que un componente o módulo tenga una alta cohesión significa que es una clase bien 
 definida, cuya responsabilidad ha sido esencializada en comportamiento y estado. ¿Significa esto que 
@@ -990,7 +813,7 @@ Precisamente eso es lo que persigue la POO, aunque no exista una relación direc
 bien, si los componentes han sido diseñados bajo esta perspectiva y cada uno tiene una responsabilidad 
 bien definida, nuestro sistema gozará de un alto grado de cohesión y del menor acoplamiento que 
 hayamos sido capaces de lograr. 
-3.1.6. Encapsulamiento 
+#### 🔹 3.1.6. Encapsulamiento
 El encapsulamiento permite aumentar la cohesión (diseño estructurado) de los componentes del 
 sistema. Algunos autores confunden encapsulamiento con el principio de ocultación, porque se suelen \nemplear conjuntamente. 
 La encapsulación o encapsulamiento consiste en reunir, en una cierta estructura, todos los elementos 
@@ -1008,12 +831,9 @@ Esta característica de encapsular, permite modelar los objetos del mundo real d
 implementación de los métodos sin que sea necesario informar al resto de objetos que los utilizan. 
  
 
-<!-- Page 30 -->
-
  
  
-Diseño y Programación Orientada a Objetos. Patrones de Diseño y Lenguaje de Modelado Unificado (UML) 
-30 
+Diseño y 
  
  
  
@@ -1030,28 +850,23 @@ Por lo tanto, la interfaz pública establece qué se puede hacer con el objeto y
 caja negra. 
 La ocultación de datos está basada en el concepto de abstracción. 
 Ocultación de datos en POO: 
-• Los objetos se comunican mediante mensajes. 
-• Los mensajes son llamadas a los métodos de otro objeto. 
-• Para leer o modificar un objeto hay que hacer una llamada a un método del objeto para que 
-acceda al dato y nos devuelva el valor (no se puede hacer a los datos directamente). 
-• Las funciones de un objeto se llaman funciones miembro o métodos (según el lenguaje de 
-programación), y son único medio para acceder a los datos de un objeto. 
-• Esta propiedad facilita la escritura, depuración y mantenimiento de un programa. 
+- Los objetos se comunican mediante mensajes.
+- Los mensajes son llamadas a los métodos de otro objeto.
+- Para leer o modificar un objeto hay que hacer una llamada a un método del objeto para que acceda al dato y nos devuelva el valor (no se puede hacer a los datos directamente). 
+- Las funciones de un objeto se llaman funciones miembro o métodos (según el lenguaje de programación), y son único medio para acceder a los datos de un objeto. 
+- Esta propiedad facilita la escritura, depuración y mantenimiento de un programa.
 Modificadores de acceso 
 Para lograr el encapsulamiento es necesario utilizar los modificadores de acceso asignando a los 
 miembros (métodos o atributos) del objeto un tipo concreto visibilidad, tenemos funamentalmente 
 cuatro modificadores de acceso distintos: 
-• `public`: no hay encapsulamiento pues es accesible desde cualquier punto sin restricciones. 
-• `private`: solo otorga el acceso desde dentro de la misma clase. 
-
-<!-- Page 31 -->
+- `public`: no hay encapsulamiento pues es accesible desde cualquier punto sin restricciones.
+- `private`: solo otorga el acceso desde dentro de la misma clase.
 
  
  
-Diseño y Programación Orientada a Objetos. Patrones de Diseño y Lenguaje de Modelado Unificado (UML) 
-31 
-• `protected`: el acceso será posible desde la propia clase, clases del mismo paquete y subclases. 
-• `default` (sin modificador): será accesible desde la misma clase y clases del mismo paquete. 
+Diseño y 
+- `protected`: el acceso será posible desde la propia clase, clases del mismo paquete y subclases.
+- `default` (sin modificador): será accesible desde la misma clase y clases del mismo paquete.
 La idea en LPOO es que los atributos y ciertos métodos de funcionamiento internos sean privados, 
 proporcionando métodos públicos para acceder y modificar los atributos. Los métodos encaragos de \nesto son los llamados getters o setters. 
  
@@ -1060,38 +875,32 @@ proporcionando métodos públicos para acceder y modificar los atributos. Los m�
  
 Resumiendo 
 Un objeto contiene: 
-• Atributos o variables de instancia (datos). 
-• Métodos o funciones miembro (funciones). 
-• Los objetos se comunican mediante mensajes. Un 
-mensaje es una llamada a un método del objeto. 
+- Atributos o variables de instancia (datos).
+- Métodos o funciones miembro (funciones).
+- Los objetos se comunican mediante mensajes. Un mensaje es una llamada a un método del objeto. 
  
 Para pedirle datos al objeto, hay que enviarle un mensaje. 
-3.2. Reutilización o reusabilidad de código 
+### 🔵 3.2. Reutilización o reusabilidad de código
 Este concepto indica que una clase creada por un programador se pone a disposición de otros 
 programadores para su utilización. También implicaría el uso de la clase por el creador para otro 
 producto software diferente. 
 Es el mismo concepto que el de las bibliotecas de funciones de los lenguajes estructurados. 
 En lenguajes como C++ o Java, la reusabilidad puede ir más allá: 
-• Podemos coger una clase existente y crear una nueva clase que derive de esta. Heredará todas 
-las propiedades de la clase de la que deriva, pero, además, podremos añadir nuevas 
+- Podemos coger una clase existente y crear una nueva clase que derive de esta. Heredará todas las propiedades de la clase de la que deriva, pero, además, podremos añadir nuevas 
 características. 
 La facilidad de reutilizar o reusar el software existente es uno de los grandes beneficios de la POO. 
 De este modo, en una empresa de software se pueden reutilizar clases diseñadas en un proyecto para un 
 nuevo proyecto, con la consiguiente mejora de la productividad, al sacarle partido a la inversión 
 realizada en el diseño de la clase primitiva. 
 
-<!-- Page 32 -->
-
  
  
-Diseño y Programación Orientada a Objetos. Patrones de Diseño y Lenguaje de Modelado Unificado (UML) 
-32 
+Diseño y 
 Ventajas de la reutilización del software 
-• Reducción de código. 
-• Solo necesitan implementarse una vez. 
-• Si se tienen que modificar por algún fallo, tan solo se tiene que modificar una vez (y el cambio se 
-reflejará en todos los productos que la utilicen). 
-• Menor tiempo de desarrollo y menor coste de recursos. 
+- Reducción de código.
+- Solo necesitan implementarse una vez.
+- Si se tienen que modificar por algún fallo, tan solo se tiene que modificar una vez (y el cambio se reflejará en todos los productos que la utilicen). 
+- Menor tiempo de desarrollo y menor coste de recursos.
  
  
  
@@ -1106,21 +915,18 @@ pueda ser reutilizado. Te llevará algo más de tiempo, pero te lo
 podría ahorrar en el futuro. 
 Y muy importante… ¡documenta! 
  
-3.3. Relaciones entre clases 
+### 🔵 3.3. Relaciones entre clases
  
 Existen cuatro tipos básicos de relación entre clases: 
-• Asociación. 
-• Agregación. 
-• Composición. 
+- Asociación.
+- Agregación.
+- Composición.
 (Ya la has estudiado en las propiedades de LPOO). 
 
-<!-- Page 33 -->
-
  
  
-Diseño y Programación Orientada a Objetos. Patrones de Diseño y Lenguaje de Modelado Unificado (UML) 
-33 
-3.3.1. Asociación 
+Diseño y 
+#### 🔹 3.3.1. Asociación
 La abstracción de asociación nos permite vincular o asociar dos entidades independientes. 
 Una asociación queda identificada por la identificación de las entidades participantes, los roles que 
 juegan en la relación, la multiplicidad y la navegabilidad. 
@@ -1144,12 +950,9 @@ Ejemplo: una persona "usa un" gafas.
  
  
 
-<!-- Page 34 -->
-
  
  
-Diseño y Programación Orientada a Objetos. Patrones de Diseño y Lenguaje de Modelado Unificado (UML) 
-34 
+Diseño y 
  
  
  
@@ -1160,7 +963,7 @@ ordenador.
  
  
 Fuente: PxHere y Pxfuel 
-3.3.2. Agregación 
+#### 🔹 3.3.2. Agregación
 La abstracción de agregación nos permite construir entidades de un nivel más alto (objetos 
 compuestos) a partir de sus entidades de nivel menor (objetos componentes). 
 Indica que una clase es parte de otra clase (composición débil). Los componentes pueden ser 
@@ -1178,12 +981,9 @@ todo.
 Ejemplo: Agregamos dos entidades, en la entidad superior mesa que puede tener relaciones o 
 incidencias con otras entidades. 
 
-<!-- Page 35 -->
-
  
  
-Diseño y Programación Orientada a Objetos. Patrones de Diseño y Lenguaje de Modelado Unificado (UML) 
-35 
+Diseño y 
  
 Agregación 
 Una agregación es una relación más fuerte que una asociación. Representa una clase que se compone 
@@ -1194,21 +994,17 @@ las partes. También se puede definir con relación "tiene un".
  
  
 Ejemplo 
-• Un ordenador tiene un teclado. 
-• Un ordenador tiene una pantalla. 
-• La clase ordenador se compone de las clases teclado y 
-pantalla (entre otras). 
+- Un ordenador tiene un teclado.
+- Un ordenador tiene una pantalla.
+- La clase ordenador se compone de las clases teclado y pantalla (entre otras). 
  
  
 Fuente: Wikipedia 
 
-<!-- Page 36 -->
-
  
  
-Diseño y Programación Orientada a Objetos. Patrones de Diseño y Lenguaje de Modelado Unificado (UML) 
-36 
-3.3.3. Composición 
+Diseño y 
+#### 🔹 3.3.3. Composición
 La composición es un tipo de asociación que representa una relación de contención fuerte entre una 
 clase compuesta (el "todo") y sus componentes (las "partes"). Se caracteriza por ser una relación de 
 pertenencia exclusiva y dependencia vital. 
@@ -1224,33 +1020,25 @@ automáticamente el billete también.
 Composición 
 Diferencia entre Asociación y Composición 
 La diferencia fundamental entre estos tipos de relación: 
-• Asociación: cuando se elimina el todo, las entidades participantes continúan existiendo de 
-forma independiente. 
-• Composición: si se elimina la entidad compuesta, desaparecen asimismo las entidades que la 
-forman. 
-
-<!-- Page 37 -->
+- Asociación: cuando se elimina el todo, las entidades participantes continúan existiendo de forma independiente. 
+- Composición: si se elimina la entidad compuesta, desaparecen asimismo las entidades que la forman. 
 
  
  
-Diseño y Programación Orientada a Objetos. Patrones de Diseño y Lenguaje de Modelado Unificado (UML) 
-37 
+Diseño y 
 Multiplicidades y rangos en UML 
 Las relaciones entre clases en UML se definen mediante multiplicidades, que indican el número de 
 instancias de una clase que pueden vincularse con una única instancia de la otra clase. Para ello se 
 utilizan números, asteriscos o rangos. 
-• Relación Uno a Uno (1:1 o 1): la notación consiste en poner 1 en ambos extremos de la 
-asociación (1 .. 1). Una instancia de la clase A se asocia exactamente con una instancia de la 
+- Relación Uno a Uno (1:1 o 1): la notación consiste en poner 1 en ambos extremos de la asociación (1 .. 1). Una instancia de la clase A se asocia exactamente con una instancia de la 
 clase B y viceversa. Por ejemplo un ciudadano con un DNI. 
-• Relación Uno a Muchos (1:N o 1:*): la notación correcta es un 1 en un extremo y 0..* (cero o 
-más) o 1..* (uno o más) en el otro, el asterisco significaría muchos o 0 o más. Indica que la 
+- Relación Uno a Muchos (1:N o 1:*): la notación correcta es un 1 en un extremo y 0..* (cero o más) o 1..* (uno o más) en el otro, el asterisco significaría muchos o 0 o más. Indica que la 
 instancia de una clase está asociada con cero o varias instancias de otra clase, pero en recorrido 
 inverso solo está asociada con una de la primera. Tendríamos 1 en un extremo y en el otro 0..*. 
 Por ejemplo un cliente puede hacer muchos pedidos, pero esos pedidos solo están asociado con \nese cliente. 
-• Relación Muchos a Muchos (N:M): la notación correspondiente es *..* o simplemente *. instancia 
-de una clase está asociada con 0 o más instancias de otra clase y viceversa (0..N o 0..*). Un buen \nejemplo sería el de un músico que puede tocar en varias orquestas y una orquesta está compuesta 
+- Relación Muchos a Muchos (N:M): la notación correspondiente es *..* o simplemente *. instancia de una clase está asociada con 0 o más instancias de otra clase y viceversa (0..N o 0..*). Un buen \nejemplo sería el de un músico que puede tocar en varias orquestas y una orquesta está compuesta 
 de varios músicos. 
-3.3.4. Determinar las relaciones 
+#### 🔹 3.3.4. Determinar las relaciones
 Las reglas de negocio son la clave para definir la relación correcta (asociación, agregación o 
 composición) entre las clases de un sistema. La decisión no es arbitraria; depende enteramente del 
 contexto y la funcionalidad principal que se esté modelando. 
@@ -1261,36 +1049,27 @@ la dependencia.
 Determinar las Relaciones de Dependencia 
 A continuación, vemos tres ejemplos con un escenario similar (Vuelo y Pasajero), pero con matices en 
 las reglas de negocio que cambian la relación. 
-• AGREGACIÓN: El vuelo comercial. 
-• Si el sistema se centra en la gestión de vuelos y se desea modelar una relación directa, la 
-relación entre Vuelo y Pasajero podría considerarse una agregación (rombo vacío). El vuelo 
+- AGREGACIÓN: El vuelo comercial.
+- Si el sistema se centra en la gestión de vuelos y se desea modelar una relación directa, la relación entre Vuelo y Pasajero podría considerarse una agregación (rombo vacío). El vuelo 
 actúa como un contenedor de pasajeros, pero ellos existen de forma independiente: si el 
 vuelo se cancela, los pasajeros siguen existiendo en el sistema. 
 
-<!-- Page 38 -->
-
  
  
-Diseño y Programación Orientada a Objetos. Patrones de Diseño y Lenguaje de Modelado Unificado (UML) 
-38 
-• Si el vuelo se cancela, los pasajeros siguen existiendo en el sistema. Las partes no 
-desaparecen si el todo lo hace. 
-• Limitación importante: 
+Diseño y 
+- Si el vuelo se cancela, los pasajeros siguen existiendo en el sistema. Las partes no desaparecen si el todo lo hace. 
+- Limitación importante:
 Este enfoque sería válido solo si no fuera necesario almacenar datos sobre la participación \nespecífica de un pasajero en un vuelo (como su número de asiento, clase, o fecha de \nembarque). La agregación es una relación estructural, pero no permite atributos. 
 Por ello, en la práctica, la solución más común y robusta es evitar la relación directa y 
 utilizar en su lugar una clase de asociación (como Reserva o Billete), que sí puede contener \nesos atributos. 
-• COMPOSICIÓN: El vuelo Chárter. 
-• En un sistema de gestión de vuelos chárter, el Vuelo Chárter es el "todo". Aquí, la existencia 
-de las partes (Grupo de Pasajeros) está totalmente ligada a la existencia del vuelo. 
-• Si el vuelo se anula, el concepto de "ese grupo específico de pasajeros para ese vuelo" deja 
-de tener sentido en el sistema. Si el todo desaparece, las partes lo hacen con él. 
-• ASOCIACIÓN: La reserva. 
-• Se utiliza cuando el sujeto del sistema es una tercera clase, como Reserva, que asocia un 
-pasajero con un vuelo. 
-• La relación es simplemente una conexión lógica, sin una dependencia de todo-parte. Si una 
-reserva se anula, vuelo y pasajero pueden seguir existiendo. El pasajero quizás haya 
+- COMPOSICIÓN: El vuelo Chárter.
+- En un sistema de gestión de vuelos chárter, el Vuelo Chárter es el "todo". Aquí, la existencia de las partes (Grupo de Pasajeros) está totalmente ligada a la existencia del vuelo. 
+- Si el vuelo se anula, el concepto de "ese grupo específico de pasajeros para ese vuelo" deja de tener sentido en el sistema. Si el todo desaparece, las partes lo hacen con él. 
+- ASOCIACIÓN: La reserva.
+- Se utiliza cuando el sujeto del sistema es una tercera clase, como Reserva, que asocia un pasajero con un vuelo. 
+- La relación es simplemente una conexión lógica, sin una dependencia de todo-parte. Si una reserva se anula, vuelo y pasajero pueden seguir existiendo. El pasajero quizás haya 
 adelantado su vuelo, etc. 
-3.4. Recolección de basura 
+### 🔵 3.4. Recolección de basura
 La recolección de basura (garbage collection) es la técnica por la cual el entorno de objetos se encarga 
 de destruir automáticamente, y por tanto desvincular la memoria asociada, los objetos que hayan 
 quedado sin ninguna referencia a ellos. 
@@ -1300,13 +1079,10 @@ En la mayoría de los lenguajes híbridos que se extendieron para soportar el Pa
 Orientada a Objetos como C++ u Object Pascal, no existe un recolector de basura nativo y la memoria 
 debe liberarse manualmente. 
 
-<!-- Page 39 -->
-
  
  
-Diseño y Programación Orientada a Objetos. Patrones de Diseño y Lenguaje de Modelado Unificado (UML) 
-39 
-3.5. Caja negra 
+Diseño y 
+### 🔵 3.5. Caja negra
 Una caja negra es un elemento que se estudia desde el punto de vista de las entradas que recibe y las 
 salidas o respuestas que produce, sin tener en cuenta su funcionamiento interno. 
 Nos interesará su forma de interactuar con el medio que le rodea (en ocasiones, otros elementos que 
@@ -1318,43 +1094,30 @@ De esta manera se consigue una independencia entre los módulos, que facilita qu
 un módulo concreto, va a encargarse de implementar su módulo y deberá conocer como es la 
 comunicación con los otros módulos (la interfaz), pero no necesitará conocer cómo trabajan esos otros 
 módulos internamente, que serán para él cajas negras. Esta independencia es muy importante en los \nequipos de trabajo de desarrollo de un programa. 
-4. Ventajas y desventajas de la POO 
+## 🟣 4. Ventajas y desventajas de la POO
  
 Ventajas 
-• Encapsulamiento: Oculta los datos internos, exponiendo solo métodos controlados. Mayor 
-seguridad y consistencia. 
-• Herencia: Reduce código redundante al permitir que clases hijas hereden y extiendan 
-funcionalidades existentes. 
-• Polimorfismo: Objetos de diferentes clases responden al mismo método de forma específica. 
+- Encapsulamiento: Oculta los datos internos, exponiendo solo métodos controlados. Mayor seguridad y consistencia. 
+- Herencia: Reduce código redundante al permitir que clases hijas hereden y extiendan funcionalidades existentes. 
+- Polimorfismo: Objetos de diferentes clases responden al mismo método de forma específica.
 Flexibilidad y extensibilidad. 
-• Abstracción: Simplifica la complejidad ocultando detalles internos. Modelado más intuitivo y 
-claro. 
-• Modularidad: Clases independientes con baja dependencia (bajo acoplamiento) y 
-responsabilidades bien definidas (alta cohesión). 
-
-<!-- Page 40 -->
+- Abstracción: Simplifica la complejidad ocultando detalles internos. Modelado más intuitivo y claro. 
+- Modularidad: Clases independientes con baja dependencia (bajo acoplamiento) y responsabilidades bien definidas (alta cohesión). 
 
  
  
-Diseño y Programación Orientada a Objetos. Patrones de Diseño y Lenguaje de Modelado Unificado (UML) 
-40 
-• Reutilización: Código fácil de extender y reusar mediante herencia/composición, acelerando el 
-desarrollo. 
-• Mantenimiento: Estructura organizada que facilita modificaciones y reduce errores. 
+Diseño y 
+- Reutilización: Código fácil de extender y reusar mediante herencia/composición, acelerando el desarrollo. 
+- Mantenimiento: Estructura organizada que facilita modificaciones y reduce errores.
 Desventajas 
-• Curva de aprendizaje: Es compleja para programadores acostumbrados a paradigmas \nestructurados, debido a su abstracción y conceptos jerárquicos. 
-• Sobrecarga de documentación: La estructura en clases y herencias requiere más documentación 
-para clarificar relaciones y responsabilidades. 
-• Interpretación subjetiva: La abstracción de objetos puede llevar a diseños inconsistentes si no 
-hay guidelines claros. 
-• Rendimiento: Puede implicar mayor consumo de recursos y, en algunos casos, menor velocidad 
-debido a la gestión de objetos y al dinamismo (por ejemplo, el polimorfismo). Pese a ser 
+- Curva de aprendizaje: Es compleja para programadores acostumbrados a paradigmas \nestructurados, debido a su abstracción y conceptos jerárquicos.
+- Sobrecarga de documentación: La estructura en clases y herencias requiere más documentación para clarificar relaciones y responsabilidades. 
+- Interpretación subjetiva: La abstracción de objetos puede llevar a diseños inconsistentes si no hay guidelines claros. 
+- Rendimiento: Puede implicar mayor consumo de recursos y, en algunos casos, menor velocidad debido a la gestión de objetos y al dinamismo (por ejemplo, el polimorfismo). Pese a ser 
 irrelevante en aplicaciones modernas, es crítica en sistemas de tiempo real o bajo nivel. 
-• Herencia mal diseñada: Si la herencia no se ha diseñado correctamente, puede heredarse 
-código innecesario o inapropiado, aumentando la complejidad y acoplamiento. 
-• Verborrea de código: Tareas simples pueden requerir más líneas de código (creación de clases, 
-métodos) frente a soluciones procedurales. 
-5. Patrones de diseño (GOF) 
+- Herencia mal diseñada: Si la herencia no se ha diseñado correctamente, puede heredarse código innecesario o inapropiado, aumentando la complejidad y acoplamiento. 
+- Verborrea de código: Tareas simples pueden requerir más líneas de código (creación de clases, métodos) frente a soluciones procedurales. 
+## 🟣 5. Patrones de diseño (GOF)
 Un patrón de diseño (design pattern), es una técnica que se utiliza para resolver problemas que ocurren 
 frecuentemente, por ello son muy efectivos al haber sido empleado muchas veces para resolver un tipo 
 de problema. No son fragmentos de código específicos, sino soluciones conceptuales reutilizables que 
@@ -1368,12 +1131,9 @@ como una forma indispensable de enfrentarse a la programación, que son conocido
 de Gang of Four (patrones de la pandilla de los cuatro). 
  
 
-<!-- Page 41 -->
-
  
  
-Diseño y Programación Orientada a Objetos. Patrones de Diseño y Lenguaje de Modelado Unificado (UML) 
-41 
+Diseño y 
  
  
  
@@ -1384,73 +1144,56 @@ aplicación no provoquen modificaciones disruptivas en la \nestructura del siste
  
  
 Podemos ver en un patrón de diseño 4 elementos: 
-• Nombre del patrón: Describe el problema de diseño, su solución y consecuencias. Proporciona 
-un vocabulario común para los diseñadores. 
-• El problema: Indica el problema y su contexto, y cuando aplicar el patrón, especialmente en 
-situaciones donde se necesite representar estructuras de clases o algoritmos como objetos. 
-• La solución: Describe la estructura de clases y objetos, sus responsabilidades y colaboraciones, 
-de manera abstracta. 
-• Las consecuencias de su aplicación: Al aplicar un patrón habrá unos beneficios al igual que 
-costes que será necesario evaluar para decidir las alternativas de diseño que solucionen el 
+- Nombre del patrón: Describe el problema de diseño, su solución y consecuencias. Proporciona un vocabulario común para los diseñadores. 
+- El problema: Indica el problema y su contexto, y cuando aplicar el patrón, especialmente en situaciones donde se necesite representar estructuras de clases o algoritmos como objetos. 
+- La solución: Describe la estructura de clases y objetos, sus responsabilidades y colaboraciones, de manera abstracta. 
+- Las consecuencias de su aplicación: Al aplicar un patrón habrá unos beneficios al igual que costes que será necesario evaluar para decidir las alternativas de diseño que solucionen el 
 problema origen. 
 Características de los patrones de diseño: 
-• Son soluciones técnicas que proponen soluciones concretas a problemas concretos. 
-• Debe ser reutilizable, para poder ser utilizado para afrontar diferentes problemas de diseño y en 
-diferentes circunstancias, desarrollando códigos y construyendo clases reutilizables. 
-• Se debe haber comprobado su efectividad resolviendo problemas similares en ocasiones 
-anteriores. 
-• Se pretende estandarizar la forma de realizar un diseño de software, formalizando un 
-vocabulario que sea común entre los diseñadores. 
-• Con su uso se evita la búsqueda reiterada de soluciones a problemas ya conocidos y 
-solucionados con anterioridad. 
-• Su objetivo es la reusabilidad y la mantenibilidad del software. 
-
-<!-- Page 42 -->
+- Son soluciones técnicas que proponen soluciones concretas a problemas concretos.
+- Debe ser reutilizable, para poder ser utilizado para afrontar diferentes problemas de diseño y en diferentes circunstancias, desarrollando códigos y construyendo clases reutilizables. 
+- Se debe haber comprobado su efectividad resolviendo problemas similares en ocasiones anteriores. 
+- Se pretende estandarizar la forma de realizar un diseño de software, formalizando un vocabulario que sea común entre los diseñadores. 
+- Con su uso se evita la búsqueda reiterada de soluciones a problemas ya conocidos y solucionados con anterioridad. 
+- Su objetivo es la reusabilidad y la mantenibilidad del software.
 
  
  
-Diseño y Programación Orientada a Objetos. Patrones de Diseño y Lenguaje de Modelado Unificado (UML) 
-42 
+Diseño y 
 Existen 3 tipos de patrones, en base a su finalidad: 
-• De Creación: Abordan procesos de creación de objetos, haciendo el sistema independiente de 
-cómo se crean, componen o representan sus objetos. 
-• Estructurales: Tratan la composición de clases y objetos para formar estructuras más grandes y 
-complejas. 
-• De comportamiento: se centran en la comunicación entre objetos y en cómo se distribuyen las 
-responsabilidades dentro del sistema. 
+- De Creación: Abordan procesos de creación de objetos, haciendo el sistema independiente de cómo se crean, componen o representan sus objetos. 
+- Estructurales: Tratan la composición de clases y objetos para formar estructuras más grandes y complejas. 
+- De comportamiento: se centran en la comunicación entre objetos y en cómo se distribuyen las responsabilidades dentro del sistema. 
 A continuación, explicamos cada uno de ellos. 
-5.1. Patrones GOF de Creación 
+### 🔵 5.1. Patrones GOF de Creación
 Son aquellos que solucionan problemas de creación de objetos. Nos ayudan a encapsular y abstraer 
 dicha creación. Puede existir más de un patrón que ayude en un mismo problema. 
 Los patrones de creación son: 
-• Abstract Factory (Fábrica Abstracta): 
+- Abstract Factory (Fábrica Abstracta):
 Permite trabajar con objetos de distintas familias de manera que las familias no se mezclen entre 
 sí y haciendo transparente el tipo de familia concreta que se esté usando. 
 Se utiliza para crear diferentes familias de objetos, como, por ejemplo, la creación de interfaces 
 gráficas de distintos tipos (ventana, menú, botón, etc.). 
-• Builder (Constructor virtual): 
+- Builder (Constructor virtual):
 Abstrae el proceso de creación de un objeto complejo, centralizando dicho proceso en un único 
 punto: 
-• Evita constructores imposibles de leer. 
-• Separa construcción de representación. 
-• Factory Method (Método de fabricación): 
+- Evita constructores imposibles de leer.
+- Separa construcción de representación.
+- Factory Method (Método de fabricación):
 Este patrón, centraliza en una clase constructora la creación de objetos de un subtipo de un tipo 
 determinado, ocultando al usuario la diversidad de casos particulares que se pueden prever, para \nelegir el subtipo que crear (esta diversidad se denomina casuística). 
 Se basan en que las subclases determinan la clase a implementar. 
-• Prototype (Prototipo): 
+- Prototype (Prototipo):
 Crea nuevos objetos clonándolos de una instancia ya existente. 
 
-<!-- Page 43 -->
-
  
  
-Diseño y Programación Orientada a Objetos. Patrones de Diseño y Lenguaje de Modelado Unificado (UML) 
-43 
-• Singleton (Instancia única): 
+Diseño y 
+- Singleton (Instancia única):
 Debe garantizar, la existencia de una única instancia para una clase y la creación de un 
 mecanismo de acceso global a dicha instancia. 
 Es decir, restringe la instanciación de una clase o valor de un tipo a un solo objeto. 
-5.2. Patrones GOF Estructurales 
+### 🔵 5.2. Patrones GOF Estructurales
 Son los patrones de diseño software que solucionan problemas de composición (agregación) de clases y 
 objetos. 
 Son los que plantean las relaciones entre clases, las combinan y forman estructuras mayores. 
@@ -1482,12 +1225,9 @@ lo hace particularmente útil cuando se trabaja con estructuras recursivas en la
 ser un objeto independiente o contener subelementos. Al aplicar este patrón, se logra una mayor 
 coherencia en el diseño, facilitando la gestión y modificación de estructuras de datos complejas. 
 
-<!-- Page 44 -->
-
  
  
-Diseño y Programación Orientada a Objetos. Patrones de Diseño y Lenguaje de Modelado Unificado (UML) 
-44 
+Diseño y 
 Patrón Decorator (Envoltorio) 
 El patrón de diseño Decorator proporciona una forma flexible de añadir funcionalidades a un objeto de 
 manera dinámica sin alterar su estructura ni modificar directamente su código fuente. A diferencia de la 
@@ -1520,52 +1260,46 @@ modificar la estructura original del objeto subyacente. Este patrón es ampliame
 distribuidos, seguridad de datos y gestión de conexiones remotas, donde es fundamental regular la 
 interacción con componentes críticos o costosos en términos de procesamiento. 
 
-<!-- Page 45 -->
-
  
  
-Diseño y Programación Orientada a Objetos. Patrones de Diseño y Lenguaje de Modelado Unificado (UML) 
-45 
-5.3. Patrones GOF de Comportamiento 
+Diseño y 
+### 🔵 5.3. Patrones GOF de Comportamiento
 Estos patrones ofrecen soluciones respecto a la interacción y responsabilidades entre clases y objetos, 
 así como los algoritmos que encapsulan. 
 Son los siguientes tipos: 
-• Chain of Responsibility (Cadena de responsabilidad): 
+- Chain of Responsibility (Cadena de responsabilidad):
 Permite establecer la línea que deben llevar los mensajes para que los objetos realicen la tarea 
 indicada. 
-• Command (Orden): 
+- Command (Orden):
 Encapsula una operación en un objeto, permitiendo ejecutar dicha operación sin necesidad de 
 conocer el contenido de la misma. 
-• Interpreter (Intérprete): 
+- Interpreter (Intérprete):
 Dado un lenguaje, define una gramática para dicho lenguaje, así como las herramientas 
 necesarias para interpretarlo. 
-• Iterator (Iterador): 
+- Iterator (Iterador):
 Permite realizar recorridos sobre objetos compuestos independientemente de la 
 implementación de estos. 
-• Mediator (Mediador): 
+- Mediator (Mediador):
 Define un objeto que coordine la comunicación entre objetos de distintas clases, pero que 
 funcionan como un conjunto. 
-• Memento (Recuerdo): 
+- Memento (Recuerdo):
 Permite volver a estados anteriores del sistema. 
-• Observer (Observador): 
+- Observer (Observador):
 Define una dependencia de uno-a-muchos entre objetos, de forma que cuando un objeto cambie 
 de estado se notifique y actualicen automáticamente todos los objetos que dependen de él. 
-• State (Estado): 
+- State (Estado):
 Permite que un objeto modifique su comportamiento cada vez que cambie su estado interno. 
-• Strategy (Estrategia): 
+- Strategy (Estrategia):
 Permite disponer de varios métodos para resolver un problema y elegir cuál utilizar en tiempo 
 de ejecución. 
 
-<!-- Page 46 -->
-
  
  
-Diseño y Programación Orientada a Objetos. Patrones de Diseño y Lenguaje de Modelado Unificado (UML) 
-46 
-• Template Method (Método plantilla): 
+Diseño y 
+- Template Method (Método plantilla):
 Define en una operación el esqueleto de un algoritmo, delegando en las subclases algunos de sus 
 pasos, esto permite que las subclases redefinan ciertos pasos de un algoritmo sin cambiar su \nestructura. 
-• Visitor (Visitante): 
+- Visitor (Visitante):
 Permite definir nuevas operaciones sobre una jerarquía de clases sin modificar las clases sobre 
 las que opera. 
  
@@ -1574,15 +1308,12 @@ las que opera.
  
 +Info 
 Términos a conocer: 
-• Signatura: operación realizada por un objeto, lo que se 
-toma como parámetros y lo devuelve. 
-• Interfaz de objeto: el conjunto de todas las signaturas 
-definidas por las operaciones de un objeto. 
-• Ligadura dinámica: es la asociación en tiempo de ejecución 
-de una petición a un objeto, donde la operación que se 
+- Signatura: operación realizada por un objeto, lo que se toma como parámetros y lo devuelve. 
+- Interfaz de objeto: el conjunto de todas las signaturas definidas por las operaciones de un objeto. 
+- Ligadura dinámica: es la asociación en tiempo de ejecución de una petición a un objeto, donde la operación que se 
 realiza depende de la petición y del objeto. 
  
-6. GRASP (General Responsibility Assignment 
+## 🟣 6. GRASP (General Responsibility Assignment
 Software Patterns) 
 GRASP (General Responsibility Assignment Software Patterns) es un conjunto de guías y principios que 
 proporciona directrices para asignar responsabilidades de manera efectiva en el diseño orientado a 
@@ -1591,12 +1322,9 @@ ayudar a los diseñadores a asignar responsabilidades a clases y objetos de form
 diseño robusto, mantenible y con bajo acoplamiento. 
  
 
-<!-- Page 47 -->
-
  
  
-Diseño y Programación Orientada a Objetos. Patrones de Diseño y Lenguaje de Modelado Unificado (UML) 
-47 
+Diseño y 
  
  
  
@@ -1616,65 +1344,50 @@ responsabilidades naturales les corresponden
  
  
 Los principios GRASP incluyen: 
-• Controlador o Controller: se encarga de recibir los eventos del sistema y coordinar su manejo, 
-delegando la ejecución de las tareas en otras clases especializadas. Si durante el diseño se 
+- Controlador o Controller: se encarga de recibir los eventos del sistema y coordinar su manejo, delegando la ejecución de las tareas en otras clases especializadas. Si durante el diseño se 
 identifica que no hay ninguna clase adecuada para asumir la responsabilidad, esto puede indicar 
 la necesidad de crear una nueva clase que la gestione. 
-• Creador o Creator: este principio ayuda a decidir qué clase debe ser responsable de crear 
-instancias de otra clase. Una clase se considera candidata a ser creadora si compone o agrega a 
+- Creador o Creator: este principio ayuda a decidir qué clase debe ser responsable de crear instancias de otra clase. Una clase se considera candidata a ser creadora si compone o agrega a 
 la otra, si la utiliza estrechamente, si la registra o si posee los datos necesarios para inicializarla. 
 De este modo, se refuerza la coherencia entre las relaciones del diseño y las responsabilidades 
 de creación de objetos. 
-• Experto en Información o Information Expert: este principio asigna la responsabilidad de 
-realizar una tarea a la clase que dispone de la información necesaria para llevarla a cabo. De este 
+- Experto en Información o Information Expert: este principio asigna la responsabilidad de realizar una tarea a la clase que dispone de la información necesaria para llevarla a cabo. De este 
 modo, la lógica se concentra en los objetos que ya poseen los datos, lo que favorece la cohesión 
 y reduce el acoplamiento entre clases. 
-• Bajo Acoplamiento o Low Coupling: principio que busca minimizar las dependencias entre clases 
-para reducir el impacto de los cambios y facilitar la reutilización y las pruebas. Se promueve que 
+- Bajo Acoplamiento o Low Coupling: principio que busca minimizar las dependencias entre clases para reducir el impacto de los cambios y facilitar la reutilización y las pruebas. Se promueve que 
 las clases colaboren solo con sus colaboradores necesarios (evitando cadenas de llamadas 
 profundas) y que dependan de abstracciones en lugar de implementaciones concretas. 
-• Alta cohesión o high cohesion: este principio promueve que cada clase tenga responsabilidades 
-bien delimitadas y relacionadas entre sí, enfocadas en un único propósito. De este modo, todos 
+- Alta cohesión o high cohesion: este principio promueve que cada clase tenga responsabilidades bien delimitadas y relacionadas entre sí, enfocadas en un único propósito. De este modo, todos 
 los métodos y atributos colaboran en torno a un objetivo común, lo que favorece la claridad del 
 diseño, facilita el mantenimiento y reduce la complejidad del sistema. 
 
-<!-- Page 48 -->
-
  
  
-Diseño y Programación Orientada a Objetos. Patrones de Diseño y Lenguaje de Modelado Unificado (UML) 
-48 
-• Polimorfismo o polymorphism: principio que propone que un mismo mensaje u operación pueda 
-dar lugar a diferentes comportamientos según el objeto que lo reciba o los tipos de datos sobre 
+Diseño y 
+- Polimorfismo o polymorphism: principio que propone que un mismo mensaje u operación pueda dar lugar a diferentes comportamientos según el objeto que lo reciba o los tipos de datos sobre 
 los que actúe. Puede manifestarse como polimorfismo paramétrico, en el que clases y métodos 
 trabajan sobre tipos genéricos en lugar de concretos, o como polimorfismo de subtipos, donde 
 las subclases sobrescriben métodos de su superclase para dar implementaciones específicas. 
-• Fabricación Pura o Pure Fabrication: este patrón GRASP se utiliza cuando una responsabilidad 
-necesaria no encaja de forma natural en ninguna clase del dominio. En lugar de forzar su 
+- Fabricación Pura o Pure Fabrication: este patrón GRASP se utiliza cuando una responsabilidad necesaria no encaja de forma natural en ninguna clase del dominio. En lugar de forzar su 
 inclusión -lo que violaría principios como la alta cohesión o el bajo acoplamiento-, se crea una 
 clase artificial que asuma esa responsabilidad. Estas clases no representan conceptos del 
 dominio, sino que suelen encargarse de aspectos transversales o técnicos, como la persistencia, \nel registro de actividad (logging), la seguridad o las validaciones complejas, manteniendo así el 
 modelo de dominio limpio y el diseño modular y flexible. 
-• Indirection: tiene como objetivo reducir el acoplamiento directo entre clases, introduciendo un 
-objeto intermediario que gestione la comunicación entre ellas. De este modo, los componentes 
+- Indirection: tiene como objetivo reducir el acoplamiento directo entre clases, introduciendo un objeto intermediario que gestione la comunicación entre ellas. De este modo, los componentes 
 no dependen directamente unos de otros, lo que aumenta la flexibilidad y facilita el 
 mantenimiento. Ejemplos habituales de indirection son los controladores, los manejadores de \neventos o los repositorios. 
-• Protected Variations: consiste en identificar los puntos del sistema que son más propensos a 
-cambiar -por ejemplo, reglas de negocio, tecnologías externas o dependencias volátiles- y \nencapsularlos detrás de una interfaz estable. De este modo, se protege al resto del sistema de 
+- Protected Variations: consiste en identificar los puntos del sistema que son más propensos a cambiar -por ejemplo, reglas de negocio, tecnologías externas o dependencias volátiles- y \nencapsularlos detrás de una interfaz estable. De este modo, se protege al resto del sistema de 
 los efectos de posibles modificaciones futuras, logrando mayor flexibilidad y menor riesgo ante 
 cambios inevitables. 
-7. Modelado de aplicaciones: UML 
+## 🟣 7. Modelado de aplicaciones: UML
 UML, siglas del inglés, Unified Modeling Language o en castellano lenguaje unificado de modelado, es 
 un lenguaje gráfico de modelado de sistemas de software, para describirlo, diseñarlo y documentarlo. 
  
 Fuente: https://commons.wikimedia.org/wiki/File:UML_logo.svg 
 
-<!-- Page 49 -->
-
  
  
-Diseño y Programación Orientada a Objetos. Patrones de Diseño y Lenguaje de Modelado Unificado (UML) 
-49 
+Diseño y 
 UML es el lenguaje de modelado más conocido y utilizado y está respaldado por el Object Management 
 Group (OMG), que es un consorcio internacional sin ánimo de lucro y de membresía abierta para \nestándares tecnológicos. Los estándares de OMG son promovidos por proveedores, usuarios finales, 
 instituciones académicas y agencias gubernamentales. 
@@ -1700,106 +1413,90 @@ uso en bases de datos.
  
 Objetivos de UML 
 Según OMG los objetivos de UML son: 
-• Expresar un diseño utilizando elementos gráficos, especificando las características del sistema. 
-• Brindar a arquitectos de sistemas, ingenieros y desarrolladores de software las herramientas 
-para el análisis, el diseño y la implementación de sistemas basados en software, así como para el 
+- Expresar un diseño utilizando elementos gráficos, especificando las características del sistema.
+- Brindar a arquitectos de sistemas, ingenieros y desarrolladores de software las herramientas para el análisis, el diseño y la implementación de sistemas basados en software, así como para el 
 modelado de procesos de negocios y similares. 
 
-<!-- Page 50 -->
-
  
  
-Diseño y Programación Orientada a Objetos. Patrones de Diseño y Lenguaje de Modelado Unificado (UML) 
-50 
-• Hacer progresar el estado de la industria permitiendo la interoperabilidad de herramientas de 
-modelado visual de objetos. 
-• No obstante, para habilitar un intercambio significativo de información de modelos entre 
-herramientas, se requiere de un acuerdo con respecto a la semántica y notación. 
+Diseño y 
+- Hacer progresar el estado de la industria permitiendo la interoperabilidad de herramientas de modelado visual de objetos. 
+- No obstante, para habilitar un intercambio significativo de información de modelos entre herramientas, se requiere de un acuerdo con respecto a la semántica y notación. 
 Requisitos de UML 
 UML cumple con los siguientes requisitos: 
-• Establecer una definición formal de un metamodelo común basado en el estándar MOF (meta-
+- Establecer una definición formal de un metamodelo común basado en el estándar MOF (meta-
 object facility) que especifique la sintaxis abstracta del UML. 
 La sintaxis abstracta define el conjunto de conceptos de modelado UML, sus atributos y sus 
 relaciones, así como las reglas de combinación de estos conceptos para construir modelos UML 
 parciales o completos. 
-• Brindar una explicación detallada de la semántica de cada concepto de modelado UML. 
+- Brindar una explicación detallada de la semántica de cada concepto de modelado UML.
 La semántica define, de manera independiente a la tecnología, cómo los conceptos UML se 
 habrán de desarrollar por las computadoras. 
-• Especificar los elementos de notación de lectura humana para representar los conceptos 
-individuales de modelado UML, así como las reglas para combinarlos en una variedad de 
+- Especificar los elementos de notación de lectura humana para representar los conceptos individuales de modelado UML, así como las reglas para combinarlos en una variedad de 
 diferentes tipos de diagramas que corresponden a diferentes aspectos de los sistemas 
 modelados. 
-• Definir formas que permitan hacer que las herramientas UML cumplan con esta especificación. 
+- Definir formas que permitan hacer que las herramientas UML cumplan con esta especificación.
 Esto se apoya (en una especificación independiente) con una especificación basada en XML de 
 formatos de intercambio de modelos correspondientes (XML) que deben ser concretados por 
 herramientas compatibles. 
 Mecanismos Comunes 
 Son 4 mecanismos que hacen que facilitan la construcción de bloques UML: 
-• Especificaciones: detrás de cada parte de la notación gráfica se indica textualmente la sintaxis y 
-semántica de ese bloque. 
-• Adornos: casi todos los elementos tienen una notación gráfica, para facilitar el entendimiento 
-de forma visual. 
-• Divisiones Comunes. 
-• Mecanismos de extensión (de extensibilidad). 
+- Especificaciones: detrás de cada parte de la notación gráfica se indica textualmente la sintaxis y semántica de ese bloque. 
+- Adornos: casi todos los elementos tienen una notación gráfica, para facilitar el entendimiento de forma visual. 
+- Divisiones Comunes.
+- Mecanismos de extensión (de extensibilidad).
 Para poder expresar todos los matices posibles de todos los modelos en todos los dominios y en 
 todos los momentos, y adaptar UML de manera controlada a las necesidades de nuevas 
 tecnologías, UML proporciona tres mecanismos de extensión. 
 
-<!-- Page 51 -->
-
  
  
-Diseño y Programación Orientada a Objetos. Patrones de Diseño y Lenguaje de Modelado Unificado (UML) 
-51 
-• Los mecanismos de extensión de UML son: 
-• Estereotipos. 
+Diseño y 
+- Los mecanismos de extensión de UML son:
+- Estereotipos.
 Permite crear nuevos tipos de bloques de construcción. Derivan de los existentes, pero son \nespecíficos a un problema. 
 En lenguajes como Java o C++, es necesario modelar las excepciones, que son simplemente 
 clases, que normalmente sólo se pueden ser lanzadas y capturadas. Para poder modelar las \nexcepciones se puede crear un estereotipo de una clase. 
-• Valores etiquetados. 
+- Valores etiquetados.
 Permite añadir nueva información en la especificación de un elemento. 
-• Restricciones. 
+- Restricciones.
 Permite añadir a un bloque de construcción de UML, nuevas reglas o modificar las \nexistentes. 
 Reglas de UML 
 Hay una serie de normas para lograr que un modelo esté bien formado, son las siguientes reglas 
 semánticas: 
-• Nombres: cómo llamar a los elementos, relaciones y diagramas. 
-• Ámbito: se indica el contexto que da a un nombre un significado específico. 
-• Visibilidad: hace referencia a cuantos y como los nombres pueden ser vistos y utilizados por 
-otros. 
-• Integridad: forma adecuada de que los elementos se relacionan. 
-• Ejecución: el significado de simular (correr) un modelo dinámico. 
+- Nombres: cómo llamar a los elementos, relaciones y diagramas.
+- Ámbito: se indica el contexto que da a un nombre un significado específico.
+- Visibilidad: hace referencia a cuantos y como los nombres pueden ser vistos y utilizados por otros. 
+- Integridad: forma adecuada de que los elementos se relacionan.
+- Ejecución: el significado de simular (correr) un modelo dinámico.
 Versiones 
 Estas son las versiones publicadas de UML: 
-• UML 1.1 (Noviembre de 1997) 
-• UML 1.3 (Marzo de 2000) 
-• UML 1.4 (Septiembre de 2001) 
-• UML 1.5 (Marzo de 2003) 
-
-<!-- Page 52 -->
+- UML 1.1 (Noviembre de 1997)
+- UML 1.3 (Marzo de 2000)
+- UML 1.4 (Septiembre de 2001)
+- UML 1.5 (Marzo de 2003)
 
  
  
-Diseño y Programación Orientada a Objetos. Patrones de Diseño y Lenguaje de Modelado Unificado (UML) 
-52 
-• UML 1.4.2 (Enero de 2005) 
-• UML 2.0 (Octubre de 2005) 
-• UML 2.1 (Abril de 2006) 
-• UML 2.1.1 (Febrero de 2007) 
-• UML 2.1.2 (Noviembre de 2007) 
-• UML 2.2 (Febrero de 2009) 
-• UML 2.3 (Mayo de 2010) 
-• UML 2.4.1 (Agosto de 2011) 
-• UML 2.5 (Junio de 2015) 
-• UML 2.5.1 (Diciembre de 2017) Es la última versión. 
-7.1. Bloques de construcción de UML 
+Diseño y 
+- UML 1.4.2 (Enero de 2005)
+- UML 2.0 (Octubre de 2005)
+- UML 2.1 (Abril de 2006)
+- UML 2.1.1 (Febrero de 2007)
+- UML 2.1.2 (Noviembre de 2007)
+- UML 2.2 (Febrero de 2009)
+- UML 2.3 (Mayo de 2010)
+- UML 2.4.1 (Agosto de 2011)
+- UML 2.5 (Junio de 2015)
+- UML 2.5.1 (Diciembre de 2017) Es la última versión.
+### 🔵 7.1. Bloques de construcción de UML
 Un modelo UML se compone de diferentes bloques de construcción que son: 
-• Elementos. 
-• Relaciones. 
-7.1.1. Elementos 
+- Elementos.
+- Relaciones.
+#### 🔹 7.1.1. Elementos
 Hay 3 clases de elementos: estructurales, comportamiento y agrupación (también se puede considerar 
 anotación como elemento). 
-• Elementos estructurales: 
+- Elementos estructurales:
 Vamos a indicar los básicos que se pueden incluir en el modelo UML. 
 Nombre y Símbolo 
 Descripción 
@@ -1808,12 +1505,9 @@ Interfaz
 Colección de operaciones que especifican un servicio de una clase o componente. 
 Representa el comportamiento completo de una clase o componente. 
 
-<!-- Page 53 -->
-
  
  
-Diseño y Programación Orientada a Objetos. Patrones de Diseño y Lenguaje de Modelado Unificado (UML) 
-53 
+Diseño y 
 Nombre y Símbolo 
 Descripción 
 Colaboración 
@@ -1845,97 +1539,86 @@ Existen variaciones de estos seis elementos, tales como actores, señales, proce
 documentos, archivos, bibliotecas, páginas y tablas. 
  
 
-<!-- Page 54 -->
-
  
  
-Diseño y Programación Orientada a Objetos. Patrones de Diseño y Lenguaje de Modelado Unificado (UML) 
-54 
-• Los elementos de comportamiento: 
+Diseño y 
+- Los elementos de comportamiento:
 Son las partes dinámicas (verbos) de los modelos UML que representan comportamiento en el 
 tiempo y en el espacio. 
 Están conectados normalmente a diversos elementos estructurales, principalmente clases, 
 colaboraciones y objetos, y normalmente están conectados a diversos elementos estructurales, 
 principalmente clases, colaboraciones y objetos. Son: 
-• Interacción: Comportamiento que comprende un conjunto de mensajes intercambiados \nentre un conjunto de objetos, en un contexto determinado para alcanzar un propósito \nespecífico. 
-• Máquina de Estados: Comportamiento que especifica las secuencias de estados por las que 
-pasa un objeto o una interacción en respuesta a eventos. 
-• Los Elementos de agrupación: 
+- Interacción: Comportamiento que comprende un conjunto de mensajes intercambiados \nentre un conjunto de objetos, en un contexto determinado para alcanzar un propósito \nespecífico.
+- Máquina de Estados: Comportamiento que especifica las secuencias de estados por las que pasa un objeto o una interacción en respuesta a eventos. 
+- Los Elementos de agrupación:
 Son las partes organizativas de los modelos UML, las cajas en las que pueden descomponerse un 
 modelo. 
-• Paquete: son los elementos de agrupación básicos con los cuales se puede organizar un 
-modelo UML. Se pueden agrupar los elementos estructurales, de comportamiento e incluso 
+- Paquete: son los elementos de agrupación básicos con los cuales se puede organizar un modelo UML. Se pueden agrupar los elementos estructurales, de comportamiento e incluso 
 otros elementos de agrupación. 
 Hay variaciones, como los framework, los modelos y los subsistemas. 
  
-7.1.2. Relaciones 
+#### 🔹 7.1.2. Relaciones
 Relacionan los elementos entre sí, y hay 4 tipos diferentes: 
-• Dependencias. 
+- Dependencias.
 Es una relación semántica entre dos elementos, en la cual un cambio a un elemento puede 
 afectar el significado de otro elemento. 
 Hay tipos de dependencias predefinidas que se indican para casos de uso mediante extend o 
 include. 
-• extend (la extensión). 
+- extend (la extensión).
 Un caso de uso puede extenderse a otro. El comportamiento del caos de extensión se 
 puede insertar en el caso de uso extendido en determinadas condiciones. 
 Se indica mediante la notación de una flecha rayada desde el caso de uso extensión hasta el \nextendido junto a la etiqueta extend. 
 
-<!-- Page 55 -->
-
  
  
-Diseño y Programación Orientada a Objetos. Patrones de Diseño y Lenguaje de Modelado Unificado (UML) 
-55 
-• include. 
+Diseño y 
+- include.
 Un caso de uso puede incluir a otro, normalmente el resultado del primero va a depender 
 del caos de uso incluido. 
 Se indica mediante la notación de una flecha rayada desde el caso de uso que lo incluye 
 hasta el que es incluido junto a la etiqueta include. 
-• Asociaciones. 
+- Asociaciones.
 Es una relación estructural entre dos elementos, que describen las conexiones entre ellos. 
 Representan una relación estructural entre un todo y sus partes, agregación o composición. 
-• Generalizaciones. 
+- Generalizaciones.
 Es una relación entre elemento padre (más general) y elemento hijo (más específico). Se 
 relaciona con el concepto de herencia en la POO. 
-• Implementación. 
+- Implementación.
 Es una relación en la que el elemento hijo realiza las acciones indicadas por el padre. 
-7.2. Diagramas UML 
+### 🔵 7.2. Diagramas UML
 Un diagrama es la representación gráfica de un conjunto de elementos y de las relaciones entre ellos. 
 Constituye una proyección parcial del sistema, que ofrece una vista resumida de sus componentes y 
 permite analizarlo desde diferentes perspectivas. 
 Representa una vista resumida de los elementos que constituyen un sistema, lo que permite visualizarlo 
 desde diferentes perspectivas. 
 UML utiliza dos tipos básicos de diagramas: 
-• Diagramas de Estructura o Estructurales. 
+- Diagramas de Estructura o Estructurales.
 Los diagramas estructurales representan los aspectos estáticos de un sistema, es decir, su 
 organización interna, los elementos que lo componen y las relaciones entre ellos. Permiten 
 mostrar la arquitectura del sistema desde un punto de vista estable, independiente de su \nejecución. 
-• Diagrama de clases. 
-• Diagrama de objetos. 
-• Diagrama de paquetes. 
-• Diagrama de componentes. 
-
-<!-- Page 56 -->
+- Diagrama de clases.
+- Diagrama de objetos.
+- Diagrama de paquetes.
+- Diagrama de componentes.
 
  
  
-Diseño y Programación Orientada a Objetos. Patrones de Diseño y Lenguaje de Modelado Unificado (UML) 
-56 
-• Diagrama de despliegue. 
-• Diagrama de estructura compuesta. 
-• Diagrama de perfiles. 
-• De comportamiento. 
+Diseño y 
+- Diagrama de despliegue.
+- Diagrama de estructura compuesta.
+- Diagrama de perfiles.
+- De comportamiento.
 Representan los aspectos dinámicos de un sistema, es decir, cómo interactúan sus elementos y 
 cómo evolucionan a lo largo del tiempo. Permiten describir casos de uso, flujos de actividades, \nestados de los objetos y la forma en que los elementos colaboran entre sí. 
-• Diagramas de casos de uso. 
-• Diagrama de actividades. 
-• Diagrama de máquina de estados. 
-• Diagrama de interacción: 
+- Diagramas de casos de uso.
+- Diagrama de actividades.
+- Diagrama de máquina de estados.
+- Diagrama de interacción:
 » Diagrama de secuencia. 
 » Diagrama de comunicación (colaboración). 
 » Diagrama de panoramas de interacción. 
 » Diagrama de temporización. 
-7.2.1. Diagramas UML Estructurales 
+#### 🔹 7.2.1. Diagramas UML Estructurales
 Diagramas que representan aspectos estáticos o estructurales de un sistema. 
 Diagrama de Clases 
 Es el diagrama UML más usado, y la base principal de toda solución orientada a objetos. Es la agrupación 
@@ -1944,17 +1627,13 @@ Muestra las clases dentro de un sistema, atributos, operaciones y la relación e
 utilizadas durante el proceso de análisis y diseño. 
 La forma de representación es: una clase tiene tres partes áreas, se representan con rectángulos 
 divididos en tres: 
-• La superior contiene el nombre de la clase. 
-• La central contiene los atributos. 
-• La inferior las acciones (operaciones o métodos). Son actividades o verbos que se pueden 
-realizar con o para un objeto. 
-
-<!-- Page 57 -->
+- La superior contiene el nombre de la clase.
+- La central contiene los atributos.
+- La inferior las acciones (operaciones o métodos). Son actividades o verbos que se pueden realizar con o para un objeto. 
 
  
  
-Diseño y Programación Orientada a Objetos. Patrones de Diseño y Lenguaje de Modelado Unificado (UML) 
-57 
+Diseño y 
 Convenciones habituales de notación: si el nombre de un método es una sola palabra se escribe en 
 minúsculas; si son varias palabras, la primera va en minúsculas y las siguientes con la inicial en 
 mayúscula (notación camelCase, sin espacios). 
@@ -1976,8 +1655,8 @@ habitualmente clases, aunque también puede contener casos de uso, componentes u
 del modelo. Representa las dependencias entre paquetes y cómo se organizan para revelar la 
 arquitectura del sistema. 
 Hay dos tipos especiales de dependencias que se definen entre paquetes: 
-• La importación de paquetes. 
-• La fusión de paquetes. 
+- La importación de paquetes.
+- La fusión de paquetes.
 Los paquetes pueden representar los diferentes niveles de un sistema para revelar la arquitectura. 
 También se pueden marcar las dependencias de paquetes para mostrar el mecanismo de comunicación \nentre niveles. 
 Diagrama de componentes (o despliegue) 
@@ -1986,12 +1665,9 @@ Se utiliza para modelar la organización de los artefactos software y las depend
 Los componentes se comunican por medio de interfaces, y con este diagrama se muestra qué partes 
 pueden compartirse entre diferentes secciones de un sistema o incluso entre sistemas distintos. 
 
-<!-- Page 58 -->
-
  
  
-Diseño y Programación Orientada a Objetos. Patrones de Diseño y Lenguaje de Modelado Unificado (UML) 
-58 
+Diseño y 
 Diagrama de despliegue 
 Muestra la arquitectura física del sistema como el despliegue de los artefactos de software en los nodos 
 de hardware. Es útil cuando se implementa una solución de software en múltiples máquinas con 
@@ -2008,7 +1684,7 @@ Los perfiles permiten la adaptación de UML para diferentes plataformas o domini
 Java o .NET. 
 En este tipo de diagramas los elementos gráficos son: estereotipo, extensión, metadatos, referencia, 
 perfil y aplicación de perfil. Fue el último tipo de diagrama añadido por UML 2.0. 
-7.2.2. Diagramas UML de Comportamiento 
+#### 🔹 7.2.2. Diagramas UML de Comportamiento
 Los diagramas de comportamiento representan los aspectos dinámicos de un sistema, es decir, cómo \nevolucionan los elementos con el tiempo, cómo interactúan entre sí y qué funcionalidades 
 proporcionan. Permiten modelar procesos, interacciones, estados y escenarios de uso, ofreciendo una 
 visión de cómo el sistema se comporta durante su ejecución. 
@@ -2019,21 +1695,16 @@ No deben ser excesivamente genéricos ni demasiado específicos.
 Existe una notación gráfica llamada modelo de casos de uso que no debe confundirse con la descripción 
 textual de los casos de uso (para la cual no existe un formato único estandarizado). 
 
-<!-- Page 59 -->
-
  
  
-Diseño y Programación Orientada a Objetos. Patrones de Diseño y Lenguaje de Modelado Unificado (UML) 
-59 
+Diseño y 
 Los elementos que aparecen en estos diagramas son: 
-• Actores: representan usuarios u otros sistemas que interactúan con el sistema. 
-• Casos de uso: representan la descripción de las interacciones que se producen entre un actor y \nel sistema cuando el actor utiliza el sistema para algo concreto. El nombre del caso de uso debe 
-describir claramente la funcionalidad. 
+- Actores: representan usuarios u otros sistemas que interactúan con el sistema.
+- Casos de uso: representan la descripción de las interacciones que se producen entre un actor y \nel sistema cuando el actor utiliza el sistema para algo concreto. El nombre del caso de uso debe describir claramente la funcionalidad. 
 Relaciones principales entre casos de uso: 
-• Include: un caso de uso incluye siempre la ejecución de otro. 
-• Extend: un caso de uso puede opcionalmente extender otro bajo ciertas condiciones. 
-• Generalization: existe una relación de especialización entre casos de uso. Se representa 
-mediante una línea sólida terminada en un triángulo, desde el caso de uso especializado hacia el 
+- Include: un caso de uso incluye siempre la ejecución de otro.
+- Extend: un caso de uso puede opcionalmente extender otro bajo ciertas condiciones.
+- Generalization: existe una relación de especialización entre casos de uso. Se representa mediante una línea sólida terminada en un triángulo, desde el caso de uso especializado hacia el 
 general. 
 Dada su relevancia como herramienta central de análisis y captura de requisitos, en este temario se 
 desarrollan en el próximo epígrafe. 
@@ -2046,31 +1717,26 @@ Diagrama de Máquina de Estados
 Son similares a los diagramas de actividades, pero se centran en describir el comportamiento de objetos 
 que cambian en función de su estado actual. 
 Notación: 
-• Círculo lleno: estado inicial. 
-• Círculo hueco con otro círculo lleno en su interior: estado final. 
-• Rectángulo redondeado: representa un estado, con el nombre en la parte superior y las 
-actividades que se realizan dentro del estado debajo de una línea de separación. 
-• Flecha: transición entre estados. Puede incluir: 
-• Evento que causa la transición. 
-• Condición de guarda entre corchetes [ ]. 
-• Acción asociada a la transición, indicada tras una barra «/». 
-
-<!-- Page 60 -->
+- Círculo lleno: estado inicial.
+- Círculo hueco con otro círculo lleno en su interior: estado final.
+- Rectángulo redondeado: representa un estado, con el nombre en la parte superior y las actividades que se realizan dentro del estado debajo de una línea de separación. 
+- Flecha: transición entre estados. Puede incluir:
+- Evento que causa la transición.
+- Condición de guarda entre corchetes [ ].
+- Acción asociada a la transición, indicada tras una barra «/».
 
  
  
-Diseño y Programación Orientada a Objetos. Patrones de Diseño y Lenguaje de Modelado Unificado (UML) 
-60 
-• Ejemplo: evento[condición]/acción. 
-• Línea horizontal gruesa: puede representar una unión (varias entradas y una salida) o una 
-bifurcación (una entrada y varias salidas). 
+Diseño y 
+- Ejemplo: evento[condición]/acción.
+- Línea horizontal gruesa: puede representar una unión (varias entradas y una salida) o una bifurcación (una entrada y varias salidas). 
 Diagramas de Interacción 
 Los diagramas de interacción son un subgrupo dentro de los diagramas de comportamiento. Describen 
 cómo los objetos colaboran entre sí a través del intercambio de mensajes. 
-• Diagrama de Secuencia. 
+- Diagrama de Secuencia.
 Muestra cómo los objetos interactúan entre sí y el orden en el que ocurren los mensajes. 
 Representa interacciones para un escenario concreto y hace hincapié en la dimensión temporal. 
-• Diagrama de Comunicación (o de Colaboración). 
+- Diagrama de Comunicación (o de Colaboración).
 Son similares a los diagramas de secuencia, pero se centran en las relaciones entre los objetos y 
 los mensajes que se intercambian. 
 No muestran explícitamente el tiempo como dimensión aparte, por lo que es necesario numerar 
@@ -2079,23 +1745,19 @@ Sirven para mostrar cómo las instancias específicas de clases trabajan juntas 
 objetivo común. 
 Implementan las asociaciones del diagrama de clases mediante enlaces (mensajes pasados de un 
 objeto a otro). 
-• Diagrama de Panorama de Interacciones (o Visión General de Interacciones). 
+- Diagrama de Panorama de Interacciones (o Visión General de Interacciones).
 Permite ver, de manera resumida, cómo se relacionan varias interacciones y en qué orden 
 ocurren. Proporciona una visión global de la secuencia de interacciones. 
-• Diagrama de Temporización. 
+- Diagrama de Temporización.
 Al igual que los diagramas de secuencia, representan el comportamiento de los objetos en un 
 periodo de tiempo. 
-• Si hay un solo objeto, el diagrama es simple. 
-• Si intervienen varios objetos, se muestran sus interacciones durante ese lapso temporal 
-concreto. 
-
-<!-- Page 61 -->
+- Si hay un solo objeto, el diagrama es simple.
+- Si intervienen varios objetos, se muestran sus interacciones durante ese lapso temporal concreto. 
 
  
  
-Diseño y Programación Orientada a Objetos. Patrones de Diseño y Lenguaje de Modelado Unificado (UML) 
-61 
-7.2.2.1. Diagramas de casos de uso 
+Diseño y 
+##### 7.2.2.1. Diagramas de casos de uso
 Como ya hemos visto, los diagramas de casos de uso forman parte de los diagramas de comportamiento 
 de UML, sin embargo, añadimos aquí este epígrafe independiente debido a su especial relevancia. Estos 
 diagramas no solo se utilizan para modelar el comportamiento del sistema, sino que además cumplen una 
@@ -2130,12 +1792,9 @@ que se activa bajo ciertas condiciones, por ejemplo, un proceso de solicitud que
 requerir subsanación si falta documentación. La generalización permite especializar actores o casos de 
 uso cuando comparten parte del comportamiento; por ejemplo, empleado público puede especializarse \nen tramitador y supervisor si ambos comparten casos base con variaciones. 
 
-<!-- Page 62 -->
-
  
  
-Diseño y Programación Orientada a Objetos. Patrones de Diseño y Lenguaje de Modelado Unificado (UML) 
-62 
+Diseño y 
  
 Notación y reglas básicas 
 Los actores se dibujan como figuras estilizadas fuera del rectángulo del sistema. Los casos de uso se 
@@ -2166,12 +1825,9 @@ prueba de aceptación verifica que el sistema realmente cumple ese
 comportamiento. 
  
 
-<!-- Page 63 -->
-
  
  
-Diseño y Programación Orientada a Objetos. Patrones de Diseño y Lenguaje de Modelado Unificado (UML) 
-63 
+Diseño y 
 Buenas prácticas y errores frecuentes 
 Es recomendable nombrar los casos con verbos orientados a valor y lenguaje de negocio, agruparlos por 
 áreas funcionales y mantener consistencia terminológica con el resto del temario. Conviene factorizar 
@@ -2191,23 +1847,20 @@ Relación con otros diagramas y con el resto del temario
 El diagrama de casos de uso se complementa con diagramas de actividades para detallar flujos de 
 trabajo, de secuencia para describir intercambios entre objetos o servicios y de estados cuando el ciclo 
 de vida de una entidad requiere precisión. En el temario, este epígrafe enlaza con los contenidos de 
-metodologías de desarrollo, donde los casos de uso se emplean para capturar requisitos y derivar 
+
 pruebas, y se contrasta con los diagramas de flujo de datos del diseño conceptual, que modelan el 
 recorrido y transformación de la información. La separación conceptual es útil: el caso de uso se centra \nen objetivos del actor y servicios visibles; el diagrama de flujo de datos se centra en entradas, 
 transformaciones y salidas de datos. 
-7.2.3. Manual de Modelado UML 
+#### 🔹 7.2.3. Manual de Modelado UML
 Diagrama de Casos de Uso 
 ¿Qué debe hacer el sistema? 
 Para entender como funciona nuestro sistema, lo conveniente es iniciar el proceso de modelado 
 capturando los requisitos funcionales desde la perspectiva del usuario. El objetivo principal es identificar 
 actores, sus interacciones con el sistema y establecer el alcance funcional completo. 
 
-<!-- Page 64 -->
-
  
  
-Diseño y Programación Orientada a Objetos. Patrones de Diseño y Lenguaje de Modelado Unificado (UML) 
-64 
+Diseño y 
 Diagramas de Interacción 
 ¿Cómo deben interactuar los elementos del sistema? 
 Estos diagramas (secuencia y comunicación) detallan el flujo de interacciones para cada caso de uso 
@@ -2236,12 +1889,9 @@ Representa la estructura física del software mostrando ejecutables, librerías 
 cómo se empaquetan e interrelacionan los módulos software del sistema para su implementación 
 práctica. 
 
-<!-- Page 65 -->
-
  
  
-Diseño y Programación Orientada a Objetos. Patrones de Diseño y Lenguaje de Modelado Unificado (UML) 
-65 
+Diseño y 
 Diagrama de Despliegue 
 ¿Dónde se ejecutan los componentes? 
 Especifica la arquitectura hardware necesaria para el sistema. Muestra la distribución física de 
@@ -2253,14 +1903,14 @@ detalla con diagramas de interacción, formaliza con diagramas de clases, organi
 implementa con componentes y finalmente se despliega en hardware. Este enfoque mantiene 
 coherencia entre todas las vistas del sistema. 
 Ejemplo 
-• IDEA: "Necesito una web para vender productos". 
-• CASOS DE USO: Defino "Qué" debe hacer: "Realizar pedido", "Gestionar productos". 
-• SECUENCIA/ACTIVIDADES: Defino "Cómo" se hace: Flujo de pasos e interacciones. 
-• CLASES: Defino "De qué" se compone: Clases Pedido, Producto, Cliente. 
-• PAQUETES: Agrupo clases en módulos para organizar el código. 
-• COMPONENTES: Empaqueto todo en archivos ejecutables (.jar, .dll). 
-• DESPLIEGUE: Decido "Dónde" se ejecuta: En qué servidores y con qué configuración. 
-8. El Proceso Racional Unificado (RUP) 
+- IDEA: "Necesito una web para vender productos".
+- CASOS DE USO: Defino "Qué" debe hacer: "Realizar pedido", "Gestionar productos".
+- SECUENCIA/ACTIVIDADES: Defino "Cómo" se hace: Flujo de pasos e interacciones.
+- CLASES: Defino "De qué" se compone: Clases Pedido, Producto, Cliente.
+- PAQUETES: Agrupo clases en módulos para organizar el código.
+- COMPONENTES: Empaqueto todo en archivos ejecutables (.jar, .dll).
+- DESPLIEGUE: Decido "Dónde" se ejecuta: En qué servidores y con qué configuración.
+## 🟣 8. El Proceso Racional Unificado (RUP)
 Originalmente, se diseñó un proceso genérico y de dominio público, el Proceso Unificado, y una \nespecificación más detallada, el Rational Unified Process (RUP), que se vendiera como producto 
 independiente. 
 RUP, es un proceso de desarrollo de software que fue desarrollado por la empresa Rational Software, y 
@@ -2270,76 +1920,68 @@ También se conoce por este nombre al software, también desarrollado por Ration
 información entrelazada de diversos artefactos y descripciones de las diversas actividades. Está incluido \nen el Rational Method Composer (RMC), que permite la personalización de acuerdo con las 
 necesidades. 
 
-<!-- Page 66 -->
-
  
  
-Diseño y Programación Orientada a Objetos. Patrones de Diseño y Lenguaje de Modelado Unificado (UML) 
-66 
+Diseño y 
 RUP junto con UML, constituyen la metodología estándar más utilizada para el análisis, diseño, 
 implementación y documentación de sistemas orientados a objetos. 
 El ciclo de vida RUP es una implementación del desarrollo en espiral. Las tareas se organizan en fases \ne iteraciones. 
 RUP divide el proceso en cuatro fases, dentro de las cuales se realizan pocas pero grandes y formales 
 iteraciones, en número variable según el proyecto, son: 
-• Iniciación. 
+- Iniciación.
 Aquí, y también en la fase de elaboración, las iteraciones se enfocan hacia la comprensión del 
 problema y la tecnología, delimitar el ámbito del proyecto, eliminar riesgos críticos, y establecer 
 una baseline de la arquitectura. 
 En esta fase el hincapié se hace especialmente en actividades de requisitos y modelado del 
 negocio. 
-• Elaboración. 
+- Elaboración.
 Las iteraciones se centran más en el desarrollo de la baseline de la arquitectura, abarcan más los 
 flujos de trabajo de requisitos, refinamiento del modelo de negocios, análisis y diseño. 
-• Construcción. 
+- Construcción.
 Se lleva a cabo la construcción del producto por medio de una serie de iteraciones. 
 Para cada iteración se seleccionan algunos Casos de Uso, refinando su análisis y diseño y 
 realizando pruebas de implementación. 
 Se hacen iteraciones hasta que se termina la implementación del producto. 
-• Transición. 
+- Transición.
 El objetivo es garantizar que se tiene un producto preparado para su uso. 
 Principios de desarrollo 
 La Filosofía del RUP está basado en los siguientes 6 principios clave: 
-• Adaptar el proceso. 
+- Adaptar el proceso.
 El proceso tiene que adaptarse a las necesidades del cliente, por lo que es imprescindible 
 interactuar con él. 
 Las características del proyecto, tamaño, alcance, etc., influirán en su diseño. 
 
-<!-- Page 67 -->
-
  
  
-Diseño y Programación Orientada a Objetos. Patrones de Diseño y Lenguaje de Modelado Unificado (UML) 
-67 
-• Equilibrar prioridades. 
+Diseño y 
+- Equilibrar prioridades.
 En ocasiones los requisitos de los diversos participantes pueden ser diferentes, contradictorios o 
 que generen disputa por los recursos disponibles. Hay que encontrar un equilibrio que permita 
 satisfacer los deseos de todos, y corregir desacuerdos que puedan surgir en el futuro. 
-• Demostrar valor iterativamente. 
+- Demostrar valor iterativamente.
 Se realiza la entrega de los proyectos en etapas iteradas (aunque la entrega sea interna), y en 
 cada iteración se revisa hacia dónde va la dirección del proyecto, la estabilidad y cali-dad, los 
 riesgos involucrados y también se analiza la opinión de los inversores. 
-• Colaboración entre equipos. 
+- Colaboración entre equipos.
 El desarrollo de software lo realizan múltiples equipos, por lo que debe haber una comunicación 
 fluida entre ellos que permita coordinar requisitos, desarrollo, evaluaciones, resultados, etc. 
-• Enfocarse en la calidad. 
+- Enfocarse en la calidad.
 El control de calidad no debe realizarse al final de cada iteración, sino en todos los aspectos de la 
 producción. El aseguramiento de la calidad forma parte del proceso de desarrollo y no de un 
 grupo independiente, también es una estrategia de desarrollo de software. 
-• Elevar el nivel de abstracción. 
+- Elevar el nivel de abstracción.
 Facilitar el proceso de desarrollo mediante diferentes herramientas. 
-9. Bibliografía 
-• JOYANES AGUILAR, L. Fundamentos de programación. McGraw-Hill, 2008. 
-• https://www.lucidchart.com/pages/es/qu%C3%A9-es-el-lenguaje-unificado-de-modelado-uml. 
-• http://ferestrepoca.github.io/paradigmas-de-programacion/poo/poo_teoria/2017-
+## 🟣 9. Bibliografía
+- JOYANES AGUILAR, L. Fundamentos de programación. McGraw-Hill, 2008.
+- https://www.lucidchart.com/pages/es/qu%C3%A9-es-el-lenguaje-unificado-de-modelado-uml.
+- http://ferestrepoca.github.io/paradigmas-de-programacion/poo/poo_teoria/2017-
 1POO.pdf. 
-• https://es.wikipedia.org. 
-• https://es.slideshare.net/eduardolopezr/programacin-orientadaobjetos-53132601. 
-• https://prezi.com/dhxen5b0pph3/13-relacion-entre-clases-y-objetos/. 
-• http://www.cristalab.com/tutoriales/programacion-orientada-a-objetos-asociacion-vs-
+- https://es.wikipedia.org.
+- https://es.slideshare.net/eduardolopezr/programacin-orientadaobjetos-53132601.
+- https://prezi.com/dhxen5b0pph3/13-relacion-entre-clases-y-objetos/.
+- http://www.cristalab.com/tutoriales/programacion-orientada-a-objetos-asociacion-vs-
 composicion-c89337l/. 
-• https://dle.rae.es/paradigma. 
-
-<!-- Page 68 -->
+- https://dle.rae.es/paradigma.
 
 ---
 
