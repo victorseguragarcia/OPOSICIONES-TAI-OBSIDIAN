@@ -21,6 +21,8 @@
 8. [Herramientas CLI y Scripts Automatizados](#-8-herramientas-cli-y-scripts-automatizados)
 9. [Cómo Crear y Añadir Nuevos Contenidos](#-9-cómo-crear-y-añadir-nuevos-contenidos)
 10. [Plugins y Ajustes Recomendados para Obsidian](#-10-plugins-y-ajustes-recomendados-para-obsidian)
+11. [Hosting Privado en Raspberry Pi 4 (Servidor 24/7)](#-11-hosting-privado-en-raspberry-pi-4-servidor-247-y-acceso-remoto-tailscale)
+12. [Créditos, Reconocimientos y Licencia](#-12-créditos-reconocimientos-y-licencia)
 
 ---
 
@@ -228,7 +230,31 @@ Para una experiencia óptima en Obsidian, se recomienda configurar:
 
 ---
 
-## 📜 11. Créditos, Reconocimientos y Licencia
+## 🍓 11. Hosting Privado en Raspberry Pi 4 (Servidor 24/7 y Acceso Remoto Tailscale)
+
+Puedes convertir una **Raspberry Pi 4** (o cualquier servidor Linux / NAS) en tu propio **servidor privado de estudio 24/7** con sincronización automática desde GitHub y acceso remoto seguro.
+
+### 🚀 Despliegue en 1 solo comando (Vía SSH):
+
+1. Conéctate por SSH a tu Raspberry Pi:
+   ```bash
+   ssh rewi@192.168.1.226
+   ```
+2. Ejecuta el script maestro de auto-instalación:
+   ```bash
+   curl -sSL https://raw.githubusercontent.com/victorseguragarcia/OPOSICIONES-TAI-OBSIDIAN/main/scripts/host-on-raspberry.sh | bash
+   ```
+
+### ✨ Características del Servidor en Raspberry Pi:
+- **Apertura Automática Directa**: Configura Obsidian para abrir la bóveda de Oposiciones TAI de forma nativa e inmediata al entrar al navegador.
+- **Auto-Actualización Continua**: Una tarea de Cron sincroniza con GitHub cada 5 minutos.
+- **Acceso Local y Remoto Seguro**:
+  - **En casa (WiFi)**: `https://192.168.1.226:3001`
+  - **Fuera de casa (4G/5G con Tailscale)**: `https://<TU_IP_TAILSCALE>:3001`
+
+---
+
+## 📜 12. Créditos, Reconocimientos y Licencia
 
 ### 👤 Autoría y Mantenedor
 - **Autor**: **Víctor Segura García** ([@victorseguragarcia](https://github.com/victorseguragarcia))
