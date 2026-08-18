@@ -185,7 +185,7 @@
 
 ---
 
-### 🔵 3. Conocimientos Concretos, Guías de Síntesis y Tablas de Examen (60 Guías)
+### 🔵 3. Conocimientos Concretos, Guías de Síntesis y Tablas de Examen (64 Guías)
 
 - [[wiki/synthesis/active-directory-and-ldap-guide|Guía Comparativa y Práctica de Active Directory y LDAP]]
 - [[wiki/synthesis/actos-nulos-vs-anulables-guia|Guía de Invalidez: Actos Nulos de Pleno Derecho vs Actos Anulables]]
@@ -242,6 +242,10 @@
 - [[wiki/synthesis/supuestos-practicos-bloque4-seguridad-firewalls-iptables-ens-dmz|Supuesto Práctico Bloque 4: Diseño de Arquitectura DMZ, Reglas iptables, Hardening y Categorización ENS]]
 - [[wiki/synthesis/sysadmin-commands-windows-and-linux-cheatsheet|Cheatsheet de Comandos de Administración de Sistemas Windows y Linux]]
 - [[wiki/synthesis/tablas-maestras-plazos-y-silencios-administrativos-age|Tabla Maestra de Plazos y Silencios Administrativos (LPACAP, LRJSP, LCSP, Transparencia, TREBEP)]]
+- [[wiki/synthesis/tarjetas-memoria-flashcards-bloque1-administracion|Tarjetas de Memoria Rápida (Flashcards): Bloque 1 - Organización del Estado y Admón. Digital]]
+- [[wiki/synthesis/tarjetas-memoria-flashcards-bloque2-tecnologia-hardware|Tarjetas de Memoria Rápida (Flashcards): Bloque 2 - Tecnología Básica, Hardware, SO y SGBD]]
+- [[wiki/synthesis/tarjetas-memoria-flashcards-bloque3-desarrollo-bbdd|Tarjetas de Memoria Rápida (Flashcards): Bloque 3 - Desarrollo de Sistemas, Web, BBDD y QA]]
+- [[wiki/synthesis/tarjetas-memoria-flashcards-bloque4-sistemas-redes-seguridad|Tarjetas de Memoria Rápida (Flashcards): Bloque 4 - Sistemas, Redes, Comunicaciones y Seguridad]]
 - [[wiki/synthesis/trebep-situaciones-y-regimen-disciplinario-guia|Guía del TREBEP: Situaciones Administrativas y Régimen Disciplinario]]
 - [[wiki/synthesis/virtual-memory-and-paging-algorithms-guide|Guía de Memoria Virtual, Paginación y Algoritmos de Reemplazo]]
 - [[wiki/synthesis/virtualization-vs-containerization-comparison|Comparativa Arquitectónica: Máquinas Virtuales vs Contenedores]]
