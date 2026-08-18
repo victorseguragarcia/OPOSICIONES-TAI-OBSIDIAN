@@ -1,17 +1,106 @@
 {
-	"nodes":[
-		{"id":"ad69529c41c04702","type":"text","x":-150,"y":-380,"width":550,"height":130,"color":"#EF5350","text":"# 💻 Bloque 2: Tecnología Básica y Hardware (TAI)\n\nMapa interactivo de navegación y estudio visual."},
-		{"id":"8870690b9205420e","type":"text","x":-450,"y":-200,"width":400,"height":200,"color":"#EF5350","text":"## 🔴 Arquitectura, CPU y Datos\n- Von Neumann vs Harvard\n- C2, IEEE 754 (Simple/Doble)\n- ASCII, Latin-9, UTF-8\n- Buses: PCIe 3.0/4.0/5.0, NVMe"},
-		{"id":"5008dc5da35d4ff6","type":"text","x":50,"y":-200,"width":420,"height":200,"color":"#EF5350","text":"## 🔴 Sistemas Operativos y BBDD\n- Procesos y Planificación CPU (RR, SJF)\n- Deadlocks (4 Condiciones Coffman)\n- Memoria Virtual (Paginación, TLB, LRU)\n- NoSQL y Teorema CAP (MongoDB, Redis)"},
-		{"id":"937a9a46d40545ed","type":"file","file":"wiki/synthesis/bloque2-tai-oposiciones-master-guide.md","x":-450,"y":60,"width":400,"height":240,"color":"#64B5F6"},
-		{"id":"5cf83ef8b58c4d4d","type":"file","file":"wiki/synthesis/cpu-scheduling-and-deadlocks-cheatsheet.md","x":50,"y":60,"width":420,"height":240,"color":"#64B5F6"},
-		{"id":"f2586b5d97e54c99","type":"file","file":"wiki/synthesis/nosql-families-and-cap-theorem-guide.md","x":520,"y":60,"width":400,"height":240,"color":"#64B5F6"}
-	],
-	"edges":[
-		{"id":"ea28b473ce4148ee","fromNode":"ad69529c41c04702","toNode":"8870690b9205420e","color":"#EF5350","fromSide":"bottom","toSide":"top"},
-		{"id":"18c80762a0d047d1","fromNode":"ad69529c41c04702","toNode":"5008dc5da35d4ff6","color":"#EF5350","fromSide":"bottom","toSide":"top"},
-		{"id":"1da7d5b1edbf4125","fromNode":"ad69529c41c04702","toNode":"937a9a46d40545ed","color":"#64B5F6","fromSide":"bottom","toSide":"top"},
-		{"id":"9a83e217a3e84ad4","fromNode":"ad69529c41c04702","toNode":"5cf83ef8b58c4d4d","color":"#64B5F6","fromSide":"bottom","toSide":"top"},
-		{"id":"512a3c269d2c4a5a","fromNode":"ad69529c41c04702","toNode":"f2586b5d97e54c99","color":"#64B5F6","fromSide":"bottom","toSide":"top"}
-	]
+  "nodes": [
+    {
+      "id": "b2_header",
+      "type": "text",
+      "text": "# 💻 Bloque 2: Tecnología Básica, Hardware, SO y Bases de Datos\n\n> Arquitectura de Computadores, Representación de la Información, Periféricos, Algoritmos, Gestión de Sistemas Operativos y SGBD Relacionales/NoSQL.",
+      "x": -200,
+      "y": -550,
+      "width": 800,
+      "height": 140,
+      "color": "#BA68C8"
+    },
+    {
+      "id": "b2_box1",
+      "type": "text",
+      "text": "## 🟣 Hardware, C2 y Representación (Temas 01, 02)\n\n### 🔢 Representación de Datos:\n- **Complemento a 2 (C2)**: Rango $[-2^{n-1}, +(2^{n-1}-1)]$. Para 8 bits: $[-128, +127]$. Cero único `00000000`.\n- **IEEE 754 Simple Precisión (32b)**: 1 bit signo, 8 bits exponente ($e+127$), 23 bits fracción con **bit implícito `1.`**.\n- **IEEE 754 Doble Precisión (64b)**: 1 bit signo, 11 bits exponente ($e+1023$), 52 bits fracción.\n- **Codificaciones**: ASCII (7 bits, 128 chars), UTF-8 (longitud variable 1 a 4 bytes, retrocompatible con ASCII), UTF-16, UTF-32.\n\n### ⚡ Buses y Almacenamiento:\n- **PCIe (PCI Express)**: Bus serie punto a punto dúplex con carriles (x1, x4, x8, x16). PCIe 4.0 ~2 GB/s/carril; PCIe 5.0 ~4 GB/s/carril.\n- **NVMe sobre PCIe**: Soporta hasta 64.000 colas con 64.000 comandos cada una (reemplaza a AHCI SATA de 1 cola de 32 cmds).\n- **USB**: USB 2.0 (480 Mbps), USB 3.0/3.1 Gen1 (5 Gbps), USB 3.2 Gen2 (10 Gbps), USB4 (hasta 40 Gbps sobre conector Type-C).",
+      "x": -550,
+      "y": -360,
+      "width": 550,
+      "height": 520,
+      "color": "#BA68C8"
+    },
+    {
+      "id": "b2_box2",
+      "type": "text",
+      "text": "## 🟣 Algoritmos, Estructuras, SO y NoSQL (Temas 03, 04, 05)\n\n### 🌲 Algoritmos y Árboles:\n- **Complejidad Big-O**: Búsqueda Binaria $O(\\log n)$, Quicksort medio $O(n \\log n)$, Búsqueda lineal $O(n)$.\n- **Árboles AVL**: Árbol binario auto-balanceado con factor de equilibrio $\\in \\{-1, 0, +1\\}$.\n- **Árboles B / B+**: Estructuras m-arias balanceadas para indexación en disco de BBDD relacionales.\n\n### 🖥️ Sistemas Operativos y Memoria:\n- **Planificación CPU**: FCFS (efecto convoy), SJF (óptimo en tiempo de espera medio pero sufre inanición), Round Robin (apropiativo con quantum), Prioridades con envejecimiento (*aging*).\n- **Memoria Virtual**: Paginación (fragmentación interna) vs Segmentación (fragmentación externa).\n- **Anomalía de Bélády**: En FIFO más marcos de memoria pueden provocar más fallos de página (LRU y OPT son inmunes).\n\n### 🗄️ Bases de Datos NoSQL y CAP:\n- **Familias**: Documental (MongoDB), Clave-Valor (Redis), Columnares (Cassandra), Grafos (Neo4j).\n- **Teorema CAP**: En redes distribuidas solo se puede garantizar 2 de 3: Consistencia (C), Disponibilidad (A), Tolerancia a Particiones (P).",
+      "x": 50,
+      "y": -360,
+      "width": 550,
+      "height": 520,
+      "color": "#42A5F5"
+    },
+    {
+      "id": "b2_synth1",
+      "type": "file",
+      "file": "wiki/synthesis/ieee-754-and-binary-representation-cheatsheet.md",
+      "x": -550,
+      "y": 200,
+      "width": 380,
+      "height": 260,
+      "color": "#64B5F6"
+    },
+    {
+      "id": "b2_synth2",
+      "type": "file",
+      "file": "wiki/synthesis/tarjetas-memoria-flashcards-bloque2-tecnologia-hardware.md",
+      "x": -130,
+      "y": 200,
+      "width": 380,
+      "height": 260,
+      "color": "#64B5F6"
+    },
+    {
+      "id": "b2_synth3",
+      "type": "file",
+      "file": "wiki/synthesis/supuestos-practicos-bloque2-ieee754-paginacion-deadlocks.md",
+      "x": 290,
+      "y": 200,
+      "width": 400,
+      "height": 260,
+      "color": "#64B5F6"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e21",
+      "fromNode": "b2_header",
+      "fromSide": "bottom",
+      "toNode": "b2_box1",
+      "toSide": "top",
+      "color": "#BA68C8"
+    },
+    {
+      "id": "e22",
+      "fromNode": "b2_header",
+      "fromSide": "bottom",
+      "toNode": "b2_box2",
+      "toSide": "top",
+      "color": "#42A5F5"
+    },
+    {
+      "id": "e23",
+      "fromNode": "b2_box1",
+      "fromSide": "bottom",
+      "toNode": "b2_synth1",
+      "toSide": "top",
+      "color": "#64B5F6"
+    },
+    {
+      "id": "e24",
+      "fromNode": "b2_box1",
+      "fromSide": "bottom",
+      "toNode": "b2_synth2",
+      "toSide": "top",
+      "color": "#64B5F6"
+    },
+    {
+      "id": "e25",
+      "fromNode": "b2_box2",
+      "fromSide": "bottom",
+      "toNode": "b2_synth3",
+      "toSide": "top",
+      "color": "#64B5F6"
+    }
+  ]
 }
