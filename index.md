@@ -185,7 +185,7 @@
 
 ---
 
-### 🔵 3. Conocimientos Concretos, Guías de Síntesis y Tablas de Examen (59 Guías)
+### 🔵 3. Conocimientos Concretos, Guías de Síntesis y Tablas de Examen (60 Guías)
 
 - [[wiki/synthesis/active-directory-and-ldap-guide|Guía Comparativa y Práctica de Active Directory y LDAP]]
 - [[wiki/synthesis/actos-nulos-vs-anulables-guia|Guía de Invalidez: Actos Nulos de Pleno Derecho vs Actos Anulables]]
@@ -212,6 +212,7 @@
 - [[wiki/synthesis/gestion-documento-y-expediente-electronico-eni-guia|Guía del Documento y Expediente Electrónico, Metadatos Mínimos (NTI) y Archivo Único]]
 - [[wiki/synthesis/gof-design-patterns-cheatsheet|Cheatsheet de Patrones de Diseño GoF (Gang of Four)]]
 - [[wiki/synthesis/guia-maestra-puertos-protocolos-rfc-seguridad|Guía Maestra de Puertos TCP/UDP, Protocolos de Red, RFCs y Seguridad]]
+- [[wiki/synthesis/guia-maestra-snippets-comandos-examen-practico-tai|Guía Maestra de Snippets, Comandos y Casos de Código para Examen Práctico TAI]]
 - [[wiki/synthesis/hardware-ports-and-buses-cheatsheet|Cheatsheet de Puertos, Buses y Velocidades de Transferencia]]
 - [[wiki/synthesis/http-status-codes-and-headers-guide|Guía de Códigos de Estado, Métodos y Cabeceras HTTP para TAI]]
 - [[wiki/synthesis/ieee-754-and-binary-representation-cheatsheet|Cheatsheet de Cálculo Binario, Complemento a 2 y Coma Flotante IEEE 754]]
