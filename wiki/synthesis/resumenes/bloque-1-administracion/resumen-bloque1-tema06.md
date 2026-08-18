@@ -1,13 +1,13 @@
 ---
-title: "Resumen Tema 06 (Bloque 1): Políticas de Igualdad de Género y Contra la Violencia de Género"
+title: "Resumen Completo Tema 06 (Bloque 1): Políticas de Igualdad de Género y Contra la Violencia de Género"
 type: "synthesis"
 tags:
   - resumen
-  - resumen-tema
+  - resumen-completo
   - bloque-1
   - tema-06
 estado: "🔴 Pendiente"
-dificultad: "⭐⭐"
+dificultad: "⭐⭐⭐"
 prioridad: "Alta"
 sources:
   - "[[wiki/sources/bloque1-tema06]]"
@@ -17,24 +17,58 @@ updated: "2026-08-18"
 
 > [[wiki/synthesis/resumenes/bloque-1-administracion/resumen-bloque1-tema05|⬅️ Tema 05]] &nbsp;|&nbsp; [[wiki/synthesis/resumenes/resumen-maestro-bloque1|🏠 Índice Bloque 1]] &nbsp;|&nbsp; [[wiki/synthesis/resumenes/bloque-1-administracion/resumen-bloque1-tema07|Tema 07 ➡️]]
 
-# 🔴 Resumen Tema 06 (Bloque 1): Políticas de Igualdad de Género y Contra la Violencia de Género
+# 🔴 Resumen Completo Tema 06 (Bloque 1): Políticas de Igualdad de Género y Contra la Violencia de Género
 
-> [!repaso] ⚡ **Puntos Clave de Examen en 60 Segundos**
-> Ley Orgánica 3/2007 para la igualdad efectiva de mujeres y hombres. Ley Orgánica 1/2004 contra la violencia de género.
-
----
-
-## 🟣 1. Síntesis Teórica y Conceptos Fundamentales
-
-- **LO 3/2007 (Igualdad Efectiva)**: Discriminación directa vs indirecta, Acoso sexual y por razón de sexo, Planes de Igualdad obligatorios en empresas de **50 o más trabajadores**, presencia equilibrada (40%-60%).
-- **LO 1/2004 (Violencia de Género)**: Ámbito de pareja o expareja, Juzgados de Violencia sobre la Mujer con competencia mixta, derechos de reducción de jornada y movilidad geográfica.
+> [!repaso] ⚡ **Puntos Clave y Objetivos de Examen del Tema 06**
+> Guía completa y exhaustiva que recopila todos los conceptos teóricos, marco legal/normativo, tablas técnicas, comandos y casos de examen oficiales de este tema.
 
 ---
 
-## 🔵 2. Enlaces y Recursos de Estudio del Tema
-- 📖 **Tema Completo**: [[wiki/sources/bloque1-tema06|Fuente Oficial del Tema 06]]
-- 📝 **Test Interactivo (10 Preguntas)**: [[wiki/tests/temas/test-bloque1-tema06-igualdad|Test Tema 06]]
-- 🃏 **Tarjetas de Memoria**: [[wiki/synthesis/tarjetas-memoria-flashcards-bloque1-administracion|Mazo Flashcards Bloque 1]]
+## 🟣 1. Desarrollo Temático Completo y Exhaustivo
+
+# 🔴 Resumen Fuente: Bloque 1 - Tema 06: Políticas de Igualdad de Género y Contra la Violencia de Género
+
+Resumen exhaustivo de la Unidad Didáctica **UD011320** sobre la Ley Orgánica 3/2007 para la igualdad efectiva de mujeres y hombres, la Ley Orgánica 1/2004 de Medidas de Protección Integral contra la Violencia de Género, políticas LGTBI (Ley 4/2023) y Discapacidad (RDL 1/2013).
+
+---
+
+## 🗺️ 1. Ley Orgánica 3/2007: Igualdad Efectiva de Mujeres y Hombres
+
+### A. Principios Generales
+- **Discriminación Directa (Art. 6.1)**: Situación en que se encuentra una persona que sea, haya sido o pudiera ser tratada de manera menos favorable que otra en situación comparable por razón de sexo.
+- **Discriminación Indirecta (Art. 6.2)**: Situación en que una disposición, criterio o práctica aparentemente neutros pone a personas de un sexo en desventaja particular con respecto a personas del otro sexo, salvo que responda a una finalidad legítima y los medios sean proporcionados y necesarios.
+- **Acoso Sexual y Acoso por Razón de Sexo (Art. 7)**: Se consideran discriminatorios en todo caso. El condicionamiento de un derecho o expectativa a la aceptación de una situación de acoso se considerará también acto de discriminación.
+- **Acción Positiva (Art. 11)**: Medidas específicas a favor de las mujeres para corregir situaciones patentes de desigualdad de hecho respecto de los hombres.
+
+### B. Planes de Igualdad en las Empresas (Art. 45 y RDL 6/2019)
+- **Obligatoriedad**: Empresas con **50 o más trabajadores**.
+- **Registro Obligatorio**: En el Registro de Convenios y Acuerdos Colectivos de Trabajo (**REGCON**).
+- **Diagnóstico Previo**: Auditoría retributiva, clasificación profesional, condiciones de trabajo, conciliación y prevención del acoso.
+
+### C. El Principio de Presencia Equilibrada (Disposición Adicional 1ª)
+- Presencia equilibrada de mujeres y hombres en órganos colegiados, comités de selección y directivas de modo que las personas de cada sexo **no superen el 60% ni sean menos del 40%**.
+
+---
+
+## 🟣 2. Ley Orgánica 1/2004: Protección Integral contra la Violencia de Género
+
+### A. Concepto y Ámbito
+Violencia ejercida sobre las mujeres por parte de quienes sean o hayan sido sus **cónyuges o de quienes estén o hayan estado ligados a ellas por relaciones similares de afectividad, aun sin convivencia**.
+
+### B. Derechos de las Funcionarias Víctimas de Violencia de Género
+1. **Reducción o Reordenación de Jornada**: Con disminución proporcional de retribuciones o flexibilización de horarios.
+2. **Movilidad Geográfica y Traslado**: Derecho preferente al traslado a otro puesto de trabajo en distinta localidad de análogas características sin necesidad de vacante pública.
+3. **Excedencia por Violencia de Género**: Sin requisito de tiempo previo de servicios. Los **6 primeros meses** con reserva de plaza y derecho al cobro de retribuciones íntegras (prorrogable por períodos de 3 meses hasta un máximo de **18 meses**).
+
+---
+
+---
+
+## 🔵 2. Enlaces de Autoevaluación y Recursos de Estudio
+- 📖 **Fuente Oficial Íntegra**: [[wiki/sources/bloque1-tema06|Nota Fuente del Tema 06]]
+- 📝 **Test Interactivo del Tema (10 Preguntas)**: [[wiki/tests/temas/test-bloque1-tema06-igualdad|Test Tema 06]]
+- 🃏 **Tarjetas de Memoria Rápida**: [[wiki/synthesis/tarjetas-memoria-flashcards-bloque1-administracion|Mazo Flashcards Bloque 1]]
+- 🏠 **Índice del Bloque**: [[wiki/synthesis/resumenes/resumen-maestro-bloque1|Resumen Maestro Bloque 1]]
 
 ---
 

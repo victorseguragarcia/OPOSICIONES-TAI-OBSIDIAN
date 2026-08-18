@@ -1,13 +1,13 @@
 ---
-title: "Resumen Tema 09 (Bloque 1): Protección de Datos Personales (RGPD y LOPDGDD)"
+title: "Resumen Completo Tema 09 (Bloque 1): Protección de Datos Personales (RGPD y LOPDGDD 3/2018)"
 type: "synthesis"
 tags:
   - resumen
-  - resumen-tema
+  - resumen-completo
   - bloque-1
   - tema-09
 estado: "🔴 Pendiente"
-dificultad: "⭐⭐"
+dificultad: "⭐⭐⭐"
 prioridad: "Alta"
 sources:
   - "[[wiki/sources/bloque1-tema09]]"
@@ -17,27 +17,88 @@ updated: "2026-08-18"
 
 > [[wiki/synthesis/resumenes/bloque-1-administracion/resumen-bloque1-tema08|⬅️ Tema 08]] &nbsp;|&nbsp; [[wiki/synthesis/resumenes/resumen-maestro-bloque1|🏠 Índice Bloque 1]] &nbsp;|&nbsp; [[wiki/synthesis/resumenes/bloque-1-administracion/resumen-bloque1-tema10|Tema 10 ➡️]]
 
-# 🔴 Resumen Tema 09 (Bloque 1): Protección de Datos Personales (RGPD y LOPDGDD)
+# 🔴 Resumen Completo Tema 09 (Bloque 1): Protección de Datos Personales (RGPD y LOPDGDD 3/2018)
 
-> [!repaso] ⚡ **Puntos Clave de Examen en 60 Segundos**
-> Reglamento UE 2016/679 y Ley Orgánica 3/2018. Principios, derechos ARSOPOL, Delegado de Protección de Datos y AEPD.
-
----
-
-## 🟣 1. Síntesis Teórica y Conceptos Fundamentales
-
-- **Principios (Art. 5 RGPD)**: Licitud, lealtad, transparencia, minimización, exactitud, limitación de plazo y responsabilidad proactiva.
-- **Edad de Consentimiento en España**: **14 años** (Art. 7 LOPDGDD).
-- **Derechos ARSOPOL**: Acceso, Rectificación, Supresión, Oposición, Portabilidad, Limitación (plazo respuesta 1 mes).
-- **Brechas de Seguridad**: Notificación a la AEPD en **máximo 72 horas**.
-- **Sector Público (Art. 77 LOPD)**: Apercibimiento **sin multas dinerarias**.
+> [!repaso] ⚡ **Puntos Clave y Objetivos de Examen del Tema 09**
+> Guía completa y exhaustiva que recopila todos los conceptos teóricos, marco legal/normativo, tablas técnicas, comandos y casos de examen oficiales de este tema.
 
 ---
 
-## 🔵 2. Enlaces y Recursos de Estudio del Tema
-- 📖 **Tema Completo**: [[wiki/sources/bloque1-tema09|Fuente Oficial del Tema 09]]
-- 📝 **Test Interactivo (10 Preguntas)**: [[wiki/tests/temas/test-bloque1-tema09-rgpd-lopdgdd|Test Tema 09]]
-- 🃏 **Tarjetas de Memoria**: [[wiki/synthesis/tarjetas-memoria-flashcards-bloque1-administracion|Mazo Flashcards Bloque 1]]
+## 🟣 1. Desarrollo Temático Completo y Exhaustivo
+
+# 🔴 Resumen Fuente: Bloque 1 - Tema 09: Protección de Datos Personales (RGPD y LOPDGDD)
+
+Resumen exhaustivo de la Unidad Didáctica **UD012191** sobre el Reglamento (UE) 2016/679 (**RGPD**), la Ley Orgánica 3/2018 (**LOPDGDD**), la Agencia Española de Protección de Datos (**AEPD**), el Delegado de Protección de Datos (**DPO**) y el **Título X de Derechos Digitales**.
+
+---
+
+## 🗺️ 1. Principios del Tratamiento de Datos (Art. 5 RGPD)
+
+| Principio | Definición y Requisito Técnico |
+|:---|:---|
+| **Licitud, Lealtad y Transparencia** | Tratamiento fundamentado en bases legales del Art. 6 con información clara al interesado. |
+| **Limitación de la Finalidad** | Recogidos con fines determinados, explícitos y legítimos, y no tratados ulteriormente de manera incompatible. |
+| **Minimización de Datos** | Adecuados, pertinentes y limitados a lo estrictamente necesario en relación con los fines. |
+| **Exactitud** | Exactos y, si es necesario, actualizados; supresión o rectificación inmediata de datos inexactos. |
+| **Limitación del Plazo de Conservación** | Mantenidos en forma que permita la identificación durante no más tiempo del necesario para los fines. |
+| **Integridad y Confidencialidad** | Garantía de seguridad adecuada mediante medidas técnicas contra pérdida, destrucción o daño accidental (**Seguridad de la información**). |
+| **Responsabilidad Proactiva (*Accountability*)** | El responsable del tratamiento debe ser capaz de **demostrar documentalmente** el cumplimiento de todos los principios anteriores. |
+
+---
+
+## 🟣 2. Derechos de los Interesados y Plazos de Ejercicio (Arts. 15 a 22 RGPD y Arts. 13 a 18 LOPDGDD)
+
+```
+                            DERECHOS DE LOS INTERESADOS
+                                         │
+       ┌────────────────┬────────────────┼────────────────┬────────────────┐
+       ▼                ▼                ▼                ▼                ▼
+    ACCESO        RECTIFICACIÓN      SUPRESIÓN       LIMITACIÓN       PORTABILIDAD
+  (Art. 15)         (Art. 16)       ("Al Olvido")     (Art. 18)        (Art. 20)
+                                      (Art. 17)                      (Formato JSON /
+                                                                      estructurado)
+```
+
+- **Plazo de Respuesta**: El responsable del tratamiento responderá en el plazo máximo de **1 mes** a partir de la recepción de la solicitud.
+- **Prórroga**: Prorrogable por **2 meses más** (total 3 meses) teniendo en cuenta la complejidad y número de solicitudes.
+- **Gratuidad**: El ejercicio de derechos es **gratuito**.
+
+---
+
+## 🟣 3. El Delegado de Protección de Datos (DPD / DPO - Arts. 37 RGPD y 34 LOPDGDD)
+- **Obligatoriedad**: Preceptivo en todas las **autoridades y organismos públicos** (excepto tribunales en ejercicio de función judicial), entidades que realicen observación habitual y sistemática a gran escala o tratamiento masivo de categorías especiales.
+- **Cualificación**: Nombrado en función de sus cualificaciones profesionales y conocimientos especializados del Derecho de protección de datos.
+- **Registro**: Debe comunicarse su nombramiento a la **AEPD** en plazo de **10 días**.
+
+---
+
+## 🟣 4. Título X LOPDGDD: Garantía de los Derechos Digitales (Arts. 79 a 97)
+- **Consentimiento de menores en redes sociales (Art. 84)**: Válido a partir de los **14 años**.
+- **Desconexión digital en el ámbito laboral (Art. 88)**: Derecho a no responder comunicaciones profesionales fuera del horario laboral.
+- **Intimidad frente al uso de dispositivos de videovigilancia y grabación de sonidos (Art. 89)**: Prohibida expresamente la instalación de cámaras en lugares de descanso, vestuarios, comedores y aseos.
+- **Derecho al testamento digital (Art. 96)**: Acceso y supresión de cuentas de personas fallecidas por sus herederos legítimos.
+
+---
+
+## 🔵 5. Entidades y Conceptos Asociados
+- [[wiki/entities/rgpd-y-lopdgdd|RGPD y LOPDGDD]]
+- [[wiki/entities/aepd-agencia-proteccion-datos|Agencia Española de Protección de Datos (AEPD)]]
+- [[wiki/synthesis/derechos-digitales-titulo-x-lopdgdd-cheatsheet|Cheatsheet de Derechos Digitales (Título X)]]
+- [[wiki/tests/temas/test-bloque1-tema09-rgpd-lopdgdd|Test Tema 09: Protección de Datos y Derechos Digitales]]
+
+> [!trampa] ⚠️ Trampas Frecuentes de Examen: Protección de Datos (RGPD y LOPDGDD)
+> 1. **Edad de consentimiento del menor (Art. 7 LOPDGDD)**: En España es a partir de los **14 años** (el RGPD permitía entre 13 y 16, y España fijó 14).
+> 2. **Plazo de Notificación de Brechas a la AEPD (Art. 33 RGPD)**: Plazo máximo de **72 horas** a más tardar desde que el responsable tenga constancia de ella.
+> 3. **Sanciones a las Administraciones Públicas (Art. 77 LOPDGDD)**: La AEPD **NO impone multas económicas** al Sector Público; sanciona mediante apercibimiento e incoación de expediente disciplinario a los responsables.
+> 4. **Plazo de respuesta derechos ARSOPOL (Art. 12.3 RGPD)**: **1 mes** con carácter general (prorrogable en otros 2 meses en casos de complejidad justificada).
+
+---
+
+## 🔵 2. Enlaces de Autoevaluación y Recursos de Estudio
+- 📖 **Fuente Oficial Íntegra**: [[wiki/sources/bloque1-tema09|Nota Fuente del Tema 09]]
+- 📝 **Test Interactivo del Tema (10 Preguntas)**: [[wiki/tests/temas/test-bloque1-tema09-rgpd-lopdgdd|Test Tema 09]]
+- 🃏 **Tarjetas de Memoria Rápida**: [[wiki/synthesis/tarjetas-memoria-flashcards-bloque1-administracion|Mazo Flashcards Bloque 1]]
+- 🏠 **Índice del Bloque**: [[wiki/synthesis/resumenes/resumen-maestro-bloque1|Resumen Maestro Bloque 1]]
 
 ---
 
