@@ -28,7 +28,7 @@ updated: "2026-08-18"
 
  
  
-Periféricos: conectividad 
+
 y administración 
 
 ## 🟣 1. Hardware. Periféricos
@@ -152,23 +152,18 @@ y administración
 
  
  
-Periféricos: conectividad y administración 
+
 ## 🟣 1. Hardware. Periféricos
  
  
  
-Recuerda ver las clases emitidas en Temario 
-Audiovisual 
-Las clases impartidas en directo y disponibles en Campus, en 
-Temario Audiovisual te ayudarán al entendimiento de la unidad, y 
-además pueden tener información adicional. 
-ACCEDE DIRECTAMENTE DESDE AQUÍ 
+ 
  
  
 Ya has aprendido los elementos de Hardware (parte física) más importantes de un ordenador: CPU, 
 Memoria y Placa Base. 
 Ahora vamos a continuar viendo otros elementos de hardware. 
-Periféricos: proporcionan entrada y salida de información al ordenador. 
+
 La definición más aceptada de periférico es la siguiente: 
 Se denominan periféricos a los dispositivos de hardware que no pertenecen al núcleo fundamental 
 del ordenador (la CPU), a través de los cuales el procesador realiza operaciones de entrada/salida 
@@ -176,35 +171,33 @@ del ordenador (la CPU), a través de los cuales el procesador realiza operacione
 Si entiendes bien lo que es un periférico, entenderás distintas definiciones. 
 Un periférico, es todo aquello que podemos conectar a un ordenador: webcam, pendrive, micrófono, 
 lector de código de barras… 
-En esta unidad vas a estudiar los siguientes periféricos: 
-• Puertos de conexión. 
-• De entrada (Teclado y Ratón). 
-• De almacenamiento. 
+En esta unidad vas a estudiar los siguientes 
+- Puertos de conexión.
+- De entrada (Teclado y Ratón).
+- De almacenamiento.
 
  
  
-Periféricos: conectividad y administración 
-• De impresión (Tipos de Impresoras). 
-• De visualización (Pantallas). 
-• De digitalización. 
+
+- De impresión (Tipos de Impresoras).
+- De visualización (Pantallas).
+- De digitalización.
 Como complemento, estudiarás colorimetría (resolución, tipos de sistemas de color etc.) 
 ### 🔵 1.1. Clasificación de los periféricos
 Vamos a hacer una sencilla clasificación, basándonos en su función: 
-• Periféricos de entrada: sirven para introducir datos en un ordenador desde el exterior. 
+- Periféricos de entrada: sirven para introducir datos en un ordenador desde el exterior.
 Transforman la información externa en señales eléctricas codificadas permitiendo su 
 transmisión, detección, interpretación, procesamiento y almacenamiento. Ejemplo: teclado, 
 ratón, lector de iris, lector de huella dactilar etc. 
-• Periféricos de salida: hacen lo contrario que los de entrada, reciben las señales eléctricas del 
-ordenador y las convierten en información en el formato adecuado para ser mostrada al usuario 
+- Periféricos de salida: hacen lo contrario que los de entrada, reciben las señales eléctricas del ordenador y las convierten en información en el formato adecuado para ser mostrada al usuario 
 y entendible por este. Ejemplo: monitor, impresora, altavoces etc. 
-• Periféricos de entrada/salida: permite las dos funciones anteriores. Ejemplo: pantalla táctil. 
-• Periféricos de almacenamiento: almacenan la información en dispositivos no volátiles, para que 
-pueda recuperarse y utilizarse cuando se requiera. Ejemplo: pendrive, disco duro externo etc. 
+- Periféricos de entrada/salida: permite las dos funciones anteriores. Ejemplo: pantalla táctil.
+- Periféricos de almacenamiento: almacenan la información en dispositivos no volátiles, para que pueda recuperarse y utilizarse cuando se requiera. Ejemplo: pendrive, disco duro externo etc. 
  
  
  
  
-Ejemplo 
+### 🔵 Ejemplo 
 Si queremos escribir una carta con el ordenador, e imprimirla, se \nejecutarán los siguientes pasos: 
 1. Utilizamos un teclado para escribir el texto. (periférico de \nentrada). 
 ## 🟣 2. Esta entrada se codifica (utilizando un sistema de representación como ASCII o Unicode). Y será tratada por 
@@ -214,17 +207,15 @@ la memoria y procesador.
 
  
  
-Periféricos: conectividad y administración 
+
 Toda clasificación se estructura de una determinada manera dependiendo del prisma desde el que se 
 aborde. En este caso al igual que un disco duro externo se puede considerar periférico de entrada, se 
 puede considerar asimismo de salida, pero también tanto de entrada y salida como de almacenamiento. 
 En el examen hay que estar siempre atentos a entender un enunciado que deberá sacarnos de dudas si \nestá planteado correctamente. 
-Partes de un periférico 
+### 🔵 Partes de un periférico 
 Los periféricos suelen estar formados por dos partes: 
-• Elementos mecánicos: constituidos por dispositivos electromecánicos (conmutadores 
-manuales, relés, motores, electroimanes, servomecanismos, etcétera), controlados por los \nelementos electrónicos. 
-• Elementos electrónicos: constituyen el controlador del periférico. Se encargan de interpretar las 
-órdenes que le llegan del procesador para la recepción o emisión de datos y de generar las 
+- Elementos mecánicos: constituidos por dispositivos electromecánicos (conmutadores manuales, relés, motores, electroimanes, servomecanismos, etcétera), controlados por los \nelementos electrónicos. 
+- Elementos electrónicos: constituyen el controlador del periférico. Se encargan de interpretar las órdenes que le llegan del procesador para la recepción o emisión de datos y de generar las 
 señales de control para la activación de los elementos electromecánicos del periférico que 
 producen o captan los datos en el soporte de información correspondiente. 
 ### 🔵 1.2. Conexión de los periféricos al ordenador
@@ -236,25 +227,25 @@ Existe una gran diversidad de periféricos con distintas características eléct
 funcionamiento. El objetivo de las interfaces es adaptar estas características al bus del sistema. 
 A estas interfaces se les denomina puertos, permiten enviar y recibir datos digitales. 
 Puede ser: 
-• Puertos físicos. 
-• Puertos virtuales. 
+- Puertos físicos.
+- Puertos virtuales.
 #### 🔹 1.2.1. Puertos físicos
 Son entradas físicas en el ordenador para que se conecte un periférico. 
 En un ordenador nos podemos encontrar numerosos tipos de conectores (como dispositivo \nelectrónico) que nos permitirán la conexión de periféricos. 
 
  
  
-Periféricos: conectividad y administración 
+
 Los conectores se insertan dentro de un puerto para hacer la conexión entre el ordenador y el 
 dispositivo periférico. 
 Vamos a ver algunos de los puertos/conectores más importantes: 
-• Puerto serie. 
-• Puerto paralelo. 
-• PS/2. 
-• Firewire. 
-• USB. 
-• SATA. 
-• Thunderbolt. 
+- Puerto serie.
+- Puerto paralelo.
+- PS/2.
+- Firewire.
+- USB.
+- SATA.
+- Thunderbolt.
 ##### 1.2.1.1. Puerto Serie
  
 La interfaz de datos en serie o puerto serial trabaja bajo el estándar que se realizó en 1962, con la 
@@ -275,7 +266,7 @@ forma simultánea).
 
  
  
-Periféricos: conectividad y administración 
+
 El primer conector era el DB-25 (25 pines), que pasó a simplificarse al DB-9 (9 pines), que se denominó 
 como RS-232. 
 Actualmente está en desuso, se utilizaba antiguamente fundamentalmente para conectar el ratón, que 
@@ -283,9 +274,9 @@ paso a conectarse por puerto PS2 (aun en uso en algunos ordenadores), y conexió
 También se utilizaba para otros dispositivos, como impresoras de tickets, módems, lectores de códigos de 
 barra por infrarrojos, y productos maquinaria industrial controlada mediante un ordenador, entre otros. 
 Características: 
-• Es un puerto lento. 
-• También se le conoce como RS-232 (y como COM). 
-• Es necesario reiniciar el equipo para que el sistema lo reconozca y funcione. 
+- Es un puerto lento.
+- También se le conoce como RS-232 (y como COM).
+- Es necesario reiniciar el equipo para que el sistema lo reconozca y funcione.
 Versiones: 
 El modelo más común es el DB9, que contiene 9 pines. También existe un modelo con 25 pines. 
 ##### 1.2.1.2. Puerto Paralelo
@@ -309,12 +300,11 @@ maquinarias industriales).
 
  
  
-Periféricos: conectividad y administración 
+
 Versiones: 
-• Puerto paralelo: trabaja a una velocidad de 2,4 MB por segundo. 
-• EPP (puerto paralelo mejorado): alcanza velocidades de 8 a 16 MB por segundo. 
-• ECP (puerto de capacidad mejorada): desarrollado en común por HP y Microsoft. Misma 
-velocidad que el anterior, pero permite reconocer un dispositivo al conectarlo. 
+- Puerto paralelo: trabaja a una velocidad de 2,4 MB por segundo.
+- EPP (puerto paralelo mejorado): alcanza velocidades de 8 a 16 MB por segundo.
+- ECP (puerto de capacidad mejorada): desarrollado en común por HP y Microsoft. Misma velocidad que el anterior, pero permite reconocer un dispositivo al conectarlo. 
 ##### 1.2.1.3. Puerto PS/2
  
 También denominado mini-DIM de 6 pines. Es un puerto que se utiliza para conectar el teclado y el 
@@ -334,22 +324,22 @@ cámaras de vídeo digitales, y también existen discos duros externos con este 
 
  
  
-Periféricos: conectividad y administración 
+
 A diferencia de los puertos PS2, los puertos Firewire aceptan la conexión en caliente y el plug&play. 
 Su forma física es similar al USB, pero con una esquina en forma de punta. Puede tener 4, 6, 9 y hasta 12 
 pines según la versión. 
 Versiones implementadas de Firewire: 
-• Firewire 400 (IEEE 1394): 
+- Firewire 400 (IEEE 1394):
 Es la primera versión, con un conector de 6 pines, y velocidad de hasta 400 Mbits/s (50 MB/s), 
 superando por tanto las velocidades de los USB 1.0 y 1.1. 
-• Firewire 800 (IEEE 1394b): 
+- Firewire 800 (IEEE 1394b):
 Conector de 9 pines en lugar de 6. Soporta trasferencias de 786 Mbits/s (100 MB/s) pudiendo 
 alcanzar distancias de 100 metros de cable. 
-• Firewire s1600: 
+- Firewire s1600:
 Continuando con 9 pines, amplió el ancho de banda hasta los 1,6 Gbps (200 MB/s), superando \nentonces a la versión USB 2.0 (solamente alcanzaba los 60 MB/s). 
-• Firewire s3200 (IEEE 1394b): 
+- Firewire s3200 (IEEE 1394b):
 Amplió la velocidad hasta los 3,2 Gbps (400 MB/s). 
-• Firewire s800T (IEEE 1394c): 
+- Firewire s800T (IEEE 1394c):
 Es otra variante que implementa la tecnología Firewire a través del conector Ethernet RJ-45, 
 para combinar las ventajas de uno y otro. 
 ##### 1.2.1.5. Puerto USB
@@ -363,7 +353,7 @@ teclados, pendrives, impresoras, auriculares, entre otros.
 
  
  
-Periféricos: conectividad y administración 
+
  
  
  
@@ -383,26 +373,23 @@ velocidades, convirtiéndolo en un estándar cada vez más popular.
  
  
 Características de USB: 
-• Plug and play: Conexión y configuración automáticas de dispositivos, sin necesidad de reiniciar \nel equipo en la mayoría de los casos. 
-• Conexión en caliente: Permite conectar y desconectar dispositivos sin apagar el equipo ni 
-afectar su funcionamiento. 
-• Detección automática de controladores: El sistema operativo instala automáticamente los 
-controladores necesarios, aunque en algunos casos puede requerirse instalación manual de 
+- Plug and play: Conexión y configuración automáticas de dispositivos, sin necesidad de reiniciar \nel equipo en la mayoría de los casos.
+- Conexión en caliente: Permite conectar y desconectar dispositivos sin apagar el equipo ni afectar su funcionamiento. 
+- Detección automática de controladores: El sistema operativo instala automáticamente los controladores necesarios, aunque en algunos casos puede requerirse instalación manual de 
 software específico. 
-• Los hubs USB permiten conectar múltiples dispositivos a un solo puerto, ampliando así las 
-capacidades de conexión del equipo en cadena hasta 127 puertos. 
+- Los hubs USB permiten conectar múltiples dispositivos a un solo puerto, ampliando así las capacidades de conexión del equipo en cadena hasta 127 puertos. 
 1.2.1.5.1. Conectores USB 
 USB-A y USB-B 
 En sus primeras versiones (USB 1.0 y 2.0), los conectores USB-A y USB-B constan de cuatro pines: 5V 
 (alimentación), datos negativos, datos positivos y tierra. 
 Su diseño asimétrico facilita la conexión correcta, impidiendo que se conecten al revés. Se distinguen 
 fácilmente por su forma: 
-• El USB-A es rectangular y plano. 
-• El USB-B es más cuadrado. 
+- El USB-A es rectangular y plano.
+- El USB-B es más cuadrado.
 
  
  
-Periféricos: conectividad y administración 
+
 Los conectores USB 3.0 y 3.1, identificables por su color interior azul, incrementan el número de pines a 
 nueve en los conectores USB-A, mientras que los conectores USB-B pueden llegar a tener hasta 11 
 pines (USB 3.0 Powered-B). 
@@ -428,7 +415,7 @@ como el micro-USB y el USB-C.
 
  
  
-Periféricos: conectividad y administración 
+
 Micro B, Micro AB 
 Finalmente, hacemos referencia a los conectores micro-USB, ampliamente reconocidos por su uso en 
 smartphones y otros dispositivos portátiles. Tanto Micro B como Micro AB en versiones USB 1.0 y 2.0 
@@ -441,31 +428,31 @@ Veamos unas imágenes para ver mejor la comparativa de conectores:
  
 Fuente: https://commons.wikimedia.org/wiki/File:USB_types_2.jpg 
 De izquierda a derecha (Mostrado en una escala de 5 centímetros): 
-• Micro-USB. 
-• Mini-USB. 
-• USB tipo B. 
-• USB tipo A hembra. 
-• USB tipo A macho. 
+- Micro-USB.
+- Mini-USB.
+- USB tipo B.
+- USB tipo A hembra.
+- USB tipo A macho.
 
  
  
-Periféricos: conectividad y administración 
+
 1.2.1.5.2. Versiones USB 
 Existen varias versiones, la más actual es USB 4.0 
 Para facilitar su comprensión vamos a ver las anteriores a 4.0 en una tabla, explicando a continuación 
 con más detalle USB4. 
-Versión 
+### 🔵 Versión 
 Denominación 
 alternativa 
 Max. 
-Transfer 
+### 🔵 Transfer 
 Rate 
 (bits/s) 
 Max. 
-Transfer 
+### 🔵 Transfer 
 Rate 
 (bytes/s) 
-Max Power 
+### 🔵 Max Power 
 Out 
 Power 
 Direction 
@@ -477,7 +464,7 @@ USB 1.x
 1.5 MB/s 
 5V/500mA 
 (2.5W) 
-Host to 
+### 🔵 Host to 
 peripheral 
 Type-A to 
 Type-B 
@@ -487,7 +474,7 @@ USB 2.0
 60 MB/s 
 5V/500mA 
 (2.5W) 
-Host to 
+### 🔵 Host to 
 peripheral 
 Type-A to 
 Type-B 
@@ -499,7 +486,7 @@ USB"
 625 MB/s 
 5V/900mA 
 (4.5W) 
-Host to 
+### 🔵 Host to 
 peripheral 
 Type-A to 
 Type-B 
@@ -507,7 +494,7 @@ USB 3.1
 (USB 3.1 
 Gen2) / 
 USB-PD o 
-USB Power 
+### 🔵 USB Power 
 Delivery 
 "SuperSpeed 
 USB 10 Gbps" 
@@ -523,7 +510,7 @@ USB 3.2
 "SuperSpeed 
 USB 20 Gbps" 
 Hasta 20 
-Gbps 
+### 🔵 Gbps 
  
 Comparativa de las distintas versiones de USB 
 Las distintas versiones son retro compatibles (compatibles con las versiones anteriores). El estándar 
@@ -531,10 +518,10 @@ USB 3.2, permite velocidades de 20 Gbps utilizando conectores tipo C.
 Generaciones USB 3.2 
 USB 3.2 
 Max. Transfer Rate (bits/s) 
-Marketing name 
+### 🔵 Marketing name 
 Generación 1 
 5 Gbps 
-SuperSpeed USB 
+### 🔵 SuperSpeed USB 
 Generación. 2 
 10 Gbps 
 SuperSpeed USB 10 Gbps 
@@ -544,7 +531,7 @@ SuperSpeed USB 20 Gbps
 
  
  
-Periféricos: conectividad y administración 
+
 USB 4 
 Aunque comúnmente sea llamado versión 4, el consorcio USB-IF que es el encargado de su desarrollo lo 
 denomina tecnología USB4. 
@@ -553,8 +540,8 @@ USB Implementers Forum (IF).
 (En 2020 se anunció que este estándar sería compatible con DisplayPort 2.0 y que soportaría resoluciones 
 superiores a 8K, como por ejemplo 16K (15.360 x 8.460) a 60Hz y 30 bpp 4:4:4 HDR con DSC). 
 El motivo de su desarrollo fue: 
-• El aumento del ancho de banda (permitiendo hasta 40 Gbit/s). 
-• La convergencia del ecosistema USB-C. 
+- El aumento del ancho de banda (permitiendo hasta 40 Gbit/s).
+- La convergencia del ecosistema USB-C.
 La especificación es compatible con USB 3.2 y USB 2.0. 
 USB 4 se basa en Thunderbolt 3 (tecnología propietaria creada por Intel, que ha abierto el estándar, 
 permitiendo así que sea utilizada y mejorada por USB), por lo que proporciona POWER DELIVERY (USB-
@@ -564,8 +551,8 @@ posibilita universalizar cargadores para ordenadores y para smartphones.
 USB Power Delivery siempre funciona con unas determinadas condiciones en cuanto a potencia, 
 dependiendo del dispositivo el USB Power Delivery podrá dar más o menos energía a los dispositivos 
 que se le conecten con unos límites: 
-• Mínimo de potencia de 7.5 vatios (específicamente 5V y 1.5 amperios por puerto). 
-• Una potencia eléctrica máxima concreta. 
+- Mínimo de potencia de 7.5 vatios (específicamente 5V y 1.5 amperios por puerto).
+- Una potencia eléctrica máxima concreta.
 Máximo de 100W, a un voltaje máximo de 20V. (Concretamente, se puede llegar a los 20 voltios 
 y 5 amperios de alimentación). 
 Nunca más de la que acepta el que es cargado, ni más de la que puede dar el que proporciona la 
@@ -581,7 +568,7 @@ Express.
 
  
  
-Periféricos: conectividad y administración 
+
  
  
  
@@ -591,17 +578,17 @@ https://en.wikipedia.org/wiki/USB4
  
  
 Al igual que en versiones anteriores, en USB4 hay dos variantes: 
-• USB4 Gen 2×2 con velocidad de transmisión a 20 Gbps.  
-• USB4 Gen 3×2 con velocidad de transmisión a 40 Gbps. 
+- USB4 Gen 2×2 con velocidad de transmisión a 20 Gbps.
+- USB4 Gen 3×2 con velocidad de transmisión a 40 Gbps.
 USB 4 es un protocolo que soporta dual-lane, es decir, en USB4 40 Gbps podremos tener una 
 transferencia de entrada de hasta 20 Gbps y una de salida de hasta 20 Gbps a la vez. 
 1.2.1.5.3. Otras especificaciones USB 
-• USB On-The-Go (USB OTG): 
+- USB On-The-Go (USB OTG):
 Es una especificación que permite a los dispositivos USB elegir el estado de cada puerto, es 
 decir, actuar como servidor de datos o receptor de datos. 
 De esta forma se puede transferir datos desde un puerto servidor hasta otro receptor sin usar 
 un ordenador. 
-• Wireless USB (WUSB): 
+- Wireless USB (WUSB):
 Wireless USB es un dispositivo para conectarnos a una red de forma que usamos transferencia 
 inalámbrica. 
 En USB 2.0. sus características son de una velocidad de 480 Mbps a menos de 3 metros de 
@@ -613,7 +600,7 @@ iPhone y iPad durante más de diez años.
 
  
  
-Periféricos: conectividad y administración 
+
 Sin embargo, el Lightning los sustituirá a partir de septiembre del 2012 con el iPhone 5. El conector de 
 30 pines usado para transmitir audio, video, datos y energía tuvo que usar adaptadores que le 
 permitieran seguir usándolo con la nueva tecnología. 
@@ -632,46 +619,44 @@ funcionado con este tipo de disco.
 
  
  
-Periféricos: conectividad y administración 
+
 ##### 1.2.1.7. Thunderbolt
  
 Thunderbolt es una conexión para periféricos basada en las arquitecturas PCI Express y DisplayPort 
 desarrollada por Intel en colaboración con Apple. 
 En sus primeras versiones tenía hasta 10 W de alimentación. 
 Características de Thunderbolt: 
-• Puede usarse como conector de datos o de transferencia de vídeo y sonido. 
-• Es muy rápido. 
-• Sus versiones son retro compatibles (aunque la última versión requiere un adaptador). 
+- Puede usarse como conector de datos o de transferencia de vídeo y sonido.
+- Es muy rápido.
+- Sus versiones son retro compatibles (aunque la última versión requiere un adaptador).
 Versiones de Thunderbolt: 
-• Thunderbolt. Transferencia de 10Gb/s. (10 W). 
-• Thunderbolt 2. Transferencia de 20Gb/s. (10 W). 
-• Thunderbolt 3. 
-• Transferencia de 40Gb/s. 
-• Utiliza el conector USB tipo C. 
-• Soporta dos monitores de 4 K o uno de 5 K de resolución. 
-• 100 W de potencia para suministrar energía o recibirla. 
-• Thunderbolt 4. 
-• Ancho de banda bidireccional de 40 Gbps, al igual que en la versión 3. 
-• Mayores longitudes de cable, hasta cables de 2 metros, (con pretensión de alcanzar hasta 
-los 50 metros). 
-• Doble de requisitos mínimos respecto a datos y vídeo que ofrecía Thunderbolt 3. 
+- Thunderbolt. Transferencia de 10Gb/s. (10 W).
+- Thunderbolt 2. Transferencia de 20Gb/s. (10 W).
+- Thunderbolt 3.
+- Transferencia de 40Gb/s.
+- Utiliza el conector USB tipo C.
+- Soporta dos monitores de 4 K o uno de 5 K de resolución.
+- 100 W de potencia para suministrar energía o recibirla.
+- Thunderbolt 4.
+- Ancho de banda bidireccional de 40 Gbps, al igual que en la versión 3.
+- Mayores longitudes de cable, hasta cables de 2 metros, (con pretensión de alcanzar hasta los 50 metros). 
+- Doble de requisitos mínimos respecto a datos y vídeo que ofrecía Thunderbolt 3.
 » Datos: se duplica el ancho de banda de los puertos PCIe, pasando de 16 a 32 Gbps. 
 » Vídeo: este aumento de datos permite soporte para dos pantallas de 4K o una de 8K. 
 
  
  
-Periféricos: conectividad y administración 
-• Permite accesorios con hasta cuatro puertos. 
+
+- Permite accesorios con hasta cuatro puertos.
 Soporte para docks con hasta cuatro puertos Thunderbolt 4, el PC se carga en, al menos, un 
 puerto. 
-• Se puede activar el ordenador tocando el teclado o ratón cuando esté conectado a una 
-dock de Thunderbolt 4. 
+- Se puede activar el ordenador tocando el teclado o ratón cuando esté conectado a una dock de Thunderbolt 4. 
 Dock o docking station es una estación de acoplamiento o un replicador de puertos 
 (concentrador). 
-• 100 W de potencia para suministrar energía o recibirla. 
+- 100 W de potencia para suministrar energía o recibirla.
 Puedes cargar un teléfono móvil, (que requiere menos de 100 W) y otros dispositivos USB 
 compatibles rápidamente. 
-• Redes. 
+- Redes.
 Permite conexión a una red Ethernet de 10 Gigabit de alta velocidad mediante un 
 adaptador, y también utilizar un cable Thunderbolt para conectar dos ordenadores por 
 medio de una red punto a punto, lo que permite transferir grandes volúmenes de datos de 
@@ -685,7 +670,7 @@ smartphones, de 2.5mm para auriculares o micrófonos miniatura.
 
  
  
-Periféricos: conectividad y administración 
+
 La cantidad de anillos y su uso determinan el tipo de señal que el cable puede transmitir. 
 TS, audio mono, TRS estéreo, TRRS estéreo y micro. Las siglas responden a cada parte del conector T -> 
 Tip: punta, R-> Ring: anillo, S -> Sleeve: manga. 
@@ -714,26 +699,25 @@ de E/S (periféricos), actuando como interfaz entre los dispositivos de E/S y el
 Existe unas diferencias de velocidad entre la CPU y los periféricos de E/S, y además el tiempo de 
 respuesta de dichos periféricos no es previsible, por lo que necesitamos un mecanismo que permita 
 coordinar adecuadamente las transferencias de datos entre ambos. 
-Objetivos 
+### 🔵 Objetivos 
 Los objetivos de la administración del sistema de E/S son: 
-• Facilitar el manejo de los dispositivos periféricos ofreciendo una interfaz entre los dispositivos y \nel resto del sistema. 
-• Optimizar las operaciones de E/S. 
+- Facilitar el manejo de los dispositivos periféricos ofreciendo una interfaz entre los dispositivos y \nel resto del sistema.
+- Optimizar las operaciones de E/S.
 
  
  
-Periféricos: conectividad y administración 
-• Generar dispositivos virtuales que permitan conectar cualquier tipo de dispositivos físicos. 
-• Facilitar la conexión de un nuevo dispositivo, instalando automáticamente los controladores 
-necesarios (Plug&Play). 
+
+- Generar dispositivos virtuales que permitan conectar cualquier tipo de dispositivos físicos.
+- Facilitar la conexión de un nuevo dispositivo, instalando automáticamente los controladores necesarios (Plug&Play). 
 #### 🔹 1.3.1. Controlador de E/S
 Es el responsable de controlar los periféricos y el intercambio de datos entre estos y la memoria 
 (principal o registros de la CPU). 
 Tiene dos interfaces, una para conectarse con el ordenador y otra para conectarse con el periférico. 
 Sus funciones principales son: 
-• Gestionar la comunicación con la CPU y el periférico. 
-• Servir de almacén temporal de datos. 
-• Detectar errores. 
-• Gestión de la memoria y el bus. 
+- Gestionar la comunicación con la CPU y el periférico.
+- Servir de almacén temporal de datos.
+- Detectar errores.
+- Gestión de la memoria y el bus.
 Tipos de gestión de las E/S con la CPU 
 Mecanismos básicos para sincronizar las operaciones de E/S con las de la CPU. Vas a estudiar 4 tipos: 
 1. E/S controlada por programa: los datos se transfieren entre la CPU y el controlador de E/S. 
@@ -752,7 +736,7 @@ La CPU transfiere los datos y continua con la ejecución del programa que había
 
  
  
-Periféricos: conectividad y administración 
+
 3. DMA (acceso directo a memoria): el problema de los dos métodos anteriores es que necesitan a 
 la CPU para la transferencia de datos entre la memoria y el periférico, ocupando tiempo de CPU. 
 Para solucionar este problema aparece DMA. 
@@ -760,13 +744,10 @@ Requiere un módulo adicional denominado "controlador de DMA", que va conectado 
 sistema y que puede asumir las funciones que realizaba la CPU. La CPU solo participa al 
 comienzo y al final de la transferencia. 
 El controlador de DMA contiene: 
-• Registro de datos. 
-• Registro de dirección. Almacena la dirección de la siguiente palabra a trasmitir y, una vez 
-transmitida, se autoincrementa. 
-• Registro contador. Contiene el número de palabras que se tienen que quedan por 
-transmitir. Cada vez que se transmite una palabra se autodecrementa. 
-• Unidad de control. Comprueba el valor del registro contador y, si este vale cero, envía una 
-interrupción a la CPU indicando el fin de la operación. 
+- Registro de datos.
+- Registro de dirección. Almacena la dirección de la siguiente palabra a trasmitir y, una vez transmitida, se autoincrementa. 
+- Registro contador. Contiene el número de palabras que se tienen que quedan por transmitir. Cada vez que se transmite una palabra se autodecrementa. 
+- Unidad de control. Comprueba el valor del registro contador y, si este vale cero, envía una interrupción a la CPU indicando el fin de la operación. 
 4. Procesador de E/S (PE/S): es un controlador de E/S convertido en procesador. Contiene un 
 conjunto de instrucciones de E/S que le dan el control completo de la operación. 
  
@@ -785,12 +766,12 @@ importantes que son el teclado y el ratón.
 
  
  
-Periféricos: conectividad y administración 
+
  
  
  
-Anécdota 
-Muchos usuarios, acostumbrados a utilizar sistemas operativos 
+### 🔵 Anécdota 
+Muchos usuarios, acostumbrados a utilizar 
 como MS-DOS, o programas a medida donde la interfaz no hacía 
 uso de ratón, utilizan las combinaciones de teclas para realizar 
 acciones que se suelen hacer con el ratón. 
@@ -807,20 +788,17 @@ circuitos codificadores generen el código de E/S correspondiente al carácter s
 sistema de representación). Normalmente se replica este carácter para que aparezca en pantalla. 
 Según las normas ANSI (American National Standars Institute) los teclados contienen los siguientes 
 tipos de teclas: 
-• Teclado principal: contiene los caracteres alfabéticos, numéricos y especiales. 
-• Teclas de desplazamiento: permiten realizar diversas operaciones como mover el cursor, borrar 
-un carácter o parte de una línea. 
+- Teclado principal: contiene los caracteres alfabéticos, numéricos y especiales.
+- Teclas de desplazamiento: permiten realizar diversas operaciones como mover el cursor, borrar un carácter o parte de una línea. 
 
  
  
-Periféricos: conectividad y administración 
-• Teclas numéricas: en los teclados, las teclas correspondientes a los caracteres numéricos (cifras 
-decimales), signos de operaciones básicas (+, -...) y punto decimal estén repetidas y 
+
+- Teclas numéricas: en los teclados, las teclas correspondientes a los caracteres numéricos (cifras decimales), signos de operaciones básicas (+, -...) y punto decimal estén repetidas y 
 posicionadas juntas a la derecha para facilitar la introducción de datos numéricos con la mano 
 derecha. En los portátiles se suele omitir esta parte para reducir tamaño. 
-• Teclas de funciones: son teclas cuyas funciones son definibles por el usuario o por un programa. 
-• Teclas de funciones locales: controlan funciones propias del ordenador. Por ejemplo, imprimir 
-pantalla. 
+- Teclas de funciones: son teclas cuyas funciones son definibles por el usuario o por un programa.
+- Teclas de funciones locales: controlan funciones propias del ordenador. Por ejemplo, imprimir pantalla. 
  
  
  
@@ -830,56 +808,51 @@ Los teclados que se utilizan principalmente en las regiones
 germano hablantes utilizan una distribución QWERTZ. 
  
  
-Tipos según su funcionamiento 
+### 🔵 Tipos según su funcionamiento 
 Según el funcionamiento, en cuanto a la pulsación de las teclas, existen dos de teclado: 
-• Mecánico. Cada tecla es un pulsador independiente. Un muelle la levanta al terminar de 
-presionarla para que vuelva a su estado inicial. Son mucho más resistentes y duraderos. Son 
+- Mecánico. Cada tecla es un pulsador independiente. Un muelle la levanta al terminar de presionarla para que vuelva a su estado inicial. Son mucho más resistentes y duraderos. Son 
 recomendables en entornos de trabajo con mayor suciedad ambiental (talleres, carpinterías con 
 serrín…). 
-• Membrana. Utilizan tres capas que, al pulsar, entran en contacto. 
+- Membrana. Utilizan tres capas que, al pulsar, entran en contacto.
  
 
  
  
-Periféricos: conectividad y administración 
+
  
  
  
-El experto opina 
+### 🔵 El experto opina 
 Nosotros preferimos el mecánico. Aunque a algunas personas les 
 molesta el sonido, a nosotros nos encanta que suene cuando \nescribimos. 
 Además, se adquiere mayor velocidad de escritura y los dedos se 
 cansan menos (gracias al muelle de retorno). Si no tienes uno, 
 ¡deberías probarlos! 
  
-Teclados de membrana 
+### 🔵 Teclados de membrana 
 Actualmente se utilizan teclados de membrana, y existen una gran cantidad de tipos, destacamos 
 algunos de los principales: 
-• Alfanumérico. Es el teclado estándar. Tiene las teclas especificadas por la ANSI que hemos visto 
-anteriormente. 
-• Teclado numérico. Contiene los números, operaciones, el punto para los decimales y la tecla 
+- Alfanumérico. Es el teclado estándar. Tiene las teclas especificadas por la ANSI que hemos visto anteriormente. 
+- Teclado numérico. Contiene los números, operaciones, el punto para los decimales y la tecla
 "Intro". 
-• Multimedia. Añade botones adicionales destinados al uso de programas multimedia (como 
-control de volumen). 
-• Inalámbrico. No requiere cables. La conexión al ordenador se hace por bluetooth o infrarrojos. 
-• Flexible. Fabricado con silicona. Se puede doblar (o enrollar) y es resistente al agua. 
-• Teclado virtual. Este nombre se utiliza para dos tipos de teclado: El teclado que aparece en las 
-pantallas táctiles para simular uno real y el proyectado, el cual utiliza sensores para determinar 
+- Multimedia. Añade botones adicionales destinados al uso de programas multimedia (como control de volumen). 
+- Inalámbrico. No requiere cables. La conexión al ordenador se hace por bluetooth o infrarrojos.
+- Flexible. Fabricado con silicona. Se puede doblar (o enrollar) y es resistente al agua.
+- Teclado virtual. Este nombre se utiliza para dos tipos de teclado: El teclado que aparece en las pantallas táctiles para simular uno real y el proyectado, el cual utiliza sensores para determinar 
 las pulsaciones sobre una proyección de un teclado (parecido a los que puedes ver en las 
 películas de ciencia ficción como Minority Report). 
-• Braille. Teclado adaptado para el uso de invidentes. 
-• Teclado touch. Es una pantalla que muestra un teclado que puedes configurar (añadir teclas, \netcétera). 
-• Ergonómico. Diseñado para las personas que hacen un uso extensivo del teclado. Buscan el 
-mínimo esfuerzo y la máxima comodidad. 
+- Braille. Teclado adaptado para el uso de invidentes.
+- Teclado touch. Es una pantalla que muestra un teclado que puedes configurar (añadir teclas, \netcétera).
+- Ergonómico. Diseñado para las personas que hacen un uso extensivo del teclado. Buscan el mínimo esfuerzo y la máxima comodidad. 
  
 
  
  
-Periféricos: conectividad y administración 
+
  
  
  
-El experto opina 
+### 🔵 El experto opina 
 Nosotros no recomendamos el teclado ergonómico. No está 
 demostrado que funcione realmente y, de todos modos, 
 dependerá de la constitución física de la persona, de su postura, de 
@@ -892,27 +865,21 @@ Es un dispositivo que cuenta con un mecanismo que permite detectar el movimiento
 dimensiones (izquierda, derecha, arriba y abajo). Al desplazar el ratón sobre una superficie plana, el 
 movimiento se refleja en la pantalla a través del puntero (una flecha). 
 Tiene dos o más botones que nos permiten realizar determinadas acciones: 
-• Un clic. 
-• Doble clic. 
-• Arrastrar (mantener el botón pulsado mientras se mueve el ratón). 
-• Scrolling: permite mover la barra de desplazamiento vertical (por ejemplo, para moverse arriba 
-y abajo en un documento de Word). La mayoría de los ratones tienen una rueda en el centro 
+- Un clic.
+- Doble clic.
+- Arrastrar (mantener el botón pulsado mientras se mueve el ratón).
+- Scrolling: permite mover la barra de desplazamiento vertical (por ejemplo, para moverse arriba y abajo en un documento de Word). La mayoría de los ratones tienen una rueda en el centro 
 para esta misión. 
 Según la tecnología en que se basan, podemos definir los siguientes tipos de ratón: 
-• Mecánicos: contienen una bola de plástico que, al desplazarlo por una superficie plana, mueve 
-dos ruedas que envían las señales para reflejar este movimiento en la pantalla. 
-• Ópticos: tienen un sensor que fotografía la superficie donde se encuentra y detecta las 
-variaciones de posición del ratón. 
-• Láser: el funcionamiento es similar al óptico, pero en lugar de un haz de luz utiliza un láser que lo 
-hace más sensible y preciso. También le permite detectar movimiento en superficies irregulares. 
+- Mecánicos: contienen una bola de plástico que, al desplazarlo por una superficie plana, mueve dos ruedas que envían las señales para reflejar este movimiento en la pantalla. 
+- Ópticos: tienen un sensor que fotografía la superficie donde se encuentra y detecta las variaciones de posición del ratón. 
+- Láser: el funcionamiento es similar al óptico, pero en lugar de un haz de luz utiliza un láser que lo hace más sensible y preciso. También le permite detectar movimiento en superficies irregulares. 
 
  
  
-Periféricos: conectividad y administración 
-• Trackball: tiene una bola que se mueve con el dedo pulgar para indicar la dirección de 
-movimiento. El dispositivo es estático (no se mueve, tan solo la bola). 
-• TouchPad: presente en la mayoría de los portátiles, permite simular el movimiento del ratón 
-mediante una pantalla táctil por donde se deslizan los dedos. 
+
+- Trackball: tiene una bola que se mueve con el dedo pulgar para indicar la dirección de movimiento. El dispositivo es estático (no se mueve, tan solo la bola). 
+- TouchPad: presente en la mayoría de los portátiles, permite simular el movimiento del ratón mediante una pantalla táctil por donde se deslizan los dedos. 
  
  
  
@@ -929,21 +896,20 @@ Recoge las ondas cerebrales y se asignan a distintas funciones.
 Con periféricos de almacenamiento nos estamos refiriendo a la memoria secundaria, es decir la 
 memoria permanente (no volátil). 
 Vamos a ver algunos de los tipos de almacenamiento externo: 
-• Cintas magnéticas. 
-• Discos duros magnéticos. 
-• Discos ópticos. 
-• Memorias flash. 
-• Discos de estado sólido (SSD). 
+- Cintas magnéticas.
+- Discos duros magnéticos.
+- Discos ópticos.
+- Memorias flash.
+- Discos de estado sólido (SSD).
 ### 🔵 3.1. Cintas magnéticas
 Son dispositivos de entrada/salida de acceso secuencial, que permiten leer y escribir datos en un 
 soporte magnético. Prácticamente no se utilizan por dos problemas principales: 
-• Son muy lentas. 
-• Al ser de acceso secuencial, no podemos intercalar información. Si se modifica parte de la 
-información, se tiene que volver a escribir todo. 
+- Son muy lentas.
+- Al ser de acceso secuencial, no podemos intercalar información. Si se modifica parte de la información, se tiene que volver a escribir todo. 
 
  
  
-Periféricos: conectividad y administración 
+
 Actualmente tan solo se usan para tareas de backup (copias de seguridad), dado que su coste es muy 
 inferior al de los discos duros. 
 Existen diversos tipos de cintas, pero la más importante es LTO (Linear Tape Open). Actualmente van 
@@ -951,13 +917,12 @@ por la octava generación (LTO-8), que permite almacenar 12 TB (TeraBytes) de fo
 utilizando software de compresión. 
 ### 🔵 3.2. Discos duros
 Podemos hacer una clasificación de los discos duros basándonos en dos aspectos: 
-• Según su ubicación respecto a la conexión: 
-• Internos: conectados en el interior del ordenado, directamente a la placa base (conexión 
-normalmente IDE o SATA). 
-• Externos: conectados por el exterior del ordenador, normalmente a USB. 
-• Según su arquitectura: 
-• Discos Magnéticos (HDD). 
-• Discos de estado sólido (SSD). 
+- Según su ubicación respecto a la conexión:
+- Internos: conectados en el interior del ordenado, directamente a la placa base (conexión normalmente IDE o SATA). 
+- Externos: conectados por el exterior del ordenador, normalmente a USB.
+- Según su arquitectura:
+- Discos Magnéticos (HDD).
+- Discos de estado sólido (SSD).
 #### 🔹 3.2.1. Magnéticos
  
 Un disco duro magnético, está formado por uno o varios platos rígidos introducidos en una caja 
@@ -967,54 +932,54 @@ lectura/escritura.
 
  
  
-Periféricos: conectividad y administración 
+
 Componentes físicos que tienen un disco duro: 
-• Componentes mecánicos: 
-• Platos: 
+- Componentes mecánicos:
+- Platos:
 Se guarda la información, dispuestos en forma horizontal y cada plato consta de dos caras o 
 superficies magnetizadas, una cara superior y otra inferior. Normalmente son de metal, la 
 información se guarda en celdas en donde es posible magnetizarlas de forma positiva o 
 negativa (1 o 0). 
-• Cabezal de lectura: 
+- Cabezal de lectura:
 Este elemento hace la función de lectura o escritura. Hay un cabezal por cada cara o 
 superficie de plato, por tanto, si tenemos dos platos habrá cuatro cabezas lectoras, estas no 
 deben hacer contacto con los platos, ya que la superficie quedaría rayada y se corromperían 
 los datos. Se crea una fina capa de aire de unos 3mm de separación al girar los platos, 
 impidiendo dicho contacto. 
-• Brazo mecánico: 
+- Brazo mecánico:
 Sujetan las cabezas lectoras, y las desplazan de forma lineal desde el interior al exterior de 
 los platos de forma muy rápida para permitir el acceso a la información de los platos. 
-• Motores: 
+- Motores:
 Hay dos motores dentro de un disco duro, uno para hacer girar los platos, (velocidad de \nentre 5000 y 7200 revoluciones por minuto (rpm)), y otro para el movimiento de los 
 brazos mecánicos. 
-• Otros componentes físicos: 
-• Circuito electrónico: 
+- Otros componentes físicos:
+- Circuito electrónico:
 Se encarga de gestionar las funciones de posicionamiento del cabezal y la lectura y \nescritura de este, y también de comunicar el disco duro con el resto de componentes del 
 ordenador, traduce las posiciones de las celdas de los platos a direcciones comprensibles 
 por la memoria RAM y CPU. 
-• Memoria caché: 
+- Memoria caché:
 Tienen un chip de memoria integrada en el circuito electrónico que hace de "puente" de 
 intercambio de información desde los platos físicos hasta la memoria RAM. 
-• Puertos de conexiones: 
+- Puertos de conexiones:
 En la parte trasera del disco están los conectores, el de alimentación (12v), y el del bus para 
 conectar con la placa base (si es un disco duro IDE también tiene las ranuras de jumpers 
 para seleccionarlo como master, esclavo o cable select). 
 
  
  
-Periféricos: conectividad y administración 
+
 Existe una estructura física y lógica en un disco duro, en cada plato del disco duro, no se trata 
 simplemente de grabar la información aleatoriamente, tienen su propia estructura lógica que permiten \nel acceso a información concreta almacenada en ellos: 
-• Pista (track): 
+- Pista (track):
 Cada una de las caras del disco se divide en anillos concéntricos, desde el interior hasta el \nexterior de cada cara. El borde exterior del disco duro es la pista 0. 
-• Cilindro: 
+- Cilindro:
 Es un concepto que engloba un conjunto de varias pistas. Un cilindro lo forman todas las 
 circunferencias que están alineadas en forma vertical de cada uno de los platos y caras, (como 
 un cilindro imaginario). 
-• Sector: 
+- Sector:
 Las pistas están divididas en trozos de arco llamados sectores. En estos tramos es donde se 
 almacenan los bloques de datos. 
-• Cluster (o unidad de asignación): 
+- Cluster (o unidad de asignación):
 Un archivo no puede ocupar menos de un cluster (que es la unidad mínima asignada por el 
 Sistema Operativo), sin embargo, pueden perfectamante ocupar más, dependiendo de la 
 información que contenga. 
@@ -1026,13 +991,11 @@ información que contenga.
 Sector de arranque MBR (Master Boot Record): 
 Es el 1er sector de todo el disco duro, es decir, pista 0, cilindro 0 
 sector 1, y aquí se almacenan 2 cosas importantísimas: 
-• La tabla de particiones que contienen toda la información 
-acerca del inicio y el final de las particiones. 
-• El programa Master Boot Code, que es el encargado de leer 
-la tabla de particiones y proporcionar el control al sector de 
+- La tabla de particiones que contienen toda la información acerca del inicio y el final de las particiones. 
+- El programa Master Boot Code, que es el encargado de leer la tabla de particiones y proporcionar el control al sector de 
 arranque de la partición activa. De esta forma el ordenador 
 arrancará desde el sistema operativo de la partición activa. 
-(Cuando tenemos varios sistemas operativos instalados en 
+(Cuando tenemos varios 
 distintas particiones, será necesario la instalación de un gestor de 
 arranque (bootloader) para que podamos elegir el sistema 
 operativo que queremos arrancar). 
@@ -1040,11 +1003,11 @@ operativo que queremos arrancar).
 
  
  
-Periféricos: conectividad y administración 
+
 Este tipo de soporte de almacenamiento presenta estas características principales: 
-• Es no volátil (lo guardado no se pierde al dejar de suministrar corriente). 
-• Accede de forma directa a los datos (al contrario que la cinta). 
-• Tienen gran capacidad. 
+- Es no volátil (lo guardado no se pierde al dejar de suministrar corriente).
+- Accede de forma directa a los datos (al contrario que la cinta).
+- Tienen gran capacidad.
 Su funcionamiento está basado en la grabación magnética de datos en las superficies de uno o más 
 platos (discos) rígidos que giran sobre un eje metálico común. 
 La grabación sobre el disco se realiza en circunferencias concéntricas denominadas pistas. Se numeran 
@@ -1058,68 +1021,64 @@ Los sectores de las pistas exteriores tienen una longitud lineal son mayores que
 grabados por pulgada) es mayor en el interior. 
 La cabeza de lectura/escritura se encarga de grabar y leer los datos en la superficie del disco. Hay dos 
 tipos de cabezas: 
-• Fija. No se mueve. Necesitaremos una por cada pista de cada disco. (Sistema abandonado). 
-• Móvil. Posee un brazo metálico que le permite posicionarse sobre la pista que vamos a utilizar. 
+- Fija. No se mueve. Necesitaremos una por cada pista de cada disco. (Sistema abandonado).
+- Móvil. Posee un brazo metálico que le permite posicionarse sobre la pista que vamos a utilizar.
 Es la más usual. 
 Vamos a ver cómo funcionaría un disco con brazo móvil. 
 Cuando realizamos una operación de lectura o escritura, el brazo posiciona la cabeza en la pista donde 
 se encuentra el sector que queremos leer y espera a que el sector en cuestión se posicione debajo de la 
 cabeza (dado que los discos van girando). 
 Por lo tanto, en la lectura o escritura de datos, debemos considerar tres tiempos distintos: 
-• Tiempo de búsqueda: tiempo que tarda la cabeza en posicionarse sobre la pista o cilindro en 
-cuestión. 
-• Tiempo de espera (o latencia rotacional): tiempo que tarda el sector en posicionarse debajo de 
-la cabeza debido al giro de los discos. 
-• Tiempo de lectura o escritura: tiempo que tarda en leer o escribir un número determinado de 
-bytes. 
+- Tiempo de búsqueda: tiempo que tarda la cabeza en posicionarse sobre la pista o cilindro en cuestión. 
+- Tiempo de espera (o latencia rotacional): tiempo que tarda el sector en posicionarse debajo de la cabeza debido al giro de los discos. 
+- Tiempo de lectura o escritura: tiempo que tarda en leer o escribir un número determinado de bytes. 
 
  
  
-Periféricos: conectividad y administración 
+
 De estos derivan el tiempo de acceso. Es el tiempo que tarda la cabeza en posicionarse sobre el sector y \nequivale a la suma del tiempo de búsqueda y el tiempo de espera. 
 Hay que tener en cuenta los siguientes conceptos: 
-• Sectorización hardware o física. 
+- Sectorización hardware o física.
 Los platos de discos suelen tener una o varias referencias físicas (orificios o muescas) para 
 poder identificar los sectores y pistas del plato. 
-• Sectorización software o lógica. 
+- Sectorización software o lógica.
 Antes de utilizar un disco debemos darle formato. Al formatear un disco se definen por software 
 las pistas y sectores que pueden no coincidir con los sectores hardware. Detecta y elimina las 
 zonas de disco dañadas. 
 Hay distintas formas de formateas un disco, y distintos formatos: FAT32, NTFS, exFAT, que veremos un 
 poco más adelante. 
-Prestaciones de los discos duros 
+### 🔵 Prestaciones de los discos duros 
 Para medir las prestaciones de los discos duros se utilizan los siguientes parámetros: 
-• Capacidad. 
+- Capacidad.
 Cantidad de información que se puede grabar. Hoy en día se mide en terabytes. 
-• Tiempo medio de acceso (TMA). 
+- Tiempo medio de acceso (TMA).
 Es uno de los más importantes. Es el tiempo medio de búsqueda y posicionamiento de las 
 cabezas del disco duro en un cilindro (o pista) determinado. Tenemos que medir el tiempo 
 medio, ya que el acceso a cada pista tarda un tiempo diferente. 
-• Velocidad de rotación. 
+- Velocidad de rotación.
 Es la velocidad a la que giran los platos. Se mide en r. p. m. (revoluciones por minuto). A mayor 
 velocidad, mayor tasa de transferencia, pero también mayor ruido y calentamiento. 
-• Velocidad de transferencia de datos (data transfer rate). 
+- Velocidad de transferencia de datos (data transfer rate).
 Cantidad máxima de información que se transfiere por unidad de tiempo. 
-• Posicionamiento pista a pista (TMB). 
+- Posicionamiento pista a pista (TMB).
 Tiempo medio que tardan las cabezas en cambiar de un cilindro a otro contiguo. 
-• Tiempo medio entre fallos (MTBF o Mean Time Between Failure). 
+- Tiempo medio entre fallos (MTBF o Mean Time Between Failure).
 Es la medida del tiempo que transcurre desde que se produce un fallo hasta que se produce otro 
 fallo. 
 
  
  
-Periféricos: conectividad y administración 
-• Memoria caché (buffer). 
+
+- Memoria caché (buffer).
 Es una memoria situada en la controladora del disco. Todos los datos que se leen y escriben a 
 disco duro se almacenan primeramente en el buffer. 
-• Tamaño. 
+- Tamaño.
 Hay dos tamaños principales: 3,5 pulgadas y 2,5 pulgadas. Los primeros se utilizan como discos 
 internos mientras que los segundos se suelen utilizar como discos externos (aunque pueden 
 utilizarse como discos internos en portátiles para ahorrar espacio). 
-Interfaces del disco duro 
+### 🔵 Interfaces del disco duro 
 Los discos duros internos utilizan varios tipos de interfaces para conectarse al ordenador: 
-• ATA (IDE): El estándar ATA (Advanced Technology Attachment) es una interfaz estándar que 
-permite conectar distintos periféricos de almacenamiento al ordenador. Es más conocido por su 
+- ATA (IDE): El estándar ATA (Advanced Technology Attachment) es una interfaz estándar que permite conectar distintos periféricos de almacenamiento al ordenador. Es más conocido por su 
 término comercial IDE (Integrated Drive Electronics) o su versión mejorada E-IDE mejorado 
 (Enhanced IDE). 
 Se desarrolló una extensión llamada ATAPI (ATA Packet Interface) que permite conectar 
@@ -1130,22 +1089,21 @@ base y dos para dispositivos. En cada canal, un dispositivo se configura como ma
 como esclavo. Se soportan dos canales (primario y secundario), permitiendo hasta 4 
 dispositivos en total. 
 Evolución del estándar ATA: 
-• ATA-4: Introdujo Ultra DMA/33 (33 MB/s). 
-• ATA-6: Alcanzó 66 MB/s (Ultra DMA/66). 
-• ATA-7: Llegó a 100 MB/s (Ultra DMA/100) y finalmente 133 MB/s (Ultra DMA/133). 
-• SATA. 
+- ATA-4: Introdujo Ultra DMA/33 (33 MB/s).
+- ATA-6: Alcanzó 66 MB/s (Ultra DMA/66).
+- ATA-7: Llegó a 100 MB/s (Ultra DMA/100) y finalmente 133 MB/s (Ultra DMA/133).
+- SATA.
 Sustituye a la anterior para discos rígidos y dispositivos ópticos. 
 El estándar Serial ATA pueden conseguir velocidades de: 
-• 1,5 Gb/s (187,5 MB/s). Dato que cada octeto se envía con 1 bit de arranque y otro de 
-parada, la velocidad efectiva sería 150 MB/s. 
-• 3 Gb/s (375 MB/s). Velocidad efectiva de 300 MB/s. 
-• 6 Gb/s (750 MB/s). Velocidad efectiva de 600 MB/s. 
+- 1,5 Gb/s (187,5 MB/s). Dato que cada octeto se envía con 1 bit de arranque y otro de parada, la velocidad efectiva sería 150 MB/s. 
+- 3 Gb/s (375 MB/s). Velocidad efectiva de 300 MB/s.
+- 6 Gb/s (750 MB/s). Velocidad efectiva de 600 MB/s.
 Los cables SATA utilizan siete hilos y conectan un solo dispositivo por cable. Los dispositivos 
 SATA permiten la conexión en caliente (sin apagar el equipo). 
 
  
  
-Periféricos: conectividad y administración 
+
  
  
  
@@ -1160,14 +1118,14 @@ y que ha dejado obsoleta a la P-ATA (o IDE).
  
  
 Evolucion de Tecnología de discos duros 
-• SCSI. 
+- SCSI.
 El interfaz SCSI (Small Computers System Interface) permite la conexión de distintos tipos de 
 periféricos a un ordenador mediante una tarjeta denominada adaptador o controladora SCSI o 
 controlador SCSI. 
 El número de periféricos que se pueden conectar depende del ancho del bus SCSI. El estándar 
 SCSI-3 permite conectar 32 dispositivos (31 más la controladora SCSI) y tiene una velocidad 
 máxima de 640 MB/s en modo Ultra-640. 
-• SAS (Serial attached SCSI). 
+- SAS (Serial attached SCSI).
 Es la evolución de SCSI. Tiene velocidades similares a SATA, es compatible con este y permite 
 conectar hasta 16.384 dispositivos SAS manteniendo el rendimiento y la fiabilidad. Además, al 
 contrario que SCSI, permite la conexión en caliente. 
@@ -1175,7 +1133,7 @@ También tenemos los discos duros externos que normalmente se conectan a puerto 
 
  
  
-Periféricos: conectividad y administración 
+
 #### 🔹 3.2.2. Unidades de Estado Sólido (SSD)
 Una unidad SSD es un sistema de almacenamiento de información que usa memoria de tipo flash. 
 Al igual que los tradicionales discos magnéticos se componen de interfaz, controladora, memoria cache 
@@ -1183,11 +1141,11 @@ y otras partes.
 Quizás la parte que actualmente marca la diferencia, es el controlador, es la parte que los fabricantes 
 personalizan con diferentes niveles de software para mejorar en velocidad, durabilidad y seguridad, 
 frente a la competencia. 
-Tipos de SSD según su conexión física 
+### 🔵 Tipos de SSD según su conexión física 
 Los dos tipos de SSD, más usadas a principios del 2022, según su conexión física, son la SATA y la PCIe: 
-• SATA en su versión 3 nos permite un ancho de banda de 600 MB/s por canal. 
-• PCIe Gen 4 admite hasta 2000 MB/s, siendo claramente más rápida y la que (a fecha actual) \nestá imponiéndose en el mercado. 
-Protocolos 
+- SATA en su versión 3 nos permite un ancho de banda de 600 MB/s por canal.
+- PCIe Gen 4 admite hasta 2000 MB/s, siendo claramente más rápida y la que (a fecha actual) \nestá imponiéndose en el mercado.
+### 🔵 Protocolos 
 En Los discos SSD podemos encontrarnos con el veterano AHCI (Advanced Host Controller Interface) 
 heredado de los discos duros clásicos y utilizado en la interface SATA. 
 O con el NVMe, diseñado para las unidades SSD. 
@@ -1207,7 +1165,7 @@ duros, como SATA, SAS y SSD.
 
  
  
-Periféricos: conectividad y administración 
+
 Formas y tamaños 
 Podemos encontrar con interface SATA diversos tamaños, 3.5, 2.5 y 1.8 pulgadas, aunque en la 
 actualidad la inmensa mayoría son de 2.5 y 7mm de ancho (Aunque también los hay de 9,5mm). 
@@ -1218,10 +1176,9 @@ Las unidades SSD M2 se conectan a un zócalo distinto, y que tan solo está incl
 más modernas. El formato más utilizado en el M2 2280 (22 mm de ancho y longitud de 80 mm), \nestando también el formato 2260 (22 mm de ancho y longitud de 60 mm), y el 2242 (22 mm de ancho 
 y longitud de 42 mm). 
 El formato M.2 está disponible para conexiones SATA y PCIe. 
-• M2 SATA: velocidad de transferencia de datos de hasta 6 Gbps. 
+- M2 SATA: velocidad de transferencia de datos de hasta 6 Gbps.
 Ofrecen menor rendimiento que los NVMe pero son más económicos. 
-• M2 NVMe: es un protocolo que combinado con el bus PCIe 4.0 permite alcanzar velocidades de 
-transferencia de hasta 16 Gbps. 
+- M2 NVMe: es un protocolo que combinado con el bus PCIe 4.0 permite alcanzar velocidades de transferencia de hasta 16 Gbps. 
 Es el uso de la tecnología NVM lo que permite un mayor rendimiento y no el factor de forma M2. 
 Es solo compatible con placas base que cuentan con conectores PCIe de NVMe. 
  
@@ -1238,22 +1195,18 @@ m2-nvme-en-externo-usb/
 
  
  
-Periféricos: conectividad y administración 
-Tecnologías de fabricación 
+
+### 🔵 Tecnologías de fabricación 
 La mayoría de unidades SSD basan su funcionamiento en una arquitectura construida con puertas NAND. 
 La clasificación principal es en función de los bits que cada celda de esa memoria flash pueda almacenar. 
 Actualmente los principales tipos son: 
-• SLC (Single Level Cell): solo son capaces de almacenar un bit de información por celda, 
-pudiendo escribir en ellos dos estados (0 o 1). Son las más rápidas debido a que solo hay que 
+- SLC (Single Level Cell): solo son capaces de almacenar un bit de información por celda, pudiendo escribir en ellos dos estados (0 o 1). Son las más rápidas debido a que solo hay que 
 comprobar dos situaciones, además de las más duraderas (hay que comprobar menos veces 
 cada celda), pero el precio del GB es el más alto al requerir más elementos para almacenar la 
 misma información. 
-• MLC (Multi-Level Cell): ya poseen dos bits por celda, por lo que podemos almacenar más 
-información, perdiendo velocidad y vida útil. 
-• TLC (Triple Level Cell): con tres bits por celda, admiten mucha capacidad de almacenamiento 
-con menos requerimiento de componentes y por ello de espacio, perdiendo velocidad y vida útil. 
-• QLC (Quad Level Cell): los más económicos de todos al usar cuatro bits de información por 
-cada celda, lo que permite tener grandes capacidades de almacenamiento, pero a costa de ser 
+- MLC (Multi-Level Cell): ya poseen dos bits por celda, por lo que podemos almacenar más información, perdiendo velocidad y vida útil. 
+- TLC (Triple Level Cell): con tres bits por celda, admiten mucha capacidad de almacenamiento con menos requerimiento de componentes y por ello de espacio, perdiendo velocidad y vida útil. 
+- QLC (Quad Level Cell): los más económicos de todos al usar cuatro bits de información por cada celda, lo que permite tener grandes capacidades de almacenamiento, pero a costa de ser 
 los más lentos y con menor vida útil. 
 Conforme aumenta la cantidad de bits que se pueden almacenar por celda, la corrupción de datos se 
 incrementa y por ello los fabricantes deben integrar mejores y más precisos mecanismos de corrección 
@@ -1262,7 +1215,7 @@ Esos mecanismos se encargan, entre otros menesteres, de detectar las celdas que 
 son fiables a la hora de almacenar la información. Con el tiempo, si la unidad SSD es muy propensa a \nesos errores, esas celdas se irán perdiendo y con ello la capacidad de almacenamiento de la unidad SSD. 
 Por tanto, dependiendo del uso al que vayamos a someter a la unidad SSD, deberemos elegir entre los 
 diferentes tipos, lo que a su vez y junto con la calidad, nos marcara el precio de nuestra unidad. 
-Evolución 
+### 🔵 Evolución 
 Para conseguir mejoras en el rendimiento de las memorias basadas en NAND, los fabricantes utilizan 
 combinaciones y sistemas híbridos para diseñar las nuevas memorias. 
 También hay avances en el diseño de las celdas, como ocurre con las unidades de tipo SSD 3D NAND y 
@@ -1274,23 +1227,23 @@ interferencias eléctricas y una menor resistencia a procesos de escritura/lectu
 
  
  
-Periféricos: conectividad y administración 
+
 Para solucionarlo, la industria construye unidades SSD con apilamiento de las celdas en múltiples capas. 
 Ese diseño vertical admite más densidad de celdas al tiempo que hay una separación entre celdas 
 mayor, aunando las ventajas de una alta densidad de celdas al tiempo que se minimizan los 
 inconvenientes e incrementan prestaciones. 
-• 3D NAND: 
+- 3D NAND:
 Se trata de una tecnología donde las celdas se apilan también verticalmente (3D) y no solo a lo 
 largo y ancho (2D), lo cual permite hacer las celdas más grandes y, por lo tanto, mejor aisladas. 
 La primera memoria flash 3D NAND fue de Samsung y se llamaba V-NAND: 
-• 3D V-NAND 
+- 3D V-NAND
 Las memorias V-NAND, o 3D V-NAND son la una evolución de la tecnología NAND donde 
 se apilan verticalmente (de aquí la V de V-NAND) las celdas de memoria NAND. 
 Debido al cambio en la disposición vertical de las células, estas unidades SSD son más 
 densas, tienen un coste de producción más bajo y consumen la mitad de energía, también 
 son el doble de rápidas y tienen una duración unas diez veces mayor que las memorias 
 NAND normales. 
-Funcionamiento 
+### 🔵 Funcionamiento 
 La cantidad mínima de información que se puede leer o escribir no es la de una celda, ni la de la 
 agrupación de éstas en palabras, sino que son las páginas, las cuales se agrupan a su vez en bloques. 
 En el momento en que la información de una página debe cambiar, ésta se copia a otra del mismo 
@@ -1312,7 +1265,7 @@ denomina P/E (Program/Erase) y es lo que marca la durabilidad de un SSD.
 
  
  
-Periféricos: conectividad y administración 
+
 El ciclo de vida de un disco SSD se puede indicar en ciclos de P/E o en información total que se puede \nescribir en el SSD antes de que comiencen a aparecer errores. 
 La unidad es TW (TeraBytes Written). Otra medida de la fiabilidad de un disco SSD es MTBF (Mean 
 Time Between Failures), que cambia el valor de fiabilidad a tiempo en vez de a cantidad de información 
@@ -1321,13 +1274,11 @@ Firmware FTL (Flash Tranlation Layer)
 FTL (Flash Translation Layer) es una capa de software (firmware) situada entre el controlador y la 
 unidad SSD. Se encargará de traducir las operaciones de entrada y salida (E/S) de la capa de 
 abstracción de almacenamiento (ATA o SCSI) al protocolo de almacenamiento flash. 
-• Wear Levelling: es una de las tecnologías usadas por el FTL se denomina Wear Levelling y 
-básicamente consiste en hacer un reparto equitativo de la información en todas las celdas de las 
+- Wear Levelling: es una de las tecnologías usadas por el FTL se denomina Wear Levelling y básicamente consiste en hacer un reparto equitativo de la información en todas las celdas de las 
 memorias flash, para evitar excesos de procesos de borrado/escritura en algunas celdas 
 concretas. El Wear Levellin es un algoritmo del que se encarga el FLT y tiene por fin que la 
 memoria flash sufra un desgaste homogéneo evitando sobreutilizar una área en concreto. 
-• Caché: LBA (Logical Block Address) es un número identificador de un bloque de datos de la 
-unidad. La memoria caché de las unidades SSD almacena los bloques de datos que se acceden 
+- Caché: LBA (Logical Block Address) es un número identificador de un bloque de datos de la unidad. La memoria caché de las unidades SSD almacena los bloques de datos que se acceden 
 con más frecuencia, lo que reduce el tiempo de acceso a los datos. Para no ralentizar el 
 funcionamiento de un SSD, las peticiones de direcciones LBA del sistema operativo al SSD deben 
 agilizarse, para lo que es necesario que el controlador del SSD conozca en todo momento qué 
@@ -1347,7 +1298,7 @@ doméstico es muy difícil que lo alcance, en caso de que ocurriera, el tiempo t
 
  
  
-Periféricos: conectividad y administración 
+
 #### 🔹 3.2.4. Formatear Discos Duros (Sectorización)
 Para poder utilizar cualquier tipo de dispositivo de almacenamiento externo: discos duros magnéticos, 
 Discos SSD, memoria USB, tarjeta SD, debemos "formatearlos", es decir, indicar un sistema de archivos. 
@@ -1362,27 +1313,25 @@ de formatos diferentes: FAT, NTFS y ExFAT, veamos cómo de elegir el formato ade
 FAT, del inglés File Allocation Table, traducido como Tabla de asignación de archivos, es un sistema de 
 archivos desarrollado para MS-DOS, que paso a ser también el sistema de archivos principal de las \nediciones de Microsoft Windows hasta Windows Me. 
 Las implementaciones más extendidas de FAT tienen algunas desventajas., cono son: 
-• Cuando se borran y se escriben nuevos archivos tiende a dejar fragmentos dispersos de estos 
-por todo el soporte. 
+- Cuando se borran y se escriben nuevos archivos tiende a dejar fragmentos dispersos de estos por todo el soporte. 
 Con el tiempo, esto hace que el proceso de lectura o escritura sea cada vez más lento. 
 Para solucionar este problema, se realizaba el proceso denominado desfragmentación, pero que, 
 al ser muy lento, hacía incomodo su uso regular para mantener el sistema de archivos en 
 condiciones óptimas. 
-• FAT no fue diseñado para ser redundante ante fallos. 
-• Inicialmente solamente soportaba nombres cortos de archivo. 
+- FAT no fue diseñado para ser redundante ante fallos.
+- Inicialmente solamente soportaba nombres cortos de archivo.
 Soportaba ocho caracteres para el nombre más tres para la extensión. 
 Indicamos algunas características de las distintas implementaciones de FAT: 
 FAT12 
 Totalmente en desuso. 
 Fue la versión inicial de FAT (ahora conocida como FAT12), sus limitaciones eran: 
-• No soporta anidación de carpeta. 
+- No soporta anidación de carpeta.
 
  
  
-Periféricos: conectividad y administración 
-• Las direcciones de bloque solamente contienen 12 bits. 
-• El tamaño del disco se almacena como una cuenta de 16 bits expresada en sectores, lo que 
-limita el espacio manejable a 32 megabytes. 
+
+- Las direcciones de bloque solamente contienen 12 bits.
+- El tamaño del disco se almacena como una cuenta de 16 bits expresada en sectores, lo que limita el espacio manejable a 32 megabytes. 
 FAT16 
 Totalmente en desuso. 
 El límite era de 2 GigaBytes de almacenamiento. 
@@ -1392,10 +1341,10 @@ El tamaño máximo de una partición dependerá del tamaño del clúster, pues s
 multiplicación de 65.536 clústeres por el tamaño del mismo. 
 Con FAT16 podemos encontrar distintos tamaños de clústeres, indicamos a continuación el tamaño 
 posible de las particiones en base al tamaño del clúster: 
-• 512bytes => 32MB (aproximadamente). 
-• 4KB => 256MB (aproximadamente) MS-DOS en su versión 6.22 soporta hasta 4KB. 
-• 32KB => 2GB (aproximadamente) Windows 95/98/ME. 
-• 64KB => Sistemas operativos y Controladores de disco no estaban preparados para trabajar con 
+- 512bytes => 32MB (aproximadamente).
+- 4KB => 256MB (aproximadamente) MS-DOS en su versión 6.22 soporta hasta 4KB.
+- 32KB => 2GB (aproximadamente) Windows 95/98/ME.
+- 64KB =>
 clústeres tan grandes. La gestión de clústeres grandes podría haber llevado a problemas de 
 rendimiento y eficiencia, lo que hizo que los clústeres de 64 KB no se utilizaran en la práctica. 
  
@@ -1403,30 +1352,28 @@ rendimiento y eficiencia, lo que hizo que los clústeres de 64 KB no se utilizar
  
  
 + Info 
-Volúmenes FAT16 mayores de 2 GB no son accesibles desde \nequipos con otros sistemas operativos MS-DOS, Windows 95, 
+Volúmenes FAT16 mayores de 2 GB no son accesibles desde \nequipos con otros 
 Windows 98, Windows Millennium Edition (Me). 
-Esta limitación se debe a que estos sistemas operativos no son 
+Esta limitación se debe a que estos 
 compatibles con tamaños de cluster mayores de 32 KB, lo que 
 resulta en límite de 2 GB. 
  
 
  
  
-Periféricos: conectividad y administración 
+
 FAT32 
 Es el sistema más antiguo compatible, pero tiene limitaciones, se incorporó en Windows 95 y sustituyo 
 al formato FAT16, aunque con limitaciones. 
-• Ventajas: prácticamente cualquier dispositivo va a ser compatible con él, este formato va a 
-poder leerlo dispositivos como un televisor, un móvil o una videoconsola, que en cambio a lo 
+- Ventajas: prácticamente cualquier dispositivo va a ser compatible con él, este formato va a poder leerlo dispositivos como un televisor, un móvil o una videoconsola, que en cambio a lo 
 mejor no reconocerían el formato NTFS. 
-• Limitación: no puede almacenar archivos de más de 4 GB. Actualmente archivos de vídeo o 
-proyectos de ediciones fotográficas como los álbumes fotográficos ocupan más de 4 Gb 
+- Limitación: no puede almacenar archivos de más de 4 GB. Actualmente archivos de vídeo o proyectos de ediciones fotográficas como los álbumes fotográficos ocupan más de 4 Gb 
 habitualmente. Tampoco podemos creas particiones en FAT32 mayores de 8 TB. 
  
  
  
  
-El experto opina 
+### 🔵 El experto opina 
 FAT32 es ideal para memorias externas donde no vamos a guardar 
 archivos mayores de 4GB, y queramos que sean compatibles con la 
 mayoría de todo tipo de dispositivos. 
@@ -1437,7 +1384,7 @@ diseñado específicamente para superar las limitaciones del antiguo sistema FAT
 importantes mejoras en capacidad, seguridad y funcionalidad. A diferencia de FAT32, NTFS permite 
 trabajar con archivos de más de 4 GB y admite particiones de gran tamaño, con un límite teórico de 
 hasta 256 terabytes. 
-Ventajas 
+### 🔵 Ventajas 
 Una de las principales ventajas de NTFS es su enfoque en la seguridad y la integridad de los datos. 
 Incorpora un sistema avanzado de permisos granulares (ACLs) que permite controlar con precisión el 
 acceso a archivos y carpetas, así como funciones de cifrado mediante EFS (Encrypting File System). 
@@ -1449,15 +1396,15 @@ unidad, y el soporte para enlaces simbólicos. Estas funcionalidades hacen de NT
 
  
  
-Periféricos: conectividad y administración 
-Limitaciones 
-Sin embargo, NTFS presenta limitaciones en cuanto a compatibilidad con otros sistemas operativos. En 
+
+### 🔵 Limitaciones 
+Sin embargo, NTFS presenta limitaciones en cuanto a compatibilidad con otros 
 macOS, por ejemplo, solo es posible leer unidades NTFS de forma nativa, mientras que para escribir en \nellas es necesario instalar software adicional como Paragon NTFS o Tuxera. En sistemas Linux, el 
 soporte es más amplio gracias al driver ntfs-3g, que permite tanto lectura como escritura, aunque con 
 algunas restricciones en permisos avanzados. Por otro lado, dispositivos como televisores, consolas o 
 reproductores multimedia generalmente no son compatibles con NTFS, ya que suelen utilizar sistemas 
 más simples como FAT32 o exFAT. 
-Alternativa 
+### 🔵 Alternativa 
 Dada esta situación, NTFS resulta especialmente recomendable para discos internos en equipos con 
 Windows, donde puede aprovecharse al máximo sus capacidades. No obstante, si se necesita compartir 
 datos entre diferentes plataformas, como Windows, macOS y dispositivos externos, la mejor alternativa 
@@ -1467,17 +1414,17 @@ de manejar archivos de gran tamaño.
  
  
  
-El experto opina 
+### 🔵 El experto opina 
 NTFS, es el mejor formato para trabajar con discos duros internos 
 dónde tengamos instalado el Sistema Operativo Windows, y/o 
 como dispositivo de almacenamiento de información. 
  
 3.2.4.3. exFAT \nexFAT, siglas de Extended File Allocation Table, tabla extendida de asignación de archivos), también 
 conocido como FAT 64, es un sistema de archivos, patentado y privativo de Microsoft, especialmente 
-optimizado para memorias flash presentado con Windows CE (Windows Embedded CE 6.0). \nexFAT apareció en 2006 y se introdujo en la mayoría de los sistemas operativos modernos, incluido 
+optimizado para memorias flash presentado con Windows CE (Windows Embedded CE 6.0). \nexFAT apareció en 2006 y se introdujo en la mayoría de los 
 Windows XP. Está pensado para unidades flash, no tiene las características de seguridad de NTFS, pero 
 tampoco las limitaciones de FAT32 (4GB por archivo y 8 TB de tamaño máximo de partición). 
-Todos los sistemas operativos de PC (Windows, Mac y Linux -aunque en este último es posible que 
+Todos los 
 tengamos que instalar algunas librerías) son compatibles de forma nativa con exFAT, a diferencia de 
 NTFS. \nexFAT es compatible con un gran número de dispositivos tipo televisiones, reproductores multimedia, 
 videoconsolas, etc., aunque es tan compatible como FAT32. 
@@ -1485,19 +1432,18 @@ El límite máximo de tamaño de archivo de exFAT es 16EiB (Exbibyte).
 
  
  
-Periféricos: conectividad y administración 
+
  
  
  
 + Info 
 Ventajas: 
-• Mejoras en el rendimiento de la asignación de espacio libre 
+- Mejoras en el rendimiento de la asignación de espacio libre
 (gracias a la introducción de un free space bitmap, 
 utilizado para rastrear sectores asignados por algunos 
 sistemas de archivo). 
-• Soporte para listas de control de acceso. 
-• Multiplataforma, tanto Mac OS X como Microsoft Windows 
-soportan lectura y escritura de forma nativa. 
+- Soporte para listas de control de acceso.
+- Multiplataforma, tanto Mac OS X como Microsoft Windows soportan lectura y escritura de forma nativa. 
  
  
 Al igual que NTFS, exFAT puede preasignar espacio en disco para un archivo simplemente marcando el \nespacio arbitrario en el disco como 'asignado'. \nexFAT y el resto de la familia de sistemas de archivos FAT no utiliza índices para nombres de archivos, a 
@@ -1520,13 +1466,11 @@ NTFS, pero no en sentido contrario, (NTFS a FAT32).
 
  
  
-Periféricos: conectividad y administración 
-• Partition Magic de Symantec y el proyecto de código abierto NTFSResize son ambos capaces de 
-redimensionar particiones NTFS. 
-• Con la herramienta convert incluida en los sistemas NT (Windows NT en adelante), se puede 
-cambiar un disco con sistema de ficheros FAT32 a NTFS sin perder ningún dato con la 
+
+- Partition Magic de Symantec y el proyecto de código abierto NTFSResize son ambos capaces de redimensionar particiones NTFS. 
+- Con la herramienta convert incluida en los sistemas NT (Windows NT en adelante), se puede cambiar un disco con sistema de ficheros FAT32 a NTFS sin perder ningún dato con la 
 instrucción "convert [unidad]:/fs:ntfs". 
-• Por razones históricas, absolutamente todas las versiones de Windows que todavía no soportan 
+- Por razones históricas, absolutamente todas las versiones de Windows que todavía no soportan
 NTFS almacenan internamente la fecha y hora como hora local, y consecuentemente los 
 sistemas de ficheros correspondientes a esas versiones de Windows, también tratan la hora 
 localmente. 
@@ -1536,7 +1480,7 @@ archivos entre un volumen NTFS y uno no NTFS, deben hacerse las conversiones "al
 que puede originar ambigüedades si el horario de verano está activo en la copia de unos 
 archivos y no en el de otros, pudiendo dar lugar a ficheros cuya marca de hora esté una hora 
 desplazada. 
-• MacOS X provee soporte de sólo lectura a particiones formateadas como NTFS. 
+- MacOS X provee soporte de sólo lectura a particiones formateadas como NTFS.
 NTFS-3G es una utilidad de licencia GPL que permite lectura y escritura en particiones NTFS. 
 Los desarrolladores de NTFS-3G también proveen una versión comercial y de alto rendimiento 
 denominada Tuxera NTFS para Mac. 
@@ -1558,7 +1502,7 @@ archivos extendido" ext4 (2008).
 
  
  
-Periféricos: conectividad y administración 
+
 ### 🔵 3.3. Discos ópticos
 Un sistema de almacenamiento óptico utiliza un haz láser que explora las variaciones de dos estados de 
 reflexión sobre una superficie especial. Existen distintas tecnologías que llevan a cabo estas 
@@ -1592,19 +1536,17 @@ Algunos ordenadores, especialmente los portátiles, incorporan lector para estos
 
  
  
-Periféricos: conectividad y administración 
+
 Según su formato físico y uso, podemos dividirlas en dos: 
-• Pendrive. Son dispositivos pensados para ser usados como discos duros portátiles. Llevan una 
-memoria flash en su interior y un conector USB que nos permite conectarlos directamente al 
+- Pendrive. Son dispositivos pensados para ser usados como discos duros portátiles. Llevan una memoria flash en su interior y un conector USB que nos permite conectarlos directamente al 
 ordenador. 
-• Tarjetas de memoria. Son incompatibles entre sí. Algunos tipos son: 
-• SD. Son las más utilizadas. Las tarjetas micro-SD han tenido una gran aceptación 
-utilizándose como memoria en la mayoría de los teléfonos (Smartphone). Tienen buena 
+- Tarjetas de memoria. Son incompatibles entre sí. Algunos tipos son:
+- SD. Son las más utilizadas. Las tarjetas micro-SD han tenido una gran aceptación utilizándose como memoria en la mayoría de los teléfonos (Smartphone). Tienen buena 
 relación capacidad-precio. 
-• Compact Flash (CF). Era la memoria más común. 
-• Multimedia Card (MMC). Son pequeñas, pero poco resistentes. 
-• XD. Se emplean en cámaras fotográficas Fuji y Olimpus. 
-• Memory Stick. Es de SONY y la utilizan en su consola PSP. 
+- Compact Flash (CF). Era la memoria más común.
+- Multimedia Card (MMC). Son pequeñas, pero poco resistentes.
+- XD. Se emplean en cámaras fotográficas Fuji y Olimpus.
+- Memory Stick. Es de SONY y la utilizan en su consola PSP.
 Smart Media. También conocidas como Solid State Flash Digital Card (SSFDC). Parecidas a las 
 tarjetas compact flash, pero más finas. 
 ## 🟣 4. Sistemas de almacenamiento
@@ -1612,11 +1554,11 @@ Los sistemas de almacenamiento informático, son elementos, dispositivos, etc., 
 información. Puesto que almacenan miles de datos con gran valor, una buena gestión de los mismos es \nesencial. 
 Se estima que el incremento de la información guardada de año en año, crece entre un 50% y un 100%. 
 En una primera división de los tipos de datos, podemos diferenciar estos entre "estructurados" y "no \nestructurados". 
-• Estructurados: 
-Cuando hablamos de datos estructurados nos referimos a la información que se suele encontrar \nen la mayoría de bases de datos. Son archivos de tipo texto que se suelen mostrar en filas y 
+- Estructurados:
+Cuando hablamos de datos estructurados nos referimos a la información que se suele encontrar \nen la mayoría de 
 columnas con títulos. Son datos que pueden ser ordenados y procesados fácilmente por todas 
 las herramientas de minería de datos. 
-• No estructurados: 
+- No estructurados:
 Los datos no estructurados, generalmente son datos binarios que no tienen estructura interna 
 identificable. Es un conglomerado masivo y desorganizado de varios objetos que no tienen valor 
 hasta que se identifican y almacenan de manera organizada (correos, audio, documentos de 
@@ -1624,43 +1566,43 @@ texto, etc.).
 
  
  
-Periféricos: conectividad y administración 
-Gestión de Almacenamiento 
+
+### 🔵 Gestión de Almacenamiento 
 Todos los procesos informáticos generan datos que en muchos casos hay que guardar y garantizar su 
 integridad. La "Gestión de almacenamiento" es la infraestructura necesaria para asegurar esta 
 información, incluyendo las decisiones necesarias para la optimización de los recursos disponibles. 
 A la hora de tomar las medidas adecuadas, debemos tener en cuenta: 
-• La capacidad: 
+- La capacidad:
 Consiste en proporcionar el suficiente almacenamiento dentro de unos costes razonables. Se 
 debe saber planificar no solo la capacidad necesaria actualmente sino tener en cuenta las \nexpectativas de crecimiento. 
-• El rendimiento: 
+- El rendimiento:
 A la hora de planificar los sistemas de almacenamiento hay que tener en cuenta varios 
 parámetros, por ejemplo: no usaremos los mismos dispositivos para almacenamiento de 
 información histórica que para datos de uso inmediato. 
-• La fiabilidad: 
+- La fiabilidad:
 El almacenamiento y sus datos deben estar disponibles cuando se necesiten. El sistema tiene 
 que ser "tolerante al fallo", es decir, tiene que seguir suministrando la información solicitada, 
 aunque alguno de sus componentes esté en "fallo". 
-• La recuperabilidad: 
+- La recuperabilidad:
 Los datos pueden ser alterados, dañados y borrados resultar inaccesibles. Se deben tener 
 mecanismos para poder recuperarlos. Las copias de seguridad o backup pueden ser de los 
 siguientes tipos: 
-• Copia de seguridad física completa: 
+- Copia de seguridad física completa:
 Requieren la parada completa del sistema al cual se le quiera aplicar la copia de seguridad. 
-• Copia de seguridad física incremental: 
+- Copia de seguridad física incremental:
 Requieren la parada completa del sistema al cual se le quiera aplicar la copia de seguridad, 
 pero durante un menor lapso de tiempo. 
-• Copia de seguridad física online: 
-Las bases de datos pueden permanecer abiertas a los usuarios durante el proceso de copia 
+- Copia de seguridad física online:
+Las 
 de seguridad y la recuperación se puede lograr de nuevo a la última transacción procesada. 
-• Copia de seguridad lógica (exportado de archivos): 
+- Copia de seguridad lógica (exportado de archivos):
 Menos complicadas que las anteriores, pero consumen más tiempo. Permiten aplicaciones 
-24/7 y las bases de datos pueden permanecer online. 
+24/7 y las 
 En este apartado vamos a estudiar distintos sistemas de almacenamiento. 
 
  
  
-Periféricos: conectividad y administración 
+
 ### 🔵 4.1. Tipos de almacenamiento: DAS, NAS, SAN
 NAS (Network Attached Storage), SAN (storage area network) y DAS (Direct Attached Storage) son 
 tres modos de almacenamiento muy utilizados en la actualidad. 
@@ -1682,13 +1624,13 @@ disco duro o unidad de estado sólido conectado a esa máquina.
 Un típico sistema DAS está hecho de uno o más dispositivos de almacenamiento como discos rígidos, y 
 uno o más controladores. 
 Este tipo de Almacenamiento tiene los siguientes inconvenientes: 
-• Dispersión del Almacenamiento que dificultad la gestión de copias de seguridad. 
-• Mantenimiento complejo. 
-• Incapacidad para compartir datos o recursos no usados con otros servidores. 
+- Dispersión del Almacenamiento que dificultad la gestión de copias de seguridad.
+- Mantenimiento complejo.
+- Incapacidad para compartir datos o recursos no usados con otros servidores.
 
  
  
-Periféricos: conectividad y administración 
+
 #### 🔹 4.1.2. NAS (Network-Attached Storage)
  
 Fuente: 
@@ -1717,7 +1659,7 @@ archivos a los usuarios y los programas.
 
  
  
-Periféricos: conectividad y administración 
+
 NFS tiene una amplia difusión para albergar los almacenes de datos de VMWare o compartir carpetas de 
 red en un entorno de Linux/UNIX. 
 Cuando se activa el servicio NFS en un recurso compartido, puede acceder a este mediante la ruta 
@@ -1750,29 +1692,29 @@ llamar a la primera versión de SMB (SMB 1.0).
 
  
  
-Periféricos: conectividad y administración 
+
 #### 🔹 4.1.3. SAN (Storage Area Network)
 Es un almacenamiento en el que los equipos cliente tienen la capacidad de leer y escribir directamente 
 sobre el volumen compartido como si fuera un almacenamiento local. 
 Protocolos utilizados en esta tecnología: 
-• FC (Fibre Channel). 
-• FCoE (Fibre Channel Over Ethernet). 
-• iSCSI (Internet Small Computer System Interface -Internet SCSI). 
-• NVMeoF (Non-Volatile Memory Express Over Fabrics). 
+- FC (Fibre Channel).
+- FCoE (Fibre Channel Over Ethernet).
+- iSCSI (Internet Small Computer System Interface -Internet SCSI).
+- NVMeoF (Non-Volatile Memory Express Over Fabrics).
 ##### 4.1.3.1. FC (Fibre Channel)
 Tiene las siguientes características: 
-• Aporta mucha menor latencia y un mayor ancho de banda. 
-• Se alcanzan velocidades de hasta 8 y 16 Gbit/s. (finales del 2020). 
-• Se puede utilizar tanto con Fibra Óptica como con pares de cobre. 
-• Tenemos tres topologías principales: 
-• Punto a Punto: 
+- Aporta mucha menor latencia y un mayor ancho de banda.
+- Se alcanzan velocidades de hasta 8 y 16 Gbit/s. (finales del 2020).
+- Se puede utilizar tanto con Fibra Óptica como con pares de cobre.
+- Tenemos tres topologías principales:
+- Punto a Punto:
 La topología punto a punto describe la conexión directa entre dos dipositivos, que, de no 
 ser exclusiva, esto es dedicada, puede compartir la conexión con otros dispositivos de red. 
 Anillo: 
 Todos los dispositivos están en un bucle o anillo, similar a una red token ring. El añadir o 
 quitar un elemento del anillo hace que se interrumpa la actividad en el mismo. El fallo de un 
 dispositivo hace que se interrumpa el anillo. 
-• Conmutada: 
+- Conmutada:
 Todos los dispositivos se conectan a conmutadores (switches) de Fibre Channel, 
 conceptualmente similares a las modernas implementaciones Ethernet. Los conmutadores 
 controlan el estado del medio físico, proporcionando interconexiones optimizadas. 
@@ -1784,7 +1726,7 @@ Su utilidad es reducir el costo de las soluciones de FC al eliminar la necesidad
 
  
  
-Periféricos: conectividad y administración 
+
  
  
  
@@ -1808,13 +1750,13 @@ NVMeoF: Non-Volatile Memory Express over Fabrics.
 Está diseñada para ofrecer la tecnología de alta velocidad y baja latencia de NVMe SSD por medio de 
 una trama de red. Actualmente se encuentran disponibles tres implementaciones básicas de trama 
 NVMe: 
-• NVMe over Fibre Channel. 
-• NVMe por medio de acceso remoto a la memoria directa. 
-• NVMe over TCP. 
+- NVMe over Fibre Channel.
+- NVMe por medio de acceso remoto a la memoria directa.
+- NVMe over TCP.
 
  
  
-Periféricos: conectividad y administración 
+
 Es una forma de ejecutar el protocolo NVMe sobre una trama de "switches". 
  
  
@@ -1828,9 +1770,9 @@ de trabajo empresariales.
  
 ### 🔵 4.2. Familias de controladoras
 Vamos a estudiar diferentes tipos de controladoras: 
-• RAID. 
-• SCSI. 
-• SATA. 
+- RAID.
+- SCSI.
+- SATA.
 #### 🔹 4.2.1. RAID
  
  
@@ -1840,13 +1782,13 @@ Este punto es muy importante, imprescindible para la seguridad de
 la información. 
 Lo explicamos de un modo sencillo y gráfico para que te resulte 
 más fácil comprenderlo y memorizarlo. 
-También dispones de clases en Temario Audiovisual. ¡Ánimo! 
+También dispones de clases en . ¡Ánimo! 
  
  
 
  
  
-Periféricos: conectividad y administración 
+
 Hoy en día la información es el activo más importante de las empresas. Un fallo en un disco duro 
 acarrea una pérdida de información y un tiempo en el que el sistema no está en explotación. 
 RAID (Redundant Array of Independent Disks, aunque en principio se denominó Redundant Array of 
@@ -1854,55 +1796,52 @@ Inexpensive Disks) es un sistema de almacenamiento de datos en el que se utiliza
 para constituir una única unidad lógica (es decir, que el sistema operativo, y por lo tanto el usuario, ven 
 como una sola unidad). 
 En RAID se buscan dos objetivos: 
-• Proteger el sistema ante fallos (mediante redundancia de datos). 
-• Mejorar el rendimiento (accediendo a 2 o más discos al mismo tiempo). 
+- Proteger el sistema ante fallos (mediante redundancia de datos).
+- Mejorar el rendimiento (accediendo a 2 o más discos al mismo tiempo).
 Existen distintas configuraciones de RAID o niveles de RAID. Cada uno proporciona distintas mejoras en 
 la seguridad y/o rendimiento, sacrificando parte del almacenamiento. 
 Te vamos a mostrar los niveles RAID estándar y algunos de los niveles RAID anidados. Omitiremos los 
 RAID propietarios. 
 Los niveles que vamos a ver son: 
-• RAID de un solo nivel: 
-• RAID 0 o fraccionamiento. 
-• RAID 1 o espejo. 
-• RAID 2. 
-• RAID 3. 
-• RAID 4. 
-• RAID 5. 
-• RAID 6. 
-• RAID 5E y 6E. 
-• RAID multinivel: 
-• RAID 0 + 1. 
-• RAID 1 + 0. 
-• RAID 30. 
-• RAID 50. 
-• RAID 100. 
-• RAID 101. 
+- RAID de un solo nivel:
+- RAID 0 o fraccionamiento.
+- RAID 1 o espejo.
+- RAID 2.
+- RAID 3.
+- RAID 4.
+- RAID 5.
+- RAID 6.
+- RAID 5E y 6E.
+- RAID multinivel:
+- RAID 0 + 1.
+- RAID 1 + 0.
+- RAID 30.
+- RAID 50.
+- RAID 100.
+- RAID 101.
 
  
  
-Periféricos: conectividad y administración 
+
 ##### 4.2.1.1. Sistemas RAID un solo nivel
 RAID 0 (o nivel 0) 
 También denominado striping o fragmentación. Los datos se desglosan en pequeños segmentos 
 (denominados stripe o chunk) y se distribuyen entre varias unidades. 
  
-Fragmentación de datos en dos discos 
+### 🔵 Fragmentación de datos en dos discos 
 Características: 
-• Los discos están conectados en paralelo, permitiendo una transferencia simultánea de datos a 
-todos ellos, lo cual implica una mayor velocidad en las operaciones de lectura y escritura. 
-• No hay redundancia de datos, por lo que no estamos mejorando la tolerancia a fallos. Al 
-contrario, la probabilidad de un fallo será mayor, ya que, para que el sistema falle, basta con que 
+- Los discos están conectados en paralelo, permitiendo una transferencia simultánea de datos a todos ellos, lo cual implica una mayor velocidad en las operaciones de lectura y escritura. 
+- No hay redundancia de datos, por lo que no estamos mejorando la tolerancia a fallos. Al contrario, la probabilidad de un fallo será mayor, ya que, para que el sistema falle, basta con que 
 falle uno de los discos. Por lo tanto, a mayor cantidad de discos, mayor probabilidad de fallo. 
-• No se pierde capacidad, salvo que se utilice con discos de distintos tamaños, en cuyo caso se 
-aprovechará de cada uno un tamaño equivalente al tamaño del disco más pequeño. 
-• Se necesita un mínimo de dos discos. 
-• La capacidad de un sistema RAID 0 = NxS, donde N es el número total de unidades en la matriz y 
+- No se pierde capacidad, salvo que se utilice con discos de distintos tamaños, en cuyo caso se aprovechará de cada uno un tamaño equivalente al tamaño del disco más pequeño. 
+- Se necesita un mínimo de dos discos.
+- La capacidad de un sistema RAID 0 = NxS, donde N es el número total de unidades en la matriz y
 S es la capacidad de la unidad más pequeña de la matriz. 
  
 
  
  
-Periféricos: conectividad y administración 
+
  
  
  
@@ -1930,17 +1869,14 @@ Copia síncrona de datos en dos discos
 
  
  
-Periféricos: conectividad y administración 
+
 Características: 
-• Obtiene integridad de la información a cambio de una gran cantidad espacio. 
-• La máxima capacidad de los discos viene determinada por el de menor tamaño, 
-desperdiciándose el resto (en caso de que sean de distinto tamaño). 
-• Se mejora el tiempo de lectura (se puede leer de varios discos a la vez), pero la escritura será 
-más lenta pues si bien no deja de ser paralela, los protocolos de comunicación, la gestión de 
+- Obtiene integridad de la información a cambio de una gran cantidad espacio.
+- La máxima capacidad de los discos viene determinada por el de menor tamaño, desperdiciándose el resto (en caso de que sean de distinto tamaño). 
+- Se mejora el tiempo de lectura (se puede leer de varios discos a la vez), pero la escritura será más lenta pues si bien no deja de ser paralela, los protocolos de comunicación, la gestión de 
 coherencia y verificación de datos pueden aumentar la latencia. 
-• Para perder información tendrían que romperse todos los discos. 
-• La capacidad de un sistema RAID 1 = S, donde S es la capacidad de la unidad más pequeña de la 
-matriz. 
+- Para perder información tendrían que romperse todos los discos.
+- La capacidad de un sistema RAID 1 = S, donde S es la capacidad de la unidad más pequeña de la matriz. 
 RAID 2 
 Este nivel está obsoleto y no tiene aplicaciones comerciales. 
 Distribuye los datos a nivel de bit y utiliza el código ECC para la corrección de errores. 
@@ -1959,23 +1895,22 @@ Para perder información debe fallar un disco de datos y el que contiene su cód
 
  
  
-Periféricos: conectividad y administración 
+
  
 Diagrama de configuración RAID 2 de 7 discos 
 RAID 3 
  
  
  
-Atención 
+### 🔵 Atención 
 Este nivel prácticamente ha dejado de utilizarse. 
  
  
 Para entender este sistema de RAID 3, hay que conocer el concepto de PARIDAD: 
-• Un bit de paridad es un dígito binario, que indica si el número de bits, con un valor de 1 en un 
-conjunto de bits, es par o impar. 
+- Un bit de paridad es un dígito binario, que indica si el número de bits, con un valor de 1 en un conjunto de bits, es par o impar. 
 Los bits de paridad conforman el método de detección de errores más simple. 
 La idea básica es contar el nº de unos (1) que hay. 
-• En el caso de la PARIDAD PAR: 
+- En el caso de la PARIDAD PAR:
 » Si el conteo de bits con valor 1 es impar, el bit de paridad se establece con valor 1, y así \nel valor de la suma ya es par. 
 Ejemplo: 
 1001001( ) hay 3 unos, por lo que es un valor impar, para cumplir la paridad PAR, 
@@ -1983,14 +1918,14 @@ debemos añadir otro uno 1001001(1), ahora hay 4 unos y se cumple la paridad par
 
  
  
-Periféricos: conectividad y administración 
+
 » Si el conteo de bits con valor 1 es par, entonces el bit de paridad (par) se deja en 0, 
 pues ya es par. 
 Ejemplo: 
 1000001( ) hay 2 unos, por lo que es un valor par, para cumplir la paridad PAR, no 
 necesitamos añadir otro 1, ponemos un cero 1000001(0) y como sigue habiendo 2 
 unos, se cumple la paridad par. 
-• En el caso de la PARIDAD IMPAR: 
+- En el caso de la PARIDAD IMPAR:
 La situación es la contraria, por tanto: 
 » Si el conteo de bits con valor 1 es impar, entonces ya se cumple la PARIDAD IMPAR y 
 no es necesario añadir ningún 1 más, por lo que se pone el bit de paridad con valor 0. 
@@ -2015,7 +1950,7 @@ paridad para identificar errores.
 
  
  
-Periféricos: conectividad y administración 
+
  
 Diagrama de configuración RAID 3 de 4 discos 
 RAID 4 
@@ -2028,11 +1963,10 @@ Diagrama de configuración RAID 4 de 4 discos
 
  
  
-Periféricos: conectividad y administración 
+
 Características: 
-• Para perder información deben fallar dos discos. 
-• El rendimiento para leer es bueno, pero no en la escritura, ya que en todas las peticiones 
-debemos acceder al disco de paridad. Por esta razón, este nivel no se usa prácticamente y ha 
+- Para perder información deben fallar dos discos.
+- El rendimiento para leer es bueno, pero no en la escritura, ya que en todas las peticiones debemos acceder al disco de paridad. Por esta razón, este nivel no se usa prácticamente y ha 
 sido sustituido por el nivel 5. 
 RAID 5 
 También llamado sistema distribuido con paridad, se sigue utilizando en la actualidad. 
@@ -2051,21 +1985,18 @@ Diagrama de configuración RAID 5 de 4 discos
 
  
  
-Periféricos: conectividad y administración 
+
 Características: 
-• Se necesitan al menos tres unidades de almacenamiento para asegurad la redundancia de datos 
-con paridad. 
+- Se necesitan al menos tres unidades de almacenamiento para asegurad la redundancia de datos con paridad. 
 En dos se distribuye un determinado dato y en el tercero se añade la información de paridad). 
-• Se tolera únicamente que falle una unidad, ya que si fallan dos perderemos la información de 
-paridad, y al menos uno de los bloques de datos implicados. 
+- Se tolera únicamente que falle una unidad, ya que si fallan dos perderemos la información de paridad, y al menos uno de los bloques de datos implicados. 
 Para perder la información deben fallar dos discos de forma simultánea, ya que la información 
 de paridad contenida en un disco no corresponde a los datos de este disco y, por lo tanto, al 
 romperse el disco, la información de paridad de los datos de este disco está distribuida en el 
 resto (no están en el disco roto). 
-• Desperdicia poco espacio de almacenamiento. 
-• Tiene un buen rendimiento de lectura y escritura, ya que hace participar a todos los discos en 
-cada operación. 
-• El cálculo de la paridad añade una sobrecarga a la escritura de datos. 
+- Desperdicia poco espacio de almacenamiento.
+- Tiene un buen rendimiento de lectura y escritura, ya que hace participar a todos los discos en cada operación. 
+- El cálculo de la paridad añade una sobrecarga a la escritura de datos.
 Veamos cómo calcular el almacenamiento en un RAID 5: 
 La tecnología RAID 5 (matriz redundante de discos independientes) proporciona tolerancia a fallos para 
 un grupo (o matriz) de discos duros, permitiendo a la matriz soportar que falle un disco duro sin perder 
@@ -2083,32 +2014,28 @@ paridad en vez de uno. La paridad se sigue distribuyendo entre los discos.
 
  
  
-Periféricos: conectividad y administración 
+
  
 Diagrama de configuración RAID 6 de 5 discos 
 Características: 
-• Debe tener un mínimo de cuatro discos (dos para distribuir datos y dos para paridad). 
-• Para perder la información deben fallar tres discos, ya que la doble paridad permite recuperar 
-dos bits. 
-• Se desperdicia espacio. 
-• El cálculo de la doble paridad añade una sobrecarga importante. 
-• La capacidad de un sistema RAID 6 = (N-2) x S, donde N es el número total de unidades en la 
-matriz y S es la capacidad de la unidad más pequeña. 
+- Debe tener un mínimo de cuatro discos (dos para distribuir datos y dos para paridad).
+- Para perder la información deben fallar tres discos, ya que la doble paridad permite recuperar dos bits. 
+- Se desperdicia espacio.
+- El cálculo de la doble paridad añade una sobrecarga importante.
+- La capacidad de un sistema RAID 6 = (N-2) x S, donde N es el número total de unidades en la matriz y S es la capacidad de la unidad más pequeña. 
 RAID 5E y 6E 
 Se puede decir que el RAID 5E y RAID 6E coinciden en el término 'Enhanced (mejorado)'. 
 Las mejoras consisten en la gestión física y lógica de la reconstrucción ante el fallo de un disco, pueden 
 abordarse de dos maneras distintas. 
-• En el sistema Hot Spare, una unidad de almacenamiento permanece en espera hasta que falla 
-una unidad del array, momento en el cual la controladora la utiliza para reemplazarla 
+- En el sistema Hot Spare, una unidad de almacenamiento permanece en espera hasta que falla una unidad del array, momento en el cual la controladora la utiliza para reemplazarla 
 automáticamente. Durante la reconstrucción, los datos del disco dañado se recuperan ya sea 
 mediante la información de paridad o a partir de la copia espejo, según el nivel de RAID 
 configurado. 
 
  
  
-Periféricos: conectividad y administración 
-• El sistema Distributed Spare no utiliza un disco físico de repuesto. En su lugar, crea espacios 
-reservados distribuidos entre todos los discos sanos del array, que funcionan colectivamente 
+
+- El sistema Distributed Spare no utiliza un disco físico de repuesto. En su lugar, crea espacios reservados distribuidos entre todos los discos sanos del array, que funcionan colectivamente 
 como un 'disco virtual de emergencia'. Cuando ocurre un fallo, estos espacios almacenan 
 temporalmente los datos reconstruidos (utilizando la información de paridad de los discos 
 restantes). Posteriormente, al insertar un nuevo disco físico, los datos se vuelcan desde estos \nespacios distribuidos a la nueva unidad, liberando así la capacidad reservada y restaurando la 
@@ -2121,13 +2048,12 @@ Seguro que lo ves más claro en la siguiente imagen:
  
 Diagrama de configuración RAID 0+1 de cuatro discos 
 Características: 
-• Es menos robusto que el RAID 1 + 0, ya que no pueden ocurrir dos fallos simultáneos de disco 
-salvo que sean en la misma división. 
-• Necesita al menos cuatro discos. 
+- Es menos robusto que el RAID 1 + 0, ya que no pueden ocurrir dos fallos simultáneos de disco salvo que sean en la misma división. 
+- Necesita al menos cuatro discos.
 
  
  
-Periféricos: conectividad y administración 
+
 RAID 1 + 0 
 Es una división de espejos. Similar al anterior, salvo que primero hacemos dos conjuntos RAID 1 con dos 
 o más discos cada grupo y, a continuación, segmentamos los datos entre los dos grupos. 
@@ -2151,7 +2077,7 @@ Se consigue mayor redundancia, fiabilidad y velocidad.
 
  
  
-Periféricos: conectividad y administración 
+
 RAID 100 
 En lugar de tener un árbol de dos niveles, lo tenemos de tres. 
 En el caso del RAID 100 o 1+0+0, el sistema consiste en dos subniveles de RAID 1+0 divididos a su vez 
@@ -2159,7 +2085,7 @@ por un nivel principal también en RAID 0.
 Su velocidad de acceso y redundancia son muy buenos, y ofrecen buena tolerancia a fallos. 
 Todos los discos menos uno, podrían fallar en cada RAID 1 sin perder datos. 
 La cantidad de disco a utilizar es considerable frente a la disponibilidad de espacio. 
-Puede ser la mejor elección para bases de datos muy grandes, donde el software limita la cantidad de 
+Puede ser la mejor elección para 
 discos físicos permitidos en cada conjunto estándar. 
 RAID 101 
 Es un sistema de tres niveles. 
@@ -2178,33 +2104,33 @@ SCSI es popular en estaciones de trabajo de alto rendimiento y servidores. Los s
 servidores casi siempre usan discos duros SCSI, aunque varios fabricantes ofrecen sistemas RAID 
 basados en SATA como una opción de menor coste. 
 Características de SCSI: 
-• Utilizan CCS (Command Common Set): 
+- Utilizan CCS (Command Common Set):
 Es un conjunto de comandos para acceder a los dispositivos que los hacen más o menos 
 compatibles. 
 
  
  
-Periféricos: conectividad y administración 
-• Hacen falta terminadores (jumperes o terminales físicos) en el inicio y fin de la cadena. 
-• Número máximo de dispositivos: la controladora cuenta como un dispositivo (identificador 7, 15). 
-• Bus: 
+
+- Hacen falta terminadores (jumperes o terminales físicos) en el inicio y fin de la cadena.
+- Número máximo de dispositivos: la controladora cuenta como un dispositivo (identificador 7, 15).
+- Bus:
 Puede ser de 8 bits o de 16 bits: 
-• Bus de 8 bits; 7 dispositivos: identificados del 0 al 6; conector de 50 pines. 
-• Bus de 16 bits: 15 dispositivos: identificados del 0 al 14; conector de 68 pines. 
-• SCSI 1, SCSI 2 y SCSI 3.1 (SPI) conectan los dispositivos en paralelo. 
-• SCSI 3.2 (FireWire), SCSI 3.3 (SSA) y SCSI 3.4 (FC-AL) conectan los dispositivos en serie. 
-Tipos de SCSI 
+- Bus de 8 bits; 7 dispositivos: identificados del 0 al 6; conector de 50 pines.
+- Bus de 16 bits: 15 dispositivos: identificados del 0 al 14; conector de 68 pines.
+- SCSI 1, SCSI 2 y SCSI 3.1 (SPI) conectan los dispositivos en paralelo.
+- SCSI 3.2 (FireWire), SCSI 3.3 (SSA) y SCSI 3.4 (FC-AL) conectan los dispositivos en serie.
+### 🔵 Tipos de SCSI 
 Existen 3 generaciones de SCSI: 
-• SCSI 1: 
+- SCSI 1:
 Las características de SCSI 1 son: 
-• Bus de 8 bits. 
-• Velocidad de transmisión de datos a 5 MB/s. 
-• Su conector genérico es de 50 pines (conector Centronics) y baja densidad. 
-• La longitud máxima del cable es de seis metros. 
-• Permite hasta 8 dispositivos (incluida la controladora), identificados por las direcciones 0 a 7. 
-• SCSI 2: 
+- Bus de 8 bits.
+- Velocidad de transmisión de datos a 5 MB/s.
+- Su conector genérico es de 50 pines (conector Centronics) y baja densidad.
+- La longitud máxima del cable es de seis metros.
+- Permite hasta 8 dispositivos (incluida la controladora), identificados por las direcciones 0 a 7.
+- SCSI 2:
 Hay dos tipos de SCSI 2: 
-• Fast: 
+- Fast:
 » Con un bus de 8. 
 » Dobla la velocidad de transmisión (de 5 MB/s a 10 MB/s). 
 » Su conector genérico es de 50 pines y alta densidad. 
@@ -2214,30 +2140,25 @@ direcciones 0 a 7.
 
  
  
-Periféricos: conectividad y administración 
-• Wide: 
+
+- Wide:
 » Dobla el bus (pasa de 8 a 16 bits). 
 » Su conector genérico es de 68 pines y alta densidad. 
 » La longitud máxima del cable es de tres metros. 
 » Permite hasta 16 dispositivos (incluida la controladora), identificados por las 
 direcciones 0 a 15. 
-• SCSI 3 SPI: 
+- SCSI 3 SPI:
 En la tercera generación de SCSI, aparecen las interfaces de conexión serie, como SSA, FC-AL y 
 FireWire, pero continúan coexistiendo con las interfaces SCSI paralelas. Para diferenciar las 
 interfaces serie de las paralelas, se introdujo el término SPI (SCSI Parallel Interface), que se 
 refiere específicamente a las interfaces de conexión paralela. 
 Dentro de las conexiones paralelas de tercera generación SCSI-3 SPI, se identifican varias 
 versiones con diferentes velocidades de transferencia y características: 
-• Ultra: con una velocidad de hasta 20 MB/s, utilizaba conectores de 50 o 68 pines y tenía una 
-longitud máxima de cable de alrededor de 1.5 metros. También se conoce como Fast-20. 
-• Ultra Wide: Ofrecía una velocidad de hasta 40 MB/s, utilizando conectores de 68 pines y 
-manteniendo una longitud máxima de cable similar. También se conoce como Wide SCSI-3. 
-• Ultra 2: alcanzaba velocidades de hasta 80 MB/s, también con conectores de 68 pines pero 
-permitiendo una longitud de cable de hasta 12 metros.También se conoce como Fast 40. 
-• Ultra320: con velocidad de hasta 320 MBps, conectores de 68 pines y alta densidad. La 
-longitud máxima del cable es de 12 metros. 
-• Ultra640: con velocidad de hasta 640 MBps, conectores de 68 pines y alta densidad. La 
-longitud máxima del cable es de 12 metros. 
+- Ultra: con una velocidad de hasta 20 MB/s, utilizaba conectores de 50 o 68 pines y tenía una longitud máxima de cable de alrededor de 1.5 metros. También se conoce como Fast-20. 
+- Ultra Wide: Ofrecía una velocidad de hasta 40 MB/s, utilizando conectores de 68 pines y manteniendo una longitud máxima de cable similar. También se conoce como Wide SCSI-3. 
+- Ultra 2: alcanzaba velocidades de hasta 80 MB/s, también con conectores de 68 pines pero permitiendo una longitud de cable de hasta 12 metros.También se conoce como Fast 40. 
+- Ultra320: con velocidad de hasta 320 MBps, conectores de 68 pines y alta densidad. La longitud máxima del cable es de 12 metros. 
+- Ultra640: con velocidad de hasta 640 MBps, conectores de 68 pines y alta densidad. La longitud máxima del cable es de 12 metros. 
 Todas estas versiones utilizaban la interfaz SCSI paralela, que fue ampliamente utilizada en 
 sistemas informáticos durante muchos años. Sin embargo, debido a sus limitaciones en 
 cuanto a velocidad y escalabilidad, ha sido reemplazada por tecnologías más modernas 
@@ -2247,19 +2168,19 @@ velocidades alcanzables, las distancias y las topologías de conexión.
 
  
  
-Periféricos: conectividad y administración 
-• SCSI 3 Interfaces Serie: 
+
+- SCSI 3 Interfaces Serie:
 La decisión de conservar la denominación SCSI en tecnologías seriales como FireWire (SCSI 
 3.2), SSA (SCSI 3.3) y FC-AL (SCSI 3.4) fue una estrategia que combinó la necesidad de 
 mantener la compatibilidad, aprovechar la reputación de un estándar establecido y facilitar la 
 transición hacia nuevas tecnologías. 
-• FireWire (IEEE 1394). 
+- FireWire (IEEE 1394).
 Es un estándar de conexión para la transferencia de datos a alta velocidad, utilizado 
 principalmente en cámaras digitales, discos duros externos y otros dispositivos de 
 almacenamiento. 
-• SSA (Serial Storage Architecture), de IBM. 
+- SSA (Serial Storage Architecture), de IBM.
 Usa full-dúplex con canales separados. 
-• FC-AL (Fibre Channel Arbitrated Loop). 
+- FC-AL (Fibre Channel Arbitrated Loop).
 Usa cables de fibra óptica (hasta 10 km) o coaxial (hasta 24 m). Con una velocidad máxima 
 de 100 MBps. 
 #### 🔹 4.2.3. SATA
@@ -2272,22 +2193,22 @@ SATA proporciona mayores velocidades que las antiguas interfaces y asegura una m
 del flujo de datos debido principalmente a que existe un cable exclusivamente dedicado a cada unidad a 
 él conectado. 
 Además proporciona otras ventanas como las siguientes: 
-• Soporta mayores longitudes del cable, y además son mucho más pequeños. 
-• Cuenta con la capacidad de conexión en caliente, tal y como ocurre con los puertos USB. 
-• Es una interfaz estandarizada y que soportan todas las placas base del mercado. 
+- Soporta mayores longitudes del cable, y además son mucho más pequeños.
+- Cuenta con la capacidad de conexión en caliente, tal y como ocurre con los puertos USB.
+- Es una interfaz estandarizada y que soportan todas las placas base del mercado.
 SATA ha ido evolucionando en diferentes versiones, que son: 
-• SATA 1.0: 
+- SATA 1.0:
 Esta fue la primera versión que trabajaba a 1,5Gb/s de aquí la denominación de SATA 1,5 Gb/s. 
 Con esta conexión podíamos alcanzar una velocidad real de 150 MB/s. 
 
  
  
-Periféricos: conectividad y administración 
-• SATA 2.0: 
+
+- SATA 2.0:
 En esta segunda versión velocidad se duplicó, alcanzando los 3Gb/s y una velocidad de 
 300MB/s. 
 También se conoce como SATA 3Gb/s. 
-• SATA 3.0: 
+- SATA 3.0:
 Este es el estándar actualmente que implementan todos los discos duros con esta interfaz. 
 En este caso velocidad de transmisión es de 6Gb/s que resultan de una velocidad máxima de 
 600 MB/s. se conoce como SATA 6Gb/s. 
@@ -2295,7 +2216,7 @@ La razón de esta merma de eficiencia en SATA 3.0 es debida a que de cada 8bits 
 se usan para la codificación, es codificación 8b/10b. 
 Así pues, a los 750MB resultantes de la conversión de Gb a MB le restaremos un 20%, 
 obteniendo la velocidad de 600MB/s mencionada. 
-Conectores SATA 
+### 🔵 Conectores SATA 
 SATA es una tecnología de conexión punto a punto, es decir, tendremos una conexión física entre dos 
 dispositivos de forma directa y sin interferencias con otros dispositivos conectados, como ocurría en el 
 caso de los conectores IDE en los que era necesario configurar un dispositivo como maestro y otro 
@@ -2306,36 +2227,36 @@ El conector tiene una anchura de 8 mm y en un extremo dispone de una terminació
 identificar la posición correcta del conector macho y hembra. Este conector puede tener una longitud 
 máxima de 1 m, frente al máximo de 45 cm que tenía los cables IDE. 
 La función de los pines, empezando por los más alejados de la terminación a 90º: 
-• Tierra. 
-• A+ (transmisión). 
-• A- (transmisión). 
-• Tierra. 
-• B+ (recepción). 
-• B- (recepción). 
-• Tierra. 
+- Tierra.
+- A+ (transmisión).
+- A- (transmisión).
+- Tierra.
+- B+ (recepción).
+- B- (recepción).
+- Tierra.
 
  
  
-Periféricos: conectividad y administración 
+
 ##### 4.2.3.2. Conector SATA de alimentación
 Conector de 15 pines, solo le entran cinco cables, en este caso dos cables negros, uno amarillo, uno 
 naranja y otro rojo. 
 La función de los pines, empezando por los más cercanos de la terminación a 90º: 
-• Naranja - Tensión (3,3V). 
-• Naranja - Tensión (3,3V). 
-• Naranja - Tensión (3,3V) Pre-carga. 
-• Negro - Tierra. 
-• Negro - Tierra. 
-• Negro – Tierra. 
-• Rojo - Tensión (5V) Pre-carga. 
-• Rojo - Tensión (5V). 
-• Rojo - Tensión (5V). 
-• Negro – Tierra. 
-• Negro – Tierra. 
-• Negro – Tierra. 
-• Amarillo - Tensión (12V) Pre-carga. 
-• Amarillo - Tensión (12V). 
-• Amarillo - Tensión (12V). 
+- Naranja - Tensión (3,3V).
+- Naranja - Tensión (3,3V).
+- Naranja - Tensión (3,3V) Pre-carga.
+- Negro - Tierra.
+- Negro - Tierra.
+- Negro – Tierra.
+- Rojo - Tensión (5V) Pre-carga.
+- Rojo - Tensión (5V).
+- Rojo - Tensión (5V).
+- Negro – Tierra.
+- Negro – Tierra.
+- Negro – Tierra.
+- Amarillo - Tensión (12V) Pre-carga.
+- Amarillo - Tensión (12V).
+- Amarillo - Tensión (12V).
 ##### 4.2.3.3. SATA externo o Esata
 Es un conector destinado a unidades de almacenamiento externas que no trabajan mediante interfaz 
 USB. Si bien esta interfaz no está demasiado utilizada, ya que la velocidad de transmisión es de 115 
@@ -2345,7 +2266,7 @@ SATA y USB y que cuenta con capacidad para discos RAID.
 
  
  
-Periféricos: conectividad y administración 
+
 ##### 4.2.3.4. Conector Mini SATA o mSATA
 Este conector utiliza una interfaz similar a la Mini-PCI pero no son conectores equivalentes ni pueden 
 ser intercambiables. 
@@ -2381,25 +2302,25 @@ se almacenen en diferentes dispositivos físicos de almacenamiento.
 
  
  
-Periféricos: conectividad y administración 
+
 Algunas posibilidades para la gestión de volúmenes son: 
-Tipo 
+### 🔵 Tipo 
 Comentario 
 RAID 
 Permite unir varios dispositivos físicos en un volumen lógico 
 Sus usos habituales son: lograr tolerancia a fallos y/o mejorar el rendimiento 
 Está disponible en soluciones hardware o software para multitud de SOs 
-LVM 
+### 🔵 LVM 
 Administrador de volúmenes lógicos 
 Permite crear dinámicamente volúmenes lógicos compuestos por diferentes dispositivos físicos, estos 
 volúmenes lógicos pueden variar su tamaño mientras están en uso 
 Disponible en varios SOs, entre ellos GNU/Linux 
-EVMS 
+### 🔵 EVMS 
 Proporciona un mecanismo unificado para gestionar todas las opciones de almacenamiento en 
 GNU/Linux 
-ZFS 
+### 🔵 ZFS 
 El sistema de ficheros ZFS incorpora la administración de volúmenes 
-Btrfs 
+### 🔵 Btrfs 
 El sistema de ficheros Btrfs incorpora la administración de volúmenes 
 ## 🟣 5. Hardware de impresión
 Las impresoras son periféricos que escriben o dibujan la información de salida sobre el papel. 
@@ -2415,47 +2336,46 @@ velocidad.
 
  
  
-Periféricos: conectividad y administración 
+
 ### 🔵 5.1. Partes de la impresoras
 Las impresoras tienen dos partes: 
-• Parte mecánica. Accionan los elementos que producen la impresión y se encarga de la 
-alimentación y arrastre del papel. 
-• Parte electrónica. Se encarga de convertir las señales procedentes del PC en estímulos \neléctricos que producirán la impresión sobre el papel de las partes mecánicas. 
+- Parte mecánica. Accionan los elementos que producen la impresión y se encarga de la alimentación y arrastre del papel. 
+- Parte electrónica. Se encarga de convertir las señales procedentes del PC en estímulos \neléctricos que producirán la impresión sobre el papel de las partes mecánicas.
 ### 🔵 5.2. Clasificación
 Existen diversas formas de clasificar las impresoras. Algunas de ellas son: 
 #### 🔹 5.2.1. Según el mecanismo de impresión
-• De impacto. El mecanismo roza o golpea el papel. 
-• Sin impacto. No existe contacto entre el cabezal de impresión y el papel. 
+- De impacto. El mecanismo roza o golpea el papel.
+- Sin impacto. No existe contacto entre el cabezal de impresión y el papel.
 #### 🔹 5.2.2. Según la forma de imprimir los caracteres
-• Impresoras de caracteres. 
-• Impresoras de líneas. 
-• Impresoras de páginas. 
+- Impresoras de caracteres.
+- Impresoras de líneas.
+- Impresoras de páginas.
 #### 🔹 5.2.3. Según la tecnología utilizada
-• De impacto. El mecanismo de impresión tiene contacto con el papel. Existen dos tipos: 
-• De margarita. 
-• Matriciales. 
-• De tinta. Son económicas y dan buena calidad. Podemos distinguir 2 tipos: 
-• De inyección de tinta. 
-• De burbuja. 
+- De impacto. El mecanismo de impresión tiene contacto con el papel. Existen dos tipos:
+- De margarita.
+- Matriciales.
+- De tinta. Son económicas y dan buena calidad. Podemos distinguir 2 tipos:
+- De inyección de tinta.
+- De burbuja.
 
  
  
-Periféricos: conectividad y administración 
-• Láser. Rápidas y de gran calidad. 
-• Térmicas. Podemos encontrar tres tipos: 
-• Impresoras de papel térmico. 
-• Impresoras de cera. 
-• Impresoras de transferencia térmica con sublimación. 
-• Sublimación. La tinta se utiliza en estado gaseoso y no líquido. 
-• Electroestáticas. 
-• Tinta sólida. 
+
+- Láser. Rápidas y de gran calidad.
+- Térmicas. Podemos encontrar tres tipos:
+- Impresoras de papel térmico.
+- Impresoras de cera.
+- Impresoras de transferencia térmica con sublimación.
+- Sublimación. La tinta se utiliza en estado gaseoso y no líquido.
+- Electroestáticas.
+- Tinta sólida.
 #### 🔹 5.2.4. Trazadores o plotters
 Otro tipo de dispositivos de impresión que hay que mencionar, son los trazadores o plotters. Estos 
 pueden ser de cuatro tipos: 
-• De tambor vertical. 
-• De plataforma. 
-• Electroestático. 
-• De inyección. 
+- De tambor vertical.
+- De plataforma.
+- Electroestático.
+- De inyección.
 ### 🔵 5.3. Descripción de los tipos de impresoras
 #### 🔹 5.3.1. Impresoras de impacto
 Son difíciles de encontrar hoy en día, aunque aún se usan algunas matriciales porque, al golpear el papel, 
@@ -2468,7 +2388,7 @@ puntos.
 
  
  
-Periféricos: conectividad y administración 
+
 Margarita (en desuso) 
 La impresora tiene un tambor que contiene todas las letras del alfabeto (en mayúsculas y minúsculas) y 
 los signos de puntuación. 
@@ -2476,14 +2396,14 @@ El tambor rota para posicionarse en el carácter que queremos imprimir y lo golp
 martillo. Entre el papel y el rodillo se encuentra una cinta con tinta. 
 No permiten imprimir gráficos y, para cambiar el tipo de letra, hay que reemplazar físicamente el rodillo 
 de impresión. 
-Matriciales 
+### 🔵 Matriciales 
 También denominadas de matriz de puntos o de agujas. Su funcionamiento se basa en una matriz de 
 agujas que golpean, de forma individual, sobre una cinta de tinta que marca el papel. 
 Los modelos más comunes utilizaban 9 y 24 agujas. Permitían imprimir gráficos y utilizar distintos tipos 
 de letra. 
 #### 🔹 5.3.2. Impresoras de tinta
 Podemos distinguir dos tipos, las impresoras de inyección de tinta y las de burbuja. 
-Inyección de tinta 
+### 🔵 Inyección de tinta 
 Son las más utilizadas hoy en día por su relación calidad-precio. Consiguen resultados de gran calidad a 
 bajo precio. 
 Estas impresoras tienen unos inyectores que expulsan gotas de tinta líquida contra el papel formando, 
@@ -2501,14 +2421,14 @@ Un material piezoeléctrico es aquel que produce una corriente \neléctrica al a
 
  
  
-Periféricos: conectividad y administración 
+
 La tinta se encuentra en unos cartuchos reemplazables. Antiguamente se utilizaban dos cartuchos (uno 
 negro y otro de color). Hoy en día se utiliza uno negro y tres o cuatro cartuchos de color. Algunos 
 cartuchos incluyen también el cabezal de impresión. (El uso de cartuchos no originales, cuya tinta era 
 más ácida dañaba el cabezal de impresión). 
 La calidad de impresión depende de la resolución (puntos por pulgada o p. p. p.), la tinta y el papel 
 utilizado. 
-Burbuja 
+### 🔵 Burbuja 
 Tiene un funcionamiento similar a las de tinta, pero la gota de tinta se controla mediante calor. 
 El procedimiento es el siguiente: 
 1. Un calentador en el tubo capilar del cabezal de impresión vaporiza un poco de tinta, generando 
@@ -2524,7 +2444,7 @@ Utilizan uno o más tóneres. Un tóner es un cilindro relleno con tinta en polv
  
  
  
-Vídeo 
+### 🔵 Vídeo 
 Antes de continuar, puedes hacer una pausa para ver un vídeo. Te 
 llevará un par de minutos. 
 "Funcionamiento de impresión Láser". 
@@ -2535,17 +2455,14 @@ https://www.youtube.com/watch?v=99CUorxtyAs
 
  
  
-Periféricos: conectividad y administración 
+
 El proceso de impresión sería el siguiente: 
-• Un ordenador envía una orden de impresión, la cual es recibida y procesada por unos circuitos 
-internos de la impresora. 
-• Se almacenan los datos a imprimir en un buffer de memoria RAM que tiene la impresora. 
-• Un mecanismo electromecánico acomoda la hoja dependiendo de lo que se vaya a imprimir. 
-• El escáner emite un haz de luz láser que se refleja a través de un espejo sobre el tambor. Al 
-incidir la luz sobre este, se carga electroestáticamente y atrae el polvo del tóner sobre su 
+- Un ordenador envía una orden de impresión, la cual es recibida y procesada por unos circuitos internos de la impresora. 
+- Se almacenan los datos a imprimir en un buffer de memoria RAM que tiene la impresora.
+- Un mecanismo electromecánico acomoda la hoja dependiendo de lo que se vaya a imprimir.
+- El escáner emite un haz de luz láser que se refleja a través de un espejo sobre el tambor. Al incidir la luz sobre este, se carga electroestáticamente y atrae el polvo del tóner sobre su 
 superficie para formar el carácter o figura sobre el tambor. 
-• El tambor deposita el tóner en el papel, este pasa luego a través de un fusor, que es un rodillo 
-giratorio que alcanza altas temperaturas. Por presión y temperatura funde el tóner sobre el 
+- El tambor deposita el tóner en el papel, este pasa luego a través de un fusor, que es un rodillo giratorio que alcanza altas temperaturas. Por presión y temperatura funde el tóner sobre el 
 papel. El polvo al enfriarse, se pega a la hoja y genera la impresión (el tambor y fusor, tienen una 
 vida limitada de impresiones de hojas, cuando se alcanza ese número es necesario cambiarlos, 
 aunque en el caso del fusor el número es tan alto que no es corriente). 
@@ -2568,7 +2485,7 @@ y el papel que utilizan es muy caro.
 
  
  
-Periféricos: conectividad y administración 
+
 #### 🔹 5.3.6. Impresoras electroestáticas
 Electroestáticas o de transferencia directa utilizan un papel dieléctrico sobre el que generan zonas 
 cargadas negativamente mediante unas agujas. 
@@ -2600,11 +2517,11 @@ individuo.
 
  
  
-Periféricos: conectividad y administración 
+
  
  
  
-Ejemplo 
+### 🔵 Ejemplo 
 En las operaciones para introducir una prótesis de rodilla en un 
 paciente, el médico introducía la prótesis con una forma 
 aproximada y luego, durante la operación, la iba moldeando, por lo 
@@ -2616,9 +2533,8 @@ copia exacta de los huesos de la pierna del cliente.
  
 Las impresoras 3D utilizan distintos procesos para imprimir dependiendo de su tecnología. Destacamos 
 algunas formas de realizar la impresión: 
-• Acumulando capas de polvo de diversos metales, las cuales son fundidas entre sí por mediación 
-de un láser. 
-• Compactando los estratos de polvo. 
+- Acumulando capas de polvo de diversos metales, las cuales son fundidas entre sí por mediación de un láser. 
+- Compactando los estratos de polvo.
 Mediante la inyección de polímeros (aglutinante). 
 #### 🔹 5.3.10. Plotters
  
@@ -2629,7 +2545,7 @@ superior).
 
  
  
-Periféricos: conectividad y administración 
+
 Antiguamente consistían en una serie de plumillas móviles de diferentes grosores y colores que se 
 movían por la hoja reproduciendo el plano. Eran imprecisos y requerían mantenimiento. 
 En la actualidad, la mayoría de los plotters son de inyección de tinta. En realidad, son impresoras de tinta 
@@ -2647,7 +2563,7 @@ te vamos a mostrar un breve resumen de las pantallas táctiles.
 ### 🔵 6.1. Tarjeta gráfica
 La tarjeta de vídeo o tarjeta gráfica se encarga de procesar los datos que le llegan del procesador para 
 generar una salida que podrá representarse en un monitor. 
-Evolución histórica 
+### 🔵 Evolución histórica 
 La evolución histórica de los ordenadores personales está intrínsecamente ligada a la de las tarjetas 
 gráficas. 
 Hasta principios de los años 80, hablamos de adaptadores de imagen más que de tarjetas gráficas en el 
@@ -2660,7 +2576,7 @@ un chipset muy básico dedicado al procesamiento de gráficos.
 
  
  
-Periféricos: conectividad y administración 
+
 La contribución importante del VGA (Video Graphics Array), lanzado en 1987, fue la adopción de un 
 conjunto de especificaciones (conector de 15 pines, controladores, compatibilidad con modos 
 anteriores) que promovió la interoperabilidad entre múltiples fabricantes. 
@@ -2681,42 +2597,35 @@ La VRAM y el desarrollo de los procesadores de gráficos en forma de GPUs han ev
 tiempo hasta fundirse en la misma pieza de silicio, el mismo chipset. 
 Los conectores también evolucionan del VGA al DVI, HDMI y Display Port. 
 Cuando hablamos hoy día de una tarjeta gráfica contemplamos los siguientes elementos: 
-• GPU (Graphics Processing Unit) procesa y renderiza gráficos. 
-• VRAM permite el rápido acceso de la GPU a los datos. 
-• VRM (Voltage Regulator Module) suministra voltaje adecuado a los demás componentes del 
-adaptador. 
-• VBIOS (Vídeo BIOS) almacena las configuraciones de los componentes del adaptador. 
-• Refrigeración, mantiene entre disipadores y ventiladores una temperatura segura para los 
-componentes. 
-• Interfaces de conexión, externas (VGA, DVI, HDMI, DisplayPort) e internas (AGP, PCIe). 
-Tipos 
+- GPU (Graphics Processing Unit) procesa y renderiza gráficos.
+- VRAM permite el rápido acceso de la GPU a los datos.
+- VRM (Voltage Regulator Module) suministra voltaje adecuado a los demás componentes del adaptador. 
+- VBIOS (Vídeo BIOS) almacena las configuraciones de los componentes del adaptador.
+- Refrigeración, mantiene entre disipadores y ventiladores una temperatura segura para los componentes. 
+- Interfaces de conexión, externas (VGA, DVI, HDMI, DisplayPort) e internas (AGP, PCIe).
+### 🔵 Tipos 
 Según donde se encuentran y qué recursos del ordenador utilizan, podemos encontrar dos tipos de 
 tarjetas: 
-• Integrada. Suele estar integrada en la placa base, aunque también puede estar en la CPU. Su 
-coste es reducido, pero consume recursos de la CPU. 
+- Integrada. Suele estar integrada en la placa base, aunque también puede estar en la CPU. Su coste es reducido, pero consume recursos de la CPU. 
 
  
  
-Periféricos: conectividad y administración 
-• Dedicada (o discreta). Es una tarjeta no integrada en la placa base, se conecta a está 
-normalmente en una ranura de expansión (como PCI-Express) y cuenta con una unidad de 
+
+- Dedicada (o discreta). Es una tarjeta no integrada en la placa base, se conecta a está normalmente en una ranura de expansión (como PCI-Express) y cuenta con una unidad de 
 procesamiento (GPU o graphics processing unit) y una memoria (GRAM) propias e 
 independientes de la memoria y del procesador del ordenador, son más potentes que las 
 gráficas integradas y algunas incluyen su propio disipador. 
-Interfaz con la placa base 
+### 🔵 Interfaz con la placa base 
 Han existido muchos sistemas de conexión entre la tarjeta gráfica y la placa base. Actualmente, el más 
 utilizado es PCI-Express (PCIe), aunque aún se pueden encontrar algunos modelos antiguos con 
 interfaz AGP (normalmente de segunda mano). 
-Interfaz con el monitor 
+### 🔵 Interfaz con el monitor 
 Existen muchos tipos de interfaz con el monitor, pero los más habituales son: 
-• VGA (Video Graphics Array). Se diseñó para trabajar con los monitores CRT. Convierte la señal 
-digital que le envía la CPU en señal analógica que puede interpretar el monitor. Utiliza un 
+- VGA (Video Graphics Array). Se diseñó para trabajar con los monitores CRT. Convierte la señal digital que le envía la CPU en señal analógica que puede interpretar el monitor. Utiliza un 
 conector de 15 pines. Todavía se puede encontrar en muchas tarjetas gráficas. 
-• DVI (Digital Visual Interfaces). Utiliza una señal digital (no la convierte en analógica). 
-• HDMI (High Definition Multimedia Interface). Transmite audio y vídeo de alta definición en 
-formato digital. 
-• DisplayPort. Rival de HDMI. Al igual que este, transmite audio y vídeo de alta definición en 
-formato digital. Está libre de patentes. Su uso es mucho menor que el HDMI. Cuenta con una 
+- DVI (Digital Visual Interfaces). Utiliza una señal digital (no la convierte en analógica).
+- HDMI (High Definition Multimedia Interface). Transmite audio y vídeo de alta definición en formato digital. 
+- DisplayPort. Rival de HDMI. Al igual que este, transmite audio y vídeo de alta definición en formato digital. Está libre de patentes. Su uso es mucho menor que el HDMI. Cuenta con una 
 versión reducida (Mini DisplayPort) en la cual está basado el puerto Thunderbolt de Apple. 
  
 Tarjeta de video. Se pueden observar, de izquierda a derecha, los siguientes conectores: 
@@ -2724,11 +2633,11 @@ VGA, HDMI y DVI
 
  
  
-Periféricos: conectividad y administración 
+
  
  
  
-El experto opina 
+### 🔵 El experto opina 
 Actualmente, la industria del videojuego es importantísima y 
 genera una gran cantidad de dinero. 
 Por ello, las tarjetas gráficas han experimentado una gran \nevolución, presentando una tecnología más avanzada que el resto 
@@ -2748,66 +2657,54 @@ información procesada. Transforma la salida de la tarjeta gráfica en imágenes
 
  
  
-Periféricos: conectividad y administración 
+
 Antiguamente los monitores utilizaban la tecnología CRT (tubo de rayos catódicos), pero hoy en día se 
 ha dejado de comercializar y han sido superados con creces por las nuevas tecnologías, que nos 
 permiten mayor definición con pantalla plana. Te vamos a mostrar las principales tecnologías utilizadas \nen la actualidad: 
-• LCD: es la tecnología en que se basan la mayoría de los monitores. Utiliza cristal líquido, el cual 
-produce color al ser retro iluminado por lámparas fluorescentes. Existen diversas variantes que 
+- LCD: es la tecnología en que se basan la mayoría de los monitores. Utiliza cristal líquido, el cual produce color al ser retro iluminado por lámparas fluorescentes. Existen diversas variantes que 
 se adaptan a diferentes necesidades: 
-• IPS (In-Plane Switching): Proporciona amplios ángulos de visión y una excelente precisión \nen la reproducción de colores, ideal para trabajos gráficos y diseño. 
-• TN (Twisted Nematic): Ofrece tiempos de respuesta rápidos y es común en monitores para 
-videojuegos competitivos. Sin embargo, tiene colores menos vibrantes y ángulos de visión 
+- IPS (In-Plane Switching): Proporciona amplios ángulos de visión y una excelente precisión \nen la reproducción de colores, ideal para trabajos gráficos y diseño.
+- TN (Twisted Nematic): Ofrece tiempos de respuesta rápidos y es común en monitores para videojuegos competitivos. Sin embargo, tiene colores menos vibrantes y ángulos de visión 
 limitados. 
-• VA (Vertical Alignment): Destaca por su alto contraste y buenos niveles de negros, siendo 
-ideal para contenido multimedia y entornos oscuros. 
-• Plasma: utiliza gases nobles en lugar de cristal líquido. Ofrece mejor contraste, colores y ángulo 
-de visión que los monitores LCD, pero tiene una menor vida útil. Tiene altos niveles de brillo y 
+- VA (Vertical Alignment): Destaca por su alto contraste y buenos niveles de negros, siendo ideal para contenido multimedia y entornos oscuros. 
+- Plasma: utiliza gases nobles en lugar de cristal líquido. Ofrece mejor contraste, colores y ángulo de visión que los monitores LCD, pero tiene una menor vida útil. Tiene altos niveles de brillo y 
 contraste pero su consumo energético es elevado. Otra de sus desventajas es el mayor grosor si 
 lo comparamos con otras tecnologías. 
-• Led: es una evolución de la tecnología LCD. Ilumina la pantalla mediante lámparas led en lugar 
-de utilizar lámparas fluorescentes. Mejora la calidad de imagen (brillo, contraste y ángulo de 
+- Led: es una evolución de la tecnología LCD. Ilumina la pantalla mediante lámparas led en lugar de utilizar lámparas fluorescentes. Mejora la calidad de imagen (brillo, contraste y ángulo de 
 visión). La retroiluminación está compuesta por diodos emisores de luz en lugar de tubos 
 fluorescentes, cuenta con algunas variantes: 
-• Edge LED: Iluminación LED en los bordes de la pantalla, permitiendo diseños ultradelgados, 
-aunque con menos uniformidad en la iluminación. 
-• Full Array LED: LEDs distribuidos por toda la pantalla, ofreciendo un mejor control del brillo 
-y un contraste superior. 
-• Mini-LED: LEDs más pequeños y numerosos, que permiten una iluminación más precisa y 
-acercan esta tecnología al rendimiento del OLED. 
-• OLED (Organic Light Emitting Diode): utilizan materiales orgánicos que tienen la propiedad de 
-iluminarse al pasar una corriente eléctrica a través de ellos. Representa un salto cualitativo al 
+- Edge LED: Iluminación LED en los bordes de la pantalla, permitiendo diseños ultradelgados, aunque con menos uniformidad en la iluminación. 
+- Full Array LED: LEDs distribuidos por toda la pantalla, ofreciendo un mejor control del brillo y un contraste superior. 
+- Mini-LED: LEDs más pequeños y numerosos, que permiten una iluminación más precisa y acercan esta tecnología al rendimiento del OLED. 
+- OLED (Organic Light Emitting Diode): utilizan materiales orgánicos que tienen la propiedad de iluminarse al pasar una corriente eléctrica a través de ellos. Representa un salto cualitativo al 
 permitir que cada pixel emita su propia luz, eliminando la necesidad de retroalimentación por lo 
 que son más delgados, consumen menos energía, negros puros y mayor eficiencia en la 
 representación de colores. Variantes: 
-• AMOLED (Active Matrix OLED): Utilizada principalmente en dispositivos móviles y 
-wearables, mejora el control sobre cada píxel para una mayor precisión. 
-• WOLED (White OLED): Usa una capa emisora blanca y filtros de color para televisores de 
-gran tamaño, como los de LG. 
-• MicroLED: Una tecnología emergente que combina las ventajas del OLED y LED, ofreciendo 
-píxeles autoemisivos con una vida útil más larga y sin riesgo de quemado. 
+- AMOLED (Active Matrix OLED): Utilizada principalmente en dispositivos móviles y wearables, mejora el control sobre cada píxel para una mayor precisión. 
+- WOLED (White OLED): Usa una capa emisora blanca y filtros de color para televisores de gran tamaño, como los de LG. 
+- MicroLED: Una tecnología emergente que combina las ventajas del OLED y LED, ofreciendo píxeles autoemisivos con una vida útil más larga y sin riesgo de quemado. 
 
  
  
-Periféricos: conectividad y administración 
+
 #### 🔹 6.2.1. Resolución, ratio y refresco
 Tanto en los monitores como en los televisores, existen unas características a la hora de visualizar las 
 imágenes. Dependiendo de lo que visualicemos en la pantalla, estas características serán más o menos 
 apreciable para el ojo humano (por ejemplo, en el flujo de movimiento en el futbol o deportes de 
 rapidez, y en determinados videojuegos). 
-Resolución 
+### 🔵 Resolución 
 Es el número de píxeles que un dispositivo de visualización es capaz de mostrar, expresada en función 
 de su anchura y su altura. 
 Por ejemplo, si un monitor tiene una resolución de 1920 x 1080 píxeles, significa que el monitor cuenta 
 con 1920 píxeles de anchura y con 1080 píxeles de altura. 
-Ratio de aspecto 
+### 🔵 Ratio de aspecto 
 Este número se usa para describir la relación que hay entre la anchura y la altura de la pantalla. Es decir, 
 y siguiendo con el ejemplo anterior, ese monitor tiene una relación de aspecto de 16:9. El hecho es que 
 si dividís 1920/16 y 1080/9 siempre os saldrá un mismo número: 120. 
 Los primeros monitores TFT eran de 4:3 Con la aparición de las pantallas panorámicas surgieron dos 
 nuevas ratios, 16:10 y 16:9. Actualmente el formato 16:10 es usado en monitores profesionales, 
 mientras que el formato 16:9 es menos profesional, para usuarios domésticos. 
-Tasa de refresco 
+### 🔵 Tasa de refresco 
 Es la cantidad de imágenes que puede mostrar el dispositivo por segundo. Se mide en hercios (Hz) ya 
 que se trata de una frecuencia de actualización. Una pantalla puede tener 60 Hz, y esto significaría que \nes capaz de actualizar la imagen mostrada hasta 60 veces por segundo. 
 La tasa de refresco está directamente relacionada con las capacidades de la visión humana. 
@@ -2824,7 +2721,7 @@ mostrar por las capacidades máximas de la pantalla. Esto provoca una pérdida d
 
  
  
-Periféricos: conectividad y administración 
+
 Diferencia entre " p " y " i " 
 La diferencia entre 1080p y 1080i estriba en la forma de desplegar las imágenes en cada segundo, pese 
 a que ambos tienen la misma resolución de 1920 x 1080 píxeles. Pero no son iguales técnicamente y \nesto también es distinguible para el ojo humano en ciertas circunstancias. 
@@ -2844,26 +2741,26 @@ porque en cada actualización sólo aparece la mitad de un frame.
 
  
  
-Periféricos: conectividad y administración 
+
 Acrónimos 
-• CGA, Color Graphics Adapter. 
-• MDA, Monochrome Display Adapter. 
-• EGA, Enhanced Graphics Adapter. 
-• VGA, Video Graphics Array. 
-• SVGA, Super VGA. 
-• SXGA, Super Extended Graphics Array. 
-• UXGA, Ultra Extended Graphics Array. 
-• HD, High Definition. 
-• WXGA, Widescreen Extended Graphics Array. 
-• QHD, Quad HD. 
-• UHD, Ultra High Definition. 
+- CGA, Color Graphics Adapter.
+- MDA, Monochrome Display Adapter.
+- EGA, Enhanced Graphics Adapter.
+- VGA, Video Graphics Array.
+- SVGA, Super VGA.
+- SXGA, Super Extended Graphics Array.
+- UXGA, Ultra Extended Graphics Array.
+- HD, High Definition.
+- WXGA, Widescreen Extended Graphics Array.
+- QHD, Quad HD.
+- UHD, Ultra High Definition.
 ### 🔵 6.3. Pantalla táctil
  
 Pantalla táctil 80". Fuente: Vimeo 
 
  
  
-Periféricos: conectividad y administración 
+
  
  
 Fuente: Pixabay y PxFuel 
@@ -2871,29 +2768,27 @@ La pantalla táctil es un dispositivo de entrada y salida al mismo tiempo, que p
 datos en el sistema mediante pulsaciones en la pantalla y recibir la información procesada en esta. 
 Actualmente tienen un uso muy extendido, utilizándose en móviles, portátiles, cajeros automáticos, \netcétera. 
 Existen dos tipos básicos de pantallas táctiles: 
-• Resistivas. Tiene varias capas entre las que destacan dos de material conductor, entre las cuales 
-hay una pequeña separación. Al ejercer presión sobre un punto concreto, estas capas se unen, 
+- Resistivas. Tiene varias capas entre las que destacan dos de material conductor, entre las cuales hay una pequeña separación. Al ejercer presión sobre un punto concreto, estas capas se unen, 
 produciendo un cambio en la corriente eléctrica que permite detectar la posición. 
 Ventajas: 
-• Son más sensibles a la presión que las capacitativas. 
+- Son más sensibles a la presión que las capacitativas.
 Desventajas: 
-• Pierden aproximadamente un 25% del brillo debido a las capas necesarias. 
-• Pueden ser dañadas por objetos afilados. 
-• No permite multitouch. 
+- Pierden aproximadamente un 25% del brillo debido a las capas necesarias.
+- Pueden ser dañadas por objetos afilados.
+- No permite multitouch.
 
  
  
-Periféricos: conectividad y administración 
-• Capacitivas. Están cubiertas de un material que conduce una corriente eléctrica a través del 
-sensor, adquiriendo esté capacitancia. El cuerpo humano también tiene capacitancia. Al entrar \nen contacto el dedo con la pantalla se produce una distorsión que nos permite detectar la 
+
+- Capacitivas. Están cubiertas de un material que conduce una corriente eléctrica a través del sensor, adquiriendo esté capacitancia. El cuerpo humano también tiene capacitancia. Al entrar \nen contacto el dedo con la pantalla se produce una distorsión que nos permite detectar la 
 posición. 
 Ventajas: 
-• Es multitouch. 
-• No pierde brillo. 
-• La sensación es más fluida al no tener que ejercer presión. 
+- Es multitouch.
+- No pierde brillo.
+- La sensación es más fluida al no tener que ejercer presión.
 Desventajas: 
-• Debe tocarse con el cuerpo. No sirve un lápiz y no se puede tocar con guantes. 
-• El procesado de la señal es más complejo. 
+- Debe tocarse con el cuerpo. No sirve un lápiz y no se puede tocar con guantes.
+- El procesado de la señal es más complejo.
  
  
  
@@ -2915,16 +2810,14 @@ kilobytes/segundo, SCSI-II se adoptó para los modelos profesionales y aunque er
 
  
  
-Periféricos: conectividad y administración 
+
 Actualmente los que usan conexión USB, poseen una tasa de transferencia de hasta 12 megabits por 
 segundo (Mbps) para los USB 1.1, de hasta 480 megabits por segundo para las conexiones USB 2.0, de 
 hasta 5 gigabits (Gbps) por segundo para los USB 3.0, de hasta 10 Gbps para los USB 3.1 y de hasta 20 
 Gbs para los USB 3.2, lo que elimina el cuello de botella que se tenía al principio. 
 Existen 2 estándares para interfaces de PC con Windows o Macs, son: 
-• TWAIN. Originalmente se utilizaba para uso doméstico o de bajo coste. Actualmente se usa 
-también para el escaneado de gran volumen. 
-• ISIS. Creado por Pixel Translations, que utiliza SCSI-II, se emplea en máquinas grandes 
-destinadas a empresas. 
+- TWAIN. Originalmente se utilizaba para uso doméstico o de bajo coste. Actualmente se usa también para el escaneado de gran volumen. 
+- ISIS. Creado por Pixel Translations, que utiliza SCSI-II, se emplea en máquinas grandes destinadas a empresas. 
 Windows Image Acquisition (WIA) 
 Es un modelo de controlador e interfaz de programación de aplicaciones (API) para las versiones más 
 modernas del sistema operativo Microsoft Windows que permite a las aplicaciones de gráficos 
@@ -2947,23 +2840,20 @@ menudo están limitados a las funciones activadas en su unión controlador-aplic
 
  
  
-Periféricos: conectividad y administración 
+
 ### 🔵 7.2. Tipos de escáner
  
 Existen muchos tipos de escáneres. El escáner clásico de ordenador personal es aquel que permite 
 digitalizar un documento (normalmente en papel). 
 Hay diversos tipos: 
-• De mano. Requiere que el usuario vaya pasando el escáner por la superficie del documento. 
+- De mano. Requiere que el usuario vaya pasando el escáner por la superficie del documento.
 Tienen poca resolución. 
-• De mesa (o plano). Es el más utilizado. Posee una fuente de luz y un sensor de luz situados en 
-un brazo móvil. Este va recorriendo un documento situado sobre una placa de vidrio. 
+- De mesa (o plano). Es el más utilizado. Posee una fuente de luz y un sensor de luz situados en un brazo móvil. Este va recorriendo un documento situado sobre una placa de vidrio. 
 Hoy en día vienen integrados en las impresoras multifunción y pueden tener un alimentador de 
 hojas para escanear varios documentos. 
 También podemos encontrar adaptadores para diapositivas. 
-• Cenital. Para escanear elementos frágiles como documentos o libros antiguos, evitando el 
-contacto físico con ellos. 
-• De tambor. Los documentos a escanear se colocan sobre un cilindro o tambor giratorio. Son los 
-que tienen mayor calidad y se suele utilizar para diseño gráfico. 
+- Cenital. Para escanear elementos frágiles como documentos o libros antiguos, evitando el contacto físico con ellos. 
+- De tambor. Los documentos a escanear se colocan sobre un cilindro o tambor giratorio. Son los que tienen mayor calidad y se suele utilizar para diseño gráfico. 
 Existen muchos otros tipos de escáner que se utilizan para realizar distintas funciones como los lectores 
 de códigos de barras (de diversos tipos, de mano, integrados en las cajas de venta de los 
 supermercados, etc.) y los sistemas de identificación que realizan un escáner de huellas digitales, 
@@ -2973,23 +2863,22 @@ También se utilizan escáner de retina, especialmente para controles de segurid
 
  
  
-Periféricos: conectividad y administración 
+
  
 Especial importancia tienen los distintos tipos de escáner médico, que permiten, por medio de 
 ultrasonidos, resonancia magnética, radiaciones ionizantes o rayos X, obtener una imagen de órganos o 
 partes internas del cuerpo. Esta es, sin duda, una de las herramientas más importantes de diagnóstico. 
  
 El móvil, al contar con una cámara, puede actuar como escáner. Algunos de los usos más habituales son: 
-• Identificación. Por ejemplo, el reconocimiento de huella digital para desbloquear el móvil. 
-• Escanear códigos de barras. Similar al lector de código de barras. 
-• Escanear códigos QR. Para descargar aplicaciones. 
-• Aplicaciones para escanear documentos. Existen aplicaciones que funcionan como un escáner 
-de mano, resultando muy útiles para operaciones de OCR. 
+- Identificación. Por ejemplo, el reconocimiento de huella digital para desbloquear el móvil.
+- Escanear códigos de barras. Similar al lector de código de barras.
+- Escanear códigos QR. Para descargar aplicaciones.
+- Aplicaciones para escanear documentos. Existen aplicaciones que funcionan como un escáner de mano, resultando muy útiles para operaciones de OCR. 
  
 
  
  
-Periféricos: conectividad y administración 
+
  
  
  
@@ -3013,40 +2902,40 @@ transistores y en la década de los 70 la introducción de las computadoras sent
 
  
  
-Periféricos: conectividad y administración 
+
 Podemos clasificar las máquinas de CNC en tres tipos genéricos, basándonos en la trayectoria del 
 mecanizado: 
-• Máquinas de control punto a punto, como taladradoras o punteadoras. 
-• Máquinas de control paraxial, por ejemplo, los tornos. 
-• Máquinas de control interpolar, son polivalentes. 
+- Máquinas de control punto a punto, como taladradoras o punteadoras.
+- Máquinas de control paraxial, por ejemplo, los tornos.
+- Máquinas de control interpolar, son polivalentes.
 Algunos ejemplos de máquinas CNC son: 
-• Fresadora: 
+- Fresadora:
 Funciona arrancando viruta mediante el movimiento de una herramienta rotativa de varios filos 
 de corte llamada fresa. 
-• Torno de control numérico: 
+- Torno de control numérico:
 El software de la computadora utiliza datos alfanuméricos, siguiendo los ejes cartesianos x e y. 
-• Rectificadora: 
+- Rectificadora:
 Realiza mecanizados por abrasión, usa discos abrasivos llamados muelas. 
 Trabaja con mayor precisión dimensional y produce una pieza más fina que elmecanizado de 
 arranque de viruta. 
-• Máquina de corte por láser: 
+- Máquina de corte por láser:
 Su fundamento es la concentración de luz en una superficie de trabajo. 
-• Enrutadores. 
-• Cortadores e plasma. 
-• Impresoras 3 D. 
+- Enrutadores.
+- Cortadores e plasma.
+- Impresoras 3 D.
 ### 🔵 8.1. Funcionamiento de una máquina CNC
 Para ver el funcionamiento, vamos primero a indicar los elementos principales de una máquina CNC: 
-• El mecanizado. 
-• Dispositivo de entrada. 
-• Un controlador. 
+- El mecanizado.
+- Dispositivo de entrada.
+- Un controlador.
 
  
  
-Periféricos: conectividad y administración 
-• Máquina herramienta. 
-• Sistema de accionamiento. 
-• Dispositivo de realimentación en sistemas con servomotores. 
-• Monitor. 
+
+- Máquina herramienta.
+- Sistema de accionamiento.
+- Dispositivo de realimentación en sistemas con servomotores.
+- Monitor.
  
 Diagrama de bloques de una máquina CNC con servomotores 
 Ahora vamos a examinar funciones específicas de su programación. 
@@ -3055,18 +2944,17 @@ Tienen dos ejes o más programables, que pueden ser lineales o rotatorios, los n
 lineales son X; Y y Z. Los ejes giratorios A, B y C. 
 El control de movimiento se realiza mediante dos sistemas que pueden funcionar individualmente o 
 combinados: 
-• Valores absolutos. Las coordenadas del punto de destino son referidas al punto de origen de 
-coordenadas. 
-• Valores incrementables. Las coordenadas del punto de destino son referidas al punto actual. 
+- Valores absolutos. Las coordenadas del punto de destino son referidas al punto de origen de coordenadas. 
+- Valores incrementables. Las coordenadas del punto de destino son referidas al punto actual.
 
  
  
-Periféricos: conectividad y administración 
+
 #### 🔹 8.1.2. Accesorios y funciones programables
 Tenemos: 
-• Cambiador automático de herramienta. 
-• Velocidad y activación de herramienta. 
-• Refrigerante. 
+- Cambiador automático de herramienta.
+- Velocidad y activación de herramienta.
+- Refrigerante.
 #### 🔹 8.1.3. Programa CNC
 Es un listado secuencial de instrucciones que ejecutará la máquina. 
 Está escrito en un lenguaje de bajo nivel, llamado G y M, estandarizado por las normas 6983 de ISO y 
@@ -3074,34 +2962,30 @@ RS274 de EIA y compuesto por instrucciones Generales (código G) y Misceláneas 
 El programa presenta un formato de fases conformadas por bloques, encabezados por la letra N. 
 Como vemos en la figura inferior, cada movimiento o acción se realiza secuencialmente y cada bloque \nestá numerado y generalmente contiene un solo comando. 
  
-• El código G describe las funciones de movimiento de la máquina. 
-• Por ejemplo, movimientos rápidos, avances, avances radiales, pausas, ciclos. 
-• El código M describe las funciones misceláneas que se requieren para el mecanizado de la pieza, 
-pero que no corresponden a los movimientos de la máquina. 
-• Por ejemplo, arranque y detención del husillo, cambio de herramienta, refrigerante, 
-detención del programa. 
+- El código G describe las funciones de movimiento de la máquina.
+- Por ejemplo, movimientos rápidos, avances, avances radiales, pausas, ciclos.
+- El código M describe las funciones misceláneas que se requieren para el mecanizado de la pieza, pero que no corresponden a los movimientos de la máquina. 
+- Por ejemplo, arranque y detención del husillo, cambio de herramienta, refrigerante, detención del programa. 
 
  
  
-Periféricos: conectividad y administración 
-• A su vez, cada código contiene variables (direcciones), identificadas con otras letras y definidas 
-por el programador para cada función específica. Por ejemplo: 
-• F define la velocidad de avance. 
-• S la velocidad del husillo. 
-• T la herramienta seleccionada. 
-• X, Y y Z el movimiento de los ejes. 
-• I, J y K la localizción del centro de un arco. 
-• Etc. 
+
+- A su vez, cada código contiene variables (direcciones), identificadas con otras letras y definidas por el programador para cada función específica. Por ejemplo: 
+- F define la velocidad de avance.
+- S la velocidad del husillo.
+- T la herramienta seleccionada.
+- X, Y y Z el movimiento de los ejes.
+- I, J y K la localizción del centro de un arco.
+- Etc.
 #### 🔹 8.1.4. Controlador CNC
 Es componente clave ya que interpreta un programa CNC y acciona la serie de comandos en orden 
 secuencial. 
 A medida que lee el programa, el controlador activa las funciones apropiadas de la máquina, impulsa el 
 movimiento de los ejes, y en general, sigue las instrucciones dadas en el programa. 
 Además de interpretar el programa CNC, el controlador tiene varios otros propósitos, por ejemplo: 
-• Modificar (editar) los programas si se detectan errores. 
-• Realizar funciones de verificación especial (como el funcionamiento en vacío) para confirmar la \nexactitud del programa CNC. 
-• Especificar ciertas entradas importantes del operador, tales como los valores de longitud de las 
-herramientas. 
+- Modificar (editar) los programas si se detectan errores.
+- Realizar funciones de verificación especial (como el funcionamiento en vacío) para confirmar la \nexactitud del programa CNC.
+- Especificar ciertas entradas importantes del operador, tales como los valores de longitud de las herramientas. 
 #### 🔹 8.1.5. Programa CAM
 El software CAM (Computer Aided Manufacturing), o programa de fabricación asistida por 
 computadora, no solo incluye el control de máquinas, sino que también se encarga de combinar 
@@ -3114,7 +2998,7 @@ fabricación (como el fresado, torneado, corte y la fabricación aditiva).
 
  
  
-Periféricos: conectividad y administración 
+
  
  
  
@@ -3124,9 +3008,8 @@ Ambos, aprovechan el software y la potencia computacional para
 ayudar a crear diseños más complejos y eficaces de los que se 
 harían a mano.  
 Diferencias: 
-• CAD ayuda a los diseñadores a crear representaciones 
-digitales denominadas modelos 3D. 
-• CAM ayuda a escribir código para controlar las máquinas 
+- CAD ayuda a los diseñadores a crear representaciones digitales denominadas modelos 3D. 
+- CAM ayuda a escribir código para controlar las máquinas
 CNC que crean piezas físicas. 
  
 #### 🔹 8.1.6. Sistema DNC
@@ -3149,7 +3032,7 @@ gran precisión diferentes tipos de materiales utilizando un rayo láser de gran
 
  
  
-Periféricos: conectividad y administración 
+
 El uso del software tiene una gran importancia, ya que controla diversos parámetros con exactitud y 
 permite guardar plantillas de corte. 
 Los diseños realizados pueden enviarse a la cortadora láser para que se realice el corte o se grabe la 
@@ -3160,18 +3043,18 @@ bajo sus trabajos antes de producirlos a gran escala.
 Han supuesto un gran avance en las empresas, facilitando el corte de grandes piezas de material en los 
 talleres mecánicos y en la fabricación industrial. 
 Algunos de los materiales que se pueden cortar con estos equipos son: 
-• Madera simple, contrachapada o MDF. 
-• Corcho. 
-• Papel. 
-• Cartón. 
-• Cuero. 
-• Fieltro. 
-• Acrílico. 
-• Polipropileno. 
-• Cerámica. 
-• Vidrio. 
-• Metales. 
-Historia 
+- Madera simple, contrachapada o MDF.
+- Corcho.
+- Papel.
+- Cartón.
+- Cuero.
+- Fieltro.
+- Acrílico.
+- Polipropileno.
+- Cerámica.
+- Vidrio.
+- Metales.
+### 🔵 Historia 
 Muchos autores atribuyen el descubrimiento del rayo láser a Einstein en 1917, pero ha fecha actual 
 sigue habiendo polémica sobre ello. 
 Su origen se remonta a 1965, cuando la Western Electric Engineering Research Center utilizó esta 
@@ -3182,7 +3065,7 @@ adaptaron láseres de CO2.
 
  
  
-Periféricos: conectividad y administración 
+
 ### 🔵 9.1. Tipos de cortadoras láser
 Existen diferentes tipos que se ajustan a necesidades específicas dentro de un amplio rango de 
 industrias. 
@@ -3191,17 +3074,17 @@ optimiza en gran manera la producción, puesto que se ha reducido muchísimo el 
 Hay tres tipos de máquinas de corte láser. 
 #### 🔹 9.1.1. Láseres de gas
 Este tipo de láser puede utilizar dos tipos de compuestos: 
-• Una mezcla de dióxido de carbono (CO2). 
+- Una mezcla de dióxido de carbono (CO2).
 Se hace viable estimulando eléctricamente dicha mezcla de dióxido de carbono. 
 Es más utilizado en materiales no metales. 
 Se utiliza en muchos ámbitos médicos e industriales. 
-• Nitrógeno. 
+- Nitrógeno.
 Debe ser puro, ya que de lo contrario se puede oxidar el metal con el que se trabaja. 
 Funciona bien con metales como el acero y el aluminio. 
 #### 🔹 9.1.2. Láser de cristal
 Utiliza láseres fabricados con: 
-• nd: YAG (granate de aluminio e itrio dopado con neodimio). 
-• nd: YVO (ortovanadato de itrio dopado con neodimio). 
+- nd: YAG (granate de aluminio e itrio dopado con neodimio).
+- nd: YVO (ortovanadato de itrio dopado con neodimio).
 nd es el símbolo químico del neodimio. 
 Estos cristales forman parte del grupo de los de estado sólido y permiten un corte de altísima potencia. 
 Puede utilizarse tanto con metales como con no metales. 
@@ -3211,7 +3094,7 @@ durabilidad que otras máquinas del mercado.
 
  
  
-Periféricos: conectividad y administración 
+
 #### 🔹 9.1.3. Láseres de fibra
 Tiene varias similitudes con el proceso de cristal, en el hecho de que la fibra óptica también pertenece al 
 grupo de estado sólido. 
@@ -3230,7 +3113,7 @@ tipo de máquina y material a cortar podrá ser por ejemplo oxígeno, nitrógeno
  
  
  
-Básico 
+### 🔵 Básico 
 Funcionamiento: 
 ## 🟣 1. El sistema envía un haz de luz intensa que se refleja a través de un conjunto de espejos hasta el cabezal de corte. 
 ## 🟣 2. Dentro del cabezal de corte, el láser se enfoca a través de una lente y se reduce a un haz extremadamente 
@@ -3240,24 +3123,24 @@ concentrado.
 
  
  
-Periféricos: conectividad y administración 
+
 ### 🔵 9.3. Ventajas
 Estas son las razones por las que se prefiere el corte por láser en comparación con otras tecnologías de 
 corte: 
-• Alta velocidad de producción. 
-• Alta precisión y exactitud: 
+- Alta velocidad de producción.
+- Alta precisión y exactitud:
 Los cortes son limpios, con muy pocos rebordes. Se pueden trabajar perfiles complejos con 
 pequeños radios de curvatura. 
 Se produce poquísima distorsión o zonas afectadas por el calor. 
-• Anchos de corte más estrechos: 
+- Anchos de corte más estrechos:
 La gran variedad de grosores permitidos incluye los muy estrechos como son logotipos, código 
 de barras o números de serie. 
-• Sin riesgo de contaminación: 
+- Sin riesgo de contaminación:
 No se emplean elementos químicos o que puedan resultar contaminantes. 
-• Amplia compatibilidad de materiales: 
+- Amplia compatibilidad de materiales:
 La longitud de onda permite una gran versatilidad, pudiendo cortar multitud de materiales 
 (reflectantes como el aluminio, el cobre o el latón, acero tanto chapas como tubos, etc.). 
-• Menores costes de producción: 
+- Menores costes de producción:
 Normalmente se elimina la fase del tratamiento de lijado o sellado posterior. 
 Además, hay que destacar que el cabezal no pierde propiedades con el uso continuado. 
 ### 🔵 9.4. Softwares de uso
@@ -3271,27 +3154,27 @@ tener el nuevo diseño requerido.
 
  
  
-Periféricos: conectividad y administración 
+
 Existen muchos softwares en el mercado, vamos a indicar brevemente los más destacados: 
-• Autodesk Autocad: 
-• Sobre todo, se utiliza en proyectos de arquitectura, electricistas y mecánica. 
-• Compatible con muchos formatos, DWG, DXF, 3DS, WMF, PLT. 
-• Destaca su gran precisión en las medidas. 
-• Adobe Illustrator: 
-• Permite crear gráficos vectoriales. 
-• Cuenta con herramientas de dibujo de gran precisión. 
-• Gran número de efectos para el diseño. 
-• Cuenta con muchos formatos compatibles, AI, PDF, DXF, DWG, SVG,EPS. 
-• Simplifica el proceso de corte por láser. 
-• Corel Draw: 
-• Comparte características con otros editores vectoriales. 
-• Su interfaz es sencilla e intuitiva. 
-• Inkscape: 
-• Disponible para las principales plataformas: Linux, Windows y Mac OS. 
-• Compatible con muchos formatos, SVG, PNG, ODD, DXF, SK1, PDF, EPS, POSTSCRIPT…. 
-• Archicad de Graphisoft: 
-• Software desarrollado para el modelado de edificios. 
-• Compatible con PLN, DWG, DXF, EXPORT PDF, 3DS, OBJ… 
+- Autodesk Autocad:
+- Sobre todo, se utiliza en proyectos de arquitectura, electricistas y mecánica.
+- Compatible con muchos formatos, DWG, DXF, 3DS, WMF, PLT.
+- Destaca su gran precisión en las medidas.
+- Adobe Illustrator:
+- Permite crear gráficos vectoriales.
+- Cuenta con herramientas de dibujo de gran precisión.
+- Gran número de efectos para el diseño.
+- Cuenta con muchos formatos compatibles, AI, PDF, DXF, DWG, SVG,EPS.
+- Simplifica el proceso de corte por láser.
+- Corel Draw:
+- Comparte características con otros editores vectoriales.
+- Su interfaz es sencilla e intuitiva.
+- Inkscape:
+- Disponible para las principales plataformas: Linux, Windows y Mac OS.
+- Compatible con muchos formatos, SVG, PNG, ODD, DXF, SK1, PDF, EPS, POSTSCRIPT….
+- Archicad de Graphisoft:
+- Software desarrollado para el modelado de edificios.
+- Compatible con PLN, DWG, DXF, EXPORT PDF, 3DS, OBJ…
 ## 🟣 10. Colorimetría
 La colorimetría es la ciencia que estudia la medida de los colores y que desarrolla métodos para la 
 cuantificación de la percepción del color. 
@@ -3299,7 +3182,7 @@ El matiz es el estado puro del color: rojo, amarillo, azul...
 
  
  
-Periféricos: conectividad y administración 
+
 La saturación de un color es su grado de pureza. Un color está más saturado cuanto menor sea su 
 contenido de grises o de blancos. Los colores de la naturaleza siempre son más o menos saturados. 
 La intensidad, o luminosidad de un color, es la característica que hace que este aparezca más claro, 
@@ -3332,7 +3215,7 @@ a 2,54 cm.
 
  
  
-Periféricos: conectividad y administración 
+
 ### 🔵 10.2. Modelos de color
  
 Archivo: Pixel geometry 01 Pengo.jpg - Wikipedia, la \nenciclopedia libre 
@@ -3350,7 +3233,7 @@ mismo modelo de color, sus espacios de color pueden variar considerablemente.
 
  
  
-Periféricos: conectividad y administración 
+
 #### 🔹 10.2.2. CMYK
 CMYK: siglas de Cyan, Magenta, Yellow y Key. 
 Es un modelo de color sustractivo que se utiliza en la impresión en colores. Es la versión moderna y más 
@@ -3382,7 +3265,7 @@ distintos.
 
  
  
-Periféricos: conectividad y administración 
+
 Basándonos en los octetos de 8 bits, como unidades básicas de información, en los dispositivos de 
 almacenamiento, los valores de profundidad de color suelen ser divisores o múltiplos de 8: 1, 2, 4, 8, 16, 
 24 y 32, (con la excepción de la profundidad de color de 10 o 15, usada por ciertos dispositivos gráficos). 
@@ -3393,54 +3276,52 @@ Los tonos en dicha tabla pueden ser definidos por convención o bien ser configu
 aplicación que la defina. 
 Vamos a ver algunas profundidades de color en la gama baja, la cantidad de tonos que pueden 
 representar en cada pixel y el nombre que se les otorga a las imágenes o framebuffers que los soportan. 
-• 1 bit por píxel: 21 = 2 colores, también llamado monocromo o blanco y negro. 
-• 2 bits por píxel: 22 = 4 colores, o CGA. 
-• 3 bits por píxel: 23 = 8 colores. (Primeros modelos de ordenador doméstico como el ZX 
+- 1 bit por píxel: 21 = 2 colores, también llamado monocromo o blanco y negro.
+- 2 bits por píxel: 22 = 4 colores, o CGA.
+- 3 bits por píxel: 23 = 8 colores. (Primeros modelos de ordenador doméstico como el ZX
 Spectrum y el BBC Micro). 
-• 4 bits por píxel: 24 = 16 colores, la cual es la mínima profundidad aceptada por el estándar EGA. 
+- 4 bits por píxel: 24 = 16 colores, la cual es la mínima profundidad aceptada por el estándar EGA.
 Macintosh en color, Atari ST, Commodore 64, Amstrad CPC, MSX2. 
-• 5 bits por píxel: 25 = 32 colores, como en el chipset original del Commodore Amiga. 
-• 6 bits por píxel: 26 = 64 colores. 
-• 8 bits por píxel: 28 = 256 colores, también llamado VGA. Super VGA. 
-• 9 bits por píxel: 29 = 512 colores, también llamado Ultra VGA. 
-• 10 bits por pixel: 210 = 1024 colores, usado en UHDTV. 
-• 12 bits por pixel: 212 = 4096 colores, algunos modelos de Silicon Graphics, NeXTstation en color, 
-modo HAM del Commodore Amiga. 
+- 5 bits por píxel: 25 = 32 colores, como en el chipset original del Commodore Amiga.
+- 6 bits por píxel: 26 = 64 colores.
+- 8 bits por píxel: 28 = 256 colores, también llamado VGA. Super VGA.
+- 9 bits por píxel: 29 = 512 colores, también llamado Ultra VGA.
+- 10 bits por pixel: 210 = 1024 colores, usado en UHDTV.
+- 12 bits por pixel: 212 = 4096 colores, algunos modelos de Silicon Graphics, NeXTstation en color, modo HAM del Commodore Amiga. 
 ## 🟣 11. Bibliografía
-• PRIETO ESPINOSA, A. Introducción a la informática. 
-• BEEKMAN, G. Introducción a la informática. 
-• https://definicion.de/. 
-• https://topbateriaexterna.com/usb-tipo-c/. 
-• https://en.wikipedia.org/. 
+- PRIETO ESPINOSA, A. Introducción a la informática.
+- BEEKMAN, G. Introducción a la informática.
+- https://definicion.de/.
+- https://topbateriaexterna.com/usb-tipo-c/.
+- https://en.wikipedia.org/.
 
  
  
-Periféricos: conectividad y administración 
-• https://es.wikipedia.or. 
-• https://www.apple.com/es/thunderbolt/. 
-• https://www.tiposde.com. 
-• http://www.mfbarcell.es/docencia_uned/so/tema_06/tema6.pdf. 
-• https://www.uv.es/varnau/AEC_2011-12.htm. 
-• http://www.informaticamoderna.com. 
-• https://computerhoy.com. 
-• https://es.ccm.net/. 
-• http://knowledge.seagate.com. 
-• https://blog.irontec.com/. 
-• https://www.aboutespanol.com. 
-• https://www.tecnonauta.com. 
-• https://www.androidsis.com/. 
-• https://es.wikiversity.org/wiki/Sistemas_de_almacenamiento. 
-• https://www.ionos.es/digitalguide/servidores/know-how/server-message-block-smb/. 
-• http://es.wikipedia.org/wiki/Canal_de_fibra. 
-• http://es.wikipedia.org/wiki/Small_Computer_System_Interface. 
-• https://www.profesionalreview.com/2018/11/26/conector-sata/. 
-• https://elpuig.xeill.net/Members/vcarceler/c1/didactica/apuntes/ud4/na3. 
-• https://en.wikipedia.org/wiki/Data_striping. 
-• NTFS - Wikipedia, la enciclopedia libre. 
-• Macintosh File System - Wikipedia, la enciclopedia libre. 
-• Hierarchical File System - Wikipedia, la enciclopedia libre. 
-• Formatos del sistema de archivos disponibles en Utilidad de Discos en el Mac - Soporte técnico 
-de Apple.
+
+- https://es.wikipedia.or.
+- https://www.apple.com/es/thunderbolt/.
+- https://www.tiposde.com.
+- http://www.mfbarcell.es/docencia_uned/so/tema_06/tema6.pdf.
+- https://www.uv.es/varnau/AEC_2011-12.htm.
+- http://www.informaticamoderna.com.
+- https://computerhoy.com.
+- https://es.ccm.net/.
+- http://knowledge.seagate.com.
+- https://blog.irontec.com/.
+- https://www.aboutespanol.com.
+- https://www.tecnonauta.com.
+- https://www.androidsis.com/.
+- https://es.wikiversity.org/wiki/Sistemas_de_almacenamiento.
+- https://www.ionos.es/digitalguide/servidores/know-how/server-message-block-smb/.
+- http://es.wikipedia.org/wiki/Canal_de_fibra.
+- http://es.wikipedia.org/wiki/Small_Computer_System_Interface.
+- https://www.profesionalreview.com/2018/11/26/conector-sata/.
+- https://elpuig.xeill.net/Members/vcarceler/c1/didactica/apuntes/ud4/na3.
+- https://en.wikipedia.org/wiki/Data_striping.
+- NTFS - Wikipedia, la enciclopedia libre.
+- Macintosh File System - Wikipedia, la enciclopedia libre.
+- Hierarchical File System - Wikipedia, la enciclopedia libre.
+- Formatos del sistema de archivos disponibles en Utilidad de Discos en el Mac - Soporte técnico de Apple.
 
 ---
 

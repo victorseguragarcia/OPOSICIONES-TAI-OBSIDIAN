@@ -24,90 +24,11 @@ updated: "2026-08-18"
 
 ---
 
-# 🔴 Bloque 2 - Tema 01 (UD011929): Informática Básica, Representación de la Información y Arquitectura de Computadores
-
- 
- 
-Informática básica. 
-Representación y comunicación 
-de la información: elementos 
-constitutivos de un sistema 
-de información 
-
-## 🟣 1. Informática
-### 🔵 1.1. Dato, información y conocimiento
-### 🔵 1.2. ¿Qué es un ordenador?
-### 🔵 1.3. Unidades de medida de la información
-### 🔵 1.4. Sistemas de numeración
-#### 🔹 1.4.1. Conversión indirecta mediante base decimal
-#### 🔹 1.4.2. Conversión directa entre bases potencia de 2
-### 🔵 1.5. Conversión entre sistemas de numeración
-### 🔵 1.6. Representación de la información
-## 🟣 2. Sistemas de información
-### 🔵 2.1. Funciones de un sistema de información
-### 🔵 2.2. Características de un sistema de información
-### 🔵 2.3. Características de la información útil
-### 🔵 2.4. Elementos de un sistema informático
-### 🔵 2.5. Distintas clasificaciones
-#### 🔹 2.5.1. Clasificación del Software
-### 🔵 2.6. Jerarquía de niveles
-## 🟣 3. Arquitectura de ordenadores
-### 🔵 3.1. La arquitectura Von Neumann
-#### 🔹 3.1.1. Evolución de los ordenadores. Generaciones
-### 🔵 3.2. Arquitectura Harvard
-## 🟣 4. Hardware
-### 🔵 4.1. Placa base
-#### 🔹 4.1.1. Chip TPM
-### 🔵 4.2. CPU (procesador)
-#### 🔹 4.2.1. Unidad aritméticológica
-##### 4.2.1.1. Operaciones aritméticas
-##### 4.2.1.2. Operaciones lógicas
-##### 4.2.1.3. Operaciones de desplazamiento
-
- 
- 
-#### 🔹 4.2.2. Unidad de control
-##### 4.2.2.1. El contador de programa (Ingles: Program Counter)
-##### 4.2.2.2. Gestionar la comunicación con los periféricos
-#### 🔹 4.2.3. Reloj del Sistema
-#### 🔹 4.2.4. Arquitectura de procesadores
-##### 4.2.4.1. CISC y RISC
-##### 4.2.4.2. Arquitectura ARM
-#### 🔹 4.2.5. Núcleo físico y lógico
-### 🔵 4.3. Memoria
-#### 🔹 4.3.1. Tecnologías
-#### 🔹 4.3.2. Clasificación
-##### 4.3.2.1. Memoria primaria
-4.3.2.1.1. Memorias ROM (Read Only Memory) 
-4.3.2.1.2. Memorias RAM (Random Access Memory) 
-4.3.2.1.3. Cache (SRAM) 
-##### 4.3.2.2. Memoria secundaria (almacenamiento permanente)
-4.3.2.2.1. SWAP (Virtual Memory) 
-4.3.2.2.2. Memorias flash 
-#### 🔹 4.3.3. Jerarquía
-#### 🔹 4.3.4. Thrashing (Hiperpaginación)
-### 🔵 4.4. Sistemas de direccionamiento
-### 🔵 4.5. El tiempo de ejecución de un programa
-#### 🔹 4.5.1. Procesador multinúcleo
-#### 🔹 4.5.2. Clasificación según paralelismo
-#### 🔹 4.5.3. Tipos de Instrucciones de la CPU
-## 🟣 5. Bibliografía
- 
-
- 
- 
-Informática básica. Representación y comunicación de la información: elementos constitutivos de un sistema 
-de información 
 ## 🟣 1. Informática
  
  
  
-Recuerda ver las clases emitidas en Temario 
-Audiovisual 
-Las clases impartidas en directo y disponibles en Campus, en 
-Temario Audiovisual, te ayudarán al entendimiento de la unidad, y 
-además pueden tener información adicional. 
-ACCEDE DIRECTAMENTE DESDE AQUÍ 
+ 
  
  
 La mayoría de las fuentes (incluido el diccionario de la Real Academia Española) coinciden en que es una 
@@ -127,8 +48,7 @@ diseño, análisis, implementación, eficiencia y aplicación de procesos que tr
 
  
  
-Informática básica. Representación y comunicación de la información: elementos constitutivos de un sistema 
-de información 
+ 
 A partir de esta definición y nuestra definición anterior, podemos resumir en la siguiente: 
 "Conjunto de conocimientos científicos y técnicas que hacen posible el tratamiento automático de 
 la información por medio de computadoras" (R.A.E., 2017) 
@@ -136,9 +56,9 @@ la información por medio de computadoras" (R.A.E., 2017)
  
  
 Resumiendo 
-• Es una ciencia y una ingeniería. 
-• Procesamiento automatizado de la información. 
-• Uso de ordenadores. 
+- Es una ciencia y una ingeniería.
+- Procesamiento automatizado de la información.
+- Uso de ordenadores.
  
 Ahora debes tener claros los siguientes conceptos para el entendimiento del "Universo Informático" 
 Ordenador, computador o computadora 
@@ -149,7 +69,7 @@ permite almacenar y tratar información, y resolver problemas de diversa índole
  
  
  
-Definición 
+### 🔵 Definición 
 Una definición más completa es la propuesta por Prieto en 2006: 
 "Un ordenador, computador o computadora es una máquina capaz 
 de aceptar unos datos de entrada, efectuar con ellos operaciones 
@@ -161,31 +81,28 @@ previamente almacenado en el propio computador".
 
  
  
-Informática básica. Representación y comunicación de la información: elementos constitutivos de un sistema 
-de información 
+ 
 Esta definición tiene los siguientes puntos importantes: 
-• Es una máquina. 
-• Es un sistema (como veremos más adelante). Acepta datos de entrada, los procesa y devuelve, 
-unos resultados a través de un dispositivo de salida. 
-• En el sector informático, donde nosotros nos vamos a centrar, los resultados de salida serán 
-información. Sin embargo, no siempre tienen que ser información; en ocasiones pueden ser 
+- Es una máquina.
+- Es un sistema (como veremos más adelante). Acepta datos de entrada, los procesa y devuelve, unos resultados a través de un dispositivo de salida. 
+- En el sector informático, donde nosotros nos vamos a centrar, los resultados de salida serán información. Sin embargo, no siempre tienen que ser información; en ocasiones pueden ser 
 impulsos eléctricos que generan una reacción específica en otros dispositivos (por ejemplo, en 
 robots en las cadenas de montaje). 
-• Automático (no interviene operador humano). 
-• Controlado por un programa. 
-Sistema informático 
+- Automático (no interviene operador humano).
+- Controlado por un programa.
+### 🔵 Sistema informático 
 Un sistema es un conjunto de elementos que se relacionan entre sí, que funcionan como un todo, y que 
 hace posible el tratamiento automático de la información. 
-Un ordenador es un sistema en sí mismo 
+### 🔵 Un ordenador es un sistema en sí mismo 
 Las partes principales de un sistema informático son: 
-• Hardware: componentes físicos. 
-• Software: componentes lógicos. 
-• Humanware: componente humano. (añadido en los últimos años). 
+- Hardware: componentes físicos.
+- Software: componentes lógicos.
+- Humanware: componente humano. (añadido en los últimos años).
  
  
  
  
-Ejemplo 
+### 🔵 Ejemplo 
 Un ejemplo de sistema informático sería un ordenador, varios 
 periféricos (ratón, teclado, monitor e impresora), la persona que lo 
 utiliza y los programas instalados en la computadora. 
@@ -196,17 +113,14 @@ Un Subsistema informático, es un sistema que es parte de otro sistema mayor.
 
  
  
-Informática básica. Representación y comunicación de la información: elementos constitutivos de un sistema 
-de información 
+ 
 Ejemplo: el procesador es un subsistema que forma parte de un nivel superior, y a la vez es un 
 subsistema formado por un conjunto de elementos interrelacionados (unidad aritmético-lógica, unidad 
 de control y los registros). 
 Podríamos denominar subsistemas a: 
-• Subsistema físico: asociado al hardware. Incluye elementos como CPU, memoria principal, placa 
-base, periféricos de entrada y salida, etc. 
-• Subsistema lógico: asociado al software y la arquitectura; incluye, sistema operativo, firmware, 
-aplicaciones y bases de datos. 
-Codificación de la información 
+- Subsistema físico: asociado al hardware. Incluye elementos como CPU, memoria principal, placa base, periféricos de entrada y salida, etc. 
+- Subsistema lógico: asociado al software y la arquitectura; incluye, sistema operativo, firmware, aplicaciones y 
+### 🔵 Codificación de la información 
 Diferentes conjuntos de datos tienen que interactuar entre sí, con un fin común 
 Es una transformación mediante la cual, se representa los elementos de un conjunto mediante los de 
 otro, consiguiendo que a cada elemento del primer conjunto le corresponda un elemento del segundo. 
@@ -214,7 +128,7 @@ otro, consiguiendo que a cada elemento del primer conjunto le corresponda un ele
  
  
  
-Ejemplo 
+### 🔵 Ejemplo 
 Un ejemplo de código podría ser los números de teléfono. En este 
 caso, los códigos tienen significado, como los prefijos que indican 
 la ciudad o el país. 
@@ -225,12 +139,11 @@ España corresponde al 034 y Zaragoza al 976.
 
  
  
-Informática básica. Representación y comunicación de la información: elementos constitutivos de un sistema 
-de información 
  
  
  
-Definición 
+ 
+### 🔵 Definición 
 Según la R.A.E. la palabra dato, en el ámbito de la informática, se 
 define como: 
 "Información dispuesta de manera adecuada para su tratamiento 
@@ -240,10 +153,10 @@ por una computadora".
 Esta definición en informática puede llevar a equívoco dado que la mayoría de los autores indican que la 
 información es un conjunto de datos ya procesados. 
 Vamos a ver otras definiciones, más adaptadas a la informática: 
-• Dato: 
+- Dato:
 Carece de significado o valor por sí mismo, no dice nada sobre el porqué de las cosas. 
 (En informática, se les da el formato adecuado para poder ser procesados). 
-• Información: 
+- Información:
 Es el conjunto de datos ya procesados, estructurados e interrelacionados que tienen significado, 
 y de los cuales podemos extraer conocimiento. 
 La palabra "informar" significa originalmente "dar forma a" y la información es capaz de formar 
@@ -261,26 +174,25 @@ varios sentidos. Vamos a verlo según Davenport y Prusak (1999).
 
  
  
-Informática básica. Representación y comunicación de la información: elementos constitutivos de un sistema 
-de información 
+ 
 La transformación de dato a información se puede producir por: 
-• Contextualización. 
-• Categorización. 
-• Cálculo. 
-• Corrección. 
-• Condensación. 
+- Contextualización.
+- Categorización.
+- Cálculo.
+- Corrección.
+- Condensación.
  
  
  
  
-Ejemplo 
+### 🔵 Ejemplo 
 En las organizaciones, la información se envía continuamente, 
 informes, email, etc. 
 Es el receptor el que la considerará o no útil y la convertirá en 
 conocimiento. 
  
  
-• Conocimiento: 
+- Conocimiento:
 "El conocimiento deriva de la información, que a su vez deriva de los datos". 
 Para Davenport y Prusak (1999), el conocimiento, es una mezcla de experiencia, valores, 
 información y saber hacer que sirve como marco para la incorporación de nuevas experiencias e 
@@ -289,22 +201,21 @@ Se origina y aplica en la mente de los conocedores.
 En las organizaciones con frecuencia, no solo se encuentra dentro de documentos o almacenes 
 de datos, sino que también está en rutinas organizativas, procesos, prácticas, y normas. 
 La transformación de información a conocimiento se puede producir mediante: 
-• Comparación. 
-• Consecuencias. 
-• Conexiones. 
-• Conversación. 
-• Predicción. 
+- Comparación.
+- Consecuencias.
+- Conexiones.
+- Conversación.
+- Predicción.
 
  
  
-Informática básica. Representación y comunicación de la información: elementos constitutivos de un sistema 
-de información 
+ 
 Veamos un esquema para que quede más claro 
  
-Transformación de datos en conocimiento 
+### 🔵 Transformación de datos en conocimiento 
 Veamos un ejemplo. 
 Tenemos un extracto de cuenta bancaria con los gastos del primer trimestre del año. 
-Fecha 
+### 🔵 Fecha 
 Concepto 
 Importe 
 12-01-2018 
@@ -339,19 +250,18 @@ marzo tenemos: 25 € + 20 € = 45 € que determina el total que en marzo gast
 
  
  
-Informática básica. Representación y comunicación de la información: elementos constitutivos de un sistema 
-de información 
+ 
 Entonces, si hemos calculado el total de cada mes en gasolina, tenemos la siguiente información: 
-Fecha 
+### 🔵 Fecha 
 Concepto 
 Importe 
 Enero 
 Gasolina 
 35€ 
-Febrero 
+### 🔵 Febrero 
 Gasolina 
 40€ 
-Marzo 
+### 🔵 Marzo 
 Gasolina 
 45€ 
 Finalmente, mediante comparación, podemos saber que enero es el mes con menor gasto y marzo el 
@@ -360,26 +270,25 @@ mes de mayor gasto. Esto es conocimiento.
  
  
  
-Vídeo 
+### 🔵 Vídeo 
 Antes de continuar, tienes que ver… 
 Video Clase: "Bienvenido al Universo Informático". 
 Seguro que ya conoces casi todos los conceptos, pero te ayudara a 
 sumergirte de lleno en la informática. 
-(Tienes el material en el Campus Virtual). 
+(Tienes el material en el ). 
  
  
 Los ordenadores, son elementos electrónicos que contienen millones de interruptores eléctricos, que 
 sólo pueden tener 2 valores: 
-• Sin corriente eléctrica: valor 0. 
+- Sin corriente eléctrica: valor 0.
  
 (Circuito abierto-
 apagado) 
 
  
  
-Informática básica. Representación y comunicación de la información: elementos constitutivos de un sistema 
-de información 
-• Con corriente eléctrica: valor 1. 
+ 
+- Con corriente eléctrica: valor 1.
  
 (Circuito 
 cerrado-\nencendido) 
@@ -387,12 +296,12 @@ A cada uno de estos valores se le denomina bit.
 El código que utiliza dos valores (0 y 1) se llama código binario. 
 Es el idioma del ordenador, la única forma que podemos comunicarnos con él, se denomina Lenguaje 
 Máquina. 
-Lenguaje máquina 
+### 🔵 Lenguaje máquina 
 Es el idioma del ordenador, la única forma que podemos comunicarnos con él, a través del código 
 binario, para que el ordenador entienda el conjunto de instrucciones que debe ejecutar. 
 Los datos de entrada se deben codificar a código binario para el ordenador entienda, y las salidas se 
 descodifican para que sean comprensibles para el usuario. 
-Funcionamiento del Sistema 
+### 🔵 Funcionamiento del Sistema 
 La CPU ejecuta una serie de instrucciones u órdenes elementales llamadas instrucciones máquina que 
 deben estar almacenadas en la memoria principal para poder ser leídas y ejecutadas. 
 ### 🔵 1.3. Unidades de medida de la información
@@ -400,20 +309,19 @@ Bit (BInary digiT)
 Como hemos visto, es la unidad más elemental de información, con 2 únicos valores, 0 y 1. 
 Por tanto, la unidad mínima de almacenamiento y transmisión de un ordenador es el bit. 
 Con un bit podemos representar dos estados. Algunos ejemplos serían: 
-• Sí/No. 
-• Verdadero/Falso. 
+- Sí/No.
+- Verdadero/Falso.
 
  
  
-Informática básica. Representación y comunicación de la información: elementos constitutivos de un sistema 
-de información 
-• Ocurre/No ocurre. 
-• Contiene/No contiene. 
-• Encendido/Apagado. 
+ 
+- Ocurre/No ocurre.
+- Contiene/No contiene.
+- Encendido/Apagado.
 Representamos nuestros caracteres, letras o números, mediante Byte, es decir un grupo de 8 
 valores de 0s y 1s 
  
-Byte 
+### 🔵 Byte 
 Es un conjunto de ocho bits. 
 Normalmente nos comunicamos con el ordenador a través del lenguaje escrito, por lo que debemos 
 codificar los caracteres a bits. Para ello, cada letra se codificará con un número determinado de ellos. 
@@ -428,8 +336,7 @@ UNIDADES DE MEDIDA DE ALMACENAMIENTO
 
  
  
-Informática básica. Representación y comunicación de la información: elementos constitutivos de un sistema 
-de información 
+ 
 UNIDADES DE MEDIDA DE ALMACENAMIENTO 
 1024 kilobytes = 1 Megabyte 
 1024 megabytes = 1 Gigabyte 
@@ -444,7 +351,7 @@ Unidades de medida de almacenamiento
  
  
  
-Técnicas de estudio 
+### 🔵 Técnicas de estudio 
 Para memorizar el orden de las unidades de medida podría ser 
 interesante crear una regla mnemotécnica (como crear una frase 
 sencilla con palabras que empiecen con las letras K-M-G-T-P-E-Z-
@@ -460,12 +367,11 @@ análogo informático.
 
  
  
-Informática básica. Representación y comunicación de la información: elementos constitutivos de un sistema 
-de información 
  
  
  
-Ejemplo 
+ 
+### 🔵 Ejemplo 
 "Kilo" en el decimal es sinónimo de 1000, mientras que en el 
 informático son 1024. Un Kilo-gramo son 1000 gramos, pero un 
 Kilo-byte son 1024 bytes. 
@@ -479,93 +385,92 @@ Mebibyte (MiB) = 220 → 1.048.576 B
 Gibibyte (GiB) = 230 → 1.073.741.824 B 
 Tebibyte (TiB) = 240 → 1.099.511.627.776 B 
 ETC. 
-Y comparando 
+### 🔵 Y comparando 
 Sistema Internacional Decimal 
 Unidades ISO/UEC 80000-13 
-Múltiplo 
+### 🔵 Múltiplo 
 Símb. 
-Bytes 
+### 🔵 Bytes 
 Valor 
 Múltiplo 
 Símb. 
-Bytes 
+### 🔵 Bytes 
 Valor 
 Kilobyte 
 KB 
 10^3 
 1000 B 
-Kibibyte 
+### 🔵 Kibibyte 
 KiB 
 2^10 
 1024 B 
-Megabyte 
+### 🔵 Megabyte 
 MB 
 10^6 
 1000 KB 
-Mebibyte 
+### 🔵 Mebibyte 
 MiB 
 2^20 
 1024 KiB 
-Gigabyte 
+### 🔵 Gigabyte 
 GB 
 10^9 
 1000 MB 
-Gibibyte 
+### 🔵 Gibibyte 
 GiB 
 2^30 
 1024 MiB 
-Terabyte 
+### 🔵 Terabyte 
 TB 
 10^12 
 1000 GB 
-Tebibyte 
+### 🔵 Tebibyte 
 TiB 
 2^40 
 1024 GiB 
-Petabyte 
+### 🔵 Petabyte 
 PB 
 10^15 
 1000 TB 
-Pebibyte 
+### 🔵 Pebibyte 
 PiB 
 2^50 
 1024 TiB 
-Exabyte 
+### 🔵 Exabyte 
 EB 
 10^18 
 1000 PB 
-Exibyte 
+### 🔵 Exibyte 
 EiB 
 2^60 
 1024 PiB 
 
  
  
-Informática básica. Representación y comunicación de la información: elementos constitutivos de un sistema 
-de información 
-Sistema Internacional Decimal 
+ 
+### 🔵 Sistema Internacional Decimal 
 Unidades ISO/UEC 80000-13 
-Múltiplo 
+### 🔵 Múltiplo 
 Símb. 
-Bytes 
+### 🔵 Bytes 
 Valor 
 Múltiplo 
 Símb. 
-Bytes 
+### 🔵 Bytes 
 Valor 
 Zetabyte 
 ZB 
 10^21 
 1000 EB 
-Zebibyte 
+### 🔵 Zebibyte 
 ZiB 
 2^70 
 1024 EiB 
-Yottabyte 
+### 🔵 Yottabyte 
 YB 
 10^24 
 1000 ZB 
-Yobibyte 
+### 🔵 Yobibyte 
 YiB 
 2^80 
 1024 ZiB 
@@ -578,8 +483,8 @@ ETC.
  
  
 Aunque a fecha actual (principios de 2021) algunas casas como Microsoft, todavía utilizan la unidad 
-Kilobyte como 1024 bytes en sus sistemas operativos. 
-Nibble 
+Kilobyte como 1024 bytes en sus 
+### 🔵 Nibble 
 A veces se le denomina también semi-octeto, cuarteto o medio-byte. 
 Es un conjunto de 4 bits (o medio octeto). 
 Su interés se debe a que cada cifra en hexadecimal (0, 1, 2, ..., 9, A, B, C, D, E, F) se puede representar 
@@ -591,7 +496,7 @@ Con esta codificación especial de los dígitos decimales en el sistema binario,
 operaciones aritméticas como suma, resta, multiplicación y división. 
 Cada dígito decimal tiene una representación binaria codificada con 4 bits: 
 Binary-Coded Decimal (BCD) 
-Decimal 
+### 🔵 Decimal 
 BCD 
 0000 
 0001 
@@ -606,7 +511,7 @@ BCD
 Los números decimales, se codifican en BCD con los bits que representan sus dígitos. Por ejemplo, la 
 codificación en BCD del número decimal 59237 es: 
 Número Decimal 59237 representado en BCD 
-Decimal 
+### 🔵 Decimal 
 BCD 
 0101 
 1001 
@@ -616,12 +521,11 @@ BCD
 
  
  
-Informática básica. Representación y comunicación de la información: elementos constitutivos de un sistema 
-de información 
+ 
 La representación anterior (en BCD) es diferente de la representación del mismo número decimal en 
 binario puro: 
-• Número Decimal 59237 = BCD: 01011001001000110111. 
-• Número Decimal 59237 = Binario: 1110011101100101. 
+- Número Decimal 59237 = BCD: 01011001001000110111.
+- Número Decimal 59237 = Binario: 1110011101100101.
 ### 🔵 1.4. Sistemas de numeración
  
 Los sistemas de numeración utilizados en la actualidad están basados en sistemas posicionales de tipo 
@@ -642,18 +546,17 @@ definidos naturales incluido el cero.
 
  
  
-Informática básica. Representación y comunicación de la información: elementos constitutivos de un sistema 
-de información 
+ 
 Vamos a estudiar 4 sistemas de numeración 
  
  
  
-Nota 
+### 🔵 Nota 
 El sistema decimal es el menos eficiente de los cuatro. Es el más 
 utilizado porque el ser humano tiene 10 dedos en las manos. 
  
  
-Sistema 
+### 🔵 Sistema 
 Base 
 Valores que podemos usar 
 Binario 
@@ -670,10 +573,10 @@ potencias de 2 y su conversión a binario es directa.
  
  
  
-Vídeo 
+### 🔵 Vídeo 
 Para repasar tienes esta Vídeo Clase: 
 "Sistemas de Numeración". 
-(Tienes el material en el Campus Virtual). 
+(Tienes el material en el ). 
  
 #### 🔹 1.4.1. Conversión indirecta mediante base decimal
 La conversión entre dos bases cualesquiera puede realizarse de forma indirecta, utilizando la base 
@@ -683,8 +586,7 @@ mejor comprendemos y utilizamos en la vida cotidiana.
 
  
  
-Informática básica. Representación y comunicación de la información: elementos constitutivos de un sistema 
-de información 
+ 
 A continuación vamos a estudiar este sistema de conversión indirecto, usando siempre como sistema 
 intermedio el decimal, ya que las operaciones son más sencillas. Permitiendo realizarlas incluso sin 
 calculadora. 
@@ -693,25 +595,21 @@ De Sistema Decimal(base 10) a cualquier Sistema(base 2, 8 o 16)
  
 Para pasar un número decimal (base 10) a cualquier otro sistema (cuya base será nuestro divisor, 
 realizaremos los siguientes pasos: 
-• Dividiremos el número decimal (dividendo) entre la base del sistema que queremos como 
-resultado (divisor). 
-• Guardaremos el resto. 
-• El resultado de la división (cociente) lo volvemos a dividir el divisor, e iremos guardando los 
-restos. 
+- Dividiremos el número decimal (dividendo) entre la base del sistema que queremos como resultado (divisor). 
+- Guardaremos el resto.
+- El resultado de la división (cociente) lo volvemos a dividir el divisor, e iremos guardando los restos. 
 Repetiremos la división hasta que el cociente sea menor que el divisor. 
-• Tendremos todos los resultados de los restos, e invertiremos su orden. 
+- Tendremos todos los resultados de los restos, e invertiremos su orden.
 Dependiendo del sistema que queramos obtener realizaremos un cálculo u otro. 
-• Si el resultado de la conversión es en base 2 (binario) ya tendremos el resultado. 
-• Si el resultado de la conversión es en base 8 (octal) ya tendremos el resultado. 
-• Si el resultado de la conversión es en base 16 (hexadecimal), el resultado lo debemos 
-convertir en su correspondiente valor en Hexadecimal (15=F). 
+- Si el resultado de la conversión es en base 2 (binario) ya tendremos el resultado.
+- Si el resultado de la conversión es en base 8 (octal) ya tendremos el resultado.
+- Si el resultado de la conversión es en base 16 (hexadecimal), el resultado lo debemos convertir en su correspondiente valor en Hexadecimal (15=F). 
 
  
  
-Informática básica. Representación y comunicación de la información: elementos constitutivos de un sistema 
-de información 
  
-De cualquier Sistema a Decimal 
+ 
+### 🔵 De cualquier Sistema a Decimal 
 Para la conversión del número, debemos tener en cuenta, los caracteres que lo componen y la posición 
 de cada uno de ellos, comenzando desde la derecha hacia la izquierda, y teniendo en cuenta que las 
 posiciones se cuentan desde el valor 0. 
@@ -722,8 +620,7 @@ Ejemplo: 247 ? 7: posición 0 4:posición 1 2:posición 2
 
  
  
-Informática básica. Representación y comunicación de la información: elementos constitutivos de un sistema 
-de información 
+ 
 #### 🔹 1.4.2. Conversión directa entre bases potencia de 2
 En el procedimiento anterior hemos visto el método general de conversión, que utiliza la base decimal 
 como paso intermedio. Es un método válido para cualquier par de bases, especialmente cuando no \nexiste una relación directa entre ellas. 
@@ -734,16 +631,16 @@ reagrupando o sustituyendo grupos de bits.
 Esto es posible porque las bases que son potencias de 2 mantienen una correspondencia exacta con el 
 sistema binario. Si una base se expresa como B=2n, cada dígito de esa base equivale a un grupo fijo de 
 n bits. 
-• En base 4: cada dígito representa 2 bits. 
-• En base 8: cada dígito representa 3 bits. 
-• En base 16: cada dígito representa 4 bits. 
+- En base 4: cada dígito representa 2 bits.
+- En base 8: cada dígito representa 3 bits.
+- En base 16: cada dígito representa 4 bits.
 Por lo tanto, para convertir un número de una base potencia de 2 a binario, basta con sustituir cada 
 dígito por su grupo binario correspondiente. 
 El proceso inverso consiste en agrupar los bits de n en n según la base destino. 
 Ejemplo: 
 Convertimos el número hexadecimal 3A₁₆ a binario: 
-• 3 → 0011 
-• A → 1010 
+- 3 → 0011
+- A → 1010
 Resultado: 3A16 = 001110102 
 Si deseamos volver al sistema hexadecimal, bastará con agrupar los bits de cuatro en cuatro desde la 
 derecha: 
@@ -755,14 +652,12 @@ forma perfectamente alineada con la estructura binaria.
 
  
  
-Informática básica. Representación y comunicación de la información: elementos constitutivos de un sistema 
-de información 
+ 
 Gracias a esta correspondencia, las bases potencia de 2 se utilizan con frecuencia en informática para la 
 representación y el almacenamiento interno de la información binaria, ya que permiten expresar los 
 datos de forma más compacta y eficiente. 
-• En programación y electrónica digital se emplea el hexadecimal (base 16) para representar 
-bytes y direcciones de memoria. 
-• En algunos sistemas y representaciones más antiguas se ha utilizado la base 8 (octal). 
+- En programación y electrónica digital se emplea el hexadecimal (base 16) para representar bytes y direcciones de memoria. 
+- En algunos sistemas y representaciones más antiguas se ha utilizado la base 8 (octal).
 En resumen, mientras que el método general de conversión entre bases pasa por el sistema decimal, 
 cuando las bases son potencias de 2 la conversión se simplifica y se realiza directamente mediante la 
 correspondencia bit a bit, sin necesidad de cálculos intermedios. 
@@ -774,49 +669,47 @@ resultado final.
  
  
  
-Vídeo 
+### 🔵 Vídeo 
 Es difícil de comprender mediante teoría, pero muy sencillo con \nejemplos prácticos. Lo entenderás con esta Vídeo Clase: 
 "Conversión entre Sistemas de Numeración". 
-(Tienes el material en el Campus Virtual). 
+(Tienes el material en el ). 
  
 ### 🔵 1.6. Representación de la información
 Los ordenadores trabajan en el sistema binario (con ceros y unos), por lo que debemos representar la 
 información codificándolo a binario. 
 Existen cuatro tipos de información básicos: 
-• Texto. 
-• Números. 
-• Sonidos. 
-• Imágenes. 
+- Texto.
+- Números.
+- Sonidos.
+- Imágenes.
 
  
  
-Informática básica. Representación y comunicación de la información: elementos constitutivos de un sistema 
-de información 
+ 
 Cada una de ellas se debe tratar de forma distinta. Vamos a ver los procesos para transformar la 
 información externa en patrones de bits que pueda procesar el ordenador. 
 La compresión de archivos es una técnica que consiste en representar (codificar) la información de 
 manera que ocupe menos espacio. 
 Cuando se transmite o almacena información pueden producirse errores. Enunciaremos las técnicas 
 básicas de detección automática de errores. 
-Representación de textos 
+### 🔵 Representación de textos 
 Es el método más usual de introducir información en un ordenador. Prieto (2006) propone la siguiente 
 clasificación: 
-• Caracteres alfabéticos: 
+- Caracteres alfabéticos:
 letras mayúsculas y minúsculas del alfabeto 
-• Caracteres numéricos: 
+- Caracteres numéricos:
 0,1,2,3,4,5,6,7,8,9 
-• Caracteres especiales: 
+- Caracteres especiales:
 Símbolos ortográficos y matemáticos: 
 ) ( , * / ; : + Ñ ñ = ! ? . " & > # < ] Ç [ 
-• Caracteres geométricos y gráficos: 
+- Caracteres geométricos y gráficos:
 Símbolos con los que se representan formas geométricas o iconos elementales: 
  
 
  
  
-Informática básica. Representación y comunicación de la información: elementos constitutivos de un sistema 
-de información 
-• Caracteres de control: 
+ 
+- Caracteres de control:
 Representan órdenes de control, como salto de línea o comienzo de línea. 
 Para la transformación de caracteres a patrones de bits se utilizan códigos de Entrada/Salida (E/S), 
 normalizados en diferentes estándares predefinidos (ASCII...). 
@@ -826,26 +719,24 @@ m símbolos diferentes se necesitarán n bits, siendo:
 n = log2 m ≈ 3,32 log m 
 Por lo tanto, para codificar 95 caracteres: 3,32 * log (95) = 6,566. Necesitaremos 7 bits. 
 Algunos de los códigos más relevantes son: 
-• EBCDIC (Extended Binary Coded Decimal Interchange Code). Utiliza 8 bits. 
-• ASCII (American Standard Code for Information Interchange). Utiliza 7 bits. Es de los más 
-usados. Existen versiones ampliadas de este código utilizando 8 bits que respetan los códigos de 
+- EBCDIC (Extended Binary Coded Decimal Interchange Code). Utiliza 8 bits.
+- ASCII (American Standard Code for Information Interchange). Utiliza 7 bits. Es de los más usados. Existen versiones ampliadas de este código utilizando 8 bits que respetan los códigos de 
 ASCII, aprovechando las combinaciones no usadas. 
-• UNICODE. (Está reconocido como estándar ISO/IEC 10646). 
+- UNICODE. (Está reconocido como estándar ISO/IEC 10646).
 Se origina debido a los inconvenientes de los tipos anteriores: 
-• Símbolos codificados insuficientes. 
-• Símbolos de las versiones ampliadas a 8 bits no están normalizados. 
-• Basados en caracteres latinos. No contemplan otras culturas. 
-• Las culturas orientales utilizan ideogramas para representar palabras, por lo que no sirven \nestos sistemas de codificación. 
-• UNICODE Ofrece: 
-• Universalidad: Cubre la mayoría de lenguajes. 
-• Unicidad: Cada carácter tiene un único código. 
-• Uniformidad: Todos los símbolos se representan con 16 bits. 
-• UNICODE no codifica caracteres de control. 
+- Símbolos codificados insuficientes.
+- Símbolos de las versiones ampliadas a 8 bits no están normalizados.
+- Basados en caracteres latinos. No contemplan otras culturas.
+- Las culturas orientales utilizan ideogramas para representar palabras, por lo que no sirven \nestos sistemas de codificación.
+- UNICODE Ofrece:
+- Universalidad: Cubre la mayoría de lenguajes.
+- Unicidad: Cada carácter tiene un único código.
+- Uniformidad: Todos los símbolos se representan con 16 bits.
+- UNICODE no codifica caracteres de control.
 
  
  
-Informática básica. Representación y comunicación de la información: elementos constitutivos de un sistema 
-de información 
+ 
 Teniendo en cuenta que los ordenadores funcionan en base 2 (0 y 1), Resumimos: 
 Para representar caracteres tendremos que definir estos en función de secuencias de ceros y unos que 
 previamente habremos definido. 
@@ -873,7 +764,7 @@ los bits necesarios para codificar 95 caracteres, como hemos visto, esto es n &a
  
  
  
-Hazlo fácil 
+### 🔵 Hazlo fácil 
 Vamos a multiplicar el número 2 por si mismo las veces que haga 
 falta hasta que superemos el número buscado, en nuestro ejemplo, 
 95. Buscamos de esta manera el exponente que nos hace falta. 
@@ -882,8 +773,7 @@ n = 2 x 2 x 2 x 2 x 2 x 2 x 2 = 128
 
  
  
-Informática básica. Representación y comunicación de la información: elementos constitutivos de un sistema 
-de información 
+ 
  
  
  
@@ -897,18 +787,18 @@ Pero sabiendo que un bit es un número entero, es decir que no puede dividirse, 
 queremos codificar 95 caracteres, habré de elegir el exponente más alto, ya que, si eligiéramos el 
 inmediatamente inferior, 6, no podríamos codificar todos nuestros caracteres, por lo contrario, si 
 cogemos 7 bits, aunque nos sobren recursos, sí podremos codificar la totalidad de nuestros símbolos. 
-Representación de sonidos 
+### 🔵 Representación de sonidos 
 Las señales de sonido o audio (voz y música) son captadas por un sensor que transforma las señales de 
 presión en señales eléctricas analógicas, que posteriormente serán digitalizadas. 
-Representación de imágenes 
+### 🔵 Representación de imágenes 
 Las imágenes se capturan utilizando periféricos como cámaras y escáneres, los cuales generan un 
 conjunto de bits. Existen muchos tipos de codificación y sistemas de compresión de imágenes que no \nestudiaremos en este tema. Las principales formas de representar imágenes son: 
-• Mapa de bits. 
-• Imagen vectorial. 
-Representación de valores numéricos 
+- Mapa de bits.
+- Imagen vectorial.
+### 🔵 Representación de valores numéricos 
 Para introducir números utilizamos códigos de E/S al igual que con el texto. Sin embargo, si queremos \nel valor del número y realizar operaciones con el mismo, debemos utilizar una representación 
 fundamentada en el sistema numérico en base 2. 
-• Datos de tipo entero: 
+- Datos de tipo entero:
 Se puede utilizar representación binaria o la representación de dígitos decimales codificados en 
 binario (BCD). 
 La representación binaria es la más utilizada y podemos trabajar con enteros sin signo y enteros 
@@ -917,26 +807,25 @@ Los enteros sin signo se representan con su número binario.
 
  
  
-Informática básica. Representación y comunicación de la información: elementos constitutivos de un sistema 
-de información 
+ 
 Los enteros con signo tienen cuatro métodos diferentes que debemos considerar: 
-• Enteros en signo y magnitud. 
+- Enteros en signo y magnitud.
 El bit más significativo (el de la izquierda) se utiliza para el signo (0 positivo y 1 negativo). 
 El resto de bits representan el valor en binario. 
-• Enteros en complemento a 1. 
+- Enteros en complemento a 1.
 El signo se representa igual que en el caso anterior. Si el número es positivo, el resto de bits 
 representan el valor absoluto del número en binario y si es negativo, representan su 
 complemento a 1. El complemento a 1 se calcula cambiando los ceros por unos y los unos 
 por ceros. Ej. 1001 su complemento a 1 es 0110. 
-• Enteros en complemento a 2. 
+- Enteros en complemento a 2.
 Igual que los enteros en complemento a 1, pero utilizando el complemento a 2. Este se 
 calcula realizando el complemento a 1 y sumándole 1 al resultado. Ej. 1001 su 
 complemento a 2 es 0110 + 0001 = 0111. 
-• Representación sesgada (o en exceso). 
+- Representación sesgada (o en exceso).
 Se le suma al número un sesgo S (normalmente 2n-1, siendo n el número de bits), de forma 
 que el número resultante siempre será positivo. De esta forma ya no necesitamos reservar 
 un bit para el signo. 
-• Datos de tipo real: 
+- Datos de tipo real:
 En computación, la notación en coma flotante se utiliza para trabajar con números reales. 
 Dependiendo de la precisión requerida, se emplean formatos específicos, como la precisión 
 simple (32 bits) o la doble precisión (64 bits). Los lenguajes de programación, como Java, C, 
@@ -955,8 +844,7 @@ hasta que la parte fraccionaria sea 0:
 
  
  
-Informática básica. Representación y comunicación de la información: elementos constitutivos de un sistema 
-de información 
+ 
 2. 0,50 x 2 = 1. 
 ## 🟣 3. El resultado decimal será 0,11 que sumado a la parte entera ya convertida obtendremos en este caso 110,11 
 ## 🟣 2. Normalización:
@@ -982,7 +870,7 @@ Signo 0, Exponente 10000001, Mantisa 1011000000000000000000
  
  
  
-Aclaración 
+### 🔵 Aclaración 
 Más que conocer los pasos exactos para almacenar un número real \nen el sistema informático es útil conocer las distintas precisiones 
 de las que disponemos para almacenar los números reales que nos 
 interesan. 
@@ -990,8 +878,7 @@ interesan.
 
  
  
-Informática básica. Representación y comunicación de la información: elementos constitutivos de un sistema 
-de información 
+ 
 Representación de instrucciones de programa 
 Las instrucciones que nosotros creamos en un lenguaje de alto nivel, están el formato texto, usamos un 
 código de E/S para representarlas, y a continuación se utiliza un intérprete o un compilador que 
@@ -1003,12 +890,12 @@ alteración en el voltaje, que provoca errores o desplazamiento en la memoria RA
 Para detectarlo se utilizan diversas técnicas que consiste en la introducción de redundancias en el 
 código (números que no representan ningún símbolo). 
 Los algoritmos más utilizados son: 
-• Bit de paridad. 
+- Bit de paridad.
 Este bit se introduce antes de transmitir o guardar la información. Hay dos tipos: 
-• Paridad par. El número total de unos debe ser par. 
-• Paridad impar. El número total de unos debe ser impar. 
+- Paridad par. El número total de unos debe ser par.
+- Paridad impar. El número total de unos debe ser impar.
 De esta forma, si contamos el número de unos podemos saber si se ha producido un error. 
-• Verificación de redundancia cíclica. 
+- Verificación de redundancia cíclica.
 La verificación por redundancia cíclica (CRC) es un código de detección de errores usado 
 frecuentemente en redes digitales y en dispositivos de almacenamiento para detectar cambios 
 accidentales en los datos. 
@@ -1018,7 +905,7 @@ corrección puede tomarse en contra de los datos presuntamente corruptos en caso
 valor de verificación no concuerde. 
 Es útil para detección de errores, pero, en condiciones de seguridad, no podemos confiar en que \nel CRC puede verificar plenamente que los datos son los correctos en caso de que se hayan 
 producido cambios deliberados y no aleatorios. 
-• Verificación de redundancia LONGITUDINAL. 
+- Verificación de redundancia LONGITUDINAL.
 La verificación de la redundancia longitudinal (LRC, también denominada verificación de 
 redundancia horizontal) no consiste en verificar la integridad de los datos mediante la 
 representación de un carácter individual, sino en verificar la integridad del bit de paridad de un 
@@ -1026,8 +913,7 @@ grupo de caracteres.
 
  
  
-Informática básica. Representación y comunicación de la información: elementos constitutivos de un sistema 
-de información 
+ 
 Los campos LRC constan de un byte que contiene un valor binario de ocho bits. 
 Los valores de LRC se calculan mediante dispositivos de transmisión, que añaden LRC a los 
 mensajes. 
@@ -1043,14 +929,13 @@ redundancias en el código (números que no representan ningún símbolo, sólo 
 comprobación). 
 El algoritmo más típico es el Bit de paridad, que es un bit que se introduce antes de transmitir o guardar 
 la información. Hay dos tipos: 
-• Paridad par: El número total de unos debe ser par. 
-• Paridad impar: El número total de unos debe ser impar. 
+- Paridad par: El número total de unos debe ser par.
+- Paridad impar: El número total de unos debe ser impar.
 De esta forma, si contamos el número de unos podemos saber si se ha producido un error. 
 En nuestro ejemplo: 
-• Transmitimos 00000011. 
-• Enviaríamos que el número total de unos es par. 
-• Se recibiría 00000010, por tanto, al no cumplirse la condición de que el número total de unos es 
-par, se detecta ERROR. 
+- Transmitimos 00000011.
+- Enviaríamos que el número total de unos es par.
+- Se recibiría 00000010, por tanto, al no cumplirse la condición de que el número total de unos es par, se detecta ERROR. 
 ## 🟣 2. Sistemas de información
  
  
@@ -1063,42 +948,38 @@ lectura interesante si se desea profundizar en el tema.
 
  
  
-Informática básica. Representación y comunicación de la información: elementos constitutivos de un sistema 
-de información 
+ 
 En primer lugar, vamos a definir unos conceptos que nos ayudarán a entender mejor un sistema de 
 información. 
-Sistema 
+### 🔵 Sistema 
 Un sistema es un conjunto de elementos o componentes que interaccionan con el fin de alcanzar un 
 objetivo. 
 Un sistema tiene cuatro componentes principales: 
-• Entrada. 
-• Procesamiento. 
-• Salida. 
-• Retroalimentación. 
-Sistema de Información 
+- Entrada.
+- Procesamiento.
+- Salida.
+- Retroalimentación.
+### 🔵 Sistema de Información 
 Basándonos en la definición de sistema, ampliamos para definir un sistema de información. 
 Un sistema de información es un conjunto de elementos o componentes interrelacionados que recaban 
 (entrada), manipulan (proceso), almacenan y distribuyen (salida) datos e información y proporciona 
 una reacción correctiva (mecanismo de retroalimentación) si no se ha logrado cumplir un objetivo. 
  
-Componentes de un sistema de información 
+### 🔵 Componentes de un sistema de información 
 Los componentes de un sistema de información son: 
-• Entrada: Actividad de recabar y capturar datos. 
-• Procesamiento: Conversión o transformación de los datos en salidas útiles. 
-• Salida: Producción de información útil, por lo general en forma de documentos e informes. 
+- Entrada: Actividad de recabar y capturar datos.
+- Procesamiento: Conversión o transformación de los datos en salidas útiles.
+- Salida: Producción de información útil, por lo general en forma de documentos e informes.
 
  
  
-Informática básica. Representación y comunicación de la información: elementos constitutivos de un sistema 
-de información 
-• Retroalimentación: Salida que se utiliza para realizar cambios en la entrada o en el 
-procesamiento para mejorar la eficacia de un sistema (el grado en que un sistema logra sus 
+ 
+- Retroalimentación: Salida que se utiliza para realizar cambios en la entrada o en el procesamiento para mejorar la eficacia de un sistema (el grado en que un sistema logra sus 
 objetivos). 
-• Opcionalmente el Almacenamiento también forma parte de un sistema de información, en 
-función de si los datos de entrada y salida se almacenan en el ordenador. Dependerá del proceso 
+- Opcionalmente el Almacenamiento también forma parte de un sistema de información, en función de si los datos de entrada y salida se almacenan en el ordenador. Dependerá del proceso 
 a realizar. 
 Sistema de Información basado en ordenador 
-Es un conjunto único de elementos de hardware, software, bases de datos, telecomunicaciones, 
+Es un conjunto único de elementos de hardware, software, 
 personas y procedimientos, que hacen posible el tratamiento de información. 
 Este tratamiento de información es: recolectar, manipular, almacenar y procesar datos, con el fin de 
 convertirlos en información útil, logrando un objetivo. 
@@ -1108,97 +989,81 @@ de información. Aunque las denominaciones pueden variar ligeramente, todas coin
 propósito esencial de un sistema de información es captar, procesar, almacenar y comunicar datos para 
 transformarlos en información útil. 
 Entre las funciones más comúnmente aceptadas se encuentran: 
-• Recolección: Captura y registro de los datos procedentes de distintas fuentes. 
-• Clasificación: Identificación y agrupación de los datos según su tipo y modo de recuperación. 
-• Síntesis o compresión: Reducción de los datos sin pérdida de información significativa, \neliminando redundancias. 
-• Almacenamiento: Conservación organizada de los datos en soportes adecuados. 
-• Recuperación: Acceso rápido y eficaz a los datos almacenados cuando son necesarios. 
-• Procesamiento: Transformación de los datos en información útil mediante operaciones o 
-cálculos. 
-• Transmisión: Comunicación de datos o información entre distintos puntos o sistemas. 
-• Presentación o exhibición: Visualización de la información en un formato comprensible y útil 
-para los usuarios. 
+- Recolección: Captura y registro de los datos procedentes de distintas fuentes.
+- Clasificación: Identificación y agrupación de los datos según su tipo y modo de recuperación.
+- Síntesis o compresión: Reducción de los datos sin pérdida de información significativa, \neliminando redundancias.
+- Almacenamiento: Conservación organizada de los datos en soportes adecuados.
+- Recuperación: Acceso rápido y eficaz a los datos almacenados cuando son necesarios.
+- Procesamiento: Transformación de los datos en información útil mediante operaciones o cálculos. 
+- Transmisión: Comunicación de datos o información entre distintos puntos o sistemas.
+- Presentación o exhibición: Visualización de la información en un formato comprensible y útil para los usuarios. 
 Estas funciones, descritas en la literatura clásica de sistemas de información (Laudon & Laudon, 
 O'Brien, Stair & Reynolds, entre otros), coinciden con la doctrina utilizada en manuales de 
 universidades españolas y latinoamericanas. 
 
  
  
-Informática básica. Representación y comunicación de la información: elementos constitutivos de un sistema 
-de información 
+ 
 ### 🔵 2.2. Características de un sistema de información
 Según el autor EMERY JAMES C, en uno de sus libros publicado en 1990, las principales características 
 de un sistema de información son: 
-• Formar parte de las actividades de la organización. Un sistema de información gerencial bien 
-proyectado se vuelve parte integrante de las actividades de la organización en todos sus niveles. 
-• Está basado en tecnología de computación. Un sistema de información es mucho más que un 
-conjunto de procesos computarizados, por lo tanto, un sistema de información que no esté 
+- Formar parte de las actividades de la organización. Un sistema de información gerencial bien proyectado se vuelve parte integrante de las actividades de la organización en todos sus niveles. 
+- Está basado en tecnología de computación. Un sistema de información es mucho más que un conjunto de procesos computarizados, por lo tanto, un sistema de información que no esté 
 basado en parte por tecnología informática, o es relativamente simple o fue proyectado 
 precariamente. 
-• Ser un sistema hombre – máquina. Un sistema de información bien proyectado que 
-interrelaciona tareas entre hombres y máquinas en forma eficiente. 
-• Ser una colección de subsistemas. Un sistema de información está compuesto por una colección 
-de subsistemas y el grado de conexión entre esos subsistemas es variado (puede ser más fuerte 
+- Ser un sistema hombre – máquina. Un sistema de información bien proyectado que interrelaciona tareas entre hombres y máquinas en forma eficiente. 
+- Ser una colección de subsistemas. Un sistema de información está compuesto por una colección de subsistemas y el grado de conexión entre esos subsistemas es variado (puede ser más fuerte 
 o más débil) según sea el nivel de integración, técnica y económica, más adecuado. 
-• Ser adaptable a necesidades de cambios. Un sistema de información bien diseñado debe 
-responder continuamente a las necesidades de cambios y avances tecnológicos. 
+- Ser adaptable a necesidades de cambios. Un sistema de información bien diseñado debe responder continuamente a las necesidades de cambios y avances tecnológicos. 
 ### 🔵 2.3. Características de la información útil
 Para que la información sea de utilidad a una organización o a las personas que la utilizan, debe tener las 
 siguientes características: 
-• Accesible. Los usuarios autorizados deben poder acceder a la información de una manera fácil y 
-dicha información debe tener el formato correcto y ser recibida en el momento preciso. 
-• Exacta. Debe estar libre de errores. 
-• Completa. Contendrá todos los hechos relevantes. 
-• Económica. El costo de la producción de la información debe ser inferior al valor del beneficio 
-que aporta. 
-• Flexible. Información flexible es aquella que puede utilizarse para varios propósitos. 
-• Relevante. Cuando resulta de interés para la persona que la recibe. Por ejemplo, la fecha y lugar 
-de realización del examen de oposición puede ser relevante para nosotros, pero no resulta de 
+- Accesible. Los usuarios autorizados deben poder acceder a la información de una manera fácil y dicha información debe tener el formato correcto y ser recibida en el momento preciso. 
+- Exacta. Debe estar libre de errores.
+- Completa. Contendrá todos los hechos relevantes.
+- Económica. El costo de la producción de la información debe ser inferior al valor del beneficio que aporta. 
+- Flexible. Información flexible es aquella que puede utilizarse para varios propósitos.
+- Relevante. Cuando resulta de interés para la persona que la recibe. Por ejemplo, la fecha y lugar de realización del examen de oposición puede ser relevante para nosotros, pero no resulta de 
 interés para las personas que no lo preparan. 
-• Confiable. Probabilidad de que la información sea veraz. Por ejemplo, un rumor no es una 
-información confiable. 
+- Confiable. Probabilidad de que la información sea veraz. Por ejemplo, un rumor no es una información confiable. 
 
  
  
-Informática básica. Representación y comunicación de la información: elementos constitutivos de un sistema 
-de información 
-• Segura. Se debe proteger la integridad de la información (ante fallos o pérdidas) y ésta solo 
-podrá ser accedida por los usuarios autorizados. 
-• Simple. Debe presentarse de la forma más sencilla posible para evitar ambigüedades en el 
-significado e información no útil. 
+ 
+- Segura. Se debe proteger la integridad de la información (ante fallos o pérdidas) y ésta solo podrá ser accedida por los usuarios autorizados. 
+- Simple. Debe presentarse de la forma más sencilla posible para evitar ambigüedades en el significado e información no útil. 
 ### 🔵 2.4. Elementos de un sistema informático
 Sistema de Información Basado en Ordenador 
 Un sistema informático está formado por un gran número de elementos, desde un pequeño circuito \neléctrico hasta una gran instalación de muchos equipos conectados entre sí, los programas que nos 
 resuelven problemas y nosotros mismos, los seres humanos que los creamos, modificamos y utilizamos. 
 Esta es la clasificación típica de las partes de la informática: 
-• Hardware, componentes físicos: 
+- Hardware, componentes físicos:
 Son todas las partes físicas, tangibles, de un sistema informático: componentes electrónicos, 
 cables, conectores y cualquier elemento físico involucrado, soportes físicos de almacenamiento 
 (pendrive) etc. 
 Todos los componentes necesarios para que sean posibles las telecomunicaciones, red, 
 internet… 
-• Software, componentes lógicos: 
-Son los componentes intangibles, los sistemas operativos, aplicaciones, datos y ficheros, que 
+- Software, componentes lógicos:
+Son los componentes intangibles, los 
 son utilizados por los distintos componentes de hardware. 
-Hay que destacar la importancia de las Bases de Datos, que almacenan de forma organizada 
+Hay que destacar la importancia de las 
 datos en registros específicos y que deben ser identificables. 
 Una Base de Datos, es el elemento más importante del sistema de información y, debe de estar 
 sujeto a medidas de seguridad que garanticen su integridad y eviten el acceso por personal no 
 autorizado. 
-En las bases de datos se realizan diversos procesos, que son la conversión o transformación de 
+En las 
 los datos, como son, por ejemplo: 
-• Transacciones: 
+- Transacciones:
 Permiten al usuario (o a un programa) consultar, agregar, modificar o eliminar un dato \nespecífico de la Información. 
 
  
  
-Informática básica. Representación y comunicación de la información: elementos constitutivos de un sistema 
-de información 
-• Informes: 
+ 
+- Informes:
 Mediante ellos, el usuario puede obtener uno o más registros y/o información de tipo \nestadístico (contar, sumar) de acuerdo a criterios de búsqueda y selección definidos. 
 Dentro del software están también todos los protocolos que permiten Telecomunicaciones, 
 para poder realizar transferencias de información. 
-• Humanware, componente humano: 
+- Humanware, componente humano:
 Es un término introducido recientemente, que se utiliza para definir los recursos humanos, el 
 trabajo del personal que participa en el diseño de los sistemas informáticos en cualquiera de sus 
 fases. 
@@ -1211,28 +1076,25 @@ programar, mantener y/o utilizar el sistema. Incluyendo de forma muy destacada l
 Procedimientos administrativos. 
 ### 🔵 2.5. Distintas clasificaciones
 Los sistemas de información pueden clasificarse siguiendo diferentes criterios: 
-• Según el propósito para el que se utilizará la información obtenida. 
+- Según el propósito para el que se utilizará la información obtenida.
 Las aplicaciones pueden realizarse con diferentes fines: 
-• Los sistemas transaccionales automatizan procesos operativos dentro de una organización. 
-• Los Sistemas de Soporte a la Toma de Decisiones (DSS) asisten a distintos grupos de una 
-organización. Entre ellos altos ejecutivos, gerentes intermedios, analistas de datos, 
+- Los sistemas transaccionales automatizan procesos operativos dentro de una organización.
+- Los Sistemas de Soporte a la Toma de Decisiones (DSS) asisten a distintos grupos de una organización. Entre ellos altos ejecutivos, gerentes intermedios, analistas de datos, 
 departamentos de marketing, financieros y operaciones. Áreas que utilizan la información 
 analítica proporcionada por los DSS para tomar decisiones informadas y estratégicas, 
 optimizando la gestión de equipos, analizando tendencias, evaluando campañas y 
 realizando proyecciones. 
-• Sistemas Estratégicos, similar a los de toma de decisiones, ayudan a lograr ventajas 
-competitivas. 
-• Según su organización física. 
+- Sistemas Estratégicos, similar a los de toma de decisiones, ayudan a lograr ventajas competitivas. 
+- Según su organización física.
 Vamos a ver una diferenciación y definición muy breve: 
-• Sistemas centralizados: 
+- Sistemas centralizados:
 Básicamente, son sistemas donde los procesos se realizan en localización central, usando 
 terminales conectados a un servidor, que puede controlar todos los periféricos directamente. 
 
  
  
-Informática básica. Representación y comunicación de la información: elementos constitutivos de un sistema 
-de información 
-• Sistemas distribuidos: 
+ 
+- Sistemas distribuidos:
 Los ordenadores están separados físicamente y conectados entre sí por una red de 
 comunicaciones. 
 El usuario percibe como un solo sistema (no necesita saber qué cosas están en qué 
@@ -1242,83 +1104,73 @@ recursos locales.
 Merece la pena crear un epígrafe específico sobre la clasificación del software pues tiene un universo 
 propio realmente consistente. 
 En un primer nivel podemos distinguir tres grandes categorías: 
-• Software de sistema: incluye el sistema operativo y las herramientas de gestión del sistema. 
-• Software de programación: conjunto de herramientas usadas por los programadores para crear, \neditar, compilar, depurar y mantener otros programas informáticos. 
-• Software de aplicación: programas diseñados para realizar tareas específicas del usuario. 
+- Software de sistema: incluye el sistema operativo y las herramientas de gestión del sistema.
+- Software de programación: conjunto de herramientas usadas por los programadores para crear, \neditar, compilar, depurar y mantener otros programas informáticos.
+- Software de aplicación: programas diseñados para realizar tareas específicas del usuario.
 Dentro de este último nivel citaremos algunos de los distintos tipos que podemos encontrar: 
-• Procesadores de texto: permiten la creacion, edición y aplicar formato a documento escritos 
+- Procesadores de texto: permiten la creacion, edición y aplicar formato a documento escritos
 (Word, LibreOffice, Documentos de Google). 
-• Hojas de cálculo: sirven para realizar calculo, gestionar datos en tablas y generar gráficos (Excel, 
+- Hojas de cálculo: sirven para realizar calculo, gestionar datos en tablas y generar gráficos (Excel,
 Google Sheets). 
-• Navegadores web: permiten el acceso a navegar por paginas de internet (Google Chrome, 
+- Navegadores web: permiten el acceso a navegar por paginas de internet (Google Chrome,
 Microsoft Edge, Opera, Brave). 
-• Programas de presentación: se usan para la creación de diapositivas con texto, imágenes y \nefectos visuales (PowerPoint, Presentaciones de Google, Canva) 
-• Bases de datos: pueden ser de tipo relacional o no y sirven para gestionar grandes cantidades de 
+- Programas de presentación: se usan para la creación de diapositivas con texto, imágenes y \nefectos visuales (PowerPoint, Presentaciones de Google, Canva)
+- 
 datos (MySQL, PostgreSQL, Oracle Database, Microsoft Access, MongoDB, Cassandra). 
-• Software de diseño gráfico: se usa para crear y editar imágenes, ilustraciones o diseños 
+- Software de diseño gráfico: se usa para crear y editar imágenes, ilustraciones o diseños
 (Photoshop, Gimp, Microsoft Paint). 
-• Aplicaciones multimedia: reproducen o editan audio y vídeo (VLC Media Player, Audacity). 
-• Software educativo: diseñado para el apoyo del aprendizaje en distintas áreas (Duolingo, 
+- Aplicaciones multimedia: reproducen o editan audio y vídeo (VLC Media Player, Audacity).
+- Software educativo: diseñado para el apoyo del aprendizaje en distintas áreas (Duolingo,
 Classroom). 
-• Software de gestión empresarial: automatizan tareas contables, administrativas o de recursos 
-humanos (SAP, Contaplus). 
+- Software de gestión empresarial: automatizan tareas contables, administrativas o de recursos humanos (SAP, Contaplus). 
 
  
  
-Informática básica. Representación y comunicación de la información: elementos constitutivos de un sistema 
-de información 
+ 
 Si nos atenemos a su modelo de distribución y uso permitido nos podemos encontrar con: 
-• Software propietario: software de uso restringido y requieren una licencia pagada para su uso, 
-además el usuario no puede modificar su código (Microsoft Office, Adobe Acrobat). 
-• Software libre: distribuido con una licencia gratuita que permite al usuario usarlo, modificarlo y 
-compartirlo libremente (LibreOffice, GIMP). 
-• Software de codigo abierto: es similar al software libre, aunque en algunos casos puede tener 
-restricciones comerciales (Firefox, Audacity). 
-• Freeware: gratuito para el usuario, pero no permite modificaciones en su código ni redistribuirlo 
+- Software propietario: software de uso restringido y requieren una licencia pagada para su uso, además el usuario no puede modificar su código (Microsoft Office, Adobe Acrobat). 
+- Software libre: distribuido con una licencia gratuita que permite al usuario usarlo, modificarlo y compartirlo libremente (LibreOffice, GIMP). 
+- Software de codigo abierto: es similar al software libre, aunque en algunos casos puede tener restricciones comerciales (Firefox, Audacity). 
+- Freeware: gratuito para el usuario, pero no permite modificaciones en su código ni redistribuirlo
 (Skype, PDF Creator). 
-• Shareware: se ofrece de forma gratuita con las funciones reducidas o de forma temporal, tras lo 
-cual se requiere pago (WinRAR, Avast). 
+- Shareware: se ofrece de forma gratuita con las funciones reducidas o de forma temporal, tras lo cual se requiere pago (WinRAR, Avast). 
 Por último, añadimos una última clasificación basada en el modo de creación del software: 
-• Software a medida: desarrollados específicamente para una empresa o necesidad concreta, por 
-lo que es más costoso, pero cumple con todos los requisitos del cliente. 
-• Soluciones empaquetadas (software estándar): programas genéricos diseñados para un público 
-amplio, son más económicos y reciben actualizaciones periódicas pero son menos 
+- Software a medida: desarrollados específicamente para una empresa o necesidad concreta, por lo que es más costoso, pero cumple con todos los requisitos del cliente. 
+- Soluciones empaquetadas (software estándar): programas genéricos diseñados para un público amplio, son más económicos y reciben actualizaciones periódicas pero son menos 
 personalizados. 
 ### 🔵 2.6. Jerarquía de niveles
  
 
  
  
-Informática básica. Representación y comunicación de la información: elementos constitutivos de un sistema 
-de información 
+ 
 Entre distintas clasificaciones podemos encontrar la que se base en la jerarquía y se ordena por niveles. 
 Pasamos a comentar los niveles de esta pirámide invertida: 
-Hardware 
+### 🔵 Hardware 
 Nivel físico del sistema, compuesto por la CPU, memoria, dispositivos de entrada/salida, etc. Es la base 
 sobre la que operan todos los demás niveles. Proporciona la capacidad de procesamiento y 
 almacenamiento. Sin hardware, no existe soporte para los niveles superiores. 
-Firmware 
+### 🔵 Firmware 
 Programas grabados en chips del hardware (por ejemplo, la BIOS o UEFI), encargados de iniciar el 
 sistema y realizar tareas básicas de configuración. Inicializa el hardware (POST), configura dispositivos 
 y actúa como puente entre el hardware y el sistema operativo. 
-Sistema Operativo 
+### 🔵 Sistema Operativo 
 Es el cerebro del sistema. Gestiona recursos (CPU, memoria), controla dispositivos mediante drivers y 
 ofrece interfaces para aplicaciones (API). Software que actúa como intermediario entre el hardware y 
 los programas. Administra recursos, controla dispositivos y proporciona servicios esenciales. 
-Middleware 
+### 🔵 Middleware 
 Software que permite la comunicación y gestión de datos entre el sistema operativo y las aplicaciones, \nespecialmente en sistemas distribuidos o complejos. Facilita la comunicación entre aplicaciones o 
-sistemas heterogéneos (ejemplo: bases de datos, servidores web, APIs de red). 
-Software de aplicación 
+sistemas heterogéneos (ejemplo: 
+### 🔵 Software de aplicación 
 Programas diseñados para que el usuario realice tareas concretas, como procesadores de texto, hojas 
 de cálculo o navegadores web. Requieren el SO y, a veces, middleware para acceder a recursos. 
-Usuario 
+### 🔵 Usuario 
 Aunque no es un nivel técnico del ordenador, representa el punto final de esta jerarquía, ya que todas 
 las capas anteriores están diseñadas para servirle. 
 
  
  
-Informática básica. Representación y comunicación de la información: elementos constitutivos de un sistema 
-de información 
+ 
 ## 🟣 3. Arquitectura de ordenadores
 Existen diferentes arquitecturas de ordenadores. 
 ### 🔵 3.1. La arquitectura Von Neumann
@@ -1326,11 +1178,10 @@ También conocida como modelo de Von Neumann o arquitectura Princeton, ya que se
 arquitectura de computadoras descrita en 1945 por el matemático y físico John Von Neumann (y otros 
 colaboradores), en el primer borrador de un informe sobre el EDVAC (considerado el primer). 
 Esta arquitectura de diseño para un computador digital electrónico diferencia las siguientes partes: 
-• Unidad de procesamiento: contiene la ALU y los registros del procesador. 
-• Unidad de control: contiene el registro de instrucciones, el contador de programa y el 
-decodificador de instrucciones. 
-• Memoria: almacena tanto instrucciones como datos. 
-• Mecanismos de entrada y salida: para la gestión de la entrada y salida de datos. 
+- Unidad de procesamiento: contiene la ALU y los registros del procesador.
+- Unidad de control: contiene el registro de instrucciones, el contador de programa y el decodificador de instrucciones. 
+- Memoria: almacena tanto instrucciones como datos.
+- Mecanismos de entrada y salida: para la gestión de la entrada y salida de datos.
 El concepto ha evolucionado para convertirse en un computador de programa almacenado en el cual no 
 pueden darse simultáneamente una búsqueda de instrucciones y una operación de datos, ya que 
 comparten un bus en común. Esto se conoce como el cuello de botella Von Neumann, y muchas veces 
@@ -1346,9 +1197,8 @@ Luis Álvarez Munárriz, en su libro "Fundamentos de inteligencia artificial" pr
 
  
  
-Informática básica. Representación y comunicación de la información: elementos constitutivos de un sistema 
-de información 
-Primera Generación 
+ 
+### 🔵 Primera Generación 
 La primera generación de ordenadores digitales utiliza válvulas de vacío y relés. Eran lentos, caros, 
 voluminosos y consumían mucha energía eléctrica. 
 Se considera a EDVAC, diseñado por Von Neumann en el año 1945, el primer ordenador ya que 
@@ -1356,12 +1206,12 @@ funcionaba por programa de control almacenado.
 Al mismo tiempo, en Inglaterra, se construyó el ordenador EDSAC que funcionaba según estos 
 principios. 
 Características: 
-• Tubos de vacío para procesar información. 
-• Tarjetas perforadas para la introducción de datos. 
-• Cilindros magnéticos para almacenamiento. 
-• Grandes, lentas y de gran consumo. 
+- Tubos de vacío para procesar información.
+- Tarjetas perforadas para la introducción de datos.
+- Cilindros magnéticos para almacenamiento.
+- Grandes, lentas y de gran consumo.
  
-Válvulas de vacío 
+### 🔵 Válvulas de vacío 
 Segunda Generación 
 La segunda generación se hizo posible por la aparición del transistor que sustituye las válvulas de vacío. 
 Esto produjo una mayor rapidez de conmutación, reducción del tamaño y mayor fiabilidad. En 1954 se 
@@ -1369,14 +1219,13 @@ construyó el ordenador TRADIC utilizando transistores.
 
  
  
-Informática básica. Representación y comunicación de la información: elementos constitutivos de un sistema 
-de información 
-Características: 
-• Transistores para procesar información. 
-• Anillos magnéticos para almacenar información. 
-• Se disminuye el consumo y el tamaño. 
  
-TRADIC 
+Características: 
+- Transistores para procesar información.
+- Anillos magnéticos para almacenar información.
+- Se disminuye el consumo y el tamaño.
+ 
+### 🔵 TRADIC 
 Tercera Generación 
 La tercera generación surge con la introducción de los circuitos integrados (pastillas de silicio) en las 
 cuales se colocan miles de componentes electrónicos, en una integración en miniatura. 
@@ -1385,35 +1234,32 @@ conectar en una delgada capa de silicio transistores, resistencias, condensadore
 trata de una baja integración, sin embargo, se aumenta la velocidad del proceso y se reduce el tamaño 
 de los ordenadores. 
 Características: 
-• Aparecen las memorias con chip de silicio (circuitos integrados en chip para procesar y 
-almacenar información). 
-• Aumenta la velocidad. 
+- Aparecen las memorias con chip de silicio (circuitos integrados en chip para procesar y almacenar información). 
+- Aumenta la velocidad.
 
  
  
-Informática básica. Representación y comunicación de la información: elementos constitutivos de un sistema 
-de información 
-• Disminuye el tamaño. 
-• Disminuye el consumo (desprendían menos calor, siendo energéticamente más eficientes. 
+ 
+- Disminuye el tamaño.
+- Disminuye el consumo (desprendían menos calor, siendo energéticamente más eficientes.
  
 IBM 360. Museo de historia de la computación 
-Cuarta generación 
+### 🔵 Cuarta generación 
 La cuarta generación surge con los avances en las técnicas de integración. 
 Ello posibilita la creación y uso del microprocesador en el que se conectan todos los elementos de la 
 Unidad Central de proceso. Se construyen y comercializan los ordenadores personales y al mismo 
 tiempo se construye el primer Superordenador. 
 Características: 
-• Procesos de integración LSI y VLSI (Large Scale of Integration y Very Large Scale of 
+- Procesos de integración LSI y VLSI (Large Scale of Integration y Very Large Scale of
 Integration). 
-• Desarrollo del microprocesador. 
-• Ordenadores personales. 
+- Desarrollo del microprocesador.
+- Ordenadores personales.
  
 
  
  
-Informática básica. Representación y comunicación de la información: elementos constitutivos de un sistema 
-de información 
-Quinta generación 
+ 
+### 🔵 Quinta generación 
 En la quinta generación se intentan hacer realidad los proyectos surgidos ante las limitaciones de la 
 arquitectura Von Neumann. 
 El proyecto japonés de 5ª generación se consideró como prototipo del ordenador del futuro. 
@@ -1423,12 +1269,12 @@ su hardware.
  
 La inteligencia artificial está cambiando la forma de diseñar ordenadores 
 Se pueden resaltar las siguientes líneas de investigación: 
-• Semiconductores. 
+- Semiconductores.
 Miniaturización y aumento de rapidez de los circuitos posibilitadas por las investigaciones sobre 
 semiconductores promovidos por la investigación de los físicos. 
-• Paralelismo masivo. 
+- Paralelismo masivo.
 Construcción de un tipo de ordenador que posea múltiples unidades de proceso. 
-• Lógica difusa. 
+- Lógica difusa.
 Ordenadores que manejen conocimiento incierto cuyo manejo y procesamiento se realiza a 
 través de sistemas de control difuso. (Lógica difusa es aquella en la que, en lugar de trabajar con 
 valores numéricos, trabajamos con valores difusos. Por ejemplo, usar los valores mal, regular, 
@@ -1436,16 +1282,15 @@ normal, bueno y muy buen en lugar de valores del 1 al 10).
 
  
  
-Informática básica. Representación y comunicación de la información: elementos constitutivos de un sistema 
-de información 
-• Facilidad de uso. 
+ 
+- Facilidad de uso.
 Conseguir que las personas que no tengan conocimientos de informática puedan trabajar con 
 un ordenador de forma sencilla. 
-• Sistemas distribuidos. 
+- Sistemas distribuidos.
 Conjunto de ordenadores separados físicamente e interconectados entre sí por una red de 
 comunicaciones. Cada máquina tiene su propio hardware y software, pero el programador lo 
 percibe como un solo sistema. Sus principales ventajas son el coste, la tolerancia a fallos y la \nescalabilidad. 
-• Inteligencia artificial. 
+- Inteligencia artificial.
 Integración de sistemas inteligentes, que son aquellos que pueden resolver problemas 
 complejos en distintos campos de una forma automática utilizando técnicas de inteligencia 
 artificial y aprendizaje automático. 
@@ -1453,7 +1298,7 @@ artificial y aprendizaje automático.
  
  
  
-El experto opina 
+### 🔵 El experto opina 
 Cuando aparece una nueva tecnología, aparece una nueva 
 generación que deja obsoleta a la anterior. Esto solo pasa hasta la 
 4ª generación. 
@@ -1473,8 +1318,7 @@ diferencia del modelo de Von Neumann.
 
  
  
-Informática básica. Representación y comunicación de la información: elementos constitutivos de un sistema 
-de información 
+ 
 Cada memoria y cada conexión pueden tener características diferentes, como, por ejemplo, el tamaño 
 de cada memoria, el tamaño de las palabras de memoria (número de bits de una palabra), y la 
 tecnología usada para implementarlas. 
@@ -1491,46 +1335,45 @@ Ya hemos definido Hardware como la parte física, tangible, de un sistema inform
  
  
  
-Vídeo 
+### 🔵 Vídeo 
 He preparado un repaso audiovisual sobre el Hardware, con 
 anécdotas para que te resulte más ameno. También incluye 
 Periféricos, que es la siguiente unidad. 
 Vídeo Clase: "El Hardware". 
-(Tienes el material en el Campus Virtual). 
+(Tienes el material en el ). 
  
  
 
  
  
-Informática básica. Representación y comunicación de la información: elementos constitutivos de un sistema 
-de información 
+ 
 Ahora vamos a estudiar los elementos de hardware más importantes, los que hacen posible que un 
 ordenador realice un proceso solicitado por el usuario. 
 Para entender esos elementos de hardware vamos a ver unos conceptos básicos: 
-• Microprocesador. 
+- Microprocesador.
 Es un chip (circuito integrado) que incorpora los elementos necesarios para actuar como CPU. 
-• Microcontrolador. 
+- Microcontrolador.
 Circuito integrado que contiene las tres unidades funcionales de un ordenador (CPU, Memoria y 
 unidad de E/S). 
-• Buses. 
+- Buses.
 Es el medio físico a través del cual se comunican la CPU, memoria y unidad de E/S, un conjunto 
 de conexiones eléctricas en forma de cables, o circuitos impresos, que llevan información de un 
 dispositivo a otro del ordenador. 
 Existen 3 tipos de buses: 
-• De datos. Para el intercambio de datos. 
-• De direcciones. Direcciones de memoria o de dispositivos E/S. 
-• De control. Señales enviadas por la unidad de control. 
-• Memoria principal. 
+- De datos. Para el intercambio de datos.
+- De direcciones. Direcciones de memoria o de dispositivos E/S.
+- De control. Señales enviadas por la unidad de control.
+- Memoria principal.
 La memoria principal almacena las instrucciones que van a ser ejecutadas, los datos que 
 utilizarán dichas instrucciones y los resultados parciales y finales derivados de la ejecución de las 
 instrucciones. 
-• Ancho de palabra. 
+- Ancho de palabra.
 Es el número de bits que maneja en paralelo el ordenador. Hoy en día el ancho más habitual es 
 32 o 64 bits. 
 Tanto los datos como las instrucciones del lenguaje máquina de un ordenador se organizan en 
 palabras de n bits o múltiplos de n bits. 
 A mayor ancho de banda palabra, mayor potencia de cálculo. 
-• Unidad de entrada/salida. 
+- Unidad de entrada/salida.
 Proporciona un camino a través del cual se comunican los distintos elementos del ordenador y 
 los periféricos (hardware de entrada y salida de información). 
 En los ordenadores personales, normalmente es la placa base la que ejerce esta función 
@@ -1539,9 +1382,8 @@ hacerlo las placas externas conectadas a los slots de ampliación.
 
  
  
-Informática básica. Representación y comunicación de la información: elementos constitutivos de un sistema 
-de información 
-ARQUITECTURA DE ORDENADORES 
+ 
+### 🔵 ARQUITECTURA DE ORDENADORES 
 Cuando hablamos de arquitectura de ordenadores, nos referimos a cómo están organizados sus \nelementos. Conocerla es importante para programar y conseguir una buena optimización. 
 En los inicios de la informática, se experimentaron diferentes modelos, cada uno con sus ventajas e 
 inconvenientes. 
@@ -1566,8 +1408,7 @@ organizan jerárquicamente.
 
  
  
-Informática básica. Representación y comunicación de la información: elementos constitutivos de un sistema 
-de información 
+ 
  
 Arquitectura de von Neumann con jerarquía de memorias (caché y memoria principal, aliviando el 
 cuello de botella) 
@@ -1582,9 +1423,9 @@ memoria caché, el orden en el que se realizan las operaciones es más important
 operaciones. 
 En algunos ordenadores, puede haber 2 niveles de caché, existiendo una jerarquía con tres niveles de 
 memoria, donde cada nivel es más lento que el anterior: 
-• 1º: Caché de nivel 1 (el más rápido). 
-• 2ª: Caché de nivel 2. 
-• 3ª: Memoria principal (el más lento). 
+- 1º: Caché de nivel 1 (el más rápido).
+- 2ª: Caché de nivel 2.
+- 3ª: Memoria principal (el más lento).
 La memoria y el procesador son componentes aislados, ambos conectados a la placa base del 
 ordenador, físicamente a unos centímetros de distancia. 
 El tiempo que tardan las señales eléctricas en llegar desde uno a otro es muy pequeño, denominado 
@@ -1596,13 +1437,12 @@ la arquitectura propuesta por Von Neumann en 1945.
 
  
  
-Informática básica. Representación y comunicación de la información: elementos constitutivos de un sistema 
-de información 
+ 
 Por tanto, según esta arquitectura, un ordenador consta, principalmente, de tres elementos: 
-• CPU: (Central Proccessing Unit o Unidad Central de Proceso), constituido por una unidad de 
+- CPU: (Central Proccessing Unit o Unidad Central de Proceso), constituido por una unidad de
 Control (CU o Control Unit) y una unidad Aritmético Lógica (ALU o Aritmetich Logical Unit). 
-• Memoria. 
-• Unidad de entrada/salida. 
+- Memoria.
+- Unidad de entrada/salida.
  
 Arquitectura de un ordenador 
 ### 🔵 4.1. Placa base
@@ -1610,22 +1450,21 @@ También denominada motherboard, mainboard o placa madre.
 La placa base es una tarjeta de circuito impreso a la que se conectan las demás partes de la 
 computadora. 
 La placa base integra diversos componentes: 
-• BIOS. 
-• Zócalo para el microprocesador. 
-• Chipset. 
-• Pila. 
-• Zócalos de memoria. 
-• Ranuras de expansión. 
-• Conectores Internos. 
-• Conectores de dispositivos externos. 
+- BIOS.
+- Zócalo para el microprocesador.
+- Chipset.
+- Pila.
+- Zócalos de memoria.
+- Ranuras de expansión.
+- Conectores Internos.
+- Conectores de dispositivos externos.
 Vamos a ver los principales elementos de la placa base, haciendo una diferenciación entre la BIOS y el 
 resto de elementos: 
 
  
  
-Informática básica. Representación y comunicación de la información: elementos constitutivos de un sistema 
-de información 
-BIOS 
+ 
+### 🔵 BIOS 
 El firmware (soporte lógico inalterable), es el software de más bajo nivel, que controla los circuitos \nelectrónicos, que maneja físicamente al hardware. 
 BIOS (Basic Input/Output System) es un programa de firmware fundamental en los ordenadores cuyo 
 cometido es iniciar y verificar el hardware del sistema cuando se enciende el equipo. La fuente de 
@@ -1669,12 +1508,11 @@ configuración.
 
  
  
-Informática básica. Representación y comunicación de la información: elementos constitutivos de un sistema 
-de información 
  
  
  
-Atención 
+ 
+### 🔵 Atención 
 La Bios es memoria no volátil, lo estudiaras en el apartado de 
 memoria. 
  
@@ -1696,19 +1534,16 @@ La Interfaz Unificada de firmware extensible (EFI-Unified Extensible Firmware In
 interfaz del Sistema Básico de Entrada y Salida (BIOS) estándar presentado en las computadoras 
 personales IBM PC como IBM PC ROM BIOS. 
 Otros elementos de la Placa Base 
-• Zócalo para el microprocesador. 
+- Zócalo para el microprocesador.
 Es el conector donde colocamos el microprocesador. Los tipos más utilizados son: 
-• Socket PGA. Los pines van en el procesador. El modelo Socket ZIF (Zero Insertion Force) 
-dispone de un mecanismo con una palanca que facilita la inserción del procesador sin \nejercer presión. (Debía insertarse en una posición determinada, ya que en una de las \nesquinas no había pines, si se hacía de forma errónea se podían torcer los pines o incluso 
+- Socket PGA. Los pines van en el procesador. El modelo Socket ZIF (Zero Insertion Force) dispone de un mecanismo con una palanca que facilita la inserción del procesador sin \nejercer presión. (Debía insertarse en una posición determinada, ya que en una de las \nesquinas no había pines, si se hacía de forma errónea se podían torcer los pines o incluso 
 romperlos, dañándose el procesador). 
-• LGA. Los pines están en la placa, por lo que los microprocesadores son menos delicados, 
-son lisos. También debe insertarse en una determinada posición. 
+- LGA. Los pines están en la placa, por lo que los microprocesadores son menos delicados, son lisos. También debe insertarse en una determinada posición. 
 
  
  
-Informática básica. Representación y comunicación de la información: elementos constitutivos de un sistema 
-de información 
-• Chipset. 
+ 
+- Chipset.
 Conjunto de chips que regulan la forma en que interaccionan (se comunican) los distintos 
 componentes conectados a la placa base. 
 Actualmente se integran en el procesador. 
@@ -1723,14 +1558,14 @@ fuera mandada a través del bus de memoria hacia la RAM, se introducían latenci
 Actualmente North Bridge y South Bridge se integran en el procesador desapareciendo por 
 consiguiente el FSB. 
 Indicamos características de cada uno de los dos chipsets: 
-• Northbridge (puente norte). 
+- Northbridge (puente norte).
 Conecta la CPU con la memoria principal, y controla las funciones de acceso hacia y entre el 
 microprocesador, la memoria RAM, el puerto gráfico AGP (o GPU, acrónimo de Graphics 
 Processing Unit, unidad de procesamiento de gráficos), y las comunicaciones con el 
 southbrigde. 
 Tradicionalmente estaba formado por un único chip que integraba funciones de control 
 para la memoria RAM, el puerto AGP o PCI Express y el bus PCI. 
-• Southbridge (puente sur). 
+- Southbridge (puente sur).
 Conecta la CPU con los buses USB (Universal Serial Bus), serie, audio, IDE (Integrated Drive 
 Electronics) e ISA (Industry Standard Architecture), PCI es decir, el almacenamiento 
 secundario y los periféricos. Está formado por un único chip. 
@@ -1747,48 +1582,40 @@ labor conjunta.
 
  
  
-Informática básica. Representación y comunicación de la información: elementos constitutivos de un sistema 
-de información 
-• Pila. 
+ 
+- Pila.
 Alimenta la CMOS para que no se pierdan los datos de configuración de la BIOS. 
 Un síntoma claro que nos indica que la pila está fallando es cuando la fecha del sistema no es 
 correcta o se pierde al apagar el ordenador. 
-• Zócalos de memoria. 
+- Zócalos de memoria.
 Ranuras para la conexión de módulos de memoria. Lo más común es presentar un número par 
 de zócalos (2, 4, 6…), agrupados de dos en dos por un color que indica el canal en el que 
 trabajan. (SIMM, DDR2, DDR3). 
-• Ranuras de expansión. 
-• AGP: utilizado sólo para los adaptadores de pantalla de gráficos, tarjetas gráficas VGA. 
-• PCIex16: han sustituido las ranuras AGP, son para las tarjetas gráficas modernas. Puede 
-haber más de uno (si la placa soporta varias tarjetas). (Existe un tipo de disco duro interno 
+- Ranuras de expansión.
+- AGP: utilizado sólo para los adaptadores de pantalla de gráficos, tarjetas gráficas VGA.
+- PCIex16: han sustituido las ranuras AGP, son para las tarjetas gráficas modernas. Puede haber más de uno (si la placa soporta varias tarjetas). (Existe un tipo de disco duro interno 
 que puede conectarse a esta ranura). 
-• PCI: Bus de 32 bits para conectar diversos tipos de tarjetas de expansión (red, sonido, 
-captura de video, etc.) Cada vez se usa menos. Están siendo sustituidos por PCIe. 
-• PCIe x1 y x4: Son las ranuras de expansión actuales. Se utilizan para tarjetas de red 
-inalámbricas, sintonizadoras TDT, capturadoras de video, etc. 
+- PCI: Bus de 32 bits para conectar diversos tipos de tarjetas de expansión (red, sonido, captura de video, etc.) Cada vez se usa menos. Están siendo sustituidos por PCIe. 
+- PCIe x1 y x4: Son las ranuras de expansión actuales. Se utilizan para tarjetas de red inalámbricas, sintonizadoras TDT, capturadoras de video, etc. 
 PCIe es la interfaz utilizada para la conexión de los discos SSD (estudiarás los discos SSD un 
 poco más adelante). 
  
 Disco de Estado Sólido conexión PCI-E 
-• ISA: es muy antigua y obsoleta. (Se conectaban tarjetas de red, de imagen, modem, tarjetas 
-de sonido, ampliación de puertos…) Ya no se fabrican placas base con ranuras ISA. 
+- ISA: es muy antigua y obsoleta. (Se conectaban tarjetas de red, de imagen, modem, tarjetas de sonido, ampliación de puertos…) Ya no se fabrican placas base con ranuras ISA. 
 Desaparecieron a partir de los modelos del microprocesador Pentium III. 
-• Alimentación ATX. 
+- Alimentación ATX.
 Conector a través del cual se da corriente a la placa. Actualmente tiene dos conectores MOLEX, 
 uno de 24 pines, el cual proporciona la mayoría de tensiones a la placa base, y un conector 
 adicional de 4 u 8 pines que suministra corriente de 12V al microprocesador. 
 
  
  
-Informática básica. Representación y comunicación de la información: elementos constitutivos de un sistema 
-de información 
-• Conectores Internos: 
-• Conectores IDE: se conectan los discos duros IDE, y lectores/ grabadores de CD y/o DVD. 
-• USB y de audio internos: Se suele utilizar para llevar las salidas USB y audio al frontal de la 
-caja o a otros lugares de la caja. 
-• Conectores Serial ATA (SATA): Se usa para conectar discos duros SATA y unidades ópticas 
-que tienen este tipo de conector. La velocidad de transferencia es 3 o 6 GB/s por canal. 
-• Puertos de dispositivos externos. 
+ 
+- Conectores Internos:
+- Conectores IDE: se conectan los discos duros IDE, y lectores/ grabadores de CD y/o DVD.
+- USB y de audio internos: Se suele utilizar para llevar las salidas USB y audio al frontal de la caja o a otros lugares de la caja. 
+- Conectores Serial ATA (SATA): Se usa para conectar discos duros SATA y unidades ópticas que tienen este tipo de conector. La velocidad de transferencia es 3 o 6 GB/s por canal. 
+- Puertos de dispositivos externos.
 La ubicación de los puertos en las computadoras dependerá del diseño de las placas base y de las 
 propias carcasas. Podemos encontrar en estas máquinas puertos como minijack de 3.5mm, 
 Puerto Paralelo, Ethernet (red), VGA, PS2 (teclado y ratón), USB, Firewire (conexión de 
@@ -1802,13 +1629,10 @@ Windows y proteger así la privacidad de los archivos más sensibles.
 
  
  
-Informática básica. Representación y comunicación de la información: elementos constitutivos de un sistema 
-de información 
+ 
 TPM es el nombre de: 
-• Una especificación publicada, la cual detalla un criptoprocesador seguro que puede almacenar 
-claves de cifrado para proteger información. 
-• También se usa como el nombre general de las implementaciones de dicha especificación, 
-frecuentemente llamadas el "chip TPM" o "dispositivo de seguridad TPM". 
+- Una especificación publicada, la cual detalla un criptoprocesador seguro que puede almacenar claves de cifrado para proteger información. 
+- También se usa como el nombre general de las implementaciones de dicha especificación, frecuentemente llamadas el "chip TPM" o "dispositivo de seguridad TPM". 
 La especificación fue publicada por el Trusted Computing Group y actualmente se encuentra en la 
 versión 2.0, estandarizada en 2016. La especificación también está disponible como el estándar 
 internacional ISO/IEC 11889. TCG lanzó la Especificación de biblioteca TPM 2.0. 
@@ -1844,42 +1668,37 @@ Bloque IV Sistemas y comunicaciones.
 
  
  
-Informática básica. Representación y comunicación de la información: elementos constitutivos de un sistema 
-de información 
+ 
 Características del chip: 
-• Sólo se comunica con el procesador de tu ordenador. 
+- Sólo se comunica con el procesador de tu ordenador.
 Cuando está activado el TPM solo recibe comandos y datos de la CPU local, realiza su trabajo y 
 devuelve los resultados, por tanto, ningún otro componente del equipo puede acceder a datos 
 sin el permiso del propio procesador, lo que dificulta que un virus se instale en el disco duro y 
 pueda acceder a claves criptográficas, ya que no tendrá contacto directo con el chip. 
-• Permite almacenar contraseñas de administrador, las de los sistemas DRM de protección de 
-datos, o permitir el cifrado de unidades de almacenamiento o carpetas y archivos. 
-• Permite que los clientes con características de firma digital puedan enviar correos electrónicos 
-de forma segura, o almacenar los datos biométricos de inicio de sesión. 
-• Permite almacenar certificados digitales, lo que mejora la navegación segura con SSL, y puede 
-también tener usos para las redes privadas virtuales o VPN. 
+- Permite almacenar contraseñas de administrador, las de los sistemas DRM de protección de datos, o permitir el cifrado de unidades de almacenamiento o carpetas y archivos. 
+- Permite que los clientes con características de firma digital puedan enviar correos electrónicos de forma segura, o almacenar los datos biométricos de inicio de sesión. 
+- Permite almacenar certificados digitales, lo que mejora la navegación segura con SSL, y puede también tener usos para las redes privadas virtuales o VPN. 
 En cuanto a seguridad provee: 
-• Memoria tanto volátil como no volátil. 
+- Memoria tanto volátil como no volátil.
 El almacenamiento no volátil es resistente a modificaciones, se usa por ejemplo para almacenar 
 claves no migrables (Ej. Endorsement Key y Storage Root Key). 
 Y el almacenamiento volátil se usa para almacenar de forma segura las mediciones de integridad 
 realizadas para conseguir la computación confiable. 
-• Generador de números aleatorios seguro. 
-• Algoritmos de generación de claves. 
-• Funciones criptográficas como cifrado/descifrado RSA y funciones hash. 
-• Funcionalidades para permitir que la plataforma sea confiable: 
-• Proporcionar mediciones e informes seguros de la integridad. 
+- Generador de números aleatorios seguro.
+- Algoritmos de generación de claves.
+- Funciones criptográficas como cifrado/descifrado RSA y funciones hash.
+- Funcionalidades para permitir que la plataforma sea confiable:
+- Proporcionar mediciones e informes seguros de la integridad.
 Permite obtener mediciones de integridad y los resultados pueden ser almacenados de 
 forma segura dentro del TPM, y basándose en estas medidas, un TPM puede ser usado para 
 obtener un informe verificable que refleje la integridad del estado de la plataforma. 
-• Sellado de datos. 
+- Sellado de datos.
 Los datos pueden ser almacenados de tal forma que solo sean accesibles si el usuario se 
 autentifica satisfactoriamente y si la plataforma tiene cierto estado de integridad. 
 
  
  
-Informática básica. Representación y comunicación de la información: elementos constitutivos de un sistema 
-de información 
+ 
 ### 🔵 4.2. CPU (procesador)
 Es uno de los componentes más importantes del ordenador, el procesador 
 CPU, siglas de Central Processing Unit, en español Unidad Central de Proceso. 
@@ -1889,13 +1708,13 @@ compuesto por millones de transistores dentro de un circuito integrado.
 Procesador Intel Core i9-10900X 
 LGA2066 X299 
 Está formada por dos unidades funcionales ALU y CU. Y cómo consecuencia de la CU, el Reloj: 
-CPU 
+### 🔵 CPU 
 ALU: La unidad aritmético-
 lógica 
 (ALU Arithmetic-Logical Unit) 
 CU: La unidad de control 
 (CU o Control Unit) 
-RELOJ 
+### 🔵 RELOJ 
 Efectúa operaciones lógicas y 
 aritméticas sobre datos que 
 provienen de la memoria 
@@ -1925,15 +1744,14 @@ frecuencia, más rápido es \nel procesador.
 
  
  
-Informática básica. Representación y comunicación de la información: elementos constitutivos de un sistema 
-de información 
-CPU 
+ 
+### 🔵 CPU 
 ALU: La unidad aritmético-
 lógica 
 (ALU Arithmetic-Logical Unit) 
 CU: La unidad de control 
 (CU o Control Unit) 
-RELOJ 
+### 🔵 RELOJ 
 Sus principales componentes 
 son: 
 - Operador aritmético-lógico 
@@ -1970,100 +1788,92 @@ destinados a este fin.
 
  
  
-Informática básica. Representación y comunicación de la información: elementos constitutivos de un sistema 
-de información 
+ 
 La ALU realiza tres tipos de operaciones: 
-• Aritméticas. 
-• Lógicas. 
-• De desplazamiento. 
+- Aritméticas.
+- Lógicas.
+- De desplazamiento.
 ##### 4.2.1.1. Operaciones aritméticas
 Las operaciones más importantes que puede realizar la ALU son: 
-• Sumar y restar. 
-• Multiplicación y división. 
-• Cambio de signo. 
-• Extensión de signo. Consiste en aumentar el número de bits, manteniendo el mismo valor y 
-signo. 
+- Sumar y restar.
+- Multiplicación y división.
+- Cambio de signo.
+- Extensión de signo. Consiste en aumentar el número de bits, manteniendo el mismo valor y signo. 
 Para ejecutar dichas operaciones utiliza los siguientes dispositivos: 
-• Dispositivo de adición: sirve para calcular las operaciones de suma, resta, multiplicación y 
-división (estas tres últimas operaciones pueden realizarse por medio de múltiples operaciones 
+- Dispositivo de adición: sirve para calcular las operaciones de suma, resta, multiplicación y división (estas tres últimas operaciones pueden realizarse por medio de múltiples operaciones 
 de suma o cambiando el signo). 
-• Registros: se utilizan para contener los operandos, los resultados parciales que se van 
-obteniendo en las distintas operaciones y los resultados finales. 
-• Dispositivo de control de cálculo: dirige y controla las operaciones de cálculo que se realizan en 
-la ALU. 
-• Comparador: Circuito que puede comprobar si dos datos son iguales o cuál es mayor o menor. 
+- Registros: se utilizan para contener los operandos, los resultados parciales que se van obteniendo en las distintas operaciones y los resultados finales. 
+- Dispositivo de control de cálculo: dirige y controla las operaciones de cálculo que se realizan en la ALU. 
+- Comparador: Circuito que puede comprobar si dos datos son iguales o cuál es mayor o menor.
 ##### 4.2.1.2. Operaciones lógicas
 Pueden ser operaciones lógicas Directas y operaciones lógicas negadas 
 Operaciones lógicas Directas 
-• Igualdad. 
+- Igualdad.
 Puerta SI o buffer. 
 
  
  
-Informática básica. Representación y comunicación de la información: elementos constitutivos de un sistema 
-de información 
-ENTRADAS A 
+ 
+### 🔵 ENTRADAS A 
 SALIDAS A 
-• Producto (AND). 
+- Producto (AND).
 Dos entradas. Será uno si las dos entradas son uno. 
-• Suma (OR). 
+- Suma (OR).
 Dos entradas. Será uno si al menos una de las entradas vale uno. 
-• Suma exclusiva (Puerta OR-exclusiva XOR). 
+- Suma exclusiva (Puerta OR-exclusiva XOR).
 Dos entradas. Será uno si una de las entradas es uno (pero no las dos). 
 Para entenderlo mejor, lo vemos en la siguiente tabla. 
 Las dos primeras columnas (A y B) son las entradas y el resto las salidas resultantes de la operación. 
-Gráfico Operaciones Lógicas Directas 
+### 🔵 Gráfico Operaciones Lógicas Directas 
 ENTRADAS 
-SALIDAS 
+### 🔵 SALIDAS 
 A 
 B 
 A AND B 
 A OR B 
 A XOR B 
 Operaciones lógicas negadas 
-• NOT (Negación). 
+- NOT (Negación).
 Una sola entrada. Si la entrada es 0, la salida es 1 y viceversa. 
-ENTRADAS A 
+### 🔵 ENTRADAS A 
 SALIDAS A 
 
  
  
-Informática básica. Representación y comunicación de la información: elementos constitutivos de un sistema 
-de información 
-• NAND (Puerta NO-Y). 
+ 
+- NAND (Puerta NO-Y).
 La puerta lógica NO-Y, más conocida por su nombre en inglés NAND, realiza la operación de 
 producto lógico negado. En ocasiones es llamada también barra de Sheffer. 
-• NOR (Puerta NO-O). 
+- NOR (Puerta NO-O).
 Llamada también barra de Pierce. 
 Dos entradas. 
-• XNOR (No-exclusiva, Puerta NOR-exclusiva). 
+- XNOR (No-exclusiva, Puerta NOR-exclusiva).
 Dos entradas. 
 Será uno si una de las entradas es uno (pero no las dos). Puerta XNOR con Esta puerta al ser el 
 complemento de la puerta OR exclusiva (XOR), sus resultados son uno (1) cuando sus entradas, 
 para el caso de 2, son iguales, ya sean con valor 0 o valor 1 (0 y 0, o 1 y 1). Para más de 2 \nentradas, si el número de unos de entradas es par, la salida es 1 y si es impar, la salida es 0. Si 
 todas las entradas son 0, la salida es 1, como puede comprobarse en la tabla de verdad de tres \nentradas. La puerta lógica XNOR se identifica como función par, en tanto que la puerta lógica 
 XOR se identifica como función impar. 
-Gráfico Operaciones lógicas negadas 
+### 🔵 Gráfico Operaciones lógicas negadas 
 ENTRADAS 
-SALIDAS 
+### 🔵 SALIDAS 
 A 
 B 
 NO-Y (NAND) 
 NO-O (NOR) 
 NOR-exclusiva XNOR 
  
-XNOR con tres entradas 
+### 🔵 XNOR con tres entradas 
 Entrada A 
 Entrada B 
-Entrada C 
+### 🔵 Entrada C 
 Salida XNOR 
 
  
  
-Informática básica. Representación y comunicación de la información: elementos constitutivos de un sistema 
-de información 
+ 
 XNOR con tres entradas 
-Entrada A 
+### 🔵 Entrada A 
 Entrada B 
 Entrada C 
 Salida XNOR 
@@ -2074,8 +1884,8 @@ Salida XNOR
 + Info 
 Si lo deseas, aunque no lo consideramos necesario, puedes ampliar 
 tus conocimientos sobre este tema profundizando en dos puntos: 
-• Álgebra de Boole. 
-• Puertas lógicas. 
+- Álgebra de Boole.
+- Puertas lógicas.
  
 ##### 4.2.1.3. Operaciones de desplazamiento
 Las operaciones de desplazamiento de bits desplazan o rotan una palabra en un número específico de 
@@ -2089,16 +1899,15 @@ resultados.
 
  
  
-Informática básica. Representación y comunicación de la información: elementos constitutivos de un sistema 
-de información 
-Pasos para ejecutar la instrucción 
+ 
+### 🔵 Pasos para ejecutar la instrucción 
 Los pasos para ejecutar una instrucción son los siguientes: 
-• Ciclo de fetch. 
+- Ciclo de fetch.
 Extraer de la memoria la siguiente instrucción, indicada por el contador de programa. 
-• Decodificar la instrucción leída. 
-• Ciclo Execute. 
+- Decodificar la instrucción leída.
+- Ciclo Execute.
 Ejecutar la instrucción. 
-• Aumentar el contador de programa. 
+- Aumentar el contador de programa.
 Para que contenga la siguiente posición de memoria, la cual contiene la siguiente instrucción. 
 Volver al primer paso. 
 ##### 4.2.2.1. El contador de programa (Ingles: Program Counter)
@@ -2111,22 +1920,19 @@ siguiente instrucción a ser ejecutada siempre se encuentra en el contador de in
 Otra función de la unidad de control es gestionar la comunicación con los periféricos, procesando la 
 información transmitida desde o hacia los periféricos. 
 Existen dos tipos de unidades de control: 
-• Cableadas: los componentes principales son el circuito de lógica secuencial, el de control de \nestado, el de lógica combinacional y el de emisión de reconocimiento de señales de control. Son 
-más sencillas pero difíciles de actualizar o modificar. 
-• Microprogramadas: la microprogramación de la unidad de control se encuentra almacenada en 
-una micromemoria, a la cual se accede de manera secuencial para posteriormente ir ejecutando 
+- Cableadas: los componentes principales son el circuito de lógica secuencial, el de control de \nestado, el de lógica combinacional y el de emisión de reconocimiento de señales de control. Son más sencillas pero difíciles de actualizar o modificar. 
+- Microprogramadas: la microprogramación de la unidad de control se encuentra almacenada en una micromemoria, a la cual se accede de manera secuencial para posteriormente ir ejecutando 
 cada una de las microinstrucciones. Son más complejas, pero se pueden modificar más 
 fácilmente. 
 
  
  
-Informática básica. Representación y comunicación de la información: elementos constitutivos de un sistema 
-de información 
+ 
 #### 🔹 4.2.3. Reloj del Sistema
 La Unidad de Control contiene el reloj de sistema, el cual oscila con una frecuencia de millones de veces 
 por segundo. La velocidad a la que el procesador realiza las operaciones viene determinada por dicho 
 reloj y se mide en gigahercios (GHz), es decir, 109 ciclos por segundo. 
-Frecuencia 
+### 🔵 Frecuencia 
 La cantidad de operaciones por segundo que puede realizar un procesador se conoce como frecuencia. 
 A finales de los años 90 del siglo pasado, un procesador doméstico podía tener una frecuencia de 400 o 
 500 MHz en el mejor de los casos. Eso implica que era capaz de hacer entre 400 y 500 millones de 
@@ -2138,35 +1944,31 @@ incorporar más de un procesador, trabajando todos los procesadores a la vez.
 Existen diferentes arquitecturas de procesadores que hacen que el funcionamiento y rendimiento del 
 mismo sea diferente. 
 Vamos a ver: 
-• Arquitectura CISC. 
-• Arquitectura RISC. 
-• Arquitectura ARM. 
+- Arquitectura CISC.
+- Arquitectura RISC.
+- Arquitectura ARM.
 ##### 4.2.4.1. CISC y RISC
 La diferencia principal entre CISC Y RISC, es el número de instrucciones y su complejidad 
 Ambos tipos se basan en la arquitectura de Von Neumann. 
 Existen 2 tipos de procesadores, según la arquitectura que utilizan, que determina la complejidad de las 
 intrusiones máquina a ejecutar. 
-• CISC (Complex Instruction Set Computer). Ordenadores con un conjunto de instrucciones 
-complejo. 
+- CISC (Complex Instruction Set Computer). Ordenadores con un conjunto de instrucciones complejo. 
 El objetivo de este Set de instrucciones es la de facilitar la programación reduciendo el número 
 de instrucciones (que no de operaciones) para realizar una tarea. 
 
  
  
-Informática básica. Representación y comunicación de la información: elementos constitutivos de un sistema 
-de información 
+ 
 CISC trabaja con instrucciones complejas tal y como su nombre indica, suelen integrar múltiples 
 operaciones en una sola (como direccionamiento de memoria, cálculos y almacenamiento) en 
 cada instrucción. Por ello mismo necesitará de varios ciclos de reloj para completarla. 
 La microprogramación es una característica esencial. 
 Características: 
-• Complejidad en instrucciones-decodificación. 
-• Se necesita una instrucción para soportar múltiples modos de direccionamiento. 
-• Teniendo en cuenta, la enorme cantidad de instrucciones que la CPU puede manejar, la 
-construcción de una CPU con arquitectura CISC es muy compleja. 
-• El hardware Intel está basado en CISC. 
-• RISC (Reduced Instruction set computer). Ordenadores con un conjunto de instrucciones 
-simples. 
+- Complejidad en instrucciones-decodificación.
+- Se necesita una instrucción para soportar múltiples modos de direccionamiento.
+- Teniendo en cuenta, la enorme cantidad de instrucciones que la CPU puede manejar, la construcción de una CPU con arquitectura CISC es muy compleja. 
+- El hardware Intel está basado en CISC.
+- RISC (Reduced Instruction set computer). Ordenadores con un conjunto de instrucciones simples. 
 Tiene mucho mayor rendimiento que el CISC. El procesador realiza una superposición en la \nejecución de varias instrucciones en un pipeline. 
 Un pipeline (tubería o cauce), consiste en una cadena de procesos conectados de tal forma que 
 la salida de cada elemento de la cadena es la entrada del próximo. Es una técnica para 
@@ -2176,20 +1978,17 @@ Pipelining intenta mantener ocupada a cada parte del procesador, dividiendo las 
 procesador que trabajan de forma simultánea. 
 Utiliza un conjunto de instrucciones altamente optimizado, reduciendo los ciclos por instrucción \nen el costo de la serie de instrucciones por pipeline de programa. 
 Características: 
-• El repertorio de instrucciones es sencillo y limitado. El objetivo principal es la optimización 
-de instrucciones. 
-• Reciben instrucciones simples, y tratan de ejecutarse dentro de un ciclo de reloj. 
-• Tiene un gran número de registros de uso general. 
-• Los diferentes dispositivos de Apple trabajan con arquitecturas RISC concretamente ARM 
-para sus SoC (System on Chip) ya sea en sus iPhones, iPads o Macs. Tras abandonar los 
+- El repertorio de instrucciones es sencillo y limitado. El objetivo principal es la optimización de instrucciones. 
+- Reciben instrucciones simples, y tratan de ejecutarse dentro de un ciclo de reloj.
+- Tiene un gran número de registros de uso general.
+- Los diferentes dispositivos de Apple trabajan con arquitecturas RISC concretamente ARM para sus SoC (System on Chip) ya sea en sus iPhones, iPads o Macs. Tras abandonar los 
 procesadores Intel, Apple y sus Macs incorporan procesadores de marca propia como M1, 
 M1 Pro, M1 Max y M2. 
 
  
  
-Informática básica. Representación y comunicación de la información: elementos constitutivos de un sistema 
-de información 
-Comparativa entre CISC Y RISC 
+ 
+### 🔵 Comparativa entre CISC Y RISC 
 Veamos algunas de las diferencias entre ambos: 
  
 ##### 4.2.4.2. Arquitectura ARM
@@ -2201,8 +2000,7 @@ procesadores debe ser diferente.
 
  
  
-Informática básica. Representación y comunicación de la información: elementos constitutivos de un sistema 
-de información 
+ 
 El leitmotiv de ARM es tratar de obtener la máxima eficiencia con el menor consumo energético, para \nello y continuando con la filosofía RISC su objetivo es proporcionar sets de instrucciones y procesadores 
 que se lo permitan. 
 Esto permite una reducción en el tamaño del código, el ancho de banda necesario y la cantidad de 
@@ -2225,21 +2023,21 @@ En un inicio ARM se utilizaba en dispositivos móviles y Smart TV, pero los proc
 arquitectura ARM pueden ser utilizados como CPU de un ordenador, y también en otros nichos de 
 mercado, como el de los microcontroladores, los cuales son procesadores que incluyen la memoria RAM \nen el mismo chip y se utilizan por ejemplo para el control de electrodomésticos. 
 AÑO 
-Procesadores 
+### 🔵 Procesadores 
 Tecnologías 
 Clave 
 Descripción General 
 1985 
 ARM1 
-ARM 
+### 🔵 ARM 
 Primer procesador ARM, 32 bits 
 1986 
 ARM2 
-ARM 
+### 🔵 ARM 
 Primera versión utilizada comercialmente 
 1991 
 ARM610 
-ARM 
+### 🔵 ARM 
 Ampliamente utilizado en sistemas embebidos 
 1994 
 ARM7TDMI 
@@ -2255,10 +2053,9 @@ de gama baja.
 
  
  
-Informática básica. Representación y comunicación de la información: elementos constitutivos de un sistema 
-de información 
+ 
 AÑO 
-Procesadores 
+### 🔵 Procesadores 
 Tecnologías 
 Clave 
 Descripción General 
@@ -2298,8 +2095,8 @@ Thumb-2
 rendimiento y eficiencia energética. 
 #### 🔹 4.2.5. Núcleo físico y lógico
 Hay que diferenciar lo que es un núcleo físico de un núcleo lógico. 
-• Un núcleo físico (o core) es un circuito integrado físico ubicado en el chip del procesador. 
-• Un núcleo lógico no tiene su propia unidad de ejecución, sino que comparte la unidad de \nejecución del núcleo físico en el que se ejecuta. Solo el sistema operativo entiende que existe. 
+- Un núcleo físico (o core) es un circuito integrado físico ubicado en el chip del procesador.
+- Un núcleo lógico no tiene su propia unidad de ejecución, sino que comparte la unidad de \nejecución del núcleo físico en el que se ejecuta. Solo el sistema operativo entiende que existe.
 Un núcleo físico es una unidad de procesamiento que puede ejecutar un hilo a la vez, y se compone \nentre otros elementos de una ALU, UC, registros y memoria caché (L1, L2 y la L3 que puede ser 
 compartida en algunos casos siempre que cuente con ella y existan más núcleos físicos). Aunque el flujo 
 de ejecución es secuencial, un núcleo moderno puede ejecutar varias instrucciones de manera 
@@ -2317,12 +2114,11 @@ para ser multihilo.
 
  
  
-Informática básica. Representación y comunicación de la información: elementos constitutivos de un sistema 
-de información 
+ 
 No todo procesador tendrá más de un núcleo lógico por núcleo, es necesario que disponga de una 
 tecnología para ello: 
-• Intel crea núcleos lógicos en sus procesadores mediante la tecnología Hyper Threading. 
-• AMD crea núcleos lógicos en sus procesadores mediante la tecnología SMT en toda su gama 
+- Intel crea núcleos lógicos en sus procesadores mediante la tecnología Hyper Threading.
+- AMD crea núcleos lógicos en sus procesadores mediante la tecnología SMT en toda su gama
 Ryzen. 
 Estas tecnologías permiten trabajar en cada uno de los núcleos lógicos reconocidos por el sistema 
 operativo, pero los núcleos lógicos comparten recursos físicos, el núcleo (UC, ALU, cachés L1 y L2, \netc.). La simultaneidad real entre hilos solo es posible cuando se cuenta con más de un núcleo físico, ya 
@@ -2341,26 +2137,21 @@ lógicos; en ese caso, cada núcleo físico corresponde a un único hilo de ejec
  
  
 Info 
-• Instrucción: Es la unidad más pequeña de trabajo en un 
-programa de computadora. Las instrucciones son las 
+- Instrucción: Es la unidad más pequeña de trabajo en un programa de computadora. Las instrucciones son las 
 operaciones elementales que realiza la CPU. 
-• Programa: agrupación de instrucciones que, cuando se \nejecutan por la computadora, realizan una tarea específica 
-o resuelven un problema determinado. 
-• Proceso: es la instancia en ejecución de un programa. Un 
-proceso se crea cuando se ejecuta un programa y contiene 
+- Programa: agrupación de instrucciones que, cuando se \nejecutan por la computadora, realizan una tarea específica o resuelven un problema determinado. 
+- Proceso: es la instancia en ejecución de un programa. Un proceso se crea cuando se ejecuta un programa y contiene 
 su propio espacio de memoria, recursos del sistema, 
 identificador de proceso (PID) y una o más unidades de \nejecución llamadas hilos. 
  
 
  
  
-Informática básica. Representación y comunicación de la información: elementos constitutivos de un sistema 
-de información 
  
  
  
-• Hilo (Thread): Es una unidad básica de ejecución dentro de 
-un proceso. Los hilos comparten recursos como memoria y 
+ 
+- Hilo (Thread): Es una unidad básica de ejecución dentro de un proceso. Los hilos comparten recursos como memoria y 
 archivos abiertos dentro del proceso y pueden ejecutar 
 instrucciones de manera independiente sin necesitar 
 necesariamente esperar a que otro hilo termine su \nejecución para continuar con sus operaciones, a menos que \nestén compartiendo el mismo núcleo físico, en cuyo caso 
@@ -2372,40 +2163,37 @@ requerir esperas.
 Fuente: Public domain vectors 
 Es uno de los elementos esencial para el funcionamiento del ordenador y su velocidad de proceso. 
 Vamos a ver unos conceptos imprescindibles para entender los tipos y clasificación de memoria. 
-Memoria Volátil o no volátil 
+### 🔵 Memoria Volátil o no volátil 
 Es un término referido al almacenaje o no de la información: 
-• Memoria Volátil: cuando se apaga el ordenador, se corta el suministro de corriente eléctrica, la 
-información se pierde, no es almacenada. Es una memoria que se utiliza para llevar a cabo 
+- Memoria Volátil: cuando se apaga el ordenador, se corta el suministro de corriente eléctrica, la información se pierde, no es almacenada. Es una memoria que se utiliza para llevar a cabo 
 diferentes procesos mientras utilizamos el ordenador. 
 
  
  
-Informática básica. Representación y comunicación de la información: elementos constitutivos de un sistema 
-de información 
-• Memoria No volátil: cuando se apaga el ordenador, se corta el suministro de corriente eléctrica, 
-la información no se pierde, se mantiene almacenada. 
+ 
+- Memoria No volátil: cuando se apaga el ordenador, se corta el suministro de corriente eléctrica, la información no se pierde, se mantiene almacenada. 
 Son memorias tipo NVRAM, y también los dispositivos de memoria secundaria o 
 almacenamiento (discos duros, pen drive, CD, DVD etc.). 
  
  
  
  
-Anécdota 
+### 🔵 Anécdota 
 En ocasiones ante un apagado incorrecto del ordenador, por corte 
 de luz o forma del usuario incorrecta de apagarlo, puede dañarse 
 algún fichero que este en uso en ese momento, perdiendo los 
 últimos cambios realizados o incluso volviéndose ilegibles. 
  
 #### 🔹 4.3.1. Tecnologías
-Tecnología NVRAM 
+### 🔵 Tecnología NVRAM 
 Es una tecnología que permite que las memorias sean no volátiles. 
 Memoria de acceso aleatorio no volátil (Non-volatile random access memory). 
 NVRAM es una memoria de acceso aleatorio que es capaz de almacenar información y no perderla al 
 retirar la alimentación eléctrica del componente. Son: 
-• EAROM. 
-• EEPROM. 
-• EPROM y flash EEPROM. 
-Tecnología Flash NAND 
+- EAROM.
+- EEPROM.
+- EPROM y flash EEPROM.
+### 🔵 Tecnología Flash NAND 
 El término flash es debido a la alta velocidad que puede manejar y NAND a un tipo de conexión especial 
 de sus elementos electrónicos (compuerta tipo NAND). 
 Son memorias que permite almacenar datos y mantenerlos almacenados sin necesidad de alimentación \neléctrica durante más de 10 años (cantidad que va aumentando con la rápida evolución del desarrollo 
@@ -2414,9 +2202,8 @@ Se utiliza en las memorias USB, memorias SD, MemoryStick de Sony, unidades SS
 
  
  
-Informática básica. Representación y comunicación de la información: elementos constitutivos de un sistema 
-de información 
-Tecnología dual channel 
+ 
+### 🔵 Tecnología dual channel 
 Es una tecnología que permite el incremento del rendimiento gracias al acceso simultáneo a dos 
 módulos distintos de memoria RAM. Esto se consigue mediante un segundo controlador de memoria en \nel Northbridge. Para que el ordenador pueda funcionar en Dual Channel, se debe de tener dos módulos 
 idénticos de memoria en los slots correspondientes de la placa base, y el chipset de la placa base debe 
@@ -2424,14 +2211,14 @@ soportar dicha tecnología.
 #### 🔹 4.3.2. Clasificación
 Existen varias clasificaciones, en función de diferentes enfoques, pero la más utilizada, es la que divide la 
 memoria en primaria y secundaria. Y la memoria Flash. 
-• Memoria Primaria. 
-• ROM (Read-Only Memory). 
+- Memoria Primaria.
+- ROM (Read-Only Memory).
 » ROM. 
 » Y ROM más modernas como: 
 » PROM (Programmable ROM). 
 » EPROM (Erasable Programmable ROM). 
 » EEPROM (Electrically Erasable Programmable ROM). 
-• RAM (Ramdom Access Memory). 
+- RAM (Ramdom Access Memory).
 » RAM. 
 » DRAM. 
 » FPM DRAM. 
@@ -2440,31 +2227,30 @@ memoria en primaria y secundaria. Y la memoria Flash.
 » SDRAM. 
 » RDRAM. 
 » DDR. 
-• Cache. 
+- Cache.
 
  
  
-Informática básica. Representación y comunicación de la información: elementos constitutivos de un sistema 
-de información 
-• Memoria Secundaria. 
-• Swap. 
-• Disquettes. 
-• Soportes ópticos. 
-• Discos Duros. 
+ 
+- Memoria Secundaria.
+- Swap.
+- Disquettes.
+- Soportes ópticos.
+- Discos Duros.
 » Magnéticos. 
 » IDE. 
 » SATA. 
 » SSD (solid-state disk). 
-• La memoria flash. 
+- La memoria flash.
 ##### 4.3.2.1. Memoria primaria
 Se divide en celdas identificadas mediante una dirección y que están formadas por bloques de circuitos 
 integrados o chips. Estas celdas almacenan información binaria. 
 Se comunica con el procesador mediante el bus de direcciones. 
 Es mucho más rápida que la secundaria, pero tiene menor capacidad. 
 Se puede clasificar en 3 tipos: 
-• ROM. 
-• RAM. 
-• Cache. 
+- ROM.
+- RAM.
+- Cache.
 4.3.2.1.1. Memorias ROM (Read Only Memory) 
 Son memorias no volátiles, de sólo lectura (no se puede escribir en ella). 
 En la ROM, se almacena la BIOS, que contiene los programas necesarios para el arranque y las rutinas 
@@ -2473,14 +2259,13 @@ funcionamiento del equipo como el programa de arranque).
 
  
  
-Informática básica. Representación y comunicación de la información: elementos constitutivos de un sistema 
-de información 
+ 
 Podemos clasificarlas en 4 tipos: 
-• ROM (Read-Only Memory). 
-• Y ROM más modernas como: 
-• PROM (Programmable ROM). 
-• EPROM (Erasable Programmable ROM). 
-• EEPROM (Electrically Erasable Programmable ROM). 
+- ROM (Read-Only Memory).
+- Y ROM más modernas como:
+- PROM (Programmable ROM).
+- EPROM (Erasable Programmable ROM).
+- EEPROM (Electrically Erasable Programmable ROM).
 Como indica su nombre, no son solo de lectura, pueden borrarse y volver a programarse un 
 determinado número de veces, aunque este proceso es lento y poco frecuente. 
 Estas han sustituido a las antiguas memorias ROM, las cuales no se utilizan en los 
@@ -2488,26 +2273,26 @@ ordenadores actuales.
 (La EEPROM sirve incluso como base para la memoria flash utilizada en las unidades SSD 
 que ahora están disponibles en capacidades de datos de un terabyte o más). 
 Vamos a ver un cuadro con diferentes memorias ROM 
-Tipo ROM 
+### 🔵 Tipo ROM 
 ROM 
 Read Only Memory: memoria de 
 solo lectura 
 Memoria que permite leerse, pero no permite la escritura 
-PROM 
+### 🔵 PROM 
 Programmable Read Only Memory: 
 memoria programable de solo 
 lectura 
 Memoria ROM que permite una programación y 
 posteriormente un número indeterminado de lecturas, pero 
 no puede ser modificada 
-EPROM 
+### 🔵 EPROM 
 Erasable Programmable Read Only 
 Memory: memoria programable y 
 borrable de solo lectura 
 Memoria PROM que permite reprogramación por medio de 
 un dispositivo especial y borrado por medio de luz 
 ultravioleta 
-EEPROM 
+### 🔵 EEPROM 
 "Electrically Erasable Programmable 
 Read Only Memory", memoria \neléctricamente programable y 
 borrable de solo lectura 
@@ -2523,31 +2308,30 @@ Es memoria volátil.
 
  
  
-Informática básica. Representación y comunicación de la información: elementos constitutivos de un sistema 
-de información 
+ 
 Se le denomina memoria de acceso aleatorio (random access) porque el tiempo de espera en la lectura 
 o escritura es el mismo para cualquier posición de la memoria, por lo que la información no tiene por 
 qué estar ordenada para aumentar su rendimiento. 
 Se usa como memoria de trabajo para el sistema operativo y los programas. 
 Vamos a ver un cuadro con diferentes memorias RAM 
-Tipo de 
+### 🔵 Tipo de 
 Memoria 
 Significado 
 Descripción 
-RAM 
+### 🔵 RAM 
 Random Access Memory, 
 memoria de acceso 
 aleatorio 
 Memoria primaria de la computadora, en la que puede leerse y \nescribirse información en cualquier momento, pero que pierde la 
 información al no tener alimentación eléctrica. 
-DRAM 
+### 🔵 DRAM 
 Dyamic Random Access 
 Mrmory, memoria 
 dinámica de acceso 
 aleatorio. 
 Memoria construida con capacitores que necesitan refrescar el 
 dato que tienen almacenado ralentizando el proceso. 
-FPM 
+### 🔵 FPM 
 DRAM 
 Fast Page Mode Dynamic 
 Random Access memory, 
@@ -2557,7 +2341,7 @@ aleatorio.
 Aumentan el rendimiento a las direcciones mediante páginas. Fue 
 una de las primeras formas de DRAM que permite un acceso rápido 
 a múltiples ubicaciones dentro de una fila de memoria sin tener que \nespecificar la fila a cada vez. 
-EDO RAM 
+### 🔵 EDO RAM 
 Extenden Data Out 
 Random Access Memory, 
 memoria de acceso 
@@ -2565,7 +2349,7 @@ aleatorio con salida de
 datos extendida 
 Tecnología que permite acortar el camino de la transferencia de 
 datos entre la memoria y el microprocesador. 
-BEDO 
+### 🔵 BEDO 
 RAM 
 Burst EDO Random Access 
 Memory, memoria de 
@@ -2574,7 +2358,7 @@ de datos extendida y
 acceso Burst. 
 Se trata de una memoria EDO RAM que mejora su velocidad gracias 
 al acceso sin latencias a direcciones contiguas de memoria. 
-SDRAM 
+### 🔵 SDRAM 
 Synchronous Dynamic 
 Random Access Memory: 
 memoria dinámica de 
@@ -2583,7 +2367,7 @@ Tecnología DRAM que utiliza un reloj para sincronizar con el
 microprocesador la entrada y salida de datos en la memoria de un 
 chip. Se ha utilizado en las memorias comerciales como SIMM, 
 DIMM y actualmente en la familia de las memorias DDR. 
-RDRAM 
+### 🔵 RDRAM 
 Rambus DRAM, memoria 
 dinámica de acceso 
 aleatorio para tecnología 
@@ -2594,13 +2378,12 @@ la familia de las memorias RIMM.
 
  
  
-Informática básica. Representación y comunicación de la información: elementos constitutivos de un sistema 
-de información 
-Tipo de 
+ 
+### 🔵 Tipo de 
 Memoria 
 Significado 
 Descripción 
-DDR 
+### 🔵 DDR 
 Double Data Rate SDRAM, 
 SDRAM de doble velocidad 
 de datos. 
@@ -2612,7 +2395,7 @@ dos veces por ciclo de reloj. Las variantes de DDR han \nevolucionado con el tie
  
  
  
-Nota 
+### 🔵 Nota 
 La memoria DDR fue introducida en el año 2000 con la DDR1 con 
 velocidades de hasta 200 MHz, el bus de datos utilizado es de 64 
 bits, posteriormente tenemos la DDR2 (2003), DDR3 (2007), 
@@ -2633,21 +2416,20 @@ datos de un ordenador, con mayor capacidad que la memoria primaria, pero más le
 
  
  
-Informática básica. Representación y comunicación de la información: elementos constitutivos de un sistema 
-de información 
+ 
 Algunos tipos son: 
-• Diskettes. 
+- Diskettes.
 Ya en desuso. 
-• Soportes ópticos. 
+- Soportes ópticos.
 Tienen tendencia a desaparecer (CD, DVD, Blu-Ray, etc.). 
-• Disco duro. 
-• Discos magnéticos IDE y SATA. 
+- Disco duro.
+- Discos magnéticos IDE y SATA.
 Tienen partes móviles. Se han utilizado hasta hace unos años, que han empezado a 
 utilizarse los discos SSD, o la combinación de ambos. 
 Los discos magnéticos, al tener partes móviles, son más sensibles a golpes, más ruidosos y 
 consumen más energía. 
 Suelen ser más económicos en la misma capacidad de almacenamiento. 
-• SSD o solid-state disk. 
+- SSD o solid-state disk.
 Unidad de estado sólido, (llamado a veces incorrectamente disco de estado sólido, lo cual 
 no es correcto puesto que carece de disco físico, y también se puede ver denominado como 
 Solid State Drive). 
@@ -2668,8 +2450,7 @@ Estudiaremos los discos duros más detenidamente en la Unidad 2.
 
  
  
-Informática básica. Representación y comunicación de la información: elementos constitutivos de un sistema 
-de información 
+ 
 4.3.2.2.1. SWAP (Virtual Memory) 
 Espacio de intercambio en disco. 
 Se trata de una simulación de RAM en un área de un disco duro con lo cual conseguimos que no se 
@@ -2679,7 +2460,7 @@ más lenta.
  
  
  
-Atención 
+### 🔵 Atención 
 Swapping (del término inglés "swap": intercambiar): consiste en 
 mover un proceso en ejecución o parte de él, temporalmente 
 desde la memoria principal a la memoria secundaria (un dispositivo 
@@ -2698,10 +2479,9 @@ En la siguiente imagen se muestra la jerarquía de la memoria.
 
  
  
-Informática básica. Representación y comunicación de la información: elementos constitutivos de un sistema 
-de información 
  
-Niveles de la jerarquía de memoria 
+ 
+### 🔵 Niveles de la jerarquía de memoria 
 Como puedes observar, la punta de la pirámide muestra la memoria más rápida, cara y que más veces se 
 usa, pero también la de menor capacidad. A medida que vamos bajando en la pirámide, aumenta la 
 capacidad y disminuyen el resto de parámetros. 
@@ -2721,12 +2501,11 @@ principal a otro proceso listo.
 
  
  
-Informática básica. Representación y comunicación de la información: elementos constitutivos de un sistema 
-de información 
+ 
 Cuando se produce hiperpaginación, los ciclos del procesador se utilizan en llevar y traer páginas (o 
 segmentos, según sea el caso) y el rendimiento general del sistema se degrada notablemente. El 
 sistema tarda más tiempo en paginar que en realizar procesos. 
-Este término se utilizó por primera vez cuando los sistemas operativos funcionaban sobre cintas 
+Este término se utilizó por primera vez cuando los 
 magnéticas para describir el sonido de que las cintas hacían cuando se leían y escribían datos a alta 
 velocidad. 
 Las formas de evitar la hiperpaginación, se investigaron mucho en los años 70, desarrollándose 
@@ -2734,20 +2513,20 @@ algoritmos efectivos, aunque complejos, con la idea de intentar adivinar qué p�
 próximamente, basándose en su historia reciente y utilizando como hipótesis el principio de cercanía de 
 referencias. Estos son los denominados algoritmos de reemplazo de páginas. 
 Resulta más práctico y sencillo evitar la hiperpaginación usando lo siguiente: 
-• Aumentando la cantidad de memoria RAM (mejor solución a largo plazo). 
-• Disminuyendo la cantidad de aplicaciones corriendo en la computadora. 
-• Ajustando el tamaño de la partición de intercambio. 
+- Aumentando la cantidad de memoria RAM (mejor solución a largo plazo).
+- Disminuyendo la cantidad de aplicaciones corriendo en la computadora.
+- Ajustando el tamaño de la partición de intercambio.
 ### 🔵 4.4. Sistemas de direccionamiento
 Direccionamiento de la memoria por parte del procesador 
 Los modos de direccionamiento de un procesador son las diferentes formas de transformación de 
 determinada información de un operando contenida en una instrucción en la dirección de este 
 operando. 
 Tiene dos fines principales: 
-• Permitir al programador manejar estructuras complejas como vectores y matrices. 
-• Reducir el número de bits utilizado. 
+- Permitir al programador manejar estructuras complejas como vectores y matrices.
+- Reducir el número de bits utilizado.
 Existen distintos modos de direccionamiento. No hay un estándar que los defina, por lo que existen 
 múltiples clasificaciones. 
-Modos de direccionamiento 
+### 🔵 Modos de direccionamiento 
 Existen muchos modos de direccionamiento, pero vamos a centrarnos en los principales: 
 1. Implícito o inherente. 
 2. Inmediato o literal. 
@@ -2755,8 +2534,7 @@ Existen muchos modos de direccionamiento, pero vamos a centrarnos en los princip
 
  
  
-Informática básica. Representación y comunicación de la información: elementos constitutivos de un sistema 
-de información 
+ 
 4. Directo o absoluto. 
 5. Indirecto. 
 6. Relativo. 
@@ -2768,25 +2546,23 @@ Pasamos a verlos con más detalle
 1. IMPLÍCITO (O INHERENTE). 
 El operando se especifica en la definición de la instrucción. 
 Se utiliza para hacer referencia a dos tipos de operandos: 
-• Registros. 
-• Operandos de pila. La operación se realiza sobre la cima de la pila. 
+- Registros.
+- Operandos de pila. La operación se realiza sobre la cima de la pila.
 2. INMEDIATO (O LITERAL). 
 En la instrucción se encuentra incluido el operando, es decir, la información sobre la que se 
 operará, por lo que no es necesario acceder a la memoria. 
 3. DIRECTO POR REGISTRO. 
 El campo de dirección de una instrucción especifica un registro del procesador. 
 Este presenta dos ventajas: 
-• El acceso a los registros es muy rápido. 
-• El número de bits necesarios para especificar un registro es más pequeño que el necesario 
-para especificar una dirección de memoria. 
+- El acceso a los registros es muy rápido.
+- El número de bits necesarios para especificar un registro es más pequeño que el necesario para especificar una dirección de memoria. 
 4. DIRECTO (O ABSOLUTO). 
 El campo de dirección obtenido no necesita ninguna transformación, es decir, es la dirección 
 real del registro que buscamos, al que queremos acceder. 
 
  
  
-Informática básica. Representación y comunicación de la información: elementos constitutivos de un sistema 
-de información 
+ 
 5. INDIRECTO. 
 Obtenemos una dirección del dato al que queremos acceder, que no es real, sino que es la 
 dirección de dónde está. Por lo que necesitamos otro paso para llegar a acceder al dato. 
@@ -2822,39 +2598,38 @@ tamaño del mismo.
 
  
  
-Informática básica. Representación y comunicación de la información: elementos constitutivos de un sistema 
-de información 
-Utilidades 
+ 
+### 🔵 Utilidades 
 En la siguiente tabla te mostramos las utilidades de los principales modos de direccionamiento. 
-MODOS 
+### 🔵 MODOS 
 UTILIDADES 
 Implícito 
 Organizaciones de un solo acumulador e instrucciones de los ordenadores con 
 organización de pila 
-Inmediato 
+### 🔵 Inmediato 
 Operaciones con constantes 
 Directo por registro 
 Variables locales de procedimientos no recursivos 
-Directo o absoluto 
+### 🔵 Directo o absoluto 
 Direcciones del sistema (que no dependen del programa) 
-Indirecto 
+### 🔵 Indirecto 
 Variables referenciadas a través de apuntadores 
-Relativo 
+### 🔵 Relativo 
 Variables globales 
 Por base y 
 desplazamiento 
-Varios programas en memoria 
+### 🔵 Varios programas en memoria 
 Indexado 
 Acceso a vectores, matrices y cadenas 
-Autoincremental 
+### 🔵 Autoincremental 
 Desapilar parámetros de procedimientos. Recorrido de vectores y cadenas 
-Autodecremental 
+### 🔵 Autodecremental 
 Apilar parámetros de procedimientos. Recorrido de vectores y cadenas hacia atrás 
  
  
  
  
-Recomendación 
+### 🔵 Recomendación 
 Sabemos que este punto es un poco complicado y denso. Consulta 
 la Biblioteca Audiovisual. 
 Te resultaría útil, que hicieras un resumen o tabla con los modos de 
@@ -2866,8 +2641,7 @@ palabras y de la forma más reducida posible.
 
  
  
-Informática básica. Representación y comunicación de la información: elementos constitutivos de un sistema 
-de información 
+ 
 ### 🔵 4.5. El tiempo de ejecución de un programa
  
 Fuente: Public domain vectors 
@@ -2878,26 +2652,23 @@ Al principio se utilizaban procesadores CISC porque se pensaba que el rendimient
 un pequeño conjunto de instrucciones complejas (algunas de las cuales tardaban varios ciclos de reloj). 
 Estudios estadísticos demostraron que muchas de estas instrucciones no se utilizaban y surge la 
 tendencia RISC que tiene las siguientes características: 
-• El repertorio de instrucciones es muy reducido y contiene instrucciones muy básicas. 
-• Estos procesadores disponen de muchos registros de propósito general. 
-• Las instrucciones presentan un formato similar (longitud, tamaño, posición de los elementos, etc.). 
-• El procesador contiene registros y las operaciones de la ALU se realizan con los datos de estos 
-registros. El intercambio de información entre la memoria y los registros se efectúan mediante 
+- El repertorio de instrucciones es muy reducido y contiene instrucciones muy básicas.
+- Estos procesadores disponen de muchos registros de propósito general.
+- Las instrucciones presentan un formato similar (longitud, tamaño, posición de los elementos, etc.).
+- El procesador contiene registros y las operaciones de la ALU se realizan con los datos de estos registros. El intercambio de información entre la memoria y los registros se efectúan mediante 
 dos instrucciones específicas. 
-• Load. Carga en registro. 
-• Store. Guardado en memoria. 
-• Por norma general, una instrucción se ejecuta en un ciclo de reloj. 
-• El diseño y desarrollo de los procesadores es mucho más sencillo y menos costoso en términos 
-de tiempo. 
+- Load. Carga en registro.
+- Store. Guardado en memoria.
+- Por norma general, una instrucción se ejecuta en un ciclo de reloj.
+- El diseño y desarrollo de los procesadores es mucho más sencillo y menos costoso en términos de tiempo. 
 
  
  
-Informática básica. Representación y comunicación de la información: elementos constitutivos de un sistema 
-de información 
+ 
 Por lo tanto, para mejorar el rendimiento de un ordenador a la hora de ejecutar un programa tenemos 
 dos enfoques: 
-• Reduciendo el número de instrucciones (CISC). 
-• Reduciendo el número de ciclos que utiliza una instrucción (RISC). 
+- Reduciendo el número de instrucciones (CISC).
+- Reduciendo el número de ciclos que utiliza una instrucción (RISC).
 Normalmente, al reducir un parámetro, aumentamos el otro. Para solucionar esto se utilizan técnicas de 
 paralelismo para disminuir el número de ciclos utilizados sin variar el número de instrucciones. 
 Hoy en día, la tendencia RISC es la más utilizada. 
@@ -2921,21 +2692,20 @@ Para mejorar el rendimiento de los ordenadores se han desarrollado varios tipos 
 múltiples procesadores. 
 Flynn propone la siguiente clasificación de ordenadores atendiendo al paralelismo a nivel de 
 procesadores: 
-• SISD. 
+- SISD.
 Single Instruction Single Data. 
 Son los ordenadores clásicos basados en la arquitectura Von Neumann. Un único procesador \nejecuta un sólo flujo de instrucciones para operar datos en una única memoria. Se ejecuta una 
 única instrucción y un dato en cada ciclo de reloj. 
 
  
  
-Informática básica. Representación y comunicación de la información: elementos constitutivos de un sistema 
-de información 
-• SIMD. 
+ 
+- SIMD.
 Un flujo de instrucciones y múltiples flujos de datos. Todas las unidades de cómputo ejecutan 
 simultáneamente la misma instrucción, pero con distintos datos. 
-• MISD. 
+- MISD.
 Múltiples flujos de instrucciones y un solo flujo de datos. No se suele utilizar dado que no es \neficiente. 
-• MIMD. 
+- MIMD.
 Múltiples flujos de instrucciones y múltiples flujos de datos. Varias unidades de cómputo \nejecutan simultáneamente instrucciones distintas con distintos datos. 
  
 Clasificación de ordenadores según paralelismo propuesta por Flynn 
@@ -2948,8 +2718,7 @@ Clasificación de ordenadores según paralelismo propuesta por Flynn
 
  
  
-Informática básica. Representación y comunicación de la información: elementos constitutivos de un sistema 
-de información 
+ 
 6. Instrucciones de bits. 
 ## 🟣 7. Instrucciones de control:
 a. Saltos. 
@@ -2958,35 +2727,34 @@ c. Gestión de interrupciones.
 8. Instrucciones de entrada y salida. 
 9. Instrucciones de control y misceláneas. 
 ## 🟣 5. Bibliografía
-• PRIETO ESPINOSA, A. Introducción a la informática. 2006. 
-• ÁLVAREZ MUNÁRRIZ, L. Fundamentos de inteligencia artificial. 
-• STAIR, R. y REYNOLDS, G. Principios de sistemas de Información. 
-• http://www.rae.es/. 
-• https://www.definicionabc.com. 
-• https://www.significados.com/. 
-• Universidad Nacional Autónoma de México. Instituto de Investigaciones Bibliotecológicas y de la 
+- PRIETO ESPINOSA, A. Introducción a la informática. 2006.
+- ÁLVAREZ MUNÁRRIZ, L. Fundamentos de inteligencia artificial.
+- STAIR, R. y REYNOLDS, G. Principios de sistemas de Información.
+- http://www.rae.es/.
+- https://www.definicionabc.com.
+- https://www.significados.com/.
+- Universidad Nacional Autónoma de México. Instituto de Investigaciones Bibliotecológicas y de la
 Información. http://iibi.unam.mx/. 
-• Sistemas de información en la era digital. Fundación OSDE. 
-• https://www.fundacionosde.com.ar/pdf/biblioteca/Sistemas_de_informacion_en_la_era_digi tal-Modulo_I.pdf. 
-• Apuntes UNED. Arquitectura de ordenadores. Grado en Informática. 
+- Sistemas de información en la era digital. Fundación OSDE.
+- https://www.fundacionosde.com.ar/pdf/biblioteca/Sistemas_de_informacion_en_la_era_digi tal-Modulo_I.pdf.
+- Apuntes UNED. Arquitectura de ordenadores. Grado en Informática.
 http://www.apuntesuned.es/informatica/arquitectura-de-ordenadores/apuntes-arquitectura-
 de-ordenadores.html. 
-• http://www.areatecnologia.com/. 
-• https://whatis.techtarget.com/. 
-• https://es.slideshare.net/Jomicast/componentes-internos-de-los-equipos-microinformaticos. 
-• http://www.cad.com.mx/generaciones_de_las_computadoras.htm. 
+- http://www.areatecnologia.com/.
+- https://whatis.techtarget.com/.
+- https://es.slideshare.net/Jomicast/componentes-internos-de-los-equipos-microinformaticos.
+- http://www.cad.com.mx/generaciones_de_las_computadoras.htm.
 
  
  
-Informática básica. Representación y comunicación de la información: elementos constitutivos de un sistema 
-de información 
-• Departamento de Informática. Universidad de Valladolid. 
-• https://www.infor.uva.es/~bastida/OC/modos.pdf. 
-• PITTI, E. Imagen IBM 360. Museo de historia de la computación. Fuente: 
+ 
+- Departamento de Informática. Universidad de Valladolid.
+- https://www.infor.uva.es/~bastida/OC/modos.pdf.
+- PITTI, E. Imagen IBM 360. Museo de historia de la computación. Fuente:
 https://www.flickr.com/photos/24205142@N00/2370873167. 
-• https://hardzone.es/tutoriales/componentes/procesador-arm/. 
-• Arquitectura ARM – Wikipedia, la enciclopedia libre. 
-• http://cv.uoc.edu/annotation/8255a8c320f60c2bfd6c9f2ce11b2e7f/619469/PID_00218274
+- https://hardzone.es/tutoriales/componentes/procesador-arm/.
+- Arquitectura ARM – Wikipedia, la enciclopedia libre.
+- http://cv.uoc.edu/annotation/8255a8c320f60c2bfd6c9f2ce11b2e7f/619469/PID_00218274
 /PID_00218274.html#w31aab5c11.
 
 ---
