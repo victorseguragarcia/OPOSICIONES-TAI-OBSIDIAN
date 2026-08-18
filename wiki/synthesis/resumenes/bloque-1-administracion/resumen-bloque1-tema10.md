@@ -23,76 +23,48 @@ updated: "2026-08-18"
 # 🔴 Resumen Exhaustivo Tema 10 (Bloque 1): Transparencia, Acceso a la Información y Buen Gobierno (Ley 19/2013)
 
 > [!repaso] ⚡ **Puntos Clave y Objetivos Oficiales del Tema 10**
-> Objeto y ámbito de aplicación de la Ley 19/2013, Publicidad Activa, Portal de Transparencia, Derecho de Acceso a la información pública, límites y causas de inadmisión, procedimiento de solicitud y silencio administrativo, y el Consejo de Transparencia y Buen Gobierno (CTBG).
+> Objeto y ámbito subjetivo de la Ley 19/2013, obligaciones de Publicidad Activa, Portal de Transparencia, Derecho de Acceso a la información pública (sin motivación), límites del Art. 14 y causas de inadmisión, procedimiento de solicitud (plazo de resolución 1 mes prorrogable a 2, silencio negativo) y Consejo de Transparencia y Buen Gobierno (CTBG).
 
 ---
 
 ## 🟣 1. Desarrollo Jurídico y Normativo Exhaustivo
 
-### 1. Objeto y Ámbito Subjetivo de la Ley 19/2013 de Transparencia
-- **Triple Objeto de la Ley 19/2013**:
-  1. Incrementar y reforzar la **transparencia de la actividad pública** a través de obligaciones de publicidad activa.
-  2. Reconocer y garantizar el **derecho de acceso a la información pública**.
-  3. Establecer las obligaciones de **buen gobierno** que deben cumplir los altos cargos y sus consecuencias disciplinarias.
-- **Ámbito Subjetivo de Aplicación (Arts. 2 y 3)**:
-  - Todas las Administraciones Públicas (AGE, CCAA, Entidades Locales).
-  - Órganos constitucionales en sus actividades sujetas a Derecho Administrativo (Casa Real, Congreso, Senado, TC, CGPJ, Tribunal de Cuentas, Defensor del Pueblo, Consejo de Estado).
-  - Sociedades mercantiles públicas y fundaciones del sector público.
-  - Partidos políticos, organizaciones sindicales y empresariales.
-  - Entidades privadas que perciban durante un año ayudas o subvenciones públicas en cuantía superior a **100.000 euros**, o cuando al menos el **40% del total de sus ingresos anuales** tengan carácter de ayuda o subvención pública (con un mínimo de 5.000 €).
+### 1. Objeto, Ámbito y Publicidad Activa (Ley 19/2013)
+- **Ámbito Subjetivo (Arts. 2 y 3)**: AAPP, órganos constitucionales (Casa Real, Cortes, TC, CGPJ en actividad administrativa) y entidades privadas perceptoras de subvenciones $>100.000$ € o cuando al menos el 40% de sus ingresos sean subvenciones (mín. 5.000 €).
+- **Publicidad Activa (Arts. 5 a 11)**: Publicación periódica en el **Portal de Transparencia** de:
+  - *Información Institucional y Organizativa (Art. 6)*: Funciones, normativa, organigramas y planes anuales.
+  - *Información Jurídica (Art. 7)*: Directrices, proyectos normativos y memorias.
+  - *Información Económica y Presupuestaria (Art. 8)*: Contratos adjudicados, convenios, subvenciones, Presupuestos Generales y estado de ejecución, y **retribuciones de altos cargos**.
 
-### 2. La Publicidad Activa (Título I, Capítulo II, Arts. 5 a 11)
-- **Obligación General (Art. 5)**: Difusión periódica y actualizada de oficio en el **Portal de Transparencia** de la información pública relevante para garantizar la transparencia de su actividad, de forma accesible, gratuita y reutilizable.
-- **Categorías de Información Obligatoria**:
-  - *Información Institucional, Organizativa y de Planificación (Art. 6)*: Funciones que desarrollan, normativa aplicable, estructura organizativa y organigramas, planes y programas anuales/plurianuales con objetivos y grado de cumplimiento.
-  - *Información de Relevancia Jurídica (Art. 7)*: Directrices, instrucciones, circulares, anteproyectos de ley y proyectos de reglamentos, memorias de impacto normativo.
-  - *Información Económica, Presupuestaria y Estadística (Art. 8)*:
-    - Todos los **contratos adjudicados** (con indicación de objeto, importe, licitadores y modificaciones).
-    - Convenios de colaboración y encomiendas de gestión.
-    - Subvenciones y ayudas públicas concedidas.
-    - **Presupuestos Generales**, con descripción de las principales partidas e información sobre su estado de ejecución.
-    - Cuentas anuales e informes de auditoría.
-    - Retribuciones anuales percibidas por los máximos responsables y altos cargos, así como indemnizaciones percibidas con ocasión del cese.
+### 2. El Derecho de Acceso a la Información Pública (Arts. 12 a 22)
+- **Titularidad (Art. 12)**: Todas las personas tienen derecho a acceder a la información pública. **No requiere motivación** (la ausencia de motivación no puede ser causa de denegación).
+- **Límites al Acceso (Art. 14)**: Seguridad nacional, defensa, relaciones exteriores, seguridad pública, prevención de delitos, igualdad de partes procesales, inspección/control, secreto profesional y medio ambiente.
+- **Causas de Inadmisión (Art. 18)**: Información en curso de elaboración, notas/borradores de carácter auxiliar, necesidad de acción previa de reelaboración, dirigidas a órgano no competente o manifiestamente repetitivas/abusivas.
 
-### 3. El Derecho de Acceso a la Información Pública (Arts. 12 a 22)
-- **Titularidad (Art. 12)**: Todas las personas tienen derecho a acceder a la información pública, en los términos previstos en el artículo 105.b) de la Constitución Española y en esta Ley. **No se requiere motivar la solicitud** (la ausencia de motivación no será causa de denegación).
-- **Límites al Derecho de Acceso (Art. 14)**: El derecho de acceso podrá ser limitado si acceder a la información supone un perjuicio para:
-  a) La seguridad nacional.  
-  b) La defensa.  
-  c) Las relaciones exteriores.  
-  d) La seguridad pública.  
-  e) La prevención, investigación y sanción de los ilícitos penales, administrativos o disciplinarios.  
-  f) La igualdad de las partes en los procesos judiciales y la tutela judicial efectiva.  
-  g) Las funciones administrativas de vigilancia, inspección y control.  
-  h) Los intereses económicos y comerciales.  
-  i) La política económica y monetaria.  
-  j) El secreto profesional y la propiedad intelectual e industrial.  
-  k) La garantía de la confidencialidad o el secreto requerido en procesos de toma de decisión.  
-  l) La protección del medio ambiente.  
-  *(La aplicación de los límites será justificada y proporcionada al objeto y finalidad de protección).*
-- **Causas de Inadmisión de Solicitudes (Art. 18)**:
-  a) Información en curso de elaboración o publicación general.  
-  b) Información que tenga carácter meramente auxiliar o de apoyo (notas, borradores, opiniones internas).  
-  c) Información para cuya divulgación sea necesaria una acción previa de reelaboración.  
-  d) Dirigidas a un órgano en cuyo poder no obre la información (si se conoce el competente se remitirá a este).  
-  e) Manifiestamente repetitivas o que tengan carácter abusivo no justificado.
+### 3. Procedimiento de Acceso y Consejo de Transparencia
 
-### 4. Procedimiento de Acceso y Régimen de Impugnación
-
-| Fase del Procedimiento | Plazos y Reglas Oficiales (Arts. 19 a 22) |
+| Trámite del Procedimiento | Plazos y Reglas Oficiales (Arts. 19 a 22) |
 |:---|:---|
-| **Iniciación** | Mediante solicitud por cualquier medio que permita tener constancia de la identidad del solicitante, la información que se solicita y la dirección de contacto. |
-| **Subsanación** | Si la solicitud no reúne los requisitos o no es suficientemente precisa, se otorgará un plazo de **10 días hábiles** para subsanar (con suspensión del plazo de resolución). |
-| **Alegaciones de Terceros** | Si la información puede afectar a derechos o intereses de terceros, se les otorgará un plazo de **15 días hábiles** para formular alegaciones. |
-| **Plazo Máximo de Resolución** | • **1 mes** desde la recepción de la solicitud por el órgano competente.<br>• Prorrogable por **otro mes más** (máximo 2 meses totales) en caso de que el volumen o la complejidad de la información lo justifiquen (notificándose al solicitante en el primer mes). |
-| **Sentido del Silencio Administrativo** | **DESESTIMATORIO (NEGATIVO)**: Transcurrido el plazo máximo para resolver sin haberse notificado resolución expresa, la solicitud se entenderá desestimada. |
-| **Acceso a la Información Estimada** | El acceso efectivo a la información se realizará en un plazo máximo de **10 días hábiles** tras la notificación. Si hubo oposición de terceros, el acceso solo tendrá lugar trascurrido el plazo para interponer recurso contencioso o si este no solicita la suspensión cautelar. |
+| **Subsanación de Solicitud** | Plazo de **10 días hábiles** si la solicitud no es precisa o no reúne requisitos. |
+| **Alegaciones de Terceros** | Plazo de **15 días hábiles** si la información afecta a derechos de terceros. |
+| **Plazo Máximo de Resolución** | **1 mes** desde la recepción en el órgano competente (prorrogable **otro mes más** por volumen/complejidad). |
+| **Sentido del Silencio Administrativo** | **DESESTIMATORIO (NEGATIVO)**. Transcurrido 1 mes sin resolución, la solicitud se entiende denegada. |
+| **Acceso Efectivo** | En un plazo máximo de **10 días hábiles** tras la notificación estimatoria. |
 
-- **El Consejo de Transparencia y Buen Gobierno (CTBG, Arts. 33 a 40)**:
-  - Organismo público independiente adscrito orgánicamente al Ministerio de Hacienda y Función Pública con personalidad jurídica propia y plena capacidad.
-  - *Reclamación Potestativa Previa (Art. 24)*: Frente a toda resolución expresa o presunta en materia de acceso, podrá interponerse reclamación potestativa ante el CTBG con carácter previo a su impugnación en la jurisdicción contencioso-administrativa.
-  - Plazo de interposición: **1 mes** a contar desde el día siguiente a la notificación del acto o desde el día siguiente a aquel en que se produzcan los efectos del silencio desestimatorio.
-  - Plazo máximo de resolución de la reclamación: **3 meses** (el silencio es desestimatorio).
+- **Consejo de Transparencia y Buen Gobierno (CTBG, Arts. 33 a 40)**:
+  - Organismo público independiente.
+  - *Reclamación Potestativa Previa (Art. 24)*: Frente a resoluciones de acceso expresas o presuntas, sustitutiva de recursos administrativos ordinarios.
+  - Plazo de interposición: **1 mes**. Plazo máximo de resolución de la reclamación: **3 meses** (silencio desestimatorio).
+
+> [!trampa] ⚠️ **Trampas Oficiales del Tribunal en el Tema 10**
+> 1. **Motivación de la Solicitud de Acceso**: La solicitud **NO exige motivación alguna**.
+> 2. **Sentido del Silencio en Transparencia**: Es **DESESTIMATORIO (Negativo)**, a diferencia de la regla general de la LPACAP.
+> 3. **Plazo de Resolución de la Reclamación ante el CTBG**: Son **3 meses** (la solicitud inicial ante la administración es de 1 mes).
+> 4. **Entidades Privadas Afectadas**: Subvenciones $>100.000$ € o más del 40% de ingresos públicos.
+
+> [!mnemo] 🧠 **Reglas Mnemotécnicas de Retención Visual**
+> - **Plazos Transparencia**: **1 Mes Solicitud** $ightarrow$ **1 Mes Prórroga** $ightarrow$ **1 Mes Reclamación CTBG** $ightarrow$ **3 Meses Resolución CTBG**.
+> - **Silencio en Transparencia**: **SIEMPRE NEGATIVO (Desestimatorio)**.
 
 ---
 

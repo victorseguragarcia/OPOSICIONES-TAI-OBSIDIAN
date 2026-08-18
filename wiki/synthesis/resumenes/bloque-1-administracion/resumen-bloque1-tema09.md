@@ -23,60 +23,46 @@ updated: "2026-08-18"
 # 🔴 Resumen Exhaustivo Tema 09 (Bloque 1): Protección de Datos Personales (RGPD y LOPDGDD 3/2018)
 
 > [!repaso] ⚡ **Puntos Clave y Objetivos Oficiales del Tema 09**
-> Reglamento UE 2016/679 (RGPD) y Ley Orgánica 3/2018 (LOPDGDD), principios del tratamiento, bases de licitud, derechos ARSOPOL, deber de información, Delegado de Protección de Datos (DPO), Evaluaciones de Impacto (EIPD), transferencias internacionales, régimen sancionador y Derechos Digitales (Título X).
+> Reglamento UE 2016/679 y Ley Orgánica 3/2018, principios del tratamiento, consentimiento del menor a los 14 años, bases de licitud, derechos ARSOPOL (plazo de respuesta 1 mes), notificación de brechas a la AEPD en 72 horas, Delegado de Protección de Datos (DPO) obligatorio, régimen de apercibimiento sin multas al sector público y Derechos Digitales (Título X).
 
 ---
 
 ## 🟣 1. Desarrollo Jurídico y Normativo Exhaustivo
 
-### 1. Marco Jurídico y Principios del Tratamiento de Datos
-- **Normativa Aplicable**:
-  - **Reglamento (UE) 2016/679 (RGPD)**: Norma europea de directa aplicación desde el **25 de mayo de 2018**.
-  - **Ley Orgánica 3/2018 (LOPDGDD)**: Adapta el ordenamiento español al RGPD e introduce el catálogo de **Derechos Digitales** (Título X).
-- **Principios Relativos al Tratamiento (Art. 5 RGPD)**:
-  - *Licitud, lealtad y transparencia*: Tratamiento basado en base legítima e informado con claridad.
-  - *Limitación de la finalidad*: Recogidos con fines determinados, explícitos y legítimos.
-  - *Minimización de datos*: Adecuados, pertinentes y limitados a lo necesario en relación con los fines.
-  - *Exactitud*: Exactos y actualizados; supresión o rectificación sin dilación de los inexactos.
-  - *Limitación del plazo de conservación*: Mantenidos durante no más tiempo del necesario.
-  - *Integridad y confidencialidad*: Garantía de seguridad adecuada mediante medidas técnicas y organizativas.
-  - *Responsabilidad Proactiva (Accountability)*: El responsable debe ser capaz de demostrar el cumplimiento de todos los principios.
-- **Bases de Licitud del Tratamiento (Art. 6 RGPD)**: Consentimiento del interesado, ejecución de un contrato, cumplimiento de una obligación legal, protección de intereses vitales, cumplimiento de una misión realizada en **interés público o en el ejercicio de poderes públicos**, o satisfacción de intereses legítimos (esta última no aplicable a autoridades públicas en el ejercicio de sus funciones).
-- **Consentimiento del Menor en España (Art. 7 LOPDGDD)**: Se fija en **14 años** (por debajo de 14 años se requiere el consentimiento de los titulares de la patria potestad o tutela).
+### 1. Marco Normativo y Principios del Tratamiento de Datos
+- **Normas Aplicables**: **RGPD (UE) 2016/679** (aplicable desde 25 mayo 2018) y **LOPDGDD 3/2018**.
+- **Principios del Tratamiento (Art. 5 RGPD)**: Licitud, lealtad, transparencia, limitación de la finalidad, **minimización de datos**, exactitud, limitación del plazo de conservación, integridad y confidencialidad, y **responsabilidad proactiva (accountability)**.
+- **Bases de Licitud (Art. 6 RGPD)**: Consentimiento, contrato, obligación legal, intereses vitales, **misión en interés público o ejercicio de poderes públicos**, e interés legítimo (no aplicable a autoridades públicas).
+- **Consentimiento del Menor en España (Art. 7 LOPDGDD)**: Válido a partir de los **14 años** (por debajo se exige autorización de progenitores/tutores).
 
 ### 2. Catálogo de Derechos de los Ciudadanos (Derechos ARSOPOL, Arts. 15 a 22 RGPD)
-- **Plazo General de Respuesta del Responsable (Art. 12.3 RGPD)**: **1 mes** a partir de la recepción de la solicitud. Dicho plazo podrá prorrogarse otros **2 meses** en caso necesario, teniendo en cuenta la complejidad y el número de solicitudes (informando al interesado de la prórroga en el primer mes).
-- **Desglose de Derechos**:
-  1. **Acceso (Art. 15)**: Derecho a obtener confirmación de si se tratan sus datos, copia de los mismos y detalle de fines, destinatarios y plazos.
-  2. **Rectificación (Art. 16)**: Derecho a que se modifiquen los datos inexactos o se completen los incompletos.
-  3. **Supresión ('Derecho al Olvido', Art. 17)**: Derecho a que se supriman los datos cuando ya no sean necesarios, se retire el consentimiento o hayan sido tratados ilícitamente.
-  4. **Oposición (Art. 21)**: Derecho a que no se lleve a cabo el tratamiento o se cese en el mismo.
-  5. **Portabilidad (Art. 20)**: Derecho a recibir los datos en formato estructurado, de uso común y lectura mecánica, o a transmitirlos a otro responsable (solo tratamientos automatizados basados en consentimiento o contrato).
-  6. **Limitación del Tratamiento (Art. 18)**: Derecho a que se marque el dato para limitar su tratamiento futuro mientras se verifica su exactitud o licitud.
-  7. **Derecho a no ser objeto de decisiones individuales automatizadas** (incluida la elaboración de perfiles) (Art. 22).
+- **Plazo de Respuesta**: **1 mes** desde la recepción de la solicitud (prorrogable por **2 meses más** en casos complejos notificándolo en el primer mes).
+- **Relación de Derechos**:
+  1. **Acceso (Art. 15)**: Confirmación de tratamiento, fines, categorías de datos y destinatarios.
+  2. **Rectificación (Art. 16)**: Corrección de datos inexactos o incompletos.
+  3. **Supresión ('Derecho al Olvido', Art. 17)**: Eliminación cuando ya no son necesarios o se retira consentimiento.
+  4. **Oposición (Art. 21)**: Cese en el tratamiento por motivos particulares.
+  5. **Portabilidad (Art. 20)**: Recepción de datos en formato estructurado de lectura mecánica para transmitirlos a otro responsable (solo tratamientos automatizados basados en consentimiento o contrato).
+  6. **Limitación del Tratamiento (Art. 18)**: Marcado para limitar su uso futuro.
+  7. **Decisiones Individuales Automatizadas y Perfilado (Art. 22)**: Derecho a no ser objeto de decisiones basadas únicamente en tratamiento automatizado.
 
-### 3. Medidas de Responsabilidad Proactiva y Gestión de Brechas
-- **Registro de Actividades de Tratamiento (RAT, Art. 30 RGPD / Art. 31 LOPDGDD)**: Obligatorio para empresas de más de 250 trabajadores y para **todas las Administraciones Públicas**.
-- **Notificación de Brechas de Seguridad (Data Breach, Arts. 33 y 34 RGPD)**:
-  - *Ante la Autoridad de Control (AEPD)*: En el plazo máximo de **72 horas** a más tardar desde que el responsable tenga constancia de ella (a menos que sea improbable que constituya un riesgo para los derechos y libertades).
-  - *Ante los Afectados*: Sin dilación indebida cuando sea probable que la violación entrañe un **alto riesgo** para los derechos y libertades.
-- **Delegado de Protección de Datos (DPD / DPO, Arts. 37-39 RGPD / Art. 34 LOPD)**:
-  - Designación obligatoria en **todas las Administraciones Públicas** (salvo tribunales en ejercicio de función judicial), centros docentes, centros sanitarios, entidades financieras, etc.
-  - Cualificación profesional y conocimientos especializados en Derecho de protección de datos. Actúa de forma independiente y reporta al más alto nivel directivo.
-- **Evaluación de Impacto relativa a la Protección de Datos (EIPD / DPIA, Art. 35)**: Obligatoria en tratamientos que puedan entrañar un alto riesgo (uso de nuevas tecnologías a gran escala, perfilado sistemático, datos biométricos/salud).
+### 3. Responsabilidad Proactiva, Brechas y DPO
+- **Notificación de Brechas de Seguridad (Arts. 33 y 34 RGPD)**:
+  - Ante la Autoridad de Control (**AEPD**): En un plazo máximo de **72 horas** desde que se tenga constancia.
+  - Ante los Afectados: Sin dilación indebida si entraña un **alto riesgo** para sus derechos y libertades.
+- **Delegado de Protección de Datos (DPD / DPO, Arts. 37-39)**: Obligatorio en **todas las Administraciones Públicas**, centros docentes y centros sanitarios.
+- **Régimen Sancionador en el Sector Público (Art. 77 LOPDGDD)**: Las Administraciones Públicas sancionadas reciben un **APERCIBIMIENTO** con orden de medidas correctoras e incoación de expediente disciplinario. ❌ **La AEPD NO impone multas dinerarias a las Administraciones Públicas**.
+- **Garantía de Derechos Digitales (Título X LOPDGDD)**: **Derecho a la desconexión digital en el trabajo (Art. 88)**, intimidad frente a videovigilancia/geolocalización (Arts. 89-90) y testamento digital (Art. 96).
 
-### 4. Régimen Sancionador y Derechos Digitales (Título X LOPDGDD)
-- **Agencia Española de Protección de Datos (AEPD)**: Autoridad administrativa independiente de control estatal.
-- **Sanciones al Sector Público (Art. 77 LOPDGDD)**:
-  - Cuando los responsables o encargados sean Administraciones Públicas o entidades de derecho público, la autoridad de control dictará resolución sancionadora que contendrá un **APERCIBIMIENTO** y la orden de adoptar medidas correctoras, así como la **incoación de expediente disciplinario** a los responsables.
-  - ❌ **La AEPD NO impone multas económicas (dinerarias) a las Administraciones Públicas**.
-- **Garantía de los Derechos Digitales (Arts. 79 a 97 LOPDGDD)**:
-  - Neutralidad de Internet y acceso universal.
-  - Derecho a la seguridad digital y educación digital.
-  - **Derecho a la desconexión digital en el ámbito laboral** (Art. 88).
-  - Derecho a la intimidad frente al uso de dispositivos de videovigilancia y grabación de sonidos en el lugar de trabajo (Art. 89).
-  - Derecho a la intimidad frente al uso de sistemas de geolocalización en el ámbito laboral (Art. 90).
-  - Derecho al testamento digital (Art. 96).
+> [!trampa] ⚠️ **Trampas Oficiales del Tribunal en el Tema 09**
+> 1. **Sanciones al Sector Público**: La AEPD **NO puede imponer multas económicas a las AAPP**; la sanción es de *Apercibimiento* e incoación disciplinaria.
+> 2. **Plazo de Notificación de Brechas a la AEPD**: Son **72 horas** (no 24 ni 48 horas).
+> 3. **Edad de Consentimiento en España**: Son **14 años** (el RGPD permite fijarla entre 13 y 16; España eligió 14 en la LOPDGDD 3/2018).
+> 4. **Plazo de Respuesta a Derechos ARSOPOL**: Es **1 mes** (prorrogable 2 meses más).
+
+> [!mnemo] 🧠 **Reglas Mnemotécnicas de Retención Visual**
+> - **Derechos de Protección de Datos**: **ARSOPOL** $ightarrow$ **A**cceso, **R**ectificación, **S**upresión, **O**posición, **PO**rtabilidad, **L**imitación.
+> - **Plazo Brecha AEPD**: **72 HORAS**.
 
 ---
 
