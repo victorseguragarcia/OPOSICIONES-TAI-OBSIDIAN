@@ -1,5 +1,5 @@
 /* ==========================================================================
-   TAI OPOSICIONES - DESIGN SYSTEM & INTERACTIVE EXAM ENGINE (OBSIDIAN)
+   TAI OPOSICIONES - SISTEMA DE ALTA VISIBILIDAD Y MEMORIA FOTOGRÁFICA
    ========================================================================== */
 
 :root {
@@ -22,9 +22,138 @@
   
   --tai-mint-primary: #00BFA5;
   --tai-mint-bg: rgba(0, 191, 165, 0.10);
+
+  --tai-key-word: #E65100;
+  --tai-key-bg: rgba(255, 152, 0, 0.08);
 }
 
-/* --- Encabezados con Jerarquía de 3 Niveles --- */
+/* Modo oscuro */
+.theme-dark {
+  --tai-key-word: #FFB74D;
+  --tai-key-bg: rgba(255, 183, 77, 0.12);
+}
+
+/* ==========================================================================
+   1. VISIBILIDAD DE CONCEPTOS CLAVE Y PALABRAS IMPORTANTES (NEGRITA / STRONG)
+   ========================================================================== */
+
+.markdown-rendered strong, 
+.cm-strong {
+  color: var(--tai-key-word) !important;
+  font-weight: 700 !important;
+  background-color: var(--tai-key-bg);
+  padding: 1px 4px;
+  border-radius: 4px;
+  letter-spacing: 0.01em;
+  transition: all 0.15s ease;
+}
+
+.markdown-rendered strong:hover {
+  background-color: rgba(255, 152, 0, 0.18);
+}
+
+/* ==========================================================================
+   2. RESALTADOR FLUORESCENTE INTELIGENTE (==texto== / MARK)
+   ========================================================================== */
+
+.markdown-rendered mark,
+.cm-highlight {
+  background: linear-gradient(120deg, rgba(255, 235, 59, 0.40) 0%, rgba(255, 193, 7, 0.35) 100%) !important;
+  color: inherit !important;
+  padding: 2px 6px !important;
+  border-radius: 4px !important;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+  font-weight: 600;
+  border-bottom: 1.5px solid rgba(255, 193, 7, 0.8);
+}
+
+/* ==========================================================================
+   3. CÓDIGO EN LÍNEA Y COMANDOS TÉCNICOS (`código`)
+   ========================================================================== */
+
+.markdown-rendered :not(pre) > code,
+.cm-inline-code {
+  color: #1976D2 !important;
+  background-color: rgba(66, 165, 245, 0.12) !important;
+  border: 1px solid rgba(66, 165, 245, 0.30) !important;
+  padding: 2px 6px !important;
+  border-radius: 5px !important;
+  font-family: 'JetBrains Mono', 'Fira Code', Consolas, monospace !important;
+  font-size: 0.90em !important;
+  font-weight: 600 !important;
+}
+
+.theme-dark .markdown-rendered :not(pre) > code {
+  color: #90CAF9 !important;
+  background-color: rgba(66, 165, 245, 0.16) !important;
+}
+
+/* ==========================================================================
+   4. ENLACES BIDIRECCIONALES Y CONCEPTOS DEL GRAFO ([[Wikilinks]])
+   ========================================================================== */
+
+.markdown-rendered .internal-link {
+  color: #7E57C2 !important;
+  text-decoration: none !important;
+  font-weight: 600 !important;
+  border-bottom: 1.5px dashed rgba(126, 87, 194, 0.5) !important;
+  padding: 1px 3px !important;
+  border-radius: 3px !important;
+  transition: all 0.2s ease !important;
+}
+
+.markdown-rendered .internal-link:hover {
+  background-color: rgba(126, 87, 194, 0.15) !important;
+  border-bottom-style: solid !important;
+  color: #5E35B1 !important;
+}
+
+.theme-dark .markdown-rendered .internal-link {
+  color: #B39DDB !important;
+  border-bottom-color: rgba(179, 157, 219, 0.5) !important;
+}
+
+/* ==========================================================================
+   5. TABLAS DE ESTUDIO DE ALTO CONTRASTE (CEBRA Y ENCABEZADOS)
+   ========================================================================== */
+
+.markdown-rendered table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 18px 0;
+  font-size: 0.95em;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.04);
+}
+
+.markdown-rendered th {
+  background-color: rgba(66, 165, 245, 0.15) !important;
+  color: var(--text-normal) !important;
+  font-weight: 700 !important;
+  padding: 10px 14px;
+  border-bottom: 2px solid #42A5F5;
+  text-align: left;
+}
+
+.markdown-rendered td {
+  padding: 9px 14px;
+  border-bottom: 1px solid var(--background-modifier-border);
+}
+
+.markdown-rendered tr:nth-child(even) {
+  background-color: rgba(128, 128, 128, 0.035);
+}
+
+.markdown-rendered tr:hover {
+  background-color: rgba(66, 165, 245, 0.06);
+}
+
+/* ==========================================================================
+   6. ENCABEZADOS CON JERARQUÍA CROMÁTICA DE 3 NIVELES
+   ========================================================================== */
+
 .markdown-rendered h1, .cm-header-1 {
   color: var(--tai-red-primary) !important;
   font-weight: 700 !important;
@@ -48,10 +177,10 @@
 }
 
 /* ==========================================================================
-   CALLOUTS ESPECIALIZADOS DE EXAMEN (TRAMPA, MNEMO, REPASO, QUESTION)
+   7. CALLOUTS ESPECIALIZADOS DE EXAMEN (TRAMPA, MNEMO, REPASO, QUESTION)
    ========================================================================== */
 
-/* ⚠️ Callout Trampa de Examen (Rojo-Ámbar Brillante) */
+/* ⚠️ Callout Trampa de Examen */
 .callout[data-callout="trampa"],
 .callout[data-callout="warning"] {
   --callout-color: 255, 87, 34;
@@ -68,7 +197,7 @@
   font-weight: 700 !important;
 }
 
-/* 🧠 Callout Mnemotecnia (Verde Menta / Esmeralda Suave) */
+/* 🧠 Callout Mnemotecnia */
 .callout[data-callout="mnemo"],
 .callout[data-callout="success"] {
   --callout-color: 0, 191, 165;
@@ -85,7 +214,7 @@
   font-weight: 700 !important;
 }
 
-/* ⚡ Callout Repaso Express / Resumen (Cian Eléctrico) */
+/* ⚡ Callout Repaso Express */
 .callout[data-callout="repaso"],
 .callout[data-callout="summary"] {
   --callout-color: 0, 188, 212;
@@ -101,7 +230,7 @@
   font-weight: 700 !important;
 }
 
-/* ❓ Callout Pregunta / Solucionario */
+/* ❓ Callout Pregunta */
 .callout[data-callout="question"] {
   --callout-color: 76, 175, 80;
   --callout-icon: lucide-help-circle;
@@ -111,10 +240,9 @@
 }
 
 /* ==========================================================================
-   SISTEMA DE CHECKBOXES INTERACTIVOS DE EXAMEN (VERDE / ROJO / RESALTADO)
+   8. SISTEMA DE CHECKBOXES INTERACTIVOS DE EXAMEN
    ========================================================================== */
 
-/* Opción sin marcar */
 .markdown-rendered li.task-list-item {
   list-style-type: none;
   padding: 4px 8px;
@@ -127,14 +255,12 @@
   background-color: rgba(128, 128, 128, 0.06);
 }
 
-/* Checkbox estándar marcado [x] -> Azul/Resaltado */
 .markdown-rendered li.task-list-item.is-checked {
   background-color: rgba(66, 165, 245, 0.12);
   border-left: 3px solid #42A5F5;
   font-weight: 500;
 }
 
-/* Opción CORRECTA [v] o [c] -> VERDE INTENSO */
 .markdown-rendered li[data-task="v"], 
 .markdown-rendered li[data-task="c"],
 .markdown-rendered li[data-task="y"] {
@@ -150,7 +276,6 @@
   filter: hue-rotate(85deg);
 }
 
-/* Opción INCORRECTA / FALLO [f] o [w] o [-] -> ROJO ALERTA */
 .markdown-rendered li[data-task="f"], 
 .markdown-rendered li[data-task="w"],
 .markdown-rendered li[data-task="-"] {
@@ -164,23 +289,4 @@
 .markdown-rendered li[data-task="w"] input[type="checkbox"] {
   accent-color: var(--tai-red-primary) !important;
   filter: hue-rotate(300deg);
-}
-
-/* --- Clases manuales para Solucionarios --- */
-.tai-correct {
-  background-color: rgba(76, 175, 80, 0.15);
-  color: #2E7D32;
-  padding: 2px 6px;
-  border-radius: 4px;
-  font-weight: bold;
-  border: 1px solid rgba(76, 175, 80, 0.4);
-}
-
-.tai-wrong {
-  background-color: rgba(239, 83, 80, 0.15);
-  color: #C62828;
-  padding: 2px 6px;
-  border-radius: 4px;
-  font-weight: bold;
-  border: 1px solid rgba(239, 83, 80, 0.4);
 }
