@@ -69,7 +69,7 @@ Compendio estructurado de estudio para el **Bloque 2**, cubriendo representació
 ### C. Sistemas Operativos (Procesos, Memoria y Deadlocks)
 - **Planificación CPU**: FCFS (efecto convoy), SJF/SRTF (óptimo en tiempo de espera), Round Robin (quantum $q$).
 - **Deadlocks**: 4 condiciones de Coffman (*Exclusión mutua, Retención y espera, No apropiación, Espera circular*). Evasión: **Algoritmo del Banquero de Dijkstra**.
-- **Memoria Virtual**: Páginas ($4	ext{ KB}$) $ightarrow$ Marcos de página (*Frames*). TLB (*Translation Lookaside Buffer*).
+- **Memoria Virtual**: Páginas ($4	ext{ KB}$) $\rightarrow$ Marcos de página (*Frames*). TLB (*Translation Lookaside Buffer*).
   - Reemplazo de páginas: **FIFO** (sufre la **Anomalía de Belady**), **LRU** (*Least Recently Used*), Reloj / Segunda oportunidad.
 
 ---

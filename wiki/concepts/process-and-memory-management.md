@@ -25,12 +25,8 @@ La gestión eficiente de los procesadores y de la memoria principal constituye u
 
 - **Definición de Proceso**: Programa en ejecución junto con su espacio de memoria (código, datos, pila, montículo) y su **PCB (Process Control Block)**.
 - **Transición de Estados de un Proceso**:
-  - `Nuevo` $
-ightarrow$ `Listo (Ready)` $\leftrightarrow$ `Ejecución (Running)` $
-ightarrow$ `Terminado (Zombie/Exit)`.
-  - `Ejecución` $
-ightarrow$ `Bloqueado/Esperando (Waiting/Sleep)` $
-ightarrow$ `Listo`.
+  - `Nuevo` $\rightarrow$ `Listo (Ready)` $\leftrightarrow$ `Ejecución (Running)` $\rightarrow$ `Terminado (Zombie/Exit)`.
+  - `Ejecución` $\rightarrow$ `Bloqueado/Esperando (Waiting/Sleep)` $\rightarrow$ `Listo`.
 - **Algoritmos de Planificación de CPU**:
   - **FCFS (First-Come, First-Served)**: No apropiativo; sufre del efecto convoy.
   - **SJF (Shortest Job First)**: Óptimo en tiempo medio de espera; puede causar inanición (*Starvation*).

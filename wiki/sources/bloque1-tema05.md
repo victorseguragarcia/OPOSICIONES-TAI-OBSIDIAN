@@ -78,12 +78,8 @@ Resumen exhaustivo de la Unidad Didáctica **UD022580** sobre el Texto Refundido
 | **Falta Leve** | **6 meses** | **1 año** |
 
 > [!mnemo] 🧠 Mnemotecnia de Prescripción Disciplinaria TREBEP
-> - **Faltas**: 3 años (Muy Grave) $
-ightarrow$ 2 años (Grave) $
-ightarrow$ 6 meses (Leve). *(3 - 2 - 0.5)*
-> - **Sanciones**: 3 años (Muy Grave) $
-ightarrow$ 2 años (Grave) $
-ightarrow$ 1 año (Leve). *(3 - 2 - 1)*
+> - **Faltas**: 3 años (Muy Grave) $\rightarrow$ 2 años (Grave) $\rightarrow$ 6 meses (Leve). *(3 - 2 - 0.5)*
+> - **Sanciones**: 3 años (Muy Grave) $\rightarrow$ 2 años (Grave) $\rightarrow$ 1 año (Leve). *(3 - 2 - 1)*
 
 ---
 

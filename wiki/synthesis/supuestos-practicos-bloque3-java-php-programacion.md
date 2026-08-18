@@ -64,10 +64,10 @@ for (int i = 1; i <= 10; i++) {
 ```
 > [!question]- ❓ ¿Qué imprime por pantalla este fragmento?
 > **Traza paso a paso**:
-> 1. $i=1$: Impar $ightarrow a = 5 + 1 = 6$. Imprime `1,6 `. En la misma línea $i$ se incrementa con `i++` pasando a valer $2$. El `for` hace `i++`, pasando a $3$.
-> 2. $i=3$: Impar $ightarrow a = 6 + 3 = 9$. Imprime `3,9 `. $i$ pasa a $4$ con `i++`, y a $5$ con el `for`.
-> 3. $i=5$: Impar $ightarrow a = 9 + 5 = 14$. Imprime `5,14 `. $i$ pasa a $6$, y a $7$ con el `for`.
-> 4. $i=7$: Impar $ightarrow a = 14 + 7 = 21$. Imprime `7,21 `. Como $a > 20$ ($21 > 20$), ejecuta `break` y sale.
+> 1. $i=1$: Impar $\rightarrow$ a = 5 + 1 = 6$. Imprime `1,6 `. En la misma línea $i$ se incrementa con `i++` pasando a valer $2$. El `for` hace `i++`, pasando a $3$.
+> 2. $i=3$: Impar $\rightarrow$ a = 6 + 3 = 9$. Imprime `3,9 `. $i$ pasa a $4$ con `i++`, y a $5$ con el `for`.
+> 3. $i=5$: Impar $\rightarrow$ a = 9 + 5 = 14$. Imprime `5,14 `. $i$ pasa a $6$, y a $7$ con el `for`.
+> 4. $i=7$: Impar $\rightarrow$ a = 14 + 7 = 21$. Imprime `7,21 `. Como $a > 20$ ($21 > 20$), ejecuta `break` y sale.
 > **Salida final**: `1,6 3,9 5,14 7,21 `
 
 ---

@@ -39,7 +39,7 @@ Estudio exhaustivo de los servicios de directorio empresariales, el estándar LD
 
 - **Puertos**: LDAP (**389**), LDAPS (**636**), Kerberos (**88**), GC (**3268**), GC-SSL (**3269**).
 - **Esquema de Nombres Distinguidos (DN)**: `CN=Nombre,OU=Unidad,DC=dominio,DC=com`.
-- **Estructura AD**: Dominios $ightarrow$ Árboles $ightarrow$ Bosques.
+- **Estructura AD**: Dominios $\rightarrow$ Árboles $\rightarrow$ Bosques.
 - **Roles FSMO**: 5 roles (2 de bosque: Schema Master, Domain Naming Master; 3 de dominio: PDC Emulator, RID Master, Infrastructure Master).
 
 ---

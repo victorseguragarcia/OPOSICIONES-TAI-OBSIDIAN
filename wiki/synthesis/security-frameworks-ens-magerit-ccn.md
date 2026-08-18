@@ -34,7 +34,7 @@ Compendio del marco legal, metodologías de análisis de riesgos y organismos re
   - **Disponibilidad**: Continuidad y accesibilidad del servicio.
 - **Categorización de Sistemas**:
   - Determinada por el impacto máximo de un fallo en cualquiera de las 5 dimensiones.
-  - **BÁSICA** (Impacto Bajo) $ightarrow$ **MEDIA** (Impacto Medio) $ightarrow$ **ALTA** (Impacto Alto).
+  - **BÁSICA** (Impacto Bajo) $\rightarrow$ **MEDIA** (Impacto Medio) $\rightarrow$ **ALTA** (Impacto Alto).
 
 ---
 

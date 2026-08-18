@@ -33,18 +33,12 @@ Resumen procesado y profundizado a partir de la fuente oficial [[raw/sources/blo
 - **Modos de Ejecución**: **Modo Kernel / Supervisor** (acceso total al hardware e instrucciones privilegiadas) vs **Modo Usuario** (ejecución restringida mediante llamadas al sistema / *system calls*).
 - **Estructura del Proceso**: Representado en el SO por el **Bloque de Control de Proceso (PCB / Task Struct)** que almacena: PID, Estado, Contador de Programa (PC), Registros de CPU, Información de Gestión de Memoria y Descriptores de Ficheros abiertos.
 - **Transiciones de Estados**:
-  - `Nuevo` $
-ightarrow$ `Listo (Ready)`: Admitido a la cola de listos.
-  - `Listo` $
-ightarrow$ `Ejecutando (Running)`: Seleccionado por el planificador de CPU (*Dispatcher*).
-  - `Ejecutando` $
-ightarrow$ `Listo`: Por expiración de quantum de tiempo (interrupción de reloj).
-  - `Ejecutando` $
-ightarrow$ `Bloqueado (Waiting)`: Por espera de una operación de E/S o evento.
-  - `Bloqueado` $
-ightarrow$ `Listo`: Al completarse la operación de E/S.
-  - `Ejecutando` $
-ightarrow$ `Terminado`: Fin de ejecución (liberación de recursos).
+  - `Nuevo` $\rightarrow$ `Listo (Ready)`: Admitido a la cola de listos.
+  - `Listo` $\rightarrow$ `Ejecutando (Running)`: Seleccionado por el planificador de CPU (*Dispatcher*).
+  - `Ejecutando` $\rightarrow$ `Listo`: Por expiración de quantum de tiempo (interrupción de reloj).
+  - `Ejecutando` $\rightarrow$ `Bloqueado (Waiting)`: Por espera de una operación de E/S o evento.
+  - `Bloqueado` $\rightarrow$ `Listo`: Al completarse la operación de E/S.
+  - `Ejecutando` $\rightarrow$ `Terminado`: Fin de ejecución (liberación de recursos).
 
 ---
 

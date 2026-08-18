@@ -40,9 +40,9 @@ Los protocolos **TCP** y **UDP** operan en la **Capa de Transporte (Nivel 4)** d
 ## 🧩 Protocolo TCP: Conexión y Flags
 
 - **Three-Way Handshake (Establecimiento)**:
-  1. Cliente $ightarrow$ Servidor: `SYN` (Seq = $x$)
-  2. Servidor $ightarrow$ Cliente: `SYN-ACK` (Seq = $y$, Ack = $x + 1$)
-  3. Cliente $ightarrow$ Servidor: `ACK` (Seq = $x + 1$, Ack = $y + 1$)
+  1. Cliente $\rightarrow$ Servidor: `SYN` (Seq = $x$)
+  2. Servidor $\rightarrow$ Cliente: `SYN-ACK` (Seq = $y$, Ack = $x + 1$)
+  3. Cliente $\rightarrow$ Servidor: `ACK` (Seq = $x + 1$, Ack = $y + 1$)
 - **Flags de Cabecera TCP**:
   - `SYN` (Sincronización), `ACK` (Confirmación), `FIN` (Cierre ordenado), `RST` (Reinicio inmediato), `PSH` (Envío inmediato a la aplicación), `URG` (Puntero urgente).
 

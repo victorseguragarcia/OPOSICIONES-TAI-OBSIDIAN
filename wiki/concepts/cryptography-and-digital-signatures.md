@@ -38,14 +38,14 @@ La criptografía proporciona los mecanismos matemáticos para garantizar la conf
 
 - **Mecanismo de Firma Digital**:
   1. El emisor genera un **resumen hash** del mensaje original ($H = 	ext{Hash}(M)$).
-  2. El emisor cifra el hash $H$ con su **Clave Privada** $ightarrow$ obteniendo la **Firma Digital**.
+  2. El emisor cifra el hash $H$ con su **Clave Privada** $\rightarrow$ obteniendo la **Firma Digital**.
   3. El receptor descifra la firma con la **Clave Pública del Emisor** obteniendo $H_1$, calcula su propio hash $H_2 = 	ext{Hash}(M)$ y verifica que $H_1 == H_2$.
 - **Formatos de Firma Electrónica Avanzada**:
   - **CAdES** (CMS Advanced Electronic Signature): Para ficheros binarios genéricos.
   - **XAdES** (XML Advanced Electronic Signature): Para documentos XML.
   - **PAdES** (PDF Advanced Electronic Signature): Integrada nativamente en ficheros PDF (ISO 32000-1).
 - **Jerarquía de Certificados X.509**:
-  - Autoridad de Certificación (CA) Raíz $ightarrow$ CAs Subordinadas $ightarrow$ Certificado Final de Usuario/Servidor.
+  - Autoridad de Certificación (CA) Raíz $\rightarrow$ CAs Subordinadas $\rightarrow$ Certificado Final de Usuario/Servidor.
   - Verificación de Revocación: **CRL** (Listas de Revocación) y **OCSP** (Online Certificate Status Protocol, RFC 6960 en puerto 80 HTTP).
 
 ---

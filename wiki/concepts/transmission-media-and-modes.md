@@ -39,10 +39,10 @@ La capa física de comunicaciones utiliza medios guiados (cables de cobre y fibr
 - **Normas**: **ISO/IEC 11801** y **ANSI/TIA/EIA-568**.
 - **Canal Horizontal**: Máximo **90 metros** de cable permanente + **10 metros** de latiguillos = **100 metros totales**.
 - **Categorías de Cobre**:
-  - **Cat 5e**: 100 MHz $ightarrow$ 1000BASE-T (1 Gbps a 100 m).
-  - **Cat 6**: 250 MHz $ightarrow$ 1000BASE-T (100 m) / 10GBASE-T (55 m).
-  - **Cat 6A**: **500 MHz** $ightarrow$ **10GBASE-T (10 Gbps a 100 m)**.
-  - **Cat 8**: 2000 MHz (2 GHz) $ightarrow$ 25G/40GBASE-T (hasta 30 m).
+  - **Cat 5e**: 100 MHz $\rightarrow$ 1000BASE-T (1 Gbps a 100 m).
+  - **Cat 6**: 250 MHz $\rightarrow$ 1000BASE-T (100 m) / 10GBASE-T (55 m).
+  - **Cat 6A**: **500 MHz** $\rightarrow$ **10GBASE-T (10 Gbps a 100 m)**.
+  - **Cat 8**: 2000 MHz (2 GHz) $\rightarrow$ 25G/40GBASE-T (hasta 30 m).
 
 ---
 

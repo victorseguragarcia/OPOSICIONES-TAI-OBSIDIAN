@@ -48,7 +48,7 @@ Ejemplo: Convertir el número decimal **$-13.625$** a formato IEEE 754 de 32 bit
    - $E = e + 127 = 3 + 127 = 130_{10} = 10000010_2$.
 5. **Ensamblar los 32 bits ($S + E + M$)**:
    - `1 | 10000010 | 10110100000000000000000`
-   - Agrupado en hexadecimal: `1100 0001 0101 1010 0000 0000 0000 0000` $ightarrow$ **`0xC15A0000`**.
+   - Agrupado en hexadecimal: `1100 0001 0101 1010 0000 0000 0000 0000` $\rightarrow$ **`0xC15A0000`**.
 
 ---
 

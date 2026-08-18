@@ -49,12 +49,18 @@ Resumen procesado y profundizado a partir de la fuente oficial [[raw/sources/blo
 
 La teoría de lenguajes formales de Noam Chomsky clasifica las gramáticas y sus reconocedores automáticos:
 
-| Tipo | Tipo de Gramática | Reglas de Producción ($lpha ightarrow eta$) | Autómata Reconocedor | Aplicación en Compilación |
+| Tipo | Tipo de Gramática | Reglas de Producción ($lpha 
+ightarrow eta$) | Autómata Reconocedor | Aplicación en Compilación |
 |------|-------------------|---------------------------------------------------|----------------------|---------------------------|
-| **Tipo 0** | **No Restringida** | Sin restricciones ($lpha ightarrow eta$) | **Máquina de Turing** | Computabilidad universal |
-| **Tipo 1** | **Sensible al Contexto** | $|lpha| \le |eta|$ ($uAv ightarrow uwv$) | **Autómata Lineal Acotado (LBA)** | Análisis semántico complejo |
-| **Tipo 2** | **Libre de Contexto (Incontextual)** | $A ightarrow \gamma$ ($A \in V_N$, $\gamma \in (V_N \cup V_T)^*$) | **Autómata con Pila (PDA)** | **Análisis Sintáctico (Parser)** |
-| **Tipo 3** | **Regular** | $A ightarrow aB$ o $A ightarrow a$ (Lineal) | **Autómata Finito (DFA / NFA)** | **Análisis Léxico (Scanner / Tokens)** |
+| **Tipo 0** | **No Restringida** | Sin restricciones ($lpha 
+ightarrow eta$) | **Máquina de Turing** | Computabilidad universal |
+| **Tipo 1** | **Sensible al Contexto** | $|lpha| \le |eta|$ ($uAv 
+ightarrow uwv$) | **Autómata Lineal Acotado (LBA)** | Análisis semántico complejo |
+| **Tipo 2** | **Libre de Contexto (Incontextual)** | $A 
+ightarrow \gamma$ ($A \in V_N$, $\gamma \in (V_N \cup V_T)^*$) | **Autómata con Pila (PDA)** | **Análisis Sintáctico (Parser)** |
+| **Tipo 3** | **Regular** | $A 
+ightarrow aB$ o $A 
+ightarrow a$ (Lineal) | **Autómata Finito (DFA / NFA)** | **Análisis Léxico (Scanner / Tokens)** |
 
 ---
 
@@ -67,9 +73,9 @@ La teoría de lenguajes formales de Noam Chomsky clasifica las gramáticas y sus
        ▼                                               ▼
 FRONTEND (Depende del Lenguaje)              BACKEND (Depende de la CPU)
   1. Análisis Léxico (Scanner)                 4. Generación de Código Intermedio
-     • Lee caracteres $ightarrow$ Tokens        • Código 3 direcciones / Bytecode
+     • Lee caracteres $\rightarrow$ Tokens        • Código 3 direcciones / Bytecode
   2. Análisis Sintáctico (Parser)              5. Optimización de Código
-     • Gramática Tipo 2 $ightarrow$ AST         • Eliminación de código muerto/bucles
+     • Gramática Tipo 2 $\rightarrow$ AST         • Eliminación de código muerto/bucles
   3. Análisis Semántico                        6. Generación de Código Máquina
      • Tipos y Tabla de Símbolos                  • Binario ejecutable objeto (.obj / .exe)
 ```

@@ -39,11 +39,7 @@ Este tema engloba la ingeniería de desarrollo colaborativo: los modelos de cicl
 |-----------------------|-------------------|
 | **Métrica v3 Procesos** | **PSI**, **EVS**, **ASI**, **DSI**, **CSI**, **IAS** |
 | **Complejidad de McCabe** | **$V(G) = E - N + 2P = 	ext{Nodos Predicado} + 1$** |
-| **Zonas de Git** | **Working Directory** $
-ightarrow$ `git add` $
-ightarrow$ **Staging Area (Index)** $
-ightarrow$ `git commit` $
-ightarrow$ **Local Repo** |
+| **Zonas de Git** | **Working Directory** $\rightarrow$ `git add` $\rightarrow$ **Staging Area (Index)** $\rightarrow$ `git commit` $\rightarrow$ **Local Repo** |
 | **`git rebase` vs `merge`** | `rebase`: Historial lineal sin commit de merge \| `merge`: Conserva historial con commit de unión |
 | **SonarQube** | Análisis estático de código para calidad, cobertura, olores de código y *Quality Gates* |
 

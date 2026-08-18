@@ -50,8 +50,8 @@ La **fibra óptica** es el medio de transmisión guiado por excelencia para rede
   - **ODN (Optical Distribution Network)**: Red de fibra con divisores pasivos (*Splitters* ópticos 1:16, 1:32 o 1:64) sin alimentación eléctrica.
   - **ONT / ONU (Optical Network Terminal)**: Equipo terminal en el domicilio del usuario final.
 - **Velocidades y Longitudes de Onda GPON**:
-  - **Descarga (Downstream - OLT $ightarrow$ ONT)**: **2.488 Gbps** en longitud de onda **1490 nm** (TDM broadcast cifrado con AES-128).
-  - **Subida (Upstream - ONT $ightarrow$ OLT)**: **1.244 Gbps** en longitud de onda **1310 nm** (TDMA con asignación dinámica de ancho de banda DBA).
+  - **Descarga (Downstream - OLT $\rightarrow$ ONT)**: **2.488 Gbps** en longitud de onda **1490 nm** (TDM broadcast cifrado con AES-128).
+  - **Subida (Upstream - ONT $\rightarrow$ OLT)**: **1.244 Gbps** en longitud de onda **1310 nm** (TDMA con asignación dinámica de ancho de banda DBA).
   - **Vídeo RF (Opcional)**: **1550 nm**.
 - **Evolución XGS-PON (ITU-T G.9807.1)**: 10 Gbps simétricos (1577 nm bajada / 1270 nm subida).
 

@@ -39,7 +39,7 @@ La **defensa en profundidad (*Defense-in-Depth*)** articula múltiples capas con
 | Elemento | Regla de Diseño Perimetral |
 |----------|----------------------------|
 | Ubicación Servidores Web | Siempre en **DMZ** (nunca en la LAN interna directa) |
-| Tráfico DMZ $ightarrow$ LAN | **Estrictamente bloqueado** por defecto (solo respuestas o servicios autenticados) |
+| Tráfico DMZ $\rightarrow$ LAN | **Estrictamente bloqueado** por defecto (solo respuestas o servicios autenticados) |
 | Cortafuegos Back-to-Back | Utiliza **fabricantes distintos** para evitar vulnerabilidades de software compartidas |
 
 ---

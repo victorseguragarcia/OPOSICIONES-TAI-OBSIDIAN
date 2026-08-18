@@ -29,7 +29,7 @@ Los switches y routers constituyen los dispositivos activos fundamentales para e
 - **Protocolo Spanning Tree (STP - IEEE 802.1D)**:
   - Previene bucles de capa 2 y tormentas de broadcast en topologías redundantes bloqueando puertos lógicamente.
   - Elección del **Bridge Raíz (Root Bridge)**: Switch con el menor valor de **Bridge ID (BID)** (prioridad + MAC).
-  - Estados de puerto STP: *Bloqueo (Blocking)* $ightarrow$ *Escucha (Listening)* $ightarrow$ *Aprendizaje (Learning)* $ightarrow$ *Reenvío (Forwarding)*.
+  - Estados de puerto STP: *Bloqueo (Blocking)* $\rightarrow$ *Escucha (Listening)* $\rightarrow$ *Aprendizaje (Learning)* $\rightarrow$ *Reenvío (Forwarding)*.
 - **Rapid Spanning Tree Protocol (RSTP - IEEE 802.1w)**: Reduce el tiempo de convergencia de 30-50 segundos a unos pocos milisegundos mediante negociación de propuestas y acuerdos.
 
 ---

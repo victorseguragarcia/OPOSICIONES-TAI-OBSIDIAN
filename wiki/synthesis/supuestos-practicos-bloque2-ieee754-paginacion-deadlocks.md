@@ -39,9 +39,12 @@ Representar el número decimal **$-13,625$** en formato IEEE 754 de 32 bits (Sim
 2. **Conversión a Binario Puro**:
    - Parte entera ($13_{10}$): $13 = 8 + 4 + 1 = \mathbf{1101_2}$.
    - Parte fraccionaria ($0,625_{10}$):
-     - $0,625 	imes 2 = 1,25 ightarrow \mathbf{1}$
-     - $0,25 	imes 2 = 0,5 ightarrow \mathbf{0}$
-     - $0,5 	imes 2 = 1,0 ightarrow \mathbf{1}$
+     - $0,625 	imes 2 = 1,25 
+ightarrow \mathbf{1}$
+     - $0,25 	imes 2 = 0,5 
+ightarrow \mathbf{0}$
+     - $0,5 	imes 2 = 1,0 
+ightarrow \mathbf{1}$
      - Fracción binaria: $\mathbf{0,101_2}$.
    - Número completo: $-1101,101_2$.
 
@@ -147,24 +150,25 @@ $$Available = Total - \sum Alloc = (10, 5, 7) - (7, 2, 5) = \mathbf{(3, 3, 2)}$$
 
 ### Resolución:
 1. Con $Available = (3, 3, 2)$:
-   - ¿Puede ejecutarse $P0$? $Need(7, 4, 3) \le (3, 3, 2) ightarrow$ NO.
-   - ¿Puede ejecutarse $P1$? $Need(1, 2, 2) \le (3, 3, 2) ightarrow$ **SÍ**.
+   - ¿Puede ejecutarse $P0$? $Need(7, 4, 3) \le (3, 3, 2) $\rightarrow$ NO.
+   - ¿Puede ejecutarse $P1$? $Need(1, 2, 2) \le (3, 3, 2) $\rightarrow$ **SÍ**.
      - $P1$ termina y libera sus recursos:
        $$Available = (3, 3, 2) + (2, 0, 0) = \mathbf{(5, 3, 2)}$$
 2. Con $Available = (5, 3, 2)$:
-   - ¿Puede ejecutarse $P3$? $Need(0, 1, 1) \le (5, 3, 2) ightarrow$ **SÍ**.
+   - ¿Puede ejecutarse $P3$? $Need(0, 1, 1) \le (5, 3, 2) $\rightarrow$ **SÍ**.
      - $P3$ termina y libera sus recursos:
        $$Available = (5, 3, 2) + (2, 1, 1) = \mathbf{(7, 4, 3)}$$
 3. Con $Available = (7, 4, 3)$:
-   - ¿Puede ejecutarse $P0$? $Need(7, 4, 3) \le (7, 4, 3) ightarrow$ **SÍ**.
+   - ¿Puede ejecutarse $P0$? $Need(7, 4, 3) \le (7, 4, 3) $\rightarrow$ **SÍ**.
      - $P0$ termina y libera sus recursos:
        $$Available = (7, 4, 3) + (0, 1, 0) = \mathbf{(7, 5, 3)}$$
 4. Con $Available = (7, 5, 3)$:
-   - ¿Puede ejecutarse $P2$? $Need(6, 0, 0) \le (7, 5, 3) ightarrow$ **SÍ**.
+   - ¿Puede ejecutarse $P2$? $Need(6, 0, 0) \le (7, 5, 3) $\rightarrow$ **SÍ**.
      - $P2$ termina y libera sus recursos:
        $$Available = (7, 5, 3) + (3, 0, 2) = \mathbf{(10, 5, 5)}$$
 5. Con $Available = (10, 5, 5)$:
-   - ¿Puede ejecutarse $P4$? $Need(4, 3, 1) \le (10, 5, 5) ightarrow$ **SÍ**.
+   - ¿Puede ejecutarse $P4$? $Need(4, 3, 1) \le (10, 5, 5) $\rightarrow$ **SÍ**.
      - $P4$ termina y todos los procesos finalizan.
 
-$$\mathbf{Conclusión:}\quad 	ext{El sistema está en ESTADO SEGURO con la secuencia }\langle P1, P3, P0, P2, P4 angle.$$
+$$\mathbf{Conclusión:}\quad 	ext{El sistema está en ESTADO SEGURO con la secuencia }\langle P1, P3, P0, P2, P4 
+angle.$$

@@ -88,10 +88,10 @@ organismo.age.es (Dominio)
 
 #### Configuración de la GPO `GPO_Seguridad_Puestos`:
 1. **Bloqueo de USBs**:
-   - Ruta: `Configuración del equipo` $ightarrow$ `Directivas` $ightarrow$ `Plantillas administrativas` $ightarrow$ `Sistema` $ightarrow$ `Acceso de almacenamiento extraíble`.
-   - Directiva: **"Todas las clases de almacenamiento extraíble: denegar todo acceso"** $ightarrow$ `Habilitada`.
+   - Ruta: `Configuración del equipo` $\rightarrow$ `Directivas` $\rightarrow$ `Plantillas administrativas` $\rightarrow$ `Sistema` $\rightarrow$ `Acceso de almacenamiento extraíble`.
+   - Directiva: **"Todas las clases de almacenamiento extraíble: denegar todo acceso"** $\rightarrow$ `Habilitada`.
 2. **Bloqueo por Inactividad (10 minutos = 600 segundos)**:
-   - Ruta: `Configuración de usuario` $ightarrow$ `Plantillas administrativas` $ightarrow$ `Panel de control` $ightarrow$ `Personalización`.
+   - Ruta: `Configuración de usuario` $\rightarrow$ `Plantillas administrativas` $\rightarrow$ `Panel de control` $\rightarrow$ `Personalización`.
    - Directivas:
      - *"Habilitar protector de pantalla"*: `Habilitada`.
      - *"Proteger el protector de pantalla mediante contraseña"*: `Habilitada`.
