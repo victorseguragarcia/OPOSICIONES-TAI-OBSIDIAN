@@ -17,7 +17,7 @@ created: "2026-08-18"
 updated: "2026-08-18"
 ---
 
-> [[wiki/synthesis/resumenes/bloque-4-sistemas-redes/resumen-bloque4-tema07|⬅️ Tema 07]] &nbsp;|&nbsp; [[wiki/synthesis/resumenes/resumen-maestro-bloque4|🏠 Índice Bloque 4]] &nbsp;|&nbsp; [[wiki/synthesis/resumenes/bloque-4-sistemas-redes/resumen-bloque4-tema09|Tema 09 ➡️]]
+> [[wiki/synthesis/resumenes/bloque-4-sistemas-redes/resumen-bloque4-tema07|⬅️ Tema 07]]  ·  [[wiki/synthesis/resumenes/resumen-maestro-bloque4|🏠 Índice Bloque 4]]  ·  [[wiki/synthesis/resumenes/bloque-4-sistemas-redes/resumen-bloque4-tema09|Tema 09 ➡️]]
 
 # 🔴 Resumen Completo y Profundo Tema 08 (Bloque 4): Protocolos de Transporte (TCP vs UDP) y Tabla Maestra de Puertos
 
@@ -3308,4 +3308,4 @@ uno.
 
 ---
 
-> [[wiki/synthesis/resumenes/bloque-4-sistemas-redes/resumen-bloque4-tema07|⬅️ Tema 07]] &nbsp;|&nbsp; [[wiki/synthesis/resumenes/resumen-maestro-bloque4|🏠 Índice Bloque 4]] &nbsp;|&nbsp; [[wiki/synthesis/resumenes/bloque-4-sistemas-redes/resumen-bloque4-tema09|Tema 09 ➡️]]
+> [[wiki/synthesis/resumenes/bloque-4-sistemas-redes/resumen-bloque4-tema07|⬅️ Tema 07]]  ·  [[wiki/synthesis/resumenes/resumen-maestro-bloque4|🏠 Índice Bloque 4]]  ·  [[wiki/synthesis/resumenes/bloque-4-sistemas-redes/resumen-bloque4-tema09|Tema 09 ➡️]]

@@ -17,7 +17,7 @@ created: "2026-08-18"
 updated: "2026-08-18"
 ---
 
-> [[wiki/synthesis/resumenes/bloque-1-administracion/resumen-bloque1-tema06|⬅️ Tema 06]] &nbsp;|&nbsp; [[wiki/synthesis/resumenes/resumen-maestro-bloque1|🏠 Índice Bloque 1]] &nbsp;|&nbsp; [[wiki/synthesis/resumenes/bloque-1-administracion/resumen-bloque1-tema08|Tema 08 ➡️]]
+> [[wiki/synthesis/resumenes/bloque-1-administracion/resumen-bloque1-tema06|⬅️ Tema 06]]  ·  [[wiki/synthesis/resumenes/resumen-maestro-bloque1|🏠 Índice Bloque 1]]  ·  [[wiki/synthesis/resumenes/bloque-1-administracion/resumen-bloque1-tema08|Tema 08 ➡️]]
 
 # 🔴 Resumen Completo y Profundo Tema 07 (Bloque 1): El Procedimiento Administrativo Común (Ley 39/2015 - LPACAP)
 
@@ -92,4 +92,4 @@ Ponen fin a la vía administrativa (Art. 114): Resoluciones de recursos de alzad
 
 ---
 
-> [[wiki/synthesis/resumenes/bloque-1-administracion/resumen-bloque1-tema06|⬅️ Tema 06]] &nbsp;|&nbsp; [[wiki/synthesis/resumenes/resumen-maestro-bloque1|🏠 Índice Bloque 1]] &nbsp;|&nbsp; [[wiki/synthesis/resumenes/bloque-1-administracion/resumen-bloque1-tema08|Tema 08 ➡️]]
+> [[wiki/synthesis/resumenes/bloque-1-administracion/resumen-bloque1-tema06|⬅️ Tema 06]]  ·  [[wiki/synthesis/resumenes/resumen-maestro-bloque1|🏠 Índice Bloque 1]]  ·  [[wiki/synthesis/resumenes/bloque-1-administracion/resumen-bloque1-tema08|Tema 08 ➡️]]

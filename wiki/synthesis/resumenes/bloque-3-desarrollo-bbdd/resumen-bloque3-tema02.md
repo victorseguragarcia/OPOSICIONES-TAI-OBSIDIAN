@@ -17,7 +17,7 @@ created: "2026-08-18"
 updated: "2026-08-18"
 ---
 
-> [[wiki/synthesis/resumenes/bloque-3-desarrollo-bbdd/resumen-bloque3-tema01|⬅️ Tema 01]] &nbsp;|&nbsp; [[wiki/synthesis/resumenes/resumen-maestro-bloque3|🏠 Índice Bloque 3]] &nbsp;|&nbsp; [[wiki/synthesis/resumenes/bloque-3-desarrollo-bbdd/resumen-bloque3-tema03|Tema 03 ➡️]]
+> [[wiki/synthesis/resumenes/bloque-3-desarrollo-bbdd/resumen-bloque3-tema01|⬅️ Tema 01]]  ·  [[wiki/synthesis/resumenes/resumen-maestro-bloque3|🏠 Índice Bloque 3]]  ·  [[wiki/synthesis/resumenes/bloque-3-desarrollo-bbdd/resumen-bloque3-tema03|Tema 03 ➡️]]
 
 # 🔴 Resumen Completo y Profundo Tema 02 (Bloque 3): Lenguajes de Programación y Paradigmas (POO, SOLID, Patrones GoF)
 
@@ -4114,4 +4114,4 @@ Programacion/Tema4_Herramientas/contenido/41_operadores.html.
 
 ---
 
-> [[wiki/synthesis/resumenes/bloque-3-desarrollo-bbdd/resumen-bloque3-tema01|⬅️ Tema 01]] &nbsp;|&nbsp; [[wiki/synthesis/resumenes/resumen-maestro-bloque3|🏠 Índice Bloque 3]] &nbsp;|&nbsp; [[wiki/synthesis/resumenes/bloque-3-desarrollo-bbdd/resumen-bloque3-tema03|Tema 03 ➡️]]
+> [[wiki/synthesis/resumenes/bloque-3-desarrollo-bbdd/resumen-bloque3-tema01|⬅️ Tema 01]]  ·  [[wiki/synthesis/resumenes/resumen-maestro-bloque3|🏠 Índice Bloque 3]]  ·  [[wiki/synthesis/resumenes/bloque-3-desarrollo-bbdd/resumen-bloque3-tema03|Tema 03 ➡️]]

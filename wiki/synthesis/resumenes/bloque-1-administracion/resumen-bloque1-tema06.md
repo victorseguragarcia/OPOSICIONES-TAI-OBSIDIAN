@@ -17,7 +17,7 @@ created: "2026-08-18"
 updated: "2026-08-18"
 ---
 
-> [[wiki/synthesis/resumenes/bloque-1-administracion/resumen-bloque1-tema05|⬅️ Tema 05]] &nbsp;|&nbsp; [[wiki/synthesis/resumenes/resumen-maestro-bloque1|🏠 Índice Bloque 1]] &nbsp;|&nbsp; [[wiki/synthesis/resumenes/bloque-1-administracion/resumen-bloque1-tema07|Tema 07 ➡️]]
+> [[wiki/synthesis/resumenes/bloque-1-administracion/resumen-bloque1-tema05|⬅️ Tema 05]]  ·  [[wiki/synthesis/resumenes/resumen-maestro-bloque1|🏠 Índice Bloque 1]]  ·  [[wiki/synthesis/resumenes/bloque-1-administracion/resumen-bloque1-tema07|Tema 07 ➡️]]
 
 # 🔴 Resumen Completo y Profundo Tema 06 (Bloque 1): Políticas de Igualdad de Género y Contra la Violencia de Género
 
@@ -57,4 +57,4 @@ updated: "2026-08-18"
 
 ---
 
-> [[wiki/synthesis/resumenes/bloque-1-administracion/resumen-bloque1-tema05|⬅️ Tema 05]] &nbsp;|&nbsp; [[wiki/synthesis/resumenes/resumen-maestro-bloque1|🏠 Índice Bloque 1]] &nbsp;|&nbsp; [[wiki/synthesis/resumenes/bloque-1-administracion/resumen-bloque1-tema07|Tema 07 ➡️]]
+> [[wiki/synthesis/resumenes/bloque-1-administracion/resumen-bloque1-tema05|⬅️ Tema 05]]  ·  [[wiki/synthesis/resumenes/resumen-maestro-bloque1|🏠 Índice Bloque 1]]  ·  [[wiki/synthesis/resumenes/bloque-1-administracion/resumen-bloque1-tema07|Tema 07 ➡️]]

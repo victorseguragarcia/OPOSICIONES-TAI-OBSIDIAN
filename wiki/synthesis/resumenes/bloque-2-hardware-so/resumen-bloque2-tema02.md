@@ -17,7 +17,7 @@ created: "2026-08-18"
 updated: "2026-08-18"
 ---
 
-> [[wiki/synthesis/resumenes/bloque-2-hardware-so/resumen-bloque2-tema01|⬅️ Tema 01]] &nbsp;|&nbsp; [[wiki/synthesis/resumenes/resumen-maestro-bloque2|🏠 Índice Bloque 2]] &nbsp;|&nbsp; [[wiki/synthesis/resumenes/bloque-2-hardware-so/resumen-bloque2-tema03|Tema 03 ➡️]]
+> [[wiki/synthesis/resumenes/bloque-2-hardware-so/resumen-bloque2-tema01|⬅️ Tema 01]]  ·  [[wiki/synthesis/resumenes/resumen-maestro-bloque2|🏠 Índice Bloque 2]]  ·  [[wiki/synthesis/resumenes/bloque-2-hardware-so/resumen-bloque2-tema03|Tema 03 ➡️]]
 
 # 🔴 Resumen Completo y Profundo Tema 02 (Bloque 2): Arquitectura de Computadores, Procesadores y Memoria (Von Neumann, RISC)
 
@@ -3975,4 +3975,4 @@ de Apple.
 
 ---
 
-> [[wiki/synthesis/resumenes/bloque-2-hardware-so/resumen-bloque2-tema01|⬅️ Tema 01]] &nbsp;|&nbsp; [[wiki/synthesis/resumenes/resumen-maestro-bloque2|🏠 Índice Bloque 2]] &nbsp;|&nbsp; [[wiki/synthesis/resumenes/bloque-2-hardware-so/resumen-bloque2-tema03|Tema 03 ➡️]]
+> [[wiki/synthesis/resumenes/bloque-2-hardware-so/resumen-bloque2-tema01|⬅️ Tema 01]]  ·  [[wiki/synthesis/resumenes/resumen-maestro-bloque2|🏠 Índice Bloque 2]]  ·  [[wiki/synthesis/resumenes/bloque-2-hardware-so/resumen-bloque2-tema03|Tema 03 ➡️]]

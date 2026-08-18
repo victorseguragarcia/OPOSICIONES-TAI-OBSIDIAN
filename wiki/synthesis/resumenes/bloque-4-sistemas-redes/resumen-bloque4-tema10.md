@@ -17,7 +17,7 @@ created: "2026-08-18"
 updated: "2026-08-18"
 ---
 
-> [[wiki/synthesis/resumenes/bloque-4-sistemas-redes/resumen-bloque4-tema09|⬅️ Tema 09]] &nbsp;|&nbsp; [[wiki/synthesis/resumenes/resumen-maestro-bloque4|🏠 Índice Bloque 4]] &nbsp;|&nbsp; [[wiki/synthesis/resumenes/resumen-maestro-bloque4|🏁 Fin de Bloque ➡️]]
+> [[wiki/synthesis/resumenes/bloque-4-sistemas-redes/resumen-bloque4-tema09|⬅️ Tema 09]]  ·  [[wiki/synthesis/resumenes/resumen-maestro-bloque4|🏠 Índice Bloque 4]]  ·  [[wiki/synthesis/resumenes/resumen-maestro-bloque4|🏁 Fin de Bloque ➡️]]
 
 # 🔴 Resumen Completo y Profundo Tema 10 (Bloque 4): Seguridad Perimetral, Firewall IPTables, IDS/IPS y VPN
 
@@ -2244,4 +2244,4 @@ diseñada para ser una solución a largo plazo para la implementación de IoT.
 
 ---
 
-> [[wiki/synthesis/resumenes/bloque-4-sistemas-redes/resumen-bloque4-tema09|⬅️ Tema 09]] &nbsp;|&nbsp; [[wiki/synthesis/resumenes/resumen-maestro-bloque4|🏠 Índice Bloque 4]] &nbsp;|&nbsp; [[wiki/synthesis/resumenes/resumen-maestro-bloque4|🏁 Fin de Bloque ➡️]]
+> [[wiki/synthesis/resumenes/bloque-4-sistemas-redes/resumen-bloque4-tema09|⬅️ Tema 09]]  ·  [[wiki/synthesis/resumenes/resumen-maestro-bloque4|🏠 Índice Bloque 4]]  ·  [[wiki/synthesis/resumenes/resumen-maestro-bloque4|🏁 Fin de Bloque ➡️]]

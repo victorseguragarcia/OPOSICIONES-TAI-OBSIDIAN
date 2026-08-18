@@ -17,7 +17,7 @@ created: "2026-08-18"
 updated: "2026-08-18"
 ---
 
-> [[wiki/synthesis/resumenes/bloque-4-sistemas-redes/resumen-bloque4-tema03|⬅️ Tema 03]] &nbsp;|&nbsp; [[wiki/synthesis/resumenes/resumen-maestro-bloque4|🏠 Índice Bloque 4]] &nbsp;|&nbsp; [[wiki/synthesis/resumenes/bloque-4-sistemas-redes/resumen-bloque4-tema05|Tema 05 ➡️]]
+> [[wiki/synthesis/resumenes/bloque-4-sistemas-redes/resumen-bloque4-tema03|⬅️ Tema 03]]  ·  [[wiki/synthesis/resumenes/resumen-maestro-bloque4|🏠 Índice Bloque 4]]  ·  [[wiki/synthesis/resumenes/bloque-4-sistemas-redes/resumen-bloque4-tema05|Tema 05 ➡️]]
 
 # 🔴 Resumen Completo y Profundo Tema 04 (Bloque 4): Centros de Proceso de Datos (TIER I-IV), Almacenamiento y RAID
 
@@ -3331,4 +3331,4 @@ Sinisterra / Tania Marcela Díaz Henao / Erik Giancarlo Ruiz López
 
 ---
 
-> [[wiki/synthesis/resumenes/bloque-4-sistemas-redes/resumen-bloque4-tema03|⬅️ Tema 03]] &nbsp;|&nbsp; [[wiki/synthesis/resumenes/resumen-maestro-bloque4|🏠 Índice Bloque 4]] &nbsp;|&nbsp; [[wiki/synthesis/resumenes/bloque-4-sistemas-redes/resumen-bloque4-tema05|Tema 05 ➡️]]
+> [[wiki/synthesis/resumenes/bloque-4-sistemas-redes/resumen-bloque4-tema03|⬅️ Tema 03]]  ·  [[wiki/synthesis/resumenes/resumen-maestro-bloque4|🏠 Índice Bloque 4]]  ·  [[wiki/synthesis/resumenes/bloque-4-sistemas-redes/resumen-bloque4-tema05|Tema 05 ➡️]]

@@ -17,7 +17,7 @@ created: "2026-08-18"
 updated: "2026-08-18"
 ---
 
-> [[wiki/synthesis/resumenes/bloque-1-administracion/resumen-bloque1-tema08|⬅️ Tema 08]] &nbsp;|&nbsp; [[wiki/synthesis/resumenes/resumen-maestro-bloque1|🏠 Índice Bloque 1]] &nbsp;|&nbsp; [[wiki/synthesis/resumenes/bloque-1-administracion/resumen-bloque1-tema10|Tema 10 ➡️]]
+> [[wiki/synthesis/resumenes/bloque-1-administracion/resumen-bloque1-tema08|⬅️ Tema 08]]  ·  [[wiki/synthesis/resumenes/resumen-maestro-bloque1|🏠 Índice Bloque 1]]  ·  [[wiki/synthesis/resumenes/bloque-1-administracion/resumen-bloque1-tema10|Tema 10 ➡️]]
 
 # 🔴 Resumen Completo y Profundo Tema 09 (Bloque 1): Protección de Datos Personales (RGPD y LOPDGDD 3/2018)
 
@@ -81,4 +81,4 @@ updated: "2026-08-18"
 
 ---
 
-> [[wiki/synthesis/resumenes/bloque-1-administracion/resumen-bloque1-tema08|⬅️ Tema 08]] &nbsp;|&nbsp; [[wiki/synthesis/resumenes/resumen-maestro-bloque1|🏠 Índice Bloque 1]] &nbsp;|&nbsp; [[wiki/synthesis/resumenes/bloque-1-administracion/resumen-bloque1-tema10|Tema 10 ➡️]]
+> [[wiki/synthesis/resumenes/bloque-1-administracion/resumen-bloque1-tema08|⬅️ Tema 08]]  ·  [[wiki/synthesis/resumenes/resumen-maestro-bloque1|🏠 Índice Bloque 1]]  ·  [[wiki/synthesis/resumenes/bloque-1-administracion/resumen-bloque1-tema10|Tema 10 ➡️]]

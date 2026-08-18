@@ -17,7 +17,7 @@ created: "2026-08-18"
 updated: "2026-08-18"
 ---
 
-> [[wiki/synthesis/resumenes/resumen-maestro-bloque4|🏠 Portada Bloque 4]] &nbsp;|&nbsp; [[wiki/synthesis/resumenes/resumen-maestro-bloque4|🏠 Índice Bloque 4]] &nbsp;|&nbsp; [[wiki/synthesis/resumenes/bloque-4-sistemas-redes/resumen-bloque4-tema02|Tema 02 ➡️]]
+> [[wiki/synthesis/resumenes/resumen-maestro-bloque4|🏠 Portada Bloque 4]]  ·  [[wiki/synthesis/resumenes/resumen-maestro-bloque4|🏠 Índice Bloque 4]]  ·  [[wiki/synthesis/resumenes/bloque-4-sistemas-redes/resumen-bloque4-tema02|Tema 02 ➡️]]
 
 # 🔴 Resumen Completo y Profundo Tema 01 (Bloque 4): Administración de Sistemas Operativos Servidor (Linux SysAdmin, Windows Server)
 
@@ -3681,4 +3681,4 @@ iniciarse-en-microsoft-powershell
 
 ---
 
-> [[wiki/synthesis/resumenes/resumen-maestro-bloque4|🏠 Portada Bloque 4]] &nbsp;|&nbsp; [[wiki/synthesis/resumenes/resumen-maestro-bloque4|🏠 Índice Bloque 4]] &nbsp;|&nbsp; [[wiki/synthesis/resumenes/bloque-4-sistemas-redes/resumen-bloque4-tema02|Tema 02 ➡️]]
+> [[wiki/synthesis/resumenes/resumen-maestro-bloque4|🏠 Portada Bloque 4]]  ·  [[wiki/synthesis/resumenes/resumen-maestro-bloque4|🏠 Índice Bloque 4]]  ·  [[wiki/synthesis/resumenes/bloque-4-sistemas-redes/resumen-bloque4-tema02|Tema 02 ➡️]]

@@ -17,7 +17,7 @@ created: "2026-08-18"
 updated: "2026-08-18"
 ---
 
-> [[wiki/synthesis/resumenes/bloque-4-sistemas-redes/resumen-bloque4-tema05|⬅️ Tema 05]] &nbsp;|&nbsp; [[wiki/synthesis/resumenes/resumen-maestro-bloque4|🏠 Índice Bloque 4]] &nbsp;|&nbsp; [[wiki/synthesis/resumenes/bloque-4-sistemas-redes/resumen-bloque4-tema07|Tema 07 ➡️]]
+> [[wiki/synthesis/resumenes/bloque-4-sistemas-redes/resumen-bloque4-tema05|⬅️ Tema 05]]  ·  [[wiki/synthesis/resumenes/resumen-maestro-bloque4|🏠 Índice Bloque 4]]  ·  [[wiki/synthesis/resumenes/bloque-4-sistemas-redes/resumen-bloque4-tema07|Tema 07 ➡️]]
 
 # 🔴 Resumen Completo y Profundo Tema 06 (Bloque 4): Medios de Transmisión, Fibra Óptica, LAN Ethernet, Wi-Fi 6 y VLANs
 
@@ -5324,4 +5324,4 @@ e inalámbricas
 
 ---
 
-> [[wiki/synthesis/resumenes/bloque-4-sistemas-redes/resumen-bloque4-tema05|⬅️ Tema 05]] &nbsp;|&nbsp; [[wiki/synthesis/resumenes/resumen-maestro-bloque4|🏠 Índice Bloque 4]] &nbsp;|&nbsp; [[wiki/synthesis/resumenes/bloque-4-sistemas-redes/resumen-bloque4-tema07|Tema 07 ➡️]]
+> [[wiki/synthesis/resumenes/bloque-4-sistemas-redes/resumen-bloque4-tema05|⬅️ Tema 05]]  ·  [[wiki/synthesis/resumenes/resumen-maestro-bloque4|🏠 Índice Bloque 4]]  ·  [[wiki/synthesis/resumenes/bloque-4-sistemas-redes/resumen-bloque4-tema07|Tema 07 ➡️]]

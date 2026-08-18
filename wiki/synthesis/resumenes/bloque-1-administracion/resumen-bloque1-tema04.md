@@ -17,7 +17,7 @@ created: "2026-08-18"
 updated: "2026-08-18"
 ---
 
-> [[wiki/synthesis/resumenes/bloque-1-administracion/resumen-bloque1-tema03|⬅️ Tema 03]] &nbsp;|&nbsp; [[wiki/synthesis/resumenes/resumen-maestro-bloque1|🏠 Índice Bloque 1]] &nbsp;|&nbsp; [[wiki/synthesis/resumenes/bloque-1-administracion/resumen-bloque1-tema05|Tema 05 ➡️]]
+> [[wiki/synthesis/resumenes/bloque-1-administracion/resumen-bloque1-tema03|⬅️ Tema 03]]  ·  [[wiki/synthesis/resumenes/resumen-maestro-bloque1|🏠 Índice Bloque 1]]  ·  [[wiki/synthesis/resumenes/bloque-1-administracion/resumen-bloque1-tema05|Tema 05 ➡️]]
 
 # 🔴 Resumen Completo y Profundo Tema 04 (Bloque 1): La Unión Europea, sus Instituciones y el Derecho Comunitario
 
@@ -86,4 +86,4 @@ updated: "2026-08-18"
 
 ---
 
-> [[wiki/synthesis/resumenes/bloque-1-administracion/resumen-bloque1-tema03|⬅️ Tema 03]] &nbsp;|&nbsp; [[wiki/synthesis/resumenes/resumen-maestro-bloque1|🏠 Índice Bloque 1]] &nbsp;|&nbsp; [[wiki/synthesis/resumenes/bloque-1-administracion/resumen-bloque1-tema05|Tema 05 ➡️]]
+> [[wiki/synthesis/resumenes/bloque-1-administracion/resumen-bloque1-tema03|⬅️ Tema 03]]  ·  [[wiki/synthesis/resumenes/resumen-maestro-bloque1|🏠 Índice Bloque 1]]  ·  [[wiki/synthesis/resumenes/bloque-1-administracion/resumen-bloque1-tema05|Tema 05 ➡️]]

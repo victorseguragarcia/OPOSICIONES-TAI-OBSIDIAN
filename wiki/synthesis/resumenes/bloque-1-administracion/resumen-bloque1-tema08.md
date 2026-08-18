@@ -17,7 +17,7 @@ created: "2026-08-18"
 updated: "2026-08-18"
 ---
 
-> [[wiki/synthesis/resumenes/bloque-1-administracion/resumen-bloque1-tema07|⬅️ Tema 07]] &nbsp;|&nbsp; [[wiki/synthesis/resumenes/resumen-maestro-bloque1|🏠 Índice Bloque 1]] &nbsp;|&nbsp; [[wiki/synthesis/resumenes/bloque-1-administracion/resumen-bloque1-tema09|Tema 09 ➡️]]
+> [[wiki/synthesis/resumenes/bloque-1-administracion/resumen-bloque1-tema07|⬅️ Tema 07]]  ·  [[wiki/synthesis/resumenes/resumen-maestro-bloque1|🏠 Índice Bloque 1]]  ·  [[wiki/synthesis/resumenes/bloque-1-administracion/resumen-bloque1-tema09|Tema 09 ➡️]]
 
 # 🔴 Resumen Completo y Profundo Tema 08 (Bloque 1): Régimen Jurídico del Sector Público y Administración Digital (Ley 40/2015)
 
@@ -67,4 +67,4 @@ Consta de 158 artículos estructurados en 1 Título Preliminar y 3 Títulos nume
 
 ---
 
-> [[wiki/synthesis/resumenes/bloque-1-administracion/resumen-bloque1-tema07|⬅️ Tema 07]] &nbsp;|&nbsp; [[wiki/synthesis/resumenes/resumen-maestro-bloque1|🏠 Índice Bloque 1]] &nbsp;|&nbsp; [[wiki/synthesis/resumenes/bloque-1-administracion/resumen-bloque1-tema09|Tema 09 ➡️]]
+> [[wiki/synthesis/resumenes/bloque-1-administracion/resumen-bloque1-tema07|⬅️ Tema 07]]  ·  [[wiki/synthesis/resumenes/resumen-maestro-bloque1|🏠 Índice Bloque 1]]  ·  [[wiki/synthesis/resumenes/bloque-1-administracion/resumen-bloque1-tema09|Tema 09 ➡️]]

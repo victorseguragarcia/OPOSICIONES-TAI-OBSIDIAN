@@ -17,7 +17,7 @@ created: "2026-08-18"
 updated: "2026-08-18"
 ---
 
-> [[wiki/synthesis/resumenes/resumen-maestro-bloque1|🏠 Portada Bloque 1]] &nbsp;|&nbsp; [[wiki/synthesis/resumenes/resumen-maestro-bloque1|🏠 Índice Bloque 1]] &nbsp;|&nbsp; [[wiki/synthesis/resumenes/bloque-1-administracion/resumen-bloque1-tema02|Tema 02 ➡️]]
+> [[wiki/synthesis/resumenes/resumen-maestro-bloque1|🏠 Portada Bloque 1]]  ·  [[wiki/synthesis/resumenes/resumen-maestro-bloque1|🏠 Índice Bloque 1]]  ·  [[wiki/synthesis/resumenes/bloque-1-administracion/resumen-bloque1-tema02|Tema 02 ➡️]]
 
 # 🔴 Resumen Completo y Profundo Tema 01 (Bloque 1): La Constitución Española de 1978 y Derechos Fundamentales
 
@@ -112,4 +112,4 @@ El Título I se divide en:
 
 ---
 
-> [[wiki/synthesis/resumenes/resumen-maestro-bloque1|🏠 Portada Bloque 1]] &nbsp;|&nbsp; [[wiki/synthesis/resumenes/resumen-maestro-bloque1|🏠 Índice Bloque 1]] &nbsp;|&nbsp; [[wiki/synthesis/resumenes/bloque-1-administracion/resumen-bloque1-tema02|Tema 02 ➡️]]
+> [[wiki/synthesis/resumenes/resumen-maestro-bloque1|🏠 Portada Bloque 1]]  ·  [[wiki/synthesis/resumenes/resumen-maestro-bloque1|🏠 Índice Bloque 1]]  ·  [[wiki/synthesis/resumenes/bloque-1-administracion/resumen-bloque1-tema02|Tema 02 ➡️]]

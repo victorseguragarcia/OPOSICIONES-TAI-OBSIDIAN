@@ -17,7 +17,7 @@ created: "2026-08-18"
 updated: "2026-08-18"
 ---
 
-> [[wiki/synthesis/resumenes/bloque-4-sistemas-redes/resumen-bloque4-tema04|⬅️ Tema 04]] &nbsp;|&nbsp; [[wiki/synthesis/resumenes/resumen-maestro-bloque4|🏠 Índice Bloque 4]] &nbsp;|&nbsp; [[wiki/synthesis/resumenes/bloque-4-sistemas-redes/resumen-bloque4-tema06|Tema 06 ➡️]]
+> [[wiki/synthesis/resumenes/bloque-4-sistemas-redes/resumen-bloque4-tema04|⬅️ Tema 04]]  ·  [[wiki/synthesis/resumenes/resumen-maestro-bloque4|🏠 Índice Bloque 4]]  ·  [[wiki/synthesis/resumenes/bloque-4-sistemas-redes/resumen-bloque4-tema06|Tema 06 ➡️]]
 
 # 🔴 Resumen Completo y Profundo Tema 05 (Bloque 4): Copias de Seguridad, Regla 3-2-1, RPO/RTO y Continuidad de Negocio
 
@@ -7633,4 +7633,4 @@ da%20la%20informaci%C3%B3n%20est%C3%A1%20cifrada.
 
 ---
 
-> [[wiki/synthesis/resumenes/bloque-4-sistemas-redes/resumen-bloque4-tema04|⬅️ Tema 04]] &nbsp;|&nbsp; [[wiki/synthesis/resumenes/resumen-maestro-bloque4|🏠 Índice Bloque 4]] &nbsp;|&nbsp; [[wiki/synthesis/resumenes/bloque-4-sistemas-redes/resumen-bloque4-tema06|Tema 06 ➡️]]
+> [[wiki/synthesis/resumenes/bloque-4-sistemas-redes/resumen-bloque4-tema04|⬅️ Tema 04]]  ·  [[wiki/synthesis/resumenes/resumen-maestro-bloque4|🏠 Índice Bloque 4]]  ·  [[wiki/synthesis/resumenes/bloque-4-sistemas-redes/resumen-bloque4-tema06|Tema 06 ➡️]]

@@ -17,7 +17,7 @@ created: "2026-08-18"
 updated: "2026-08-18"
 ---
 
-> [[wiki/synthesis/resumenes/bloque-3-desarrollo-bbdd/resumen-bloque3-tema08|⬅️ Tema 08]] &nbsp;|&nbsp; [[wiki/synthesis/resumenes/resumen-maestro-bloque3|🏠 Índice Bloque 3]] &nbsp;|&nbsp; [[wiki/synthesis/resumenes/resumen-maestro-bloque3|🏁 Fin de Bloque ➡️]]
+> [[wiki/synthesis/resumenes/bloque-3-desarrollo-bbdd/resumen-bloque3-tema08|⬅️ Tema 08]]  ·  [[wiki/synthesis/resumenes/resumen-maestro-bloque3|🏠 Índice Bloque 3]]  ·  [[wiki/synthesis/resumenes/resumen-maestro-bloque3|🏁 Fin de Bloque ➡️]]
 
 # 🔴 Resumen Completo y Profundo Tema 09 (Bloque 3): Metodología MÉTRICA Versión 3, Complejidad de McCabe y QA
 
@@ -4637,4 +4637,4 @@ Pruebas. Programas para control de versiones. Plataformas de desarrollo colabora
 
 ---
 
-> [[wiki/synthesis/resumenes/bloque-3-desarrollo-bbdd/resumen-bloque3-tema08|⬅️ Tema 08]] &nbsp;|&nbsp; [[wiki/synthesis/resumenes/resumen-maestro-bloque3|🏠 Índice Bloque 3]] &nbsp;|&nbsp; [[wiki/synthesis/resumenes/resumen-maestro-bloque3|🏁 Fin de Bloque ➡️]]
+> [[wiki/synthesis/resumenes/bloque-3-desarrollo-bbdd/resumen-bloque3-tema08|⬅️ Tema 08]]  ·  [[wiki/synthesis/resumenes/resumen-maestro-bloque3|🏠 Índice Bloque 3]]  ·  [[wiki/synthesis/resumenes/resumen-maestro-bloque3|🏁 Fin de Bloque ➡️]]

@@ -17,7 +17,7 @@ created: "2026-08-18"
 updated: "2026-08-18"
 ---
 
-> [[wiki/synthesis/resumenes/bloque-2-hardware-so/resumen-bloque2-tema03|⬅️ Tema 03]] &nbsp;|&nbsp; [[wiki/synthesis/resumenes/resumen-maestro-bloque2|🏠 Índice Bloque 2]] &nbsp;|&nbsp; [[wiki/synthesis/resumenes/bloque-2-hardware-so/resumen-bloque2-tema05|Tema 05 ➡️]]
+> [[wiki/synthesis/resumenes/bloque-2-hardware-so/resumen-bloque2-tema03|⬅️ Tema 03]]  ·  [[wiki/synthesis/resumenes/resumen-maestro-bloque2|🏠 Índice Bloque 2]]  ·  [[wiki/synthesis/resumenes/bloque-2-hardware-so/resumen-bloque2-tema05|Tema 05 ➡️]]
 
 # 🔴 Resumen Completo y Profundo Tema 04 (Bloque 2): Sistemas Operativos: Gestión de Procesos, Memoria y Ficheros
 
@@ -4434,4 +4434,4 @@ Aguinaga, A. Mora.
 
 ---
 
-> [[wiki/synthesis/resumenes/bloque-2-hardware-so/resumen-bloque2-tema03|⬅️ Tema 03]] &nbsp;|&nbsp; [[wiki/synthesis/resumenes/resumen-maestro-bloque2|🏠 Índice Bloque 2]] &nbsp;|&nbsp; [[wiki/synthesis/resumenes/bloque-2-hardware-so/resumen-bloque2-tema05|Tema 05 ➡️]]
+> [[wiki/synthesis/resumenes/bloque-2-hardware-so/resumen-bloque2-tema03|⬅️ Tema 03]]  ·  [[wiki/synthesis/resumenes/resumen-maestro-bloque2|🏠 Índice Bloque 2]]  ·  [[wiki/synthesis/resumenes/bloque-2-hardware-so/resumen-bloque2-tema05|Tema 05 ➡️]]

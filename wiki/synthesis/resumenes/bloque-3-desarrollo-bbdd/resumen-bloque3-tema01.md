@@ -17,7 +17,7 @@ created: "2026-08-18"
 updated: "2026-08-18"
 ---
 
-> [[wiki/synthesis/resumenes/resumen-maestro-bloque3|🏠 Portada Bloque 3]] &nbsp;|&nbsp; [[wiki/synthesis/resumenes/resumen-maestro-bloque3|🏠 Índice Bloque 3]] &nbsp;|&nbsp; [[wiki/synthesis/resumenes/bloque-3-desarrollo-bbdd/resumen-bloque3-tema02|Tema 02 ➡️]]
+> [[wiki/synthesis/resumenes/resumen-maestro-bloque3|🏠 Portada Bloque 3]]  ·  [[wiki/synthesis/resumenes/resumen-maestro-bloque3|🏠 Índice Bloque 3]]  ·  [[wiki/synthesis/resumenes/bloque-3-desarrollo-bbdd/resumen-bloque3-tema02|Tema 02 ➡️]]
 
 # 🔴 Resumen Completo y Profundo Tema 01 (Bloque 3): Diseño y Normalización de Bases de Datos (1FN a 5FN, BCNF)
 
@@ -3237,4 +3237,4 @@ relacional.aspx.
 
 ---
 
-> [[wiki/synthesis/resumenes/resumen-maestro-bloque3|🏠 Portada Bloque 3]] &nbsp;|&nbsp; [[wiki/synthesis/resumenes/resumen-maestro-bloque3|🏠 Índice Bloque 3]] &nbsp;|&nbsp; [[wiki/synthesis/resumenes/bloque-3-desarrollo-bbdd/resumen-bloque3-tema02|Tema 02 ➡️]]
+> [[wiki/synthesis/resumenes/resumen-maestro-bloque3|🏠 Portada Bloque 3]]  ·  [[wiki/synthesis/resumenes/resumen-maestro-bloque3|🏠 Índice Bloque 3]]  ·  [[wiki/synthesis/resumenes/bloque-3-desarrollo-bbdd/resumen-bloque3-tema02|Tema 02 ➡️]]

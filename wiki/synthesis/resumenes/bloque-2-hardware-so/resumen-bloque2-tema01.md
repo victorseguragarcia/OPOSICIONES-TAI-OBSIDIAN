@@ -17,7 +17,7 @@ created: "2026-08-18"
 updated: "2026-08-18"
 ---
 
-> [[wiki/synthesis/resumenes/resumen-maestro-bloque2|🏠 Portada Bloque 2]] &nbsp;|&nbsp; [[wiki/synthesis/resumenes/resumen-maestro-bloque2|🏠 Índice Bloque 2]] &nbsp;|&nbsp; [[wiki/synthesis/resumenes/bloque-2-hardware-so/resumen-bloque2-tema02|Tema 02 ➡️]]
+> [[wiki/synthesis/resumenes/resumen-maestro-bloque2|🏠 Portada Bloque 2]]  ·  [[wiki/synthesis/resumenes/resumen-maestro-bloque2|🏠 Índice Bloque 2]]  ·  [[wiki/synthesis/resumenes/bloque-2-hardware-so/resumen-bloque2-tema02|Tema 02 ➡️]]
 
 # 🔴 Resumen Completo y Profundo Tema 01 (Bloque 2): Estructura y Componentes de un Sistema Informático (C2, IEEE 754, Buses)
 
@@ -3495,4 +3495,4 @@ https://www.flickr.com/photos/24205142@N00/2370873167.
 
 ---
 
-> [[wiki/synthesis/resumenes/resumen-maestro-bloque2|🏠 Portada Bloque 2]] &nbsp;|&nbsp; [[wiki/synthesis/resumenes/resumen-maestro-bloque2|🏠 Índice Bloque 2]] &nbsp;|&nbsp; [[wiki/synthesis/resumenes/bloque-2-hardware-so/resumen-bloque2-tema02|Tema 02 ➡️]]
+> [[wiki/synthesis/resumenes/resumen-maestro-bloque2|🏠 Portada Bloque 2]]  ·  [[wiki/synthesis/resumenes/resumen-maestro-bloque2|🏠 Índice Bloque 2]]  ·  [[wiki/synthesis/resumenes/bloque-2-hardware-so/resumen-bloque2-tema02|Tema 02 ➡️]]

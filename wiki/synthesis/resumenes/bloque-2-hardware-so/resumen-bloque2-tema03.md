@@ -17,7 +17,7 @@ created: "2026-08-18"
 updated: "2026-08-18"
 ---
 
-> [[wiki/synthesis/resumenes/bloque-2-hardware-so/resumen-bloque2-tema02|⬅️ Tema 02]] &nbsp;|&nbsp; [[wiki/synthesis/resumenes/resumen-maestro-bloque2|🏠 Índice Bloque 2]] &nbsp;|&nbsp; [[wiki/synthesis/resumenes/bloque-2-hardware-so/resumen-bloque2-tema04|Tema 04 ➡️]]
+> [[wiki/synthesis/resumenes/bloque-2-hardware-so/resumen-bloque2-tema02|⬅️ Tema 02]]  ·  [[wiki/synthesis/resumenes/resumen-maestro-bloque2|🏠 Índice Bloque 2]]  ·  [[wiki/synthesis/resumenes/bloque-2-hardware-so/resumen-bloque2-tema04|Tema 04 ➡️]]
 
 # 🔴 Resumen Completo y Profundo Tema 03 (Bloque 2): Estructuras de Datos, Árboles y Algoritmos (AVL, B+, Big-O)
 
@@ -3119,4 +3119,4 @@ O.aspx.
 
 ---
 
-> [[wiki/synthesis/resumenes/bloque-2-hardware-so/resumen-bloque2-tema02|⬅️ Tema 02]] &nbsp;|&nbsp; [[wiki/synthesis/resumenes/resumen-maestro-bloque2|🏠 Índice Bloque 2]] &nbsp;|&nbsp; [[wiki/synthesis/resumenes/bloque-2-hardware-so/resumen-bloque2-tema04|Tema 04 ➡️]]
+> [[wiki/synthesis/resumenes/bloque-2-hardware-so/resumen-bloque2-tema02|⬅️ Tema 02]]  ·  [[wiki/synthesis/resumenes/resumen-maestro-bloque2|🏠 Índice Bloque 2]]  ·  [[wiki/synthesis/resumenes/bloque-2-hardware-so/resumen-bloque2-tema04|Tema 04 ➡️]]
