@@ -1,12 +1,13 @@
 ---
-title: "Resumen Completo y Profundo Tema 01 (Bloque 1): La Constitución Española de 1978 y Derechos Fundamentales"
+title: "Resumen Exhaustivo Tema 01 (Bloque 1): La Constitución Española de 1978 y Derechos Fundamentales"
 type: "synthesis"
 tags:
   - resumen
-  - resumen-profundo
-  - temario-completo
+  - resumen-exhaustivo
   - bloque-1
   - tema-01
+  - derecho-administrativo
+  - age
 estado: "🔴 Pendiente"
 dificultad: "⭐⭐⭐"
 prioridad: "Alta"
@@ -19,96 +20,112 @@ updated: "2026-08-18"
 
 > [[wiki/synthesis/resumenes/resumen-maestro-bloque1|🏠 Portada Bloque 1]]  ·  [[wiki/synthesis/resumenes/resumen-maestro-bloque1|🏠 Índice Bloque 1]]  ·  [[wiki/synthesis/resumenes/bloque-1-administracion/resumen-bloque1-tema02|Tema 02 ➡️]]
 
-# 🔴 Resumen Completo y Profundo Tema 01 (Bloque 1): La Constitución Española de 1978 y Derechos Fundamentales
+# 🔴 Resumen Exhaustivo Tema 01 (Bloque 1): La Constitución Española de 1978 y Derechos Fundamentales
 
 > [!repaso] ⚡ **Puntos Clave y Objetivos Oficiales del Tema 01**
-> Guía completa y exhaustiva que recopila todo el temario oficial, marco legal/normativo, detalles de arquitectura, tablas de datos críticos, protocolos, comandos de consola y casos prácticos.
+> Aprobación, estructura sistemática, valores superiores, clasificación de derechos, sistema de garantías en 3 niveles, suspensión de derechos, la Corona, las Cortes Generales, el Poder Judicial, el Tribunal Constitucional y la reforma constitucional.
 
 ---
 
-## 🟣 1. Desarrollo Temático Completo e Íntegro
+## 🟣 1. Desarrollo Jurídico y Normativo Exhaustivo
 
-## 1. Estructura y Principios Generales de la Constitución Española
-Aprobada por las Cortes Generales el 31 de octubre de 1978, ratificada en referéndum por el pueblo español el 6 de diciembre de 1978, sancionada y promulgada por el Rey Don Juan Carlos I el 27 de diciembre de 1978 y publicada en el BOE y entrada en vigor el 29 de diciembre de 1978.
-Consta de 1 Preámbulo (sin fuerza jurídica vinculante), 169 Artículos distribuidos en 1 Título Preliminar y 10 Títulos numerados, 4 Disposiciones Adicionales, 9 Disposiciones Transitorias, 1 Disposición Derogatoria y 1 Disposición Final.
+### 1. Génesis y Principios Estructurantes de la Constitución
+- **Cronología Oficial de Aprobación**:
+  - Aprobada por las Cortes Generales: **31 de octubre de 1978** (Congreso y Senado).
+  - Ratificada en referéndum popular: **6 de diciembre de 1978** (Día de la Constitución).
+  - Sancionada y promulgada por el Rey Don Juan Carlos I: **27 de diciembre de 1978** ante las Cortes.
+  - Publicada en el BOE y entrada en vigor: **29 de diciembre de 1978** (mismo día de publicación oficial, Disposición Final).
+- **Estructura Sistemática**:
+  - 1 Preámbulo (sin fuerza jurídica vinculante directa).
+  - **169 Artículos** organizados en 1 Título Preliminar y 10 Títulos numerados.
+  - 4 Disposiciones Adicionales (derechos históricos de los territorios forales).
+  - 9 Disposiciones Transitorias (régimen provisional autonómico y órganos).
+  - 1 Disposición Derogatoria (derogación expresa de las Leyes Fundamentales del franquismo y leyes forales).
+  - 1 Disposición Final (entrada en vigor el mismo día de publicación).
 
-### Estructura Sistemática:
-- Título Preliminar: Artículos 1 al 9. Define a España como un Estado social y democrático de Derecho que propugna como valores superiores de su ordenamiento jurídico la libertad, la justicia, la igualdad y el pluralismo político (Art. 1.1). La soberanía nacional reside en el pueblo español (Art. 1.2). La forma política del Estado es la Monarquía parlamentaria (Art. 1.3). El castellano es la lengua oficial del Estado (Art. 3). La capital es la villa de Madrid (Art. 5). Principios de legalidad, jerarquía normativa, publicidad de las normas, irretroactividad de las disposiciones sancionadoras no favorables o restrictivas de derechos individuales, seguridad jurídica, responsabilidad e interdicción de la arbitrariedad de los poderes públicos (Art. 9.3).
-- Título I: De los derechos y deberes fundamentales (Art. 10 a 55).
-- Título II: De la Corona (Art. 56 a 65).
-- Título III: De las Cortes Generales (Art. 66 a 96).
-- Título IV: Del Gobierno y de la Administración (Art. 97 a 107).
-- Título V: De las relaciones entre el Gobierno y las Cortes Generales (Art. 108 a 116).
-- Título VI: Del Poder Judicial (Art. 117 a 127).
-- Título VII: Economía y Hacienda (Art. 128 a 136).
-- Título VIII: De la Organización Territorial del Estado (Art. 137 a 158).
-- Título IX: Del Tribunal Constitucional (Art. 159 a 165).
-- Título X: De la Reforma Constitucional (Art. 166 a 169).
+| Título Constitucional | Denominación Oficial | Artículos Comprendidos | Materia Principal |
+|:---|:---|:---:|:---|
+| **Título Preliminar** | Principios Generales del Estado | Arts. 1 a 9 | Valores superiores, soberanía, monarquía parlamentaria, lenguas, símbolos, partidos, sindicatos y principios del Art. 9.3. |
+| **Título I** | De los derechos y deberes fundamentales | Arts. 10 a 55 | Dignidad humana, nacionalidad, derechos y libertades públicas, principios rectores, garantías y suspensión. |
+| **Título II** | De la Corona | Arts. 56 a 65 | Funciones del Rey, sucesión, regencia, tutela, refrendo y Casa Real. |
+| **Título III** | De las Cortes Generales | Arts. 66 a 96 | Congreso, Senado, estatuto de parlamentarios, elaboración de leyes, tratados internacionales. |
+| **Título IV** | Del Gobierno y de la Administración | Arts. 97 a 107 | Dirección política, potestades ejecutivas y reglamentarias, Consejo de Estado. |
+| **Título V** | De las relaciones entre el Gobierno y las Cortes | Arts. 108 a 116 | Responsabilidad política, investidura, cuestión de confianza, moción de censura, estados de alarma, excepción y sitio. |
+| **Título VI** | Del Poder Judicial | Arts. 117 a 127 | Independencia judicial, exclusividad, gratuidad, Consejo General del Poder Judicial (CGPJ), Ministerio Fiscal. |
+| **Título VII** | Economía y Hacienda | Arts. 128 a 136 | Principio de legalidad tributaria, Presupuestos Generales del Estado (Art. 134), estabilidad presupuestaria (Art. 135), Tribunal de Cuentas (Art. 136). |
+| **Título VIII** | De la Organización Territorial del Estado | Arts. 137 a 158 | Principios generales, Administración Local, Comunidades Autónomas, vías de acceso, competencias (Arts. 148 y 149). |
+| **Título IX** | Del Tribunal Constitucional | Arts. 159 a 165 | Composición, competencias (recursos y cuestiones de inconstitucionalidad, amparo, conflictos de competencia). |
+| **Título X** | De la Reforma Constitucional | Arts. 166 a 169 | Procedimiento ordinario (Art. 167) y procedimiento agravado (Art. 168). |
 
-## 2. Derechos y Deberes Fundamentales y su Sistema de Garantías
-El Título I se divide en:
-- Artículo 10: La dignidad de la persona, los derechos inviolables que le son inherentes, el libre desarrollo de la personalidad. Interpretación conforme a la Declaración Universal de Derechos Humanos.
-- Capítulo I: De los españoles y los extranjeros (Art. 11 a 13). Mayoría de edad a los 18 años (Art. 12).
-- Capítulo II: Derechos y libertades (Art. 14 a 38):
-  - Artículo 14: Principio de igualdad ante la ley sin discriminación por nacimiento, raza, sexo, religión, opinión.
-  - Sección 1ª (Derechos Fundamentales y Libertades Públicas, Art. 15 a 29): Derecho a la vida y a la integridad física y moral, abolición de la pena de muerte (Art. 15); libertad ideológica y religiosa (Art. 16); libertad personal y seguridad, detención preventiva máx 72 horas, habeas corpus (Art. 17); honor, intimidad y propia imagen, inviolabilidad del domicilio, secreto de las comunicaciones (Art. 18); libertad de residencia y circulación (Art. 19); libertad de expresión y producción (Art. 20); derecho de reunión pacífica sin armas (Art. 21); derecho de asociación (Art. 22); derecho de participación y acceso a cargos públicos (Art. 23); tutela judicial efectiva sin indefensión (Art. 24); principio de legalidad penal (Art. 25); prohibición de tribunales de honor (Art. 26); libertad de enseñanza y derecho a la educación (Art. 27); libertad de sindicación y derecho a la huelga (Art. 28); derecho de petición (Art. 29).
-  - Sección 2ª (De los derechos y deberes de los ciudadanos, Art. 30 a 38): Objeción de conciencia (Art. 30); sostenimiento de los gastos públicos mediante sistema tributario justo (Art. 31); derecho al matrimonio (Art. 32); derecho a la propiedad privada y a la herencia (Art. 33); derecho de fundación (Art. 34); deber de trabajar y derecho al trabajo (Art. 35); colegios profesionales (Art. 36); negociación colectiva laboral (Art. 37); libertad de empresa (Art. 38).
-- Capítulo III: De los principios rectores de la política social y económica (Art. 39 a 52): Protección a la familia, seguridad social (Art. 41), salud (Art. 43), medio ambiente (Art. 45), vivienda digna (Art. 47).
-- Capítulo IV: De las garantías de las libertades y derechos fundamentales (Art. 53 y 54):
-  - Sistema de Protección de Tres Niveles (Art. 53):
-    - Nivel Máximo (Art. 14 y Sección 1ª, Art. 15-29 + Art. 30 objeción): Vinculan a todos los poderes públicos, reserva de **Ley Orgánica** (para 15-29), tutela judicial ordinaria por procedimiento preferente y sumario, y **Recurso de Amparo ante el Tribunal Constitucional** (Art. 53.2).
-    - Nivel Medio (Sección 2ª, Art. 30-38): Vinculan a los poderes públicos, reserva de ley ordinaria (respetando su contenido esencial), recurso de inconstitucionalidad. No cabe recurso de amparo.
-    - Nivel Básico (Capítulo III, Art. 39-52): Principios informadores de la legislación, práctica judicial y actuación pública. Solo pueden ser alegados ante la jurisdicción ordinaria de acuerdo con lo que dispongan las leyes que los desarrollen.
-  - El Defensor del Pueblo (Art. 54): Alto comisionado de las Cortes Generales designado por éstas para la defensa de los derechos del Título I. Regulado por LO 3/1981. Elegido por mayoría de 3/5 del Congreso y del Senado para un mandato de 5 años.
-- Capítulo V: De la suspensión de los derechos y libertades (Art. 55): Estados de alarma, excepción y sitio (Art. 116).
+### 2. Valores Superiores y Principios del Estado (Título Preliminar)
+- **Art. 1.1**: España se constituye en un **Estado social y democrático de Derecho**, que propugna como **valores superiores de su ordenamiento jurídico**:
+  - La **Libertad**.
+  - La **Justicia**.
+  - La **Igualdad**.
+  - El **Pluralismo Político**.
+- **Art. 1.2**: La **soberanía nacional reside en el pueblo español**, del que emanan los poderes del Estado.
+- **Art. 1.3**: La forma política del Estado español es la **Monarquía parlamentaria**.
+- **Art. 2**: Indisoluble unidad de la Nación española, patria común e indivisible de todos los españoles, y reconoce y garantiza el **derecho a la autonomía** de las nacionalidades y regiones que la integran y la **solidaridad** entre todas ellas.
+- **Art. 3**: El castellano es la lengua española oficial del Estado (deber de conocerla y derecho a usarla). Las demás lenguas españolas serán también oficiales en las respectivas CCAA de acuerdo con sus Estatutos.
+- **Art. 9.3 (Principios de Seguridad Jurídica y Constitucionalidad)**:
+  - *Principio de Legalidad*: Sumisión de todos los poderes y ciudadanos a la ley.
+  - *Jerarquía Normativa*: La norma inferior no puede contradecir a la superior.
+  - *Publicidad de las Normas*: Obligatoriedad de publicación oficial (BOE, BOJA, etc.).
+  - *Irretroactividad*: De las disposiciones sancionadoras no favorables o restrictivas de derechos individuales.
+  - *Seguridad Jurídica*: Certeza y predictibilidad del ordenamiento.
+  - *Responsabilidad de los poderes públicos*: Deber de indemnizar por lesiones causadas por su funcionamiento.
+  - *Interdicción de la Arbitrariedad*: Prohibición de actuar por mero capricho al margen de la ley.
 
-## 3. La Corona (Título II, Art. 56 a 65)
-- El Rey es el Jefe del Estado, símbolo de su unidad y permanencia, arbitra y modera el funcionamiento regular de las instituciones (Art. 56.1). Su persona es inviolable y no está sujeta a responsabilidad; sus actos estarán siempre **refrendados** por el Presidente del Gobierno y, en su caso, por los Ministros competentes, o por el Presidente del Congreso (propuesta y nombramiento del Presidente del Gobierno y disolución de Cortes del art. 99). Carecen de validez sin dicho refrendo (salvo nombramiento de miembros civiles y militares de su Casa, Art. 65.2).
-- Sucesión en la Corona (Art. 57): Hereditaria en los sucesores de S.M. Don Juan Carlos I de Borbón. Orden de primogenitura y representación: línea anterior a las posteriores; en la misma línea, grado más próximo al más remoto; en el mismo grado, el varón a la mujer; y en el mismo sexo, la persona de más edad a la de menos. Las abdicaciones y renuncias se resolverán por Ley Orgánica.
-- Regencia (Art. 59) y Tutela del Rey menor (Art. 60).
+### 3. Sistema de Garantías y Niveles de Protección de los Derechos (Título I)
 
-## 4. Las Cortes Generales (Título III, Art. 66 a 96)
-- Representan al pueblo español y están formadas por el **Congreso de los Diputados** y el **Senado** (bicameralismo imperfecto). Ejercen la potestad legislativa del Estado, aprueban sus Presupuestos y controlan la acción del Gobierno.
-- **Congreso de los Diputados (Art. 68)**: Entre 300 y 400 Diputados (fijado en 350 por la LOREG). Circunscripción electoral es la provincia (Ceuta y Melilla representadas por 1 Diputado cada una). Elección por sufragio universal, libre, igual, directo y secreto mediante sistema proporcional (regla D'Hondt). Mandato de 4 años.
-- **Senado (Art. 69)**: Cámara de representación territorial. Mandato de 4 años.
-  - Senadores provinciales: 4 por cada provincia peninsular; en islas mayores (Gran Canaria, Mallorca, Tenerife) 3 cada una; en islas menores (Ibiza-Formentera, Menorca, Fuerteventura, Gomera, Hierro, Lanzarote, La Palma) 1 cada una; Ceuta y Melilla eligen 2 cada una.
-  - Senadores autonómicos: 1 por Comunidad Autónoma y 1 más por cada millón de habitantes de su territorio, designados por las Asambleas Legislativas autonómicas.
-- Periodos ordinarios de sesiones (Art. 73): Dos periodos al año: primero de septiembre a diciembre, segundo de febrero a junio.
-- Tipos de Leyes:
-  - **Leyes Orgánicas (Art. 81)**: Relativas al desarrollo de los derechos fundamentales y libertades públicas (Art. 15-29), las que aprueben los Estatutos de Autonomía y el régimen electoral general y las demás previstas en la Constitución. Aprobación, modificación o derogación exige **mayoría absoluta del Congreso** en una votación final sobre el conjunto del proyecto.
-  - **Leyes Ordinarias**: Aprobadas por mayoría simple.
-  - **Decretos Legislativos (Art. 82-85)**: Delegación de las Cortes al Gobierno (Textos Articulados mediante Ley de Bases o Textos Refundidos mediante Ley Ordinaria).
-  - **Decretos-Leyes (Art. 86)**: Dictados por el Gobierno en casos de extraordinaria y urgente necesidad. Disposiciones legislativas provisionales que no pueden afectar al ordenamiento de las instituciones básicas del Estado, a los derechos, deberes y libertades del Título I, al régimen de las CCAA ni al Derecho electoral general. Deben ser sometidos a debate y votación de totalidad al Congreso en el plazo de **30 días** siguientes a su promulgación para su convalidación o derogación.
+| Nivel de Protección | Derechos Protegidos | Mecanismos de Garantía Legal | Tutela Judicial y Recursos |
+|:---|:---|:---|:---|
+| **Nivel Máximo (Superprotegidos)** | • **Artículo 14** (Igualdad formal).<br>• **Sección 1ª Cap. II** (Arts. 15 a 29: Vida, integridad, libertad ideológica, personal, honor, intimidad, expresión, reunión, asociación, sufragio, tutela judicial efectiva, legalidad penal, educación, huelga, sindicación, petición).<br>• **Art. 30.2** (Objeción de conciencia al servicio militar). | • Vinculación directa a todos los poderes públicos.<br>• Reserva de **Ley Orgánica** (exclusiva para Arts. 15 a 29, mayoría absoluta del Congreso).<br>• Obligación de respetar su **contenido esencial** (Art. 53.1). | • **Procedimiento preferente y sumario** ante los tribunales ordinarios.<br>• **Recurso de Amparo** ante el Tribunal Constitucional (Art. 53.2).<br>• Recurso de Inconstitucionalidad.<br>• Tutela del **Defensor del Pueblo** (Art. 54). |
+| **Nivel Medio (Protección Ordinaria)** | • **Sección 2ª Cap. II** (Arts. 30 a 38: Deberes tributarios Art. 31, matrimonio Art. 32, propiedad privada y herencia Art. 33, fundaciones Art. 34, derecho al trabajo Art. 35, colegios profesionales Art. 36, negociación colectiva Art. 37, libertad de empresa Art. 38). | • Vinculación a todos los poderes públicos.<br>• Reserva de **Ley Ordinaria** (respetando su contenido esencial). | • Tribunales ordinarios mediante procedimiento común.<br>• Recurso de Inconstitucionalidad.<br>• ❌ **NO cabe Recurso de Amparo**. |
+| **Nivel Básico (Principios Informadores)** | • **Capítulo III** (Arts. 39 a 52: Protección a la familia, seguridad social Art. 41, salud Art. 43, medio ambiente Art. 45, vivienda digna Art. 47, patrimonio histórico Art. 46, tercera edad Art. 50, personas con discapacidad Art. 49). | • Principios rectores que **informan la legislación positiva, la práctica judicial y la actuación de los poderes públicos** (Art. 53.3). | • Solo pueden ser alegados ante la jurisdicción ordinaria **de acuerdo con lo que dispongan las leyes que los desarrollen**.<br>• ❌ **NO tienen eficacia directa sin ley previa ni cabe Recurso de Amparo**. |
 
-## 5. El Tribunal Constitucional (Título IX, Art. 159 a 165)
-- Intérprete supremo de la Constitución, independiente de los demás órganos constitucionales y sometido solo a la Constitución y a su Ley Orgánica (LOTC 2/1979).
-- **Composición (Art. 159)**: **12 miembros** nombrados por el Rey por un periodo de **9 años** y renovados por terceras partes (4 miembros) cada **3 años**:
-  - 4 a propuesta del Congreso de los Diputados (mayoría de 3/5).
-  - 4 a propuesta del Senado (mayoría de 3/5).
-  - 2 a propuesta del Gobierno.
-  - 2 a propuesta del Consejo General del Poder Judicial (CGPJ).
-- **Competencias (Art. 161)**:
-  - **Recurso de Inconstitucionalidad**: Contra leyes y disposiciones normativas con fuerza de ley. Legitimados: Presidente del Gobierno, Defensor del Pueblo, 50 Diputados, 50 Senadores, órganos colegiados ejecutivos y Asambleas de las CCAA.
-  - **Cuestión de Inconstitucionalidad**: Promovida por jueces y tribunales de oficio o a instancia de parte cuando una norma con rango de ley aplicable al caso de cuya validez dependa el fallo pueda ser contraria a la Constitución.
-  - **Recurso de Amparo**: Por violación de los derechos y libertades de los Artículos 14 a 29 y 30.2. Legitimados: toda persona natural o jurídica que invoque un interés legítimo, el Defensor del Pueblo y el Ministerio Fiscal.
-  - **Conflictos de Competencia**: Entre el Estado y las CCAA o de éstas entre sí.
-  - **Conflictos entre órganos constitucionales del Estado** (Gobierno, Congreso, Senado, CGPJ).
+### 4. Instituciones de Garantía y Órganos Constitucionales
+- **El Defensor del Pueblo (Art. 54 CE / LO 3/1981)**:
+  - Alto comisionado de las Cortes Generales para la defensa de los derechos del Título I.
+  - Elegido por las Cortes Generales por mayoría de **3/5 del Congreso y 3/5 del Senado**.
+  - Mandato de **5 años** con reelección posible. Goza de inviolabilidad e inmunidad en el ejercicio de sus funciones.
+  - Está legitimado para interponer **Recurso de Inconstitucionalidad** y **Recurso de Amparo**.
+- **El Tribunal Constitucional (Título IX, Arts. 159 a 165 / LOTC 2/1979)**:
+  - Intérprete supremo de la Constitución, independiente de los demás órganos constitucionales y sometido solo a la CE y a su Ley Orgánica.
+  - **Composición (12 miembros)** nombrados por el Rey:
+    - **4** a propuesta del **Congreso de los Diputados** por mayoría de **3/5**.
+    - **4** a propuesta del **Senado** por mayoría de **3/5**.
+    - **2** a propuesta del **Gobierno**.
+    - **2** a propuesta del **Consejo General del Poder Judicial (CGPJ)**.
+  - Requisitos: Magistrados, Fiscales, Profesores de Universidad, Funcionarios públicos y Abogados, juristas de reconocida competencia con más de **15 años de ejercicio profesional**.
+  - Mandato: **9 años**, renovándose por terceras partes (4 miembros) cada **3 años**.
+  - El Presidente es nombrado por el Rey, a propuesta del Tribunal en pleno, por mandato de **3 años** (reelegible 1 vez).
+  - **Competencias del TC**:
+    - *Recurso de Inconstitucionalidad* (Art. 162.1.a): Contra leyes y disposiciones normativas con fuerza de ley. Legitimados: Presidente del Gobierno, Defensor del Pueblo, 50 Diputados, 50 Senadores, Gobiernos y Asambleas de CCAA. Plazo: **3 meses** (ampliable a 9 meses en Comisión Bilateral).
+    - *Cuestión de Inconstitucionalidad* (Art. 163): Planteada exclusivamente por **Jueces o Tribunales** de oficio o a instancia de parte cuando una norma con rango de ley aplicable al fallo de un proceso pueda ser contraria a la CE.
+    - *Recurso de Amparo* (Art. 162.1.b): Por vulneración de los Arts. 14, 15 a 29 y 30.2. Legitimados: Toda persona natural o jurídica que invoque interés legítimo, Defensor del Pueblo y Ministerio Fiscal.
+    - *Conflictos Constitucionales*: Entre órganos constitucionales del Estado, o entre el Estado y CCAA (positivos o negativos).
 
-## 6. Reforma Constitucional (Título X, Art. 166 a 169)
-- **Procedimiento Ordinario (Art. 167)**:
-  - Proyectos de reforma aprobados por mayoría de **3/5 de cada Cámara**. Si no hay acuerdo, comisión paritaria Congreso-Senado. Si el texto no es aprobado, el Congreso puede aprobarlo por mayoría de **2/3** siempre que el Senado haya obtenido la mayoría absoluta.
-  - Sometimiento a referéndum facultativo si lo solicita una **décima parte (10%)** de los miembros de cualquiera de las Cámaras en los 15 días siguientes a su aprobación.
-- **Procedimiento Agravado / Extraordinario (Art. 168)**:
-  - Exigido para la revisión total de la Constitución o parcial que afecte al **Título Preliminar**, al **Capítulo II, Sección 1ª del Título I (Art. 15-29)** o al **Título II (La Corona)**.
-  - Aprobación del principio por **mayoría de 2/3 de cada Cámara** $\rightarrow$ Disolución inmediata de las Cortes $\rightarrow$ Nuevas Cortes ratifican la decisión y estudian el nuevo texto constitucional (aprobado por mayoría de 2/3 de ambas Cámaras) $\rightarrow$ **Referéndum preceptivo y vinculante obligatoriamente**.
+### 5. Procedimientos de Reforma Constitucional (Título X, Arts. 166 a 169)
+
+| Característica | Procedimiento Ordinario (Artículo 167) | Procedimiento Agravado (Artículo 168) |
+|:---|:---|:---|
+| **Materias Afectadas** | Cualquier parte de la CE que **NO** esté reservada al Art. 168 (reformas parciales comunes). | • Revisión **TOTAL** de la Constitución.<br>• Revisión parcial que afecte al **Título Preliminar** (Arts. 1 a 9).<br>• Revisión que afecte a la **Sección 1ª del Cap. II del Título I** (Arts. 15 a 29: Derechos Fundamentales).<br>• Revisión que afecte al **Título II** (De la Corona, Arts. 56 a 65). |
+| **Mayoría Inicial Exigida** | **Mayoría de 3/5** de cada Cámara (210 Diputados y 3/5 Senadores). | **Mayoría de 2/3 de cada Cámara** (234 Diputados y 2/3 Senadores) para aprobar el principio de reforma. |
+| **Comisión Mixta Paritaria** | Si no hay acuerdo entre Cámaras, se crea Comisión Mixta paritaria de Diputados y Senadores. Si el texto de la comisión no alcanza 3/5 en el Senado pero sí mayoría absoluta, el Congreso puede aprobarlo por **2/3**. | No aplicable (se requiere acuerdo pleno de 2/3 de ambas Cámaras). |
+| **Disolución de las Cortes** | ❌ **NO se disuelven las Cortes**. | **Disolución inmediata de las Cortes Generales** y convocatoria de elecciones generales. |
+| **Ratificación Nuevas Cortes** | No aplicable. | Las nuevas Cámaras elegidas deben ratificar la decisión y aprobar el nuevo texto constitucional por **mayoría de 2/3 de cada Cámara**. |
+| **Referéndum Popular** | **Facultativo**: Solo si lo solicita la **décima parte (1/10)** de los miembros de cualquiera de las Cámaras (35 Diputados o ~27 Senadores) en el plazo de **15 días** siguientes a su aprobación. | **OBLIGATORIO Y PRECEPTIVO**: Sometimiento vinculante al pueblo español una vez aprobado por las nuevas Cortes. |
+| **Límites Temporales (Art. 169)** | ❌ **No podrá iniciarse reforma constitucional en tiempo de guerra o bajo la vigencia de los estados de alarma, excepción o sitio (Art. 116)**. | ❌ Mismo límite temporal estricto del Art. 169. |
 
 ---
 
 ## 🔵 2. Enlaces de Autoevaluación y Recursos de Estudio
-- 📖 **Nota Fuente Oficial**: [[wiki/sources/bloque1-tema01|Fuente Oficial del Tema 01]]
+- 📖 **Nota Fuente Oficial Completa**: [[wiki/sources/bloque1-tema01|Fuente Oficial del Tema 01]]
 - 📝 **Test Interactivo de Examen (10 Preguntas)**: [[wiki/tests/temas/test-bloque1-tema01-constitucion|Test Tema 01]]
-- 🃏 **Tarjetas de Memoria Rápida**: [[wiki/synthesis/tarjetas-memoria-flashcards-bloque1-administracion|Mazo Flashcards Bloque 1]]
-- 🏠 **Portada e Índice del Bloque**: [[wiki/synthesis/resumenes/resumen-maestro-bloque1|Resumen Maestro Bloque 1]]
+- 🃏 **Tarjetas de Memoria Rápida (Flashcards)**: [[wiki/synthesis/tarjetas-memoria-flashcards-bloque1-administracion|Mazo Flashcards Bloque 1]]
+- 📊 **Tabla Maestra de Plazos y Silencios**: [[wiki/synthesis/tablas-maestras-plazos-y-silencios-administrativos-age|Plazos y Silencios AGE]]
+- 🏠 **Índice del Bloque 1**: [[wiki/synthesis/resumenes/resumen-maestro-bloque1|Resumen Maestro Bloque 1]]
 
 ---
 

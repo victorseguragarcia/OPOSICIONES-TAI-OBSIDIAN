@@ -1,12 +1,13 @@
 ---
-title: "Resumen Completo y Profundo Tema 03 (Bloque 1): Organización Territorial del Estado y Comunidades Autónomas"
+title: "Resumen Exhaustivo Tema 03 (Bloque 1): Organización Territorial del Estado y Comunidades Autónomas"
 type: "synthesis"
 tags:
   - resumen
-  - resumen-profundo
-  - temario-completo
+  - resumen-exhaustivo
   - bloque-1
   - tema-03
+  - derecho-administrativo
+  - age
 estado: "🔴 Pendiente"
 dificultad: "⭐⭐⭐"
 prioridad: "Alta"
@@ -19,54 +20,86 @@ updated: "2026-08-18"
 
 > [[wiki/synthesis/resumenes/bloque-1-administracion/resumen-bloque1-tema02|⬅️ Tema 02]]  ·  [[wiki/synthesis/resumenes/resumen-maestro-bloque1|🏠 Índice Bloque 1]]  ·  [[wiki/synthesis/resumenes/bloque-1-administracion/resumen-bloque1-tema04|Tema 04 ➡️]]
 
-# 🔴 Resumen Completo y Profundo Tema 03 (Bloque 1): Organización Territorial del Estado y Comunidades Autónomas
+# 🔴 Resumen Exhaustivo Tema 03 (Bloque 1): Organización Territorial del Estado y Comunidades Autónomas
 
 > [!repaso] ⚡ **Puntos Clave y Objetivos Oficiales del Tema 03**
-> Guía completa y exhaustiva que recopila todo el temario oficial, marco legal/normativo, detalles de arquitectura, tablas de datos críticos, protocolos, comandos de consola y casos prácticos.
+> El Estado autonómico, principios constitucionales (autonomía, unidad, solidaridad), Estatutos de Autonomía, vías de acceso a la autonomía (Arts. 143 y 151), distribución competencial (Arts. 148 y 149), financiación autonómica y régimen local (Ley 7/1985 LRBRL).
 
 ---
 
-## 🟣 1. Desarrollo Temático Completo e Íntegro
+## 🟣 1. Desarrollo Jurídico y Normativo Exhaustivo
 
-## 1. Principios Constitucionales de la Organización Territorial (Título VIII CE)
-- **Artículo 137 CE**: El Estado se organiza territorialmente en **Municipios**, en **Provincias** y en las **Comunidades Autónomas** que se constituyan. Todas estas entidades gozan de autonomía para la gestión de sus respectivos intereses.
-- **Principios Rectores**:
-  - **Unidad**: La Constitución se fundamenta en la indisoluble unidad de la Nación española (Art. 2).
-  - **Autonomía**: Garantizada para nacionalidades y regiones, provincias y municipios (Art. 2 y 137). Autonomía política para las CCAA y administrativa para las Entidades Locales.
-  - **Solidaridad**: El Estado garantiza la realización efectiva del principio de solidaridad interterritorial (Art. 138.1), velando por el equilibrio económico adecuado mediante el **Fondo de Compensación Interterritorial** (Art. 158.2).
-  - **Igualdad**: Todos los españoles tienen los mismos derechos y obligaciones en cualquier parte del territorio del Estado (Art. 139.1). Ninguna autoridad podrá adoptar medidas que obstaculicen la libertad de circulación y establecimiento de personas y libre circulación de bienes (Art. 139.2).
+### 1. El Modelo de Estado Autonómico en la Constitución (Título VIII, Arts. 137 a 158)
+- **Organización Territorial Básica (Art. 137)**: El Estado se organiza territorialmente en **Municipios, Provincias y Comunidades Autónomas** que se constituyan. Todas estas entidades gozan de autonomía para la gestión de sus respectivos intereses.
+- **Principios Rectores del Título VIII**:
+  - *Principio de Unidad e Indisolubilidad (Art. 2)*: La Constitución se fundamenta en la indisoluble unidad de la Nación española.
+  - *Principio de Autonomía*: Autonomía política y legislativa para las CCAA; autonomía administrativa para las entidades locales.
+  - *Principio de Solidaridad (Art. 138.1)*: El Estado garantiza la realización efectiva del principio de solidaridad velando por el establecimiento de un equilibrio económico adecuado y justo entre las diversas partes del territorio español. Fondo de Compensación Interterritorial (Art. 158.2) destinado a gastos de inversión.
+  - *Principio de Igualdad (Arts. 138.2 y 139)*: Las diferencias entre los Estatutos no podrán implicar privilegios económicos o sociales. Todos los españoles tienen los mismos derechos y obligaciones en cualquier parte del territorio nacional. Libertad de circulación y establecimiento.
 
-## 2. Las Comunidades Autónomas: Vías de Acceso y Competencias
-- **Vías de Acceso a la Autonomía**:
-  - **Vía Ordinaria o Lenta (Art. 143 CE)**: Provincias limítrofes con características históricas, culturales y económicas comunes. Iniciativa por las Diputaciones Provinciales y las 2/3 partes de los municipios cuya población represente al menos la mayoría del censo electoral de cada provincia. Tras 5 años podían ampliar competencias al marco del art. 149.
-  - **Vía Especial o Rápida (Art. 151 CE)**: Andalucía y nacionalidades históricas con plebiscito en el pasado (Disposición Transitoria 2ª: Cataluña, País Vasco, Galicia). Iniciativa por Diputaciones y 3/4 partes de los municipios de cada provincia que representen la mayoría del censo, y ratificación en referéndum por mayoría absoluta de electores de cada provincia. Asumían el máximo competencial inmediatamente.
-- **Estatutos de Autonomía (Art. 147 CE)**: Norma institucional básica de cada Comunidad Autónoma, que el Estado reconoce y ampara como parte integrante de su ordenamiento jurídico. Aprobados mediante **Ley Orgánica**.
-- **Distribución de Competencias (Art. 148 y 149 CE)**:
-  - **Artículo 148**: Materias que pueden ser asumidas por las CCAA (ordenación del territorio, urbanismo, vivienda, obras públicas de interés autonómico, agricultura, ferias, fomento de la cultura y lengua propia).
-  - **Artículo 149.1**: Competencias exclusivas del Estado (32 materias: nacionalidad, relaciones internacionales, defensa y Fuerzas Armadas, administración de justicia, legislación mercantil, penal, procesal y laboral, régimen aduanero, sistema monetario, bases y coordinación de la sanidad, seguridad pública, telecomunicaciones).
-  - **Cláusulas de Cierre (Art. 149.3 CE)**:
-    - *Cláusula Residual*: Las materias no atribuidas expresamente al Estado pueden ser asumidas por las CCAA en sus Estatutos. Las no asumidas corresponderán al Estado.
-    - *Cláusula de Prevalencia*: Las normas estatales prevalecerán en caso de conflicto sobre las autonómicas en todo lo que no esté atribuido a la exclusiva competencia de éstas.
-    - *Cláusula de Supletoriedad*: El derecho estatal será, en todo caso, supletorio del derecho de las Comunidades Autónomas.
-- **Control sobre los órganos de las CCAA (Art. 153 CE)**:
-  - Por el Tribunal Constitucional (constitucionalidad de normas con fuerza de ley).
-  - Por el Gobierno, previo dictamen del Consejo de Estado (ejercicio de funciones delegadas del art. 150.2).
-  - Por la Jurisdicción Contencioso-Administrativa (administración autónoma y normas reglamentarias).
-  - Por el Tribunal de Cuentas (gestión económica y presupuestaria).
-- **Artículo 155 CE (Coerción Estatal)**: Si una Comunidad Autónoma no cumpliere las obligaciones impuestas por la Constitución o las leyes, o actuare de forma que atente gravemente al interés general de España, el Gobierno, previo requerimiento al Presidente de la CA y, en el caso de no ser atendido, con la aprobación por **mayoría absoluta del Senado**, podrá adoptar las medidas necesarias para obligar a aquélla al cumplimiento forzoso o para la protección del interés general.
+### 2. Vías de Acceso a la Autonomía y Estatutos de Autonomía
+- **Vía Lenta u Ordinaria (Art. 143)**:
+  - Provincias limítrofes con características históricas, culturales y económicas comunes, territorios insulares y provincias con entidad regional histórica.
+  - Iniciativa: Diputaciones provinciales interesadas y **2/3 de los municipios** cuya población represente al menos la mayoría del censo electoral de cada provincia. Plazo de 6 meses.
+  - Techo competencial inicial limitado: Solo podían asumir competencias del Art. 148.1; debían transcurrir **5 años** para reformar Estatuto y asumir competencias del Art. 149.
+- **Vía Rápida o Especial (Art. 151)**:
+  - Iniciativa: Diputaciones y **3/4 de los municipios** de cada provincia que representen la mayoría del censo, **ratificada mediante referéndum por el voto afirmativo de la mayoría absoluta de los electores de cada provincia**.
+  - Excepción de territorios históricos (Disposición Transitoria 2ª): Aquellos territorios que en el pasado hubiesen plebiscitado afirmativamente proyectos de Estatuto de Autonomía (Cataluña, País Vasco y Galicia) no requerían el referéndum del 151, bastando el acuerdo de sus órganos preautonómicos.
+  - Asunción directa del máximo techo competencial sin esperar los 5 años.
+- **Contenido Obligatorio de los Estatutos de Autonomía (Art. 147.2)**:
+  1. Denominación de la Comunidad que mejor corresponda a su identidad histórica.
+  2. Delimitación de su territorio.
+  3. Denominación, organización y sede de las instituciones autónomas propias.
+  4. Competencias asumidas dentro del marco establecido en la Constitución y las bases para el traspaso de los servicios.
 
-## 3. La Administración Local (Ley 7/1985, Reguladora de las Bases del Régimen Local - LRBRL)
-- **El Municipio (Art. 140 CE y Art. 11 LRBRL)**: Entidad local básica de la organización territorial del Estado. Personalidad jurídica plena. Elementos: **Territorio (Término municipal)**, **Población (Padrón municipal)** y **Organización**.
-  - Órgano de gobierno: El **Ayuntamiento**, integrado por el **Alcalde** y los **Concejales**. Concejales elegidos por los vecinos mediante sufragio universal proporcional (D'Hondt). El Alcalde es elegido por los Concejales (o directamente por los vecinos en municipios de Concejo Abierto).
-- **La Provincia (Art. 141 CE)**: Entidad local con personalidad jurídica propia, determinada por la agrupación de municipios y división territorial para el cumplimiento de las actividades del Estado. Gobierno y administración encomendados a las **Diputaciones Provinciales** (u otras corporaciones representativas: Cabildos en Canarias, Consejos Insulares en Baleares).
+### 3. Distribución Constitucional de Competencias (Arts. 148 y 149)
+- **Competencias de las CCAA (Art. 148.1)**: Lista de 22 materias asumibles (ordenación del territorio, urbanismo, vivienda, obras públicas de interés de la CA, agricultura y ganadería, ferias interiores, fomento de la cultura, patrimonio monumental, turismo, asistencia social, sanidad e higiene).
+- **Competencias Exclusivas del Estado (Art. 149.1)**: Lista de 32 materias exclusivas e indelegables:
+  - Regulación de las condiciones básicas que garanticen la igualdad de todos los españoles (149.1.1ª).
+  - Nacionalidad, inmigración, emigración, extranjería y derecho de asilo (149.1.2ª).
+  - Relaciones internacionales (149.1.3ª).
+  - Defensa y Fuerzas Armadas (149.1.4ª).
+  - Administración de Justicia (149.1.5ª).
+  - Legislación mercantil, penal, penitenciaria y procesal (149.1.6ª).
+  - Legislación laboral (149.1.7ª).
+  - Legislación civil (salvo conservación y desarrollo de derechos forales) (149.1.8ª).
+  - Régimen aduanero y arancelario (149.1.10ª).
+  - Sistema monetario (149.1.11ª).
+  - Bases del régimen jurídico de las AAPP y régimen estatutario de sus funcionarios (149.1.18ª).
+  - Seguridad pública (149.1.29ª).
+- **Cláusulas de Cierre del Sistema (Art. 149.3)**:
+  - *Cláusula Residual*: Las materias no atribuidas expresamente al Estado por la CE podrán corresponder a las CCAA en virtud de sus Estatutos. Las competencias sobre materias no asumidas por los Estatutos corresponderán al Estado.
+  - *Cláusula de Prevalencia*: Las normas del Estado prevalecerán, en caso de conflicto, sobre las de las CCAA en todo lo que no esté atribuido a la exclusiva competencia de éstas.
+  - *Cláusula de Supletoriedad*: El derecho estatal será, en todo caso, supletorio del derecho de las Comunidades Autónomas.
+- **Mecanismos Extraordinarios de Delegación y Armonización (Art. 150)**:
+  - *Leyes Marco (150.1)*: Las Cortes atribuyen a las CCAA la facultad de dictar normas legislativas dentro de un marco fijado por ley estatal.
+  - *Leyes Orgánicas de Transferencia o Delegación (150.2)*: El Estado transfiere o delega en las CCAA facultades correspondientes a materia de titularidad estatal mediante Ley Orgánica.
+  - *Leyes de Armonización (150.3)*: El Estado puede dictar leyes que armonicen disposiciones normativas de las CCAA cuando lo exija el interés general, apreciado por **Mayoría Absoluta de cada Cámara**.
+- **Control Estatal Extraordinario (Art. 155 CE)**:
+  - Si una CA no cumpliere las obligaciones que la Constitución u otras leyes le impongan, o actuare de forma que atente gravemente al interés general de España.
+  - Procedimiento: Requerimiento previo al Presidente de la CA y, en caso de no ser atendido, aprobación por **Mayoría Absoluta del Senado** para que el Gobierno adopte las medidas necesarias.
+
+### 4. La Administración Local (Ley 7/1985 Reguladora de las Bases del Régimen Local - LRBRL)
+- **Autonomía Local (Arts. 140 a 142 CE)**: Plena personalidad jurídica propia en municipios y provincias. Su hacienda se nutre de tributos propios y participación en los tributos del Estado y CCAA.
+- **El Municipio (Arts. 11 a 24 LRBRL)**: Entidad local básica. Elementos: **Territorio (Término municipal)**, **Población (Padrón municipal)** y **Organización**.
+  - *Órganos Municipales Obligatorios*:
+    - **Alcalde**: Presidente de la corporación y ostenta la máxima representación.
+    - **Tenientes de Alcalde**: Nombrados libremente por el Alcalde entre miembros de la Junta de Gobierno Local o concejales.
+    - **Pleno**: Formado por el Alcalde y Concejales. Órgano de debate y aprobación presupuestaria y ordenanzas.
+    - **Comisión Especial de Cuentas**: Obligatoria en todos los municipios.
+    - **Junta de Gobierno Local**: Obligatoria en municipios con población superior a **5.000 habitantes** (y en los de menor si lo dispone su reglamento o lo aprueba el Pleno). Integrada por el Alcalde y un número de Concejales no superior al **tercio del número legal** de los mismos.
+- **La Provincia (Arts. 31 a 41 LRBRL)**: Entidad local con personalidad jurídica propia determinada por la agrupación de municipios.
+  - Órganos: Presidente de la Diputación, Vicepresidentes, Junta de Gobierno y Pleno de la Diputación Provincial.
+  - En los archipiélagos: **Cabildos Insulares** (Islas Canarias) y **Consejos Insulares** (Islas Baleares).
 
 ---
 
 ## 🔵 2. Enlaces de Autoevaluación y Recursos de Estudio
-- 📖 **Nota Fuente Oficial**: [[wiki/sources/bloque1-tema03|Fuente Oficial del Tema 03]]
+- 📖 **Nota Fuente Oficial Completa**: [[wiki/sources/bloque1-tema03|Fuente Oficial del Tema 03]]
 - 📝 **Test Interactivo de Examen (10 Preguntas)**: [[wiki/tests/temas/test-bloque1-tema03-organizacion-territorial|Test Tema 03]]
-- 🃏 **Tarjetas de Memoria Rápida**: [[wiki/synthesis/tarjetas-memoria-flashcards-bloque1-administracion|Mazo Flashcards Bloque 1]]
-- 🏠 **Portada e Índice del Bloque**: [[wiki/synthesis/resumenes/resumen-maestro-bloque1|Resumen Maestro Bloque 1]]
+- 🃏 **Tarjetas de Memoria Rápida (Flashcards)**: [[wiki/synthesis/tarjetas-memoria-flashcards-bloque1-administracion|Mazo Flashcards Bloque 1]]
+- 📊 **Tabla Maestra de Plazos y Silencios**: [[wiki/synthesis/tablas-maestras-plazos-y-silencios-administrativos-age|Plazos y Silencios AGE]]
+- 🏠 **Índice del Bloque 1**: [[wiki/synthesis/resumenes/resumen-maestro-bloque1|Resumen Maestro Bloque 1]]
 
 ---
 
