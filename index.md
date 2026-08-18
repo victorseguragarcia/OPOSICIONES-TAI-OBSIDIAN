@@ -185,7 +185,7 @@
 
 ---
 
-### 🔵 3. Conocimientos Concretos, Guías de Síntesis y Tablas de Examen (57 Guías)
+### 🔵 3. Conocimientos Concretos, Guías de Síntesis y Tablas de Examen (59 Guías)
 
 - [[wiki/synthesis/active-directory-and-ldap-guide|Guía Comparativa y Práctica de Active Directory y LDAP]]
 - [[wiki/synthesis/actos-nulos-vs-anulables-guia|Guía de Invalidez: Actos Nulos de Pleno Derecho vs Actos Anulables]]
@@ -211,6 +211,7 @@
 - [[wiki/synthesis/firma-electronica-eidas-ley6-2020-dnie-guia|Guía de Identidad Digital, Reglamento eIDAS, Ley 6/2020 y DNI Electrónico (DNIe)]]
 - [[wiki/synthesis/gestion-documento-y-expediente-electronico-eni-guia|Guía del Documento y Expediente Electrónico, Metadatos Mínimos (NTI) y Archivo Único]]
 - [[wiki/synthesis/gof-design-patterns-cheatsheet|Cheatsheet de Patrones de Diseño GoF (Gang of Four)]]
+- [[wiki/synthesis/guia-maestra-puertos-protocolos-rfc-seguridad|Guía Maestra de Puertos TCP/UDP, Protocolos de Red, RFCs y Seguridad]]
 - [[wiki/synthesis/hardware-ports-and-buses-cheatsheet|Cheatsheet de Puertos, Buses y Velocidades de Transferencia]]
 - [[wiki/synthesis/http-status-codes-and-headers-guide|Guía de Códigos de Estado, Métodos y Cabeceras HTTP para TAI]]
 - [[wiki/synthesis/ieee-754-and-binary-representation-cheatsheet|Cheatsheet de Cálculo Binario, Complemento a 2 y Coma Flotante IEEE 754]]
@@ -239,6 +240,7 @@
 - [[wiki/synthesis/supuestos-practicos-bloque4-redes-subnetting-ad-ens|Supuesto Práctico Oficial TAI: Redes, Subnetting VLSM, Active Directory y Seguridad ENS (Bloque IV)]]
 - [[wiki/synthesis/supuestos-practicos-bloque4-seguridad-firewalls-iptables-ens-dmz|Supuesto Práctico Bloque 4: Diseño de Arquitectura DMZ, Reglas iptables, Hardening y Categorización ENS]]
 - [[wiki/synthesis/sysadmin-commands-windows-and-linux-cheatsheet|Cheatsheet de Comandos de Administración de Sistemas Windows y Linux]]
+- [[wiki/synthesis/tablas-maestras-plazos-y-silencios-administrativos-age|Tabla Maestra de Plazos y Silencios Administrativos (LPACAP, LRJSP, LCSP, Transparencia, TREBEP)]]
 - [[wiki/synthesis/trebep-situaciones-y-regimen-disciplinario-guia|Guía del TREBEP: Situaciones Administrativas y Régimen Disciplinario]]
 - [[wiki/synthesis/virtual-memory-and-paging-algorithms-guide|Guía de Memoria Virtual, Paginación y Algoritmos de Reemplazo]]
 - [[wiki/synthesis/virtualization-vs-containerization-comparison|Comparativa Arquitectónica: Máquinas Virtuales vs Contenedores]]
@@ -261,11 +263,11 @@
 - [[wiki/tests/temas/test-bloque1-tema03-organizacion-territorial|Test Tema 03: Organización Territorial del Estado, CCAA y Régimen Local (Nivel Avanzado)]]
 - [[wiki/tests/temas/test-bloque1-tema04-union-europea|Test Tema 04: La Unión Europea, Instituciones y Fuentes del Derecho Comunitario (Nivel Avanzado)]]
 - [[wiki/tests/temas/test-bloque1-tema05-trebep|Test de Autoevaluación: Bloque 1 - Tema 05 (El TREBEP y Régimen Disciplinario)]]
-- [[wiki/tests/temas/test-bloque1-tema06-igualdad|Test de Autoevaluación: Bloque 1 - Tema 06 (Políticas de Igualdad y Violencia de Género)]]
+- [[wiki/tests/temas/test-bloque1-tema06-igualdad|Test Tema 06: Políticas de Igualdad y Violencia de Género (LO 3/2007 y LO 1/2004)]]
 - [[wiki/tests/temas/test-bloque1-tema07-lpacap|Test de Autoevaluación: Bloque 1 - Tema 07 (Ley 39/2015 LPACAP)]]
-- [[wiki/tests/temas/test-bloque1-tema08-lrjsp-admon-digital|Test de Autoevaluación: Bloque 1 - Tema 08 (Ley 40/2015 LRJSP y Administración Digital)]]
-- [[wiki/tests/temas/test-bloque1-tema09-rgpd-lopdgdd|Test de Autoevaluación: Bloque 1 - Tema 09 (RGPD, LOPDGDD y Título X Derechos Digitales)]]
-- [[wiki/tests/temas/test-bloque1-tema10-transparencia|Test de Autoevaluación: Bloque 1 - Tema 10 (Transparencia y Acceso a la Información - Ley 19/2013)]]
+- [[wiki/tests/temas/test-bloque1-tema08-lrjsp-admon-digital|Test Tema 08: Ley 40/2015 (LRJSP), Principios, Órganos Colegiados y Admón. Digital]]
+- [[wiki/tests/temas/test-bloque1-tema09-rgpd-lopdgdd|Test Tema 09: Protección de Datos (RGPD UE 2016/679 y LO 3/2018 LOPDGDD)]]
+- [[wiki/tests/temas/test-bloque1-tema10-transparencia|Test Tema 10: Ley 19/2013 de Transparencia, Buen Gobierno y Consejo de Transparencia (CTBG)]]
 - [[wiki/tests/temas/test-bloque2-tema01-informatica-basica|Test de Autoevaluación: Bloque 2 - Tema 01 (Informática Básica y Representación de Datos)]]
 - [[wiki/tests/temas/test-bloque2-tema02-perifericos-interfaces|Test de Autoevaluación: Bloque 2 - Tema 02 (Periféricos, Puertos y Conectividad)]]
 - [[wiki/tests/temas/test-bloque2-tema03-estructuras-algoritmos|Test de Autoevaluación: Bloque 2 - Tema 03 (Estructuras de Datos, Algoritmos y Ficheros)]]

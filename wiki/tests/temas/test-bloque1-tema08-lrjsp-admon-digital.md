@@ -1,87 +1,136 @@
 ---
-title: "Test de Autoevaluación: Bloque 1 - Tema 08 (Ley 40/2015 LRJSP y Administración Digital)"
+title: "Test Tema 08: Ley 40/2015 (LRJSP), Principios, Órganos Colegiados y Admón. Digital"
 type: "test"
-target: "wiki/sources/bloque1-tema08.md"
-date: "2026-08-17"
+target: "wiki/sources/bloque1-tema08-lrjsp-admon-digital.md"
+date: "2026-08-18"
 score: ""
 tags:
   - test
-  - bloque-1
-  - lrjsp
-  - ley-40-2015
-  - administracion-digital
-  - eni
-  - red-sara
-sources:
-  - "raw/bloque 1/623849 (3).pdf"
-  - "raw/bloque 1/623851 (5).pdf"
-created: "2026-08-17"
-updated: "2026-08-17"
+  - examen-oficial
+  - alta-dificultad
+  - simulador
+created: "2026-08-18"
+updated: "2026-08-18"
 ---
 
-# 🔴 Test de Autoevaluación: Bloque 1 - Tema 08 (Ley 40/2015 LRJSP y Administración Digital)
+# 🔴 Test Tema 08: Ley 40/2015 (LRJSP), Principios, Órganos Colegiados y Admón. Digital
 
-> [!info] 🎯 **Simulador Interactivo de Examen (Motor Nativo)**
-> Selecciona las opciones que consideres correctas y pulsa el botón **"✅ Corregir Examen"** al final para calcular tu nota oficial (Acierto: $+1.0$ \| Fallo: $-0.33$) con corrección visual verde/rojo y justificaciones.
+> [!info] 🎯 **Simulador Interactivo de Examen (10 Preguntas - Nivel Avanzado)**
+> Selecciona las opciones que consideres correctas. Se corrigen automáticamente 1 a 1 en verde/rojo con justificación detallada y nota en vivo.
 
 ```tai-quiz
 {
-  "title": "Test de Autoevaluación: Bloque 1 - Tema 08 (Ley 40/2015 LRJSP y Administración Digital)",
+  "title": "Test Tema 08: Ley 40/2015 (LRJSP), Principios, Órganos Colegiados y Admón. Digital",
   "questions": [
     {
-      "question": "Según el artículo 55 de la Ley 40/2015, ¿cuáles de los siguientes son Órganos Superiores de la AGE?",
+      "question": "Según el artículo 3 de la Ley 40/2015, ¿cuál de los siguientes es un principio general que rige las relaciones INTERADMINISTRATIVAS?",
       "options": [
-        "Los Subsecretarios y Directores Generales.",
-        "Los Ministros y Secretarios de Estado.",
-        "Los Secretarios Generales Técnicos y Subdirectores Generales.",
-        "Los Delegados del Gobierno en las CCAA."
+        "Principio de Lealtad Institucional y Cooperación.",
+        "Principio de Personalidad Jurídica Única.",
+        "Principio de Confianza Mutua Comercial.",
+        "Principio de Unanimidad Parlamentaria."
       ],
-      "answer": "b",
-      "explanation": "Art. 55.2 LRJSP. Son órganos superiores los Ministros y los Secretarios de Estado."
+      "answer": "a",
+      "explanation": "Art. 3.1.k y Art. 140 Ley 40/2015: Las relaciones entre Administraciones se rigen por los principios de lealtad institucional, cooperación y colaboración."
     },
     {
-      "question": "Para ser nombrado Subsecretario o Secretario General Técnico en un Ministerio se requiere:",
+      "question": "En el régimen de los órganos colegiados (Art. 17 Ley 40/2015), ¿con qué antelación mínima debe remitirse la convocatoria y el orden del día salvo casos de urgencia?",
       "options": [
-        "Ser miembro electo de las Cortes Generales.",
-        "Ser funcionario de carrera del Estado, de las CCAA o de las EELL, perteneciente al Subgrupo A1.",
-        "Tener al menos 10 años de experiencia directiva en el sector privado.",
-        "No se exige condición de funcionario si se aprueba por Real Decreto motivado."
+        "24 horas.",
+        "48 horas.",
+        "3 días hábiles.",
+        "6 días naturales."
       ],
       "answer": "b",
-      "explanation": "Arts. 63 y 65 LRJSP. Se exige condición de funcionario de carrera del Subgrupo A1."
+      "explanation": "Art. 19.3 Ley 40/2015: Salvo que no sea posible, la convocatoria será remitida con una antelación mínima de **48 horas**."
     },
     {
-      "question": "¿Cuál es el plazo máximo de duración legal que puede fijarse inicialmente para un convenio administrativo según el artículo 49.h de la Ley 40/2015?",
+      "question": "Según el artículo 9 de la Ley 40/2015, ¿cuál de las siguientes materias NO es susceptible de delegación de competencias?",
       "options": [
+        "La resolución de recursos administrativos en los órganos administrativos que hayan dictado los actos objeto de recurso.",
+        "La gestión de compras menores de oficina.",
+        "La emisión de certificados padronales.",
+        "La aprobación de licencias ordinarias."
+      ],
+      "answer": "a",
+      "explanation": "Art. 9.2.c Ley 40/2015: No pueden delegarse la resolución de recursos en los órganos que hayan dictado los actos objeto de recurso."
+    },
+    {
+      "question": "¿Cuál es la diferencia jurídica entre la 'Avocación' (Art. 10) y la 'Delegación de Firma' (Art. 12) en la Ley 40/2015?",
+      "options": [
+        "La avocación traslada la titularidad de la competencia; la delegación de firma solo la gestión presupuestaria.",
+        "La avocación permite al órgano superior atraer para sí el conocimiento de un asunto cuya competencia corresponda a sus órganos jerárquicamente dependientes; la delegación de firma no altera la competencia del órgano delegante ni requiere publicación en boletín oficial.",
+        "La delegación de firma exige Real Decreto.",
+        "La avocación solo procede en Administraciones Locales."
+      ],
+      "answer": "b",
+      "explanation": "Art. 10 y 12 Ley 40/2015: La avocación atrae el conocimiento de un asunto; la delegación de firma no altera la competencia ni requiere publicación."
+    },
+    {
+      "question": "¿En qué plazo máximo debe resolverse la recusación de una autoridad o funcionario según el artículo 24 de la Ley 40/2015?",
+      "options": [
+        "24 horas.",
+        "3 días hábiles.",
+        "10 días naturales.",
+        "1 mes."
+      ],
+      "answer": "b",
+      "explanation": "Art. 24.2 Ley 40/2015: El superior resolverá la recusación en el plazo de **3 días**."
+    },
+    {
+      "question": "En el Esquema Nacional de Interoperabilidad (ENI - RD 4/2010), ¿qué instrumento garantiza la correspondencia unívoca de unidades orgánicas y oficinas de registro de las Administraciones Públicas?",
+      "options": [
+        "Directorio Común de Unidades Orgánicas y Oficinas (DIR3).",
+        "Punto General de Acceso e-AGE.",
+        "Sistema Cl@ve PIN.",
+        "Registro Electrónico de Apoderamientos (REA)."
+      ],
+      "answer": "a",
+      "explanation": "El DIR3 gestiona el inventario unificado y códigos de todas las entidades, órganos y oficinas de registro de las AAPP."
+    },
+    {
+      "question": "Según el artículo 41 de la Ley 40/2015, ¿qué se entiende por 'Actuación Administrativa Automatizada' (AAA)?",
+      "options": [
+        "Cualquier acto administrativo emitido por un funcionario utilizando procesador de textos.",
+        "Cualquier acto o actuación realizada íntegramente a través de medios electrónicos por una Administración en el marco de un procedimiento, en la que no haya intervenido de forma directa un empleado público.",
+        "El envío de un correo electrónico a un ciudadano.",
+        "Una reunión de un órgano colegiado por videoconferencia."
+      ],
+      "answer": "b",
+      "explanation": "Art. 41.1 Ley 40/2015: Actuación realizada íntegramente por medios electrónicos sin intervención directa humana de un empleado público."
+    },
+    {
+      "question": "¿Qué dos sistemas de firma electrónica admite el artículo 42 de la Ley 40/2015 para la Actuación Administrativa Automatizada?",
+      "options": [
+        "Firma biométrica y PIN temporal.",
+        "Sello electrónico de Administración Pública / órgano / entidad y Código Seguro de Verificación (CSV).",
+        "Firma manuscrita escaneada y DNIe.",
+        "OAuth 2.0 y certificado SSL/TLS."
+      ],
+      "answer": "b",
+      "explanation": "Art. 42 Ley 40/2015: Para AAA se utiliza Sello Electrónico cualificado o Código Seguro de Verificación (CSV)."
+    },
+    {
+      "question": "Según el artículo 48 de la Ley 40/2015, los Convenios interadministrativos suscritos por la AGE devienen eficaces una vez inscritos en el:",
+      "options": [
+        "Registro Electrónico estatal de Órganos e Instrumentos de Cooperación (REOICO) y tras su publicación en el BOE.",
+        "Tablón de edictos del Ayuntamiento.",
+        "Registro Mercantil.",
+        "Diario Oficial de la Unión Europea (DOUE)."
+      ],
+      "answer": "a",
+      "explanation": "Art. 48.8 Ley 40/2015: Los convenios resultan eficaces una vez inscritos en el REOICO y publicados en el BOE en el plazo de 10 días."
+    },
+    {
+      "question": "En el régimen de Responsabilidad Patrimonial de las Administraciones Públicas (Art. 32 Ley 40/2015), ¿cuál es el plazo de prescripción del derecho a reclamar indemnización por daños?",
+      "options": [
+        "6 meses.",
+        "1 año desde que se produjo el hecho o se manifestó su efecto lesivo (o curación / alcance de secuelas).",
         "2 años.",
-        "4 años (prorrogable hasta 4 años adicionales).",
-        "5 años sin prórroga.",
-        "10 años."
+        "4 años conforme a la Ley General Tributaria."
       ],
       "answer": "b",
-      "explanation": "Art. 49.h.1º LRJSP. Plazo máximo de 4 años, prorrogable expresamente por hasta 4 años más."
-    },
-    {
-      "question": "¿En qué registro público deben inscribirse con carácter preceptivo los convenios suscritos por la AGE para resultar eficaces?",
-      "options": [
-        "En el Registro Mercantil Central.",
-        "En el Registro Electrónico estatal de Órganos e Instrumentos de Cooperación (REOICO).",
-        "En el Registro General de Convenios de la Secretaría General de la Presidencia.",
-        "En el Registro Central de Personal (RCP)."
-      ],
-      "answer": "b",
-      "explanation": "Art. 48.8 LRJSP. Los convenios resultan eficaces una vez inscritos en el REOICO y publicados en el BOE."
-    },
-    {
-      "question": "¿Qué infraestructura de telecomunicaciones permite la interconexión segura de todas las redes de las AAPP españolas conectándose a su vez con la red sTESTA europea?",
-      "options": [
-        "Red Iris.",
-        "Red SARA (Sistema de Aplicaciones y Redes para las Administraciones).",
-        "Red Cl@ve.",
-        "Internet pública con VPN SSL."
-      ],
-      "answer": "b",
-      "explanation": "Art. 155 LRJSP y RD 4/2010. Red SARA es la red troncal interadministrativa."
+      "explanation": "Art. 67.1 Ley 39/2015 y Art. 32 Ley 40/2015: El derecho a reclamar prescribe al **año** de producido el hecho o manifestado el efecto lesivo."
     }
   ]
 }
