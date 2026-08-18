@@ -16,7 +16,6 @@ sources:
 created: "2026-08-18"
 updated: "2026-08-18"
 ---
-
 > [[wiki/synthesis/temas-completos/bloque-3-desarrollo-bbdd/tema-completo-bloque3-tema07|⬅️ Tema Completo 07]]  ·  [[wiki/synthesis/resumenes/resumen-maestro-bloque3|🏠 Índice Bloque 3]]  ·  [[wiki/synthesis/temas-completos/bloque-3-desarrollo-bbdd/tema-completo-bloque3-tema09|Tema Completo 09 ➡️]]
 
 # 🔴 Tema Completo Extendido 08 (Bloque 3): Control de Versiones con Git y Metodologías Ágiles (Scrum, Kanban)
@@ -26,9 +25,7 @@ updated: "2026-08-18"
 
 ---
 
-## 🟣 1. Desarrollo Teórico, Jurídico y Técnico Íntegro
-
-# Bloque 3 - Tema 08 (UD012115): Accesibilidad, Diseño Universal, Usabilidad, Confidencialidad y Seguridad en Puesto de Usuario
+# 🔴 Bloque 3 - Tema 08 (UD012115): Accesibilidad, Diseño Universal, Usabilidad, Confidencialidad y Seguridad en Puesto de Usuario
 
 <!-- Page 1 -->
 

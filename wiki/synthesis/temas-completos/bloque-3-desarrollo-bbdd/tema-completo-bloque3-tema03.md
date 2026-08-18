@@ -16,7 +16,6 @@ sources:
 created: "2026-08-18"
 updated: "2026-08-18"
 ---
-
 > [[wiki/synthesis/temas-completos/bloque-3-desarrollo-bbdd/tema-completo-bloque3-tema02|⬅️ Tema Completo 02]]  ·  [[wiki/synthesis/resumenes/resumen-maestro-bloque3|🏠 Índice Bloque 3]]  ·  [[wiki/synthesis/temas-completos/bloque-3-desarrollo-bbdd/tema-completo-bloque3-tema04|Tema Completo 04 ➡️]]
 
 # 🔴 Tema Completo Extendido 03 (Bloque 3): Lenguaje SQL ANSI, Subconsultas y Transacciones ACID
@@ -26,9 +25,7 @@ updated: "2026-08-18"
 
 ---
 
-## 🟣 1. Desarrollo Teórico, Jurídico y Técnico Íntegro
-
-# Bloque 3 - Tema 03 (UD012110): Lenguajes de Interrogación de BBDD, Estándar ANSI SQL, Procedimientos Almacenados y Triggers
+# 🔴 Bloque 3 - Tema 03 (UD012110): Lenguajes de Interrogación de BBDD, Estándar ANSI SQL, Procedimientos Almacenados y Triggers
 
 <!-- Page 1 -->
 

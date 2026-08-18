@@ -16,7 +16,6 @@ sources:
 created: "2026-08-18"
 updated: "2026-08-18"
 ---
-
 > [[wiki/synthesis/temas-completos/bloque-4-sistemas-redes/tema-completo-bloque4-tema05|⬅️ Tema Completo 05]]  ·  [[wiki/synthesis/resumenes/resumen-maestro-bloque4|🏠 Índice Bloque 4]]  ·  [[wiki/synthesis/temas-completos/bloque-4-sistemas-redes/tema-completo-bloque4-tema07|Tema Completo 07 ➡️]]
 
 # 🔴 Tema Completo Extendido 06 (Bloque 4): Medios de Transmisión, Fibra Óptica, LAN Ethernet, Wi-Fi 6 y VLANs
@@ -25,8 +24,6 @@ updated: "2026-08-18"
 > Esta nota contiene el desarrollo enciclopédico íntegro, exhaustivo y detallado del Tema 06 correspondiente al Bloque 4 de las Oposiciones TAI / AGE. Incluye todos los artículos normativos, fundamentos teóricos, arquitecturas, tablas de especificaciones, diagramas y casos de examen oficiales.
 
 ---
-
-## 🟣 1. Desarrollo Teórico, Jurídico y Técnico Íntegro
 
 ---
 

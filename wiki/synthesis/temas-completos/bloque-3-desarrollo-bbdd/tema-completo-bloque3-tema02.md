@@ -16,7 +16,6 @@ sources:
 created: "2026-08-18"
 updated: "2026-08-18"
 ---
-
 > [[wiki/synthesis/temas-completos/bloque-3-desarrollo-bbdd/tema-completo-bloque3-tema01|⬅️ Tema Completo 01]]  ·  [[wiki/synthesis/resumenes/resumen-maestro-bloque3|🏠 Índice Bloque 3]]  ·  [[wiki/synthesis/temas-completos/bloque-3-desarrollo-bbdd/tema-completo-bloque3-tema03|Tema Completo 03 ➡️]]
 
 # 🔴 Tema Completo Extendido 02 (Bloque 3): Lenguajes de Programación y Paradigmas (POO, SOLID, Patrones GoF)
@@ -26,9 +25,7 @@ updated: "2026-08-18"
 
 ---
 
-## 🟣 1. Desarrollo Teórico, Jurídico y Técnico Íntegro
-
-# Bloque 3 - Tema 02 (UD012109): Lenguajes de Programación, Paradigmas, Compiladores e Intérpretes
+# 🔴 Bloque 3 - Tema 02 (UD012109): Lenguajes de Programación, Paradigmas, Compiladores e Intérpretes
 
 <!-- Page 1 -->
 

@@ -16,7 +16,6 @@ sources:
 created: "2026-08-18"
 updated: "2026-08-18"
 ---
-
 > [[wiki/synthesis/temas-completos/bloque-1-administracion/tema-completo-bloque1-tema04|⬅️ Tema Completo 04]]  ·  [[wiki/synthesis/resumenes/resumen-maestro-bloque1|🏠 Índice Bloque 1]]  ·  [[wiki/synthesis/temas-completos/bloque-1-administracion/tema-completo-bloque1-tema06|Tema Completo 06 ➡️]]
 
 # 🔴 Tema Completo Extendido 05 (Bloque 1): El Régimen Jurídico del Empleado Público y el TREBEP
@@ -26,16 +25,14 @@ updated: "2026-08-18"
 
 ---
 
-## 🟣 1. Desarrollo Teórico, Jurídico y Técnico Íntegro
-
-## 1. Clases de Personal al Servicio de las Administraciones Públicas (Art. 8 a 13 TREBEP)
+## 🟣 1. Clases de Personal al Servicio de las Administraciones Públicas (Art. 8 a 13 TREBEP)
 - **Funcionarios de Carrera (Art. 9)**: Quienes, en virtud de nombramiento legal, están vinculados a una Administración Pública por una relación estatutaria regulada por el Derecho Administrativo para el desempeño de servicios profesionales retribuidos de carácter permanente. En todo caso, el ejercicio de las funciones que impliquen la participación directa o indirecta en el ejercicio de las potestades públicas o en la salvaguardia de los intereses generales del Estado corresponden exclusivamente a los funcionarios públicos.
 - **Funcionarios Interinos (Art. 10)**: Nombrados por razones expresamente justificadas de necesidad y urgencia para plazas vacantes (máximo 3 años), sustitución transitoria de titulares, ejecución de programas temporales (máx 3 años ampliable 12 meses) o exceso/acumulación de tareas (máx 9 meses en 18 meses).
 - **Personal Laboral (Art. 11)**: En virtud de contrato de trabajo formalizado por escrito en cualquiera de las modalidades previstas en la legislación laboral (Fijo, Por tiempo indefinido o Temporal).
 - **Personal Eventual (Art. 12)**: Nombramiento libre y cese libre para funciones expresamente calificadas como de **confianza o asesoramiento especial**. No constituye mérito para el acceso a la función pública.
 - **Personal Directivo Profesional (Art. 13)**: Desarrolla funciones directivas profesionales sujetas a evaluación de resultados.
 
-### Grupos de Clasificación Profesional de Funcionarios (Art. 76 y Disp. Transitoria 3ª):
+### 🔵 Grupos de Clasificación Profesional de Funcionarios (Art. 76 y Disp. Transitoria 3ª):
 - **Grupo A**: Dividido en dos subgrupos:
   - **Subgrupo A1**: Título universitario de Grado (Doctor, Licenciado, Grado). Funciones directivas, de gestión, inspección y control.
   - **Subgrupo A2**: Título universitario de Grado (Diplomado, Grado). Funciones de gestión y ejecución.
@@ -45,14 +42,14 @@ updated: "2026-08-18"
   - **Subgrupo C2**: Título de Graduado en ESO.
 - Otras agrupaciones profesionales sin requisito de titulación (antiguo Grupo E).
 
-## 2. Derechos y Deberes de los Empleados Públicos
+## 🟣 2. Derechos y Deberes de los Empleados Públicos
 - **Derechos Individuales (Art. 14)**: Inamovilidad en la condición de funcionario de carrera, carrera profesional y promoción interna, retribuciones justas, formación continua, vacaciones, permisos y licencias, jubilación.
 - **Derechos de Ejercicio Colectivo (Art. 15)**: Libertad sindical, huelga, negociación colectiva, reunión.
 - **Código de Conducta (Art. 52 a 54)**:
   - *Principios Éticos (Art. 53)*: Lealtad a la Constitución, neutralidad política, eficacia, confidencialidad, no aceptación de regalos que superen usos habituales, dedicación al servicio público.
   - *Principios de Conducta (Art. 54)*: Trato respetuoso, diligencia, austeridad en el uso de recursos públicos, obediencia a instrucciones legítimas de superiores (salvo orden manifiestamente ilegal, en cuyo caso se pondrá por escrito a conocimiento del superior).
 
-## 3. Situaciones Administrativas de los Funcionarios de Carrera (Art. 85 a 92)
+## 🟣 3. Situaciones Administrativas de los Funcionarios de Carrera (Art. 85 a 92)
 1. **Servicio Activo (Art. 86)**: Desempeño de puesto de trabajo propio de su cuerpo/escala. Gozan de todos los derechos y deberes.
 2. **Servicios Especiales (Art. 87)**: Nombramiento como miembros del Gobierno, Ministros, Secretarios de Estado, Diputados, Senadores, miembros del TC, CGPJ, puestos en organismos internacionales o gabinete de Ministros. **Computa tiempo a efectos de trienios, carrera y derechos pasivos**. Reserva de plaza en la misma localidad y retribuciones del puesto desempeñado.
 3. **Servicio en otras Administraciones Públicas (Art. 88)**: Transferencias autonómicas o provisión de puestos por concurso/libre designación en otra Administración.
@@ -65,7 +62,7 @@ updated: "2026-08-18"
    - *Provisional*: Durante tramitación de proceso penal o disciplinario. Máximo **6 meses** (salvo paralización imputable al funcionario). Percibe retribuciones básicas (sueldo y trienios).
    - *Firme*: Por condena penal o sanción disciplinaria. No puede exceder de **6 años**. Pérdida del puesto de trabajo si excede de 6 meses.
 
-## 4. Régimen Disciplinario (Art. 93 a 98)
+## 🟣 4. Régimen Disciplinario (Art. 93 a 98)
 - **Faltas Muy Graves (Art. 95)**: Prescriben a los **3 años**. Entre ellas:
   - Incumplimiento del deber de fidelidad a la Constitución en el ejercicio de la función pública.
   - Discriminación por razón de sexo, raza, religión, discapacidad, orientación sexual.

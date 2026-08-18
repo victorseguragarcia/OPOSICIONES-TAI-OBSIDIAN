@@ -16,7 +16,6 @@ sources:
 created: "2026-08-18"
 updated: "2026-08-18"
 ---
-
 > [[wiki/synthesis/temas-completos/bloque-3-desarrollo-bbdd/tema-completo-bloque3-tema06|⬅️ Tema Completo 06]]  ·  [[wiki/synthesis/resumenes/resumen-maestro-bloque3|🏠 Índice Bloque 3]]  ·  [[wiki/synthesis/temas-completos/bloque-3-desarrollo-bbdd/tema-completo-bloque3-tema08|Tema Completo 08 ➡️]]
 
 # 🔴 Tema Completo Extendido 07 (Bloque 3): Accesibilidad Web (WCAG 2.1 POUR y RD 1112/2018 Nivel AA)
@@ -26,9 +25,7 @@ updated: "2026-08-18"
 
 ---
 
-## 🟣 1. Desarrollo Teórico, Jurídico y Técnico Íntegro
-
-# Bloque 3 - Tema 07 (UD012114): Aplicaciones y Desarrollo Web: HTML5, DOM, CSS, JavaScript, Servlets y JSP
+# 🔴 Bloque 3 - Tema 07 (UD012114): Aplicaciones y Desarrollo Web: HTML5, DOM, CSS, JavaScript, Servlets y JSP
 
 <!-- Page 1 -->
 

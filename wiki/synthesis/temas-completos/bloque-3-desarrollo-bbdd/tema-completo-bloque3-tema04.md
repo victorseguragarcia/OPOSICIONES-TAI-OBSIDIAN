@@ -16,7 +16,6 @@ sources:
 created: "2026-08-18"
 updated: "2026-08-18"
 ---
-
 > [[wiki/synthesis/temas-completos/bloque-3-desarrollo-bbdd/tema-completo-bloque3-tema03|⬅️ Tema Completo 03]]  ·  [[wiki/synthesis/resumenes/resumen-maestro-bloque3|🏠 Índice Bloque 3]]  ·  [[wiki/synthesis/temas-completos/bloque-3-desarrollo-bbdd/tema-completo-bloque3-tema05|Tema Completo 05 ➡️]]
 
 # 🔴 Tema Completo Extendido 04 (Bloque 3): Arquitectura de Software y Plataformas Empresariales (Java EE, .NET)
@@ -26,9 +25,7 @@ updated: "2026-08-18"
 
 ---
 
-## 🟣 1. Desarrollo Teórico, Jurídico y Técnico Íntegro
-
-# Bloque 3 - Tema 04 (UD012111): Diseño y Programación Orientada a Objetos, Patrones de Diseño GoF y UML
+# 🔴 Bloque 3 - Tema 04 (UD012111): Diseño y Programación Orientada a Objetos, Patrones de Diseño GoF y UML
 
 <!-- Page 1 -->
 

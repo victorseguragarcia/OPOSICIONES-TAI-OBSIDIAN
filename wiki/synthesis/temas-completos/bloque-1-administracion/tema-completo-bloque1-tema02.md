@@ -16,7 +16,6 @@ sources:
 created: "2026-08-18"
 updated: "2026-08-18"
 ---
-
 > [[wiki/synthesis/temas-completos/bloque-1-administracion/tema-completo-bloque1-tema01|⬅️ Tema Completo 01]]  ·  [[wiki/synthesis/resumenes/resumen-maestro-bloque1|🏠 Índice Bloque 1]]  ·  [[wiki/synthesis/temas-completos/bloque-1-administracion/tema-completo-bloque1-tema03|Tema Completo 03 ➡️]]
 
 # 🔴 Tema Completo Extendido 02 (Bloque 1): La Corona, las Cortes Generales y el Gobierno (AGE)
@@ -26,9 +25,7 @@ updated: "2026-08-18"
 
 ---
 
-## 🟣 1. Desarrollo Teórico, Jurídico y Técnico Íntegro
-
-## 1. El Gobierno: Composición, Nombramiento y Cese (Ley 50/1997, de 27 de noviembre, del Gobierno)
+## 🟣 1. El Gobierno: Composición, Nombramiento y Cese (Ley 50/1997, de 27 de noviembre, del Gobierno)
 - **Composición (Art. 98 CE y Art. 1 Ley 50/1997)**: El Gobierno se compone del **Presidente**, del o de los **Vicepresidentes** (opcionales), de los **Ministros** y de los demás miembros que establezca la ley.
 - **Órganos Colegiados del Gobierno**:
   - **Consejo de Ministros**: Formado por el Presidente, Vicepresidentes y Ministros. Sus deliberaciones son **secretas** (Art. 5.3 Ley 50/1997). Actúa como órgano colegiado superior que aprueba proyectos de ley, Reales Decretos-Leyes, Reales Decretos Legislativos, reglamentos, tratados internacionales y nombramientos de altos cargos.
@@ -38,7 +35,7 @@ updated: "2026-08-18"
   - **Secretariado del Gobierno**: Órgano de apoyo técnico y administrativo al Consejo de Ministros, a las Comisiones Delegadas y a la Comisión General de Secretarios de Estado y Subsecretarios. Gestiona la publicación en el BOE. Integrado en el Ministerio de la Presidencia.
   - **Gabinetes**: Órganos de apoyo político y técnico del Presidente, Vicepresidentes, Ministros y Secretarios de Estado. Personal eventual de confianza y asesoramiento especial.
 
-## 2. Nombramiento y Cese del Presidente del Gobierno
+## 🟣 2. Nombramiento y Cese del Presidente del Gobierno
 - **Investidura Ordinaria (Art. 99 CE)**: Tras cada renovación del Congreso y en los demás supuestos constitucionales en que así proceda (dimisión, fallecimiento, pérdida de confianza):
   1. El Rey, previa consulta con los representantes designados por los grupos políticos con representación parlamentaria, y a través del Presidente del Congreso, propone un candidato a la Presidencia del Gobierno.
   2. El candidato expone ante el Congreso de los Diputados el programa político del Gobierno que pretenda formar y solicita la confianza de la Cámara.
@@ -52,13 +49,13 @@ updated: "2026-08-18"
   - Periodo de enfriamiento: No puede ser votada hasta transcurridos **5 días** desde su presentación; en los 2 primeros días pueden presentarse mociones alternativas.
   - Aprobación exige **mayoría absoluta del Congreso de los Diputados**. Si se aprueba, el Gobierno presenta su dimisión al Rey y el candidato incluido en la moción se entiende investido de la confianza de la Cámara.
 
-## 3. La Administración General del Estado (Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público)
+## 🟣 3. La Administración General del Estado (Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público)
 La Administración General del Estado (AGE) actúa bajo la dirección del Gobierno para la gestión de los intereses generales. Su estructura se divide en:
 1. **Servicios Centrales** (Ministerios y órganos directivos centrales).
 2. **Servicios Territoriales** (Delegaciones del Gobierno, Subdelegaciones y Direcciones Insulares).
 3. **Administración General del Estado en el Exterior** (Misiones diplomáticas permanentes, representaciones permanentes, delegaciones y oficinas consulares).
 
-### Clasificación de Órganos en la AGE (Art. 55 Ley 40/2015)
+### 🔵 Clasificación de Órganos en la AGE (Art. 55 Ley 40/2015)
 - **Órganos Superiores**:
   - **Ministros**: Jefes superiores del departamento y miembros del Gobierno.
   - **Secretarios de Estado**: Responsables directos de la ejecución de la acción del Gobierno en un sector de actividad específico.

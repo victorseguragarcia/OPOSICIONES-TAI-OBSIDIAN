@@ -16,7 +16,6 @@ sources:
 created: "2026-08-18"
 updated: "2026-08-18"
 ---
-
 > [[wiki/synthesis/resumenes/resumen-maestro-bloque2|🏠 Portada Bloque 2]]  ·  [[wiki/synthesis/resumenes/resumen-maestro-bloque2|🏠 Índice Bloque 2]]  ·  [[wiki/synthesis/temas-completos/bloque-2-hardware-so/tema-completo-bloque2-tema02|Tema Completo 02 ➡️]]
 
 # 🔴 Tema Completo Extendido 01 (Bloque 2): Estructura y Componentes de un Sistema Informático (C2, IEEE 754, Buses)
@@ -26,9 +25,7 @@ updated: "2026-08-18"
 
 ---
 
-## 🟣 1. Desarrollo Teórico, Jurídico y Técnico Íntegro
-
-# Bloque 2 - Tema 01 (UD011929): Informática Básica, Representación de la Información y Arquitectura de Computadores
+# 🔴 Bloque 2 - Tema 01 (UD011929): Informática Básica, Representación de la Información y Arquitectura de Computadores
 
 <!-- Page 1 -->
 

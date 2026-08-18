@@ -16,7 +16,6 @@ sources:
 created: "2026-08-18"
 updated: "2026-08-18"
 ---
-
 > [[wiki/synthesis/temas-completos/bloque-2-hardware-so/tema-completo-bloque2-tema01|⬅️ Tema Completo 01]]  ·  [[wiki/synthesis/resumenes/resumen-maestro-bloque2|🏠 Índice Bloque 2]]  ·  [[wiki/synthesis/temas-completos/bloque-2-hardware-so/tema-completo-bloque2-tema03|Tema Completo 03 ➡️]]
 
 # 🔴 Tema Completo Extendido 02 (Bloque 2): Arquitectura de Computadores, Procesadores y Memoria (Von Neumann, RISC)
@@ -26,9 +25,7 @@ updated: "2026-08-18"
 
 ---
 
-## 🟣 1. Desarrollo Teórico, Jurídico y Técnico Íntegro
-
-# Bloque 2 - Tema 02 (UD012103): Periféricos, Conectividad, Puertos Físicos y Buses de Expansión
+# 🔴 Bloque 2 - Tema 02 (UD012103): Periféricos, Conectividad, Puertos Físicos y Buses de Expansión
 
 <!-- Page 1 -->
 

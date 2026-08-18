@@ -16,7 +16,6 @@ sources:
 created: "2026-08-18"
 updated: "2026-08-18"
 ---
-
 > [[wiki/synthesis/resumenes/resumen-maestro-bloque3|🏠 Portada Bloque 3]]  ·  [[wiki/synthesis/resumenes/resumen-maestro-bloque3|🏠 Índice Bloque 3]]  ·  [[wiki/synthesis/temas-completos/bloque-3-desarrollo-bbdd/tema-completo-bloque3-tema02|Tema Completo 02 ➡️]]
 
 # 🔴 Tema Completo Extendido 01 (Bloque 3): Diseño y Normalización de Bases de Datos (1FN a 5FN, BCNF)
@@ -26,9 +25,7 @@ updated: "2026-08-18"
 
 ---
 
-## 🟣 1. Desarrollo Teórico, Jurídico y Técnico Íntegro
-
-# Bloque 3 - Tema 01 (UD012107): Modelado de Datos, Modelo Entidad-Relación, Diseño Lógico/Físico y Normalización
+# 🔴 Bloque 3 - Tema 01 (UD012107): Modelado de Datos, Modelo Entidad-Relación, Diseño Lógico/Físico y Normalización
 
 <!-- Page 1 -->
 

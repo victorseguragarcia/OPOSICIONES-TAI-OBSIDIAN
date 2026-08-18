@@ -16,7 +16,6 @@ sources:
 created: "2026-08-18"
 updated: "2026-08-18"
 ---
-
 > [[wiki/synthesis/temas-completos/bloque-4-sistemas-redes/tema-completo-bloque4-tema02|⬅️ Tema Completo 02]]  ·  [[wiki/synthesis/resumenes/resumen-maestro-bloque4|🏠 Índice Bloque 4]]  ·  [[wiki/synthesis/temas-completos/bloque-4-sistemas-redes/tema-completo-bloque4-tema04|Tema Completo 04 ➡️]]
 
 # 🔴 Tema Completo Extendido 03 (Bloque 4): Virtualización, Contenedores (Docker, Kubernetes) y Cloud Computing
@@ -25,8 +24,6 @@ updated: "2026-08-18"
 > Esta nota contiene el desarrollo enciclopédico íntegro, exhaustivo y detallado del Tema 03 correspondiente al Bloque 4 de las Oposiciones TAI / AGE. Incluye todos los artículos normativos, fundamentos teóricos, arquitecturas, tablas de especificaciones, diagramas y casos de examen oficiales.
 
 ---
-
-## 🟣 1. Desarrollo Teórico, Jurídico y Técnico Íntegro
 
 ---
 

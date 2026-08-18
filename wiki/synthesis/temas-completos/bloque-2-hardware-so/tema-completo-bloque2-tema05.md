@@ -16,7 +16,6 @@ sources:
 created: "2026-08-18"
 updated: "2026-08-18"
 ---
-
 > [[wiki/synthesis/temas-completos/bloque-2-hardware-so/tema-completo-bloque2-tema04|⬅️ Tema Completo 04]]  ·  [[wiki/synthesis/resumenes/resumen-maestro-bloque2|🏠 Índice Bloque 2]]  ·  [[wiki/synthesis/resumenes/resumen-maestro-bloque2|🏁 Fin Bloque 2 ➡️]]
 
 # 🔴 Tema Completo Extendido 05 (Bloque 2): Bases de Datos Relacionales y NoSQL (Teorema CAP, Familias NoSQL)
@@ -26,9 +25,7 @@ updated: "2026-08-18"
 
 ---
 
-## 🟣 1. Desarrollo Teórico, Jurídico y Técnico Íntegro
-
-# Bloque 2 - Tema 05 (UD012106): Sistemas Gestores de Bases de Datos Relacionales, Objeto-Relacionales, NoSQL y Teorema CAP
+# 🔴 Bloque 2 - Tema 05 (UD012106): Sistemas Gestores de Bases de Datos Relacionales, Objeto-Relacionales, NoSQL y Teorema CAP
 
 <!-- Page 1 -->
 

@@ -16,7 +16,6 @@ sources:
 created: "2026-08-18"
 updated: "2026-08-18"
 ---
-
 > [[wiki/synthesis/temas-completos/bloque-4-sistemas-redes/tema-completo-bloque4-tema06|⬅️ Tema Completo 06]]  ·  [[wiki/synthesis/resumenes/resumen-maestro-bloque4|🏠 Índice Bloque 4]]  ·  [[wiki/synthesis/temas-completos/bloque-4-sistemas-redes/tema-completo-bloque4-tema08|Tema Completo 08 ➡️]]
 
 # 🔴 Tema Completo Extendido 07 (Bloque 4): Protocolo IP, Subnetting IPv4/IPv6, ICMP, DHCP y DNS
@@ -25,8 +24,6 @@ updated: "2026-08-18"
 > Esta nota contiene el desarrollo enciclopédico íntegro, exhaustivo y detallado del Tema 07 correspondiente al Bloque 4 de las Oposiciones TAI / AGE. Incluye todos los artículos normativos, fundamentos teóricos, arquitecturas, tablas de especificaciones, diagramas y casos de examen oficiales.
 
 ---
-
-## 🟣 1. Desarrollo Teórico, Jurídico y Técnico Íntegro
 
 ---
 

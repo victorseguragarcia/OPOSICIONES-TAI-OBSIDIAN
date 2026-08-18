@@ -16,7 +16,6 @@ sources:
 created: "2026-08-18"
 updated: "2026-08-18"
 ---
-
 > [[wiki/synthesis/temas-completos/bloque-3-desarrollo-bbdd/tema-completo-bloque3-tema05|⬅️ Tema Completo 05]]  ·  [[wiki/synthesis/resumenes/resumen-maestro-bloque3|🏠 Índice Bloque 3]]  ·  [[wiki/synthesis/temas-completos/bloque-3-desarrollo-bbdd/tema-completo-bloque3-tema07|Tema Completo 07 ➡️]]
 
 # 🔴 Tema Completo Extendido 06 (Bloque 3): Servicios Web y Arquitecturas Orientadas a Servicios (SOAP vs REST)
@@ -26,9 +25,7 @@ updated: "2026-08-18"
 
 ---
 
-## 🟣 1. Desarrollo Teórico, Jurídico y Técnico Íntegro
-
-# Bloque 3 - Tema 06 (UD012113): Arquitecturas de Sistemas, Cliente/Servidor, Multicapa, Servicios Web SOAP y REST
+# 🔴 Bloque 3 - Tema 06 (UD012113): Arquitecturas de Sistemas, Cliente/Servidor, Multicapa, Servicios Web SOAP y REST
 
 <!-- Page 1 -->
 

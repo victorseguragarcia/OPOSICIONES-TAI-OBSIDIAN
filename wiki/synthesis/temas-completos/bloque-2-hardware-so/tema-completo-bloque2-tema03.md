@@ -16,7 +16,6 @@ sources:
 created: "2026-08-18"
 updated: "2026-08-18"
 ---
-
 > [[wiki/synthesis/temas-completos/bloque-2-hardware-so/tema-completo-bloque2-tema02|⬅️ Tema Completo 02]]  ·  [[wiki/synthesis/resumenes/resumen-maestro-bloque2|🏠 Índice Bloque 2]]  ·  [[wiki/synthesis/temas-completos/bloque-2-hardware-so/tema-completo-bloque2-tema04|Tema Completo 04 ➡️]]
 
 # 🔴 Tema Completo Extendido 03 (Bloque 2): Estructuras de Datos, Árboles y Algoritmos (AVL, B+, Big-O)
@@ -26,9 +25,7 @@ updated: "2026-08-18"
 
 ---
 
-## 🟣 1. Desarrollo Teórico, Jurídico y Técnico Íntegro
-
-# Bloque 2 - Tema 03 (DOCUMENTO3): Tipos y Estructuras de Datos, Organización de Ficheros y Complejidad Algorítmica
+# 🔴 Bloque 2 - Tema 03 (DOCUMENTO3): Tipos y Estructuras de Datos, Organización de Ficheros y Complejidad Algorítmica
 
 <!-- Page 1 -->
 

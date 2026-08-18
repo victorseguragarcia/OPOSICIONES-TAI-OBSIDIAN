@@ -16,7 +16,6 @@ sources:
 created: "2026-08-18"
 updated: "2026-08-18"
 ---
-
 > [[wiki/synthesis/resumenes/resumen-maestro-bloque1|🏠 Portada Bloque 1]]  ·  [[wiki/synthesis/resumenes/resumen-maestro-bloque1|🏠 Índice Bloque 1]]  ·  [[wiki/synthesis/temas-completos/bloque-1-administracion/tema-completo-bloque1-tema02|Tema Completo 02 ➡️]]
 
 # 🔴 Tema Completo Extendido 01 (Bloque 1): La Constitución Española de 1978 y Derechos Fundamentales
@@ -26,13 +25,11 @@ updated: "2026-08-18"
 
 ---
 
-## 🟣 1. Desarrollo Teórico, Jurídico y Técnico Íntegro
-
-## 1. Estructura y Principios Generales de la Constitución Española
+## 🟣 1. Estructura y Principios Generales de la Constitución Española
 Aprobada por las Cortes Generales el 31 de octubre de 1978, ratificada en referéndum por el pueblo español el 6 de diciembre de 1978, sancionada y promulgada por el Rey Don Juan Carlos I el 27 de diciembre de 1978 y publicada en el BOE y entrada en vigor el 29 de diciembre de 1978.
 Consta de 1 Preámbulo (sin fuerza jurídica vinculante), 169 Artículos distribuidos en 1 Título Preliminar y 10 Títulos numerados, 4 Disposiciones Adicionales, 9 Disposiciones Transitorias, 1 Disposición Derogatoria y 1 Disposición Final.
 
-### Estructura Sistemática:
+### 🔵 Estructura Sistemática:
 - Título Preliminar: Artículos 1 al 9. Define a España como un Estado social y democrático de Derecho que propugna como valores superiores de su ordenamiento jurídico la libertad, la justicia, la igualdad y el pluralismo político (Art. 1.1). La soberanía nacional reside en el pueblo español (Art. 1.2). La forma política del Estado es la Monarquía parlamentaria (Art. 1.3). El castellano es la lengua oficial del Estado (Art. 3). La capital es la villa de Madrid (Art. 5). Principios de legalidad, jerarquía normativa, publicidad de las normas, irretroactividad de las disposiciones sancionadoras no favorables o restrictivas de derechos individuales, seguridad jurídica, responsabilidad e interdicción de la arbitrariedad de los poderes públicos (Art. 9.3).
 - Título I: De los derechos y deberes fundamentales (Art. 10 a 55).
 - Título II: De la Corona (Art. 56 a 65).
@@ -45,7 +42,7 @@ Consta de 1 Preámbulo (sin fuerza jurídica vinculante), 169 Artículos distrib
 - Título IX: Del Tribunal Constitucional (Art. 159 a 165).
 - Título X: De la Reforma Constitucional (Art. 166 a 169).
 
-## 2. Derechos y Deberes Fundamentales y su Sistema de Garantías
+## 🟣 2. Derechos y Deberes Fundamentales y su Sistema de Garantías
 El Título I se divide en:
 - Artículo 10: La dignidad de la persona, los derechos inviolables que le son inherentes, el libre desarrollo de la personalidad. Interpretación conforme a la Declaración Universal de Derechos Humanos.
 - Capítulo I: De los españoles y los extranjeros (Art. 11 a 13). Mayoría de edad a los 18 años (Art. 12).
@@ -62,12 +59,12 @@ El Título I se divide en:
   - El Defensor del Pueblo (Art. 54): Alto comisionado de las Cortes Generales designado por éstas para la defensa de los derechos del Título I. Regulado por LO 3/1981. Elegido por mayoría de 3/5 del Congreso y del Senado para un mandato de 5 años.
 - Capítulo V: De la suspensión de los derechos y libertades (Art. 55): Estados de alarma, excepción y sitio (Art. 116).
 
-## 3. La Corona (Título II, Art. 56 a 65)
+## 🟣 3. La Corona (Título II, Art. 56 a 65)
 - El Rey es el Jefe del Estado, símbolo de su unidad y permanencia, arbitra y modera el funcionamiento regular de las instituciones (Art. 56.1). Su persona es inviolable y no está sujeta a responsabilidad; sus actos estarán siempre **refrendados** por el Presidente del Gobierno y, en su caso, por los Ministros competentes, o por el Presidente del Congreso (propuesta y nombramiento del Presidente del Gobierno y disolución de Cortes del art. 99). Carecen de validez sin dicho refrendo (salvo nombramiento de miembros civiles y militares de su Casa, Art. 65.2).
 - Sucesión en la Corona (Art. 57): Hereditaria en los sucesores de S.M. Don Juan Carlos I de Borbón. Orden de primogenitura y representación: línea anterior a las posteriores; en la misma línea, grado más próximo al más remoto; en el mismo grado, el varón a la mujer; y en el mismo sexo, la persona de más edad a la de menos. Las abdicaciones y renuncias se resolverán por Ley Orgánica.
 - Regencia (Art. 59) y Tutela del Rey menor (Art. 60).
 
-## 4. Las Cortes Generales (Título III, Art. 66 a 96)
+## 🟣 4. Las Cortes Generales (Título III, Art. 66 a 96)
 - Representan al pueblo español y están formadas por el **Congreso de los Diputados** y el **Senado** (bicameralismo imperfecto). Ejercen la potestad legislativa del Estado, aprueban sus Presupuestos y controlan la acción del Gobierno.
 - **Congreso de los Diputados (Art. 68)**: Entre 300 y 400 Diputados (fijado en 350 por la LOREG). Circunscripción electoral es la provincia (Ceuta y Melilla representadas por 1 Diputado cada una). Elección por sufragio universal, libre, igual, directo y secreto mediante sistema proporcional (regla D'Hondt). Mandato de 4 años.
 - **Senado (Art. 69)**: Cámara de representación territorial. Mandato de 4 años.
@@ -80,7 +77,7 @@ El Título I se divide en:
   - **Decretos Legislativos (Art. 82-85)**: Delegación de las Cortes al Gobierno (Textos Articulados mediante Ley de Bases o Textos Refundidos mediante Ley Ordinaria).
   - **Decretos-Leyes (Art. 86)**: Dictados por el Gobierno en casos de extraordinaria y urgente necesidad. Disposiciones legislativas provisionales que no pueden afectar al ordenamiento de las instituciones básicas del Estado, a los derechos, deberes y libertades del Título I, al régimen de las CCAA ni al Derecho electoral general. Deben ser sometidos a debate y votación de totalidad al Congreso en el plazo de **30 días** siguientes a su promulgación para su convalidación o derogación.
 
-## 5. El Tribunal Constitucional (Título IX, Art. 159 a 165)
+## 🟣 5. El Tribunal Constitucional (Título IX, Art. 159 a 165)
 - Intérprete supremo de la Constitución, independiente de los demás órganos constitucionales y sometido solo a la Constitución y a su Ley Orgánica (LOTC 2/1979).
 - **Composición (Art. 159)**: **12 miembros** nombrados por el Rey por un periodo de **9 años** y renovados por terceras partes (4 miembros) cada **3 años**:
   - 4 a propuesta del Congreso de los Diputados (mayoría de 3/5).
@@ -94,7 +91,7 @@ El Título I se divide en:
   - **Conflictos de Competencia**: Entre el Estado y las CCAA o de éstas entre sí.
   - **Conflictos entre órganos constitucionales del Estado** (Gobierno, Congreso, Senado, CGPJ).
 
-## 6. Reforma Constitucional (Título X, Art. 166 a 169)
+## 🟣 6. Reforma Constitucional (Título X, Art. 166 a 169)
 - **Procedimiento Ordinario (Art. 167)**:
   - Proyectos de reforma aprobados por mayoría de **3/5 de cada Cámara**. Si no hay acuerdo, comisión paritaria Congreso-Senado. Si el texto no es aprobado, el Congreso puede aprobarlo por mayoría de **2/3** siempre que el Senado haya obtenido la mayoría absoluta.
   - Sometimiento a referéndum facultativo si lo solicita una **décima parte (10%)** de los miembros de cualquiera de las Cámaras en los 15 días siguientes a su aprobación.

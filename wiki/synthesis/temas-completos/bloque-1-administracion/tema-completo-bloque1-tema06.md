@@ -16,7 +16,6 @@ sources:
 created: "2026-08-18"
 updated: "2026-08-18"
 ---
-
 > [[wiki/synthesis/temas-completos/bloque-1-administracion/tema-completo-bloque1-tema05|⬅️ Tema Completo 05]]  ·  [[wiki/synthesis/resumenes/resumen-maestro-bloque1|🏠 Índice Bloque 1]]  ·  [[wiki/synthesis/temas-completos/bloque-1-administracion/tema-completo-bloque1-tema07|Tema Completo 07 ➡️]]
 
 # 🔴 Tema Completo Extendido 06 (Bloque 1): Políticas de Igualdad de Género y Contra la Violencia de Género
@@ -26,9 +25,7 @@ updated: "2026-08-18"
 
 ---
 
-## 🟣 1. Desarrollo Teórico, Jurídico y Técnico Íntegro
-
-## 1. Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres
+## 🟣 1. Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres
 - **Objeto (Art. 1)**: Hacer efectivo el derecho de igualdad de trato y de oportunidades entre mujeres y hombres, en particular mediante la eliminación de la discriminación de la mujer en cualesquiera de los ámbitos de la vida.
 - **Conceptos Clave**:
   - **Discriminación Directa por Razón de Sexo (Art. 6.1)**: Situación en que se encuentra una persona que haya sido, sea o pudiera ser tratada de manera menos favorable que otra en situación comparable por razón de su sexo.
@@ -40,7 +37,7 @@ updated: "2026-08-18"
 - **Planes de Igualdad en las Empresas (Art. 45 y 46)**: Conjunto ordenado de medidas evaluables adoptadas tras realizar un diagnóstico de situación. Obligatorios para empresas de **50 o más trabajadores**.
 - **Presencia Equilibrada (Disposición Adicional 1ª)**: Presencia de mujeres y hombres de forma que ningún sexo supere el 60% ni sea inferior al 40%.
 
-## 2. Ley Orgánica 1/2004, de 28 de diciembre, de Medidas de Protección Integral contra la Violencia de Género
+## 🟣 2. Ley Orgánica 1/2004, de 28 de diciembre, de Medidas de Protección Integral contra la Violencia de Género
 - **Concepto de Violencia de Género (Art. 1)**: La violencia que, como manifestación de la discriminación, la situación de desigualdad y las relaciones de poder de los hombres sobre las mujeres, se ejerce sobre éstas por parte de quienes sean o hayan sido sus **cónyuges o de quienes estén o hayan estado ligados a ellas por relaciones similares de afectividad, aun sin convivencia**.
 - **Derechos de las Víctimas**:
   - Derecho a la información, asistencia jurídica gratuita inmediata y atención psicológica integral.

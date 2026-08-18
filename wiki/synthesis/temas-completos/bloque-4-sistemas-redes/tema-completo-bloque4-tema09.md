@@ -16,7 +16,6 @@ sources:
 created: "2026-08-18"
 updated: "2026-08-18"
 ---
-
 > [[wiki/synthesis/temas-completos/bloque-4-sistemas-redes/tema-completo-bloque4-tema08|⬅️ Tema Completo 08]]  ·  [[wiki/synthesis/resumenes/resumen-maestro-bloque4|🏠 Índice Bloque 4]]  ·  [[wiki/synthesis/temas-completos/bloque-4-sistemas-redes/tema-completo-bloque4-tema10|Tema Completo 10 ➡️]]
 
 # 🔴 Tema Completo Extendido 09 (Bloque 4): Seguridad de la Información, Criptografía y ENS (RD 311/2022)
@@ -25,8 +24,6 @@ updated: "2026-08-18"
 > Esta nota contiene el desarrollo enciclopédico íntegro, exhaustivo y detallado del Tema 09 correspondiente al Bloque 4 de las Oposiciones TAI / AGE. Incluye todos los artículos normativos, fundamentos teóricos, arquitecturas, tablas de especificaciones, diagramas y casos de examen oficiales.
 
 ---
-
-## 🟣 1. Desarrollo Teórico, Jurídico y Técnico Íntegro
 
 ---
 

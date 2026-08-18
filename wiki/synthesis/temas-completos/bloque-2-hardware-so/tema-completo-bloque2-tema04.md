@@ -16,7 +16,6 @@ sources:
 created: "2026-08-18"
 updated: "2026-08-18"
 ---
-
 > [[wiki/synthesis/temas-completos/bloque-2-hardware-so/tema-completo-bloque2-tema03|⬅️ Tema Completo 03]]  ·  [[wiki/synthesis/resumenes/resumen-maestro-bloque2|🏠 Índice Bloque 2]]  ·  [[wiki/synthesis/temas-completos/bloque-2-hardware-so/tema-completo-bloque2-tema05|Tema Completo 05 ➡️]]
 
 # 🔴 Tema Completo Extendido 04 (Bloque 2): Sistemas Operativos: Gestión de Procesos, Memoria y Ficheros
@@ -26,9 +25,7 @@ updated: "2026-08-18"
 
 ---
 
-## 🟣 1. Desarrollo Teórico, Jurídico y Técnico Íntegro
-
-# Bloque 2 - Tema 04 (UD012105): Sistemas Operativos: Arquitectura, Gestión de Procesos, Memoria y Sistemas de Archivos
+# 🔴 Bloque 2 - Tema 04 (UD012105): Sistemas Operativos: Arquitectura, Gestión de Procesos, Memoria y Sistemas de Archivos
 
 <!-- Page 1 -->
 

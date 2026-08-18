@@ -16,7 +16,6 @@ sources:
 created: "2026-08-18"
 updated: "2026-08-18"
 ---
-
 > [[wiki/synthesis/temas-completos/bloque-4-sistemas-redes/tema-completo-bloque4-tema03|⬅️ Tema Completo 03]]  ·  [[wiki/synthesis/resumenes/resumen-maestro-bloque4|🏠 Índice Bloque 4]]  ·  [[wiki/synthesis/temas-completos/bloque-4-sistemas-redes/tema-completo-bloque4-tema05|Tema Completo 05 ➡️]]
 
 # 🔴 Tema Completo Extendido 04 (Bloque 4): Centros de Proceso de Datos (TIER I-IV), Almacenamiento y RAID
@@ -25,8 +24,6 @@ updated: "2026-08-18"
 > Esta nota contiene el desarrollo enciclopédico íntegro, exhaustivo y detallado del Tema 04 correspondiente al Bloque 4 de las Oposiciones TAI / AGE. Incluye todos los artículos normativos, fundamentos teóricos, arquitecturas, tablas de especificaciones, diagramas y casos de examen oficiales.
 
 ---
-
-## 🟣 1. Desarrollo Teórico, Jurídico y Técnico Íntegro
 
 ---
 

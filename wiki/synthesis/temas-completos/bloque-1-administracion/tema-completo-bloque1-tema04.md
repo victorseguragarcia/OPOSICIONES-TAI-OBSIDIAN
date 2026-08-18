@@ -16,7 +16,6 @@ sources:
 created: "2026-08-18"
 updated: "2026-08-18"
 ---
-
 > [[wiki/synthesis/temas-completos/bloque-1-administracion/tema-completo-bloque1-tema03|⬅️ Tema Completo 03]]  ·  [[wiki/synthesis/resumenes/resumen-maestro-bloque1|🏠 Índice Bloque 1]]  ·  [[wiki/synthesis/temas-completos/bloque-1-administracion/tema-completo-bloque1-tema05|Tema Completo 05 ➡️]]
 
 # 🔴 Tema Completo Extendido 04 (Bloque 1): La Unión Europea, sus Instituciones y el Derecho Comunitario
@@ -26,9 +25,7 @@ updated: "2026-08-18"
 
 ---
 
-## 🟣 1. Desarrollo Teórico, Jurídico y Técnico Íntegro
-
-## 1. Evolución Histórica y Tratados de la Unión Europea
+## 🟣 1. Evolución Histórica y Tratados de la Unión Europea
 - **Tratados Constitutivos Originarios**:
   - Tratado de París (1951): Comunidad Europea del Carbón y del Acero (CECA).
   - Tratados de Roma (1957): Comunidad Económica Europea (CEE) y Comunidad Europea de la Energía Atómica (EURATOM).
@@ -38,7 +35,7 @@ updated: "2026-08-18"
   - Tratado de Ámsterdam (1997) y Tratado de Niza (2001).
   - **Tratado de Lisboa (firmado en 2007, en vigor el 1 de diciembre de 2009)**: Elimina la estructura de pilares dotando a la UE de personalidad jurídica única. Modifica el TUE y transforma el TCE en el **TFUE (Tratado de Funcionamiento de la Unión Europea)**. Incorpora con valor jurídico vinculante la **Carta de los Derechos Fundamentales de la Unión Europea**. Creación del Presidente del Consejo Europeo y del Alto Representante para Asuntos Exteriores y Política de Seguridad.
 
-## 2. Instituciones de la Unión Europea (Art. 13 TUE)
+## 🟣 2. Instituciones de la Unión Europea (Art. 13 TUE)
 1. **Parlamento Europeo**:
    - Representa a los **ciudadanos de la Unión**. Elegido por sufragio universal directo cada **5 años**.
    - Sede oficial: Estrasburgo (plenos mensuales); trabajos de comisiones en Bruselas; Secretaría General en Luxemburgo.
@@ -62,7 +59,7 @@ updated: "2026-08-18"
 6. **Banco Central Europeo (BCE)**: Sede en Fráncfort. Política monetaria de la zona euro.
 7. **Tribunal de Cuentas**: Sede en Luxemburgo. Control de las finanzas y ejecución presupuestaria.
 
-## 3. Fuentes del Derecho de la Unión Europea
+## 🟣 3. Fuentes del Derecho de la Unión Europea
 - **Derecho Originario o Primario**: Tratados constitutivos (TUE, TFUE, Tratados de adhesión) y la Carta de Derechos Fundamentales. Rango supremo.
 - **Derecho Derivado o Secundario (Art. 288 TFUE)**:
   - **Actos Obligatorios / Vinculantes**:

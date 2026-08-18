@@ -16,7 +16,6 @@ sources:
 created: "2026-08-18"
 updated: "2026-08-18"
 ---
-
 > [[wiki/synthesis/temas-completos/bloque-3-desarrollo-bbdd/tema-completo-bloque3-tema08|⬅️ Tema Completo 08]]  ·  [[wiki/synthesis/resumenes/resumen-maestro-bloque3|🏠 Índice Bloque 3]]  ·  [[wiki/synthesis/resumenes/resumen-maestro-bloque3|🏁 Fin Bloque 3 ➡️]]
 
 # 🔴 Tema Completo Extendido 09 (Bloque 3): Metodología MÉTRICA Versión 3, Complejidad de McCabe y QA
@@ -26,9 +25,7 @@ updated: "2026-08-18"
 
 ---
 
-## 🟣 1. Desarrollo Teórico, Jurídico y Técnico Íntegro
-
-# Bloque 3 - Tema 09 (UD012116): Repositorios, Metodologías de Desarrollo, Pruebas de Software y Control de Versiones con Git
+# 🔴 Bloque 3 - Tema 09 (UD012116): Repositorios, Metodologías de Desarrollo, Pruebas de Software y Control de Versiones con Git
 
 <!-- Page 1 -->
 

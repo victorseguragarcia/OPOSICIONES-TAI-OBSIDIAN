@@ -16,7 +16,6 @@ sources:
 created: "2026-08-18"
 updated: "2026-08-18"
 ---
-
 > [[wiki/synthesis/temas-completos/bloque-3-desarrollo-bbdd/tema-completo-bloque3-tema04|⬅️ Tema Completo 04]]  ·  [[wiki/synthesis/resumenes/resumen-maestro-bloque3|🏠 Índice Bloque 3]]  ·  [[wiki/synthesis/temas-completos/bloque-3-desarrollo-bbdd/tema-completo-bloque3-tema06|Tema Completo 06 ➡️]]
 
 # 🔴 Tema Completo Extendido 05 (Bloque 3): Desarrollo Web Frontend (HTML5, CSS3, JavaScript ES6+)
@@ -26,9 +25,7 @@ updated: "2026-08-18"
 
 ---
 
-## 🟣 1. Desarrollo Teórico, Jurídico y Técnico Íntegro
-
-# Bloque 3 - Tema 05 (UD012112): Desarrollo Basado en Componentes, Java EE / Jakarta EE y Plataforma .NET
+# 🔴 Bloque 3 - Tema 05 (UD012112): Desarrollo Basado en Componentes, Java EE / Jakarta EE y Plataforma .NET
 
 <!-- Page 1 -->
 
@@ -2706,7 +2703,7 @@ En producción, nunca uses DriverManager. El pool es crítico: crea conexiones p
 latencia y evita agotar el servidor de BD. Los contenedores Jakarta EE y Spring inyectan DataSource 
 configurada con HikariCP (el pool más rápido). El pool gestiona tamaño mínimo/máximo, timeouts, 
 validación de conexiones y leak detection. 
-# En microprofile-config.properties o application.yaml 
+# 🔴 En microprofile-config.properties o application.yaml 
 quarkus.datasource.jdbc.url=jdbc:postgresql://db:5432/oposiciones 
 quarkus.datasource.jdbc.max-size=20 
 quarkus.datasource.jdbc.min-size=5 
@@ -3392,7 +3389,7 @@ Desarrollo Basado en Componentes. Arquitectura Java EE/Jakarta EE. Plataforma .N
     </dependencies> 
 </dependencyManagement> 
 3. Transformar código: 
-# Usar OpenRewrite (más moderno que Eclipse Transformer) 
+# 🔴 Usar OpenRewrite (más moderno que Eclipse Transformer) 
 mvn rewrite:run -Drewrite.recipeArtifactCoordinates=org.openrewrite.recipe:rewrite-
 migrate-java:2.2.0 \ 
           -Drewrite.activeRecipes=org.openrewrite.java.migrate.jakarta.JakartaEE11 
@@ -3578,14 +3575,14 @@ de envío a FACe sin añadir ActiveMQ como dependencia externa, lo que vulneraba
 "implementación certificada". 
 Verificación práctica de certificación (no fiarse del PDF del vendedor) 
 Un técnico especialista debe auditar la certificación antes de aprobar un despliegue: 
-# 1. Descargar resultados del TCK oficiales 
+# 🔴 1. Descargar resultados del TCK oficiales 
 curl -s https://download.eclipse.org/ee4j/jakartaee-tck/11.0.0/results/ \ 
      | grep -i payara 
-# 2. Verificar SHA256 del certificado 
+# 🔴 2. Verificar SHA256 del certificado 
 wget https://download.eclipse.org/jakartaee/platform/11/jakarta-jakartaeetck-
 11.0.0.zip.sha256 
 sha256sum -c jakarta-jakartaeetck-11.0.0.zip.sha256 
-# 3. Ejecutar smoke tests en preproducción 
+# 🔴 3. Ejecutar smoke tests en preproducción 
 java -jar jakartaeetck.jar -p full -s payara -t ejb30/lite/appexception   # 300 
 tests críticos 
 
@@ -5635,14 +5632,14 @@ comunicaciones. En entornos regulados como el ENS, un despliegue debe ser reprod
 sin toques manuales en producción: si tienes que entrar a hacer cambios a mano en caliente, algo falla 
 en tu pipeline. 
 Ejemplo de Dockerfile optimizado para Jakarta EE: 
-# Stage 1: Build 
+# 🔴 Stage 1: Build 
 FROM maven:3.9-eclipse-temurin-21 AS build 
 WORKDIR /app 
 COPY pom.xml . 
 COPY src ./src 
 RUN mvn package -DskipTests 
  
-# Stage 2: Runtime 
+# 🔴 Stage 2: Runtime 
 FROM quay.io/wildfly/wildfly-runtime:31.0-jdk21 
 COPY --from=build /app/target/recursoshumanos.war 
 /opt/wildfly/standalone/deployments/ 
