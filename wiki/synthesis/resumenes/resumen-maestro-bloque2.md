@@ -18,11 +18,11 @@ updated: "2026-08-18"
 
 ## 🟣 1. Índice de Resúmenes por Tema (Temas 01 a 05)
 
-- [[wiki/synthesis/resumenes/resumen-bloque2-tema01|📄 Resumen Tema 01]] | 📝 [[wiki/tests/temas/test-bloque2-tema01-informatica-basica|Test Tema 01]]
-- [[wiki/synthesis/resumenes/resumen-bloque2-tema02|📄 Resumen Tema 02]] | 📝 [[wiki/tests/temas/test-bloque2-tema02-perifericos-interfaces|Test Tema 02]]
-- [[wiki/synthesis/resumenes/resumen-bloque2-tema03|📄 Resumen Tema 03]] | 📝 [[wiki/tests/temas/test-bloque2-tema03-estructuras-algoritmos|Test Tema 03]]
-- [[wiki/synthesis/resumenes/resumen-bloque2-tema04|📄 Resumen Tema 04]] | 📝 [[wiki/tests/temas/test-bloque2-tema04-sistemas-operativos|Test Tema 04]]
-- [[wiki/synthesis/resumenes/resumen-bloque2-tema05|📄 Resumen Tema 05]] | 📝 [[wiki/tests/temas/test-bloque2-tema05-sgbd-nosql|Test Tema 05]]
+- [[wiki/synthesis/resumenes/bloque-2-hardware-so/resumen-bloque2-tema01|📄 Resumen Tema 01]] | 📝 [[wiki/tests/temas/test-bloque2-tema01-informatica-basica|Test Tema 01]]
+- [[wiki/synthesis/resumenes/bloque-2-hardware-so/resumen-bloque2-tema02|📄 Resumen Tema 02]] | 📝 [[wiki/tests/temas/test-bloque2-tema02-perifericos-interfaces|Test Tema 02]]
+- [[wiki/synthesis/resumenes/bloque-2-hardware-so/resumen-bloque2-tema03|📄 Resumen Tema 03]] | 📝 [[wiki/tests/temas/test-bloque2-tema03-estructuras-algoritmos|Test Tema 03]]
+- [[wiki/synthesis/resumenes/bloque-2-hardware-so/resumen-bloque2-tema04|📄 Resumen Tema 04]] | 📝 [[wiki/tests/temas/test-bloque2-tema04-sistemas-operativos|Test Tema 04]]
+- [[wiki/synthesis/resumenes/bloque-2-hardware-so/resumen-bloque2-tema05|📄 Resumen Tema 05]] | 📝 [[wiki/tests/temas/test-bloque2-tema05-sgbd-nosql|Test Tema 05]]
 
 ---
 

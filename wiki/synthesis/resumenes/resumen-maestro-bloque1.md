@@ -18,16 +18,16 @@ updated: "2026-08-18"
 
 ## 🟣 1. Índice de Resúmenes por Tema (Temas 01 a 10)
 
-- [[wiki/synthesis/resumenes/resumen-bloque1-tema01|📄 Resumen Tema 01]] | 📝 [[wiki/tests/temas/test-bloque1-tema01-constitucion|Test Tema 01]]
-- [[wiki/synthesis/resumenes/resumen-bloque1-tema02|📄 Resumen Tema 02]] | 📝 [[wiki/tests/temas/test-bloque1-tema02-gobierno-age|Test Tema 02]]
-- [[wiki/synthesis/resumenes/resumen-bloque1-tema03|📄 Resumen Tema 03]] | 📝 [[wiki/tests/temas/test-bloque1-tema03-organizacion-territorial|Test Tema 03]]
-- [[wiki/synthesis/resumenes/resumen-bloque1-tema04|📄 Resumen Tema 04]] | 📝 [[wiki/tests/temas/test-bloque1-tema04-union-europea|Test Tema 04]]
-- [[wiki/synthesis/resumenes/resumen-bloque1-tema05|📄 Resumen Tema 05]] | 📝 [[wiki/tests/temas/test-bloque1-tema05-trebep|Test Tema 05]]
-- [[wiki/synthesis/resumenes/resumen-bloque1-tema06|📄 Resumen Tema 06]] | 📝 [[wiki/tests/temas/test-bloque1-tema06-igualdad|Test Tema 06]]
-- [[wiki/synthesis/resumenes/resumen-bloque1-tema07|📄 Resumen Tema 07]] | 📝 [[wiki/tests/temas/test-bloque1-tema07-lpacap|Test Tema 07]]
-- [[wiki/synthesis/resumenes/resumen-bloque1-tema08|📄 Resumen Tema 08]] | 📝 [[wiki/tests/temas/test-bloque1-tema08-lrjsp-admon-digital|Test Tema 08]]
-- [[wiki/synthesis/resumenes/resumen-bloque1-tema09|📄 Resumen Tema 09]] | 📝 [[wiki/tests/temas/test-bloque1-tema09-rgpd-lopdgdd|Test Tema 09]]
-- [[wiki/synthesis/resumenes/resumen-bloque1-tema10|📄 Resumen Tema 10]] | 📝 [[wiki/tests/temas/test-bloque1-tema10-transparencia|Test Tema 10]]
+- [[wiki/synthesis/resumenes/bloque-1-administracion/resumen-bloque1-tema01|📄 Resumen Tema 01]] | 📝 [[wiki/tests/temas/test-bloque1-tema01-constitucion|Test Tema 01]]
+- [[wiki/synthesis/resumenes/bloque-1-administracion/resumen-bloque1-tema02|📄 Resumen Tema 02]] | 📝 [[wiki/tests/temas/test-bloque1-tema02-gobierno-age|Test Tema 02]]
+- [[wiki/synthesis/resumenes/bloque-1-administracion/resumen-bloque1-tema03|📄 Resumen Tema 03]] | 📝 [[wiki/tests/temas/test-bloque1-tema03-organizacion-territorial|Test Tema 03]]
+- [[wiki/synthesis/resumenes/bloque-1-administracion/resumen-bloque1-tema04|📄 Resumen Tema 04]] | 📝 [[wiki/tests/temas/test-bloque1-tema04-union-europea|Test Tema 04]]
+- [[wiki/synthesis/resumenes/bloque-1-administracion/resumen-bloque1-tema05|📄 Resumen Tema 05]] | 📝 [[wiki/tests/temas/test-bloque1-tema05-trebep|Test Tema 05]]
+- [[wiki/synthesis/resumenes/bloque-1-administracion/resumen-bloque1-tema06|📄 Resumen Tema 06]] | 📝 [[wiki/tests/temas/test-bloque1-tema06-igualdad|Test Tema 06]]
+- [[wiki/synthesis/resumenes/bloque-1-administracion/resumen-bloque1-tema07|📄 Resumen Tema 07]] | 📝 [[wiki/tests/temas/test-bloque1-tema07-lpacap|Test Tema 07]]
+- [[wiki/synthesis/resumenes/bloque-1-administracion/resumen-bloque1-tema08|📄 Resumen Tema 08]] | 📝 [[wiki/tests/temas/test-bloque1-tema08-lrjsp-admon-digital|Test Tema 08]]
+- [[wiki/synthesis/resumenes/bloque-1-administracion/resumen-bloque1-tema09|📄 Resumen Tema 09]] | 📝 [[wiki/tests/temas/test-bloque1-tema09-rgpd-lopdgdd|Test Tema 09]]
+- [[wiki/synthesis/resumenes/bloque-1-administracion/resumen-bloque1-tema10|📄 Resumen Tema 10]] | 📝 [[wiki/tests/temas/test-bloque1-tema10-transparencia|Test Tema 10]]
 
 ---
 

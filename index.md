@@ -185,7 +185,7 @@
 
 ---
 
-### 🔵 3. Conocimientos Concretos, Guías de Síntesis y Tablas de Examen (102 Guías)
+### 🔵 3. Conocimientos Concretos, Guías de Síntesis y Tablas de Examen (136 Guías)
 
 - [[wiki/synthesis/active-directory-and-ldap-guide|Guía Comparativa y Práctica de Active Directory y LDAP]]
 - [[wiki/synthesis/actos-nulos-vs-anulables-guia|Guía de Invalidez: Actos Nulos de Pleno Derecho vs Actos Anulables]]
@@ -289,6 +289,40 @@
 - [[wiki/synthesis/resumenes/resumen-maestro-bloque2|Resumen Maestro Bloque 2: Tecnología Básica, Hardware, Sistemas Operativos y Bases de Datos]]
 - [[wiki/synthesis/resumenes/resumen-maestro-bloque3|Resumen Maestro Bloque 3: Desarrollo de Sistemas, Bases de Datos, Web y Control de Calidad]]
 - [[wiki/synthesis/resumenes/resumen-maestro-bloque4|Resumen Maestro Bloque 4: Sistemas, Redes, Comunicaciones y Seguridad de la Información]]
+- [[wiki/synthesis/resumenes/bloque-1-administracion/resumen-bloque1-tema01|Resumen Tema 01 (Bloque 1): La Constitución Española de 1978]]
+- [[wiki/synthesis/resumenes/bloque-1-administracion/resumen-bloque1-tema02|Resumen Tema 02 (Bloque 1): La Corona, las Cortes Generales y el Gobierno]]
+- [[wiki/synthesis/resumenes/bloque-1-administracion/resumen-bloque1-tema03|Resumen Tema 03 (Bloque 1): Organización Territorial del Estado y Comunidades Autónomas]]
+- [[wiki/synthesis/resumenes/bloque-1-administracion/resumen-bloque1-tema04|Resumen Tema 04 (Bloque 1): La Unión Europea y sus Instituciones]]
+- [[wiki/synthesis/resumenes/bloque-1-administracion/resumen-bloque1-tema05|Resumen Tema 05 (Bloque 1): El Régimen Jurídico del Empleado Público y el TREBEP]]
+- [[wiki/synthesis/resumenes/bloque-1-administracion/resumen-bloque1-tema06|Resumen Tema 06 (Bloque 1): Políticas de Igualdad de Género y Contra la Violencia de Género]]
+- [[wiki/synthesis/resumenes/bloque-1-administracion/resumen-bloque1-tema07|Resumen Tema 07 (Bloque 1): El Procedimiento Administrativo Común (Ley 39/2015 - LPACAP)]]
+- [[wiki/synthesis/resumenes/bloque-1-administracion/resumen-bloque1-tema08|Resumen Tema 08 (Bloque 1): Régimen Jurídico del Sector Público y Administración Digital (Ley 40/2015)]]
+- [[wiki/synthesis/resumenes/bloque-1-administracion/resumen-bloque1-tema09|Resumen Tema 09 (Bloque 1): Protección de Datos Personales (RGPD y LOPDGDD)]]
+- [[wiki/synthesis/resumenes/bloque-1-administracion/resumen-bloque1-tema10|Resumen Tema 10 (Bloque 1): Transparencia, Acceso a la Información y Buen Gobierno]]
+- [[wiki/synthesis/resumenes/bloque-2-hardware-so/resumen-bloque2-tema01|Resumen Tema 01 (Bloque 2): Estructura y Componentes de un Sistema Informático]]
+- [[wiki/synthesis/resumenes/bloque-2-hardware-so/resumen-bloque2-tema02|Resumen Tema 02 (Bloque 2): Arquitectura de Computadores y Procesadores]]
+- [[wiki/synthesis/resumenes/bloque-2-hardware-so/resumen-bloque2-tema03|Resumen Tema 03 (Bloque 2): Estructuras de Datos y Algoritmos]]
+- [[wiki/synthesis/resumenes/bloque-2-hardware-so/resumen-bloque2-tema04|Resumen Tema 04 (Bloque 2): Sistemas Operativos: Gestión de Procesos, Memoria y Ficheros]]
+- [[wiki/synthesis/resumenes/bloque-2-hardware-so/resumen-bloque2-tema05|Resumen Tema 05 (Bloque 2): Bases de Datos Relacionales y NoSQL]]
+- [[wiki/synthesis/resumenes/bloque-3-desarrollo-bbdd/resumen-bloque3-tema01|Resumen Tema 01 (Bloque 3): Diseño y Normalización de Bases de Datos]]
+- [[wiki/synthesis/resumenes/bloque-3-desarrollo-bbdd/resumen-bloque3-tema02|Resumen Tema 02 (Bloque 3): Lenguajes de Programación y Paradigmas (POO)]]
+- [[wiki/synthesis/resumenes/bloque-3-desarrollo-bbdd/resumen-bloque3-tema03|Resumen Tema 03 (Bloque 3): Lenguaje SQL y Procedimientos Almacenados]]
+- [[wiki/synthesis/resumenes/bloque-3-desarrollo-bbdd/resumen-bloque3-tema04|Resumen Tema 04 (Bloque 3): Arquitectura de Software y Plataformas Empresariales]]
+- [[wiki/synthesis/resumenes/bloque-3-desarrollo-bbdd/resumen-bloque3-tema05|Resumen Tema 05 (Bloque 3): Desarrollo Web Frontend (HTML5, CSS3, JavaScript)]]
+- [[wiki/synthesis/resumenes/bloque-3-desarrollo-bbdd/resumen-bloque3-tema06|Resumen Tema 06 (Bloque 3): Servicios Web y Arquitecturas Orientadas a Servicios (SOA)]]
+- [[wiki/synthesis/resumenes/bloque-3-desarrollo-bbdd/resumen-bloque3-tema07|Resumen Tema 07 (Bloque 3): Accesibilidad, Usabilidad y Experiencia de Usuario]]
+- [[wiki/synthesis/resumenes/bloque-3-desarrollo-bbdd/resumen-bloque3-tema08|Resumen Tema 08 (Bloque 3): Control de Versiones y Metodologías Ágiles]]
+- [[wiki/synthesis/resumenes/bloque-3-desarrollo-bbdd/resumen-bloque3-tema09|Resumen Tema 09 (Bloque 3): Metodología MÉTRICA Versión 3 y Control de Calidad]]
+- [[wiki/synthesis/resumenes/bloque-4-sistemas-redes/resumen-bloque4-tema01|Resumen Tema 01 (Bloque 4): Administración de Sistemas Operativos Servidor]]
+- [[wiki/synthesis/resumenes/bloque-4-sistemas-redes/resumen-bloque4-tema02|Resumen Tema 02 (Bloque 4): Servicios de Directorio y Gestión de Usuarios]]
+- [[wiki/synthesis/resumenes/bloque-4-sistemas-redes/resumen-bloque4-tema03|Resumen Tema 03 (Bloque 4): Virtualización, Contenedores y Cloud Computing]]
+- [[wiki/synthesis/resumenes/bloque-4-sistemas-redes/resumen-bloque4-tema04|Resumen Tema 04 (Bloque 4): Centros de Proceso de Datos (CPD) y Almacenamiento]]
+- [[wiki/synthesis/resumenes/bloque-4-sistemas-redes/resumen-bloque4-tema05|Resumen Tema 05 (Bloque 4): Gestión de Copias de Seguridad y Continuidad de Negocio]]
+- [[wiki/synthesis/resumenes/bloque-4-sistemas-redes/resumen-bloque4-tema06|Resumen Tema 06 (Bloque 4): Medios de Transmisión y Redes de Área Local (LAN)]]
+- [[wiki/synthesis/resumenes/bloque-4-sistemas-redes/resumen-bloque4-tema07|Resumen Tema 07 (Bloque 4): Protocolo IP, Subnetting y Redes TCP/IP]]
+- [[wiki/synthesis/resumenes/bloque-4-sistemas-redes/resumen-bloque4-tema08|Resumen Tema 08 (Bloque 4): Protocolos de Transporte y Aplicación]]
+- [[wiki/synthesis/resumenes/bloque-4-sistemas-redes/resumen-bloque4-tema09|Resumen Tema 09 (Bloque 4): Seguridad de la Información, Criptografía y ENS (RD 311/2022)]]
+- [[wiki/synthesis/resumenes/bloque-4-sistemas-redes/resumen-bloque4-tema10|Resumen Tema 10 (Bloque 4): Seguridad Perimetral, Monitorización y Respuesta a Incidentes]]
 ---
 
 ## 📝 4. Banco de Tests y Autoevaluaciones (39 Baterías)

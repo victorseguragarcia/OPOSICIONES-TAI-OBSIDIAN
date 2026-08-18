@@ -18,16 +18,16 @@ updated: "2026-08-18"
 
 ## 🟣 1. Índice de Resúmenes por Tema (Temas 01 a 10)
 
-- [[wiki/synthesis/resumenes/resumen-bloque4-tema01|📄 Resumen Tema 01]] | 📝 [[wiki/tests/temas/test-bloque4-tema01-conceptos-so-virtualizacion|Test Tema 01]]
-- [[wiki/synthesis/resumenes/resumen-bloque4-tema02|📄 Resumen Tema 02]] | 📝 [[wiki/tests/temas/test-bloque4-tema02-windows-server|Test Tema 02]]
-- [[wiki/synthesis/resumenes/resumen-bloque4-tema03|📄 Resumen Tema 03]] | 📝 [[wiki/tests/temas/test-bloque4-tema03-linux-administracion|Test Tema 03]]
-- [[wiki/synthesis/resumenes/resumen-bloque4-tema04|📄 Resumen Tema 04]] | 📝 [[wiki/tests/temas/test-bloque4-tema04-redes-lan-dhcp-dns|Test Tema 04]]
-- [[wiki/synthesis/resumenes/resumen-bloque4-tema05|📄 Resumen Tema 05]] | 📝 [[wiki/tests/temas/test-bloque4-tema05-almacenamiento-cpd-raid|Test Tema 05]]
-- [[wiki/synthesis/resumenes/resumen-bloque4-tema06|📄 Resumen Tema 06]] | 📝 [[wiki/tests/temas/test-bloque4-tema06-medios-transmision-fibra|Test Tema 06]]
-- [[wiki/synthesis/resumenes/resumen-bloque4-tema07|📄 Resumen Tema 07]] | 📝 [[wiki/tests/temas/test-bloque4-tema07-redes-tcp-ip|Test Tema 07]]
-- [[wiki/synthesis/resumenes/resumen-bloque4-tema08|📄 Resumen Tema 08]] | 📝 [[wiki/tests/temas/test-bloque4-tema08-internet-web-correo|Test Tema 08]]
-- [[wiki/synthesis/resumenes/resumen-bloque4-tema09|📄 Resumen Tema 09]] | 📝 [[wiki/tests/temas/test-bloque4-tema09-seguridad-criptografia-ens|Test Tema 09]]
-- [[wiki/synthesis/resumenes/resumen-bloque4-tema10|📄 Resumen Tema 10]] | 📝 [[wiki/tests/temas/test-bloque4-tema10-topologias-ieee802-wifi|Test Tema 10]]
+- [[wiki/synthesis/resumenes/bloque-4-sistemas-redes/resumen-bloque4-tema01|📄 Resumen Tema 01]] | 📝 [[wiki/tests/temas/test-bloque4-tema01-conceptos-so-virtualizacion|Test Tema 01]]
+- [[wiki/synthesis/resumenes/bloque-4-sistemas-redes/resumen-bloque4-tema02|📄 Resumen Tema 02]] | 📝 [[wiki/tests/temas/test-bloque4-tema02-windows-server|Test Tema 02]]
+- [[wiki/synthesis/resumenes/bloque-4-sistemas-redes/resumen-bloque4-tema03|📄 Resumen Tema 03]] | 📝 [[wiki/tests/temas/test-bloque4-tema03-linux-administracion|Test Tema 03]]
+- [[wiki/synthesis/resumenes/bloque-4-sistemas-redes/resumen-bloque4-tema04|📄 Resumen Tema 04]] | 📝 [[wiki/tests/temas/test-bloque4-tema04-redes-lan-dhcp-dns|Test Tema 04]]
+- [[wiki/synthesis/resumenes/bloque-4-sistemas-redes/resumen-bloque4-tema05|📄 Resumen Tema 05]] | 📝 [[wiki/tests/temas/test-bloque4-tema05-almacenamiento-cpd-raid|Test Tema 05]]
+- [[wiki/synthesis/resumenes/bloque-4-sistemas-redes/resumen-bloque4-tema06|📄 Resumen Tema 06]] | 📝 [[wiki/tests/temas/test-bloque4-tema06-medios-transmision-fibra|Test Tema 06]]
+- [[wiki/synthesis/resumenes/bloque-4-sistemas-redes/resumen-bloque4-tema07|📄 Resumen Tema 07]] | 📝 [[wiki/tests/temas/test-bloque4-tema07-redes-tcp-ip|Test Tema 07]]
+- [[wiki/synthesis/resumenes/bloque-4-sistemas-redes/resumen-bloque4-tema08|📄 Resumen Tema 08]] | 📝 [[wiki/tests/temas/test-bloque4-tema08-internet-web-correo|Test Tema 08]]
+- [[wiki/synthesis/resumenes/bloque-4-sistemas-redes/resumen-bloque4-tema09|📄 Resumen Tema 09]] | 📝 [[wiki/tests/temas/test-bloque4-tema09-seguridad-criptografia-ens|Test Tema 09]]
+- [[wiki/synthesis/resumenes/bloque-4-sistemas-redes/resumen-bloque4-tema10|📄 Resumen Tema 10]] | 📝 [[wiki/tests/temas/test-bloque4-tema10-topologias-ieee802-wifi|Test Tema 10]]
 
 ---
 

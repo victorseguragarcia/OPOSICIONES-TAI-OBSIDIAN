@@ -18,15 +18,15 @@ updated: "2026-08-18"
 
 ## 🟣 1. Índice de Resúmenes por Tema (Temas 01 a 09)
 
-- [[wiki/synthesis/resumenes/resumen-bloque3-tema01|📄 Resumen Tema 01]] | 📝 [[wiki/tests/temas/test-bloque3-tema01-normalizacion-bbdd|Test Tema 01]]
-- [[wiki/synthesis/resumenes/resumen-bloque3-tema02|📄 Resumen Tema 02]] | 📝 [[wiki/tests/temas/test-bloque3-tema02-lenguajes-compiladores|Test Tema 02]]
-- [[wiki/synthesis/resumenes/resumen-bloque3-tema03|📄 Resumen Tema 03]] | 📝 [[wiki/tests/temas/test-bloque3-tema03-sql-interrogacion|Test Tema 03]]
-- [[wiki/synthesis/resumenes/resumen-bloque3-tema04|📄 Resumen Tema 04]] | 📝 [[wiki/tests/temas/test-bloque3-tema04-poo-patrones-uml|Test Tema 04]]
-- [[wiki/synthesis/resumenes/resumen-bloque3-tema05|📄 Resumen Tema 05]] | 📝 [[wiki/tests/temas/test-bloque3-tema05-componentes-java-dotnet|Test Tema 05]]
-- [[wiki/synthesis/resumenes/resumen-bloque3-tema06|📄 Resumen Tema 06]] | 📝 [[wiki/tests/temas/test-bloque3-tema06-arquitecturas-web-servicios|Test Tema 06]]
-- [[wiki/synthesis/resumenes/resumen-bloque3-tema07|📄 Resumen Tema 07]] | 📝 [[wiki/tests/temas/test-bloque3-tema07-aplicaciones-web-frontend|Test Tema 07]]
-- [[wiki/synthesis/resumenes/resumen-bloque3-tema08|📄 Resumen Tema 08]] | 📝 [[wiki/tests/temas/test-bloque3-tema08-accesibilidad-wcag-usabilidad|Test Tema 08]]
-- [[wiki/synthesis/resumenes/resumen-bloque3-tema09|📄 Resumen Tema 09]] | 📝 [[wiki/tests/temas/test-bloque3-tema09-metodologias-qa-git|Test Tema 09]]
+- [[wiki/synthesis/resumenes/bloque-3-desarrollo-bbdd/resumen-bloque3-tema01|📄 Resumen Tema 01]] | 📝 [[wiki/tests/temas/test-bloque3-tema01-normalizacion-bbdd|Test Tema 01]]
+- [[wiki/synthesis/resumenes/bloque-3-desarrollo-bbdd/resumen-bloque3-tema02|📄 Resumen Tema 02]] | 📝 [[wiki/tests/temas/test-bloque3-tema02-lenguajes-compiladores|Test Tema 02]]
+- [[wiki/synthesis/resumenes/bloque-3-desarrollo-bbdd/resumen-bloque3-tema03|📄 Resumen Tema 03]] | 📝 [[wiki/tests/temas/test-bloque3-tema03-sql-interrogacion|Test Tema 03]]
+- [[wiki/synthesis/resumenes/bloque-3-desarrollo-bbdd/resumen-bloque3-tema04|📄 Resumen Tema 04]] | 📝 [[wiki/tests/temas/test-bloque3-tema04-poo-patrones-uml|Test Tema 04]]
+- [[wiki/synthesis/resumenes/bloque-3-desarrollo-bbdd/resumen-bloque3-tema05|📄 Resumen Tema 05]] | 📝 [[wiki/tests/temas/test-bloque3-tema05-componentes-java-dotnet|Test Tema 05]]
+- [[wiki/synthesis/resumenes/bloque-3-desarrollo-bbdd/resumen-bloque3-tema06|📄 Resumen Tema 06]] | 📝 [[wiki/tests/temas/test-bloque3-tema06-arquitecturas-web-servicios|Test Tema 06]]
+- [[wiki/synthesis/resumenes/bloque-3-desarrollo-bbdd/resumen-bloque3-tema07|📄 Resumen Tema 07]] | 📝 [[wiki/tests/temas/test-bloque3-tema07-aplicaciones-web-frontend|Test Tema 07]]
+- [[wiki/synthesis/resumenes/bloque-3-desarrollo-bbdd/resumen-bloque3-tema08|📄 Resumen Tema 08]] | 📝 [[wiki/tests/temas/test-bloque3-tema08-accesibilidad-wcag-usabilidad|Test Tema 08]]
+- [[wiki/synthesis/resumenes/bloque-3-desarrollo-bbdd/resumen-bloque3-tema09|📄 Resumen Tema 09]] | 📝 [[wiki/tests/temas/test-bloque3-tema09-metodologias-qa-git|Test Tema 09]]
 
 ---
 
