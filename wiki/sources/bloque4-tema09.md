@@ -132,3 +132,9 @@ Este tema aborda la seguridad en redes corporativas y en la Administración Púb
 - [[wiki/synthesis/security-frameworks-ens-magerit-ccn|Marco de Seguridad Pública: ENS, MAGERIT y CCN-STIC]]
 - [[wiki/synthesis/network-ports-and-protocols-cheatsheet|Cheatsheet de Puertos y Protocolos de Red]]
 - [[wiki/synthesis/bloque4-tai-oposiciones-master-guide|Guía Maestra de Bloque 4: Sistemas y Comunicaciones (TAI)]]
+
+> [!trampa] ⚠️ Trampas Frecuentes de Examen: ENS RD 311/2022 y Criptografía
+> 1. **Las 5 Dimensiones de Seguridad del ENS (Regla DADIT)**: **D**isponibilidad, **A**utenticidad, **I**ntegridad, **C**onfidencialidad (o D), **T**razabilidad. Ojo: La 'C' es Confidencialidad y la 'T' es Trazabilidad.
+> 2. **Categorización del Sistema en el ENS**: La categoría del sistema (BÁSICA, MEDIA, ALTA) se determina por la **regla del máximo**: la categoría global del sistema es la de la dimensión que haya obtenido el nivel MÁS ALTO.
+> 3. **Firma Digital (Criptografía Asimétrica)**: La firma digital se genera cifrando el hash del mensaje con la **CLAVE PRIVADA del emisor** (garantiza autenticidad y no repudio); y se verifica descifrando con la **CLAVE PÚBLICA del emisor**.
+> 4. **Diferencia entre Firma Avanzada y Firma Cualificada (eIDAS)**: La Firma Cualificada es una firma avanzada creada mediante un dispositivo cualificado de creación de firmas (QSCD / DNIe) y basada en un certificado cualificado. **Es la única que tiene efecto jurídico equivalente a la firma manuscrita en toda la UE**.

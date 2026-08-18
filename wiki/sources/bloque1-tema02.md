@@ -91,3 +91,9 @@ Y SUBSECRETARIOS                   • Prepara reuniones                   • C
 - [[wiki/entities/ley-50-1997-del-gobierno|Ley 50/1997 del Gobierno]]
 - [[wiki/synthesis/bloque1-organos-superiores-y-directivos-age-cheatsheet|Cheatsheet de Órganos de la AGE]]
 - [[wiki/tests/temas/test-bloque1-tema02-gobierno-age|Test Tema 02: El Gobierno y la AGE]]
+
+> [!trampa] ⚠️ Trampas Frecuentes de Examen: Gobierno y AGE
+> 1. **Composición del Gobierno (Art. 1.2 Ley 50/1997)**: El Gobierno se compone del Presidente, Vicepresidentes y Ministros. Los **Secretarios de Estado NO forman parte del Gobierno**, aunque sí son altos cargos y asisten a la Comisión General de Secretarios de Estado y Subsecretarios.
+> 2. **Secretario del Consejo de Ministros (Art. 5.2 Ley 50/1997)**: El Secretario es el **Ministro de la Presidencia** (no el Subsecretario de la Presidencia).
+> 3. **Cuestión de Confianza vs Moción de Censura**: La moción de censura exige **Mayoría Absoluta** del Congreso (176); la cuestión de confianza se aprueba por **Mayoría Simple** (más votos a favor que en contra).
+> 4. **Subdirector General (Art. 55 y 67 Ley 40/2015)**: Es el único órgano directivo que **NO es Alto Cargo** y se nombra por Orden Ministerial (no por Real Decreto).

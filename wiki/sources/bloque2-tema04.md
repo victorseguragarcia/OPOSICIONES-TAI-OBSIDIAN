@@ -115,3 +115,8 @@ ightarrow$ `Terminado`: Fin de ejecución (liberación de recursos).
 - Síntesis: [[wiki/synthesis/cpu-scheduling-and-deadlocks-cheatsheet|Cheatsheet de Planificación de CPU y Deadlocks]]
 - Síntesis: [[wiki/synthesis/virtual-memory-and-paging-algorithms-guide|Guía de Memoria Virtual y Algoritmos de Paginación]]
 - Síntesis: [[wiki/synthesis/file-systems-comparison-matrix|Matriz Comparativa de Sistemas de Archivos]]
+
+> [!trampa] ⚠️ Trampas Frecuentes de Examen: Sistemas Operativos y Memoria
+> 1. **Anomalía de Bélády**: Aumentar el número de marcos de página en memoria física **PUEDE aumentar el número de fallos de página** en el algoritmo **FIFO**. Ojo: los algoritmos de pila como **LRU y Óptimo (OPT) son inmunes** a la anomalía de Bélády.
+> 2. **Fragmentación Interna vs Externa**: La paginación sufre únicamente de **fragmentación interna** (en la última página asignada); la segmentación tradicional sufre de **fragmentación externa**.
+> 3. **Inanición (*Starvation*)**: Ocurre en **SJF (Shortest Job First)** y en algoritmos por prioridades estrictas si llegan continuamente procesos cortos; se soluciona mediante la técnica de **envejecimiento (*aging*)**.

@@ -39,7 +39,11 @@ Este tema engloba la ingeniería de desarrollo colaborativo: los modelos de cicl
 |-----------------------|-------------------|
 | **Métrica v3 Procesos** | **PSI**, **EVS**, **ASI**, **DSI**, **CSI**, **IAS** |
 | **Complejidad de McCabe** | **$V(G) = E - N + 2P = 	ext{Nodos Predicado} + 1$** |
-| **Zonas de Git** | **Working Directory** $ightarrow$ `git add` $ightarrow$ **Staging Area (Index)** $ightarrow$ `git commit` $ightarrow$ **Local Repo** |
+| **Zonas de Git** | **Working Directory** $
+ightarrow$ `git add` $
+ightarrow$ **Staging Area (Index)** $
+ightarrow$ `git commit` $
+ightarrow$ **Local Repo** |
 | **`git rebase` vs `merge`** | `rebase`: Historial lineal sin commit de merge \| `merge`: Conserva historial con commit de unión |
 | **SonarQube** | Análisis estático de código para calidad, cobertura, olores de código y *Quality Gates* |
 
@@ -51,3 +55,16 @@ Este tema engloba la ingeniería de desarrollo colaborativo: los modelos de cicl
 - Concepto: [[wiki/concepts/white-box-and-black-box-testing|Pruebas de Caja Blanca, Caja Negra y McCabe]]
 - Síntesis: [[wiki/synthesis/metrica-v3-processes-and-artifacts-guide|Guía de Procesos y Artefactos de MÉTRICA v3]]
 - Síntesis: [[wiki/synthesis/software-testing-and-qa-guide|Guía de Pruebas de Software y QA]]
+
+> [!trampa] ⚠️ Trampas Frecuentes de Examen: MÉTRICA v3 y QA
+> 1. **Fórmula de Complejidad Ciclomática de McCabe**:
+>    $$V(G) = E - N + 2P$$
+>    Donde $E$ = Número de aristas, $N$ = Número de nodos, $P$ = Componentes conexos (para un programa simple $P=1 \implies V(G) = E - N + 2$).
+>    También es igual a: $V(G) = 	ext{Regiones del grafo plano} = 	ext{Nodos predicado (condiciones simples)} + 1$.
+> 2. **Procesos de MÉTRICA v3**:
+>    - **EVS**: Estudio de Viabilidad del Sistema.
+>    - **ASI**: Análisis del Sistema de Información.
+>    - **DSI**: Diseño del Sistema de Información (incluye diseño de interfaz y arquitectura física).
+>    - **CSI**: Construcción del Sistema de Información (codificación, pruebas unitarias y de integración).
+>    - **IAS**: Implantación y Aceptación del Sistema (pruebas de aceptación y paso a producción).
+>    - **MSI**: Mantenimiento del Sistema de Información.

@@ -78,10 +78,20 @@ Resumen exhaustivo de la Unidad Didáctica **UD022580** sobre el Texto Refundido
 | **Falta Leve** | **6 meses** | **1 año** |
 
 > [!mnemo] 🧠 Mnemotecnia de Prescripción Disciplinaria TREBEP
-> - **Faltas**: 3 años (Muy Grave) $ightarrow$ 2 años (Grave) $ightarrow$ 6 meses (Leve). *(3 - 2 - 0.5)*
-> - **Sanciones**: 3 años (Muy Grave) $ightarrow$ 2 años (Grave) $ightarrow$ 1 año (Leve). *(3 - 2 - 1)*
+> - **Faltas**: 3 años (Muy Grave) $
+ightarrow$ 2 años (Grave) $
+ightarrow$ 6 meses (Leve). *(3 - 2 - 0.5)*
+> - **Sanciones**: 3 años (Muy Grave) $
+ightarrow$ 2 años (Grave) $
+ightarrow$ 1 año (Leve). *(3 - 2 - 1)*
 
 ---
+
+> [!trampa] ⚠️ Trampas Frecuentes de Examen: TREBEP y Personal
+> 1. **Diferencia de Plazo en Prescripciones Leves (Art. 97)**: La falta leve prescribe a los **6 meses**, pero la sanción leve prescribe al **1 año**. *(Muy graves: 3 años / 3 años; Graves: 2 años / 2 años)*.
+> 2. **Límite Temporal del Funcionario Interino por Vacante (Art. 10.1.a)**: Las plazas vacantes ocupadas por interinos **no pueden superar los 3 años**; transcurrido este plazo debe producirse el cese del interino y la plaza debe salir a oferta de empleo público.
+> 3. **Reserva de Potestades Públicas (Art. 9.2)**: El ejercicio de funciones que impliquen la participación directa o indirecta en el ejercicio de las potestades públicas o en la salvaguardia de los intereses generales del Estado corresponden **exclusivamente a los funcionarios públicos** (vetado al personal laboral).
+> 4. **Excedencia por Interés Particular (Art. 89.2)**: Requiere haber prestado servicios efectivos en cualquiera de las AAPP durante un periodo mínimo de **5 años** inmediatamente anteriores.
 
 ## 🔵 4. Entidades y Conceptos Asociados
 - [[wiki/entities/trebep-empleado-publico|TREBEP (RDL 5/2015)]]

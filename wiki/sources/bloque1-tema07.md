@@ -54,3 +54,9 @@ Este tema constituye el pilar procedimental de las Administraciones Públicas: l
 - Síntesis: [[wiki/synthesis/plazos-procedimiento-administrativo-cheatsheet|Cheatsheet de Plazos del Procedimiento Administrativo]]
 - Síntesis: [[wiki/synthesis/recursos-administrativos-comparativa-guia|Guía Comparativa de Recursos Administrativos]]
 - Síntesis: [[wiki/synthesis/actos-nulos-vs-anulables-guia|Guía de Actos Nulos vs Anulables]]
+
+> [!trampa] ⚠️ Trampas Frecuentes de Examen: LPACAP (Ley 39/2015)
+> 1. **Días Hábiles vs Días Naturales**: En notificaciones electrónicas (Art. 43.2), se entiende rechazada a los **10 días naturales** sin acceder; pero el plazo para subsanar solicitudes (Art. 68.1) es de **10 días hábiles**.
+> 2. **Cómputo de Sábados (Art. 30.2)**: Desde la entrada en vigor de la Ley 39/2015, los **sábados son días inhábiles** en vía administrativa.
+> 3. **Plazos por Meses (Art. 30.4)**: Se computan de **fecha a fecha** a partir del día siguiente a la notificación. Si el mes de vencimiento no tiene día equivalente, expira el **último día del mes**.
+> 4. **Doble Silencio Positivo (Art. 24.1)**: La falta de resolución de un Recurso de Alzada interpuesto contra la desestimación por silencio administrativo de una solicitud produce **silencio positivo** (salvo en las 4 materias tasadas: petición, dominio público, medio ambiente y responsabilidad patrimonial).

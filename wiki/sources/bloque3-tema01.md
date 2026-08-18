@@ -74,7 +74,8 @@ Resumen procesado y profundizado a partir de la fuente oficial [[raw/sources/blo
 ## 🔵 4. Teoría de la Normalización y Formas Normales (1FN a 5FN)
 
 ### Definición de Dependencia Funcional (DF):
-Dado un esquema $R$, existe una dependencia funcional $X ightarrow Y$ si y solo si para cualquier par de tuplas $t_1, t_2 \in R$, si $t_1[X] = t_2[X]$ entonces $t_1[Y] = t_2[Y]$.
+Dado un esquema $R$, existe una dependencia funcional $X 
+ightarrow Y$ si y solo si para cualquier par de tuplas $t_1, t_2 \in R$, si $t_1[X] = t_2[X]$ entonces $t_1[Y] = t_2[Y]$.
 
 ```
   1FN ──> 2FN ──> 3FN ──> BCNF (Boyce-Codd) ──> 4FN ──> 5FN
@@ -88,10 +89,14 @@ Dado un esquema $R$, existe una dependencia funcional $X ightarrow Y$ si y solo
    - Todo atributo no principal posee **dependencia funcional completa** respecto a cada clave candidata (elimina dependencias parciales de claves compuestas).
 3. **Tercera Forma Normal (3FN)**:
    - Cumple 2FN.
-   - Ningún atributo no principal depende **transitivamente** de una clave candidata ($X ightarrow Y ightarrow Z$).
-   - Condición formal: Para toda DF no trivial $X ightarrow A$, $X$ es superclave o $A$ es un atributo primo (pertenece a alguna clave candidata).
+   - Ningún atributo no principal depende **transitivamente** de una clave candidata ($X 
+ightarrow Y 
+ightarrow Z$).
+   - Condición formal: Para toda DF no trivial $X 
+ightarrow A$, $X$ es superclave o $A$ es un atributo primo (pertenece a alguna clave candidata).
 4. **Forma Normal de Boyce-Codd (BCNF / FNBC)**:
-   - Condición formal más estricta: Para **toda** dependencia funcional no trivial $X ightarrow A$, $X$ debe ser **superclave**.
+   - Condición formal más estricta: Para **toda** dependencia funcional no trivial $X 
+ightarrow A$, $X$ debe ser **superclave**.
 5. **Cuarta Forma Normal (4FN)**:
    - Cumple BCNF y no contiene **dependencias multivaluadas (MVD)** no triviales ($X 	woheadrightarrow Y$).
 6. **Quinta Forma Normal (5FN / Proyección-Unión)**:
@@ -115,3 +120,8 @@ Dado un esquema $R$, existe una dependencia funcional $X ightarrow Y$ si y solo
 - Entidad: [[wiki/entities/relational-database-modeling-and-normalization|Modelado de Datos Relacional y Normalización]]
 - Concepto: [[wiki/concepts/normalization-and-normal-forms|Formas Normales y Dependencias Funcionales]]
 - Síntesis: [[wiki/synthesis/database-normalization-and-sql-cheatsheet|Cheatsheet de Normalización de BBDD y SQL]]
+
+> [!trampa] ⚠️ Trampas Frecuentes de Examen: Normalización de Bases de Datos
+> 1. **Diferencia Crítica entre 3FN y BCNF (Boyce-Codd)**: En 3FN se permite que para una dependencia funcional $X ightarrow A$, si $X$ no es superclave, $A$ sea un **atributo primo** (parte de alguna clave candidata). En **BCNF NO HAY EXCEPCIONES**: **TODO determinante $X$ debe ser obligatoriamente una superclave**.
+> 2. **2FN (Segunda Forma Normal)**: Exige estar en 1FN y que **no existan dependencias funcionales parciales** (los atributos no primos deben depender de la TOTALIDAD de la clave primaria, no de una parte). Ojo: Si la clave primaria es simple (de 1 solo atributo), la tabla en 1FN **está automáticamente en 2FN**.
+> 3. **4FN (Cuarta Forma Normal)**: Elimina las **dependencias multivaluadas (DMV)** no triviales ($X 	woheadrightarrow Y$).

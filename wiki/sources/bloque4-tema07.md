@@ -146,3 +146,10 @@ Este tema constituye el núcleo teórico de redes de comunicaciones en las oposi
 - [[wiki/synthesis/ipv4-vs-ipv6-comparison|Comparativa Técnica de Direccionamiento: IPv4 vs IPv6]]
 - [[wiki/synthesis/network-ports-and-protocols-cheatsheet|Cheatsheet de Puertos y Protocolos de Red]]
 - [[wiki/synthesis/bloque4-tai-oposiciones-master-guide|Guía Maestra de Bloque 4: Sistemas y Comunicaciones (TAI)]]
+
+> [!trampa] ⚠️ Trampas Frecuentes de Examen: Redes y Subnetting
+> 1. **Número de Hosts Útiles en IPv4**: Siempre es **$2^{h} - 2$** (se restan 2: la dirección de red donde todos los bits de host son `0` y la de broadcast donde todos son `1`).
+>    *Ejemplo: En una máscara `/27` ($32 - 27 = 5$ bits de host), los hosts útiles son $2^5 - 2 = 30$ hosts*.
+> 2. **Broadcast en IPv6**: **En IPv6 NO EXISTE EL BROADCAST**. Se sustituye por tráfico **Multicast** y **Anycast**.
+> 3. **Cabecera IPv4 vs IPv6**: La cabecera IPv4 tiene longitud variable (20 a 60 bytes); la cabecera base de IPv6 tiene **longitud fija obligatoria de 40 bytes**, utilizando cabeceras de extensión encadenadas (*Next Header*).
+> 4. **Dirección Loopback**: IPv4 es `127.0.0.1/8`; en IPv6 es estrictamente `::1/128`.

@@ -97,3 +97,8 @@ e 0$: **Números desnormalizados** (sin el 1 implícito).
 - Entidad: [[wiki/entities/character-encoding-unicode-utf8|Codificación de Caracteres: ASCII, ISO 8859 y Unicode]]
 - Concepto: [[wiki/concepts/two-complement-and-binary-arithmetic|Complemento a Dos y Aritmética Binaria]]
 - Síntesis: [[wiki/synthesis/ieee-754-and-binary-representation-cheatsheet|Cheatsheet de IEEE 754 y Representación Binaria]]
+
+> [!trampa] ⚠️ Trampas Frecuentes de Examen: Informática Básica y C2
+> 1. **Rango de Complemento a 2**: En $n$ bits el rango es $[-2^{n-1}, +(2^{n-1}-1)]$. Para 8 bits: $[-128, +127]$. Ojo: el valor $-128$ se representa como `10000000` y **no tiene equivalente positivo en 8 bits** (desbordamiento / *overflow* si se intenta negar).
+> 2. **Sesgo IEEE 754**: En simple precisión (32 bits), el sesgo es **127** ($2^{8-1}-1$). El exponente almacenado es $E = e + 127$. Los exponentes $E=0$ (números desnormalizados/cero) y $E=255$ (infinito/NaN) están reservados.
+> 3. **Bit Implícito**: En números normalizados IEEE 754, la mantisa siempre comienza por `1.` que **NO se almacena** en los 23 bits de fracción, ganando 1 bit extra de precisión efectiva (24 bits totales).

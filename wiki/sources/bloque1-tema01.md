@@ -103,6 +103,12 @@ El sistema de protección constitucional se divide en 3 niveles estrictos:
 
 ---
 
+> [!trampa] ⚠️ Trampas Frecuentes de Examen: Constitución de 1978
+> 1. **Entrada en vigor**: La CE **NO** entró en vigor el 6 de diciembre (referéndum) ni el 27 de diciembre (sanción real), sino el **29 de diciembre de 1978** (el mismo día de su publicación en el BOE).
+> 2. **Refrendo de la investidura (Art. 64.1)**: La propuesta y el nombramiento del Presidente del Gobierno los refrenda el **Presidente del Congreso de los Diputados** (NUNCA el Presidente del Senado ni el saliente).
+> 3. **Recurso de Amparo (Art. 53.2)**: Protege el **Art. 14**, la **Sección 1ª del Cap. II (Arts. 15 a 29)** y la **Objeción de Conciencia (Art. 30.2)**. Los derechos de la Sección 2ª (propiedad, trabajo, etc.) y los principios rectores (Cap. III) **NO** tienen recurso de amparo.
+> 4. **Reforma Agravada (Art. 168)**: Requiere mayoría de **2/3 de cada Cámara**, disolución inmediata de Cortes, ratificación por las nuevas Cámaras elegidas por mayoría de 2/3 y **referéndum preceptivo obligatorio**.
+
 ## 🔵 4. Entidades y Conceptos Asociados
 - [[wiki/entities/constitucion-espanola-1978|Constitución Española de 1978]]
 - [[wiki/entities/cortes-generales|Cortes Generales]]

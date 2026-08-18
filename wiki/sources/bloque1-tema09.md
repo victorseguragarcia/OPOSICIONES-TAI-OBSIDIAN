@@ -78,3 +78,9 @@ Resumen exhaustivo de la Unidad Didáctica **UD012191** sobre el Reglamento (UE)
 - [[wiki/entities/aepd-agencia-proteccion-datos|Agencia Española de Protección de Datos (AEPD)]]
 - [[wiki/synthesis/derechos-digitales-titulo-x-lopdgdd-cheatsheet|Cheatsheet de Derechos Digitales (Título X)]]
 - [[wiki/tests/temas/test-bloque1-tema09-rgpd-lopdgdd|Test Tema 09: Protección de Datos y Derechos Digitales]]
+
+> [!trampa] ⚠️ Trampas Frecuentes de Examen: Protección de Datos (RGPD y LOPDGDD)
+> 1. **Edad de consentimiento del menor (Art. 7 LOPDGDD)**: En España es a partir de los **14 años** (el RGPD permitía entre 13 y 16, y España fijó 14).
+> 2. **Plazo de Notificación de Brechas a la AEPD (Art. 33 RGPD)**: Plazo máximo de **72 horas** a más tardar desde que el responsable tenga constancia de ella.
+> 3. **Sanciones a las Administraciones Públicas (Art. 77 LOPDGDD)**: La AEPD **NO impone multas económicas** al Sector Público; sanciona mediante apercibimiento e incoación de expediente disciplinario a los responsables.
+> 4. **Plazo de respuesta derechos ARSOPOL (Art. 12.3 RGPD)**: **1 mes** con carácter general (prorrogable en otros 2 meses en casos de complejidad justificada).
