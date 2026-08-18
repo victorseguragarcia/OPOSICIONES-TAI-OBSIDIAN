@@ -1,142 +1,21 @@
 {
-  "nodes": [
-    {
-      "id": "b1_header",
-      "type": "text",
-      "text": "# 🏛️ Bloque 1: Administración Pública y Marco Digital (TAI - AGE)\n\n> Mapa conceptual interactivo que cubre los 10 temas oficiales de Organización del Estado, Derecho Administrativo, Procedimiento Electrónico y Protección de Datos.",
-      "x": -200,
-      "y": -550,
-      "width": 800,
-      "height": 140,
-      "color": "#EF5350"
-    },
-    {
-      "id": "b1_box1",
-      "type": "text",
-      "text": "## 🔴 Bloque 1A: Organización del Estado, UE y Función Pública\n\n### ⚖️ 1. Constitución Española de 1978 (Temas 01, 02, 03)\n- **Entrada en Vigor**: 29/12/1978 (publicación BOE).\n- **Derechos Fundamentales**: Sección 1ª (Arts. 15-29) + Art. 14 + Art. 30.2 $\\rightarrow$ **Recurso de Amparo**.\n- **Reforma Constitucional**: Art. 167 (3/5) vs Art. 168 (Agravada: 2/3 + disolución + referéndum).\n- **Órganos AGE (Ley 40/2015)**:\n  - *Superiores*: Ministros y Secretarios de Estado.\n  - *Directivos*: Subsecretarios, Secretarios Generales, Directores Generales y Subdirectores Generales (no es alto cargo).\n\n### 🇪🇺 2. Unión Europea y CCAA (Temas 03, 04)\n- **Tratado de Lisboa**: Personalidad jurídica única.\n- **Fuentes UE**: Reglamento (alcance general, vinculante y directo) vs Directiva (obliga a resultado, requiere transposición).\n- **Instituciones**: Consejo Europeo (orientación política) vs Comisión (iniciativa legislativa) vs TJUE (Luxemburgo, cuestión prejudicial art. 267).\n\n### 👥 3. Empleado Público y TREBEP (Tema 05)\n- **Personal**: Funcionarios de Carrera, Interinos (máx. 3 años en vacante), Laborales y Eventuales.\n- **Prescripción Faltas (Art. 97)**: Muy Graves (3 años/3 años) | Graves (2 años/2 años) | Leves (falta 6 meses / sanción 1 año).\n- **Situaciones**: Servicio activo, Servicios especiales, Excedencias (interés particular $\\ge$ 5 años).",
-      "x": -550,
-      "y": -360,
-      "width": 550,
-      "height": 520,
-      "color": "#EF5350"
-    },
-    {
-      "id": "b1_box2",
-      "type": "text",
-      "text": "## 🔴 Bloque 1B: Procedimiento Administrativo, Datos y Transparencia\n\n### 📜 4. Ley 39/2015 (LPACAP) y Ley 40/2015 (LRJSP) (Temas 07, 08)\n- **Cómputo de Plazos (Art. 30)**: Días hábiles (excluye sábados/domingos/festivos) vs naturales.\n- **Notificación Electrónica**: Rechazo tras **10 días naturales** sin acceder en DEHú.\n- **Subsanación**: **10 días hábiles** (ampliable en 5 días).\n- **Silencio Administrativo**: Regla general Positivo | Negativo en derecho de petición, dominio público, medio ambiente y transparencia.\n- **Doble Silencio**: En alzada contra silencio desestimatorio previo $\\rightarrow$ **Silencio Positivo**.\n\n### 🔒 5. Protección de Datos y Derechos Digitales (Tema 09)\n- **RGPD (UE 2016/679) y LOPDGDD (LO 3/2018)**: Edad de consentimiento en España = **14 años**.\n- **Notificación Brechas AEPD**: Plazo máximo **72 horas**.\n- **Sanciones al Sector Público**: Apercibimiento sin multas dinerarias (Art. 77 LOPD).\n- **Derechos ARSOPOL**: Acceso, Rectificación, Supresión, Oposición, Portabilidad, Limitación (plazo respuesta 1 mes).\n\n### 🏛️ 6. Transparencia y CTBG (Tema 10)\n- **Plazo resolución solicitud acceso**: **1 mes** (prorrogable 1 mes). Silencio = Negativo.\n- **Reclamación previa**: Ante el Consejo de Transparencia y Buen Gobierno (CTBG) en plazo de 1 mes.",
-      "x": 50,
-      "y": -360,
-      "width": 550,
-      "height": 520,
-      "color": "#BA68C8"
-    },
-    {
-      "id": "b1_box3",
-      "type": "text",
-      "text": "## ⚡ Servicios Digitales e Interoperabilidad (ENI)\n- **Red SARA**: Red privada de telecomunicaciones interconectada con sTESTA de la UE.\n- **Servicios Comunes**: Cl@ve (identidad), SIR (interconexión de registros), FACe (factura electrónica), INSIDE (expediente electrónico), ARCHIVE (archivo digital).\n- **DIR3**: Directorio Común de Unidades Orgánicas y Oficinas de Registro.\n- **Firma Electrónica (eIDAS)**: Sello electrónico cualificado y Código Seguro de Verificación (CSV) para Actuaciones Automatizadas.",
-      "x": 650,
-      "y": -360,
-      "width": 450,
-      "height": 280,
-      "color": "#42A5F5"
-    },
-    {
-      "id": "b1_synth1",
-      "type": "file",
-      "file": "wiki/synthesis/tablas-maestras-plazos-y-silencios-administrativos-age.md",
-      "x": -550,
-      "y": 200,
-      "width": 380,
-      "height": 260,
-      "color": "#64B5F6"
-    },
-    {
-      "id": "b1_synth2",
-      "type": "file",
-      "file": "wiki/synthesis/tarjetas-memoria-flashcards-bloque1-administracion.md",
-      "x": -130,
-      "y": 200,
-      "width": 380,
-      "height": 260,
-      "color": "#64B5F6"
-    },
-    {
-      "id": "b1_synth3",
-      "type": "file",
-      "file": "wiki/synthesis/bloque1-informatica-y-administracion-digital-master-guide.md",
-      "x": 290,
-      "y": 200,
-      "width": 380,
-      "height": 260,
-      "color": "#64B5F6"
-    },
-    {
-      "id": "b1_synth4",
-      "type": "file",
-      "file": "wiki/synthesis/servicios-comunes-age-administracion-electronica-cheatsheet.md",
-      "x": 710,
-      "y": 200,
-      "width": 390,
-      "height": 260,
-      "color": "#64B5F6"
-    }
-  ],
-  "edges": [
-    {
-      "id": "e1",
-      "fromNode": "b1_header",
-      "fromSide": "bottom",
-      "toNode": "b1_box1",
-      "toSide": "top",
-      "color": "#EF5350"
-    },
-    {
-      "id": "e2",
-      "fromNode": "b1_header",
-      "fromSide": "bottom",
-      "toNode": "b1_box2",
-      "toSide": "top",
-      "color": "#BA68C8"
-    },
-    {
-      "id": "e3",
-      "fromNode": "b1_header",
-      "fromSide": "bottom",
-      "toNode": "b1_box3",
-      "toSide": "top",
-      "color": "#42A5F5"
-    },
-    {
-      "id": "e4",
-      "fromNode": "b1_box1",
-      "fromSide": "bottom",
-      "toNode": "b1_synth1",
-      "toSide": "top",
-      "color": "#64B5F6"
-    },
-    {
-      "id": "e5",
-      "fromNode": "b1_box1",
-      "fromSide": "bottom",
-      "toNode": "b1_synth2",
-      "toSide": "top",
-      "color": "#64B5F6"
-    },
-    {
-      "id": "e6",
-      "fromNode": "b1_box2",
-      "fromSide": "bottom",
-      "toNode": "b1_synth3",
-      "toSide": "top",
-      "color": "#64B5F6"
-    },
-    {
-      "id": "e7",
-      "fromNode": "b1_box3",
-      "fromSide": "bottom",
-      "toNode": "b1_synth4",
-      "toSide": "top",
-      "color": "#64B5F6"
-    }
-  ]
+	"nodes":[
+		{"id":"b1_header","type":"text","text":"# 🏛️ Bloque 1: Administración Pública y Marco Digital (TAI - AGE)\n\n> Mapa conceptual interactivo que cubre los 10 temas oficiales de Organización del Estado, Derecho Administrativo, Procedimiento Electrónico y Protección de Datos.","x":-200,"y":-550,"width":800,"height":140,"color":"#EF5350"},
+		{"id":"b1_box1","type":"text","text":"## 🔴 Bloque 1A: Organización del Estado, UE y Función Pública\n\n### ⚖️ 1. Constitución Española de 1978 (Temas 01, 02, 03)\n- **Entrada en Vigor**: 29/12/1978 (publicación BOE).\n- **Derechos Fundamentales**: Sección 1ª (Arts. 15-29) + Art. 14 + Art. 30.2 $\\rightarrow$ **Recurso de Amparo**.\n- **Reforma Constitucional**: Art. 167 (3/5) vs Art. 168 (Agravada: 2/3 + disolución + referéndum).\n- **Órganos AGE (Ley 40/2015)**:\n  - *Superiores*: Ministros y Secretarios de Estado.\n  - *Directivos*: Subsecretarios, Secretarios Generales, Directores Generales y Subdirectores Generales (no es alto cargo).\n\n### 🇪🇺 2. Unión Europea y CCAA (Temas 03, 04)\n- **Tratado de Lisboa**: Personalidad jurídica única.\n- **Fuentes UE**: Reglamento (alcance general, vinculante y directo) vs Directiva (obliga a resultado, requiere transposición).\n- **Instituciones**: Consejo Europeo (orientación política) vs Comisión (iniciativa legislativa) vs TJUE (Luxemburgo, cuestión prejudicial art. 267).\n\n### 👥 3. Empleado Público y TREBEP (Tema 05)\n- **Personal**: Funcionarios de Carrera, Interinos (máx. 3 años en vacante), Laborales y Eventuales.\n- **Prescripción Faltas (Art. 97)**: Muy Graves (3 años/3 años) | Graves (2 años/2 años) | Leves (falta 6 meses / sanción 1 año).\n- **Situaciones**: Servicio activo, Servicios especiales, Excedencias (interés particular $\\ge$ 5 años).","x":-550,"y":-360,"width":550,"height":520,"color":"#EF5350"},
+		{"id":"b1_box2","type":"text","text":"## 🔴 Bloque 1B: Procedimiento Administrativo, Datos y Transparencia\n\n### 📜 4. Ley 39/2015 (LPACAP) y Ley 40/2015 (LRJSP) (Temas 07, 08)\n- **Cómputo de Plazos (Art. 30)**: Días hábiles (excluye sábados/domingos/festivos) vs naturales.\n- **Notificación Electrónica**: Rechazo tras **10 días naturales** sin acceder en DEHú.\n- **Subsanación**: **10 días hábiles** (ampliable en 5 días).\n- **Silencio Administrativo**: Regla general Positivo | Negativo en derecho de petición, dominio público, medio ambiente y transparencia.\n- **Doble Silencio**: En alzada contra silencio desestimatorio previo $\\rightarrow$ **Silencio Positivo**.\n\n### 🔒 5. Protección de Datos y Derechos Digitales (Tema 09)\n- **RGPD (UE 2016/679) y LOPDGDD (LO 3/2018)**: Edad de consentimiento en España = **14 años**.\n- **Notificación Brechas AEPD**: Plazo máximo **72 horas**.\n- **Sanciones al Sector Público**: Apercibimiento sin multas dinerarias (Art. 77 LOPD).\n- **Derechos ARSOPOL**: Acceso, Rectificación, Supresión, Oposición, Portabilidad, Limitación (plazo respuesta 1 mes).\n\n### 🏛️ 6. Transparencia y CTBG (Tema 10)\n- **Plazo resolución solicitud acceso**: **1 mes** (prorrogable 1 mes). Silencio = Negativo.\n- **Reclamación previa**: Ante el Consejo de Transparencia y Buen Gobierno (CTBG) en plazo de 1 mes.","x":50,"y":-360,"width":550,"height":520,"color":"#BA68C8"},
+		{"id":"b1_box3","type":"text","text":"## ⚡ Servicios Digitales e Interoperabilidad (ENI)\n- **Red SARA**: Red privada de telecomunicaciones interconectada con sTESTA de la UE.\n- **Servicios Comunes**: Cl@ve (identidad), SIR (interconexión de registros), FACe (factura electrónica), INSIDE (expediente electrónico), ARCHIVE (archivo digital).\n- **DIR3**: Directorio Común de Unidades Orgánicas y Oficinas de Registro.\n- **Firma Electrónica (eIDAS)**: Sello electrónico cualificado y Código Seguro de Verificación (CSV) para Actuaciones Automatizadas.","x":650,"y":-360,"width":450,"height":280,"color":"#42A5F5"},
+		{"id":"b1_synth1","type":"file","file":"wiki/synthesis/tablas-maestras-plazos-y-silencios-administrativos-age.md","x":-550,"y":200,"width":380,"height":2140,"color":"#64B5F6"},
+		{"id":"b1_synth2","type":"file","file":"wiki/synthesis/tarjetas-memoria-flashcards-bloque1-administracion.md","x":-130,"y":200,"width":380,"height":1920,"color":"#64B5F6"},
+		{"id":"b1_synth3","type":"file","file":"wiki/synthesis/bloque1-informatica-y-administracion-digital-master-guide.md","x":290,"y":200,"width":380,"height":260,"color":"#64B5F6"},
+		{"id":"b1_synth4","type":"file","file":"wiki/synthesis/servicios-comunes-age-administracion-electronica-cheatsheet.md","x":710,"y":200,"width":390,"height":260,"color":"#64B5F6"}
+	],
+	"edges":[
+		{"id":"e1","fromNode":"b1_header","fromSide":"bottom","toNode":"b1_box1","toSide":"top","color":"#EF5350"},
+		{"id":"e2","fromNode":"b1_header","fromSide":"bottom","toNode":"b1_box2","toSide":"top","color":"#BA68C8"},
+		{"id":"e3","fromNode":"b1_header","fromSide":"bottom","toNode":"b1_box3","toSide":"top","color":"#42A5F5"},
+		{"id":"e4","fromNode":"b1_box1","fromSide":"bottom","toNode":"b1_synth1","toSide":"top","color":"#64B5F6"},
+		{"id":"e5","fromNode":"b1_box1","fromSide":"bottom","toNode":"b1_synth2","toSide":"top","color":"#64B5F6"},
+		{"id":"e6","fromNode":"b1_box2","fromSide":"bottom","toNode":"b1_synth3","toSide":"top","color":"#64B5F6"},
+		{"id":"e7","fromNode":"b1_box3","fromSide":"bottom","toNode":"b1_synth4","toSide":"top","color":"#64B5F6"}
+	]
 }

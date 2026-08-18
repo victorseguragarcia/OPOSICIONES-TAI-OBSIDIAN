@@ -1,17 +1,142 @@
 {
-	"nodes":[
-		{"id":"c7cc8cc5ad6b4da4","type":"text","x":-150,"y":-380,"width":550,"height":130,"color":"#EF5350","text":"# ⚙️ Bloque 3: Desarrollo de Sistemas (TAI)\n\nMapa interactivo de navegación y estudio visual."},
-		{"id":"02339a93d8b245f6","type":"text","x":-450,"y":-200,"width":400,"height":220,"color":"#EF5350","text":"## 🔴 Metodologías, UML y BBDD\n- MÉTRICA v3 (PSI, EVS, ASI, DSI, CSI, IAS)\n- Scrum (PO/SM/Devs), Kanban (WIP), XP\n- Normalización Relacional (1FN a 5FN, BCNF)\n- ANSI SQL, Triggers, Stored Procedures"},
-		{"id":"31d8e3c03f644b06","type":"text","x":50,"y":-200,"width":420,"height":220,"color":"#EF5350","text":"## 🔴 Programación, Web y QA\n- Java EE / JVM vs Microsoft .NET CLR\n- RESTful (HATEOAS) vs SOAP (WSDL/XML)\n- Testing: Caja Blanca (McCabe), Caja Negra\n- Accesibilidad: WCAG 2.1 POUR y RD 1112/2018"},
-		{"id":"8869c9ff3034485c","type":"file","file":"wiki/synthesis/bloque3-tai-oposiciones-master-guide.md","x":-450,"y":80,"width":400,"height":240,"color":"#64B5F6"},
-		{"id":"7b30707b01434c48","type":"file","file":"wiki/synthesis/metrica-v3-processes-and-artifacts-guide.md","x":50,"y":80,"width":420,"height":240,"color":"#64B5F6"},
-		{"id":"e5d4e6282f464441","type":"file","file":"wiki/synthesis/supuestos-practicos-bloque3-normalizacion-bbdd.md","x":520,"y":80,"width":400,"height":240,"color":"#64B5F6"}
-	],
-	"edges":[
-		{"id":"edcd81a11e3e4554","fromNode":"c7cc8cc5ad6b4da4","toNode":"02339a93d8b245f6","color":"#EF5350","fromSide":"bottom","toSide":"top"},
-		{"id":"6bfe1fed4871480a","fromNode":"c7cc8cc5ad6b4da4","toNode":"31d8e3c03f644b06","color":"#EF5350","fromSide":"bottom","toSide":"top"},
-		{"id":"53a9ff06f7f04b78","fromNode":"c7cc8cc5ad6b4da4","toNode":"8869c9ff3034485c","color":"#64B5F6","fromSide":"bottom","toSide":"top"},
-		{"id":"2ba9fa0fdbda4855","fromNode":"c7cc8cc5ad6b4da4","toNode":"7b30707b01434c48","color":"#64B5F6","fromSide":"bottom","toSide":"top"},
-		{"id":"45db8a471f234111","fromNode":"c7cc8cc5ad6b4da4","toNode":"e5d4e6282f464441","color":"#64B5F6","fromSide":"bottom","toSide":"top"}
-	]
+  "nodes": [
+    {
+      "id": "b3_header",
+      "type": "text",
+      "text": "# ⚙️ Bloque 3: Desarrollo de Sistemas y Aplicaciones Web (TAI - AGE)\n\n> Mapa interactivo de metodologías de desarrollo (MÉTRICA v3, Agile), modelado relacional, SQL ANSI, arquitectura de software, tecnologías web y control de calidad.",
+      "x": -200,
+      "y": -550,
+      "width": 800,
+      "height": 140,
+      "color": "#4CAF50"
+    },
+    {
+      "id": "b3_box1",
+      "type": "text",
+      "text": "## 🟢 Metodologías, MÉTRICA v3, Scrum y Calidad (Temas 08, 09)\n\n### 📐 MÉTRICA Versión 3:\n- **Procesos Principales**:\n  - **EVS**: Estudio de Viabilidad del Sistema.\n  - **ASI**: Análisis del Sistema (requisitos, Casos de Uso, DFD).\n  - **DSI**: Diseño del Sistema (arquitectura física, datos y UI).\n  - **CSI**: Construcción del Sistema (codificación, pruebas unitarias/integración).\n  - **IAS**: Implantación y Aceptación (puesta en producción).\n  - **MSI**: Mantenimiento del Sistema.\n- **Complejidad Ciclomática de McCabe**:\n  $$V(G) = E - N + 2P = \\text{Regiones} = \\text{Nodos predicado} + 1$$\n\n### 🏃 Metodologías Ágiles (Scrum, Kanban, XP):\n- **Scrum**: Roles (Product Owner, Scrum Master, Developers), Eventos (Sprint 1-4 sem., Daily 15 min, Sprint Review, Retrospective), Artefactos (Product Backlog, Sprint Backlog, Incremento).\n- **Kanban**: Visualización del flujo y limitación del trabajo en curso (**WIP**).\n\n### 🐙 Control de Versiones con Git:\n- `git merge --no-ff` (preserva histórico explícito) vs `git rebase` (historial lineal).\n- `git cherry-pick` (aplica un commit puntual) | `git stash` (almacén temporal).\n- `git reset --soft` (mantiene en stage) vs `git reset --hard` (borra cambios).",
+      "x": -580,
+      "y": -360,
+      "width": 560,
+      "height": 540,
+      "color": "#4CAF50"
+    },
+    {
+      "id": "b3_box2",
+      "type": "text",
+      "text": "## 🟢 Modelado Relacional, SQL ANSI y POO (Temas 01, 03, 04)\n\n### 🗄️ Normalización de Bases de Datos:\n- **1FN**: Todos los atributos son atómicos (sin grupos repetitivos).\n- **2FN**: En 1FN + sin dependencias funcionales parciales (todo depende de la clave completa).\n- **3FN**: En 2FN + sin dependencias transitivas (en $X \\rightarrow A$, $X$ es superclave o $A$ es primo).\n- **BCNF (Boyce-Codd)**: **TODO determinante $X$ debe ser estrictamente superclave**.\n- **4FN**: Elimina dependencias multivaluadas no triviales ($X \\twoheadrightarrow Y$).\n\n### 💻 SQL ANSI y Transacciones ACID:\n- **DDL**: `CREATE TABLE` con `PRIMARY KEY`, `FOREIGN KEY ... ON DELETE CASCADE`, `CHECK` y `UNIQUE`.\n- **Consultas**: `HAVING` para agregaciones, subconsultas correlacionadas, `NOT EXISTS`.\n- **Propiedades ACID**: **A**tomicidad (todo o nada), **C**onsistencia (estados válidos), **A**islamiento (transacciones independientes), **D**urabilidad (persistente tras commit).\n\n### 🧩 POO y Patrones de Diseño GoF:\n- **Pilares POO**: Abstracción, Encapsulamiento, Herencia, Polimorfismo.\n- **Patrones GoF**:\n  - *Creacionales*: Singleton, Factory Method, Abstract Factory, Builder.\n  - *Estructurales*: Adapter, Decorator, Facade, Composite, Proxy.\n  - *Comportamiento*: Observer, Strategy, Command, Iterator, Template Method.",
+      "x": 30,
+      "y": -360,
+      "width": 560,
+      "height": 540,
+      "color": "#BA68C8"
+    },
+    {
+      "id": "b3_box3",
+      "type": "text",
+      "text": "## 🟢 Arquitectura Web, Servicios y Accesibilidad (Temas 05, 06, 07)\n\n### 🌐 Servicios Web: SOAP vs RESTful:\n- **SOAP**: Protocolo estricto, XML obligatorio en `<soap:Body>`, WSDL, seguridad WS-Security a nivel de mensaje.\n- **RESTful**: Estilo arquitectónico, JSON/XML, verbos HTTP (GET, POST, PUT, DELETE, PATCH), HATEOAS, sin estado (*stateless*).\n- **Idempotencia**: GET, PUT, DELETE son idempotentes; POST **no** lo es.\n\n### ☕ Java EE / .NET y Frontend:\n- **Java/Jakarta EE**: EJBs (Stateless, Stateful, MDB), JPA/Hibernate (ORM), Spring Framework (IoC / Inyección de Dependencias).\n- **.NET**: CLR (Common Language Runtime con JIT), C#, ASP.NET Core.\n- **Frontend**: HTML5 (`localStorage`, `sessionStorage`, semántica), CSS3 (Flexbox 1D, Grid 2D), JavaScript ES6+ (`let`/`const`, Promesas, Fetch API, Async/Await).\n\n### ♿ Accesibilidad Web (WCAG 2.1) y RD 1112/2018:\n- **Principios POUR**: **P**erceptible, **O**perable, **U**nderstandable (Comprensible), **R**obusto.\n- **Nivel Exigible**: Nivel **AA** obligatorio en el sector público español.",
+      "x": 640,
+      "y": -360,
+      "width": 560,
+      "height": 540,
+      "color": "#42A5F5"
+    },
+    {
+      "id": "b3_synth1",
+      "type": "file",
+      "file": "wiki/synthesis/tarjetas-memoria-flashcards-bloque3-desarrollo-bbdd.md",
+      "x": -580,
+      "y": 220,
+      "width": 380,
+      "height": 260,
+      "color": "#64B5F6"
+    },
+    {
+      "id": "b3_synth2",
+      "type": "file",
+      "file": "wiki/synthesis/guia-maestra-snippets-comandos-examen-practico-tai.md",
+      "x": -160,
+      "y": 220,
+      "width": 380,
+      "height": 260,
+      "color": "#64B5F6"
+    },
+    {
+      "id": "b3_synth3",
+      "type": "file",
+      "file": "wiki/synthesis/metrica-v3-processes-and-artifacts-guide.md",
+      "x": 260,
+      "y": 220,
+      "width": 380,
+      "height": 260,
+      "color": "#64B5F6"
+    },
+    {
+      "id": "b3_synth4",
+      "type": "file",
+      "file": "wiki/synthesis/supuestos-practicos-bloque3-normalizacion-bbdd.md",
+      "x": 680,
+      "y": 220,
+      "width": 380,
+      "height": 260,
+      "color": "#64B5F6"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e31",
+      "fromNode": "b3_header",
+      "fromSide": "bottom",
+      "toNode": "b3_box1",
+      "toSide": "top",
+      "color": "#4CAF50"
+    },
+    {
+      "id": "e32",
+      "fromNode": "b3_header",
+      "fromSide": "bottom",
+      "toNode": "b3_box2",
+      "toSide": "top",
+      "color": "#BA68C8"
+    },
+    {
+      "id": "e33",
+      "fromNode": "b3_header",
+      "fromSide": "bottom",
+      "toNode": "b3_box3",
+      "toSide": "top",
+      "color": "#42A5F5"
+    },
+    {
+      "id": "e34",
+      "fromNode": "b3_box1",
+      "fromSide": "bottom",
+      "toNode": "b3_synth1",
+      "toSide": "top",
+      "color": "#64B5F6"
+    },
+    {
+      "id": "e35",
+      "fromNode": "b3_box1",
+      "fromSide": "bottom",
+      "toNode": "b3_synth2",
+      "toSide": "top",
+      "color": "#64B5F6"
+    },
+    {
+      "id": "e36",
+      "fromNode": "b3_box2",
+      "fromSide": "bottom",
+      "toNode": "b3_synth3",
+      "toSide": "top",
+      "color": "#64B5F6"
+    },
+    {
+      "id": "e37",
+      "fromNode": "b3_box3",
+      "fromSide": "bottom",
+      "toNode": "b3_synth4",
+      "toSide": "top",
+      "color": "#64B5F6"
+    }
+  ]
 }

@@ -1,17 +1,142 @@
 {
-	"nodes":[
-		{"id":"aee90de21dc04226","type":"text","x":-150,"y":-380,"width":550,"height":130,"color":"#EF5350","text":"# 🌐 Bloque 4: Sistemas y Comunicaciones (TAI)\n\nMapa interactivo de navegación y estudio visual."},
-		{"id":"4c4da0ecb6b043f4","type":"text","x":-450,"y":-200,"width":420,"height":230,"color":"#EF5350","text":"## 🔴 Redes, TCP/IP y Seguridad\n- Modelo OSI (7 capas) vs Pila TCP/IP (4 capas)\n- IPv4 Subnetting VLSM y Direccionamiento IPv6\n- Protocolos: DNS, DHCP, HTTP/3 QUIC, TLS 1.3, SNMP\n- Criptografía (RSA, AES, SHA-2/3, Curvas Elípticas)\n- Esquema Nacional de Seguridad (ENS RD 311/2022)"},
-		{"id":"d9934c890f364c0a","type":"text","x":30,"y":-200,"width":420,"height":230,"color":"#EF5350","text":"## 🔴 Windows Server, Linux y Cloud\n- Active Directory (Kerberos, FSMO, GPOs)\n- Linux SysAdmin (Systemd, LVM, Bash, SSH)\n- Virtualización (ESXi, KVM, Docker, Kubernetes)\n- Alta Disponibilidad y CPD (TIER I a IV, RAID)"},
-		{"id":"88c165be391c4e1b","type":"file","file":"wiki/synthesis/bloque4-tai-oposiciones-master-guide.md","x":-450,"y":90,"width":420,"height":240,"color":"#64B5F6"},
-		{"id":"15b9dab82226459b","type":"file","file":"wiki/synthesis/network-ports-and-protocols-cheatsheet.md","x":30,"y":90,"width":420,"height":240,"color":"#64B5F6"},
-		{"id":"206ecbe28dc54795","type":"file","file":"wiki/synthesis/windows-server-administration-guide.md","x":500,"y":90,"width":400,"height":240,"color":"#64B5F6"}
-	],
-	"edges":[
-		{"id":"30d2a3f34b9b4cb5","fromNode":"aee90de21dc04226","toNode":"4c4da0ecb6b043f4","color":"#EF5350","fromSide":"bottom","toSide":"top"},
-		{"id":"022a7de470a5437a","fromNode":"aee90de21dc04226","toNode":"d9934c890f364c0a","color":"#EF5350","fromSide":"bottom","toSide":"top"},
-		{"id":"627d723d6a4447d2","fromNode":"aee90de21dc04226","toNode":"88c165be391c4e1b","color":"#64B5F6","fromSide":"bottom","toSide":"top"},
-		{"id":"5895fac56a704104","fromNode":"aee90de21dc04226","toNode":"15b9dab82226459b","color":"#64B5F6","fromSide":"bottom","toSide":"top"},
-		{"id":"bd65c3d26c484ee8","fromNode":"aee90de21dc04226","toNode":"206ecbe28dc54795","color":"#64B5F6","fromSide":"bottom","toSide":"top"}
-	]
+  "nodes": [
+    {
+      "id": "b4_header",
+      "type": "text",
+      "text": "# 🌐 Bloque 4: Sistemas, Redes, Comunicaciones y Seguridad (TAI - AGE)\n\n> Modelo OSI y Pila TCP/IP, Subnetting IPv4/IPv6, Protocolos de Red, Administración Linux/Windows Server, Virtualización, Criptografía y Esquema Nacional de Seguridad (ENS RD 311/2022).",
+      "x": -200,
+      "y": -550,
+      "width": 800,
+      "height": 140,
+      "color": "#1E88E5"
+    },
+    {
+      "id": "b4_box1",
+      "type": "text",
+      "text": "## 🔵 Redes de Comunicación, Modelo OSI y TCP/IP (Temas 04, 06, 07, 08, 10)\n\n### 📶 Arquitectura de Red y Protocolos:\n- **Modelo OSI (7 capas)**: Física $\\rightarrow$ Enlace (LLC 802.2 / MAC) $\\rightarrow$ Red $\\rightarrow$ Transporte $\\rightarrow$ Sesión $\\rightarrow$ Presentación $\\rightarrow$ Aplicación.\n- **Pila TCP/IP (4 capas)**: Acceso al Medio $\\rightarrow$ Internet $\\rightarrow$ Transporte $\\rightarrow$ Aplicación.\n- **Subnetting IPv4**: Hosts útiles = $2^h - 2$ (se restan red y broadcast). Salto de subred $= 256 - \\text{máscara}$.\n- **IPv6 (RFC 8200)**: Direcciones de 128 bits, **cabecera fija de 40 bytes**, **NO hay broadcast** (Multicast/Anycast), loopback `::1/128`.\n\n### 🔌 Puertos y Servicios Esenciales:\n- **DNS**: Puerto 53 (UDP consultas / TCP transferencias > 512B). Registros A, AAAA, CNAME, MX, PTR, NS, SOA, TXT.\n- **DHCP**: Servidor 67 / Cliente 68. Proceso **DORA** (*Discover, Offer, Request, Acknowledge*).\n- **Correo**: SMTP (25/587 STARTTLS), SMTPS (465), IMAP (143), IMAPS (993), POP3 (110), POP3S (995).\n- **Web & Remoto**: HTTP (80), HTTPS (443), SSH/SFTP (22), RDP (3389), Kerberos (88), LDAPS (636).\n\n### 📡 Medios de Transmisión y LAN:\n- **Par Trenzado**: Cat 5e (1 Gbps a 100m, 100 MHz), Cat 6 (10 Gbps a 37-55m, 250 MHz), Cat 6A (10 Gbps a 100m, 500 MHz).\n- **Fibra Óptica**: Monomodo SMF (~9 µm, láser, grandes distancias WAN) vs Multimodo MMF (50/62.5 µm, distancias LAN cortas hasta 550m, dispersión modal).\n- **Wi-Fi**: Wi-Fi 4 (802.11n), Wi-Fi 5 (802.11ac), Wi-Fi 6 (802.11ax con OFDMA y 1024-QAM). CSMA/CA con tramas RTS/CTS.",
+      "x": -580,
+      "y": -360,
+      "width": 560,
+      "height": 540,
+      "color": "#1E88E5"
+    },
+    {
+      "id": "b4_box2",
+      "type": "text",
+      "text": "## 🔵 Sistemas Operativos, Linux, Windows Server y CPD (Temas 01, 02, 03, 05)\n\n### 🐧 Administración de Linux:\n- **Permisos**: Numéricos (r=4, w=2, x=1), SUID (4755, corre como propietario), SGID (2775, hereda grupo), Sticky Bit (1777, solo borra dueño en `/tmp`).\n- **Umask**: Directorio $777 - \\text{umask}$, Archivo $666 - \\text{umask}$ (con `umask 027` $\\implies 750 / 640$).\n- **Systemd**: `systemctl enable --now`, `systemctl mask/unmask`, `journalctl -u servicio -f`.\n- **LVM**: Volúmenes Físicos (`pvcreate`) $\\rightarrow$ Grupos (`vgcreate`) $\\rightarrow$ Volúmenes Lógicos (`lvcreate`, `lvextend -r`).\n\n### 🪟 Windows Server y Active Directory:\n- **AD DS**: Bosques, Árboles, Dominios, Unidades Organizativas (OU), Objetos.\n- **Roles FSMO**: 2 de bosque (Schema Master, Domain Naming Master) + 3 de dominio (PDC Emulator, RID Master, Infrastructure Master).\n- **Autenticación**: Protocolo Kerberos v5 (puerto 88) y NTLMv2.\n\n### 🗄️ Almacenamiento, RAID y CPD:\n- **Niveles RAID**: RAID 0 (100% capacidad, 0 tolerancia), RAID 1 (50% espejo, tolera $N-1$), RAID 5 (mín. 3 discos, paridad distribuida, tolera 1 fallo, cap. $(N-1)S$), RAID 6 (mín. 4 discos, tolera 2 fallos, cap. $(N-2)S$), RAID 10 (mín. 4 discos, cap. 50%).\n- **Clasificación TIER CPD (Uptime Institute)**: TIER I (99.671%), TIER II (99.741%), TIER III (99.982%, mantenimiento concurrente sin parada), TIER IV (99.995%, tolerante a fallos con doble acometida).",
+      "x": 30,
+      "y": -360,
+      "width": 560,
+      "height": 540,
+      "color": "#BA68C8"
+    },
+    {
+      "id": "b4_box3",
+      "type": "text",
+      "text": "## 🔵 Seguridad Perimetral, Criptografía y ENS (Tema 09)\n\n### 🛡️ Esquema Nacional de Seguridad (ENS - RD 311/2022):\n- **Las 5 Dimensiones de Seguridad (Regla DADIT)**: **D**isponibilidad, **A**utenticidad, **I**ntegridad, **C**onfidencialidad, **T**razabilidad.\n- **Categorización del Sistema**: BÁSICA, MEDIA, ALTA $\\rightarrow$ se determina por la **regla del máximo**.\n- **Auditoría de Seguridad**: Obligatoria con periodicidad **bienal (cada 2 años)** en categorías Media y Alta.\n\n### 🔐 Criptografía y Firma Electrónica:\n- **Simétrica (Clave Secreta)**: AES (128/192/256b), ChaCha20, 3DES, DES. Rápida, cifra flujos de datos.\n- **Asimétrica (Par de Claves)**: RSA (2048/4096b), Curvas Elípticas ECC (256/384b), Diffie-Hellman (acuerdo de claves), DSA.\n- **Firma Digital**: Cifra el hash con la **clave PRIVADA** del emisor; se verifica con la **clave PÚBLICA**.\n- **Reglamento eIDAS (UE 910/2014)**: Firma Simple, Firma Avanzada y **Firma Cualificada** (creada con QSCD/DNIe y certificado cualificado, tiene **efecto jurídico equivalente a la firma manuscrita** en toda la UE).\n\n### 🔥 Firewalling IPTables / Netfilter:\n- **Tablas**: `filter` (INPUT, OUTPUT, FORWARD), `nat` (PREROUTING, POSTROUTING, OUTPUT), `mangle`.\n- **Reglas**: `iptables -P INPUT DROP`, `-m state --state ESTABLISHED,RELATED -j ACCEPT`, `-t nat -A POSTROUTING -o eth0 -j MASQUERADE`.",
+      "x": 640,
+      "y": -360,
+      "width": 560,
+      "height": 540,
+      "color": "#42A5F5"
+    },
+    {
+      "id": "b4_synth1",
+      "type": "file",
+      "file": "wiki/synthesis/tarjetas-memoria-flashcards-bloque4-sistemas-redes-seguridad.md",
+      "x": -580,
+      "y": 220,
+      "width": 380,
+      "height": 260,
+      "color": "#64B5F6"
+    },
+    {
+      "id": "b4_synth2",
+      "type": "file",
+      "file": "wiki/synthesis/guia-maestra-puertos-protocolos-rfc-seguridad.md",
+      "x": -160,
+      "y": 220,
+      "width": 380,
+      "height": 260,
+      "color": "#64B5F6"
+    },
+    {
+      "id": "b4_synth3",
+      "type": "file",
+      "file": "wiki/synthesis/security-frameworks-ens-magerit-ccn.md",
+      "x": 260,
+      "y": 220,
+      "width": 380,
+      "height": 260,
+      "color": "#64B5F6"
+    },
+    {
+      "id": "b4_synth4",
+      "type": "file",
+      "file": "wiki/synthesis/supuestos-practicos-bloque4-redes-subnetting-ad-ens.md",
+      "x": 680,
+      "y": 220,
+      "width": 380,
+      "height": 260,
+      "color": "#64B5F6"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e41",
+      "fromNode": "b4_header",
+      "fromSide": "bottom",
+      "toNode": "b4_box1",
+      "toSide": "top",
+      "color": "#1E88E5"
+    },
+    {
+      "id": "e42",
+      "fromNode": "b4_header",
+      "fromSide": "bottom",
+      "toNode": "b4_box2",
+      "toSide": "top",
+      "color": "#BA68C8"
+    },
+    {
+      "id": "e43",
+      "fromNode": "b4_header",
+      "fromSide": "bottom",
+      "toNode": "b4_box3",
+      "toSide": "top",
+      "color": "#42A5F5"
+    },
+    {
+      "id": "e44",
+      "fromNode": "b4_box1",
+      "fromSide": "bottom",
+      "toNode": "b4_synth1",
+      "toSide": "top",
+      "color": "#64B5F6"
+    },
+    {
+      "id": "e45",
+      "fromNode": "b4_box1",
+      "fromSide": "bottom",
+      "toNode": "b4_synth2",
+      "toSide": "top",
+      "color": "#64B5F6"
+    },
+    {
+      "id": "e46",
+      "fromNode": "b4_box2",
+      "fromSide": "bottom",
+      "toNode": "b4_synth3",
+      "toSide": "top",
+      "color": "#64B5F6"
+    },
+    {
+      "id": "e47",
+      "fromNode": "b4_box3",
+      "fromSide": "bottom",
+      "toNode": "b4_synth4",
+      "toSide": "top",
+      "color": "#64B5F6"
+    }
+  ]
 }
