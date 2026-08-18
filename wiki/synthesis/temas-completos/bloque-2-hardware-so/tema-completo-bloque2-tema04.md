@@ -26,8 +26,6 @@ updated: "2026-08-18"
 
 # 🔴 Bloque 2 - Tema 04 (UD012105): Sistemas Operativos: Arquitectura, Gestión de Procesos, Memoria y Sistemas de Archivos
 
-<!-- Page 1 -->
-
  
  
 Sistemas Operativos. 
@@ -36,211 +34,110 @@ constitutivos. Sistemas
 Windows, Linux, y para 
 dispositivos móviles 
 
-<!-- Page 2 -->
-
-ÍNDICE 
-1. Software 
-6 
-2. Sistema Operativo 
-7 
+## 🟣 1. Software
+## 🟣 2. Sistema Operativo
 2.1. Funciones del S.O. 
-8 
-2.2. Gestor de recursos 
-8 
-2.3. Kernel 
-10 
-2.4. Gestión de procesos 
-10 
-2.5. Gestión de memoria 
-11 
-2.6. Sistema de archivos 
-11 
-2.7. Llamadas al sistema 
-12 
-2.8. Protección y seguridad de la información 
-13 
-2.9. Scheduler 
-13 
-3. Estructura de los Sistemas Operativos 
-14 
-3.1. Clasificación de los Sistemas Operativos 
-15 
-3.1.1. Por servicios ofrecidos 
-15 
-3.1.2. Por la forma de ofrecer servicio 
-16 
-3.1.3. Según el soporte de arquitecturas 
-18 
-3.2. Gestión avanzada de memoria 
-19 
-4. Sistemas windows 
-23 
-4.1. Versiones 
-24 
-4.2. Elementos básicos del interfaz de Windows 
-46 
-4.3. Opciones de energia 
-49 
-4.3.1. Opciones de energía en Windows 10/11 Home 
-49 
-4.3.2. Opciones de energía en Windows 10/11 Pro 
-50 
-4.3.3. Opciones de energía en Windows Server 
-50 
-4.4. Variables de entorno 
-50 
-4.4.1. Variables de entorno en Windows 10/11 Home 
-51 
-4.4.2. Variables de entorno en Windows 10/11 Pro 
-51 
-4.4.3. Variables de entornos en Windows Server 
-51 
-
-<!-- Page 3 -->
+### 🔵 2.2. Gestor de recursos
+### 🔵 2.3. Kernel
+### 🔵 2.4. Gestión de procesos
+### 🔵 2.5. Gestión de memoria
+### 🔵 2.6. Sistema de archivos
+### 🔵 2.7. Llamadas al sistema
+### 🔵 2.8. Protección y seguridad de la información
+### 🔵 2.9. Scheduler
+## 🟣 3. Estructura de los Sistemas Operativos
+### 🔵 3.1. Clasificación de los Sistemas Operativos
+#### 🔹 3.1.1. Por servicios ofrecidos
+#### 🔹 3.1.2. Por la forma de ofrecer servicio
+#### 🔹 3.1.3. Según el soporte de arquitecturas
+### 🔵 3.2. Gestión avanzada de memoria
+## 🟣 4. Sistemas windows
+### 🔵 4.1. Versiones
+### 🔵 4.2. Elementos básicos del interfaz de Windows
+### 🔵 4.3. Opciones de energia
+#### 🔹 4.3.1. Opciones de energía en Windows 10/11 Home
+#### 🔹 4.3.2. Opciones de energía en Windows 10/11 Pro
+#### 🔹 4.3.3. Opciones de energía en Windows Server
+### 🔵 4.4. Variables de entorno
+#### 🔹 4.4.1. Variables de entorno en Windows 10/11 Home
+#### 🔹 4.4.2. Variables de entorno en Windows 10/11 Pro
+#### 🔹 4.4.3. Variables de entornos en Windows Server
 
  
  
-4.5. Registros de Windows 
-52 
-4.5.1. Registros en Windows 10/11 Home 
-52 
-4.5.2. Registros en Windows 10/11 Pro 
-52 
-4.5.3. Registros en Windows Server 
-52 
-4.6. Microsoft Azure 
-53 
-4.7. Herramientas de Windows 
-54 
-4.7.1. ActiveSync 
-54 
-4.7.2. AppLocker 
-54 
-4.7.3. Interfaz de Consola CLI 
-55 
-4.7.4. Windows Script Host 
-56 
-4.7.5. PowerShell 
-56 
-5. Sistemas Unix y Linux 
-57 
-5.1. Características 
-59 
-5.2. Conceptos básicos 
-61 
-5.3. Gestor de arranque (Linux Boot Loaders) 
-62 
-5.4. Distribuciones 
-64 
-5.5. Entornos de escritorio 
-70 
-5.6. Directorios y sistemas de archivos 
-71 
-5.7. Permisos 
-72 
-5.8. Principales comandos 
-75 
-5.8.1. Gestión y control de Linux 
-75 
-5.8.1.1. Which 
-75 
-5.8.1.2. Modprobe 
-75 
-5.8.1.3. Paquete e2fsprogs 
-76 
-5.8.1.4. Who 
-76 
-5.8.1.5. Id 
-77 
-5.8.1.6. Uname 
-78 
-
-<!-- Page 4 -->
+### 🔵 4.5. Registros de Windows
+#### 🔹 4.5.1. Registros en Windows 10/11 Home
+#### 🔹 4.5.2. Registros en Windows 10/11 Pro
+#### 🔹 4.5.3. Registros en Windows Server
+### 🔵 4.6. Microsoft Azure
+### 🔵 4.7. Herramientas de Windows
+#### 🔹 4.7.1. ActiveSync
+#### 🔹 4.7.2. AppLocker
+#### 🔹 4.7.3. Interfaz de Consola CLI
+#### 🔹 4.7.4. Windows Script Host
+#### 🔹 4.7.5. PowerShell
+## 🟣 5. Sistemas Unix y Linux
+### 🔵 5.1. Características
+### 🔵 5.2. Conceptos básicos
+### 🔵 5.3. Gestor de arranque (Linux Boot Loaders)
+### 🔵 5.4. Distribuciones
+### 🔵 5.5. Entornos de escritorio
+### 🔵 5.6. Directorios y sistemas de archivos
+### 🔵 5.7. Permisos
+### 🔵 5.8. Principales comandos
+#### 🔹 5.8.1. Gestión y control de Linux
+##### 5.8.1.1. Which
+##### 5.8.1.2. Modprobe
+##### 5.8.1.3. Paquete e2fsprogs
+##### 5.8.1.4. Who
+##### 5.8.1.5. Id
+##### 5.8.1.6. Uname
 
  
  
-5.8.2. Comandos para ficheros y directorios 
-78 
-5.8.2.1. pwd 
-79 
-5.8.2.2. touch 
-79 
-5.8.2.3. WC 
-79 
-5.8.2.4. cat 
-80 
-5.8.2.5. less 
-80 
-5.8.2.6. more 
-81 
-5.8.2.7. tac 
-82 
-5.8.2.8. du 
-82 
-5.8.2.9. vi 
-83 
-5.8.2.10. mount, umount 
-85 
-5.8.2.11. tar 
-86 
-5.8.2.12. shell 
-91 
-5.8.2.13. Sort 
-93 
-5.8.2.14. fsck 
-94 
-5.8.3. Comandos de Procesos 
-95 
-5.8.3.1. fork 
-95 
-5.8.3.2. ps 
-95 
-5.8.3.3. renice y nice 
-96 
-5.8.3.4. top 
-98 
-5.8.3.5. kill 
-98 
-5.8.3.6. killall 
-98 
-5.8.4. Comandos de visualización y localización de archivos 
-98 
-5.8.5. Otros comandos: Información, redes, usuarios 
-100 
-5.8.6. Metacaracteres 
-104 
-5.9. Señales 
-107 
-5.10. Runlevels estándar en Linux 
-110 
-5.11. S.O. FreeBSD 
-110 
+#### 🔹 5.8.2. Comandos para ficheros y directorios
+##### 5.8.2.1. pwd
+##### 5.8.2.2. touch
+##### 5.8.2.3. WC
+##### 5.8.2.4. cat
+##### 5.8.2.5. less
+##### 5.8.2.6. more
+##### 5.8.2.7. tac
+##### 5.8.2.8. du
+##### 5.8.2.9. vi
+##### 5.8.2.10. mount, umount
+##### 5.8.2.11. tar
+##### 5.8.2.12. shell
+##### 5.8.2.13. Sort
+##### 5.8.2.14. fsck
+#### 🔹 5.8.3. Comandos de Procesos
+##### 5.8.3.1. fork
+##### 5.8.3.2. ps
+##### 5.8.3.3. renice y nice
+##### 5.8.3.4. top
+##### 5.8.3.5. kill
+##### 5.8.3.6. killall
+#### 🔹 5.8.4. Comandos de visualización y localización de archivos
+#### 🔹 5.8.5. Otros comandos: Información, redes, usuarios
+#### 🔹 5.8.6. Metacaracteres
+### 🔵 5.9. Señales
+### 🔵 5.10. Runlevels estándar en Linux
+### 🔵 5.11. S.O. FreeBSD
 6. macOS 
-111 
-
-<!-- Page 5 -->
 
  
  
-7. Sistemas operativos para dispositivos móviles 
-113 
-7.1. Android 
-115 
-7.2. IOS 
-119 
-7.3. Notificaciones Push 
-120 
-8. Bibliografía 
-121 
-
-<!-- Page 6 -->
+## 🟣 7. Sistemas operativos para dispositivos móviles
+### 🔵 7.1. Android
+### 🔵 7.2. IOS
+### 🔵 7.3. Notificaciones Push
+## 🟣 8. Bibliografía
 
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-6 
-1. Software 
+## 🟣 1. Software
  
 Fuente: Flickry 
 Ya sabes que el software es la parte lógica, intangible de un sistema informático. 
@@ -262,14 +159,11 @@ además pueden tener información adicional.
 ACCEDE DIRECTAMENTE DESDE AQUÍ 
  
 
-<!-- Page 7 -->
-
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-7 
-2. Sistema Operativo 
+## 🟣 2. Sistema Operativo
  
 Fuente: Wilkipedia 
 El Sistema Operativo, es un software, que se encarga de arrancar el equipo y gestionar los recursos del 
@@ -300,13 +194,10 @@ realidad se utilizan para realizar funciones distintas a las del sistema
 operativo. (Calculadora, editor de texto, recortes, etc.). 
  
 
-<!-- Page 8 -->
-
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-8 
 2.1. Funciones del S.O. 
 El sistema operativo debe proporcionar servicios para las siguientes funciones: 
 • Utilización y creación de programas. Para ello utiliza programas que no forman parte del 
@@ -328,7 +219,7 @@ minimizando el impacto cuando no pueda corregirse.
 • Control de acceso al sistema. Debe proporcionar servicios de seguridad para que solo tenga 
 acceso al sistema y a los distintos recursos los usuarios autorizados. 
 • Informes. Debe poder facilitar informes de utilización de recursos, rendimiento, etc. 
-2.2. Gestor de recursos 
+### 🔵 2.2. Gestor de recursos
 El kernel, núcleo del sistema operativo, debe gestionar los recursos que hay en el sistema 
 (procesadores, memoria, periféricos, etc.) y planificar la utilización de los recursos de manera justa y \neficiente. 
 Su función es proporcionar una asignación ordenada y controlada a los programas que compiten por los 
@@ -336,13 +227,10 @@ distintos recursos (procesadores, memoria, periféricos, etc.).
 Todos los procesos que compiten por un determinado recurso deben disponer de él de una forma \nequitativa. 
 Por otro lado, se debe tener en cuenta la prioridad de cada trabajo y planificar la asignación de recursos \nen base a los requerimientos de cada proceso. 
 
-<!-- Page 9 -->
-
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-9 
 Funciona de la misma manera que otro programa (se ejecuta en el procesador y utiliza la memoria). 
 El sistema operativo, es uno más, de los programas de ordenador. El procesador no lo distingue del 
 resto. El sistema operativo planifica los programas que se ejecutarán en la CPU y el acceso a los 
@@ -376,13 +264,10 @@ Si tenemos una determinada tarjeta de vídeo, el sistema operativo la reconocer�
 un modelo estándar del fabricante, ofreciendo una determinada resolución de aspecto y color, de lo 
 contrario no podríamos ver nada en el monitor. 
 
-<!-- Page 10 -->
-
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-10 
 Pero si instalamos el driver correspondiente, podremos tener todas las ventajas y funcionalidades de esa 
 tarjeta de vídeo, mayores resoluciones, color, rapidez de imágenes en movimiento, incluso algunas 
 opciones como son la rotación de la imagen en pantalla). 
@@ -395,7 +280,7 @@ ofrecer sus funciones al usuario.
 Los drivers de cada dispositivo de hardware pueden ser diferentes dependiendo de la versión de sistema 
 operativo que utilicemos. Normalmente están disponible en la página web del fabricante para su 
 descarga e instalación. 
-2.3. Kernel 
+### 🔵 2.3. Kernel
 El Kernel es el núcleo del sistema operativo. Se carga en memoria al arrancar el ordenador y permanece 
 aquí hasta que se apaga. 
 Realiza, entre otras, las siguientes funciones básicas: 
@@ -405,7 +290,7 @@ Realiza, entre otras, las siguientes funciones básicas:
 • Manejo de errores. 
 • Control de periféricos. 
 • Control de interrupciones. 
-2.4. Gestión de procesos 
+### 🔵 2.4. Gestión de procesos
 Un proceso es, básicamente, un programa en ejecución. Está formado por el programa ejecutable, los 
 datos que utilizará y el contexto en que se ejecuta. 
 Podemos verlo como una entidad que puede ser asignada a un procesador y ejecutada por el mismo. 
@@ -414,18 +299,15 @@ suspender (interrumpir) la ejecución de un proceso y dar paso a otro, siguiendo
 planificación que tenga definida (por ejemplo, por prioridad, turno o tiempo de uso). De esta forma, a 
 cada proceso se le va asignando tiempo de CPU. 
 
-<!-- Page 11 -->
-
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-11 
 La información sobre cada proceso se almacena en una estructura llamada Bloque de Control de 
 Proceso (PCB), que mantiene el sistema operativo. El conjunto de estos PCBs forma la tabla de 
 procesos. Cada PCB contiene, entre otros datos, información de planificación, estado, identificadores, y 
 punteros a las estructuras de memoria y recursos que el proceso utiliza. 
-2.5. Gestión de memoria 
+### 🔵 2.5. Gestión de memoria
 El kernel reserva y libera memoria continuamente, para poder ejecutar los procesos y gestionar 
 convenientemente el intercambio de información entre la memoria principal y la secundaría 
 dependiendo de los recursos necesarios del proceso. 
@@ -448,18 +330,15 @@ creen que tienen más memoria principal de la que realmente \nexiste, porque el 
 apoyo y gestiona de forma transparente la asignación y el 
 movimiento de datos 
  
-2.6. Sistema de archivos 
+### 🔵 2.6. Sistema de archivos
 Define el sistema de archivos que va a ser utilizado para el almacenamiento de larga duración. 
 La información se almacenará en archivos y estarán ubicados dentro de directorios que a su vez pueden \nestar dentro de otros directorios. Tiene una estructura de árbol. 
-
-<!-- Page 12 -->
 
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-12 
-2.7. Llamadas al sistema 
+### 🔵 2.7. Llamadas al sistema
 Las llamadas al sistema (system calls) son la interfaz entre los programas en modo usuario y el kernel. A 
 través de ellas, las aplicaciones pueden solicitar de forma controlada servicios del núcleo como gestión 
 de procesos, memoria, archivos o dispositivos. 
@@ -489,17 +368,14 @@ Si este no coincide con numeroBytes significa que se ha producido
 un error. 
  
 
-<!-- Page 13 -->
-
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-13 
-2.8. Protección y seguridad de la información 
+### 🔵 2.8. Protección y seguridad de la información
 Se deben aplicar políticas de seguridad e implementar mecanismos de protección para evitar que 
 personas o aplicaciones realicen ataques al sistema informático. 
-2.9. Scheduler 
+### 🔵 2.9. Scheduler
  
 Agenda, Planificador. Fuente: Needpix.com 
 Scheduler, (planificador) es un componente funcional muy importante de los S.O. multitarea y 
@@ -522,14 +398,11 @@ Decide qué proceso entra al procesador para su ejecución.
 • Long term scheduler: a largo plazo, es el encargado de ingresar nuevos procesos al sistema y de 
 finalizarlos. 
 
-<!-- Page 14 -->
-
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-14 
-3. Estructura de los Sistemas Operativos 
+## 🟣 3. Estructura de los Sistemas Operativos
 Al principio, los sistemas operativos eran muy básicos, pero con el tiempo han ido creciendo en tamaño 
 y complejidad. 
 Su construcción debe realizarse con mucho cuidado para que todo funcione correctamente y para 
@@ -559,24 +432,21 @@ de utilidad que puede cambiarse por otro en la instalación.
 En un principio los sistemas operativos tenían una estructura monolítica (no tenían una estructura bien 
 definida) como el MS-DOS. 
 
-<!-- Page 15 -->
-
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-15 
 Tenían una estructura modular, de manera que el sistema operativo se construía compilando por 
 separado distintos procedimientos para luego enlazarlos. 
 Para los grandes sistemas operativos esto no era suficiente y tuvieron que entrar en juego conceptos 
 como los niveles jerárquicos y la abstracción de la información. 
-3.1. Clasificación de los Sistemas Operativos 
+### 🔵 3.1. Clasificación de los Sistemas Operativos
 Según la perspectiva con la que se observen los sistemas operativos, pueden realizarse múltiples 
 clasificaciones. Vamos a ver dos de ellas. 
 • Por servicios ofrecidos. 
 • Por la forma de ofrecer el Servicio. 
 • Según el soporte de arquitecturas multiprocesador. 
-3.1.1. Por servicios ofrecidos 
+#### 🔹 3.1.1. Por servicios ofrecidos
 En esta clasificación se tiene en cuenta la visión del usuario final: 
 • Por el número de usuarios. 
 • Monousuario o Monopuesto: el sistema operativo soporta un único usuario a la vez, 
@@ -596,13 +466,10 @@ mejorando su productividad.
 » Simétricos: distribuyen la carga de procesamiento por igual entre todos los 
 procesadores existentes. 
 
-<!-- Page 16 -->
-
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-16 
 » Asimétricos: la gestión se realiza en base a la prioridad de los procesos. Todos los 
 procesos de baja prioridad son asignados a un procesador y el resto de los procesos se 
 reparten entre el resto de los procesadores. 
@@ -619,7 +486,7 @@ Por ejemplo, si tenemos dos procesos (proc1 y proc2) ejecutaría
 una parte de proc1, luego una parte de proc2, luego otra de proc1, 
 otra de proc2… 
  
-3.1.2. Por la forma de ofrecer servicio 
+#### 🔹 3.1.2. Por la forma de ofrecer servicio
 En esta clasificación, también tenemos en cuenta la visión externa del usuario, cómo el usuario accede a 
 los servicios. 
 Se clasifican en tres tipos: 
@@ -636,13 +503,10 @@ procesamiento (incluso muchas veces también del almacenamiento) y los usuarios 
 terminales que no disponían de memoria ni procesador (se les denominaba terminales tontas). 
 Actualmente casi no se utilizan. 
 
-<!-- Page 17 -->
-
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-17 
  
  
  
@@ -672,13 +536,10 @@ conectados para compartir recursos. La red permite la colaboración, pero el usu
 distintos sistemas. 
  
 
-<!-- Page 18 -->
-
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-18 
  
  
  
@@ -692,7 +553,7 @@ Otros sistemas son:
 • LAN Manager. 
 • LANtastic. 
  
-3.1.3. Según el soporte de arquitecturas 
+#### 🔹 3.1.3. Según el soporte de arquitecturas
 Los sistemas operativos pueden estar diseñados para gestionar hardware con múltiples procesadores, y 
 su diseño varía según el tipo de acoplamiento entre estos. A continuación, se detallan las dos categorías 
 principales: 
@@ -707,13 +568,10 @@ EN NUMA, la memoria está distribuida físicamente, pero lógicamente compartida
 Los sistemas operativos compatibles son (Linux con soporte para SNP o NUMA), Windows Server y 
 Solaris. 
 
-<!-- Page 19 -->
-
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-19 
 Sistemas para Arquitecturas Débilmente Acopladas 
 • Memoria distribuida: cada nodo tiene su memoria local. 
 • Comunicación por red: Ethernet, InfiniBand. 
@@ -725,7 +583,7 @@ Encontramos estos sistemas en:
 • Cloud Computing: plataformas como AWS, Azure, Google Cloud... 
 Sistemas operativos compatibles: Linux (para clústeres, kubernetes), Sistema especializados en 
 balanceo de carga (p.e Mosix). 
-3.2. Gestión avanzada de memoria 
+### 🔵 3.2. Gestión avanzada de memoria
 Ya hemos nombrado esta función del S.O. en conceptos básicos, pero ahora que hemos visto la 
 clasificación de los S.O. (multiusuario, multiproceso…) vamos a profundizar más. 
 Recordamos que los procesos se cargan en la memoria RAM para su ejecución. 
@@ -740,13 +598,10 @@ La memoria virtual es el espacio de direcciones reservado por el sistema operati
 .text, heap, stack o archivos mapeados), con atributos específicos como dirección de inicio y fin, y 
 permisos de acceso (lectura, escritura, ejecución). 
 
-<!-- Page 20 -->
-
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-20 
 Paginación 
 La paginación es el subsistema que, apoyándose en las Virtual Memory Areas (VMAs) del kernel, 
 materializa el espacio de direcciones virtuales de un proceso mediante entradas en la tabla de páginas. 
@@ -779,13 +634,10 @@ reduciendo el uso de memoria. Además, funciona como primera barrera de protecci
 con los VMAs para detectar accesos no válidos y generar excepciones (como page faults o violaciones 
 de segmento). 
 
-<!-- Page 21 -->
-
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-21 
 Swapping 
 El swapping (del inglés swap -intercambiar) es un mecanismo del sistema operativo que gestiona el 
 movimiento de páginas de memoria entre RAM y disco. Cuando el sistema necesita liberar memoria 
@@ -822,13 +674,10 @@ consultando CR3 para localizar el punto de entrada de la tabla. El sistema opera
 registro en cada cambio de contexto, asegurando que la MMU traduzca direcciones según la memoria 
 virtual del proceso en ejecución. 
 
-<!-- Page 22 -->
-
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-22 
 Page Fault: 
 El page fault es una excepción generada por la MMU cuando un proceso accede a una dirección virtual 
 cuya página no está presente en RAM o se accede con permisos no válidos. Al producirse, la ejecución 
@@ -865,13 +714,10 @@ Por ejemplo, un mapa típico en un proceso podría tener:
 • Un segmento de código (text): solo lectura y ejecución. 
 • Un segmento de datos inicializados (data): lectura y escritura. 
 
-<!-- Page 23 -->
-
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-23 
 • Un segmento BSS (datos no inicializados): también lectura y escritura. 
 • Un segmento de pila (stack): crece hacia abajo. 
 • Un segmento heap: se gestiona en tiempo de ejecución para malloc/new. 
@@ -880,7 +726,7 @@ responsable de cómo se organiza todo el mapa (el sistema operativo y el enlazad
 pero sí es la estructura lógica base sobre la que se construye. 
 En sistemas modernos, aunque se usa paginación para la asignación física de memoria, el modelo de 
 segmentación sigue vivo a nivel lógico y se refleja en el diseño del espacio de direcciones. 
-4. Sistemas windows 
+## 🟣 4. Sistemas windows
  
 Fuente: windows-icon-28161_960_720 de 
 Pixabay 
@@ -893,13 +739,10 @@ Microsoft Windows es el sistema operativo más usado del mundo en ordenadores pe
 diferencia (alrededor del 90% de cuota de mercado). 
 Sin embargo, en dispositivos móviles (Windows Mobile), ha dejado de utilizarse. 
 
-<!-- Page 24 -->
-
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-24 
 Windows 1.0 se presentó en 1983 (y comercializó en 1985) como una extensión del sistema operativo 
 MS-DOS y se beneficiaba de las utilidades de este y la facilidad de manejo a través de ventanas. 
 Microsoft Windows ha ido presentado nuevas versiones para adaptarse a las nuevas necesidades de los 
@@ -914,7 +757,7 @@ seguridad.
 Microsoft ha seguido dos rutas paralelas en sus Sistemas operativos: 
 • Usuarios domésticos. Mayor soporte multimedia y menos funcionalidad en redes y seguridad. 
 • Usuarios profesionales. Menor soporte multimedia y más funcionalidades en redes y seguridad. 
-4.1. Versiones 
+### 🔵 4.1. Versiones
 Windows ha tenido numerosas versiones, y casi todas han tenido diferentes ediciones o subversiones. 
 Además de las versiones, Microsoft popularizo los Service Pack. (SP), son varias actualizaciones \nempaquetadas (agrupadas) llamadas parches, que mejoran o corrigen errores de Windows o 
 aplicaciones. Con el avance de Internet y su velocidad, desaparecieron estos Service Pack, y se 
@@ -927,13 +770,10 @@ Vamos a indicar algunas de las versiones más importantes, centrándonos en Wind
 domésticos. 
  
 
-<!-- Page 25 -->
-
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-25 
  
  
  
@@ -955,13 +795,10 @@ Windows 1 (1985)
  
 Windows 1 
 
-<!-- Page 26 -->
-
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-26 
 Características: 
 • Fue la primera versión de Windows, aunque no era un sistema operativo como tal, sino un 
 programa que funcionaba sobre MS-DOS. 
@@ -979,13 +816,10 @@ Características:
 • Windows 2.0 era más rápido y más estable. 
 • El sistema presentó el panel de control y ejecutó las primeras versiones de Excel y Word. 
 
-<!-- Page 27 -->
-
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-27 
 Versiones/Ediciones: 
 • Windows 2.0. 
 • Windows 2.10. 
@@ -1001,13 +835,10 @@ Características:
 • Compatibilidad con fuentes TrueType. 
 • Redes peer-to-peer. 
 
-<!-- Page 28 -->
-
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-28 
 Versiones/Ediciones: 
 • Windows 3.0. 
 • Windows 3.1. 
@@ -1026,13 +857,10 @@ basaron los futuros sistemas operativos para usuarios.
 • Sistema de ficheros NTFS. 
 • NTVDN (NT Virtual DOS Machine). 
 
-<!-- Page 29 -->
-
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-29 
 Versiones/Ediciones: 
 • Windows NT 3.1. 
 • Windows 3.5. 
@@ -1055,13 +883,10 @@ Windows 95
 "Fue el gran momento de Windows, la versión que revolucionó el mundo con su lanzamiento el 20 de 
 noviembre de 1995". 
 
-<!-- Page 30 -->
-
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-30 
 Características: 
 • Sistema híbrido 16 y 32 bits. 
 • Botón de inicio (por primera vez para los usuarios domésticos). 
@@ -1087,13 +912,10 @@ DirectX incluye varias API específicas, como Direct3D para los gráficos 3D, Di
 las capacidades avanzadas del hardware, como tarjetas gráficas y tarjetas de sonido, para ofrecer \nexperiencias visuales y auditivas de alta calidad. Además, DirectX ayuda a mejorar el rendimiento y la \neficiencia de los videojuegos y aplicaciones multimedia, ya que permite realizar una mejor utilización de 
 los recursos del sistema, como la memoria y los procesadores gráficos. 
 
-<!-- Page 31 -->
-
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-31 
 Windows 98 (1998) 
  
 Windows 98 
@@ -1121,13 +943,10 @@ Avanzada de Configuración y Energía) es un estándar que
 proporciona mecanismos avanzados para la gestión y ahorro de la \nenergía. 
  
 
-<!-- Page 32 -->
-
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-32 
 Versiones/Ediciones: 
 • Windows 98: inestable, se producían errores continuos, con pantallazos azules. 
  
@@ -1147,13 +966,10 @@ Empezó a llamarse "pantallazo azul de la muerte".
 fallos, mejorando mucho la primera versión. 
  
 
-<!-- Page 33 -->
-
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-33 
  
  
  
@@ -1180,13 +996,10 @@ Windows 2000 (2000)
  
 Windows 2000 
 
-<!-- Page 34 -->
-
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-34 
 Era una versión orientada a servidores, pero debido al fracaso de Windows Me, se añadieron funciones 
 para que fuera utilizada también por los usuarios domésticos de forma sencilla (por ejemplo, añadiendo 
 características plug & play). 
@@ -1206,13 +1019,10 @@ Windows XP (2001)
  
 Fondo predeterminado de Windows XP 
 
-<!-- Page 35 -->
-
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-35 
 Características: 
 • Interfaz Luna. 
 • Primer sistema basado en NT destinado al usuario doméstico. 
@@ -1243,13 +1053,10 @@ muy estable. Todavía en 2020, a pesar de Microsoft dejó de darle
 soporte el 8 de abril de 2014, hay usuarios que siguen utilizándolo. 
  
 
-<!-- Page 36 -->
-
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-36 
  
  
  
@@ -1275,13 +1082,10 @@ videojuegos y edición de video.
  
 Windows Vista 
 
-<!-- Page 37 -->
-
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-37 
 Características: 
 • Interfaz Gráfica Aero. 
 • Interfaz metro para pantalla táctil. 
@@ -1303,13 +1107,10 @@ Windows 7 (2009)
  
 Windows 7 
 
-<!-- Page 38 -->
-
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-38 
 Características: 
 • Soporte de arquitecturas de 32 y 64 bits. 
 • Interfaz Gráfica Aero. 
@@ -1336,13 +1137,10 @@ Versiones/Ediciones:
 • Windows 7 Professional. 
 • Windows 7 Professional N. 
 
-<!-- Page 39 -->
-
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-39 
 • Windows 7 Enterprise. 
 • Windows 7 Ultimate. 
 • Windows 7 Ultimate N. 
@@ -1368,13 +1166,10 @@ Características:
 • Sincronización entre dispositivos. Acceso a la información del usuario desde cualquier 
 dispositivo en el que tenga Windows 8. 
 
-<!-- Page 40 -->
-
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-40 
 • Gestor de tareas mejorado. 
 • Algunas versiones soportan Bitlocker To Go. 
 • Se pueden montar imágenes de disco. 
@@ -1400,13 +1195,10 @@ actualizaciones automáticamente, se descargaba la nueva versión
 Windows 10, y se instalaba en unos de los reinicios del sistema. 
  
 
-<!-- Page 41 -->
-
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-41 
  
  
  
@@ -1438,13 +1230,10 @@ versión de móvil sin coste adicional.
 • Soporta BitLocker To Go. 
 • Hyper-V para la creación de máquinas virtuales. 
 
-<!-- Page 42 -->
-
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-42 
 • Incluye, entre otras, las siguientes aplicaciones: 
 • 3D Builder. 
 • Centro d. 
@@ -1470,13 +1259,10 @@ y para dispositivos móviles
 • Skype. 
 • Xbox. 
 
-<!-- Page 43 -->
-
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-43 
 Versiones/Ediciones: 
 • Windows 10 Home. 
 • Windows 10 Pro. 
@@ -1506,13 +1292,10 @@ Características:
 Windows 10X (versión que no llego a lanzarse al mercado), incluido: 
 • Un menú Inicio rediseñado. 
 
-<!-- Page 44 -->
-
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-44 
 • El reemplazo de sus iconos dinámicos (Live Tiles) con un panel separado llamado 
 «Widgets» con noticias e intereses. 
 • La capacidad de crear conjuntos de ventanas en mosaico que se pueden minimizar y 
@@ -1546,13 +1329,10 @@ no podrán actualizarse.
 Requiere 2 o más núcleos de 1 GHz o más, y tiene que ser un procesador de 64 bits compatible 
 o sistema en un chip (SoC, del inglés system on a chip). 
 
-<!-- Page 45 -->
-
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-45 
 SoC, describe la tendencia cada vez más frecuente de usar tecnologías de fabricación que 
 integran todos o gran parte de los módulos que componen un computador o cualquier otro 
 sistema informático o electrónico en un único circuito integrado o chip. 
@@ -1583,13 +1363,10 @@ por color.
 configuración inicial. 
  
 
-<!-- Page 46 -->
-
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-46 
  
  
  
@@ -1601,7 +1378,7 @@ versión, espera siempre unos meses para que se realicen
 correcciones a los errores que detecten los usuarios y ver que 
 aceptación tiene por los usuarios. 
  
-4.2. Elementos básicos del interfaz de Windows 
+### 🔵 4.2. Elementos básicos del interfaz de Windows
 Son muchos los elementos que componen el interfaz de Windows. Seguramente ya conoces los más 
 importantes. 
  
@@ -1619,13 +1396,10 @@ instalar esas versiones de Windows y practicar.
 No es nuestro objetivo, ni necesario, profundizar en este tema, por lo que solo vamos a enumerar los 
 más comunes. 
 
-<!-- Page 47 -->
-
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-47 
  
 Escritorio 
 Es el área de la pantalla inicial (la que vemos en la imagen anterior). Ejerce la función de escritorio o 
@@ -1645,13 +1419,10 @@ En una ventana podemos encontrar:
 • Las barras de desplazamiento. 
 • La barra de estado. 
 
-<!-- Page 48 -->
-
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-48 
 Los iconos 
 Son pictogramas que se utilizan para representar aplicaciones, carpetas, archivos o accesos directos. 
 En Windows, los iconos son ficheros binarios con extensión ".ico". 
@@ -1675,13 +1446,10 @@ Atención
 El explorador de Windows, NO es para administrar el equipo, para \nello se utiliza el Panel de Control. 
  
 
-<!-- Page 49 -->
-
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-49 
  
 Explorador de archivos 
 El Explorador de Windows se puede abrir de diferentes formas, que dependerán también de la versión 
@@ -1690,31 +1458,28 @@ de Windows que tengamos instalada. Algunas de ellas son:
 • Presionar Win + R (Ejecutar…) y escribir "explorer". 
 • Hacer click con el botón derecho del ratón (en caso de diestros), sobre el botón Inicio y 
 seleccionar la opción "Explorador de Windows". 
-4.3. Opciones de energia 
+### 🔵 4.3. Opciones de energia
 La configuración de energía permite ajustar el comportamiento del sistema en función de las 
 necesidades de rendimiento, consumo eléctrico o autonomía. Tanto en equipos de usuario como en 
 servidores, una correcta gestión de los planes de energía puede mejorar la eficiencia, prolongar la vida 
 útil del hardware y reducir el gasto energético. A continuación, se analizan las opciones disponibles 
 según la edición del sistema operativo: Home, Pro y Server. 
-4.3.1. Opciones de energía en Windows 10/11 Home 
+#### 🔹 4.3.1. Opciones de energía en Windows 10/11 Home
 Las ediciones Home de Windows 10 y Windows 11 ofrecen los planes de energía básicos que permiten 
 adaptar el comportamiento del equipo a distintos usos. Los tres planes principales son: Equilibrado, que 
 ajusta el rendimiento y el consumo energético de forma dinámica; Alto rendimiento, que prioriza la 
 potencia de procesamiento sacrificando la eficiencia energética; y Ahorro de energía, que reduce el uso 
 de recursos del sistema para extender la duración de la batería. 
 
-<!-- Page 50 -->
-
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-50 
 Estos planes están disponibles a través de la aplicación de Configuración en el apartado de Sistema > 
 Energía y suspensión, o desde el clásico Panel de control > Opciones de energía. En estas versiones, los 
 usuarios pueden modificar aspectos como el tiempo de suspensión de la pantalla o del sistema, pero no 
 disponen de herramientas administrativas avanzadas para aplicar políticas centralizadas sobre la \nenergía. 
-4.3.2. Opciones de energía en Windows 10/11 Pro 
+#### 🔹 4.3.2. Opciones de energía en Windows 10/11 Pro
 Las opciones de energía en Windows 10 y Windows 11 Pro son fundamentales para controlar el 
 comportamiento del sistema en relación con el consumo energético y el rendimiento. Esto resulta \nespecialmente relevante en dispositivos portátiles, como ordenadores portátiles y convertibles, donde 
 la autonomía de la batería es un recurso clave. Ambas versiones del sistema ofrecen planes de energía 
@@ -1728,7 +1493,7 @@ permite definir aspectos como el tiempo de apagado de la pantalla, el tiempo de 
 o la administración del disco duro cuando el sistema está inactivo. Estas configuraciones se gestionan 
 desde el apartado "Configuración > Sistema > Energía y suspensión", o desde el Panel de control clásico 
 a través de "Opciones de energía". 
-4.3.3. Opciones de energía en Windows Server 
+#### 🔹 4.3.3. Opciones de energía en Windows Server
 Windows Server incorpora igualmente las opciones de energía, aunque su enfoque es diferente. Dado 
 que estos sistemas están diseñados para operar de forma continua y estable, el plan de energía por 
 defecto suele ser Alto rendimiento, y muchas veces se desactivan funciones como la suspensión 
@@ -1738,19 +1503,16 @@ Además, la configuración energética puede integrarse con entornos de virtuali
 gestionarse a través de soluciones de administración centralizada. En servidores físicos, también puede 
 complementarse con configuraciones de BIOS/UEFI, asegurando que los dispositivos estén siempre 
 operativos en condiciones de carga variable. 
-4.4. Variables de entorno 
+### 🔵 4.4. Variables de entorno
 Las variables del entorno son valores del sistema operativo que permiten definir configuraciones 
 fundamentales que afectan al funcionamiento de programas, scripts y procesos del sistema. Aunque su 
 propósito es el mismo en todas las versiones de Windows, su uso y nivel de acceso varían según la \nedición del sistema. 
-
-<!-- Page 51 -->
 
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-51 
-4.4.1. Variables de entorno en Windows 10/11 Home 
+#### 🔹 4.4.1. Variables de entorno en Windows 10/11 Home
 En las versiones Home, las variables de entorno pueden visualizarse y configurarse desde Propiedades 
 del sistema > Configuración avanzada del sistema > Variables de entorno. Desde esta interfaz, el usuario 
 puede definir variables propias de su sesión (variables de usuario), como TEMP, USERNAME o PATH, y 
@@ -1760,7 +1522,7 @@ directorio donde están instalados.
 Aunque los usuarios domésticos pueden configurar estas variables para facilitar el uso de ciertos 
 programas o entornos de desarrollo, la funcionalidad se limita a configuraciones individuales, y no \nexisten herramientas para distribuir o imponer configuraciones comunes en varios equipos desde una 
 consola central. 
-4.4.2. Variables de entorno en Windows 10/11 Pro 
+#### 🔹 4.4.2. Variables de entorno en Windows 10/11 Pro
 En las ediciones Pro, el funcionamiento de las variables del entorno es el mismo que en la versión Home, 
 pero con una importante diferencia: se pueden gestionar a través de directivas de grupo, lo que permite 
 aplicar variables a múltiples usuarios o estaciones de trabajo desde una administración centralizada. 
@@ -1769,7 +1531,7 @@ la configuración de entornos de desarrollo, rutas de herramientas, carpetas tem
 Además, muchos scripts administrativos (tanto en PowerShell como en Batch) utilizan variables del \nentorno para realizar tareas automatizadas. La existencia de variables de sistema como %SystemRoot%, 
 %ProgramData% o %USERPROFILE% facilita la creación de scripts portables y adaptables a cualquier 
 usuario o instalación. 
-4.4.3. Variables de entornos en Windows Server 
+#### 🔹 4.4.3. Variables de entornos en Windows Server
 En Windows Server, el uso de variables del entorno es intensivo y forma parte de la gestión 
 automatizada de tareas, scripts de mantenimiento y políticas de red. Su funcionamiento es idéntico al 
 de los sistemas cliente, pero en el contexto de servidores, se utilizan comúnmente en scripts de inicio 
@@ -1779,18 +1541,15 @@ A través de scripts distribuidos por GPO o mediante herramientas como System Ce
 Manager (SCCM), se pueden definir rutas de red, claves de configuración o parámetros de conexión, 
 todo ello utilizando variables de entorno como soporte de datos compartidos. 
 
-<!-- Page 52 -->
-
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-52 
-4.5. Registros de Windows 
+### 🔵 4.5. Registros de Windows
 El Registro de Windows es una base de datos jerárquica donde se almacenan configuraciones críticas 
 del sistema operativo, de los programas instalados y del perfil de usuario. Aunque todas las versiones de 
 Windows incluyen esta funcionalidad, el uso y acceso al registro varía según el tipo de sistema. 
-4.5.1. Registros en Windows 10/11 Home 
+#### 🔹 4.5.1. Registros en Windows 10/11 Home
 En las versiones Home, el acceso al registro está permitido a través de la herramienta regedit.exe 
 (Editor del Registro). Los usuarios pueden explorar y modificar claves que controlan funciones del 
 sistema, comportamiento de aplicaciones, configuración de hardware y parámetros visuales. 
@@ -1801,14 +1560,14 @@ Sin embargo, cualquier modificación en el registro debe hacerse con precaución
 comprometer la estabilidad del sistema, impedir su arranque o afectar el funcionamiento de 
 aplicaciones. Aunque las versiones Home no permiten aplicar políticas mediante GPO, muchos ajustes \nequivalentes pueden realizarse directamente mediante cambios en el registro, siguiendo guías 
 avanzadas. 
-4.5.2. Registros en Windows 10/11 Pro 
+#### 🔹 4.5.2. Registros en Windows 10/11 Pro
 Las versiones Pro permiten las mismas ediciones que Home, pero además complementan la gestión del 
 registro con herramientas de administración como el Editor de directivas de grupo. Muchas de las 
 políticas aplicadas mediante GPO se traducen internamente en modificaciones en el registro, lo que 
 permite a los administradores definir de forma centralizada valores de configuración para múltiples \nequipos sin tener que editar manualmente las claves en cada uno de ellos. 
 Además, los administradores pueden exportar configuraciones del registro y distribuirlas como archivos 
 .reg, que se pueden ejecutar en otros sistemas para replicar configuraciones personalizadas. 
-4.5.3. Registros en Windows Server 
+#### 🔹 4.5.3. Registros en Windows Server
 En los sistemas Windows Server, el registro es una herramienta fundamental para la administración 
 avanzada. Al igual que en los sistemas cliente, se accede mediante regedit, pero su uso es más frecuente 
 y está relacionado con la configuración de servicios, roles del servidor, políticas de seguridad, control de 
@@ -1818,16 +1577,13 @@ accediendo al registro de otros servidores o estaciones de trabajo para realizar
 intervención directa. También es habitual su uso dentro de scripts de automatización, procesos de 
 despliegue o restauración de configuraciones. 
 
-<!-- Page 53 -->
-
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-53 
 La modificación del registro en Windows Server debe realizarse con especial precaución, ya que los \nerrores pueden tener un impacto en múltiples usuarios o afectar servicios críticos como controladores 
 de dominio, servicios de archivos o aplicaciones empresariales. 
-4.6. Microsoft Azure 
+### 🔵 4.6. Microsoft Azure
  
 Fuente: Wikimedia commons 
 (Anteriormente Windows Azure y Azure Services Platform). 
@@ -1856,18 +1612,15 @@ Puedes consultar los servicios que ofrece y su funcionamiento en la
 web oficial. https://azure.microsoft.com/es-es/ 
  
 
-<!-- Page 54 -->
-
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-54 
-4.7. Herramientas de Windows 
+### 🔵 4.7. Herramientas de Windows
 Microsoft ha ido desarrollando diferentes herramientas e incorporándolas a sus nuevas versiones de 
 Windows, para poder realizar diferentes gestiones. 
 Vamos a ver algunas de ellas. 
-4.7.1. ActiveSync 
+#### 🔹 4.7.1. ActiveSync
 ActiveSync es un programa de sincronización de datos desarrollado por Microsoft para su uso con sus 
 sistemas operativos Microsoft Windows. 
 Originalmente lanzado con el nombre "Explorador de PC Móvil" en 1996, proporciona a los usuarios de 
@@ -1878,7 +1631,7 @@ ActiveSync utiliza Exchange ActiveSync, un protocolo propietario que requiere de
 la licencia del protocolo para lograr la compatibilidad. 
 A partir de Windows Vista, ActiveSync se ha sustituido por el Windows Mobile Device Center, que se 
 incluye como parte del sistema operativo. 
-4.7.2. AppLocker 
+#### 🔹 4.7.2. AppLocker
 Es una herramienta de Windows que mejora el control de las aplicaciones, pudiento especificar que 
 usuarios o grupos pueden ejercutar o no una aplicación. 
 Está disponible en Windows 10 y Windows Server. 
@@ -1890,13 +1643,10 @@ Con AppLocker puede:
 • Archivos DLL (. dll y. ocx). 
 • Aplicaciones empaquetadas y los instaladores de aplicaciones empaquetadas (Appx). 
 
-<!-- Page 55 -->
-
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-55 
 • Definir reglas basadas en atributos de archivo derivados de la firma digital, como el editor, el 
 nombre de producto, el nombre de archivo y la versión de archivo. Por ejemplo, puede crear 
 reglas basadas en el atributo Editor persistente a través de las actualizaciones, o bien puede 
@@ -1914,7 +1664,7 @@ Windows PowerShell.
 AppLocker ayuda a reducir la sobrecarga administrativa y ayuda a reducir el costo de administrar los 
 recursos de computación de la organización al disminuir la cantidad de llamadas al servicio de asistencia 
 que resultan de los usuarios que ejecutan aplicaciones no aprobadas. 
-4.7.3. Interfaz de Consola CLI 
+#### 🔹 4.7.3. Interfaz de Consola CLI
 La interfaz de línea de comandos o interfaz de línea de órdenes es un método que permite a los usuarios 
 dar instrucciones a algún programa informático por medio de una línea de texto simple. 
 Hay que tener en cuenta, que los conceptos de CLI, shell y emulador de terminal no son lo mismo 
@@ -1928,14 +1678,11 @@ Windows 95, Microsoft introdujo el Símbolo del Sistema (cmd.exe) como el shell 
 para Windows. Este shell se basó en los conceptos de MS-DOS, pero estaba integrado en el entorno de 
 Windows y proporcionaba una interfaz para ejecutar comandos y scripts en el contexto de Windows. 
 
-<!-- Page 56 -->
-
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-56 
-4.7.4. Windows Script Host 
+#### 🔹 4.7.4. Windows Script Host
 Windows Script Host (WSH) es un motor y entorno de ejecución de scripts que permite utilizar 
 lenguajes como VBScript y JScript. Ofrece una funcionalidad más avanzada que los archivos por lotes 
 (batch), superándolos en cuanto a la variedad de lenguajes que admite y la sofisticación de los scripts 
@@ -1950,7 +1697,7 @@ PowerShell, navega al directorio que contiene el script y utiliza uno de estos c
 Aunque se pueden ejecutar scripts más complejos en el símbolo del sistema utilizando WSH, no permite \nejecutar cmdlets de PowerShell. La automatización de tareas es generalmente más eficiente y versátil 
 con PowerShell, que proporciona un lenguaje de scripting mucho más potente y extensible que el 
 disponible en el símbolo del sistema o Windows Script Host. 
-4.7.5. PowerShell 
+#### 🔹 4.7.5. PowerShell
 Originalmente llamada Windows PowerShell. 
 Es una interfaz de consola (CLI) con posibilidad de escritura y unión de comandos por medio de 
 instrucciones (scripts en inglés). 
@@ -1968,13 +1715,10 @@ para su funcionamiento. Lo estudiaremos en posteriores unidades.
 También puede ser instalado en sistemas Linux y MacOS. 
  
 
-<!-- Page 57 -->
-
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-57 
 La herramienta PowerShell es posible abrirla rápidamente accediendo a la función Ejecutar que se 
 incluye en Windows, para ello: 
 • Hay que presionar de manera simultánea las teclas Windows + R. 
@@ -1989,19 +1733,16 @@ Imprescindible
 Los comandos de PowerShell se llaman cmdlets. 
 (cmdlet en singular). 
  
-5. Sistemas Unix y Linux 
+## 🟣 5. Sistemas Unix y Linux
  
 Fuente: UniX_Logo File de Wilkimedia Commons 
  
 Fuente: Flickr 
 
-<!-- Page 58 -->
-
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-58 
 Primero vamos a definir las similitudes y diferencias entre UNIX y Linux. 
 UNIX es un sistema operativo completo, desarrollado por AT&T en colaboración con diversas 
 universidades. Está pensado en la facilidad de instalación en distintos hardware y la robustez 
@@ -2038,13 +1779,10 @@ Unix, aunque su interfaz gráfica mantiene muchos elementos de
 las versiones anteriores. 
  
 
-<!-- Page 59 -->
-
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-59 
 UNIX 
 El sistema operativo Unix bebe directamente de CTSS (Compatible Time-Sharing System) y Multics. 
 CTSS, desarrollado en el MIT, fue uno de los primeros sistemas operativos que puso el foco en el tiempo 
@@ -2073,19 +1811,16 @@ Por lo tanto, al estar basado en Unix es más difícil de manejar que sistemas M
 OS (de Apple), pero desde hace unos años se está trabajando para facilitar su uso. 
 Linux es un sistema operativo flexible, estable y de bajo coste, por lo que muchas empresas y 
 administraciones públicas están migrando sus sistemas a Linux (especialmente los servidores). 
-5.1. Características 
+### 🔵 5.1. Características
 Vamos a destacar las características más importantes que los diferencian de otros sistemas operativos. 
 • Sistema operativo de código abierto. Podemos disponer de sus fuentes, modificarlas y crear 
 nuevas versiones que poder compartir bajo la licencia GPL (lo cual lo convierte a su vez en 
 software libre). 
 
-<!-- Page 60 -->
-
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-60 
 • Portabilidad. Está pensado para no depender de la arquitectura de una máquina concreta. 
 • Se puede portar a casi cualquier arquitectura que pueda compilar C. 
 • GNU/Linux es uno de los sistemas que soporta mayor número de arquitecturas. 
@@ -2109,25 +1844,18 @@ Es posible que te preguntes qué es software libre.
 • Software libre significa que los usuarios tienen la libertad de \nejecutar, copiar, distribuir, estudiar, modificar y mejorar el 
 software. 
 • Para ello, los usuarios tienen las siguientes libertades: 
-1. Libertad para ejecutar el programa como lo desee, con 
-cualquier propósito. 
-2. Libertad para estudiar el funcionamiento del programa 
-y adaptarlo a sus necesidades (se puede acceder al 
+## 🟣 1. Libertad para ejecutar el programa como lo desee, con cualquier propósito. 
+## 🟣 2. Libertad para estudiar el funcionamiento del programa y adaptarlo a sus necesidades (se puede acceder al 
 código). 
-3. Libertad para redistribuir copias para ayudar a los 
-demás. 
-4. Libertad para mejorar el programa y publicar sus 
-mejoras para beneficio de la comunidad. 
+## 🟣 3. Libertad para redistribuir copias para ayudar a los demás. 
+## 🟣 4. Libertad para mejorar el programa y publicar sus mejoras para beneficio de la comunidad. 
  
-
-<!-- Page 61 -->
 
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-61 
-5.2. Conceptos básicos 
+### 🔵 5.2. Conceptos básicos
 Kernel 
 El kernel Linux es el componente central de un sistema operativo GNU/Linux. Su función principal es 
 gestionar los recursos del hardware -como el procesador, la memoria, los dispositivos de 
@@ -2156,13 +1884,10 @@ El término se refiere generalmente a inodos en discos (dispositivos en modo blo
 archivos regulares, directorios, y enlaces simbólicos. El concepto es particularmente importante para la 
 recuperación de los sistemas de archivos dañados. 
 
-<!-- Page 62 -->
-
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-62 
 Cada inodo queda identificado por un número entero, único dentro del sistema de ficheros, y los 
 directorios recogen una lista de parejas formadas por un número de inodo y nombre identificativo que 
 permite acceder al archivo en cuestión: cada archivo tiene un único inodo, pero puede tener más de un 
@@ -2185,7 +1910,7 @@ y el contador queda a cero.
 • La estructura de punteros, para direccionar hacia los bloques de datos (contenido) del archivo. 
 Daemon 
 Es una expresión que se refiere a un tipo especial de proceso informático no interactivo, es decir, que se \nejecuta en segundo plano (background) en vez de ser controlado directamente por el usuario. 
-5.3. Gestor de arranque (Linux Boot Loaders) 
+### 🔵 5.3. Gestor de arranque (Linux Boot Loaders)
 Su función es gestionar varios sistemas operativos en un mismo ordenador, y poder seleccionar cual 
 arrancar al encender el ordenador, dependiendo de nuestras necesidades en ese momento. 
 Es un programa pequeño, almacenado en la tabla de particiones MBR o GUID, necesario e 
@@ -2193,13 +1918,10 @@ imprescindible para que sistema se cargue en la memoria.
 Al instalar Linux, podemos instalar diversos cargadores de arranque. Vamos a ver 4 de los más 
 destacados: GNU GRUB, LILO, BURG y Syslinux. 
 
-<!-- Page 63 -->
-
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-63 
 GNU GRUB 
 Es el más utilizado, está basado en el Grub original (Grand Unified Bootloader) creado por Stefan Eirch 
 Broleyn. Pero con nuevas características, mejoras y correcciones de errores respecto al GRUB original. 
@@ -2232,19 +1954,16 @@ La idea de BURG es proveer un cargador de arranque con aspecto visual, capaz de 
 Existen miles de temas y diseños creados por la comunidad, y que se pueden descargar desde diversas 
 páginas web. 
 
-<!-- Page 64 -->
-
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-64 
 SYSLINUX 
 Sólo accede a los archivos de su propia partición, no puede realizar el inicio de varios sistemas de 
 archivos. 
 Permite el arranque desde red, CD-ROM etc. También soporta sistemas de archivos de ext2, ext3, ext4 
 para Linux, y archivos como FAT para MS-DOS. 
-5.4. Distribuciones 
+### 🔵 5.4. Distribuciones
 Una distribución o distro Linux es una recopilación que contiene el núcleo de Linux y una serie de 
 paquetes de software (normalmente software libre) para satisfacer las necesidades de un determinado 
 grupo de usuarios. 
@@ -2270,13 +1989,10 @@ años.
 • Basado en la arquitectura de Debian, pero con un enfoque más actualizado y user-friendly. 
 • Tiene soporte tanto de la comunidad como profesional (Canonical). 
 
-<!-- Page 65 -->
-
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-65 
 • Muchas distribuciones están basadas en Ubuntu (Lubuntu, Xubuntu, Mint, PepperMint…). 
 • Escritorio GNome desde versión 18.04. Anteriormente usaba Unity. 
 • Actualmente usa GNOME 46, con la versión 24.04 LTS con mejoras en rendimiento y apps 
@@ -2304,13 +2020,10 @@ Cinnamon, etc).
 • Distribución desarrollada de forma independiente. 
 • Dirigida a usuarios avanzados. 
 
-<!-- Page 66 -->
-
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-66 
 • Rolling Release: Siempre actualizado (sin versiones fijas). 
 • Pacman. Gestor de paquetes de desarrollo propio (ultrarrápido y eficiente). 
 • El Sistema de Construcción de Arch (Arch Build System, ABS) facilita la creación de nuevos 
@@ -2342,13 +2055,10 @@ otras herramientas compatibles con los estándares de la Open Container Initiati
 • Distribuye variantes (Fedora Spins) enfocado a distintos campos (juegos, diseño, 
 computación científica, etc.). 
 
-<!-- Page 67 -->
-
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-67 
 • OPENSUSE: en enero de 2004, la compañía multinacional estadounidense Novell compro SuSE 
 LINUX. En 2005, en la LinuxWorld, Novell, siguiendo los pasos de RedHat Inc., anunció la 
 liberación de la distribución SuSE Linux para que la comunidad fuera la encargada del desarrollo 
@@ -2380,13 +2090,10 @@ aplicaciones preinstaladas.
 Basado en Ubuntu LTS incluye herramientas con la instalación listas para usarse. Con el entorno 
 de escritorio XFCE, que recuerda a Windows XP. 
 
-<!-- Page 68 -->
-
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-68 
 • Bodhi Linux (https://www.bodhilinux.com/): 
 Basada en Ubuntu, dispone de muchas aplicaciones libres con el acceso a los repositorios de 
 Ubuntu. Incluye el escritorio Moksha el cual permite añadir efectos Compiz, pero no dispone de 
@@ -2417,13 +2124,10 @@ administrador de archivos, recuperador de archivos eliminados, suite de ofimáti
 navegador web, gestor de control parental. Permite instalar aplicaciones desde los repositorios 
 Linux y automatizar las copias de seguridad. 
 
-<!-- Page 69 -->
-
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-69 
 • Point Linux (http://pointlinux.org/): 
 Basada en Debian. La versión sencilla, incluye herramientas y aplicaciones que permiten usar el 
 sistema tras su instalación. La versión completa incluye Mozilla Firefox, ThunderBird, 
@@ -2456,13 +2160,10 @@ organizaciones, disponiendo de una migración sencilla entre equipos y segura, m
 solo funciona en sistemas CentOS Stream, CentOS Linux, Oracle Linux, Alma Linex y Red Hat. 
  
 
-<!-- Page 70 -->
-
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-70 
  
  
  
@@ -2472,7 +2173,7 @@ más que te pueden resultar muy interesantes.
 Aunque no es necesario, puedes investigar por internet, para 
 buscar alguna que se adapte a tus necesidades. 
  
-5.5. Entornos de escritorio 
+### 🔵 5.5. Entornos de escritorio
 Un entorno de escritorio o GUI (Grafical User Interface o Interfaz Gráfica de Usuario) es un conjunto de 
 productos software que ofrecen al usuario una interacción amigable y cómoda con el sistema operativo. 
 Linux cuenta con muchos de ellos. Cada distribución puede llevar uno por defecto, pero, al ser 
@@ -2494,19 +2195,16 @@ libro.
 • Muchos efectos visuales. 
 • Se utiliza en Linux Mint. 
 
-<!-- Page 71 -->
-
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-71 
 • MATE. 
 • Es una extensión de GNOME 2. 
 • Es más liviano. 
 • Xfce. 
 • Muy liviano. No tiene animaciones ni efectos visuales. 
-5.6. Directorios y sistemas de archivos 
+### 🔵 5.6. Directorios y sistemas de archivos
 En Linux y Unix todo es un fichero. Los directorios son ficheros, los ficheros son ficheros, y los 
 dispositivos (como discos duros o pendrive) son ficheros. También los puertos de comunicación y las 
 consolas o terminales son dispositivos asociados a un archivo. 
@@ -2530,13 +2228,10 @@ aplicaciones instaladas a posteriori.
 que existen debajo del directorio raíz (/). 
 • /media: Particiones montadas (cargadas) automáticamente en el disco duro y medios (media) \nextraíbles como CDs, cámaras digitales, etc. 
 
-<!-- Page 72 -->
-
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-72 
 • /mnt: Sistemas de archivos montados manualmente en el disco duro. 
 • /opt: Proporciona una ubicación donde instalar aplicaciones opcionales (de terceros). 
 • /proc: Directorio dinámico especial que mantiene información sobre el estado del sistema, 
@@ -2548,7 +2243,7 @@ incluyendo los procesos actualmente en ejecución.
 • /tmp: Archivos temporales. 
 • /usr: Aplicaciones y archivos a los que puede acceder la mayoría de los usuarios. 
 • /var: Archivos variables como archivos de registros y bases de datos. 
-5.7. Permisos 
+### 🔵 5.7. Permisos
 Todos los archivos de un sistema Linux tienen permisos que permiten o impiden a otros verlos, 
 modificarlos o ejecutarlos. 
 El superusuario "root" tiene acceso a cualquier archivo del sistema. 
@@ -2562,13 +2257,10 @@ Hay 3 tipos de permisos:
 • Los archivos pueden ser visualizados/abiertos. 
 • El contenido del directorio se puede visualizar. 
 
-<!-- Page 73 -->
-
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-73 
 • Escritura. 
 • Los archivos se pueden modificar o eliminar. 
 • El contenido del directorio se puede modificar (lo que incluye crear, renombrar y eliminar 
@@ -2594,13 +2286,10 @@ Cuando utilizamos un número octal, los valores son de este modo:
 • El segundo dígito corresponde a los usuarios del grupo. 
 • El tercer dígito corresponde al resto de usuarios. 
 
-<!-- Page 74 -->
-
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-74 
 También es posible añadir y quitar permisos utilizando las letras. La siguiente tabla muestra los 
 permisos: 
 Octal 
@@ -2609,50 +2298,34 @@ Letras
 Lectura(r) 
 Escritura(w) 
 Ejecución(x) 
-0 
-000 
  
 No 
 No 
 No 
-1 
-001 
 x 
 No 
 No 
 Si 
-2 
-010 
 w 
 No 
 Si 
 No 
-3 
-011 
 wx 
 No 
 Si 
 Si 
-4 
-100 
 r 
 Si 
 No 
 No 
-5 
-101 
 rx 
 Si 
 No 
 Si 
-6 
-110 
 rw 
 Si 
 Si 
 No 
-7 
-111 
 rwx 
 Si 
 Si 
@@ -2675,30 +2348,27 @@ chmod u+r o-w
 (los que no son ni el usuario ni usuarios del grupo). 
  
 
-<!-- Page 75 -->
-
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-75 
-5.8. Principales comandos 
+### 🔵 5.8. Principales comandos
 Existen muchos comandos en Linux, con diferentes opciones, que pueden variar dependiendo de la 
 versión que estemos utilizando. 
 Vamos a ver algunos de los más principales. Linux nos proporciona un manual de cada comando y sus 
 opciones: 
 Podemos ver el manual completo de cualquier comando escribiendo: man nombredelcomando. 
 Ahora vas a estudiar los principales Comandos: 
-5.8.1. Gestión y control de Linux 
+#### 🔹 5.8.1. Gestión y control de Linux
 Son comandos muy útiles, para controlar tareas de administración, gestión o soporte para conocer en 
 detalle múltiples parámetros tanto del sistema como de procesos, usuarios, servicios… 
-5.8.1.1. Which 
+##### 5.8.1.1. Which
 Se utiliza para conocer la ruta de un comando. 
 Si necesitamos saber en qué directorio de nuestro PATH se encuentra un comando (programa), en vez 
 de usar find o locate, que nos tardarán más, podemos usar: which <programa> 
 PATH es una variable de entorno que contiene los directorios donde el shell (intérprete de comandos) 
 buscará los programas (y comandos) cuando los queramos ejecutar. 
-5.8.1.2. Modprobe 
+##### 5.8.1.2. Modprobe
 Para añadir o eliminar un módulo cargable del kernel. 
 Es un programa de Linux escrito originalmente por Rusty Russell y utilizado para añadir un módulo 
 cargable del kernel (LKM) al kernel de Linux o para eliminarlo. 
@@ -2708,19 +2378,16 @@ A partir de 2014 modprobe se distribuye como parte del paquete de software "kmod
 Si se llama sin parámetros, el programa agrega / inserta / instala por defecto el módulo designado en el 
 kernel. Normalmente se requieren privilegios de superusuario para realizar estos cambios. 
 
-<!-- Page 76 -->
-
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-76 
 Ofrece funciones muy completas: 
 • La capacidad de tomar decisiones más intuitivas sobre qué módulos cargar. 
 • Un conocimiento de las dependencias de los módulos, de modo que cuando se le solicita que 
 cargue un módulo, modprobe agrega otros módulos que se requerían previamente. 
 • La resolución de las recursivas dependencias de los módulos que sean necesarios. 
-5.8.1.3. Paquete e2fsprogs 
+##### 5.8.1.3. Paquete e2fsprogs
 Es un conjunto de utilidades para mantenimiento de los sistemas de ficheros ext2, ext3 y ext4. Debido a 
 que estos son generalmente los sistemas de archivos por defecto en las distribuciones Linux, 
 comúnmente se considera al paquete e2fsprogs software esencial. 
@@ -2739,18 +2406,15 @@ archivos. Regla de oro: desmontar antes de verificar o reparar.
 • dumpe2fs: que muestra la información de bloques y superbloques. 
 • debugfs: usado para visualizar o modificar estructuras internas del sistema de archivos 
 manualmente. 
-5.8.1.4. Who 
+##### 5.8.1.4. Who
 Si ejecutamos who sin ningún argumento, la consola nos mostrara la información de la cuenta, con 
 nombre de usuario, terminal del usuario, hora de inicio de sesión y del host en el cual se ha iniciado 
 sesión. 
-
-<!-- Page 77 -->
 
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-77 
 Podemos usar las siguientes opciones: 
 • who-H 
 Imprimir el encabezado de las columnas generadas. 
@@ -2768,7 +2432,7 @@ Nos permite verificar el nivel de ejecución actual.
 • who –a 
 Genera información general, imprime el resultado predeterminado combinado con la 
 información de algunas de las opciones anteriores. 
-5.8.1.5. Id 
+##### 5.8.1.5. Id
 El comando id en Linux es una herramienta útil para obtener información sobre la identidad de un 
 usuario o grupo en el sistema. 
 Id sin opciones mostrará el UID (identificación de usuario) y el GID (Identificación de grupo) y los 
@@ -2779,14 +2443,11 @@ información mencionada del usuario al que hacemos referencia.
 • id -g <nombre_usuario>: mostrará solo el GID del usuario referenciado. 
 • id -G <nombre_usuario>: mostrará los grupos a los que pertenecce el usuario referenciado. 
 
-<!-- Page 78 -->
-
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-78 
-5.8.1.6. Uname 
+##### 5.8.1.6. Uname
 El comando uname es una utilidad de línea de comandos en Linux que permite obtener información 
 sobre el sistema operativo y el núcleo. Es muy útil para conocer detalles sobre el entorno del sistema en \nel que estás trabajando. 
 uname significa Unix Name. Este comando muestra información básica del sistema, como el nombre del 
@@ -2807,23 +2468,20 @@ mostrará únicamente el nombre del kernel.
 • -o Muestra el sistema operativo (normalmente GNU/Linux). 
 • --help Muestra un resumen de las opciones disponibles. 
 • --version Muestra la versión de uname. 
-5.8.2. Comandos para ficheros y directorios 
+#### 🔹 5.8.2. Comandos para ficheros y directorios
 Es imprescindible, para desenvolverse en el entorno, conocer los comandos de manipulación de ficheros 
 y directorios que el sistema operativo. 
-
-<!-- Page 79 -->
 
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-79 
-5.8.2.1. pwd 
+##### 5.8.2.1. pwd
 (De las siglas en inglés print working directory, cuya traducción sería imprimir directorio de trabajo). 
 Sirve para mostrar la ruta actual. 
 El comando pwd en Linux te devuelve la ruta en la que estas situado, se suele utilizar para saber en qué 
 parte de la estructura de directorios te encuentras. 
-5.8.2.2. touch 
+##### 5.8.2.2. touch
 Crear archivos. Sin ninguna opción crea un nuevo archivo vacío. 
 Sintaxis: touch [ruta/archivo.txt] 
 Si el archivo existe, el comando actualizará el tiempo de acceso y de modificación a la hora actual sin 
@@ -2835,7 +2493,7 @@ intacto.
 • -t HHMMyy.ss: Permite establecer una fecha y hora específicas en lugar de la hora actua. 
 • -r [archivo-referencia] [archivo-destino], cambiará todos los timestamps del archivo destino 
 para poner los mismos que el de referencia. 
-5.8.2.3. WC 
+##### 5.8.2.3. WC
 WC (word count) es un comando utilizado en el sistema operativo Unix que permite realizar diferentes 
 conteos desde la entrada estándar, ya sea de palabras, caracteres o saltos de líneas. Se combina con el 
 comando cat. 
@@ -2845,23 +2503,20 @@ lista de archivos, muestra estadísticas de cada archivo individual y luego las 
 • wc -l <fichero> número de líneas que tiene el fichero. 
 • wc -c <fichero> número de bytes. 
 
-<!-- Page 80 -->
-
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-80 
 • wc -m <fichero> imprime el número de caracteres. 
 • wc -L <fichero> imprime la longitud de la línea más larga. 
 • wc -w <fichero> imprime el número de palabras. 
-5.8.2.4. cat 
+##### 5.8.2.4. cat
 Se usa para concatenar y mostrar archivos. La Single Unix Specification, establece que cat, escribirá a la 
 salida estándar el contenido de cada uno de los archivos dados como argumentos, en el mismo orden en \nel que fueron dados, y obliga el uso de una opción, -u, con la que cada byte se imprime en cuanto se lee. 
 Si introducimos el símbolo menos "-" como nombre de archivo, cat leerá de la entrada estándar cuando 
 llegue a él. Si no se especifica ningún archivo, cat leerá solo de la entrada estándar. Cuando hablamos de \nentrada estándar nos referimos a lo introducido en el prompt o intérprete de comandos del sistema 
 operativo. 
-5.8.2.5. less 
+##### 5.8.2.5. less
 Mostrar contenido de un archivo. 
 El comando less en Linux, nos muestra el contenido de un archivo, (en ocasiones es demasiada 
 información como para que se pueda leer en la pantalla del monitor), less nos lo muestra de forma 
@@ -2878,13 +2533,10 @@ número de líneas seguido de la tecla espacio o (f).
 • Volver a la página anterior: pulsamos la tecla (b), o también podemos especificar las líneas hacia 
 arriba: escribimos el número de líneas seguido de la tecla (b). 
 
-<!-- Page 81 -->
-
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-81 
 • Buscar un patrón: escribimos la barra diagonal (/ patrón). Pulsamos la tecla «Enter» para 
 comenzar. Si queremos que busque hacía atrás (? patrón). 
 • Repetir ultima búsqueda: (n). 
@@ -2896,7 +2548,7 @@ comenzar. Si queremos que busque hacía atrás (? patrón).
 • Retroceder N líneas ([número de líneas]+k) 
 • Al llegar al final del archivo aparecerá la cadena (END) en la parte inferior de la pantalla. Para 
 salir de less y volver a la línea de comandos pulsamos la tecla (q). 
-5.8.2.6. more 
+##### 5.8.2.6. more
 El comando "more" en Linux también permite mostrar el contenido de un archivo de forma interactiva, 
 similar a "less", pero con algunas diferencias, solo se permite la navegación hacia adelante (no se puede 
 retroceder): 
@@ -2910,24 +2562,21 @@ Opciones más comunes:
 • -h: Muestra una breve ayuda (desde el shell). 
 • -d: Muestra ayuda a pie de texto 
 
-<!-- Page 82 -->
-
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-82 
 • -l: Cuando more encuentra un ^L en pantalla, normalmente pausa la visualización, pero con -l 
 ignora esa pausa y sigue mostrando el contenido continuamente. 
 • -f: fuerza a mostrar líneas completas sin dividirlas, pero solo se nota cuando las líneas son más 
 anchas que la terminal. 
 • -[n]: Muestra el texto desde el principio y las líneas especificadas por "n" en cada página. 
 • +[n]: Comienza la visualización desde la línea "n" 
-5.8.2.7. tac 
+##### 5.8.2.7. tac
 Mostrar ficheros. Acrónimo de "concatenate", pero al revés cat -> tac. 
 Tac te muestra el contenido de un fichero en orden contrario. Muestra un archivo línea por línea, pero \nen orden inverso (la última línea primero y la primera última). Te permite concatenar ficheros y 
 mostrarlos a la inversa. 
-5.8.2.8. du 
+##### 5.8.2.8. du
 Gestión de espacio en disco. 
 du (abreviatura de disk usage, uso de disco) es un comando estándar de los sistemas operativos de la 
 familia Unix. 
@@ -2944,13 +2593,10 @@ Opciones más comunes:
 • -x se salta los directorios de otros sistemas de ficheros (fruto de otros puntos de montaje). 
  
 
-<!-- Page 83 -->
-
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-83 
  
  
  
@@ -2963,7 +2609,7 @@ formato legible para humanos:
 du -ah /home 
 • Tamaño total de un directorio: du -s /home. 
  
-5.8.2.9. vi 
+##### 5.8.2.9. vi
 Es un comando para editor de texto. 
 vi (Visual) fue originalmente escrito por Bill Joy en 1976. Es un programa editor de texto, pero a 
 diferencia de un procesador de texto no ofrece herramientas para determinar visualmente cómo 
@@ -2979,13 +2625,10 @@ borrar, copiar y pegar.
 Normalmente vi se inicia en modo comandos, una vez realizado un comando y escrito el testo (estamos \nen modo insertar), volvemos al modo de comandos, presionando la tecla esc (escape). 
 Para desplazarse sobre el archivo se emplean las teclas j (abajo), k (arriba), h (izquierda) y l (derecha). 
 
-<!-- Page 84 -->
-
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-84 
 • INSERCIÓN de texto: 
 • i, antes del cursor. 
 • a, después del cursor. 
@@ -3012,13 +2655,10 @@ y para dispositivos móviles
 • X, borrar carácter antes el cursor. 
 • dd, borrar línea actual. 
 
-<!-- Page 85 -->
-
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-85 
 • dw, borrar palabra. 
 • d$, borrar desde cursor hasta el inicio de línea. 
 • d^, borrar desde cursor hasta el fin de línea. 
@@ -3035,7 +2675,7 @@ y para dispositivos móviles
 • :wq o :x, guardar y salir. 
 • ZZ, guardar y salir (en modo comandos). 
 • :e [archivo], abrir otro archivo. 
-5.8.2.10. mount, umount 
+##### 5.8.2.10. mount, umount
 Se utilizan para montar y desmontar sistemas de archivos. 
 Montar es hacer accesible el contenido de un dispositivo (disco, USB, partición) a través de un 
 directorio específico en el árbol del sistema. 
@@ -3045,13 +2685,10 @@ Linux.
 • Formato: mount [opciones] dispositivo directorio. 
 • Sin parámetros muestra todos los sistemas montados. 
 
-<!-- Page 86 -->
-
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-86 
 • Con parámetros: 
 » -t [tipo], especifica el sistema de archivos (ext4, ntfs, vfat, xfs). 
 » -r, monta en solo lectura. 
@@ -3068,7 +2705,7 @@ Nota
 Existen muchas más opciones específicas, pero éstas cubren el 
 95% de los casos de uso comunes. 
  
-5.8.2.11. tar 
+##### 5.8.2.11. tar
 Tar es una herramienta de línea de comandos que se utiliza para crear y manipular archivos de 
 almacenamiento en sistemas Linux y Unix. Es uno de los comandos más utilizados en Linux. 
 El nombre Tar es el acrónimo de "Tape Archive" en inglés, lo que en español se traduce como 
@@ -3084,13 +2721,10 @@ El comando Tar crea un archivo .tar y luego lo comprime usando una librería ext
 Extensiones obtenidas son: .tar.gz, .tar.bz2, tar.xz, etc. 
  
 
-<!-- Page 87 -->
-
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-87 
  
  
  
@@ -3120,13 +2754,10 @@ comando tar.
 • /path/del/archivo/a/comprimir: Corresponde a la ruta de la carpeta o archivo que desea 
 ser añadido al .TAR. 
 
-<!-- Page 88 -->
-
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-88 
 • [/otros]: Al estar entre Brakes o Corchetes " [ ] " se aplica a una parte del comando que 
 puede ser opcional. Corresponde a la ruta de archivos o carpetas adicionales que pueden 
 ser añadidas al .TAR. 
@@ -3152,13 +2783,10 @@ nombre puede ser definido dado a que fue ejecutado el flag o bandera " f " en la
 del comando .TAR. 
  
 
-<!-- Page 89 -->
-
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-89 
  
  
  
@@ -3192,13 +2820,10 @@ compresión.
 • -j: Se utiliza para filtrar el archivo a través de bzip2. 
 • -J: Se utiliza para filtrar el archivo a través de xz. 
 
-<!-- Page 90 -->
-
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-90 
 Ventajas de la compresión de archivos: 
 • Tiene una relación de compresión del 50%, lo que significa que comprime eficientemente. 
 • Reduce drásticamente el tamaño de las carpetas y archivos comprimidos. 
@@ -3231,14 +2856,11 @@ Extraer un archivo tar.gz comprimido:
 tar -xzvf [archivo-comprimido].tar.gz 
  
 
-<!-- Page 91 -->
-
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-91 
-5.8.2.12. shell 
+##### 5.8.2.12. shell
 Es el intérprete de comandos que permite al usuario interactuar con el Kernel de Linux. Los comandos 
 que se ejecutan en él son para el manejo de ficheros, procesos, y más. 
 Los comandos que se ejecutan en él son para el manejo de ficheros, procesos, y más. Los comandos 
@@ -3265,13 +2887,10 @@ Comandos para el manejo de ficheros
 » -i: Espera confirmación antes de sobreescribir. 
 » -b: Crea una copia de seguridad del archivo antes de moverlo. 
 
-<!-- Page 92 -->
-
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-92 
 • rm. 
 • Borra un fichero. 
 • Formato: rm [opciones] archivo. 
@@ -3299,13 +2918,10 @@ y para dispositivos móviles
 » chown [opciones] usuario archivos (cambia el dueño) 
 » chown [opciones] usuario:grupo archivos (cambia dueño y grupo) 
 
-<!-- Page 93 -->
-
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-93 
 • chgrp. 
 • Cambia el grupo propietario de archivos o directorios. 
 • Formato: chgrp [opciones)] nombreGrupo archivos. 
@@ -3315,7 +2931,7 @@ y para dispositivos móviles
 • Formato: gzip [opciones] archivo. 
 • Opciones: 
 » -d: Descomprime. 
-5.8.2.13. Sort 
+##### 5.8.2.13. Sort
 El comando sort en Linux es una herramienta de la shell diseñada para reordenar las líneas de archivos 
 de texto o de cualquier entrada de datos basándose en reglas específicas (alfabéticas por defecto, 
 numéricas, o por claves). 
@@ -3329,20 +2945,17 @@ Invertirá el orden.
 • -n. 
 Toma un valor alfabético y lo interpreta como un número. 
 
-<!-- Page 94 -->
-
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-94 
 • -f. 
 No discriminara entre mayúsculas y minúsculas. 
 • -t. 
 Se utiliza como separador de campo. 
 • -k. 
 Busca según número de columna y lo ordena. 
-5.8.2.14. fsck 
+##### 5.8.2.14. fsck
 El comando fsck (File System Consistency Check) es una herramienta utilizada en Linux y UNIX para 
 comprobar y reparar sistemas de archivos en discos y particiones. Se usa comúnmente para detectar y 
 corregir errores en el sistema de archivos que pueden ocurrir debido a apagones inesperados, 
@@ -3361,13 +2974,10 @@ Muestra lo que haría fsck sin ejecutarlo realmente.
 • -P 
 Comprueba particiones en paralelo (solo con -A). 
 
-<!-- Page 95 -->
-
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-95 
 • -R 
 No revisa la partición raíz (/) cuando se usa con -A. 
 • -T 
@@ -3378,29 +2988,26 @@ No muestra la cabecera de fsck.
 • Responde automáticamente "sí" a todas las preguntas de corrección. 
 • -n 
 • Responde automáticamente "no" a todas las preguntas (modo solo lectura). 
-5.8.3. Comandos de Procesos 
+#### 🔹 5.8.3. Comandos de Procesos
 Son los comandos que nos permiten realizar acciones sobre los procesos, como crearlos, visualizarlos o 
 cambiar su prioridad. 
-5.8.3.1. fork 
+##### 5.8.3.1. fork
 Llamada al sistema fork( ) 
 Se emplea para crear un nuevo proceso. Se crea una copia casi idéntica del proceso padre (se copia 
 todo el código) y continúan ejecutándose en paralelo. 
 El proceso padre recibe de fork( ) el pid del hijo, mientras que al proceso hijo devuelve un 0. 
 El proceso hijo hereda recursos del padre (ficheros, abiertos, estado de las variables, etc.), otros no se 
 heredan, como las señales pendientes (devuelve -1 en caso de error). 
-5.8.3.2. ps 
+##### 5.8.3.2. ps
 Visualizar procesos. 
 Formato ps[opciones] 
 Este comando nos permite visualizar los procesos que tiene abiertos un usuario en nuestro sistema, y 
 obtener información de ellos. 
 
-<!-- Page 96 -->
-
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-96 
 El comando ps sin modificadores nos mostraría una lista con las columnas PID, TTY, TIME y CMD. 
 • PID: P(rocess) ID(entificator). El ID del proceso en ejecución. 
 En particular este elemento es muy importante, porque es necesario para modificar o destruir el 
@@ -3427,18 +3034,15 @@ haya iniciado.
 (hilos). 
 • ps aux: muestra los procesos en estilo BSD. 
  
-5.8.3.3. renice y nice 
+##### 5.8.3.3. renice y nice
 Se utilizan para cambiar la prioridad de los procesos. 
 Un procesador va alternando su uso en diferentes procesos, dando la sensación al usuario de que todos 
 se ejecutan al mismo tiempo. 
-
-<!-- Page 97 -->
 
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-97 
 Al indicar la prioridad le estamos diciendo al sistema que procesos van a utilizar más tiempo de 
 procesador y que procesos pasan a un segundo lugar. 
 La prioridad definida de cada proceso que está corriendo en el sistema se llama "nice value". 
@@ -3472,25 +3076,22 @@ top. Usaremos la tecla r dentro de la interfaz de top para cambiar
 la prioridad de cualquier proceso. 
  
 
-<!-- Page 98 -->
-
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-98 
-5.8.3.4. top 
+##### 5.8.3.4. top
 Formato: top [opciones]. 
 Muestra una lista de los procesos que se están ejecutando (y otros datos como consumo de cpu), que 
 se va actualizando en tiempo real. 
-5.8.3.5. kill 
+##### 5.8.3.5. kill
 Formato: kill [opciones] IDProceso 
 Elimina un proceso por ID de proceso. 
 Opción -9: Indica al sistema operativo que lo cierre. Más potente que un kill normal. 
-5.8.3.6. killall 
+##### 5.8.3.6. killall
 Formato: killall [opciones] nombreDelProceso 
 Elimina uno o más procesos cuyo nombre coincida con el indicado. 
-5.8.4. Comandos de visualización y localización de archivos 
+#### 🔹 5.8.4. Comandos de visualización y localización de archivos
 • locate. 
 • Muestra el directorio donde se encuentra un archivo. 
 • Es muy rápido porque busca en una base de datos y no en el sistema de archivos. 
@@ -3503,13 +3104,10 @@ Elimina uno o más procesos cuyo nombre coincida con el indicado.
 regulares. 
 • Formato: find [ruta] [expresiónDeBúsqueda] [acción]. 
 
-<!-- Page 99 -->
-
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-99 
 • grep. 
 • Busca dentro de archivos, líneas que concuerden con el patrón dado. Si tiene éxito devuelve \nel nombre del archivo y la línea donde se encuentra el término buscado, y también puede 
 devolver el número de líneas donde ha encontrado el termino buscado. 
@@ -3539,14 +3137,11 @@ cadena "bien" en el archivo indicado.
 • Compara dos archivos y muestra una lista de las líneas que difieren. 
 • Formato: diff [opciones] archivo1 archivo2. 
 
-<!-- Page 100 -->
-
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-100 
-5.8.5. Otros comandos: Información, redes, usuarios 
+#### 🔹 5.8.5. Otros comandos: Información, redes, usuarios
 Veamos una descripción breve de otros comandos. 
 Información 
 • df. 
@@ -3571,13 +3166,10 @@ Si se llama sin argumentos suele mostrar la configuración vigente de las interf
 activas, con detalles como la dirección MAC o el tráfico que ha circulado por las mismas hasta el 
 momento. Las interfaces de red en Linux se suelen denominar eth (eth0, eth1, etc.). 
 
-<!-- Page 101 -->
-
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-101 
 ifconfig acepta muchos parámetros, y generalmente su sintaxis es: 
 ifconfig interfaz [dirección [parámetros] ] 
 Siendo "interfaz" el nombre de la interfaz y "dirección" la dirección IP que se asigna a dicha 
@@ -3605,13 +3197,10 @@ recibir una conexión, a la espera de más conexiones.
 • -v: muestra información acerca de la conexión. 
 • -t: Respuestas compatibles con sesiones de Telnet. 
 
-<!-- Page 102 -->
-
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-102 
 Netcat es comúnmente conocida como la "Navaja suiza" de los hackers. 
 La herramienta fue desarrollada por Hobbit en 1996 y liberada bajo una licencia de software 
 libre permisiva (no copyleft) para UNIX, y posteriormente fue portada a otras aplicaciones 
@@ -3640,13 +3229,10 @@ El parámetro destino indica el objetivo de la ruta y puede ser:
 » route add -host 192.168.1.50 gw 192.168.1.1 
 » ip route add 192.168.1.50/32 via 192.168.1.1 
 
-<!-- Page 103 -->
-
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-103 
 • Una ruta predeterminada. 
 » route add default gw 192.168.1.1 
 » ip route add default via 192.168.1.1 
@@ -3674,13 +3260,10 @@ route add -net 192.168.2.0 netmask 255.255.255.0 gw 192.168.1.1 metric 5
 //con el comando moderno 
 ip route add 192.168.2.0/24 via 192.168.1.1 metric 5 
 
-<!-- Page 104 -->
-
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-104 
 Un valor de métrica más bajo tiene mayor prioridad. 
 Índice de Interfaz 
 En Linux no se usa un índice numérico de interfaz en los comandos; en su lugar, se especifica 
@@ -3702,17 +3285,14 @@ como root estando en nuestra sesión de usuario.
 • man. 
 Formato: man comando. 
 Muestra ayuda de los distintos comandos. Si se pone solo man, muestra una lista de comandos. 
-5.8.6. Metacaracteres 
+#### 🔹 5.8.6. Metacaracteres
 • *: coincide con cualquier cadena de caracteres, incluyendo una cadena vacía. 
 ls *.txt //lista todos los archivos con extensión .txt 
-
-<!-- Page 105 -->
 
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-105 
 • ?: coinciden con cualquier carácter individual que esté dentro de los corchetes. 
 ls ho?a.txt //coincide con hola.txt, hoja.txt, etc. no coincide con horas.txt 
 • [ ]: coinciden con cualquier carácter individual que esté dentro de los corchetes. 
@@ -3725,13 +3305,10 @@ cd ~ //cambia al directorio de inicio del usuario
 • \: escapan el carácter siguiente, permitiendo que caracteres especiales se traten como literales. \necho \$USER //mostrará $USER 
 • {}: se utilizan para la expansión de llaves, permitiendo generar una serie de cadenas. \necho {A..J} //mostrará A B C D E F G H I J  \necho {1..9} //mostrará 1 2 3 4 5 6 7 8 9 
 
-<!-- Page 106 -->
-
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-106 
 • >, <, >>, 2>: redirigen la entrada y salida estándar. 
 comando > archivo //redirige la salida estándar a un archivo. 
  comando < archivo //toma la entrada estándar de un archivo. 
@@ -3748,16 +3325,13 @@ comando1;comando2 //ejecuta comando1 seguido de comando2 sin importar si command
 tuvo éxito. 
 • $: referencia a una variable. \necho $HOME //mostrará el directorio personal del usuario actual: /home/[usuario] 
 
-<!-- Page 107 -->
-
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-107 
 • (), agrupan comandos y crean un subshell. 
 (cd /tmp; ls) //cambiará al directorio /tmp, listará los archivos de /tmp 
-5.9. Señales 
+### 🔵 5.9. Señales
 Sirven como mecanismo de comunicación mínima entre: procesos, teclado-proceso, núcleo-proceso, 
 por el cual se envía un número (señal). 
  
@@ -3780,18 +3354,14 @@ receptory cuando finaliza se reanuda la ejecución del primer proceso en el punt
 Resumiendo 
 1. El estado del proceso en ejecución se guarda en su stack. 
 2. Se ejecuta el manejador de la señal. 
-3. Se recupera el proceso en el estado en que se detuvo, y se 
-continúa. 
+## 🟣 3. Se recupera el proceso en el estado en que se detuvo, y se continúa. 
  
  
-
-<!-- Page 108 -->
 
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-108 
 Si un proceso recibe una señal y no se ha preparado para recibirla, se produce como resultado la muerte 
 del proceso. 
 Cada señal tiene un nombre SIGxxx con un significado específico. La comunicación es rápida y 
@@ -3801,136 +3371,98 @@ Podemos clasificar las señales en dos tipos:
 • Señales tiempo real: son configurables por los procesos, se puede mandar información extra a 
 través de la estructura info, y si se está atendiendo a la primera señal, y se reciben más señales, \nestas se encolan. Están Definidas por la norma POSIX 1003. 
 Listado señales no tiempo real 
-1 
 SIGHUP 
 El modem ha detectado línea telefónica rota o ha terminado el proceso líder de la 
 sesión 
-2 
 SIGINT 
 Las teclas Ctrl C han sido pulsadas para matar un proceso. Puede ser controlada o 
 ignorada por un manejador de señales 
-3 
 SIGQUIT 
 Las teclas Ctrl \ han sido pulsadas, terminación de terminal 
-4 
 SIGILL 
 Instrucción ilegal 
-5 
 SIGTRAP 
 Traza de los programas 
-6 
 SIGIOT / 
 SIGABORT 
 Instrucción IOT (I/O TRAP), Terminación anormal 
-7 
 SIGBUS 
 Error de Bus 
-8 
 SIGFPE 
 Rebosamiento de coma flotante, error aritmético 
-9 
 SIGKILL 
 Matar un proceso, no puede ser desviada a una función. 
 Esta señal provoca un apagado forzoso del proceso, no puede ser ignorada ni 
 manejada por un controlador de señales. Es la manera más segura de matar un 
 programa si no podemos hacerlo de el resto de formas 
-10 
 SIGUSR1 
 Señal definida por el usuario 
-11 
 SIGSEGV 
 Violación de segmentación 
-12 
 SIGUSR2 
 Señal definida por el usuario 
-13 
 SIGPIPE 
 Escritura en pipe sin lectores 
-
-<!-- Page 109 -->
 
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-109 
 Listado señales no tiempo real 
-14 
 SIGALRM 
 Para despertar a un proceso que estaba en pausa. 
 Señal enviada por el núcleo cuando fin del reloj ITIMER_REAL 
-15 
 SIGTERM 
 Es una señal de terminación. 
 Señal que se envía el proceso para comunicarle un apagado “amable” (cerrando 
 conexiones, ficheros y limpiando sus propios búfer). También puede ser controlada o 
 ignorada por un manejador de señales del proceso. Es la señala que mandan por 
 defecto: kill y killall desde la terminal 
-16 
 SIGSTKFLT 
 Desbordamiento coprocesador matemático 
-17 
 SIGCHLD 
 Señal enviada por el núcleo a un padre cuando este hace un wait, para avisarle que un 
 hijo ha terminado con un exit. 
 (Señal enviada a un proceso cuando uno de sus procesos hijos termina) 
-18 
 SIGCONT 
 El proceso se lleva a primer o segundo plano 
-19 
 SIGSTOP 
 Suspensión de un proceso, por ejemplo por el debugger 
-20 
 SIGTSTP 
 Suspensión del proceso debido a Ctrl Z del terminal 
-21 
 SIGTTIN 
 Suspensión de un proceso en segundo plano que trata de leer del terminal 
-22 
 SIGTTOU 
 Suspensión de un proceso en segundo plano que trata de escribir en el Terminal 
-23 
 SIGURG 
 Datos urgentes para los sockets 
-24 
 SIGXCPU 
 Sobrepasado límite de tiempo de CPU 
-25 
 SIGXFSZ 
 Sobrepasado tamaño de fichero 
-26 
 SIGVTALRM 
 Fin del temporizador ITIMER_VIRTUAL 
-27 
 SIGPROF 
 Fin del temporizador ITIMER_PROF 
-28 
 SIGWINCH 
 Cambio del tamaño de una ventana, usado por X11 
-29 
 SIGIO / 
 SIGPOLL / 
 SIGSLOT 
 Datos disponibles para una entrada salida 
-30 
 SIGPWR 
 Fallo de alimentación 
-31 
 SIGUNUSED 
 Argumento erróneo en una llamada 
-32 
 SIGRTMIN 
 Marca el límite se señales en tiempo real, ≥ 32 no tiempo real 
 Fuente: http://sopa.dis.ulpgc.es/ii-dso/leclinux/interrupciones/senales/lec4_senales.pdf 
-
-<!-- Page 110 -->
 
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-110 
-5.10. Runlevels estándar en Linux 
+### 🔵 5.10. Runlevels estándar en Linux
 Runlevels son niveles de ejecución. 
 El sistema operativo GNU/Linux puede aprovechar los niveles de ejecución a través de los programas 
 del proyecto sysvinit. 
@@ -3944,48 +3476,38 @@ Nivel de \nejecución
 Nombre o 
 denominación 
 Descripción 
-0 
 Alto 
 Alto o cierre del sistema (Apagado) 
-1 
 Modo de usuario 
 único (Monousuario) 
 No configura la interfaz de red o los demonios de inicio, ni permite que 
 ingresen otros usuarios que no sean el usuario root, sin contraseña. 
 Este nivel de ejecución permite reparar problemas, o hacer pruebas en \nel sistema 
-2 
 Multiusuario 
 Multiusuario sin soporte de red 
-3 
 Multiusuario con 
 soporte de red 
 Inicia el sistema normalmente 
-4 
 Multiusuario con 
 soporte de red 
 Con esta opción el administrador puede personalizar el inicio para 
 cargar algún servicio 
-5 
 Multiusuario gráfico 
 (X11) 
 Similar al nivel de ejecución 3 + display manager 
-6 
 Reinicio 
 Se reinicia el sistema 
-5.11. S.O. FreeBSD 
+### 🔵 5.11. S.O. FreeBSD
 FreeBSD es un sistema operativo de código abierto, descendiente del sistema Berkeley Software 
 Distribution o BSD (concretamente basado en BSD-Lite versión 4.4). 
 BSD (en español, «distribución de software Berkeley») fue un sistema operativo, desarrollado por 
 Berkeley, derivado de Unix que nace a partir de los aportes realizados a ese sistema por la Universidad 
 de California en Berkeley. 
 
-<!-- Page 111 -->
-
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-111 
 Resumimos algunas características: 
 • Sistema operativo multiusuario, capaz de efectuar multitarea con apropiación y multiproceso en 
 plataformas compatibles con múltiples procesadores. 
@@ -4012,13 +3534,10 @@ El soporte a largo plazo es una garantía debido a sus actualizaciones periódic
 Otro de sus puntos fuertes es su presencia en la industria creativa y las herramientas de diseño gráfico. 
 Características todas ellas que han fomentado la fidelidad de sectores específicos. 
 
-<!-- Page 112 -->
-
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-112 
 Indicaremos a continuación del macOS a través del histórico de versiones desde su aparición: 
 • Mac OS X 10.0 "Cheetah" (2001): Primera versión de Mac OS X. 
 • Mac OS X 10.1 "Puma" (2001): Aparecen mejores sobre la versión anterior y nuevas 
@@ -4049,13 +3568,10 @@ del navegador Safari, la catorce mejora su velocidad de navegación y privacidad
 y la disponiblidad de las aplicaciones según su actividad y ubicación. Se introducen atajos para 
 que los usuarios puedan automatizar flujos de trabajo personalizados. 
 
-<!-- Page 113 -->
-
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-113 
 • macOS 13: "Ventura" (2022): trae nuevas aplicaciones, mejoras en su gestor de correo \nelectrónico Mail, una nueva versión de Safari, nuevas funciones para las videoconferencias... 
 • macOS 14: "Sonoma" (2023): vigésima versión. Widgets en el escritorio: permite además de 
 tener widgets en el centro de notificaciones, incluirlos directamente en el escritorio, mejora del 
@@ -4068,7 +3584,7 @@ Intelligence, su sistema de IA, aunque su lanzamiento se programó para finales 
 AirPlay, FaceTime, iCloud y Safari, además de la función beta GenEmoji para crear emojis 
 personalizados mediante texto. También se optimizó Apple Intelligence, se mejoró la 
 navegación en Safari y se ajustaron notificaciones para mayor claridad. 
-7. Sistemas operativos para dispositivos móviles 
+## 🟣 7. Sistemas operativos para dispositivos móviles
 Un dispositivo móvil tiene las siguientes características que lo definen: 
 • Es un aparato de pequeño tamaño. 
 • Tiene algunas capacidades de procesamiento. 
@@ -4079,13 +3595,10 @@ más generales.
 • Normalmente se asocian al uso individual de una persona, tanto en posesión como en operación. 
  
 
-<!-- Page 114 -->
-
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-114 
  
  
  
@@ -4115,14 +3628,11 @@ pretendían competir con el sistema Android de Google).
 • Tizen: (basado en Linux). 
 Estudiaremos Android e iOs, ya que son los más utilizados. 
 
-<!-- Page 115 -->
-
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-115 
-7.1. Android 
+### 🔵 7.1. Android
  
 El sistema operativo Android es sin duda el líder del mercado móvil en sistemas operativos. 
 Android se utiliza para teléfonos inteligentes y tabletas, así como también algunas distribuciones \nenfocadas a su uso en ordenadores personales de escritorio y portátiles (Note y Netbook 
@@ -4146,13 +3656,10 @@ recomendado por Google (desde 2017).
 • Utiliza SQLite para el almacenamiento de datos. 
 • Ofrece diferentes formas de mensajería. 
 
-<!-- Page 116 -->
-
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-116 
 • Navegador web basado en WebKit incluido. 
 • Soporte de Java y muchos formatos multimedia. 
 • Soporte de HTML, HTML5, Adobe Flash Player, etc. 
@@ -4171,13 +3678,10 @@ ideada en exclusiva para tablets).
 utilizar la conexión de datos del dispositivo móvil. 
  
 
-<!-- Page 117 -->
-
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-117 
  
  
  
@@ -4197,13 +3701,10 @@ comunmente la "experiencia de usuario". El término más técnico es el de capa 
 La capa de personalización, con su nombre específico, suele contar con funcionalidades propias, una 
 apariencia visual totalmente adaptada y una configuración a medida. 
 
-<!-- Page 118 -->
-
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-118 
 A continuación pasamos a destacar algunas de las capas de personalización más extendidas: 
 • Samsung Experience/One UI: Utilizada en dispositivos Samsung, como la serie Galaxy. 
 • ZenUI: ASUS implementa ZenUI en sus smartphones. 
@@ -4223,14 +3724,11 @@ pura de un sistema operativo que al fin y al cabo es propio desde el año 2005.
  
 Google Pixel 8 Pro 
 
-<!-- Page 119 -->
-
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-119 
-7.2. IOS 
+### 🔵 7.2. IOS
 Es un sistema operativo móvil desarrollado por Apple Inc. 
 Inicialmente fue creado para el iPhone, pero con el tiempo fue adaptado para los demás dispositivos 
 móviles de esta compañía (iPad y el iPod touch). 
@@ -4260,13 +3758,10 @@ la intensidad de la señal.
 • Aplicaciones descargables desde APP Store (extensión .IPA). 
 • No soporta Adobe Flash ni Java. 
 
-<!-- Page 120 -->
-
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-120 
 • Organización de carpetas. Se puede mover una aplicación sobre otra y se creará una carpeta, y 
 así se pueden agregar más aplicaciones a esta mediante el mismo procedimiento. 
 • Tethering. Actúa como punto de acceso inalámbrico para otros dispositivos, permitiéndoles 
@@ -4275,7 +3770,7 @@ utilizar la conexión de datos del dispositivo móvil.
 usuario original, lo que permite bloquear e inutilizar el equipo al perderlo o ser víctima de robo 
 del dispositivo. 
 • XCODE es el IDE (entorno de desarrollo integrado) utilizado. 
-7.3. Notificaciones Push 
+### 🔵 7.3. Notificaciones Push
 Las notificaciones push son mensajes instantáneos que son enviados a dispositivos móviles 
 generalmente a través de redes inalámbricas (redes de datos celulares o conexiones WI-FI). La 
 particularidad de estas notificaciones es que no necesitan que la aplicación esté activa. No tenemos 
@@ -4301,14 +3796,11 @@ vibración o formatos específicos de la plataforma implicada.
 (enlace a un sitio web específico, apertura de la aplicación, etc.) que de existir cerraría aquí el 
 ciclo de vida del flujo de trabajo de la notificación mobile push. 
 
-<!-- Page 121 -->
-
  
  
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
-121 
-8. Bibliografía 
+## 🟣 8. Bibliografía
 • Sistemas Operativos. Teoría y problemas. J. Aranda, M.A. Canto, J.M. de la Cruz, S. Dormido, C. 
 Mañoso. Editorial Sanz y Torres. 
 • Sistemas Operativos Monopuesto 2ª edición. J.L. Rayas y L. Raya. Editorial RA-MA. 
@@ -4331,8 +3823,6 @@ Aguinaga, A. Mora.
 • http://sopa.dis.ulpgc.es/ii-dso/leclinux/interrupciones/senales/lec4_senales.pdf. 
 • https://www.microsoft.com/es-es/windows/windows-11?r=1. 
  
-
-<!-- Page 122 -->
 
 ---
 

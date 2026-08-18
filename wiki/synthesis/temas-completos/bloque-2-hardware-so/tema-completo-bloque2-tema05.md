@@ -26,8 +26,6 @@ updated: "2026-08-18"
 
 # 🔴 Bloque 2 - Tema 05 (UD012106): Sistemas Gestores de Bases de Datos Relacionales, Objeto-Relacionales, NoSQL y Teorema CAP
 
-<!-- Page 1 -->
-
  
  
 Sistemas de Gestión de Bases de 
@@ -35,78 +33,42 @@ Datos relacionales, orientados a
 objetos y NoSQL: características 
 y componentes 
 
-<!-- Page 2 -->
-
-ÍNDICE 
-1. Sistema de bases de datos 
-3 
-1.1. Bases de datos (B.D.) 
-4 
-1.2. Sistema Gestor de Bases de Datos (SGBD) 
-6 
-1.2.1. Objetivos de un SGBD 
-6 
-1.2.2. Transacciones de los SGBD 
-7 
+## 🟣 1. Sistema de bases de datos
+### 🔵 1.1. Bases de datos (B.D.)
+### 🔵 1.2. Sistema Gestor de Bases de Datos (SGBD)
+#### 🔹 1.2.1. Objetivos de un SGBD
+#### 🔹 1.2.2. Transacciones de los SGBD
 2. Modelos principales de B.D. 
-8 
-3. Sistemas de Gestión de B.D. Relacionales 
-10 
-3.1. El modelo relacional 
-11 
-3.2. Conceptos fundamentales 
-12 
-3.3. Integridad de los datos 
-15 
-3.4. Reglas de Codd 
-15 
-3.5. Lenguajes de Codd para manipulación de los datos 
-19 
-3.5.1. Álgebra relacional 
-19 
-3.5.1.1. Básicas (operador fundamental) 
-21 
-3.5.1.2. No básicas o Derivadas 
-23 
-3.5.2. Cálculo relacional 
-26 
-3.5.3. Diferencia entre álgebra y cálculo relacional 
-26 
-3.6. Principales SGBDR 
-26 
-4. Sistemas de Gestión de B.D. No relacionales (NoSQL) 
-30 
-4.1. Tipos de B.D. NoSQL 
-30 
-4.1.1. Bases de datos Clave-Valor 
-31 
-4.1.2. Bases de datos documentales 
-31 
-4.1.3. Bases de datos de grafos 
-33 
-5. Sistemas de Gestión de B.D. Orientados a objetos 
-34 
-5.1. Manifiesto del Sistema de Base de Datos Orientado a Objetos 
-35 
-5.2. Principales SGBDOO 
-36 
+## 🟣 3. Sistemas de Gestión de B.D. Relacionales
+### 🔵 3.1. El modelo relacional
+### 🔵 3.2. Conceptos fundamentales
+### 🔵 3.3. Integridad de los datos
+### 🔵 3.4. Reglas de Codd
+### 🔵 3.5. Lenguajes de Codd para manipulación de los datos
+#### 🔹 3.5.1. Álgebra relacional
+##### 3.5.1.1. Básicas (operador fundamental)
+##### 3.5.1.2. No básicas o Derivadas
+#### 🔹 3.5.2. Cálculo relacional
+#### 🔹 3.5.3. Diferencia entre álgebra y cálculo relacional
+### 🔵 3.6. Principales SGBDR
+## 🟣 4. Sistemas de Gestión de B.D. No relacionales (NoSQL)
+### 🔵 4.1. Tipos de B.D. NoSQL
+#### 🔹 4.1.1. Bases de datos Clave-Valor
+#### 🔹 4.1.2. Bases de datos documentales
+#### 🔹 4.1.3. Bases de datos de grafos
+## 🟣 5. Sistemas de Gestión de B.D. Orientados a objetos
+### 🔵 5.1. Manifiesto del Sistema de Base de Datos Orientado a Objetos
+### 🔵 5.2. Principales SGBDOO
 6. Comparativa entre tipos de B.D. 
-42 
-6.1. Entre las BDOO con las BDR 
-43 
-6.2. Entre B.D (NoSQL) y las relacionales 
-44 
-7. Bibliografía 
-44 
-
-<!-- Page 3 -->
+### 🔵 6.1. Entre las BDOO con las BDR
+### 🔵 6.2. Entre B.D (NoSQL) y las relacionales
+## 🟣 7. Bibliografía
 
  
  
 Sistemas de Gestión de Bases de Datos relacionales, orientados a objetos y NoSQL: características 
 y componentes 
-3 
-1. Sistema de bases de datos 
+## 🟣 1. Sistema de bases de datos
  
 Fuente: Pixabay 
  
@@ -128,13 +90,10 @@ datos.
 • Un diccionario de datos. Contiene el listado de campos y variables de la BD, así como su 
 descripción, longitud, posibles valores, etc. 
 
-<!-- Page 4 -->
-
  
  
 Sistemas de Gestión de Bases de Datos relacionales, orientados a objetos y NoSQL: características 
 y componentes 
-4 
 También puede contener otros datos de interés como: 
 • Información sobre la representación física de los datos. 
 • Asignación a dispositivos. 
@@ -143,7 +102,7 @@ También puede contener otros datos de interés como:
 • Administrador de bases de datos (DBA). Persona o grupo de personas que crean, gestionan y 
 mantienen la Base de Datos. 
 • Usuario. Son aquellas personas que utilizan la Base de Datos. 
-1.1. Bases de datos (B.D.) 
+### 🔵 1.1. Bases de datos (B.D.)
 Existen múltiples definiciones de bases de datos. 
 Una de las más aceptadas es la propuesta por Flory en 1982: 
 Una base de datos es un conjunto exhaustivo, no redundante de datos estructurados, organizados 
@@ -165,13 +124,10 @@ gestionada y actualizada.
 restricciones y limitaciones que deben ser reflejadas en la base de datos. Para ello es necesario el 
 uso de métodos de diseño rigurosos y formalizados. 
 
-<!-- Page 5 -->
-
  
  
 Sistemas de Gestión de Bases de Datos relacionales, orientados a objetos y NoSQL: características 
 y componentes 
-5 
 Características 
 En base a estas definiciones, podemos definir las características principales de una base de datos: 
 • Es un conjunto o colección de datos. 
@@ -199,20 +155,17 @@ como ven los datos).
 pero oculta los detalles físicos del almacenamiento. Describir tipos de datos, entidades, vínculos, 
 restricciones y operaciones de los usuarios. (Es un nivel de mediación entre el interno y el \nexterno). 
 
-<!-- Page 6 -->
-
  
  
 Sistemas de Gestión de Bases de Datos relacionales, orientados a objetos y NoSQL: características 
 y componentes 
-6 
-1.2. Sistema Gestor de Bases de Datos (SGBD) 
+### 🔵 1.2. Sistema Gestor de Bases de Datos (SGBD)
 Un Sistema Gestor de Bases de Datos (SGBD) es un conjunto coordinado de programas, 
 procedimientos, lenguajes, etc. que suministra tanto a los usuarios como al administrador de la base de 
 datos, los medios necesarios para describir, manipular y utilizar los datos almacenados en la base, 
 manteniendo la integridad, confidencialidad y seguridad. Su objetivo principal es simplificar y facilitar el 
 acceso a datos. 
-1.2.1. Objetivos de un SGBD 
+#### 🔹 1.2.1. Objetivos de un SGBD
 Los principales objetivos de un sistema de base de datos son: 
 • Proporcionar a los usuarios y desarrolladores una visión abstracta de los datos. 
 El sistema esconde ciertos detalles de cómo se almacenan y mantienen los datos. 
@@ -234,19 +187,16 @@ Por ejemplo, si mientras se está realizando un proceso se produce un corte de e
 apaga el equipo, Se deberá volver al estado de consistencia anterior al fallo para que no se 
 queden operaciones a medio hacer. 
 
-<!-- Page 7 -->
-
  
  
 Sistemas de Gestión de Bases de Datos relacionales, orientados a objetos y NoSQL: características 
 y componentes 
-7 
 • Seguridad y Confidencialidad. 
 Se debe garantizar la confidencialidad y seguridad de los datos contra accesos incorrectos o no 
 autorizados. 
 • Acceso concurrente a los datos. 
 Debe permitir a múltiples usuarios actualizar los datos simultáneamente. 
-1.2.2. Transacciones de los SGBD 
+#### 🔹 1.2.2. Transacciones de los SGBD
 Una transacción es una interacción con una estructura de datos compleja, compuesta por varios 
 procesos que se han de aplicar uno después del otro. 
 La transacción debe realizarse de una sola vez y sin que la estructura a medio manipular pueda ser 
@@ -276,13 +226,10 @@ consistentes, es decir que estén siempre intactos, sean siempre los esperados y
 manera cambian ni se deformen. De esta manera podemos garantizar que la información que se 
 presenta al usuario será siempre la misma." 
 
-<!-- Page 8 -->
-
  
  
 Sistemas de Gestión de Bases de Datos relacionales, orientados a objetos y NoSQL: características 
 y componentes 
-8 
 • Isolation (Aislamiento). Esta propiedad asegura que una operación no puede afectar a otras. 
 Esto asegura que, la realización, de dos transacciones sobre la misma información sean 
 independientes, y no generen ningún tipo de error. Esta propiedad define cómo y cuándo los 
@@ -312,13 +259,10 @@ puede tener varios nodos hijos, es decir, el modelo jerárquico facilita las rel
 El sistema gestor no se encarga del control sobre los datos que se almacenan, si no que se \nencargan las aplicaciones gestoras, lo que ocasiona diversos problemas como la duplicidad de 
 registros entre otros. 
 
-<!-- Page 9 -->
-
  
  
 Sistemas de Gestión de Bases de Datos relacionales, orientados a objetos y NoSQL: características 
 y componentes 
-9 
 • Bases de datos de red. 
 También llamadas bases de datos plex, son similares al modelo anterior, pero en este caso un 
 mismo nodo puede tener varios padres, lo cual no se puede hacer en el modelo jerárquico. Así se 
@@ -353,18 +297,15 @@ recursivas.
 Estas bases de datos se originan por la necesidad de disponer de un modelo para tratar la 
 información geoespacial, almacenando los datos geográficos y sus relaciones espaciales y no \nespaciales, así como atributos y comportamiento. 
 
-<!-- Page 10 -->
-
  
  
 Sistemas de Gestión de Bases de Datos relacionales, orientados a objetos y NoSQL: características 
 y componentes 
-10 
 Cada Geo-objeto tiene sus propios atributos, comportamiento y geometría, por lo que la base 
 de datos puede trabajar con cada uno de ellos de forma casi independiente. 
 Cuando se analizan los datos, la terminología no es datos o líneas, etc., sino que se habla de 
 lugares específicos (montes, lagos, carreteras, etc.). 
-3. Sistemas de Gestión de B.D. Relacionales 
+## 🟣 3. Sistemas de Gestión de B.D. Relacionales
  
 Modelo_relacional de wikimedia Commons 
 Codd propuso un modelo simple de datos en el que todos ellos se podían representar en tablas 
@@ -376,13 +317,10 @@ En los sistemas de bases de datos relacionales, los archivos completos de datos 
 instrucciones sencillas (en los tradicionales se debían procesar registro a registro). 
 SQL (Structured Query Language) es la norma ANSI para los lenguajes relacionales de bases de datos. 
 
-<!-- Page 11 -->
-
  
  
 Sistemas de Gestión de Bases de Datos relacionales, orientados a objetos y NoSQL: características 
 y componentes 
-11 
 Definiciones de base de datos relacional 
 Una base de datos relacional es un tipo de base de datos que permite establecer interconexiones o 
 relaciones entre los datos organizados en tablas. A través de dichas conexiones, relacionan los datos de 
@@ -403,7 +341,7 @@ las tablas:
 • El cálculo relacional. 
 Vamos a estudiarlos más adelante. 
  
-3.1. El modelo relacional 
+### 🔵 3.1. El modelo relacional
  
  
  
@@ -412,13 +350,10 @@ Edgar Frank Codd postulo las bases del modelo relacional en 1970.
  
  
 
-<!-- Page 12 -->
-
  
  
 Sistemas de Gestión de Bases de Datos relacionales, orientados a objetos y NoSQL: características 
 y componentes 
-12 
 En una base de datos relacional, los usuarios la perciben como un conjunto de tablas. 
 Ejemplo: 
 Una tabla que contenga la información de artículos en venta se vería así: 
@@ -427,16 +362,14 @@ NombreProducto
 PrecioEuros 
 0001 
 ratón 
-3 
 0002 
 teclado 
-6 
 Tabla "Articulos". 
 En el modelo relacional se utiliza un grupo de tablas para representar datos y las relaciones entre ellos. 
 A cada tabla se le asigna un nombre exclusivo. 
 Su idea fundamental es el uso de relaciones. Las relaciones se conceptualizan como si fuera una tabla. 
 La representación obtenida del modelo entidad-relación, es independiente de las características del \nequipo donde se vaya a implantar. 
-3.2. Conceptos fundamentales 
+### 🔵 3.2. Conceptos fundamentales
 Tabla 
 Objeto que contiene una colección de datos para un tema específico. Las tablas constan de filas y 
 columnas. 
@@ -446,13 +379,10 @@ Fila
 Componente horizontal de una tabla, que consta de una secuencia de valores, uno para cada columna 
 de la tabla. 
 
-<!-- Page 13 -->
-
  
  
 Sistemas de Gestión de Bases de Datos relacionales, orientados a objetos y NoSQL: características 
 y componentes 
-13 
 Vista 
 Una vista es una consulta que se presenta como una tabla (virtual) a partir de un conjunto de tablas en 
 una base de datos relacional. 
@@ -480,13 +410,10 @@ El número de atributos se llama grado. (también se le puede llamar paridad).
 El grado no varía con el tiempo. Si añadimos un atributo a una relación, podemos considerar que se 
 trata de otra relación nueva. 
 
-<!-- Page 14 -->
-
  
  
 Sistemas de Gestión de Bases de Datos relacionales, orientados a objetos y NoSQL: características 
 y componentes 
-14 
 Dominio 
 Es una colección de valores, de los cuales uno o más atributos obtienen sus valores reales. 
 Clave (o llave) candidata 
@@ -515,14 +442,11 @@ Cardinalidad, nombre, y tipo de correspondencia.
 (Lo estudiaremos en profundidad en el Módulo III). 
  
 
-<!-- Page 15 -->
-
  
  
 Sistemas de Gestión de Bases de Datos relacionales, orientados a objetos y NoSQL: características 
 y componentes 
-15 
-3.3. Integridad de los datos 
+### 🔵 3.3. Integridad de los datos
 En una base de datos relacional, las relaciones están sujetas a ciertas reglas de integridad: 
 • Integridad de entidad. 
 Ningún atributo que participe en una clave principal puede tener valores nulos. 
@@ -530,7 +454,7 @@ Ningún atributo que participe en una clave principal puede tener valores nulos.
 No deben existir valores de clave ajena sin concordancia. 
 Esto quiere decir que un determinado valor de una clave ajena siempre tiene que aparecer en la 
 clave primaria de alguna tupla de la relación referenciada. 
-3.4. Reglas de Codd 
+### 🔵 3.4. Reglas de Codd
 A continuación, vamos a estudiar las 12+1 reglas de Codd que debe cumplir una base de datos para ser 
 completamente relacional. 
  
@@ -552,13 +476,10 @@ lógico mediante tablas y solo mediante tablas.
 Aclaración: Los metadatos (diccionario, catálogo) se representan y manipulan exactamente 
 igual que los datos de usuario. 
 
-<!-- Page 16 -->
-
  
  
 Sistemas de Gestión de Bases de Datos relacionales, orientados a objetos y NoSQL: características 
 y componentes 
-16 
 • Regla 2: Regla de acceso garantizado. 
 Para todos y cada uno de los datos (valores atómicos) de una base de datos relacional se 
 garantiza que son accesibles a nivel lógico utilizando una combinación de nombre de tabla, valor 
@@ -590,13 +511,10 @@ Sin embargo, debe haber al menos un lenguaje cuyas sentencias sean:
 » Definición de datos. 
 » Definición de vista. 
 
-<!-- Page 17 -->
-
  
  
 Sistemas de Gestión de Bases de Datos relacionales, orientados a objetos y NoSQL: características 
 y componentes 
-17 
 » Manipulación de datos (interactiva y por programa). 
 » Restricciones de integridad. 
 » Autorización. 
@@ -628,13 +546,10 @@ Aclaración:
 representación física. 
 • Se aísla el programa de aplicación de la implementación a bajo nivel de los datos. 
 
-<!-- Page 18 -->
-
  
  
 Sistemas de Gestión de Bases de Datos relacionales, orientados a objetos y NoSQL: características 
 y componentes 
-18 
 • Regla 9: Independencia lógica de los datos. 
 Los programas de aplicación y actividades del terminal permanecen inalterados a nivel lógico 
 cualesquiera que sean los cambios que se realicen sobre las tablas que contienen la información. 
@@ -666,13 +581,10 @@ Es muy difícil que una Base de Datos cumpla todas las reglas. Sin embargo, se r
 ver cuantas reglas cumple y eso sirve para definir el grado en que se puede considerar una base de 
 datos relacional (será más relacional cuantas más reglas cumpla). 
 
-<!-- Page 19 -->
-
  
  
 Sistemas de Gestión de Bases de Datos relacionales, orientados a objetos y NoSQL: características 
 y componentes 
-19 
 Codd añadió una regla más (Regla 0) para determinar si un SGBD es relacional. Es la siguiente: 
 • Regla 0: 
 Para que un sistema se denomine sistema de gestión de bases de datos relacionales, este 
@@ -689,23 +601,20 @@ Mi consejo es que hagas un resumen.
 Utiliza una sola línea para definir cada regla. 
 Esa línea debe ayudarte a comprenderla y a recordarla. 
  
-3.5. Lenguajes de Codd para manipulación de los datos 
+### 🔵 3.5. Lenguajes de Codd para manipulación de los datos
 Codd también propuso dos lenguajes para manipular los datos en las tablas: 
 • El álgebra relacional. 
 • El cálculo relacional. 
 Vamos a estudiar el álgebra relacional y el cálculo relacional, y veremos sus diferencias. 
-3.5.1. Álgebra relacional 
+#### 🔹 3.5.1. Álgebra relacional
 Los lenguajes de procedimientos para consultar bases de datos relacionales están basados en el álgebra 
 relacional. 
 El Álgebra Relacional fue introducida por E. F. Codd en 1972. 
-
-<!-- Page 20 -->
 
  
  
 Sistemas de Gestión de Bases de Datos relacionales, orientados a objetos y NoSQL: características 
 y componentes 
-20 
 El álgebra relacional es un conjunto de operaciones, que describen paso a paso cómo computar una 
 respuesta sobre las relaciones, tal y como éstas son definidas en el modelo relacional. 
 Describe el aspecto de la manipulación de datos. Estas operaciones se usan como una representación 
@@ -734,14 +643,11 @@ Las operaciones son:
 • Agrupación (γ) (Unión). 
 Vas a estudiarlas una a una, con gráficos para que te resulte más fácil. 
 
-<!-- Page 21 -->
-
  
  
 Sistemas de Gestión de Bases de Datos relacionales, orientados a objetos y NoSQL: características 
 y componentes 
-21 
-3.5.1.1. Básicas (operador fundamental) 
+##### 3.5.1.1. Básicas (operador fundamental)
 SELECCIÓN o SELECT: Restricción (σ) 
 Extrae tuplas a partir de una relación que satisfagan una restricción dada. 
 Por ejemplo, si utilizamos un SELECT con la condición precio = 5, nos mostraría todas las tuplas de la 
@@ -752,16 +658,12 @@ Veamos un ejemplo:
 IDVENTA 
 NOMBRECOMPRADOR 
 CIUDAD 
-1 
 Pepe 
 Córdoba 
-2 
 Manuel 
 Zaragoza 
-3 
 María 
 Zaragoza 
-4 
 Andrés 
 Madrid 
 Si hacemos una proyección sobre esta tabla para extraer el atributo "ciudad" nos quedará: 
@@ -775,17 +677,13 @@ No es necesario que las 2 relaciones tengan la misma cabecera.
 El producto cartesiano de dos relaciones nos devuelve una relación con las tuplas resultantes de 
 combinar cada fila de la primera relación con todas las filas de la segunda relación. 
 
-<!-- Page 22 -->
-
  
  
 Sistemas de Gestión de Bases de Datos relacionales, orientados a objetos y NoSQL: características 
 y componentes 
-22 
  
 Producto cartesiano (fuente: 
-https://es.wikipedia.org/wiki/Archivo:Producto_cartesia
-no_de_conjuntos.svg) 
+https://es.wikipedia.org/wiki/Archivo:Producto_cartesia no_de_conjuntos.svg) 
 UNIÓN (U) 
 El operador de unión toma dos relaciones que deben ser compatibles para la unión (tener la misma 
 cabecera, es decir, los mismos atributos y en el mismo orden). 
@@ -799,14 +697,11 @@ por el conjunto de todas las tuplas que están en la primera relación y no est�
  
 Diferencia de A y B 
 
-<!-- Page 23 -->
-
  
  
 Sistemas de Gestión de Bases de Datos relacionales, orientados a objetos y NoSQL: características 
 y componentes 
-23 
-3.5.1.2. No básicas o Derivadas 
+##### 3.5.1.2. No básicas o Derivadas
 INTERSECCIÓN ∩ 
 A partir de dos relaciones del mismo tipo, (con la misma cabecera), mediante la intersección se obtiene 
 una nueva relación formada por las tuplas que pertenecen a las dos relaciones de partida. 
@@ -825,13 +720,10 @@ R ∞θ S = σθ (R x S)
 Donde la condición θ es libre. 
 Si la condición θ es una igualdad se denomina EquiJoin. 
 
-<!-- Page 24 -->
-
  
  
 Sistemas de Gestión de Bases de Datos relacionales, orientados a objetos y NoSQL: características 
 y componentes 
-24 
 DIVISIÓN (⟌) (Cociente) 
 Dada una relación "relacion1" con los atributos A, B, C y D y otra relación "relacion2" con los atributos C 
 y D: 
@@ -843,37 +735,9 @@ A
 B 
 C 
 D 
-1 
-2 
-3 
-4 
-1 
-2 
-5 
-6 
-2 
-3 
-5 
-6 
-5 
-4 
-3 
-4 
-5 
-4 
-5 
-6 
-1 
-2 
-4 
-5 
 Relacion2. 
 C 
 D 
-3 
-4 
-5 
-6 
 • Paso1. Eliminamos las tuplas de relacion1 donde C y D no coinciden con ninguna tupla de 
 relacion2. 
 Resultado. 
@@ -881,75 +745,33 @@ A
 B 
 C 
 D 
-1 
-2 
-3 
-4 
-1 
-2 
-5 
-6 
-
-<!-- Page 25 -->
 
  
  
 Sistemas de Gestión de Bases de Datos relacionales, orientados a objetos y NoSQL: características 
 y componentes 
-25 
 A 
 B 
 C 
 D 
-2 
-3 
-5 
-6 
-5 
-4 
-3 
-4 
-5 
-4 
-5 
-6 
 Hemos borrado la última tupla porque la tupla C=4 y D=5 no está en relacion2. 
 • Paso 2. Eliminamos las columnas que están en relacion2 (C y D). 
 Resultado. 
 A 
 B 
-1 
-2 
-1 
-2 
-2 
-3 
-5 
-4 
-5 
-4 
 • Paso 3. Eliminamos duplicados. 
 Resultado. 
 A 
 B 
-1 
-2 
-2 
-3 
-5 
-4 
 Agrupación (γ) (Unión) 
 Permite agrupar conjuntos de valores en función de un campo determinado y hacer operaciones con 
 otros campos. 
-
-<!-- Page 26 -->
 
  
  
 Sistemas de Gestión de Bases de Datos relacionales, orientados a objetos y NoSQL: características 
 y componentes 
-26 
-3.5.2. Cálculo relacional 
+#### 🔹 3.5.2. Cálculo relacional
 El Cálculo relacional es un lenguaje de consulta que describe la respuesta deseada sobre una Base de 
 datos sin especificar como obtenerla. 
 El Cálculo Relacional se basa en la lógica de primer orden. Hay dos variantes del cálculo relacional: 
@@ -963,9 +785,9 @@ los elementos de una relación.
 ∃ (cuantificador existencial) se utiliza para expresar que una propiedad o relación se cumple para al 
 menos un elemento de una relación. 
 ∃! (cuantificador único) se utiliza para expresar que una propiedad o relación se cumple para \nexactamente un elemento de una relación. 
-3.5.3. Diferencia entre álgebra y cálculo relacional 
+#### 🔹 3.5.3. Diferencia entre álgebra y cálculo relacional
 El Álgebra relacional es de tipo procedimental mientras que el cálculo relacional es de tipo declarativo. 
-3.6. Principales SGBDR 
+### 🔵 3.6. Principales SGBDR
 Vamos a ver un resumen de las características de las principales SGBDR que son: 
 • MySQL. 
 • Oracle. 
@@ -973,13 +795,10 @@ Vamos a ver un resumen de las características de las principales SGBDR que son:
 • PosrtgreSQL. 
 • Microsoft Access. 
 
-<!-- Page 27 -->
-
  
  
 Sistemas de Gestión de Bases de Datos relacionales, orientados a objetos y NoSQL: características 
 y componentes 
-27 
 MySQL 
  
  
@@ -1011,13 +830,10 @@ Tras crear una base de datos los tipos de datos que podemos guardar son:
 • De fecha. 
 • Tipo string. 
 
-<!-- Page 28 -->
-
  
  
 Sistemas de Gestión de Bases de Datos relacionales, orientados a objetos y NoSQL: características 
 y componentes 
-28 
 • RENAME TABLE: renombrar una tabla de una base de datos. 
 • TRUNCATE TABLE: vaciar una tabla. 
 • DELETE: Eliminar filas de tablas. 
@@ -1044,13 +860,10 @@ Ventajas:
 • Seguridad. 
 • Es multiplataforma. 
 
-<!-- Page 29 -->
-
  
  
 Sistemas de Gestión de Bases de Datos relacionales, orientados a objetos y NoSQL: características 
 y componentes 
-29 
 Microsoft SQL Server 
 Utiliza el lenguaje Transact-SQL. 
 Puede poner a disposición de muchos usuarios grandes cantidades de datos de manera simultánea. 
@@ -1080,13 +893,10 @@ Ventajas:
 • Confiabilidad. 
 • Seguridad. 
 
-<!-- Page 30 -->
-
  
  
 Sistemas de Gestión de Bases de Datos relacionales, orientados a objetos y NoSQL: características 
 y componentes 
-30 
 Microsoft Access 
 Es un SGBDR creado por Microsoft para uso personal o de pequeñas organizaciones. 
 No se debe usar para bases de datos grandes. 
@@ -1095,7 +905,7 @@ Ventajas:
 • Tiene herramientas para el desarrollo de aplicaciones sobre la base de datos utilizando VBA. 
 • Puede realizar llamadas a APIs de Windows. 
 • Permite realizar consultas, formularios e informes. 
-4. Sistemas de Gestión de B.D. No relacionales 
+## 🟣 4. Sistemas de Gestión de B.D. No relacionales
 (NoSQL) 
 Con la llegada de aplicaciones web como Facebook, YouTube o Twitter, todo el mundo empezó a subir 
 contenidos a la red (en forma de textos, videos, imágenes, etc.). 
@@ -1105,19 +915,16 @@ Apareció un nuevo modelo para cubrir estas necesidades: Sistemas de BD no Relac
 NoSQL significa Not Only SQL (no solo SQL). 
  
 Bases de datos NoSQL 
-4.1. Tipos de B.D. NoSQL 
+### 🔵 4.1. Tipos de B.D. NoSQL
 Este tipo de Bases de Datos, no utilizan el modelo relacional. 
 Hay muchas bases de datos NoSQL y aún no hay una estandarización como sí que la hay en las 
 relacionales. 
-
-<!-- Page 31 -->
 
  
  
 Sistemas de Gestión de Bases de Datos relacionales, orientados a objetos y NoSQL: características 
 y componentes 
-31 
-4.1.1. Bases de datos Clave-Valor 
+#### 🔹 4.1.1. Bases de datos Clave-Valor
 Son las más populares y sencillas de entender, ya que cada elemento está identificado por una llave 
 única, lo que permite la recuperación de la información de forma muy rápida buscando por su clave. 
 Esto hace que sean eficientes tanto en lectura como escritura. 
@@ -1137,7 +944,7 @@ Creada por Apache, dispone de un lenguaje propio para consultas (CQL o Cassandra
 Languaje). 
 Se ha desarrollado en Java, por lo que puede ejecutarse sobre cualquier plataforma que tenga la 
 máquina virtual de Java. 
-4.1.2. Bases de datos documentales 
+#### 🔹 4.1.2. Bases de datos documentales
 La información se almacena como un documento utilizando algún formato estándar como JSON o XML. 
 Se utiliza una clave única para cada documento. 
 Se pueden hacer búsquedas por clave-valor, pero también otras más avanzadas sobre el contenido del 
@@ -1149,13 +956,10 @@ búsquedas en ese gran volumen de datos sean eficientes y el hecho de que los do
 direccionarse por medio de claves únicas (normalmente cadenas especiales y en algún caso especial 
 una URL). 
 
-<!-- Page 32 -->
-
  
  
 Sistemas de Gestión de Bases de Datos relacionales, orientados a objetos y NoSQL: características 
 y componentes 
-32 
 Si comparamos con las bases de datos relacionales, los documentos son similares a las filas. , pero aquí 
 no es necesario que todos los documentos tengan los mismos atributos por lo que este tipo de bases de 
 datos son muy flexibles. 
@@ -1189,14 +993,11 @@ JSON (JavaScript Object Notation) es un formato de texto ligero
 para el intercambio de datos. 
  
 
-<!-- Page 33 -->
-
  
  
 Sistemas de Gestión de Bases de Datos relacionales, orientados a objetos y NoSQL: características 
 y componentes 
-33 
-4.1.3. Bases de datos de grafos 
+#### 🔹 4.1.3. Bases de datos de grafos
 Están basadas en la teoría de grafos. La información se representa como nodos de un grafo y sus 
 relaciones como las aristas. 
 Para tener un mejor rendimiento, la estructura debe estar normalizada (cada tabla debe tener una sola 
@@ -1224,14 +1025,11 @@ Es un lenguaje de consulta (sobre B.D. Neo4j) de gráfico
 declarativo que permite realizar consultas de datos expresivas y \neficientes en un gráfico de propiedades. 
  
 
-<!-- Page 34 -->
-
  
  
 Sistemas de Gestión de Bases de Datos relacionales, orientados a objetos y NoSQL: características 
 y componentes 
-34 
-5. Sistemas de Gestión de B.D. Orientados a objetos 
+## 🟣 5. Sistemas de Gestión de B.D. Orientados a objetos
 Un SGBDOO es un sistema que combina características de orientación a objetos y lenguajes de 
 programación OO (orientado a objetos) con capacidades de bases de datos [Martínez, 1996]. 
 En un SGBDOO, los datos aparecen en forma de objetos, permitiendo a determinados lenguajes de 
@@ -1261,15 +1059,11 @@ semántica del Modelo Relacional para atender nuevos tipos de aplicaciones como 
 • Sistemas de información geográfica. 
 • Bases de datos multimedia. 
 
-<!-- Page 35 -->
-
  
  
 Sistemas de Gestión de Bases de Datos relacionales, orientados a objetos y NoSQL: características 
 y componentes 
-35 
-5.1. Manifiesto del Sistema de Base de Datos Orientado 
-a Objetos 
+### 🔵 5.1. Manifiesto del Sistema de Base de Datos Orientado a Objetos 
 El Manifiesto del Sistema de Base de Datos Orientado al Objeto (The Object-Oriented Database System 
 Manifesto) fue desarrollado por Atkinson, Bancilhon, DeWitt, Maier y Zdonik. 
 Este manifiesto del Sistema de Base de Datos Orientado a Objetos, indica que características debe tener 
@@ -1296,13 +1090,10 @@ Debe satisfacer dos criterios fundamentales:
 • Extensibilidad. 
 • Completitud computacional. 
 
-<!-- Page 36 -->
-
  
  
 Sistemas de Gestión de Bases de Datos relacionales, orientados a objetos y NoSQL: características 
 y componentes 
-36 
 Optativas 
 Son características que debería cumplir, pero no es necesario implementarlas. 
 Estas son: 
@@ -1316,7 +1107,7 @@ Abiertas
 • Sistema de representación. 
 • Sistema de tipos. 
 • Uniformidad. 
-5.2. Principales SGBDOO 
+### 🔵 5.2. Principales SGBDOO
 A continuación presentamos varios Sistemas de Gestión de Bases de Datos Orientadas a Objetos 
 (SGBDOO) están ordenados prioritariamente por uso actual y secundariamente por relevancia 
 histórica: 
@@ -1328,13 +1119,10 @@ histórica:
 • Versant Object Database. 
 • DB4O. 
 
-<!-- Page 37 -->
-
  
  
 Sistemas de Gestión de Bases de Datos relacionales, orientados a objetos y NoSQL: características 
 y componentes 
-37 
 • ObjectStore. 
 • Perst. 
 • Matisse. 
@@ -1362,13 +1150,10 @@ Ofrece un alto rendimiento y escalabilidad, optimizada para el almacenamiento ef
 complejos y estructuras jerárquicas. A través de JPQL y JDOQL, permite realizar consultas similares a 
 SQL. 
 
-<!-- Page 38 -->
-
  
  
 Sistemas de Gestión de Bases de Datos relacionales, orientados a objetos y NoSQL: características 
 y componentes 
-38 
 Zope Object Database 
 La base de datos orientada a objetos Zope (ZODB) es una base de datos orientada a objetos utilizada 
 para almacenar objetos de Python de forma transparente y persistente. 
@@ -1397,13 +1182,10 @@ La edición gratuita y de código abierto de Virtuoso Universal Server también 
 Virtuoso. 
 El software ha sido desarrollado por OpenLink Software. 
 
-<!-- Page 39 -->
-
  
  
 Sistemas de Gestión de Bases de Datos relacionales, orientados a objetos y NoSQL: características 
 y componentes 
-39 
  
  
  
@@ -1433,13 +1215,10 @@ Está inspirado en la base de datos Statice desarrollada originalmente en Symbol
 ObjectStore es innovador en el uso del lenguaje C ++ para hacer que el acceso a la base de datos sea 
 transparente. 
 
-<!-- Page 40 -->
-
  
  
 Sistemas de Gestión de Bases de Datos relacionales, orientados a objetos y NoSQL: características 
 y componentes 
-40 
 Los objetos se pueden crear en una base de datos al sobrecargar el operador new (). 
 De esta manera, se puede almacenar objetos de C ++ directamente en la base de datos y estos objetos 
 persistentes se ven y se comportan como los objetos normales de C ++. 
@@ -1472,13 +1251,10 @@ Se utiliza principalmente para modelado conceptual y metamodelado en el campo de
 software y campos relacionados. 
 ConceptBase es un software gratuito y de código abierto. 
 
-<!-- Page 41 -->
-
  
  
 Sistemas de Gestión de Bases de Datos relacionales, orientados a objetos y NoSQL: características 
 y componentes 
-41 
 OpenAccess 
 OpenAccess es una API propietaria que pertenece a OpenAccess Coalition. 
 Tienen como objetivo facilitar la interoperabilidad del software de automatización de diseño \nelectrónico entre los miembros de esa coalición. 
@@ -1508,13 +1284,10 @@ clientes empresariales que buscan soluciones escalables y específicas para sus 
 adopción ha disminuido en favor de bases de datos híbridas o multimodelo, sigue siendo relevante en 
 nichos especializados donde la orientación a objetos es clave. 
 
-<!-- Page 42 -->
-
  
  
 Sistemas de Gestión de Bases de Datos relacionales, orientados a objetos y NoSQL: características 
 y componentes 
-42 
 Ozone 
 Ozone es un Sistema de Gestión de Bases de Datos Orientadas a Objetos (SGBDOO) de código abierto, 
 diseñado para ser ligero y adaptable, especialmente para aplicaciones desarrolladas en Java. Este 
@@ -1550,14 +1323,11 @@ cuáles son sus diferencias para elegir la más adecuada para la gestión de la 
 que vayamos a realizar. 
 Es muy importante una buena elección del tipo de base de datos. 
 
-<!-- Page 43 -->
-
  
  
 Sistemas de Gestión de Bases de Datos relacionales, orientados a objetos y NoSQL: características 
 y componentes 
-43 
-6.1. Entre las BDOO con las BDR 
+### 🔵 6.1. Entre las BDOO con las BDR
 Características de las BDOO. Diferencias con las relacionales 
 • En una BDOO, los datos se almacenan como objetos en vez de como tablas. 
 • Los objetos son entidades que describen el estado (atributos) y el comportamiento (métodos). 
@@ -1586,14 +1356,11 @@ Inconvenientes:
 • Hacen falta estándares. 
 • La optimización de consultas compromete el concepto de encapsulación. 
 
-<!-- Page 44 -->
-
  
  
 Sistemas de Gestión de Bases de Datos relacionales, orientados a objetos y NoSQL: características 
 y componentes 
-44 
-6.2. Entre B.D (NoSQL) y las relacionales 
+### 🔵 6.2. Entre B.D (NoSQL) y las relacionales
 Diferencias de bases NoSQL con las bases de datos relacionales 
 Algunas de las diferencias más destacables son: 
 • Arquitectura distribuida. 
@@ -1607,7 +1374,7 @@ Las ventajas más significativas son:
 • Escalabilidad horizontal: Para mejorar el rendimiento tan solo debemos añadir más nodos. 
 • Pueden manejar gran cantidad de datos. 
 • No genera cuellos de botella. 
-7. Bibliografía 
+## 🟣 7. Bibliografía
 • Fundamentos de bases de datos 4ª edición. Silberschatz, Korth, Sudarshan. Editorial McGraw-Hill. 
 • http://informatica.uv.es/docencia/biblioguia/BD/ficheros/tema2.pdf. 
 • https://www.mindmeister.com/es/1079684487/las-12-reglas-de-codd-del-modelo-
@@ -1618,13 +1385,10 @@ relacional.
 • https://en.wikipedia.org. 
 • http://es.tldp.org/Postgresql-es/web/navegable/tutorial/x574.html. 
 
-<!-- Page 45 -->
-
  
  
 Sistemas de Gestión de Bases de Datos relacionales, orientados a objetos y NoSQL: características 
 y componentes 
-45 
 • https://revistadigital.inesem.es/informatica-y-tics/los-gestores-de-bases-de-datos-mas-
 usados/. 
 • https://bdooinfo.wordpress.com/sistema-gestor-de-bases-de-datos-orientados-a-objeto-
@@ -1645,8 +1409,6 @@ https://commons.wikimedia.org/wiki/File:Cassandra_logo.svg.
 • Logo CouchDB http://couchdb.apache.org. 
 • Logo Neo4J https://neo4j.com. 
  
-
-<!-- Page 46 -->
 
 ---
 

@@ -26,8 +26,6 @@ updated: "2026-08-18"
 
 # 🔴 Bloque 2 - Tema 03 (DOCUMENTO3): Tipos y Estructuras de Datos, Organización de Ficheros y Complejidad Algorítmica
 
-<!-- Page 1 -->
-
  
  
 Tipos de Datos y Estructuras. 
@@ -35,211 +33,112 @@ Tipos, Organización y Formato
 de Ficheros. Algoritmos  
 DV.Texto HTML (01).Esp.dot     |     DOCUMENTO3  
 
-<!-- Page 2 -->
-
-ÍNDICE  
-1. Datos. Tipos de datos  
-5 
-1.1. Tipos básicos de datos  
-7 
-1.2. Estructuras de datos  
-8 
-1.2.1. Array 
-8 
-1.2.2. Puntero 
-10 
-1.3. Tipos abstractos de datos (tad)
+## 🟣 1. Datos. Tipos de datos
+### 🔵 1.1. Tipos básicos de datos
+### 🔵 1.2. Estructuras de datos
+#### 🔹 1.2.1. Array
+#### 🔹 1.2.2. Puntero
+### 🔵 1.3. Tipos abstractos de datos (tad)
  
-11 
-1.3.1. Estructuras Tipos de datos abstractos  
-13 
-1.3.1.1. Listas  
-14 
-1.3.1.2. Árboles 
-22 
-1.3.1.3. Grafos 
-28 
-2. Sistemas de almacenamiento  
-29 
-3. Ficheros 
-30 
-3.1. Nombre y extensión de un fichero  
-32 
-3.2. Atributos de los ficheros  
-34 
-3.3. Tipos de ficheros  
-36 
-3.4. Principales formatos de ficheros  
-39 
-3.4.1. Documentos  
-40 
-3.4.2. Hojas de Cálculo  
-42 
-3.4.3. Compresores  
-42 
-3.4.4. Imágenes 
-43 
-3.4.5. Audio 
-46 
-3.4.6. Video 
-47 
-3.5. Operaciones sobre ficheros  
-48 
-3.6. De los sectores a los bloques  
-50 
-3.6.1. Dispositivos de almacenamiento y sectores físicos  
-51 
-3.6.2. Direccionamiento lineal de sectores (LBA)  
-51 
-3.6.3. Bloques lógicos del sistema operativo  
-52 
-3.6.4. Clusters y fragmentación interna  
-52 
-3.7. Implementación interna del sistema de ficheros  
-53 
-
-<!-- Page 3 -->
+#### 🔹 1.3.1. Estructuras Tipos de datos abstractos
+##### 1.3.1.1. Listas
+##### 1.3.1.2. Árboles
+##### 1.3.1.3. Grafos
+## 🟣 2. Sistemas de almacenamiento
+## 🟣 3. Ficheros
+### 🔵 3.1. Nombre y extensión de un fichero
+### 🔵 3.2. Atributos de los ficheros
+### 🔵 3.3. Tipos de ficheros
+### 🔵 3.4. Principales formatos de ficheros
+#### 🔹 3.4.1. Documentos
+#### 🔹 3.4.2. Hojas de Cálculo
+#### 🔹 3.4.3. Compresores
+#### 🔹 3.4.4. Imágenes
+#### 🔹 3.4.5. Audio
+#### 🔹 3.4.6. Video
+### 🔵 3.5. Operaciones sobre ficheros
+### 🔵 3.6. De los sectores a los bloques
+#### 🔹 3.6.1. Dispositivos de almacenamiento y sectores físicos
+#### 🔹 3.6.2. Direccionamiento lineal de sectores (LBA)
+#### 🔹 3.6.3. Bloques lógicos del sistema operativo
+#### 🔹 3.6.4. Clusters y fragmentación interna
+### 🔵 3.7. Implementación interna del sistema de ficheros
 
  
  
-3.7.1. Estrategias de asignación de bloques  
-54 
-3.7.1.1. Asignación contigua  
-54 
-3.7.1.2. Asignación enlazada (ejemplo: tablas FAT)
+#### 🔹 3.7.1. Estrategias de asignación de bloques
+##### 3.7.1.1. Asignación contigua
+##### 3.7.1.2. Asignación enlazada (ejemplo: tablas FAT)
  
-54 
-3.7.1.3. Asignación indexada (ejemplo: i -nodos)  
-55 
-3.7.2. Gestión del espacio libre  
-55 
-3.7.2.1. Mapas de bits 
-55 
-3.7.2.2. Listas de bloques libres  
-55 
-3.7.3. Metadatos y consistencia del sistema de ficheros  
-56 
-3.8. Abstracción del fichero y métodos de acceso (so / aplicación)
+##### 3.7.1.3. Asignación indexada (ejemplo: i -nodos)
+#### 🔹 3.7.2. Gestión del espacio libre
+##### 3.7.2.1. Mapas de bits
+##### 3.7.2.2. Listas de bloques libres
+#### 🔹 3.7.3. Metadatos y consistencia del sistema de ficheros
+### 🔵 3.8. Abstracción del fichero y métodos de acceso (so / aplicación)
  
-56 
-3.8.1. El fichero como secuencia lógica de bytes  
-57 
-3.8.2. Acceso secuencial  
-57 
-3.8.3. Acceso directo por desplazamiento (offset)  
-57 
-3.8.4. Traducción del offset lógico a bloques físicos  
-57 
-3.9. Organización lógica del contenido (nivel aplicación)
+#### 🔹 3.8.1. El fichero como secuencia lógica de bytes
+#### 🔹 3.8.2. Acceso secuencial
+#### 🔹 3.8.3. Acceso directo por desplazamiento (offset)
+#### 🔹 3.8.4. Traducción del offset lógico a bloques físicos
+### 🔵 3.9. Organización lógica del contenido (nivel aplicación)
  
-58 
-3.9.1. Ficheros secuenciales y secuenciales ordenados  
-59 
-3.9.2. Ficheros de registros de longitud fija  
-60 
-3.9.3. Índices simples gestionados por la aplicación  
-61 
-3.10. Organización de ficheros en sgbd  
-61 
-3.10.1. Ficheros de registros y páginas de datos  
-62 
-3.10.2. Organización primaria  
-62 
-3.10.2.1.  Montículo (heap)  
-63 
-3.10.2.2.  Secuencial ordenada  
-63 
-3.10.2.3.  Dispersión (hashing)  
-64 
-3.10.3. Organización secundaria  
-66 
-3.10.3.1.  Índices como acceso alternativo  
-66 
-3.10.3.2.  Estructura General de un Índice  
-66 
-3.10.3.3.  Búsqueda en índices ordenados: busqueda binaria  
-67 
-3.10.3.4.  Densidad del índice  
-67 
-3.10.3.5.  Relación entre índice y organización primaria  
-67 
-3.10.3.6.  Gestión de índices en los SGBD  
-68 
-3.10.3.7.  Índices multinivel y árboles B / B+  
-69 
-
-<!-- Page 4 -->
+#### 🔹 3.9.1. Ficheros secuenciales y secuenciales ordenados
+#### 🔹 3.9.2. Ficheros de registros de longitud fija
+#### 🔹 3.9.3. Índices simples gestionados por la aplicación
+### 🔵 3.10. Organización de ficheros en sgbd
+#### 🔹 3.10.1. Ficheros de registros y páginas de datos
+#### 🔹 3.10.2. Organización primaria
+##### 3.10.2.1. Montículo (heap)
+##### 3.10.2.2. Secuencial ordenada
+##### 3.10.2.3. Dispersión (hashing)
+#### 🔹 3.10.3. Organización secundaria
+##### 3.10.3.1. Índices como acceso alternativo
+##### 3.10.3.2. Estructura General de un Índice
+##### 3.10.3.3. Búsqueda en índices ordenados: busqueda binaria
+##### 3.10.3.4. Densidad del índice
+##### 3.10.3.5. Relación entre índice y organización primaria
+##### 3.10.3.6. Gestión de índices en los SGBD
+##### 3.10.3.7. Índices multinivel y árboles B / B+
 
  
  
-3.11. Directorios  
-69 
-4. Códecs  
-71 
-4.1. Códec de audio  
-72 
-4.2. Códec de vídeo  
-74 
-5. Algoritmos  
-76 
-5.1. Bondad, recursividad y optimización  
-77 
-5.2. Complejidad de los algoritmos  
-78 
+### 🔵 3.11. Directorios
+## 🟣 4. Códecs
+### 🔵 4.1. Códec de audio
+### 🔵 4.2. Códec de vídeo
+## 🟣 5. Algoritmos
+### 🔵 5.1. Bondad, recursividad y optimización
+### 🔵 5.2. Complejidad de los algoritmos
 5.2.1. 
-78 
-5.2.2. Casos de uso  
-79 
-5.2.3. Órdenes de complejidad  
-80 
-5.3. Rendimiento y medición de los algoritmos  
-81 
-5.4. Clasificación: ordenamiento y búsqueda  
-82 
-5.4.1. De ordenamiento 
-82 
-5.4.1.1. Según la estabilidad del algoritmo  
-84 
-5.4.1.2. Según el método de resolver el problema  
-84 
+#### 🔹 5.2.2. Casos de uso
+#### 🔹 5.2.3. Órdenes de complejidad
+### 🔵 5.3. Rendimiento y medición de los algoritmos
+### 🔵 5.4. Clasificación: ordenamiento y búsqueda
+#### 🔹 5.4.1. De ordenamiento
+##### 5.4.1.1. Según la estabilidad del algoritmo
+##### 5.4.1.2. Según el método de resolver el problema
 5.4.1.2.1.  Iterativos  
-85 
 5.4.1.2.2.  Recursivos  
-88 
-5.4.1.3. Estructuras cíclicas  
-91 
-5.4.2. Algoritmos de Búsqueda  
-92 
-5.4.2.1. Secuencial 
-92 
-5.4.2.2. Búsqueda Binaria o Dicotómica  
-92 
-5.4.2.3. Búsqueda basada en tablas Hash  
-93 
-5.4.3. Algoritmos Voraces  
-94 
-5.5. Representación de algoritmos  
-95 
-5.5.1. Lenguaje natural  
-95 
-5.5.2. Diagramas de Nassi -Shneideman 
-96 
-5.5.3. Pseudocódigo 
-96 
-5.5.4. Diagrama de flujo  
-97 
-6. Bibliografía  
-99 
+##### 5.4.1.3. Estructuras cíclicas
+#### 🔹 5.4.2. Algoritmos de Búsqueda
+##### 5.4.2.1. Secuencial
+##### 5.4.2.2. Búsqueda Binaria o Dicotómica
+##### 5.4.2.3. Búsqueda basada en tablas Hash
+#### 🔹 5.4.3. Algoritmos Voraces
+### 🔵 5.5. Representación de algoritmos
+#### 🔹 5.5.1. Lenguaje natural
+#### 🔹 5.5.2. Diagramas de Nassi -Shneideman
+#### 🔹 5.5.3. Pseudocódigo
+#### 🔹 5.5.4. Diagrama de flujo
+## 🟣 6. Bibliografía
  
-
-<!-- Page 5 -->
 
  
  
 Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algoritmos 
  
-5 
-1. Datos. Tipos de datos  
+## 🟣 1. Datos. Tipos de datos
  
 Fuente: Pixnio 
 Es un conjunto de símbolos (alfanuméricos o de cualquier otra índole) que representan un hecho o un 
@@ -264,13 +163,10 @@ Los tipos de datos definidos dependerán del lenguaje de programación que estem
  
  
 
-<!-- Page 6 -->
-
  
  
 Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algoritmos 
  
-6 
  
 Recuerda ver las clases emitidas en Temario 
 Audiovisual 
@@ -294,13 +190,10 @@ Fuente: PixaBay
 Ejemplo: Nos centramos en una sola pieza del puzle, no nos importa el resto.
  
 
-<!-- Page 7 -->
-
  
  
 Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algoritmos 
  
-7 
 En informática, este concepto es muy usado como una manera de ocultar los detalles de 
 implementación de un objeto, de forma que lo utilizamos, porque sabemos qué puede hacer, pero no 
 necesitamos saber cómo lo hace. (Convertimos un dato mediante la abstracción en un objeto).  
@@ -313,7 +206,7 @@ Los programadores, utilizan la abstracción para hacer los algoritmos más senci
 -
 down (de arriba abajo, o lo que es lo mismo, de lo más general a lo más específico).
  
-1.1. Tipos básicos de datos  
+### 🔵 1.1. Tipos básicos de datos
 Los principales tipos básicos de datos son:  
 • Enteros. 
 Representan números enteros (normalmente con signo). Ejemplo: 2, 
@@ -335,13 +228,10 @@ mayores.
 Representan valores lógicos o booleanos, es decir, pueden tomar dos posibles valores (0 y 1, 
 verdadero y falso, etcétera).  
 
-<!-- Page 8 -->
-
  
  
 Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algoritmos 
  
-8 
 Las operaciones que se realizan sobre estas variables son los operadores lógicos básicos (AND, 
 OR y NOT). Algunos lenguajes incluyen también otros operadores como NAND, NOR y XOR).
  
@@ -356,12 +246,12 @@ En la mayoría de los lenguajes se utiliza una estructura denominada string o ca
 básico. Contiene un número a determinar de caracteres y sobre ella se pueden hacer distintas 
 operaciones (buscar un carácter, dar su posición, transponer la cadena, etcétera).
  
-1.2. Estructuras de datos  
+### 🔵 1.2. Estructuras de datos
 Cuando hablamos de este tipo de estructuras podemos distinguir entre otros:
  
 • Array. 
 • Puntero. 
-1.2.1. Array 
+#### 🔹 1.2.1. Array
 Un array es una estructura de datos que permite almacenar una colección ordenada de elementos bajo 
 un mismo nombre.  
 En algunos lenguajes como C, C++, C# esta colección de elementos será homogénea (del mismo tipo) y \nestática (con número fijo de elementos), y en otros como PHP, Python o Javascript esta colección 
@@ -375,13 +265,10 @@ una o dos dimensiones: Vector o Matriz.
  
  
 
-<!-- Page 9 -->
-
  
  
 Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algoritmos 
  
-9 
  
 Info 
 En el examen de la convocatoria de septiembre de 2023, dieron 
@@ -410,13 +297,10 @@ memoria contiguas, pero las filas en sí pueden no estarlo, lo que puede afectar
 acceso a elementos de diferentes filas.  
 Veamos un ejemplo.  
 
-<!-- Page 10 -->
-
  
  
 Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algoritmos 
  
-10 
  
 Supongamos que tenemos esta matriz con nombre mEjemplo cuyos índices comienza en 0.
  
@@ -427,7 +311,7 @@ Referenciaremos pues la tercera fila de la matriz (si la primera posición es 0 
 Recordemos que esto no es uniforme, en algunos lenguajes, en vectores y matrices los datos han de ser 
 homogéneos (siempre del mismo tipo) y la primera posición de los índices puede ser la 1.
  
-1.2.2. Puntero 
+#### 🔹 1.2.2. Puntero
 Es una variable que almacena la dirección de memoria de otra variable. Esta estructura nos será muy útil 
 para implementar otras estructuras más complejas.  
 Normalmente, con un puntero, podemos obtener la dirección de memoria a la que apunta o el 
@@ -448,13 +332,10 @@ solicitado es un puntero, si se utiliza más adelante en nuestro código el comp
 contenido de la casilla de memoria contenida en la dirección a la que apunta ese puntero.
  
 
-<!-- Page 11 -->
-
  
  
 Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algoritmos 
  
-11 
 Así pues si lo que me interesa es almacenar una dirección de memoria, el tipo de dato que he de emplear \nes un puntero, que se especifica en C de esta manera:  
 int *puntero = &amp;x; 
  
@@ -470,7 +351,7 @@ dirección de memoria de un dato de un tipo determinado.
 Si quiero obtener el valor contenido en esa dirección de memoria (siempre fuera de la declaración de 
 variables), haré, siguiendo con nuestro ejemplo en lenguaje C, *puntero, lo que me devolverá el valor 1.
  
-1.3. Tipos abstractos de datos (tad)
+### 🔵 1.3. Tipos abstractos de datos (tad)
  
 Un tipo abstracto de datos es un modelo matemático compuesto por una colección de operaciones 
 definidas sobre un conjunto de datos para el modelo.  
@@ -488,13 +369,10 @@ se pueden realizar.
 • Cumplir con los principios de abstracción y ocultación de la información. Se pueden manejar sin 
 conocer su estructura interna.  
 
-<!-- Page 12 -->
-
  
  
 Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algoritmos 
  
-12 
 Por tanto, podemos decir que consta de tres partes:  
 • Dominio del tipo. Elementos que pueden constituirlo. Se representan mediante estructuras de 
 datos. 
@@ -518,14 +396,11 @@ un gran paso para la programación orientada a objetos.
  
  
 
-<!-- Page 13 -->
-
  
  
 Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algoritmos 
  
-13 
-1.3.1. Estructuras Tipos de datos abstractos
+#### 🔹 1.3.1. Estructuras Tipos de datos abstractos
  
  
 Fuente: Pixabay 
@@ -553,13 +428,10 @@ Algunas de las operaciones básicas sobre estructuras de datos son: acceder a un
 buscar, insertar o borrar.  
 Aquí no nos es relevante las operaciones individuales de cada componente, sino las operaciones sobre la \nestructura de datos global.  
 
-<!-- Page 14 -->
-
  
  
 Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algoritmos 
  
-14 
 Según el tipo de datos de los componentes, una estructura puede ser de dos tipos:
  
 • Homogénea. Todos sus componentes son del mismo tipo.  
@@ -578,7 +450,7 @@ dinámicamente más memoria según se van creando más elementos (por ejemplo, e
 grafos).  
 A continuación, vamos a ver algunas de las estructuras de datos más utilizadas.
  
-1.3.1.1. Listas  
+##### 1.3.1.1. Listas
 Una lista es un conjunto ordenado de elementos que nos permite introducir un elemento en cualquier 
 punto de la lista o eliminar cualquiera de ellos sin desperdiciar memoria (estructura dinámica).
  
@@ -593,13 +465,10 @@ Algunas de las características  de las listas son:
 • El acceso a los elementos es secuencial (tenemos que ir pasando por cada uno de ellos, ya que 
 cada elemento nos direcciona al siguiente).  
 
-<!-- Page 15 -->
-
  
  
 Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algoritmos 
  
-15 
 • Todos los elementos tienen un antecesor y un sucesor, excepto el primero (que solo tiene 
 sucesor) y el último (que solo tiene antecesor).
  
@@ -633,13 +502,10 @@ según el lenguaje de programación y su manejo de estructuras de datos, como la
 Si no hay elementos, "inicio" y "fin", apuntan a NULL (valor nulo). De la misma forma, el puntero 
 "siguiente". 
 
-<!-- Page 16 -->
-
  
  
 Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algoritmos 
  
-16 
 Listas enlazadas dobles  
 Son iguales a las listas enlazadas simples, pero añaden en cada elemento un nuevo puntero
  denominado 
@@ -668,13 +534,10 @@ Por lo tanto, el puntero "inicio" apunta al último elemento que se ha añadido 
 puntero "inicio" se le suele llamar "cabeza", "cima" o "tope".  
 No necesita el puntero "fin".  
 
-<!-- Page 17 -->
-
  
  
 Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algoritmos 
  
-17 
  
 Overflow: Es un desbordamiento de pila. Al realizar un problema aritmético se produce un exceso de 
 flujo de datos almacenados en la pila. La operación aritmética intenta crear un valor numérico que está 
@@ -694,13 +557,10 @@ Para entenderlo, imagina la cola de un cine. El primero que llega es el primero 
 alguien nuevo se sitúa al final de la cola.  
 Por lo tanto, el puntero "inicio" apunta al primer elemento que se añadió y el puntero "fin" al último \nelemento añadido. 
 
-<!-- Page 18 -->
-
  
  
 Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algoritmos 
  
-18 
  
 Bicola 
 La bicola o doble cola es un tipo de cola especial que permiten la inserción y eliminación de elementos 
@@ -726,13 +586,10 @@ número de elementos para el usuario).
 • Inserción: añade un nuevo elemento a la lista. Se gestiona de distinta forma según sea:  
 • En una lista vacía:  
 
-<!-- Page 19 -->
-
  
  
 Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algoritmos 
  
-19 
 » El puntero "inicio" apunta al nuevo elemento.  
 » El elemento "fin" apunta al nuevo elemento.  
 » El puntero "siguiente" del nuevo elemento apunta a "NULL".  
@@ -749,13 +606,10 @@ Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algori
  
 • En un punto intermedio de la lista:  
 
-<!-- Page 20 -->
-
  
  
 Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algoritmos 
  
-20 
 » Se recorre el puntero hasta llegar al elemento que será su antecesor.  
 » El puntero "siguiente" del antecesor apuntará al nuevo elemento.  
 » El puntero "siguiente" del nuevo elemento apuntará al "sucesor".  
@@ -768,13 +622,10 @@ Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algori
 » Se recorre el puntero hasta llegar al elemento llegar al antecesor del elemento que 
 vamos a eliminar. 
 
-<!-- Page 21 -->
-
  
  
 Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algoritmos 
  
-21 
 » El puntero "siguiente" del antecesor apuntará al mismo punto que el puntero 
 "siguiente" del elemento a eliminar (al sucesor).  
  
@@ -796,15 +647,12 @@ Utiliza dibujos, te resultará más fácil y claro.
  
  
 
-<!-- Page 22 -->
-
  
  
 Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algoritmos 
  
-22 
   
-1.3.1.2. Árboles 
+##### 1.3.1.2. Árboles
 Existen muchas definiciones de árboles. Algunos autores afirman que son un tipo abstracto de datos 
 (TAD), mientras que otros los definen como una estructura de dato.
  
@@ -834,13 +682,10 @@ raíz por árbol.
 • Nodo rama. Son todos aquellos nodos que no son raíz y que además tienen al menos un hijo.
  
 
-<!-- Page 23 -->
-
  
  
 Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algoritmos 
  
-23 
 • Subárbol. Subconjunto de un árbol que es, a su vez, un árbol.  
 • Nivel. Se refiere a la generación del árbol. El nodo raíz es el nivel 1, sus hijos el nivel 2 y así 
 sucesivamente.  
@@ -863,13 +708,10 @@ para recorrer todo el árbol.
 Número máximo de hijos que puede tener un Nodo.  
  
 
-<!-- Page 24 -->
-
  
  
 Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algoritmos 
  
-24 
 La diferencia entre el grado y el orden  está en que el orden es el nº máximo de hijos que puede tener 
 un nodo, mientras que el grado es el nº máximo de hijos que tiene en ese momento el nodo. Un nodo 
 puede tener un orden 4, aunque en ese momento su grado sea 3, pues no ha terminado de 
@@ -890,13 +732,10 @@ Un árbol n-ario es aquel donde el número máximo de hijos por nodo es igual a 
  
  
 
-<!-- Page 25 -->
-
  
  
 Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algoritmos 
  
-25 
  
 Reflexión 
 La altura es el mayor nivel, por tanto, si el nivel de un árbol tiene 
@@ -924,13 +763,10 @@ recorre.
  
  
 
-<!-- Page 26 -->
-
  
  
 Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algoritmos 
  
-26 
  
 + Info 
 Un algoritmo o función son recursivos cuando su proceso conlleva 
@@ -952,13 +788,10 @@ izquierda); a continuación, leemos el nodo raíz; finalmente, leemos en in
 -orden el subárbol 
 de la derecha. De nuevo utilizamos un algoritmo recursivo. Veamos una imagen para \nentenderlo mejor.  
 
-<!-- Page 27 -->
-
  
  
 Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algoritmos 
  
-27 
  
 Recorrido en in -orden 
 • Recorrido post -orden: se recorren en post -orden los subárboles izquierdo y derecho para 
@@ -973,14 +806,11 @@ iterativo, por lo que no usaremos recursividad. Vamos con una imagen para verlo 
  
 Búsqueda en amplitud  
 
-<!-- Page 28 -->
-
  
  
 Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algoritmos 
  
-28 
-1.3.1.3. Grafos 
+##### 1.3.1.3. Grafos
 Un grafo es una estructura de datos (o un tipo abstracto de datos según algunos autores) consistente \nen un conjunto de nodos o vértices  y un conjunto de arcos (aristas)  que establecen relaciones (no 
 jerárquicas) entre los nodos.  
 Características  
@@ -1010,14 +840,11 @@ más conocimiento sobre ellos.
  
  
 
-<!-- Page 29 -->
-
  
  
 Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algoritmos 
  
-29 
-2. Sistemas de almacenamiento  
+## 🟣 2. Sistemas de almacenamiento
 Hay dos sistemas de almacenamiento:  
 • Primario: 
 Está constituido por la memoria del dispositivo (RAM, cache, etc.).
@@ -1050,13 +877,10 @@ almacenamientos.
  
  
 
-<!-- Page 30 -->
-
  
  
 Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algoritmos 
  
-30 
  
 + Info 
 En los sistemas operativos modernos (Linux, Windows, macOS, 
@@ -1069,7 +893,7 @@ archivos.
 Sobre este almacenamiento secundario gestionado por el sistema de ficheros, el sistema 
 operativo define el concepto de fichero como unidad lógica de información.
  
-3. Ficheros 
+## 🟣 3. Ficheros
 Todas las estructuras de datos que hemos visto hasta ahora utilizan memoria principal. Esto presenta 
 dos limitaciones importantes:  
 1. Los datos desaparecen cuando el programa termina.  
@@ -1085,8 +909,6 @@ convención, utilizada por algunos sistemas operativos y aplicaciones, pero no o
  
 Los ficheros pueden tener atributos como las fechas (creación y última modificación) y el propietario, 
 así como permisos de acceso que determinan las operaciones permitidas (lectura, escritura y 
-
-<!-- Page 31 -->
 
  
  
@@ -1122,13 +944,10 @@ puede contener otras carpetas (subcarpetas o subdirectorios) y/o ficheros.
 Dentro de una carpeta no puede haber dos entradas con el mismo nombre, ya sean ficheros o 
 subdirectorios.  
 
-<!-- Page 32 -->
-
  
  
 Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algoritmos 
  
-32 
  
 Cada fichero viene determinado por:  
 • Nombre del fichero. El nombre es el identificador del fichero dentro del sistema de archivos. La \nextensión es una convención utilizada por algunos sistemas operativos y aplicaciones para 
@@ -1142,7 +961,7 @@ sistemas Unix/Linux y " \" en Windows).
 Por ejemplo, la ruta "/carpeta1/carpeta2/mitexto.txt" indica, en sistemas Unix/Linux el 
 recorrido desde el directorio raíz hasta el fichero "mitexto.txt". 
  
-3.1. Nombre y extensión de un fichero  
+### 🔵 3.1. Nombre y extensión de un fichero
 Nombre de fichero. Extensión.  
 La identificación o "nombre" de un fichero, se compone de 3 partes: el nombre, seguido de un punto, y 
 la extensión: 
@@ -1151,13 +970,10 @@ La longitud máxima de los nombres de fichero está limitada por el sistema oper
 de archivos, por ejemplo, en Windows -NTFS podemos tener hasta 255 caracteres en el nombre.
  
 
-<!-- Page 33 -->
-
  
  
 Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algoritmos 
  
-33 
 A la hora de nombrar los ficheros, debemos tener en cuenta ciertas normas:
  
 • Nombre Único: es decir que no debe repetirse en la misma carpeta/directorio.
@@ -1199,13 +1015,10 @@ correctamente el formato y la codificación real del archivo.
 Algunas de las extensiones más comunes son:  
 • .exe = Fichero ejecutable.  
 
-<!-- Page 34 -->
-
  
  
 Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algoritmos 
  
-34 
 • .c = Programa fuente en lenguaje C.  
 • .cpp = Programa fuente en lenguaje C++.  
 • .asm = Programa fuente en lenguaje ensamblador.  
@@ -1229,7 +1042,7 @@ correctamente aunque su extensión sea incorrecta si la aplicación
 interpreta adecuadamente su codificación.  
  
  
-3.2. Atributos de los ficheros  
+### 🔵 3.2. Atributos de los ficheros
 Son características concretas que se asocian a un fichero, y que ofrecen información adicional no 
 relacionada con su contenido, como puede ser fecha de creación o modificación, autor, si es un fichero 
 de sistema, de sólo lectura etc. No son datos de su contenido, son sus atributos.
@@ -1242,13 +1055,10 @@ Cuando se aplica un atributo a un archivo, esta modificación solo se aplica a e
 directorios, la aplicación a subdirectorios y archivos depende del comando y de las opciones utilizadas, 
 no es automática.  
 
-<!-- Page 35 -->
-
  
  
 Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algoritmos 
  
-35 
 También existe la posibilidad de aplicar estas modificaciones utilizando nombres de ficheros con 
 caracteres "comodín". Por ejemplo, clientes??.txt modificaría a todos los archivos que se llamen 
 "clientes" seguidos de dos caracteres más (clientes01, clientesAA, etc…).
@@ -1284,13 +1094,10 @@ la actualización de esta información que forma parte de los metadatos de un ar
 El archivo sólo puede ser abierto en adición para escritura, es decir, los archivos con este 
 atributo sólo pueden ser escritos por redireccionamiento (>>) y el archivo no puede ser \neliminado. 
 
-<!-- Page 36 -->
-
  
  
 Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algoritmos 
  
-36 
 Sólo el usuario root o un programa que disponga de privilegios necesarios puede cambiar este 
 atributo, de hecho, este atributo está pensado principalmente para usarlo con logs.
  
@@ -1302,7 +1109,7 @@ Sólo root o un binario que posea los privilegios necesarios puede modificar est
 Resulta interesante activarlo en ficheros que rara vez son escritos, como binarios, ficheros de un 
 servidor web, repositorios de consulta, o incluso ficheros de BBDD que no son accedidos vía 
 web para su modificación.  
-3.3. Tipos de ficheros  
+### 🔵 3.3. Tipos de ficheros
 Todos los ficheros se pueden clasificar en uno de dos grandes tipos según su formato de 
 almacenamiento: ficheros de texto y ficheros binarios.  
 Además de esta clasificación principal, los ficheros pueden agruparse atendiendo a otros criterios, en 
@@ -1320,13 +1127,10 @@ programa que los genera, y no necesariamente como texto legible.
  
  
 
-<!-- Page 37 -->
-
  
  
 Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algoritmos 
  
-37 
 • Ficheros de texto : 
 Los ficheros de texto contienen información codificada como caracteres y solo permiten un 
 determinado rango de valores (letras, números, signos de puntuación y caracteres especiales).
@@ -1363,13 +1167,10 @@ Estos ficheros suelen incluir encabezados, que son bloques de datos situados al 
 que identifican su tipo y proporcionan información descriptiva adicional.
  
 
-<!-- Page 38 -->
-
  
  
 Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algoritmos 
  
-38 
 Longitud del fichero  
 Esta clasificación se aplica principalmente a ficheros de datos estructurados y será desarrollada con 
 mayor detalle en los apartados dedicados a la organización lógica del contenido.
@@ -1405,13 +1206,10 @@ pasadas o la verificación de estados anteriores.
 • Ficheros temporales.  Contienen información necesaria únicamente durante un proceso o 
 durante un periodo de tiempo limitado, tras el cual dejan de ser útiles.  
 
-<!-- Page 39 -->
-
  
  
 Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algoritmos 
  
-39 
 Dentro de esta categoría tenemos tres tipos diferentes según su uso:
  
 • Intermedios, que almacenan resultados parciales utilizados por procesos posteriores.  
@@ -1436,21 +1234,18 @@ generar los formatos propietarios, incluso entre distintas versiones
 de una misma aplicación.  
  
  
-3.4. Principales formatos de ficheros  
+### 🔵 3.4. Principales formatos de ficheros
 Un formato de fichero indica la forma de codificar la información que se almacenará en un fichero.
  
 Existe una gran cantidad de formatos de ficheros. Vamos a ver algunos de los más importantes 
 clasificados en distintas categorías.  
 
-<!-- Page 40 -->
-
  
  
 Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algoritmos 
  
-40 
  
-3.4.1. Documentos  
+#### 🔹 3.4.1. Documentos
 Vamos a ver una descripción sobre cada tipo de documento:  
 • .TXT:  
 Ficheros en los que se guarda texto plano (normalmente en código ASCII). Es un formato simple 
@@ -1472,13 +1267,10 @@ lo utilizan para sus comunicaciones. El lector de ficheros .pdf es gratuito y mu
 permiten guardar en este formato (como Microsoft Word y Writer de OpenOffice).
  
 
-<!-- Page 41 -->
-
  
  
 Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algoritmos 
  
-41 
 Tipos de PDF:  
 • PDF 2.0 (ISO 32000 -2:2020)  es una actualización y perfeccionamiento de las \nespecificaciones PDF anteriores. El objetivo fundamental de esta especificación es 
 consolidar, aclarar y limpiar la especificación, por lo que se han depurado funciones 
@@ -1518,14 +1310,11 @@ Utiliza un lenguaje de programación para describir una imagen de impresión. Se
 impresión en alta calidad de imágenes. Para abrirlo podemos utilizar programas como 
 GhostView y GhostScript.  
 
-<!-- Page 42 -->
-
  
  
 Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algoritmos 
  
-42 
-3.4.2. Hojas de Cálculo  
+#### 🔹 3.4.2. Hojas de Cálculo
 Vamos a ver una descripción sobre cada tipo de hoja de cálculo:  
 • .XLS:  
 Predeterminado de Excel 2010 y Excel 2007. No se pueden almacenar códigos de macros de 
@@ -1546,7 +1335,7 @@ código de macros de VBA ni hojas de macros de Excel 4.0 (.xlm).
 Formato de archivo Hoja de cálculo en OpenDocument (.ods) que usan algunas aplicaciones de 
 hojas de cálculo como OpenOffice.org Calc y Google Docs.
  
-3.4.3. Compresores  
+#### 🔹 3.4.3. Compresores
 Vamos a ver los principales compresores que se usan actualmente:  
 • .ZIP: 
 Formato libre de compresión sin pérdida. Es el más popular para Windows.  
@@ -1556,20 +1345,17 @@ se vale de Tar. Tgz es un fichero comprimido con GZip y archivamos con Tar.
  
 • .RAR: 
 
-<!-- Page 43 -->
-
  
  
 Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algoritmos 
  
-43 
 Formato propietario de compresión sin pérdida. Suele comprimir más que ZIP, pero es algo más 
 lento. 
 • .7z: 
 Es un formato de compresión de datos sin pérdida con tasas de compresión superiores a ZIP y 
 RAR. Puede utilizar distintos algoritmos de compresión.
  
-3.4.4. Imágenes  
+#### 🔹 3.4.4. Imágenes
 Existen dos tipos de imágenes:  
 • Los mapas de bits (bitmaps) son agrupaciones rectangulares de pequeños puntos (píxeles).
  
@@ -1597,13 +1383,10 @@ demasiado grandes.
 • Las imágenes digitales conservadas en dicho formato están compuestas por píxeles 
 ubicados en una cuadrícula rectangular.  
 
-<!-- Page 44 -->
-
  
  
 Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algoritmos 
  
-44 
 • Los archivos de mapas de bits se componen de direcciones asociadas a códigos de color, 
 uno para cada cuadro en una matriz de píxeles (tal como se esquematizaría un dibujo de 
 "colorea los cuadros" para niños pequeños).  
@@ -1641,13 +1424,10 @@ varias tablas de coeficientes de cuantificación.
 5. Codificación  sin pérdidas de los coeficientes reducidos utilizando el algoritmo de Huffman 
 modificado.  
 
-<!-- Page 45 -->
-
  
  
 Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algoritmos 
  
-45 
 • .GIF: 
 Graphics Interchange Format.  
 Formato gráfico muy extendido en Internet al permitir imágenes animadas y ser soportado por 
@@ -1679,13 +1459,10 @@ vectoriales, mapas de bits o ambos al mismo tiempo.
 Inicialmente abreviación de Shockwave Flash y posteriormente retroacrónimo de Small Web 
 Format -formato web pequeño - para evitar confusiones con Shockwave del que deriva.  
 
-<!-- Page 46 -->
-
  
  
 Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algoritmos 
  
-46 
 Creado por la empresa Macromedia (actualmente Adobe Systems) Pueden ser generados por 
 diversidad de aplicaciones, aunque el programa original Adobe Flash Professional utiliza un 
 formato editable con extensión ".fla" con los que el usuario trabaja y que después compila y 
@@ -1693,7 +1470,7 @@ comprime en SWF. Están constituidos principalmente por dos elementos: objetos b
 vectores (gráficos vectoriales) e imágenes. Aunque también incorporan audio y vídeo (en 
 diferentes formatos Flash Video) y multitud de formas diferentes de interacción con el usuario.
  
-3.4.5. Audio 
+#### 🔹 3.4.5. Audio
 Existen tres tipos de formato de audio:  
 • Sin comprimir.  
 • Con compresión sin pérdida.  
@@ -1714,13 +1491,10 @@ Códec libre de compresión de audio sin pérdida. Reduce en un tercio el tamañ
 • .ALAC:  
 Aple Lossless Audio Codec.  
 
-<!-- Page 47 -->
-
  
  
 Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algoritmos 
  
-47 
 Es el formato utilizado para las transmisiones de Apple Music.  
 Compresión con pérdida  
 • .MP3: 
@@ -1743,7 +1517,7 @@ incluso texto (subtítulos). En lo que al audio se refiere, es compatible con un
 codecs como Vorbis, Opus o FLAC.  
 Da resultados ligeramente superiores al MP3 en calidad, pero no está tan difundido y no tiene 
 tanta compatibilidad.  
-3.4.6. Video 
+#### 🔹 3.4.6. Video
 • .AVI: 
 Audio Video Interleave.  
 Es un formato contenedor de audio y video lanzado por Microsoft.
@@ -1752,13 +1526,10 @@ Es un formato contenedor de audio y video lanzado por Microsoft.
 Es un estándar de codificación de audio y video desarrollado por el Moving Picture Experts 
 Group perteneciente a ISO.  
 
-<!-- Page 48 -->
-
  
  
 Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algoritmos 
  
-48 
 • .WMV: 
 Windows Media Video. 
 Utiliza un conjunto de algoritmos de compresión desarrollado por Microsoft.
@@ -1778,7 +1549,7 @@ significa MPEG -4 Parte 14, que es un estándar de compresión de video ampliame
 múltiples tipos de contenido, como video, audio, subtítulos y metadatos. MKV significa 
 Matroska Video, y es un formato de archivo de código abierto que es popular por su capacidad 
 para almacenar una variedad de tipos de datos multimedia en un solo archivo.  
-3.5. Operaciones sobre ficheros  
+### 🔵 3.5. Operaciones sobre ficheros
 Las operaciones relacionadas con el almacenamiento persistente pueden aplicarse directamente sobre 
 los ficheros o, en el caso de ficheros de datos estructurados, sobre los registros que contienen.
  
@@ -1790,13 +1561,10 @@ secundario.
 implica cargar todo el fichero en memoria, sino establecer un canal de acceso gestionado 
 por el sistema operativo.  
 
-<!-- Page 49 -->
-
  
  
 Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algoritmos 
  
-49 
 • Cerrar fichero.  Una vez concluidas las operaciones sobre el fichero, se debe cerrar para 
 liberar los recursos asociados, evitar posibles errores (fichero corrupto) y asegurar la 
 correcta escritura de los datos.  
@@ -1835,17 +1603,14 @@ información mientras se procesa).
 • Escribir registros.  Se escriben datos en el archivo en la posición actual. Puede añadirse 
 como datos nuevos o sobrescribir los datos existentes.  
 
-<!-- Page 50 -->
-
  
  
 Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algoritmos 
  
-50 
 • Búsqueda. Permite localizar uno o varios registros que cumplen una determinada 
 condición. Es una operación propia de la aplicación, que se realiza sobre ficheros de datos 
 organizados en registros.  
-3.6. De los sectores a los bloques  
+### 🔵 3.6. De los sectores a los bloques
 Para comprender el funcionamiento de los sistemas de ficheros es necesario partir del nivel físico del 
 almacenamiento y analizar las sucesivas abstracciones que introduce el sistema operativo hasta ofrecer 
 a las aplicaciones una visión lógica y uniforme.  
@@ -1876,19 +1641,16 @@ La existencia de estas sucesivas abstracciones permite separar la organización 
 almacenamiento de la organización lógica de los datos. Gracias a ello, los datos de un fichero no 
 necesitan almacenarse de forma contigua en el dispositivo, y el sistema operativo puede ofrecer a las 
 
-<!-- Page 51 -->
-
  
  
 Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algoritmos 
  
-51 
 aplicaciones una visión uniforme del almacenamiento, independiente del tipo de dispositivo utilizado y 
 de su disposición física real.  
 Este proceso de abstracción es la base sobre la que se construye la implementación interna del sistema 
 de ficheros y los mecanismos que permiten localizar, gestionar y acceder a la información almacenada 
 de forma eficiente y fiable.  
-3.6.1. Dispositivos de almacenamiento y sectores físicos  
+#### 🔹 3.6.1. Dispositivos de almacenamiento y sectores físicos
 Los dispositivos de almacenamiento persistente son los encargados de conservar la información de 
 forma permanente, incluso cuando el sistema se apaga. Entre ellos se encuentran los discos duros 
 magnéticos, las unidades de estado sólido (SSD), las memorias flash y otros dispositivos similares.
@@ -1907,7 +1669,7 @@ direccionar. En este nivel no existe ningún concepto de fichero, directorio, bl
 Los sectores físicos constituyen, por tanto, el nivel más bajo de la jerarquía de almacenamiento sobre el 
 que se construyen todas las abstracciones superiores que permiten la gestión de ficheros en un sistema 
 informático.  
-3.6.2. Direccionamiento lineal de sectores (LBA)
+#### 🔹 3.6.2. Direccionamiento lineal de sectores (LBA)
  
 El direccionamiento lineal de sectores, conocido como LBA (Logical Block Addressing), es el mecanismo \nestándar mediante el cual los dispositivos de almacenamiento exponen sus sectores al sistema 
 operativo de forma secuencial y numérica.  
@@ -1920,13 +1682,10 @@ sistema operativo utiliza estas direcciones para solicitar operaciones de lectur
 firmware del dispositivo traduce internamente estas direcciones lógicas a la localización física 
 correspondiente. Esto libera al sistema operativo de conocer la estructura interna o la tecnología \nespecífica del dispositivo.  
 
-<!-- Page 52 -->
-
  
  
 Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algoritmos 
  
-52 
 Es importante destacar que, aunque el término "logica" forma parte de su nombre, el direccionamiento 
 LBA no define bloques lógicos del sistema operativo. LBA se refiere a sectores del dispositivo, 
 simplemente numerados linealmente; los bloques lógicos se definen en una capa superior y constituyen 
@@ -1934,7 +1693,7 @@ una abstracción diferente.
 El uso de LBA facilita la compatibilidad entre dispositivos, permite gestionar discos de gran capacidad y 
 simplifica el diseño de los sistemas operativos al ofrecer una interfaz uniforme de acceso al 
 almacenamiento físico.  
-3.6.3. Bloques lógicos del sistema operativo  
+#### 🔹 3.6.3. Bloques lógicos del sistema operativo
 El sistema operativo gestiona el almacenamiento introduciendo una abstracción propia sobre los 
 sectores físicos direccionables vía LBA: los bloques lógicos (o bloques del kernel).
  
@@ -1956,7 +1715,7 @@ caché y la optimización del acceso, todo ello de forma transparente para los n
 Los bloques lógicos constituyen, por tanto, el punto de enlace entre el sistema de ficheros y el 
 almacenamiento físico, sirviendo de base para la organización lógica de la información que se realiza en 
 niveles superiores. 
-3.6.4. Clusters y fragmentación interna  
+#### 🔹 3.6.4. Clusters y fragmentación interna
 Sobre los bloques lógicos definidos por el sistema operativo se construye el sistema de ficheros, que 
 introduce su propia unidad mínima de asignación de espacio: el cluster (también denominado unidad de 
 asignación en algunos sistemas).  
@@ -1967,13 +1726,10 @@ de ficheros, lo que puede generar confusión terminológica; por este motivo aqu
 cluster para diferenciarla claramente de los bloques lógicos del sistema operativo.
  
 
-<!-- Page 53 -->
-
  
  
 Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algoritmos 
  
-53 
 Cuando un fichero se crea o se amplía, el sistema de ficheros le asigna espacio en forma de clusters 
 completos. Esto implica que un fichero, independientemente de su tamaño real (incluso si es de un solo 
 byte), ocupa siempre un número entero de clusters. El espacio no utilizado dentro de los clusters 
@@ -1990,7 +1746,7 @@ El uso de clusters permite al sistema de ficheros gestionar grandes volúmenes d
 menor sobrecarga administrativa (menos unidades que gestionar que si se trabajara directamente con 
 bloques lógicos), sirviendo de base para la organización lógica de la información que se realiza en 
 niveles superiores. 
-3.7. Implementación interna del sistema de ficheros  
+### 🔵 3.7. Implementación interna del sistema de ficheros
 Una vez establecidas las unidades y abstracciones básicas del almacenamiento, el sistema de ficheros 
 debe resolver el problema fundamental de cómo asignar espacio a los ficheros, localizar sus datos 
 dispersos y mantener la coherencia del sistema ante operaciones y posibles fallos.
@@ -2011,14 +1767,11 @@ En los siguientes subepígrafes se analizan las estrategias de asignación de bl
 gestión del espacio libre y las técnicas para mantener la consistencia del sistema.
  
 
-<!-- Page 54 -->
-
  
  
 Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algoritmos 
  
-54 
-3.7.1. Estrategias de asignación de bloques  
+#### 🔹 3.7.1. Estrategias de asignación de bloques
 El sistema de ficheros debe decidir cómo distribuir los clusters de un fichero dentro del dispositivo. Esta 
 decisión determina si los datos deben ocupar posiciones físicas consecutivas o pueden dispersarse, 
 afectando directamente al rendimiento, la capacidad de crecimiento dinámico y la complejidad de 
@@ -2033,7 +1786,7 @@ sin moverlo físicamente, y el rendimiento de los accesos secuenciales frente a 
  
 A continuación se analizan estas estrategias y sus implementaciones representativas en sistemas de 
 ficheros reales. 
-3.7.1.1. Asignación contigua  
+##### 3.7.1.1. Asignación contigua
 En la asignación contigua, los clusters de un fichero se almacenan en posiciones consecutivas del 
 dispositivo. El sistema de ficheros reserva, en el momento de la creación, un área continua suficiente 
 para el tamaño declarado o estimado del fichero.  
@@ -2046,7 +1799,7 @@ adyacente inmediato, obligando a reubicar el fichero completo.
 Por estos motivos, su uso se restringe hoy a contextos específicos (ficheros de tamaño fijo, sistemas de 
 archivo en CD -ROM, o particiones con gestión muy controlada).
  
-3.7.1.2. Asignación enlazada (ejemplo: tablas FAT)
+##### 3.7.1.2. Asignación enlazada (ejemplo: tablas FAT)
  
 En la asignación enlazada, los clusters de un fichero pueden estar dispersos por el dispositivo. Cada 
 cluster de datos contiene, junto con la información del usuario, un puntero o referencia al siguiente 
@@ -2056,18 +1809,15 @@ ilimitado del fichero mientras exista espacio disperso. Sin embargo, el acceso d
 (requiere recorrer la cadena desde el inicio) y la corrupción de un enlace rompe la cadena, pudiendo 
 provocar la pérdida de los clusters subsiguientes.  
 
-<!-- Page 55 -->
-
  
  
 Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algoritmos 
  
-55 
 El sistema FAT (File Allocation Table) representa una implementación optimizada donde los punteros 
 se centralizan en una tabla en memoria (o caché de disco) en lugar de dispersarse en los propios 
 bloques de datos, acelerando la navegación pero manteniendo la lógica enlazada.
  
-3.7.1.3. Asignación indexada (ejemplo: i -nodos)  
+##### 3.7.1.3. Asignación indexada (ejemplo: i -nodos)
 La asignación indexada utiliza una estructura intermedia -el bloque índice- que almacena las direcciones 
 de todos los clusters que componen el fichero. Los clusters de datos pueden estar físicamente 
 dispersos, pero se localizan consultando directamente la entrada correspondiente del índice.
@@ -2079,7 +1829,7 @@ capacidad de referencias directas de un solo bloque índice.
 El modelo de i-nodos en sistemas Unix/Linux constituye el ejemplo paradigmático, donde cada fichero 
 dispone de un i-nodo con metadatos y una lista de direcciones de bloques que incluye referencias 
 directas e indirectas.  
-3.7.2. Gestión del espacio libre  
+#### 🔹 3.7.2. Gestión del espacio libre
 Además de asignar clusters a los ficheros existentes, el sistema de ficheros debe mantener información 
 actualizada sobre qué clusters del dispositivo están libres y cuáles ocupados. Esta gestión es 
 imprescindible para crear nuevos ficheros, ampliar los existentes y liberar espacio cuando se eliminan.
@@ -2087,7 +1837,7 @@ imprescindible para crear nuevos ficheros, ampliar los existentes y liberar espa
 El sistema utiliza estructuras internas que permiten localizar rápidamente clusters disponibles. Entre los 
 métodos más habituales se encuentran los mapas de bits y las listas de clusters libres
  
-3.7.2.1. Mapas de bits 
+##### 3.7.2.1. Mapas de bits
 En los mapas de bits, cada cluster del dispositivo se representa mediante un bit (típicamente 0=libre, 
 1=ocupado). Esta estructura reside en el volumen (metadatos del sistema de ficheros) y se carga 
 parcialmente en memoria según necesidad.  
@@ -2095,22 +1845,19 @@ Permite localizar clusters libres de forma eficiente y facilita la detección de
 disponible, útil para minimizar la fragmentación. Su inconveniente es el tamaño fijo: requiere espacio en 
 disco proporcional al número total de clusters (por ejemplo, 1 TB con clusters de 4 KB requiere 32 MB 
 de mapa).  
-3.7.2.2. Listas de bloques libres  
+##### 3.7.2.2. Listas de bloques libres
 Este método enlaza entre sí los clusters disponibles: cada cluster libre contiene una referencia al 
 siguiente cluster libre, formando una lista encadenada.  
-
-<!-- Page 56 -->
 
  
  
 Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algoritmos 
  
-56 
 Es sencillo de implementar y no requiere espacio adicional en disco (reutiliza los propios clusters libres 
 para almacenar los punteros). Sin embargo, resulta ineficiente para localizar áreas contiguas grandes, 
 ya que obliga a recorrer la lista secuencialmente, y fragmenta la información de gestión por todo el 
 volumen. 
-3.7.3. Metadatos y consistencia del sistema de ficheros  
+#### 🔹 3.7.3. Metadatos y consistencia del sistema de ficheros
 Los metadatos describen las características de cada fichero y su ubicación en el almacenamiento: 
 nombre (registrado en estructuras de directorio), tamaño, permisos, fechas de acceso/modificación y 
 las referencias a los clusters que contienen los datos. En sistemas Unix/Linux residen principalmente en 
@@ -2129,7 +1876,7 @@ interrumpida, recuperando la consistencia sin necesidad de verificar todo el sis
 La correcta gestión de estos metadatos y la garantía de consistencia ante fallos son aspectos 
 fundamentales para la fiabilidad del almacenamiento y la recuperación segura de la información.
  
-3.8. Abstracción del fichero y métodos de acceso (so / 
+### 🔵 3.8. Abstracción del fichero y métodos de acceso (so /
 aplicación)  
 El sistema de ficheros proporciona a las aplicaciones una abstracción lógica del almacenamiento, 
 presentando cada fichero como una secuencia continua de bytes numerados desde el inicio hasta su 
@@ -2146,16 +1893,13 @@ de ficheros utiliza esta información para localizar los clusters físicos corre
 transferencia, ocultando completamente la disposición real de los datos en el dispositivo.
  
 
-<!-- Page 57 -->
-
  
  
 Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algoritmos 
  
-57 
 Cada fichero abierto tiene asociado, en una estructura del kernel, un puntero de posición que almacena \nel offset lógico actual. Este offset existe siempre y es utilizado por el sistema de ficheros como punto de 
 partida para cualquier operación de entrada o salida.  
-3.8.1. El fichero como secuencia lógica de bytes  
+#### 🔹 3.8.1. El fichero como secuencia lógica de bytes
 Desde la perspectiva de la aplicación, un fichero es una secuencia ordenada de bytes numerados desde 
 0 hasta N -1, donde N representa su tamaño actual. Esta representación es independiente de la 
 distribución física: los datos pueden estar dispersos en clusters no contiguos del dispositivo sin que la 
@@ -2171,27 +1915,24 @@ Esta traducción es transparente: la aplicación percibe únicamente un flujo co
 Esta abstracción sirve de base para las distintas formas de utilización del fichero por parte de las 
 aplicaciones, todas ellas fundamentadas en el manejo de posiciones lógicas dentro de la secuencia de 
 bytes. 
-3.8.2. Acceso secuencial  
+#### 🔹 3.8.2. Acceso secuencial
 La literatura clásica denomina acceso secuencial al acceso en el que la aplicación no solicita \nexplícitamente cambios en el offset. Tras cada operación de lectura o escritura, el propio sistema 
 operativo actualiza automáticamente el puntero de posición, avanzándolo en función del número de 
 bytes procesados.  
-3.8.3. Acceso directo por desplazamiento (offset)
+#### 🔹 3.8.3. Acceso directo por desplazamiento (offset)
  
 Los mismos manuales, denominan acceso directo al acceso en el que la aplicación solicita \nexplícitamente la actualización del offset lógico antes de realizar una operación, indicando una nueva 
 posición dentro del fichero desde la que continuar el acceso. Esta solicitud no altera el mecanismo 
 interno del sistema de ficheros, sino únicamente el valor del offset utilizado como referencia.
  
-3.8.4. Traducción del offset lógico a bloques físicos  
+#### 🔹 3.8.4. Traducción del offset lógico a bloques físicos
 Como decíamos el offset puede ser gestionado implícitamente por el sistema operativo o modificado \nexplícitamente por la aplicación, pero en todos los casos es utilizado por el sistema de ficheros para 
 localizar los datos solicitados.  
-
-<!-- Page 58 -->
 
  
  
 Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algoritmos 
  
-58 
 El sistema de ficheros debe resolver la correspondencia entre ese offset lógico y la ubicación física real 
 de los datos en el dispositivo de almacenamiento. Para ello, el proceso de traducción sigue la jerarquía 
 de abstracciones establecida:  
@@ -2211,7 +1952,7 @@ físicos, que el firmware del dispositivo convierte en operaciones reales de lec
 sobre el medio. 
 Todo este mecanismo es completamente transparente para la aplicación. Desde su perspectiva, el 
 fichero se presenta como una secuencia continua de bytes accesible mediante operaciones de lectura y \nescritura, mientras que el sistema de ficheros se encarga de ocultar la fragmentación física y reconstruir \nel flujo lógico de datos de forma coherente.  
-3.9. Organización lógica del contenido (nivel aplicación)
+### 🔵 3.9. Organización lógica del contenido (nivel aplicación)
  
 Tras la abstracción del sistema operativo -que presenta el fichero como una mera secuencia de bytes 
 accesibles por offset, corresponde a la aplicación interpretar y estructurar esos datos.
@@ -2229,14 +1970,11 @@ A continuación se analizan las organizaciones lógicas implementadas directamen
 utilizar sistemas gestores de bases de datos, diferenciándolas claramente de las estructuras propias de 
 los SGBD anteriormente.  
 
-<!-- Page 59 -->
-
  
  
 Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algoritmos 
  
-59 
-3.9.1. Ficheros secuenciales y secuenciales ordenados  
+#### 🔹 3.9.1. Ficheros secuenciales y secuenciales ordenados
 En el nivel de aplicación, la organización más elemental interpreta el fichero como una secuencia de 
 datos procesados en orden de escritura. Esta estructura define los ficheros secuenciales, utilizados en 
 logs, ficheros de texto o exportaciones simples.  
@@ -2276,17 +2014,14 @@ ajustar los punteros sin necesidad de desplazar grandes volúmenes de datos. Com
 acceso secuencial requiere seguir los enlaces uno a uno, y el acceso directo por posición lógica resulta 
 ineficiente o inexistente.  
 
-<!-- Page 60 -->
-
  
  
 Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algoritmos 
  
-60 
 El sistema operativo es ajeno a esta organización: para él, el fichero sigue siendo una secuencia de 
 bytes. La estructura encadenada es una convención mantenida exclusivamente por la lógica de la 
 aplicación. 
-3.9.2. Ficheros de registros de longitud fija  
+#### 🔹 3.9.2. Ficheros de registros de longitud fija
 En muchas aplicaciones, el contenido del fichero se estructura como una colección de registros 
 (entidades con campos definidos) en lugar de un flujo de bytes amorfo. Cuando todos los registros 
 comparten el mismo tamaño en bytes, se denomina organización de registros de longitud fija.
@@ -2316,13 +2051,10 @@ donde el orden físico de los registros carece de significado semántico.
  
  
 
-<!-- Page 61 -->
-
  
  
 Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algoritmos 
  
-61 
  
 Nota 
 La organización de longitud fija presenta el inconveniente del 
@@ -2331,7 +2063,7 @@ desperdicio de espacio cuando los datos varían en tamaño
 reorganizaciones periódicas del fichero.  
  
  
-3.9.3. Índices simples gestionados por la aplicación  
+#### 🔹 3.9.3. Índices simples gestionados por la aplicación
 Cuando los ficheros grandes impiden el recorrido secuencial eficiente, la aplicación puede implementar 
 índices simples: estructuras auxiliares que asocian valores clave con posiciones de acceso directo 
 (offsets o números de registro). Estos índices son responsabilidad exclusiva del software, no del sistema 
@@ -2349,7 +2081,7 @@ SGBD.
 Por estas razones, los índices simples se reservan para aplicaciones autocontenidas o sistemas legacy; 
 para requisitos complejos se recurre a los mecanismos de organización secundaria de los SGBD vistos 
 anteriormente.  
-3.10. Organización de ficheros en sgbd  
+### 🔵 3.10. Organización de ficheros en sgbd
 Cuando los volúmenes de datos crecen y se exige flexibilidad en el acceso, integridad referencial y 
 gestión concurrente, los mecanismos de ficheros planos resultan insuficientes. En su lugar, el Sistema 
 Gestor de Bases de Datos (SGBD) asume el control total de la organización física y lógica de los datos.
@@ -2358,13 +2090,10 @@ El SGBD se apoya en el sistema de ficheros del SO (almacenando su información e
 ficheros de clusters), pero define una capa de abstracción superior: la información se estructura 
 internamente en páginas de datos (típicamente de 4 KB, 8 KB o 16 KB, múltiplos del tamaño de cluster 
 
-<!-- Page 62 -->
-
  
  
 Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algoritmos 
  
-62 
 del SO). Dentro de estas páginas, el gestor organiza los registros y los metadatos necesarios para su 
 administración.  
 Esta arquitectura permite al SGBD ofrecer servicios inalcanzables para una aplicación de ficheros 
@@ -2377,7 +2106,7 @@ tradicional:
 A continuación se analizan las estrategias de organización primaria (cómo se disponen físicamente los 
 registros dentro de las páginas: montículo, secuencial o hash) y organización secundaria (estructuras 
 auxiliares como índices para acceso alternativo).  
-3.10.1. Ficheros de registros y páginas de datos  
+#### 🔹 3.10.1. Ficheros de registros y páginas de datos
 En los SGBD, la unidad lógica es el registro (fila de una tabla), pero la unidad física de entrada/salida es 
 la página de datos: un conjunto contiguo de bytes que el gestor transfiere como bloque entre 
 almacenamiento secundario y memoria principal. El tamaño de página (típicamente 4 KB, 8 KB o 16 KB) \nes determinado por el SGBD y suele coincidir con múltiplos del tamaño de bloque del sistema de 
@@ -2392,18 +2121,15 @@ nivel de página, buffering, etc.).
 Esta separación permite al SGBD optimizar el acceso independientemente del sistema de ficheros 
 concreto (NTFS, ext4, etc.), garantizando rendimiento y portabilidad.
  
-3.10.2. Organización primaria  
+#### 🔹 3.10.2. Organización primaria
 La organización primaria define cómo el SGBD distribuye físicamente los registros dentro de las páginas 
 de un fichero de datos, determinando así su ubicación inicial en el almacenamiento y el método básico 
 de recuperación.  
-
-<!-- Page 63 -->
 
  
  
 Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algoritmos 
  
-63 
 Esta decisión del diseñador o del motor del SGBD condiciona el rendimiento de operaciones 
 fundamentales: inserción, búsqueda exacta, rangos de consulta y eliminación. A diferencia de los 
 ficheros planos, aquí el gestor controla internamente la disposición física, no la aplicación.
@@ -2419,7 +2145,7 @@ consumo de espacio. Cuando la organización primaria resulta ineficiente para ci
 acceso, el SGBD recurre a estructuras adicionales: la organización secundaria o índices, que ofrecen 
 rutas de acceso alternativas sin alterar la disposición física primaria de los registros.
  
-3.10.2.1. Montículo (heap)  
+##### 3.10.2.1. Montículo (heap)
 En la organización heap, los registros se almacenan sin orden predefinido, típicamente en la próxima 
 página con espacio libre disponible o en una nueva página añadida al final del fichero. Es la organización 
 por defecto en la mayoría de los SGBD cuando no se especifica criterio de ordenación.
@@ -2435,18 +2161,15 @@ Por ello, los montículos se emplean cuando:
 • No existe requisito de orden físico.  
 El SGBD gestiona internamente las páginas y sus ranuras libres; el sistema operativo solo percibe la 
 asignación de clusters para contener esas páginas.  
-3.10.2.2. Secuencial ordenada  
+##### 3.10.2.2. Secuencial ordenada
 En la organización secuencial ordenada, los registros se almacenan físicamente ordenados según el 
 valor de un campo clave (por ejemplo, código de cliente o fecha). Este orden es mantenido por el 
 motor del SGBD, no por el sistema de ficheros: el SO desconoce el significado de los datos y gestiona 
-
-<!-- Page 64 -->
 
  
  
 Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algoritmos 
  
-64 
 únicamente clusters (bytes). El SGBD, por encima, interpreta esas páginas y aplica las políticas 
 necesarias para preservar el orden lógico -físico de la estructura.  
 Esta organización permite recorridos secuenciales por rango sin necesidad de ordenar los datos en 
@@ -2461,7 +2184,7 @@ Es adecuada cuando predominan las lecturas secuenciales o por rango y las actual
 frecuentes, ya que inserciones y eliminaciones pueden exigir reorganización. El sistema operativo 
 permanece ajeno a esta organización: para él solo hay bytes; la ordenación la gestiona internamente el 
 SGBD.  
-3.10.2.3. Dispersión (hashing)  
+##### 3.10.2.3. Dispersión (hashing)
 En la organización por hashing, la ubicación de un registro se determina aplicando una función de 
 dispersión sobre el valor de una clave específica. Esta función calcula una dirección lógica (número de 
 bucket o página) donde el SGBD almacenará o buscará el registro.
@@ -2486,13 +2209,10 @@ sencilla, pero presenta una degradación progresiva del rendimiento a medida que
 overflow, ya que las búsquedas pueden requerir varios accesos adicionales al alamcenamiento 
 persistente. 
 
-<!-- Page 65 -->
-
  
  
 Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algoritmos 
  
-65 
 Cuando las cadenas de desbordamiento crecen, el rendimiento se degrada progresivamente, pudiendo 
 aproximarse al de un recorrido secuencial en el peor caso.  
 Hashing dinámico  
@@ -2524,13 +2244,10 @@ direcciones ni en la gestión de colisiones.
  
  
 
-<!-- Page 66 -->
-
  
  
 Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algoritmos 
  
-66 
  
 Nota 
 En estructuras de datos en memoria principal -como tablas hash 
@@ -2542,12 +2259,12 @@ colisiones se basa preferentemente en páginas de desbordamiento
 y en técnicas de hashing dinámico.  
  
  
-3.10.3. Organización secundaria  
+#### 🔹 3.10.3. Organización secundaria
 La organización secundaria complementa a la primaria proporcionando acceso alternativo por campos 
 distintos a la clave de ordenación física. Mientras la organización primaria determina la ubicación física 
 del registro, la secundaria permite localizarlo rápidamente sin reordenar el fichero base.
  
-3.10.3.1. Índices como acceso alternativo  
+##### 3.10.3.1. Índices como acceso alternativo
 Un índice constituye una vía de acceso secundaria que complementa la organización primaria del 
 fichero. Mientras la organización primaria (heap, ordenada o hash) determina la ubicación física de los 
 registros, el índice ofrece rutas adicionales para localizarlos por otros campos.
@@ -2565,10 +2282,8 @@ costes de mantenimiento: cada operación -inserción, modificación o eliminaci�
 manipulación de datos (DML) sobre la tabla debe replicarse sincrónicamente en el índice para 
 garantizar la coherencia, aumentando el tiempo de respuesta y el consumo de E/S de dichas 
 operaciones. 
-3.10.3.2. Estructura General de un Índice  
+##### 3.10.3.2. Estructura General de un Índice
 Un índice es una estructura de datos (típicamente un árbol B+ en sistemas relacionales) que almacena \nentradas del tipo (valor_clave, dirección_registro), donde la dirección especifica la página y posición \nexacta del registro en el fichero de datos. Al consultar por el campo indexado, el SGBD recorre esta 
-
-<!-- Page 67 -->
 
  
  
@@ -2576,7 +2291,7 @@ Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algori
  
 67 \nestructura auxiliar para obtener la dirección física directamente, evitando el recorrido secuencial 
 completo del fichero de datos.  
-3.10.3.3. Búsqueda en índices ordenados: busqueda binaria  
+##### 3.10.3.3. Búsqueda en índices ordenados: busqueda binaria
 En los índices ordenados, las entradas se mantienen clasificadas según el valor del campo indexado. Esta 
 propiedad permite realizar búsquedas eficientes mediante búsqueda binaria sobre el propio índice.
  
@@ -2584,7 +2299,7 @@ La búsqueda binaria  consiste en comparar la clave buscada con la entrada centr
 resultado, continuar únicamente por la mitad superior o inferior. Al repetir el proceso, el número de \nentradas candidatas se reduce exponencialmente. Por ello, si el índice ocupa b páginas, la búsqueda 
 requiere aproximadamente log ₂(b) accesos a p áginas del índice. Una vez localizada la entrada, se utiliza 
 su puntero para acceder a la p ágina de datos donde est á el registro.  
-3.10.3.4. Densidad del índice  
+##### 3.10.3.4. Densidad del índice
 Desde el punto de vista clásico, un índice denso contiene una entrada por cada registro del fichero de 
 datos, mientras que un índice no denso contiene una entrada por cada bloque o página. Como 
 consecuencia, los índices primarios son necesariamente no densos, mientras que los índices secundarios 
@@ -2596,7 +2311,7 @@ Según su densidad, los índices pueden clasificarse en:
 Los índices densos proporcionan accesos más precisos, mientras que los no densos reducen el tamaño 
 del índice a costa de requerir una lectura secuencial adicional dentro del bloque localizado.
  
-3.10.3.5. Relación entre índice y organización primaria  
+##### 3.10.3.5. Relación entre índice y organización primaria
 Atendiendo a la relación entre el índice y la organización primaria del fichero, se distinguen:
  
 • Índice primario, se construye sobre el campo que determina el orden físico de los registros en el 
@@ -2608,13 +2323,10 @@ conjunto reducido de registros candidatos.
 • Índice secundario , no determina la ubicación física de los registros, sino que proporciona una vía 
 de acceso alternativa por un campo distinto del de ordenación. Dado que el campo indexado 
 
-<!-- Page 68 -->
-
  
  
 Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algoritmos 
  
-68 
 puede contener valores repetidos, una misma clave del índice secundario puede estar asociada a 
 uno o varios registros del fichero de datos.  
 • En la práctica, esto se implementa mediante entradas que contienen la clave secundaria y una o 
@@ -2637,7 +2349,7 @@ proporcionar accesos alternativos apuntando a las posiciones físicas definidas 
 primaria. 
 Estas categorías proceden de la organización clásica de ficheros y constituyen la base conceptual de los 
 índices utilizados en los SGBD modernos.  
-3.10.3.6. Gestión de índices en los SGBD  
+##### 3.10.3.6. Gestión de índices en los SGBD
 A diferencia de los índices simples gestionados por aplicaciones, los índices del SGBD son:
  
 • Automáticos: El gestor los mantiene consistentes ante inserciones, borrados y modificaciones 
@@ -2657,14 +2369,11 @@ fichero de datos (tablespace) o en ficheros separados gestionados por el motor
 para el sistema operativo, que únicamente gestiona la asignación de clusters.
  
 
-<!-- Page 69 -->
-
  
  
 Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algoritmos 
  
-69 
-3.10.3.7. Índices multinivel y árboles B / B+  
+##### 3.10.3.7. Índices multinivel y árboles B / B+
 En sistemas reales, los índices pueden ocupar múltiples páginas de almacenamiento, lo que hace 
 ineficiente mantenerlos como una única estructura ordenada lineal. Para resolver este problema, los 
 SGBD utilizan índices multinivel, en los que el índice se organiza jerárquicamente en varios niveles.
@@ -2679,7 +2388,7 @@ La estructura B+ es la más utilizada en bases de datos relacionales, ya que per
 por rango mediante el encadenamiento secuencial de las hojas, manteniendo el árbol equilibrado y 
 garantizando un número reducido y predecible de accesos a disco.
  
-3.11. Directorios  
+### 🔵 3.11. Directorios
 Los directorios proporcionan un mecanismo que permita establecer una organización de los ficheros en \nel sistema, de forma que el usuario pueda encontrar y manejar los ficheros sin dificultad, puesto que un 
 sistema de ficheros almacenado en un disco duro puede contener miles de ficheros.
  
@@ -2696,13 +2405,10 @@ Los sistemas de archivos empleados en Windows y Linux, contienen en cada directo
 Lo más común en los sistemas modernos es la organización en forma de árbol.
  
 
-<!-- Page 70 -->
-
  
  
 Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algoritmos 
  
-70 
 Operaciones con directorios  
 Las operaciones comunes a la hora de manejar un directorio son:  
 • Crear: se requiere nombre. Como normas, no puede llamarse igual que otro archivo ubicado en \nel mismo directorio. No debe incluir algunos caracteres especiales.  
@@ -2725,17 +2431,13 @@ En Windows, sin embargo, al igual que ocurría con los archivos hay atributos qu
 Las normas para nombrar los directorios coinciden con las correspondientes a los archivos.
  
 
-<!-- Page 71 -->
-
  
  
 Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algoritmos 
  
-71 
  
 Fuente 
-https://wiki.vitalinux.educa.aragon.es/index.php/Curso_CPV_MIA/Ar
-chivos 
+https://wiki.vitalinux.educa.aragon.es/index.php/Curso_CPV_MIA/Ar chivos 
 Cuando el sistema de ficheros está organizado mediante un árbol de directorios, para especificar un 
 fichero, no basta con indicar su nombre, también hay que indicar la posición que ocupa en el árbol de 
 directorios, para que no haya ambigüedad posible.  
@@ -2751,7 +2453,7 @@ Se define un directorio activo en el sistema. Entonces la senda que especifica u
 relativa a dicho directorio.  
 Debe indicarse que las sendas relativas se diferencian claramente de las absolutas en que no \nempiezan con el nombre del directorio raíz, ("" en el caso de Windows).
  
-4. Códecs  
+## 🟣 4. Códecs
 Un códec es un programa que comprime y descomprime un archivo de audio o vídeo (codificador y 
 decodificador), es el algoritmo, que decide cómo se comprimen los datos en el momento de guardarlos \nen una unidad de almacenamiento y cómo se descomprimen en el momento de su reproducción.
  
@@ -2759,13 +2461,10 @@ Este proceso conlleva que los archivos de audio y vídeo ocupen más o menos esp
 almacenamiento, y afecta también a la calidad de los mismos en la reproducción (se debe mantener una 
 calidad óptima, o al menos suficiente).  
 
-<!-- Page 72 -->
-
  
  
 Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algoritmos 
  
-72 
 Son usados en videollamadas y emisiones en vivo para comprimir la señal antes de a la hora de 
 transmitir por Internet y descomprimirla en los equipos de reproducción.
  
@@ -2778,7 +2477,7 @@ mejores códecs son aquellos que limitan el tamaño de los archivos sin que se p
 calidad que sea percibida de forma notoria.  
 No hay que confundir los términos códec y formato, el formato es la estructura donde se alberga toda 
 la información para dar forma al archivo.  
-4.1. Códec de audio  
+### 🔵 4.1. Códec de audio
 En el caso de los códec de audio se pueden dividir entre sistemas con pérdidas o sin pérdidas.
  
 • Las compresiones con pérdidas (lossy ). 
@@ -2800,13 +2499,10 @@ Códec de audio más importantes
 Usa un algoritmo con pérdida para conseguir un menor tamaño de archivo.
  
 
-<!-- Page 73 -->
-
  
  
 Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algoritmos 
  
-73 
 Es un formato de audio común, el códec por excelencia más popular, utilizado para música tanto \nen computadoras como en reproductores de audio portátil.  
 Fue creado por ISO / IEC MPEG Audio Committe en 1993, y se considera el primer formato de 
 audio comprimido popular mundialmente.  
@@ -2840,13 +2536,10 @@ Cuatro años después del lanzamiento del MP3, sus desarrolladores lanzaron el c
 una compresión mucho mayor, lo cual facilitaba la transmisión por la red con los anchos de 
 banda limitados a 56 Kbps en esa época. Sin embargo, la calidad de audio esa poco aceptable.  
 
-<!-- Page 74 -->
-
  
  
 Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algoritmos 
  
-74 
 • FLAC (Free Lossless Audio Codec):
  
 Codec de Audio Libre Sin Pérdidas, permite que el audio digital sea comprimido sin pérdidas de 
@@ -2871,7 +2564,7 @@ ordenados en orden creciente, si los clasificáramos en términos de
 transparencia a una determinada tasa de transferencia de bits.  
  
  
-4.2. Códec de vídeo  
+### 🔵 4.2. Códec de vídeo
 El códec de vídeo es el programa que comprime la imagen con mayor o menor pérdida, siendo el 
 responsable de la resolución que ofrece un vídeo al ser reproducido.  
 Los archivos de vídeo también están comprimidos en el momento de editarlos y exportarlos en el 
@@ -2883,13 +2576,10 @@ ha cobrado gran importancia el desarrollo de códec que ofrezcan altos niveles d
 calidades suficientes.  
  
 
-<!-- Page 75 -->
-
  
  
 Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algoritmos 
  
-75 
  
  
  
@@ -2924,13 +2614,10 @@ compresión con una calidad similar.
  
  
 
-<!-- Page 76 -->
-
  
  
 Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algoritmos 
  
-76 
 • H.264: 
 H.264 o MPEG -4 parte 10 es una norma que define un códec de vídeo de alta compresión, 
 desarrollada conjuntamente por el ITU -T Video Coding Experts Group (VCEG) y el ISO/IEC 
@@ -2960,20 +2647,17 @@ reduce el tamaño de los datos en un 30% de media sin que la calidad se vea apen
 Es muy indicado para transmitir y publicar en redes sociales, ya que se puede transmitir y 
 reproducir con anchos de banda menores manteniendo un alto nivel de calidad.
  
-5. Algoritmos  
+## 🟣 5. Algoritmos
 Algoritmo : 
 Según la RAE en su primera acepción algoritmo es un conjunto ordenado y finito de operaciones que 
 permite hallar la solución de un problema.  
 Partiendo de la definición formal esencial del término "algoritmo", podemos ser más concretos 
 añadiéndole el calificativo "informático".  
 
-<!-- Page 77 -->
-
  
  
 Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algoritmos 
  
-77 
 Algoritmo Informático:  
 Un algoritmo informático es una secuencia de instrucciones finitas, ordenadas y precisas que reciben 
 uno o más datos de entrada y cuya finalidad es resolver un problema o realizar una tarea mediante un 
@@ -2987,7 +2671,7 @@ Entre sus características, podemos mencionar:
 Las instrucciones deben ser claras, tener un número de pasos determinado y ser aplicables a cualquier 
 conjunto de datos de entrada que cumpla con unas condiciones específicas, utilizando la menor 
 cantidad posible de recursos.  
-5.1. Bondad, recursividad y optimización  
+### 🔵 5.1. Bondad, recursividad y optimización
 Bondad del algoritmo  
 Se puede crear más de un algoritmo para un determinado problema. Para determinar el algoritmo más 
 adecuado se mide la bondad del algoritmo a través de los siguientes parámetros:
@@ -3001,17 +2685,14 @@ Es recursivo cuando se llama a sí mismo para resolver un problema o parte de es
  
 Al realizar un procedimiento recursivo se está haciendo uso de una pila.  
 
-<!-- Page 78 -->
-
  
  
 Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algoritmos 
  
-78 
 Optimización de algoritmos  
 Consiste en realizar modificaciones en un algoritmo para reducir el tiempo que tarda en ejecutarse o los 
 recursos que consume.  
-5.2. Complejidad de los algoritmos  
+### 🔵 5.2. Complejidad de los algoritmos
 La complejidad algorítmica, representa la cantidad de recursos que necesita un algoritmo para resolver 
 un problema. 
 Un algoritmo será más eficiente comparado con otro, siempre que consuma menos recursos, como el 
@@ -3038,14 +2719,11 @@ Tiempo de cómputo necesario para la ejecución de un programa.
 El tiempo de Ejecución de un programa se mide en función de N, lo que se designa como T(N).
  
 
-<!-- Page 79 -->
-
  
  
 Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algoritmos 
  
-79 
-5.2.1. Casos de uso  
+#### 🔹 5.2.1. Casos de uso
 Dependiendo de la casuísitica se elegirá un escenario u otro para analizar y elegir algoritmo.
  
 Caso mejor, caso peor y caso medio de un algoritmo  
@@ -3084,19 +2762,16 @@ ocurrencia de la instancia &alpha; por el Tiempo de ejecución de esa entrada de
 Por lo general estudiaremos el coste en caso peor de los algoritmos por dos razones:
  
 
-<!-- Page 80 -->
-
  
  
 Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algoritmos 
  
-80 
 1. Proporciona garantías sobre el coste del algoritmo ya que en ningún caso excederá el coste en 
 caso peor. 
 2. Es más fácil de calcular que el coste en el caso promedio.  
 Como puede observarse los algoritmos cuya complejidad es descrita por una función polinomial pueden 
 ser ejecutados para entradas grandes en una cantidad de tiempo razonable, mientras que los algoritmos \nexponenciales son de poca utilidad excepto para entradas pequeñas.  
-5.2.2. Órdenes de complejidad  
+#### 🔹 5.2.2. Órdenes de complejidad
 El orden de complejidad es un concepto utilizado para analizar y describir cómo el rendimiento 
 temporal de un algoritmo varía en relación con el tamaño de su entrada. Se representa mediante un 
 conjunto de funciones que describen esta variación, y a la que se le suele denominar O.
@@ -3121,14 +2796,11 @@ Suele darse en algoritmos que tienen que iterar por todos los elementos.
 • O (a  Ùn) orden exponencial (a > 1).  
 • O (n!) orden factorial.  
 
-<!-- Page 81 -->
-
  
  
 Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algoritmos 
  
-81 
-5.3. Rendimiento y medición de los algoritmos  
+### 🔵 5.3. Rendimiento y medición de los algoritmos
 El rendimiento o complejidad de un algoritmo indica su eficiencia, los costes que supone encontrar la 
 solución a un problema mediante un algoritmo en comparación con otros, respecto al consumo de 2 
 recursos: 
@@ -3155,21 +2827,18 @@ T(n) indica el número de instrucciones ejecutadas por un ordenador idealizado.
 Resumen rendimiento de algoritmos de ordenación.  
  
 
-<!-- Page 82 -->
-
  
  
 Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algoritmos 
  
-82 
-5.4. Clasificación: ordenamiento y búsqueda  
+### 🔵 5.4. Clasificación: ordenamiento y búsqueda
 La clasificación de los algoritmos es muy amplia y variada, ya que depende del campo donde se utilicen, \nenfoque y uso que se les vaya a dar.  
 En el campo de la programación informática, podemos diferenciar principalmente los algoritmos en 2 
 tipos, basándonos en el enfoque de cuál es el objetivo que van a cumplir: algoritmos de ordenamiento y 
 algoritmos de búsqueda.  
 Veremos también los conceptos más importantes de los Algoritmos Voraces.
  
-5.4.1. De ordenamiento  
+#### 🔹 5.4.1. De ordenamiento
 Estos algoritmos se utilizan para ordenar una determinada cantidad de datos almacenados en un vector.
  
 En los algoritmos que se utilizan para realizar ordenamiento, podemos diferenciar varios conceptos:
@@ -3193,13 +2862,10 @@ Ejemplo: While Do, Repeat -Until y For.
 La recursividad es una técnica de programación en la que una función se llama a sí misma y 
 termina en su forma más simple con un caso base. La recursividad permite dividir un 
 
-<!-- Page 83 -->
-
  
  
 Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algoritmos 
  
-83 
 problema en subproblemas más pequeños del mismo tipo, hasta llegar a una condición que 
 detiene la recursividad proporcionando una solución al problema.  
  
@@ -3231,14 +2897,11 @@ valor.
  
  
 
-<!-- Page 84 -->
-
  
  
 Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algoritmos 
  
-84 
-5.4.1.1. Según la estabilidad del algoritmo  
+##### 5.4.1.1. Según la estabilidad del algoritmo
 Entenderemos mejor cuando un algoritmo es estable o inestable con el siguiente ejemplo:
  
  
@@ -3259,7 +2922,7 @@ tenían en el vector inicial y podrían devolver {A, a, b, c} o
 bien {a, A, b, c}.  
  
  
-5.4.1.2. Según el método de resolver el problema  
+##### 5.4.1.2. Según el método de resolver el problema
 Vamos a ver los siguientes tipos de algoritmos:  
 • Iterativos: 
 • Round-robin. 
@@ -3268,13 +2931,10 @@ Vamos a ver los siguientes tipos de algoritmos:
 • Inserción. (Directa o Binaria).  
 • Shellsort. 
 
-<!-- Page 85 -->
-
  
  
 Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algoritmos 
  
-85 
 • Recursivos:  
 • QuickSort.  
 • MergeSort.  
@@ -3304,13 +2964,10 @@ Es uno de los algoritmos más antiguos, sencillos y equitativos en el reparto de
 orden racional, lo que significa que evita la monopolización de uso de la CPU, y es muy válido para \nentornos de tiempo compartido.  
 Normalmente se realiza comenzando por el primer elemento de la lista hasta llegar al último y \nempezando de nuevo desde el primer elemento.  
 
-<!-- Page 86 -->
-
  
  
 Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algoritmos 
  
-86 
 Dentro de un sistema operativo se asigna a cada proceso una porción de tiempo equitativa y ordenada. 
 Para tener una utilización equitativa de los recursos del equipo, se limita cada proceso a un pequeño 
 período, llamado quantum (Q) o time -slice, y luego se suspende este proceso para dar oportunidad a 
@@ -3350,13 +3007,10 @@ menor y lo ponemos en la segunda posición). Y así sucesivamente hasta que qued
 Para n elementos, debemos llevar a cabo n*(n-1)/2  comprobaciones, ya que necesitaremos n-1 
 pasadas para completarlo. El coste del algoritmo es O(n 2). 
 
-<!-- Page 87 -->
-
  
  
 Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algoritmos 
  
-87 
 Algoritmo Iterativo de Método de Burbuja (o Bubblesort)  
 Es uno de los métodos más simples para ordenar una cantidad determinada de datos.
  
@@ -3390,13 +3044,10 @@ la lista hasta llegar a la última posición de la misma.
 lista desordenada (elegido de manera secuencial) y utiliza búsqueda binaria en la sublista 
 ordenada para encontrar la posición adecuada de inserción.  
 
-<!-- Page 88 -->
-
  
  
 Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algoritmos 
  
-88 
 En la búsqueda binaria, se divide la sublista ordenada en dos mitades comparando el nuevo \nelemento con el elemento central de la sublista. Si el nuevo elemento es menor que el elemento 
 central, la búsqueda continúa en la mitad izquierda; si es mayor, se busca en la mitad derecha.
  
@@ -3428,13 +3079,10 @@ Aquellos que realizan llamadas recursivas (a sí mismos) para llegar al resultad
  
  
 
-<!-- Page 89 -->
-
  
  
 Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algoritmos 
  
-89 
  
 + Info 
 Cuando una función se llama a sí misma (recursiva), se agregan 
@@ -3471,13 +3119,10 @@ programador no necesita preocuparse de su funcionamiento.
  
  
 
-<!-- Page 90 -->
-
  
  
 Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algoritmos 
  
-90 
 Análisis recursivo de Quicksort (ordenación rápida)
  
 También conocido como algoritmo de Hoare. Es un algoritmo recursivo basado en la 
@@ -3505,13 +3150,10 @@ ordenada.
 • Repetimos el paso anterior con pares de las sublistas obtenidas hasta que tengamos una 
 sola lista ordenada. 
 
-<!-- Page 91 -->
-
  
  
 Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algoritmos 
  
-91 
  
 Ejemplo ordenamiento MergeSort  
 Análisis recursivo de Binsort (clasificación por urnas)
@@ -3528,7 +3170,7 @@ Análisis recursivo de RadixSort
 También basa su funcionamiento en el uso de urnas. Es un algoritmo de ordenamiento que ordena \nenteros procesando sus dígitos de forma individual. Como los enteros pueden representar cadenas de 
 caracteres (por ejemplo, nombres o fechas) y, especialmente, números en punto flotante \nespecialmente formateados, RadixSort no está limitado sólo a los enteros.
  
-5.4.1.3. Estructuras cíclicas  
+##### 5.4.1.3. Estructuras cíclicas
 Existen 3 tipos de estructuras cíclicas, que pueden utilizarse tanto en algoritmos recursivos como 
 iterativos: 
 • While Do (hacer mientras):  WHILE condición DO instrucción.  
@@ -3537,13 +3179,10 @@ ciclo y se continua con la siguiente instrucción, por lo que no se cumpliría l
 debe tener un valor para la variable a evaluar antes de comenzar y se debe evitar un ciclo 
 infinito. 
 
-<!-- Page 92 -->
-
  
  
 Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algoritmos 
  
-92 
 • REPEAT -UNTIL (repite mientras):  similar a la anterior, pero la sentencia se ejecutará al menos 
 una vez. 
 • FOR (para):  se repite una instrucción un número determinado de veces.  
@@ -3552,15 +3191,15 @@ Su sintaxis es: FOR identificador:  = inicio TO fin DO instrucción:
 • Identificador:  es la variable que se incrementará.  
 • Inicio: es el primer valor que tendrá dicha variable.  
 • Fin: es el valor hasta el cual se incrementará la variable.  
-5.4.2. Algoritmos de Búsqueda  
+#### 🔹 5.4.2. Algoritmos de Búsqueda
 El objetivo es encontrar un elemento dentro de la lista.  
 Existen varios tipos:  
 • Secuencial. 
 • Búsqueda Binaria o Dicotómica.  
 • Búsqueda basada en tablas Hash.  
-5.4.2.1. Secuencial 
+##### 5.4.2.1. Secuencial
 Recorremos todos los elementos secuencialmente comparándolos con el que buscamos, hasta \nencontrarlo o acabar la lista, dando un resultado de "elemento no encontrado".  
-5.4.2.2. Búsqueda Binaria o Dicotómica  
+##### 5.4.2.2. Búsqueda Binaria o Dicotómica
 Se debe partir de una tabla o lista ordenada. Se divide en 2 trozos y se comprueba el elemento. Si 
 coincide termina la búsqueda. Si es mayor debe estar en la parte que contiene los elementos 
 mayores y 
@@ -3568,13 +3207,10 @@ si es menor, en la parte que contiene los elementos menores. Posteriormente ese 
 dividir y así sucesivamente hasta que lleguemos al elemento deseado.  
 Se utiliza con vectores ordenados.  
 
-<!-- Page 93 -->
-
  
  
 Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algoritmos 
  
-93 
 Para realizar la búsqueda binaria, comparamos el elemento que buscamos con un elemento del vector 
 (normalmente el elemento central).  
 • Si es igual, lo hemos encontrado.  
@@ -3586,7 +3222,7 @@ Con este método, en cada paso vamos descartando la mitad de los elementos. Si n
 llegará un momento en que tendremos un intervalo indivisible (un solo elemento). Si este no coincide 
 con el elemento buscado podemos decir que no se encuentra en el vector.
  
-5.4.2.3. Búsqueda basada en tablas Hash  
+##### 5.4.2.3. Búsqueda basada en tablas Hash
 La organización de ficheros es direccionada dispersa, lo que puede provocar colisiones.
  
 La búsqueda en tablas Hash, es un método que optimiza las búsquedas. Asignamos a cada elemento de 
@@ -3614,15 +3250,12 @@ La función Hash, también es una herramienta para proteger la
 integridad. 
  
 
-<!-- Page 94 -->
-
  
  
 Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algoritmos 
  
-94 
  
-5.4.3. Algoritmos Voraces  
+#### 🔹 5.4.3. Algoritmos Voraces
 También conocido como goloso, ávido, devorador o greedy.
  
 Un algoritmo voraz, es una estrategia de búsqueda por la cual se sigue una heurística consistente en \nelegir la opción óptima en cada paso local con la esperanza de llegar a una solución general óptima. Este \nesquema algorítmico es el que menos dificultades plantea a la hora de diseñar y comprobar su 
@@ -3653,13 +3286,10 @@ bosque expandido mínimo (un árbol expandido mínimo para cada componente conex
 • Algoritmo de Dijkstra:  es utilizado para determinar el camino más corto desde un vértice origen 
 hasta los demás vértices de un grafo, que tiene pesos en cada arista.  
 
-<!-- Page 95 -->
-
  
  
 Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algoritmos 
  
-95 
 • Codificación Huffman:  es un método de compresión de datos sin perder información, que 
 analiza la frecuencia de aparición de caracteres de un mensaje y les asigna un código de longitud 
 variable. Cuanto mayor sea la frecuencia le corresponderá un código más corto.
@@ -3677,31 +3307,28 @@ algoritmo del borrador inverso y el algoritmo de Boruvka.
 • Algoritmo de Prim.  
 • Algoritmo de triangulación voraz.  
 • Algoritmo para la ubicación óptima.  
-5.5. Representación de algoritmos  
+### 🔵 5.5. Representación de algoritmos
 Existen muchas formas de representar algoritmos, escritas o gráficas. Las más usuales son:
  
 • Lenguaje Natural:  (ya no se utiliza por permitir ambigüedades).  
 • Diagramas Nassi -Shneideman. 
 • Pseudocódigo. 
 • Diagrama de flujo.  
-5.5.1. Lenguaje natural  
+#### 🔹 5.5.1. Lenguaje natural
 No es suficientemente preciso. Los programadores pueden realizan un primer paso en lenguaje natural 
 (español, inglés…) para ellos mismos, como anotaciones etc. Pero no lo utilizaran como una 
 representación real del algoritmo.  
-
-<!-- Page 96 -->
 
  
  
 Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algoritmos 
  
-96 
-5.5.2. Diagramas de Nassi -Shneideman 
+#### 🔹 5.5.2. Diagramas de Nassi -Shneideman
 También conocidos como diagramas de Chapin.  
 Es una diagramación estructurada con una determinada simbología.
  
  
-5.5.3. Pseudocódigo  
+#### 🔹 5.5.3. Pseudocódigo
 Es un lenguaje de descripción de algoritmos parecido a un lenguaje de programación, pero sin reglas 
 sintácticas estrictas, el programador utiliza su lenguaje natural (español, inglés…). Lo importante es la 
 secuencia de instrucciones.  
@@ -3718,13 +3345,10 @@ El pseudocódigo es fácil de escribir y es sencillo traducirlo a un lenguaje de
  
  
 
-<!-- Page 97 -->
-
  
  
 Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algoritmos 
  
-97 
  
 Suelen utilizarse verbos imperativos: iniciar, leer, sumar, ordenar, fin…  
  
@@ -3742,7 +3366,7 @@ FIN MIENTRAS
 FIN PROGRAMA  
  
  
-5.5.4. Diagrama de flujo  
+#### 🔹 5.5.4. Diagrama de flujo
 Por su representación gráfica es la más adecuada y utilizada para representar algoritmos.
  
 Existen técnicas concretas para realizar los diagramas, la mejor en nuestro caso en la top
@@ -3755,26 +3379,20 @@ necesidades que debe cumplir el algoritmo.
 Las flechas indican el orden de ejecución.  
 Por ejemplo: 
 
-<!-- Page 98 -->
-
  
  
 Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algoritmos 
  
-98 
  
 Simbología en los diagramas de flujo.  
  
  
 
-<!-- Page 99 -->
-
  
  
 Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algoritmos 
  
-99 
-6. Bibliografía 
+## 🟣 6. Bibliografía
 • Prieto Espinosa, A. Introducción a la informática. 4.ª edición, 2006.
  
 • GOODMAN, S. E. y HEDETNIEMI, S. T. Introduction to the clesing and analysis of algorithms. 
