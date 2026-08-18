@@ -61,7 +61,8 @@ updated: "2026-08-18"
 > 4. **Plazo de Respuesta a Derechos ARSOPOL**: Es **1 mes** (prorrogable 2 meses más).
 
 > [!mnemo] 🧠 **Reglas Mnemotécnicas de Retención Visual**
-> - **Derechos de Protección de Datos**: **ARSOPOL** $ightarrow$ **A**cceso, **R**ectificación, **S**upresión, **O**posición, **PO**rtabilidad, **L**imitación.
+> - **Derechos de Protección de Datos**: **ARSOPOL** $
+ightarrow$ **A**cceso, **R**ectificación, **S**upresión, **O**posición, **PO**rtabilidad, **L**imitación.
 > - **Plazo Brecha AEPD**: **72 HORAS**.
 
 ---

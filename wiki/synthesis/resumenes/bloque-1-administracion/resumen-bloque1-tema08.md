@@ -64,8 +64,10 @@ updated: "2026-08-18"
 > 3. **Servicios Profesionales Anteriores**: El motivo de abstención abarca los servicios prestados en los **últimos 2 años** (no 5 años).
 
 > [!mnemo] 🧠 **Reglas Mnemotécnicas de Retención Visual**
-> - **Grados de Abstención**: **4 Con / 2 Af / 2 Años** $ightarrow$ 4º Consanguinidad, 2º Afinidad, 2 Años de servicios previos.
-> - **Plazos Recusación**: **1 - 3** $ightarrow$ 1 día manifiesta recusado, 3 días resuelve superior.
+> - **Grados de Abstención**: **4 Con / 2 Af / 2 Años** $
+ightarrow$ 4º Consanguinidad, 2º Afinidad, 2 Años de servicios previos.
+> - **Plazos Recusación**: **1 - 3** $
+ightarrow$ 1 día manifiesta recusado, 3 días resuelve superior.
 
 ---
 

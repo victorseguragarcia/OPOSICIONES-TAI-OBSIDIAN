@@ -89,7 +89,8 @@ updated: "2026-08-18"
 
 > [!mnemo] 🧠 **Reglas Mnemotécnicas de Retención Visual**
 > - **Órganos Superiores vs Directivos de la AGE**: **MI-SE** (Superiores: **MI**nistro y **SE**cretario de Estado) / **SU-SE-SE-DI-SU** (Directivos: **SU**bsecretario, **SE**cretario General, **SE**cretario General Técnico, **DI**rector General, **SU**bdirector General).
-> - **Plazo de Investidura**: **48 Horas** (2ª votación) $ightarrow$ **2 Meses** (disolución automática).
+> - **Plazo de Investidura**: **48 Horas** (2ª votación) $
+ightarrow$ **2 Meses** (disolución automática).
 
 ---
 

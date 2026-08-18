@@ -120,8 +120,10 @@ updated: "2026-08-18"
 > 4. **Composición del TC (12 miembros)**: 4 Congreso (3/5), 4 Senado (3/5), 2 Gobierno y 2 CGPJ. El mandato es de **9 años** (no 5), renovándose por terceras partes (4 miembros) cada **3 años**.
 
 > [!mnemo] 🧠 **Reglas Mnemotécnicas de Retención Visual**
-> - **Valores Superiores del Art. 1.1**: **LI-JU-IG-PLU** $ightarrow$ **LI**bertad, **JU**sticia, **IG**ualdad, **PLU**ralismo político.
-> - **Materias Protegidas por Reforma Agravada (Art. 168)**: **TO-PRE-SE-CO** $ightarrow$ **TO**tal, **PRE**liminar (1-9), **SE**cción 1ª Título I (15-29), **CO**rona (Título II).
+> - **Valores Superiores del Art. 1.1**: **LI-JU-IG-PLU** $
+ightarrow$ **LI**bertad, **JU**sticia, **IG**ualdad, **PLU**ralismo político.
+> - **Materias Protegidas por Reforma Agravada (Art. 168)**: **TO-PRE-SE-CO** $
+ightarrow$ **TO**tal, **PRE**liminar (1-9), **SE**cción 1ª Título I (15-29), **CO**rona (Título II).
 > - **Composición del TC**: **4-4-2-2** (Congreso 4, Senado 4, Gobierno 2, CGPJ 2).
 
 ---

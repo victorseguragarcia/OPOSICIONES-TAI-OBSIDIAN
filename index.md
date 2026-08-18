@@ -185,7 +185,7 @@
 
 ---
 
-### 🔵 3. Conocimientos Concretos, Guías de Síntesis y Tablas de Examen (136 Guías)
+### 🔵 3. Conocimientos Concretos, Guías de Síntesis y Tablas de Examen (170 Guías)
 
 - [[wiki/synthesis/active-directory-and-ldap-guide|Guía Comparativa y Práctica de Active Directory y LDAP]]
 - [[wiki/synthesis/actos-nulos-vs-anulables-guia|Guía de Invalidez: Actos Nulos de Pleno Derecho vs Actos Anulables]]
@@ -323,6 +323,40 @@
 - [[wiki/synthesis/resumenes/bloque-4-sistemas-redes/resumen-bloque4-tema08|Resumen Completo y Profundo Tema 08 (Bloque 4): Protocolos de Transporte (TCP vs UDP) y Tabla Maestra de Puertos]]
 - [[wiki/synthesis/resumenes/bloque-4-sistemas-redes/resumen-bloque4-tema09|Resumen Completo y Profundo Tema 09 (Bloque 4): Seguridad de la Información, Criptografía y ENS (RD 311/2022)]]
 - [[wiki/synthesis/resumenes/bloque-4-sistemas-redes/resumen-bloque4-tema10|Resumen Completo y Profundo Tema 10 (Bloque 4): Seguridad Perimetral, Firewall IPTables, IDS/IPS y VPN]]
+- [[wiki/synthesis/temas-completos/bloque-1-administracion/tema-completo-bloque1-tema01|Tema Completo Extendido 01 (Bloque 1): La Constitución Española de 1978 y Derechos Fundamentales]]
+- [[wiki/synthesis/temas-completos/bloque-1-administracion/tema-completo-bloque1-tema02|Tema Completo Extendido 02 (Bloque 1): La Corona, las Cortes Generales y el Gobierno (AGE)]]
+- [[wiki/synthesis/temas-completos/bloque-1-administracion/tema-completo-bloque1-tema03|Tema Completo Extendido 03 (Bloque 1): Organización Territorial del Estado y Comunidades Autónomas]]
+- [[wiki/synthesis/temas-completos/bloque-1-administracion/tema-completo-bloque1-tema04|Tema Completo Extendido 04 (Bloque 1): La Unión Europea, sus Instituciones y el Derecho Comunitario]]
+- [[wiki/synthesis/temas-completos/bloque-1-administracion/tema-completo-bloque1-tema05|Tema Completo Extendido 05 (Bloque 1): El Régimen Jurídico del Empleado Público y el TREBEP]]
+- [[wiki/synthesis/temas-completos/bloque-1-administracion/tema-completo-bloque1-tema06|Tema Completo Extendido 06 (Bloque 1): Políticas de Igualdad de Género y Contra la Violencia de Género]]
+- [[wiki/synthesis/temas-completos/bloque-1-administracion/tema-completo-bloque1-tema07|Tema Completo Extendido 07 (Bloque 1): El Procedimiento Administrativo Común (Ley 39/2015 - LPACAP)]]
+- [[wiki/synthesis/temas-completos/bloque-1-administracion/tema-completo-bloque1-tema08|Tema Completo Extendido 08 (Bloque 1): Régimen Jurídico del Sector Público y Administración Digital (Ley 40/2015)]]
+- [[wiki/synthesis/temas-completos/bloque-1-administracion/tema-completo-bloque1-tema09|Tema Completo Extendido 09 (Bloque 1): Protección de Datos Personales (RGPD y LOPDGDD 3/2018)]]
+- [[wiki/synthesis/temas-completos/bloque-1-administracion/tema-completo-bloque1-tema10|Tema Completo Extendido 10 (Bloque 1): Transparencia, Acceso a la Información y Buen Gobierno (Ley 19/2013)]]
+- [[wiki/synthesis/temas-completos/bloque-2-hardware-so/tema-completo-bloque2-tema01|Tema Completo Extendido 01 (Bloque 2): Estructura y Componentes de un Sistema Informático (C2, IEEE 754, Buses)]]
+- [[wiki/synthesis/temas-completos/bloque-2-hardware-so/tema-completo-bloque2-tema02|Tema Completo Extendido 02 (Bloque 2): Arquitectura de Computadores, Procesadores y Memoria (Von Neumann, RISC)]]
+- [[wiki/synthesis/temas-completos/bloque-2-hardware-so/tema-completo-bloque2-tema03|Tema Completo Extendido 03 (Bloque 2): Estructuras de Datos, Árboles y Algoritmos (AVL, B+, Big-O)]]
+- [[wiki/synthesis/temas-completos/bloque-2-hardware-so/tema-completo-bloque2-tema04|Tema Completo Extendido 04 (Bloque 2): Sistemas Operativos: Gestión de Procesos, Memoria y Ficheros]]
+- [[wiki/synthesis/temas-completos/bloque-2-hardware-so/tema-completo-bloque2-tema05|Tema Completo Extendido 05 (Bloque 2): Bases de Datos Relacionales y NoSQL (Teorema CAP, Familias NoSQL)]]
+- [[wiki/synthesis/temas-completos/bloque-3-desarrollo-bbdd/tema-completo-bloque3-tema01|Tema Completo Extendido 01 (Bloque 3): Diseño y Normalización de Bases de Datos (1FN a 5FN, BCNF)]]
+- [[wiki/synthesis/temas-completos/bloque-3-desarrollo-bbdd/tema-completo-bloque3-tema02|Tema Completo Extendido 02 (Bloque 3): Lenguajes de Programación y Paradigmas (POO, SOLID, Patrones GoF)]]
+- [[wiki/synthesis/temas-completos/bloque-3-desarrollo-bbdd/tema-completo-bloque3-tema03|Tema Completo Extendido 03 (Bloque 3): Lenguaje SQL ANSI, Subconsultas y Transacciones ACID]]
+- [[wiki/synthesis/temas-completos/bloque-3-desarrollo-bbdd/tema-completo-bloque3-tema04|Tema Completo Extendido 04 (Bloque 3): Arquitectura de Software y Plataformas Empresariales (Java EE, .NET)]]
+- [[wiki/synthesis/temas-completos/bloque-3-desarrollo-bbdd/tema-completo-bloque3-tema05|Tema Completo Extendido 05 (Bloque 3): Desarrollo Web Frontend (HTML5, CSS3, JavaScript ES6+)]]
+- [[wiki/synthesis/temas-completos/bloque-3-desarrollo-bbdd/tema-completo-bloque3-tema06|Tema Completo Extendido 06 (Bloque 3): Servicios Web y Arquitecturas Orientadas a Servicios (SOAP vs REST)]]
+- [[wiki/synthesis/temas-completos/bloque-3-desarrollo-bbdd/tema-completo-bloque3-tema07|Tema Completo Extendido 07 (Bloque 3): Accesibilidad Web (WCAG 2.1 POUR y RD 1112/2018 Nivel AA)]]
+- [[wiki/synthesis/temas-completos/bloque-3-desarrollo-bbdd/tema-completo-bloque3-tema08|Tema Completo Extendido 08 (Bloque 3): Control de Versiones con Git y Metodologías Ágiles (Scrum, Kanban)]]
+- [[wiki/synthesis/temas-completos/bloque-3-desarrollo-bbdd/tema-completo-bloque3-tema09|Tema Completo Extendido 09 (Bloque 3): Metodología MÉTRICA Versión 3, Complejidad de McCabe y QA]]
+- [[wiki/synthesis/temas-completos/bloque-4-sistemas-redes/tema-completo-bloque4-tema01|Tema Completo Extendido 01 (Bloque 4): Administración de Sistemas Operativos Servidor (Linux SysAdmin, Windows Server)]]
+- [[wiki/synthesis/temas-completos/bloque-4-sistemas-redes/tema-completo-bloque4-tema02|Tema Completo Extendido 02 (Bloque 4): Servicios de Directorio, Active Directory DS y Kerberos v5]]
+- [[wiki/synthesis/temas-completos/bloque-4-sistemas-redes/tema-completo-bloque4-tema03|Tema Completo Extendido 03 (Bloque 4): Virtualización, Contenedores (Docker, Kubernetes) y Cloud Computing]]
+- [[wiki/synthesis/temas-completos/bloque-4-sistemas-redes/tema-completo-bloque4-tema04|Tema Completo Extendido 04 (Bloque 4): Centros de Proceso de Datos (TIER I-IV), Almacenamiento y RAID]]
+- [[wiki/synthesis/temas-completos/bloque-4-sistemas-redes/tema-completo-bloque4-tema05|Tema Completo Extendido 05 (Bloque 4): Copias de Seguridad, Regla 3-2-1, RPO/RTO y Continuidad de Negocio]]
+- [[wiki/synthesis/temas-completos/bloque-4-sistemas-redes/tema-completo-bloque4-tema06|Tema Completo Extendido 06 (Bloque 4): Medios de Transmisión, Fibra Óptica, LAN Ethernet, Wi-Fi 6 y VLANs]]
+- [[wiki/synthesis/temas-completos/bloque-4-sistemas-redes/tema-completo-bloque4-tema07|Tema Completo Extendido 07 (Bloque 4): Protocolo IP, Subnetting IPv4/IPv6, ICMP, DHCP y DNS]]
+- [[wiki/synthesis/temas-completos/bloque-4-sistemas-redes/tema-completo-bloque4-tema08|Tema Completo Extendido 08 (Bloque 4): Protocolos de Transporte (TCP vs UDP) y Tabla Maestra de Puertos]]
+- [[wiki/synthesis/temas-completos/bloque-4-sistemas-redes/tema-completo-bloque4-tema09|Tema Completo Extendido 09 (Bloque 4): Seguridad de la Información, Criptografía y ENS (RD 311/2022)]]
+- [[wiki/synthesis/temas-completos/bloque-4-sistemas-redes/tema-completo-bloque4-tema10|Tema Completo Extendido 10 (Bloque 4): Seguridad Perimetral, Firewall IPTables, IDS/IPS y VPN]]
 ---
 
 ## 📝 4. Banco de Tests y Autoevaluaciones (39 Baterías)
