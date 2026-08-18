@@ -6,8 +6,7 @@ tags:
   - temario-extendido
   - bloque-2
   - tema-05
-  - oposiciones-tai
-estado: "🔴 Por Estudiar"
+  - oposiciones-tai\nestado: "🔴 Por Estudiar"
 dificultad: "⭐⭐⭐"
 prioridad: "Máxima"
 sources:
@@ -149,8 +148,7 @@ Existen múltiples definiciones de bases de datos.
 Una de las más aceptadas es la propuesta por Flory en 1982: 
 Una base de datos es un conjunto exhaustivo, no redundante de datos estructurados, organizados 
 independientemente de su utilización y su implementación en máquina, accesibles a tiempo real y 
-compatibles por usuarios concurrentes que tienen necesidad de información diferente y no predecible 
-en el tiempo. 
+compatibles por usuarios concurrentes que tienen necesidad de información diferente y no predecible \nen el tiempo. 
 Sin embargo, existen muchas otras entre las que podríamos destacar las siguientes: 
 • Conjunto, colección o depósito de datos almacenados en un soporte informático. Los datos 
 deben estar interrelacionados y estructurados de acuerdo con un modelo capaz de recoger el 
@@ -199,8 +197,7 @@ datos. Incluye diferentes vistas de usuario o esquemas. (Es el nivel más cercan
 como ven los datos). 
 • Nivel Conceptual: tiene un esquema conceptual que describe la estructura de la base de datos, 
 pero oculta los detalles físicos del almacenamiento. Describir tipos de datos, entidades, vínculos, 
-restricciones y operaciones de los usuarios. (Es un nivel de mediación entre el interno y el 
-externo). 
+restricciones y operaciones de los usuarios. (Es un nivel de mediación entre el interno y el \nexterno). 
 
 <!-- Page 6 -->
 
@@ -220,8 +217,7 @@ Los principales objetivos de un sistema de base de datos son:
 • Proporcionar a los usuarios y desarrolladores una visión abstracta de los datos. 
 El sistema esconde ciertos detalles de cómo se almacenan y mantienen los datos. 
 • Independencia entre datos y aplicaciones. 
-Cuando se tenga que cambiar algo en la base de datos (como la forma de almacenar datos), 
-esto no repercutirá en los programas de aplicación que trabajan sobre esa base de datos. 
+Cuando se tenga que cambiar algo en la base de datos (como la forma de almacenar datos), \nesto no repercutirá en los programas de aplicación que trabajan sobre esa base de datos. 
 Evitar redundancias de datos (duplicidad de información). 
 • Evitar la inconsistencia de datos. 
 Para que haya inconsistencia debe haber datos redundantes. 
@@ -299,8 +295,7 @@ datos sobrevivan de alguna manera.
 2. Modelos principales de B.D. 
 Las B.D. se pueden clasificar de acuerdo a su modelo de administración de datos. 
 Un modelo de datos es básicamente una "descripción" de algo conocido como contenedor de datos 
-(algo en donde se guardan los datos), así como de los métodos para almacenar y recuperar datos de 
-esos contenedores. 
+(algo en donde se guardan los datos), así como de los métodos para almacenar y recuperar datos de \nesos contenedores. 
 Los modelos de datos no son cosas físicas: son abstracciones que permiten la implementación de un 
 sistema eficiente de base de datos; por lo general se refieren a algoritmos, y conceptos matemáticos. 
 En función a las diferentes formas de administración de datos, podemos clasificar las bases de datos en 
@@ -312,11 +307,9 @@ distintos tipos, los siguientes los estudiamos en esta unidad:
 • B.D. Orientadas a Objetos (SGBDOO). 
 Indicamos también otros tipos importantes: 
 • Bases de datos jerárquicas. 
-La información se almacena en una estructura jerárquica, la cual enlaza los registros existentes 
-en forma de una estructura de árbol, donde el nodo padre (sección principal de la información) 
+La información se almacena en una estructura jerárquica, la cual enlaza los registros existentes \nen forma de una estructura de árbol, donde el nodo padre (sección principal de la información) 
 puede tener varios nodos hijos, es decir, el modelo jerárquico facilita las relaciones hijo-padre. 
-El sistema gestor no se encarga del control sobre los datos que se almacenan, si no que se 
-encargan las aplicaciones gestoras, lo que ocasiona diversos problemas como la duplicidad de 
+El sistema gestor no se encarga del control sobre los datos que se almacenan, si no que se \nencargan las aplicaciones gestoras, lo que ocasiona diversos problemas como la duplicidad de 
 registros entre otros. 
 
 <!-- Page 9 -->
@@ -358,8 +351,7 @@ Surgieron para mejorar las limitaciones de las bases de datos relacionales ante 
 recursivas. 
 • Bases de datos geoespaciales. 
 Estas bases de datos se originan por la necesidad de disponer de un modelo para tratar la 
-información geoespacial, almacenando los datos geográficos y sus relaciones espaciales y no 
-espaciales, así como atributos y comportamiento. 
+información geoespacial, almacenando los datos geográficos y sus relaciones espaciales y no \nespaciales, así como atributos y comportamiento. 
 
 <!-- Page 10 -->
 
@@ -443,15 +435,13 @@ Tabla "Articulos".
 En el modelo relacional se utiliza un grupo de tablas para representar datos y las relaciones entre ellos. 
 A cada tabla se le asigna un nombre exclusivo. 
 Su idea fundamental es el uso de relaciones. Las relaciones se conceptualizan como si fuera una tabla. 
-La representación obtenida del modelo entidad-relación, es independiente de las características del 
-equipo donde se vaya a implantar. 
+La representación obtenida del modelo entidad-relación, es independiente de las características del \nequipo donde se vaya a implantar. 
 3.2. Conceptos fundamentales 
 Tabla 
 Objeto que contiene una colección de datos para un tema específico. Las tablas constan de filas y 
 columnas. 
 Columna 
-Componente vertical de una tabla de base de datos. Una columna tiene un nombre y un tipo de datos 
-específico, por ejemplo, carácter, decimal o entero. 
+Componente vertical de una tabla de base de datos. Una columna tiene un nombre y un tipo de datos \nespecífico, por ejemplo, carácter, decimal o entero. 
 Fila 
 Componente horizontal de una tabla, que consta de una secuencia de valores, uno para cada columna 
 de la tabla. 
@@ -467,8 +457,7 @@ Vista
 Una vista es una consulta que se presenta como una tabla (virtual) a partir de un conjunto de tablas en 
 una base de datos relacional. 
 Las vistas tienen la misma estructura que una tabla: filas y columnas. 
-En una vista, sólo se almacena de ellas la definición, no los datos, que se recuperan de la tabla donde 
-estén almacenados, mediante una consulta, (una sentencia SELECT) que la calcula, y que puede 
+En una vista, sólo se almacena de ellas la definición, no los datos, que se recuperan de la tabla donde \nestén almacenados, mediante una consulta, (una sentencia SELECT) que la calcula, y que puede 
 realizarse sobre una o más tablas. Sobre un conjunto de tablas relacionales se puede trabajar con un 
 número cualquiera de vistas. 
 Igual que en una tabla, a través de una vista, se pueden insertar, actualizar, borrar y seleccionar datos en 
@@ -589,8 +578,7 @@ normales, de modo que los usuarios autorizados pueden aplicar el mismo lenguaje 
 su consulta, igual que lo aplican a los datos normales. 
 Aclaración: Los metadatos se almacenan y se manejan usando el modelo relacional. 
 • Regla 5: La regla comprensiva del sub-lenguaje de los datos. 
-Un sistema relacional puede soportar varios lenguajes y varios modos de uso de terminal (por 
-ejemplo, rellenar formularios). El sistema debe soportar por lo menos un lenguaje relacional que: 
+Un sistema relacional puede soportar varios lenguajes y varios modos de uso de terminal (por \nejemplo, rellenar formularios). El sistema debe soportar por lo menos un lenguaje relacional que: 
 • Tenga una sintaxis lineal. 
 • Puede ser utilizado de manera interactiva. 
 • Tenga soporte de operaciones de definición de datos, operaciones de manipulación de 
@@ -619,8 +607,7 @@ pueden realizar desde los interfaces.
 • Regla 6: Regla de actualización de vistas. 
 Todas las vistas que son teóricamente actualizables deben ser actualizables por el sistema. 
 Aclaración: 
-• Las vistas son tablas virtuales utilizadas para dar, a diferentes usuarios, distintas vistas de su 
-estructura. 
+• Las vistas son tablas virtuales utilizadas para dar, a diferentes usuarios, distintas vistas de su \nestructura. 
 • Es una de las reglas más difíciles de implementar en la práctica, ya que cada sistema puede 
 hacer las suposiciones particulares sobre las vistas que son actualizable. 
 • Regla 7: Alto nivel de Inserción, actualización y eliminación. 
@@ -975,8 +962,7 @@ relación se cumple en una relación.
 los elementos de una relación. 
 ∃ (cuantificador existencial) se utiliza para expresar que una propiedad o relación se cumple para al 
 menos un elemento de una relación. 
-∃! (cuantificador único) se utiliza para expresar que una propiedad o relación se cumple para 
-exactamente un elemento de una relación. 
+∃! (cuantificador único) se utiliza para expresar que una propiedad o relación se cumple para \nexactamente un elemento de una relación. 
 3.5.3. Diferencia entre álgebra y cálculo relacional 
 El Álgebra relacional es de tipo procedimental mientras que el cálculo relacional es de tipo declarativo. 
 3.6. Principales SGBDR 
@@ -1235,8 +1221,7 @@ Cypher.
 Fue en gran parte una invención de Andrés Taylor mientras 
 trabajaba para Neo4j. 
 Es un lenguaje de consulta (sobre B.D. Neo4j) de gráfico 
-declarativo que permite realizar consultas de datos expresivas y 
-eficientes en un gráfico de propiedades. 
+declarativo que permite realizar consultas de datos expresivas y \neficientes en un gráfico de propiedades. 
  
 
 <!-- Page 34 -->
@@ -1372,8 +1357,7 @@ Lo que distingue a ObjectDB de otras bases de datos orientadas a objetos es su e
 almacenamiento persistente de objetos Java de manera directa, sin necesidad de usar mapeo objeto-
 relacional (ORM). Esto la hace muy eficiente en aplicaciones Java, donde se puede almacenar 
 directamente objetos complejos (incluyendo relaciones entre objetos) en su forma nativa. 
-Soporta los estándares JPA (Java Persistence API) y JDO (Java Data Objects), facilitando su integración 
-en aplicaciones Java. 
+Soporta los estándares JPA (Java Persistence API) y JDO (Java Data Objects), facilitando su integración \nen aplicaciones Java. 
 Ofrece un alto rendimiento y escalabilidad, optimizada para el almacenamiento eficiente de objetos 
 complejos y estructuras jerárquicas. A través de JPQL y JDOQL, permite realizar consultas similares a 
 SQL. 
@@ -1497,8 +1481,7 @@ y componentes
 41 
 OpenAccess 
 OpenAccess es una API propietaria que pertenece a OpenAccess Coalition. 
-Tienen como objetivo facilitar la interoperabilidad del software de automatización de diseño 
-electrónico entre los miembros de esa coalición. 
+Tienen como objetivo facilitar la interoperabilidad del software de automatización de diseño \nelectrónico entre los miembros de esa coalición. 
 Una de las características más distintivas de OpenAccess es su capacidad de mapear visualmente 
 objetos de tu aplicación a tablas de una base de datos relacional. Esto se logra a través de diagramas 
 intuitivos que muestran las relaciones entre las clases y las tablas. 
@@ -1515,8 +1498,7 @@ Se ejecuta en Linux y otros sistemas compatibles con POSIX.
 Está construido sobre un único tipo de datos interno (celda). 
 FastObjects 
 FastObjects es un Sistema de Gestión de Bases de Datos Orientadas a Objetos (SGBDOO) desarrollado 
-inicialmente por Poet Software y posteriormente adquirido por Versant. Está diseñado para aplicaciones 
-embebidas y distribuidas que requieren alta eficiencia y capacidad para manejar datos complejos. Este 
+inicialmente por Poet Software y posteriormente adquirido por Versant. Está diseñado para aplicaciones \nembebidas y distribuidas que requieren alta eficiencia y capacidad para manejar datos complejos. Este 
 sistema es particularmente adecuado para entornos empresariales y técnicos que necesitan persistencia 
 de objetos sin la sobrecarga de un sistema relacional. 
 Entre sus características esenciales destacan su compatibilidad con lenguajes de programación 
@@ -1540,8 +1522,7 @@ sistema permite una integración natural con el paradigma orientado a objetos, o
 directa de objetos y eliminando la necesidad de mapeo relacional. Su naturaleza de código abierto, bajo 
 la Licencia Pública General (GPL), lo hace accesible para proyectos experimentales, educativos o de 
 pequeña escala. 
-Aunque su desarrollo se ha ralentizado con el tiempo, Ozone sigue siendo una opción útil en casos 
-específicos, como proyectos académicos o aplicaciones pequeñas y medianas que no requieren sistemas 
+Aunque su desarrollo se ha ralentizado con el tiempo, Ozone sigue siendo una opción útil en casos \nespecíficos, como proyectos académicos o aplicaciones pequeñas y medianas que no requieren sistemas 
 relacionales complejos. Su enfoque en Java y su simplicidad lo convierten en una herramienta práctica 
 para aprender y explorar conceptos de bases de datos orientadas a objetos, aunque su uso en la 
 industria es limitado. 

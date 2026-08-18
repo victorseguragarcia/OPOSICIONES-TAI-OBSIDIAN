@@ -27,9 +27,9 @@ Resumen ejecutivo de datos de alta frecuencia de examen sobre contratación admi
 
 | Tipo de Contrato | Límite Económico (IVA excluido) | Tramitación | Plazo Máximo de Duración |
 |:---|:---:|:---|:---:|
-| **Contrato Menor de Suministros** (Hardware, Licencias) | **$< 15.000	ext{ €}$** | Factura + Aprobación de gasto | **1 año** (no prorrogable) |
-| **Contrato Menor de Servicios** (Desarrollo, Mantenimiento) | **$< 15.000	ext{ €}$** | Factura + Aprobación de gasto | **1 año** (no prorrogable) |
-| **Contrato Menor de Obras** | **$< 40.000	ext{ €}$** | Presupuesto + Proyecto si procede | **1 año** (no prorrogable) |
+| **Contrato Menor de Suministros** (Hardware, Licencias) | **$< 15.000\text{ €}$** | Factura + Aprobación de gasto | **1 año** (no prorrogable) |
+| **Contrato Menor de Servicios** (Desarrollo, Mantenimiento) | **$< 15.000\text{ €}$** | Factura + Aprobación de gasto | **1 año** (no prorrogable) |
+| **Contrato Menor de Obras** | **$< 40.000\text{ €}$** | Presupuesto + Proyecto si procede | **1 año** (no prorrogable) |
 
 > [!trampa] ⚠️ Trampa Típica de Examen
 > Los contratos menores **NO admiten prórroga** ni revisión de precios. El límite para servicios informáticos y suministros de servidores es **15.000 €**, no 18.000 € (antiguo límite de la Ley anterior).
@@ -50,7 +50,7 @@ Resumen ejecutivo de datos de alta frecuencia de examen sobre contratación admi
 | Procedimiento | Publicidad | Negociación | Características Clave |
 |:---|:---:|:---:|:---|
 | **Abierto Ordinario** | Sí (BOE / DOUE) | **NO permitida** | Cualquier licitador interesado puede presentar proposición. |
-| **Abierto Simplificado** | Sí (Perfil de contratante) | NO | Valor estimado $< 140.000	ext{ €}$ (suministros/servicios) o $< 2.000.000	ext{ €}$ (obras). Sin fianza provisional. |
-| **Abierto Supersimplificado (*Sumario*)** | Sí (Perfil) | NO | Valor estimado $< 60.000	ext{ €}$ (suministros/servicios). Criterios evaluables solo mediante fórmulas. |
+| **Abierto Simplificado** | Sí (Perfil de contratante) | NO | Valor estimado $< 140.000\text{ €}$ (suministros/servicios) o $< 2.000.000\text{ €}$ (obras). Sin fianza provisional. |
+| **Abierto Supersimplificado (*Sumario*)** | Sí (Perfil) | NO | Valor estimado $< 60.000\text{ €}$ (suministros/servicios). Criterios evaluables solo mediante fórmulas. |
 | **Negociado con/sin Publicidad** | Según supuesto | **SÍ** | Supuestos tasados (urgencia extrema, exclusividad técnica/artística, patentes). |
 | **Acuerdo Marco (DGSJ / DGC)** | Catálogo AGE | Precios prefijados | Adquisición centralizada de equipos y licencias a través de **CONECTA-CENTRALIZACIÓN**. |

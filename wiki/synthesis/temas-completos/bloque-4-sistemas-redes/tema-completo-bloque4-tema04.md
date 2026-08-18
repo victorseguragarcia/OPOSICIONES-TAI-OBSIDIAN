@@ -6,8 +6,7 @@ tags:
   - temario-extendido
   - bloque-4
   - tema-04
-  - oposiciones-tai
-estado: "🔴 Por Estudiar"
+  - oposiciones-tai\nestado: "🔴 Por Estudiar"
 dificultad: "⭐⭐⭐"
 prioridad: "Máxima"
 sources:
@@ -180,8 +179,7 @@ Administración de Redes de Área Local
 5 
 1. Administración de Redes de Área Local 
 Existen muchas funciones o tareas relacionadas con la administración de red. 
-En función del tamaño de la empresa u organización, y también de la planificación deseada de personal, 
-existirán diversos perfiles o bien todos los roles los realizará una misma persona. 
+En función del tamaño de la empresa u organización, y también de la planificación deseada de personal, \nexistirán diversos perfiles o bien todos los roles los realizará una misma persona. 
 Por tanto, pueden ser funciones del Administrador de Red o recaer en el administrador de sistemas. 
 Cada empresa decidirá su organización de personal y tareas a realizar por cada cargo. 
 Algunas de las tareas que son necesarias realizar son: 
@@ -262,16 +260,13 @@ La arquitectura de red segura se compone de cuatro elementos esenciales que trab
 integrada: el enrutador perimetral, la red interna, la red perimetral y la zona desmilitarizada (DMZ). 
 Cada componente cumple funciones específicas en la protección de los sistemas corporativos. 
 • El enrutador actúa como puerta de enlace entre la red local e Internet. Su configuración 
-determina qué tráfico puede entrar o salir, funcionando como la primera línea de defensa. En 
-esquemas básicos, es el único dispositivo que separa los equipos internos de las amenazas 
-externas, por lo que su correcta configuración es crítica. 
+determina qué tráfico puede entrar o salir, funcionando como la primera línea de defensa. En \nesquemas básicos, es el único dispositivo que separa los equipos internos de las amenazas \nexternas, por lo que su correcta configuración es crítica. 
 • La red interna alberga los sistemas y datos sensibles de la organización, como servidores de 
 bases de datos, estaciones de trabajo y recursos corporativos. Su acceso debe estar restringido 
 únicamente a usuarios autorizados, evitando cualquier exposición innecesaria a Internet. Para 
 aumentar su seguridad, puede segmentarse en subredes con políticas de acceso diferenciadas. 
 • La red perimetral engloba todos los mecanismos que protegen la red interna desde su frontera 
-con Internet. Aquí se ubican los cortafuegos, sistemas de detección de intrusiones (IDS/IPS) y, 
-en muchos casos, una zona desmilitarizada (DMZ). 
+con Internet. Aquí se ubican los cortafuegos, sistemas de detección de intrusiones (IDS/IPS) y, \nen muchos casos, una zona desmilitarizada (DMZ). 
 • La DMZ es una subred aislada, perteneciente a una red perimetral, donde se alojan servidores 
 accesibles desde el exterior, como servidores web, de correo o DNS. Su propósito es evitar que 
 un ataque a estos servicios comprometa la red interna. 
@@ -295,8 +290,7 @@ La solución es añadir una nueva red: Una zona neutra o desmilitarizada.
 Este diseño de red representa la solución óptima para organizaciones que requieren ofrecer servicios a 
 Internet manteniendo protegidos sus sistemas internos. La zona neutra, también conocida 
 técnicamente como DMZ (DeMilitarized Zone), establece un área intermedia entre la red corporativa 
-privada y las redes externas. Aunque el término "zona neutra" se utiliza coloquialmente en algunos 
-entornos, es importante destacar que "DMZ" es la denominación técnica correcta y estandarizada.
+privada y las redes externas. Aunque el término "zona neutra" se utiliza coloquialmente en algunos \nentornos, es importante destacar que "DMZ" es la denominación técnica correcta y estandarizada.
 
 ---
 
@@ -326,8 +320,7 @@ todo el tráfico a un dispositivo, la DMZ empresarial (o zona neutra correctamen
 aplica filtrado granular y políticas de seguridad estrictas para cada servicio expuesto. 
 La correcta implementación de esta arquitectura sigue estándares internacionales de seguridad y 
 cumple con principios fundamentales como el mínimo privilegio y la defensa en profundidad. Esto 
-garantiza que, incluso si un atacante compromete un servidor en la zona neutra/DMZ, el cortafuegos 
-en trípode actuará como última barrera para proteger los sistemas críticos de la organización. 
+garantiza que, incluso si un atacante compromete un servidor en la zona neutra/DMZ, el cortafuegos \nen trípode actuará como última barrera para proteger los sistemas críticos de la organización. 
  
  
  
@@ -360,8 +353,7 @@ Administración de Redes de Área Local
  
 Esquema de red con una zona neutra, una red interna y un solo enrutador 
 El principal valor de este diseño radica en su equilibrio entre coste y seguridad básica. Permite aislar los 
-servidores públicos en la zona neutra mientras protege la red interna, todo con un solo equipo. Sin 
-embargo, esta simplicidad implica limitaciones importantes, ya que concentra toda la seguridad en un 
+servidores públicos en la zona neutra mientras protege la red interna, todo con un solo equipo. Sin \nembargo, esta simplicidad implica limitaciones importantes, ya que concentra toda la seguridad en un 
 único punto que, si falla, comprometería toda la infraestructura. 
 1.1.4. Esquema con una zona neutra y varias redes internas 
 Este diseño avanzado se recomienda cuando la organización maneja distintos niveles de sensibilidad en 
@@ -416,24 +408,19 @@ se protege mediante firewalls perimetrales, segmentación de red a través de VL
 redes locales virtuales que separan lógicamente el tráfico), y estrictos controles de acceso basados en 
 roles. Los mecanismos de autenticación más comunes incluyen integración con LDAP, Active Directory 
 o sistemas SSO (Single Sign-On) empresariales. 
-Algunos ejemplos prácticos de uso son los portales de recursos humanos para autogestión de 
-empleados, repositorios de documentos corporativos con control de versiones, y plataformas de 
+Algunos ejemplos prácticos de uso son los portales de recursos humanos para autogestión de \nempleados, repositorios de documentos corporativos con control de versiones, y plataformas de 
 formación interna con cursos e-learning. En empresas distribuidas geográficamente, la intranet suele 
 complementarse con acceso VPN para teletrabajadores, manteniendo siempre los máximos estándares 
 de seguridad. 
 1.2.2. Extranet 
 La extranet es una extensión segura de la intranet que permite el acceso controlado desde fuera de la 
 organización. Está diseñada específicamente para compartir información y recursos de forma selectiva 
-con agentes externos autorizados, como clientes prioritarios, proveedores certificados o socios 
-estratégicos. A diferencia de una página web pública convencional, la extranet mantiene su carácter de 
+con agentes externos autorizados, como clientes prioritarios, proveedores certificados o socios \nestratégicos. A diferencia de una página web pública convencional, la extranet mantiene su carácter de 
 red privada, donde cada acceso está estrictamente regulado mediante sistemas de identificación 
 robustos que pueden incluir credenciales personalizadas, certificados digitales, autenticación 
 multifactor o conexiones mediante redes privadas virtuales (VPN). 
-Esta solución tecnológica facilita la colaboración empresarial avanzada, permitiendo casos de uso como 
-el seguimiento en tiempo real de pedidos por parte de proveedores, la descarga de documentación 
-técnica confidencial para clientes autorizados, o la gestión compartida de proyectos con partners 
-estratégicos. Para garantizar la máxima seguridad, las extranets implementan arquitecturas 
-especializadas que combinan zonas desmilitarizadas (DMZ) para aislar los servidores expuestos, 
+Esta solución tecnológica facilita la colaboración empresarial avanzada, permitiendo casos de uso como \nel seguimiento en tiempo real de pedidos por parte de proveedores, la descarga de documentación 
+técnica confidencial para clientes autorizados, o la gestión compartida de proyectos con partners \nestratégicos. Para garantizar la máxima seguridad, las extranets implementan arquitecturas \nespecializadas que combinan zonas desmilitarizadas (DMZ) para aislar los servidores expuestos, 
 firewalls de última generación con inspección profunda de paquetes, y segmentación estricta de 
 servicios mediante VLANs. 
 Un aspecto clave de las extranets modernas es su integración con tecnologías empresariales como APIs 
@@ -444,9 +431,7 @@ mediante protocolos como TLS 1.3 para el cifrado de comunicaciones y sistemas SI
 monitorización continua de accesos. 
 Ejemplos prácticos incluyen plataformas de facturación electrónica para proveedores, entornos 
 colaborativos para desarrollo conjunto de productos con partners tecnológicos, o portales de 
-autoservicio para clientes premium con acceso a informes personalizados y herramientas de análisis 
-exclusivas. Estas implementaciones demuestran cómo la extranet se ha convertido en un elemento 
-estratégico para la transformación digital de las relaciones empresariales, siempre equilibrando 
+autoservicio para clientes premium con acceso a informes personalizados y herramientas de análisis \nexclusivas. Estas implementaciones demuestran cómo la extranet se ha convertido en un elemento \nestratégico para la transformación digital de las relaciones empresariales, siempre equilibrando 
 funcionalidad con seguridad.
 
 ---
@@ -545,8 +530,7 @@ Para que esto pueda funcionar debemos trabajar en tres niveles de integración:
 • Red. 
 Para que los equipos puedan comunicarse entre sí. 
 • Datos. 
-Debemos garantizar la seguridad de la información, la disponibilidad y el acceso por los distintos 
-equipos. Además, debemos permitir que puedan intercambiar datos. 
+Debemos garantizar la seguridad de la información, la disponibilidad y el acceso por los distintos \nequipos. Además, debemos permitir que puedan intercambiar datos. 
 • Servicios. 
 Todos los equipos deben poder acceder a los servicios indistintamente de su sistema operativo y 
 del sistema operativo del equipo que ofrece los servicios.
@@ -575,8 +559,7 @@ Permite mantener una equivalencia entre un nombre de servidor y su dirección IP
  
 El experto opina 
 Estos tres servicios se pueden implementar en un servidor 
-Windows, pero nosotros aconsejamos utilizar un servidor basado 
-en Linux, ya que es gratis y tiene mejor rendimiento y seguridad. 
+Windows, pero nosotros aconsejamos utilizar un servidor basado \nen Linux, ya que es gratis y tiene mejor rendimiento y seguridad. 
  
 1.3.1.1. Dirección MAC 
 MAC (siglas en inglés de Media Access Control). 
@@ -618,8 +601,7 @@ Comando "getmac":
 cada dirección de todas las tarjetas de red de cada equipo, ya sea de forma local o a través de 
 una red. 
 • Este comando es especialmente útil si desea escribir la dirección MAC en un analizador de red o 
-si necesita saber qué protocolos se están usando actualmente en cada adaptador de red de un 
-equipo.
+si necesita saber qué protocolos se están usando actualmente en cada adaptador de red de un \nequipo.
 
 ---
 
@@ -641,8 +623,7 @@ realizar determinadas configuraciones de red y permitir que otros equipos y serv
 tu equipo. 
 Existen dos tipos de dirección IP: 
 • IP privada. 
-Es la que utiliza cada ordenador dentro de su red local y permite identificar a los distintos 
-equipos que están conectados a ella. 
+Es la que utiliza cada ordenador dentro de su red local y permite identificar a los distintos \nequipos que están conectados a ella. 
 • IP pública. 
 Es la que se muestra al resto de dispositivos que están fuera de esa red. 
 En este caso todos los equipos conectados a un mismo router comparten la misma IP pública, ya 
@@ -672,15 +653,13 @@ Muestra la configuración TCP/IP completa de todos los adaptadores. Los adaptado
 representar interfaces físicas, como adaptadores de red instalados o interfaces lógicas como 
 conexiones de acceso telefónico. 
 • /displaydns 
-Muestra el contenido de la memoria caché de la resolución del cliente DNS, que incluye las 
-entradas cargadas previamente desde el archivo de hosts local y los registros de recursos que se 
+Muestra el contenido de la memoria caché de la resolución del cliente DNS, que incluye las \nentradas cargadas previamente desde el archivo de hosts local y los registros de recursos que se 
 han obtenido recientemente para las consultas de nombres resueltas por el equipo. 
 El servicio cliente DNS usa esta información para resolver rápidamente los nombres consultados 
 con frecuencia, antes de consultar sus servidores DNS configurados. 
 • /flushdns 
 Vacía y restablece el contenido de la memoria caché de la resolución del cliente DNS. 
-Durante la solución de problemas de DNS, puede usar este procedimiento para descartar las 
-entradas de caché negativas de la memoria caché, así como cualquier otra entrada que se haya 
+Durante la solución de problemas de DNS, puede usar este procedimiento para descartar las \nentradas de caché negativas de la memoria caché, así como cualquier otra entrada que se haya 
 agregado dinámicamente. 
 • /registerdns 
 Inicia el registro dinámico manual de los nombres DNS y las direcciones IP que se configuran en 
@@ -705,8 +684,7 @@ Para especificar un nombre de adaptador, escribimos el nombre que nos muestra (d
 adaptador) cuando ejecutamos ipconfig sin parámetros. 
 • /release6[<adapter>] 
 Envía un mensaje DHCPRELEASE al servidor DHCPv6 para liberar la configuración actual de 
-DHCP y descartar la configuración de la dirección IPv6 para todos los adaptadores (si no se 
-especifica un adaptador) o para un adaptador específico, si se incluye el parámetro Adapter. 
+DHCP y descartar la configuración de la dirección IPv6 para todos los adaptadores (si no se \nespecifica un adaptador) o para un adaptador específico, si se incluye el parámetro Adapter. 
 Este parámetro deshabilita TCP/IP para los adaptadores configurados para obtener una 
 dirección IP automáticamente. 
 Para especificar un nombre de adaptador, escribimos el nombre que nos muestra (del 
@@ -720,8 +698,7 @@ obtener una dirección IP automáticamente.
 Renueva la configuración de DHCPv6 para todos los adaptadores (si no se especifica un 
 adaptador) o para un adaptador específico si se incluye el parámetro de adaptador. 
 Este parámetro solo está disponible en equipos con adaptadores que estén configurados para 
-obtener una dirección IPv6 automáticamente. Para especificar un nombre de adaptador, escriba 
-el nombre del adaptador que aparece cuando se usa ipconfig sin parámetros.
+obtener una dirección IPv6 automáticamente. Para especificar un nombre de adaptador, escriba \nel nombre del adaptador que aparece cuando se usa ipconfig sin parámetros.
 
 ---
 
@@ -747,8 +724,7 @@ Observaciones para el comando ipconfig:
 automáticamente, ya que permite a los usuarios determinar qué valores de configuración de 
 TCP/IP han sido configurados por DHCP, el direccionamiento IP privado automático (APIPA) o 
 una configuración alternativa. 
-• Si el nombre proporcionado para el adaptador contiene espacios, hay que escribir el nombre 
-entre comillas. 
+• Si el nombre proporcionado para el adaptador contiene espacios, hay que escribir el nombre \nentre comillas. 
 • Ipconfig admite el uso del carácter comodín de asterisco (*). Nos permite así, especificar los 
 adaptadores con nombres que comienzan por una cadena o adaptadores especificados con 
 nombres que contienen una cadena especificada. 
@@ -804,8 +780,7 @@ Esta opción corresponde a los indicadores UP y RUNNING.
 IP: 46.6.184.82. 
 • down. 
 Marca la interfaz como inaccesible a la capa IP. Esto inhabilita cualquier tráfico IP a través de la 
-interfaz. Es importante darse cuenta de que esto también borra los registros de la tabla de 
-encaminamiento correspondientes a esa interfaz de forma automática. 
+interfaz. Es importante darse cuenta de que esto también borra los registros de la tabla de \nencaminamiento correspondientes a esa interfaz de forma automática. 
 • netmask (máscara). 
 Asigna una máscara de subred a una interfaz. Se puede dar como un valor de 32 bits en 
 hexadecimal precedido del prefijo 0x, o en notación de cuaterna usando números decimales 
@@ -863,8 +838,7 @@ busca de contraseñas. Para evitarlo, se pueden usar protocolos de autentificaci
 Kerberos o SS (Secure Shell). 
 –promisc desactiva el modo promiscuo. 
 • Allmulti. 
-Las direcciones de envío múltiple (multicast) son como las direcciones de difusión de Ethernet, 
-excepto que, en lugar de incluir automáticamente a todo el mundo, los únicos que reciben 
+Las direcciones de envío múltiple (multicast) son como las direcciones de difusión de Ethernet, \nexcepto que, en lugar de incluir automáticamente a todo el mundo, los únicos que reciben 
 paquetes enviados a una dirección de envío múltiple son aquellos programados para escucharla.
 
 ---
@@ -947,8 +921,7 @@ distintos sistemas operativos.
 Es un software privado que ofrece licencia gratuita a los usuarios y de pago a las empresas. 
 También se puede usar independientemente del sistema operativo de los equipos 
 conectados. 
-Su principal función es el control remoto, pero tiene otras funcionalidades de trabajo en 
-equipo y presentación (reuniones en línea, videoconferencias, etc.). 
+Su principal función es el control remoto, pero tiene otras funcionalidades de trabajo en \nequipo y presentación (reuniones en línea, videoconferencias, etc.). 
 Directorio Activo 
 Cuando existe un único servidor y pocos usuarios podemos implementar un inicio de sesión en base a un 
 nombre de usuario y contraseña. 
@@ -976,8 +949,7 @@ Administración de Redes de Área Local
  
  
 + Info 
-Active Directory es una implementación de servicio de directorio 
-en una red distribuida de computadores. 
+Active Directory es una implementación de servicio de directorio \nen una red distribuida de computadores. 
 Utiliza distintos protocolos, principalmente LDAP, DNS, DHCP y 
 Kerberos. 
 Es un servicio establecido en uno o varios servidores en donde se 
@@ -991,8 +963,7 @@ Servidores de impresión
 Permiten compartir impresoras y monitorizar su estado, cola de impresión, administrar trabajos, etc. 
 En la actualidad la mayoría de las impresoras lo tienen integrado y se administra desde un navegador web. 
 Actualización centralizada de sistemas 
-Es muy importante mantener actualizados los programas y sistemas operativos de los equipos de la 
-empresa, especialmente los parches de seguridad (muy común en sistemas Windows). 
+Es muy importante mantener actualizados los programas y sistemas operativos de los equipos de la \nempresa, especialmente los parches de seguridad (muy común en sistemas Windows). 
 El servicio Windows Server Update Services (WSUS) permite a los administradores de red especificar las 
 actualizaciones de Microsoft que se deben instalar en los diferentes equipos de la red. 
 Monitorización centralizada de sistemas 
@@ -1006,8 +977,7 @@ adelante en esta unidad.
 Administración de Redes de Área Local 
 31 
 1.3.3.2. Servicios de infraestructura básica 
-Los servicios de infraestructura básica constituyen los cimientos operativos de cualquier red, 
-encargándose de funciones esenciales que garantizan su correcto funcionamiento. A diferencia de los 
+Los servicios de infraestructura básica constituyen los cimientos operativos de cualquier red, \nencargándose de funciones esenciales que garantizan su correcto funcionamiento. A diferencia de los 
 servicios orientados al usuario, operan de forma transparente automatizando procesos críticos como la 
 asignación dinámica de direcciones IP (mediante DHCP) y la traducción de nombres a direcciones 
 numéricas (a través de DNS). Estos mecanismos, fundamentales tanto en redes corporativas como 
@@ -1015,8 +985,7 @@ domésticas, permiten establecer conectividad básica y acceder a recursos de re
 configuración manual, optimizando así la gestión y escalabilidad de la infraestructura. 
 1.3.3.2.1. DHCP 
 El protocolo DHCP (Dynamic Host Configuration Protocol) es un servicio esencial en redes modernas 
-que automatiza la configuración de dispositivos. Opera en la capa de aplicación del modelo TCP/IP y 
-está definido en el RFC 2131. Su principal función es asignar automáticamente direcciones IP y otros 
+que automatiza la configuración de dispositivos. Opera en la capa de aplicación del modelo TCP/IP y \nestá definido en el RFC 2131. Su principal función es asignar automáticamente direcciones IP y otros 
 parámetros de red a los dispositivos que se conectan, eliminando la necesidad de configuración manual 
 y reduciendo errores humanos. 
 El proceso de asignación sigue un esquema conocido como DORA, formado por cuatro pasos clave. 
@@ -1028,12 +997,10 @@ no está disponible.
 Entre los parámetros que DHCP puede configurar se incluyen no solo la dirección IP y máscara de 
 subred, sino también la puerta de enlace predeterminada, servidores DNS, nombre de dominio y otros 
 valores opcionales. Esta capacidad lo hace especialmente útil en redes de todo tamaño, desde pequeños 
-routers domésticos hasta grandes infraestructuras corporativas. El protocolo incluye mecanismos como 
-el tiempo de concesión (lease time) que permite reutilizar direcciones IP cuando los dispositivos se 
+routers domésticos hasta grandes infraestructuras corporativas. El protocolo incluye mecanismos como \nel tiempo de concesión (lease time) que permite reutilizar direcciones IP cuando los dispositivos se 
 desconectan, optimizando así el espacio de direcciones disponible. 
 En entornos profesionales, los administradores pueden crear múltiples ámbitos (scopes) para diferentes 
-segmentos de red, establecer reservas para dispositivos específicos que siempre necesiten la misma IP, 
-e incluso implementar agentes de retransmisión (relay agents) para servir a múltiples subredes desde 
+segmentos de red, establecer reservas para dispositivos específicos que siempre necesiten la misma IP, \ne incluso implementar agentes de retransmisión (relay agents) para servir a múltiples subredes desde 
 un único servidor DHCP. Estas características avanzadas permiten una gestión escalable y eficiente de 
 redes complejas. 
 Ejemplo práctico: Configuración de un servidor DHCP en Windows Server 
@@ -1107,8 +1074,7 @@ nuevo ámbito.
 • Configurar el Ámbito. 
 En las pantallas del asistente, completar los siguientes datos: 
 • Nombre del ámbito: Asignar un nombre al ámbito, por ejemplo, "Red local". 
-• Rango de direcciones IP: Define el rango de direcciones IP que el servidor asignará, por 
-ejemplo, de 192.168.1.100 a 192.168.1.200. 
+• Rango de direcciones IP: Define el rango de direcciones IP que el servidor asignará, por \nejemplo, de 192.168.1.100 a 192.168.1.200. 
 • Máscara de subred: Si la máscara es 255.255.255.0, la longitud será 24. 
 • Exclusiones: Si se desean reservar algunas IPs para dispositivos específicos (como 
 impresoras o servidores), se puede agregar estas exclusiones. 
@@ -1133,8 +1099,7 @@ Administración de Redes de Área Local
 35 
 1.3.3.2.2. DNS 
 El servicio DNS (Domain Name System) traduce los nombres de dominio (como "administracion.gob.es") en 
-direcciones IP, permitiendo que los dispositivos localicen y se comuniquen con otros equipos o servicios 
-en la red. Esto simplifica la configuración y el acceso a los recursos de red, ya que los usuarios solo 
+direcciones IP, permitiendo que los dispositivos localicen y se comuniquen con otros equipos o servicios \nen la red. Esto simplifica la configuración y el acceso a los recursos de red, ya que los usuarios solo 
 necesitan recordar el nombre del dominio en lugar de las direcciones IP. 
 Ejemplo práctico: Configuración de un servidor DNS en Windows Server 
 Para instalar y configurar un servidor DNS hay que seguir estos pasos relatados a continuación, en una 
@@ -1143,13 +1108,11 @@ típica instalación en Windows Server, desde el Administrador de Servidor.
 • Iniciar sesión en el servidor con una cuenta de administrador. 
 • Si el Administrador de Servidor no se abre automáticamente se puede acceder 
 manualmente desde el Inicio> herramientas administrativas > Administrador del Servidor. 
-• Iniciar el asistente "Agregar roles y características", en el Administrador del Servidor, haga clic 
-en Administrar > Agregar roles y características. 
+• Iniciar el asistente "Agregar roles y características", en el Administrador del Servidor, haga clic \nen Administrar > Agregar roles y características. 
 • Pantalla de bienvenida del asistente, hacer clic en Siguiente para continuar. 
 • Seleccionar tipo de instalación, elegir instalación basada en roles o características, pulsar sobre 
 Siguiente. 
-• Seleccionar el Servidor de Destino. Seleccionar el servidor local de la lista disponible y hace clic 
-en Siguiente. 
+• Seleccionar el Servidor de Destino. Seleccionar el servidor local de la lista disponible y hace clic \nen Siguiente. 
 • Seleccionar el Rol de Servidor DNS. En la lista de roles, marcar la casilla correspondiente a 
 Servidor DNS. Aparecerá una ventana emergente para agregar características necesarias. Hacer 
 clic en Agregar Características y luego en Siguiente.
@@ -1162,8 +1125,7 @@ Administración de Redes de Área Local
 DNS. Hacer clic en Siguiente. 
 • Confirmar e instalar. Revisar la información de resumen y hacer clic en Instalar. Esperar a que 
 finalice la instalación (puede tardar varios minutos). 
-• Finalizar la Instalación. Espera a que la instalación se complete. Una vez completada, hacer clic 
-en Cerrar para salir del asistente. 
+• Finalizar la Instalación. Espera a que la instalación se complete. Una vez completada, hacer clic \nen Cerrar para salir del asistente. 
 Una vez realizada la instalación propiamente dicha se habrá de completar una configuración, narrada a 
 continuación: 
 • Notificación de Configuración Posterior a la Instalación. En el Administrador del servidor, verás 
@@ -1355,8 +1317,7 @@ nombre completo, dirección, contraseña, etc.
 addgroup 
 No es un comando estándar POSIX sino un script no 
 disponible en todas las distribuciones Linux. Al ser un 
-script permite hacer mayor cantidad de cosas por 
-ejemplo especificar opciones como la descripción del 
+script permite hacer mayor cantidad de cosas por \nejemplo especificar opciones como la descripción del 
 grupo (especificar el nombre es obligatorio en ambos 
 comandos), el GID y los usuarios que han de 
 agregarse en el mismo comando.
@@ -1413,10 +1374,8 @@ La administración de usuarios se puede realizar en modo gráfico con una herram
 Seguridad de las contraseñas 
 Se deben aplicar las mismas políticas que hemos definido en Windows. 
 4. Gestión de dispositivos 
-En una red, tenemos diferentes tipos de dispositivos conectados, como ordenadores, impresoras, 
-escáneres o actualmente impresoras multifunción. 
-Todos estos dispositivos se puedes compartir a través de la red, para que diferentes usuarios accedan a 
-ellos. 
+En una red, tenemos diferentes tipos de dispositivos conectados, como ordenadores, impresoras, \nescáneres o actualmente impresoras multifunción. 
+Todos estos dispositivos se puedes compartir a través de la red, para que diferentes usuarios accedan a \nellos. 
 Es necesario gestionar correctamente todos los dispositivos de hardware que pueden ser compartidos 
 y/o usados en red. 
  
@@ -1482,8 +1441,7 @@ EaseUS Partition Master
 EaseUS Partition Master 
 EaseUS es uno de los mejores programas de partición. 
 Algunas de sus funciones son: 
-• Crear, formatear, cambiar el tamaño, mover, dividir, combinar, copiar, limpiar, comprobar y 
-explorar particiones. 
+• Crear, formatear, cambiar el tamaño, mover, dividir, combinar, copiar, limpiar, comprobar y \nexplorar particiones. 
 • Recuperar particiones pérdidas o eliminadas. 
 • Convertir de FAT a NTFS, primaria a lógica y viceversa. 
 • Interfaz gráfica de usuario para ser extremadamente intuitivo.
@@ -1540,8 +1498,7 @@ Administración de Redes de Área Local
  
  
 + Info 
-Ten mucho cuidado si haces pruebas con estos comandos porque 
-es una práctica de alto riesgo. 
+Ten mucho cuidado si haces pruebas con estos comandos porque \nes una práctica de alto riesgo. 
  
  
 GUI (INTERFAZ GRÁFICA DE USUARIO): 
@@ -1692,8 +1649,7 @@ Debemos tener en cuenta que actualmente los sitios web deben atender a un elevad
 solicitudes concurrentes de usuarios o clientes, y proporcionar aquello que demandan (textos, 
 imágenes, videos… y el uso cada vez mayor de comercio electrónico), y deben hacerlo de una forma 
 rápida y confiable. Estos sitios web están alojados en servidores web que tienen una capacidad limitada, 
-se origina un problema de escalabilidad debido al continuo crecimiento del número de usuarios activos 
-en el sistema, por ello es imprescindible el uso de un balanceador de carga.
+se origina un problema de escalabilidad debido al continuo crecimiento del número de usuarios activos \nen el sistema, por ello es imprescindible el uso de un balanceador de carga.
 
 ---
 
@@ -1741,14 +1697,12 @@ Administración de Redes de Área Local
 58 
 • De tipo switch: 
 Un balanceador de carga de este tipo necesita de un switch Layer 2 o Layer 3 para la 
-integración del proceso de balanceo. No se necesita de ningún dispositivo intermediario 
-entre el switch y el servidor web. 
+integración del proceso de balanceo. No se necesita de ningún dispositivo intermediario \nentre el switch y el servidor web. 
 • Basados en software: 
 Para este caso no es necesario modificar ninguna característica de conectividad de red. 
 Se puedes instalar el software para el propósito en los propios servidores web, o puedes optar 
 por un servidor dedicado para cumplir el rol de balanceador de carga. 
-En general los proveedores de soluciones Hardware utilizan software propietario y procesadores 
-especializados, si aumenta el tráfico en la red, es necesario adquirir más dispositivos. 
+En general los proveedores de soluciones Hardware utilizan software propietario y procesadores \nespecializados, si aumenta el tráfico en la red, es necesario adquirir más dispositivos. 
 Las soluciones Software suelen utilizar un hardware de libre elección o la propia nube, siendo, por tanto, 
 más flexible. 
 En Linux destaca Linux Virtual Server (LVS)que es el más conocido, y también otros, como el Red Hat 
@@ -1781,11 +1735,9 @@ La elección del algoritmo dependerá de las necesidades, ya que cada tipo ofrec
 para distribuir el tráfico de red en función de la distribución del tráfico, si se trata de tráfico de capa de 
 red o tráfico de capa de aplicación. 
 • El tráfico en la capa de red se enruta según las direcciones IP de destino. 
-• El tráfico de la capa de aplicación se enruta teniendo en cuenta otros factores, como el 
-encabezado HTTP, SSL. 
+• El tráfico de la capa de aplicación se enruta teniendo en cuenta otros factores, como el \nencabezado HTTP, SSL. 
 Algoritmos de capa de Red 
-• Round Robin: las solicitudes se distribuyen equitativamente entre el grupo de servidores 
-existentes. 
+• Round Robin: las solicitudes se distribuyen equitativamente entre el grupo de servidores \nexistentes. 
 Este sistema no tiene en cuenta las condiciones de los servidores ni el tipo de solicitud. Esto 
 puede ocasionar que un PC Pentium de bajas prestaciones este sirviendo un video en streaming, 
 mientras que otro servidor mucho más potente, este suministrando un fichero PDF. Tampoco 
@@ -1822,8 +1774,7 @@ más tráfico, incluso si ya tienen conexiones activas, lo que permite una distr
 según su capacidad real. Esto es ideal para entornos con servidores de hardware heterogéneo. 
 • Least-response-time (menor tiempo de respuesta). 
 Selecciona el servidor con el menor tiempo de respuesta en tiempo real, considerando latencia 
-de red y carga actual. No utiliza pesos estáticos, sino métricas dinámicas para optimizar la 
-entrega de solicitudes. Es ideal para aplicaciones sensibles a la latencia, como APIs o servicios en 
+de red y carga actual. No utiliza pesos estáticos, sino métricas dinámicas para optimizar la \nentrega de solicitudes. Es ideal para aplicaciones sensibles a la latencia, como APIs o servicios en 
 tiempo real, ya que adapta la distribución de carga constantemente según el rendimiento actual 
 de cada servidor. 
 • Algoritmo de Hashing (IP Hash). 
@@ -1871,8 +1822,7 @@ optimización de recursos.
 Esto lo logra realizando continuas peticiones de servicios en los distintos servidores a su cargo, 
 lo que le permite monitorizar sus condiciones. 
 Normalmente los parámetros utilizados son: Utilización de CPU, uso de memoria (RAM) y 
-número de conexiones abiertas. Esto nos permite direccionar las peticiones de los clientes hacia 
-el servidor que se encuentre más disponible y en mejor estado para responder a dichas 
+número de conexiones abiertas. Esto nos permite direccionar las peticiones de los clientes hacia \nel servidor que se encuentre más disponible y en mejor estado para responder a dichas 
 peticiones. 
 Otra característica interesante de la segunda generación, son sus funciones de "mensajería". No 
 solo nos informará de los servidores caídos, también puede comunicarnos cuando está previsto 
@@ -1886,8 +1836,7 @@ rendimiento del servicio.
 Este concepto, en inglés sessión persitence, se refiere a no cambiar el servidor que está prestando 
 respuesta a las peticiones realizadas por un usuario durante un tiempo determinado, normalmente 
 hasta que finalice un proceso o cierre la sesión o sitio web donde está enviando solicitudes. 
-En muchas ocasiones, la información sobre el usuario se almacena de forma local en el navegador que 
-esté utilizando, como es el caso de una web con carro de compra, donde los artículos en el carro del 
+En muchas ocasiones, la información sobre el usuario se almacena de forma local en el navegador que \nesté utilizando, como es el caso de una web con carro de compra, donde los artículos en el carro del 
 usuario pueden almacenarse en el navegador hasta que el usuario decida comprarlos o cierre la sesión 
 (se desconecte).
 
@@ -1942,8 +1891,7 @@ Dadas dos trayectorias a la misma red:
 Esto preserva el orden de los paquetes, con el posible uso desigual de los links. Si un host recibe la 
 mayor parte del tráfico, todos los paquetes utilizan un link, de forma que deja el ancho de banda en los 
 otros links sin utilizar. 
-Una mayor cantidad de direcciones de destino hace que los links se utilicen de una manera más 
-equitativa, para que esto suceda, se utiliza un software específico para generar una entrada de memoria 
+Una mayor cantidad de direcciones de destino hace que los links se utilicen de una manera más \nequitativa, para que esto suceda, se utiliza un software específico para generar una entrada de memoria 
 caché de ruta para cada dirección de destino, en lugar de cada red de destino, al igual que en el caso 
 cuando existe solamente una trayectoria. Por lo tanto, los tráficos de diferentes hosts en la misma red 
 de destino pueden utilizar diferentes trayectorias. 
@@ -1989,8 +1937,7 @@ petición a la IP pública del balanceador, este selecciona automáticamente el 
 según el algoritmo configurado, que puede ser round-robin, por menor carga u otros criterios. 
 El proceso de traducción de direcciones se realiza de forma transparente. El balanceador modifica la 
 dirección IP de destino en el paquete recibido, sustituyendo su propia IP pública por la IP privada del 
-servidor seleccionado. Simultáneamente, crea una entrada en su tabla de traducción NAT para mantener 
-el seguimiento de la conexión y poder gestionar correctamente la respuesta. El servidor backend recibe y 
+servidor seleccionado. Simultáneamente, crea una entrada en su tabla de traducción NAT para mantener \nel seguimiento de la conexión y poder gestionar correctamente la respuesta. El servidor backend recibe y 
 procesa la solicitud, enviando su respuesta al balanceador, que se encarga de revertir la traducción 
 reemplazando la IP origen privada por su IP pública antes de enviar la respuesta final al cliente. 
 Entre las características clave de este método destacan su transparencia para los clientes, que nunca 
@@ -2033,8 +1980,7 @@ servidor más apropiado.
 transmitir la solicitud del cliente. 
 • Dicho balanceador de carga también pasa la respuesta del servidor al cliente mediante la 
 conexión TCP. 
-Así, vemos que el protocolo TCP actúa como un intermedio entre los potenciales servidores de destino, 
-el balanceador de carga y el cliente. 
+Así, vemos que el protocolo TCP actúa como un intermedio entre los potenciales servidores de destino, \nel balanceador de carga y el cliente. 
 5.1.7. El balanceo de carga dentro del ecosistema de clústeres 
 Un CLÚSTER es un conjunto, que se comporta como una única unidad. 
 Un clúster de balanceo de carga o de cómputo adaptativo está compuesto por uno o más ordenadores 
@@ -2056,8 +2002,7 @@ actuar como un único sistema multiprocesador, de esta forma no es necesario rep
 aplicaciones para que aprovechen el clúster. Los procesos no saben en qué nodo del clúster se ejecutan, 
 y es el propio openMosix el responsable de "engañarlos", y redirigir las llamadas al sistema al nodo del 
 clúster en el que se lanzó el proceso. 
-openMosix implementa un algoritmo balanceador que permite repartir de forma óptima la carga, si está 
-el clúster bien calibrado. 
+openMosix implementa un algoritmo balanceador que permite repartir de forma óptima la carga, si está \nel clúster bien calibrado. 
 Resumen 
 Las soluciones por medio de clústeres son: 
 • Robustas y de igual desempeño a otras de gran envergadura. 
@@ -2120,8 +2065,7 @@ Administración de Redes de Área Local
 68 
 • La interconexión: 
 Hardware entre las máquinas (nodos) del clúster. 
-Aunque se ha realizado un desarrollo de interfaces de interconexión especiales muy eficientes, 
-es común realizar las interconexiones mediante una red Ethernet dedicada de alta velocidad, 
+Aunque se ha realizado un desarrollo de interfaces de interconexión especiales muy eficientes, \nes común realizar las interconexiones mediante una red Ethernet dedicada de alta velocidad, 
 que permite que los nodos del clúster intercambian entre sí las tareas, actualizaciones de estado 
 y los datos del programa. 
 En un clúster abierto, existirá una interfaz de red que conecte al clúster con el mundo exterior 
@@ -2134,8 +2078,7 @@ En balanceo de carga, los clústeres deben funcionar con una actuación conjunta
 software, para que el tráfico se distribuya entre los nodos del clúster, y así ofrecer mayor velocidad. 
 Los servidores de un clúster de alta disponibilidad no suelen compartir la carga de procesamiento que 
 tiene un clúster de alto rendimiento ni tampoco la carga de tráfico, como lo hacen los clústeres de 
-balanceo de carga, ya que su función es diferente, deben estar preparados para entrar inmediatamente 
-en funcionamiento, en caso de que falle algún otro servidor. 
+balanceo de carga, ya que su función es diferente, deben estar preparados para entrar inmediatamente \nen funcionamiento, en caso de que falle algún otro servidor. 
 5.1.7.3. Ventajas y desventajas 
 Las principales ventajas de los clústers de balanceo de carga son: 
 • Disponibilidad. 
@@ -2157,16 +2100,14 @@ Administración de Redes de Área Local
 69 
 • Expansibilidad. 
 Capacidad de aumentar sus capacidades a través de mejores técnicas. 
-Transferencia de información y todo tipo de servicio por internet de forma rápida, a bajo costo 
-e ininterrumpidamente. 
+Transferencia de información y todo tipo de servicio por internet de forma rápida, a bajo costo \ne ininterrumpidamente. 
 • Incremento: 
 • Velocidad de respuesta: Mejora de los tiempos de respuesta al distribuir las solicitudes entre 
 varios nodos, evitando la sobrecarga de un solo servidor. 
 • Número de transacciones: Capacidad de manejar un mayor número de transacciones 
 simultáneas gracias a la distribución equitativa de la carga entre los nodos. 
 Las principales desventajas de los clústeres de balanceo de carga son: 
-• Empresas y entidades prefieren seguir utilizando el modelo cliente/servidor tradicional debido al 
-espacio físico o a nuevos problemas que no se daban en la arquitectura tradicional. 
+• Empresas y entidades prefieren seguir utilizando el modelo cliente/servidor tradicional debido al \nespacio físico o a nuevos problemas que no se daban en la arquitectura tradicional. 
 • Espacio físico para el montaje de clústeres de balanceo de carga. 
 5.1.8. Herramientas para "EC" en Windows 
 Vamos a ver algunas de las mejores soluciones actuales para realizar balanceo de carga, o Equilibrador 
@@ -2203,8 +2144,7 @@ aplicaciones críticas y la alta disponibilidad, y permite ahorrar el coste de l
 de carga. 
 El clúster SafeKit farm puede implementar un clúster de balanceo de carga de red entre varios 
 servidores. 
-En una red, la misma aplicación se ejecuta en cada servidor, y la distribución de la actividad de la red 
-equilibrará la carga. 
+En una red, la misma aplicación se ejecuta en cada servidor, y la distribución de la actividad de la red \nequilibrará la carga. 
 SafeKit no requiere ningún servidor específico por encima de la granja para implementar el clúster de 
 balanceo de carga de la red. 
 Características principales: 
@@ -2255,8 +2195,7 @@ sitio web oficial.
  
 KEMPs Free LoadMaster 
 Es un controlador de entrega de aplicaciones avanzado. KEMP ofrece este LoadMaster gratuito para 
-ayudar también a las pequeñas empresas y a los desarrolladores, ofreciéndoles una atractiva opción de 
-equilibrio de carga. 
+ayudar también a las pequeñas empresas y a los desarrolladores, ofreciéndoles una atractiva opción de \nequilibrio de carga. 
 Si las necesidades de equilibrio de carga crecen y se expanden, se puede actualizar a una versión 
 comercial.
 
@@ -2357,8 +2296,7 @@ Se desmarca del resto por su mapeo automático de redes y nodos sin necesidad de
 
 Administración de Redes de Área Local 
 75 
-Tiene un interfaz gráfico bastante potente en el que se puede ver fácilmente la topología de red y el 
-estado de la misma. 
+Tiene un interfaz gráfico bastante potente en el que se puede ver fácilmente la topología de red y el \nestado de la misma. 
 Nos permite integrar máquinas virtuales en su monitorización. 
 Zabbix 
  
@@ -2373,8 +2311,7 @@ otras herramientas.
 Zenoss 
  
 Fuente: 
-(https://commons.wikimedia.org/wiki/Fil
-e:Zenoss-logo.png) 
+(https://commons.wikimedia.org/wiki/Fil\ne:Zenoss-logo.png) 
 Con Zenoss podremos monitorizar almacenamiento, redes, servidores, aplicaciones y servidores 
 virtuales sin necesidad de instalar agentes. 
 Dispone de una versión "Community" con funcionalidades muy reducidas y una versión comercial con 
@@ -2526,8 +2463,7 @@ La forma normal de uso del SNMP es el sondeo (polling):
 La estación administradora envía una solicitud a un agente (proceso que atiende peticiones 
 SNMP) pidiéndole información de estado o que realice una acción. 
 2. Respuesta. 
-El agente envía una respuesta a la estación administradora que puede ser la información de 
-estado solicitada o la confirmación de la realización de la acción. 
+El agente envía una respuesta a la estación administradora que puede ser la información de \nestado solicitada o la confirmación de la realización de la acción. 
 El problema del sondeo es que, si hay muchos nodos administrativos, puede deteriorar el rendimiento 
 de la red.
 
@@ -2558,12 +2494,10 @@ formato compatible con SNMP y organizada en jerarquías.
 Comandos básicos 
 Los dispositivos administrados son supervisados y controlados usando cuatro comandos SNMP básicos: 
 lectura, escritura, notificación y operaciones transversales. 
-• GET: El comando de lectura es usado por un NMS para supervisar elementos de red. El NMS 
-examina diferentes variables que son mantenidas por los dispositivos administrados. 
+• GET: El comando de lectura es usado por un NMS para supervisar elementos de red. El NMS \nexamina diferentes variables que son mantenidas por los dispositivos administrados. 
 • SET: El comando de escritura es usado por un NMS para controlar elementos de red. El NMS 
 cambia los valores de las variables almacenadas dentro de los dispositivos administrados. 
-• TRAP: El comando de notificación es usado por los dispositivos administrados para reportar 
-eventos en forma asíncrona a un NMS. Cuando cierto tipo de evento ocurre, un dispositivo 
+• TRAP: El comando de notificación es usado por los dispositivos administrados para reportar \neventos en forma asíncrona a un NMS. Cuando cierto tipo de evento ocurre, un dispositivo 
 administrado envía una notificación al NMS. 
 • Las operaciones transversales son usadas por el NMS para determinar qué variables soporta un 
 dispositivo administrado y para recoger secuencialmente información en tablas de variables, 
@@ -2605,8 +2539,7 @@ Los identificadores de los objetos ubicados en la parte superior del árbol pert
 organizaciones estándares, mientras los identificadores de los objetos ubicados en la parte inferior del 
 árbol son colocados por las organizaciones asociadas. 
 Los fabricantes pueden definir ramas privadas que incluyen los objetos administrados para sus propios 
-productos. Las MIB's que no han sido estandarizadas típicamente están localizadas en la rama 
-experimental. 
+productos. Las MIB's que no han sido estandarizadas típicamente están localizadas en la rama \nexperimental. 
 El objeto administrado atInput podría ser identificado por el nombre de objeto iso.identified-
 organization.dod.internet.private.enterprise.cisco.temporary.AppleTalk.atInput o por el descriptor de 
 objeto equivalente 1.3.6.1.4.1.9.3.3.1. 
@@ -2628,8 +2561,7 @@ Sintáctica Abstracta 1 (Abstract Syntax Notation One ó ASN.1).
 Detalles del Protocolo 
 SNMP opera en la capa de aplicación del conjunto de protocolos de Internet (capa 7 del modelo OSI). 
 El agente SNMP recibe solicitudes en el puerto UDP 161. 
-El administrador puede enviar solicitudes de cualquier puerto de origen disponible para el puerto 161 en 
-el agente.
+El administrador puede enviar solicitudes de cualquier puerto de origen disponible para el puerto 161 en \nel agente.
 
 ---
 
@@ -2676,8 +2608,7 @@ Administración de Redes de Área Local
 85 
 Mensajes SNMP 
 Para realizar las operaciones básicas de administración anteriormente nombradas, el protocolo SNMP 
-utiliza un servicio no orientado a la conexión (UDP) para enviar un pequeño grupo de mensajes (PDUs) 
-entre los administradores y agentes. 
+utiliza un servicio no orientado a la conexión (UDP) para enviar un pequeño grupo de mensajes (PDUs) \nentre los administradores y agentes. 
 La utilización de un mecanismo de este tipo asegura que las tareas de administración de red no 
 afectarán al rendimiento global de la misma, ya que se evita la utilización de mecanismos de control y 
 recuperación como los de un servicio orientado a la conexión, por ejemplo, TCP. 
@@ -2781,18 +2712,14 @@ Existen diferentes versiones de este protocolo. Debemos tener en cuenta, que com
 la informática, la tecnología de red sigue avanzando y modificándose continuamente. 
 Vamos a ir viendo diferentes versiones y lo más destacado de cada una de ellas. 
 5.3.3.2.1. Versión 1 
-SNMP versión 1 (SNMPv1) fue la primera implementación del protocolo SNMP, publicada inicialmente 
-en 1988. Funcionaba sobre múltiples protocolos de red como UDP, IP, CLNS, AppleTalk DDP y Novell 
+SNMP versión 1 (SNMPv1) fue la primera implementación del protocolo SNMP, publicada inicialmente \nen 1988. Funcionaba sobre múltiples protocolos de red como UDP, IP, CLNS, AppleTalk DDP y Novell 
 IPX. A pesar de su sencillez, se convirtió rápidamente en el protocolo de gestión de red de facto en la 
 comunidad de Internet. Las especificaciones originales se publicaron en tres RFCs, que fueron 
-reemplazados por versiones revisadas en 1990. Más adelante, en 1991, se introdujo la MIB-II como 
-evolución natural de la MIB-I. 
-• RFC 1065 (1988): estructura e identificación de la información de gestión para redes basadas 
-en TCP/IP. Se sustituye en 1990 por el RFC 1155. 
+reemplazados por versiones revisadas en 1990. Más adelante, en 1991, se introdujo la MIB-II como \nevolución natural de la MIB-I. 
+• RFC 1065 (1988): estructura e identificación de la información de gestión para redes basadas \nen TCP/IP. Se sustituye en 1990 por el RFC 1155. 
 • RFC 1066 (1988): primera base de información de gestión (MIB-I) para la gestión de redes 
 TCP/IP. Se sustituye en 1990 por el RFC 1156. 
-• RFC 1067 (1988): define el protocolo simple de administración de red (SNMPv1). Se sustituye 
-en 1990 por el RFC 1157.
+• RFC 1067 (1988): define el protocolo simple de administración de red (SNMPv1). Se sustituye \nen 1990 por el RFC 1157.
 
 ---
 
@@ -2823,11 +2750,9 @@ desalentaba la incorporación de mecanismos de seguridad avanzados.
 SNMPv2, definido en los RFC 1441 al 1452, fue una revisión de SNMPv1 que introdujo mejoras 
 importantes en áreas como el rendimiento de las comunicaciones, la seguridad, la confidencialidad y la 
 relación entre el gestor y los agentes. Una de sus principales novedades fue la operación 
-GetBulkRequest, que permite recuperar grandes cantidades de datos de gestión con una sola solicitud, 
-en lugar de realizar múltiples GetNextRequest consecutivos. Sin embargo, el nuevo sistema de 
+GetBulkRequest, que permite recuperar grandes cantidades de datos de gestión con una sola solicitud, \nen lugar de realizar múltiples GetNextRequest consecutivos. Sin embargo, el nuevo sistema de 
 seguridad basado en el concepto de "partidos" fue considerado excesivamente complejo por muchos 
-implementadores, lo que limitó su adopción. Aunque esta versión alcanzó el nivel de madurez de 
-estándar (Draft Standard), fue declarada obsoleta por versiones posteriores. 
+implementadores, lo que limitó su adopción. Aunque esta versión alcanzó el nivel de madurez de \nestándar (Draft Standard), fue declarada obsoleta por versiones posteriores. 
 En respuesta a la complejidad del modelo de seguridad original, se definió SNMPv2c (Community-based 
 SNMPv2) en los RFC 1901 al 1908. Esta versión conserva las mejoras funcionales de SNMPv2, pero 
 reemplaza su modelo de seguridad por el sistema basado en comunidades de SNMPv1, mucho más 
@@ -2851,8 +2776,7 @@ Tal como está actualmente especificada, SNMPv2c es incompatible con SNMPv1 en d
 Por un lado, los mensajes SNMPv2c utilizan una cabecera y una estructura de unidad de datos de 
 protocolo (PDU) distintas a las de SNMPv1, lo que impide la interoperabilidad directa. Por otro lado, 
 SNMPv2c introduce dos operaciones de protocolo que no están definidas en SNMPv1. 
-Para permitir la coexistencia de ambas versiones en una misma red, el RFC 2576 establece dos posibles 
-estrategias: el uso de agentes proxy, que actúan como intermediarios entre dispositivos SNMPv1 y 
+Para permitir la coexistencia de ambas versiones en una misma red, el RFC 2576 establece dos posibles \nestrategias: el uso de agentes proxy, que actúan como intermediarios entre dispositivos SNMPv1 y 
 sistemas de gestión SNMPv2c, y los sistemas de gestión de red bilingües, capaces de comunicarse con 
 agentes SNMPv1 y SNMPv2c seleccionando automáticamente el protocolo adecuado. 
 Agentes de proxy 
@@ -2895,13 +2819,11 @@ SNMPv3 define una versión segura del protocolo y facilita la configuración rem
 Proporciona un entorno protegido para la gestión de sistemas, incluyendo los siguientes aspectos: 
 • Identificación de las entidades SNMP para permitir la comunicación solo entre entidades 
 conocidas. Cada entidad SNMP tiene un identificador llamado snmpEngineID, y la comunicación 
-solo es posible si ambas partes conocen sus identidades. Las trampas y notificaciones son la 
-excepción a esta norma. 
+solo es posible si ambas partes conocen sus identidades. Las trampas y notificaciones son la \nexcepción a esta norma. 
 • Soporte para modelos de seguridad: un modelo de seguridad define políticas dentro de un 
 dominio administrativo o una intranet. SNMPv3 incluye las especificaciones para el USM (User-
 based Security Model). 
-SNMPv3 también define objetivos de seguridad, en los que los servicios de autenticación de mensajes 
-están diseñados para proteger contra: 
+SNMPv3 también define objetivos de seguridad, en los que los servicios de autenticación de mensajes \nestán diseñados para proteger contra: 
 • Modificación de la información: evita que una entidad altere los mensajes SNMP durante su 
 tránsito. 
 • Suplantación (Masquerade): impide que un gestor no autorizado realice operaciones simulando 
@@ -2951,8 +2873,7 @@ que representaba un riesgo elevado.
 En SNMPv3, cada mensaje incluye parámetros de seguridad codificados como una cadena de octetos. 
 El significado de estos parámetros varía según el modelo de seguridad utilizado. SNMPv3 proporciona 
 funciones de seguridad clave: 
-• Confidencialidad: mediante el cifrado de paquetes, evita la interceptación por parte de 
-entidades no autorizadas. 
+• Confidencialidad: mediante el cifrado de paquetes, evita la interceptación por parte de \nentidades no autorizadas. 
 • Integridad: asegura que los mensajes no han sido alterados durante el tránsito, e incluye 
 protección opcional contra repeticiones. 
 • Autenticación: verifica que el mensaje procede de una fuente válida. 
@@ -2994,8 +2915,7 @@ que ha llevado a muchos fabricantes a omitir su soporte, con el objetivo de redu
 desarrollo y disminuir el tamaño del código. 
 Por otro lado, aunque SNMP utiliza una estructura de datos en forma de árbol con indexado lineal que 
 puede parecer simple, este modelo no siempre se adapta bien a las estructuras de datos internas de los 
-sistemas. Como resultado, el procesamiento de ciertas consultas SNMP puede generar una carga 
-excesiva en la CPU, especialmente en conjuntos de datos grandes, como las tablas de enrutamiento 
+sistemas. Como resultado, el procesamiento de ciertas consultas SNMP puede generar una carga \nexcesiva en la CPU, especialmente en conjuntos de datos grandes, como las tablas de enrutamiento 
 BGP o IGP. 
 Además, algunos valores SNMP -especialmente los tabulares- requieren conocimientos específicos 
 sobre esquemas de indexación, los cuales no son consistentes entre plataformas. Esto puede provocar 
@@ -3011,8 +2931,7 @@ Local, es decir, "se puede utilizar SNMP para atacar una red".
  
  
 + Info 
-Un número significativo de herramientas de software podrían 
-escanear la red completa a través de SNMP, por lo que errores de 
+Un número significativo de herramientas de software podrían \nescanear la red completa a través de SNMP, por lo que errores de 
 configuración del modo de lectura-escritura podrían hacer que una 
 red fuese susceptible a los ataques. 
  
@@ -3030,17 +2949,14 @@ Administración de Redes de Área Local
 Estos problemas de seguridad pueden arreglarse con una actualización de IOS.2. 
 Cuando se configura el modo de sólo lectura se debe prestar atención a la configuración del control de 
 accesos y desde qué direcciones IP se aceptan mensajes SNMP. 
-Si los servidores SNMP son identificados por su dirección IP, SNMP solo tiene permitido responder a 
-estas IPs y deberán denegarse mensajes SNMP de otras direcciones. Sin embargo, la suplantación de 
+Si los servidores SNMP son identificados por su dirección IP, SNMP solo tiene permitido responder a \nestas IPs y deberán denegarse mensajes SNMP de otras direcciones. Sin embargo, la suplantación de 
 identidad de direcciones IP sigue siendo una preocupación. 
 Autenticación SNMP 
-SNMP está disponible en varias versiones, 1, 2 y 3; cada una tiene sus problemas de seguridad. SNMP v1 
-envía contraseñas en texto plano a través de la red. 
+SNMP está disponible en varias versiones, 1, 2 y 3; cada una tiene sus problemas de seguridad. SNMP v1 \nenvía contraseñas en texto plano a través de la red. 
 Por lo tanto, las contraseñas pueden leerse mediante detección de paquetes. SNMP v2 permite 
 descomposición de contraseñas con MD5, pero esto hay que configurarlo. 
 Virtualmente todas las aplicaciones de administración de redes soportan SNMP v1, pero no 
-necesariamente SNMP v2 o v3. SNMP v2 fue desarrollado específicamente para proporcionar seguridad 
-en la información, esto es autenticación, privacidad y autorización, pero solamente la versión SNMP 2c 
+necesariamente SNMP v2 o v3. SNMP v2 fue desarrollado específicamente para proporcionar seguridad \nen la información, esto es autenticación, privacidad y autorización, pero solamente la versión SNMP 2c 
 ganó la aprobación del Grupo de trabajo de Ingeniería de Internet (siglas IETF en inglés), mientras las 
 versiones 2u y 2* no obtuvieron la aprobación de IETF debido a problemas de seguridad. SNMP v3 utiliza 
 MD5, Algoritmo de Descomposición Seguro (siglas SHA en inglés) y algoritmos de claves para asegurar la 
@@ -3064,8 +2980,7 @@ probablemente sobre la red misma) que los diseñadores del protocolo consideraro
 inaceptable. 
 Las deficiencias de seguridad en todas las versiones de SNMP pueden mitigarse mediante mecanismos 
 de confidencialidad y autenticación IPsec. 
-La implementación de SNMP sobre la Seguridad de la Capa de Transporte de Datagramas (siglas DTLS 
-en inglés) también está disponible.
+La implementación de SNMP sobre la Seguridad de la Capa de Transporte de Datagramas (siglas DTLS \nen inglés) también está disponible.
 
 ---
 
@@ -3083,23 +2998,18 @@ componente de la red, como un conmutador o un enrutador, es descubierto y agrupa
 automáticamente. 
 En SNMPv1 y v2c esto se realiza a través de una cadena comunitaria que es retransmitida en texto-
 plano a otros dispositivos. Es por este motivo que las cadenas comunitarias que están configuradas por 
-defecto, son públicas para acceso de sólo lectura y privadas para acceso de lectura-escritura:1874SNMP 
-era el primero en la lista de Problemas de Configuración por Defecto Más Comunes del Instituto SANS y 
-el número diez en la lista de Amenazas de Seguridad de Internet Más Críticas del año 2000. 
+defecto, son públicas para acceso de sólo lectura y privadas para acceso de lectura-escritura:1874SNMP \nera el primero en la lista de Problemas de Configuración por Defecto Más Comunes del Instituto SANS y \nel número diez en la lista de Amenazas de Seguridad de Internet Más Críticas del año 2000. 
 Los administradores de redes y sistemas no cambian estas configuraciones frecuentemente:1874 La 
 cadena comunitaria enviada por SNMP a través de la red no está encriptada. En cuanto se conociese la 
 cadena de seguridad fuera de la organización podría convertirse en objetivo para un ataque. Para 
 prevenir el descubrimiento de forma sencilla de la cadena comunitaria, SNMP debe configurarse para 
 pasar las "trampas" de fallos de autenticación de nombres de comunidad y el dispositivo de gestión de 
 SNMP necesita configurarse para reaccionar a la "trampa" de fallo de autenticación. 
-SNMPv1 y v2 son vulnerables a los ataques de suplantación de identidad de direcciones IP, tanto si se 
-ejecuta sobre TCP o UDP, y los sujetos de traspaso de la lista de acceso de dispositivos han sido 
+SNMPv1 y v2 son vulnerables a los ataques de suplantación de identidad de direcciones IP, tanto si se \nejecuta sobre TCP o UDP, y los sujetos de traspaso de la lista de acceso de dispositivos han sido 
 implementados para restringir el acceso SNMP. 
-Los mecanismos de seguridad SNMPv3 cómo USM o TSM previenen el éxito de los ataques. Sería inútil 
-emplear SNMPv3 VACM (Control de acceso basado en Vistas) sin asegurar los mensajes con USM o TSM. 
+Los mecanismos de seguridad SNMPv3 cómo USM o TSM previenen el éxito de los ataques. Sería inútil \nemplear SNMPv3 VACM (Control de acceso basado en Vistas) sin asegurar los mensajes con USM o TSM. 
 6. Gestión de red 
-Existen diferentes herramientas que permiten administrar las redes, algunas de ellas ya las has 
-estudiado en la unidad 1 "Administración del Sistema Operativo y software de base". Te aconsejamos 
+Existen diferentes herramientas que permiten administrar las redes, algunas de ellas ya las has \nestudiado en la unidad 1 "Administración del Sistema Operativo y software de base". Te aconsejamos 
 que las repases: 
 • Herramienta NETSH. 
 • Herramienta NETCAT. 
@@ -3214,8 +3124,7 @@ normalmente es usado en conjunto con otras herramientas y tests.
 Anécdota 
 Nmap ha sido usado en la película The Matrix reloaded, donde el 
 personaje Trinity penetra en el sistema de la central eléctrica, 
-mediante la explotación de vulnerabilidades en el servidor SSH y en 
-el Control de redundancia cíclica, (descubiertas en el 2001).
+mediante la explotación de vulnerabilidades en el servidor SSH y en \nel Control de redundancia cíclica, (descubiertas en el 2001).
 
 ---
 
@@ -3228,8 +3137,7 @@ La interfaz gráfica de Nmap en la película suscitó el interés de las
 discusiones en Internet, y fue comentado como una aparición 
 bastante realista de las herramientas de hacking. 
 Nmap y NmapFE fueron también usados en la película The 
-Listening (2006), sobre un exfuncionario de la NSA 
-estadounidense, que deserta y organiza una estación de 
+Listening (2006), sobre un exfuncionario de la NSA \nestadounidense, que deserta y organiza una estación de 
 contraespionaje en los Alpes italianos. 
 Partes del código fuente de Nmap pueden verse en la película 
 Battle Royale. 
@@ -3309,8 +3217,7 @@ Administración de Redes de Área Local
 funcionamiento/ 
 • https://www.cisco.com/c/es_mx/support/docs/ip/border-gateway-protocol-bgp/5212-
 46.html 
-• https://mundowin.com/5-mejores-soluciones-de-balanceo-de-carga-para-una-distribucion-
-estable-del-trafico-de-la-
+• https://mundowin.com/5-mejores-soluciones-de-balanceo-de-carga-para-una-distribucion-\nestable-del-trafico-de-la-
 red/#:~:text=El%20balanceo%20de%20carga%20permite,ser%20dividida%20durante%20el%2
 0proceso. 
 • https://es.wikipedia.org/wiki/Amazon_EC2 

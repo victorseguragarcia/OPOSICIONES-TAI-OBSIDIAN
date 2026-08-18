@@ -69,7 +69,9 @@ Partiendo de las tablas resultantes:
 > - Cada tabla representa una única entidad o relación.
 > - No existen atributos multivaluados (1FN).
 > - No existen dependencias parciales (2FN).
-> - No existen dependencias transitivas entre atributos no clave ($X ightarrow Y ightarrow Z$) (3FN).
+> - No existen dependencias transitivas entre atributos no clave ($X 
+ightarrow Y 
+ightarrow Z$) (3FN).
 
 ---
 
@@ -85,7 +87,7 @@ ArticulosVendidos (idVenta, idArticulo, cantidad)
 ```
 
 > [!question]- ❓ ¿En qué Forma Normal se encuentra este esquema? ¿Requiere 4FN?
-> **Respuesta Correcta**: Se encuentra en **3FN / BCNF**. No requiere transformaciones para 4FN porque **no existen dependencias multivaluadas independientes** ($X 	woheadrightarrow Y$).
+> **Respuesta Correcta**: Se encuentra en **3FN / BCNF**. No requiere transformaciones para 4FN porque **no existen dependencias multivaluadas independientes** ($X \twoheadrightarrow Y$).
 
 ---
 
@@ -102,7 +104,8 @@ ArticulosVendidos (idVenta, idArticulo, cantidad)
 
 > [!warning] ⚠️ Trampas Típicas de Examen en Normalización
 > 1. **Confundir 2FN con 3FN**: 2FN solo aplica a tablas con **claves primarias compuestas** (si la PK es de un solo atributo y está en 1FN, automáticamente está en 2FN).
-> 2. **BCNF vs 3FN**: La 3FN permite $X ightarrow A$ si $A$ es atributo primo; la BCNF exige estrictamente que $X$ sea superclave sin excepciones.
+> 2. **BCNF vs 3FN**: La 3FN permite $X 
+ightarrow A$ si $A$ es atributo primo; la BCNF exige estrictamente que $X$ sea superclave sin excepciones.
 > 3. **4FN**: Se aplica exclusivamente cuando existen **dos o más atributos multivaluados independientes** en la misma relación.
 
 ---

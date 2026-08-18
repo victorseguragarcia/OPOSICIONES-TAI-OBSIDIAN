@@ -43,7 +43,7 @@ Manual de cálculo de subredes, máscaras de longitud variable (**VLSM**), notac
 
 Para dividir una red `192.168.1.0/24` en subredes de distinto tamaño:
 1. **Ordenar los requisitos de mayor a menor número de hosts**.
-2. **Calcular los bits de host ($h$)** necesarios para cada subred usando la fórmula $2^h - 2 \ge 	ext{Hosts requeridos}$.
+2. **Calcular los bits de host ($h$)** necesarios para cada subred usando la fórmula $2^h - 2 \ge \text{Hosts requeridos}$.
 3. **Asignar las subredes correlativamente** calculando la dirección de red, primer host útil, último host útil y broadcast.
 
 *Ejemplo*:
@@ -75,8 +75,8 @@ Para transformar una dirección MAC `00:1A:2B:3C:4D:5E` en un Interface ID de 64
 
 | Parámetro | Fórmula / Regla |
 |-----------|-----------------|
-| Hosts Útiles IPv4 | $2^{	ext{bits de host}} - 2$ |
-| Número de Subredes | $2^{	ext{bits robados a la red}}$ |
+| Hosts Útiles IPv4 | $2^{\text{bits de host}} - 2$ |
+| Número de Subredes | $2^{\text{bits robados a la red}}$ |
 | Enlace Punto a Punto Estándar | **/30** (2 hosts útiles) |
 | Conversión EUI-64 | Inserta `FFFE` en medio e invierte el **bit 7** del primer byte |
 

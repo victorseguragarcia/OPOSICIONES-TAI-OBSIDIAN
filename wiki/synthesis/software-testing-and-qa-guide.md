@@ -29,7 +29,7 @@ $$V(G) = E - N + 2P$$
 - $E$: Aristas (*Edges*).
 - $N$: Nodos (*Nodes*).
 - $P$: Componentes conexos ($P=1$ para un único programa).
-- **Regla Inmediata**: $V(G) = 	ext{Nodos de Decisión (if/while/for)} + 1$.
+- **Regla Inmediata**: $V(G) = \text{Nodos de Decisión (if/while/for)} + 1$.
 
 ---
 

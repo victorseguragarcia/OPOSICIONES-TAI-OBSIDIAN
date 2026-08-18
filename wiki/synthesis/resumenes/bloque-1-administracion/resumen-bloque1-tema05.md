@@ -7,8 +7,7 @@ tags:
   - bloque-1
   - tema-05
   - derecho-administrativo
-  - age
-estado: "🔴 Pendiente"
+  - age\nestado: "🔴 Pendiente"
 dificultad: "⭐⭐⭐"
 prioridad: "Alta"
 sources:
@@ -75,7 +74,8 @@ updated: "2026-08-18"
 > [!mnemo] 🧠 **Reglas Mnemotécnicas de Retención Visual**
 > - **Prescripción Faltas**: **3 - 2 - 6m** (Muy Graves 3 años, Graves 2 años, Leves 6 meses).
 > - **Prescripción Sanciones**: **3 - 2 - 1** (Muy Graves 3 años, Graves 2 años, Leves 1 año).
-> - **Reserva de Puesto en Cuidado de Familiares**: **1er Año Reserva del Puesto Exacto** $ightarrow$ **2º y 3er Año Reserva en Misma Localidad e Igual Nivel**.
+> - **Reserva de Puesto en Cuidado de Familiares**: **1er Año Reserva del Puesto Exacto** $
+ightarrow$ **2º y 3er Año Reserva en Misma Localidad e Igual Nivel**.
 
 ---
 

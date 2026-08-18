@@ -62,13 +62,13 @@ Resumen de datos técnicos y especificaciones de alta frecuencia de examen para 
 
 | Estándar de Bus | Tipo | Ancho de Banda Teórico | Conector / Notas |
 |:---|:---:|:---:|:---|
-| **USB 2.0 (High Speed)** | Serie | **480 Mbps** ($60	ext{ MB/s}$) | Tipo A / Tipo B / Micro-USB |
-| **USB 3.0 / USB 3.1 Gen 1** | Serie | **5 Gbps** ($500	ext{ MB/s}$) | Tipo A azul / Tipo C |
-| **USB 3.1 Gen 2 / USB 3.2 Gen 2** | Serie | **10 Gbps** ($1,25	ext{ GB/s}$) | Tipo C |
+| **USB 2.0 (High Speed)** | Serie | **480 Mbps** ($60\text{ MB/s}$) | Tipo A / Tipo B / Micro-USB |
+| **USB 3.0 / USB 3.1 Gen 1** | Serie | **5 Gbps** ($500\text{ MB/s}$) | Tipo A azul / Tipo C |
+| **USB 3.1 Gen 2 / USB 3.2 Gen 2** | Serie | **10 Gbps** ($1,25\text{ GB/s}$) | Tipo C |
 | **USB 3.2 Gen 2x2** | Serie | **20 Gbps** | Tipo C (doble carril) |
-| **USB4 / Thunderbolt 3 / 4** | Serie | **40 Gbps** ($5	ext{ GB/s}$) | Tipo C (túnel PCIe + DisplayPort) |
+| **USB4 / Thunderbolt 3 / 4** | Serie | **40 Gbps** ($5\text{ GB/s}$) | Tipo C (túnel PCIe + DisplayPort) |
 | **Thunderbolt 5** | Serie | **80 / 120 Gbps** | Tipo C |
-| **SATA III (SATA 6Gbps)** | Serie | **6 Gbps** ($600	ext{ MB/s}$) | Discos duros y SSDs de 2.5" |
-| **PCIe 3.0 (por línea x1)** | Serie | **1 GB/s** ($x16 = 16	ext{ GB/s}$) | Ranuras de expansión placa base |
-| **PCIe 4.0 (por línea x1)** | Serie | **2 GB/s** ($x16 = 32	ext{ GB/s}$) | Ranuras M.2 NVMe y GPUs |
-| **PCIe 5.0 (por línea x1)** | Serie | **4 GB/s** ($x16 = 64	ext{ GB/s}$) | Servidores y SSDs Gen5 |
+| **SATA III (SATA 6Gbps)** | Serie | **6 Gbps** ($600\text{ MB/s}$) | Discos duros y SSDs de 2.5" |
+| **PCIe 3.0 (por línea x1)** | Serie | **1 GB/s** ($x16 = 16\text{ GB/s}$) | Ranuras de expansión placa base |
+| **PCIe 4.0 (por línea x1)** | Serie | **2 GB/s** ($x16 = 32\text{ GB/s}$) | Ranuras M.2 NVMe y GPUs |
+| **PCIe 5.0 (por línea x1)** | Serie | **4 GB/s** ($x16 = 64\text{ GB/s}$) | Servidores y SSDs Gen5 |

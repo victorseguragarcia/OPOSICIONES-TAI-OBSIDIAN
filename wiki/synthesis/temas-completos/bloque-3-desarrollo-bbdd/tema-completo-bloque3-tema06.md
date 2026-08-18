@@ -6,8 +6,7 @@ tags:
   - temario-extendido
   - bloque-3
   - tema-06
-  - oposiciones-tai
-estado: "🔴 Por Estudiar"
+  - oposiciones-tai\nestado: "🔴 Por Estudiar"
 dificultad: "⭐⭐⭐"
 prioridad: "Máxima"
 sources:
@@ -196,8 +195,7 @@ generales, para resolver los problemas, a las que se les ha denominado arquitect
 a que indican la estructura, funcionamiento e interacción entre las partes del software (a semejanza de 
 los planos de un edificio o construcción). 
 En el libro "An Introduction to Software Architecture", sus autores David Garlan y Mary Shaw definen 
-que la arquitectura es un nivel de diseño que hace foco en aspectos "más allá de los algoritmos y 
-estructuras de datos de la computación; el diseño y especificación de la estructura global del sistema es 
+que la arquitectura es un nivel de diseño que hace foco en aspectos "más allá de los algoritmos y \nestructuras de datos de la computación; el diseño y especificación de la estructura global del sistema es 
 un nuevo tipo de problema". 
  
  
@@ -209,8 +207,7 @@ años 1990 tras reconocerse la denominada crisis del software y
 como tema de interés de la incipiente disciplina de la ingeniería del 
 software. 
 Aunque en los años 1960 ya se acercaba el concepto de 
-arquitectura de software en los círculos de investigación (por 
-ejemplo, por Edsger Dijkstra). 
+arquitectura de software en los círculos de investigación (por \nejemplo, por Edsger Dijkstra). 
  
 Arquitectura a nivel de software 
 La arquitectura a nivel de software (también denominada arquitectura lógica) es el diseño de más alto 
@@ -262,8 +259,7 @@ Las vistas o modelos de una arquitectura de software pueden expresarse mediante 
 lenguajes (diagramas de estado, los diagramas de flujo de datos, etc.). 
 Existe cierto consenso en adoptar UML (Unified Modeling Language, lenguaje unificado de modelado) 
 como lenguaje único para todos los modelos o vistas. Pero surge el problema de que un lenguaje 
-generalista no sea capaz de describir determinadas restricciones de un sistema de información (o 
-expresarlas de manera comprensible). 
+generalista no sea capaz de describir determinadas restricciones de un sistema de información (o \nexpresarlas de manera comprensible). 
  
 
 <!-- Page 7 -->
@@ -330,8 +326,7 @@ un proceso comprendido por varias fases secuenciales, siendo la entrada de cada 
 la anterior. 
 El pipeline es una técnica para implementar simultaneidad a nivel de instrucciones dentro de un 
 solo procesador. 
-Pipelining intenta mantener ocupada a cada parte del procesador, dividiendo las instrucciones 
-entrantes en una serie de pasos secuenciales, que se realizan por diferentes unidades del 
+Pipelining intenta mantener ocupada a cada parte del procesador, dividiendo las instrucciones \nentrantes en una serie de pasos secuenciales, que se realizan por diferentes unidades del 
 procesador que trabajan de forma simultánea. Aumenta el rendimiento de la CPU a una 
 velocidad de reloj determinada, aunque puede aumentar la latencia debido a la sobrecarga 
 adicional del proceso de pipeline en sí. 
@@ -372,8 +367,7 @@ la solución del problema.
 La pizarra tiene un doble papel: 
 • Coordina a los distintos agentes. 
 • Facilita su intercomunicación. 
-La computación termina cuando se alcanza alguna condición deseada entre los resultados 
-escritos en la pizarra. 
+La computación termina cuando se alcanza alguna condición deseada entre los resultados \nescritos en la pizarra. 
 Los resultados generados por los agentes deben responder a un lenguaje y semántica común, 
 generalmente se utilizan formalismos lógicos o matemáticos, tales como expresiones lógicas de 
 primer orden. 
@@ -386,8 +380,7 @@ Fue el primer producto propuesto por OMG. Su objetivo es ayudar a reducir la com
 disminuir los costes y acelerar la introducción de nuevas aplicaciones informáticas, promoviendo 
 la teoría y la práctica de la tecnología de objetos en los sistemas distribuidos. 
 Es una tecnología que oculta la programación a bajo nivel de aplicaciones distribuidas, que 
-también brinda al programador una tecnología orientada a objetos (las funciones objetos y 
-estos objetos pueden estar en diferentes máquinas, pero el programador accede a ellos a través 
+también brinda al programador una tecnología orientada a objetos (las funciones objetos y \nestos objetos pueden estar en diferentes máquinas, pero el programador accede a ellos a través 
 de funciones normales dentro de su programa). 
 
 <!-- Page 10 -->
@@ -419,8 +412,7 @@ para los servicios software, se crea un estándar, W3C define una arquitectura d
 Con la necesidad de integración entre sistemas muy heterogéneos, tanto software como 
 hardware. Muchas empresas comenzaron grandes proyectos para lograr la mejor tecnología 
 integradora de sistemas, percatándose de la imposibilidad de crear una plataforma integrada de 
-forma individual, se buco un lenguaje común de intercambio de información aprovechando los 
-estándares existentes en el mercado, nacen así los Servicios Web basados en XML. 
+forma individual, se buco un lenguaje común de intercambio de información aprovechando los \nestándares existentes en el mercado, nacen así los Servicios Web basados en XML. 
 La definición de W3C aporta la información relevante sobre la estructura y patrón de 
 interacción de un servicio web, siendo necesario el rol de un proveedor de servicio, y un 
 consumidor del mismo. Y También debe poderse localizar en la red tal funcionalidad, para lo 
@@ -440,8 +432,7 @@ Algunos consideran que es una especialización de una forma de implementar SOA.
 Arquitecturas de Sistemas. Arquitectura Cliente/Servidor y Multicapas. Arquitectura de Servicios web 
 y protocolos asociados 
 11 
-Consiste en construir una aplicación como un conjunto de pequeños servicios, los cuales se 
-ejecutan en su propio proceso y se comunican con mecanismos ligeros (normalmente una API 
+Consiste en construir una aplicación como un conjunto de pequeños servicios, los cuales se \nejecutan en su propio proceso y se comunican con mecanismos ligeros (normalmente una API 
 de recursos HTTP). 
 Cada servicio se encarga de implementar una funcionalidad completa, es desplegado de forma 
 independiente, puede estar programado en distintos lenguajes y usar diferentes tecnologías de 
@@ -450,13 +441,11 @@ almacenamiento de datos.
 Es un patrón de arquitectura software que promueve la producción, detección, consumo de, y 
 reacción a eventos. Un evento puede ser definido como "un cambio significativo en un estado". 
 Lo que es producido, publicado, propagado, detectado o consumido es un mensaje (típicamente 
-asíncrono) llamado notificación del evento, y no el evento en sí mismo, el cual es el cambio de 
-estado que disparó la emisión del evento. Los eventos no viajan, solamente ocurren. 
+asíncrono) llamado notificación del evento, y no el evento en sí mismo, el cual es el cambio de \nestado que disparó la emisión del evento. Los eventos no viajan, solamente ocurren. 
 Un sistema dirigido por eventos está compuesto típicamente de: 
 • Emisores de eventos (o agentes). 
 • Y consumidores de eventos (o "sink" en inglés). 
-Los consumidores tienen la responsabilidad de llevar a cabo una reacción tan pronto como el 
-evento esté presente. La reacción puede o no puede ser completamente proporcionada por el 
+Los consumidores tienen la responsabilidad de llevar a cabo una reacción tan pronto como el \nevento esté presente. La reacción puede o no puede ser completamente proporcionada por el 
 consumidor en sí mismo. Por ejemplo, el consumidor debe tener solamente la responsabilidad 
 de filtrar, transformar y reenviar el evento a otro componente o debe proporcionar una 
 reacción propia a algún evento. 
@@ -465,9 +454,7 @@ que transmitan eventos entre componentes software que estén emparejados libreme
 servicios. También puede complementar la arquitectura orientada a servicios (SOA) porque los 
 servicios pueden ser activados por disparadores que se encuentran en eventos entrantes. 
 • Basada en el espacio. 
-Está arquitectura está diseñada específicamente para abordar y resolver problemas de 
-escalabilidad y concurrencia, para evitar el colapso funcional bajo una gran carga al dividir tanto 
-el procesamiento como el almacenamiento entre múltiples dispositivos de un servidor y otro, y 
+Está arquitectura está diseñada específicamente para abordar y resolver problemas de \nescalabilidad y concurrencia, para evitar el colapso funcional bajo una gran carga al dividir tanto \nel procesamiento como el almacenamiento entre múltiples dispositivos de un servidor y otro, y 
 también es un patrón útil para las aplicaciones que tienen volúmenes de usuarios concurrentes 
 variables e impredecibles. 
 La alta escalabilidad se logra eliminando la restricción de la base de datos central y utilizando en 
@@ -476,8 +463,7 @@ Las arquitecturas basadas en el espacio no suelen estar desacopladas y distribui
 Algunas de sus ventajas son: 
 • Respuesta rápida ante un entorno en constante cambio. 
 • Son dinámicas, y muy escalables ya que se depende poco o nada de una base de datos 
-centralizada, con lo que se elimina esencialmente este cuello de botella limitante de la 
-ecuación de la escalabilidad en un servidor. 
+centralizada, con lo que se elimina esencialmente este cuello de botella limitante de la \necuación de la escalabilidad en un servidor. 
 
 <!-- Page 12 -->
 
@@ -498,8 +484,7 @@ Proponemos aquí una definición complementaria de "Interoperabilidad", a la fac
 la Unidad "Acceso Electrónico de los ciudadanos..." por el Marco Iberoamericano de Interoperabiliad. 
 La interoperabilidad entre sistemas se refiere a la capacidad de diferentes sistemas de información, 
 plataformas o aplicaciones -incluso habiéndo sido desarrollados con tecnologías distintas- para 
-intercambiar datos, interpretarlos correctamente y utilizarlos de forma efectiva. Esta capacidad es 
-esencial en entornos complejos donde coexisten soluciones heterogéneas, como las administraciones 
+intercambiar datos, interpretarlos correctamente y utilizarlos de forma efectiva. Esta capacidad es \nesencial en entornos complejos donde coexisten soluciones heterogéneas, como las administraciones 
 públicas, los servicios sanitarios o las empresas con sistemas heredados. 
 El objetivo principal de la interoperabilidad es garantizar una comunicación fluida y significativa entre 
 sistemas que, de otro modo, estarían aislados. Esto permite que los datos fluyan sin barreras técnicas, 
@@ -514,8 +499,7 @@ Entre los objetivos específicos de la interoperabilidad destacan:
 1.2.2. Niveles de Interoperabilidad 
 Resumimos aquí un contenido tratado ya en el bloque I, "Acceso electrónico de los ciudadanos...".  
 La interoperabilidad se estructura habitualmente en distintos niveles, cada uno de los cuales resuelve 
-barreras de diferente naturaleza en el intercambio y uso de la información. Estos niveles no son 
-excluyentes, sino complementarios, y su adecuada coordinación es esencial para lograr una 
+barreras de diferente naturaleza en el intercambio y uso de la información. Estos niveles no son \nexcluyentes, sino complementarios, y su adecuada coordinación es esencial para lograr una 
 interoperabilidad efectiva y sostenible. 
 
 <!-- Page 13 -->
@@ -528,32 +512,26 @@ y protocolos asociados
 Interoperabilidad técnica 
 Este nivel se refiere a la capacidad de los sistemas y aplicaciones para conectarse entre sí y compartir 
 datos mediante infraestructuras, redes, interfaces, lenguajes de intercambio y formatos de datos 
-compatibles. Incluye el uso de protocolos de comunicación estándar (como HTTP, FTP, SOAP o REST), 
-estructuras de datos comunes (como XML o JSON) y mecanismos de seguridad (como cifrado o 
+compatibles. Incluye el uso de protocolos de comunicación estándar (como HTTP, FTP, SOAP o REST), \nestructuras de datos comunes (como XML o JSON) y mecanismos de seguridad (como cifrado o 
 autenticación). 
 Interoperabilidad semántica 
-Va más allá del intercambio de datos: garantiza que el significado de los datos intercambiados sea 
-entendido por todas las partes implicadas. Para ello, es necesario definir estructuras semánticas 
+Va más allá del intercambio de datos: garantiza que el significado de los datos intercambiados sea \nentendido por todas las partes implicadas. Para ello, es necesario definir estructuras semánticas 
 comunes (ontologías, vocabularios controlados, taxonomías) que permitan interpretar correctamente 
 la información. Por ejemplo, que "fecha de nacimiento" tenga la misma definición, formato y sentido en 
 todos los sistemas que la usan. 
 Interoperabilidad organizativa 
-Afecta a los procesos, políticas y acuerdos entre organizaciones que desean colaborar. Implica 
-establecer mecanismos de coordinación, responsabilidades claras, acuerdos de nivel de servicio (SLA), 
+Afecta a los procesos, políticas y acuerdos entre organizaciones que desean colaborar. Implica \nestablecer mecanismos de coordinación, responsabilidades claras, acuerdos de nivel de servicio (SLA), 
 gobernanza del dato y flujos de trabajo interoperables. Este nivel asegura que la interoperabilidad 
 técnica y semántica se traduzca en un funcionamiento real entre entidades. 
 Interoperabilidad legal 
-Se refiere a la adecuación normativa que permite o regula el intercambio de datos entre sistemas, 
-especialmente cuando hay distintos organismos implicados. Esto incluye el cumplimiento del 
+Se refiere a la adecuación normativa que permite o regula el intercambio de datos entre sistemas, \nespecialmente cuando hay distintos organismos implicados. Esto incluye el cumplimiento del 
 Reglamento General de Protección de Datos (RGPD), la Ley 39/2015 del Procedimiento 
 Administrativo Común, o la Ley 40/2015 de Régimen Jurídico del Sector Público, entre otras. 
 Estos niveles están reconocidos en normativas internacionales y nacionales como el Esquema Nacional 
 de Interoperabilidad (ENI), que establece los principios básicos y guías para su aplicación en el ámbito 
 de las Administraciones Públicas españolas. 
 1.2.3. Protocolos y estándares comunes 
-La interoperabilidad entre sistemas requiere el uso de protocolos y estándares que garanticen el 
-entendimiento mutuo, la compatibilidad tecnológica y la eficiencia en los intercambios. Estos 
-estándares abarcan desde formatos de datos hasta lenguajes de comunicación y modelos semánticos. A 
+La interoperabilidad entre sistemas requiere el uso de protocolos y estándares que garanticen el \nentendimiento mutuo, la compatibilidad tecnológica y la eficiencia en los intercambios. Estos \nestándares abarcan desde formatos de datos hasta lenguajes de comunicación y modelos semánticos. A 
 continuación se presentan los más utilizados en distintos niveles de interoperabilidad: 
 
 <!-- Page 14 -->
@@ -567,16 +545,13 @@ Protocolos de comunicación e intercambio de datos
 • HTTP/HTTPS (Hypertext Transfer Protocol): Protocolo básico de la web, utilizado también 
 para APIs RESTful. HTTPS añade una capa de seguridad mediante cifrado TLS, desarrollados en 
 la Ud "Internet: arquitectura de red..." del bloque IV. 
-• FTP/SFTP (File Transfer Protocol / Secure FTP): Utilizados para la transferencia de archivos 
-entre sistemas, ya sea de forma abierta o segura. Protocolos tratados en la Ud "El modelo 
+• FTP/SFTP (File Transfer Protocol / Secure FTP): Utilizados para la transferencia de archivos \nentre sistemas, ya sea de forma abierta o segura. Protocolos tratados en la Ud "El modelo 
 TCP/IP..." del bloque IV. 
-• SOAP (Simple Object Access Protocol): Protocolo basado en XML para el intercambio 
-estructurado de información entre servicios web, usado en entornos corporativos por su 
+• SOAP (Simple Object Access Protocol): Protocolo basado en XML para el intercambio \nestructurado de información entre servicios web, usado en entornos corporativos por su 
 robustez y estandarización. Hablamos de este protocolo un poco más adelante en esta misma 
 unidad. 
 • REST (Representational State Transfer): Arquitectura para servicios web más ligera que SOAP, 
-basada en HTTP y normalmente utilizando JSON o XML para representar recursos. Tratado en 
-esta misma unidad, un poco más adelante. 
+basada en HTTP y normalmente utilizando JSON o XML para representar recursos. Tratado en \nesta misma unidad, un poco más adelante. 
 • MQTT (Message Queuing Telemetry Transport): Es un protocolo ligero y eficiente, diseñado 
 para comunicaciones en entornos con recursos limitados, como el Internet de las Cosas (IoT). 
 Opera sobre TCP/IP y se basa en un modelo de publicación/suscripción con distintos niveles de 
@@ -592,13 +567,9 @@ Formatos de datos e intercambio
 representar datos en servicios web y documentos estructurados, tratado más adelante en esta 
 misma unidad así como en la Unidad de "Aplicaciones Web..." de este mismo bloque. 
 • JSON (JavaScript Object Notation): Formato ligero de datos, muy utilizado en APIs modernas 
-por su simplicidad y compatibilidad con JavaScript y múltiples lenguajes, tratado más 
-extensamente en la Unidad "Aplicaciones Web...". 
-• CSV (Comma-Separated Values): Formato sencillo de intercambio de datos tabulares, 
-especialmente útil para integraciones con hojas de cálculo o bases de datos. 
-• RDF (Resource Description Framework): Estándar del W3C para describir recursos y relaciones 
-en la web semántica, facilita la interoperabilidad semántica y el enlace de datos, tratado más 
-extensamente en la Unidad "Accesibilidad, diseño univsersal..." del bloque III. 
+por su simplicidad y compatibilidad con JavaScript y múltiples lenguajes, tratado más \nextensamente en la Unidad "Aplicaciones Web...". 
+• CSV (Comma-Separated Values): Formato sencillo de intercambio de datos tabulares, \nespecialmente útil para integraciones con hojas de cálculo o bases de datos. 
+• RDF (Resource Description Framework): Estándar del W3C para describir recursos y relaciones \nen la web semántica, facilita la interoperabilidad semántica y el enlace de datos, tratado más \nextensamente en la Unidad "Accesibilidad, diseño univsersal..." del bloque III. 
 
 <!-- Page 15 -->
 
@@ -610,8 +581,7 @@ y protocolos asociados
 Estándares semánticos y de metadatos 
 • Dublin Core: Conjunto de metadatos estándar para describir contenidos digitales, utilizado en 
 bibliotecas, archivos y repositorios digitales. 
-• Schema.org: Esquema colaborativo impulsado por Google, Microsoft, Yahoo y Yandex para 
-estructurar información y facilitar su uso en buscadores y aplicaciones. 
+• Schema.org: Esquema colaborativo impulsado por Google, Microsoft, Yahoo y Yandex para \nestructurar información y facilitar su uso en buscadores y aplicaciones. 
 • SKOS (Simple Knowledge Organization System): Modelo para representar esquemas de 
 clasificación como tesauros, taxonomías o listas de autoridad. 
 Normas y marcos legales en interoperabilidad pública 
@@ -647,8 +617,7 @@ Arquitecturas de Sistemas. Arquitectura Cliente/Servidor y Multicapas. Arquitect
 y protocolos asociados 
 16 
 Beneficios 
-Los beneficios de la interoperabilidad son múltiples. Desde el punto de vista técnico, incrementa la 
-eficiencia operativa al evitar procesos manuales o redundantes. Desde una perspectiva estratégica, 
+Los beneficios de la interoperabilidad son múltiples. Desde el punto de vista técnico, incrementa la \neficiencia operativa al evitar procesos manuales o redundantes. Desde una perspectiva estratégica, 
 mejora la calidad del servicio, favorece la toma de decisiones basadas en datos integrados y permite 
 adaptarse con mayor rapidez a cambios del entorno. Además, fortalece la seguridad y el cumplimiento 
 normativo, al establecer canales estandarizados y controlados para el intercambio de información. 
@@ -686,8 +655,7 @@ y protocolos asociados
 17 
 Un sistema en red se compone de un conjunto de ordenadores que se conectan entre sí a través 
 de una infraestructura de red. 
-La máquina que proporciona el acceso a un recurso determinado (disco duro, impresora, 
-etcétera) se denomina servidor del recurso. 
+La máquina que proporciona el acceso a un recurso determinado (disco duro, impresora, \netcétera) se denomina servidor del recurso. 
 Los clientes pueden utilizar recursos locales o acceder a recursos remotos (a través de una 
 solicitud al servidor correspondiente). 
 El desarrollo de protocolos comunes, como TCP/IP, ha permitido interconectar las máquinas 
@@ -735,8 +703,7 @@ Un sistema distribuido es un conjunto de ordenadores
 interconectados que comparten un estado, ofreciendo una visión 
 de sistema único. 
 Un sistema en red puede definirse como un conjunto de sistemas 
-con estados independientes, en un sistema distribuido se define un 
-estado global. 
+con estados independientes, en un sistema distribuido se define un \nestado global. 
  
  
 El usuario y las aplicaciones no ven una red, sino un sistema indistinguible de uno centralizado. Los 
@@ -750,8 +717,7 @@ mantenidos por el Object Management Group (OMG).
 ORB (Object Request Broker) en computación distribuida, es el nombre que recibe una capa de 
 software (llamada middleware) que permite a los objetos realizar llamadas a métodos situados en 
 máquinas remotas, a través de una red. Maneja la transferencia de estructuras de datos, de manera que 
-sean compatibles entre los dos objetos, utilizando un estándar para convertir las estructuras de datos 
-en un flujo de bytes, conservando el orden de los bytes entre distintas arquitecturas, proceso que se 
+sean compatibles entre los dos objetos, utilizando un estándar para convertir las estructuras de datos \nen un flujo de bytes, conservando el orden de los bytes entre distintas arquitecturas, proceso que se 
 denomina marshalling (y también está su opuesto, llamado unmarshalling). 
 ORB, básicamente permite a objetos distribuidos interactuar entre sí de manera transparente, es decir, 
 como si estuviesen en la misma máquina. 
@@ -769,8 +735,7 @@ y protocolos asociados
 • Concurrencia: permite que los recursos disponibles en la red puedan ser utilizados 
 simultáneamente por los usuarios que interactúan en la red. 
 • Carencia de reloj global: Las coordinaciones para la transferencia de mensajes entre los 
-diferentes componentes para la realización de una tarea, no tienen una temporización general, 
-está más bien distribuida a los componentes. 
+diferentes componentes para la realización de una tarea, no tienen una temporización general, \nestá más bien distribuida a los componentes. 
 • Fallos independientes de los componentes: si un componente del sistema falla, los demás 
 pueden continuar ejecutando sus acciones, el sistema en conjunto continúa trabajando, 
 logrando mayor efectividad en las tareas. 
@@ -830,8 +795,7 @@ y protocolos asociados
 Otros tipos de transparencia son: 
 • De replicación: ni los usuarios ni las aplicaciones conocen cuántas unidades hay de cada recurso, 
 ni si se añaden o eliminan copias del recurso. La replicación es compleja de gestionar. 
-• De paralelismo: una aplicación puede ejecutarse en paralelo sin que la aplicación tenga que 
-especificarlo y sin consecuencias sobre la ejecución (salvo por cuestiones de rendimiento). 
+• De paralelismo: una aplicación puede ejecutarse en paralelo sin que la aplicación tenga que \nespecificarlo y sin consecuencias sobre la ejecución (salvo por cuestiones de rendimiento). 
 • De compartición: el acceso simultáneo a un recurso compartido por parte de varias aplicaciones 
 no debe tener ningún efecto sobre la ejecución. 
 • De rendimiento: implementar las propiedades de los sistemas distribuidos tiene un coste de 
@@ -894,8 +858,7 @@ La disponibilidad se puede incrementar de dos formas:
 (aunque con un rendimiento menor). 
 • Tolerancia a fallos: La replicación aumenta la disponibilidad, pero no garantiza por sí sola la 
 continuidad del servicio de forma transparente. 
-La tolerancia a fallos expresa la capacidad del sistema para seguir operando correctamente ante 
-el fallo de alguno de sus componentes, enmascarando el fallo al usuario o a la aplicación. 
+La tolerancia a fallos expresa la capacidad del sistema para seguir operando correctamente ante \nel fallo de alguno de sus componentes, enmascarando el fallo al usuario o a la aplicación. 
 Por lo tanto, la tolerancia a fallos implica: 
 • Detectar el fallo. 
 • Continuar el servicio de forma transparente para la aplicación (transparencia de fallos). 
@@ -1052,11 +1015,9 @@ Edonkey o Emule son ejemplos de aplicaciones P2P.
  
  
 Red P2P (fuente: 
-https://commons.wikimedia.org/wiki/Fil
-e:P2P-network.svg) 
+https://commons.wikimedia.org/wiki/Fil\ne:P2P-network.svg) 
 Movilidad 
-En la actualidad utilizamos gran cantidad de dispositivos (PC, portátiles, tabletas, teléfonos móviles, 
-etcétera). 
+En la actualidad utilizamos gran cantidad de dispositivos (PC, portátiles, tabletas, teléfonos móviles, \netcétera). 
 Esto dificulta el acceso a nuestra información, ya que al modificar algo en un dispositivo debemos 
 actualizarlo en el resto. 
 
@@ -1156,8 +1117,7 @@ Son muy comunes los sistemas multicapa en los que el servidor se descompone en d
 programas que pueden ser ejecutados por diferentes computadoras aumentando así el grado de 
 distribución del sistema. 
 La estructura cliente/servidor es una arquitectura en la que uno o varios clientes, que pueden estar 
-distribuidos geográficamente, solicitan servicios a uno o más servidores (los cuales también pueden 
-estar distribuidos geográficamente). 
+distribuidos geográficamente, solicitan servicios a uno o más servidores (los cuales también pueden \nestar distribuidos geográficamente). 
 La arquitectura cliente/servidor es una arquitectura distribuida. Las tareas se reparten entre distintos 
 servidores de forma transparente al usuario. 
 3.1. Características 
@@ -1206,8 +1166,7 @@ los recursos compartidos.
 atendiendo a quien procesa el trabajo, los clientes y servidores pueden ser activos o pasivos: 
 • Activos. Realizan el trabajo indicado. 
 • Pasivos. Sólo procesan información. 
-El Cliente y el Servidor pueden actuar como una sola entidad y también pueden actuar como 
-entidades separadas, realizando actividades o tareas independientes. 
+El Cliente y el Servidor pueden actuar como una sola entidad y también pueden actuar como \nentidades separadas, realizando actividades o tareas independientes. 
 
 <!-- Page 32 -->
 
@@ -1287,8 +1246,7 @@ y protocolos asociados
  
 Atención 
 La interacción entre el cliente y el servidor se describe a menudo 
-usando diagramas de secuencia. Los diagramas de secuencia se 
-estandarizan en el UML. Es importante que los clientes no 
+usando diagramas de secuencia. Los diagramas de secuencia se \nestandarizan en el UML. Es importante que los clientes no 
 interactúen entre sí ni que lo hagan clientes de capas bajas hacia 
 otros de capas más altas, por eso todo tiene que pasar por el 
 servidor. 
@@ -1399,16 +1357,13 @@ Un servidor apátrida no guarda ninguna información entre las
 peticiones. 
 • Un servidor stateful puede recordar la información entre 
 las peticiones. 
-• El alcance de esta información puede ser global o sesión-
-específico. 
-Un servidor del HTTP para las páginas estáticas del HTML es un 
-ejemplo de un servidor, apátrida mientras que Apache Tomcat es 
+• El alcance de esta información puede ser global o sesión-\nespecífico. 
+Un servidor del HTTP para las páginas estáticas del HTML es un \nejemplo de un servidor, apátrida mientras que Apache Tomcat es 
 un ejemplo de un servidor stateful. 
  
 3.4.3. Middleware 
 El middleware es un módulo intermedio que actúa como conductor entre sistemas, permitiendo a 
-cualquier usuario de sistemas de información comunicarse con varias fuentes de información que se 
-encuentran conectadas por una red. 
+cualquier usuario de sistemas de información comunicarse con varias fuentes de información que se \nencuentran conectadas por una red. 
 Es un software distribuido para interacciones entre cliente y servidor, y se ejecuta en ambas partes. 
 Es responsable del buen funcionamiento, especialmente en N niveles. 
 El middleware, actúa desde la API del cliente usada para invocar el servicio, la transmisión de la solicitud 
@@ -1490,8 +1445,7 @@ de información ejecutiva (EIS o Executive Information System).
 3.5.1.2. Fat Server (Thin Client) 
 Es el caso contrario al anterior. El proceso cliente tan solo funciona como un interfaz de usuario para 
 presentar datos. El servidor se encarga del peso de la aplicación y del acceso a las bases de datos. 
-Es decir, el nivel de presentación está en el cliente y los niveles de aplicación y de base de datos están en 
-el servidor. 
+Es decir, el nivel de presentación está en el cliente y los niveles de aplicación y de base de datos están en \nel servidor. 
 Este tipo de arquitectura ofrece mayor flexibilidad para el desarrollo de aplicaciones, especialmente se 
 utiliza en sistemas de misión crítica (a través de servidores de transacciones). 
  
@@ -1589,8 +1543,7 @@ concepto de transacción.
 Con un servidor de transacciones, el proceso cliente llama a funciones, procedimientos o métodos que 
 residen en el servidor, ya se trate de un servidor de bases de datos o un servidor de aplicaciones. 
 Lo importante es que el intercambio a través de la red se realiza mediante un único mensaje de 
-solicitud/respuesta. No importa el número de funciones, instrucciones o sentencias SQL que hay que 
-ejecutar, todas estarán agrupadas en una unidad lógica (transacción). 
+solicitud/respuesta. No importa el número de funciones, instrucciones o sentencias SQL que hay que \nejecutar, todas estarán agrupadas en una unidad lógica (transacción). 
  
  
  
@@ -1667,8 +1620,7 @@ conceptos, para facilitar la tarea de desarrollo de aplicaciones y su posterior 
  
  
 + Info 
-Aunque originalmente MVC fue desarrollado para aplicaciones de 
-escritorio, ha sido adaptado como arquitectura para diseñar e 
+Aunque originalmente MVC fue desarrollado para aplicaciones de \nescritorio, ha sido adaptado como arquitectura para diseñar e 
 implementar aplicaciones web. Se han desarrollado multitud de 
 frameworks, comerciales y no comerciales, que implementan este 
 patrón. 
@@ -1676,8 +1628,7 @@ patrón.
 Flujo de comunicación en MVC 
 El flujo de comunicación en MVC sigue una secuencia bien definida que comienza cuando el usuario 
 interactúa con la vista. Esta envía la acción al controlador, quien se encarga de procesar la petición y 
-trabajar con el modelo si es necesario. El modelo actualiza los datos y notifica los cambios, momento en 
-el que el controlador selecciona la vista apropiada para mostrar la respuesta al usuario. Es fundamental 
+trabajar con el modelo si es necesario. El modelo actualiza los datos y notifica los cambios, momento en \nel que el controlador selecciona la vista apropiada para mostrar la respuesta al usuario. Es fundamental 
 comprender que la vista nunca se comunica directamente con el modelo, manteniendo así una 
 separación clara de responsabilidades. 
 Responsabilidades específicas de cada componente 
@@ -1688,9 +1639,7 @@ a la presentación de los datos, limitándose a mostrar la información que reci
 controlador actúa como el coordinador principal, validando los datos antes de enviarlos al modelo y 
 tomando la decisión sobre qué vista debe mostrarse en cada momento. 
 Ventajas prácticas del patrón 
-Entre las ventajas más significativas destaca la posibilidad de desarrollo paralelo, donde diferentes 
-equipos pueden trabajar simultáneamente en los distintos componentes. Esta separación facilita 
-enormemente las pruebas individualizadas de cada módulo y simplifica el mantenimiento al permitir 
+Entre las ventajas más significativas destaca la posibilidad de desarrollo paralelo, donde diferentes \nequipos pueden trabajar simultáneamente en los distintos componentes. Esta separación facilita \nenormemente las pruebas individualizadas de cada módulo y simplifica el mantenimiento al permitir 
 localizar errores de manera más rápida y eficiente. La reutilización de componentes en otras partes de 
 la aplicación se ve notablemente mejorada gracias a esta arquitectura. 
 
@@ -1704,8 +1653,7 @@ y protocolos asociados
 Consideraciones prácticas 
 Es importante tener en cuenta que MVC introduce una complejidad inicial mayor que otros enfoques, 
 por lo que puede no ser la opción más adecuada para aplicaciones muy simples o prototipos rápidos. La 
-curva de aprendizaje también es un factor a considerar, especialmente para desarrolladores que se 
-enfrentan por primera vez a este patrón de arquitectura. 
+curva de aprendizaje también es un factor a considerar, especialmente para desarrolladores que se \nenfrentan por primera vez a este patrón de arquitectura. 
 Ejemplos en tecnologías actuales 
 Este patrón ha demostrado su vigencia a lo largo del tiempo y se mantiene ampliamente utilizado en 
 frameworks modernos. Encontramos implementaciones en: 
@@ -1842,8 +1790,7 @@ recuperar datos de él. (También se consideran aquí los programas de aplicaci�
 Es la que ve el usuario (también llamada capa de usuario), presenta el sistema al usuario. 
 También es conocida como interfaz gráfica y debe tener la característica de ser «amigable» 
 (entendible y fácil de usar) para el usuario. Esta capa se comunica únicamente con la capa de 
-negocio., (Para capturar la información del usuario realiza una comprobación de que no hay 
-errores de formato). 
+negocio., (Para capturar la información del usuario realiza una comprobación de que no hay \nerrores de formato). 
 • Capa de datos: 
 Aquí residen los datos, y es la encargada de acceder a los mismos. Está formada por uno o más 
 gestores de bases de datos que, reciben solicitudes de almacenamiento o recuperación de 
@@ -1903,9 +1850,7 @@ y protocolos asociados
 50 
 • Esta configuración no es fácilmente escalable en sistemas de gran, e incluso medio, tamaño 
 (50 o más clientes conectados). 
-• Entonces el Interfaz Gráfico de Usuario (GUI, Graphical User Interface) emerge como el 
-entorno dominante para las aplicaciones de escritorio y con él, emerge un nuevo enfoque 
-en el planteamiento inicial de la arquitectura de dos capas. 
+• Entonces el Interfaz Gráfico de Usuario (GUI, Graphical User Interface) emerge como el \nentorno dominante para las aplicaciones de escritorio y con él, emerge un nuevo enfoque \nen el planteamiento inicial de la arquitectura de dos capas. 
 » El servidor de ficheros en red de propósito general se reemplaza por un servidor de 
 bases de datos especializado. 
 » Esto modelo origina la aparición de nuevas herramientas de desarrollo: PowerBuilder, 
@@ -2018,8 +1963,7 @@ y protocolos asociados
 • Esta capa intermedia contiene la mayor parte de la lógica de la aplicación, traduciendo las 
 llamadas del cliente en consultas (u otras acciones) a la base de datos y traduciendo los datos 
 provenientes de la base de datos en datos del cliente para devolvérselos. 
-• Este emplazamiento de la lógica de negocio sobre el servidor de aplicaciones proporciona 
-escalabilidad y aislamiento de la lógica de negocio con el fin de manejar rápidamente los 
+• Este emplazamiento de la lógica de negocio sobre el servidor de aplicaciones proporciona \nescalabilidad y aislamiento de la lógica de negocio con el fin de manejar rápidamente los 
 cambios necesarios de ésta. 
 • Además, este hecho permite ampliar las opciones en lo que se refiere a la elección de un 
 software propietario de bases de datos. 
@@ -2058,8 +2002,7 @@ y protocolos asociados
 utilizando SQL estándar que es independiente de la plataforma. 
 • La lógica de la aplicación se puede utilizar un lenguaje estándar como Java, C o COBOL. 
 Inconvenientes 
-• Dependiendo de la elección de los lenguajes de desarrollo, puede presentar mayor complejidad 
-en comparación con el uso de dos niveles. 
+• Dependiendo de la elección de los lenguajes de desarrollo, puede presentar mayor complejidad \nen comparación con el uso de dos niveles. 
 • Los ambientes de tres capas pueden incrementar el tráfico en la red. 
 3.6.2.3. Modelo de N capas (N-Layer) 
 Se realiza una distribución jerárquica de las responsabilidades y de los roles, para obtener el objetivo de 
@@ -2068,8 +2011,7 @@ Las responsabilidades indican la funcionalidad que implementan.
 Los roles indican el tipo y la forma de la interacción con otras capas. 
 Características 
 • La funcionalidad de cada capa está claramente separada, contiene solo las tareas de esa capa. 
-• Las capas de una aplicación, pueden estar en la misma máquina o distribuidas entre varios 
-equipos. 
+• Las capas de una aplicación, pueden estar en la misma máquina o distribuidas entre varios \nequipos. 
 • Interacciones entre capas vecinas: se descomponen los servicios para intentar que las 
 interacciones mayoritariamente sean de esta forma (entre capas vecinas). 
 • Se utilizan interfaces bien conocidos para la comunicación de los componentes entre capas. 
@@ -2128,16 +2070,14 @@ El fichero XML es validado de nuevo por el que pide el servicio utilizando un fi
 Normalmente se utiliza XML para el intercambio de información. 
 Los servicios web ofrecen información con un formato estándar que puede ser entendido fácilmente 
 por una aplicación. 
-Así pues, distintas aplicaciones de software desarrolladas en lenguajes de programación diferentes, y 
-ejecutadas sobre cualquier plataforma, pueden utilizar los servicios web para intercambiar datos en 
+Así pues, distintas aplicaciones de software desarrolladas en lenguajes de programación diferentes, y \nejecutadas sobre cualquier plataforma, pueden utilizar los servicios web para intercambiar datos en 
 redes de ordenadores como Internet. 
 El objetivo de la información devuelta es que pueda ser fácilmente utilizable por la aplicación que 
 requiere el servicio. (Esto difiere de la web normal, donde las páginas se devuelven en un formato que el 
 usuario puede interpretar fácilmente, pero no así la aplicación). 
 La interoperabilidad se consigue mediante la adopción de estándares abiertos. 
 La interoperabilidad es la capacidad de los sistemas de información y de los procedimientos a los que 
-éstos dan soporte, de compartir datos y posibilitar el intercambio de información y conocimiento entre 
-ellos. 
+éstos dan soporte, de compartir datos y posibilitar el intercambio de información y conocimiento entre \nellos. 
  
  
  
@@ -2145,8 +2085,7 @@ ellos.
 Atención 
 Para mejorar la interoperabilidad entre distintas implementaciones 
 de servicios Web se ha creado el organismo WS-I, encargado de 
-desarrollar diversos perfiles para definir de manera más exhaustiva 
-estos estándares. Es una máquina que atiende las peticiones de los 
+desarrollar diversos perfiles para definir de manera más exhaustiva \nestos estándares. Es una máquina que atiende las peticiones de los 
 clientes web y les envía los recursos solicitados. 
  
  
@@ -2169,16 +2108,13 @@ través de una red, de forma interoperable.
 (Estudiaras el W3C en la unidad 9). 
 Cuenta con una interfaz descrita en un formato procesable por un equipo informático (específicamente 
 WSDL), a través de la que es posible interactuar con el mismo mediante el intercambio de mensajes 
-SOAP, típicamente transmitidos usando serialización XML sobre HTTP conjuntamente con otros 
-estándares web. 
+SOAP, típicamente transmitidos usando serialización XML sobre HTTP conjuntamente con otros \nestándares web. 
 4.1. Servicios web 
 Un servicio web, en inglés, web service (WS) o web services, es un componente al que podemos 
 acceder mediante protocolos Web estándar, utilizando XML para el intercambio de información. 
 Los Servicios Web permiten distribuir una aplicación a través de Internet, pudiendo utilizar los servicios 
-ofrecidos por cualquier servidor conectado a Internet, por ello es imprescindible la interoperabilidad 
-entre las aplicaciones. 
-Con lo ya definido, podemos decir de otro modo, que los servicios web proporcionan una forma 
-estándar de interoperar entre aplicaciones software que se ejecutan en diferentes plataformas. 
+ofrecidos por cualquier servidor conectado a Internet, por ello es imprescindible la interoperabilidad \nentre las aplicaciones. 
+Con lo ya definido, podemos decir de otro modo, que los servicios web proporcionan una forma \nestándar de interoperar entre aplicaciones software que se ejecutan en diferentes plataformas. 
 A nivel conceptual, un servicio web es: 
 • Un componente software. 
 • Proporcionado a través de un end-point. 
@@ -2197,8 +2133,7 @@ Cuando hablamos de servicios web, un end-point se identifica mediante una URI.
 URI (identificador de recursos uniforme) es una cadena de caracteres que identifica recursos de 
 forma unívoca. 
 • Accesible a través de la red. 
-Los servicios productores y consumidores utilizan mensajes para intercambiar información entre ellos 
-en forma de documentos, en los cuales apenas se habla de las capacidades tecnológicas de cada uno de 
+Los servicios productores y consumidores utilizan mensajes para intercambiar información entre ellos \nen forma de documentos, en los cuales apenas se habla de las capacidades tecnológicas de cada uno de 
 los receptores. 
  
  
@@ -2400,8 +2335,7 @@ aplicación como HTTP, SMTP o JMS).
 • Independencia (permite cualquier modelo de programación). 
 Como ejemplo de cómo el modelo SOAP pueda ser utilizado, consideraremos un mensaje SOAP que 
 podría ser enviado a un web service para realizar la búsqueda de algún precio en una base de datos, 
-indicando para ello los parámetros necesitados en la consulta. El servicio podría retornar un documento 
-en formato XML con el resultado, un ejemplo, precios, localización o características. Teniendo los datos 
+indicando para ello los parámetros necesitados en la consulta. El servicio podría retornar un documento \nen formato XML con el resultado, un ejemplo, precios, localización o características. Teniendo los datos 
 de respuesta en un formato estandarizado procesable (en inglés "parsable"), éste puede ser integrado 
 directamente en un sitio Web o aplicación externa. 
 
@@ -2431,16 +2365,13 @@ body, de otros modelos.
  
 4.2.2.2. Mensajes SOAP 
 Podemos distinguir dos tipos de mensajes según su contenido: 
-• Mensajes orientados al documento: contienen contenido de cualquier tipo que se quiera enviar 
-entre aplicaciones. 
+• Mensajes orientados al documento: contienen contenido de cualquier tipo que se quiera enviar \nentre aplicaciones. 
 • Mensajes orientados a RPC: PC (Remote Procedure Call): Llamada a procedimiento remoto. 
 Es un programa que se utiliza en un ordenador para ejecutar código que se encuentra en otra 
 máquina remota, sin tener que preocuparse por las comunicaciones entre ambas. 
-De esta manera el programador no tiene que estar pendiente de las comunicaciones, estando 
-estas encapsuladas dentro de las RPC. (Los mensajes invocan procedimientos de forma 
+De esta manera el programador no tiene que estar pendiente de las comunicaciones, estando \nestas encapsuladas dentro de las RPC. (Los mensajes invocan procedimientos de forma 
 remota). 
-Las RPC son muy utilizadas dentro de la comunicación cliente-servidor, es el cliente el que inicia 
-el proceso solicitando al servidor que ejecute cierto procedimiento o función, y el servidor envía 
+Las RPC son muy utilizadas dentro de la comunicación cliente-servidor, es el cliente el que inicia \nel proceso solicitando al servidor que ejecute cierto procedimiento o función, y el servidor envía 
 de vuelta el resultado de dicha operación al cliente. 
 En este caso, el contenido del mensaje contendrá el método que queremos invocar junto a los 
 parámetros que le pasamos. El servidor nos deberá devolver un mensaje SOAP con el resultado. 
@@ -2460,8 +2391,7 @@ protocolo. Dicha estructura la conforman las siguientes partes:
 • Envelope (obligatoria): representa al elemento que debe aparecer en todo mensaje SOAP, es la 
 parte que identifica al mensaje SOAP como tal. 
 • Header: esta parte es un mecanismo de extensión ya que permite enviar información relativa a 
-cómo debe ser procesado el mensaje. Es una herramienta para que los mensajes puedan ser 
-enviados de la forma más conveniente para las aplicaciones. El elemento "Header" se compone a 
+cómo debe ser procesado el mensaje. Es una herramienta para que los mensajes puedan ser \nenviados de la forma más conveniente para las aplicaciones. El elemento "Header" se compone a 
 su vez de "Header Blocks" que delimitan las unidades de información necesarias para el header. 
 • Body (obligatoria): contiene la información relativa a la llamada y la respuesta. 
 • Fault: bloque que contiene información relativa a errores que se hayan producido durante el 
@@ -2523,8 +2453,7 @@ xmlns:xop="http://www.w3.org/2004/08/xop/include" href="cid:[nombre_del_binario_
 insertada en el cuerpo del mensaje SOAP (<Body>) para referenciar esos archivos que viajarán de 
 manera separada mediante el protocolo MIME (Multipurpose Internet Mail Extensions). 
 Hasta la aparición de XOP un mismo archivo binario se incrustaba pudiendo enviarse varias veces en el 
-mismo mensaje aumentando así la redundancia de datos y la falta de eficiencia. Con la nueva 
-especificación el mensaje SOAP ya no incluirá los datos binarios, sino que incluirá de contenerlos, las 
+mismo mensaje aumentando así la redundancia de datos y la falta de eficiencia. Con la nueva \nespecificación el mensaje SOAP ya no incluirá los datos binarios, sino que incluirá de contenerlos, las 
 citas o referencias a esos datos binarios. 
 El paquete MIME que contiene los datos binarios referenciados en el mensaje SOAP es lo que se 
 denomina XOP-Package. 
@@ -2594,15 +2523,13 @@ integración débilmente acoplada de nuestra aplicación.
 Tipos de información en UDDI 
 Por lo que ya hemos visto, tenemos tres tipos de información relacionados entre sí: 
 • Páginas blancas: datos de las organizaciones (dirección, información de contacto, etcétera). 
-• Páginas amarillas: clasificación de las organizaciones (según tipo de industria, zona geográfica, 
-etcétera). 
+• Páginas amarillas: clasificación de las organizaciones (según tipo de industria, zona geográfica, \netcétera). 
 • Páginas verdes: información técnica sobre los servicios que se ofrecen. Aquí se dan las 
 instrucciones para utilizar los servicios. Es recomendable que estas instrucciones se especifiquen 
 de forma estándar mediante un documento WSDL. 
 Formatos de los registros UDDI 
 Los registros UDDI tienen dos formatos que se ajustan a las mismas especificaciones: 
-• Un registro privado: que permite publicar, y probar, las aplicaciones e-business internas en 
-entornos privados y seguros. 
+• Un registro privado: que permite publicar, y probar, las aplicaciones e-business internas en \nentornos privados y seguros. 
 
 <!-- Page 71 -->
 
@@ -2611,8 +2538,7 @@ entornos privados y seguros.
 Arquitecturas de Sistemas. Arquitectura Cliente/Servidor y Multicapas. Arquitectura de Servicios web 
 y protocolos asociados 
 71 
-• Un registro público: es una colección de directorios iguales que contienen información sobre 
-empresas y servicios. Localiza servicios que se registran en uno de sus nodos iguales y facilita el 
+• Un registro público: es una colección de directorios iguales que contienen información sobre \nempresas y servicios. Localiza servicios que se registran en uno de sus nodos iguales y facilita el 
 descubrimiento de servicios Web publicados. 
 Se duplican los datos en todos los registros de forma regular. Esto asegura la coherencia en los 
 formatos de descripción de servicios y facilita el seguimiento de los cambios a medida que se 
@@ -2631,8 +2557,7 @@ probar y validar el servicio Web.
  
 4.2.4. WSIL 
 WSIL (Web Services Inspection Language) es un lenguaje y formato de descripción utilizado en el 
-contexto de servicios web. WSIL se utiliza para describir y descubrir servicios web disponibles. Su meta 
-es la facilitar información sobre la disponibilidad y ubicación de servicios web para que los clientes y 
+contexto de servicios web. WSIL se utiliza para describir y descubrir servicios web disponibles. Su meta \nes la facilitar información sobre la disponibilidad y ubicación de servicios web para que los clientes y 
 usuarios puedan descubrir y acceder a ellos de manera eficiente. Es un mecanismo de descubrimiento 
 de servicios alternativo y complementario a UDDI. A diferencia de UDDI puede estar distribuido en 
 ubicaciones específicas y es más ligero. WSIL por otro lado, se centra en proporcionar el descubrimiento 
@@ -2642,8 +2567,7 @@ de servicios web sin necesidad de un registro centralizado como es el caso de UD
  
  
 ¡Pregunta de examen! 
-En el examen de septiembre de 2023, la corrección provisional da 
-esta respuesta como válida. Pues figura de manera textual en la 
+En el examen de septiembre de 2023, la corrección provisional da \nesta respuesta como válida. Pues figura de manera textual en la 
 URL de IBM WSIL (Web Services Inspection Language) 
  
 
@@ -2696,8 +2620,7 @@ servicio utilizando varios elementos (etiquetas XML).
 Estructura del WSDL 
 La estructura del WSDL tiene los siguientes elementos: 
 • Tipos de datos <types>: 
-Esta sección define los tipos de datos usados en los mensajes. Se utilizan los tipos definidos en la 
-especificación de esquemas XML. 
+Esta sección define los tipos de datos usados en los mensajes. Se utilizan los tipos definidos en la \nespecificación de esquemas XML. 
 • Mensajes <message>: 
 Aquí definimos los elementos de mensaje. Cada mensaje puede consistir en una serie de partes 
 lógicas. Las partes pueden ser de cualquiera de los tipos definidos en la sección anterior. 
@@ -2756,8 +2679,7 @@ y protocolos asociados
 A continuación, mostramos la estructura de los ficheros WSDL en sus dos versiones: 
  
 Fuente: https://commons.wikimedia.org/wiki/File:WSDL_11vs20.png 
-4.2.6. Estándares de Seguridad y Gestión Avanzada 
-en Servicios Web 
+4.2.6. Estándares de Seguridad y Gestión Avanzada \nen Servicios Web 
 Estos protocolos están relacionados específicamente con los servicios web y sus aspectos relacionados 
 con la seguridad, la confiabilidad y la gestión de políticas. 
 WS-Addressing 
@@ -2793,8 +2715,7 @@ de contextos de seguridad.
 WS-Security 
 Especificación esencial para garantizar la seguridad en servicios web basados en SOAP, proporcionando 
 mecanismos para autenticación, firma digital, cifrado y gestión de tokens de seguridad en las 
-comunicaciones web. Esto es fundamental para proteger la integridad y la confidencialidad de los datos 
-en las transacciones de servicios web. 
+comunicaciones web. Esto es fundamental para proteger la integridad y la confidencialidad de los datos \nen las transacciones de servicios web. 
 Entre los servicios públicos que utilizan WS-Security como estándar para proteger sus comunicaciones 
 SOAP destacan GEISER, DIR3, SIR y @firma. Todos ellos manejan información sensible y requieren 
 firmar digitalmente las peticiones, garantizando así autenticación fuerte, integridad del mensaje y 
@@ -2831,8 +2752,7 @@ involucra otros conceptos como:
  
 Básico 
 • REST es una arquitectura que se ejecuta sobre HTTP. 
-• RESTful se utilizar para referirse a los servicios web que 
-ejecutan la arquitectura REST. 
+• RESTful se utilizar para referirse a los servicios web que \nejecutan la arquitectura REST. 
  
 4.2.7.1. RESTful 
 RESTful (Representational State Transfer Web Services) es servicio web que implementa la 
@@ -2902,8 +2822,7 @@ y protocolos asociados
 Sistematiza el proceso con la información. Siempre aplica los cuatro métodos vistos (post, get, 
 put y delete) sobre los recursos cuando están identificador por una URI. 
 • Sistema de capas: 
-Cada una de las capas se encarga de una funcionalidad, teniendo una arquitectura jerárquica 
-entre los componentes. 
+Cada una de las capas se encarga de una funcionalidad, teniendo una arquitectura jerárquica \nentre los componentes. 
 • Uso de hipermedios: 
 Ted Nelson acuño el término de hipermedio y de hipertexto en 1965. 
 Un hipermedio, designa al conjunto de métodos o procedimientos para escribir, diseñar o 
@@ -2976,8 +2895,7 @@ y protocolos asociados
 OpenAPI (antes Swagger) es una especificación ampliamente adoptada para definir APIs REST. Permite 
 describir recursos, operaciones, parámetros, respuestas y códigos de estado. Su formato (YAML o 
 JSON) es interpretable por herramientas como Swagger UI para mostrar documentación interactiva o 
-Swagger Codegen para generar código cliente o servidor automáticamente. Es una pieza clave en 
-entornos DevOps y arquitectura basada en contratos. 
+Swagger Codegen para generar código cliente o servidor automáticamente. Es una pieza clave en \nentornos DevOps y arquitectura basada en contratos. 
 openapi: 3.0.0 
 info: 
    title: API de Discos 
@@ -3017,8 +2935,7 @@ XML-RPC permite la interoperabilidad entre plataformas y lenguajes de programaci
 un formato ampliamente soportado. 
 El funcionamiento básico de XML-RPC consiste en que el cliente crea un mensaje XML con la solicitud 
 de invocar un procedimiento, que incluye el nombre del método y los parámetros correspondientes. 
-Este mensaje es enviado al servidor a través de HTTP o HTTPS. El servidor procesa la solicitud, ejecuta 
-el procedimiento y responde con un mensaje XML que contiene el resultado de la operación. El cliente 
+Este mensaje es enviado al servidor a través de HTTP o HTTPS. El servidor procesa la solicitud, ejecuta \nel procedimiento y responde con un mensaje XML que contiene el resultado de la operación. El cliente 
 recibe la respuesta y la interpreta. 
 Entre las ventajas de XML-RPC se destacan su simplicidad de implementación y su capacidad para 
 facilitar la interoperabilidad entre sistemas diversos, lo que lo convierte en una opción atractiva para 
@@ -3067,8 +2984,7 @@ Características de la arquitectura SOA
 actividades hacen parte de los procesos de negocio de la compañía. 
 • Representar los servicios utilizando descripciones de negocio para asignarles un contexto de 
 negocio. 
-• Tener requerimientos de infraestructura específicos y únicos para este tipo de arquitectura, con 
-el uso recomendable de estándares abiertos para la interoperabilidad y transparencia en la 
+• Tener requerimientos de infraestructura específicos y únicos para este tipo de arquitectura, con \nel uso recomendable de estándares abiertos para la interoperabilidad y transparencia en la 
 ubicación de servicios. 
 • Estar implementada de acuerdo con las condiciones específicas de la arquitectura de TI en cada 
 compañía. 
@@ -3096,8 +3012,7 @@ los principios descritos en el Manifiesto SOA.
 http://www.soa-manifesto.org/default_spanish.html 
  
 Roles en SOA 
-La arquitectura de servicios web (SOA) utiliza los principios y tecnologías básicos de los servicios web, 
-es decir: 
+La arquitectura de servicios web (SOA) utiliza los principios y tecnologías básicos de los servicios web, \nes decir: 
 • SOAP como lenguaje de intercambio. 
 • WSDL como lenguaje para la descripción de los servicios. 
 • UDDI para la publicación o registro de estos. 
@@ -3121,8 +3036,7 @@ Los pasos que hay que seguir son los siguientes:
 documento de descripción del servicio. 
 2. El solicitante del servicio busca en el registro un servicio web que pueda adaptarse a sus 
 necesidades. 
-3. Una vez seleccionado el servicio, el solicitante lo invoca mediante el envío de un mensaje SOAP, 
-en el cual se indica la acción a realizar y los datos de entrada. 
+3. Una vez seleccionado el servicio, el solicitante lo invoca mediante el envío de un mensaje SOAP, \nen el cual se indica la acción a realizar y los datos de entrada. 
 4. El servicio web recibe la petición y ejecuta la funcionalidad. 
 5. El servicio web envía un mensaje SOAP al solicitante con los resultados obtenidos. 
  
@@ -3200,8 +3114,7 @@ y protocolos asociados
 • https://www.ecured.cu/Arquitectura_Cliente_Servidor. 
 • http://www.jtech.ua.es/j2ee/publico/servc-web-2012-13/sesion01-apuntes.html. 
 • https://sistemasdistribuidos938.wordpress.com/. 
-• https://www.transponder1200.com/serie-confiabilidad-en-sistemas-de-mision-critica-
-empezar-por-el-principio/. 
+• https://www.transponder1200.com/serie-confiabilidad-en-sistemas-de-mision-critica-\nempezar-por-el-principio/. 
 • https://administracionelectronica.gob.es/pae_Home/pae_Estrategias/pae_Interoperabilidad_
 Inicio.html. 
 • https://blog.powerdata.es/el-valor-de-la-gestion-de-datos/que-es-soa-y-cual-es-su-
@@ -3234,8 +3147,7 @@ y protocolos asociados
 • https://es.wikipedia.org/wiki/Arquitectura_de_software. 
 • https://silo.tips/download/5-arquitectura-de-servicios-web-ws. 
 • https://www.disrupciontecnologica.com/arquitectura-de-servicios-web. 
-• https://www.transponder1200.com/serie-confiabilidad-en-sistemas-de-mision-critica-
-empezar-por-el-principio/.
+• https://www.transponder1200.com/serie-confiabilidad-en-sistemas-de-mision-critica-\nempezar-por-el-principio/.
 
 ---
 

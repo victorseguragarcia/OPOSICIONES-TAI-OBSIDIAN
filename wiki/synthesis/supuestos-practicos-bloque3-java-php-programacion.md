@@ -79,10 +79,8 @@ for (int i = 1; i <= 10; i++) {
 <?php 
 $a = 10; 
 if ($a < 10 && $a > 1)  
-    echo 'el valor es menor que 10'; 
-elseif ($a > 10) 
-    echo 'el valor es mayor que 10'; 
-else 
+    echo 'el valor es menor que 10'; \nelseif ($a > 10) 
+    echo 'el valor es mayor que 10'; \nelse 
     echo 'el valor es 0'; 
 ?>
 ```

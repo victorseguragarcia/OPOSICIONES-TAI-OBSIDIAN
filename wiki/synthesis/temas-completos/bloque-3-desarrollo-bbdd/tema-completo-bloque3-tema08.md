@@ -6,8 +6,7 @@ tags:
   - temario-extendido
   - bloque-3
   - tema-08
-  - oposiciones-tai
-estado: "🔴 Por Estudiar"
+  - oposiciones-tai\nestado: "🔴 Por Estudiar"
 dificultad: "⭐⭐⭐"
 prioridad: "Máxima"
 sources:
@@ -33,8 +32,7 @@ updated: "2026-08-18"
  
 Accesibilidad, Diseño Universal 
 y Usabilidad. Confidencialidad y 
-Disponibilidad de la información 
-en puestos de usuario final. 
+Disponibilidad de la información \nen puestos de usuario final. 
 Conceptos de seguridad 
 
 <!-- Page 2 -->
@@ -238,8 +236,7 @@ personas.
 En función de las limitaciones de las personas se ha diseñado unas ayudas como pueden ser: 
 • Problemas de visión: El alfabeto Braille, y las señales auditivas de los semáforos. 
 • Problemas auditivos: la lengua de signos. 
-• Problemas cognitivos, de movilidad o locomotrices: Rampas o ascensores para discapacitados, la 
-eliminación de barreras arquitectónicas. 
+• Problemas cognitivos, de movilidad o locomotrices: Rampas o ascensores para discapacitados, la \neliminación de barreras arquitectónicas. 
 • Edad avanzada. Barras asideras para la ducha. 
 Del mismo modo es necesario hacerlo en el desarrollo de aplicaciones. 
 1.2. Diseño universal 
@@ -261,8 +258,7 @@ Accesibilidad, Diseño Universal y Usabilidad. Confidencialidad y Disponibilidad
 de usuario final. Conceptos de seguridad 
 7 
 El objetivo del diseño universal tiene como objetivos: 
-• Simplificar la vida de todas las personas, haciendo que los productos, las comunicaciones y el 
-entorno construido por el hombre sean más utilizables por la mayor cantidad posible de 
+• Simplificar la vida de todas las personas, haciendo que los productos, las comunicaciones y el \nentorno construido por el hombre sean más utilizables por la mayor cantidad posible de 
 personas con un costo nulo o mínimo. 
 • Beneficiar a personas de todas las edades y capacidades. 
 • Dirigir sus acciones al desarrollo de productos y entornos de fácil acceso para el mayor número 
@@ -442,15 +438,13 @@ que los estudios de interacción persona-computador intentan formular los princi
 • Se enfocan en medir la capacidad de un producto de fabricación humana en cumplir el propósito 
 para el cual fue diseñado. 
 • Puedes verse como pruebas irreemplazables, dado que entrega información directa de cómo los 
-usuarios reales utilizan el sistema, no son como los métodos de inspección de usabilidad donde 
-expertos usan diferentes métodos para evaluar una interfaz de usuario sin involucrar a usuarios 
+usuarios reales utilizan el sistema, no son como los métodos de inspección de usabilidad donde \nexpertos usan diferentes métodos para evaluar una interfaz de usuario sin involucrar a usuarios 
 reales. 
 • No es necesario que se trate de una aplicación completamente terminada, pueden realizarse en 
 un prototipo. 
 Usabilidad en la sociedad de la información 
 El estándar ISO 9241-11 define usabilidad como: 
-El grado en que un producto puede ser utilizado por usuarios específicos para lograr objetivos 
-específicos de manera efectiva, eficiente y satisfactoria en un contexto de uso específico. 
+El grado en que un producto puede ser utilizado por usuarios específicos para lograr objetivos \nespecíficos de manera efectiva, eficiente y satisfactoria en un contexto de uso específico. 
 Por lo tanto, la usabilidad está determinada por el usuario y debe estar centrada en este, marcándose 
 como objetivo satisfacer sus necesidades. 
 Está comprobado que vende más una interfaz llamativa y cómoda de usar que la estructura interna de 
@@ -509,8 +503,7 @@ principios:
 Accesibilidad, Diseño Universal y Usabilidad. Confidencialidad y Disponibilidad de la información en puestos 
 de usuario final. Conceptos de seguridad 
 14 
-Cada pauta incluye criterios de conformidad, que se pueden comprobar y que se clasifican 
-en tres niveles: 
+Cada pauta incluye criterios de conformidad, que se pueden comprobar y que se clasifican \nen tres niveles: 
 » A – AA – AAA. 
 Vamos a ir estudiándolo con detenimiento. 
 2.1. W3C (The World Wide Web Consortium) 
@@ -519,8 +512,7 @@ Fuente:
 https://commons.wikimedia.org/wiki/File:W
 3C%C2%AE_Icon.svg 
 El W3C (Consorcio para la World Wide Web) fue fundado en octubre de 1994 para conducir a la World 
-Wide Web a su máximo potencial, desarrollando protocolos de uso común que promocionaran su 
-evolución y aseguraran su interoperabilidad. 
+Wide Web a su máximo potencial, desarrollando protocolos de uso común que promocionaran su \nevolución y aseguraran su interoperabilidad. 
 Inicialmente, el W3C fue creado en colaboración con el CERN (Laboratorio Europeo de Partículas 
 Físicas), donde se originó la web, con el apoyo de DARPA (Agencia Norteamericana de Investigación 
 Avanzada en Proyectos de Defensa) y la Comisión Europea. 
@@ -627,8 +619,7 @@ automática nuestro contenido web (al menos de forma
 superficial). 
  
 Revisión de la accesibilidad de las páginas 
-Cualquier persona puede revisar la accesibilidad de cualquier página web utilizando una herramienta de 
-evaluación automática. 
+Cualquier persona puede revisar la accesibilidad de cualquier página web utilizando una herramienta de \nevaluación automática. 
 Sin embargo, determinadas cuestiones deben ser evaluadas por un profesional. 
 Declaración de conformidad con las directrices 
 Si en el diseño de una página se han seguido las directrices de accesibilidad para el contenido web y, tras 
@@ -654,8 +645,7 @@ Los principios, es el nivel más alto de orientación que proporciona la WCAG.
 Son cuatro principios y proporcionan los fundamentos de la accesibilidad web: 
 1. Perceptible. 
 (Perceptibilidad). 
-La información y los componentes de la interfaz de usuario deben ser mostrados a los usuarios 
-en formas que ellos puedan percibir. 
+La información y los componentes de la interfaz de usuario deben ser mostrados a los usuarios \nen formas que ellos puedan percibir. 
 2. Operable. 
 (Operabilidad). 
 Los componentes de la interfaz de usuario y la navegación deben ser manejables. 
@@ -689,8 +679,7 @@ Cada uno de estos criterios, tiene un enlace a la sección del documento "Cómo 
 proporciona: 
 • Técnicas suficientes para lograr el complimiento del Criterio de Conformidad. 
 • Técnicas opcionales de asesoramiento. 
-• Descripciones de lo que se pretende lograr con ese criterio, indicando los beneficios y también 
-ejemplos. 
+• Descripciones de lo que se pretende lograr con ese criterio, indicando los beneficios y también \nejemplos. 
 Cada criterio, a la hora de comprobar el contenido web, dará un resultado de Verdadero o Falso, en 
 función de si se cumple o no. 
 Los niveles de prioridad asociados a los puntos de verificación son: 
@@ -767,16 +756,14 @@ además proporciona un mecanismo para llegar a la versión conforme.
 Nota 1: En esta definición, "sólo se puede acceder" significa que hay algún mecanismo, como 
 una redirección condicional, que previene que el usuario "acceda" (cargue) la página no 
 conforme a menos que el usuario haya llegado desde la versión conforme. 
-Nota 2: La versión alternativa no necesita ser un equivalente página a página del original (por 
-ejemplo, la versión alternativa conforme podría consistir en varias páginas). 
+Nota 2: La versión alternativa no necesita ser un equivalente página a página del original (por \nejemplo, la versión alternativa conforme podría consistir en varias páginas). 
 Nota 3: Si están disponibles versiones en diversos idiomas, las versiones alternativas conformes 
 son necesarias para cada idioma ofrecido. 
 Nota 4: Se pueden proporcionar versiones alternativas diferentes adaptadas a diferentes 
 tecnologías o grupos de usuarios. Cada versión debería ser tan conforme como fuera posible. 
 Una versión necesitaría ser totalmente conforme para cumplir el requisito de conformidad 1. 
 Nota 5: La versión conforme alternativa no necesita pertenecer al mismo alcance de 
-conformidad, ni siquiera al mismo sitio web, que la versión no conforme en la medida en que 
-esté disponible tan libremente como la versión no conforme. 
+conformidad, ni siquiera al mismo sitio web, que la versión no conforme en la medida en que \nesté disponible tan libremente como la versión no conforme. 
 Nota 6: Las versiones alternativas no deben confundirse con contenidos complementarios, que 
 sirven de material de apoyo a la página original y mejoran su comprensión. 
 Nota 7: Permitir que el usuario establezca sus preferencias sobre el contenido para acceder a 
@@ -806,8 +793,7 @@ uno superior. (No es posible lograr conformidad con un nivel en particular si un
 del proceso no cumple con ese nivel o uno superior) 
 Ejemplo: Una tienda en línea tiene una serie de páginas en las que se pueden seleccionar y 
 comprar productos. Todas y cada una de las páginas de la serie de páginas de principio a fin (el 
-pago) deben cumplir con los requisitos de conformidad para que se considere que cada una de 
-ellas es también conforme. 
+pago) deben cumplir con los requisitos de conformidad para que se considere que cada una de \nellas es también conforme. 
 4. Uso de tecnologías exclusivamente según métodos que sean compatibles con la accesibilidad: 
 Para satisfacer los criterios de conformidad sólo se depende de aquellos usos de las tecnologías 
 que sean compatibles con la accesibilidad. Toda información o funcionalidad que se proporcione 
@@ -952,8 +938,7 @@ pantalla.
 • Y si utiliza imágenes y mapas de imagen (Prioridad 1). 
 • Proporcione vínculos redundantes en formato texto para cada zona activa de un mapa de 
 imagen del servidor. 
-• Proporcione mapas de imagen controlados por el cliente en lugar de por el servidor, 
-excepto donde las zonas sensibles no puedan ser definidas con una forma geométrica. 
+• Proporcione mapas de imagen controlados por el cliente en lugar de por el servidor, \nexcepto donde las zonas sensibles no puedan ser definidas con una forma geométrica. 
 • Y si utiliza tablas (Prioridad 1). 
 • En las tablas de datos, identifique los encabezamientos de fila y columna. 
 • Para las tablas de datos que tienen dos o más niveles lógicos de encabezamientos de fila o 
@@ -974,8 +959,7 @@ de usuario final. Conceptos de seguridad
 los scripts, applets u otros objetos programados. Si esto no es posible, proporcione 
 información equivalente en una página alternativa accesible. 
 • Y si utiliza multimedia (Prioridad 1). 
-• Hasta que las aplicaciones de usuario puedan leer en voz alta automáticamente el texto 
-equivalente de la banda visual, proporcione una descripción auditiva de la información 
+• Hasta que las aplicaciones de usuario puedan leer en voz alta automáticamente el texto \nequivalente de la banda visual, proporcione una descripción auditiva de la información 
 importante de la banda visual de una presentación multimedia. 
 • Para toda presentación multimedia tempodependiente (por ejemplo, una película o 
 animación) sincronice alternativas equivalentes (por ejemplo, subtítulos o descripciones de 
@@ -1037,8 +1021,7 @@ sitio o tabla de contenidos).
 • No utilice tablas para maquetar, a menos que la tabla tenga sentido cuando se alinee. Por 
 otro lado, si la tabla no tiene sentido, proporcione una alternativa equivalente (la cual debe 
 ser una versión alineada). 
-• Si se utiliza una tabla para maquetar, no utilice marcadores estructurales para realizar un 
-efecto visual de formato. 
+• Si se utiliza una tabla para maquetar, no utilice marcadores estructurales para realizar un \nefecto visual de formato. 
 • Y si utiliza marcos ("frames") (Prioridad 2). 
 • Describa el propósito de los marcos y cómo éstos se relacionan entre sí, si no resulta obvio 
 solamente con el título del marco. 
@@ -1058,19 +1041,16 @@ implícitamente, asegúrese de que la etiqueta está colocada adecuadamente.
 • Y si utiliza "applets" y "scripts" (Prioridad 2). 
 • Para los scripts y applets, asegúrese de que los manejadores de eventos sean 
 independientes del dispositivo de entrada. 
-• Hasta que las aplicaciones de usuario permitan congelar el movimiento de los contenidos, 
-evite los movimientos en las páginas. 
+• Hasta que las aplicaciones de usuario permitan congelar el movimiento de los contenidos, \nevite los movimientos en las páginas. 
 • Haga los elementos de programación, tales como scripts y applets, directamente accesibles 
 o compatibles con las ayudas técnicas [Prioridad 1 si la funcionalidad es importante y no se 
 presenta en otro lugar; de otra manera, Prioridad 2]. 
 • Asegúrese de que cualquier elemento que tiene su propia interfaz pueda manejarse de 
 forma independiente del dispositivo. 
-• Para los "scripts", especifique manejadores de evento lógicos mejor que manejadores de 
-evento dependientes de dispositivos. 
+• Para los "scripts", especifique manejadores de evento lógicos mejor que manejadores de \nevento dependientes de dispositivos. 
 Prioridad 3 
 • En general (Prioridad 3). 
-• Especifique la expansión de cada abreviatura o acrónimo cuando aparezcan por primera vez 
-en el documento. 
+• Especifique la expansión de cada abreviatura o acrónimo cuando aparezcan por primera vez \nen el documento. 
 • Identifique el idioma principal de un documento. 
 • Cree un orden lógico para navegar con el tabulador a través de vínculos, controles de 
 formulario y objetos. 
@@ -1394,8 +1374,7 @@ Vamos a ver:
 • Las Pautas (que son normativa), indicadas, dentro del principio al que pertenecen: 
 • Por cada Pauta, sus criterios de conformidad, indicando entre paréntesis el nivel de 
 conformidad. 
-• En cada criterio se indica si se ha añadido en WCAG 2.1, o modificado, eliminado o añadido 
-en WCAG 2.2. 
+• En cada criterio se indica si se ha añadido en WCAG 2.1, o modificado, eliminado o añadido \nen WCAG 2.2. 
 5.1. Pautas Principio 1: Perceptible 
 (La información y los componentes de la interfaz de usuario deben ser presentados a los usuarios de 
 modo que ellos puedan percibirlos.) 
@@ -1412,24 +1391,19 @@ Accesibilidad, Diseño Universal y Usabilidad. Confidencialidad y Disponibilidad
 de usuario final. Conceptos de seguridad 
 39 
 • 1.1.1 Contenido no textual: (A) 
-Todo contenido no textual que se presenta al usuario tiene una alternativa textual que cumple 
-el mismo propósito, excepto en las situaciones enumeradas a continuación: 
+Todo contenido no textual que se presenta al usuario tiene una alternativa textual que cumple \nel mismo propósito, excepto en las situaciones enumeradas a continuación: 
 • Controles, Entrada de datos: 
-Si el contenido no textual es un control o acepta datos introducidos por el usuario, 
-entonces tiene un nombre que describe su propósito. (Véase la Pauta 4.1 para requisitos 
+Si el contenido no textual es un control o acepta datos introducidos por el usuario, \nentonces tiene un nombre que describe su propósito. (Véase la Pauta 4.1 para requisitos 
 adicionales sobre los controles y el contenido que aceptan entrada de datos). 
 • Contenido multimedia tempodependiente: 
-Si el contenido no textual es una presentación multimedia con desarrollo temporal, 
-entonces las alternativas textuales proporcionan al menos una identificación descriptiva del 
+Si el contenido no textual es una presentación multimedia con desarrollo temporal, \nentonces las alternativas textuales proporcionan al menos una identificación descriptiva del 
 contenido no textual. (Véase la Pauta 1.2 para requisitos adicionales sobre contenido 
 multimedia). 
 • Pruebas: 
-Si el contenido no textual es una prueba o un ejercicio que no sería válido si se presentara 
-en forma de texto, entonces las alternativas textuales proporcionan al menos una 
+Si el contenido no textual es una prueba o un ejercicio que no sería válido si se presentara \nen forma de texto, entonces las alternativas textuales proporcionan al menos una 
 identificación descriptiva del contenido no textual. 
 • Sensorial: 
-Si el contenido no textual tiene como objetivo principal el crear una experiencia sensorial 
-específica, entonces las alternativas textuales proporcionan al menos una identificación 
+Si el contenido no textual tiene como objetivo principal el crear una experiencia sensorial \nespecífica, entonces las alternativas textuales proporcionan al menos una identificación 
 descriptiva del contenido no textual. 
 • CAPTCHA: 
 Si el propósito del contenido no textual es confirmar que quien está accediendo al 
@@ -1453,8 +1427,7 @@ de usuario final. Conceptos de seguridad
 Proporcionar alternativas para los medios tempodependientes, (alternativas para contenidos 
 multimedia sincronizados dependientes del tiempo. 
 • 1.2.1 Sólo audio y sólo vídeo (grabado): (A) 
-Para contenido sólo audio grabado y contenido sólo vídeo grabado, se cumple lo siguiente, 
-excepto cuando el audio o el vídeo es un contenido multimedia alternativo al texto y está 
+Para contenido sólo audio grabado y contenido sólo vídeo grabado, se cumple lo siguiente, \nexcepto cuando el audio o el vídeo es un contenido multimedia alternativo al texto y está 
 claramente identificado como tal: 
 • Sólo audio grabado: 
 Se proporciona una alternativa para los medios tempodependientes que presenta 
@@ -1465,12 +1438,9 @@ pista sonora que presenta información equivalente al contenido del medio de só
 grabado. 
 • 1.2.2 Subtítulos (grabados): (A) 
 Se proporcionan subtítulos para el contenido de audio grabado dentro de contenido multimedia 
-sincronizado, excepto cuando la presentación es un contenido multimedia alternativo al texto y 
-está claramente identificado como tal. 
+sincronizado, excepto cuando la presentación es un contenido multimedia alternativo al texto y \nestá claramente identificado como tal. 
 • 1.2.3 Audiodescripción o Medio Alternativo (grabado): (A) 
-Se proporciona una alternativa para los medios tempodependientes o una audiodescripción para 
-el contenido de vídeo grabado en los multimedia sincronizados, excepto cuando ese contenido 
-es un contenido multimedia alternativo al texto y está claramente identificado como tal. 
+Se proporciona una alternativa para los medios tempodependientes o una audiodescripción para \nel contenido de vídeo grabado en los multimedia sincronizados, excepto cuando ese contenido \nes un contenido multimedia alternativo al texto y está claramente identificado como tal. 
 • 1.2.4 Subtítulos (en directo): (AA) 
 Se proporcionan subtítulos para todo el contenido de audio en directo de los multimedia 
 sincronizados. 
@@ -1498,8 +1468,7 @@ Se proporciona una alternativa para los medios tempodependientes, tanto para tod
 contenidos multimedia sincronizados grabados como para todos los medios de sólo vídeo 
 grabado. 
 • 1.2.9 Sólo audio (en directo): (AAA) 
-Se proporciona una alternativa para los medios tempodependientes que presenta información 
-equivalente para el contenido de sólo audio en directo. 
+Se proporciona una alternativa para los medios tempodependientes que presenta información \nequivalente para el contenido de sólo audio en directo. 
 5.1.3. Pauta 1.3 Adaptable 
 Crear contenido que pueda presentarse de diferentes formas (por ejemplo, con una disposición más 
 simple) sin perder información o estructura. 
@@ -1510,8 +1479,7 @@ determinadas por software o están disponibles como texto.
 Cuando la secuencia en que se presenta el contenido afecta a su significado, se puede 
 determinar por software la secuencia correcta de lectura. 
 • 1.3.3 Características sensoriales: (A) 
-Las instrucciones proporcionadas para entender y operar el contenido no dependen 
-exclusivamente en las características sensoriales de los componentes como su forma, tamaño, 
+Las instrucciones proporcionadas para entender y operar el contenido no dependen \nexclusivamente en las características sensoriales de los componentes como su forma, tamaño, 
 ubicación visual, orientación o sonido. 
 • 1.3.4 Orientación: (Nivel AA) - Añadido en WCAG 2.1. 
 El contenido no restringe su vista y funcionamiento a una única orientación de pantalla, como 
@@ -1527,8 +1495,7 @@ de usuario final. Conceptos de seguridad
 • 1.3.5 Identificar el propósito de entrada: (Nivel AA) - Añadido en WCAG 2.1. 
 El propósito de cada campo de entrada que recopila información sobre el usuario se puede 
 determinar mediante programación cuando: 
-• El campo de entrada sirve para un propósito identificado en la sección Propósitos de 
-entrada para componentes de interfaz de usuario. 
+• El campo de entrada sirve para un propósito identificado en la sección Propósitos de \nentrada para componentes de interfaz de usuario. 
 • El contenido se implementa utilizando tecnologías con soporte para identificar el 
 significado esperado para los datos de entrada de formularios. 
 • 1.3.6 Identificar el propósito: (Nivel AAA) - Añadido en WCAG 2.1. 
@@ -1662,8 +1629,7 @@ completa.
 • 1.4.9 Imágenes de texto (sin excepciones): (AAA) 
 Las imágenes de texto sólo se utilizan como simple decoración o cuando una forma de 
 presentación particular del texto resulta esencial para la información transmitida. (Nivel AAA). 
-Nota: Los logotipos (textos que son parte de un logo o de un nombre de marca) se consideran 
-esenciales. 
+Nota: Los logotipos (textos que son parte de un logo o de un nombre de marca) se consideran \nesenciales. 
 • 1.4.10 Reflujo: (AA) - Añadido en WCAG 2.1. 
 El contenido se puede presentar sin pérdida de información o funcionalidad, y sin necesidad de 
 desplazarse en dos dimensiones para: 
@@ -1691,23 +1657,19 @@ de usuario final. Conceptos de seguridad
 46 
 • 1.4.12 Espaciado de texto: (AA) - Añadido en WCAG 2.1. 
 En el contenido implementado mediante lenguajes de marcado que admiten las siguientes 
-propiedades de estilo de texto, no se produce ninguna pérdida de contenido o funcionalidad al 
-establecer todo lo siguiente y al no cambiar ninguna otra propiedad de estilo: 
+propiedades de estilo de texto, no se produce ninguna pérdida de contenido o funcionalidad al \nestablecer todo lo siguiente y al no cambiar ninguna otra propiedad de estilo: 
 • Altura de línea (interlineado) a al menos 1,5 veces el tamaño de fuente. 
 • Espaciar los párrafos siguientes a al menos 2 veces el tamaño de la fuente. 
 • Espaciado de letras (seguimiento) a al menos 0,12 veces el tamaño de fuente. 
 • Espaciado de palabras a al menos 0,16 veces el tamaño de fuente. 
 Excepción: los lenguajes humanos y los scripts que no utilizan una o más de estas propiedades 
-de estilo de texto en el texto escrito pueden conformarse utilizando solo las propiedades que 
-existen para esa combinación de lenguaje y script. 
+de estilo de texto en el texto escrito pueden conformarse utilizando solo las propiedades que \nexisten para esa combinación de lenguaje y script. 
 • 1.4.13 Contenido en puntero flotante o foco (Hover o Focus): (AA) - Añadido en WCAG 2.1. 
 Cuando recibir y, a continuación, quitar el puntero o el enfoque del teclado desencadena 
 contenido adicional para que se vuelva visible y, a continuación, oculto, se cumple lo siguiente: 
-• Descartable: Hay un mecanismo disponible para descartar el contenido adicional sin mover 
-el puntero o el enfoque del teclado, a menos que el contenido adicional comunique un error 
+• Descartable: Hay un mecanismo disponible para descartar el contenido adicional sin mover \nel puntero o el enfoque del teclado, a menos que el contenido adicional comunique un error 
 de entrada o no oscurezca o reemplace otro contenido. 
-• Superponible: Si el desplazamiento del puntero puede activar el contenido adicional, 
-entonces el puntero se puede mover sobre el contenido adicional sin que el contenido 
+• Superponible: Si el desplazamiento del puntero puede activar el contenido adicional, \nentonces el puntero se puede mover sobre el contenido adicional sin que el contenido 
 adicional desaparezca. 
 • Persistente: El contenido adicional permanece visible hasta que se elimina el botón de 
 desplazamiento o enfoque, el usuario lo descarta o su información ya no es válida. 
@@ -1732,14 +1694,12 @@ Toda la funcionalidad del contenido es operable a través de una interfaz de tec
 requiera una determinada velocidad para cada pulsación individual de las teclas, excepto cuando 
 la función interna requiere de una entrada que depende del trayecto de los movimientos del 
 usuario y no sólo de los puntos inicial y final. 
-Nota 1: Esta excepción se refiere a la función subyacente, no a la técnica de entrada de datos. Por 
-ejemplo, si la entrada de texto se hace por medio de escritura a mano, la técnica de entrada 
+Nota 1: Esta excepción se refiere a la función subyacente, no a la técnica de entrada de datos. Por \nejemplo, si la entrada de texto se hace por medio de escritura a mano, la técnica de entrada 
 (escritura a mano) depende del trazo (ruta trazada) pero la función interna (introducir texto) no. 
 Nota 2: Esto no prohíbe ni debería desanimar a los autores a proporcionar entrada de ratón u 
 otros métodos de entrada de datos adicionales a la operabilidad a través del teclado. 
 • 2.1.2 Sin trampas para el foco del teclado: (A) 
-Si es posible mover el foco a un componente de la página usando una interfaz de teclado, 
-entonces el foco se puede quitar de ese componente usando sólo la interfaz de teclado y, si se 
+Si es posible mover el foco a un componente de la página usando una interfaz de teclado, \nentonces el foco se puede quitar de ese componente usando sólo la interfaz de teclado y, si se 
 requiere algo más que las teclas de dirección o de tabulación, se informa al usuario el método 
 apropiado para mover el foco. 
 Nota: En la medida en que cualquier contenido que no satisfaga este criterio puede interferir 
@@ -1777,11 +1737,9 @@ El usuario puede ajustar el límite de tiempo antes de alcanzar dicho límite en
 amplio que es, al menos, diez veces mayor al tiempo fijado originalmente. 
 • Extender: 
 Se advierte al usuario antes de que el tiempo expire y se le conceden al menos 20 segundos 
-para extender el límite temporal con una acción simple (por ejemplo, "presione la barra de 
-espacio") y el usuario puede extender ese límite de tiempo al menos diez veces. 
+para extender el límite temporal con una acción simple (por ejemplo, "presione la barra de \nespacio") y el usuario puede extender ese límite de tiempo al menos diez veces. 
 • Excepción de tiempo real: 
-El límite de tiempo es un requisito que forma parte de un evento en tiempo real (por 
-ejemplo, una subasta) y no resulta posible ofrecer una alternativa al límite de tiempo. 
+El límite de tiempo es un requisito que forma parte de un evento en tiempo real (por \nejemplo, una subasta) y no resulta posible ofrecer una alternativa al límite de tiempo. 
 • Excepción por ser esencial: 
 El límite de tiempo es esencial y, si se extendiera, invalidaría la actividad. 
 • Excepción de 20 horas: 
@@ -1852,8 +1810,7 @@ usuario no realice ninguna acción.
 5.2.3. Pauta 2.3 Convulsiones 
 No diseñar contenido de un modo que se sepa podría provocar ataques, espasmos o convulsiones. 
 • 2.3.1 Umbral de tres destellos o menos: (A) 
-Las páginas web no contienen nada que destelle más de tres veces en un segundo, o el destello 
-está por debajo del umbral de destello general y de destello rojo. 
+Las páginas web no contienen nada que destelle más de tres veces en un segundo, o el destello \nestá por debajo del umbral de destello general y de destello rojo. 
 Nota: En la medida en que cualquier contenido que no satisfaga este criterio puede interferir 
 con la capacidad del usuario para emplear la página como un todo, todo contenido de la página 
 web (tanto si satisface o no otros criterios de conformidad) debe satisfacer este criterio. Véase 
@@ -1864,8 +1821,7 @@ Las páginas web no contienen nada que destelle más de tres veces por segundo.
 La animación de movimiento desencadenada por la interacción se puede desactivar, a menos 
 que la animación sea esencial para la funcionalidad o la información que se transmite. 
 5.2.4. Pauta 2.4 Navegable 
-Proporcionar medios para ayudar a los usuarios a navegar, encontrar contenido y determinar dónde se 
-encuentran. 
+Proporcionar medios para ayudar a los usuarios a navegar, encontrar contenido y determinar dónde se \nencuentran. 
 • 2.4.1 Evitar bloques: (A) 
 Existe un mecanismo para evitar los bloques de contenido que se repiten en múltiples páginas 
 web. 
@@ -1904,11 +1860,9 @@ texto del enlace, excepto cuando el propósito del enlace resultara ambiguo para
 general. 
 • 2.4.10 Encabezados de sección: (AAA) 
 Se usan encabezados de sección para organizar el contenido. 
-Nota 1: "Encabezados" se usa en sentido general e incluye los títulos y otras formas de agregar 
-encabezados a los distintos tipos de contenido. 
+Nota 1: "Encabezados" se usa en sentido general e incluye los títulos y otras formas de agregar \nencabezados a los distintos tipos de contenido. 
 Nota 2: Este criterio de conformidad se refiere al contenido propiamente dicho, no a los 
-componentes de la interfaz de usuario. Los componentes de la interfaz de usuario se tratan en 
-el Criterio de Conformidad 4.1.2. 
+componentes de la interfaz de usuario. Los componentes de la interfaz de usuario se tratan en \nel Criterio de Conformidad 4.1.2. 
 
 <!-- Page 52 -->
 
@@ -1932,8 +1886,7 @@ El nuevo criterio 2.4.11 especifica que, cuando el indicador del foco de teclado
 ambos de estos 2 requisitos se cumplen: 
 • Requisito 1: Todo el indicador del foco cumple tres condiciones: 
 » Rodea al componente que tiene el foco. Se refiere a un borde sólido, normalmente un 
-recuadro, pero que también puede tener la forma del elemento (por ejemplo, forma de 
-estrella). Para esta condición no se admite el borde puntuado. 
+recuadro, pero que también puede tener la forma del elemento (por ejemplo, forma de \nestrella). Para esta condición no se admite el borde puntuado. 
 » Hay una ratio de contraste de al menos 3:1 entre los mismos píxeles en su estado con y 
 sin el foco. 
 » Hay una ratio de contraste de al menos 3:1 con los colores adyacentes que no forman 
@@ -1943,8 +1896,7 @@ también con la estrella.
 • Requisito 2: Un área del indicador del foco cumple tres condiciones: 
 » Es al menos tan grande como el área de un perímetro de 1 píxel CSS de grosor del 
 componente sin el foco, o es al menos tan grande como una línea de 4 píxeles CSS de 
-grosor a lo largo del lado más corto de la caja delimitadora mínima del componente sin 
-el foco. Es decir, define un área mínima mediante el perímetro y un mínimo secundario 
+grosor a lo largo del lado más corto de la caja delimitadora mínima del componente sin \nel foco. Es decir, define un área mínima mediante el perímetro y un mínimo secundario 
 basado en el lado más corto. 
 » Hay una ratio de contraste de al menos 3:1 entre los mismos píxeles en su estado con y 
 sin el foco; 
@@ -2024,8 +1976,7 @@ movimiento se puede desactivar para evitar el accionamiento accidental, excepto 
 interfaz compatible con la accesibilidad. 
 • Imprescindible: El movimiento es esencial para la función y hacerlo invalidaría la actividad. 
 • 2.5.5 Tamaño objetivo: (AAA) 
-El tamaño del destino para las entradas de puntero es de al menos 44 por 44 píxeles CSS, 
-excepto cuando: 
+El tamaño del destino para las entradas de puntero es de al menos 44 por 44 píxeles CSS, \nexcepto cuando: 
 • Equivalente: El destino está disponible a través de un enlace o control equivalente en la 
 misma página que tiene al menos 44 por 44 píxeles CSS. 
 • En línea: El objetivo está en una oración o bloque de texto. 
@@ -2046,8 +1997,7 @@ El contenido web no restringe el uso de las modalidades de entrada disponibles e
 plataforma, excepto cuando la restricción es esencial, requerida para garantizar la seguridad del 
 contenido o requerida para respetar la configuración del usuario. 
 • 2.5.7 Movimientos de Arrastre (Dragging Movements): (AA) añadida en WCAG 2.2. 
-Toda aquella funcionalidad que utilice un movimiento de arrastre para la operación (por 
-ejemplo, controles deslizantes o interfaces de arrastrar y soltar) debe poderse utilizar mediante 
+Toda aquella funcionalidad que utilice un movimiento de arrastre para la operación (por \nejemplo, controles deslizantes o interfaces de arrastrar y soltar) debe poderse utilizar mediante 
 un "single pointer" sin arrastrar, a menos que arrastrar sea esencial, o a menos que la 
 funcionalidad sea determinada por el agente de usuario y no sea modificada por el autor. 
 No se aplica a las acciones necesarias para operar con el agente de usuario o el producto de 
@@ -2089,8 +2039,7 @@ usuario y el autor no lo modifica.
 requerida para la información que se transmite. 
 Este requisito es independiente del zoom de la página. Cuando los usuarios hacen zoom, el 
 tamaño de píxel CSS de los elementos no cambia. Esto significa que los autores no pueden 
-cumplirlo afirmando que el objetivo tendrá suficiente espacio o tamaño si el usuario hace zoom 
-en la página, por eso es la versión menos estricta para el nivel AA del criterio "2.5.5 Tamaño del 
+cumplirlo afirmando que el objetivo tendrá suficiente espacio o tamaño si el usuario hace zoom \nen la página, por eso es la versión menos estricta para el nivel AA del criterio "2.5.5 Tamaño del 
 área de interacción" de nivel AAA, que establece el tamaño mínimo en 44 x 44 píxeles. 
 Consulta más información y ejemplos en el enlace: 
 Understanding Success Criterion 2.5.8: Target Size (Minimum) (AA) 
@@ -2122,8 +2071,7 @@ abreviaturas.
 • 3.1.5 Nivel de lectura: (AAA) 
 Cuando un texto requiere un nivel de lectura más avanzado que el nivel mínimo de educación 
 secundaria una vez que se han eliminado nombres propios y títulos, se proporciona un 
-contenido suplementario o una versión que no requiere un nivel de lectura mayor a ese nivel 
-educativo. 
+contenido suplementario o una versión que no requiere un nivel de lectura mayor a ese nivel \neducativo. 
 • 3.1.6 Pronunciación: (AAA) 
 Se proporciona un mecanismo para identificar la pronunciación específica de las palabras 
 cuando el significado de esas palabras, dentro del contexto, resulta ambiguo si no se conoce su 
@@ -2166,8 +2114,7 @@ de atención, etc.)
 El acceso a los mecanismos de ayuda se puede proporcionar directamente en la página, o se 
 puede proporcionar a través de un enlace directo a una página diferente que contiene la 
 información. 
-El objetivo NO es exigir opciones de ayuda, sino garantizar que, si las hay, los usuarios puedan 
-encontrarlas para completar las tareas del sitio web porque se incluyen en una ubicación 
+El objetivo NO es exigir opciones de ayuda, sino garantizar que, si las hay, los usuarios puedan \nencontrarlas para completar las tareas del sitio web porque se incluyen en una ubicación 
 consistente en todas las páginas. 
 Es, por tanto, un criterio muy similar al "3.2.3 Navegación consistente", pero aplicado a los 
 mecanismos de contacto y ayuda en vez de a los mecanismos de navegación. 
@@ -2192,8 +2139,7 @@ de usuario final. Conceptos de seguridad
 59 
 • 3.3.3 Sugerencias ante errores: (AA) 
 Si se detecta automáticamente un error en la entrada de datos y se dispone de sugerencias para 
-hacer la corrección, entonces se presentan las sugerencias al usuario, a menos que esto ponga 
-en riesgo la seguridad o el propósito del contenido. 
+hacer la corrección, entonces se presentan las sugerencias al usuario, a menos que esto ponga \nen riesgo la seguridad o el propósito del contenido. 
 • 3.3.4 Prevención de errores (legales, financieros, datos): (AA) 
 Para las páginas web que representan para el usuario compromisos legales o transacciones 
 financieras; que modifican o eliminan datos controlables por el usuario en sistemas de 
@@ -2239,8 +2185,7 @@ seguro para iniciar sesión y acceder al contenido, y beneficia especialmente a 
 discapacidad cognitiva. 
 Si un proceso de autenticación se basa en una "cognitive function test" (como recordar una 
 contraseña o resolver un puzzle) no se requiere para ningún paso en un proceso de 
-autenticación (procedimiento informático que permite asegurar que un usuario de un sitio web 
-es auténtico o quien dice ser) a menos que ese paso proporcione al menos una de las siguientes 
+autenticación (procedimiento informático que permite asegurar que un usuario de un sitio web \nes auténtico o quien dice ser) a menos que ese paso proporcione al menos una de las siguientes 
 opciones: 
 • Alternativa: otro método de autenticación que no se basa en una prueba de función 
 cognitiva. 
@@ -2254,8 +2199,7 @@ Los siguientes son ejemplos de mecanismos que satisfacen este criterio:
 • Soporte para la entrada de contraseñas por administradores de contraseñas para reducir la 
 necesidad de memoria. 
 • Copiar y pegar para reducir la carga cognitiva de volver a escribir. 
-Puedes obtener más información sobre este criterio 3.3.8 Accessible Authentication en el 
-enlace: 
+Puedes obtener más información sobre este criterio 3.3.8 Accessible Authentication en el \nenlace: 
 Understanding Success Criterion 3.3.8: Accessible Authentication | WAI | W3C 
 https://www.w3.org/WAI/WCAG22/Understanding/accessible-authentication.html 
  
@@ -2293,8 +2237,7 @@ autenticación alternativo o un mecanismo de ayuda, pero no que la prueba consis
 reconocimiento de objetos o la identificación de contenido personal no textual. 
 Puedes obtener más información en el enlace: 
 Understanding Success Criterion 3.3.8: Accessible Authentication | WAI | W3C 
-https://www.w3.org/WAI/WCAG22/Understanding/accessible-authentication-no-
-exception.html 
+https://www.w3.org/WAI/WCAG22/Understanding/accessible-authentication-no-\nexception.html 
 5.4. Pautas Principio 4: Robusto 
 El contenido debe ser suficientemente robusto como para ser interpretado de forma fiable por una 
 amplia variedad de aplicaciones de usuario, incluyendo las ayudas técnicas. 
@@ -2309,23 +2252,19 @@ de usuario final. Conceptos de seguridad
 5.4.1. Pauta 4.1 Compatible 
 • 4.1.1 Procesamiento- Análisis sintáctico: (A) Desaparecece en WCAG 2.2 
 En los contenidos implementados mediante el uso de lenguajes de marcas, los elementos tienen 
-las etiquetas de apertura y cierre completas; los elementos están anidados de acuerdo a sus 
-especificaciones; los elementos no contienen atributos duplicados y los ID son únicos, excepto 
+las etiquetas de apertura y cierre completas; los elementos están anidados de acuerdo a sus \nespecificaciones; los elementos no contienen atributos duplicados y los ID son únicos, excepto 
 cuando las especificaciones permitan estas características. 
 Nota: Las etiquetas de apertura y cierre a las que les falte un carácter crítico para su formación, 
 como un signo de "mayor qué", o en las que falten las comillas de apertura o cierre en el valor de 
 un atributo, no se consideran completas. 
 • 4.1.2 Nombre, función (rol), valor: (A) 
-Para todos los componentes de la interfaz de usuario (incluyendo, pero no limitado a: 
-elementos de formulario, enlaces y componentes generados por scripts), el nombre y la función 
+Para todos los componentes de la interfaz de usuario (incluyendo, pero no limitado a: \nelementos de formulario, enlaces y componentes generados por scripts), el nombre y la función 
 pueden ser determinados por software; los estados, propiedades y valores que pueden ser 
-asignados por el usuario pueden ser especificados por software; y los cambios en estos 
-elementos se encuentran disponibles para su consulta por las aplicaciones de usuario, 
+asignados por el usuario pueden ser especificados por software; y los cambios en estos \nelementos se encuentran disponibles para su consulta por las aplicaciones de usuario, 
 incluyendo las ayudas técnicas. 
 Nota: Este criterio de conformidad se dirige principalmente a los autores web que desarrollan o 
 programan sus propios componentes de interfaz de usuario. Por ejemplo, los controles estándar 
-de HTML satisfacen automáticamente este criterio cuando se emplean de acuerdo con su 
-especificación. 
+de HTML satisfacen automáticamente este criterio cuando se emplean de acuerdo con su \nespecificación. 
 • 4.1.3 Mensajes de estado: (AA) - Añadido en WCAG 2.1 
 En el contenido implementado mediante lenguajes de marcado, los mensajes de estado se 
 pueden determinar mediante programación a través de roles o propiedades, de modo que 
@@ -2363,13 +2302,10 @@ verificables).
 • Niveles de conformidad: desaparecen A, AA y AAA; se plantean niveles de puntuación (bronze, 
 silver, gold). 
 • Estado: documento en evolución, sin número definitivo de outcomes ni requisitos cerrados. 
-• Enfoque: de un modelo prescriptivo (reglas fijas) a un modelo basado en resultados y 
-experiencia del usuario. 
+• Enfoque: de un modelo prescriptivo (reglas fijas) a un modelo basado en resultados y \nexperiencia del usuario. 
 6. Diseño Inclusivo o Inclusive Design 
-Si hablamos de diseño inclusivo o Incluse Design estaremos contemplando un enfoque cuyo propósito es 
-el de crear entornos accesibles y usables por el mayor número posible de usuarios, independientemente 
-de sus facultades o particularidades. Dentro del Inclusive Design o Diseño Inclusivo existen 
-especificaciones como las WCAG que ya hemos visto, pero también otras como WAI-ARIA ambas 
+Si hablamos de diseño inclusivo o Incluse Design estaremos contemplando un enfoque cuyo propósito es \nel de crear entornos accesibles y usables por el mayor número posible de usuarios, independientemente 
+de sus facultades o particularidades. Dentro del Inclusive Design o Diseño Inclusivo existen \nespecificaciones como las WCAG que ya hemos visto, pero también otras como WAI-ARIA ambas 
 desarrolladas por la W3C. 
 
 <!-- Page 64 -->
@@ -2510,8 +2446,7 @@ de usuario final. Conceptos de seguridad
 • Artículo 6. Carácter multidimensional de la interoperabilidad. 
 La interoperabilidad se entenderá contemplando sus dimensiones organizativa, semántica y 
 técnica. La cadena de interoperabilidad se manifiesta en la práctica en los acuerdos 
-interadministrativos, en el despliegue de los sistemas y servicios, en la determinación y uso de 
-estándares, en las infraestructuras y servicios básicos de las Administraciones públicas y en la 
+interadministrativos, en el despliegue de los sistemas y servicios, en la determinación y uso de \nestándares, en las infraestructuras y servicios básicos de las Administraciones públicas y en la 
 publicación y reutilización de las aplicaciones de las Administraciones públicas, de la 
 documentación asociada y de otros objetos de información. Todo ello sin olvidar la dimensión 
 temporal que ha de garantizar el acceso a la información a lo largo del tiempo. 
@@ -2567,8 +2502,7 @@ Compliant.
 9.1. Requisitos ACID 
 Vamos a profundizar en los cuatro requisitos un sistema gestor de bases de datos relacionales. 
 9.1.1. Atomicidad 
-Si cuando una operación consiste en una serie de pasos, de los que o bien se ejecutan todos o ninguno, 
-es decir, las transacciones son completas. 
+Si cuando una operación consiste en una serie de pasos, de los que o bien se ejecutan todos o ninguno, \nes decir, las transacciones son completas. 
 
 <!-- Page 70 -->
 
@@ -2586,8 +2520,7 @@ depósito y la deducción o ninguna acción es realizada.
 Es la propiedad que asegura que sólo se empieza aquello que se puede acabar. Por lo tanto, se ejecutan 
 aquellas operaciones que no van a romper las reglas y directrices de Integridad de la base de datos. La 
 propiedad de consistencia sostiene que cualquier transacción llevará a la base de datos desde un estado 
-válido a otro también válido. "La Integridad de la Base de Datos nos permite asegurar que los datos son 
-exactos y consistentes, es decir que estén siempre intactos, sean siempre los esperados y que de 
+válido a otro también válido. "La Integridad de la Base de Datos nos permite asegurar que los datos son \nexactos y consistentes, es decir que estén siempre intactos, sean siempre los esperados y que de 
 ninguna manera cambian ni se deformen. De esta manera podemos garantizar que la información que 
 se presenta al usuario será siempre la misma." 
 Los lenguajes de alto nivel, tales como C, C++ y Java, respetan parcialmente este modelo traduciendo 
@@ -2638,10 +2571,8 @@ aislado, o, dicho de otro modo, como si todas las transacciones se ejecutaran de
 los usuarios sería una ilusión producida por el SGBD. 
 Si el SGBDR hace una implementación basada en bloqueos, la serialización requiere que los 
 bloques de lectura y escritura se liberen al final de la transacción. Del mismo modo deben 
-realizarse bloqueos de rango -sobre los datos seleccionados con SELECT usando WHERE- para 
-evitar el efecto de las lecturas fantasma (ver más abajo). 
-Cuando se hace una implementación no basada en bloqueos, si el SGBDR detecta una colisión de 
-escritura entre transacciones solo a una de ellas se le autoriza cometer. 
+realizarse bloqueos de rango -sobre los datos seleccionados con SELECT usando WHERE- para \nevitar el efecto de las lecturas fantasma (ver más abajo). 
+Cuando se hace una implementación no basada en bloqueos, si el SGBDR detecta una colisión de \nescritura entre transacciones solo a una de ellas se le autoriza cometer. 
 • Lecturas repetibles (Repeatable reads). 
 En este nivel de aislamiento, un SGBDR que implemente el control de concurrencia basado en 
 bloqueos mantiene los bloqueos de lectura y escritura -de los datos seleccionados- hasta el final 
@@ -2651,8 +2582,7 @@ fantasma pueden ocurrir (ver más abajo).
 En este nivel de aislamiento, un SGBDR que implemente el control de concurrencia basado en 
 bloqueos mantiene los bloqueos de escritura -de los datos seleccionados- hasta el final de la 
 transacción, mientras que los bloqueos de lectura se cancelan tan pronto como acaba la 
-operación de SELECT (por lo que el efecto de las lecturas no repetibles puede ocurrir, como se 
-explica más abajo). Al igual ocurría en el nivel anterior, no se gestionan los bloqueos de rango. 
+operación de SELECT (por lo que el efecto de las lecturas no repetibles puede ocurrir, como se \nexplica más abajo). Al igual ocurría en el nivel anterior, no se gestionan los bloqueos de rango. 
 • Lecturas no comprometidas (Read uncommitted). 
 Este es el menor nivel de aislamiento. En él se permiten las lecturas sucias (ver más abajo), por 
 lo que una transacción puede ver cambios no cometidos aún por otra transacción. 
@@ -2686,15 +2616,13 @@ Se consideran varios tipos de persistencia.
 La persistencia en memoria es la capacidad de un dato u objeto para seguir existiendo tras 
 determinadas operaciones. 
 La operación más común que se presta a la persistencia en memoria es la asignación. Existen dos 
-ideas respecto de lo que debe suceder con un dato, estructura u objeto una vez asignado desde 
-el original. 
+ideas respecto de lo que debe suceder con un dato, estructura u objeto una vez asignado desde \nel original. 
 • Colecciones. 
 En unos casos lo que se desea es que haya dos referencias a los mismos datos. Es decir: un 
 mismo dato tiene dos punteros desde los que es posible acceder a ellos. Un tipo de dato que 
 utiliza este método se dice que tiene persistencia si cuando se elimina uno de los punteros, los 
 datos siguen aún en memoria. En este caso el tipo de datos utiliza un contador de referencias, 
-de modo que cada vez que se crea una referencia se aumenta la cuenta en uno (+1) y cuando se 
-elimina una referencia se disminuye el contador en uno (-1). El tipo de datos, por tanto, sólo es 
+de modo que cada vez que se crea una referencia se aumenta la cuenta en uno (+1) y cuando se \nelimina una referencia se disminuye el contador en uno (-1). El tipo de datos, por tanto, sólo es 
 realmente eliminado cuando la cuenta del contador llega a cero (0); es decir, cuando no tiene 
 referencias apuntando a los datos. 
 
@@ -2709,13 +2637,10 @@ de usuario final. Conceptos de seguridad
 En otros casos lo que interesa cuándo se hace una asignación es copiar, crear totalmente aparte 
 un duplicado de los datos a asignar (hay preferencias para llamar a este tipo de copia clonar en 
 vez de copiar). Por tanto, no necesitan o no utilizan nunca más de una referencia, ni por tanto 
-precisan tener un contador de referencias. Estos casos se dice que no tienen persistencia. Al 
-eliminar la referencia los datos quedan perdidos, nunca tienen más de una referencia, ya que 
+precisan tener un contador de referencias. Estos casos se dice que no tienen persistencia. Al \neliminar la referencia los datos quedan perdidos, nunca tienen más de una referencia, ya que 
 cuando se hace una asignación se realiza un duplicado de los datos con su propia referencia. 
 • Persistencia de aplicación. 
-Es la capacidad para que los datos sobrevivan a la ejecución del programa que los ha creado. Sin 
-esta capacidad, los datos solo existen en memoria RAM, y se pierden cuando la memoria pierde 
-energía, como cuando se apaga el computador. 
+Es la capacidad para que los datos sobrevivan a la ejecución del programa que los ha creado. Sin \nesta capacidad, los datos solo existen en memoria RAM, y se pierden cuando la memoria pierde \nenergía, como cuando se apaga el computador. 
 Este tipo de persistencia requiere que los datos sean almacenados en un medio secundario, no 
 volátil, para su posterior reconstrucción y utilización, por lo que su tiempo de vida es 
 independiente del proceso que los creó. Por lo tanto, deberán permanecer almacenados en 
@@ -2763,8 +2688,7 @@ son utilizados en el sistema para acelerar búsquedas.
 Esta secuencia de operaciones puede fallar por un número de razones; por ejemplo, el sistema puede no 
 tener ningún sitio disponible en sus accionamientos de disco, o puede haber sobrepasado su tiempo de 
 CPU asignado. 
-ACID sugiere que la base de datos pueda realizar todas estas operaciones inmediatamente. De hecho, 
-esto es difícil de conseguir. 
+ACID sugiere que la base de datos pueda realizar todas estas operaciones inmediatamente. De hecho, \nesto es difícil de conseguir. 
 En ambos casos, los bloqueos se deben implantar antes que la información sea actualizada, y 
 dependiendo de la técnica puesta en práctica, todos los datos se tienen que haber leído. 
 Hay dos clases de técnicas populares: 
@@ -2934,8 +2858,7 @@ de usuario final. Conceptos de seguridad
 • Debe permitir deshacer la acción. 
 • Debe avisar antes de realizar una acción si no puede deshacerse. 
 • No debe haber elementos parpadeantes que puedan producir ataques epilépticos. 
-• El sistema operativo debe disponer de un emulador de teclado manejado por ratón y de un 
-emulador de ratón manejado por el teclado. 
+• El sistema operativo debe disponer de un emulador de teclado manejado por ratón y de un \nemulador de ratón manejado por el teclado. 
 • Debe poder variarse el tamaño y forma del puntero del ratón, así como su velocidad. 
 • Se podrá configurar el tiempo de pulsación de un botón para que se reconozca la pulsación. 
 • Los programas y el sistema operativo deben ser compatibles con la incorporación de ayudas 
@@ -2968,8 +2891,7 @@ distribución.
 de Accesibilidad 
 Puesto que la sociedad actual, desde hace algunos años, está muy concienciada de barreras de 
 determinados colectivos para el uso de las tecnologías, y también para utilizarlas en ayuda de personas 
-con discapacidades, que les impiden que puedan comunicarse, se han ido desarrollando diferentes 
-elementos de hardware y/o software que proporcionan soluciones a estos colectivos. 
+con discapacidades, que les impiden que puedan comunicarse, se han ido desarrollando diferentes \nelementos de hardware y/o software que proporcionan soluciones a estos colectivos. 
 Vamos a indicar algunas aplicaciones: 
 • NVDA. 
 Acrónimo de Non Visual Desktop Access. 
@@ -3057,8 +2979,7 @@ actualizar citas importantes y actividades programadas.
 rutas a seguir y también informando a las personas de apoyo de retrasos o desviaciones que 
 puedan darse durante el recorrido. 
 • Muestra mediante vídeos, cómo realizar determinadas tareas rutinarias en el área laboral y 
-personal, por ejemplo, cómo escanear o imprimir documentos, cómo utilizar un 
-electrodoméstico. 
+personal, por ejemplo, cómo escanear o imprimir documentos, cómo utilizar un \nelectrodoméstico. 
 
 <!-- Page 83 -->
 
@@ -3085,8 +3006,7 @@ Proporciona la información que va encontrando a su alrededor, (en un radio de 1
 pasos de peatones, cruces, escaleras, bocas de metro, como de establecimientos, museos, 
 parques y otros espacios de referencia a los que se acerque. 
 Tiene diferentes formas de uso, por ejemplo, el modo transporte, que se activa 
-automáticamente cuando se viaja en autobús o coche, indicando al usuario en qué lugar se 
-encuentra a medida que avanza, para evitar su desorientación. 
+automáticamente cuando se viaja en autobús o coche, indicando al usuario en qué lugar se \nencuentra a medida que avanza, para evitar su desorientación. 
 • Wheelguide. 
 Es una aplicación para ayudar a personas con movilidad reducida. Se informa sobre las 
 dificultades de movilidad para sensibilizar al público en general de las dificultades para personas 
@@ -3254,14 +3174,12 @@ suerte o el karma.
 Los atributos ARIA son herramientas esenciales para mejorar la accesibilidad de las aplicaciones web 
 interactivas, proporcionando información adicional a las tecnologías de asistencia sobre el 
 comportamiento y la estructura de los elementos web. Los atributos ARIA permiten a los 
-desarrolladores de sitios web mejorar la accesibilidad de interfaces dinámicas, especialmente cuando los 
-elementos HTML no son suficientes para describir el comportamiento o los estados de ciertos 
+desarrolladores de sitios web mejorar la accesibilidad de interfaces dinámicas, especialmente cuando los \nelementos HTML no son suficientes para describir el comportamiento o los estados de ciertos 
 componentes interactivos. ARIA es especialmente útil en aplicaciones web interactivas que utilizan 
 tecnologías como JavaScript y AJAX, donde el contenido puede cambiar de manera dinámica. Los 
 atributos son interpretados por tecnologías de asistencia, como lectores de pantalla, para proporcionar 
 una experiencia de usuario más inclusiva y accesible para personas con discapacidades. 
-El objetivo es que las aplicaciones web sean accesibles para todos los usuarios, cumpliendo con 
-estándares como las WCAG (Web Content Accessibility Guidelines). Como ejemplo podemos poner el 
+El objetivo es que las aplicaciones web sean accesibles para todos los usuarios, cumpliendo con \nestándares como las WCAG (Web Content Accessibility Guidelines). Como ejemplo podemos poner el 
 de un botón con un ícono (sin texto visible) podría usar aria-label="Buscar" para describir su función a 
 un lector de pantalla. 
 Lo usan herramientas como lectores de pantalla (NVDA, JAWS, VoiceOver, etc.), magnificadores de 
@@ -3286,8 +3204,7 @@ de usuario final. Conceptos de seguridad
 casilla de verificación o un botón de opción. Valores comunes: true, false, mixed. 
 <input type="checkbox" aria-checked="true" /> Acepto los términos y condiciones 
 • aria-flowto: Define el flujo de navegación entre elementos en la página, indicando la secuencia 
-de enfoque para los usuarios de tecnologías de asistencia. Este atributo especifica a qué 
-elementos se deben mover al navegar a través de la interfaz. 
+de enfoque para los usuarios de tecnologías de asistencia. Este atributo especifica a qué \nelementos se deben mover al navegar a través de la interfaz. 
 <div aria-flowto="nextSection">Contenido interactivo</div> 
 • aria-valuenow: Representa el valor actual de un control de interfaz de usuario que tiene un 
 rango, como un control deslizante. También se utilizan otros atributos como aria-valuemin y 
@@ -3298,15 +3215,12 @@ decir, no debe ser anunciado ni considerado por las herramientas como lectores d
 Valores comunes: true, false. 
 • aria-label: Proporciona una etiqueta accesible para un elemento cuando no es adecuado o 
 posible usar un texto visible. Por ejemplo, para un botón con solo un ícono. 
-• aria-labelledby: Proporciona una referencia a un o más elementos en la página que sirven como 
-etiquetas para el elemento. Es útil cuando el texto visible no es adecuado para describir un 
-elemento de manera completa. 
+• aria-labelledby: Proporciona una referencia a un o más elementos en la página que sirven como \netiquetas para el elemento. Es útil cuando el texto visible no es adecuado para describir un \nelemento de manera completa. 
 • aria-describedby: Similar a aria-labelledby, pero se utiliza para proporcionar una descripción 
 adicional sobre el propósito o la función de un elemento. Esto puede ayudar a los usuarios a 
 comprender mejor el contexto. 
 • aria-role: Define el rol de un elemento en la interfaz. Ejemplos de roles incluyen button, link, 
-alert, navigation, dialog, entre otros. Define el tipo de interacción o el propósito del elemento en 
-el contexto de la accesibilidad. 
+alert, navigation, dialog, entre otros. Define el tipo de interacción o el propósito del elemento en \nel contexto de la accesibilidad. 
 
 <!-- Page 90 -->
 
@@ -3315,8 +3229,7 @@ el contexto de la accesibilidad.
 Accesibilidad, Diseño Universal y Usabilidad. Confidencialidad y Disponibilidad de la información en puestos 
 de usuario final. Conceptos de seguridad 
 90 
-• aria-expanded: Indica si un elemento, como un menú desplegable o un acordeón, está 
-expandido o colapsado. Valores comunes: true, false. 
+• aria-expanded: Indica si un elemento, como un menú desplegable o un acordeón, está \nexpandido o colapsado. Valores comunes: true, false. 
 • aria-required: Indica que un campo de entrada es obligatorio para la presentación de un 
 formulario. Valores comunes: true, false. 
 • aria-invalid: Indica que el valor de un campo de entrada es inválido. Usado en formularios 
@@ -3396,25 +3309,21 @@ de usuario final. Conceptos de seguridad
 Realiza la revisión mediante pruebas relacionadas con técnicas y fallos de las Pautas de 
 Accesibilidad para el Contenido Web 2.0 (WCAG 2.0). 
 Su calificación no puede considerarse una medida de la accesibilidad general de la página, 
-algunas pruebas pueden estar sujetas a interpretación según la configuración de la página 
-evaluada. 
+algunas pruebas pueden estar sujetas a interpretación según la configuración de la página \nevaluada. 
 • QualWeb. 
 Una herramienta que evalúa la accesibilidad de un sitio web según los estándares WCAG. 
 Proporciona un análisis automático de la página, destacando áreas donde la accesibilidad puede 
 mejorarse y proporcionando informes detallados para guiar a los desarrolladores en el 
 cumplimiento de los requisitos de accesibilidad. Proporciona informes detallados y es 
-particularmente útil para proyectos que requieren validación exhaustiva de accesibilidad tanto 
-en plataformas de escritorio como móviles. 
+particularmente útil para proyectos que requieren validación exhaustiva de accesibilidad tanto \nen plataformas de escritorio como móviles. 
 • Axe. 
-Es una herramienta de código abierto que realiza auditorías de accesibilidad y se integra bien en 
-entornos de desarrollo, como Chrome DevTools y Firefox. Axe facilita la identificación de 
+Es una herramienta de código abierto que realiza auditorías de accesibilidad y se integra bien en \nentornos de desarrollo, como Chrome DevTools y Firefox. Axe facilita la identificación de 
 problemas de accesibilidad y su solución rápida. Es una de las herramientas más potentes y 
 utilizadas para la auditoría de accesibilidad web. Su integración con navegadores y herramientas 
 de automatización la convierte en una opción preferida para equipos de desarrollo que buscan 
 integrar la accesibilidad en sus flujos de trabajo ágiles. 
 • Tenon. 
-Destaca por su capacidad de integrarse en flujos de trabajo personalizados mediante una API, su 
-enfoque detallado en los informes y su utilidad tanto para pruebas automatizadas como 
+Destaca por su capacidad de integrarse en flujos de trabajo personalizados mediante una API, su \nenfoque detallado en los informes y su utilidad tanto para pruebas automatizadas como 
 manuales, lo que lo convierte en una opción robusta y flexible para equipos de desarrollo que 
 buscan cumplir con las normas de accesibilidad web. 
 • Lighthouse. 
@@ -3422,8 +3331,7 @@ Extensión de Google Chrome que realiza auditorías de accesibilidad, rendimient
 prácticas. Ofrece un análisis completo del sitio web. Facilita auditorías de accesibilidad, 
 rendimiento y mejores prácticas. 
 • Accessi.org. 
-Es una plataforma online que facilita la evaluación y mejora de la accesibilidad web. Planteada 
-específicamente para personas con diversidad funcional, proporcionando herramientas que 
+Es una plataforma online que facilita la evaluación y mejora de la accesibilidad web. Planteada \nespecíficamente para personas con diversidad funcional, proporcionando herramientas que 
 permiten evaluar la accesibilidad web y mejorar la experiencia de usuario para personas con 
 discapacidades. Su capacidad para detectar problemas relacionados con los estándares WCAG, 
 junto con su interfaz fácil de usar, la convierte en una herramienta útil tanto para 
@@ -3511,8 +3419,7 @@ de una vulnerabilidad.
 13.1.1. La confidencialidad de la información 
 Implica que la información sea accesible solamente por el personal autorizado. Es lo que se conoce 
 como need-to-know. 
-Este término hace referencia a que la información solo debe ponerse en conocimiento de las personas, 
-entidades o sistemas autorizados para su acceso y que realmente necesiten utilizarla. 
+Este término hace referencia a que la información solo debe ponerse en conocimiento de las personas, \nentidades o sistemas autorizados para su acceso y que realmente necesiten utilizarla. 
 Ejemplos de falta de confidencialidad son: 
 • El robo de información confidencial por parte de un atacante a través de Internet. 
 • La divulgación no autorizada a través de las redes sociales de información confidencial. 
@@ -3530,8 +3437,7 @@ información y llegar a una solución de compromiso entre las tres dimensiones.
  
  
 Ejemplo 
-Implantar un control de acceso para proteger la confidencialidad 
-en un aparato médico de una sala de operaciones. 
+Implantar un control de acceso para proteger la confidencialidad \nen un aparato médico de una sala de operaciones. 
 Esto produciría un retardo en el acceso a la información. Por lo 
 tanto, se ve afectada su disponibilidad. 
  
@@ -3617,8 +3523,7 @@ de usuario final. Conceptos de seguridad
 • Los usuarios de la información son responsables, mientras tengan la información bajo su 
 control, de mantener los niveles de protección establecidos para la misma en todo 
 momento. 
-• Es responsabilidad de los usuarios identificar riesgos asociados a disponer de la información 
-en su puesto de trabajo e iniciar las acciones para mitigarlos. 
+• Es responsabilidad de los usuarios identificar riesgos asociados a disponer de la información \nen su puesto de trabajo e iniciar las acciones para mitigarlos. 
 • Copias de seguridad. 
 • Los usuarios son responsables de alojar la información que necesita ser respaldada en los 
 lugares establecidos para ello. 
@@ -3665,19 +3570,16 @@ ordenador.
 • El usuario no debe descargar e instalar software de distribuidores no confiables o 
 desconocidos. 
 • Protección durante la navegación en Internet: 
-• Los usuarios deberán acudir a los cursos sobre los peligros de Internet y asimilarlos. Por 
-ejemplo, no deberá: 
+• Los usuarios deberán acudir a los cursos sobre los peligros de Internet y asimilarlos. Por \nejemplo, no deberá: 
 » Acceder a sitios desconocidos o de baja confianza. 
 » Aceptar mensajes sobre instalación de software. 
 » Descargar archivos sospechosos. 
-• Los usuarios deberán abstenerse de visitar sitios restringidos por la organización de manera 
-explícita o implícita. 
+• Los usuarios deberán abstenerse de visitar sitios restringidos por la organización de manera \nexplícita o implícita. 
 • Deberán evitar el acceso a sitios relacionados con la pornografía (especialmente si estos 
 involucran a menores de edad, lo cual debe ser denunciado). 
 • Está prohibida la descarga y uso de software malicioso o documentos que brinden 
 información sobre cómo atentar contra la seguridad de la información. 
-• Los usuarios no deben publicar información de la institución en sitios no autorizados (foros, 
-etcétera). 
+• Los usuarios no deben publicar información de la institución en sitios no autorizados (foros, \netcétera). 
 • No se deben descargar textos, imágenes, audio o vídeo protegidos por derechos de autor 
 sin la previa autorización del autor. 
 

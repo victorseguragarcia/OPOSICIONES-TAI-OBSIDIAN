@@ -6,8 +6,7 @@ tags:
   - temario-extendido
   - bloque-4
   - tema-08
-  - oposiciones-tai
-estado: "🔴 Por Estudiar"
+  - oposiciones-tai\nestado: "🔴 Por Estudiar"
 dificultad: "⭐⭐⭐"
 prioridad: "Máxima"
 sources:
@@ -273,8 +272,7 @@ y SSL/TLS
 • Fibrenoire. 
 • FiberRing. 
 Tier 3 (nivel 3) 
-• Las redes Tier 3 son ISP (Internet Service Provider) o Proveedores de acceso a Internet para 
-empresas y domicilios particulares. 
+• Las redes Tier 3 son ISP (Internet Service Provider) o Proveedores de acceso a Internet para \nempresas y domicilios particulares. 
 • No tienen ninguna red. Compran los servicios del Tier 2 pero no tienen infraestructura propia. 
 • Ejemplos de operadores Tier 3: 
 • MásMóvil. 
@@ -310,8 +308,7 @@ física que permite a diferentes ISP intercambiar tráfico de Internet entre sus
 Este intercambio se lleva a cabo mediante conexiones peering. 
 En realidad, cualquier empresa que quiera establecer una conexión pública de peering con un ISP puede 
 utilizar un IXP. 
-Habitualmente, los acuerdos de peering entre empresas facilitan el intercambio más eficiente de datos 
-entre sus redes, es por ello, que los IXP han tenido un impacto muy beneficioso en el crecimiento de 
+Habitualmente, los acuerdos de peering entre empresas facilitan el intercambio más eficiente de datos \nentre sus redes, es por ello, que los IXP han tenido un impacto muy beneficioso en el crecimiento de 
 Internet.
 
 ---
@@ -331,8 +328,7 @@ UDP (para respuestas rápidas y cortas) como TCP (en casos de respuestas extensa
 zona). Un aspecto crítico es el TTL (Time To Live), que define el tiempo de caché de una respuesta 
 para evitar sobrecargas en el sistema. 
 Entre sus funcionalidades clave destacan: 
-• Resolución de registros MX (Mail Exchange): Permite el enrutamiento correcto del correo 
-electrónico. Cuando un Mail Transfer Agent (MTA) envía un mensaje, consulta los registros MX 
+• Resolución de registros MX (Mail Exchange): Permite el enrutamiento correcto del correo \nelectrónico. Cuando un Mail Transfer Agent (MTA) envía un mensaje, consulta los registros MX 
 del dominio destino, que indican los servidores de correo prioritarios y alternativos. 
 • DNS Sinkhole: Técnica defensiva que redirige consultas hacia dominios maliciosos a direcciones 
 IP controladas, bloqueando así amenazas como malware o botnets. Es común en redes 
@@ -346,8 +342,7 @@ Puedes comprobar si se ha realizado correctamente, usando antes y después, el c
 systemd-resolve –statistics" y comprobando si se han vaciado las estadísticas. 
 2.3.1. Estructura de los dominios de Internet 
 La arquitectura de los nombres de dominio se organiza en niveles jerárquicos separados por puntos, 
-creando un sistema de identificación claro y ordenado para los recursos en Internet. Tomemos como 
-ejemplo "www.google.com": aquí distinguimos tres componentes esenciales. El dominio de primer nivel 
+creando un sistema de identificación claro y ordenado para los recursos en Internet. Tomemos como \nejemplo "www.google.com": aquí distinguimos tres componentes esenciales. El dominio de primer nivel 
 (TLD: Top Level Domain) ".com" actúa como categorizador general, indicando la naturaleza comercial 
 del sitio. Le sigue "google" como dominio de segundo nivel (SLD: Second Level Domain), el 
 identificador único que representa la marca o entidad en la red. Finalmente, el subdominio "www" 
@@ -363,13 +358,10 @@ y SSL/TLS
 10 
 Clasificación de Dominios de Primer Nivel (TLD) 
 Los dominios de primer nivel se clasifican en cuatro categorías principales según su alcance y 
-regulación. Los dominios genéricos (gTLD: Generic TLD) como .com, .org y .net representan las 
-extensiones más universales. Originalmente concebido para fines comerciales, ".com" se ha convertido 
-en el estándar de facto para todo tipo de sitios, mientras ".org" mantiene su asociación tradicional con 
+regulación. Los dominios genéricos (gTLD: Generic TLD) como .com, .org y .net representan las \nextensiones más universales. Originalmente concebido para fines comerciales, ".com" se ha convertido \nen el estándar de facto para todo tipo de sitios, mientras ".org" mantiene su asociación tradicional con 
 organizaciones sin ánimo de lucro. Estos dominios, al no estar vinculados a territorios específicos, son 
 ideales para proyectos de alcance global. 
-En contraste, los dominios patrocinados (sTLD: Sponsored TLD) como .edu (para instituciones 
-educativas), .gov (entidades gubernamentales), .mil (ejército de Estados Unidos) o .cat (comunidad 
+En contraste, los dominios patrocinados (sTLD: Sponsored TLD) como .edu (para instituciones \neducativas), .gov (entidades gubernamentales), .mil (ejército de Estados Unidos) o .cat (comunidad 
 catalana) están gestionados por organizaciones específicas que imponen requisitos estrictos, aportando 
 un sello de autenticidad y especialización. 
 Dominios Geográficos y Especializados 
@@ -378,10 +370,8 @@ Los dominios de código de país (ccTLD: Country Code TLD) como .es (España), .
 posicionamiento local. Algunos ccTLD como .co (Colombia) o .io (Territorio Británico del Índico) han 
 trascendido su origen para convertirse en opciones globales, especialmente populares en sectores 
 tecnológicos. 
-Finalmente, los nuevos dominios genéricos (nTLD: New TDL) como .app, .tech o .blog representan la 
-evolución más reciente del sistema, proporcionando extensiones especializadas que permiten nombres 
-más descriptivos y memorables para proyectos innovadores. Estas opciones modernas cubren nichos 
-específicos y necesidades emergentes, desde aplicaciones móviles (.app) hasta plataformas de 
+Finalmente, los nuevos dominios genéricos (nTLD: New TDL) como .app, .tech o .blog representan la \nevolución más reciente del sistema, proporcionando extensiones especializadas que permiten nombres 
+más descriptivos y memorables para proyectos innovadores. Estas opciones modernas cubren nichos \nespecíficos y necesidades emergentes, desde aplicaciones móviles (.app) hasta plataformas de 
 contenido especializado (.blog), pasando por (.bio) para profesionales independientes. 
 Ventajas del Sistema DNS Actual 
 La combinación de esta estructura jerárquica con la diversidad de TLDs disponibles crea un sistema 
@@ -402,32 +392,26 @@ Internet: Arquitectura de red. Origen, evolución y estado actual. Principales s
 y SSL/TLS 
 11 
 Registros A y AAAA: La Base de la Resolución DNS 
-Los registros A (Address) constituyen el cimiento del sistema DNS, estableciendo la relación directa 
-entre un nombre de dominio y su correspondiente dirección IPv4. Por ejemplo, el registro A para 
+Los registros A (Address) constituyen el cimiento del sistema DNS, estableciendo la relación directa \nentre un nombre de dominio y su correspondiente dirección IPv4. Por ejemplo, el registro A para 
 "ejemplo.com" podría apuntar a "192.0.2.1". Con el agotamiento de direcciones IPv4, los registros 
 AAAA (quad-A) han ganado importancia al mapear dominios a direcciones IPv6, como "2001:db8::1". 
-Estos registros son imprescindibles para cualquier servicio web, permitiendo que los navegadores 
-encuentren los servidores correctos. Cuando se modifica la IP de un servidor, actualizar estos registros 
-es crucial para mantener la accesibilidad del sitio. 
+Estos registros son imprescindibles para cualquier servicio web, permitiendo que los navegadores \nencuentren los servidores correctos. Cuando se modifica la IP de un servidor, actualizar estos registros \nes crucial para mantener la accesibilidad del sitio. 
 Registros CNAME: Aliases y Redirecciones Inteligentes 
 Los registros de Nombre Canónico (CNAME) funcionan como alias que apuntan a otro nombre de 
 dominio en lugar de a una dirección IP directa. Un caso típico sería "www.ejemplo.com" CNAME 
 "ejemplo.com", centralizando las actualizaciones en un solo registro. Esta característica es 
-particularmente útil para servicios en la nube, donde múltiples subdominios pueden apuntar a un mismo 
-endpoint sin necesidad de conocer las IPs subyacentes. Sin embargo, es importante evitar cadenas 
+particularmente útil para servicios en la nube, donde múltiples subdominios pueden apuntar a un mismo \nendpoint sin necesidad de conocer las IPs subyacentes. Sin embargo, es importante evitar cadenas 
 largas de CNAMEs, ya que incrementan el tiempo de resolución y pueden afectar el rendimiento. 
 Registros MX: El Corazón del Correo Electrónico 
 Los registros Mail Exchange (MX) son esenciales para la entrega de correo electrónico, especificando 
 los servidores responsables de gestionar los mensajes entrantes para un dominio. Cada registro MX 
-incluye una prioridad numérica (preferencia), donde valores más bajos indican mayor prioridad. Por 
-ejemplo, "10 mail1.ejemplo.com" y "20 mail2.ejemplo.com" crean un sistema redundante: si el servidor 
+incluye una prioridad numérica (preferencia), donde valores más bajos indican mayor prioridad. Por \nejemplo, "10 mail1.ejemplo.com" y "20 mail2.ejemplo.com" crean un sistema redundante: si el servidor 
 primario falla, los mensajes se enviarán al secundario. La correcta configuración de estos registros es 
 vital para garantizar la entrega confiable de correos y prevenir pérdidas de mensajes. 
 Registros PTR: Resolución Inversa y Reputación 
 Mientras los registros A/AAAA resuelven nombres a IPs, los registros Pointer (PTR) realizan el proceso 
 inverso: mapean direcciones IP a nombres de dominio. Esta funcionalidad es crítica para sistemas de 
-autenticación de correo, donde muchos servidores verifican los registros PTR para combatir el spam. En 
-entornos corporativos, los PTRs bien configurados mejoran la trazabilidad de la red y facilitan el 
+autenticación de correo, donde muchos servidores verifican los registros PTR para combatir el spam. En \nentornos corporativos, los PTRs bien configurados mejoran la trazabilidad de la red y facilitan el 
 diagnóstico de problemas. Por ejemplo, un servidor web con IP "203.0.113.45" debería tener un PTR 
 que resuelva a un nombre de dominio válido, preferiblemente coincidente con su registro A 
 correspondiente. 
@@ -495,8 +479,7 @@ instancias de cada tipo de servidor. Además, el uso generalizado de cachés en 
 mejora significativamente la eficiencia del sistema, reduciendo los tiempos de respuesta para consultas 
 frecuentes. 
 3. Origen, evolución y estado actual 
-Internet avanza a un ritmo imparable en su desarrollo, seguramente cuando termines la lectura de 
-esta unidad, ya habrá alguna novedad al respecto. 
+Internet avanza a un ritmo imparable en su desarrollo, seguramente cuando termines la lectura de \nesta unidad, ya habrá alguna novedad al respecto. 
 Vamos a ver, su origen, evolución y el estado actual que seguirá avanzando… 
 3.1. Origen 
 En 1958 se fundó la ARPA (Advanced Research Projects Agency o Agencia para los Proyectos de 
@@ -504,8 +487,7 @@ Investigación Avanzada) en los EE.UU.
 Compuesta por unos 200 científicos, su intención era conseguir la comunicación entre ordenadores. 
 Así en 1967 nació ARPANET (Advanced Research Projects Agency Network o Red de la Agencia de 
 Proyectos de Investigación Avanzada), que conectaba las universidades de Standford y UCLA. 
-ARPA era un programa financiado por el PENTAGONO, por lo que al principio en la misma conexión se 
-encontraban organizaciones militares y civiles, pero en 1983, por motivos de seguridad, se separan en 
+ARPA era un programa financiado por el PENTAGONO, por lo que al principio en la misma conexión se \nencontraban organizaciones militares y civiles, pero en 1983, por motivos de seguridad, se separan en 
 ARPANET para uso civil y MILNET para uso militar. 
 Por fin en 1972 aparece INTERNET con el nacimiento del InterNetworking Working Group, 
 organización encargada de administrar Internet.
@@ -588,8 +570,7 @@ y SSL/TLS
 1969 
 • ARPANET pasa de ser un plan teórico a convertirse en un proyecto real y operativo. Se instalan 
 los primeros IMP (Interface Message Processors) y se conectan los cuatro nodos iniciales en 
-UCLA, SRI, UCSB y la Universidad de Utah. Desde UCLA se transmite el primer mensaje 
-experimental ("LO"), marcando el inicio efectivo de la red. 
+UCLA, SRI, UCSB y la Universidad de Utah. Desde UCLA se transmite el primer mensaje \nexperimental ("LO"), marcando el inicio efectivo de la red. 
 • Arranca MERIT. 
 Comienza a funcionar la red MERIT, basada en X.25, destinada a dar servicio a la comunidad 
 académica más allá de los proyectos financiados por ARPA. 
@@ -632,8 +613,7 @@ tiempo.
 • Cajas negras que interconecten las redes, que no almacenen información sobre las 
 conexiones que están fluyendo a través suyo. 
 • No existirá un control central a nivel de operación. 
-• Se asignan 32 bits para el direccionamiento (no pensaban la repercusión que tendría y que 
-esto sería insuficiente en el futuro). 
+• Se asignan 32 bits para el direccionamiento (no pensaban la repercusión que tendría y que \nesto sería insuficiente en el futuro). 
 • ETHERNET. 
 Bob Metcalfe escribe un informe en el que describe una red Ethernet. 
 Inicialmente esta red se llamaba "Alto Aloha Network". 
@@ -964,8 +944,7 @@ La mayoría de los servidores que brindan estos servicios actualmente están alo
 datos, y a menudo se accede al contenido a través de redes de distribución de contenido de alto 
 rendimiento. 
 3.3.1. Educación distribuida 
-Se puede encontrar material didáctico a todos los niveles, desde preescolar hasta post-doctoral, todo 
-ello está disponible en sitios web. 
+Se puede encontrar material didáctico a todos los niveles, desde preescolar hasta post-doctoral, todo \nello está disponible en sitios web. 
 Los métodos van desde CBeebies (canal de televisión abierta británico propiedad de la BBC dirigida a 
 niños menores de 6 años que ofrece una mezcla de programación educativa y de entretenimiento), a 
 recursos escolares y de secundaria, guías de revisión, universidades virtuales, hasta el acceso a la gama 
@@ -982,8 +961,7 @@ trabajo colaborativo definitivamente más fácil, con la ayuda del software de c
 El chat, ya sea en forma de una sala de chat IRC o del canal, a través de un sistema de mensajería 
 instantánea, o un sitio web de redes sociales, permite a los colegas mantenerse en contacto de una 
 manera muy conveniente cuando se trabaja en sus computadoras durante el día. 
-Los mensajes pueden ser intercambiados de forma más rápida y cómodamente por medio del correo 
-electrónico. Estos sistemas pueden permitir que los archivos se intercambien, que dibujos e imágenes 
+Los mensajes pueden ser intercambiados de forma más rápida y cómodamente por medio del correo \nelectrónico. Estos sistemas pueden permitir que los archivos se intercambien, que dibujos e imágenes 
 puedan ser compartidos, y también que se puedan comunicar mediante la voz y por vídeo los miembros 
 de un equipo. 
 Los sistemas de gestión de contenido permiten la colaboración de los equipos, y trabajar 
@@ -1002,16 +980,14 @@ desarrollo de software, la planificación de una conferencia, el activismo polí
 La colaboración en masa está cada vez más generalizada, así como el acceso a Internet y la difusión 
 de conocimientos de informática 
 Internet permite a los usuarios de computadoras acceder remotamente a otros equipos y almacenes de 
-información fácilmente, donde quiera que estén. Pueden hacer esto con o sin la seguridad informática, 
-es decir, la autenticación y el cifrado, dependiendo de los requerimientos. Esto es alentador, nuevas 
+información fácilmente, donde quiera que estén. Pueden hacer esto con o sin la seguridad informática, \nes decir, la autenticación y el cifrado, dependiendo de los requerimientos. Esto es alentador, nuevas 
 formas de trabajo, la colaboración y la información en muchas industrias. 
 3.3.3. Servicios de red social 
 Servicio de red social (en inglés Social Networking Services, SNS). 
 SNS, es un medio social que permite establecer contacto con otras personas por medio de una 
 plataforma web. 
 Está conformado por un conjunto de equipos, servidores, programas, conductores, transmisores, 
-receptores, y sobre todo por personas que comparten alguna relación, principalmente de amistad y 
-estas mantienen intereses y actividades en común o se encuentran interesados en explorar los intereses 
+receptores, y sobre todo por personas que comparten alguna relación, principalmente de amistad y \nestas mantienen intereses y actividades en común o se encuentran interesados en explorar los intereses 
 y las actividades de otros usuarios. 
 Genralmente, las redes sociales se usan para poder comunicarse con grupos de personas de diferentes 
 países sin las limitaciones convencionales del correo electrónico o las llamadas telefónicas y 
@@ -1037,16 +1013,14 @@ siendo en general el de colocar en primer lugar la página más buscada, que no 
 precisa, sino que se trata de un criterio de popularidad, o también pueden aparecer destacadas aquellas 
 que han pagado por ese lugar. 
 No conocemos todos los criterios que los buscadores establecen; pero, entender que esos criterios son 
-arbitrariamente definidos por las empresas propietarias de esos buscadores, le quita a los mismos el 
-estatus de "todopoderoso", y provoca que quien realiza la búsqueda deba ser más crítico para decidir 
+arbitrariamente definidos por las empresas propietarias de esos buscadores, le quita a los mismos el \nestatus de "todopoderoso", y provoca que quien realiza la búsqueda deba ser más crítico para decidir 
 con qué resultado quedarse, o para redefinir las búsquedas intentando mejorarlas. 
  
  
  
  
 Anécdota 
-En un artículo publicado en 2007, analizan búsquedas de diferentes 
-estudiantes y entre sus conclusiones manifiestan: "se torna 
+En un artículo publicado en 2007, analizan búsquedas de diferentes \nestudiantes y entre sus conclusiones manifiestan: "se torna 
 imprescindible diseñar condiciones de enseñanza para que las 
 interpretaciones que realizan en sus búsquedas y los criterios de 
 selección que elaboran sean objeto de reflexión colectiva y de 
@@ -1055,8 +1029,7 @@ intervenciones precisas de los docentes."
  
 Internet, es un gran espacio de almacenamiento de información, se tiene la idea de que "todo está en 
 Internet", pero hay que tener siempre muy en cuenta, que cada material disponible tiene uno o varios 
-autores, que deben ser citados o consultados para poder utilizar sus materiales. Para facilitar esta, 
-existen las licencias abiertas y/o libres para obras culturales, científicas y educativas (textos, imágenes, 
+autores, que deben ser citados o consultados para poder utilizar sus materiales. Para facilitar esta, \nexisten las licencias abiertas y/o libres para obras culturales, científicas y educativas (textos, imágenes, 
 audios, videos, etc.). Dichas licencias no inhabilitan los derechos de autor, simplemente dejan 
 predefinido los permisos de uso. 
 3.3.5. Impacto social 
@@ -1071,8 +1044,7 @@ Sin embargo, el idioma continúa siendo una dificultad importante.
 Internet: Arquitectura de red. Origen, evolución y estado actual. Principales servicios. Protocolos HTTP, HTTPS 
 y SSL/TLS 
 31 
-Si bien en un principio nació como un medio de comunicación unilateral destinado a las masas, su 
-evolución en la llamada Web 2.0 permitió la participación de los ahora emisores-receptores, creándose 
+Si bien en un principio nació como un medio de comunicación unilateral destinado a las masas, su \nevolución en la llamada Web 2.0 permitió la participación de los ahora emisores-receptores, creándose 
 así puntos de encuentro en el espacio digital. 
 Comparado a las enciclopedias y a las bibliotecas tradicionales, la web ha permitido una 
 descentralización repentina y extrema de la información y de los datos. 
@@ -1149,16 +1121,13 @@ Ejemplo
 Un experto contable, desde cualquier lugar del mundo (1erpaís), 
 puede realizar los libros contables de una empresa de un 
 determinado un país, (2ºpaís), en un servidor situado otro país 
-(3erpaís), diferente que será mantenido remotamente por los 
-especialistas que también podrán estar en un 4ºpaís). 
+(3erpaís), diferente que será mantenido remotamente por los \nespecialistas que también podrán estar en un 4ºpaís). 
  
  
 Internet y sobre todo los blogs han dado a los trabajadores un foro en el cual expresar sus opiniones 
 sobre sus empleos, jefes y compañeros, creando una cantidad masiva de información y de datos sobre el 
 trabajo que está siendo recogido actualmente por el colegio de abogados de Harvard. 
-Internet ha impulsado el fenómeno de la Globalización y junto con la llamada desmaterialización de la 
-economía ha dado lugar al nacimiento de una Nueva Economía caracterizada por la utilización de la red 
-en todos los procesos de incremento de valor de la empresa. 
+Internet ha impulsado el fenómeno de la Globalización y junto con la llamada desmaterialización de la \neconomía ha dado lugar al nacimiento de una Nueva Economía caracterizada por la utilización de la red \nen todos los procesos de incremento de valor de la empresa. 
 3.3.8. Censura 
 Es extremadamente difícil, (algunos opinan que imposible, establecer control centralizado y global 
 de Internet. 
@@ -1184,8 +1153,7 @@ y SSL/TLS
 34 
 Para saltarse cualquier tipo de censura o coerción en el uso de internet, se han desarrollado múltiples 
 tecnologías y herramientas. 
-Entre estas herramientas resaltamos las técnicas y herramientas criptológicas y las tecnologías 
-encuadradas en la llamada Darknet. 
+Entre estas herramientas resaltamos las técnicas y herramientas criptológicas y las tecnologías \nencuadradas en la llamada Darknet. 
 La Darknet es una colección de redes y tecnologías que persiguen la consecución de un anonimato total 
 de los comunicantes, creando de esta forma una zona de total libertad. Aunque actualmente no se suele 
 considerar que consigan un anonimato total, sin embargo, sí consiguen una mejora sustancial en la 
@@ -1204,10 +1172,8 @@ actualmente se encuentran prohibidos:
 • El Gulf Center for Human Rights, censurado en los Emiratos Árabes Unidos y en Arabia Saudita. 
 • Y Bahrain Mirror, prohibido en Baréin y en Arabia Saudita. 
 3.3.9. Efecto desinhibidor de Internet 
-La soltura con la que nos expresamos en las redes sociales fue descrita por el psicólogo John Suler, 
-especializado en ciberdelincuencia, en su obra "The Online Dishinibition Effect". 
-Este autor explica que la forma de comportamiento no es la misma en las redes sociales que cuando 
-estamos frente a frente, lo que se debe al efecto desinhibidor del ciberespacio.
+La soltura con la que nos expresamos en las redes sociales fue descrita por el psicólogo John Suler, \nespecializado en ciberdelincuencia, en su obra "The Online Dishinibition Effect". 
+Este autor explica que la forma de comportamiento no es la misma en las redes sociales que cuando \nestamos frente a frente, lo que se debe al efecto desinhibidor del ciberespacio.
 
 ---
 
@@ -1231,8 +1197,7 @@ que muchos de los internautas publiquen contenido calificado de inadecuado que, 
 incluiría dentro de los delitos de odio. 
 El mal uso de las redes puede desembocar en la creación de una identidad paralela o en la comisión de 
 delitos relacionados con el Sexting, la suplantación de identidad, Phishing, injurias y calumnias o 
-Stalking. Existe una disminución de la responsabilidad cuando se cometen este tipo de actos, y lo cierto 
-es que la mayoría de los delitos que se cometen a través de las redes no se condenan, ya que Internet es 
+Stalking. Existe una disminución de la responsabilidad cuando se cometen este tipo de actos, y lo cierto \nes que la mayoría de los delitos que se cometen a través de las redes no se condenan, ya que Internet es 
 un espacio en el que es muy difícil perseguir al delincuente 
 Los cambios comportamentales en las redes están directamente relacionados con el aumento del 
 número de delitos que se cometen a través de Internet. La sensación de seguridad y privacidad que 
@@ -1240,8 +1205,7 @@ aporta este espacio hace que estos delitos sean de los que más se cometen en Es
 Según las estadísticas publicadas por el Ministerio del Interior, en el año 2011 se contabilizaron 21.075 
 delitos a través de las redes, pasando a 88.859 en el año 2019, lo que supone un aumento muy 
 significativo. 
-Las fuerzas y cuerpos de seguridad registraron 287.963 ciberdelitos en 2020, un 32 por ciento más que 
-en 2019. 
+Las fuerzas y cuerpos de seguridad registraron 287.963 ciberdelitos en 2020, un 32 por ciento más que \nen 2019. 
  
  
  
@@ -1269,8 +1233,7 @@ Las páginas web se enlazan unas a otras mediante los enlaces de hipertexto. Un 
 puede dirigirse a otra página o a un fragmento dentro del mismo documento. 
 4.1.1. Estructura cliente servidor 
 La estructura cliente/servidor es una arquitectura en la que uno o varios clientes, que pueden estar 
-distribuidos geográficamente, solicitan servicios a uno o más servidores (los cuales también pueden 
-estar distribuidos geográficamente). 
+distribuidos geográficamente, solicitan servicios a uno o más servidores (los cuales también pueden \nestar distribuidos geográficamente). 
 La arquitectura cliente/servidor es una arquitectura distribuida. 
 Las tareas se reparten entre distintos servidores de forma transparente al usuario. 
 El Esquema de funcionamiento de un Sistema cliente/servidor es el siguiente: 
@@ -1340,8 +1303,7 @@ Permite identificar una parte del recurso principal, o vista de una representaci
 El comienzo de este componente se indica mediante el carácter '#'. 
 Aunque se acostumbra a llamar URL a todas las direcciones web, URI es un identificador más completo 
 y por eso es recomendado su uso en lugar de la expresión URL. 
-Un URI se diferencia de un URL en que permite incluir en la dirección una subdirección, determinada por 
-el "fragmento". 
+Un URI se diferencia de un URL en que permite incluir en la dirección una subdirección, determinada por \nel "fragmento". 
 4.1.3. Páginas web 
  
 Ejemplo de página web
@@ -1358,8 +1320,7 @@ Las páginas web se encuentran contenidas dentro de los sitios web o websites, q
 conocidos por los desarrolladores con el nombre de dominios. 
 Los dominios almacenan o alojan los contenidos desarrollados para que los usuarios puedan verlos o 
 usarlos. 
-Las páginas web se almacenan físicamente en un servidor, y el lenguaje básico para generar páginas es 
-el HTML. 
+Las páginas web se almacenan físicamente en un servidor, y el lenguaje básico para generar páginas es \nel HTML. 
 Para visualizar una página web se utiliza un navegador (Chrome, Firefox, Edge, etc.). 
 4.1.4. Buscadores 
 Para encontrar una página de algún tema concreto se utilizan los buscadores (como Google). 
@@ -1398,8 +1359,7 @@ Simplemente ponen una lista de los buscadores más famosos y los puedes utilizar
 página. Los resultados mostrados son los del buscador utilizado. 
 • Metabuscadores. 
 El metabuscador es un sistema que conoce los parámetros que utilizan los distintos buscadores. 
-Cuando realizamos una consulta, la convierte al formato de cada buscador y realiza la búsqueda 
-en todos ellos. 
+Cuando realizamos una consulta, la convierte al formato de cada buscador y realiza la búsqueda \nen todos ellos. 
 A continuación, recoge los resultados, elimina resultados y los muestra por orden de 
 importancia en base a criterios como el orden en que lo ha devuelto, cuantos buscadores la han 
 devuelto, etc. 
@@ -1552,15 +1512,13 @@ La transferencia de ficheros se hace posible gracias al protocolo FTP.
 El Protocolo de transferencia de archivos (File Transfer Protocol o FTP) es un protocolo de red para la 
 transferencia de archivos entre sistemas conectados a una red TCP, basado en la arquitectura cliente-
 servidor. 
-Desde un equipo cliente se puede conectar a un servidor para descargar archivos desde él o para 
-enviarle archivos, independientemente del sistema operativo utilizado en cada equipo. 
+Desde un equipo cliente se puede conectar a un servidor para descargar archivos desde él o para \nenviarle archivos, independientemente del sistema operativo utilizado en cada equipo. 
  
  
  
  
 Curiosidad 
-En FTP existen dos modos principales de transmisión de archivos, 
-el modo ASCII que se usa para transmitir archivos de texto, de 
+En FTP existen dos modos principales de transmisión de archivos, \nel modo ASCII que se usa para transmitir archivos de texto, de 
 formatos txt, html, o csv y el modo binario útil para transmitir el 
 resto de formatos como imágenes, vídeos, ejecutables, etc. 
 El propósito fundamental del modo ASCII es garantizar que un 
@@ -1620,15 +1578,13 @@ y SSL/TLS
 La Telefonía IP en las Empresas 
 Los beneficios de la telefonía IP en ambientes corporativos son numerosos, pero se pueden resumir a 
 consideraciones en costo asociados con la infraestructura y facturas de teléfono mensuales. 
-Las soluciones modernas de PBX VoIP, como 3CX, permiten que a las empresas puedan hacer funcionar 
-el sistema en hardware existente no propietario, así como dispositivos de bajo costo tales como 
+Las soluciones modernas de PBX VoIP, como 3CX, permiten que a las empresas puedan hacer funcionar \nel sistema en hardware existente no propietario, así como dispositivos de bajo costo tales como 
 MiniPCs. 
 Los sistemas telefónicos tradicionales y las soluciones VoIP propietarias, requieren de una 
 implementación extensiva sobre arquitecturas cerradas, las cuales pueden llegar a costar cientos de 
 miles de dólares y son mucho más difíciles de administrar, configurar y mantener. Los sistemas de 
 telefonía IP de estándares abiertos son mucho más fáciles y económicos de escalar. 
-El uso de VoIP y Troncales SIP permite que las facturas de teléfono se reduzcan, esto se debe a que las 
-empresas pueden conectar oficinas remotas y sucursales en otras ciudades y países, de forma fácil, por 
+El uso de VoIP y Troncales SIP permite que las facturas de teléfono se reduzcan, esto se debe a que las \nempresas pueden conectar oficinas remotas y sucursales en otras ciudades y países, de forma fácil, por 
 lo que las llamadas dentro de la empresa son gratuitas. Los costos de larga distancia se eliminan y en 
 promedio, las tarifas de llamadas son mucho más económicas. 
 Los sistemas de telefonía empresariales ofrecen a las empresas mucho más que sólo llamadas 
@@ -1674,16 +1630,14 @@ micrófono.
 los dispositivos VoIP. 
 • Registro SIP Fallido o Perdido: 
 • Posible Causa: Interrupción en la conectividad con el servidor SIP. 
-• Solución: Verificar la conectividad, latencia y ajustar el tiempo de reintento de registro SIP 
-en el cliente. 
+• Solución: Verificar la conectividad, latencia y ajustar el tiempo de reintento de registro SIP \nen el cliente. 
 Servicios de telefonía fija en la nube 
 Servicios de telefonía fija en la nube son una solución de comunicaciones empresariales que permite a 
 las organizaciones utilizar sistemas telefónicos tradicionales, pero gestionados a través de internet en 
 lugar de infraestructura física local. Estos servicios están basados en la tecnología VoIP (Voice over IP), 
 que permite realizar llamadas de voz a través de redes de datos en lugar de líneas telefónicas 
 convencionales. 
-En lugar de depender de un sistema de telefonía fija tradicional que requiere servidores locales y 
-equipos especializados (como PBX - Private Branch Exchange), los servicios de telefonía fija en la nube 
+En lugar de depender de un sistema de telefonía fija tradicional que requiere servidores locales y \nequipos especializados (como PBX - Private Branch Exchange), los servicios de telefonía fija en la nube 
 permiten a las empresas operar su sistema telefónico a través de plataformas basadas en la nube. Esto 
 ofrece varios beneficios, como la escalabilidad, la flexibilidad y la reducción de costes, ya que elimina la 
 necesidad de equipos y mantenimiento físico en las instalaciones.
@@ -1702,29 +1656,23 @@ Ventajas:
 • Escalabilidad: Las empresas pueden añadir o eliminar líneas telefónicas fácilmente sin necesidad 
 de actualizar infraestructura física, lo que permite adaptar el sistema a las necesidades 
 cambiantes del negocio. 
-• Costos reducidos: Al no necesitar equipos costosos ni mantenimiento de hardware, los servicios 
-en la nube suelen ser más económicos que los sistemas tradicionales. Además, las tarifas de las 
+• Costos reducidos: Al no necesitar equipos costosos ni mantenimiento de hardware, los servicios \nen la nube suelen ser más económicos que los sistemas tradicionales. Además, las tarifas de las 
 llamadas pueden ser más bajas, especialmente para llamadas internacionales. 
 • Flexibilidad y movilidad: Los empleados pueden acceder al sistema telefónico desde cualquier 
 lugar con acceso a internet, lo que es ideal para empresas con trabajadores remotos o con varias 
 ubicaciones. 
 • Funciones avanzadas: Muchas plataformas en la nube ofrecen características adicionales como 
-correo de voz, desvío de llamadas, integración con otros sistemas (CRM, correo electrónico, 
-etc.), grabación de llamadas y análisis en tiempo real. 
+correo de voz, desvío de llamadas, integración con otros sistemas (CRM, correo electrónico, \netc.), grabación de llamadas y análisis en tiempo real. 
 • Mantenimiento y actualizaciones automáticas: Al estar gestionados por el proveedor de 
 servicios, las actualizaciones de software y el mantenimiento del sistema se realizan de manera 
-automática, lo que garantiza que el sistema siempre esté actualizado sin esfuerzo por parte de la 
-empresa. 
+automática, lo que garantiza que el sistema siempre esté actualizado sin esfuerzo por parte de la \nempresa. 
 Inconvenientes: 
 • Dependencia de internet: Dado que todo el sistema se basa en la conexión a internet, cualquier 
 interrupción en la red podría afectar la calidad de las llamadas o incluso interrumpir el servicio. 
-• Seguridad: Aunque los proveedores suelen implementar medidas de seguridad avanzadas, las 
-empresas deben asegurarse de que los datos de las llamadas estén adecuadamente protegidos, 
-especialmente cuando se manejan información sensible. 
+• Seguridad: Aunque los proveedores suelen implementar medidas de seguridad avanzadas, las \nempresas deben asegurarse de que los datos de las llamadas estén adecuadamente protegidos, \nespecialmente cuando se manejan información sensible. 
 • Calidad de servicio: La calidad de las llamadas puede verse afectada por la capacidad de la red de 
 internet. Si la conexión es débil o inestable, las llamadas pueden tener interferencias o caídas. 
-Los servicios de telefonía fija en la nube ofrecen a las empresas una solución moderna, flexible y 
-económica para sus necesidades de comunicación. A medida que más empresas adoptan el trabajo 
+Los servicios de telefonía fija en la nube ofrecen a las empresas una solución moderna, flexible y \neconómica para sus necesidades de comunicación. A medida que más empresas adoptan el trabajo 
 remoto y la digitalización, este tipo de servicio se está convirtiendo en una opción popular por su 
 facilidad de implementación, coste reducido y características avanzadas.
 
@@ -1757,8 +1705,7 @@ Messenger y Nimbuzz, entre otras, para su servicio de chat. Google lo adoptó pa
 mensajería Google Talk, y en 2013 anunció que lo abandonaría en favor de su protocolo propietario 
 Hangouts. 
 Principales aplicaciones 
-Hoy en día todo el mundo usa WhatsApp y parece que es la mejor aplicación para mensajería. Sin 
-embargo, existen aplicaciones mejores pero que no han tenido el mismo éxito. 
+Hoy en día todo el mundo usa WhatsApp y parece que es la mejor aplicación para mensajería. Sin \nembargo, existen aplicaciones mejores pero que no han tenido el mismo éxito. 
 Vamos a indicar de las principales aplicaciones de mensajería instantánea. La mayoría incluyen otros 
 servicios añadidos (videoconferencia, etc.): 
 • WhatsApp. 
@@ -1782,12 +1729,10 @@ y SSL/TLS
 4.7. Otros servicios 
 Vamos a ver otros servicios útiles de Internet: 
 • Network Time Protocol (NTP): 
-Es un protocolo de Internet para sincronizar los relojes de los sistemas informáticos a través del 
-enrutamiento de paquetes en redes con latencia variable. NTP utiliza UDP como su capa de 
+Es un protocolo de Internet para sincronizar los relojes de los sistemas informáticos a través del \nenrutamiento de paquetes en redes con latencia variable. NTP utiliza UDP como su capa de 
 transporte, usando el puerto 123. 
 • La hora ROA. 
-Es la establecida por Real Instituto y Observatorio de la Armada en San Fernando, Cádiz, siendo 
-esta la hora oficial de España. 
+Es la establecida por Real Instituto y Observatorio de la Armada en San Fernando, Cádiz, siendo \nesta la hora oficial de España. 
 El ROA difunde la hora oficial de España a través del protocolo Protocolo NTP (Network Time 
 Protocol), a través de dos servidores de internet situados en San Fernando («hora.roa.es» y 
 «minuto.roa.es», ambos alcanzables en «ntp.roa.es»). 
@@ -1872,14 +1817,12 @@ continúan sin cambios).
 Sus mejoras se enfocan en cómo se empaquetan los datos y en el transporte. 
 Algunas de las características de esta versión son: 
 • Es un protocolo binario. 
-Esto facilita encontrar el comienzo y el final de cada frame, que es algo realmente complicado 
-en cualquier protocolo de texto. 
+Esto facilita encontrar el comienzo y el final de cada frame, que es algo realmente complicado \nen cualquier protocolo de texto. 
 Además, los protocolos binarios son mucho más simples y por lo tanto son menos propensos a 
 tener errores que los protocolos de texto utilizados por las versiones anteriores a HTTP 2.0. 
 • Una única conexión. 
 Al contrario que en HTTP/1.x donde para cargar cualquier contenido web es necesario el uso de 
-múltiples conexiones TCP simultáneas para poder descargar todos los elementos de dicha web, 
-en HTTP 2.0 utiliza una única conexión para ofrecer múltiples solicitudes y respuestas en 
+múltiples conexiones TCP simultáneas para poder descargar todos los elementos de dicha web, \nen HTTP 2.0 utiliza una única conexión para ofrecer múltiples solicitudes y respuestas en 
 paralelo. Teniendo en cuenta que cada página web puede contener objetos HTML, CSS, 
 JavaScript, imágenes, vídeo… la diferencia de trabajo entre utilizar una única conexión o utilizar 
 varias es elevada. 
@@ -2072,11 +2015,9 @@ y SSL/TLS
 61 
 • OPTIONS. 
 Devuelve los métodos HTTP que el servidor soporta para un URL específico. 
-Esto puede ser utilizado para comprobar la funcionalidad de un servidor web mediante petición 
-en lugar de un recurso específico. 
+Esto puede ser utilizado para comprobar la funcionalidad de un servidor web mediante petición \nen lugar de un recurso específico. 
 • CONNECT. 
-Se utiliza para saber si se tiene acceso a un host, no necesariamente la petición llega al servidor, 
-este método se utiliza principalmente para saber si un proxy nos da acceso a un host bajo 
+Se utiliza para saber si se tiene acceso a un host, no necesariamente la petición llega al servidor, \neste método se utiliza principalmente para saber si un proxy nos da acceso a un host bajo 
 condiciones especiales, como por ejemplo "corrientes" de datos bidireccionales encriptadas 
 (como lo requiere SSL). 
 (Establece un túnel hacia el servidor identificado por el recurso). 
@@ -2142,8 +2083,7 @@ causa de que el cliente ha hecho algo mal.
 Errores causados por el servidor. Indica que ha habido un error en el procesado de la petición a 
 causa de un fallo en el servidor. 
 5.2.4. Cabeceras 
-Son los metadatos que se envían en las peticiones o respuesta HTTP para proporcionar información 
-esencial sobre la transacción en curso. 
+Son los metadatos que se envían en las peticiones o respuesta HTTP para proporcionar información \nesencial sobre la transacción en curso. 
 Cada cabecera es especificada por un nombre de cabecera seguido por dos puntos, un espacio en 
 blanco y el valor de dicha cabecera seguida por un retorno de carro seguido por un salto de línea. 
 Se usa una línea en blanco para indicar el final de las cabeceras. 
@@ -2336,8 +2276,7 @@ contenido
 Content-MD5: 
 Q2hlY2sgSW50ZwdyaXR5lQ== 
 Content-Type 
-El tipo de contenido de la petición 
-en POST o PUT 
+El tipo de contenido de la petición \nen POST o PUT 
 Content-Type: application/x-www-
 form-urlencoded 
 Date 
@@ -2661,8 +2600,7 @@ Por ejemplo, Wget es una pequeña aplicación que permite hacer descargas de arc
 y hasta de sitios completos de internet, usando el protocolo HTTP mediante la línea de comandos. 
 La única desventaja de Wget es la carencia de interface gráfica, pero permite la descarga de archivos 
 grandes. 
-Y una de sus grandes ventajas es la posibilidad de las descargas recursivas, Una descarga recursiva no 
-es más que la descarga de forma automática de todos los archivos vinculados a la página indicada, para 
+Y una de sus grandes ventajas es la posibilidad de las descargas recursivas, Una descarga recursiva no \nes más que la descarga de forma automática de todos los archivos vinculados a la página indicada, para 
 lograr que esta funcione totalmente al usarla offline. 
 Comandos: 
 Nombre 
@@ -2703,8 +2641,7 @@ facilitar su ejecución offline.
 -p 
 --page-requisites 
 Al usar esta opción Wget descarga todos los archivos necesarios para 
-que una página funcione offline, se descargarán imágenes, css, scripts, 
-etc. 
+que una página funcione offline, se descargarán imágenes, css, scripts, \netc. 
 -r 
 --recursive 
 Crea una descarga recursiva, es decir, se descargan todos los archivos 
@@ -2767,9 +2704,7 @@ Evita descargar los archivos de directorios superiores, aunque los links
 apunten a ellos en descargas recursivas. 
 -N 
 --timestamping 
-Verifica la fecha de la última modificación del archivo solicitado, si 
-existe una copia en nuestro equipo y solo lo descarga del servidor si 
-existe una copia más reciente. 
+Verifica la fecha de la última modificación del archivo solicitado, si \nexiste una copia en nuestro equipo y solo lo descarga del servidor si \nexiste una copia más reciente. 
 -O nombre 
 --output-
 document=nombre 
@@ -2867,8 +2802,7 @@ y SSL/TLS
 Por ejemplo, si quiero enviar un mensaje a un servidor, lo cifro con su clave pública para que sólo se 
 pueda descifrar con su clave privada. 
 Después de haber acordado detalles técnicos entre navegador y servidor (versión del protocolo, 
-algoritmos de cifrado asimétrico y simétrico que se usarán...), el navegador cifra una preclave generada 
-en el momento con la clave pública del servidor al que nos queremos conectar. 
+algoritmos de cifrado asimétrico y simétrico que se usarán...), el navegador cifra una preclave generada \nen el momento con la clave pública del servidor al que nos queremos conectar. 
 Eso se envía al servidor, que descifra la preclave con su clave privada. 
 Tanto el servidor como el navegador aplicarán un cierto algoritmo a la preclave y obtendrán la misma 
 clave de cifrado. 
@@ -2876,8 +2810,7 @@ De esta forma hemos superado el primer problema que teníamos: intercambiar la c
 A partir de entonces, simplemente se cifran y descifran los datos con esa clave. 
 Como nadie más sabe esa clave, nuestras comunicaciones serán seguras y nadie podrá verlas. 
 Certificate Authority 
-Man-in-the-middle es un tipo de ataque en el que alguien crea un servidor falso para que creamos que 
-es el original. 
+Man-in-the-middle es un tipo de ataque en el que alguien crea un servidor falso para que creamos que \nes el original. 
 Con https esto no puede pasar, ya que los sitios seguros pueden solicitar un certificado de autoridad 
 (Certificate Authority) que garantizan que es quien dice ser. 
  
@@ -2924,14 +2857,12 @@ sentidos mediante la clave generada en el punto anterior.
 7. Protocolos (SSL y TLS) 
 El protocolo SSL (Secure Socket Layer) o capa de puertos seguros), es el predecesor del protocolo 
 TLS (Transport Layer Security o Seguridad de la Capa de Transporte). 
-Se trata de protocolos criptográficos que proporcionan privacidad e integridad en la comunicación 
-entre dos puntos en una red de comunicación. 
+Se trata de protocolos criptográficos que proporcionan privacidad e integridad en la comunicación \nentre dos puntos en una red de comunicación. 
 Esto garantiza que la información transmitida por dicha red no pueda ser interceptada ni modificada 
 por elementos no autorizados, garantizando de esta forma que sólo los emisores y los receptores 
 legítimos sean los que tengan acceso a la comunicación de manera íntegra. 
 Protocolo SSL (Secure Socket Layer) 
-SSL proporciona autenticación y privacidad de la información entre extremos sobre Internet mediante 
-el uso de criptografía. 
+SSL proporciona autenticación y privacidad de la información entre extremos sobre Internet mediante \nel uso de criptografía. 
 Habitualmente, solo el servidor es autenticado (es decir, se garantiza su identidad) mientras que el 
 cliente se mantiene sin autenticar. 
 Características: 
@@ -2946,8 +2877,7 @@ cifrar la comunicación mediante un algoritmo simétrico.
 Internet: Arquitectura de red. Origen, evolución y estado actual. Principales servicios. Protocolos HTTP, HTTPS 
 y SSL/TLS 
 81 
-• En el caso de los sitios web, para el funcionamiento de este protocolo, lo que se necesita utilizar 
-es un certificado SSL. 
+• En el caso de los sitios web, para el funcionamiento de este protocolo, lo que se necesita utilizar \nes un certificado SSL. 
 • El servidor web tendrá instalado uno y cuando un cliente intente acceder a él, le remitirá el 
 mismo con la clave pública del servidor, para enviar de esta forma la clave que se usará para 
 realizar la conexión de manera segura mediante un cifrado simétrico. 
@@ -2960,8 +2890,7 @@ comunicaciones realizadas entre ambos son seguras, siendo ininteligibles para un
 El certificado digital de un sitio web se emite para un dominio concreto, por lo que es fácil 
 comparar el dominio al que nos conectamos con el que se define en el certificado. 
 • Integridad de la información en tránsito: 
-Si se produjera alguna modificación malintencionada o pérdida en la información intercambiada 
-entre cliente y servidor se podría identificar y así descartarla. 
+Si se produjera alguna modificación malintencionada o pérdida en la información intercambiada \nentre cliente y servidor se podría identificar y así descartarla. 
 • No Repudio: 
 Si una transmisión de datos se considera válida no se puede rechazar, ya que el protocolo 
 garantiza que ambos extremos son legítimos y que se mantiene la integridad de la misma. Este 
@@ -2984,8 +2913,7 @@ Internet: Arquitectura de red. Origen, evolución y estado actual. Principales s
 y SSL/TLS 
 82 
 Funcionamiento de SSL: 
-El protocolo SSL intercambia registros; opcionalmente, cada registro puede ser comprimido, cifrado y 
-empaquetado con un código de autenticación del mensaje (MAC). Cada registro tiene un campo de 
+El protocolo SSL intercambia registros; opcionalmente, cada registro puede ser comprimido, cifrado y \nempaquetado con un código de autenticación del mensaje (MAC). Cada registro tiene un campo de 
 content_type que especifica el protocolo de nivel superior que se está usando. 
 Cuando se inicia la conexión, el nivel de registro encapsula otro protocolo, el protocolo handshake (o 
 protocolo de acuerdo), que tiene el content_type 22. 
@@ -3016,8 +2944,7 @@ correo electrónico, fax por Internet, mensajería instantánea y voz-sobre-IP (
 importante en este contexto es forward secrecy, para que la clave de corta vida de la sesión no pueda 
 ser descubierta a partir de la clave asimétrica de largo plazo. 
 TLS es un protocolo de Internet Engineering Task Force (IETF), definido por primera vez en 1999 y 
-actualizado en el RFC 5246 (agosto de 2008) y en RFC 6176 (marzo de 2011). Se basa en las 
-especificaciones previas de SSL (1994, 1995, 1996) desarrolladas por Netscape Communications para 
+actualizado en el RFC 5246 (agosto de 2008) y en RFC 6176 (marzo de 2011). Se basa en las \nespecificaciones previas de SSL (1994, 1995, 1996) desarrolladas por Netscape Communications para 
 agregar el protocolo HTTPS a su navegador Netscape Navigator. Su última versión, TLS 1.3, fue 
 definida en agosto de 2018.
 
@@ -3134,8 +3061,7 @@ y SSL/TLS
 • El mensaje que finaliza el protocolo handshake (Finished) envía un hash de todos los datos 
 intercambiados y vistos por ambas partes. 
 • La función pseudo aleatoria divide los datos de entrada en 2 mitades y las procesa con 
-algoritmos hash diferentes (MD5 y SHA), después realiza sobre ellos una operación XOR. De 
-esta forma se protege a sí mismo de la eventualidad de que alguno de estos algoritmos se 
+algoritmos hash diferentes (MD5 y SHA), después realiza sobre ellos una operación XOR. De \nesta forma se protege a sí mismo de la eventualidad de que alguno de estos algoritmos se 
 revelen vulnerables en el futuro. 
 Intercambio de claves 
 Antes de que un cliente y el servidor puedan empezar a intercambiar información protegida por TLS, 
@@ -3185,8 +3111,7 @@ IMAP4
 SSL: 993 
 TLS: 993 
 8. Protocolo OSPF 
-Al hablar de INTERNET, tenemos que hablar del protocolo OSPF, siglas de Open Shortest Path First, (en 
-español traducido como "abrir el camino más corto primero"), es un "Protocolo De Estado De Enlace" 
+Al hablar de INTERNET, tenemos que hablar del protocolo OSPF, siglas de Open Shortest Path First, (en \nespañol traducido como "abrir el camino más corto primero"), es un "Protocolo De Estado De Enlace" 
 para encaminamiento jerárquico de pasarela interior o Interior Gateway Protocol (IGP), que usa el 
 algoritmo Dijkstra, para calcular la ruta más corta entre dos nodos. 
 Su medida de métrica se denomina cost, y tiene en cuenta diversos parámetros tales como el ancho de 
@@ -3194,8 +3119,7 @@ banda y la congestión de los enlaces. OSPF construye además una base de datos 
 State Database, LSDB) idéntica en todos los routers de la zona. 
 OSPF puede operar con seguridad usando MD5 para autenticar sus puntos antes de realizar nuevas 
 rutas y antes de aceptar avisos de enlace-estado. 
-OSPF es probablemente el protocolo IGP más utilizado en redes grandes; IS-IS, otro protocolo de 
-encaminamiento dinámico de enlace-estado, es más común en grandes proveedores de servicios. 
+OSPF es probablemente el protocolo IGP más utilizado en redes grandes; IS-IS, otro protocolo de \nencaminamiento dinámico de enlace-estado, es más común en grandes proveedores de servicios. 
  
  
  
@@ -3214,15 +3138,13 @@ y SSL/TLS
 88 
 OSPF, como sucesor natural de RIP, acepta VLSM y CIDR desde su inicio. A lo largo del tiempo, se han 
 ido creando nuevas versiones, como OSPFv3 que soporta IPv6 o las extensiones multidifusión para 
-OSPF (MOSPF), aunque no están demasiado extendidas. OSPF puede "etiquetar" rutas y propagar esas 
-etiquetas por otras rutas. 
+OSPF (MOSPF), aunque no están demasiado extendidas. OSPF puede "etiquetar" rutas y propagar esas \netiquetas por otras rutas. 
 Una red OSPF se puede descomponer en regiones (áreas) más pequeñas. 
 Hay un área especial llamada área backbone que forma la parte central de la red a la que se encuentran 
 conectadas el resto de áreas de la misma. Las rutas entre las diferentes áreas circulan siempre por el 
 backbone, por lo tanto, todas las áreas deben conectar con el backbone. Si no es posible hacer una 
 conexión directa con el backbone, se puede hacer un enlace virtual entre redes. 
-Los routers (también conocidos como encaminadores) en el mismo dominio de multidifusión o en el 
-extremo de un enlace punto-a-punto forman enlaces cuando se descubren los unos a los otros. 
+Los routers (también conocidos como encaminadores) en el mismo dominio de multidifusión o en el \nextremo de un enlace punto-a-punto forman enlaces cuando se descubren los unos a los otros. 
 En un segmento de red Ethernet los routers eligen a un router designado (Designated Router, DR) y un 
 router designado secundario o de copia (Backup Designated Router, BDR) que actúan como hubs para 
 reducir el tráfico entre los diferentes routers. 
@@ -3240,8 +3162,7 @@ Pero existen diferencias entre de IS-IS y OSPF:
 • En IS-IS, la dirección de área y de host son asignados al router entero. 
 • Mientras que en OSPF el direccionamiento es asignado al nivel de interfaz. 
 Por lo tanto, un router IS-IS únicamente estará en un área (Todos los routers de Nivel 1 
-necesitan un router de Nivel 1-2 para conectarles a otra área). El router de Nivel 1-2 puede ver 
-el resto del SA y se ofrece como ruta por defecto al área de Nivel 1. 
+necesitan un router de Nivel 1-2 para conectarles a otra área). El router de Nivel 1-2 puede ver \nel resto del SA y se ofrece como ruta por defecto al área de Nivel 1. 
 • En el manejo de los paquetes hello. 
 Este es el único método por el cual los routers pueden saber si un router vecino sigue estando 
 disponible en la red.
@@ -3267,8 +3188,7 @@ responsabilidad de IP.
 usa.html. 
 • http://es.wikipedia.org. 
 • http://en.wikipedia.org. 
-• https://www.eltiempo.com/tecnosfera/novedades-tecnologia/estudio-de-mozila-revela-el-
-estado-actual-de-internet-38471. 
+• https://www.eltiempo.com/tecnosfera/novedades-tecnologia/estudio-de-mozila-revela-el-\nestado-actual-de-internet-38471. 
 • http://redestelematicas.com/arquitectura-de-internet/. 
 • https://datapath.io/resources/blog/what-is-an-internet-service-provider/. 
 • https://es.wikibooks.org/wiki/Planificaci%C3%B3n_y_Administraci%C3%B3n_de_Redes/Tem

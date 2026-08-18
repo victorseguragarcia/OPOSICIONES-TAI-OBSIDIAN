@@ -37,9 +37,9 @@ La criptografía proporciona los mecanismos matemáticos para garantizar la conf
 ## 🧩 Firma Digital y Certificados X.509
 
 - **Mecanismo de Firma Digital**:
-  1. El emisor genera un **resumen hash** del mensaje original ($H = 	ext{Hash}(M)$).
+  1. El emisor genera un **resumen hash** del mensaje original ($H = \text{Hash}(M)$).
   2. El emisor cifra el hash $H$ con su **Clave Privada** $\rightarrow$ obteniendo la **Firma Digital**.
-  3. El receptor descifra la firma con la **Clave Pública del Emisor** obteniendo $H_1$, calcula su propio hash $H_2 = 	ext{Hash}(M)$ y verifica que $H_1 == H_2$.
+  3. El receptor descifra la firma con la **Clave Pública del Emisor** obteniendo $H_1$, calcula su propio hash $H_2 = \text{Hash}(M)$ y verifica que $H_1 == H_2$.
 - **Formatos de Firma Electrónica Avanzada**:
   - **CAdES** (CMS Advanced Electronic Signature): Para ficheros binarios genéricos.
   - **XAdES** (XML Advanced Electronic Signature): Para documentos XML.

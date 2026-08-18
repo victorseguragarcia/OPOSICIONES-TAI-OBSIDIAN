@@ -6,8 +6,7 @@ tags:
   - temario-extendido
   - bloque-3
   - tema-03
-  - oposiciones-tai
-estado: "🔴 Por Estudiar"
+  - oposiciones-tai\nestado: "🔴 Por Estudiar"
 dificultad: "⭐⭐⭐"
 prioridad: "Máxima"
 sources:
@@ -340,8 +339,7 @@ resultados, pero la diferencia es:
 • Álgebra relacional: tipo procedimental. 
 • Cálculo relacional: tipo declarativo, no procedimental. 
 El álgebra relacional y el cálculo relacional son lenguajes formales 
-de base matemática. SQL, aunque está estandarizado por ISO, no 
-es un lenguaje formal puro. 
+de base matemática. SQL, aunque está estandarizado por ISO, no \nes un lenguaje formal puro. 
  
  
 No todos los lenguajes de consulta son declarativos; existen lenguajes de consulta procedimentales y 
@@ -393,8 +391,7 @@ datos para obtener datos en Image/SQL (TurboIMAGE) y bases de datos Oracle.
 • XQuery: lenguaje de consulta para fuentes de datos XML. 
 • EPL: lenguaje de consulta para el procesado de eventos complejos en tiempo real. 
 2. Lenguaje SQL 
-SQL, por sus siglas en inglés Structured Query Language (en español, lenguaje de consulta 
-estructurado. 
+SQL, por sus siglas en inglés Structured Query Language (en español, lenguaje de consulta \nestructurado. 
 Es un lenguaje declarativo, (se dice qué se quiere conseguir, pero no se especifica cómo) diseñado 
 para administrar, y recuperar información de bases de datos relacionales. 
 Aunque SQL, permite modificar bases de datos, su origen era para realizar consultas. 
@@ -415,15 +412,13 @@ un lenguaje formal puro desde el punto de vista matemático.
  
 + Info 
 Estándar de facto es aquel patrón o norma que se caracteriza por 
-no haber sido consensuada ni legitimada por un organismo de 
-estandarización al efecto. 
+no haber sido consensuada ni legitimada por un organismo de \nestandarización al efecto. 
 Por el contrario, se trata de una norma generalmente aceptada y 
 ampliamente utilizada por iniciativa propia de un gran número de 
 interesados. 
  
  
-Se dice que SQL se basa en el álgebra y el cálculo relacional, y que las operaciones relacionales se 
-expresan mediante cláusulas específicas. 
+Se dice que SQL se basa en el álgebra y el cálculo relacional, y que las operaciones relacionales se \nexpresan mediante cláusulas específicas. 
 Por tanto, aunque se haga referencia al lenguaje SQL como "lenguaje de consultas", (ya que este fue su 
 origen), puede hacer mucho más, como: 
 • Definir la estructura de los datos: Definición. 
@@ -436,8 +431,7 @@ lenguajes comerciales para el modelo relacional, para grandes bancos de datos co
 se adhería totalmente al modelo relacional descrito por Codd, se convirtió en el lenguaje de base de 
 datos más usado. 
 Historia 
-A mediados de la década de 1970, los laboratorios de IBM, (San José Research Laboratory), basándose 
-en el modelo relacional propuesto por Edgar Frank Codd, crearon el lenguaje SEQUEL (Structured 
+A mediados de la década de 1970, los laboratorios de IBM, (San José Research Laboratory), basándose \nen el modelo relacional propuesto por Edgar Frank Codd, crearon el lenguaje SEQUEL (Structured 
 English QUEry Language), y posteriormente IBM lo implementó en 1977 para poder gestionar los datos 
 almacenados en el nuevo software de base de datos llamado SYSTEM R. 
 
@@ -505,8 +499,7 @@ Nuevamente, se introducen nuevas características:
 • 2006: SQL/2006 
 Se definen las forman en que SQL se puede utilizar conjuntamente con XML en el estándar 
 ISO/IEC 9075-14:2006, como, por ejemplo: 
-• Formas para que en una B.D. SQL se pueda importar y guardar datos XML, manipulándolos 
-en la B.D. y pudiendo publicar los datos convencionales SQL en forma XML. 
+• Formas para que en una B.D. SQL se pueda importar y guardar datos XML, manipulándolos \nen la B.D. y pudiendo publicar los datos convencionales SQL en forma XML. 
 • Se añaden facilidades para que las aplicaciones integren dentro de su código SQL el uso de 
 XQuery. 
 • 2008: SQL/2008 
@@ -573,8 +566,7 @@ En SQL, podemos trabajar con diferentes tipos de datos, los cuales tienen sus pr
 por tanto, solo podrán albergar un determinado tipo de valor (dominio). 
 Los dominios son reglas que se aplican a un campo en una tabla, restringen el conjunto de valores 
 permitidos para ese campo y, por tanto, aplican la integridad de datos. 
-Aplicar la integridad de datos significa que solo se permite que se introduzcan en el campo los valores 
-especificados. 
+Aplicar la integridad de datos significa que solo se permite que se introduzcan en el campo los valores \nespecificados. 
  
  
  
@@ -597,13 +589,11 @@ y disparadores
 Puesto que restringe los valores del atributo, puede ser 
 considerado como una restricción. 
 Matemáticamente, atribuir un dominio a un atributo significa 
-"cualquier valor de este atributo debe ser elemento del conjunto 
-especificado". 
+"cualquier valor de este atributo debe ser elemento del conjunto \nespecificado". 
  
  
 Como sabemos existen distintos tipos de Sistemas Gestores de Bases de Datos que utilizan SQL como 
-lenguaje principal. Si bien en esta unidad la idea es hablar de las características comunes del lenguaje, en 
-el epígrafe "Implementación de tipos de datos según el Sistema Gestor" matizamos compatibilidades de 
+lenguaje principal. Si bien en esta unidad la idea es hablar de las características comunes del lenguaje, en \nel epígrafe "Implementación de tipos de datos según el Sistema Gestor" matizamos compatibilidades de 
 los tipos de datos con los distintos SGBDs. 
 2.3.1. Cadena de caracteres 
 Las cadenas de caracteres son valores literales utilizados para almacenar texto en una base de datos. 
@@ -617,8 +607,7 @@ una parte del conjunto de caracteres posibles.
 Actualmente, la mayoría de los sistemas emplean Unicode, un estándar que permite representar 
 caracteres de casi todos los idiomas. 
 Las formas de codificación Unicode más comunes son: 
-• UTF-8 (Formato de Transformación Unicode de 8 bits): es la codificación más extendida, 
-eficiente en almacenamiento y compatible con ASCII. 
+• UTF-8 (Formato de Transformación Unicode de 8 bits): es la codificación más extendida, \neficiente en almacenamiento y compatible con ASCII. 
 • UTF-16 (Formato de Transformación Unicode de 16 bits): utiliza una o dos unidades de 16 bits 
 por carácter; es habitual en sistemas como SQL Server y Oracle para los tipos Unicode. 
 
@@ -653,8 +642,7 @@ Unicode (como UTF-8).
 • NVARCHAR(n) tiene longitud variable. En SQL Server puede declararse como 
 NVARCHAR(MAX) para textos muy largos. 
 • TEXT o CLOB (Character Large Object): Tipos diseñados para almacenar grandes volúmenes de 
-texto, como documentos o párrafos extensos. Su implementación y restricciones (por ejemplo, 
-en la indexación o comparación) varían entre sistemas gestores. 
+texto, como documentos o párrafos extensos. Su implementación y restricciones (por ejemplo, \nen la indexación o comparación) varían entre sistemas gestores. 
 • En SQL Server, TEXT y NTEXT están en desuso; se recomienda usar VARCHAR(MAX) o 
 NVARCHAR(MAX). 
 • En Oracle, el equivalente es CLOB (texto no Unicode) y NCLOB (texto Unicode). 
@@ -688,8 +676,7 @@ códigos hash o identificadores cifrados).
 (hasta 2³¹-1 bytes, es decir, 2 GB). 
 Se recomienda utilizarlo cuando el tamaño de los datos varía considerablemente o cuando los 
 valores pueden superar los 8000 bytes. 
-El tamaño de almacenamiento corresponde a la longitud real de los datos más un pequeño 
-espacio adicional (normalmente 2 bytes para la gestión interna). 
+El tamaño de almacenamiento corresponde a la longitud real de los datos más un pequeño \nespacio adicional (normalmente 2 bytes para la gestión interna). 
 El estándar ANSI SQL define como sinónimo de VARBINARY el término BINARY VARYING. 
 • BLOB (Binary Large Object): Tipo estándar para almacenar grandes volúmenes de datos 
 binarios (imágenes, audio, vídeo, etc.). 
@@ -740,8 +727,7 @@ la tabla.
 Si no está dentro del rango, el comportamiento dependerá del sistema de gestión de bases de datos 
 (SGBD): algunos SGBD mostrarán un mensaje de error y no ejecutarán la sentencia, mientras que otros 
 pueden emitir un aviso y almacenar el valor ajustado al máximo permitido para ese atributo. 
-Si la cadena contiene caracteres que SQL no puede convertir a valor numérico, muestra un mensaje de 
-error y la sentencia no se ejecuta. 
+Si la cadena contiene caracteres que SQL no puede convertir a valor numérico, muestra un mensaje de \nerror y la sentencia no se ejecuta. 
  
 
 <!-- Page 19 -->
@@ -793,8 +779,7 @@ y su rango aproximado es de –2.147.483.648 a 2.147.483.647.
 Lenguajes de Interrogación de Bases de Datos. Estándar ANSI SQL. Procedimientos almacenados, eventos 
 y disparadores 
 20 
-Algunos sistemas gestores de bases de datos permiten trabajar con rangos extendidos mediante tipos 
-específicos o configuraciones personalizadas. 
+Algunos sistemas gestores de bases de datos permiten trabajar con rangos extendidos mediante tipos \nespecíficos o configuraciones personalizadas. 
 • TINYINT: Disponible en algunos SGBD para representar valores muy pequeños. Puede 
 almacenar valores enteros comprendidos entre 0 y 255. Longitud: 1 byte. 
 • BIT: Tipo que representa valores booleanos (0 o 1). Aunque conceptualmente ocupa 1 bit, en 
@@ -815,11 +800,9 @@ Estos tipos se utilizan habitualmente en cálculos financieros, científicos o c
 del valor es prioritaria frente a la velocidad de cálculo. 
 2.3.5.3. Almacenar numéricos APROXIMADOS con decimales 
 Para almacenar valores numéricos aproximados con decimales se utiliza la precisión flotante. 
-Este tipo de precisión se relaciona con la cantidad de dígitos significativos que pueden almacenarse y 
-emplearse en los cálculos, y es ideal para aplicaciones científicas, gráficas o de ingeniería, donde se 
+Este tipo de precisión se relaciona con la cantidad de dígitos significativos que pueden almacenarse y \nemplearse en los cálculos, y es ideal para aplicaciones científicas, gráficas o de ingeniería, donde se 
 requiere representar un amplio rango de valores más que una exactitud absoluta. 
-Los valores de precisión flotante se almacenan en formato binario, lo que puede provocar pequeños 
-errores de redondeo al representar ciertos valores decimales. 
+Los valores de precisión flotante se almacenan en formato binario, lo que puede provocar pequeños \nerrores de redondeo al representar ciertos valores decimales. 
 • FLOAT, REAL y DOUBLE PRECISION son los principales tipos de datos de precisión flotante. 
 • FLOAT: adecuado para aplicaciones donde la rapidez es esencial, pero la precisión no es crítica. 
 Suele ofrecer alrededor de 7 dígitos decimales de precisión y ocupar 4 bytes de 
@@ -842,8 +825,7 @@ disponibilidad o comportamiento exacto puede depender del motor de base de datos
 Estos tipos se utilizan cuando se necesita representar valores grandes o muy pequeños con una 
 precisión relativa suficiente, aceptando un margen de error mínimo en los cálculos. 
 2.3.5.4. Almacenar valores MONETARIOS 
-Para almacenar valores monetarios se emplean tipos de datos diseñados para representar cantidades 
-económicas con decimales fijos y un control exacto de la precisión. 
+Para almacenar valores monetarios se emplean tipos de datos diseñados para representar cantidades \neconómicas con decimales fijos y un control exacto de la precisión. 
 MONEY, SMALLMONEY: Utilizados para representar valores monetarios con decimales fijos. 
 No forman parte del estándar SQL ANSI, pero están presentes en varios sistemas gestores de bases de 
 datos comerciales, especialmente en SQL Server. 
@@ -859,8 +841,7 @@ tipos estandarizados y más portables entre diferentes sistemas gestores.
 2.3.6. Datos tipo fecha y hora 
 Los tipos de datos fecha y hora permiten almacenar información temporal, ya sea solo la fecha, solo la 
 hora, o una combinación de ambas. 
-Estos tipos resultan fundamentales para registrar eventos, programar operaciones o calcular intervalos 
-entre momentos específicos. 
+Estos tipos resultan fundamentales para registrar eventos, programar operaciones o calcular intervalos \nentre momentos específicos. 
 • DATE: Almacena únicamente una fecha (año, mes y día). Forma parte del estándar SQL y está 
 disponible en la mayoría de los SGBD (SQL Server, Oracle, PostgreSQL y MySQL). Su rango y 
 precisión pueden variar según el sistema gestor. 
@@ -901,8 +882,7 @@ incluyendo además el desplazamiento de zona horaria (offset).
 • En SQL Server, DATETIMEOFFSET ocupa 10 bytes (con precisión predeterminada de 7 
 fraccionarios) y permite registrar la hora junto a su zona horaria (por ejemplo, –05:00 
 para EST) 
-• En PostgreSQL y Oracle, se emplea el tipo TIMESTAMP WITH TIME ZONE con un propósito 
-equivalente. Son ideales para aplicaciones globales que requieren almacenar tanto la hora 
+• En PostgreSQL y Oracle, se emplea el tipo TIMESTAMP WITH TIME ZONE con un propósito \nequivalente. Son ideales para aplicaciones globales que requieren almacenar tanto la hora 
 local como la referencia universal (UTC). 
 
 <!-- Page 23 -->
@@ -930,13 +910,11 @@ El lenguaje SQL está regulado por un estándar ANSI/ISO que define un conjunto 
 datos y su comportamiento general. Este estándar es la base sobre la que se construyen los distintos 
 sistemas gestores de bases de datos (SGBD). Sin embargo, cada gestor puede implementar estos tipos 
 con variaciones en su nombre, tamaño máximo, precisión, reglas internas o funcionalidades extendidas. 
-A continuación, se resumen las características más relevantes en la implementación de tipos de datos 
-en algunos de los SGBD más utilizados: 
+A continuación, se resumen las características más relevantes en la implementación de tipos de datos \nen algunos de los SGBD más utilizados: 
 MySQL y MariaDB 
 MySQL y MariaDB comparten una implementación muy similar de los tipos de datos, ya que MariaDB 
 surgió como una bifurcación de MySQL. Ambos gestores distinguen entre varios tipos de datos textuales 
-y binarios con gran flexibilidad. El tipo VARCHAR(n) puede almacenar hasta 65.535 bytes por fila, aunque 
-el límite efectivo depende del conjunto de caracteres y de otros campos definidos en la tabla. 
+y binarios con gran flexibilidad. El tipo VARCHAR(n) puede almacenar hasta 65.535 bytes por fila, aunque \nel límite efectivo depende del conjunto de caracteres y de otros campos definidos en la tabla. 
 Los tipos TEXT y BLOB se presentan en versiones con distinto tamaño máximo (TINY, MEDIUM, 
 LONG), útiles para manejar grandes cantidades de información. Ninguno de los dos utiliza tipos 
 NVARCHAR o NCHAR como tales, el soporte Unicode se gestiona mediante la codificación del conjunto 
@@ -957,8 +935,7 @@ y disparadores
 PostgreSQL 
 PostgreSQL permite una definición muy flexible y semánticamente coherente de los tipos de datos. Los 
 tipos VARCHAR, TEXT y CHARACTER VARYING se comportan de forma equivalente, y no hay un límite 
-práctico para su longitud. Para datos binarios se utiliza BYTEA, y para cadenas de texto grandes TEXT 
-es completamente funcional. 
+práctico para su longitud. Para datos binarios se utiliza BYTEA, y para cadenas de texto grandes TEXT \nes completamente funcional. 
 PostgreSQL también incorpora el tipo UUID como nativo, además de JSON y JSONB para estructuras 
 semiestructuradas. En cuanto a fechas, distingue claramente entre TIMESTAMP y TIMESTAMP WITH 
 TIME ZONE (timestamptz), con soporte completo para operaciones sobre zonas horarias. 
@@ -1253,8 +1230,7 @@ permite combinar resultados sin eliminar duplicados.
  
  
 + Info 
-El predicado TOP es propio de SQL Server, y se utiliza para limitar 
-el número de filas devueltas por una consulta. En otros sistemas 
+El predicado TOP es propio de SQL Server, y se utiliza para limitar \nel número de filas devueltas por una consulta. En otros sistemas 
 gestores se emplean alternativas como LIMIT (en MySQL, 
 MariaDB, PostgreSQL y SQLite) o FETCH FIRST (en Oracle y DB2). 
  
@@ -1266,8 +1242,7 @@ Como ya hemos indicado anteriormente, se clasifican en diferentes tipos:
 • Aritméticos. 
 • De comparación. 
 2.4.4.1. Operadores lógicos o booleanos 
-Los operadores lógicos se utilizan para comprobar la veracidad o falsedad de una condición, por lo que 
-el valor que devuelven es de tipo BOOLEAN, es decir: TRUE (verdadero), FALSE (falso) o UNKNOWN 
+Los operadores lógicos se utilizan para comprobar la veracidad o falsedad de una condición, por lo que \nel valor que devuelven es de tipo BOOLEAN, es decir: TRUE (verdadero), FALSE (falso) o UNKNOWN 
 (desconocido). 
 
 <!-- Page 33 -->
@@ -1290,8 +1265,7 @@ El resultado de una expresión lógica puede ser:
 Cuando interviene un valor NULL en la evaluación de una condición, el resultado suele ser UNKNOWN, 
 ya que SQL utiliza lógica ternaria (verdadero, falso, desconocido) en lugar de lógica estrictamente 
 binaria. 
-Por esta razón, los valores NULL deben gestionarse con precaución, utilizando funciones o condiciones 
-explícitas como IS NULL o COALESCE(), para evitar resultados inesperados o comportamientos no 
+Por esta razón, los valores NULL deben gestionarse con precaución, utilizando funciones o condiciones \nexplícitas como IS NULL o COALESCE(), para evitar resultados inesperados o comportamientos no 
 deseados en consultas o aplicaciones. 
 Los valores nulos también pueden afectar la integridad de los datos si no se controlan correctamente, lo 
 que contraviene los principios de normalización de bases de datos establecidos por Edgar F. Codd. 
@@ -1328,12 +1302,10 @@ Exponenciación (potencia): Operador no estándar ANSI SQL.
 En algunos SGBD representa una operación bit a bit (XOR) y no la exponenciación. 
 Para calcular potencias en SQL se utiliza habitualmente la función POWER(base, exponente). 
 2.4.4.3. Operadores de comparación 
-También denominados relacionales, los operadores de comparación se utilizan para evaluar la relación 
-entre dos expresiones, determinando si son iguales, diferentes, mayores o menores entre sí. 
+También denominados relacionales, los operadores de comparación se utilizan para evaluar la relación \nentre dos expresiones, determinando si son iguales, diferentes, mayores o menores entre sí. 
 El resultado de la comparación es siempre un valor booleano: TRUE, FALSE o UNKNOWN (cuando 
 intervienen valores nulos). 
-Los operadores de comparación presentan limitaciones con los tipos de datos text, ntext e image, 
-especialmente en SQL Server, donde estos tipos se encuentran en desuso y han sido sustituidos por 
+Los operadores de comparación presentan limitaciones con los tipos de datos text, ntext e image, \nespecialmente en SQL Server, donde estos tipos se encuentran en desuso y han sido sustituidos por 
 VARCHAR(MAX), NVARCHAR(MAX) o VARBINARY(MAX). 
 OPERADOR 
 SIGNIFICADO 
@@ -1368,8 +1340,7 @@ En SQL, para buscar un patrón dentro de una columna de texto, se utiliza princi
 LIKE, junto con los comodines % y _. 
 Estos comodines permiten realizar búsquedas flexibles de cadenas de caracteres dentro de una 
 consulta. 
-La sintaxis básica es: 
-expresión [NOT] LIKE 'patrón'; 
+La sintaxis básica es: \nexpresión [NOT] LIKE 'patrón'; 
 Donde: 
 • Expresión: es una expresión SQL que se evalúa en una cláusula WHERE. 
 • Patrón: cadena de caracteres con la que se compara la expresión. 
@@ -1441,8 +1412,7 @@ y disparadores
 Nuestra consulta nos devolverá los resultados, ratón y monitor, pues el segundo caracter del código ha 
 de estar entre los valores 1 y 3 incluidos ambos, A51, el código del teclado no lo está, así que no será 
 listado. 
-Esta sintaxis con REGEXP no es válida en SQL Server, pero sí funciona en sistemas que admiten 
-expresiones regulares, como MySQL, MariaDB, PostgreSQL o Oracle (mediante REGEXP_LIKE). 
+Esta sintaxis con REGEXP no es válida en SQL Server, pero sí funciona en sistemas que admiten \nexpresiones regulares, como MySQL, MariaDB, PostgreSQL o Oracle (mediante REGEXP_LIKE). 
 2.4.4.3.2. Operador IN 
 El operador IN permite especificar un conjunto de valores, y la consulta (o subconsulta) devolverá los 
 registros cuyo valor coincida con uno de los elementos de ese conjunto. 
@@ -1489,8 +1459,7 @@ Con GROUP BY devuelve el valor máximo de cada grupo.
 de texto o de fecha. 
 Con GROUP BY devuelve el valor mínimo de cada grupo. 
 2.4.6. Sintaxis SQL y su precedencia 
-El orden lógico de ejecución de una sentencia SQL no coincide exactamente con el orden en que se 
-escribe. 
+El orden lógico de ejecución de una sentencia SQL no coincide exactamente con el orden en que se \nescribe. 
 A efectos de interpretación por el sistema gestor, la precedencia de las operaciones es la siguiente: 
 1. Origen de los datos: se identifican las tablas o vistas que participan en la consulta (FROM / 
 JOIN). 
@@ -1536,8 +1505,7 @@ En SQL, el control de transacciones se realiza mediante las siguientes sentencia
 • ROLLBACK: deshace todos los cambios desde el inicio de la transacción. 
 Estas sentencias están disponibles en los principales sistemas gestores de bases de datos (SQL Server, 
 MySQL/MariaDB, PostgreSQL, Oracle y SQLite), aunque su comportamiento concreto puede presentar 
-diferencias según el SGBD y su configuración, especialmente en aspectos como el modo autocommit o 
-el nivel de aislamiento. 
+diferencias según el SGBD y su configuración, especialmente en aspectos como el modo autocommit o \nel nivel de aislamiento. 
 
 <!-- Page 40 -->
 
@@ -1642,8 +1610,7 @@ NULL
 RESTRICCIONES sobre los dominios de las columnas de una tabla. Se usan para 
 asegurar la integridad de los datos. 
 4.1. Modificación de la estructura de los objetos de la B.D. 
-Las bases de datos y sus objetos (tablas, vistas, índices, procedimientos, etc.) se crean, modifican o 
-eliminan mediante los comandos del lenguaje DDL (Data Definition Language). 
+Las bases de datos y sus objetos (tablas, vistas, índices, procedimientos, etc.) se crean, modifican o \neliminan mediante los comandos del lenguaje DDL (Data Definition Language). 
 Estos comandos permiten definir la estructura lógica de la base de datos y mantener su diseño 
 actualizado conforme evolucionan las necesidades del sistema. 
 4.1.1. Bases de Datos 
@@ -1806,8 +1773,7 @@ ALTER TABLE jugadores ADD posicion varchar(255);
 Resultado: 
  
 • Modificar el dominio de un atributo: MODIFY COLUMN /ALTER COLUMN. 
-No siempre se puede modificar el dominio de una columna, dependerá de cómo está definido 
-ese campo, en cuanto a tipo de dato y también si es un índice, clave, etc. Por ejemplo, reducir el 
+No siempre se puede modificar el dominio de una columna, dependerá de cómo está definido \nese campo, en cuanto a tipo de dato y también si es un índice, clave, etc. Por ejemplo, reducir el 
 tamaño de caracteres de una columna puede provocar que se trunquen los datos, perdiéndose 
 información. 
 Dependiendo del SGBD que estemos usando el comando secundario puede ser MODIFY o 
@@ -1886,8 +1852,7 @@ y disparadores
  
  
 + Info 
-Hoy en día, la mayoría de los SGBD incluyen mecanismos 
-específicos para definir campos autoincrementales, sin necesidad 
+Hoy en día, la mayoría de los SGBD incluyen mecanismos \nespecíficos para definir campos autoincrementales, sin necesidad 
 de crear una secuencia de forma manual. 
  
 Diferencias entre gestores SGBD: 
@@ -1929,9 +1894,7 @@ Se emplea un índice SQL para poder recuperar datos de una base de datos de una 
 En la gran mayoría de sistemas de gestión de base de datos, se crea al definir los índices una estructura 
 de datos que se almacena en la misma base de datos que las tablas indexadas. Dicha estructura contiene 
 punteros a los contenidos de una tabla organizada en un orden específico, para ayudar a la base de 
-datos a optimizar las consultas. Mediante la organización de los valores de una columna en una 
-estructura ordenada, se permite el acceso rápido a los registros de la tabla mediante búsquedas 
-eficientes en dicha estructura. 
+datos a optimizar las consultas. Mediante la organización de los valores de una columna en una \nestructura ordenada, se permite el acceso rápido a los registros de la tabla mediante búsquedas \neficientes en dicha estructura. 
 El objetivo principal de un índice es acelerar la recuperación de información y mejorar el rendimiento de 
 las consultas. 
 
@@ -1946,8 +1909,7 @@ Sin embargo, presenta una desventaja: consume espacio adicional en disco y puede
 operaciones de escritura (INSERT, UPDATE, DELETE), ya que el índice debe actualizarse cada vez que 
 cambia un valor indexado. 
 Al realizar una búsqueda, sin un índice se debe recorrer toda la tabla secuencialmente para encontrar un 
-registro, la existencia de un índice permite el acceso directo haciendo las búsquedas más rápidas y 
-eficientes. 
+registro, la existencia de un índice permite el acceso directo haciendo las búsquedas más rápidas y \neficientes. 
 Por ello deben definirse como índices únicamente aquellos campos por los que se realizan 
 frecuentemente operaciones de búsqueda, filtrados o uniones (WHERE, JOIN, ORDER BY, etc.). 
 El índice organiza los datos, por lo general, en una estructura arbórea multinivel (B-Tree) que funciona 
@@ -2022,8 +1984,7 @@ y disparadores
 54 
 Diferencias por SGBD 
 • MySQL / MariaDB: usan por defecto B-Tree para la mayoría de índices; FULLTEXT para 
-búsquedas de texto y HASH para tablas MEMORY. El índice primario (PRIMARY KEY) siempre 
-es clustered en InnoDB. 
+búsquedas de texto y HASH para tablas MEMORY. El índice primario (PRIMARY KEY) siempre \nes clustered en InnoDB. 
 • PostgreSQL: soporta B-Tree, Hash, GIN (para arrays o texto), GiST, y SP-GiST. Permite índices 
 parciales y multicolumna con expresiones. 
 • SQL Server: distingue clustered y non-clustered, y permite índices filtrados, columnstore y full-
@@ -2073,8 +2034,7 @@ un registro con un valor ya existente, aparecerá un mensaje de error. El compor
 respecto a múltiples valores NULL depende del SGBD. 
 Puede haber varios campos UNIQUE en la misma tabla. 
 • CHECK (Verificación de condiciones). 
-Se utiliza para asegurar que todos los valores en una columna cumplan ciertas condiciones (por 
-ejemplo, mayor que 10 en un campo de tipo dato entero). 
+Se utiliza para asegurar que todos los valores en una columna cumplan ciertas condiciones (por \nejemplo, mayor que 10 en un campo de tipo dato entero). 
 • DEFAULT (Valores por defecto). 
 Proporciona un valor predeterminado a una columna. Si al insertar un registro no se especifica 
 un valor, se asignará el valor indicado en la restricción DEFAULT. 
@@ -2154,8 +2114,7 @@ primaria por tabla, y las restricciones no siempre se nombran ni se validan de f
 4.2. Relaciones entre las tablas: FOREIGN KEY y REFERENCES 
 Las tablas de una base de datos se pueden relacionar entre sí mediante sus claves. 
 Para ello, en una tabla (tabla hija) se define la clave externa (FOREIGN KEY) que creará una relación 
-con la PRIMARY KEY de otra tabla (tabla padre). La cláusula REFERENCES es la que indica este enlace 
-específico. 
+con la PRIMARY KEY de otra tabla (tabla padre). La cláusula REFERENCES es la que indica este enlace \nespecífico. 
 • FOREIGN KEY. 
 Indica qué campo actúa como clave foránea en la tabla hija. Este campo contendrá valores que 
 deben existir previamente en la tabla padre, garantizando así la integridad referencial entre 
@@ -2246,8 +2205,7 @@ Ejemplo en nuestra Tabla Jugadores.
 idJugador 
 nombre 
 apellido1 
-apellido2 
-edad 
+apellido2 \nedad 
 posicion 
 apodo 
 1 
@@ -2319,8 +2277,7 @@ CREATE VIEW [apodosDefensas] AS
 SELECT edad, apodo FROM jugadores WHERE posición='defensa'; 
 Indicamos que se muestre la vista. 
 SELECT * FROM [apodosDefensas]; 
-Resultado: 
-edad 
+Resultado: \nedad 
 apodo 
 46 
 Correcaminos 
@@ -2340,8 +2297,7 @@ Modificar una vista. REPLACE VIEW
 Podemos modificar una vista ya existente, por ejemplo, quitando o agregando los campos a mostrar, o 
 cambiando la condición. 
 Para ello utilizamos la misma sintaxis que para crear la vista, pero sustituyendo CREATE VIEW por 
-CREATE OR REPLACE VIEW, según el SGBD. Esta instrucción actualiza la definición de la vista si ya 
-existe, sin necesidad de eliminarla previamente. 
+CREATE OR REPLACE VIEW, según el SGBD. Esta instrucción actualiza la definición de la vista si ya \nexiste, sin necesidad de eliminarla previamente. 
 Eliminar una vista. DROP VIEW 
 Para eliminar una lista utilizaremos: 
 DROP VIEW [nombreLista]; 
@@ -2387,8 +2343,7 @@ Además, soporta vistas materializadas (CREATE MATERIALIZED VIEW) que pueden.
 Ejemplo: 
 La opción WITH CHECK OPTION también está disponible.actualizarse de forma manual o 
 automática. 
-CREATE OR REPLACE VIEW empleados_activos AS SELECT * FROM empleados WHERE 
-estado='ACTIVO' WITH CHECK OPTION; 
+CREATE OR REPLACE VIEW empleados_activos AS SELECT * FROM empleados WHERE \nestado='ACTIVO' WITH CHECK OPTION; 
 SQLite 
 Implementa CREATE VIEW y DROP VIEW, pero no CREATE OR REPLACE VIEW. 
 No soporta vistas materializadas ni actualizables. 
@@ -2490,8 +2445,7 @@ Teniendo la tabla jugadores (idJugador, nombre, apellido1, apellido2, edad, posi
 idJugador 
 nombre 
 apellido1 
-apellido2 
-edad 
+apellido2 \nedad 
 posicion 
 apodo 
 1 
@@ -2570,8 +2524,7 @@ Queremos mostrar el campo apodo con el nombre alias, junto con nombre y apellido
 SELECT indica que queremos seleccionar campos, y FROM indica de qué tabla queremos seleccionar 
 dichos campos). Se estudiará más adelante. 
 SELECT apodo AS alias, nombre, apellido1 FROM jugadores; 
-Resultado: nos muestra solo los campos que hemos indicado (apodo, nombre y apellido1), sustituyendo 
-el nombre del campo "apodo" por "alias". 
+Resultado: nos muestra solo los campos que hemos indicado (apodo, nombre y apellido1), sustituyendo \nel nombre del campo "apodo" por "alias". 
 alias 
 nombre 
 apellido1 
@@ -2623,8 +2576,7 @@ y disparadores
 66 
 En SQL, la palabra clave AS es opcional. se puede escribir: 
 SELECT apodo alias FROM jugadores; 
-Sin embargo, usarla mejora la claridad y legibilidad, por lo que se recomienda mantenerla, 
-especialmente en consultas complejas o en entornos corporativos (SQL Server, PostgreSQL, Oracle, 
+Sin embargo, usarla mejora la claridad y legibilidad, por lo que se recomienda mantenerla, \nespecialmente en consultas complejas o en entornos corporativos (SQL Server, PostgreSQL, Oracle, 
 MySQL, SQLite… todos la admiten). 
 Diferencias entre SGBD 
 El uso de AS es opcional en la mayoría de los sistemas (SQL Server, MySQL, MariaDB, PostgreSQL y 
@@ -2635,8 +2587,7 @@ para tablas; sin embargo, en SQL Server no puede usarse AS para alias de tablas,
 5.2. Consultas de selección 
 El objetivo de las Sentencias de consulta de datos (DQL, Data Query Language), es visualizar, 
 seleccionar y organizar los datos de las tablas que componen la base de datos. 
-Para ello se generan consultas que filtren datos y/o los ordenen de la forma concreta en que se 
-específica. 
+Para ello se generan consultas que filtren datos y/o los ordenen de la forma concreta en que se \nespecífica. 
 El comando principal es SELECT, indica que queremos ejecutar una sentencia de SQL de selección. 
 En algunos contextos, SELECT también puede actuar como cláusula dentro de una instrucción 
 mayor (por ejemplo, en una subconsulta o vista). 
@@ -2720,8 +2671,7 @@ y disparadores
 idJugador 
 nombre 
 apellido1 
-apellido2 
-edad 
+apellido2 \nedad 
 posicion 
 apodo 
 1 
@@ -2790,8 +2740,7 @@ delantero
 Instrucción: 
 SELECT nombre, edad FROM jugadores; 
 Resultado: 
-nombre 
-edad 
+nombre \nedad 
 Iker 
 37 
 Luis Miguel 
@@ -2822,8 +2771,7 @@ Diferencias entre SGDB
 En algunos sistemas gestores de bases de datos, como Oracle, los nombres de tablas y campos no 
 distinguen entre mayúsculas y minúsculas si se crean sin comillas dobles. En cambio, en PostgreSQL, los 
 identificadores se convierten por defecto a minúsculas, lo que puede afectar si se usan comillas al 
-definirlos. Conviene mantener una convención clara (por ejemplo, siempre en minúsculas) para evitar 
-errores. 
+definirlos. Conviene mantener una convención clara (por ejemplo, siempre en minúsculas) para evitar \nerrores. 
 5.2.1.1.1. DISTINCT 
 El predicado DISTINCT se utiliza para eliminar los valores duplicados en los resultados de una consulta. 
 Se indica antes de los nombres de columna, para evitar que se seleccionen filas duplicadas. 
@@ -2831,8 +2779,7 @@ Teniendo nuestra tabla jugadores:
 idJugador 
 nombre 
 apellido1 
-apellido2 
-edad 
+apellido2 \nedad 
 posicion 
 apodo 
 1 
@@ -2956,8 +2903,7 @@ Resultado:
 idJugador 
 nombre 
 apellido1 
-apellido2 
-edad 
+apellido2 \nedad 
 posicion 
 apodo 
 8 
@@ -3045,21 +2991,16 @@ Es posible ordenar por más de una columna, por ejemplo:
 ORDER BY posicion ASC, edad DESC; 
 Ordena primero por posición alfabéticamente y, dentro de cada posición, por edad de mayor a menor. 
 Diferencias entre SGDB 
-• En MySQL y PostgreSQL, los valores NULL aparecen al principio en orden ascendente y al final 
-en descendente. 
-• En Oracle y SQL Server, el comportamiento puede variar, pero puede modificarse 
-explícitamente con las opciones NULLS FIRST o NULLS LAST. 
+• En MySQL y PostgreSQL, los valores NULL aparecen al principio en orden ascendente y al final \nen descendente. 
+• En Oracle y SQL Server, el comportamiento puede variar, pero puede modificarse \nexplícitamente con las opciones NULLS FIRST o NULLS LAST. 
 5.2.1.1.3. Cálculos sobre atributos 
 Podemos efectuar cálculos sobre los atributos que queremos mostrar. 
-Por ejemplo, si queremos obtener la edad que tenían hace 10 años, y mostrar el resultado llamando a 
-ese campo resultante edad2008 (es decir, un alias) utilizaríamos la siguiente sentencia: 
+Por ejemplo, si queremos obtener la edad que tenían hace 10 años, y mostrar el resultado llamando a \nese campo resultante edad2008 (es decir, un alias) utilizaríamos la siguiente sentencia: 
 SELECT nombre, apellido1, apellido2, edad, edad - 10 AS edad2008 FROM jugadores; 
 Resultado: 
 nombre 
 apellido1 
-apellido2 
-edad 
-edad2008 
+apellido2 \nedad \nedad2008 
 Iker 
 Casillas 
 Fernández 
@@ -3080,9 +3021,7 @@ y disparadores
 74 
 nombre 
 apellido1 
-apellido2 
-edad 
-edad2008 
+apellido2 \nedad \nedad2008 
 Sergi 
 Barjuan 
 Esclusa 
@@ -3118,16 +3057,14 @@ Salinas
 Fernández 
 55 
 45 
-En la mayoría de los SGBD (MySQL, PostgreSQL, SQL Server), el uso de AS es opcional; se puede 
-escribir simplemente edad - 10 edad2008. Sin embargo, se recomienda incluirlo siempre para mejorar la 
+En la mayoría de los SGBD (MySQL, PostgreSQL, SQL Server), el uso de AS es opcional; se puede \nescribir simplemente edad - 10 edad2008. Sin embargo, se recomienda incluirlo siempre para mejorar la 
 legibilidad. 
  
  
  
  
 ORACLE 
-En Oracle, cuando un alias contiene espacios o caracteres 
-especiales, debe escribirse entre comillas dobles. 
+En Oracle, cuando un alias contiene espacios o caracteres \nespeciales, debe escribirse entre comillas dobles. 
 SELECT edad - 10 AS "Edad hace 10 años" FROM 
 jugadores; 
  
@@ -3215,8 +3152,7 @@ y disparadores
 idJugador 
 nombre 
 apellido1 
-apellido2 
-edad 
+apellido2 \nedad 
 posicion 
 apodo 
 1 
@@ -3289,8 +3225,7 @@ Resultado:
 idJugador 
 nombre 
 apellido1 
-apellido2 
-edad 
+apellido2 \nedad 
 posicion 
 apodo 
 1 
@@ -3329,8 +3264,7 @@ Resultado:
 idJugador 
 nombre 
 apellido1 
-apellido2 
-edad 
+apellido2 \nedad 
 posicion 
 apodo 
 9 
@@ -3343,13 +3277,11 @@ delantero
 Ejemplos WHERE con LIKE 
 • Ejemplo 1: queremos que se muestren los jugadores cuyo nombre contenga la cadena "Sergi". 
 SELECT * FROM jugadores WHERE nombre LIKE 'Sergi'; 
-Resultado: muestra como resultado solo la fila curo nombre coincide totalmente con la cadena 
-especificada. 
+Resultado: muestra como resultado solo la fila curo nombre coincide totalmente con la cadena \nespecificada. 
 idJugador 
 nombre 
 apellido1 
-apellido2 
-edad 
+apellido2 \nedad 
 posicion 
 apodo 
 3 
@@ -3368,8 +3300,7 @@ Si tuviéramos un jugador con nombre, por ejemplo Sergis o Sergiw también apare
 idJugador 
 nombre 
 apellido1 
-apellido2 
-edad 
+apellido2 \nedad 
 posicion 
 apodo 
 4 
@@ -3394,8 +3325,7 @@ Resultado: muestra el jugador con apellido Salinas, que coincide con lo especifi
 idJugador 
 nombre 
 apellido1 
-apellido2 
-edad 
+apellido2 \nedad 
 posicion 
 apodo 
 9 
@@ -3408,13 +3338,11 @@ delantero
 • Ejemplo 4: queremos que se muestren los jugadores cuyo apellido1 contenga: "un carácter 
 cualquiera que sea", "a", "cualquier longitud de caracteres cualesquiera que sean", "a", "s". 
 SELECT * FROM jugadores WHERE apellido1 LIKE '_a%as'; 
-Resultado: muestra el jugador con apellido "Casillas" y "Salinas", que coincide con lo 
-especificado. 
+Resultado: muestra el jugador con apellido "Casillas" y "Salinas", que coincide con lo \nespecificado. 
 idJugador 
 nombre 
 apellido1 
-apellido2 
-edad 
+apellido2 \nedad 
 posicion 
 apodo 
 1 
@@ -3449,8 +3377,7 @@ Resultado:
 idJugador 
 nombre 
 apellido1 
-apellido2 
-edad 
+apellido2 \nedad 
 posicion 
 apodo 
 1 
@@ -3490,8 +3417,7 @@ Resultado: muestra todas las filas cuya posición es "defensa" o "centrocampista
 idJugador 
 nombre 
 apellido1 
-apellido2 
-edad 
+apellido2 \nedad 
 posicion 
 apodo 
 3 
@@ -3547,8 +3473,7 @@ Resultado:
 idJugador 
 nombre 
 apellido1 
-apellido2 
-edad 
+apellido2 \nedad 
 posicion 
 apodo 
 4 
@@ -3604,8 +3529,7 @@ De nuevo, todos los ejemplos son sobre nuestra tabla "jugadores".
 idJugador 
 nombre 
 apellido1 
-apellido2 
-edad 
+apellido2 \nedad 
 posicion 
 apodo 
 1 
@@ -3675,8 +3599,7 @@ Ejemplo 1: consultas anidadas
 Queremos mostrar todos los jugadores que tienen la misma posición que el jugador de mayor edad. 
 Para ello necesitaremos realizar una consulta con subconsultas (consultas anidadas). 
 La consulta a realizar sería: 
-SELECT * FROM jugadores WHERE posicion = (SELECT posicion FROM jugadores WHERE 
-edad = (SELECT MAX(edad) AS EdadMax FROM jugadores)); 
+SELECT * FROM jugadores WHERE posicion = (SELECT posicion FROM jugadores WHERE \nedad = (SELECT MAX(edad) AS EdadMax FROM jugadores)); 
 Lo vemos, paso a paso: 
 • Primero vamos a ver cómo es la consulta para saber cuál es la edad más alta (que usaremos 
 cómo subconsulta). 
@@ -3706,16 +3629,13 @@ delantero
 • Ahora que ya sabemos las consultas anteriores, realizamos la consulta completa, que nos dará el 
 resultado que queríamos (mostrar todos los jugadores que tienen la misma posición que el 
 jugador de mayor edad). 
-Consultamos todos los jugadores que tengan esta posición (de nuevo, la consulta anterior va 
-entre paréntesis como subconsulta). 
-SELECT * FROM jugadores WHERE posicion = (SELECT posicion FROM jugadores WHERE 
-edad = (SELECT MAX(edad) AS EdadMax FROM jugadores)); 
+Consultamos todos los jugadores que tengan esta posición (de nuevo, la consulta anterior va \nentre paréntesis como subconsulta). 
+SELECT * FROM jugadores WHERE posicion = (SELECT posicion FROM jugadores WHERE \nedad = (SELECT MAX(edad) AS EdadMax FROM jugadores)); 
 Resultado final: 
 idJugador 
 nombre 
 apellido1 
-apellido2 
-edad 
+apellido2 \nedad 
 posicion 
 apodo 
 8 
@@ -3786,8 +3706,7 @@ Resultado final:
 idJugador 
 nombre 
 apellido1 
-apellido2 
-edad 
+apellido2 \nedad 
 posicion 
 apodo 
 2 
@@ -3819,8 +3738,7 @@ González
 delantero 
 Santillana 
 Ejemplo 3: ALL 
-Queremos mostrar los jugadores que tienen una edad inferior, a la que tienen los jugadores de mayor 
-edad en cada posición. 
+Queremos mostrar los jugadores que tienen una edad inferior, a la que tienen los jugadores de mayor \nedad en cada posición. 
 La consulta a realizar sería: 
 SELECT * FROM jugadores WHERE edad < ALL (SELECT MAX(edad) AS EdadMax FROM 
 jugadores GROUP BY posicion); 
@@ -3850,8 +3768,7 @@ Resultado final:
 idJugador 
 nombre 
 apellido1 
-apellido2 
-edad 
+apellido2 \nedad 
 posicion 
 apodo 
 1 
@@ -3933,8 +3850,7 @@ Resultado final:
 idJugador 
 nombre 
 apellido1 
-apellido2 
-edad 
+apellido2 \nedad 
 posicion 
 apodo 
 3 
@@ -3959,8 +3875,7 @@ Saforcada
 defensa 
 Tiburón 
 5.2.2.2. Agrupamiento de registros: Claúsulas GROUP BY y HAVING 
-En ocasiones, es necesario obtener datos agrupados según los valores de una o varias columnas 
-especificadas. 
+En ocasiones, es necesario obtener datos agrupados según los valores de una o varias columnas \nespecificadas. 
 A modo introductorio, vamos a ver, que, ante múltiples filas de una tabla, podemos utilizar las cláusulas: 
 • GROUP BY (se utiliza con la sentencia SELECT). 
 Para indicar cómo agrupar. 
@@ -4046,8 +3961,7 @@ de agregación, deben incluirse en la cláusula GROUP BY
  
 5.2.2.2.1. Cláusula GROUP BY 
 La cláusula GROUP BY permite agrupar filas según el valor de una o varias columnas. 
-La cláusula GROUP BY agrupa las filas de una tabla en función del campo que le indiquemos, y muestra 
-el dato que le hayamos solicitado en la consulta sobre ese conjunto que ha agrupado. 
+La cláusula GROUP BY agrupa las filas de una tabla en función del campo que le indiquemos, y muestra \nel dato que le hayamos solicitado en la consulta sobre ese conjunto que ha agrupado. 
 
 <!-- Page 91 -->
 
@@ -4056,8 +3970,7 @@ el dato que le hayamos solicitado en la consulta sobre ese conjunto que ha agrup
 Lenguajes de Interrogación de Bases de Datos. Estándar ANSI SQL. Procedimientos almacenados, eventos 
 y disparadores 
 91 
-GROUP BY agrupa los registros y calcula los valores agregados por grupo; el resultado puede mostrarse 
-en cualquier orden si no se especifica ORDER BY. Recuerda que ORDER BY, puede ordenar de forma 
+GROUP BY agrupa los registros y calcula los valores agregados por grupo; el resultado puede mostrarse \nen cualquier orden si no se especifica ORDER BY. Recuerda que ORDER BY, puede ordenar de forma 
 ascendente (ASC) que es el valor por defecto, o de forma descendente (DESC). 
 Se puede también utilizar con más de un campo (nombre de columna), en cuyo caso hay que separar 
 los nombres de cada columna por una coma. 
@@ -4069,8 +3982,7 @@ Veamos algunos ejemplos sobre nuestra tabla jugadores:
 idJugador 
 nombre 
 apellido1 
-apellido2 
-edad 
+apellido2 \nedad 
 posicion 
 apodo 
 1 
@@ -4136,8 +4048,7 @@ Fernández
 55 
 delantero 
  
-Ejemplo 1: Queremos saber la media de edad (AVG) mostrando el dato con el nombre de campo 
-edadMedia (AS) de los jugadores que tienen la misma posición (GROUP BY). 
+Ejemplo 1: Queremos saber la media de edad (AVG) mostrando el dato con el nombre de campo \nedadMedia (AS) de los jugadores que tienen la misma posición (GROUP BY). 
 El resultado puede mostrarse en un orden distinto según el SGBD, ya que GROUP BY no garantiza 
 ningún orden. 
 SELECT posicion, AVG(edad) AS edadMedia FROM jugadores GROUP BY posicion; 
@@ -4150,8 +4061,7 @@ Lenguajes de Interrogación de Bases de Datos. Estándar ANSI SQL. Procedimiento
 y disparadores 
 92 
 Resultado (el orden de las filas puede variar si no se utiliza ORDER BY): 
-posicion 
-edadMedia 
+posicion \nedadMedia 
 portero 
 50,5 
 defensa 
@@ -4295,8 +4205,7 @@ Tabla jugadores:
 idJugador 
 nombre 
 apellido1 
-apellido2 
-edad 
+apellido2 \nedad 
 posicion 
 apodo 
 1 
@@ -4324,8 +4233,7 @@ y disparadores
 idJugador 
 nombre 
 apellido1 
-apellido2 
-edad 
+apellido2 \nedad 
 posicion 
 apodo 
 3 
@@ -4381,8 +4289,7 @@ Tabla leyendas:
 idJugador 
 nombre 
 apellido1 
-apellido2 
-edad 
+apellido2 \nedad 
 posicion 
 apodo 
 20 
@@ -4412,8 +4319,7 @@ Resultado:
 idJugador 
 nombre 
 apellido1 
-apellido2 
-edad 
+apellido2 \nedad 
 posicion 
 apodo 
 1 
@@ -4462,8 +4368,7 @@ y disparadores
 idJugador 
 nombre 
 apellido1 
-apellido2 
-edad 
+apellido2 \nedad 
 posicion 
 apodo 
 6 
@@ -4519,14 +4424,12 @@ Ejemplo 2: igual que en el ejemplo 1, queremos mostrar el contenido de las 2 tab
 los resultados ordenados por edad. 
 Para ordenarlas por edad, hay que anidarlas en otra sentencia SELECT para indicar que lo ordene. La 
 instrucción del ejemplo 1 se ha convertido en subconsulta. 
-SELECT * FROM (SELECT * FROM jugadores UNION SELECT * FROM Leyendas) ORDER BY 
-edad; 
+SELECT * FROM (SELECT * FROM jugadores UNION SELECT * FROM Leyendas) ORDER BY \nedad; 
 Resultado: 
 idJugador 
 nombre 
 apellido1 
-apellido2 
-edad 
+apellido2 \nedad 
 posicion 
 apodo 
 4 
@@ -4596,8 +4499,7 @@ y disparadores
 idJugador 
 nombre 
 apellido1 
-apellido2 
-edad 
+apellido2 \nedad 
 posicion 
 apodo 
 2 
@@ -4636,8 +4538,7 @@ Resultado:
 idJugador 
 nombre 
 apellido1 
-apellido2 
-edad 
+apellido2 \nedad 
 posicion 
 apodo 
 9 
@@ -4672,8 +4573,7 @@ Diferencias entre SGBD
 En todos los SGBD (SQL Server, Oracle, PostgreSQL, MySQL/MariaDB y SQLite) se exige que las 
 consultas combinadas devuelvan el mismo número de columnas, en el mismo orden y con tipos de 
 datos compatibles. 
-Sin embargo, en Oracle y PostgreSQL, cuando se usan operaciones de conjuntos (UNION, INTERSECT, 
-etc.), el ORDER BY que ordena el resultado combinado se coloca al final de toda la unión. Un ORDER BY 
+Sin embargo, en Oracle y PostgreSQL, cuando se usan operaciones de conjuntos (UNION, INTERSECT, \netc.), el ORDER BY que ordena el resultado combinado se coloca al final de toda la unión. Un ORDER BY 
 dentro de cada SELECT solo tiene sentido/efecto si ese SELECT se encapsula como subconsulta y limita 
 filas (por ejemplo, Oracle: FETCH FIRST; PostgreSQL: LIMIT/OFFSET). 
 En SQL Server y MySQL el ORDER BY debe colocarse tras la última unión si se desea ordenar el conjunto 
@@ -4751,8 +4651,7 @@ sueldoBase
 defensa 
 2000 
 delantero 
-5000 
-entrenador 
+5000 \nentrenador 
 6000 
 portero 
 1500 
@@ -4760,8 +4659,7 @@ Diferencias entre SGDB
 El comportamiento de las combinaciones JOIN es prácticamente uniforme en los principales sistemas 
 gestores (Oracle, SQL Server, PostgreSQL, MySQL/MariaDB y SQLite), aunque existen algunas 
 particularidades: 
-En MySQL/MariaDB, el estándar FULL OUTER JOIN no está implementado directamente; para obtener 
-el mismo resultado se debe simular mediante la unión de un LEFT JOIN y un RIGHT JOIN con UNION. 
+En MySQL/MariaDB, el estándar FULL OUTER JOIN no está implementado directamente; para obtener \nel mismo resultado se debe simular mediante la unión de un LEFT JOIN y un RIGHT JOIN con UNION. 
 Aunque el estándar ANSI SQL define INNER, LEFT, RIGHT, FULL y CROSS JOIN, no todos los SGBD 
 implementan todos ellos de forma nativa. 
 
@@ -4790,8 +4688,7 @@ Mostrará los registros de las posiciones que aparecen en las 2 tablas.
 idJugador 
 nombre 
 apellido1 
-apellido2 
-edad 
+apellido2 \nedad 
 posicion 
 apodo 
  
@@ -4826,8 +4723,7 @@ Esclusa
 defensa 
 Corre 
 caminos 
- 
-entrenador 
+ \nentrenador 
 6000 
 
 <!-- Page 102 -->
@@ -4840,8 +4736,7 @@ y disparadores
 idJugador 
 nombre 
 apellido1 
-apellido2 
-edad 
+apellido2 \nedad 
 posicion 
 apodo 
  
@@ -4914,8 +4809,7 @@ Resultado:
 idJugador 
 nombre 
 apellido1 
-apellido2 
-edad 
+apellido2 \nedad 
 posicion 
 apodo 
 sueldoBase 
@@ -5024,8 +4918,7 @@ y disparadores
 idJugador 
 nombre 
 apellido1 
-apellido2 
-edad 
+apellido2 \nedad 
 posicion 
 apodo 
  
@@ -5060,8 +4953,7 @@ Esclusa
 defensa 
 Corre 
 caminos 
- 
-entrenador 
+ \nentrenador 
 6000 
 4 
 Sergio 
@@ -5131,8 +5023,7 @@ Resultado:
 idJugador 
 nombre 
 apellido1 
-apellido2 
-edad 
+apellido2 \nedad 
 posicion 
 apodo 
 SueldoBase 
@@ -5207,8 +5098,7 @@ y disparadores
 idJugador 
 nombre 
 apellido1 
-apellido2 
-edad 
+apellido2 \nedad 
 posicion 
 apodo 
 SueldoBase 
@@ -5238,14 +5128,11 @@ Ejemplo RIGHT JOIN:
 SELECT jugadores.*,sueldo.sueldoBase FROM jugadores RIGHT JOIN sueldo ON 
 jugadores.posicion = sueldo.posicion; 
 Ahora además de los coincidentes, como en el ejemplo INNER JOIN, se han añadido también el registro 
-de la segunda tabla sueldos (RIGHT) a pesar de no tener relación en la primera tabla (jugadores). En 
-ese registro, las columnas correspondientes a la tabla jugadores aparecen con valor NULL, ya que no 
-existe coincidencia. 
+de la segunda tabla sueldos (RIGHT) a pesar de no tener relación en la primera tabla (jugadores). En \nese registro, las columnas correspondientes a la tabla jugadores aparecen con valor NULL, ya que no \nexiste coincidencia. 
 idJugador 
 nombre 
 apellido1 
-apellido2 
-edad 
+apellido2 \nedad 
 posicion 
 apodo 
  
@@ -5280,8 +5167,7 @@ Esclusa
 defensa 
 Corre 
 caminos 
- 
-entrenador 
+ \nentrenador 
 6000 
 4 
 Sergio 
@@ -5327,8 +5213,7 @@ y disparadores
 idJugador 
 nombre 
 apellido1 
-apellido2 
-edad 
+apellido2 \nedad 
 posicion 
 apodo 
  
@@ -5369,8 +5254,7 @@ Resultado:
 idJugador 
 nombre 
 apellido1 
-apellido2 
-edad 
+apellido2 \nedad 
 posicion 
 apodo 
 SueldoBase 
@@ -5447,8 +5331,7 @@ En SQLite, RIGHT JOIN no está soportado directamente; puede
 simularse invirtiendo el orden de las tablas y usando un LEFT JOIN. 
  
 5.2.4.2.3. FULL JOIN 
-Combinación completa: devuelve todas las filas de la primera tabla y todas las de la segunda, 
-emparejándolas cuando existe coincidencia y rellenando con valores NULL cuando no la hay. De este 
+Combinación completa: devuelve todas las filas de la primera tabla y todas las de la segunda, \nemparejándolas cuando existe coincidencia y rellenando con valores NULL cuando no la hay. De este 
 modo, el conjunto resultante contiene todas las filas de ambas tablas: las coincidentes (una sola fila por 
 clave) y las no coincidentes (con NULL en los campos de la tabla donde falta correspondencia). 
 
@@ -5496,8 +5379,7 @@ y disparadores
 idJugador 
 nombre 
 apellido1 
-apellido2 
-edad 
+apellido2 \nedad 
 posicion 
 apodo 
 sueldoBase 
@@ -5735,16 +5617,13 @@ y disparadores
  
  
 + Info 
-Hemos utilizado "WHERE" para indicar la condición de los 
-elementos que hay que borrar. Veremos su funcionamiento más 
+Hemos utilizado "WHERE" para indicar la condición de los \nelementos que hay que borrar. Veremos su funcionamiento más 
 adelante. 
  
 5.3.4. MERGE 
 El comando MERGE permite ejecutar operaciones combinadas de INSERT, UPDATE y DELETE sobre una 
-tabla de destino, a partir de una comparación con una tabla de origen. Es útil para sincronizar datos, 
-especialmente en situaciones donde se desea actualizar si existe coincidencia o insertar si no. 
-Está disponible en SQL Server, Oracle, PostgreSQL (desde la versión 15) e IBM Db2, con sintaxis basada 
-en el estándar SQL. No permite actualizar una misma fila más de una vez en la misma ejecución, por lo 
+tabla de destino, a partir de una comparación con una tabla de origen. Es útil para sincronizar datos, \nespecialmente en situaciones donde se desea actualizar si existe coincidencia o insertar si no. 
+Está disponible en SQL Server, Oracle, PostgreSQL (desde la versión 15) e IBM Db2, con sintaxis basada \nen el estándar SQL. No permite actualizar una misma fila más de una vez en la misma ejecución, por lo 
 que se considera una operación determinista. 
 En otros SGBD se emplean instrucciones equivalentes: 
 • MySQL y MariaDB: INSERT ... ON DUPLICATE KEY UPDATE o REPLACE. 
@@ -5831,8 +5710,7 @@ ALL asigna, si el asegurable es:
  
 procedimiento 
 almacenado 
-función 
-escalar 
+función \nescalar 
 función que retorna una 
 tabla 
 tabla 
@@ -5896,8 +5774,7 @@ Las tareas sobre las que se pueden conceder o denegar permisos son las siguiente
 • DELETE 
 • USAGE 
 7. Otras subclasificaciones de SQL 
-Además de los sublenguajes DDL, DML y DCL indicados en ANSI SQL, existen otras subclasificaciones 
-en función de lo que realizan sobre la base de datos. 
+Además de los sublenguajes DDL, DML y DCL indicados en ANSI SQL, existen otras subclasificaciones \nen función de lo que realizan sobre la base de datos. 
 • TCL (Transaction Control Language): controla las transacciones, permitiendo confirmar o 
 deshacer cambios mediante comandos como COMMIT, ROLLBACK y SAVEPOINT. 
 • CCL (Cursor Control Language): gestiona el control de cursores, permitiendo recorrer 
@@ -5935,8 +5812,7 @@ sentencia se considera una transacción independiente, a menos que se indique ex
 contrario. 
 Las transacciones deben cumplir las 4 propiedades ACID: 
 • Atomicity (Atomicidad): dentro de una transacción hay un todo que es indivisible. 
-• Consistency (Consistencia, visto también como Integridad): propiedad que asegura que sólo se 
-empieza aquello que se puede acabar, o bien todos los datos se actualizan (si la transacción es 
+• Consistency (Consistencia, visto también como Integridad): propiedad que asegura que sólo se \nempieza aquello que se puede acabar, o bien todos los datos se actualizan (si la transacción es 
 éxito) o todos los cambios se destruyen (si la transacción es fracaso), por tanto, los datos 
 permanecen coherentes antes y después de que se ejecute la transacción. 
 • Isolation (Aislamiento): una transacción en curso no debe afectar ni verse afectada por otras 
@@ -5963,8 +5839,7 @@ y disparadores
 Confirma una transacción, guardando de forma permanente todos los cambios realizados en la base de 
 datos, y haciéndolos visibles para otros usuarios y sesiones. 
 7.1.2. ROLLBACK 
-En caso de que ocurra algún error en la transacción, la revierte, por tanto, restaura la base de datos al 
-estado original antes de iniciar la transacción. 
+En caso de que ocurra algún error en la transacción, la revierte, por tanto, restaura la base de datos al \nestado original antes de iniciar la transacción. 
 El comando ROLLBACK, devuelve a la base de datos a algún estado previo, puede ser restaurada a una 
 copia limpia incluso después de que se han realizado operaciones erróneas. (Deshace una transacción). 
  
@@ -5983,8 +5858,7 @@ ROLLBACK es el comando que causa que todos los cambios de datos desde la última
 WORK (prácticamente obsoleto), BEGIN TRANSACTION o START TRANSACTION sean descartados 
 por el sistema de gestión de base de datos relacional (RDBMS), para que el estado de los datos, sea 
 revertido, a la forma en que estaban antes de que aquellos cambios tuvieran lugar. 
-Una sentencia ROLLBACK también eliminará cualquier punto de recuperación existente que pudiera 
-estar en uso. 
+Una sentencia ROLLBACK también eliminará cualquier punto de recuperación existente que pudiera \nestar en uso. 
 En muchos dialectos de SQL, los ROLLBACK son específicos de la conexión. Esto significa que, si se 
 hicieron dos conexiones a la misma base de datos, un ROLLBACK hecho sobre una conexión no afectará 
 a las demás conexiones. Esto es vital para el buen funcionamiento de la concurrencia en la base de 
@@ -6016,8 +5890,7 @@ Diferencias entre SGBD:
 • Oracle, PostgreSQL, MySQL y SQL Server soportan SAVEPOINT y ROLLBACK TO SAVEPOINT. 
 • SQLite también los implementa desde versiones recientes, pero internamente solo admite un 
 nivel de anidamiento. 
-• En SQL Server, SAVE TRANSACTION es la forma equivalente al comando SAVEPOINT del 
-estándar. 
+• En SQL Server, SAVE TRANSACTION es la forma equivalente al comando SAVEPOINT del \nestándar. 
 
 <!-- Page 119 -->
 
@@ -6041,8 +5914,7 @@ qué segmento de cancelación utiliza.
 Permite definir estos parámetros antes de que comience la ejecución efectiva de las operaciones dentro 
 de una transacción. 
 SET TRANSACTION ISOLATION LEVEL SERIALIZABLE; 
-Este comando establece que la transacción se ejecutará con el nivel de aislamiento más estricto, 
-evitando lecturas no repetibles y lecturas sucias. 
+Este comando establece que la transacción se ejecutará con el nivel de aislamiento más estricto, \nevitando lecturas no repetibles y lecturas sucias. 
 Diferencias entre SGBD: 
 • Oracle permite además indicar el modo de lectura (READ ONLY o READ WRITE) y, en versiones 
 antiguas, especificar el segmento de rollback. 
@@ -6074,8 +5946,7 @@ desplazarse por el conjunto de resultados y, en algunos casos, modificar o borra
 Cuando declaramos un CURSOR, la instrucción es únicamente para declararlo, especificando las filas o 
 columnas que se van a recuperar, pero la consulta se realizará cuando se abra o se active el cursor. 
 Sintaxis de declaración de cursor: 
-DECLARE nombreCursor CURSOR FOR especificacionConsulta; 
-especificacionConsulta es la consulta SELECT que define el conjunto de datos sobre el cual operará el 
+DECLARE nombreCursor CURSOR FOR especificacionConsulta; \nespecificacionConsulta es la consulta SELECT que define el conjunto de datos sobre el cual operará el 
 cursor. 
 Por ejemplo: 
 DECLARE c_jugadores CURSOR FOR SELECT columna1, columna2 FROM tabla; 
@@ -6133,8 +6004,7 @@ DROP CURSOR; la liberación se realiza mediante DEALLOCATE.
 DROP CURSOR aparece en algunos lenguajes embebidos o implementaciones antiguas, donde 
 cumple la misma función. 
 Diferencias entre SGBD: 
-• En SQL Server, los cursores se gestionan mediante OPEN, FETCH, CLOSE y DEALLOCATE. No 
-existe DROP CURSOR. 
+• En SQL Server, los cursores se gestionan mediante OPEN, FETCH, CLOSE y DEALLOCATE. No \nexiste DROP CURSOR. 
 • En Oracle, los cursores se cierran automáticamente al salir del bloque PL/SQL, aunque también 
 se puede usar CLOSE. 
 • En PostgreSQL y MySQL, el ciclo habitual incluye OPEN, FETCH y CLOSE. 
@@ -6447,8 +6317,7 @@ y disparadores
  
  
 Resumiendo 
-Estructura de un trigger (modelo evento-condición-acción), se 
-especifican tres elementos: 
+Estructura de un trigger (modelo evento-condición-acción), se \nespecifican tres elementos: 
 • Evento que lo desencadena (INSERT, DELETE O UPDATE). 
 • Condición que se debe cumplir para que se ejecute el 
 trigger (puede no tener condición y lanzarse siempre que 
@@ -6607,8 +6476,7 @@ Es el nombre del disparador a eliminar.
 + Info 
 A partir de la versión MySQL 5.0.10, se indica la sintaxis: 
 DROP TRIGGER [nombreesquema.]nombredisp 
-Siendo el nombreesquema opcional, y si se omite, el disparador se 
-elimina en el esquema actual. 
+Siendo el nombreesquema opcional, y si se omite, el disparador se \nelimina en el esquema actual. 
 En versiones antiguas (anteriores a MySQL 5.0.10), si se realizaba 
 una actualización desde una versión previa, era necesario eliminar 
 todos los disparadores antes de actualizar y volver a crearlos 
@@ -6642,8 +6510,7 @@ UPDATE sobre la tabla, con:
 SET NEW.nombre_col = valor; 
 Esto significa que, en MySQL, un disparador BEFORE puede usarse para modificar los valores 
 antes de que se inserten en un nuevo registro o se utilicen para actualizar uno existente. 
-• En un disparador BEFORE, el valor de NEW para una columna AUTO_INCREMENT es 0, porque 
-el número secuencial aún no ha sido generado por el motor de base de datos; se asignará 
+• En un disparador BEFORE, el valor de NEW para una columna AUTO_INCREMENT es 0, porque \nel número secuencial aún no ha sido generado por el motor de base de datos; se asignará 
 automáticamente cuando el registro sea realmente insertado. 
 Diferencias entre SGBD: 
 Aunque las palabras clave OLD y NEW son específicas de MySQL, existen mecanismos equivalentes en 
@@ -6657,8 +6524,7 @@ En MySQL, los errores ocurridos durante la ejecución de disparadores se gestion
 forma: 
 • Si lo que falla es un disparador BEFORE, no se ejecuta la operación en el correspondiente 
 registro. 
-• Un disparador AFTER se ejecuta solamente si el disparador BEFORE (de existir) y la operación se 
-ejecutaron exitosamente. 
+• Un disparador AFTER se ejecuta solamente si el disparador BEFORE (de existir) y la operación se \nejecutaron exitosamente. 
 
 <!-- Page 137 -->
 
@@ -6682,16 +6548,11 @@ En otros SGBD como PostgreSQL, Oracle o SQL Server, todos los triggers se ejecut
 contexto de una transacción, y cualquier error provoca automáticamente un rollback completo de la 
 operación. 
 8.3. Snapshots en SQL 
-Un snapshot (o instantánea) permite crear una representación del estado lógico de una base de datos 
-en un momento determinado, según el mecanismo implementado por el SGBD, posibilitando, entre 
+Un snapshot (o instantánea) permite crear una representación del estado lógico de una base de datos \nen un momento determinado, según el mecanismo implementado por el SGBD, posibilitando, entre 
 otras cosas, la generación de informes a partir de los datos contenidos en esa instantánea. 
-Estas instantáneas permiten consultar, y en algunos SGBD revertir, el estado previo de la base de datos 
-en un instante concreto, lo que resulta útil para revertir manualmente los cambios realizados (como 
-eliminaciones de tablas, modificaciones de procedimientos almacenados u operaciones CRUD), sin 
+Estas instantáneas permiten consultar, y en algunos SGBD revertir, el estado previo de la base de datos \nen un instante concreto, lo que resulta útil para revertir manualmente los cambios realizados (como \neliminaciones de tablas, modificaciones de procedimientos almacenados u operaciones CRUD), sin 
 necesidad de restaurar una copia de seguridad completa. 
-Usar snapshots puede ser de gran utilidad en procesos donde sea necesario aplicar cambios en la 
-estructura de la base de datos y se requiera volver rápidamente a un estado anterior o compararlo con 
-el actual. 
+Usar snapshots puede ser de gran utilidad en procesos donde sea necesario aplicar cambios en la \nestructura de la base de datos y se requiera volver rápidamente a un estado anterior o compararlo con \nel actual. 
 Los snapshots también pueden emplearse al aplicar cambios críticos por lotes en una base de datos 
 productiva, permitiendo volver a un punto anterior rápidamente, sin tener que restaurar un backup 
 completo, cuyo proceso suele ser más lento. 
@@ -6722,8 +6583,7 @@ Diferencias entre SGBD
 • En SQL Server, un snapshot es una base de datos de solo lectura creada con CREATE DATABASE 
 ... AS SNAPSHOT OF ..., que puede usarse para revertir o consultar el estado anterior de otra 
 base de datos. 
-• En otros SGBD, como Oracle, PostgreSQL o MySQL, no existe un comando SNAPSHOT 
-equivalente al de SQL Server para bases de datos completas; los efectos similares se logran 
+• En otros SGBD, como Oracle, PostgreSQL o MySQL, no existe un comando SNAPSHOT \nequivalente al de SQL Server para bases de datos completas; los efectos similares se logran 
 mediante copias físicas, backups en caliente o MVCC, pero no permiten revertir una base de 
 datos completa a un punto anterior de forma directa. 
 9. Bibliografía 

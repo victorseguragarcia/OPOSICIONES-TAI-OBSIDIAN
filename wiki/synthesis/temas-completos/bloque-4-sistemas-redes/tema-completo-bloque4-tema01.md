@@ -6,8 +6,7 @@ tags:
   - temario-extendido
   - bloque-4
   - tema-01
-  - oposiciones-tai
-estado: "🔴 Por Estudiar"
+  - oposiciones-tai\nestado: "🔴 Por Estudiar"
 dificultad: "⭐⭐⭐"
 prioridad: "Máxima"
 sources:
@@ -242,13 +241,11 @@ Administración del Sistema Operativo y software de Base
 Su propósito es activar una máquina desde su encendido, y preparar el entorno para cargar un 
 sistema operativo. 
 El firmware es un programa informático que establece la lógica de más bajo nivel que controla 
-los circuitos electrónicos de un dispositivo de cualquier tipo. Está fuertemente integrado con la 
-electrónica del dispositivo, es el software que tiene directa interacción con el hardware, siendo 
+los circuitos electrónicos de un dispositivo de cualquier tipo. Está fuertemente integrado con la \nelectrónica del dispositivo, es el software que tiene directa interacción con el hardware, siendo 
 así el encargado de controlarlo para ejecutar correctamente las instrucciones externas. 
 Se almacena en un tipo de memoria especifica que actualmente es reescribible, (aunque se 
 conoce como soporte lógico inalterable por sus inicios) la traducción sea para poder realizar 
-instalaciones del fabricante, que pueden ser necesarias para que la placa base reconozca 
-elementos nuevos de hardware (fabricados con posterioridad de la placa base). Una 
+instalaciones del fabricante, que pueden ser necesarias para que la placa base reconozca \nelementos nuevos de hardware (fabricados con posterioridad de la placa base). Una 
 actualización errónea (por ejemplo, de otro modelo de placa base) puede hacer que la placa 
 base deje de funcionar. 
 El Firmware sucesor de BIOS es UEFI, siglas de EFI-Unified Extensible Firmware Interface, 
@@ -258,10 +255,8 @@ gráficos, diagnósticos más detallados, abrir software compatible con EFI desd
 ubicaciones de almacenamiento, como una unidad de disco duro o un dispositivo de 
 almacenamiento USB) y permite que el BIOS contenga recursos más sofisticados, como el 
 Arranque seguro. 
-Es necesario para poder utilizar opciones de acceso remoto, (que el ordenador pueda ser 
-encendido remotamente a través de la conexión de red). 
-La Interfaz Unificada de firmware extensible (EFI-Unified Extensible Firmware Interface) es una 
-especificación que define una interfaz entre el sistema operativo y el firmware. 
+Es necesario para poder utilizar opciones de acceso remoto, (que el ordenador pueda ser \nencendido remotamente a través de la conexión de red). 
+La Interfaz Unificada de firmware extensible (EFI-Unified Extensible Firmware Interface) es una \nespecificación que define una interfaz entre el sistema operativo y el firmware. 
 UEFI reemplaza la antigua interfaz del Sistema Básico de Entrada y Salida (BIOS) estándar 
 presentado en las computadoras personales IBM PC como IBM PC ROM BIOS. 
 • El sistema Operativo. 
@@ -289,8 +284,7 @@ mismo, controlando los elementos de hardware (mediante los drivers), para propor
 de trabajo al usuario. 
 Actúa como intermediario entre el hardware y el usuario. 
 Además de realizar sus funciones propias, también incluye programas utilitarios, para que el usuario 
-pueda realizar tareas en general y de mantenimiento, y diversas funciones para resolver problemas 
-específicos. Estos programas, varían según el sistema operativo y su versión. por ejemplo, son: 
+pueda realizar tareas en general y de mantenimiento, y diversas funciones para resolver problemas \nespecíficos. Estos programas, varían según el sistema operativo y su versión. por ejemplo, son: 
 • Herramientas de programación: compiladores, ensambladores, enlazadores, etc. 
 • Entorno de escritorio / Interfaz gráfica de usuario (que pueden incluir un gestor de ventanas). 
 • Línea de comandos. 
@@ -317,8 +311,7 @@ Administración del Sistema Operativo y software de Base
 1.1.1.2. Evolución 
 En un principio, los sistemas operativos tenían una estructura monolítica. Estaba todo al mismo nivel, 
 como el MS-DOS, es decir todos los comandos estaban al mismo nivel de ejecución. 
-Las rutinas y funcionalidades (de drivers, sistemas de archivos, gestión de memoria, etc.), se agrupaban 
-en un solo programa (el S.O.), descrito como un conjunto de procedimientos o rutinas entrelazadas de 
+Las rutinas y funcionalidades (de drivers, sistemas de archivos, gestión de memoria, etc.), se agrupaban \nen un solo programa (el S.O.), descrito como un conjunto de procedimientos o rutinas entrelazadas de 
 tal forma que cada una tiene la posibilidad de llamar a las otras rutinas cada vez que así lo requiera. 
 Todo el sistema, se ejecuta todo en el mismo nivel del núcleo (kernel). 
 La consecuencia de esta estructura monolítica pura, es que si falla un programa se produce un error en 
@@ -332,8 +325,7 @@ El kernel es el núcleo del sistema operativo. Se carga en memoria al arrancar e
 permanece aquí hasta que se apaga. 
 • Gestor del sistema de E/S. 
 • Gestión de procesos. Gestor de recursos (Gestión y planificación de los recursos). 
-Un proceso es, básicamente, un programa en ejecución. Está formado por el programa 
-ejecutable, los datos que utilizará y el contexto en que se ejecuta. 
+Un proceso es, básicamente, un programa en ejecución. Está formado por el programa \nejecutable, los datos que utilizará y el contexto en que se ejecuta. 
 • Gestión de la memoria. 
 • Gestor de Sistema de archivos. (almacenamiento secundario). 
 • Llamadas al sistema. 
@@ -402,16 +394,14 @@ servicio de directorio.
  
 En el caso del modelo de servicio de directorio distribuido en X.500, se usa uno o más espacios de 
 nombre (árbol de objetos) para formar el servicio de directorio. 
-El servicio de directorio proporciona la interfaz de acceso a los datos que se contienen en unos o más 
-espacios de nombre de directorio. 
+El servicio de directorio proporciona la interfaz de acceso a los datos que se contienen en unos o más \nespacios de nombre de directorio. 
 La interfaz del servicio de directorio es la encargada de gestionar la autenticación de los accesos al 
 servicio de forma segura, actuando como autoridad central para el acceso a los recursos de sistema que 
 manejan los datos del directorio. 
 Como base de datos, un servicio del directorio está altamente optimizado para lecturas y proporciona 
 alternativas avanzadas de búsqueda en los diferentes atributos que se puedan asociar a los objetos de 
 un directorio. Los datos que se almacenan en el directorio son definidos por un esquema extensible y 
-modificable. Los servicios de directorio utilizan un modelo distribuido para almacenar su información y 
-esa información generalmente está replicada entre los servidores que forman el directorio. 
+modificable. Los servicios de directorio utilizan un modelo distribuido para almacenar su información y \nesa información generalmente está replicada entre los servidores que forman el directorio. 
 Un servicio del directorio define el espacio de nombres de una red. Un espacio de nombres, en este 
 contexto, es el término que se utiliza para llevar a cabo unos o más objetos como entradas nombradas. 
 El proceso del diseño del directorio tiene normalmente un conjunto de las reglas que determinan cómo 
@@ -434,8 +424,7 @@ Network Operating System:
 recursos, hardware y software, creando redes de computadoras. 
 • Al igual que un equipo no puede trabajar sin un sistema operativo, una red de equipos no puede 
 funcionar sin un sistema operativo de red. 
-• Consiste en un software que posibilita la comunicación de un sistema informático con otros 
-equipos en el ámbito de una red). 
+• Consiste en un software que posibilita la comunicación de un sistema informático con otros \nequipos en el ámbito de una red). 
 En los casos más complejos, un servicio de directorio es el repositorio central de la información para una 
 Plataforma de Entrega de Servicios. 
 Por ejemplo, explorando "computadoras" usando un servicio de directorio, se puede obtener una lista 
@@ -446,11 +435,9 @@ directorio.
 objetos) está copiado en otro servidor de directorio por razones de redundancia y de 
 rendimiento de procesamiento. 
 El espacio de nombres replicado es gobernado por la misma autoridad. 
-• La distribución de un servicio de directorio tiene por fin la mejora de la disponibilidad, 
-escalabilidad y distribución de la carga de trabajo del servicio entre varios servidores. 
+• La distribución de un servicio de directorio tiene por fin la mejora de la disponibilidad, \nescalabilidad y distribución de la carga de trabajo del servicio entre varios servidores. 
 • La distribución implica que el servicio de directorio se organiza en una red de servidores 
-interconectados que trabajan juntos para proporcionar un servicio de directorio coherente y 
-escalable. Cada servidor puede contener una parte de los datos del directorio y puede ser 
+interconectados que trabajan juntos para proporcionar un servicio de directorio coherente y \nescalable. Cada servidor puede contener una parte de los datos del directorio y puede ser 
 responsable de un subconjunto específico de operaciones. 
 Ejemplo 
 Un servicio de directorio sencillo es, por ejemplo, un servicio de nombres para corresponder los 
@@ -515,8 +502,7 @@ más difundida no trata de protocolos de directorio, sino de
 certificados de clave pública: X.509. 
  
 2.1.2. Protocolo LDAP 
-El Lightweight Directory Access Protocol, LDAP, en español protocolo ligero de acceso a directorios, 
-es un protocolo a nivel de aplicación que permite el acceso a un servicio de directorio ordenado y 
+El Lightweight Directory Access Protocol, LDAP, en español protocolo ligero de acceso a directorios, \nes un protocolo a nivel de aplicación que permite el acceso a un servicio de directorio ordenado y 
 distribuido para buscar diversa información en un entorno de red. 
 El protocolo LDAP es un estándar de la industria, independiente del proveedor, utilizado para el 
 acceso y el mantenimiento distribuido de servicios de información de directorio sobre un Protocolo 
@@ -526,13 +512,11 @@ dependiendo del modelo elegido.
 Los despliegues actuales de LDAP tienden a usar nombres de Sistema de Nombres de Dominio (DNS) 
 para estructurar los niveles más altos de la jerarquía, y conforme se desciende en el directorio pueden 
 aparecer entradas que representan personas, unidades organizacionales, impresoras, documentos, 
-grupos de personas o cualquier cosa que representa una entrada dada en el árbol (o múltiples 
-entradas). 
+grupos de personas o cualquier cosa que representa una entrada dada en el árbol (o múltiples \nentradas). 
 Se almacena la información de autenticación (usuario y contraseña) y es utilizado para autenticarse, 
 aunque es posible almacenar otra información (datos de contacto del usuario, ubicación de diversos 
 recursos de la red, permisos, certificados, etc). 
-La versión actual es LDAPv3, y se encuentra definido en el RFC 4511(una hoja de ruta de las 
-especificaciones técnicas está suministrada por la RFC 4510).
+La versión actual es LDAPv3, y se encuentra definido en el RFC 4511(una hoja de ruta de las \nespecificaciones técnicas está suministrada por la RFC 4510).
 
 ---
 
@@ -546,11 +530,9 @@ LDAP es un protocolo de acceso unificado a un conjunto de
 información sobre una red. 
  
  
-Los servicios de directorio desempeñan un papel importante en el desarrollo de aplicaciones de intranet 
-e Internet al permitir compartir información sobre usuarios, sistemas, redes, servicios y aplicaciones en 
+Los servicios de directorio desempeñan un papel importante en el desarrollo de aplicaciones de intranet \ne Internet al permitir compartir información sobre usuarios, sistemas, redes, servicios y aplicaciones en 
 toda la red. 
-Los servicios de directorio pueden proporcionar cualquier conjunto organizado de registros con una 
-estructura jerárquica, como por ejemplo un directorio de correo electrónico corporativo, como lo hace 
+Los servicios de directorio pueden proporcionar cualquier conjunto organizado de registros con una \nestructura jerárquica, como por ejemplo un directorio de correo electrónico corporativo, como lo hace 
 una guía telefónica es una lista de suscriptores con un número de teléfono. 
 LDAP se especifica en una serie de publicaciones de seguimiento estándar del Grupo de trabajo de 
 ingeniería de Internet (IETF) llamadas Solicitud de comentarios (RFC), utilizando el lenguaje de 
@@ -605,8 +587,7 @@ pero nunca se estandarizó en ninguna especificación formal. Este
 uso ha quedado obsoleto junto con LDAPv2, que se retiró 
 oficialmente en 2003. 
  
-2.2. eDirectory de Novell 
-eDirectory es un producto de software de servicio de directorio compatible con X.500 de NetIQ. 
+2.2. eDirectory de Novell \neDirectory es un producto de software de servicio de directorio compatible con X.500 de NetIQ. 
 Anteriormente propiedad de Novell, el producto también se conocía como Novell Directory Services ( 
 NDS ) y, en ocasiones, se denominaba NetWare Directory Services.
 
@@ -614,19 +595,15 @@ NDS ) y, en ocasiones, se denominaba NetWare Directory Services.
 
 Administración del Sistema Operativo y software de Base 
 16 
-NDS fue lanzado inicialmente por Novell en 1993 para Netware 4, reemplazando el mecanismo de 
-enlace de Netware utilizado en versiones anteriores, para administrar de manera centralizada el acceso 
-a los recursos en múltiples servidores y computadoras dentro de una red determinada. 
-eDirectory es una base de datos jerárquica y orientada a objetos que se utiliza para representar 
+NDS fue lanzado inicialmente por Novell en 1993 para Netware 4, reemplazando el mecanismo de \nenlace de Netware utilizado en versiones anteriores, para administrar de manera centralizada el acceso 
+a los recursos en múltiples servidores y computadoras dentro de una red determinada. \neDirectory es una base de datos jerárquica y orientada a objetos que se utiliza para representar 
 ciertos activos en una organización en un árbol lógico, incluidas organizaciones, unidades 
 organizativas, personas, puestos, servidores, volúmenes, estaciones de trabajo, aplicaciones, 
 impresoras, servicios y grupos, por nombrar solo algunos. 
-Funciones 
-eDirectory utiliza la herencia dinámica de derechos, que permite controles de acceso tanto globales 
+Funciones \neDirectory utiliza la herencia dinámica de derechos, que permite controles de acceso tanto globales 
 como específicos. 
 Los derechos de acceso a los objetos en el árbol se determinan en el momento de la solicitud y están 
-determinados por los derechos asignados a los objetos en virtud de su ubicación en el árbol, las 
-equivalencias de seguridad y las asignaciones individuales. 
+determinados por los derechos asignados a los objetos en virtud de su ubicación en el árbol, las \nequivalencias de seguridad y las asignaciones individuales. 
 El software admite la creación de particiones en cualquier punto del árbol, así como la replicación de 
 cualquier partición en cualquier número de servidores, esta replicación entre servidores se produce 
 periódicamente utilizando deltas de los objetos. Cada servidor puede actuar como maestro de la 
@@ -657,8 +634,7 @@ Cuando hablamos de eDirectory, hemos de mencionar su arquitectura distribuida, q
 rol específico. El sistema está diseñado para que su base de datos de directorio y sus servicios se 
 puedan ejecutar y gestionar en múltiples servidores o ubicaciones de red de manera eficiente y 
 colaborativa. 
-Por otro lado, podemos hablar de la arquitectura modular de autenticación de eDirectory, 
-especialmente cuando se emplea NMAS (Novell Modular Authentication Service), que permite 
+Por otro lado, podemos hablar de la arquitectura modular de autenticación de eDirectory, \nespecialmente cuando se emplea NMAS (Novell Modular Authentication Service), que permite 
 una integración profunda con diversas tecnologías, ofreciendo una solución de autenticación 
 flexible y escalable. 
 NMAS (Novell Modular Authentication Service) implementa una solución flexible y escalable 
@@ -670,16 +646,13 @@ necesidades de usuarios o grupos específicos, integrándose con tecnologías ex
 Active Directory y OpenLDAP. 
 Gracias a su diseño modular, NMAS soporta la federación de identidades, lo que facilita la 
 autenticación entre diferentes dominios y sistemas de confianza. Interfaces de programación o 
-APIs como ADSI, JDBC, ODBC, interfaces de directorio como JNDI, protocolos como SOAP o 
-estándares como DSML, pueden servir para iniciar el proceso de autenticación. 
+APIs como ADSI, JDBC, ODBC, interfaces de directorio como JNDI, protocolos como SOAP o \nestándares como DSML, pueden servir para iniciar el proceso de autenticación. 
 • LDAP es el protocolo subyacente que permite a NMAS comunicarse con eDirectory. A 
 través de LDAP, NMAS obtiene información de usuarios, esquemas de autenticación y 
 políticas configuradas. LDAP facilita que NMAS se integre con otros servicios de directorio 
 como Active Directory, OpenLDAP, etc., facilitando la federación de identidades. 
-• JDBC/ODBC: Si NMAS necesita verificar información almacenada en una base de datos (por 
-ejemplo, credenciales adicionales o atributos biométricos), puede utilizar JDBC (para 
-aplicaciones Java) u ODBC (para otras aplicaciones) para conectarse a la base de datos y 
-ejecutar consultas. Las bases de datos pueden servir como repositorios para datos de 
+• JDBC/ODBC: Si NMAS necesita verificar información almacenada en una base de datos (por \nejemplo, credenciales adicionales o atributos biométricos), puede utilizar JDBC (para 
+aplicaciones Java) u ODBC (para otras aplicaciones) para conectarse a la base de datos y \nejecutar consultas. Las bases de datos pueden servir como repositorios para datos de 
 autenticación que no encajan dentro del esquema estándar de eDirectory. 
 • ADSI: Aunque no hay una integración directa con ADSI, NMAS puede trabajar con 
 conectores y puentes que mapean los esquemas de eDirectory y Active Directory, 
@@ -701,8 +674,7 @@ Administración del Sistema Operativo y software de Base
 18 
 2.3. Directorio activo de Microsoft 
 Active Directory (AD) es el servicio de directorio desarrollado por Microsoft para gestionar de manera 
-centralizada los recursos de red en entornos Windows. Su propósito principal es permitir que usuarios, 
-equipos y servicios trabajen de forma coordinada bajo una única estructura jerárquica de autenticación, 
+centralizada los recursos de red en entornos Windows. Su propósito principal es permitir que usuarios, \nequipos y servicios trabajen de forma coordinada bajo una única estructura jerárquica de autenticación, 
 autorización y políticas. 
 Evolución histórica y versiones 
 Active Directory fue introducido por primera vez en Windows 2000 Server, marcando un salto frente al 
@@ -716,19 +688,15 @@ También cambió la forma de administración: antiguamente se usaba la consola d
 integra con PowerShell, Server Manager y portales híbridos como Azure AD Connect. 
 Estructura jerárquica en profundidad 
 La estructura de Active Directory es jerárquica y escalable: 
-• Dominios: son el núcleo de la administración. Agrupan objetos (usuarios, equipos, impresoras, 
-etc.) que comparten políticas y una base común de autenticación. 
-• Árboles: agrupan dominios que comparten un espacio de nombres contiguo, como 
-empresa.local y ventas.empresa.local. 
-• Bosques: conjunto de árboles, aunque sus dominios no compartan espacio de nombres. Entre 
-ellos se establecen relaciones de confianza, permitiendo autenticaciones cruzadas sin duplicar 
+• Dominios: son el núcleo de la administración. Agrupan objetos (usuarios, equipos, impresoras, \netc.) que comparten políticas y una base común de autenticación. 
+• Árboles: agrupan dominios que comparten un espacio de nombres contiguo, como \nempresa.local y ventas.empresa.local. 
+• Bosques: conjunto de árboles, aunque sus dominios no compartan espacio de nombres. Entre \nellos se establecen relaciones de confianza, permitiendo autenticaciones cruzadas sin duplicar 
 identidades. 
 Esta estructura permite centralizar el control, aunque la red esté distribuida geográficamente. 
 Componentes críticos del sistema 
 • Controlador de Dominio (Domain Controller o DC): servidor que almacena y replica la base de 
 datos de AD, autentica usuarios y aplica políticas mediante Kerberos. 
-• DNS: crítico para resolver nombres de dominio dentro de la red; sin él, los clientes no podrían 
-encontrar el controlador de dominio.
+• DNS: crítico para resolver nombres de dominio dentro de la red; sin él, los clientes no podrían \nencontrar el controlador de dominio.
 
 ---
 
@@ -746,16 +714,14 @@ Organizativas (OUs). Por ejemplo, en una empresa:
 • Se puede restringir el acceso a puertos USB solo en el departamento financiero. 
 • Se puede forzar el cambio de contraseña cada 60 días para todo el dominio. 
 Estas políticas son heredables, aunque pueden bloquearse o sobreescribirse por niveles inferiores. 
-Herramientas como gpresult o rsop.msc ayudan a diagnosticar qué políticas se aplican realmente a un 
-equipo. 
+Herramientas como gpresult o rsop.msc ayudan a diagnosticar qué políticas se aplican realmente a un \nequipo. 
 Integración con servicios Microsoft y nube 
 AD se integra con: 
 • Exchange Server: las cuentas de usuario pueden vincularse directamente a buzones de correo. 
 • System Center: permite administración centralizada de equipos, actualizaciones y software. 
 • Azure Active Directory (Azure AD): para sincronización con la nube y habilitación de inicio de 
 sesión único (SSO) en entornos híbridos. 
-• PowerShell: mediante módulos como ActiveDirectory, se pueden automatizar tareas (por 
-ejemplo, crear usuarios en masa, deshabilitar cuentas inactivas o mover objetos entre OUs). 
+• PowerShell: mediante módulos como ActiveDirectory, se pueden automatizar tareas (por \nejemplo, crear usuarios en masa, deshabilitar cuentas inactivas o mover objetos entre OUs). 
 Aplicaciones prácticas en entornos reales 
 • Universidades: los estudiantes acceden a laboratorios con restricciones; los profesores tienen 
 privilegios elevados para instalar software docente. 
@@ -796,8 +762,7 @@ En resumen
 Active Directory es mucho más que una base de datos: es una plataforma completa para el control de 
 acceso, la administración de recursos y la seguridad a gran escala. Su arquitectura jerárquica, sus 
 capacidades de integración y su soporte para infraestructuras híbridas lo convierten en una solución 
-indispensable para la gestión de redes en el ecosistema Microsoft, desde una pequeña empresa hasta un 
-entorno multinacional.
+indispensable para la gestión de redes en el ecosistema Microsoft, desde una pequeña empresa hasta un \nentorno multinacional.
 
 ---
 
@@ -819,8 +784,7 @@ Veamos diferentes conceptos en relación con los dominios:
 • Relación de confianza o trust entre dominios. 
 Es la relación entre los diferentes dominios que podemos tener en una red y que tienen 
 contacto. 
-En una red no solamente podremos tener un dominio, sino varios de ellos, que pueden o no 
-estar en contacto unos con otros, por tanto, Active Directory actúa también como un 
+En una red no solamente podremos tener un dominio, sino varios de ellos, que pueden o no \nestar en contacto unos con otros, por tanto, Active Directory actúa también como un 
 controlador de dominio, ya que se pueden crear distintos dominios y gestionar los permisos e 
 interacción en cada uno de ellos. 
 • Objeto. 
@@ -833,8 +797,7 @@ Las credenciales de acceso a estaciones de trabajo.
 Los elementos disponibles para un usuario en función de sus permisos (carpetas 
 compartidas, impresoras, etc.). 
 • Servicios: 
-Las funcionalidades a las puede acceder un usuario, como acceso a Internet, correo 
-electrónico, informes estadísticos etc.
+Las funcionalidades a las puede acceder un usuario, como acceso a Internet, correo \nelectrónico, informes estadísticos etc.
 
 ---
 
@@ -939,9 +902,7 @@ jerárquicas de dominios y subdominios, facilitando la estructuración de los re
 localización o función dentro de la organización a la que sirven. 
 Otra diferencia importante es el uso de estándares como X.500 y LDAP para el acceso a la información. 
 2.3.4. Conclusión sobre Active Directory 
-Active Directory es una herramienta muy importante de cara a la centralización de recursos en un 
-entorno de trabajo basado en equipos informáticos. Gracias a él, no tendremos la necesidad de realizar 
-el mantenimiento individualizado en las estaciones de trabajo, ya que todo será gestionable desde un 
+Active Directory es una herramienta muy importante de cara a la centralización de recursos en un \nentorno de trabajo basado en equipos informáticos. Gracias a él, no tendremos la necesidad de realizar \nel mantenimiento individualizado en las estaciones de trabajo, ya que todo será gestionable desde un 
 servidor central o varios. Además, la estructura es muy intuitiva para así facilitar la asignación de 
 permisos y recursos.
 
@@ -951,8 +912,7 @@ Administración del Sistema Operativo y software de Base
 25 
 Por otro lado, debemos tener presente que Active directorio es un sistema de dominio con licencia de 
 pago perteneciente a Microsoft. Existen aplicaciones gratuitas que también ofrecen este tipo 
-funcionalidades como por ejemplo Open LDAP, Mandriva Directory Server o incluso Samba. Y es por 
-esto que las empresas cada vez más están optando por estas soluciones para no tener la necesidad de 
+funcionalidades como por ejemplo Open LDAP, Mandriva Directory Server o incluso Samba. Y es por \nesto que las empresas cada vez más están optando por estas soluciones para no tener la necesidad de 
 pagar licencias de software. 
  
  
@@ -963,8 +923,7 @@ Si el equipo donde un usuario trabaja se rompe, únicamente el
 usuario tiene que utilizar cualquier otro ordenador conectado a la 
 red, y al autentificarse dispondrá de la misma configuración y 
 servicios que en su ordenador habitual. 
-Únicamente no tendrá acceso a los datos que haya podido guardar 
-en el disco duro propio del ordenador, por ello no se recomienda 
+Únicamente no tendrá acceso a los datos que haya podido guardar \nen el disco duro propio del ordenador, por ello no se recomienda 
 hacer el almacenamiento de esta forma, si no en los discos duros 
 de los servidores. 
  
@@ -1069,8 +1028,7 @@ Este paquete completo puede escalar desde las redes más pequeñas a redes grand
 con cientos de servidores físicos y virtuales, y monitorear servidores en entornos de nube como los de 
 Amazon Web Services y Microsoft Azure. 
 El monitor SolarWinds Server & Application detectará inicialmente de forma automática hosts y 
-dispositivos en su red, y después en un segundo análisis de detección detectará las aplicaciones que se 
-ejecutan en cada servidor. 
+dispositivos en su red, y después en un segundo análisis de detección detectará las aplicaciones que se \nejecutan en cada servidor. 
 Una vez que está en funcionamiento, usar esta herramienta es muy sencillo, gracias a su interfaz de 
 usuario muy intuitiva, por ejemplo, simplemente haciendo clic en Detalles del nodo, se muestra el 
 rendimiento del nodo y la información de estado. 
@@ -1149,8 +1107,7 @@ Permite leer cualquier dato de atributo que requiera del Directorio Activo (nomb
 usuario, apellido, teléfono, dirección, etc.) 
 También puede ayudar a consultar objetos de grupo y computadora de Active Directory. 
 • Herramienta CSV Generator. 
-Genera un archivo CSV, que contiene una matriz personalizada de atributos de Active Directory 
-especificados por el usuario y sus valores correspondientes. 
+Genera un archivo CSV, que contiene una matriz personalizada de atributos de Active Directory \nespecificados por el usuario y sus valores correspondientes. 
 El archivo resultante se puede usar para la administración masiva de Active Directory. 
 • Último buscador de inicio de sesión. 
 Enumera la última hora de inicio de sesión de todos los usuarios seleccionados en todos los 
@@ -1304,8 +1261,7 @@ Administración del Sistema Operativo y software de Base
 » Si poseen información sensible, cerrar con llave los armarios. 
 • Etcétera. 
 • Determinar qué información se va a guardar. 
-• Concienciar a los usuarios de que deben guardar los documentos en las carpetas habilitadas para 
-ello. Se realizarán copias de seguridad de estas carpetas. 
+• Concienciar a los usuarios de que deben guardar los documentos en las carpetas habilitadas para \nello. Se realizarán copias de seguridad de estas carpetas. 
 • Programar una ejecución automatizada y supervisarla. 
 • Realizar pruebas de recuperación para asegurar que las copias se están realizando 
 correctamente. 
@@ -1334,8 +1290,7 @@ red que hayas seleccionado.
 Administración del Sistema Operativo y software de Base 
 36 
 Copia de seguridad de Windows (imagen del sistema): 
-Permite crear una copia completa del sistema operativo, programas instalados y datos. Es 
-especialmente útil en caso de fallos graves del sistema, ya que permite restaurar todo el entorno 
+Permite crear una copia completa del sistema operativo, programas instalados y datos. Es \nespecialmente útil en caso de fallos graves del sistema, ya que permite restaurar todo el entorno 
 operativo. 
 1. Acceder a Panel de control > Sistema y seguridad > Historial de archivos. 
 2. Seleccionar Crear una imagen del sistema en el menú lateral. 
@@ -1362,8 +1317,7 @@ restauración es más rápida (solo se necesita la copia completa y la última d
 • Copia espejo: crea una duplicación exacta de los archivos seleccionados, sin compresión ni 
 versiones anteriores. Es útil para una recuperación rápida, pero no protege frente a errores 
 humanos como el borrado accidental. 
-Una estrategia eficaz suele combinar varios tipos de copias de seguridad para equilibrar la velocidad, la 
-eficiencia de almacenamiento y la fiabilidad en la restauración. Asimismo, es recomendable programar 
+Una estrategia eficaz suele combinar varios tipos de copias de seguridad para equilibrar la velocidad, la \neficiencia de almacenamiento y la fiabilidad en la restauración. Asimismo, es recomendable programar 
 las copias durante horarios de baja actividad y realizar pruebas periódicas de recuperación para verificar 
 su eficacia.
 
@@ -1378,8 +1332,7 @@ teniendo en cuenta que tendrá que realizar también las actualizaciones necesar
 Es necesario configurar los distintos servicios, la red, recursos compartidos (ficheros, impresoras…) y 
 hacerlo de forma que tengamos un rendimiento óptimo. 
 3.3. Cambiar la configuración hardware de los equipos 
-Cuando se añade un nuevo hardware de red (sistema de almacenamiento, impresora compartida, 
-etcétera), este debe ser reconocido por el sistema y los equipos que necesiten utilizarlo. 
+Cuando se añade un nuevo hardware de red (sistema de almacenamiento, impresora compartida, \netcétera), este debe ser reconocido por el sistema y los equipos que necesiten utilizarlo. 
 Puede ser necesario: 
 • Buscar incompatibilidades y buscar soluciones como: 
 • Actualizar firmware del dispositivo. 
@@ -1390,8 +1343,7 @@ La actualización del sistema operativo puede referirse a dos operaciones:
 • Actualizar a una versión superior del sistema operativo. Esto suele hacerse de forma guiada por 
 un asistente, por lo que no vemos necesario entrar en ello. 
 • Actualizar el sistema operativo. Añadiendo parches y actualizaciones que mejoran su 
-rendimiento, eliminan vulnerabilidades o añaden nuevas funcionalidades. Nos vamos a centrar 
-en este tipo de actualización. 
+rendimiento, eliminan vulnerabilidades o añaden nuevas funcionalidades. Nos vamos a centrar \nen este tipo de actualización. 
 Dentro de la actualización del sistema operativo, vamos a ver los siguientes tipos: 
 • Actualización de sistema operativo desde un servidor: 
 » Sistemas Windows Server. 
@@ -1426,8 +1378,7 @@ Lo primero que debemos hacer es instalar WSUS en el servidor. Simplemente debemo
 del asistente de instalación. 
 A continuación, aparecerá el asistente de configuración. Debemos configurar los siguientes elementos: 
 • Servidor de sincronización de contenido. 
-Aquí le indicamos el servidor desde el que se van a obtener las actualizaciones. Lo más sencillo 
-es obtenerlas directamente de Windows Update. 
+Aquí le indicamos el servidor desde el que se van a obtener las actualizaciones. Lo más sencillo \nes obtenerlas directamente de Windows Update. 
 • Seleccionamos el idioma. 
 • Seleccionamos los productos de Microsoft que queremos sincronizar. Por ejemplo, para 
 descargar actualizaciones de Microsoft Office. 
@@ -1449,8 +1400,7 @@ Directory.
  
  
 + Info 
-Active Directory es una implementación de servicio de directorio 
-en una red distribuida de computadores. 
+Active Directory es una implementación de servicio de directorio \nen una red distribuida de computadores. 
 Utiliza distintos protocolos, principalmente LDAP, DNS, DHCP y 
 Kerberos. 
 Es un servicio establecido en uno o varios servidores donde se 
@@ -1469,8 +1419,7 @@ Administración del Sistema Operativo y software de Base
 40 
 Para configurar un equipo cliente para que utilice el servidor WSUS debes realizar los siguientes pasos: 
  
-• Ejecuta el comando gpedit.msc y, en la ventana que aparece, accede a "Configuración del 
-equipo" → "Plantillas administrativas" → "Componentes de Windows" → "Windows Update".
+• Ejecuta el comando gpedit.msc y, en la ventana que aparece, accede a "Configuración del \nequipo" → "Plantillas administrativas" → "Componentes de Windows" → "Windows Update".
 
 ---
 
@@ -1480,8 +1429,7 @@ Administración del Sistema Operativo y software de Base
 • Especificar la ubicación del servicio Windows Update de la Intranet. Aquí debes indicar la 
 dirección del servidor de actualización. 
  
-• Configurar actualizaciones automáticas. Aquí estableces cómo y cuándo se van a descargar 
-e instalar las actualizaciones.
+• Configurar actualizaciones automáticas. Aquí estableces cómo y cuándo se van a descargar \ne instalar las actualizaciones.
 
 ---
 
@@ -1637,8 +1585,7 @@ aplicaciones disponibles:
 
 Administración del Sistema Operativo y software de Base 
 50 
-Aquí pulsamos sobre "App Store" y se abrirá la aplicación. En la barra superior de la aplicación 
-encontramos el botón "Actualizaciones". Lo pulsamos. 
+Aquí pulsamos sobre "App Store" y se abrirá la aplicación. En la barra superior de la aplicación \nencontramos el botón "Actualizaciones". Lo pulsamos. 
  
 Se abrirá una pantalla con todas las actualizaciones disponibles (tanto de sistema como de aplicaciones). 
  
@@ -1744,8 +1691,7 @@ propietario y grupo.
 3.8. Monitorizar el rendimiento del sistema 
 El administrador debe intentar prevenir los fallos. Para ello, debe monitorizar el sistema. En caso de 
 degradación del rendimiento o la aparición de algún problema, se debe actuar lo más pronto posible, ya 
-que, si esto se consigue solucionar antes de que lo reporte algún usuario, no tendrán la sensación de que 
-el sistema ha fallado. 
+que, si esto se consigue solucionar antes de que lo reporte algún usuario, no tendrán la sensación de que \nel sistema ha fallado. 
 Algunas de estas tareas preventivas pueden ser: 
 • Realizar una correcta configuración del sistema. 
 • Vigilancia de los logs del sistema.
@@ -1816,8 +1762,7 @@ contraseñas y controlar aspectos importantes de la red y los dispositivos, como
 o el uso de hardware externo. 
 Las políticas de grupo también ayudan a gestionar la seguridad para cada usuario y equipo, controlando 
 las aplicaciones que pueden usarse, qué configuraciones pueden cambiarse y qué permisos tiene cada 
-usuario. Además, pueden automatizar tareas, como realizar actualizaciones de seguridad, mejorar la 
-eficiencia y consistencia en la gestión de la red. 
+usuario. Además, pueden automatizar tareas, como realizar actualizaciones de seguridad, mejorar la \neficiencia y consistencia en la gestión de la red. 
 Al implementar directivas claras, se protege la red de accesos no autorizados y se definen bien los 
 permisos de los usuarios, evitando errores y vulnerabilidades. Así, las políticas de grupo aumentan la 
 seguridad, aseguran el cumplimiento de normativas y reducen los riesgos de ataques, protegiendo los 
@@ -1941,15 +1886,13 @@ de traducción de direcciones IP a direcciones físicas usadas por el protocolo 
 direcciones ARP.  
 La memoria caché de ARP contiene una o varias tablas que se usan para almacenar direcciones 
 IP y sus direcciones físicas de Ethernet o Token Ring resueltas.  
-Hay una tabla independiente para cada adaptador de red Ethernet o Token Ring instalado en el 
-equipo.  
+Hay una tabla independiente para cada adaptador de red Ethernet o Token Ring instalado en el \nequipo.  
 Si se utiliza sin parámetros, arp muestra información de ayuda. 
 Sintaxis: 
 arp [/a [<inetaddr>] [/n <ifaceaddr>]] [/g [<inetaddr>] [-n <ifaceaddr>]] [/d 
 <inetaddr> [<ifaceaddr>]] [/s <inetaddr> <etheraddr> [<ifaceaddr>]] 
 • tracert (trace route) 
-Es una utilidad que permite visualizar trazas. Determina la ruta de acceso a un destino mediante 
-el envío de mensajes de solicitud de eco del Protocolo de mensajes de control de Internet 
+Es una utilidad que permite visualizar trazas. Determina la ruta de acceso a un destino mediante \nel envío de mensajes de solicitud de eco del Protocolo de mensajes de control de Internet 
 (ICMP) o ICMPv6 al destino con valores de campo de período de vida (TTL) cada vez mayores.  
 Cada enrutador a lo largo de la ruta de acceso debe disminuir el TTL (contador máximo de 
 vínculos) de un paquete IP en al menos 1 antes de reenviarlo.  
@@ -1987,8 +1930,7 @@ Con el uso del enrutamiento de origen flexible, los destinos intermedios sucesiv
 pueden separar por uno o varios enrutadores, siendo 9 el número máximo de direcciones o 
 nombres de la lista. 
 • /w <timeout> 
-Especifica la cantidad de tiempo en milisegundos (4000 predeterminado), que se debe 
-esperar a que se reciba el mensaje ICMP time Exceeded o de respuesta de eco 
+Especifica la cantidad de tiempo en milisegundos (4000 predeterminado), que se debe \nesperar a que se reciba el mensaje ICMP time Exceeded o de respuesta de eco 
 correspondiente a un mensaje de solicitud de eco dado.  
 Si no se recibe dentro del tiempo de espera, se muestra un asterisco (*).
 
@@ -2048,8 +1990,7 @@ nbtstat [/a <remotename>] [/A <IPaddress>] [/c] [/n] [/r] [/R] [/RR] [/s] [/S]
 [<interval>] 
 • nslookup 
 Solo está disponible si está instalado el protocolo TCP/IP. 
-Nslookup se añadió a Windows NT 4. y es una herramienta muy útil para resolver problemas con 
-el Servicio de Nombres de Dominio (DNS), tales como la resolución del nombre de un equipo. 
+Nslookup se añadió a Windows NT 4. y es una herramienta muy útil para resolver problemas con \nel Servicio de Nombres de Dominio (DNS), tales como la resolución del nombre de un equipo. 
 Tiene dos modos: 
 • Interactivo: recomendado si es necesario buscar solo un fragmento de datos. 
 • No interactivo.
@@ -2098,8 +2039,7 @@ ventana de símbolo del sistema ejecutamos netsh, y entraremos al comando, por l
 cambiara a netsh >. 
 El prompt es el carácter (o conjunto de caracteres) que se muestran en una línea de comandos para 
 indicar que está a la espera de órdenes. 
-Podemos obtener ayuda sobre el comando ejecutando ? si estamos dentro de nets (netsh>?) o si no lo 
-estamos, ejecutando netsh /? 
+Podemos obtener ayuda sobre el comando ejecutando ? si estamos dentro de nets (netsh>?) o si no lo \nestamos, ejecutando netsh /? 
 Vamos a ver diferentes opciones del comando netsh, ejecutados desde netsh>, (si lo ejecutamos desde 
 otro prompt, deberemos incluir la palabra netsh delante de cada opción indicada). 
 Mostrar la configuración de red actual 
@@ -2110,8 +2050,7 @@ menos detallada que la que indica el comando ipconfig /all).
 Muestra las estadísticas del protocolo IP. 
 • Interface ip show ipnet 
 Envía un paquete ARP a toda la red, usando broadcast, y muestra relación de direcciones MAC 
-que se corresponden con las direcciones IP de todos los interfaces de red, indicando si son 
-estáticas o dinámicas. 
+que se corresponden con las direcciones IP de todos los interfaces de red, indicando si son \nestáticas o dinámicas. 
 • Interface ip show tcpconn 
 Proporciona información sobre las conexiones TCP, muestra las direcciones establecidas, la 
 dirección IP remota y el puerto que estamos utilizando. 
@@ -2189,8 +2128,7 @@ Solo funciona a partir de las versiones Windows Server 2008 y Windows Vista.
 Administración del Sistema Operativo y software de Base 
 67 
 BSSID, (Basic Service Set Identifier), o identificador básico de conjunto de servicios, es un nombre de 
-identificación único de todos los paquetes de una red inalámbrica para identificarlos como parte de 
-esa red. 
+identificación único de todos los paquetes de una red inalámbrica para identificarlos como parte de \nesa red. 
  
  
  
@@ -2325,8 +2263,7 @@ Brian Fox comenzó a codificar Bash el 10 de enero de 1988 después de que Richa
 insatisfecho con la falta de progreso de un desarrollador anterior. 
 Stallman y la Free Software Foundation (FSF) consideraron un intérprete libre que podría ejecutar 
 scripts de shell existentes tan estratégicos para un sistema completamente libre construido a partir de 
-código BSD y GNU que este fue uno de los pocos proyectos que financiaron ellos mismos, con Fox 
-emprendiendo el trabajo como un empleado de FSF. 
+código BSD y GNU que este fue uno de los pocos proyectos que financiaron ellos mismos, con Fox \nemprendiendo el trabajo como un empleado de FSF. 
 Fox lanzó Bash como beta, versión .99, el 8 de junio de 1989 y se mantuvo como el colaborador 
 principal hasta mediados de 1992 y mediados de 1994, []?cuando fue despedido de la FSF y su 
 responsabilidad fue transferida a otro colaborador temprano, Chet Ramey. 
@@ -2420,8 +2357,7 @@ OpenSSL, solo vulnerable en su versión 1.0.1f, que permite a un
 atacante leer la memoria de un servidor o un cliente, 
 permitiéndole, por ejemplo, conseguir las claves privadas SSL de un 
 servidor. 
-Investigaciones de auditorías indican que algunos atacantes 
-explotaron este error desde al menos cinco meses antes de que 
+Investigaciones de auditorías indican que algunos atacantes \nexplotaron este error desde al menos cinco meses antes de que 
 fuera descubierto y publicado. 
  
  
@@ -2493,8 +2429,7 @@ En cambio, un proceso Bash puede realizar cálculos con enteros.
 Soporta los siguientes operadores relacionales: '==', '!=', ' > ', ' < ', ' > =', y ' < ='. 
 Un proceso Bash no puede realizar cálculos en coma flotante. Los únicos intérpretes Unix 
 capaces de esto son Korn Shell (versión de 1993) y zsh (a partir de la versión 4.0). 
-Se llama bashismo al uso de características de Bash que no están contempladas en las 
-especificaciones POSIX para los intérpretes de órdenes. En general, se recomienda evitarlas, para 
+Se llama bashismo al uso de características de Bash que no están contempladas en las \nespecificaciones POSIX para los intérpretes de órdenes. En general, se recomienda evitarlas, para 
 permitir la portabilidad de guiones a otros sistemas operativos.
 
 ---
@@ -2550,8 +2485,7 @@ simultáneamente, controlar configuraciones, instalar software o realizar tareas
 servidores y estaciones de trabajo sin intervención manual directa. Su sintaxis admite condicionales, 
 bucles, funciones personalizadas, alias para simplificar comandos y acceso completo a las bibliotecas del 
 .NET Framework, lo que lo convierte también en un entorno de programación poderoso. 
-Por ejemplo, un administrador puede automatizar la actualización del software antivirus en múltiples 
-equipos remotos con un único script. A continuación, se muestra un ejemplo práctico de uso remoto: 
+Por ejemplo, un administrador puede automatizar la actualización del software antivirus en múltiples \nequipos remotos con un único script. A continuación, se muestra un ejemplo práctico de uso remoto: 
 $computers = @("Equipo1", "Equipo2", "Equipo3", "Equipo4") 
 $command = { 
     $antivirus = Get-WmiObject -Class Win32_Product | Where-Object { $_.Name -like 
@@ -2637,8 +2571,7 @@ Una forma de realizar ambas acciones podría ser la siguiente:
 • Stop-Process -processname notepad 
 • Clear-History 
 Se utiliza para borrar el histórico de comandos que hemos empleado hasta ese momento. 
-Para borrar el histórico de un comando en concreto, le añadiremos el apendice -Command. Por 
-ejemplo, de esta forma: 
+Para borrar el histórico de un comando en concreto, le añadiremos el apendice -Command. Por \nejemplo, de esta forma: 
 Clear-History -Command *help*
 
 ---
@@ -2666,10 +2599,8 @@ https://docs.microsoft.com/en-us/powershell/
  
 4.6.2. Batch 
 Los scripts batch o archivos .bat (archivos de procesamiento por lotes) son la forma más simple de 
-scripting en comparación con PowerShell. Estos archivos contienen una serie de comandos que se 
-ejecutan en secuencia, lo que permite automatizar tareas en el sistema operativo. 
-A diferencia de PowerShell, los scripts .bat no tienen la capacidad de manejar objetos o interactuar con 
-estructuras de datos complejas, lo que los hace menos potentes. Sin embargo, su simplicidad es una 
+scripting en comparación con PowerShell. Estos archivos contienen una serie de comandos que se \nejecutan en secuencia, lo que permite automatizar tareas en el sistema operativo. 
+A diferencia de PowerShell, los scripts .bat no tienen la capacidad de manejar objetos o interactuar con \nestructuras de datos complejas, lo que los hace menos potentes. Sin embargo, su simplicidad es una 
 ventaja en muchos casos, ya que son más fáciles de escribir, entender y ejecutar, especialmente para 
 tareas sencillas. 
 Un script .bat se ejecuta utilizando el símbolo del sistema (CMD), y su sintaxis está basada en 
@@ -2696,22 +2627,18 @@ Ejemplo
 Imaginemos en este caso, que un usuario necesita hacer una limpieza en su ordenador de manera 
 regular. Una tarea común es eliminar los archivos temporales para liberar espacio en el disco duro y 
 mejorar el rendimiento del sistema. Se puede automatizar esa tarea utilizando un script .bat sencillo. 
-@echo off 
-echo Eliminando archivos temporales... 
+@echo off \necho Eliminando archivos temporales... 
 :: Eliminar archivos temporales de la carpeta Temp 
 del /q /f %temp%\* 
 :: Eliminar archivos temporales de la carpeta Prefetch del /q /f 
 C:\Windows\Prefetch\* 
-:: Vaciar la papelera de reciclaje 
-echo Vaciar la papelera de reciclaje... 
-rf /s /q C:\$Recycle.Bin 
-echo Tareas completadas 
+:: Vaciar la papelera de reciclaje \necho Vaciar la papelera de reciclaje... 
+rf /s /q C:\$Recycle.Bin \necho Tareas completadas 
 pause 
 • @echo off: Evita que me muestren los comandos en la consola mientras se ejecutan permitiendo 
 que la salida de los datos sea más limpia. 
 • del/q/f%temp%\*: elimina todos los archivos de la carpeta temporal del sistema del usuario 
-actual. El parámetro /q cancela la confirmación de eliminación y el parámetro /fuerza la 
-eliminación de los archivos de solo lectura. 
+actual. El parámetro /q cancela la confirmación de eliminación y el parámetro /fuerza la \neliminación de los archivos de solo lectura. 
 • del /q/f C:\Windows\Prefetch\*: elimina todos los archivos de la carpeta Prefetch que 
 contienen información sobre los programas que se inician para mejorar el rendimiento del 
 sistema.
@@ -2721,8 +2648,7 @@ sistema.
 Administración del Sistema Operativo y software de Base 
 82 
 • rd/s/q C:$Recycle.Bin: vacía la papelera de reciclaje del sistema. El parámetro /s elimina todos 
-los subdirectorios y archivos de la papelera, y el parámetro /q evita las confirmaciones de 
-eliminación lo que permite que se elimine automáticamente. 
+los subdirectorios y archivos de la papelera, y el parámetro /q evita las confirmaciones de \neliminación lo que permite que se elimine automáticamente. 
 • pause: detiene la ejecución del script y le muestra un mensaje en la consola, permitiendo al 
 usuario ver los resultados antes de cerrar la ventana de la consola. 
 Cuando se ejecute el script, la consola mostrará los mensajes informando de la eliminación de archivos 
@@ -2745,8 +2671,7 @@ NetScan
 Permite obtener una visión general de los dispositivos conectados en la red en cuestión de segundos, 
 muestra los puertos abiertos en cada dispositivo y su dirección IP. 
 AOMEI Partition Assistant 
-Es un programa de particionamiento de discos duros. (un disco duro, se puede formatear definiendo un 
-espacio menor al total del disco, de forma que podemos crear diferentes particiones dentro de un 
+Es un programa de particionamiento de discos duros. (un disco duro, se puede formatear definiendo un \nespacio menor al total del disco, de forma que podemos crear diferentes particiones dentro de un 
 mismo disco físico, que aparecerán visiblemente como si fueran diferentes discos, por ejemplo, en 
 Windows, aparecerán en Mi equipo, distintas letras de unidades de discos.
 
@@ -2767,8 +2692,7 @@ programas se instalan automáticamente.
 PDFCreator 
 Nos permite crear documentos PDF desde cualquier aplicación, aparece como si fuera una impresora, 
 generando un documento .pdf que podremos enviar por correo electrónico, sin que se modifique su 
-formato, o guardarlo para imprimirlo posteriormente en caso de que no tengamos impresora disponible 
-en ese momento (en compras por internet etc.). 
+formato, o guardarlo para imprimirlo posteriormente en caso de que no tengamos impresora disponible \nen ese momento (en compras por internet etc.). 
 Trend Micro Ransomware File Decryptor 
 Nos permite verificar si existe una forma de descifrar archivos que han sido infectados por ransomware. 
 Un ransomware, o "secuestro de datos" en español, es un tipo de programa dañino que restringe el 
@@ -2806,9 +2730,7 @@ Clonezilla
 Es una herramienta gratuita de código abierto, para clonar discos duros creando una imagen y para 
 realizar copias de seguridad. 
 FileZilla 
-El acceso a los servidores FTP generalmente requiere un cliente FTP. De hecho, esto está integrado en 
-el sistema operativo y en el navegador web, pero bastante limitado a nivel funcional. FileZilla está 
-equipado con muchas funciones y está disponible para Linux, Windows y MacOS. Además del protocolo 
+El acceso a los servidores FTP generalmente requiere un cliente FTP. De hecho, esto está integrado en \nel sistema operativo y en el navegador web, pero bastante limitado a nivel funcional. FileZilla está \nequipado con muchas funciones y está disponible para Linux, Windows y MacOS. Además del protocolo 
 FTP clásico, también se admiten protocolos como SFTP, FTPS, SSH y SSL. 
 PuTTY 
 Este software es para acceder a los sistemas Linux y MacOS, se puede utilizar el protocolo SSH. Puede 
@@ -2841,8 +2763,7 @@ Este bloque recoge un conjunto de recomendaciones clave orientadas a reforzar la
 uso de cuentas con privilegios diferenciados y la configuración de permisos por roles), asegurar la 
 disponibilidad del sistema (mediante actualizaciones automáticas y uso de hardware adecuado), y 
 mejorar la capacidad de diagnóstico y mantenimiento (gracias al uso del registro de eventos). La 
-correcta aplicación de estas medidas contribuye a un entorno más robusto, eficiente y controlado, 
-especialmente en sistemas Windows tanto a nivel personal como corporativo. 
+correcta aplicación de estas medidas contribuye a un entorno más robusto, eficiente y controlado, \nespecialmente en sistemas Windows tanto a nivel personal como corporativo. 
 5.1. Uso de cuenta de administrador 
 El uso de una cuenta de administrador exclusiva para la gestión del sistema y una cuenta estándar para 
 las tareas diarias es una práctica necesaria para poder garantizar la seguridad y estabilidad de un 
@@ -2863,8 +2784,7 @@ cambios perjudiciales.
 Esta separación también facilita un control más estricto sobre quién tiene acceso a configuraciones del 
 sistema y permite aplicar el principio de mínimos privilegios, lo que asegura que solo se otorguen 
 permisos necesarios para cada tarea. 
-En general, esta práctica no solo mejora la seguridad, sino que también reduce la probabilidad de 
-errores accidentales que puedan dañar el sistema, asegurando que solo los administradores puedan 
+En general, esta práctica no solo mejora la seguridad, sino que también reduce la probabilidad de \nerrores accidentales que puedan dañar el sistema, asegurando que solo los administradores puedan 
 realizar modificaciones importantes. 
 5.2. Configurar actualizaciones automáticas 
 Como ya hemos visto, el mantener el sistema operativo y las aplicaciones actualizadas es fundamental 
@@ -2907,8 +2827,7 @@ los datos y reemplazar el hardware defectuoso antes de que el problema cause una
 sistema. 
 5.3.1. Uso del Visor de eventos en Windows Server 
 En el contexto de Windows Server, la herramienta que permite consultar y gestionar los registros del 
-sistema de forma estructurada es el Visor de eventos. A través de esta utilidad, el administrador puede 
-examinar en detalle los sucesos generados por el sistema operativo, los servicios instalados y los 
+sistema de forma estructurada es el Visor de eventos. A través de esta utilidad, el administrador puede \nexaminar en detalle los sucesos generados por el sistema operativo, los servicios instalados y los 
 componentes de seguridad, con una organización clara y accesible. 
 El visor presenta una interfaz jerárquica en la que los eventos se agrupan en categorías como 
 Aplicación, Sistema, Seguridad, Instalación y Eventos reenviados. Cada entrada incluye datos como la 
@@ -2950,8 +2869,7 @@ reducir los tiempos de arranque, optimizar la velocidad de lectura/escritura y m
 operativa, lo que es fundamental para entornos que requieren alta disponibilidad y velocidad. 
 Puedes consultar en el temario general, unidad segunda del bloque II, "Periféricos: conectividad y 
 administración..." para mayor información sobre estos dispositivos. 
-5.5. Configuración de permisos de acceso de roles 
-en Windows Server 
+5.5. Configuración de permisos de acceso de roles \nen Windows Server 
 En un entorno de servidor corporativo, resulta fundamental establecer un sistema de control de acceso 
 que garantice que cada usuario pueda acceder únicamente a los recursos y funcionalidades necesarias 
 para el desarrollo de sus funciones. Esta gestión precisa se articula a través de la correcta configuración 
@@ -2976,8 +2894,7 @@ Aplicar politicas de configuración y seguridad
 Además de la gestión por grupos, Windows Server permite aplicar políticas de configuración y 
 seguridad mediante las Políticas de Grupo, conocidas como GPO (Group Policy Objects). Estas políticas 
 se gestionan a través de la Consola de Administración de Directivas de Grupo, una herramienta que 
-permite aplicar de forma centralizada un conjunto amplio de directrices tanto a usuarios como a 
-equipos. Las GPO permiten, entre otras funciones, establecer requisitos de contraseñas seguras, 
+permite aplicar de forma centralizada un conjunto amplio de directrices tanto a usuarios como a \nequipos. Las GPO permiten, entre otras funciones, establecer requisitos de contraseñas seguras, 
 restringir el acceso a ciertas aplicaciones, definir la configuración del entorno de escritorio, limitar el uso 
 de dispositivos externos o controlar la instalación de actualizaciones del sistema. 
 Niveles de aplicación 
@@ -3067,8 +2984,7 @@ Administración del Sistema Operativo y software de Base
 92 
 Restaurar sistema 
 En Windows 10 y 11, la función Restaurar sistema permite recuperar el estado del equipo ante fallos o 
-problemas recientes, sin necesidad de formatear ni perder archivos personales. Esta herramienta resulta 
-especialmente valiosa cuando el sistema presenta malfuncionamientos tras instalar aplicaciones 
+problemas recientes, sin necesidad de formatear ni perder archivos personales. Esta herramienta resulta \nespecialmente valiosa cuando el sistema presenta malfuncionamientos tras instalar aplicaciones 
 conflictivas, controladores incompatibles o actualizaciones problemáticas del sistema operativo. 
 El mecanismo de restauración trabaja con puntos previamente creados, que son capturas del estado de 
 Windows en momentos clave. Estos puntos se generan automáticamente antes de actualizaciones 
@@ -3087,8 +3003,7 @@ Esta solución resulta particularmente eficaz contra errores sistémicos, cuelgu
 inestabilidad general del sistema. Sin embargo, su eficacia depende completamente de la existencia de 
 puntos de restauración previos. 
 Por ello, se recomienda mantener activada la protección del sistema y complementar esta función con 
-prácticas de mantenimiento periódico, incluyendo la desinstalación adecuada de programas no 
-esenciales mediante los métodos estándar (Panel de Control o Configuración de Windows), para 
+prácticas de mantenimiento periódico, incluyendo la desinstalación adecuada de programas no \nesenciales mediante los métodos estándar (Panel de Control o Configuración de Windows), para 
 reducir la necesidad de restauraciones drásticas del sistema. 
  
  
@@ -3181,8 +3096,7 @@ identificar los archivos problemáticos.
 Opciones adicionales: 
 • sfc /verifyonly: Realiza una verificación sin hacer reparaciones. 
 • sfc /scanfile=<ruta>: Escanea y repara un archivo específico. 
-• sfc /offwindir=<ruta>: Especifica la ubicación del sistema operativo si se ejecuta desde un 
-entorno de recuperación. 
+• sfc /offwindir=<ruta>: Especifica la ubicación del sistema operativo si se ejecuta desde un \nentorno de recuperación. 
 Paso 3. Disponer de software de mantenimiento 
 Existen programas que debemos tener instalados obligatoriamente como en un antivirus, y otros que 
 nos facilitan el buen mantenimiento de nuestros sistemas: 
@@ -3255,20 +3169,17 @@ con lo mínimo.
 Puedes abrir el administrador de tareas y eliminar las que te puedan parecer sospechosas, pero no suele 
 hacer falta. 
 Paso 8. Pasar software antivirus 
-Analizar el equipo con los antivirus, malware, etcétera. Es posible que requieran reiniciar el equipo si 
-encuentran algo. Si fuera necesario, volver a arrancar en modo seguro sin red. 
+Analizar el equipo con los antivirus, malware, etcétera. Es posible que requieran reiniciar el equipo si \nencuentran algo. Si fuera necesario, volver a arrancar en modo seguro sin red. 
 Paso 9. Volver a limpiar con CCleaner 
 Para asegurarnos de que el trabajo del antivirus queda bien hecho es aconsejable volver a limpiar el 
 sistema y el registro. 
 Paso 10. Reiniciar con conexión a red 
 Reiniciar en modo seguro con el cable de red enchufado y con las funciones de red habilitadas. 
 Paso 11. Instalar actualizaciones del sistema operativo 
-Utilizar Windows Update para instalar las actualizaciones que no tengas instaladas. Si no pudieras en 
-este modo, arranca en modo normal e instala las actualizaciones. 
+Utilizar Windows Update para instalar las actualizaciones que no tengas instaladas. Si no pudieras en \neste modo, arranca en modo normal e instala las actualizaciones. 
 6.2. Otras herramientas administrativas de configuracion 
 Hasta ahora hemos visto las herramientas de los Sistemas operativos más comunes. Pero existen otro 
-muchos S.O. en el Mercado y hay empresas que han desarrollado herramientas para la configuración de 
-esos sistemas operativos.
+muchos S.O. en el Mercado y hay empresas que han desarrollado herramientas para la configuración de \nesos sistemas operativos.
 
 ---
 
@@ -3289,8 +3200,7 @@ Unix (Solaris, BSD, Mac OS X, AIX, HP-UX), y cuenta con apoyo para Microsoft Win
 de consola en Linux 
 Una parte fundamental de la administración de sistemas operativos es la supervisión del comportamiento 
 del sistema. Para ello, Linux dispone de un sistema completo de registro de eventos (logs) y mensajes que 
-se pueden visualizar directamente desde consola. Estos registros son esenciales para el diagnóstico de 
-errores, la detección de actividades sospechosas y el mantenimiento general del sistema. 
+se pueden visualizar directamente desde consola. Estos registros son esenciales para el diagnóstico de \nerrores, la detección de actividades sospechosas y el mantenimiento general del sistema. 
 7.1. Archivos de log 
 Linux registra de forma constante los eventos que ocurren en el sistema mediante archivos de texto 
 denominados logs. Estos archivos son generados tanto por el propio núcleo del sistema como por los 
@@ -3306,10 +3216,8 @@ autenticación. Esto incluye los inicios y cierres de sesión, el uso de comando
 superusuario, los intentos fallidos de acceso y los cambios de contraseña. Su revisión periódica permite 
 detectar posibles accesos no autorizados o intentos de intrusión. 
 El núcleo del sistema también genera su propio registro, que se guarda en "kern.log". Este archivo 
-contiene información emitida directamente por el kernel y resulta de gran utilidad para identificar 
-errores de hardware, fallos en la carga de módulos, o problemas con controladores. A su vez, el 
-comando "dmesg" permite consultar en tiempo real los mensajes más recientes del kernel, 
-especialmente útiles durante el arranque o cuando se conectan o desconectan dispositivos.
+contiene información emitida directamente por el kernel y resulta de gran utilidad para identificar \nerrores de hardware, fallos en la carga de módulos, o problemas con controladores. A su vez, el 
+comando "dmesg" permite consultar en tiempo real los mensajes más recientes del kernel, \nespecialmente útiles durante el arranque o cuando se conectan o desconectan dispositivos.
 
 ---
 
@@ -3323,13 +3231,11 @@ relacionados con el sistema de actualizaciones e instalación de software (/var/
 programadas (/var/log/cron) o con la interfaz gráfica (/var/log/Xorg.0.log). Cada uno de ellos 
 permite profundizar en el comportamiento de un componente concreto del sistema. 
 La lectura y comprensión de estos registros es una de las herramientas más potentes que tiene el 
-administrador para conocer el estado real del sistema. Es recomendable revisarlos periódicamente, 
-especialmente cuando se produce un fallo, un reinicio inesperado o un comportamiento anómalo. 
+administrador para conocer el estado real del sistema. Es recomendable revisarlos periódicamente, \nespecialmente cuando se produce un fallo, un reinicio inesperado o un comportamiento anómalo. 
 Dominar su consulta, entender su estructura y filtrar adecuadamente los mensajes permite actuar con 
 rapidez y eficacia ante cualquier incidencia. 
 7.2. Comandos básicos para consultar logs 
-Para que los archivos de log cumplan su función, es necesario que el administrador sepa cómo acceder a 
-ellos y extraer la información que necesita. Linux ofrece una serie de comandos muy potentes y 
+Para que los archivos de log cumplan su función, es necesario que el administrador sepa cómo acceder a \nellos y extraer la información que necesita. Linux ofrece una serie de comandos muy potentes y 
 versátiles que permiten visualizar y analizar el contenido de estos registros directamente desde la 
 consola. 
 El comando más simple para consultar un archivo de log es "cat", que muestra en pantalla todo el 
@@ -3346,8 +3252,7 @@ Para buscar información específica dentro de un archivo de log, el comando má
 Con él se puede localizar una palabra o cadena concreta dentro del archivo, como por ejemplo el 
 término "error" o "failed". Esta búsqueda permite filtrar rápidamente los mensajes que contienen 
 información relevante sin necesidad de revisar manualmente todo el contenido. 
-Además, estos comandos pueden combinarse entre sí para mejorar la precisión de las búsquedas. Por 
-ejemplo, es posible encadenar "tail -f" con "grep" para observar en tiempo real únicamente los eventos 
+Además, estos comandos pueden combinarse entre sí para mejorar la precisión de las búsquedas. Por \nejemplo, es posible encadenar "tail -f" con "grep" para observar en tiempo real únicamente los eventos 
 que incluyan una palabra clave determinada. Este tipo de combinaciones es muy utilizado en entornos 
 donde se requiere una supervisión constante de servicios críticos. 
 Dominar estas herramientas básicas es fundamental para todo administrador, ya que permiten 
@@ -3374,8 +3279,7 @@ resultado en modo paginado, permitiendo desplazarse cómodamente por los eventos
 Uno de los usos más comunes es consultar únicamente los eventos generados desde el último arranque. 
 Esto se consigue con la opción "-b", muy útil cuando se quiere revisar lo que ha ocurrido en el sistema 
 desde que fue encendido. Si se desea obtener únicamente los mensajes de error recientes, la combinación 
-"-xe" proporciona una salida extendida centrada en los eventos con niveles de severidad elevados, 
-especialmente útil cuando un servicio falla y se quiere obtener información precisa del motivo. 
+"-xe" proporciona una salida extendida centrada en los eventos con niveles de severidad elevados, \nespecialmente útil cuando un servicio falla y se quiere obtener información precisa del motivo. 
 Journalctl permite también filtrar por servicio, lo que facilita enormemente la supervisión de procesos 
 concretos. Por ejemplo, si se quiere revisar únicamente los mensajes relacionados con el servidor SSH o 
 con el demonio de red, basta con especificar el nombre de la unidad correspondiente con el parámetro 
@@ -3383,8 +3287,7 @@ con el demonio de red, basta con especificar el nombre de la unidad correspondie
 sistema. 
 Otra característica avanzada de journalctl es la posibilidad de filtrar por fecha y hora. Utilizando 
 opciones como "--since" y "--until", se pueden obtener únicamente los registros comprendidos entre 
-dos momentos concretos. Esta funcionalidad es especialmente útil cuando se quiere investigar un 
-evento que se sabe que ocurrió en una franja horaria determinada, como un reinicio inesperado o un 
+dos momentos concretos. Esta funcionalidad es especialmente útil cuando se quiere investigar un \nevento que se sabe que ocurrió en una franja horaria determinada, como un reinicio inesperado o un 
 fallo durante una actualización. 
 A diferencia de los logs tradicionales basados en texto plano, el journal permite organizar, clasificar y 
 filtrar la información con mayor precisión, lo que convierte a journalctl en una herramienta de primer 
@@ -3393,8 +3296,7 @@ detallada sobre el estado del sistema.
 7.4. Rotación y mantenimiento de logs 
 A medida que el sistema opera y sus servicios generan eventos, los archivos de log van creciendo 
 progresivamente. En sistemas que están en funcionamiento de forma continua, especialmente aquellos 
-que actúan como servidores, este crecimiento puede llegar a ocupar una cantidad considerable de 
-espacio en disco. Para evitar que los logs antiguos saturen el sistema, Linux cuenta con un mecanismo 
+que actúan como servidores, este crecimiento puede llegar a ocupar una cantidad considerable de \nespacio en disco. Para evitar que los logs antiguos saturen el sistema, Linux cuenta con un mecanismo 
 automático de gestión llamado logrotate. 
 El propósito principal de logrotate es controlar el tamaño de los archivos de log mediante un proceso de 
 rotación. Esta rotación consiste en renombrar el archivo actual, comprimirlo o archivarlo, y crear uno 
@@ -3440,8 +3342,7 @@ direcciones IP sospechosas. Para contextos más complejos o distribuidos, soluci
 Graylog o pilas completas como ELK (Elasticsearch, Logstash y Kibana) permiten centralizar, indexar y 
 visualizar los registros de múltiples sistemas de forma unificada y eficiente. 
 La capacidad para filtrar adecuadamente la información es otro aspecto clave. Los logs suelen contener 
-miles de líneas de texto, muchas de ellas poco significativas. Saber utilizar comandos como "grep", o 
-explotar las funciones avanzadas de herramientas como journalctl, permite centrarse únicamente en los 
+miles de líneas de texto, muchas de ellas poco significativas. Saber utilizar comandos como "grep", o \nexplotar las funciones avanzadas de herramientas como journalctl, permite centrarse únicamente en los 
 mensajes relevantes y ahorrar tiempo de análisis. La personalización de filtros según el servicio o el tipo 
 de error permite construir una supervisión mucho más precisa y útil.
 
@@ -3450,14 +3351,12 @@ de error permite construir una supervisión mucho más precisa y útil.
 Administración del Sistema Operativo y software de Base 
 103 
 Es igualmente importante aplicar una política de conservación de logs que se adapte a las necesidades 
-del entorno. En algunos casos, basta con conservar los registros de las últimas semanas. En otros, 
-especialmente cuando se trata de sistemas críticos o sujetos a requisitos legales, es necesario mantener 
+del entorno. En algunos casos, basta con conservar los registros de las últimas semanas. En otros, \nespecialmente cuando se trata de sistemas críticos o sujetos a requisitos legales, es necesario mantener 
 un historial más extenso y asegurarse de que los archivos no se eliminan prematuramente. El uso 
 correcto de herramientas como logrotate permite cumplir estos objetivos sin comprometer el espacio 
 de almacenamiento ni el rendimiento del sistema. 
 Otro aspecto a considerar es la seguridad de los propios archivos de log. Almacenar información 
-sensible o indicios de un incidente en archivos fácilmente manipulables puede suponer un riesgo. Por 
-eso, es aconsejable establecer permisos restrictivos sobre los logs, protegerlos frente a modificaciones 
+sensible o indicios de un incidente en archivos fácilmente manipulables puede suponer un riesgo. Por \neso, es aconsejable establecer permisos restrictivos sobre los logs, protegerlos frente a modificaciones 
 y, en entornos distribuidos, centralizar su almacenamiento en servidores remotos para evitar 
 manipulaciones locales. Esta centralización también facilita su análisis conjunto, especialmente cuando 
 se administran múltiples máquinas. 
@@ -3483,8 +3382,7 @@ forma de expresar un fenómeno más amplio.
 BYOD también ha llegado al ámbito educativo con la incorporación 
 de las tecnologías. 
 Alberta Education (Ministerio de Albertan, provincia en el oeste de 
-Canadá, responsable de la educación de la primera infancia, la 
-educación primaria y la educación secundaria en Alberta), lo define 
+Canadá, responsable de la educación de la primera infancia, la \neducación primaria y la educación secundaria en Alberta), lo define 
 así: "BYOD es un modelo tecnológico en el cual los estudiantes 
 llevan su dispositivo personal a la escuela con objeto de aprender".
 
@@ -3582,8 +3480,7 @@ El enrolamiento de móviles es el proceso mediante el cual un dispositivo móvil
 un sistema de gestión centralizado, permitiendo su administración remota, aplicación de políticas de 
 seguridad y control de acceso a los recursos de la organización. El enrolamiento de móviles es un 
 componente esencial en la administración de dispositivos dentro de las organizaciones, permitiendo un 
-control efectivo, seguridad de datos y gestión eficiente de los dispositivos en entornos empresariales y 
-educativos. 
+control efectivo, seguridad de datos y gestión eficiente de los dispositivos en entornos empresariales y \neducativos. 
 El enrolamiento de móviles reporta numerosos beneficios al funcionamiento de la empresa en 
 seguridad, eficiencia operativa, gestión y cumplimiento normativo (asegura el cumplimiento de 
 regulaciones como GDPR, ISO 27001, HIPAA). 

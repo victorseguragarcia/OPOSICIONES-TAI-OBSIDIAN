@@ -8,8 +8,7 @@ tags:
   - tema-03
   - hardware
   - sistemas-operativos
-  - bbdd
-estado: "🔴 Pendiente"
+  - bbdd\nestado: "🔴 Pendiente"
 dificultad: "⭐⭐⭐"
 prioridad: "Alta"
 sources:
@@ -44,9 +43,15 @@ updated: "2026-08-18"
 
 ### 2. Estructuras Jerárquicas: Árboles y Árboles Balanceados
 - **Árbol Binario de Búsqueda (BST)**: Para cada nodo, todos los elementos del subárbol izquierdo son menores y los del subárbol derecho son mayores.
-  - *Recorridos*: **Preorden** (Raíz $ightarrow$ Izq $ightarrow$ Der), **Inorden** (Izq $ightarrow$ Raíz $ightarrow$ Der, **produce la secuencia ordenada de elementos**), **Postorden** (Izq $ightarrow$ Der $ightarrow$ Raíz).
+  - *Recorridos*: **Preorden** (Raíz $
+ightarrow$ Izq $
+ightarrow$ Der), **Inorden** (Izq $
+ightarrow$ Raíz $
+ightarrow$ Der, **produce la secuencia ordenada de elementos**), **Postorden** (Izq $
+ightarrow$ Der $
+ightarrow$ Raíz).
 - **Árboles AVL (Adelson-Velsky y Landis)**:
-  - Árbol BST auto-balanceado donde el **Factor de Equilibrio ($FE = 	ext{altura}(H_{der}) - 	ext{altura}(H_{izq})$)** de cualquier nodo debe pertenecer al conjunto $\{-1, 0, +1\}$.
+  - Árbol BST auto-balanceado donde el **Factor de Equilibrio ($FE = \text{altura}(H_{der}) - \text{altura}(H_{izq})$)** de cualquier nodo debe pertenecer al conjunto $\{-1, 0, +1\}$.
   - Operaciones de reequilibrio mediante **Rotaciones**:
     - **Rotación Simple a la Izquierda (RR)**: Desequilibrio $+2$ por inserción en el subárbol derecho del hijo derecho.
     - **Rotación Simple a la Derecha (LL)**: Desequilibrio $-2$ por inserción en el subárbol izquierdo del hijo izquierdo.

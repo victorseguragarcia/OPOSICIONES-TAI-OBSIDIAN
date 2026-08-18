@@ -6,8 +6,7 @@ tags:
   - temario-extendido
   - bloque-3
   - tema-04
-  - oposiciones-tai
-estado: "🔴 Por Estudiar"
+  - oposiciones-tai\nestado: "🔴 Por Estudiar"
 dificultad: "⭐⭐⭐"
 prioridad: "Máxima"
 sources:
@@ -155,8 +154,7 @@ comportamientos (funciones).
 Son las características o propiedades de los objetos. 
 Ejemplos: estatura de una persona, color de un coche, número de plantas de un edificio. 
 • Comportamiento. 
-Son las acciones que realizan los objetos del mundo real en respuesta a un determinado 
-estímulo. 
+Son las acciones que realizan los objetos del mundo real en respuesta a un determinado \nestímulo. 
 Ejemplo: una persona puede sentarse, caminar, conducir…. un coche puede acelerar, frenar… 
 La programación orientada a objetos, es un paradigma de programación que utiliza objetos y sus 
 interacciones, innova la forma de obtener resultados, los objetos manipulan los datos de entrada para 
@@ -231,16 +229,14 @@ objetos persistidos.
 • Control de Versiones: Mecanismo para guardar, gestionar y acceder a distintas versiones de 
 un objeto. 
 • Abiertas. Son aquellas en las que el diseñador puede aportar libertad de implementación. Están 
-ligadas al entorno de programación y permiten extender o adaptar el sistema a necesidades 
-específicas. 
+ligadas al entorno de programación y permiten extender o adaptar el sistema a necesidades \nespecíficas. 
 • Paradigma del Lenguaje: Decisión de acoplar la base de datos a un lenguaje de 
 programación específico o ser multi-lenguaje. 
 • Sistema de Tipos: Diseño e implementación específica de cómo se comprueban y manejan 
 los tipos de datos. 
 • Estrategia de Persistencia: Elección del método para lograr la persistencia (por herencia, 
 reachability o declaración). 
-• Gestión de Caché: Implementación de algoritmos para manejar qué objetos se mantienen 
-en memoria RAM. 
+• Gestión de Caché: Implementación de algoritmos para manejar qué objetos se mantienen \nen memoria RAM. 
 • Mecanismo de Indexación: Diseño de cómo se indexan los objetos para acelerar las 
 consultas. 
 Cuando escribimos un programa en un lenguaje orientado a objetos, estamos creando un modelo de 
@@ -269,8 +265,7 @@ ACCEDE DIRECTAMENTE DESDE AQUÍ
  
 1.1. Estructura de un programa orientado a objetos 
 En un sistema orientado a objetos, el programa se organiza como un conjunto finito de objetos que 
-contienen datos y métodos, (funciones miembro) que operan sobre esos datos y que se comunican 
-entre sí mediante mensajes. 
+contienen datos y métodos, (funciones miembro) que operan sobre esos datos y que se comunican \nentre sí mediante mensajes. 
 La estructura de un programa orientado a objetos sería la siguiente: 
  
 
@@ -289,8 +284,7 @@ comportamiento.
 4. Identificación de las relaciones existentes entre las diferentes clases del modelo. 
 Identificación de objetos 
 Un objeto en software es una entidad individual de un sistema que guarda una relación directa con los 
-objetos del mundo real. La correspondencia entre objetos de programación y objetos del mundo real es 
-el resultado práctico de combinar atributos y operaciones. 
+objetos del mundo real. La correspondencia entre objetos de programación y objetos del mundo real es \nel resultado práctico de combinar atributos y operaciones. 
 Un objeto tiene un estado, un comportamiento y una identidad: 
 • Estado. 
 Es el conjunto de valores de todos los atributos de un objeto en un instante de tiempo 
@@ -349,8 +343,7 @@ Tengamos en cuenta:
 Atención 
 LPOO "PURO" 
 Smalltalk: de los primeros LPOO con tipado dinámico. Es 
-considerado un "mundo virtual de objetos" donde cualquier 
-entidad es modelada como un objeto. 
+considerado un "mundo virtual de objetos" donde cualquier \nentidad es modelada como un objeto. 
 SCALA: LPOO puro; cada valor es un objeto. El tipo y 
 comportamiento de los objetos se describe por medio de clases y 
 traits. La abstracción de clases se realiza extendiendo otras clases y 
@@ -380,8 +373,7 @@ El componente debe estar:
 Diseño y Programación Orientada a Objetos. Patrones de Diseño y Lenguaje de Modelado Unificado (UML) 
 11 
 2.1. Mensajes 
-Un mensaje es la petición que enviamos a un objeto para que se comporte de una determinada manera, 
-es decir, que realice una acción. 
+Un mensaje es la petición que enviamos a un objeto para que se comporte de una determinada manera, \nes decir, que realice una acción. 
 En respuesta al mensaje, el objeto receptor se comportará de una determinada forma. 
 "El mensaje invoca a un método que realizará la acción sobre el objeto". 
 Sintaxis: 
@@ -394,8 +386,7 @@ Cada mensaje consta de tres partes:
 2. Operación solicitada (método). 
 3. Información adicional (argumentos), necesaria para poder ejecutar el método. 
 Mediante el mensaje podemos: 
-• Activar el comportamiento de un objeto: Un mensaje desencadena la ejecución de un método 
-en el objeto receptor. 
+• Activar el comportamiento de un objeto: Un mensaje desencadena la ejecución de un método \nen el objeto receptor. 
 • Establecer interacciones entre objetos: Los objetos colaboran entre sí enviándose mensajes. 
 • Implementar el principio de encapsulación: El mensaje es la única forma de acceder al 
 comportamiento de un objeto, sin exponer su implementación interna. 
@@ -460,8 +451,7 @@ objeto.
  
  
 + Info 
-Los métodos, son el equivalente a las funciones en programación 
-estructurada, con la diferencia de que es posible acceder a las 
+Los métodos, son el equivalente a las funciones en programación \nestructurada, con la diferencia de que es posible acceder a las 
 variables de la clase de forma implícita o incluida. 
  
  
@@ -503,16 +493,14 @@ Cada objeto creado a partir de la clase se denomina instancia de la clase.
  
  
 + Info 
-Los lenguajes de programación que soportan clases, pueden diferir 
-en su soporte algunas características de las clases. La mayoría 
+Los lenguajes de programación que soportan clases, pueden diferir \nen su soporte algunas características de las clases. La mayoría 
 soportan diversas formas de herencia y, también características 
 para proporcionar encapsulación, como especificadores de acceso. 
  
  
 Una clase puede tener una representación (meta-objeto) en tiempo de ejecución, proporcionando 
 apoyo en tiempo de ejecución para la manipulación de los datos relacionados con la clase. 
-Una clase puede tener elementos privados, por tanto, cuando una clase hereda de otra, todos los 
-elementos privados de la clase base no son accesibles a la clase derivada. 
+Una clase puede tener elementos privados, por tanto, cuando una clase hereda de otra, todos los \nelementos privados de la clase base no son accesibles a la clase derivada. 
 
 <!-- Page 15 -->
 
@@ -702,8 +690,7 @@ La clase de la que se hereda se suele denominar clase principal, clase base, cla
 clase ancestro (el vocabulario que se utiliza suele depender en gran medida del lenguaje de 
 programación). 
 Las subclases también se denominan clases derivadas. 
-Cada subclase comparte características con la clase de la que deriva (por ejemplo, el material del que 
-están hechos, el tamaño, el precio, etcétera). 
+Cada subclase comparte características con la clase de la que deriva (por ejemplo, el material del que \nestán hechos, el tamaño, el precio, etcétera). 
 Además, cada subclase tendrá sus propias características (la subclase "armario" tendrá el atributo 
 "número de puertas" y la silla el "número de patas"). 
 Hay dos tipos de herencias: 
@@ -736,8 +723,7 @@ Las clases bases pueden a su vez ser también subclases o clases derivadas de ot
 base. 
 Una generalización es una relación de herencia entre dos clases. Permite a una clase heredar atributos y 
 operaciones de otra clase. Su implementación en un lenguaje orientado a objetos es la herencia. 
-Es la "relaciónX" que existe entre una entidad y los subtipos de entidad más específicos que dependen 
-esa "relacionX". Se representa mediante un triángulo invertido. 
+Es la "relaciónX" que existe entre una entidad y los subtipos de entidad más específicos que dependen \nesa "relacionX". Se representa mediante un triángulo invertido. 
 Ejemplo: los tipos conserje y recepcionista obteniendo el supertipo empleado. 
  
 La herencia nos permite abstraer un tipo de entidad de nivel superior (supertipo) a partir de varios tipos 
@@ -823,8 +809,7 @@ subclases. En este caso, el patrón Bridge permite combinar abstracciones e impl
 diferentes y extenderlas independientemente. 
 • Cambios en la implementación de una abstracción no deben impactar en los clientes, es decir, su 
 código no debe tener que ser recompilado. 
-• Se desea compartir una implementación entre múltiples objetos (quizá usando contadores), y 
-este hecho debe ser escondido a los clientes. 
+• Se desea compartir una implementación entre múltiples objetos (quizá usando contadores), y \neste hecho debe ser escondido a los clientes. 
 3.1.3. Polimorfismo 
 Un objeto puede presentar diferentes comportamientos. 
 El poliformismo, es la propiedad por la cual un mismo mensaje puede originar conductas 
@@ -888,8 +873,7 @@ Diseño y Programación Orientada a Objetos. Patrones de Diseño y Lenguaje de M
 Ejemplos sobrecarga de funciones 
 Vamos a ver algunos ejemplos, ya que este concepto puede ser difícil de ver si estás acostumbrado a la 
 programación estructurada. 
-En el ejemplo a continuación aunque ambos métodos difieren en el tipo de retorno y en los argumentos, 
-el compilador solo considera las diferencias en los argumentos para elegir cuál ejecutar. 
+En el ejemplo a continuación aunque ambos métodos difieren en el tipo de retorno y en los argumentos, \nel compilador solo considera las diferencias en los argumentos para elegir cuál ejecutar. 
 • Ejemplo 1: imaginemos que tenemos un método que suma dos números y devuelve el resultado. 
 Entero suma (entero A, entero B) 
        { 
@@ -904,12 +888,10 @@ float suma (float A, float B)
        Return suma 
        } 
 • Ejemplo 2: de igual forma, podríamos crear un método para inicializar una variable. 
-// Método 1: Con parámetro 
-entero inicializarA(entero A) { 
+// Método 1: Con parámetro \nentero inicializarA(entero A) { 
        return A; // Devuelve el valor recibido 
 } 
-// Método 2: Sin parámetros (sobrecarga) 
-entero inicializarA() { 
+// Método 2: Sin parámetros (sobrecarga) \nentero inicializarA() { 
        return 0; // Devuelve 0 por defecto 
 } 
 En este caso tenemos dos versiones de la misma función. Si se lanza con un parámetro, se 
@@ -1010,8 +992,7 @@ bien definida, nuestro sistema gozará de un alto grado de cohesión y del menor
 hayamos sido capaces de lograr. 
 3.1.6. Encapsulamiento 
 El encapsulamiento permite aumentar la cohesión (diseño estructurado) de los componentes del 
-sistema. Algunos autores confunden encapsulamiento con el principio de ocultación, porque se suelen 
-emplear conjuntamente. 
+sistema. Algunos autores confunden encapsulamiento con el principio de ocultación, porque se suelen \nemplear conjuntamente. 
 La encapsulación o encapsulamiento consiste en reunir, en una cierta estructura, todos los elementos 
 que a un cierto nivel de abstracción se pueden considerar pertenecientes a una misma entidad. 
 Los objetos, tienen un gran sentido de la privacidad, por lo que sólo dan información sobre sí mismos, a 
@@ -1023,8 +1004,7 @@ los resultados de su ejecución.
 La idea fundamental de los LPOO, es encapsular (combinar), en una única unidad (objeto) tanto los 
 datos como las funciones que los manipulan. 
 Cada objeto presenta una interface publica al resto de objetos que pueden utilizarlo. 
-Esta característica de encapsular, permite modelar los objetos del mundo real de un modo mucho más 
-eficiente que con funciones y datos. Mientras que la interface publica sea la misma, se puede cambiar la 
+Esta característica de encapsular, permite modelar los objetos del mundo real de un modo mucho más \neficiente que con funciones y datos. Mientras que la interface publica sea la misma, se puede cambiar la 
 implementación de los métodos sin que sea necesario informar al resto de objetos que los utilizan. 
  
 
@@ -1043,8 +1023,7 @@ comportamiento se agrupan en clases que no son más que
 unidades de programación que encapsulan datos y operaciones. 
  
 Ocultación de datos 
-La encapsulación, oculta lo que hace un objeto de lo que hacen otros objetos (y lo oculta del mundo 
-exterior), por lo que se denomina también ocultación de datos. Un objeto tiene que presentar una cara 
+La encapsulación, oculta lo que hace un objeto de lo que hacen otros objetos (y lo oculta del mundo \nexterior), por lo que se denomina también ocultación de datos. Un objeto tiene que presentar una cara 
 al mundo exterior, de modo que se puedan iniciar esas operaciones. 
 Los usuarios de un componente solo necesitan saber qué servicios ofrece el objeto y no cómo lo hace. 
 Por lo tanto, la interfaz pública establece qué se puede hacer con el objeto y la clase actúa como una 
@@ -1074,8 +1053,7 @@ Diseño y Programación Orientada a Objetos. Patrones de Diseño y Lenguaje de M
 • `protected`: el acceso será posible desde la propia clase, clases del mismo paquete y subclases. 
 • `default` (sin modificador): será accesible desde la misma clase y clases del mismo paquete. 
 La idea en LPOO es que los atributos y ciertos métodos de funcionamiento internos sean privados, 
-proporcionando métodos públicos para acceder y modificar los atributos. Los métodos encaragos de 
-esto son los llamados getters o setters. 
+proporcionando métodos públicos para acceder y modificar los atributos. Los métodos encaragos de \nesto son los llamados getters o setters. 
  
  
  
@@ -1194,8 +1172,7 @@ más alto nivel (nivel superior). Resulta útil cuando la entidad obtenida de m�
 interrelacionar con otra entidad. 
 Es un tipo de relación dinámica, donde, el tiempo de vida de una o más entidades de bajo nivel, que están 
 incluidas en una entidad de alto nivel, es independiente a la entidad que la incluye (entidad de alto nivel). 
-La agregación en UML se representa mediante una línea de asociación entre clases, con un rombo vacío 
-en el extremo de la clase que representa el todo. El otro extremo conecta con la clase parte. El rombo 
+La agregación en UML se representa mediante una línea de asociación entre clases, con un rombo vacío \nen el extremo de la clase que representa el todo. El otro extremo conecta con la clase parte. El rombo 
 indica la relación de agregación (todo–parte), donde las partes pueden existir independientemente del 
 todo. 
 Ejemplo: Agregamos dos entidades, en la entidad superior mesa que puede tener relaciones o 
@@ -1269,11 +1246,9 @@ clase B y viceversa. Por ejemplo un ciudadano con un DNI.
 más) o 1..* (uno o más) en el otro, el asterisco significaría muchos o 0 o más. Indica que la 
 instancia de una clase está asociada con cero o varias instancias de otra clase, pero en recorrido 
 inverso solo está asociada con una de la primera. Tendríamos 1 en un extremo y en el otro 0..*. 
-Por ejemplo un cliente puede hacer muchos pedidos, pero esos pedidos solo están asociado con 
-ese cliente. 
+Por ejemplo un cliente puede hacer muchos pedidos, pero esos pedidos solo están asociado con \nese cliente. 
 • Relación Muchos a Muchos (N:M): la notación correspondiente es *..* o simplemente *. instancia 
-de una clase está asociada con 0 o más instancias de otra clase y viceversa (0..N o 0..*). Un buen 
-ejemplo sería el de un músico que puede tocar en varias orquestas y una orquesta está compuesta 
+de una clase está asociada con 0 o más instancias de otra clase y viceversa (0..N o 0..*). Un buen \nejemplo sería el de un músico que puede tocar en varias orquestas y una orquesta está compuesta 
 de varios músicos. 
 3.3.4. Determinar las relaciones 
 Las reglas de negocio son la clave para definir la relación correcta (asociación, agregación o 
@@ -1301,12 +1276,9 @@ Diseño y Programación Orientada a Objetos. Patrones de Diseño y Lenguaje de M
 • Si el vuelo se cancela, los pasajeros siguen existiendo en el sistema. Las partes no 
 desaparecen si el todo lo hace. 
 • Limitación importante: 
-Este enfoque sería válido solo si no fuera necesario almacenar datos sobre la participación 
-específica de un pasajero en un vuelo (como su número de asiento, clase, o fecha de 
-embarque). La agregación es una relación estructural, pero no permite atributos. 
+Este enfoque sería válido solo si no fuera necesario almacenar datos sobre la participación \nespecífica de un pasajero en un vuelo (como su número de asiento, clase, o fecha de \nembarque). La agregación es una relación estructural, pero no permite atributos. 
 Por ello, en la práctica, la solución más común y robusta es evitar la relación directa y 
-utilizar en su lugar una clase de asociación (como Reserva o Billete), que sí puede contener 
-esos atributos. 
+utilizar en su lugar una clase de asociación (como Reserva o Billete), que sí puede contener \nesos atributos. 
 • COMPOSICIÓN: El vuelo Chárter. 
 • En un sistema de gestión de vuelos chárter, el Vuelo Chárter es el "todo". Aquí, la existencia 
 de las partes (Grupo de Pasajeros) está totalmente ligada a la existencia del vuelo. 
@@ -1345,8 +1317,7 @@ del sistema global que es el programa que se pretende desarrollar.
 De esta manera se consigue una independencia entre los módulos, que facilita que el desarrollador de 
 un módulo concreto, va a encargarse de implementar su módulo y deberá conocer como es la 
 comunicación con los otros módulos (la interfaz), pero no necesitará conocer cómo trabajan esos otros 
-módulos internamente, que serán para él cajas negras. Esta independencia es muy importante en los 
-equipos de trabajo de desarrollo de un programa. 
+módulos internamente, que serán para él cajas negras. Esta independencia es muy importante en los \nequipos de trabajo de desarrollo de un programa. 
 4. Ventajas y desventajas de la POO 
  
 Ventajas 
@@ -1371,8 +1342,7 @@ Diseño y Programación Orientada a Objetos. Patrones de Diseño y Lenguaje de M
 desarrollo. 
 • Mantenimiento: Estructura organizada que facilita modificaciones y reduce errores. 
 Desventajas 
-• Curva de aprendizaje: Es compleja para programadores acostumbrados a paradigmas 
-estructurados, debido a su abstracción y conceptos jerárquicos. 
+• Curva de aprendizaje: Es compleja para programadores acostumbrados a paradigmas \nestructurados, debido a su abstracción y conceptos jerárquicos. 
 • Sobrecarga de documentación: La estructura en clases y herencias requiere más documentación 
 para clarificar relaciones y responsabilidades. 
 • Interpretación subjetiva: La abstracción de objetos puede llevar a diseños inconsistentes si no 
@@ -1409,11 +1379,8 @@ Diseño y Programación Orientada a Objetos. Patrones de Diseño y Lenguaje de M
  
 +Info 
 Eric J. Braude, indica en su libro « Ingeniería de software: una 
-perspectiva orientada a objetos» (2003), que el objetivo de usar 
-estos patrones, es que los cambios en los requisitos de una 
-aplicación no provoquen modificaciones disruptivas en la 
-estructura del sistema evitando así que afecten a las relaciones 
-entre los objetos. 
+perspectiva orientada a objetos» (2003), que el objetivo de usar \nestos patrones, es que los cambios en los requisitos de una 
+aplicación no provoquen modificaciones disruptivas en la \nestructura del sistema evitando así que afecten a las relaciones \nentre los objetos. 
  
  
 Podemos ver en un patrón de diseño 4 elementos: 
@@ -1468,8 +1435,7 @@ punto:
 • Separa construcción de representación. 
 • Factory Method (Método de fabricación): 
 Este patrón, centraliza en una clase constructora la creación de objetos de un subtipo de un tipo 
-determinado, ocultando al usuario la diversidad de casos particulares que se pueden prever, para 
-elegir el subtipo que crear (esta diversidad se denomina casuística). 
+determinado, ocultando al usuario la diversidad de casos particulares que se pueden prever, para \nelegir el subtipo que crear (esta diversidad se denomina casuística). 
 Se basan en que las subclases determinan la clase a implementar. 
 • Prototype (Prototipo): 
 Crea nuevos objetos clonándolos de una instancia ya existente. 
@@ -1503,8 +1469,7 @@ necesidad de cambios en su código base.
 Patrón Bridge (Puente) 
 El patrón de diseño Bridge es una solución estructural que desacopla una abstracción de su 
 implementación, permitiendo que ambas evolucionen de manera independiente sin generar 
-dependencias rígidas entre ellas. Su propósito es evitar el crecimiento exponencial de clases cuando 
-existen múltiples dimensiones de variabilidad dentro de un sistema. Para lograrlo, divide el sistema en 
+dependencias rígidas entre ellas. Su propósito es evitar el crecimiento exponencial de clases cuando \nexisten múltiples dimensiones de variabilidad dentro de un sistema. Para lograrlo, divide el sistema en 
 dos jerarquías interconectadas: una para la abstracción y otra para la implementación. De este modo, se 
 facilita la expansión y modificación del código sin afectar la estructura general, promoviendo el 
 principio de abierto/cerrado y mejorando la reutilización del software. 
@@ -1536,15 +1501,13 @@ El patrón de diseño Facade simplifica la interacción con sistemas complejos p
 interfaz de alto nivel que oculta la implementación subyacente. Su principal beneficio es la reducción de 
 la dependencia entre los clientes y los múltiples subsistemas internos, facilitando la integración y el 
 mantenimiento del código. Al centralizar el acceso a un conjunto de funcionalidades, se mejora la 
-organización del sistema y se minimiza la cantidad de conocimiento que un cliente debe tener sobre la 
-estructura interna de los componentes. Este patrón es especialmente útil cuando se trabaja con 
+organización del sistema y se minimiza la cantidad de conocimiento que un cliente debe tener sobre la \nestructura interna de los componentes. Este patrón es especialmente útil cuando se trabaja con 
 bibliotecas de terceros o arquitecturas modulares en las que se busca simplificar la interacción con 
 distintos módulos. 
 Patrón Flyweight (Peso ligero) 
 El patrón de diseño Flyweight se enfoca en optimizar el uso de memoria y mejorar la eficiencia de los 
 sistemas que manejan grandes cantidades de objetos similares. Su estrategia consiste en compartir 
-instancias de objetos con información común, separando los datos invariantes de aquellos que son 
-específicos de cada instancia. Esto permite reducir el consumo de memoria y mejorar el rendimiento en 
+instancias de objetos con información común, separando los datos invariantes de aquellos que son \nespecíficos de cada instancia. Esto permite reducir el consumo de memoria y mejorar el rendimiento en 
 aplicaciones donde se crean múltiples objetos con atributos repetitivos. Flyweight es ideal en entornos 
 donde se deben manejar grandes volúmenes de datos repetitivos, como sistemas de representación 
 gráfica, motores de videojuegos o bases de datos con elementos altamente redundantes. 
@@ -1601,8 +1564,7 @@ Diseño y Programación Orientada a Objetos. Patrones de Diseño y Lenguaje de M
 46 
 • Template Method (Método plantilla): 
 Define en una operación el esqueleto de un algoritmo, delegando en las subclases algunos de sus 
-pasos, esto permite que las subclases redefinan ciertos pasos de un algoritmo sin cambiar su 
-estructura. 
+pasos, esto permite que las subclases redefinan ciertos pasos de un algoritmo sin cambiar su \nestructura. 
 • Visitor (Visitante): 
 Permite definir nuevas operaciones sobre una jerarquía de clases sin modificar las clases sobre 
 las que opera. 
@@ -1691,17 +1653,14 @@ las subclases sobrescriben métodos de su superclase para dar implementaciones e
 necesaria no encaja de forma natural en ninguna clase del dominio. En lugar de forzar su 
 inclusión -lo que violaría principios como la alta cohesión o el bajo acoplamiento-, se crea una 
 clase artificial que asuma esa responsabilidad. Estas clases no representan conceptos del 
-dominio, sino que suelen encargarse de aspectos transversales o técnicos, como la persistencia, 
-el registro de actividad (logging), la seguridad o las validaciones complejas, manteniendo así el 
+dominio, sino que suelen encargarse de aspectos transversales o técnicos, como la persistencia, \nel registro de actividad (logging), la seguridad o las validaciones complejas, manteniendo así el 
 modelo de dominio limpio y el diseño modular y flexible. 
 • Indirection: tiene como objetivo reducir el acoplamiento directo entre clases, introduciendo un 
 objeto intermediario que gestione la comunicación entre ellas. De este modo, los componentes 
 no dependen directamente unos de otros, lo que aumenta la flexibilidad y facilita el 
-mantenimiento. Ejemplos habituales de indirection son los controladores, los manejadores de 
-eventos o los repositorios. 
+mantenimiento. Ejemplos habituales de indirection son los controladores, los manejadores de \neventos o los repositorios. 
 • Protected Variations: consiste en identificar los puntos del sistema que son más propensos a 
-cambiar -por ejemplo, reglas de negocio, tecnologías externas o dependencias volátiles- y 
-encapsularlos detrás de una interfaz estable. De este modo, se protege al resto del sistema de 
+cambiar -por ejemplo, reglas de negocio, tecnologías externas o dependencias volátiles- y \nencapsularlos detrás de una interfaz estable. De este modo, se protege al resto del sistema de 
 los efectos de posibles modificaciones futuras, logrando mayor flexibilidad y menor riesgo ante 
 cambios inevitables. 
 7. Modelado de aplicaciones: UML 
@@ -1717,8 +1676,7 @@ Fuente: https://commons.wikimedia.org/wiki/File:UML_logo.svg
 Diseño y Programación Orientada a Objetos. Patrones de Diseño y Lenguaje de Modelado Unificado (UML) 
 49 
 UML es el lenguaje de modelado más conocido y utilizado y está respaldado por el Object Management 
-Group (OMG), que es un consorcio internacional sin ánimo de lucro y de membresía abierta para 
-estándares tecnológicos. Los estándares de OMG son promovidos por proveedores, usuarios finales, 
+Group (OMG), que es un consorcio internacional sin ánimo de lucro y de membresía abierta para \nestándares tecnológicos. Los estándares de OMG son promovidos por proveedores, usuarios finales, 
 instituciones académicas y agencias gubernamentales. 
 UML es un estándar de modelado de OMG, es un lenguaje estándar para especificar, para describir 
 un plano de un sistema de software. 
@@ -1795,16 +1753,13 @@ Diseño y Programación Orientada a Objetos. Patrones de Diseño y Lenguaje de M
 51 
 • Los mecanismos de extensión de UML son: 
 • Estereotipos. 
-Permite crear nuevos tipos de bloques de construcción. Derivan de los existentes, pero son 
-específicos a un problema. 
+Permite crear nuevos tipos de bloques de construcción. Derivan de los existentes, pero son \nespecíficos a un problema. 
 En lenguajes como Java o C++, es necesario modelar las excepciones, que son simplemente 
-clases, que normalmente sólo se pueden ser lanzadas y capturadas. Para poder modelar las 
-excepciones se puede crear un estereotipo de una clase. 
+clases, que normalmente sólo se pueden ser lanzadas y capturadas. Para poder modelar las \nexcepciones se puede crear un estereotipo de una clase. 
 • Valores etiquetados. 
 Permite añadir nueva información en la especificación de un elemento. 
 • Restricciones. 
-Permite añadir a un bloque de construcción de UML, nuevas reglas o modificar las 
-existentes. 
+Permite añadir a un bloque de construcción de UML, nuevas reglas o modificar las \nexistentes. 
 Reglas de UML 
 Hay una serie de normas para lograr que un modelo esté bien formado, son las siguientes reglas 
 semánticas: 
@@ -1864,8 +1819,7 @@ Descripción
 Colaboración 
  
 Interacción. Roles y otros elementos que colaboran para proporcionar un 
-comportamiento cooperativo mayor que la suma de los comportamientos de sus 
-elementos. 
+comportamiento cooperativo mayor que la suma de los comportamientos de sus \nelementos. 
 Las colaboraciones representan la implementación de patrones que forman un 
 sistema. 
 Caso de Uso 
@@ -1881,8 +1835,7 @@ Se diferencian de las clases en que sus objetos representan a elementos cuyo
 comportamiento es concurrente con otros elementos. 
 Componente 
  
-Representa el empaquetamiento físico de diferentes elementos lógicos (por 
-ejemplo, clases, interfaces y colaboraciones). 
+Representa el empaquetamiento físico de diferentes elementos lógicos (por \nejemplo, clases, interfaces y colaboraciones). 
 Nodo 
  
 Es un elemento físico que existe en tiempo de ejecución y representa un recurso 
@@ -1904,9 +1857,7 @@ tiempo y en el espacio.
 Están conectados normalmente a diversos elementos estructurales, principalmente clases, 
 colaboraciones y objetos, y normalmente están conectados a diversos elementos estructurales, 
 principalmente clases, colaboraciones y objetos. Son: 
-• Interacción: Comportamiento que comprende un conjunto de mensajes intercambiados 
-entre un conjunto de objetos, en un contexto determinado para alcanzar un propósito 
-específico. 
+• Interacción: Comportamiento que comprende un conjunto de mensajes intercambiados \nentre un conjunto de objetos, en un contexto determinado para alcanzar un propósito \nespecífico. 
 • Máquina de Estados: Comportamiento que especifica las secuencias de estados por las que 
 pasa un objeto o una interacción en respuesta a eventos. 
 • Los Elementos de agrupación: 
@@ -1927,8 +1878,7 @@ include.
 • extend (la extensión). 
 Un caso de uso puede extenderse a otro. El comportamiento del caos de extensión se 
 puede insertar en el caso de uso extendido en determinadas condiciones. 
-Se indica mediante la notación de una flecha rayada desde el caso de uso extensión hasta el 
-extendido junto a la etiqueta extend. 
+Se indica mediante la notación de una flecha rayada desde el caso de uso extensión hasta el \nextendido junto a la etiqueta extend. 
 
 <!-- Page 55 -->
 
@@ -1959,8 +1909,7 @@ UML utiliza dos tipos básicos de diagramas:
 • Diagramas de Estructura o Estructurales. 
 Los diagramas estructurales representan los aspectos estáticos de un sistema, es decir, su 
 organización interna, los elementos que lo componen y las relaciones entre ellos. Permiten 
-mostrar la arquitectura del sistema desde un punto de vista estable, independiente de su 
-ejecución. 
+mostrar la arquitectura del sistema desde un punto de vista estable, independiente de su \nejecución. 
 • Diagrama de clases. 
 • Diagrama de objetos. 
 • Diagrama de paquetes. 
@@ -1977,8 +1926,7 @@ Diseño y Programación Orientada a Objetos. Patrones de Diseño y Lenguaje de M
 • Diagrama de perfiles. 
 • De comportamiento. 
 Representan los aspectos dinámicos de un sistema, es decir, cómo interactúan sus elementos y 
-cómo evolucionan a lo largo del tiempo. Permiten describir casos de uso, flujos de actividades, 
-estados de los objetos y la forma en que los elementos colaboran entre sí. 
+cómo evolucionan a lo largo del tiempo. Permiten describir casos de uso, flujos de actividades, \nestados de los objetos y la forma en que los elementos colaboran entre sí. 
 • Diagramas de casos de uso. 
 • Diagrama de actividades. 
 • Diagrama de máquina de estados. 
@@ -2013,8 +1961,7 @@ mayúscula (notación camelCase, sin espacios).
 Un objeto se representa de manera similar a una clase, pero en la parte superior se indica el nombre del 
 objeto junto con el de la clase, y se subraya para marcar que es una instancia. 
 Las asociaciones se representan mediante una línea que une las clases y que puede llevar símbolos que 
-indican características de la asociación. La agregación se representa mediante un diamante colocado en 
-el extremo que representa el "todo". Si participan más de dos clases, estas se unen con una línea al 
+indican características de la asociación. La agregación se representa mediante un diamante colocado en \nel extremo que representa el "todo". Si participan más de dos clases, estas se unen con una línea al 
 diamante central. También se puede especificar un nombre de rol para indicar el papel que tiene una 
 clase en una asociación. 
 Diagrama de Objetos 
@@ -2032,11 +1979,9 @@ Hay dos tipos especiales de dependencias que se definen entre paquetes:
 • La importación de paquetes. 
 • La fusión de paquetes. 
 Los paquetes pueden representar los diferentes niveles de un sistema para revelar la arquitectura. 
-También se pueden marcar las dependencias de paquetes para mostrar el mecanismo de comunicación 
-entre niveles. 
+También se pueden marcar las dependencias de paquetes para mostrar el mecanismo de comunicación \nentre niveles. 
 Diagrama de componentes (o despliegue) 
-Representa cómo un sistema de software se divide en componentes y la dependencia que hay entre 
-ellos. Se indicarán librerías, tablas, archivos, ejecutables, documentos, etc. 
+Representa cómo un sistema de software se divide en componentes y la dependencia que hay entre \nellos. Se indicarán librerías, tablas, archivos, ejecutables, documentos, etc. 
 Se utiliza para modelar la organización de los artefactos software y las dependencias entre sus módulos. 
 Los componentes se comunican por medio de interfaces, y con este diagrama se muestra qué partes 
 pueden compartirse entre diferentes secciones de un sistema o incluso entre sistemas distintos. 
@@ -2051,8 +1996,7 @@ Diagrama de despliegue
 Muestra la arquitectura física del sistema como el despliegue de los artefactos de software en los nodos 
 de hardware. Es útil cuando se implementa una solución de software en múltiples máquinas con 
 distintas configuraciones. 
-Se utiliza para modelar la disposición física de los elementos de software en nodos (servidores, 
-estaciones, dispositivos, etc.) y permite visualizar la arquitectura en entornos complejos. 
+Se utiliza para modelar la disposición física de los elementos de software en nodos (servidores, \nestaciones, dispositivos, etc.) y permite visualizar la arquitectura en entornos complejos. 
 Diagrama de estructura compuesta 
 Se usa para mostrar la estructura interna de una clase o de un componente. Permite detallar cómo se 
 organizan sus partes, puertos y conectores internos, reflejando la colaboración entre sus elementos 
@@ -2065,8 +2009,7 @@ Java o .NET.
 En este tipo de diagramas los elementos gráficos son: estereotipo, extensión, metadatos, referencia, 
 perfil y aplicación de perfil. Fue el último tipo de diagrama añadido por UML 2.0. 
 7.2.2. Diagramas UML de Comportamiento 
-Los diagramas de comportamiento representan los aspectos dinámicos de un sistema, es decir, cómo 
-evolucionan los elementos con el tiempo, cómo interactúan entre sí y qué funcionalidades 
+Los diagramas de comportamiento representan los aspectos dinámicos de un sistema, es decir, cómo \nevolucionan los elementos con el tiempo, cómo interactúan entre sí y qué funcionalidades 
 proporcionan. Permiten modelar procesos, interacciones, estados y escenarios de uso, ofreciendo una 
 visión de cómo el sistema se comporta durante su ejecución. 
 Diagramas de casos de uso 
@@ -2084,8 +2027,7 @@ Diseño y Programación Orientada a Objetos. Patrones de Diseño y Lenguaje de M
 59 
 Los elementos que aparecen en estos diagramas son: 
 • Actores: representan usuarios u otros sistemas que interactúan con el sistema. 
-• Casos de uso: representan la descripción de las interacciones que se producen entre un actor y 
-el sistema cuando el actor utiliza el sistema para algo concreto. El nombre del caso de uso debe 
+• Casos de uso: representan la descripción de las interacciones que se producen entre un actor y \nel sistema cuando el actor utiliza el sistema para algo concreto. El nombre del caso de uso debe 
 describir claramente la funcionalidad. 
 Relaciones principales entre casos de uso: 
 • Include: un caso de uso incluye siempre la ejecución de otro. 
@@ -2165,8 +2107,7 @@ perspectiva externa, qué funciones debe ofrecer un sistema a quienes interactú
 capturar requisitos funcionales de alto nivel de forma comprensible para perfiles técnicos y no técnicos. 
 El diagrama muestra actores externos, los servicios u objetivos que persiguen dentro del sistema y el 
 límite que separa el interior del sistema de su entorno. Este enfoque responde a la pregunta qué hace el 
-sistema y evita deliberadamente detallar cómo lo hace, reservando ese nivel para otros diagramas o 
-especificaciones. 
+sistema y evita deliberadamente detallar cómo lo hace, reservando ese nivel para otros diagramas o \nespecificaciones. 
 Definición y objetivo 
 Un caso de uso es una secuencia de interacciones entre un actor y el sistema que produce un resultado 
 con valor para ese actor. El objetivo del diagrama es identificar las capacidades visibles del sistema, 
@@ -2179,8 +2120,7 @@ organizaciones. Se modela por su rol, no por individuos concretos; por ejemplo, 
 público o sistema de pagos. Un caso de uso representa una funcionalidad ofrecida por el sistema que 
 satisface un objetivo del actor; conviene nombrarlo con un verbo en infinitivo y un complemento que 
 denote el valor aportado, como presentar solicitud o emitir certificado. El límite del sistema es un 
-rectángulo que encierra todos los casos de uso y delimita lo que es responsabilidad del sistema frente al 
-entorno. Los actores siempre quedan fuera de ese límite; las interacciones cruzan la frontera mediante 
+rectángulo que encierra todos los casos de uso y delimita lo que es responsabilidad del sistema frente al \nentorno. Los actores siempre quedan fuera de ese límite; las interacciones cruzan la frontera mediante 
 asociaciones. 
 Relaciones: asociación, include, extend y generalización 
 La asociación conecta un actor con los casos de uso en los que participa. La relación include indica que 
@@ -2188,8 +2128,7 @@ un caso de uso incorpora obligatoriamente el comportamiento de otro, útil para 
 comunes como autenticar usuario o validar datos. La relación extend expresa comportamiento opcional 
 que se activa bajo ciertas condiciones, por ejemplo, un proceso de solicitud que puede extenderse con 
 requerir subsanación si falta documentación. La generalización permite especializar actores o casos de 
-uso cuando comparten parte del comportamiento; por ejemplo, empleado público puede especializarse 
-en tramitador y supervisor si ambos comparten casos base con variaciones. 
+uso cuando comparten parte del comportamiento; por ejemplo, empleado público puede especializarse \nen tramitador y supervisor si ambos comparten casos base con variaciones. 
 
 <!-- Page 62 -->
 
@@ -2205,9 +2144,7 @@ terminológica. Las asociaciones se trazan como líneas; include y extend se ind
 la línea dirigida hacia el caso incluido o extendido. Es buena práctica mantener el diagrama en un nivel 
 alto, evitando saturarlo con demasiados casos o relaciones. Cuando el dominio es amplio, es preferible 
 dividir en vistas temáticas y complementar con descripciones textuales para cada caso de uso. El 
-diagrama no detalla reglas de negocio ni flujos internos; esos elementos se documentan en la 
-especificación del caso de uso y se refinan con otros diagramas, como de actividades, de secuencia o de 
-estados. 
+diagrama no detalla reglas de negocio ni flujos internos; esos elementos se documentan en la \nespecificación del caso de uso y se refinan con otros diagramas, como de actividades, de secuencia o de \nestados. 
 Especificación textual del caso de uso 
 Cada caso de uso debe acompañarse de una breve especificación que permita entender el flujo principal 
 y las variantes. Una plantilla sencilla y efectiva incluye nombre, objetivo, actor principal, interesados y 
@@ -2240,27 +2177,23 @@ Es recomendable nombrar los casos con verbos orientados a valor y lenguaje de ne
 áreas funcionales y mantener consistencia terminológica con el resto del temario. Conviene factorizar 
 pasos repetidos mediante include y reservar extend para comportamientos realmente opcionales y 
 condicionados. Un error común es confundir pantallas o acciones técnicas con casos de uso; casuística 
-como cargar formulario o pulsar botón pertenece al diseño de interfaz, no al nivel de requisitos. Otro 
-error frecuente es saturar un único diagrama con demasiada información; es preferible varias vistas 
+como cargar formulario o pulsar botón pertenece al diseño de interfaz, no al nivel de requisitos. Otro \nerror frecuente es saturar un único diagrama con demasiada información; es preferible varias vistas 
 cohesivas y la especificación textual adjunta. 
 Ejemplo orientado a Administraciones Públicas 
 Se considera un sistema de tramitación de expedientes. Los actores son ciudadano, empleado público y 
 sistema de notificaciones. Dentro del sistema se modelan casos como presentar solicitud, aportar 
 documentación, consultar estado, revisar expediente y emitir resolución. El ciudadano se asocia a 
-presentar solicitud, aportar documentación y consultar estado. El empleado público se asocia a revisar 
-expediente y emitir resolución. El caso de uso presentar solicitud incluye autenticar usuario y validar 
+presentar solicitud, aportar documentación y consultar estado. El empleado público se asocia a revisar \nexpediente y emitir resolución. El caso de uso presentar solicitud incluye autenticar usuario y validar 
 datos. El caso revisar expediente puede extenderse con requerir subsanación si se detectan omisiones. 
 La postcondición de emitir resolución establece expediente resuelto y notificación emitida al ciudadano. 
-La interacción con el sistema de notificaciones se modela como asociación desde emitir resolución hacia 
-ese actor externo, dejando claro que el envío efectivo es responsabilidad del sistema externo. 
+La interacción con el sistema de notificaciones se modela como asociación desde emitir resolución hacia \nese actor externo, dejando claro que el envío efectivo es responsabilidad del sistema externo. 
 Relación con otros diagramas y con el resto del temario 
 El diagrama de casos de uso se complementa con diagramas de actividades para detallar flujos de 
 trabajo, de secuencia para describir intercambios entre objetos o servicios y de estados cuando el ciclo 
 de vida de una entidad requiere precisión. En el temario, este epígrafe enlaza con los contenidos de 
 metodologías de desarrollo, donde los casos de uso se emplean para capturar requisitos y derivar 
 pruebas, y se contrasta con los diagramas de flujo de datos del diseño conceptual, que modelan el 
-recorrido y transformación de la información. La separación conceptual es útil: el caso de uso se centra 
-en objetivos del actor y servicios visibles; el diagrama de flujo de datos se centra en entradas, 
+recorrido y transformación de la información. La separación conceptual es útil: el caso de uso se centra \nen objetivos del actor y servicios visibles; el diagrama de flujo de datos se centra en entradas, 
 transformaciones y salidas de datos. 
 7.2.3. Manual de Modelado UML 
 Diagrama de Casos de Uso 
@@ -2279,18 +2212,15 @@ Diagramas de Interacción
 ¿Cómo deben interactuar los elementos del sistema? 
 Estos diagramas (secuencia y comunicación) detallan el flujo de interacciones para cada caso de uso 
 crítico. Permiten identificar objetos participantes, mensajes intercambiados y descubren operaciones 
-preliminares. Sirven como puente esencial entre los requisitos y el diseño detallado. El cometido 
-esencial es el descubrir las operaciones que posteriormente formarán parte del Diagrama de Clases.  
+preliminares. Sirven como puente esencial entre los requisitos y el diseño detallado. El cometido \nesencial es el descubrir las operaciones que posteriormente formarán parte del Diagrama de Clases.  
 Diagrama de Actividades 
 ¿Cómo es el flujo del proceso? 
-Complementa el modelado de comportamiento para flujos de trabajo complejos o procesos 
-empresariales. Es particularmente útil cuando se necesita visualizar el flujo de control entre actividades, 
+Complementa el modelado de comportamiento para flujos de trabajo complejos o procesos \nempresariales. Es particularmente útil cuando se necesita visualizar el flujo de control entre actividades, 
 decisiones paralelas y sincronización de procesos. 
 Diagrama de Estados 
 ¿Cómo reacciona un objeto a eventos según su estado actual? 
 Se especializa en modelar el comportamiento de objetos cuyo funcionamiento depende críticamente de 
-su estado interno. Es ideal para representar máquinas de estado finito y transiciones entre diferentes 
-estados de un objeto o sistema. 
+su estado interno. Es ideal para representar máquinas de estado finito y transiciones entre diferentes \nestados de un objeto o sistema. 
 Diagrama de Clases 
 ¿Cuál es la composición del sistema? 
 Constituye el corazón del modelo estructural del sistema. Aquí se definen formalmente las clases con 
@@ -2299,8 +2229,7 @@ partir de los objetos identificados en los diagramas de comportamiento.
 Diagrama de Paquetes 
 ¿Cómo se organizan y agrupan los elementos del sistema? 
 Organiza los elementos del diagrama de clases en grupos lógicos y módulos coherentes. Gestiona las 
-dependencias entre componentes de alto nivel y ayuda a prevenir problemas de acoplamiento excesivo 
-en la arquitectura del sistema. 
+dependencias entre componentes de alto nivel y ayuda a prevenir problemas de acoplamiento excesivo \nen la arquitectura del sistema. 
 Diagrama de Componentes 
 ¿Cómo se empaquetan e implementan físicamente los módulos del software? 
 Representa la estructura física del software mostrando ejecutables, librerías y sus dependencias. Illustra 
@@ -2316,8 +2245,7 @@ Diseño y Programación Orientada a Objetos. Patrones de Diseño y Lenguaje de M
 Diagrama de Despliegue 
 ¿Dónde se ejecutan los componentes? 
 Especifica la arquitectura hardware necesaria para el sistema. Muestra la distribución física de 
-componentes en nodos de procesamiento, dispositivos y configuraciones de red requeridas para el 
-entorno de producción. 
+componentes en nodos de procesamiento, dispositivos y configuraciones de red requeridas para el \nentorno de producción. 
 Flujo de Modelado Integrado 
 ¿Cómo se pasa de la idea al despliegue? 
 El proceso sigue una progresión natural que comienza con requisitos, avanza mediante casos de uso, se 
@@ -2333,15 +2261,13 @@ Ejemplo
 • COMPONENTES: Empaqueto todo en archivos ejecutables (.jar, .dll). 
 • DESPLIEGUE: Decido "Dónde" se ejecuta: En qué servidores y con qué configuración. 
 8. El Proceso Racional Unificado (RUP) 
-Originalmente, se diseñó un proceso genérico y de dominio público, el Proceso Unificado, y una 
-especificación más detallada, el Rational Unified Process (RUP), que se vendiera como producto 
+Originalmente, se diseñó un proceso genérico y de dominio público, el Proceso Unificado, y una \nespecificación más detallada, el Rational Unified Process (RUP), que se vendiera como producto 
 independiente. 
 RUP, es un proceso de desarrollo de software que fue desarrollado por la empresa Rational Software, y 
 actualmente es propiedad de IBM. RUP no es un sistema con pasos firmemente establecidos, sino un 
 conjunto de metodologías adaptables al contexto y necesidades de cada organización. 
 También se conoce por este nombre al software, también desarrollado por Rational, que incluye 
-información entrelazada de diversos artefactos y descripciones de las diversas actividades. Está incluido 
-en el Rational Method Composer (RMC), que permite la personalización de acuerdo con las 
+información entrelazada de diversos artefactos y descripciones de las diversas actividades. Está incluido \nen el Rational Method Composer (RMC), que permite la personalización de acuerdo con las 
 necesidades. 
 
 <!-- Page 66 -->
@@ -2352,8 +2278,7 @@ Diseño y Programación Orientada a Objetos. Patrones de Diseño y Lenguaje de M
 66 
 RUP junto con UML, constituyen la metodología estándar más utilizada para el análisis, diseño, 
 implementación y documentación de sistemas orientados a objetos. 
-El ciclo de vida RUP es una implementación del desarrollo en espiral. Las tareas se organizan en fases 
-e iteraciones. 
+El ciclo de vida RUP es una implementación del desarrollo en espiral. Las tareas se organizan en fases \ne iteraciones. 
 RUP divide el proceso en cuatro fases, dentro de las cuales se realizan pocas pero grandes y formales 
 iteraciones, en número variable según el proyecto, son: 
 • Iniciación. 

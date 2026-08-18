@@ -98,7 +98,7 @@ ightarrow A$, $X$ es superclave o $A$ es un atributo primo (pertenece a alguna c
    - Condición formal más estricta: Para **toda** dependencia funcional no trivial $X 
 ightarrow A$, $X$ debe ser **superclave**.
 5. **Cuarta Forma Normal (4FN)**:
-   - Cumple BCNF y no contiene **dependencias multivaluadas (MVD)** no triviales ($X 	woheadrightarrow Y$).
+   - Cumple BCNF y no contiene **dependencias multivaluadas (MVD)** no triviales ($X \twoheadrightarrow Y$).
 6. **Quinta Forma Normal (5FN / Proyección-Unión)**:
    - No puede descomponerse en esquemas menores sin pérdida mediante **dependencias de unión (Join Dependencies)**.
 
@@ -122,6 +122,7 @@ ightarrow A$, $X$ debe ser **superclave**.
 - Síntesis: [[wiki/synthesis/database-normalization-and-sql-cheatsheet|Cheatsheet de Normalización de BBDD y SQL]]
 
 > [!trampa] ⚠️ Trampas Frecuentes de Examen: Normalización de Bases de Datos
-> 1. **Diferencia Crítica entre 3FN y BCNF (Boyce-Codd)**: En 3FN se permite que para una dependencia funcional $X ightarrow A$, si $X$ no es superclave, $A$ sea un **atributo primo** (parte de alguna clave candidata). En **BCNF NO HAY EXCEPCIONES**: **TODO determinante $X$ debe ser obligatoriamente una superclave**.
+> 1. **Diferencia Crítica entre 3FN y BCNF (Boyce-Codd)**: En 3FN se permite que para una dependencia funcional $X 
+ightarrow A$, si $X$ no es superclave, $A$ sea un **atributo primo** (parte de alguna clave candidata). En **BCNF NO HAY EXCEPCIONES**: **TODO determinante $X$ debe ser obligatoriamente una superclave**.
 > 2. **2FN (Segunda Forma Normal)**: Exige estar en 1FN y que **no existan dependencias funcionales parciales** (los atributos no primos deben depender de la TOTALIDAD de la clave primaria, no de una parte). Ojo: Si la clave primaria es simple (de 1 solo atributo), la tabla en 1FN **está automáticamente en 2FN**.
-> 3. **4FN (Cuarta Forma Normal)**: Elimina las **dependencias multivaluadas (DMV)** no triviales ($X 	woheadrightarrow Y$).
+> 3. **4FN (Cuarta Forma Normal)**: Elimina las **dependencias multivaluadas (DMV)** no triviales ($X \twoheadrightarrow Y$).

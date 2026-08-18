@@ -8,8 +8,7 @@ tags:
   - tema-02
   - hardware
   - sistemas-operativos
-  - bbdd
-estado: "🔴 Pendiente"
+  - bbdd\nestado: "🔴 Pendiente"
 dificultad: "⭐⭐⭐"
 prioridad: "Alta"
 sources:
@@ -62,12 +61,18 @@ updated: "2026-08-18"
   - *VLIW (Very Long Instruction Word)*: El compilador empaqueta múltiples operaciones independientes en una única palabra de instrucción muy ancha.
 
 ### 3. Jerarquía de Memoria y Memoria Caché
-- **Pirámide de Jerarquía**: Registros CPU ($<1	ext{ ns}$) $ightarrow$ Caché L1 ($1-2	ext{ ns}$) $ightarrow$ Caché L2 ($3-5	ext{ ns}$) $ightarrow$ Caché L3 ($10-20	ext{ ns}$) $ightarrow$ Memoria Principal RAM ($50-100	ext{ ns}$) $ightarrow$ Almacenamiento Secundario SSD/NVMe ($\mu	ext{s}$) $ightarrow$ HDD/Cintas ($	ext{ms}$).
+- **Pirámide de Jerarquía**: Registros CPU ($<1\text{ ns}$) $
+ightarrow$ Caché L1 ($1-2\text{ ns}$) $
+ightarrow$ Caché L2 ($3-5\text{ ns}$) $
+ightarrow$ Caché L3 ($10-20\text{ ns}$) $
+ightarrow$ Memoria Principal RAM ($50-100\text{ ns}$) $
+ightarrow$ Almacenamiento Secundario SSD/NVMe ($\mu\text{s}$) $
+ightarrow$ HDD/Cintas ($\text{ms}$).
 - **Principio de Localidad**:
   - *Localidad Temporal*: Si una posición de memoria es referenciada, es muy probable que vuelva a ser referenciada en un futuro cercano (bucles, variables).
   - *Localidad Espacial*: Si una posición de memoria es referenciada, es muy probable que las posiciones contiguas sean referenciadas pronto (vectores, código secuencial).
 - **Mapeo de Memoria Caché**:
-  - *Mapeo Directo*: Cada bloque de memoria principal se mapea a una única línea fija de caché ($	ext{Línea} = 	ext{Bloque} \pmod{	ext{Total Líneas}}$). Rápido y económico, pero alto índice de fallos por colisión.
+  - *Mapeo Directo*: Cada bloque de memoria principal se mapea a una única línea fija de caché ($\text{Línea} = \text{Bloque} \pmod{\text{Total Líneas}}$). Rápido y económico, pero alto índice de fallos por colisión.
   - *Totalmente Asociativo*: Un bloque de memoria puede ubicarse en cualquier línea libre de la caché. Máxima flexibilidad, pero requiere hardware comparador complejo.
   - *Asociativo por Conjuntos ($N$-way Set Associative)*: La caché se divide en conjuntos de $N$ vías. El bloque se mapea a un conjunto fijo, pero dentro de él puede ocupar cualquier vía.
 - **Políticas de Reemplazo**: **LRU** (Least Recently Used - menos usado recientemente), **FIFO** (First In, First Out), **LFU** (Least Frequently Used) y **Random**.
@@ -90,7 +95,9 @@ updated: "2026-08-18"
 > [!mnemo] 🧠 **Reglas Mnemotécnicas de Retención Visual**
 > - **CISC vs RISC**: **CISC Microprogramado / RISC Cableado (Hardwired)**.
 > - **Etapas Clásicas del Pipeline**: **IF - ID - EX - MEM - WB** (Instruction Fetch, Instruction Decode, Execute, Memory access, Write-Back).
-> - **Políticas de Caché**: **Write-Through $ightarrow$ Directo a RAM** / **Write-Back $ightarrow$ Con Dirty Bit**.
+> - **Políticas de Caché**: **Write-Through $
+ightarrow$ Directo a RAM** / **Write-Back $
+ightarrow$ Con Dirty Bit**.
 
 ---
 

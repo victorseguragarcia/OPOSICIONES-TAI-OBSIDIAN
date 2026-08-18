@@ -7,8 +7,7 @@ tags:
   - bloque-1
   - tema-08
   - derecho-administrativo
-  - age
-estado: "🔴 Pendiente"
+  - age\nestado: "🔴 Pendiente"
 dificultad: "⭐⭐⭐"
 prioridad: "Alta"
 sources:

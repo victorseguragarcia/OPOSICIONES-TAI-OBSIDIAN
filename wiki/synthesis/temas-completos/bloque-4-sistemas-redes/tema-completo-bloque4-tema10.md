@@ -6,8 +6,7 @@ tags:
   - temario-extendido
   - bloque-4
   - tema-10
-  - oposiciones-tai
-estado: "🔴 Por Estudiar"
+  - oposiciones-tai\nestado: "🔴 Por Estudiar"
 dificultad: "⭐⭐⭐"
 prioridad: "Máxima"
 sources:
@@ -182,8 +181,7 @@ y además pueden tener información adicional.
 ACCEDE DIRECTAMENTE DESDE AQUÍ 
  
  
-Una red local (Local Area Network o LAN) puede incluir a dos o más (miles) dispositivos conectados 
-entre sí, tanto en una vivienda privada como en una empresa, o instituciones públicas como 
+Una red local (Local Area Network o LAN) puede incluir a dos o más (miles) dispositivos conectados \nentre sí, tanto en una vivienda privada como en una empresa, o instituciones públicas como 
 administraciones, colegios o universidades. 
  
  
@@ -195,8 +193,7 @@ Area Network).
  
  
 Si se conectan más de dos ordenadores en una red LAN, se necesitan otros componentes de red como 
-concentradores (hubs), puentes (bridges) y conmutadores (switches) los cuales funcionan como 
-elementos de acoplamiento y nodos de distribución. 
+concentradores (hubs), puentes (bridges) y conmutadores (switches) los cuales funcionan como \nelementos de acoplamiento y nodos de distribución. 
 También pueden utilizar un enrutador para la salida a internet. 
 Las redes LAN permiten una transmisión rápida de grandes cantidades de datos. 
 Además, las redes LAN permiten un intercambio de información cómodo entre los diversos dispositivos 
@@ -210,8 +207,7 @@ Por ello, en el entorno empresarial es habitual que varios equipos de trabajo pu
 servidores de archivos comunes, a impresoras de red o a aplicaciones por medio de la red LAN. 
 Es posible dividir una gran LAN física en dos o más redes LAN lógicas más pequeñas denominadas LAN 
 virtual o VLAN. 
-Esto es útil cuando se quieren aislar dos segmentos de la red, por ejemplo, cuando la distribución del 
-equipo de red no coincide con la estructura de la organización. 
+Esto es útil cuando se quieren aislar dos segmentos de la red, por ejemplo, cuando la distribución del \nequipo de red no coincide con la estructura de la organización. 
 De esta forma, los paquetes de difusión que se envíen por una red lógica no se reciben por los equipos 
 del resto de redes lógicas (aunque estén en la misma red física). 
  
@@ -220,8 +216,7 @@ del resto de redes lógicas (aunque estén en la misma red física).
  
 Ejemplo 
 Los departamentos de informática y personal de una empresa 
-podrían tener ordenadores en la misma LAN física debido a que se 
-encuentran en la misma ala del edificio. 
+podrían tener ordenadores en la misma LAN física debido a que se \nencuentran en la misma ala del edificio. 
 Sería más sencillo administrar el sistema si cada departamento 
 tuviera su propia red lógica. 
 Si una persona de informática necesita enviar información a todo 
@@ -245,8 +240,7 @@ Redes Locales. Tipología. Técnicas de transmisión. Métodos de acceso. Dispos
 Una VLAN, o red local virtual, es un mecanismo de segmentación lógica que permite dividir una única 
 red física en varios dominios de red independientes. Aunque todos los equipos estén conectados al 
 mismo switch o a la misma infraestructura física, cada VLAN se comporta como una red distinta, de 
-manera que el tráfico de difusión, de multidifusión y el tráfico interno de un grupo nunca alcanza a los 
-equipos que pertenecen a otra VLAN. Este aislamiento mejora la seguridad, reduce el tráfico innecesario 
+manera que el tráfico de difusión, de multidifusión y el tráfico interno de un grupo nunca alcanza a los \nequipos que pertenecen a otra VLAN. Este aislamiento mejora la seguridad, reduce el tráfico innecesario 
 y permite organizar mejor la red según la estructura funcional de la organización. 
 El funcionamiento de una VLAN se basa en la inserción de etiquetas (tags) en las tramas Ethernet, 
 siguiendo el estándar IEEE 802.1Q. Esta etiqueta permite identificar a qué red virtual pertenece la 
@@ -257,11 +251,9 @@ En un switch existen dos tipos de puertos en relación con las VLAN:
 • Los puertos de acceso son aquellos configurados para pertenecer únicamente a una VLAN 
 concreta y se utilizan para conectar terminales como ordenadores, impresoras o teléfonos IP.  
 • Los puertos de tipo trunk, en cambio, permiten transportar varias VLAN simultáneamente 
-mediante el uso del etiquetado 802.1Q y se utilizan para interconectar switches entre sí o para 
-enlazar un switch con un router o un firewall. 
+mediante el uso del etiquetado 802.1Q y se utilizan para interconectar switches entre sí o para \nenlazar un switch con un router o un firewall. 
 Cuando se necesita comunicación entre VLAN diferentes, esta no se realiza de forma directa, ya que 
-cada VLAN constituye un dominio lógico separado. Para permitir el intercambio de información entre 
-ellas, se recurre a un dispositivo de capa superior, como un router o un switch de capa 3, que ejecuta lo 
+cada VLAN constituye un dominio lógico separado. Para permitir el intercambio de información entre \nellas, se recurre a un dispositivo de capa superior, como un router o un switch de capa 3, que ejecuta lo 
 que se conoce como enrutamiento inter-VLAN. Este mecanismo permite que las distintas VLAN 
 mantengan aislamiento lógico, pero se comuniquen cuando las políticas de red lo permiten. 
 Una de las principales ventajas de las VLAN es su capacidad para reorganizar la red sin modificar el 
@@ -276,8 +268,7 @@ tráfico de difusión, lo que contribuye a mejorar la eficiencia de la red y dis
 También permiten implementar estrategias de calidad de servicio y priorización del tráfico según la 
 importancia de cada segmento de red. 
 En conjunto, las VLAN forman parte esencial del diseño moderno de redes locales, aportando 
-flexibilidad, seguridad y un control granular del tráfico. Su utilización es especialmente relevante en 
-entornos corporativos y administrativos, donde la segmentación lógica permite alinear la 
+flexibilidad, seguridad y un control granular del tráfico. Su utilización es especialmente relevante en \nentornos corporativos y administrativos, donde la segmentación lógica permite alinear la 
 infraestructura de red con la estructura funcional de la organización
 
 ---
@@ -818,8 +809,7 @@ Candelas (2010).
  
 La topología de red malla es una topología de red en la que cada nodo está conectado a todos los nodos. 
 De esta manera es posible llevar los mensajes de un nodo a otro por distintos caminos. 
-Si la red de malla está completamente conectada, no puede existir absolutamente ninguna interrupción 
-en las comunicaciones. 
+Si la red de malla está completamente conectada, no puede existir absolutamente ninguna interrupción \nen las comunicaciones. 
 Cada dispositivo tiene sus propias conexiones con todos los demás dispositivos. 
 Funcionamiento 
 Esta topología no requiere de un nodo central. Si falla un nodo no implica la caída de la red. 
@@ -898,8 +888,7 @@ inalámbricas.
 En esta tecnología no existen enlaces físicos. 
 Sólo hay ondas electromagnéticas. 
 Ventajas 
-• No existe ningún medio tangible aparte de la atmósfera terrestre o el del vacío del espacio 
-exterior (y los satélites). 
+• No existe ningún medio tangible aparte de la atmósfera terrestre o el del vacío del espacio \nexterior (y los satélites). 
 Desventajas 
 • Las señales se encuentran presentes en cualquier lugar de la celda y, de ese modo, pueden sufrir 
 disturbios y violaciones de seguridad. 
@@ -981,8 +970,7 @@ En la transmisión asíncrona, la temporización de la señal no es importante.
  
 Transmisión asíncrona 
 Funcionamiento: 
-• La información se recibe y se traduce usando unos patrones acordados basados en la agrupación 
-el flujo de bits en bytes. 
+• La información se recibe y se traduce usando unos patrones acordados basados en la agrupación \nel flujo de bits en bytes. 
 • Cada grupo (habitualmente 8 bits) se envía como una unidad.
 
 ---
@@ -1180,8 +1168,7 @@ Sistemas de codificación en banda base
 Hay diversos sistemas de codificación en banda base, entre otros. 
 • Codificación Manchester. 
 La codificación Manchester, también denominada codificación bifase-L, es un método de 
-codificación eléctrica de una señal binaria en el que en cada tiempo de bit hay una transición 
-entre dos niveles de señal. 
+codificación eléctrica de una señal binaria en el que en cada tiempo de bit hay una transición \nentre dos niveles de señal. 
 • Códigos NRZ. 
 Se denomina NRZ porque el voltaje no vuelve a cero entre bits consecutivos de valor uno. 
 Mediante la asignación de un nivel de tensión a cada símbolo se simplifica la tarea de decodificar 
@@ -1336,8 +1323,7 @@ Redes Locales. Tipología. Técnicas de transmisión. Métodos de acceso. Dispos
 Si la señal se transmite mediante guías de ondas la velocidad de propagación varía con la frecuencia, por 
 lo que los distintos armónicos o componentes del espectro de frecuencias de la señal no viajen todas a 
 la misma velocidad y las frecuencias centrales aumenten su velocidad. Como consecuencia, unos datos 
-pueden solaparse con los anteriores. El efecto resultante es la distorsión de retraso y para contrarrestar 
-esto se requiere el uso de técnicas de ecualización. 
+pueden solaparse con los anteriores. El efecto resultante es la distorsión de retraso y para contrarrestar \nesto se requiere el uso de técnicas de ecualización. 
 4.5. Clasificación según el flujo de datos 
 En la transmisión de datos en redes, hay diferentes métodos para enviar un mensaje desde un emisor 
 hasta uno o varios receptores. 
@@ -1391,10 +1377,8 @@ Redes Locales. Tipología. Técnicas de transmisión. Métodos de acceso. Dispos
 Fuente: 
 (https://commons.wikimedia.org/wiki/File:Broadcast.svg) 
 La comunicación broadcast es comparable con la comunicación multicast ya que existe un solo emisor. 
-En cambio, con broadcast un solo mensaje se entrega a todos los potenciales receptores (por ejemplo, 
-en una subred), mientras que con multicast solo lo reciben los nodos interesados en el tráfico. 
-La manera más común de lograr la comunicación broadcast es utilizar una dirección de difusión especial, 
-en la cual se indica al mecanismo de comunicación que el mensaje debe ser entregado a todos los nodos 
+En cambio, con broadcast un solo mensaje se entrega a todos los potenciales receptores (por ejemplo, \nen una subred), mientras que con multicast solo lo reciben los nodos interesados en el tráfico. 
+La manera más común de lograr la comunicación broadcast es utilizar una dirección de difusión especial, \nen la cual se indica al mecanismo de comunicación que el mensaje debe ser entregado a todos los nodos 
 de la subred. 
 Al enviar un mensaje broadcast, el emisor no necesita conocer el número de receptores. 
 Broadcast es menos eficiente porque ocupa más infraestructura de la red al enviarlo a todos los nodos 
@@ -1419,8 +1403,7 @@ vista del tiempo de latencia.
 En anycast, el paquete solo lo recibe un nodo. 
 5. Métodos de acceso al medio 
 Los métodos de acceso al medio, en inglés MAC (Media Access Control), son un conjunto de 
-mecanismos y protocolos de comunicaciones a través de los cuales varios "interlocutores" (dispositivos 
-en una red, como computadoras, teléfonos móviles, etcétera) se ponen de acuerdo para compartir un 
+mecanismos y protocolos de comunicaciones a través de los cuales varios "interlocutores" (dispositivos \nen una red, como computadoras, teléfonos móviles, etcétera) se ponen de acuerdo para compartir un 
 medio de transmisión común. 
 Se realiza en la capa de enlace de datos del modelo OSI. 
 Se denomina método de acceso al conjunto de reglas que definen la forma en que un equipo coloca 
@@ -1561,8 +1544,7 @@ Sigue los siguientes pasos:
 2. Si el medio está ocupado, debe esperar un tiempo aleatorio y volver al paso 1. 
 3. Si el medio está libre, puede transmitir. 
 4. La estación transmisora debe esperar una confirmación, si no la recibe, retransmitirá. 
-Debido al retardo de propagación, una estación puede no escuchar una transmisión que acaba de 
-empezar y se producirá una colisión. 
+Debido al retardo de propagación, una estación puede no escuchar una transmisión que acaba de \nempezar y se producirá una colisión. 
 El medio permanece libre justo después de terminar una transmisión de una estación.
 
 ---
@@ -1704,8 +1686,7 @@ Redes Locales. Tipología. Técnicas de transmisión. Métodos de acceso. Dispos
 » Una vez conseguido el testigo se pueden transmitir todas las tramas que se deseen 
 mientras que no expire el tiempo de retención. 
 » Si no hay tráfico sólo se transmite el testigo. 
-» Es necesario que exista una estación destacada, monitor, que realiza funciones 
-especiales de gestión. 
+» Es necesario que exista una estación destacada, monitor, que realiza funciones \nespeciales de gestión. 
 » Es uno de los métodos MAC más utilizados. 
 » Se emplea en la norma IEEE 802.5. 
 • Protocolo Token-bus para topologías tipo bus. 
@@ -1858,8 +1839,7 @@ al igual que un HUB.
 Redes Locales. Tipología. Técnicas de transmisión. Métodos de acceso. Dispositivos de interconexión 
 60 
 • Cuando hay más de un ordenador conectado a un puerto de un switch este aprende sus 
-direcciones MAC y cuando se envían información entre ellos no la propaga al resto de la red (a 
-esto se llama filtrado). 
+direcciones MAC y cuando se envían información entre ellos no la propaga al resto de la red (a \nesto se llama filtrado). 
 • Operan a velocidades mucho más altas que los puentes. 
 • Los datos pueden conducirse por rutas separadas, mientras que, en el hub, las tramas son 
 conducidas por todos los puertos. 
@@ -1871,8 +1851,7 @@ Características
 (MAC). 
 • Deben tener una memoria temporal para albergar las tramas a intercambiar de LAN. 
 • Mantienen una tabla de direcciones físicas MAC para saber qué tramas van a una LAN o a otra. 
-• Desde el punto de vista de cada estación, todas las demás estaciones están en su misma LAN y 
-es el puente el encargado de encaminar las tramas.
+• Desde el punto de vista de cada estación, todas las demás estaciones están en su misma LAN y \nes el puente el encargado de encaminar las tramas.
 
 ---
 
@@ -1888,8 +1867,7 @@ Pueden tener protocolos de nivel de enlace o medios de transmisión distintos.
 Ejemplo: Interconexión de una red inalámbrica a una de cable. 
 • Controlar las tramas defectuosas. 
 Funcionamiento 
-El puente entrará en funcionamiento, pasando la información, sólo cuando el nodo de un segmento 
-envíe información al nodo del segmento al otro lado del puente. 
+El puente entrará en funcionamiento, pasando la información, sólo cuando el nodo de un segmento \nenvíe información al nodo del segmento al otro lado del puente. 
 Cada puente va almacenando en memoria una tabla de direcciones MAC asignada a cada uno de sus 
 puertos. 
 De esta manera, cuando llega una trama, comprueba la dirección MAC, la compara con el "mapa" que 
@@ -1941,8 +1919,7 @@ La ruta escogida es aquella que tiene el menor valor de la métrica utilizada.
  
  
 + Info 
-La métrica es un valor generado por el enrutador o asignador por 
-el administrador para cada ruta en base a una función que depende 
+La métrica es un valor generado por el enrutador o asignador por \nel administrador para cada ruta en base a una función que depende 
 de diversos factores a los cuales se le asignan pesos para indicar 
 que unos son más importantes que otros. 
 Algunos factores pueden ser: 
@@ -1987,8 +1964,7 @@ Veamos brevemente algunos protocolos:
 Siglas de Border Gateway Protocol, es un protocolo de puerta de enlace exterior estandarizado 
 diseñado para intercambiar información de enrutamiento y accesibilidad entre sistemas 
 autónomos (AS) en Internet. 
-Se clasifica como un protocolo de enrutamiento de vector de ruta, y toma decisiones de 
-enrutamiento basadas en rutas, políticas de red o conjuntos de reglas configurados por un 
+Se clasifica como un protocolo de enrutamiento de vector de ruta, y toma decisiones de \nenrutamiento basadas en rutas, políticas de red o conjuntos de reglas configurados por un 
 administrador de red. 
 • El BGP utilizado para el enrutamiento dentro de un sistema autónomo se denomina 
 Protocolo de puerta de enlace de borde interior, BGP interno (iBGP). 
@@ -2020,11 +1996,9 @@ Siglas del inglés Intermediate System to intermediate System) es un protocolo d
 (IGP), que se ejecuta en la capa de enlace de datos (capa 2). 
 Utiliza el Algoritmo de Dijkstra y está descrito por el RFC 1142. 
 • Protocolo RIP. 
-El protocolo RIP (Protocolo de información de encaminamiento) es un protocolo de puerta de 
-enlace interna o IGP (Internal Gateway Protocol) utilizado por los routers, derivado del 
+El protocolo RIP (Protocolo de información de encaminamiento) es un protocolo de puerta de \nenlace interna o IGP (Internal Gateway Protocol) utilizado por los routers, derivado del 
 protocolo GWINFO de XEROX y que se ha convertido en el protocolo de mayor compatibilidad 
-para las redes Internet, fundamentalmente por su capacidad para interoperar con cualquier 
-equipo de encaminamiento, aun cuando no es considerado el más eficiente. 
+para las redes Internet, fundamentalmente por su capacidad para interoperar con cualquier \nequipo de encaminamiento, aun cuando no es considerado el más eficiente. 
 • RIP es un protocolo de enrutamiento por vector de distancia. 
 • RIP utiliza el conteo de saltos como su única métrica para la selección de rutas. 
 • Las rutas publicadas con conteo de saltos mayores que 15 son inalcanzables. 
@@ -2052,8 +2026,7 @@ Desventajas:
 • Su principal desventaja, consiste en que, para determinar la mejor métrica, únicamente 
 toma en el número de saltos, descartando otros criterios (AB, congestión, etc.). 
 • RIP tampoco está diseñado para resolver cualquier posible problema de encaminamiento. El 
-RFC 1720 (STD 1) describe estas limitaciones técnicas de RIP como graves y el IETF está 
-evaluando candidatos para reemplazarlo en que OSPF es el favorito. Este cambio, está 
+RFC 1720 (STD 1) describe estas limitaciones técnicas de RIP como graves y el IETF está \nevaluando candidatos para reemplazarlo en que OSPF es el favorito. Este cambio, está 
 dificultado por la amplia expansión de RIP y necesidad de acuerdos adecuados. 
 • IGRP y EGRP. 
 IGRP es un protocolo propietario de CISCO de enrutamiento basado en la tecnología vector-
@@ -2065,8 +2038,7 @@ Para determinar la mejor ruta Utiliza una métrica compuesta basándose en:
 • La carga del enlace. 
 El concepto es que publica destinos con una distancia correspondiente, no necesita saber todas 
 las relaciones de ruta/enlace para la red entera. Cada enrutador que recibe la información, 
-ajusta la distancia para alcanzar las trayectorias óptimas y la propaga a los routers vecinos. IGRP 
-envía, por defecto, las actualizaciones de tablas de encaminamiento de un sistema autónomo en 
+ajusta la distancia para alcanzar las trayectorias óptimas y la propaga a los routers vecinos. IGRP \nenvía, por defecto, las actualizaciones de tablas de encaminamiento de un sistema autónomo en 
 particular a intervalos de 90 segundos. 
 Al igual que RIP v.1, es un protocolo de encaminamiento classfull o con clase; es decir, no 
 permite la utilización de máscaras de red diferentes a las de la propia clase (utiliza las máscaras 
@@ -2078,8 +2050,7 @@ corregir este problema, la versión EIGRP (Enhanced IGRP).
 
 Redes Locales. Tipología. Técnicas de transmisión. Métodos de acceso. Dispositivos de interconexión 
 67 
-EIGRP mejora el IGRP utilizando una combinación de los algoritmos de vector-distancia y de 
-estado-enlace, además: 
+EIGRP mejora el IGRP utilizando una combinación de los algoritmos de vector-distancia y de \nestado-enlace, además: 
 • Incorpora balanceo de carga asimétrico. 
 • Utiliza el algoritmo de actualización difusa (dual) para el cálculo de la ruta más corta. 
 • Permite operar con redes de gran tamaño. 
@@ -2089,10 +2060,8 @@ estado-enlace, además:
  
  
 + Info 
-GRP (Interior Gateway Routing Protocol, o Protocolo de 
-enrutamiento de gateway interior) es un protocolo propietario 
-patentado y desarrollado por la empresa Cisco Systems que se 
-emplea conjuntamente con el protocolo TCP/IP según el modelo 
+GRP (Interior Gateway Routing Protocol, o Protocolo de \nenrutamiento de gateway interior) es un protocolo propietario 
+patentado y desarrollado por la empresa Cisco Systems que se \nemplea conjuntamente con el protocolo TCP/IP según el modelo 
 (OSI) Internet. 
 La versión original del IP fue diseñada y desplegada con éxito en 
 1986. Utilizado como el Interior Gateway Protocol (IGP) para 
@@ -2159,8 +2128,7 @@ Se utilizan cuando las redes son completamente distintas.
 Funcionamiento: 
 • Cuando una compuerta recibe un paquete de una red, ésta traduce el paquete del formato 
 usado en la red a un formato común entre compuertas. 
-• A continuación, lo envía a otra compuerta que lo traduce del formato común al formato usado 
-en la red destino y lo envía. 
+• A continuación, lo envía a otra compuerta que lo traduce del formato común al formato usado \nen la red destino y lo envía. 
 Normalmente una compuerta se diseña utilizando un ordenador personal dedicado, con varias tarjetas 
 de red y programas de conversión y comunicación. 
 Debe tener la capacidad suficiente para acoplar velocidades entre las líneas, realizar conversiones de 
@@ -2192,11 +2160,9 @@ Simplificación del Cableado, al transmitirse energía y datos por el mismo cabl
 necesidad de cables. Asimismo permite instalar dispositivos donde el acceso a la corriente eléctrica es 
 complicado o inexistente. Por ambos motivos el costo de las instalaciones se reduce, pues se ahorran 
 fuentes de alimentación y cableado. Se facilitan control y monitorización de la energía pues stán 
-centralizadas, hasta el punto de poder regular la potencia o incluso apagar dispositivos abundando en la 
-eficiencia energética, pues se pueden llegar a apagar dispositivos que no están en uso. 
+centralizadas, hasta el punto de poder regular la potencia o incluso apagar dispositivos abundando en la \neficiencia energética, pues se pueden llegar a apagar dispositivos que no están en uso. 
 8. La globalización 
-Todo en las tecnologías de la información avanza rápidamente y está siendo sometida a procesos de 
-estandarización globales. 
+Todo en las tecnologías de la información avanza rápidamente y está siendo sometida a procesos de \nestandarización globales. 
 Un ejemplo de esto es el proyecto oneM2M. 
 Es una iniciativa de asociación global para las comunicaciones M2M (Machine to Machine) y la IoT 
 (Internet of Things) fundado en 2012 y constituido por 8 de las principales organizaciones mundiales 

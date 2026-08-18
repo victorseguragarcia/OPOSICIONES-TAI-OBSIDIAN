@@ -8,8 +8,7 @@ tags:
   - tema-05
   - hardware
   - sistemas-operativos
-  - bbdd
-estado: "🔴 Pendiente"
+  - bbdd\nestado: "🔴 Pendiente"
 dificultad: "⭐⭐⭐"
 prioridad: "Alta"
 sources:
@@ -75,7 +74,8 @@ updated: "2026-08-18"
 
 | Familia NoSQL | Modelo de Datos y Estructura | Casos de Uso Óptimos | Gestores SGBD Destacados |
 |:---|:---|:---|:---|
-| **Clave-Valor (Key-Value)** | Estructura asociativa clave $ightarrow$ valor binario/string/JSON. Acceso directo ultra rápido $O(1)$ por clave primaria. | Caché de sesiones, carritos de compra, contadores en tiempo real, rankings. | **Redis** (in-memory con persistencia), **Memcached**, **AWS DynamoDB**, **Riak**. |
+| **Clave-Valor (Key-Value)** | Estructura asociativa clave $
+ightarrow$ valor binario/string/JSON. Acceso directo ultra rápido $O(1)$ por clave primaria. | Caché de sesiones, carritos de compra, contadores en tiempo real, rankings. | **Redis** (in-memory con persistencia), **Memcached**, **AWS DynamoDB**, **Riak**. |
 | **Documentales (Document Stores)** | Almacena datos semiestructurados en documentos jerárquicos (**JSON, BSON, XML**) con esquemas flexibles y consultas secundarias. | Catálogos de productos, CMS, portales web, gestión de perfiles de usuario. | **MongoDB** (formato binario BSON), **CouchDB**, **Elasticsearch** (orientado a búsqueda de texto completo), **RavenDB**. |
 | **Orientadas a Columnas (Wide-Column / Columnar)** | Tablas donde los datos se almacenan por familias de columnas en lugar de por filas. Alta compresión y agregación masiva. | Big Data, análisis de series temporales, telemetría IoT, logs a gran escala. | **Apache Cassandra** (modelo AP multimaestro), **Apache HBase** (sobre HDFS), **Google Bigtable**, **Scans/ClickHouse**. |
 | **Orientadas a Grafos (Graph Databases)** | Nodos (entidades), Relaciones (aristas con dirección y tipo) y Propiedades. Consultas eficientes de relaciones complejas. | Redes sociales, detección de fraudes financieros, motores de recomendación, grafos de conocimiento. | **Neo4j** (lenguaje de consulta Cypher), **Amazon Neptune**, **OrientDB**, **ArangoDB**. |
@@ -87,9 +87,12 @@ updated: "2026-08-18"
 > 4. **Integridad de Entidad**: Exige que ningún campo de la clave primaria sea `NULL` (la clave foránea sí puede ser `NULL` salvo que forme parte de la clave primaria).
 
 > [!mnemo] 🧠 **Reglas Mnemotécnicas de Retención Visual**
-> - **Propiedades Transaccionales**: **ACID** $ightarrow$ **A**tomicidad, **C**onsistencia, **I**solation (Aislamiento), **D**urabilidad.
-> - **Teorema CAP**: **CAP** $ightarrow$ **C**onsistencia, **A**vailability (Disponibilidad), **P**artición de red.
-> - **Familias NoSQL**: **K-D-C-G** $ightarrow$ **K**ey-Value (Redis), **D**ocumental (MongoDB), **C**olumnar (Cassandra), **G**rafos (Neo4j).
+> - **Propiedades Transaccionales**: **ACID** $
+ightarrow$ **A**tomicidad, **C**onsistencia, **I**solation (Aislamiento), **D**urabilidad.
+> - **Teorema CAP**: **CAP** $
+ightarrow$ **C**onsistencia, **A**vailability (Disponibilidad), **P**artición de red.
+> - **Familias NoSQL**: **K-D-C-G** $
+ightarrow$ **K**ey-Value (Redis), **D**ocumental (MongoDB), **C**olumnar (Cassandra), **G**rafos (Neo4j).
 
 ---
 

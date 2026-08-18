@@ -38,7 +38,7 @@ Este tema engloba la ingeniería de desarrollo colaborativo: los modelos de cicl
 | Proceso / Herramienta | Función / Fórmula |
 |-----------------------|-------------------|
 | **Métrica v3 Procesos** | **PSI**, **EVS**, **ASI**, **DSI**, **CSI**, **IAS** |
-| **Complejidad de McCabe** | **$V(G) = E - N + 2P = 	ext{Nodos Predicado} + 1$** |
+| **Complejidad de McCabe** | **$V(G) = E - N + 2P = \text{Nodos Predicado} + 1$** |
 | **Zonas de Git** | **Working Directory** $\rightarrow$ `git add` $\rightarrow$ **Staging Area (Index)** $\rightarrow$ `git commit` $\rightarrow$ **Local Repo** |
 | **`git rebase` vs `merge`** | `rebase`: Historial lineal sin commit de merge \| `merge`: Conserva historial con commit de unión |
 | **SonarQube** | Análisis estático de código para calidad, cobertura, olores de código y *Quality Gates* |
@@ -56,7 +56,7 @@ Este tema engloba la ingeniería de desarrollo colaborativo: los modelos de cicl
 > 1. **Fórmula de Complejidad Ciclomática de McCabe**:
 >    $$V(G) = E - N + 2P$$
 >    Donde $E$ = Número de aristas, $N$ = Número de nodos, $P$ = Componentes conexos (para un programa simple $P=1 \implies V(G) = E - N + 2$).
->    También es igual a: $V(G) = 	ext{Regiones del grafo plano} = 	ext{Nodos predicado (condiciones simples)} + 1$.
+>    También es igual a: $V(G) = \text{Regiones del grafo plano} = \text{Nodos predicado (condiciones simples)} + 1$.
 > 2. **Procesos de MÉTRICA v3**:
 >    - **EVS**: Estudio de Viabilidad del Sistema.
 >    - **ASI**: Análisis del Sistema de Información.

@@ -29,8 +29,11 @@ Tabla de referencia rápida sobre reglas de normalización y comandos SQL para e
 |--------------|---------------------|-------------------|
 | **1FN** | Atributos **atómicos**, sin grupos repetitivos | Tablas anidadas y listas en campos |
 | **2FN** | 1FN + **Dependencia funcional completa** de la PK | Redundancia por atributos que dependen de parte de una PK compuesta |
-| **3FN** | 2FN + **Sin dependencias transitivas** ($X ightarrow Y ightarrow Z$) | Redundancia por dependencias entre campos no clave |
-| **BCNF** | Para todo $X ightarrow Y$, $X$ es **superclave** | Dependencias anómalas en tablas con múltiples claves candidatas compuestas solapadas |
+| **3FN** | 2FN + **Sin dependencias transitivas** ($X 
+ightarrow Y 
+ightarrow Z$) | Redundancia por dependencias entre campos no clave |
+| **BCNF** | Para todo $X 
+ightarrow Y$, $X$ es **superclave** | Dependencias anómalas en tablas con múltiples claves candidatas compuestas solapadas |
 
 ---
 
@@ -40,7 +43,7 @@ Tabla de referencia rápida sobre reglas de normalización y comandos SQL para e
 - **LEFT OUTER JOIN**: Devuelve todas las filas de la tabla izquierda y las coincidentes de la derecha (NULL si no hay coincidencia).
 - **RIGHT OUTER JOIN**: Devuelve todas las filas de la tabla derecha y las coincidentes de la izquierda.
 - **FULL OUTER JOIN**: Devuelve todas las filas cuando hay coincidencia en cualquiera de las dos tablas.
-- **CROSS JOIN**: Producto cartesiano de ambas tablas ($N 	imes M$ filas).
+- **CROSS JOIN**: Producto cartesiano de ambas tablas ($N \times M$ filas).
 
 ---
 

@@ -60,12 +60,12 @@ Resumen procesado y profundizado a partir de la fuente oficial [[raw/sources/blo
 
 ## 🔵 3. Tipos y Métodos de Organización de Ficheros
 
-- **Estructura**: Registros lógicos (unidad de información de la aplicación) agrupados en **registros físicos o bloques** (unidad de transferencia de E/S con factor de bloqueo $FB = 	ext{Tamaño Bloque} / 	ext{Tamaño Registro}$).
+- **Estructura**: Registros lógicos (unidad de información de la aplicación) agrupados en **registros físicos o bloques** (unidad de transferencia de E/S con factor de bloqueo $FB = \text{Tamaño Bloque} / \text{Tamaño Registro}$).
 - **Métodos de Organización**:
   1. **Secuencial**: Los registros se graban uno tras otro. Búsqueda secuencial $O(n)$. Rápido para procesamiento por lotes (*batch*); ineficiente para acceso aleatorio.
   2. **Secuencial Encadenado**: Los registros se enlazan mediante punteros físicos.
   3. **Secuencial Indexado (ISAM)**: Área de datos secuencial + Área de índices ordenada por clave + Área de desbordamiento (*overflow*). Permite acceso tanto secuencial como directo en $O(\log n)$.
-  4. **Directa / Aleatoria (Hash / Direccionamiento Calculado)**: La posición física en disco se calcula mediante una función matemática de dispersión $H(	ext{clave})$.
+  4. **Directa / Aleatoria (Hash / Direccionamiento Calculado)**: La posición física en disco se calcula mediante una función matemática de dispersión $H(\text{clave})$.
      - **Resolución de Colisiones**: Direccionamiento abierto (prueba lineal/cuadrática, doble hashing) o encadenamiento separado en listas.
 
 ---
@@ -74,7 +74,7 @@ Resumen procesado y profundizado a partir de la fuente oficial [[raw/sources/blo
 
 | Pregunta / Concepto | Respuesta / Especificación |
 |---------------------|---------------------------|
-| **Factor de Equilibrio AVL** | $FE = 	ext{Altura(Derecho)} - 	ext{Altura(Izquierdo)} \in \{-1, 0, +1\}$ |
+| **Factor de Equilibrio AVL** | $FE = \text{Altura(Derecho)} - \text{Altura(Izquierdo)} \in \{-1, 0, +1\}$ |
 | **Peor caso de Quicksort** | **$O(n^2)$** cuando el array está ordenado y se elige el primer/último elemento como pivote |
 | **Algoritmo de ordenación con $O(n \log n)$ garantizado y estable** | **Mergesort** (a costa de $O(n)$ de memoria auxiliar) |
 | **Condición de Búsqueda Binaria** | La colección debe estar previamente **ordenada** y permitir **acceso aleatorio** ($O(1)$). |

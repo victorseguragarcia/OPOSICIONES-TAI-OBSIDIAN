@@ -6,8 +6,7 @@ tags:
   - temario-extendido
   - bloque-2
   - tema-01
-  - oposiciones-tai
-estado: "🔴 Por Estudiar"
+  - oposiciones-tai\nestado: "🔴 Por Estudiar"
 dificultad: "⭐⭐⭐"
 prioridad: "Máxima"
 sources:
@@ -472,8 +471,7 @@ de información
 • Con corriente eléctrica: valor 1. 
  
 (Circuito 
-cerrado-
-encendido) 
+cerrado-\nencendido) 
 A cada uno de estos valores se le denomina bit. 
 El código que utiliza dos valores (0 y 1) se llama código binario. 
 Es el idioma del ordenador, la única forma que podemos comunicarnos con él, se denomina Lenguaje 
@@ -546,8 +544,7 @@ Para memorizar el orden de las unidades de medida podría ser
 interesante crear una regla mnemotécnica (como crear una frase 
 sencilla con palabras que empiecen con las letras K-M-G-T-P-E-Z-
 Y-B-G). 
-Ejemplo: Kilómetro (KM), Gran Turismo (GT), PEZ Y Bulgaria (BG 
-es su código ISO 3166). 
+Ejemplo: Kilómetro (KM), Gran Turismo (GT), PEZ Y Bulgaria (BG \nes su código ISO 3166). 
  
 Esta forma de medición fue válida hasta 1998. En este año, la "Comisión Electrónica Internacional" 
 publico el apéndice IEC 60027-2, donde se instauraban los prefijos binarios y nacía la unidad 
@@ -755,8 +752,7 @@ la posición que ocupa.
  
 + Info 
 Función polinomial: 
-Es una función continua, cuya expresión es un polinomio, por 
-ejemplo: f(x)=3x4-5x6+6. 
+Es una función continua, cuya expresión es un polinomio, por \nejemplo: f(x)=3x4-5x6+6. 
 Un polinomio es una expresión algebraica constituida por una 
 suma finita de productos entre variables y constantes, o bien una 
 sola variable. Las variables pueden tener exponentes de valores 
@@ -865,8 +861,7 @@ de información
 21 
 1.4.2. Conversión directa entre bases potencia de 2 
 En el procedimiento anterior hemos visto el método general de conversión, que utiliza la base decimal 
-como paso intermedio. Es un método válido para cualquier par de bases, especialmente cuando no 
-existe una relación directa entre ellas. 
+como paso intermedio. Es un método válido para cualquier par de bases, especialmente cuando no \nexiste una relación directa entre ellas. 
 Sin embargo, existe un caso particular en el que no es necesario pasar por la base 10: cuando las bases 
 implicadas son potencias de 2, como la base 4, la base 8 (octal) o la base 16 (hexadecimal). En estos 
 casos, la conversión puede realizarse de forma directa, sin operaciones aritméticas, simplemente 
@@ -918,8 +913,7 @@ resultado final.
  
  
 Vídeo 
-Es difícil de comprender mediante teoría, pero muy sencillo con 
-ejemplos prácticos. Lo entenderás con esta Vídeo Clase: 
+Es difícil de comprender mediante teoría, pero muy sencillo con \nejemplos prácticos. Lo entenderás con esta Vídeo Clase: 
 "Conversión entre Sistemas de Numeración". 
 (Tienes el material en el Campus Virtual). 
  
@@ -985,8 +979,7 @@ Se origina debido a los inconvenientes de los tipos anteriores:
 • Símbolos codificados insuficientes. 
 • Símbolos de las versiones ampliadas a 8 bits no están normalizados. 
 • Basados en caracteres latinos. No contemplan otras culturas. 
-• Las culturas orientales utilizan ideogramas para representar palabras, por lo que no sirven 
-estos sistemas de codificación. 
+• Las culturas orientales utilizan ideogramas para representar palabras, por lo que no sirven \nestos sistemas de codificación. 
 • UNICODE Ofrece: 
 • Universalidad: Cubre la mayoría de lenguajes. 
 • Unicidad: Cada carácter tiene un único código. 
@@ -1014,8 +1007,7 @@ lo mismo que log(m).
 Sabiendo que log10(2) es 0,3010 (n ≈ log (m) / 0,3010) y que dividir un número es equivalente a 
 multiplicar por su inverso (inverso de 0,3010: 1 / 0,3010 = 3,32). 
 Entonces, si queremos controlar 95 caracteres n ≈ 3,32 * log10 (95) = 6,566. 
-Una vez tengamos la aproximación buscaremos el entero superior más cercano y con ello obtendremos 
-el número de bits necesarios. 
+Una vez tengamos la aproximación buscaremos el entero superior más cercano y con ello obtendremos \nel número de bits necesarios. 
 n = 6,566, pero "n" tiene que ser un numero entero (no existen las fracciones de bit) igual o el 
 inmediatamente superior. En este caso la respuesta es 7 (no podemos usar 6,56 bits, se pueden usar 6 o 
 7, pero un bit no se puede partir). 
@@ -1060,13 +1052,11 @@ Las señales de sonido o audio (voz y música) son captadas por un sensor que tr
 presión en señales eléctricas analógicas, que posteriormente serán digitalizadas. 
 Representación de imágenes 
 Las imágenes se capturan utilizando periféricos como cámaras y escáneres, los cuales generan un 
-conjunto de bits. Existen muchos tipos de codificación y sistemas de compresión de imágenes que no 
-estudiaremos en este tema. Las principales formas de representar imágenes son: 
+conjunto de bits. Existen muchos tipos de codificación y sistemas de compresión de imágenes que no \nestudiaremos en este tema. Las principales formas de representar imágenes son: 
 • Mapa de bits. 
 • Imagen vectorial. 
 Representación de valores numéricos 
-Para introducir números utilizamos códigos de E/S al igual que con el texto. Sin embargo, si queremos 
-el valor del número y realizar operaciones con el mismo, debemos utilizar una representación 
+Para introducir números utilizamos códigos de E/S al igual que con el texto. Sin embargo, si queremos \nel valor del número y realizar operaciones con el mismo, debemos utilizar una representación 
 fundamentada en el sistema numérico en base 2. 
 • Datos de tipo entero: 
 Se puede utilizar representación binaria o la representación de dígitos decimales codificados en 
@@ -1132,8 +1122,7 @@ Para normalizar ajustaremos la forma convertida a la siguiente: 1,bits x 2n. En 
 izquierda del punto. En nuestro ejemplo 2 posiciones, de ahí que la potencia sea 2. 
 Fórmula normalizada: 1,1011 x 22 
 3. Asignar parte: 
-Es la descomposición del número en los componentes que formarán la representación 
-estándar en coma flotante. 
+Es la descomposición del número en los componentes que formarán la representación \nestándar en coma flotante. 
 » Signo 0 positivo 
 » Exponente 2 + 127 = 129 (10000001 en binario) 
 El 127 es el sesgo, un número estándar que se suma al exponente real, en nuestro caso 
@@ -1151,8 +1140,7 @@ Signo 0, Exponente 10000001, Mantisa 1011000000000000000000
  
  
 Aclaración 
-Más que conocer los pasos exactos para almacenar un número real 
-en el sistema informático es útil conocer las distintas precisiones 
+Más que conocer los pasos exactos para almacenar un número real \nen el sistema informático es útil conocer las distintas precisiones 
 de las que disponemos para almacenar los números reales que nos 
 interesan. 
  
@@ -1188,8 +1176,7 @@ Los bloques de datos ingresados en estos sistemas contienen un valor de verifica
 basado en el residuo de una división de polinomios; el cálculo es repetido, y la acción de 
 corrección puede tomarse en contra de los datos presuntamente corruptos en caso de que el 
 valor de verificación no concuerde. 
-Es útil para detección de errores, pero, en condiciones de seguridad, no podemos confiar en que 
-el CRC puede verificar plenamente que los datos son los correctos en caso de que se hayan 
+Es útil para detección de errores, pero, en condiciones de seguridad, no podemos confiar en que \nel CRC puede verificar plenamente que los datos son los correctos en caso de que se hayan 
 producido cambios deliberados y no aleatorios. 
 • Verificación de redundancia LONGITUDINAL. 
 La verificación de la redundancia longitudinal (LRC, también denominada verificación de 
@@ -1292,8 +1279,7 @@ transformarlos en información útil.
 Entre las funciones más comúnmente aceptadas se encuentran: 
 • Recolección: Captura y registro de los datos procedentes de distintas fuentes. 
 • Clasificación: Identificación y agrupación de los datos según su tipo y modo de recuperación. 
-• Síntesis o compresión: Reducción de los datos sin pérdida de información significativa, 
-eliminando redundancias. 
+• Síntesis o compresión: Reducción de los datos sin pérdida de información significativa, \neliminando redundancias. 
 • Almacenamiento: Conservación organizada de los datos en soportes adecuados. 
 • Recuperación: Acceso rápido y eficaz a los datos almacenados cuando son necesarios. 
 • Procesamiento: Transformación de los datos en información útil mediante operaciones o 
@@ -1357,8 +1343,7 @@ podrá ser accedida por los usuarios autorizados.
 significado e información no útil. 
 2.4. Elementos de un sistema informático 
 Sistema de Información Basado en Ordenador 
-Un sistema informático está formado por un gran número de elementos, desde un pequeño circuito 
-eléctrico hasta una gran instalación de muchos equipos conectados entre sí, los programas que nos 
+Un sistema informático está formado por un gran número de elementos, desde un pequeño circuito \neléctrico hasta una gran instalación de muchos equipos conectados entre sí, los programas que nos 
 resuelven problemas y nosotros mismos, los seres humanos que los creamos, modificamos y utilizamos. 
 Esta es la clasificación típica de las partes de la informática: 
 • Hardware, componentes físicos: 
@@ -1378,8 +1363,7 @@ autorizado.
 En las bases de datos se realizan diversos procesos, que son la conversión o transformación de 
 los datos, como son, por ejemplo: 
 • Transacciones: 
-Permiten al usuario (o a un programa) consultar, agregar, modificar o eliminar un dato 
-específico de la Información. 
+Permiten al usuario (o a un programa) consultar, agregar, modificar o eliminar un dato \nespecífico de la Información. 
 
 <!-- Page 35 -->
 
@@ -1389,8 +1373,7 @@ Informática básica. Representación y comunicación de la información: elemen
 de información 
 35 
 • Informes: 
-Mediante ellos, el usuario puede obtener uno o más registros y/o información de tipo 
-estadístico (contar, sumar) de acuerdo a criterios de búsqueda y selección definidos. 
+Mediante ellos, el usuario puede obtener uno o más registros y/o información de tipo \nestadístico (contar, sumar) de acuerdo a criterios de búsqueda y selección definidos. 
 Dentro del software están también todos los protocolos que permiten Telecomunicaciones, 
 para poder realizar transferencias de información. 
 • Humanware, componente humano: 
@@ -1441,8 +1424,7 @@ Merece la pena crear un epígrafe específico sobre la clasificación del softwa
 propio realmente consistente. 
 En un primer nivel podemos distinguir tres grandes categorías: 
 • Software de sistema: incluye el sistema operativo y las herramientas de gestión del sistema. 
-• Software de programación: conjunto de herramientas usadas por los programadores para crear, 
-editar, compilar, depurar y mantener otros programas informáticos. 
+• Software de programación: conjunto de herramientas usadas por los programadores para crear, \neditar, compilar, depurar y mantener otros programas informáticos. 
 • Software de aplicación: programas diseñados para realizar tareas específicas del usuario. 
 Dentro de este último nivel citaremos algunos de los distintos tipos que podemos encontrar: 
 • Procesadores de texto: permiten la creacion, edición y aplicar formato a documento escritos 
@@ -1451,8 +1433,7 @@ Dentro de este último nivel citaremos algunos de los distintos tipos que podemo
 Google Sheets). 
 • Navegadores web: permiten el acceso a navegar por paginas de internet (Google Chrome, 
 Microsoft Edge, Opera, Brave). 
-• Programas de presentación: se usan para la creación de diapositivas con texto, imágenes y 
-efectos visuales (PowerPoint, Presentaciones de Google, Canva) 
+• Programas de presentación: se usan para la creación de diapositivas con texto, imágenes y \nefectos visuales (PowerPoint, Presentaciones de Google, Canva) 
 • Bases de datos: pueden ser de tipo relacional o no y sirven para gestionar grandes cantidades de 
 datos (MySQL, PostgreSQL, Oracle Database, Microsoft Access, MongoDB, Cassandra). 
 • Software de diseño gráfico: se usa para crear y editar imágenes, ilustraciones o diseños 
@@ -1512,8 +1493,7 @@ Es el cerebro del sistema. Gestiona recursos (CPU, memoria), controla dispositiv
 ofrece interfaces para aplicaciones (API). Software que actúa como intermediario entre el hardware y 
 los programas. Administra recursos, controla dispositivos y proporciona servicios esenciales. 
 Middleware 
-Software que permite la comunicación y gestión de datos entre el sistema operativo y las aplicaciones, 
-especialmente en sistemas distribuidos o complejos. Facilita la comunicación entre aplicaciones o 
+Software que permite la comunicación y gestión de datos entre el sistema operativo y las aplicaciones, \nespecialmente en sistemas distribuidos o complejos. Facilita la comunicación entre aplicaciones o 
 sistemas heterogéneos (ejemplo: bases de datos, servidores web, APIs de red). 
 Software de aplicación 
 Programas diseñados para que el usuario realice tareas concretas, como procesadores de texto, hojas 
@@ -1546,14 +1526,12 @@ pueden darse simultáneamente una búsqueda de instrucciones y una operación de
 comparten un bus en común. Esto se conoce como el cuello de botella Von Neumann, y muchas veces 
 limita el rendimiento del sistema. 
 Se puede decir que en la mayoría de los ordenadores actuales se utiliza la Arquitectura Von 
-Neumann, o una arquitectura Von Neumann modificada, ya que a medida que los computadores han 
-evolucionado se han añadido características procedentes de la arquitectura Harvard. 
+Neumann, o una arquitectura Von Neumann modificada, ya que a medida que los computadores han \nevolucionado se han añadido características procedentes de la arquitectura Harvard. 
 3.1.1. Evolución de los ordenadores. Generaciones 
 Los ordenadores han ido evolucionando. Cada vez que aparecía una nueva tecnología, la anterior 
 quedaba en desuso y aparecía una nueva generación de ordenadores. 
 Existen múltiples versiones de las generaciones de los ordenadores. Normalmente, casi todos los 
-autores coinciden en las tres o cuatro primeras generaciones, pero hay mucha discrepancia entre la 
-existencia o no de posteriores generaciones y las tecnologías que engloban. 
+autores coinciden en las tres o cuatro primeras generaciones, pero hay mucha discrepancia entre la \nexistencia o no de posteriores generaciones y las tecnologías que engloban. 
 Luis Álvarez Munárriz, en su libro "Fundamentos de inteligencia artificial" propone 5 generaciones 
 
 <!-- Page 40 -->
@@ -1641,8 +1619,7 @@ Quinta generación
 En la quinta generación se intentan hacer realidad los proyectos surgidos ante las limitaciones de la 
 arquitectura Von Neumann. 
 El proyecto japonés de 5ª generación se consideró como prototipo del ordenador del futuro. 
-Entretanto, se introducen mejoras fundamentales con respecto a la generación anterior. Se aspira a que 
-estos ordenadores sean rápidos, fiables, inteligentes y afables con el usuario. Ello será posible en la 
+Entretanto, se introducen mejoras fundamentales con respecto a la generación anterior. Se aspira a que \nestos ordenadores sean rápidos, fiables, inteligentes y afables con el usuario. Ello será posible en la 
 medida que muchos aspectos de lo que hoy es software en los ordenadores actuales se implemente en 
 su hardware. 
  
@@ -1672,8 +1649,7 @@ un ordenador de forma sencilla.
 • Sistemas distribuidos. 
 Conjunto de ordenadores separados físicamente e interconectados entre sí por una red de 
 comunicaciones. Cada máquina tiene su propio hardware y software, pero el programador lo 
-percibe como un solo sistema. Sus principales ventajas son el coste, la tolerancia a fallos y la 
-escalabilidad. 
+percibe como un solo sistema. Sus principales ventajas son el coste, la tolerancia a fallos y la \nescalabilidad. 
 • Inteligencia artificial. 
 Integración de sistemas inteligentes, que son aquellos que pueden resolver problemas 
 complejos en distintos campos de una forma automática utilizando técnicas de inteligencia 
@@ -1780,8 +1756,7 @@ Informática básica. Representación y comunicación de la información: elemen
 de información 
 47 
 ARQUITECTURA DE ORDENADORES 
-Cuando hablamos de arquitectura de ordenadores, nos referimos a cómo están organizados sus 
-elementos. Conocerla es importante para programar y conseguir una buena optimización. 
+Cuando hablamos de arquitectura de ordenadores, nos referimos a cómo están organizados sus \nelementos. Conocerla es importante para programar y conseguir una buena optimización. 
 En los inicios de la informática, se experimentaron diferentes modelos, cada uno con sus ventajas e 
 inconvenientes. 
 Pero se impuso el modelo basado en la arquitectura propuesta por Von Neumann en 1945, donde la 
@@ -1797,8 +1772,7 @@ programa más complejo es el que realiza más operaciones, y se ejecuta más len
 Con el incremento de la velocidad de los procesadores, (que ya predecía la ley de Moore) sucede que 
 frecuentemente, el procesador no recibe los datos que necesita al mismo ritmo puede realizar las 
 operaciones. La CPU es forzada continuamente a esperar hasta que los datos necesarios son 
-transferidos desde o hacia la memoria, esto se denomina "cuello de botella", y determinaba el tiempo de 
-ejecución de un programa. 
+transferidos desde o hacia la memoria, esto se denomina "cuello de botella", y determinaba el tiempo de \nejecución de un programa. 
 Este problema forzó la investigación para mejorar la transferencia de información de la memoria al 
 procesador, creándose buses cada vez más rápidos y añadiendo la memoria RAM. Por ello, las 
 arquitecturas modernas se desvían del modelo de von Neumann, y utilizan más de una memoria, que se 
@@ -1875,8 +1849,7 @@ Informática básica. Representación y comunicación de la información: elemen
 de información 
 50 
 BIOS 
-El firmware (soporte lógico inalterable), es el software de más bajo nivel, que controla los circuitos 
-electrónicos, que maneja físicamente al hardware. 
+El firmware (soporte lógico inalterable), es el software de más bajo nivel, que controla los circuitos \nelectrónicos, que maneja físicamente al hardware. 
 BIOS (Basic Input/Output System) es un programa de firmware fundamental en los ordenadores cuyo 
 cometido es iniciar y verificar el hardware del sistema cuando se enciende el equipo. La fuente de 
 alimentación y, concretamente, el circuito de arranque inician el encendido y activación de este 
@@ -1901,8 +1874,7 @@ del fabricante), lo que permite modificar parámetros como el orden de arranque,
 dispositivos, o configurar otros aspectos del hardware. 
 Si se detecta algún problema, la BIOS puede indicar el disfuncionamiento mediante pitidos o mensajes 
 de error en pantalla. Si todo está en orden, localiza y carga el bootloader. 
-Por último, la BIOS ejecuta el bootloader, un pequeño programa de arranque que se encarga de cargar 
-el núcleo del sistema operativo (o kernel) en la RAM, eventualmente otros módulos, y finalmente 
+Por último, la BIOS ejecuta el bootloader, un pequeño programa de arranque que se encarga de cargar \nel núcleo del sistema operativo (o kernel) en la RAM, eventualmente otros módulos, y finalmente 
 transfiere el control al sistema operativo. El bootloader suele encontrarse almacenado en el sector de 
 arranque (MBR, en sistemas BIOS, o como archivo .efi en la partición ESP en sistemas UEFI) del 
 dispositivo de almacenamiento principal. Los bootloaders varían dependiendo del sistema: en los Linux 
@@ -1946,17 +1918,14 @@ UEFI también introduce el uso de discos con particionado GPT (GUID Partition Ta
 soportar discos de más de 2 TB, más particiones primarias, y una estructura de arranque más robusta y 
 segura. En lugar de usar el MBR para localizar el bootloader, UEFI busca un archivo .efi en la partición 
 del sistema EFI (ESP), como por ejemplo bootx64.efi. 
-La Interfaz Unificada de firmware extensible (EFI-Unified Extensible Firmware Interface) es una 
-especificación que define una interfaz entre el sistema operativo y el firmware que reemplaza la antigua 
+La Interfaz Unificada de firmware extensible (EFI-Unified Extensible Firmware Interface) es una \nespecificación que define una interfaz entre el sistema operativo y el firmware que reemplaza la antigua 
 interfaz del Sistema Básico de Entrada y Salida (BIOS) estándar presentado en las computadoras 
 personales IBM PC como IBM PC ROM BIOS. 
 Otros elementos de la Placa Base 
 • Zócalo para el microprocesador. 
 Es el conector donde colocamos el microprocesador. Los tipos más utilizados son: 
 • Socket PGA. Los pines van en el procesador. El modelo Socket ZIF (Zero Insertion Force) 
-dispone de un mecanismo con una palanca que facilita la inserción del procesador sin 
-ejercer presión. (Debía insertarse en una posición determinada, ya que en una de las 
-esquinas no había pines, si se hacía de forma errónea se podían torcer los pines o incluso 
+dispone de un mecanismo con una palanca que facilita la inserción del procesador sin \nejercer presión. (Debía insertarse en una posición determinada, ya que en una de las \nesquinas no había pines, si se hacía de forma errónea se podían torcer los pines o incluso 
 romperlos, dañándose el procesador). 
 • LGA. Los pines están en la placa, por lo que los microprocesadores son menos delicados, 
 son lisos. También debe insertarse en una determinada posición. 
@@ -1994,8 +1963,7 @@ para la memoria RAM, el puerto AGP o PCI Express y el bus PCI.
 Conecta la CPU con los buses USB (Universal Serial Bus), serie, audio, IDE (Integrated Drive 
 Electronics) e ISA (Industry Standard Architecture), PCI es decir, el almacenamiento 
 secundario y los periféricos. Está formado por un único chip. 
-El South bridge es un elemento de las placas base antiguas, (comunicaba el procesador con 
-elementos que requieren de poco ancho de banda), pero desde 2012 aproximadamente ya 
+El South bridge es un elemento de las placas base antiguas, (comunicaba el procesador con \nelementos que requieren de poco ancho de banda), pero desde 2012 aproximadamente ya 
 no existen en las placas base, sino que se encuentra integrado entre el chipset y el mismo 
 procesador. 
 Las funciones siguen siendo las mismas pero un poco más ampliadas, y se encuentran 
@@ -2175,13 +2143,11 @@ RELOJ
 Efectúa operaciones lógicas y 
 aritméticas sobre datos que 
 provienen de la memoria 
-principal, los operandos de 
-entrada para la ALU. 
+principal, los operandos de \nentrada para la ALU. 
 Estos datos se pueden almacenar 
 de forma temporal en los 
 registros de la ALU para 
-aumentar la velocidad, dado que 
-el acceso a los registros es 
+aumentar la velocidad, dado que \nel acceso a los registros es 
 mucho más rápido. 
 Se encarga de supervisar la transferencia de 
 información; de leer las instrucciones en 
@@ -2191,18 +2157,15 @@ para los elementos del computador que
 participarán en la ejecución de cada 
 instrucción. 
 Contiene el registro de instrucción (IR), que 
-indica la instrucción a ejecutar (que se está 
-ejecutando). 
+indica la instrucción a ejecutar (que se está \nejecutando). 
 Es un circuito síncrono, por lo que requiere 
 de un reloj. 
 Es un oscilador de 
-frecuencia fija que se mide 
-en megahercios. Marca la 
+frecuencia fija que se mide \nen megahercios. Marca la 
 velocidad de ejecución de 
 las instrucciones. 
 A mayor índice de 
-frecuencia, más rápido es 
-el procesador. 
+frecuencia, más rápido es \nel procesador. 
 
 <!-- Page 58 -->
 
@@ -2361,10 +2324,8 @@ Dos entradas.
 Dos entradas. 
 Será uno si una de las entradas es uno (pero no las dos). Puerta XNOR con Esta puerta al ser el 
 complemento de la puerta OR exclusiva (XOR), sus resultados son uno (1) cuando sus entradas, 
-para el caso de 2, son iguales, ya sean con valor 0 o valor 1 (0 y 0, o 1 y 1). Para más de 2 
-entradas, si el número de unos de entradas es par, la salida es 1 y si es impar, la salida es 0. Si 
-todas las entradas son 0, la salida es 1, como puede comprobarse en la tabla de verdad de tres 
-entradas. La puerta lógica XNOR se identifica como función par, en tanto que la puerta lógica 
+para el caso de 2, son iguales, ya sean con valor 0 o valor 1 (0 y 0, o 1 y 1). Para más de 2 \nentradas, si el número de unos de entradas es par, la salida es 1 y si es impar, la salida es 0. Si 
+todas las entradas son 0, la salida es 1, como puede comprobarse en la tabla de verdad de tres \nentradas. La puerta lógica XNOR se identifica como función par, en tanto que la puerta lógica 
 XOR se identifica como función impar. 
 Gráfico Operaciones lógicas negadas 
 ENTRADAS 
@@ -2492,8 +2453,7 @@ siguiente instrucción a ser ejecutada siempre se encuentra en el contador de in
 Otra función de la unidad de control es gestionar la comunicación con los periféricos, procesando la 
 información transmitida desde o hacia los periféricos. 
 Existen dos tipos de unidades de control: 
-• Cableadas: los componentes principales son el circuito de lógica secuencial, el de control de 
-estado, el de lógica combinacional y el de emisión de reconocimiento de señales de control. Son 
+• Cableadas: los componentes principales son el circuito de lógica secuencial, el de control de \nestado, el de lógica combinacional y el de emisión de reconocimiento de señales de control. Son 
 más sencillas pero difíciles de actualizar o modificar. 
 • Microprogramadas: la microprogramación de la unidad de control se encuentra almacenada en 
 una micromemoria, a la cual se accede de manera secuencial para posteriormente ir ejecutando 
@@ -2555,17 +2515,14 @@ construcción de una CPU con arquitectura CISC es muy compleja.
 • El hardware Intel está basado en CISC. 
 • RISC (Reduced Instruction set computer). Ordenadores con un conjunto de instrucciones 
 simples. 
-Tiene mucho mayor rendimiento que el CISC. El procesador realiza una superposición en la 
-ejecución de varias instrucciones en un pipeline. 
+Tiene mucho mayor rendimiento que el CISC. El procesador realiza una superposición en la \nejecución de varias instrucciones en un pipeline. 
 Un pipeline (tubería o cauce), consiste en una cadena de procesos conectados de tal forma que 
 la salida de cada elemento de la cadena es la entrada del próximo. Es una técnica para 
 implementar simultaneidad a nivel de instrucciones dentro de un solo procesador. Permiten la 
 comunicación y sincronización entre procesos. 
-Pipelining intenta mantener ocupada a cada parte del procesador, dividiendo las instrucciones 
-entrantes en una serie de pasos secuenciales, que se realizan por diferentes unidades del 
+Pipelining intenta mantener ocupada a cada parte del procesador, dividiendo las instrucciones \nentrantes en una serie de pasos secuenciales, que se realizan por diferentes unidades del 
 procesador que trabajan de forma simultánea. 
-Utiliza un conjunto de instrucciones altamente optimizado, reduciendo los ciclos por instrucción 
-en el costo de la serie de instrucciones por pipeline de programa. 
+Utiliza un conjunto de instrucciones altamente optimizado, reduciendo los ciclos por instrucción \nen el costo de la serie de instrucciones por pipeline de programa. 
 Características: 
 • El repertorio de instrucciones es sencillo y limitado. El objetivo principal es la optimización 
 de instrucciones. 
@@ -2590,8 +2547,7 @@ Veamos algunas de las diferencias entre ambos:
 ARM es una arquitectura RISC de 32 bits y recientemente con la llegada de su versión V8-A también 
 de 64 Bits desarrollada por ARM Holdings 
 Los procesadores ARM (Advanced RISC Machine: Máquina RISC Avanzada) surgen del auge de la 
-informática móvil, que tiene unos determinados requisitos, como, por ejemplo, baterías y fuentes de 
-energía más pequeñas, no disponer de espacio para sistemas de refrigeración, por tanto, el diseño de los 
+informática móvil, que tiene unos determinados requisitos, como, por ejemplo, baterías y fuentes de \nenergía más pequeñas, no disponer de espacio para sistemas de refrigeración, por tanto, el diseño de los 
 procesadores debe ser diferente. 
 
 <!-- Page 67 -->
@@ -2601,8 +2557,7 @@ procesadores debe ser diferente.
 Informática básica. Representación y comunicación de la información: elementos constitutivos de un sistema 
 de información 
 67 
-El leitmotiv de ARM es tratar de obtener la máxima eficiencia con el menor consumo energético, para 
-ello y continuando con la filosofía RISC su objetivo es proporcionar sets de instrucciones y procesadores 
+El leitmotiv de ARM es tratar de obtener la máxima eficiencia con el menor consumo energético, para \nello y continuando con la filosofía RISC su objetivo es proporcionar sets de instrucciones y procesadores 
 que se lo permitan. 
 Esto permite una reducción en el tamaño del código, el ancho de banda necesario y la cantidad de 
 instrucciones que deben procesarse, lo cual se traduce en un menor consumo energético. 
@@ -2610,23 +2565,19 @@ Las evoluciones de ARM, con los procesadores Cortex (a partir de 2005), incorpor
 64 bits, manteniendo la compatibilidad con la tecnología Thumb. Esto permite aceptar instrucciones 
 más largas mientras se sigue beneficiando de una mayor eficiencia tecnológica. Manteniendo la 
 compatibilidad con instrucciones de 16 bits (Thumb y Thumb2) y 32 bits, las arquitecturas ARMv8-A y 
-ARMv9-A han ampliado significativamente su conjunto de instrucciones a 64 bits, ofreciendo un 
-equilibrio entre la ejecución de código heredado y el aprovechamiento de las últimas innovaciones en 
+ARMv9-A han ampliado significativamente su conjunto de instrucciones a 64 bits, ofreciendo un \nequilibrio entre la ejecución de código heredado y el aprovechamiento de las últimas innovaciones en 
 procesamiento. 
-Además, ARM desarrolla sistemas avanzados de gestión de energía que permiten a los procesadores 
-entrar en estados de bajo consumo cuando no están activos. También optimiza su pipeline (reduciendo 
+Además, ARM desarrolla sistemas avanzados de gestión de energía que permiten a los procesadores \nentrar en estados de bajo consumo cuando no están activos. También optimiza su pipeline (reduciendo 
 la latencia y mejorando la eficiencia) y su caché para mejorar el rendimiento general. 
 ARM ha sido desarrollada por la multinacional ARM Holdings, y es una arquitectura licenciable, es decir 
-que ARM Holdings no fabrica los procesadores por sí misma, diseña la tecnología y desarrolla el 
-estándar y luego la licencia a otras empresas. 
+que ARM Holdings no fabrica los procesadores por sí misma, diseña la tecnología y desarrolla el \nestándar y luego la licencia a otras empresas. 
 Las empresas que son titulares de licencias ARM crean microcontroladores y CPUs basados en este 
 núcleo, lo que hace que existan muchas variantes de este tipo de procesadores. 
 Versiones del estándar: ARMv1, ARMv2, ARMv3, ARMv4, ARMv4T, ARMv5, ARMv6, ARMv7, ARMv8-A, 
 ARMv8-R, ARMv9-A. 
 En un inicio ARM se utilizaba en dispositivos móviles y Smart TV, pero los procesadores con 
 arquitectura ARM pueden ser utilizados como CPU de un ordenador, y también en otros nichos de 
-mercado, como el de los microcontroladores, los cuales son procesadores que incluyen la memoria RAM 
-en el mismo chip y se utilizan por ejemplo para el control de electrodomésticos. 
+mercado, como el de los microcontroladores, los cuales son procesadores que incluyen la memoria RAM \nen el mismo chip y se utilizan por ejemplo para el control de electrodomésticos. 
 AÑO 
 Procesadores 
 Tecnologías 
@@ -2678,8 +2629,7 @@ Cortex-M4, StrongARM
 SA1100 
 ARM, Thumb, 
 Thumb-2 
-Ampliamente utilizada en dispositivos móviles, 
-embebidos y microcontroladores. Buen equilibrio entre 
+Ampliamente utilizada en dispositivos móviles, \nembebidos y microcontroladores. Buen equilibrio entre 
 rendimiento y eficiencia energética. Introducción de 
 Thumb-2 para mayor flexibilidad y rendimiento. 
 2013 
@@ -2706,10 +2656,8 @@ rendimiento y eficiencia energética.
 4.2.5. Núcleo físico y lógico 
 Hay que diferenciar lo que es un núcleo físico de un núcleo lógico. 
 • Un núcleo físico (o core) es un circuito integrado físico ubicado en el chip del procesador. 
-• Un núcleo lógico no tiene su propia unidad de ejecución, sino que comparte la unidad de 
-ejecución del núcleo físico en el que se ejecuta. Solo el sistema operativo entiende que existe. 
-Un núcleo físico es una unidad de procesamiento que puede ejecutar un hilo a la vez, y se compone 
-entre otros elementos de una ALU, UC, registros y memoria caché (L1, L2 y la L3 que puede ser 
+• Un núcleo lógico no tiene su propia unidad de ejecución, sino que comparte la unidad de \nejecución del núcleo físico en el que se ejecuta. Solo el sistema operativo entiende que existe. 
+Un núcleo físico es una unidad de procesamiento que puede ejecutar un hilo a la vez, y se compone \nentre otros elementos de una ALU, UC, registros y memoria caché (L1, L2 y la L3 que puede ser 
 compartida en algunos casos siempre que cuente con ella y existan más núcleos físicos). Aunque el flujo 
 de ejecución es secuencial, un núcleo moderno puede ejecutar varias instrucciones de manera 
 simultánea gracias a técnicas como el pipeline y la ejecución superescalar. 
@@ -2719,8 +2667,7 @@ Los primeros procesadores únicamente tenían un núcleo físico, pero ahora tie
 núcleos, incluso pueden tener 128 núcleos. 
 En cuanto a un thread, es cada uno de los flujos de control de datos que el sistema operativo crea al 
 subdividir los programas para su ejecución en memoria y poder repartirlas en los núcleos de procesador. 
-Es necesario que el sistema operativo tenga que cargar en memoria los programas para poder ser 
-ejecutados, y los subdivide en tareas o flujos de control de datos (thread). Cada uno de estos thread se 
+Es necesario que el sistema operativo tenga que cargar en memoria los programas para poder ser \nejecutados, y los subdivide en tareas o flujos de control de datos (thread). Cada uno de estos thread se 
 irán gestionando u ordenando perfectamente para ser procesados, aunque el sistema operativo no 
 siempre subdivide un programa en varios hilos; esto dependerá de si el propio programa está diseñado 
 para ser multihilo. 
@@ -2738,8 +2685,7 @@ tecnología para ello:
 • AMD crea núcleos lógicos en sus procesadores mediante la tecnología SMT en toda su gama 
 Ryzen. 
 Estas tecnologías permiten trabajar en cada uno de los núcleos lógicos reconocidos por el sistema 
-operativo, pero los núcleos lógicos comparten recursos físicos, el núcleo (UC, ALU, cachés L1 y L2, 
-etc.). La simultaneidad real entre hilos solo es posible cuando se cuenta con más de un núcleo físico, ya 
+operativo, pero los núcleos lógicos comparten recursos físicos, el núcleo (UC, ALU, cachés L1 y L2, \netc.). La simultaneidad real entre hilos solo es posible cuando se cuenta con más de un núcleo físico, ya 
 que los núcleos lógicos comparten los mismos recursos internos. Las múltiples ALU dentro de un núcleo 
 permiten simultaneidad de instrucciones, pero no simultaneidad plena de hilos. 
 Cada thread, unidad mínima de ejecución independiente, cuenta con una porción de instrucciones, un 
@@ -2758,14 +2704,12 @@ Info
 • Instrucción: Es la unidad más pequeña de trabajo en un 
 programa de computadora. Las instrucciones son las 
 operaciones elementales que realiza la CPU. 
-• Programa: agrupación de instrucciones que, cuando se 
-ejecutan por la computadora, realizan una tarea específica 
+• Programa: agrupación de instrucciones que, cuando se \nejecutan por la computadora, realizan una tarea específica 
 o resuelven un problema determinado. 
 • Proceso: es la instancia en ejecución de un programa. Un 
 proceso se crea cuando se ejecuta un programa y contiene 
 su propio espacio de memoria, recursos del sistema, 
-identificador de proceso (PID) y una o más unidades de 
-ejecución llamadas hilos. 
+identificador de proceso (PID) y una o más unidades de \nejecución llamadas hilos. 
  
 
 <!-- Page 70 -->
@@ -2782,9 +2726,7 @@ de información
 un proceso. Los hilos comparten recursos como memoria y 
 archivos abiertos dentro del proceso y pueden ejecutar 
 instrucciones de manera independiente sin necesitar 
-necesariamente esperar a que otro hilo termine su 
-ejecución para continuar con sus operaciones, a menos que 
-estén compartiendo el mismo núcleo físico, en cuyo caso 
+necesariamente esperar a que otro hilo termine su \nejecución para continuar con sus operaciones, a menos que \nestén compartiendo el mismo núcleo físico, en cuyo caso 
 pueden llegar a competir por los recursos de ejecución y 
 requerir esperas. 
  
@@ -2832,11 +2774,9 @@ retirar la alimentación eléctrica del componente. Son:
 Tecnología Flash NAND 
 El término flash es debido a la alta velocidad que puede manejar y NAND a un tipo de conexión especial 
 de sus elementos electrónicos (compuerta tipo NAND). 
-Son memorias que permite almacenar datos y mantenerlos almacenados sin necesidad de alimentación 
-eléctrica durante más de 10 años (cantidad que va aumentando con la rápida evolución del desarrollo 
+Son memorias que permite almacenar datos y mantenerlos almacenados sin necesidad de alimentación \neléctrica durante más de 10 años (cantidad que va aumentando con la rápida evolución del desarrollo 
 de hardware). 
-Se utiliza en las memorias USB, memorias SD, MemoryStick de Sony, unidades SSD, para BIOS, 
-etcétera. 
+Se utiliza en las memorias USB, memorias SD, MemoryStick de Sony, unidades SSD, para BIOS, \netcétera. 
 
 <!-- Page 72 -->
 
@@ -2847,8 +2787,7 @@ de información
 72 
 Tecnología dual channel 
 Es una tecnología que permite el incremento del rendimiento gracias al acceso simultáneo a dos 
-módulos distintos de memoria RAM. Esto se consigue mediante un segundo controlador de memoria en 
-el Northbridge. Para que el ordenador pueda funcionar en Dual Channel, se debe de tener dos módulos 
+módulos distintos de memoria RAM. Esto se consigue mediante un segundo controlador de memoria en \nel Northbridge. Para que el ordenador pueda funcionar en Dual Channel, se debe de tener dos módulos 
 idénticos de memoria en los slots correspondientes de la placa base, y el chipset de la placa base debe 
 soportar dicha tecnología. 
 4.3.2. Clasificación 
@@ -2945,8 +2884,7 @@ un dispositivo especial y borrado por medio de luz
 ultravioleta 
 EEPROM 
 "Electrically Erasable Programmable 
-Read Only Memory", memoria 
-eléctricamente programable y 
+Read Only Memory", memoria \neléctricamente programable y 
 borrable de solo lectura 
 Evolución de las memorias EPROM que permite alterar su 
 contenido (borrar y grabar repetidas veces) por medio de 
@@ -2978,8 +2916,7 @@ RAM
 Random Access Memory, 
 memoria de acceso 
 aleatorio 
-Memoria primaria de la computadora, en la que puede leerse y 
-escribirse información en cualquier momento, pero que pierde la 
+Memoria primaria de la computadora, en la que puede leerse y \nescribirse información en cualquier momento, pero que pierde la 
 información al no tener alimentación eléctrica. 
 DRAM 
 Dyamic Random Access 
@@ -2997,8 +2934,7 @@ paginación de acceso
 aleatorio. 
 Aumentan el rendimiento a las direcciones mediante páginas. Fue 
 una de las primeras formas de DRAM que permite un acceso rápido 
-a múltiples ubicaciones dentro de una fila de memoria sin tener que 
-especificar la fila a cada vez. 
+a múltiples ubicaciones dentro de una fila de memoria sin tener que \nespecificar la fila a cada vez. 
 EDO RAM 
 Extenden Data Out 
 Random Access Memory, 
@@ -3052,9 +2988,7 @@ de datos.
 Se introduce a finales de los años 90 y principios de siglo XXI, 
 significa una mejora importante en la velocidad y la eficiencia con 
 respecto a la tecnología SDRAM. Posibilita la transmisión de datos 
-dos veces por ciclo de reloj. Las variantes de DDR han 
-evolucionado con el tiempo, aumentando la velocidad y la 
-eficiencia en comparación con sus predecesoras. 
+dos veces por ciclo de reloj. Las variantes de DDR han \nevolucionado con el tiempo, aumentando la velocidad y la \neficiencia en comparación con sus predecesoras. 
  
  
  
@@ -3107,8 +3041,7 @@ Se elegirá el uso de uno u otro según las necesidades (aunque en ocasiones es 
 montar uno de cada, SSD para el sistema operativo, siendo mucho más rápido el arranque, y uno 
 sólido de mayor capacidad para el almacenaje de datos). 
 Se pueden conectar en el interior de la caja, conectándolo a la placa base, o en formato de disco 
-duro externo conectándolo a los puertos externos del ordenador: SATA, Firewire y USB que es 
-el más común. 
+duro externo conectándolo a los puertos externos del ordenador: SATA, Firewire y USB que es \nel más común. 
  
  
  
@@ -3143,10 +3076,8 @@ de almacenamiento), o viceversa.
 Es un tipo de memoria que únicamente permite la lectura programable y borrable electrónicamente, (lo 
 que se conoce por sus siglas como EEPROM), por tanto, se puede utilizar como memoria ROM, o como 
 dispositivos de almacenamiento de memoria independiente, como son los USB. 
-El almacenamiento flash utiliza celdas de memoria para almacenar datos. Las celdas que tienen datos 
-escritos anteriormente se tienen que borrar antes de poder escribir datos nuevos en ellas. 
-Se le da el nombre de flash, por ser una tecnología de almacenamiento de datos que se programa 
-eléctricamente a alta velocidad (escribe datos y realiza operaciones de I/O aleatorias a la velocidad del 
+El almacenamiento flash utiliza celdas de memoria para almacenar datos. Las celdas que tienen datos \nescritos anteriormente se tienen que borrar antes de poder escribir datos nuevos en ellas. 
+Se le da el nombre de flash, por ser una tecnología de almacenamiento de datos que se programa \neléctricamente a alta velocidad (escribe datos y realiza operaciones de I/O aleatorias a la velocidad del 
 flash (puede traducirse como destello o Relámpago). 
 Es un tipo de memoria no volátil. 
 4.3.3. Jerarquía 
@@ -3175,8 +3106,7 @@ dispositivos, y perderíamos la información.
 Se denomina thrashing, cuando un sistema operativo utiliza una creciente cantidad de recursos para 
 hacer una cantidad de trabajo cada vez menor. 
 A menudo, se refiere a cuando se cargan y descargan sucesiva y constantemente partes de la imagen de 
-un proceso desde y hacia la memoria principal y la memoria virtual o espacio de intercambio. En un 
-estado normal, esto permite que un proceso bloqueado y no listo para correr deje lugar en memoria 
+un proceso desde y hacia la memoria principal y la memoria virtual o espacio de intercambio. En un \nestado normal, esto permite que un proceso bloqueado y no listo para correr deje lugar en memoria 
 principal a otro proceso listo. 
 
 <!-- Page 80 -->
@@ -3269,8 +3199,7 @@ donde estén.
 Esto lo hacemos mediante la localidad de referencia: tomamos como referencia un punto de la 
 memoria y como campo de operando la diferencia entre ese punto y la dirección efectiva del 
 operando. 
-La dirección que tomamos como referencia puede residir en un registro de la CPU, y la dirección 
-efectiva se obtiene sumando el contenido del registro con el campo de operando. A estos se le 
+La dirección que tomamos como referencia puede residir en un registro de la CPU, y la dirección \nefectiva se obtiene sumando el contenido del registro con el campo de operando. A estos se le 
 llama relativos a un registro. 
 7. POR BASE Y DESPLAZAMIENTO. 
 Es una versión del direccionamiento relativo a registros donde la dirección que se toma como 
@@ -3284,12 +3213,10 @@ Es una versión del direccionamiento relativo a registros donde la dirección de
 también se calcula sumando un registro de la CPU al campo de operando. Este registro es un 
 registro específico para este uso llamado registro índice. 
 9. AUTOINCREMENTAL. 
-Es una versión del direccionamiento relativo a registros donde la dirección del operando se 
-encuentra en un registro y éste se va incrementando, después de acceder al operando, en el 
+Es una versión del direccionamiento relativo a registros donde la dirección del operando se \nencuentra en un registro y éste se va incrementando, después de acceder al operando, en el 
 tamaño del mismo. 
 10. AUTODECREMENTAL. 
-Es una versión del direccionamiento relativo a registros donde la dirección del operando se 
-encuentra en un registro y éste se va decrementando, después de acceder al operando, en el 
+Es una versión del direccionamiento relativo a registros donde la dirección del operando se \nencuentra en un registro y éste se va decrementando, después de acceder al operando, en el 
 tamaño del mismo. 
 
 <!-- Page 83 -->
@@ -3404,8 +3331,7 @@ Flynn propone la siguiente clasificación de ordenadores atendiendo al paralelis
 procesadores: 
 • SISD. 
 Single Instruction Single Data. 
-Son los ordenadores clásicos basados en la arquitectura Von Neumann. Un único procesador 
-ejecuta un sólo flujo de instrucciones para operar datos en una única memoria. Se ejecuta una 
+Son los ordenadores clásicos basados en la arquitectura Von Neumann. Un único procesador \nejecuta un sólo flujo de instrucciones para operar datos en una única memoria. Se ejecuta una 
 única instrucción y un dato en cada ciclo de reloj. 
 
 <!-- Page 86 -->
@@ -3419,11 +3345,9 @@ de información
 Un flujo de instrucciones y múltiples flujos de datos. Todas las unidades de cómputo ejecutan 
 simultáneamente la misma instrucción, pero con distintos datos. 
 • MISD. 
-Múltiples flujos de instrucciones y un solo flujo de datos. No se suele utilizar dado que no es 
-eficiente. 
+Múltiples flujos de instrucciones y un solo flujo de datos. No se suele utilizar dado que no es \neficiente. 
 • MIMD. 
-Múltiples flujos de instrucciones y múltiples flujos de datos. Varias unidades de cómputo 
-ejecutan simultáneamente instrucciones distintas con distintos datos. 
+Múltiples flujos de instrucciones y múltiples flujos de datos. Varias unidades de cómputo \nejecutan simultáneamente instrucciones distintas con distintos datos. 
  
 Clasificación de ordenadores según paralelismo propuesta por Flynn 
 4.5.3. Tipos de Instrucciones de la CPU 

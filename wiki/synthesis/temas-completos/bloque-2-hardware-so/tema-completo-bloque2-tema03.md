@@ -6,8 +6,7 @@ tags:
   - temario-extendido
   - bloque-2
   - tema-03
-  - oposiciones-tai
-estado: "🔴 Por Estudiar"
+  - oposiciones-tai\nestado: "🔴 Por Estudiar"
 dificultad: "⭐⭐⭐"
 prioridad: "Máxima"
 sources:
@@ -286,11 +285,9 @@ con enteros, cadenas de texto, caracteres o booleanos sin preocuparse por cómo 
 internamente en la máquina. Cada tipo de dato determina qué valores puede almacenar una variable y 
 qué operaciones son válidas sobre esos valores.  
 Gracias a este sistema, se evita que el usuario intente realizar operaciones incoherentes (por ejemplo, 
-sumar un número y un texto) y se garantiza que el programa sea independiente de la máquina concreta 
-en la que se ejecute. 
+sumar un número y un texto) y se garantiza que el programa sea independiente de la máquina concreta \nen la que se ejecute. 
 Abstracción  
-Es una operación mental, en la que aislamos conceptualmente una parte del problema global, 
-estudiándolo sin tener en consideración el resto de las características del problema global.
+Es una operación mental, en la que aislamos conceptualmente una parte del problema global, \nestudiándolo sin tener en consideración el resto de las características del problema global.
  
  
 Fuente: PixaBay 
@@ -308,8 +305,7 @@ En informática, este concepto es muy usado como una manera de ocultar los detal
 implementación de un objeto, de forma que lo utilizamos, porque sabemos qué puede hacer, pero no 
 necesitamos saber cómo lo hace. (Convertimos un dato mediante la abstracción en un objeto).  
 En la abstracción realizamos dos procesos:  
-• Determinar los aspectos relevantes del problema en el nivel de abstracción que estamos 
-estudiando. 
+• Determinar los aspectos relevantes del problema en el nivel de abstracción que estamos \nestudiando. 
 • Ignorar los aspectos irrelevantes.  
 Muy importante, tener en cuenta que, un aspecto irrelevante en un determinado nivel de abstracción 
 puede resultar relevante en otro nivel.  
@@ -368,8 +364,7 @@ Cuando hablamos de este tipo de estructuras podemos distinguir entre otros:
 1.2.1. Array 
 Un array es una estructura de datos que permite almacenar una colección ordenada de elementos bajo 
 un mismo nombre.  
-En algunos lenguajes como C, C++, C# esta colección de elementos será homogénea (del mismo tipo) y 
-estática (con número fijo de elementos), y en otros como PHP, Python o Javascript esta colección 
+En algunos lenguajes como C, C++, C# esta colección de elementos será homogénea (del mismo tipo) y \nestática (con número fijo de elementos), y en otros como PHP, Python o Javascript esta colección 
 podrá ser heterogénea y dinámica.  
 Cada elemento ocupa, en el array, una posición determinada que se conoce como índice y será 
 necesario para acceder a un elemento en concreto. Dependiendo del lenguaje de programación el 
@@ -404,8 +399,7 @@ Son estructuras de datos contiguas.
 A los elementos de un array, se le asigna memoria de forma contigua.  
 Un ejemplo de array unidimensional sería:  
  
-Para referenciar a un elemento utilizamos el índice. Así, si el array se llamase "arrayEjemplo", el 
-elemento de índice 3 (que es en realidad el elemento cuarto, ya que empieza desde cero) se referencia 
+Para referenciar a un elemento utilizamos el índice. Así, si el array se llamase "arrayEjemplo", el \nelemento de índice 3 (que es en realidad el elemento cuarto, ya que empieza desde cero) se referencia 
 como arrayEjemplo[3] y su valor es 12.  
 Matriz 
 Un array de dos dimensiones se conoce por el nombre de matriz. Es un vector (array multidimensional) 
@@ -428,8 +422,7 @@ Supongamos que tenemos esta matriz con nombre mEjemplo cuyos índices comienza e
  
 Para acceder al literal "baile" tendremos que referenciar: mEjempo[2][1].
  
-Referenciaremos pues la tercera fila de la matriz (si la primera posición es 0 será la 2) y el segundo 
-elemento (si los índices comienzan en 0, será el número 1).
+Referenciaremos pues la tercera fila de la matriz (si la primera posición es 0 será la 2) y el segundo \nelemento (si los índices comienzan en 0, será el número 1).
  
 Recordemos que esto no es uniforme, en algunos lenguajes, en vectores y matrices los datos han de ser 
 homogéneos (siempre del mismo tipo) y la primera posición de los índices puede ser la 1.
@@ -444,8 +437,7 @@ Cuando hacemos por ejemplo,
 int x = 1; 
 El compilador asigna una dirección de memoria a mi variable y almacena en la misma el valor 1.
  
-El operador & permite obtener la dirección de memoria de una variable. Continuando con nuestro 
-ejemplo, si queremos conocer la dirección de memoria de x, lo indicaremos como &x, lo que devolverá 
+El operador & permite obtener la dirección de memoria de una variable. Continuando con nuestro \nejemplo, si queremos conocer la dirección de memoria de x, lo indicaremos como &x, lo que devolverá 
 una dirección de memoria virtual expresada en notación hexadecimal tal que 0x7ffd7482fd20.
  
 En Linux, macOS y Windows de 64 bits, las direcciones que comienzan por 0x7ff… suelen corresponder 
@@ -463,8 +455,7 @@ contenido de la casilla de memoria contenida en la dirección a la que apunta es
 Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algoritmos 
  
 11 
-Así pues si lo que me interesa es almacenar una dirección de memoria, el tipo de dato que he de emplear 
-es un puntero, que se especifica en C de esta manera:  
+Así pues si lo que me interesa es almacenar una dirección de memoria, el tipo de dato que he de emplear \nes un puntero, que se especifica en C de esta manera:  
 int *puntero = &amp;x; 
  
  
@@ -522,8 +513,7 @@ Nota
 El concepto TDA, fue propuesto por primera vez por John Guttag y 
 otros compañeros, hacia 1974.  
 Pero fue en 1975 cuando Barbara Liskov, lo propuso por primera 
-vez para el lenguaje de programación CLU, creado por ella y sus 
-estudiantes, incluyendo en el código tipos de datos abstractos. Fue 
+vez para el lenguaje de programación CLU, creado por ella y sus \nestudiantes, incluyendo en el código tipos de datos abstractos. Fue 
 un gran paso para la programación orientada a objetos.  
  
  
@@ -561,8 +551,7 @@ superior.
  
 Algunas de las operaciones básicas sobre estructuras de datos son: acceder a un elemento (leer), 
 buscar, insertar o borrar.  
-Aquí no nos es relevante las operaciones individuales de cada componente, sino las operaciones sobre la 
-estructura de datos global.  
+Aquí no nos es relevante las operaciones individuales de cada componente, sino las operaciones sobre la \nestructura de datos global.  
 
 <!-- Page 14 -->
 
@@ -703,8 +692,7 @@ También denominada lista FIFO  (First In First Out) ya que almacena datos en es
 primer elemento que se incorpora a la cola es el primero que sale.  
 Para entenderlo, imagina la cola de un cine. El primero que llega es el primero que entra al cine, y si llega 
 alguien nuevo se sitúa al final de la cola.  
-Por lo tanto, el puntero "inicio" apunta al primer elemento que se añadió y el puntero "fin" al último 
-elemento añadido. 
+Por lo tanto, el puntero "inicio" apunta al primer elemento que se añadió y el puntero "fin" al último \nelemento añadido. 
 
 <!-- Page 18 -->
 
@@ -724,16 +712,14 @@ Todas las operaciones de este tipo de datos tienen coste constante.
 El coste constante en el contexto de las listas bicola no se refiere al consumo de recursos, por lo menos 
 de manera directa, sino al del algoritmo que lo caracteriza, la inserción y eliminación de los datos al 
 principio y al final de la cola implica que siempre tarda el mismo tiempo, no recorrerá la estructura de 
-datos a menos que la inserción o eliminación esté en medio de la lista. Para eliminar el primer o último 
-elemento, se actualiza el puntero correspondiente al que se estaba apuntando liberando el elemento 
+datos a menos que la inserción o eliminación esté en medio de la lista. Para eliminar el primer o último \nelemento, se actualiza el puntero correspondiente al que se estaba apuntando liberando el elemento 
 descartado.  
 Operaciones sobre listas simples  
 Existen diversas operaciones comúnmente aceptadas que se realizan sobre una lista. Vamos a ver 
 algunas de ellas: 
 • Inicializar:  se crea la lista creando el puntero "inicio" y el puntero "fin" (este es opcional) y se les 
 asigna el valor NULL.  
-• Calcular tamaño:  se recorre la lista y se va añadiendo (sumando) 1 en un contador por cada 
-elemento. En algunas ocasiones es conveniente conocer el tamaño de la lista (evitar inserciones 
+• Calcular tamaño:  se recorre la lista y se va añadiendo (sumando) 1 en un contador por cada \nelemento. En algunas ocasiones es conveniente conocer el tamaño de la lista (evitar inserciones 
 fuera de rango, saber si la lista está vacía, uso de algoritmos de búsqueda, información útil del 
 número de elementos para el usuario).  
 • Visualización:  recorre la lista y muestra uno a uno todos los valores de la lista.  
@@ -757,8 +743,7 @@ Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algori
 » El puntero "inicio" apuntará al nuevo elemento.  
  
 • Al final de la lista: 
-» El puntero "siguiente" del elemento apuntado por el puntero "fin" apuntará al nuevo 
-elemento. 
+» El puntero "siguiente" del elemento apuntado por el puntero "fin" apuntará al nuevo \nelemento. 
 » El puntero "siguiente" del nuevo elemento apuntará a NULL.  
 » El puntero "fin" apuntará al elemento nuevo.  
  
@@ -777,8 +762,7 @@ Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algori
  
 • Eliminación: elimina un elemento de la lista. Se gestiona de distinta manera según sea:  
 • El primer elemento de la lista:  
-» El puntero "inicio" apuntará al mismo sitio que el puntero "siguiente" del primer 
-elemento. 
+» El puntero "inicio" apuntará al mismo sitio que el puntero "siguiente" del primer \nelemento. 
  
 • Un elemento intermedio de la lista:  
 » Se recorre el puntero hasta llegar al elemento llegar al antecesor del elemento que 
@@ -807,8 +791,7 @@ borrar).
 Reto 
 Ahora que ya conoces los distintos tipos de lista y las operaciones 
 que se pueden realizar.  
-¿Por qué no realizas un esquema, y defines las operaciones sobre 
-ellas? 
+¿Por qué no realizas un esquema, y defines las operaciones sobre \nellas? 
 Utiliza dibujos, te resultará más fácil y claro.  
  
  
@@ -847,8 +830,7 @@ Para empezar, debemos tener claros algunos conceptos/definiciones para entender 
 • Nodo hijo. Nodo al que apunta un nodo padre.  
 • Nodo raíz.  Primer nodo del árbol. Se caracteriza por no tener padres. Solo puede haber un nodo 
 raíz por árbol.  
-• Nodo hoja. Son todos aquellos nodos que no tienen hijos, los cuales, por tanto, siempre se 
-encuentran en los extremos de la estructura . 
+• Nodo hoja. Son todos aquellos nodos que no tienen hijos, los cuales, por tanto, siempre se \nencuentran en los extremos de la estructura . 
 • Nodo rama. Son todos aquellos nodos que no son raíz y que además tienen al menos un hijo.
  
 
@@ -934,8 +916,7 @@ divide a su vez en tres tipos: pre -orden, in-orden, pos-orden) y búsqueda en a
 • Búsqueda en profundidad: el recorrido de un árbol en profundidad se realiza mediante 
 algoritmos recursivos.  
 • Recorrido pre-orden: empezamos leyendo el nodo raíz y, a continuación, leemos en pre
--orden 
-el subárbol a su izquierda y a continuación leemos en pre -orden el subárbol de la derecha. 
+-orden \nel subárbol a su izquierda y a continuación leemos en pre -orden el subárbol de la derecha. 
 Podemos observar que es un algoritmo recursivo. Veamos una imagen para ver mejor cómo se 
 recorre. 
  
@@ -969,8 +950,7 @@ Recorrido en pre -orden
 • Recorrido in-orden: empezamos leyendo en in -orden el primer subárbol de la raíz (el de la 
 izquierda); a continuación, leemos el nodo raíz; finalmente, leemos en in
 -orden el subárbol 
-de la derecha. De nuevo utilizamos un algoritmo recursivo. Veamos una imagen para 
-entenderlo mejor.  
+de la derecha. De nuevo utilizamos un algoritmo recursivo. Veamos una imagen para \nentenderlo mejor.  
 
 <!-- Page 27 -->
 
@@ -1001,8 +981,7 @@ Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algori
  
 28 
 1.3.1.3. Grafos 
-Un grafo es una estructura de datos (o un tipo abstracto de datos según algunos autores) consistente 
-en un conjunto de nodos o vértices  y un conjunto de arcos (aristas)  que establecen relaciones (no 
+Un grafo es una estructura de datos (o un tipo abstracto de datos según algunos autores) consistente \nen un conjunto de nodos o vértices  y un conjunto de arcos (aristas)  que establecen relaciones (no 
 jerárquicas) entre los nodos.  
 Características  
 Algunas características de un grafo son:  
@@ -1083,8 +1062,7 @@ Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algori
 En los sistemas operativos modernos (Linux, Windows, macOS, 
 iOS y Android), los directorios se gestionan internamente como un 
 tipo especial de archivo dentro del sistema de ficheros.  
-No obstante, para facilitar su uso, al usuario se le presenta una 
-estructura jerárquica claramente diferenciada entre directorios y 
+No obstante, para facilitar su uso, al usuario se le presenta una \nestructura jerárquica claramente diferenciada entre directorios y 
 archivos. 
  
  
@@ -1098,11 +1076,9 @@ dos limitaciones importantes:
 2. La cantidad de los datos no puede ser muy grande debido al tamaño de la memoria principal.
  
  
-Un fichero, también llamado archivo,  es una estructura dinámica (su tamaño puede variar en tiempo de 
-ejecución).  
+Un fichero, también llamado archivo,  es una estructura dinámica (su tamaño puede variar en tiempo de \nejecución).  
 Archivo o fichero informático  
-Unidad lógica de información estructurada en bytes, almacenada de forma persistente (soporte 
-electrónico hardware o unidad de almacenamiento) en un sistema de archivos y gestionada por el 
+Unidad lógica de información estructurada en bytes, almacenada de forma persistente (soporte \nelectrónico hardware o unidad de almacenamiento) en un sistema de archivos y gestionada por el 
 kernel del sistema operativo a través del sistema de ficheros.  
 Tiene un nombre, que debe ser único dentro del directorio donde se almacena; la extensión es una 
 convención, utilizada por algunos sistemas operativos y aplicaciones, pero no obligatoria
@@ -1116,8 +1092,7 @@ así como permisos de acceso que determinan las operaciones permitidas (lectura,
  
 Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algoritmos 
  
-31 
-ejecución); además, dependiendo del sistema operativo, pueden existir atributos adicionales como solo 
+31 \nejecución); además, dependiendo del sistema operativo, pueden existir atributos adicionales como solo 
 lectura, oculto o de sistema.  
 Debe preservase su accesibilidad, legibilidad y disponibilidad a largo plazo, evitando su deterioro o 
 corrupción que lo haga ilegible.  
@@ -1156,8 +1131,7 @@ Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algori
 32 
  
 Cada fichero viene determinado por:  
-• Nombre del fichero. El nombre es el identificador del fichero dentro del sistema de archivos. La 
-extensión es una convención utilizada por algunos sistemas operativos y aplicaciones para 
+• Nombre del fichero. El nombre es el identificador del fichero dentro del sistema de archivos. La \nextensión es una convención utilizada por algunos sistemas operativos y aplicaciones para 
 indicar el tipo de fichero.  
 Dependiendo del sistema de archivos se podrá diferenciar o no entre mayúsculas y minúsculas.
  
@@ -1214,8 +1188,7 @@ En una misma carpeta no puede haber dos entradas con el mismo nombre completo.
  
 En los sistemas Windows, si un fichero tiene una extensión determinada (por ejemplo: .ai, .psd, 
 .pdf), el sistema operativo mantiene un registro de asociaciones entre las extensiones de 
-archivo y los programas instalados. De este modo, cuando el usuario abre un fichero, Windows 
-ejecuta automáticamente el software asociado a dicha extensión (Adobe Illustrator, Photoshop, 
+archivo y los programas instalados. De este modo, cuando el usuario abre un fichero, Windows \nejecuta automáticamente el software asociado a dicha extensión (Adobe Illustrator, Photoshop, 
 Acrobat Reader u otro programa compatible).
  
 Si la extensión no está asociada a ningún programa, el sistema operativo puede solicitar al 
@@ -1309,8 +1282,7 @@ la actualización de esta información que forma parte de los metadatos de un ar
  
 • Atributo a. 
 El archivo sólo puede ser abierto en adición para escritura, es decir, los archivos con este 
-atributo sólo pueden ser escritos por redireccionamiento (>>) y el archivo no puede ser 
-eliminado. 
+atributo sólo pueden ser escritos por redireccionamiento (>>) y el archivo no puede ser \neliminado. 
 
 <!-- Page 36 -->
 
@@ -1368,8 +1340,7 @@ como saltos de línea.
 textual. 
 • Están codificados según tablas de codificación de caracteres, como ASCII, EBCDIC o 
 Unicode 
-• Debido a su formato simple y estandarizado, muchos programas distintos pueden leer y 
-editar ficheros de texto.  
+• Debido a su formato simple y estandarizado, muchos programas distintos pueden leer y \neditar ficheros de texto.  
 Los ficheros de texto pueden almacenarse como texto sin formato o como texto enriquecido. En este 
 último caso, además de los caracteres visibles, el fichero incluye códigos adicionales que indican cómo 
 debe mostrarse el texto (negrita, cursiva, tamaño de fuente, formato de página, etc.).
@@ -1496,8 +1467,7 @@ OpenDocument. Es el elegido como estándar para el intercambio de texto con form
  
 • .PDF: 
 Portable Document Format  (formato de documento portable). En realidad, se puede usar para 
-gráficos vectoriales, mapas de bits, texto o la combinación de varios de ellos. Es uno de los más 
-extendidos en Internet para el intercambio de documentos. Las instituciones públicas de España 
+gráficos vectoriales, mapas de bits, texto o la combinación de varios de ellos. Es uno de los más \nextendidos en Internet para el intercambio de documentos. Las instituciones públicas de España 
 lo utilizan para sus comunicaciones. El lector de ficheros .pdf es gratuito y muchos programas 
 permiten guardar en este formato (como Microsoft Word y Writer de OpenOffice).
  
@@ -1510,8 +1480,7 @@ Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algori
  
 41 
 Tipos de PDF:  
-• PDF 2.0 (ISO 32000 -2:2020)  es una actualización y perfeccionamiento de las 
-especificaciones PDF anteriores. El objetivo fundamental de esta especificación es 
+• PDF 2.0 (ISO 32000 -2:2020)  es una actualización y perfeccionamiento de las \nespecificaciones PDF anteriores. El objetivo fundamental de esta especificación es 
 consolidar, aclarar y limpiar la especificación, por lo que se han depurado funciones 
 heredadas ofreciendo indicaciones más claras para los desarrolladores y como consecuencia 
 una mejor experiencia de usuario PDF, posibilitando que puedan añadirse innovaciones de 
@@ -1533,8 +1502,7 @@ sean inservibles para la impresión como música, vídeo o botones interactivos.
  
 • PDF/E (ISO 24517)
 : diseñado para las necesidades específicas de la ingeniería, facilitando la 
-creación, el intercambio y la visualización de documentos técnicos, como planos, dibujos, 
-especificaciones y documentación relacionada con proyectos de ingeniería.
+creación, el intercambio y la visualización de documentos técnicos, como planos, dibujos, \nespecificaciones y documentación relacionada con proyectos de ingeniería.
  
 • PDF/VT  (ISO 16612):  estándar diseñado para aplicaciones de impresión variable y 
 transaccional. Se centra fundamentalmente en la creación de documentos que contienen 
@@ -1543,8 +1511,7 @@ Tecnología es ampliamente utilizada en aplicaciones de impresión masiva y pers
 creación de facturas, estados de cuenta, documentos personalizados y otros materiales de 
 impresión de alta calidad.  
 • .RTF:  
-Rich Text Format  o formato de texto enriquecido. Se utilizaba para el intercambio de datos 
-entre Apple y Microsoft. Es el formato que utiliza Wordpad por defecto.
+Rich Text Format  o formato de texto enriquecido. Se utilizaba para el intercambio de datos \nentre Apple y Microsoft. Es el formato que utiliza Wordpad por defecto.
  
 • .PS: PostScript:  
 Utiliza un lenguaje de programación para describir una imagen de impresión. Se utiliza para 
@@ -1641,8 +1608,7 @@ Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algori
 uno para cada cuadro en una matriz de píxeles (tal como se esquematizaría un dibujo de 
 "colorea los cuadros" para niños pequeños).  
 • Pueden mostrar un buen nivel de calidad.  
-A pesar de dicho nivel de calidad, se caracterizan por ser muy poco eficientes en su uso de 
-espacio en disco, por tanto, no se utilizan en páginas web (problema de tamaño en su 
+A pesar de dicho nivel de calidad, se caracterizan por ser muy poco eficientes en su uso de \nespacio en disco, por tanto, no se utilizan en páginas web (problema de tamaño en su 
 relación con la resolución).  
 En función del color de la imagen, (de la profundidad de color que tenga la imagen), cada 
 píxel puede llegar a ocupar 1 o varios bytes, lo que sería una barbaridad al cargar cualquier 
@@ -1669,8 +1635,7 @@ La técnica JPEG básica (baseline JPEG) consta de 5 pasos:
 transformada del coseno discreta (TCD) para cada bloque.
  
 4. Cuantificación de los coeficientes de la TCD  de cada bloque. Para ello, dichos coeficientes 
-se dividen por su correspondiente coeficiente de cuantificación y se redondean al valor 
-entero más próximo. Este paso reduce muchos elementos a cero favoreciendo la 
+se dividen por su correspondiente coeficiente de cuantificación y se redondean al valor \nentero más próximo. Este paso reduce muchos elementos a cero favoreciendo la 
 compresión. El valor de Q determina los coeficientes de cuantificación. Así, se dispone de 
 varias tablas de coeficientes de cuantificación.  
 5. Codificación  sin pérdidas de los coeficientes reducidos utilizando el algoritmo de Huffman 
@@ -1745,8 +1710,7 @@ Sin compresión y de alta calidad. Desarrollado por Apple. Es otro de los format
 Compresión sin pérdida  
 • .FLAC:  
 Free Lossless Audio Codec.  
-Códec libre de compresión de audio sin pérdida. Reduce en un tercio el tamaño de un WAV 
-eliminando residuos no útiles. Tiene una calidad muy alta.  
+Códec libre de compresión de audio sin pérdida. Reduce en un tercio el tamaño de un WAV \neliminando residuos no útiles. Tiene una calidad muy alta.  
 • .ALAC:  
 Aple Lossless Audio Codec.  
 
@@ -1802,14 +1766,12 @@ Utiliza un conjunto de algoritmos de compresión desarrollado por Microsoft.
 • .ASF: 
 Advanced Streaming Format.  
 (Posteriormente renombrado como Advanced Systems Format ). 
-Es un formato contenedor de audio y vídeo digital propiedad de Microsoft, diseñado 
-especialmente para el streaming. 
+Es un formato contenedor de audio y vídeo digital propiedad de Microsoft, diseñado \nespecialmente para el streaming. 
 • .MOV: 
 Formato utilizado por QuickTime de Apple.  
 Actualmente es compatible con el estándar MPEG -4. 
 • .MP4 es un formato de archivo comúnmente utilizado para almacenar flujos de video y audio 
-digital. Es ampliamente compatible con diversos dispositivos y plataformas, lo que lo convierte 
-en una opción popular para compartir y distribuir contenido de video. La extensión ".mp4" 
+digital. Es ampliamente compatible con diversos dispositivos y plataformas, lo que lo convierte \nen una opción popular para compartir y distribuir contenido de video. La extensión ".mp4" 
 significa MPEG -4 Parte 14, que es un estándar de compresión de video ampliamente utilizado.
  
 • .MKV Un archivo con extensión .mkv es un contenedor multimedia que puede contener 
@@ -1821,8 +1783,7 @@ Las operaciones relacionadas con el almacenamiento persistente pueden aplicarse 
 los ficheros o, en el caso de ficheros de datos estructurados, sobre los registros que contienen.
  
 • Operaciones con ficheros:  
-• Crear fichero.  Se crea un fichero nuevo sin dato, asignándole un nombre y una ubicación en 
-el sistema de archivos.  
+• Crear fichero.  Se crea un fichero nuevo sin dato, asignándole un nombre y una ubicación en \nel sistema de archivos.  
 • Borrar fichero. Elimina el fichero y libera el espacio que ocupaba en el almacenamiento 
 secundario. 
 • Abrir fichero. Es necesario abrir el fichero para poder realizar operaciones sobre él. No 
@@ -1890,10 +1851,8 @@ almacenamiento y analizar las sucesivas abstracciones que introduce el sistema o
 a las aplicaciones una visión lógica y uniforme.  
 Dispositivos de almacenamiento persistente  
 Los dispositivos de almacenamiento persistente, como discos duros, unidades SSD o memorias flash, 
-gestionan la información mediante sectores físicos, que constituyen la unidad mínima real de lectura y 
-escritura del dispositivo. Estos sectores son gestionados directamente por el firmware del dispositivo, 
-que expone el almacenamiento como una secuencia lineal de posiciones numeradas. En este nivel no 
-existe ningún conocimiento de ficheros, directorios ni estructuras lógicas.
+gestionan la información mediante sectores físicos, que constituyen la unidad mínima real de lectura y \nescritura del dispositivo. Estos sectores son gestionados directamente por el firmware del dispositivo, 
+que expone el almacenamiento como una secuencia lineal de posiciones numeradas. En este nivel no \nexiste ningún conocimiento de ficheros, directorios ni estructuras lógicas.
  
 Para facilitar el acceso a los sectores físicos, los dispositivos modernos utilizan el direccionamiento lineal 
 de sectores (LBA, Logical Block Addressing), mediante el cual cada sector se identifica por un número 
@@ -1909,9 +1868,7 @@ solicitadas por el sistema de ficheros en accesos reales a los sectores del disp
 además la bufferización y el caching de las operaciones de E/S.
  
 Sistema de Ficheros  
-Sobre esta capa se sitúa el sistema de ficheros, que introduce una nueva unidad de asignación de 
-espacio: el cluster. El cluster es la unidad mínima que el sistema de ficheros asigna a un fichero y puede 
-estar compuesto por uno o varios bloques lógicos. En algunos sistemas esta unidad recibe también el 
+Sobre esta capa se sitúa el sistema de ficheros, que introduce una nueva unidad de asignación de \nespacio: el cluster. El cluster es la unidad mínima que el sistema de ficheros asigna a un fichero y puede \nestar compuesto por uno o varios bloques lógicos. En algunos sistemas esta unidad recibe también el 
 nombre de bloque del sistema de ficheros, lo que puede dar lugar a ambigüedad terminológica; por este 
 motivo, se utiliza el término cluster para diferenciarla claramente de los bloques lógicos del sistema 
 operativo. 
@@ -1941,8 +1898,7 @@ la unidad mínima real de lectura y escritura que el dispositivo presenta al ext
 magnéticos, el sector es efectivamente la unidad física de acceso. En SSDs y memorias flash, el sector 
 constituye la unidad lógica mínima que el firmware presenta al sistema, pero internamente estas 
 tecnologías gestionan páginas de mayor tamaño (típicamente 4 KB, 8 KB o 16 KB) mediante una capa 
-de traducción (FTL). Tradicionalmente, el tamaño expuesto de un sector ha sido de 512 bytes, aunque 
-en sistemas modernos es habitual encontrar sectores de 4 KB.  
+de traducción (FTL). Tradicionalmente, el tamaño expuesto de un sector ha sido de 512 bytes, aunque \nen sistemas modernos es habitual encontrar sectores de 4 KB.  
 La gestión de los sectores físicos no corresponde al sistema operativo, sino al firmware del propio 
 dispositivo. Este firmware se encarga de controlar el acceso al soporte físico y de exponer el 
 almacenamiento como una secuencia de sectores numerados que el sistema operativo puede 
@@ -1953,8 +1909,7 @@ que se construyen todas las abstracciones superiores que permiten la gestión de
 informático.  
 3.6.2. Direccionamiento lineal de sectores (LBA)
  
-El direccionamiento lineal de sectores, conocido como LBA (Logical Block Addressing), es el mecanismo 
-estándar mediante el cual los dispositivos de almacenamiento exponen sus sectores al sistema 
+El direccionamiento lineal de sectores, conocido como LBA (Logical Block Addressing), es el mecanismo \nestándar mediante el cual los dispositivos de almacenamiento exponen sus sectores al sistema 
 operativo de forma secuencial y numérica.  
 En los sistemas antiguos, el acceso se realizaba mediante direccionamiento físico basado en cilindros, 
 cabezas y sectores (CHS). Este método dependía de la geometría interna del dispositivo, lo que lo hacía 
@@ -1963,8 +1918,7 @@ continua que oculta la organización física real del dispositivo.
 Mediante LBA, cada sector se identifica por un número entero consecutivo (dirección lógica). El 
 sistema operativo utiliza estas direcciones para solicitar operaciones de lectura o escritura, y el 
 firmware del dispositivo traduce internamente estas direcciones lógicas a la localización física 
-correspondiente. Esto libera al sistema operativo de conocer la estructura interna o la tecnología 
-específica del dispositivo.  
+correspondiente. Esto libera al sistema operativo de conocer la estructura interna o la tecnología \nespecífica del dispositivo.  
 
 <!-- Page 52 -->
 
@@ -1996,8 +1950,7 @@ dispositivo de almacenamiento.
 En este nivel no existe conocimiento alguno sobre ficheros, directorios o significado de los datos. Para la 
 capa de bloques, el almacenamiento es simplemente una secuencia numerada de unidades de tamaño 
 fijo, independientemente de su contenido.  
-Además de la correspondencia matemática entre bloques lógicos y sectores físicos (accesibles vía LBA), 
-esta capa se encarga de la planificación de operaciones de E/S, la gestión de colas, la utilización de 
+Además de la correspondencia matemática entre bloques lógicos y sectores físicos (accesibles vía LBA), \nesta capa se encarga de la planificación de operaciones de E/S, la gestión de colas, la utilización de 
 caché y la optimización del acceso, todo ello de forma transparente para los niveles superiores.
  
 Los bloques lógicos constituyen, por tanto, el punto de enlace entre el sistema de ficheros y el 
@@ -2043,11 +1996,9 @@ debe resolver el problema fundamental de cómo asignar espacio a los ficheros, l
 dispersos y mantener la coherencia del sistema ante operaciones y posibles fallos.
  
 La implementación interna gestiona el almacenamiento sobre un soporte que no garantiza contigüidad 
-física. Para ello, utiliza estrategias de asignación de bloques, estructuras de control y metadatos que 
-establecen la correspondencia entre los ficheros lógicos y los bloques físicos que los componen.
+física. Para ello, utiliza estrategias de asignación de bloques, estructuras de control y metadatos que \nestablecen la correspondencia entre los ficheros lógicos y los bloques físicos que los componen.
  
-El sistema debe ser capaz de: asignar nuevos bloques cuando un fichero crece; liberar bloques cuando se 
-elimina o reduce; y localizar rápidamente todos los bloques pertenecientes a un fichero para reconstruir 
+El sistema debe ser capaz de: asignar nuevos bloques cuando un fichero crece; liberar bloques cuando se \nelimina o reduce; y localizar rápidamente todos los bloques pertenecientes a un fichero para reconstruir 
 su contenido en el orden lógico correcto.  
 Además, mantiene información descriptiva -los metadatos - sobre las características de cada fichero y 
 del sistema. Estos metadatos garantizan la integridad de la información, gestionan permisos, permiten 
@@ -2089,8 +2040,7 @@ para el tamaño declarado o estimado del fichero.
 Esta estrategia ofrece rendimiento óptimo en accesos secuenciales y directos, ya que basta conocer la 
 dirección del primer cluster y el desplazamiento para localizar cualquier dato sin indirecciones 
 adicionales. 
-Su principal limitación es la fragmentación externa del espacio libre: el tiempo de uso del disco divide el 
-espacio disponible en pequeños fragmentos no contiguos, dificultando encontrar áreas amplias para 
+Su principal limitación es la fragmentación externa del espacio libre: el tiempo de uso del disco divide el \nespacio disponible en pequeños fragmentos no contiguos, dificultando encontrar áreas amplias para 
 nuevos ficheros. Además, el crecimiento dinámico resulta problemático cuando no existe espacio libre 
 adyacente inmediato, obligando a reubicar el fichero completo.  
 Por estos motivos, su uso se restringe hoy a contextos específicos (ficheros de tamaño fijo, sistemas de 
@@ -2203,8 +2153,7 @@ transferencia, ocultando completamente la disposición real de los datos en el d
 Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algoritmos 
  
 57 
-Cada fichero abierto tiene asociado, en una estructura del kernel, un puntero de posición que almacena 
-el offset lógico actual. Este offset existe siempre y es utilizado por el sistema de ficheros como punto de 
+Cada fichero abierto tiene asociado, en una estructura del kernel, un puntero de posición que almacena \nel offset lógico actual. Este offset existe siempre y es utilizado por el sistema de ficheros como punto de 
 partida para cualquier operación de entrada o salida.  
 3.8.1. El fichero como secuencia lógica de bytes  
 Desde la perspectiva de la aplicación, un fichero es una secuencia ordenada de bytes numerados desde 
@@ -2223,20 +2172,17 @@ Esta abstracción sirve de base para las distintas formas de utilización del fi
 aplicaciones, todas ellas fundamentadas en el manejo de posiciones lógicas dentro de la secuencia de 
 bytes. 
 3.8.2. Acceso secuencial  
-La literatura clásica denomina acceso secuencial al acceso en el que la aplicación no solicita 
-explícitamente cambios en el offset. Tras cada operación de lectura o escritura, el propio sistema 
+La literatura clásica denomina acceso secuencial al acceso en el que la aplicación no solicita \nexplícitamente cambios en el offset. Tras cada operación de lectura o escritura, el propio sistema 
 operativo actualiza automáticamente el puntero de posición, avanzándolo en función del número de 
 bytes procesados.  
 3.8.3. Acceso directo por desplazamiento (offset)
  
-Los mismos manuales, denominan acceso directo al acceso en el que la aplicación solicita 
-explícitamente la actualización del offset lógico antes de realizar una operación, indicando una nueva 
+Los mismos manuales, denominan acceso directo al acceso en el que la aplicación solicita \nexplícitamente la actualización del offset lógico antes de realizar una operación, indicando una nueva 
 posición dentro del fichero desde la que continuar el acceso. Esta solicitud no altera el mecanismo 
 interno del sistema de ficheros, sino únicamente el valor del offset utilizado como referencia.
  
 3.8.4. Traducción del offset lógico a bloques físicos  
-Como decíamos el offset puede ser gestionado implícitamente por el sistema operativo o modificado 
-explícitamente por la aplicación, pero en todos los casos es utilizado por el sistema de ficheros para 
+Como decíamos el offset puede ser gestionado implícitamente por el sistema operativo o modificado \nexplícitamente por la aplicación, pero en todos los casos es utilizado por el sistema de ficheros para 
 localizar los datos solicitados.  
 
 <!-- Page 58 -->
@@ -2264,9 +2210,7 @@ bloques lógicos contiguos.
 físicos, que el firmware del dispositivo convierte en operaciones reales de lectura o escritura 
 sobre el medio. 
 Todo este mecanismo es completamente transparente para la aplicación. Desde su perspectiva, el 
-fichero se presenta como una secuencia continua de bytes accesible mediante operaciones de lectura y 
-escritura, mientras que el sistema de ficheros se encarga de ocultar la fragmentación física y reconstruir 
-el flujo lógico de datos de forma coherente.  
+fichero se presenta como una secuencia continua de bytes accesible mediante operaciones de lectura y \nescritura, mientras que el sistema de ficheros se encarga de ocultar la fragmentación física y reconstruir \nel flujo lógico de datos de forma coherente.  
 3.9. Organización lógica del contenido (nivel aplicación)
  
 Tras la abstracción del sistema operativo -que presenta el fichero como una mera secuencia de bytes 
@@ -2311,8 +2255,7 @@ secuencial. Sin embargo, el coste de inserciones y eliminaciones aumenta conside
 mantener el orden puede requerir desplazar registros existentes o reconstruir el fichero completo.
  
 Desde el punto de vista operativo, los ficheros secuenciales no ordenados presentan inserciones simples 
-y rápidas, al añadirse los datos al final del fichero, pero requieren recorridos completos para localizar un 
-elemento concreto. En cambio, los ficheros secuenciales ordenados permiten búsquedas más eficientes 
+y rápidas, al añadirse los datos al final del fichero, pero requieren recorridos completos para localizar un \nelemento concreto. En cambio, los ficheros secuenciales ordenados permiten búsquedas más eficientes 
 sobre el campo de ordenación, a costa de penalizar las inserciones y eliminaciones, que pueden requerir 
 desplazamientos de registros o reorganización periódica del fichero.
  
@@ -2326,8 +2269,7 @@ desplazamiento para localizar y modificar partes concretas del fichero (por ejem
 píxeles o un fragmento de audio) sin necesidad de procesarlo completamente desde el inicio.
  
 Ficheros secuencial encadenados  
-En el caso de ficheros de registros, la aplicación puede definir organizaciones lógicas adicionales. Una de 
-ellas es la organización secuencial encadenada, en la que los registros mantienen un orden lógico 
+En el caso de ficheros de registros, la aplicación puede definir organizaciones lógicas adicionales. Una de \nellas es la organización secuencial encadenada, en la que los registros mantienen un orden lógico 
 mediante punteros entre ellos, independientemente de su ubicación física.  
 La principal ventaja de esta técnica es la flexibilidad en inserciones y eliminaciones, ya que basta con 
 ajustar los punteros sin necesidad de desplazar grandes volúmenes de datos. Como contrapartida, el 
@@ -2349,8 +2291,7 @@ En muchas aplicaciones, el contenido del fichero se estructura como una colecci�
 (entidades con campos definidos) en lugar de un flujo de bytes amorfo. Cuando todos los registros 
 comparten el mismo tamaño en bytes, se denomina organización de registros de longitud fija.
  
-Cada registro ocupa R bytes, distribuidos en campos con posiciones y longitudes predefinidas (por 
-ejemplo: bytes 0 -9 para el código, 10 -49 para el nombre, 50 -53 para el salario).  
+Cada registro ocupa R bytes, distribuidos en campos con posiciones y longitudes predefinidas (por \nejemplo: bytes 0 -9 para el código, 10 -49 para el nombre, 50 -53 para el salario).  
 Esta regularidad permite calcular la posición lógica de cualquier registro mediante aritmética simple, a 
 partir de su número de orden: offset = n × R, donde n es el número de registro, comenzando 
 típicamente en 0.  
@@ -2364,8 +2305,7 @@ cuando la longitud de los registros es constante. En ficheros con registros de l
 cálculo directo de la posición resulta imposible sin el uso de estructuras auxiliares, como tablas de 
 índices. 
 El sistema operativo ignora la estructura interna. Desde su perspectiva, el fichero es una secuencia de 
-bytes. La segmentación en registros y su interpretación semántica son convenciones gestionadas 
-exclusivamente por la aplicación. Esta organización es característica de aplicaciones COBOL clásicas, 
+bytes. La segmentación en registros y su interpretación semántica son convenciones gestionadas \nexclusivamente por la aplicación. Esta organización es característica de aplicaciones COBOL clásicas, 
 ficheros binarios con formatos rígidos y sistemas embebidos que requieren acceso predecible.
  
 Es importante distinguir este acceso relativo por número de registro, basado en la posición física 
@@ -2387,8 +2327,7 @@ Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algori
 Nota 
 La organización de longitud fija presenta el inconveniente del 
 desperdicio de espacio cuando los datos varían en tamaño 
-(campos parcialmente vacíos) y complica la gestión de registros 
-eliminados, que suele resolverse mediante marcas de borrado o 
+(campos parcialmente vacíos) y complica la gestión de registros \neliminados, que suele resolverse mediante marcas de borrado o 
 reorganizaciones periódicas del fichero.  
  
  
@@ -2397,16 +2336,14 @@ Cuando los ficheros grandes impiden el recorrido secuencial eficiente, la aplica
 índices simples: estructuras auxiliares que asocian valores clave con posiciones de acceso directo 
 (offsets o números de registro). Estos índices son responsabilidad exclusiva del software, no del sistema 
 operativo ni de un SGBD.  
-Un índice simple típico consiste en una tabla (frecuentemente cargada en memoria) donde cada 
-entrada contiene un par (clave, dirección). Por ejemplo, para localizar el registro de un cliente por su 
+Un índice simple típico consiste en una tabla (frecuentemente cargada en memoria) donde cada \nentrada contiene un par (clave, dirección). Por ejemplo, para localizar el registro de un cliente por su 
 DNI, el índice contiene el DNI como clave y el número de registro donde reside la ficha completa.
  
 La aplicación debe garantizar la coherencia entre índice y datos: toda inserción, borrado o modificación 
 requiere actualizar simultáneamente ambas estructuras. La corrupción del índice (por cierre inesperado 
 o error lógico) deja el sistema inconsistente, sin mecanismos automáticos de recuperación.
  
-Esta técnica mejora el rendimiento de búsquedas puntuales, pero presenta limitaciones: no soportan 
-eficientemente rangos de búsqueda; requieren reorganización manual ante modificaciones extensivas; 
+Esta técnica mejora el rendimiento de búsquedas puntuales, pero presenta limitaciones: no soportan \neficientemente rangos de búsqueda; requieren reorganización manual ante modificaciones extensivas; 
 y carecen de optimizaciones de consulta, integridad referencial o gestión concurrente propias de los 
 SGBD.  
 Por estas razones, los índices simples se reservan para aplicaciones autocontenidas o sistemas legacy; 
@@ -2443,15 +2380,13 @@ auxiliares como índices para acceso alternativo).
 3.10.1. Ficheros de registros y páginas de datos  
 En los SGBD, la unidad lógica es el registro (fila de una tabla), pero la unidad física de entrada/salida es 
 la página de datos: un conjunto contiguo de bytes que el gestor transfiere como bloque entre 
-almacenamiento secundario y memoria principal. El tamaño de página (típicamente 4 KB, 8 KB o 16 KB) 
-es determinado por el SGBD y suele coincidir con múltiplos del tamaño de bloque del sistema de 
+almacenamiento secundario y memoria principal. El tamaño de página (típicamente 4 KB, 8 KB o 16 KB) \nes determinado por el SGBD y suele coincidir con múltiplos del tamaño de bloque del sistema de 
 ficheros subyacente.  
 Los ficheros de registros son, por tanto, colecciones de estas páginas. Dentro de cada una, el SGBD 
 organiza los registros, gestiona el espacio libre mediante directorios internos de ranuras (slot 
 directories) y mantiene los metadatos necesarios para localizar registros cuando la base de datos los 
 solicita. 
-El sistema operativo desconoce semánticamente estas estructuras: para él, el fichero de datos del SGBD 
-es solo una secuencia de clusters (bytes). Es el motor del SGBD quien interpreta esos clusters como 
+El sistema operativo desconoce semánticamente estas estructuras: para él, el fichero de datos del SGBD \nes solo una secuencia de clusters (bytes). Es el motor del SGBD quien interpreta esos clusters como 
 páginas con contenido estructurado, aplicando técnicas de gestión propias (control de concurrencia a 
 nivel de página, buffering, etc.).  
 Esta separación permite al SGBD optimizar el acceso independientemente del sistema de ficheros 
@@ -2474,8 +2409,7 @@ fundamentales: inserción, búsqueda exacta, rangos de consulta y eliminación. 
 ficheros planos, aquí el gestor controla internamente la disposición física, no la aplicación.
  
 Las tres estrategias principales son:  
-• Montículo (heap): Registros almacenados sin orden implícito, típicamente en el siguiente 
-espacio libre disponible.  
+• Montículo (heap): Registros almacenados sin orden implícito, típicamente en el siguiente \nespacio libre disponible.  
 • Secuencial ordenada: Registros físicamente ordenados según el valor de una clave, facilitando 
 búsquedas por rango.  
 • Dispersión (hashing): Registros ubicados mediante función hash sobre una clave, optimizando 
@@ -2490,8 +2424,7 @@ En la organización heap, los registros se almacenan sin orden predefinido, típ
 página con espacio libre disponible o en una nueva página añadida al final del fichero. Es la organización 
 por defecto en la mayoría de los SGBD cuando no se especifica criterio de ordenación.
  
-Esta estrategia maximiza la velocidad de inserción (no requiere reorganización física) y utiliza 
-eficientemente el espacio de las páginas. Sin embargo, la recuperación de un registro específico sin 
+Esta estrategia maximiza la velocidad de inserción (no requiere reorganización física) y utiliza \neficientemente el espacio de las páginas. Sin embargo, la recuperación de un registro específico sin 
 índice requiere recorrido secuencial completo de todas las páginas (full table scan), siendo ineficiente 
 para tablas grandes.  
 Por ello, los montículos se emplean cuando:  
@@ -2521,8 +2454,7 @@ tiempo de ejecución, lo que resulta eficiente para consultas ordenadas o búsqu
 Conceptualmente, se corresponde con los ficheros ordenados estudiados en la organización clásica de 
 ficheros y sirve de base para la definición de índices primarios en dicha terminología.
  
-El principal coste de esta organización reside en las operaciones de mantenimiento: las inserciones y 
-eliminaciones pueden requerir desplazar registros existentes o reconstruir parcial o totalmente el 
+El principal coste de esta organización reside en las operaciones de mantenimiento: las inserciones y \neliminaciones pueden requerir desplazar registros existentes o reconstruir parcial o totalmente el 
 fichero para preservar el orden lógico, lo que penaliza el rendimiento cuando las actualizaciones son 
 frecuentes. 
 Es adecuada cuando predominan las lecturas secuenciales o por rango y las actualizaciones son poco 
@@ -2537,16 +2469,13 @@ bucket o página) donde el SGBD almacenará o buscará el registro.
 El objetivo es proporcionar acceso directo de tiempo constante O(1) para búsquedas por igualdad 
 sobre la clave de dispersión, típicamente en uno o dos accesos a páginas de datos.
  
-Una búsqueda por igualdad  es aquella en la que se quiere localizar registros cuyo campo clave sea 
-exactamente un valor concreto (por ejemplo, DNI = 12345678X). En este caso, el hashing es 
-especialmente eficaz porque aplica la función de dispersión a ese valor y conduce directamente al 
+Una búsqueda por igualdad  es aquella en la que se quiere localizar registros cuyo campo clave sea \nexactamente un valor concreto (por ejemplo, DNI = 12345678X). En este caso, el hashing es \nespecialmente eficaz porque aplica la función de dispersión a ese valor y conduce directamente al 
 bucket donde debería estar el registro. En cambio, para búsquedas por rango (por ejemplo, DNI entre A 
 y B), el hashing no es adecuado porque la dispersión destruye el orden y obliga a recorrer múltiples 
 buckets.  
 Hashing estático  
 El principal inconveniente de esta organización es la gestión de colisiones, que se producen cuando dos 
-claves distintas generan la misma dirección lógica. En los esquemas más simples, el número de buckets 
-es fijo y, cuando un bucket alcanza su capacidad, los registros adicionales deben almacenarse fuera de 
+claves distintas generan la misma dirección lógica. En los esquemas más simples, el número de buckets \nes fijo y, cuando un bucket alcanza su capacidad, los registros adicionales deben almacenarse fuera de 
 él. Esta situación da lugar al uso de estructuras de desbordamiento (overflow).
  
 En el hashing con área de desbordamiento, cuando una página o bucket principal se llena, los nuevos 
@@ -2605,8 +2534,7 @@ Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algori
  
 Nota 
 En estructuras de datos en memoria principal -como tablas hash 
-implementadas mediante arrays, utilizadas en programación o en 
-estructuras internas del sistema operativo - las colisiones pueden 
+implementadas mediante arrays, utilizadas en programación o en \nestructuras internas del sistema operativo - las colisiones pueden 
 resolverse mediante técnicas de direccionamiento abierto, como el 
 probing lineal, el probing cuadrático o el doble hashing. En el 
 almacenamiento secundario y en los SGBD, la resolución de 
@@ -2638,9 +2566,7 @@ manipulación de datos (DML) sobre la tabla debe replicarse sincrónicamente en 
 garantizar la coherencia, aumentando el tiempo de respuesta y el consumo de E/S de dichas 
 operaciones. 
 3.10.3.2. Estructura General de un Índice  
-Un índice es una estructura de datos (típicamente un árbol B+ en sistemas relacionales) que almacena 
-entradas del tipo (valor_clave, dirección_registro), donde la dirección especifica la página y posición 
-exacta del registro en el fichero de datos. Al consultar por el campo indexado, el SGBD recorre esta 
+Un índice es una estructura de datos (típicamente un árbol B+ en sistemas relacionales) que almacena \nentradas del tipo (valor_clave, dirección_registro), donde la dirección especifica la página y posición \nexacta del registro en el fichero de datos. Al consultar por el campo indexado, el SGBD recorre esta 
 
 <!-- Page 67 -->
 
@@ -2648,16 +2574,14 @@ exacta del registro en el fichero de datos. Al consultar por el campo indexado, 
  
 Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algoritmos 
  
-67 
-estructura auxiliar para obtener la dirección física directamente, evitando el recorrido secuencial 
+67 \nestructura auxiliar para obtener la dirección física directamente, evitando el recorrido secuencial 
 completo del fichero de datos.  
 3.10.3.3. Búsqueda en índices ordenados: busqueda binaria  
 En los índices ordenados, las entradas se mantienen clasificadas según el valor del campo indexado. Esta 
 propiedad permite realizar búsquedas eficientes mediante búsqueda binaria sobre el propio índice.
  
 La búsqueda binaria  consiste en comparar la clave buscada con la entrada central del índice y, según el 
-resultado, continuar únicamente por la mitad superior o inferior. Al repetir el proceso, el número de 
-entradas candidatas se reduce exponencialmente. Por ello, si el índice ocupa b páginas, la búsqueda 
+resultado, continuar únicamente por la mitad superior o inferior. Al repetir el proceso, el número de \nentradas candidatas se reduce exponencialmente. Por ello, si el índice ocupa b páginas, la búsqueda 
 requiere aproximadamente log ₂(b) accesos a p áginas del índice. Una vez localizada la entrada, se utiliza 
 su puntero para acceder a la p ágina de datos donde est á el registro.  
 3.10.3.4. Densidad del índice  
@@ -2676,8 +2600,7 @@ del índice a costa de requerir una lectura secuencial adicional dentro del bloq
 Atendiendo a la relación entre el índice y la organización primaria del fichero, se distinguen:
  
 • Índice primario, se construye sobre el campo que determina el orden físico de los registros en el 
-fichero de datos, normalmente una clave primaria. Dado que los registros están almacenados en 
-el mismo orden que el índice, basta con una entrada por bloque o página del fichero, lo que hace 
+fichero de datos, normalmente una clave primaria. Dado que los registros están almacenados en \nel mismo orden que el índice, basta con una entrada por bloque o página del fichero, lo que hace 
 que este índice sea necesariamente no denso.  
 • Durante una búsqueda, el SGBD localiza en el índice el rango de valores correspondiente y 
 accede directamente a la página de datos indicada, donde se encuentra el registro buscado o el 
@@ -2747,34 +2670,28 @@ ineficiente mantenerlos como una única estructura ordenada lineal. Para resolve
 SGBD utilizan índices multinivel, en los que el índice se organiza jerárquicamente en varios niveles.
  
 Conceptualmente, un índice multinivel es un índice construido sobre otro índice: los niveles superiores 
-permiten descartar grandes rangos de claves con pocos accesos a disco, reduciendo progresivamente el 
-espacio de búsqueda hasta localizar la página de datos correspondiente.  
-En los SGBD modernos, estos índices multinivel se implementan mediante estructuras dinámicas 
-equilibradas, principalmente árboles B y árboles B+.  
+permiten descartar grandes rangos de claves con pocos accesos a disco, reduciendo progresivamente el \nespacio de búsqueda hasta localizar la página de datos correspondiente.  
+En los SGBD modernos, estos índices multinivel se implementan mediante estructuras dinámicas \nequilibradas, principalmente árboles B y árboles B+.  
 En un árbol B, los valores de búsqueda y los punteros a registros pueden aparecer en cualquier nodo del 
-árbol. En un árbol B+, en cambio, todos los punteros a los registros de datos se encuentran 
-exclusivamente en los nodos hoja, mientras que los nodos internos actúan únicamente como guía de 
+árbol. En un árbol B+, en cambio, todos los punteros a los registros de datos se encuentran \nexclusivamente en los nodos hoja, mientras que los nodos internos actúan únicamente como guía de 
 búsqueda. 
 La estructura B+ es la más utilizada en bases de datos relacionales, ya que permite recorridos eficientes 
 por rango mediante el encadenamiento secuencial de las hojas, manteniendo el árbol equilibrado y 
 garantizando un número reducido y predecible de accesos a disco.
  
 3.11. Directorios  
-Los directorios proporcionan un mecanismo que permita establecer una organización de los ficheros en 
-el sistema, de forma que el usuario pueda encontrar y manejar los ficheros sin dificultad, puesto que un 
+Los directorios proporcionan un mecanismo que permita establecer una organización de los ficheros en \nel sistema, de forma que el usuario pueda encontrar y manejar los ficheros sin dificultad, puesto que un 
 sistema de ficheros almacenado en un disco duro puede contener miles de ficheros.
  
 Es un fichero especial que contiene información sobre otros ficheros y directorios, lo que hace es 
 básicamente almacenar los nombres de otros ficheros (o directorios) y la posición que ocupan en el 
 sistema de ficheros.  
-Son índices que permiten localizar a otros ficheros o directorios, (aunque la percepción como usuarios 
-es que los directorios como contenedores de ficheros o de otros directorios).
+Son índices que permiten localizar a otros ficheros o directorios, (aunque la percepción como usuarios \nes que los directorios como contenedores de ficheros o de otros directorios).
  
 En Windows, cuando se especifica una ruta, cada directorio se separa mediante el carácter "
 \", mientras 
 que, en Linux, es el carácter "/".  
-Los sistemas de archivos empleados en Windows y Linux, contienen en cada directorio, dos entradas 
-especiales "." y "..", las cuales hacen referencia al propio directorio, y al padre, respectivamente.
+Los sistemas de archivos empleados en Windows y Linux, contienen en cada directorio, dos entradas \nespeciales "." y "..", las cuales hacen referencia al propio directorio, y al padre, respectivamente.
  
 Lo más común en los sistemas modernos es la organización en forma de árbol.
  
@@ -2788,17 +2705,14 @@ Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algori
 70 
 Operaciones con directorios  
 Las operaciones comunes a la hora de manejar un directorio son:  
-• Crear: se requiere nombre. Como normas, no puede llamarse igual que otro archivo ubicado en 
-el mismo directorio. No debe incluir algunos caracteres especiales.  
+• Crear: se requiere nombre. Como normas, no puede llamarse igual que otro archivo ubicado en \nel mismo directorio. No debe incluir algunos caracteres especiales.  
 • Ejecutar/desplazarse:  acceder al directorio (entrar)/recorrer el árbol de directorios.
  
 • Copiar / Mover / Renombrar.  
-• Eliminar: borrar un directorio y sus subdirectorios. Hay que prestar especial atención ya que la 
-eliminación de un directorio supone la eliminación de todos los archivos contenidos en cada uno 
+• Eliminar: borrar un directorio y sus subdirectorios. Hay que prestar especial atención ya que la \neliminación de un directorio supone la eliminación de todos los archivos contenidos en cada uno 
 de los subdirectorios.  
 Atributos de los directorios  
-En cuanto a los atributos, también son similares a los archivos, y dependiendo del sistema de archivos 
-empleado se tienen los siguientes:  
+En cuanto a los atributos, también son similares a los archivos, y dependiendo del sistema de archivos \nempleado se tienen los siguientes:  
 • H: oculto. 
 • R: sólo lectura. 
 • A: modificado. 
@@ -2807,8 +2721,7 @@ empleado se tienen los siguientes:
 Algunos sistemas operativos como Linux utilizan también atributos para identificar la pertenencia del 
 directorio a un usuario o grupo, así como los permisos correspondientes.
  
-En Windows, sin embargo, al igual que ocurría con los archivos hay atributos que indican si el directorio 
-está comprimido o cifrado.  
+En Windows, sin embargo, al igual que ocurría con los archivos hay atributos que indican si el directorio \nestá comprimido o cifrado.  
 Las normas para nombrar los directorios coinciden con las correspondientes a los archivos.
  
 
@@ -2836,13 +2749,11 @@ de Windows, se utiliza el carácter " \".
 • Sendas relativas:  
 Se define un directorio activo en el sistema. Entonces la senda que especifica un archivo es 
 relativa a dicho directorio.  
-Debe indicarse que las sendas relativas se diferencian claramente de las absolutas en que no 
-empiezan con el nombre del directorio raíz, ("" en el caso de Windows).
+Debe indicarse que las sendas relativas se diferencian claramente de las absolutas en que no \nempiezan con el nombre del directorio raíz, ("" en el caso de Windows).
  
 4. Códecs  
 Un códec es un programa que comprime y descomprime un archivo de audio o vídeo (codificador y 
-decodificador), es el algoritmo, que decide cómo se comprimen los datos en el momento de guardarlos 
-en una unidad de almacenamiento y cómo se descomprimen en el momento de su reproducción.
+decodificador), es el algoritmo, que decide cómo se comprimen los datos en el momento de guardarlos \nen una unidad de almacenamiento y cómo se descomprimen en el momento de su reproducción.
  
 Este proceso conlleva que los archivos de audio y vídeo ocupen más o menos espacio de 
 almacenamiento, y afecta también a la calidad de los mismos en la reproducción (se debe mantener una 
@@ -2871,8 +2782,7 @@ la información para dar forma al archivo.
 En el caso de los códec de audio se pueden dividir entre sistemas con pérdidas o sin pérdidas.
  
 • Las compresiones con pérdidas (lossy ). 
-Se basan en la capacidad auditiva del ser humano. A la hora de comprimir un archivo de audio 
-eliminan las frecuencias que el oído humano no puede percibir (inferiores a 20 Hz y superiores a 
+Se basan en la capacidad auditiva del ser humano. A la hora de comprimir un archivo de audio \neliminan las frecuencias que el oído humano no puede percibir (inferiores a 20 Hz y superiores a 
 20 KHz.  
 También filtran la cantidad de ruido para ofrecer sólo lo que es perceptible para nosotros en 
 cada rango de frecuencias. Suelen ser los más utilizados puesto que siguen ofreciendo una alta 
@@ -2883,8 +2793,7 @@ El audio se comprime, pero al descomprimir recuperas exactamente los mismos dato
 al inicio. Ofrecen una mayor calidad de audio, y son por tanto las utilizadas en la edición de 
 audio (FLAC, ALAC, WAV sin comprimir).
  
-Dependiendo del servicio que se van a utilizar, se emplean mayores o menores niveles de reducción, por 
-ejemplo, para transmisiones en vivo la compresión suele ser mayor, como por ejemplo en la telefonía, el 
+Dependiendo del servicio que se van a utilizar, se emplean mayores o menores niveles de reducción, por \nejemplo, para transmisiones en vivo la compresión suele ser mayor, como por ejemplo en la telefonía, el 
 podcasting, o las emisoras de radio por internet.  
 Códec de audio más importantes  
 • MP3: 
@@ -2898,17 +2807,14 @@ Usa un algoritmo con pérdida para conseguir un menor tamaño de archivo.
 Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algoritmos 
  
 73 
-Es un formato de audio común, el códec por excelencia más popular, utilizado para música tanto 
-en computadoras como en reproductores de audio portátil.  
+Es un formato de audio común, el códec por excelencia más popular, utilizado para música tanto \nen computadoras como en reproductores de audio portátil.  
 Fue creado por ISO / IEC MPEG Audio Committe en 1993, y se considera el primer formato de 
 audio comprimido popular mundialmente.  
 Un MP3 creado usando una compresión de 128 kbit/s tendrá un tamaño de aproximadamente 
 unas 11 veces menor que su homónimo en CD.  
 Un MP3 puede comprimirse usando una mayor o menor tasa de bits por segundo (los KB por 
 segundo que es capaz de reproducir), lo que afecta directamente a la calidad de audio como al 
-tamaño del archivo resultante. Por ejemplo, creando un MP3 con una compresión de 128 kbit/s 
-el archivo resultante tendrá un tamaño aproximado de unas 11 veces menor que su homónimo 
-en CD.  
+tamaño del archivo resultante. Por ejemplo, creando un MP3 con una compresión de 128 kbit/s \nel archivo resultante tendrá un tamaño aproximado de unas 11 veces menor que su homónimo \nen CD.  
 La limitación más conocida del MP3 es que no es multicanal.  
 • WMA: 
 Algoritmo diseñado por Microsoft, lanzado en 1999 para ser competencia de MP3, aunque con 
@@ -2949,8 +2855,7 @@ información. El audio digital comprimido por el algoritmo de FLAC típicamente 
 de 50 a 60% de su tamaño original,  y se descomprime en una copia id éntica de los datos de 
 audio originales. Fue desarrollado por xiph.org Foundation en 2001.  
 • OGG Vorbis:  
-Desarrollado por xiph.org Foundation en 2000, de código abierto, comprime la información 
-eliminando datos innecesarios de forma que facilita su transmisión, especialmente eficaz cuando 
+Desarrollado por xiph.org Foundation en 2000, de código abierto, comprime la información \neliminando datos innecesarios de forma que facilita su transmisión, especialmente eficaz cuando 
 se reproduce a través de dispositivos conectados por Bluetooth.
  
  
@@ -2996,8 +2901,7 @@ reproducción al necesitar altos requisitos.
 MPEG-4 por el contrario también comprime el audio y la imagen 
 ofreciendo una buena calidad de reproducción con un alto grado 
 de compatibilidad.  
-Actualmente, el H.264 o MPEG -4 AVC es el más popular por su 
-elevado nivel de compresión con pérdidas mínimas de calidad, lo 
+Actualmente, el H.264 o MPEG -4 AVC es el más popular por su \nelevado nivel de compresión con pérdidas mínimas de calidad, lo 
 cual permite la transmisión de vídeo de manera fluida a una alta 
 resolución. 
  
@@ -3119,13 +3023,11 @@ La cantidad de memoria que utiliza un programa para su ejecución, es decir, el 
 memoria que ocupan todas las variables propias al algoritmo.  
 • Para calcular la memoria estática de un algoritmo se suma la memoria que ocupan las 
 variables declaradas en dicho algoritmo.  
-• En el caso de la memoria dinámica , el cálculo no es tan simple ya que, éste depende de cada 
-ejecución del algoritmo.  
+• En el caso de la memoria dinámica , el cálculo no es tan simple ya que, éste depende de cada \nejecución del algoritmo.  
 Para cada problema determinamos una medida N, que es el tamaño de la entrada o número de 
 datos a procesar por el programa, intentaremos hallar respuestas en función de dicha N.
  
-El concepto exacto que cuantifica N dependerá de la naturaleza del problema, (no se puede 
-establecer una regla para N, pues cada problema acarrea su propia lógica y complejidad).
+El concepto exacto que cuantifica N dependerá de la naturaleza del problema, (no se puede \nestablecer una regla para N, pues cada problema acarrea su propia lógica y complejidad).
  
 • En un array se puede ver a N como el rango del array.  
 • En una matriz, el número de elementos que la componen.  
@@ -3157,8 +3059,7 @@ serán favorables, buscaremos pues el algoritmo más rápido.
 (a)|a Î An}  
 Con esta fórmula tratamos de hallar el menor tiempo ( Tmejor ) que el algoritmo puede lograr 
 para cualquier entrada de tamaño n.  Tn(a) será el tiempo de ejecución de una instancia 
-determinada donde (|) a  es una instancia perteneciente (Î) al conjunto de todos las posibles 
-entradas ( A) de tamaño ( n). 
+determinada donde (|) a  es una instancia perteneciente (Î) al conjunto de todos las posibles \nentradas ( A) de tamaño ( n). 
 El caso peor devolverá el resultado del tiempo máximo acontecido para resolver nuestro problema. 
 Puede ser muy útil en el caso de que los datos de entrada no sean predecibles ni tengan filtro previo.
  
@@ -3194,8 +3095,7 @@ Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algori
 caso peor. 
 2. Es más fácil de calcular que el coste en el caso promedio.  
 Como puede observarse los algoritmos cuya complejidad es descrita por una función polinomial pueden 
-ser ejecutados para entradas grandes en una cantidad de tiempo razonable, mientras que los algoritmos 
-exponenciales son de poca utilidad excepto para entradas pequeñas.  
+ser ejecutados para entradas grandes en una cantidad de tiempo razonable, mientras que los algoritmos \nexponenciales son de poca utilidad excepto para entradas pequeñas.  
 5.2.2. Órdenes de complejidad  
 El orden de complejidad es un concepto utilizado para analizar y describir cómo el rendimiento 
 temporal de un algoritmo varía en relación con el tamaño de su entrada. Se representa mediante un 
@@ -3208,8 +3108,7 @@ El tiempo de ejecución del algoritmo no depende del tamaño de la entrada.
 El tiempo de ejecución es directamente proporcional al nº de elementos (se suele dar en la 
 búsqueda secuencial).  
 • O (n log n) casi lineal.  
-El tiempo de ejecución es directamente proporcional al número de elementos multiplicado por 
-el logaritmo del número de elementos. Suele darse en algoritmos que utilizan la técnica divide y 
+El tiempo de ejecución es directamente proporcional al número de elementos multiplicado por \nel logaritmo del número de elementos. Suele darse en algoritmos que utilizan la técnica divide y 
 vencerás, seguida de un proceso de fusión de los resultados.  
 • O (log n) orden logarítmico.  
 El tiempo de ejecución es directamente proporcional al logaritmo del número de elementos. Se 
@@ -3243,8 +3142,7 @@ Consta de dos fases: análisis a priori y análisis a posteriori.
 ordenador concreto. Se obtiene una medida real.  
 • A priori: para unos valores de entrada dados, se obtiene una función que acota (por arriba o por 
 abajo), el tiempo de ejecución.  
-El resultado ofrece estimaciones de valor independiente del ordenador utilizado y sin tener que 
-ejecutarlos. 
+El resultado ofrece estimaciones de valor independiente del ordenador utilizado y sin tener que \nejecutarlos. 
 Este resultado es una medida de eficiencia temporal  que no puede ser expresada en una unidad 
 concreta de tiempo (segundos…), Es un resultado que se define como una función del tamaño o 
 talla de la entrada. 
@@ -3265,8 +3163,7 @@ Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algori
  
 82 
 5.4. Clasificación: ordenamiento y búsqueda  
-La clasificación de los algoritmos es muy amplia y variada, ya que depende del campo donde se utilicen, 
-enfoque y uso que se les vaya a dar.  
+La clasificación de los algoritmos es muy amplia y variada, ya que depende del campo donde se utilicen, \nenfoque y uso que se les vaya a dar.  
 En el campo de la programación informática, podemos diferenciar principalmente los algoritmos en 2 
 tipos, basándonos en el enfoque de cuál es el objetivo que van a cumplir: algoritmos de ordenamiento y 
 algoritmos de búsqueda.  
@@ -3356,8 +3253,7 @@ A, c, a}.
 tienen el mismo valor.  
 • Un algoritmo estable siempre devolverá el orden:  
 {A, a, b, c}.  
-• Dado que "A" aparece antes que "a" en el vector original, 
-este orden se debe mantener.  
+• Dado que "A" aparece antes que "a" en el vector original, \neste orden se debe mantener.  
 • Los algoritmos inestables no tienen en cuenta el orden que 
 tenían en el vector inicial y podrían devolver {A, a, b, c} o 
 bien {a, A, b, c}.  
@@ -3404,12 +3300,9 @@ Se caracterizan por que se ejecutan mediante ciclos, esto hace que sean muy úti
 repetitivas. La mayoría de los lenguajes de programación modernos tienen palabras reservadas para 
 realizar iteraciones.  
 Algoritmo Iterativos Round -robin 
-Es uno de los algoritmos más antiguos, sencillos y equitativos en el reparto de la CPU entre los procesos, 
-es un algoritmo de planificación de procesos, simple de implementar, y de manera equitativa y en un 
-orden racional, lo que significa que evita la monopolización de uso de la CPU, y es muy válido para 
-entornos de tiempo compartido.  
-Normalmente se realiza comenzando por el primer elemento de la lista hasta llegar al último y 
-empezando de nuevo desde el primer elemento.  
+Es uno de los algoritmos más antiguos, sencillos y equitativos en el reparto de la CPU entre los procesos, \nes un algoritmo de planificación de procesos, simple de implementar, y de manera equitativa y en un 
+orden racional, lo que significa que evita la monopolización de uso de la CPU, y es muy válido para \nentornos de tiempo compartido.  
+Normalmente se realiza comenzando por el primer elemento de la lista hasta llegar al último y \nempezando de nuevo desde el primer elemento.  
 
 <!-- Page 86 -->
 
@@ -3423,8 +3316,7 @@ Para tener una utilización equitativa de los recursos del equipo, se limita cad
 período, llamado quantum (Q) o time -slice, y luego se suspende este proceso para dar oportunidad a 
 otro proceso y así sucesivamente. A esto se le denomina comúnmente como Planificación Round
 -Robin. 
-(La lista de procesos se planifica por FIFO). Es decir, si el proceso agota su quantum (Q) de tiempo, se 
-elige a otro proceso para ocupar la CPU. Si el proceso se bloquea o termina antes de agotar su quantum 
+(La lista de procesos se planifica por FIFO). Es decir, si el proceso agota su quantum (Q) de tiempo, se \nelige a otro proceso para ocupar la CPU. Si el proceso se bloquea o termina antes de agotar su quantum 
 también se alterna el uso de la CPU.  
  
  
@@ -3437,8 +3329,7 @@ sistema operativo (en concreto la rutina de servicio de
 interrupción del reloj) coja el mando de la CPU periódicamente.
  
 El quantum de un proceso equivale a un número fijo de pulsos o 
-ciclos de reloj. Al ocurrir una interrupción de reloj que coincide con 
-el agotamiento del quantum se llama al despachador, el cual le 
+ciclos de reloj. Al ocurrir una interrupción de reloj que coincide con \nel agotamiento del quantum se llama al despachador, el cual le 
 cede el control de la CPU al proceso seleccionado por el 
 planificador. 
  
@@ -3471,8 +3362,7 @@ Es uno de los métodos más simples para ordenar una cantidad determinada de dat
  
 Podemos decir que es un algoritmo de ordenación de complejidad cuadrática.
  
-Método de ordenación donde se recorre un vector de elementos y se intercambia en cada recorrido un 
-elemento con su sucesor si no están en orden.  
+Método de ordenación donde se recorre un vector de elementos y se intercambia en cada recorrido un \nelemento con su sucesor si no están en orden.  
 Se basa en comparar los elementos adyacentes, comparando cada elemento con el siguiente. Si el par 
 de elementos no está en orden, intercambiamos su posición.  
 Se repetirá el proceso varias veces con el resto de los elementos hasta llegar a una vuelta en la que no se 
@@ -3507,8 +3397,7 @@ ordenada para encontrar la posición adecuada de inserción.
 Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algoritmos 
  
 88 
-En la búsqueda binaria, se divide la sublista ordenada en dos mitades comparando el nuevo 
-elemento con el elemento central de la sublista. Si el nuevo elemento es menor que el elemento 
+En la búsqueda binaria, se divide la sublista ordenada en dos mitades comparando el nuevo \nelemento con el elemento central de la sublista. Si el nuevo elemento es menor que el elemento 
 central, la búsqueda continúa en la mitad izquierda; si es mayor, se busca en la mitad derecha.
  
 Este proceso se repite ajustando el rango de búsqueda (creando las sublistas necesarias y 
@@ -3519,8 +3408,7 @@ correspondiente.
 Se continuará hasta que todos los elementos hayan sido procesados y colocados en su posición 
 correcta, obteniendo así la lista completa ordenada.  
 Análisis Iterativo de ShellSort (Shell)  
-Es una versión mejorada del ordenamiento por inserción directa. Funciona comparando elementos que 
-están distantes, separados por cierta distancia o incremento y reorganizarlos entre sí. La distancia o 
+Es una versión mejorada del ordenamiento por inserción directa. Funciona comparando elementos que \nestán distantes, separados por cierta distancia o incremento y reorganizarlos entre sí. La distancia o 
 incremento inicialmente grande se va reduciendo en cada iteración.  
 Cuando llega a 1, el algoritmo realiza una última pasada con el método de inserción directa. Dado que la 
 lista ya está parcialmente ordenada por las pasadas anteriores, esta fase final es más eficiente.
@@ -3600,8 +3488,7 @@ y vencerás".  Su funcionamiento es el siguiente:
 • Colocaremos los elementos menores que el pivote en la sublista1 y los mayores en la sublista2. 
 • Repetimos el proceso dividiendo esas 2 sublistas creadas en otras 2, eligiendo un pivote en cada 
 una de esas divisiones.  
-• El logaritmo se detendrá cuando el bloque que se desea ordenar está formado por un solo 
-elemento. 
+• El logaritmo se detendrá cuando el bloque que se desea ordenar está formado por un solo \nelemento. 
 Análisis recursivo de MergeSort (ordenación por mezcla)
  
 Al igual que el anterior, es un algoritmo recursivo basado en la técnica de divide y vencerás.
@@ -3610,8 +3497,7 @@ Su funcionamiento se divide en dos partes: División y Fusión:
 • División: 
 • Partimos el vector en dos partes iguales o de tamaño aproximado si tiene un número impar 
 de elementos. 
-• Volvemos a partir en dos recursivamente cada una de las partes hasta tener listas de un solo 
-elemento. 
+• Volvemos a partir en dos recursivamente cada una de las partes hasta tener listas de un solo \nelemento. 
 • Fusión: 
 • Vamos mezclando de dos en dos las sublistas (de un elemento). En cada mezcla vamos 
 cogiendo el elemento más pequeño de las dos sublistas hasta obtener una sola sublista 
@@ -3639,10 +3525,8 @@ urnas se ordena individualmente con otro algoritmo de ordenación (que podría s
 urna), o se aplica recursivamente este algoritmo para obtener urnas con menos elementos.
  
 Análisis recursivo de RadixSort  
-También basa su funcionamiento en el uso de urnas. Es un algoritmo de ordenamiento que ordena 
-enteros procesando sus dígitos de forma individual. Como los enteros pueden representar cadenas de 
-caracteres (por ejemplo, nombres o fechas) y, especialmente, números en punto flotante 
-especialmente formateados, RadixSort no está limitado sólo a los enteros.
+También basa su funcionamiento en el uso de urnas. Es un algoritmo de ordenamiento que ordena \nenteros procesando sus dígitos de forma individual. Como los enteros pueden representar cadenas de 
+caracteres (por ejemplo, nombres o fechas) y, especialmente, números en punto flotante \nespecialmente formateados, RadixSort no está limitado sólo a los enteros.
  
 5.4.1.3. Estructuras cíclicas  
 Existen 3 tipos de estructuras cíclicas, que pueden utilizarse tanto en algoritmos recursivos como 
@@ -3675,8 +3559,7 @@ Existen varios tipos:
 • Búsqueda Binaria o Dicotómica.  
 • Búsqueda basada en tablas Hash.  
 5.4.2.1. Secuencial 
-Recorremos todos los elementos secuencialmente comparándolos con el que buscamos, hasta 
-encontrarlo o acabar la lista, dando un resultado de "elemento no encontrado".  
+Recorremos todos los elementos secuencialmente comparándolos con el que buscamos, hasta \nencontrarlo o acabar la lista, dando un resultado de "elemento no encontrado".  
 5.4.2.2. Búsqueda Binaria o Dicotómica  
 Se debe partir de una tabla o lista ordenada. Se divide en 2 trozos y se comprueba el elemento. Si 
 coincide termina la búsqueda. Si es mayor debe estar en la parte que contiene los elementos 
@@ -3719,8 +3602,7 @@ Para solucionar estas posibles colisiones tenemos 2 métodos:
 tabla. Se suele usar una LIFO para ir guardando los elementos correspondientes a las claves que 
 coincidan. 
 • Direccionamiento abierto o Hashing cerrado:  usamos un vector en el que ponemos una clave 
-para cada casilla. Utilizamos una función denominada rehasing,  que determina el elemento 
-exacto una vez que localiza la clave que estamos buscando.
+para cada casilla. Utilizamos una función denominada rehasing,  que determina el elemento \nexacto una vez que localiza la clave que estamos buscando.
  
  
  
@@ -3743,9 +3625,7 @@ Tipos de Datos y Estructuras. Tipos, Organización y Formato de Ficheros. Algori
 5.4.3. Algoritmos Voraces  
 También conocido como goloso, ávido, devorador o greedy.
  
-Un algoritmo voraz, es una estrategia de búsqueda por la cual se sigue una heurística consistente en 
-elegir la opción óptima en cada paso local con la esperanza de llegar a una solución general óptima. Este 
-esquema algorítmico es el que menos dificultades plantea a la hora de diseñar y comprobar su 
+Un algoritmo voraz, es una estrategia de búsqueda por la cual se sigue una heurística consistente en \nelegir la opción óptima en cada paso local con la esperanza de llegar a una solución general óptima. Este \nesquema algorítmico es el que menos dificultades plantea a la hora de diseñar y comprobar su 
 funcionamiento. Normalmente se aplica a los problemas de optimización.
  
 No siempre se llega a una solución óptima, ya que solo tienen en cuenta la información de las decisiones 
@@ -3765,8 +3645,7 @@ puede soportar.
  
  
 Ejemplos de algoritmos voraces:  
-• Algoritmo de Kruskal:  el algoritmo de Kruskal es un algoritmo de la teoría de grafos para 
-encontrar un árbol recubridor mínimo en un grafo conexo y ponderado. Es decir, busca un 
+• Algoritmo de Kruskal:  el algoritmo de Kruskal es un algoritmo de la teoría de grafos para \nencontrar un árbol recubridor mínimo en un grafo conexo y ponderado. Es decir, busca un 
 subconjunto de aristas que, formando un árbol, incluyen todos los vértices y donde el valor de la 
 suma de todas las aristas del árbol es el mínimo. Si el grafo no es conexo, entonces busca un 
 bosque expandido mínimo (un árbol expandido mínimo para cada componente conexa).
@@ -3867,13 +3746,11 @@ FIN PROGRAMA
 Por su representación gráfica es la más adecuada y utilizada para representar algoritmos.
  
 Existen técnicas concretas para realizar los diagramas, la mejor en nuestro caso en la top
--down y 
-estructurada.  
+-down y \nestructurada.  
 Top-down: consiste en descomponer un problema en partes. Primero indicamos la dimensión total y 
 luego lo dividimos en subpartes, hasta llegar a una expresión concreta y simple.
  
-La diagramación nos indica que símbolos gráficos (que representan acciones) utilizan, para facilitar el 
-entendimiento visualmente, pero podemos vincularlos entre sí, uniéndolos mediante flechas, según las 
+La diagramación nos indica que símbolos gráficos (que representan acciones) utilizan, para facilitar el \nentendimiento visualmente, pero podemos vincularlos entre sí, uniéndolos mediante flechas, según las 
 necesidades que debe cumplir el algoritmo.  
 Las flechas indican el orden de ejecución.  
 Por ejemplo: 

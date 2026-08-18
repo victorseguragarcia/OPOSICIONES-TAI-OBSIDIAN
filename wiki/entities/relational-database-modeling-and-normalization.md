@@ -49,14 +49,29 @@ El modelado relacional estructura los datos mediante relaciones (tablas) formada
 
 Dado un conjunto de dependencias funcionales $F$, las reglas de Armstrong permiten derivar el cierre $F^+$:
 
-1. **Axioma de Reflexividad**: Si $Y \subseteq X$, entonces $X ightarrow Y$.
-2. **Axioma de Aumento**: Si $X ightarrow Y$, entonces $XZ ightarrow YZ$.
-3. **Axioma de Transitividad**: Si $X ightarrow Y$ y $Y ightarrow Z$, entonces $X ightarrow Z$.
+1. **Axioma de Reflexividad**: Si $Y \subseteq X$, entonces $X 
+ightarrow Y$.
+2. **Axioma de Aumento**: Si $X 
+ightarrow Y$, entonces $XZ 
+ightarrow YZ$.
+3. **Axioma de Transitividad**: Si $X 
+ightarrow Y$ y $Y 
+ightarrow Z$, entonces $X 
+ightarrow Z$.
 
 ### Reglas Derivadas:
-- **Unión (Aditividad)**: Si $X ightarrow Y$ y $X ightarrow Z$, entonces $X ightarrow YZ$.
-- **Descomposición (Proyectividad)**: Si $X ightarrow YZ$, entonces $X ightarrow Y$ y $X ightarrow Z$.
-- **Pseudotransitividad**: Si $X ightarrow Y$ y $WY ightarrow Z$, entonces $WX ightarrow Z$.
+- **Unión (Aditividad)**: Si $X 
+ightarrow Y$ y $X 
+ightarrow Z$, entonces $X 
+ightarrow YZ$.
+- **Descomposición (Proyectividad)**: Si $X 
+ightarrow YZ$, entonces $X 
+ightarrow Y$ y $X 
+ightarrow Z$.
+- **Pseudotransitividad**: Si $X 
+ightarrow Y$ y $WY 
+ightarrow Z$, entonces $WX 
+ightarrow Z$.
 
 ---
 
@@ -66,9 +81,13 @@ Dado un conjunto de dependencias funcionales $F$, las reglas de Armstrong permit
 |--------------|------------------------------|----------------------|
 | **1FN** | Todos los dominios de los atributos son **atómicos** (valores escalares indivisibles, sin arrays ni tablas anidadas). | Multivalores y grupos repetitivos |
 | **2FN** | Cumple 1FN y **todo atributo no principal tiene dependencia funcional completa de cada clave candidata** (no depende de un subconjunto propio de una clave compuesta). | Dependencias parciales |
-| **3FN** | Cumple 2FN y **ningún atributo no principal depende transitivamente de ninguna clave** (para todo $X ightarrow A$, $X$ es superclave o $A$ es atributo primo). | Dependencias transitivas ($X ightarrow Y ightarrow Z$) |
-| **BCNF (Boyce-Codd)** | Para **toda** dependencia funcional no trivial $X ightarrow A$, $X$ es una **superclave** (clave candidata). | Anomalías en claves candidatas compuestas solapadas |
-| **4FN** | Cumple BCNF y para toda **dependencia multivaluada** $X 	woheadrightarrow Y$ no trivial, $X$ es superclave. | Redundancia por atributos multivaluados independientes |
+| **3FN** | Cumple 2FN y **ningún atributo no principal depende transitivamente de ninguna clave** (para todo $X 
+ightarrow A$, $X$ es superclave o $A$ es atributo primo). | Dependencias transitivas ($X 
+ightarrow Y 
+ightarrow Z$) |
+| **BCNF (Boyce-Codd)** | Para **toda** dependencia funcional no trivial $X 
+ightarrow A$, $X$ es una **superclave** (clave candidata). | Anomalías en claves candidatas compuestas solapadas |
+| **4FN** | Cumple BCNF y para toda **dependencia multivaluada** $X \twoheadrightarrow Y$ no trivial, $X$ es superclave. | Redundancia por atributos multivaluados independientes |
 | **5FN (Proyección-Unión)** | Cumple 4FN y no puede descomponerse en esquemas menores sin perder información mediante **dependencias de unión (JD)**. | Anomalías de unión en relaciones $N$-arias ($N \ge 3$) |
 
 ---

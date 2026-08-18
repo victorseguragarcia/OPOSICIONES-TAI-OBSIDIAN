@@ -64,9 +64,9 @@ La telefonía sobre IP (**VoIP**) integra la transmisión digitalizada de voz y 
 
 | Códec | Estándar ITU-T | Tasa de Bits | Algoritmo / Calidad | Ancho de Banda con Cabeceras |
 |-------|----------------|--------------|---------------------|------------------------------|
-| **G.711** | ITU-T G.711 | **64 kbps** | PCM ($\mu$-law en EEUU/Japón, A-law en Europa) | $\sim 87.2 	ext{ kbps}$ |
-| **G.729** | ITU-T G.729 | **8 kbps** | CS-ACELP (alta compresión) | $\sim 31.2 	ext{ kbps}$ |
-| **G.722** | ITU-T G.722 | **64 kbps** | SB-ADPCM (Voz HD / Wideband 7 kHz) | $\sim 87.2 	ext{ kbps}$ |
+| **G.711** | ITU-T G.711 | **64 kbps** | PCM ($\mu$-law en EEUU/Japón, A-law en Europa) | $\sim 87.2 \text{ kbps}$ |
+| **G.729** | ITU-T G.729 | **8 kbps** | CS-ACELP (alta compresión) | $\sim 31.2 \text{ kbps}$ |
+| **G.722** | ITU-T G.722 | **64 kbps** | SB-ADPCM (Voz HD / Wideband 7 kHz) | $\sim 87.2 \text{ kbps}$ |
 | **Opus** | IETF RFC 6716 | **6 a 510 kbps** | Dinámico / Adaptativo (estándar WebRTC) | Variable |
 
 ---

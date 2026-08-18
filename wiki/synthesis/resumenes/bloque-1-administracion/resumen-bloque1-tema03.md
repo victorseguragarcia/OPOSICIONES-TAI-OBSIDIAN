@@ -7,8 +7,7 @@ tags:
   - bloque-1
   - tema-03
   - derecho-administrativo
-  - age
-estado: "🔴 Pendiente"
+  - age\nestado: "🔴 Pendiente"
 dificultad: "⭐⭐⭐"
 prioridad: "Alta"
 sources:
@@ -71,7 +70,8 @@ updated: "2026-08-18"
 > 3. **Leyes de Armonización (Art. 150.3)**: No exigen Ley Orgánica, sino ley ordinaria cuya necesidad debe ser apreciada por **mayoría absoluta de cada Cámara**.
 
 > [!mnemo] 🧠 **Reglas Mnemotécnicas de Retención Visual**
-> - **Cláusulas de Cierre (Art. 149.3)**: **RE-PRE-SU** $ightarrow$ **RE**sidual, **PRE**valencia, **SU**pletoriedad.
+> - **Cláusulas de Cierre (Art. 149.3)**: **RE-PRE-SU** $
+ightarrow$ **RE**sidual, **PRE**valencia, **SU**pletoriedad.
 > - **Iniciativa Vía Lenta (143) vs Rápida (151)**: **2/3 Municipios** (Vía 143) vs **3/4 Municipios + Referéndum** (Vía 151).
 
 ---

@@ -39,17 +39,17 @@ Representar el número decimal **$-13,625$** en formato IEEE 754 de 32 bits (Sim
 2. **Conversión a Binario Puro**:
    - Parte entera ($13_{10}$): $13 = 8 + 4 + 1 = \mathbf{1101_2}$.
    - Parte fraccionaria ($0,625_{10}$):
-     - $0,625 	imes 2 = 1,25 
+     - $0,625 \times 2 = 1,25 
 ightarrow \mathbf{1}$
-     - $0,25 	imes 2 = 0,5 
+     - $0,25 \times 2 = 0,5 
 ightarrow \mathbf{0}$
-     - $0,5 	imes 2 = 1,0 
+     - $0,5 \times 2 = 1,0 
 ightarrow \mathbf{1}$
      - Fracción binaria: $\mathbf{0,101_2}$.
    - Número completo: $-1101,101_2$.
 
-3. **Normalización en Notación Científica Binaria ($1,M 	imes 2^E$)**:
-   $$-1101,101_2 = -1,101101_2 	imes 2^3$$
+3. **Normalización en Notación Científica Binaria ($1,M \times 2^E$)**:
+   $$-1101,101_2 = -1,101101_2 \times 2^3$$
    - Exponente real: $e = 3$.
    - Mantisa ($M$): $101101$ (el 1 inicial queda implícito).
 
@@ -75,7 +75,7 @@ ightarrow \mathbf{1}$
    - `0000` = `0`
    - `0000` = `0`
 
-   $$\mathbf{Resultado:}\quad 	ext{0xC15A0000}$$
+   $$\mathbf{Resultado:}\quad \text{0xC15A0000}$$
 
 ---
 
@@ -105,7 +105,7 @@ Calcular el número total de **Fallos de Página** (*Page Faults*) mediante los 
 | 9 | **2** | [4] | [2] | [0] | **SÍ (Fallo 8)** | Sale 3, entra 2 |
 | 10 | **3** | [4] | [2] | [3] | **SÍ (Fallo 9)** | Sale 0, entra 3 |
 
-$$	ext{Total Fallos FIFO} = \mathbf{9	ext{ Fallos de Página}}$$
+$$\text{Total Fallos FIFO} = \mathbf{9\text{ Fallos de Página}}$$
 
 ---
 
@@ -124,7 +124,7 @@ $$	ext{Total Fallos FIFO} = \mathbf{9	ext{ Fallos de Página}}$$
 | 9 | **2** | [4] | [0] | [2] | **SÍ (Fallo 7)** | Menos usado recientemente es 3; sale 3 |
 | 10 | **3** | [4] | [3] | [2] | **SÍ (Fallo 8)** | Menos usado recientemente es 0; sale 0 |
 
-$$	ext{Total Fallos LRU} = \mathbf{8	ext{ Fallos de Página}}$$
+$$\text{Total Fallos LRU} = \mathbf{8\text{ Fallos de Página}}$$
 
 ---
 
@@ -170,5 +170,5 @@ $$Available = Total - \sum Alloc = (10, 5, 7) - (7, 2, 5) = \mathbf{(3, 3, 2)}$$
    - ¿Puede ejecutarse $P4$? $Need(4, 3, 1) \le (10, 5, 5) $\rightarrow$ **SÍ**.
      - $P4$ termina y todos los procesos finalizan.
 
-$$\mathbf{Conclusión:}\quad 	ext{El sistema está en ESTADO SEGURO con la secuencia }\langle P1, P3, P0, P2, P4 
+$$\mathbf{Conclusión:}\quad \text{El sistema está en ESTADO SEGURO con la secuencia }\langle P1, P3, P0, P2, P4 
 angle.$$

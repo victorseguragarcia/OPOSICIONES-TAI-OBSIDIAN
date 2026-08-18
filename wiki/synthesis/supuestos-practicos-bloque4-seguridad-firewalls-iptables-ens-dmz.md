@@ -108,7 +108,7 @@ Determine:
 > [!question]- 🔍 Solución Detallada Pregunta 2
 > **1. Categoría Global de Seguridad**:
 > - Principio de la dimensión más exigente:
->   $$	ext{Categoría Global} = \max(D, A, I, C, T) = \max(	ext{Medio}, 	ext{Alto}, 	ext{Alto}, 	ext{Medio}, 	ext{Alto}) = \mathbf{ALTA}$$
+>   $$\text{Categoría Global} = \max(D, A, I, C, T) = \max(\text{Medio}, \text{Alto}, \text{Alto}, \text{Medio}, \text{Alto}) = \mathbf{ALTA}$$
 > 
 > **2. Obligatoriedad de Auditoría de Seguridad (Art. 34 ENS)**:
 > - Para sistemas de categoría **MEDIA o ALTA**, es **OBLIGATORIA una Auditoría de Seguridad periódica al menos cada 2 AÑOS** (o con carácter extraordinario si se producen modificaciones sustanciales en el sistema).

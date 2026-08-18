@@ -7,8 +7,7 @@ tags:
   - bloque-1
   - tema-10
   - derecho-administrativo
-  - age
-estado: "🔴 Pendiente"
+  - age\nestado: "🔴 Pendiente"
 dificultad: "⭐⭐⭐"
 prioridad: "Alta"
 sources:
@@ -63,7 +62,10 @@ updated: "2026-08-18"
 > 4. **Entidades Privadas Afectadas**: Subvenciones $>100.000$ € o más del 40% de ingresos públicos.
 
 > [!mnemo] 🧠 **Reglas Mnemotécnicas de Retención Visual**
-> - **Plazos Transparencia**: **1 Mes Solicitud** $ightarrow$ **1 Mes Prórroga** $ightarrow$ **1 Mes Reclamación CTBG** $ightarrow$ **3 Meses Resolución CTBG**.
+> - **Plazos Transparencia**: **1 Mes Solicitud** $
+ightarrow$ **1 Mes Prórroga** $
+ightarrow$ **1 Mes Reclamación CTBG** $
+ightarrow$ **3 Meses Resolución CTBG**.
 > - **Silencio en Transparencia**: **SIEMPRE NEGATIVO (Desestimatorio)**.
 
 ---

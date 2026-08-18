@@ -7,8 +7,7 @@ tags:
   - bloque-1
   - tema-07
   - derecho-administrativo
-  - age
-estado: "🔴 Pendiente"
+  - age\nestado: "🔴 Pendiente"
 dificultad: "⭐⭐⭐"
 prioridad: "Alta"
 sources:
@@ -80,8 +79,10 @@ updated: "2026-08-18"
 > 4. **Resolución del Recurso de Reposición**: Plazo máximo de **1 mes** (el de alzada son 3 meses).
 
 > [!mnemo] 🧠 **Reglas Mnemotécnicas de Retención Visual**
-> - **Plazos de Resolución de Recursos**: **AL-3 / RE-1 / REV-3** $ightarrow$ **AL**zada 3 meses, **RE**posición 1 mes, **REV**isión 3 meses.
-> - **Excepciones de Silencio Negativo**: **PE-DO-ME-RES-REC** $ightarrow$ **PE**tición, **DO**minio público, **ME**dio ambiente, **RES**ponsabilidad patrimonial, **REC**ursos.
+> - **Plazos de Resolución de Recursos**: **AL-3 / RE-1 / REV-3** $
+ightarrow$ **AL**zada 3 meses, **RE**posición 1 mes, **REV**isión 3 meses.
+> - **Excepciones de Silencio Negativo**: **PE-DO-ME-RES-REC** $
+ightarrow$ **PE**tición, **DO**minio público, **ME**dio ambiente, **RES**ponsabilidad patrimonial, **REC**ursos.
 
 ---
 

@@ -65,7 +65,7 @@ Resumen procesado y profundizado a partir de la fuente oficial [[raw/sources/blo
 
 ## 🔵 3. Gestión de Memoria Virtual y Algoritmos de Reemplazo
 
-- **Paginación**: División del espacio lógico en **Páginas** de tamaño fijo ($4	ext{ KB}$) y la memoria física en **Marcos de Página (*Frames*)**.
+- **Paginación**: División del espacio lógico en **Páginas** de tamaño fijo ($4\text{ KB}$) y la memoria física en **Marcos de Página (*Frames*)**.
   - **Tabla de Páginas**: Traduce dirección lógica (número de página + desplazamiento) a física.
   - **TLB (Translation Lookaside Buffer)**: Caché hardware asociativa para acelerar la traducción de direcciones.
 - **Algoritmos de Reemplazo de Páginas**:
@@ -81,7 +81,7 @@ Resumen procesado y profundizado a partir de la fuente oficial [[raw/sources/blo
 
 | Sistema de Archivos | Tamaño Máximo de Archivo | Tamaño Máximo de Volumen | Características Clave de Examen |
 |---------------------|--------------------------|--------------------------|---------------------------------|
-| **FAT32** | **4 GB** ($2^{32}-1	ext{ bytes}$) | **2 TB** (8 TB teórico) | Sin permisos avanzados, sin journaling, máxima compatibilidad |
+| **FAT32** | **4 GB** ($2^{32}-1\text{ bytes}$) | **2 TB** (8 TB teórico) | Sin permisos avanzados, sin journaling, máxima compatibilidad |
 | **exFAT** | 16 EB | 128 PB | Diseñado para memorias flash extraíbles |
 | **NTFS** | **16 TB** (hasta 8 PB en Win10/Srv) | 256 TB | **Journaling**, permisos **ACLs**, compresión, cifrado nativo **EFS**, cuotas |
 | **ext4** | **16 TB** | **1 EB** | **Journaling** (Journal, Ordered, Writeback), asignación multiloque (*Extents*), inodos |
@@ -94,7 +94,7 @@ Resumen procesado y profundizado a partir de la fuente oficial [[raw/sources/blo
 
 | Concepto | Especificación Técnica |
 |----------|------------------------|
-| **Límite de archivo FAT32** | **4 GB** (si se intenta copiar un archivo $>4	ext{ GB}$ da error) |
+| **Límite de archivo FAT32** | **4 GB** (si se intenta copiar un archivo $>4\text{ GB}$ da error) |
 | **Anomalía de Belady** | Fenómeno donde aumentar el número de marcos de memoria física incrementa el número de fallos de página (ocurre en **FIFO**). |
 | **Condiciones de Coffman** | **4 condiciones simultáneas** para que ocurra un Deadlock. |
 | **Journaling** | Registro de transacciones previas a la escritura para garantizar la recuperación rápida tras fallos de energía. |

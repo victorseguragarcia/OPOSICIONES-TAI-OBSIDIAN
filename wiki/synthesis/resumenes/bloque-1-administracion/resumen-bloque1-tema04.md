@@ -7,8 +7,7 @@ tags:
   - bloque-1
   - tema-04
   - derecho-administrativo
-  - age
-estado: "🔴 Pendiente"
+  - age\nestado: "🔴 Pendiente"
 dificultad: "⭐⭐⭐"
 prioridad: "Alta"
 sources:
@@ -66,7 +65,8 @@ updated: "2026-08-18"
 > 3. **Reglamento vs Directiva**: El *Reglamento* es directamente aplicable sin norma interna; la *Directiva* exige SIEMPRE transposición por ley o real decreto nacional.
 
 > [!mnemo] 🧠 **Reglas Mnemotécnicas de Retención Visual**
-> - **Mayoría Cualificada del Consejo**: **55 / 65** $ightarrow$ **55% Estados** y **65% Población**.
+> - **Mayoría Cualificada del Consejo**: **55 / 65** $
+ightarrow$ **55% Estados** y **65% Población**.
 > - **Mandato del Presidente del BCE**: **8 AÑOS NO RENOVABLE** (el del Presidente del Consejo Europeo es 2,5 años reelegible 1 vez).
 
 ---

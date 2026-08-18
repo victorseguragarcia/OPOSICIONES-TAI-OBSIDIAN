@@ -6,8 +6,7 @@ tags:
   - temario-extendido
   - bloque-1
   - tema-10
-  - oposiciones-tai
-estado: "🔴 Por Estudiar"
+  - oposiciones-tai\nestado: "🔴 Por Estudiar"
 dificultad: "⭐⭐⭐"
 prioridad: "Máxima"
 sources:

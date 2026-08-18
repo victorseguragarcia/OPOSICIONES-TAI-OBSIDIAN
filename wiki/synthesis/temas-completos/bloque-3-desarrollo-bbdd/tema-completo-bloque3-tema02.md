@@ -6,8 +6,7 @@ tags:
   - temario-extendido
   - bloque-3
   - tema-02
-  - oposiciones-tai
-estado: "🔴 Por Estudiar"
+  - oposiciones-tai\nestado: "🔴 Por Estudiar"
 dificultad: "⭐⭐⭐"
 prioridad: "Máxima"
 sources:
@@ -336,8 +335,7 @@ Las instrucciones se codifican como sucesiones de ceros y unos (bits, lenguaje b
 lenguaje que entiende el ordenador. 
 Cada procesador tiene un lenguaje máquina específico constituido por un repertorio reducido de 
 operaciones. Por lo tanto, el lenguaje máquina depende directamente del hardware. 
-El lenguaje máquina es muy complicado, debemos escribir cadenas binarias, siendo muy fácil cometer 
-errores al escribirlo y es poco eficiente a todos los niveles (escritura, interpretación, depuración y 
+El lenguaje máquina es muy complicado, debemos escribir cadenas binarias, siendo muy fácil cometer \nerrores al escribirlo y es poco eficiente a todos los niveles (escritura, interpretación, depuración y 
 mantenimiento). 
 2.2.2. Lenguaje de bajo nivel (ensamblador) 
 Es un lenguaje orientado a máquina. 
@@ -390,8 +388,7 @@ como acceder directamente a la memoria, por ello se considera
 también un lenguaje de medio nivel. 
  
  
-Son muy indicados para la creación de sistemas operativos, ya que no depende del hardware, pero sin 
-embargo no pierden toda la eficiencia de los lenguajes de bajo nivel. 
+Son muy indicados para la creación de sistemas operativos, ya que no depende del hardware, pero sin \nembargo no pierden toda la eficiencia de los lenguajes de bajo nivel. 
 
 <!-- Page 10 -->
 
@@ -423,8 +420,7 @@ Desventajas
 programa interprete o compilador). 
 • El nivel de detalle que un lenguaje de bajo nivel permite en la interacción con los componentes 
 físicos, registros, memoria y operaciones suele ser mayor que el de los lenguajes de alto nivel. 
-Sin embargo, los compiladores modernos pueden realizar optimizaciones que resultan ser más 
-eficientes que el código escrito en ensamblador. Estas optimizaciones dependen en gran medida 
+Sin embargo, los compiladores modernos pueden realizar optimizaciones que resultan ser más \neficientes que el código escrito en ensamblador. Estas optimizaciones dependen en gran medida 
 de la sofisticación del entorno de programación utilizado. 
 
 <!-- Page 11 -->
@@ -436,10 +432,8 @@ Lenguajes de programación
 2.3. Linker (enlazador) 
 Pasa de un programa objeto a un programa ejecutable. 
 Es un programa que toma los objetos generados en los primeros pasos del proceso de compilación, la 
-información de todos los recursos necesarios (biblioteca), quita aquellos recursos que no necesita, y 
-enlaza el código objeto con su(s) biblioteca(s) con lo que finalmente produce un fichero ejecutable o 
-una biblioteca. En el caso de los programas enlazados dinámicamente, el enlace entre el programa 
-ejecutable y las bibliotecas se realiza en tiempo de carga o ejecución del programa. 
+información de todos los recursos necesarios (biblioteca), quita aquellos recursos que no necesita, y \nenlaza el código objeto con su(s) biblioteca(s) con lo que finalmente produce un fichero ejecutable o 
+una biblioteca. En el caso de los programas enlazados dinámicamente, el enlace entre el programa \nejecutable y las bibliotecas se realiza en tiempo de carga o ejecución del programa. 
 2.4. Programas traductores 
 Los programas escritos en los distintos lenguajes deben ser traducidos a lenguaje máquina para que el 
 ordenador pueda interpretarlas. Para ello existen diversos programas traductores que se pueden 
@@ -470,8 +464,7 @@ Lenguajes de programación
 12 
 • Programa ejecutable: es el archivo que se ejecuta. 
 La diferencia principal entre el archivo objeto y el archivo ejecutable es que un archivo 
-objeto es un archivo que se genera al compilar el código fuente, mientras que un archivo 
-ejecutable es una mezcla del archivo objeto vinculándole un conjunto de librerías mediante 
+objeto es un archivo que se genera al compilar el código fuente, mientras que un archivo \nejecutable es una mezcla del archivo objeto vinculándole un conjunto de librerías mediante 
 un enlazador. 
 En el caso de no tener que enlazar librerías el objeto y el ejecutable serán el mismo. 
 Las fases de la compilación son las siguientes: 
@@ -533,8 +526,7 @@ la suma ni como la procesa el ordenador en lenguaje máquina.
 Lenguajes de programación 
 14 
 En la abstracción realizamos dos procesos: 
-• Determinar los aspectos relevantes del problema en el nivel de abstracción que estamos 
-estudiando. 
+• Determinar los aspectos relevantes del problema en el nivel de abstracción que estamos \nestudiando. 
 • Ignorar los aspectos irrelevantes. 
 Muy importante, tener en cuenta que, un aspecto irrelevante en un determinado nivel de abstracción 
 puede resultar relevante en otro nivel. 
@@ -573,8 +565,7 @@ Lenguajes de programación
 15 
 2.6. Paradigmas de programación 
 La evolución de los lenguajes de programación ha ido paralela a la idea de paradigma de programación. 
-Los paradigmas de programación, son estilos de desarrollos de programas, representan los diferentes 
-enfoques para la construcción de un programa dependiendo del problema a resolver. 
+Los paradigmas de programación, son estilos de desarrollos de programas, representan los diferentes \nenfoques para la construcción de un programa dependiendo del problema a resolver. 
 Los podemos clasificar según su manera de enfrentarse a los problemas y por tanto el tipo de soluciones 
 que ofrecerá el programa creado. 
 Existen muchos tipos de paradigma, los más clásicos e importantes son: 
@@ -591,8 +582,7 @@ realice alguna tarea específica.
 Cada instrucción es una orden u órdenes. 
 Ejemplos de lenguajes imperativos: COBOL, PASCAL, C, Ada y FORTRAN. 
 • Declarativos. 
-El paradigma declarativo, solicita al programador que describa el problema en lugar de 
-encontrar una solución. 
+El paradigma declarativo, solicita al programador que describa el problema en lugar de \nencontrar una solución. 
 Un lenguaje declarativo utiliza el principio del razonamiento lógico para responder a las 
 preguntas o cuestiones consultadas. Se basa en la lógica formal y en el cálculo de predicados de 
 primer orden. 
@@ -645,8 +635,7 @@ computadoras y el lenguaje humano.
 Lenguajes de programación 
 17 
 Algunos lenguajes y plataformas como Wolfram Alpha y SQL permiten consultas o 
-interacciones que se acercan al lenguaje natural, pero todavía requieren una estructura 
-específica que los distingue de un lenguaje completamente natural. 
+interacciones que se acercan al lenguaje natural, pero todavía requieren una estructura \nespecífica que los distingue de un lenguaje completamente natural. 
 Estos lenguajes se considerarían 5GL. 
 • Orientado a datos, Lenguajes de desarrollo Rápido de Aplicaciones (RAD): 
 Estos paradigmas incluyen lenguajes de cuarta generación (4GL). Se caracterizan por su 
@@ -664,8 +653,7 @@ Mientras en la programación secuencial (o estructurada) es el programador, el q
 cuál va a ser el flujo del programa, en la programación dirigida por eventos, será el propio 
 usuario (o lo que esté accionando el programa), el que dirija el flujo del programa. 
 Puede haber intervención de un agente externo al programa, en cualquier momento. 
-Si bien el paradigma de la programación dirigida por eventos puede considerarse antiguo y 
-está vinculada a lenguajes de 3GL es un tipo de enfoque que sigue siendo usado 
+Si bien el paradigma de la programación dirigida por eventos puede considerarse antiguo y \nestá vinculada a lenguajes de 3GL es un tipo de enfoque que sigue siendo usado 
 cotidianamente en distintos frameworks JavaScript como React, Angular o Vue.js. 
 • Orientado a aspectos: 
 La Programación Orientada a Aspectos o POA (en inglés AOP: Aspect-Oriented 
@@ -743,8 +731,7 @@ Pseudocódigo español
 comienzo de proceso 
 begin 
 inicio 
-fin de proceso 
-end 
+fin de proceso \nend 
 fin 
 
 <!-- Page 20 -->
@@ -805,8 +792,7 @@ Una bifurcación interrumpe la secuencia lineal de un programa.
 Hay dos tipos: 
 • Incondicional: la bifurcación se realiza siempre que el flujo del programa pase por la instrucción 
 sin necesidad del cumplimiento de ninguna condición. 
-• Condicional: la bifurcación se realiza de modo condicional en función del resultado de la 
-evaluación de una condición. 
+• Condicional: la bifurcación se realiza de modo condicional en función del resultado de la \nevaluación de una condición. 
 3.2. Elementos básicos de un programa 
 Los lenguajes de programación tienen elementos básicos que se utilizan como bloques constructivos, 
 así como reglas para que esos elementos se combinan. 
@@ -867,8 +853,7 @@ positivos.
 • Real: los números reales tienen una parte decimal y pueden ser positivos o negativos. Un 
 número real consta de un entero y una parte decimal. 
 3.3.1.2. Datos lógicos (booleanos) 
-Es aquel que puede tomar uno de dos valores (verdadero o falso, 0 o 1, sí o no, etcétera). Se utilizan en 
-estructuras condicionales. 
+Es aquel que puede tomar uno de dos valores (verdadero o falso, 0 o 1, sí o no, etcétera). Se utilizan en \nestructuras condicionales. 
 3.3.1.3. Datos tipo carácter 
 Un dato tipo carácter contiene un solo carácter. Los caracteres que reconocen las diferentes 
 computadoras no son estándar. 
@@ -891,8 +876,7 @@ El experto opina
 Algunos autores definen la cadena de caracteres como un tipo de 
 dato simple. 
 Es cierto que la mayoría de los lenguajes lo tienen como variable 
-básica, pero en realidad es una estructura formada por varios 
-elementos de tipo carácter. 
+básica, pero en realidad es una estructura formada por varios \nelementos de tipo carácter. 
  
 3.3.2. Estructurados compuestos 
 Una estructura de datos es una colección de datos que pueden ser caracterizados por su organización y 
@@ -951,8 +935,7 @@ Set
 Ficheros 
 File 
 Soporte con 
-bibliotecas de 
-entrada/salida 
+bibliotecas de \nentrada/salida 
 Funciones, 
 p.e fopen/ 
 fwrite 
@@ -1032,11 +1015,9 @@ No tienen restricciones de tamaño o memoria ocupada.
 3.4. Constantes y variables 
 Veamos la diferencia: 
 • Constante: 
-Es un dato que permanece sin cambios durante todo el desarrollo del algoritmo o durante la 
-ejecución del programa. 
+Es un dato que permanece sin cambios durante todo el desarrollo del algoritmo o durante la \nejecución del programa. 
 • Variable: 
-Es un objeto o tipo de datos cuyo valor puede cambiar durante el desarrollo del algoritmo o 
-ejecución del programa. 
+Es un objeto o tipo de datos cuyo valor puede cambiar durante el desarrollo del algoritmo o \nejecución del programa. 
 Dependiendo del lenguaje, hay diferentes tipos de variables, tales como enteras, reales, 
 carácter, lógicas y de cadena. 
 
@@ -1241,8 +1222,7 @@ Se ejecutan en el siguiente orden:
 • Operadores de relación. 
 Si se utilizan paréntesis, estos siempre tendrán prioridad. 
 3.6. Escritura de algoritmos y programas 
-La escritura de un algoritmo mediante una herramienta de programación debe ser lo más clara posible y 
-estructurada, de modo que su lectura facilite considerablemente el entendimiento del algoritmo y su 
+La escritura de un algoritmo mediante una herramienta de programación debe ser lo más clara posible y \nestructurada, de modo que su lectura facilite considerablemente el entendimiento del algoritmo y su 
 posterior codificación en un lenguaje de programación. 
 Un algoritmo consta de dos componentes: 
 • Una cabecera de programa. 
@@ -1265,8 +1245,7 @@ comentarios, las cuales dependen del lenguaje de programación utilizado.
 Lenguajes de programación 
 33 
 Algoritmo ejemplo: 
-// Cabecera del programa. Aquí se podrían definir lo que hace el algoritmo, las 
-entradas y las salidas. 
+// Cabecera del programa. Aquí se podrían definir lo que hace el algoritmo, las \nentradas y las salidas. 
       //Sección de declaración 
       var 
       entera : N 
@@ -1287,8 +1266,7 @@ decir, que las sentencias se ejecutan una detrás de otra en el orden en el que 
 programa. 
 Las estructuras de control de flujo permiten que el flujo secuencial del programa sea modificado de un 
 modo preciso y definido con anterioridad. 
-Cualquier algoritmo, no importa su complejidad, puede ser construido utilizando combinaciones de las 
-estructuras de control de flujo estandarizadas. 
+Cualquier algoritmo, no importa su complejidad, puede ser construido utilizando combinaciones de las \nestructuras de control de flujo estandarizadas. 
 Las estructuras de control son: 
 • Secuenciales. 
 • Selectivas. 
@@ -1308,8 +1286,7 @@ sucesivamente hasta el final del proceso. La estructura secuencial tiene una ent
 4.2. Estructuras de control selectivas 
 Las estructuras selectivas se utilizan para tomar decisiones lógicas cuando existen un número de 
 posibles alternativas resultantes de la evaluación de determinada condición. 
-La representación de una estructura selectiva se hace con instrucciones de pseudocódigo (if, then, else; 
-en español, si, entonces, sino), con una figura geométrica de rombo, o bien con un triángulo en el 
+La representación de una estructura selectiva se hace con instrucciones de pseudocódigo (if, then, else; \nen español, si, entonces, sino), con una figura geométrica de rombo, o bien con un triángulo en el 
 interior de una caja rectangular. 
 Las estructuras selectivas pueden ser: 
 • Simples (si-entonces/ if-then). 
@@ -1352,12 +1329,10 @@ Las estructuras si/if interiores a otras estructuras si/if se denominan anidadas
 recomendable utilizar indentación (sangría o sangrado) al escribir el código. 
  
 4.2.4. Estructura selectiva múltiple (según-sea, caso-de/case) 
-En el caso de que haya más de dos opciones posibles, se podría resolver el problema anidando 
-estructuras simples o dobles. 
+En el caso de que haya más de dos opciones posibles, se podría resolver el problema anidando \nestructuras simples o dobles. 
 Sin embargo, si las alternativas son muchas, esto puede provocar problemas de legibilidad. 
 La estructura selectiva múltiple evaluará una expresión que podrá tomar n valores distintos 1, 2, 3, …, n. 
-Según se elija uno de estos n valores en la condición se realizará una de las n acciones, o lo que es igual, 
-el flujo del algoritmo seguirá un determinado camino entre los n posibles. 
+Según se elija uno de estos n valores en la condición se realizará una de las n acciones, o lo que es igual, \nel flujo del algoritmo seguirá un determinado camino entre los n posibles. 
 
 <!-- Page 37 -->
 
@@ -1409,8 +1384,7 @@ bloque.
 La expresión booleana va después de la ejecución del bucle, siempre se ejecuta la instrucción como 
 mínimo una vez, y se repite hasta que el resultado de la condición sea "verdadero". 
 Diferencias con el buce While: 
-El bucle Repeat...Until siempre se ejecuta por lo menos una vez, mientras que, While puede no 
-ejecutarse ninguna vez si la expresión boolena es inicialmente falsa. 
+El bucle Repeat...Until siempre se ejecuta por lo menos una vez, mientras que, While puede no \nejecutarse ninguna vez si la expresión boolena es inicialmente falsa. 
 4.3.3. Estructura repetitiva para (For) 
 La condición de salida del bucle se realiza con un contador que indica el número de iteraciones, la 
 instrucción se repite el número de veces determinado que indicamos. 
@@ -1442,8 +1416,7 @@ Comportamiento del programa según se produzca o no el salto:
 • El salto resulta efectivo. 
 La siguiente instrucción ejecutada será aquella marcada como destino del salto. 
 • El salto no es efectivo. 
-El flujo de programa no cambia, por tanto, se ejecuta inmediatamente la siguiente instrucción 
-en el código. 
+El flujo de programa no cambia, por tanto, se ejecuta inmediatamente la siguiente instrucción \nen el código. 
 
 <!-- Page 41 -->
 
@@ -1488,10 +1461,8 @@ realizar una tarea específica, devolviendo un valor al final.
 function suma($num, $num2) { 
   $resultado = $num + $num2; 
 return $resultado; 
-} 
-echo suma(5,3); 
-• procedimiento puede considerarse como una función que no devuelve valor (void en C, None 
-en Python).  
+} \necho suma(5,3); 
+• procedimiento puede considerarse como una función que no devuelve valor (void en C, None \nen Python).  
 //ejemplo de procedimiento en PHP 
 function saludo ($nombre) { 
     echo "Hola $nombre"; 
@@ -1499,8 +1470,7 @@ function saludo ($nombre) {
 saludo("Pedro"); 
 Sin embargo, en lenguajes clásicos como Pascal o PL/SQL se hace una distinción formal: las funciones 
 devuelven valor y los procedimientos no, aunque ambos sean bloques de código invocables. Así pues 
-según la definición clásica el procedimiento: no devuelve un valor como tal, pero sí puede producir 
-efectos en las variables del programa llamador mediante parámetros por referencia, o realizando 
+según la definición clásica el procedimiento: no devuelve un valor como tal, pero sí puede producir \nefectos en las variables del programa llamador mediante parámetros por referencia, o realizando 
 acciones como imprimir, escribir en un archivo, etc. 
 Todos los lenguajes de programación tienen funciones incorporadas y funciones definidas por el 
 usuario. 
@@ -1565,15 +1535,13 @@ Una llamada a la función implica los siguientes pasos:
 5.3. Parámetros formales y actuales 
 Parámetros formales y actuales en los subalgoritmos: 
 • Parámetro formal. 
-Son los parámetros que aparecen en la definición de un subalgoritmo, función o procedimiento, 
-escritos en la cabecera de éste. Actúan como variables "molde" o "contenedor", que recibirán 
+Son los parámetros que aparecen en la definición de un subalgoritmo, función o procedimiento, \nescritos en la cabecera de éste. Actúan como variables "molde" o "contenedor", que recibirán 
 los valores concretos (parámetros actuales) cuando el subalgoritmo sea invocado. 
 Los parámetros formales sólo pueden ser variables. 
 • Parámetro actual. 
 También llamados argumentos. Se encuentran en la llamada al subalgoritmo. Son los valores, 
 constantes, variables o expresiones que se pasan en la llamada a un subalgoritmo (función o 
-procedimiento). Representan los datos concretos que sustituyen a los parámetros formales en 
-el momento de la invocación. 
+procedimiento). Representan los datos concretos que sustituyen a los parámetros formales en \nel momento de la invocación. 
 
 <!-- Page 45 -->
 
@@ -1588,12 +1556,10 @@ Imprescindible
 Cada vez que, un subalgoritmo es llamado, se establece una 
 correspondencia entre los parámetros actuales o argumentos y los 
 parámetros formales de tipo posicional. Es importante respetar la 
-consistencia de tipos. Si no hay consistencia numérica y/o de tipo, 
-el compilador detectara un error. 
+consistencia de tipos. Si no hay consistencia numérica y/o de tipo, \nel compilador detectara un error. 
  
 5.3.1. Parámetros. Paso por valor o por referencia 
-El conjunto ordenado de todos los parámetros que aparecen en su definición (parámetros formales) o 
-en su invocación (parámetros actuales) se denomina lista de parámetros. 
+El conjunto ordenado de todos los parámetros que aparecen en su definición (parámetros formales) o \nen su invocación (parámetros actuales) se denomina lista de parámetros. 
 Cuando se invoca una función o procedimiento, cada parámetro formal toma como valor inicial el valor 
 del correspondiente parámetro actual. 
 Cuando un programa llama a un subprograma, función o procedimiento, la información se comunica a 
@@ -1608,8 +1574,7 @@ parámetros actuales y con ello se ejecutan las acciones descritas en el subprog
 parámetros son solo de entrada. La llamada por valor no devuelve información al programa que 
 llama. 
 • Paso por referencia o dirección (también conocido por parámetro variable). 
-En numerosas ocasiones se requiere que ciertos parámetros sirvan como parámetros de salida, 
-es decir, se devuelvan los resultados a la unidad o programas que llama. 
+En numerosas ocasiones se requiere que ciertos parámetros sirvan como parámetros de salida, \nes decir, se devuelvan los resultados a la unidad o programas que llama. 
 Este método se denomina paso por referencia, o también llamada por dirección o por variable. 
 En este caso, la invocación pasa como argumento la dirección de memoria de la variable, lo que 
 permite que el subalgoritmo pueda modificar directamente su valor en el ámbito original. 
@@ -1628,8 +1593,7 @@ Lenguajes de programación
 Fuente: Pixabay 
 La recursividad es la propiedad mediante la cual un subprograma o rutina puede llamarse a sí mismo 
 para realizar una tarea, es decir, se define en función de sí mismo. 
-Es una herramienta muy potente y útil en la resolución de problemas de naturaleza recursiva. Para 
-evitar que la recursión continúe indefinidamente es preciso incluir una condición de terminación. 
+Es una herramienta muy potente y útil en la resolución de problemas de naturaleza recursiva. Para \nevitar que la recursión continúe indefinidamente es preciso incluir una condición de terminación. 
 Ejemplo: cálculo de un número factorial 
 Planteamiento del problema: 
 Sin recursividad: 
@@ -1638,8 +1602,7 @@ n!=n∗(n−1)∗(n−2)∗⋯∗1 si n>0
 Recursivamente: 
 n!=1 si n=0 
 n!=n∗(n−1)! si n>0 
-Pseudocódigo: 
-entero: función factorial(E entero: n) 
+Pseudocódigo: \nentero: función factorial(E entero: n) 
 //calculo recursivo del factorial 
 Inicio 
 si n = 0 entonces 
@@ -1742,8 +1705,7 @@ ordenador DEC PDP-11, con S.O. UNIX.
  
  
 Puesto que desde la creación del lenguaje C, surgieron diferentes versiones, con diferencias palabras 
-reservadas etc. Fue necesario unificar el lenguaje C, creándose el estándar de C, llamado ANSI-C. De 
-esta forma en programa en C es portable de un compilador a otro y de un ordenador a otro. 
+reservadas etc. Fue necesario unificar el lenguaje C, creándose el estándar de C, llamado ANSI-C. De \nesta forma en programa en C es portable de un compilador a otro y de un ordenador a otro. 
  
 
 <!-- Page 50 -->
@@ -1775,8 +1737,7 @@ aplicaciones: sistemas operativos, hojas de cálculo, gestores de bases de datos
 • Baja comprobación de incorrecciones, dejando bajo la responsabilidad del programador 
 acciones que otros lenguajes realizan por sí mismo. Por ejemplo, C no comprueba que el índice 
 de referencia de un array no sobrepase el tamaño del mismo, etc. 
-• Es un lenguaje portable: es independiente del hardware y del sistema operativo. Los programas 
-escritos en C son fácilmente portables a otros sistemas. 
+• Es un lenguaje portable: es independiente del hardware y del sistema operativo. Los programas \nescritos en C son fácilmente portables a otros sistemas. 
 • El compilador debe ser lo más pequeño y eficiente posible. 
 • Tiene pocas palabras reservadas y un conjunto reducido de sentencias. 
 • No existe anidamiento de procedimientos. 
@@ -1853,8 +1814,7 @@ Tipos:
 En C, los punteros son tipos de datos derivados (no primitivos). 
 Existen punteros de distintos tipos definidos por la especificación de su tipo base: int*, char*, 
 float*, etc.  
-El operador * cumple en C dos funciones bien distintas según el contexto si es en declaración o 
-en expresiones: 
+El operador * cumple en C dos funciones bien distintas según el contexto si es en declaración o \nen expresiones: 
 • en la declaración: indica que una variable es un puntero al tipo base (por ejemplo, int *p;) 
 • en expresiones: desreferencia el puntero (*p) para acceder al contenido de la dirección que 
 almacena. 
@@ -1949,8 +1909,7 @@ Si el programa contiene sentencias que impliquen modificar esta variable num, el
 compilara. 
 7.1.1.3.1. Definir un array 
 Se puede definir un array (matriz o arreglo) de diferentes tipos de datos, en la sintaxis debemos indicar 
-primero el tipo de datos, a continuación, el nombre del array y entre corchetes el tamaño máximo de 
-elementos del mismo, terminando con "punto y coma". Si se inicializa con valores y no se indica entre 
+primero el tipo de datos, a continuación, el nombre del array y entre corchetes el tamaño máximo de \nelementos del mismo, terminando con "punto y coma". Si se inicializa con valores y no se indica entre 
 corchetes ningún valor, este será el número de valores asignados. 
 
 <!-- Page 56 -->
@@ -2014,16 +1973,13 @@ auto
 double 
 int 
 struct 
-break 
-else 
+break \nelse 
 long 
 switch 
-case 
-enum 
+case \nenum 
 register 
 typedef 
-char 
-extern 
+char \nextern 
 return 
 union 
 const 
@@ -2245,11 +2201,9 @@ math.h)
 Precedencia y asociatividad de los operadores 
 La prioridad y asociatividad de los operadores de C afectan a la agrupación y evaluación de los 
 operandos en las expresiones. 
-La prioridad de un operador solo es significativa si otros operadores con una prioridad mayor o menor 
-están presentes. 
+La prioridad de un operador solo es significativa si otros operadores con una prioridad mayor o menor \nestán presentes. 
 Las expresiones con operadores de mayor prioridad se evalúan primero. La prioridad también se puede 
-describir con la palabra "enlace". Se dice que los operadores con mayor prioridad tienen un enlace más 
-estricto. 
+describir con la palabra "enlace". Se dice que los operadores con mayor prioridad tienen un enlace más \nestricto. 
 En la tabla siguiente se resume la prioridad y asociatividad (el orden en que se evalúan los operandos) 
 de los operadores de C, que se enumeran por orden de prioridad, de mayor a menor. 
 Cuando varios operadores aparecen juntos, tienen la misma prioridad y se evalúan según su 
@@ -2328,18 +2282,14 @@ operador de multiplicación (*), adición (+) o binario bit a bit (&, | o ^) en 
  
 Lenguajes de programación 
 63 
-El orden de las operaciones no lo define el lenguaje. El compilador es libre de evaluar estas expresiones 
-en cualquier orden, si puede garantizar un resultado coherente. 
+El orden de las operaciones no lo define el lenguaje. El compilador es libre de evaluar estas expresiones \nen cualquier orden, si puede garantizar un resultado coherente. 
 Solo los operadores de evaluación secuencial (,), AND lógico (&&), OR lógico (||), expresión 
-condicional (? :) y llamada a función constituyen puntos de secuencia y, garantizando un orden de 
-evaluación concreto para sus operandos. 
+condicional (? :) y llamada a función constituyen puntos de secuencia y, garantizando un orden de \nevaluación concreto para sus operandos. 
 El operador de llamada a función es el conjunto de paréntesis que siguen al identificador de función. 
 Está garantizado que el operador de evaluación secuencial (,) evalúa sus operandos de izquierda a 
 derecha. (El operador de coma en una llamada a función no es igual que el operador de evaluación 
 secuencial y no proporciona esta garantía). 
-Los operadores lógicos también garantizan la evaluación de sus operandos de izquierda a derecha. Sin 
-embargo, evalúan el número más pequeño de operandos necesarios para determinar el resultado de la 
-expresión. Esto se denomina evaluación de "cortocircuito". Por tanto, es posible que algunos operandos 
+Los operadores lógicos también garantizan la evaluación de sus operandos de izquierda a derecha. Sin \nembargo, evalúan el número más pequeño de operandos necesarios para determinar el resultado de la \nexpresión. Esto se denomina evaluación de "cortocircuito". Por tanto, es posible que algunos operandos 
 de la expresión no se evalúen. 
 Por ejemplo, en la expresión x && y++ 
 Se evalúa el segundo operando, y++, solo si x es true (distinto de cero). 
@@ -2433,10 +2383,7 @@ Los Tokens se agrupan en sentencias que pueden ser:
  
 Atención 
 Sentencias ("Statements"). 
-Especifican y controlan el flujo de ejecución del programa. Si no 
-existen sentencias específicas de selección o salto, el programa se 
-ejecuta de forma secuencial en el mismo orden en que se ha 
-escrito. 
+Especifican y controlan el flujo de ejecución del programa. Si no \nexisten sentencias específicas de selección o salto, el programa se \nejecuta de forma secuencial en el mismo orden en que se ha \nescrito. 
  
 7.1.1.6. Librerías 
 Las librerías ANSI que se incluyen con todos los compiladores están escritas en C o en ensamblador, y 
@@ -2466,8 +2413,7 @@ biblioteca estándar de propósito general del lenguaje de programación C. Cont
 prototipos de funciones de C para gestión de memoria dinámica, control de procesos y otras. Es 
 compatible con C++ donde se conoce como cstdlib. 
 gotoxy(argumento1,argumento2); 
-En el primer argumento se especifica el número de columna (1 - 80) y en el segundo argumento 
-el número de renglón (1 - 24). Esta función se encuentra dentro de la librería. 
+En el primer argumento se especifica el número de columna (1 - 80) y en el segundo argumento \nel número de renglón (1 - 24). Esta función se encuentra dentro de la librería. 
 • string. 
 • time. 
 Librerías BGI (Borland Graphics Interface) 
@@ -2485,8 +2431,7 @@ Lenguajes de programación
  
  
 Notas 
-Algunas descripciones de funciones, estructuras y macros han sido 
-extraídas de la ayuda de los compiladores de Borland y del libro: "C 
+Algunas descripciones de funciones, estructuras y macros han sido \nextraídas de la ayuda de los compiladores de Borland y del libro: "C 
 How to Program" de H.M. DEITEL & P.J. DEITEL. 
  
  
@@ -2506,8 +2451,7 @@ Las funciones de la biblioteca conio.h declarado pueden ligeramente de compilado
 Veamos una de las funciones destacadas: 
 • Funcion: gotoxy(). 
 Sintaxis: void gotoxy(int x, int y); 
-Descripción: Mueve el cursor de la ventana de texto a la posición según las coordenadas 
-especificadas por los argumentos x e y. Si las coordenadas no son válidas entonces la 
+Descripción: Mueve el cursor de la ventana de texto a la posición según las coordenadas \nespecificadas por los argumentos x e y. Si las coordenadas no son válidas entonces la 
 llamada a la función gotoxy es ignorada. Los argumentos no pueden ser 0. 
 • Librería graphics.h. 
 Con esta librería, podemos incluir los gráficos BGI en nuestras aplicaciones. 
@@ -2580,8 +2524,7 @@ Tipo Nombre_funcion (lista_argumentos)
       } 
 La función nativa printf() 
 Si hablamos de funciones nativas, una de las más usadas sino la más usada es la función printf(). Esta 
-función viene por defecto con la librería <stdio.h>, librería necesaria si queremos acceder a funciones 
-estándar de entrada y salida. 
+función viene por defecto con la librería <stdio.h>, librería necesaria si queremos acceder a funciones \nestándar de entrada y salida. 
 Dada su importancia nos detenemos explicamos un poco su modus operandi. 
 
 <!-- Page 70 -->
@@ -2599,8 +2542,7 @@ int main() {
 agua y .\n", kilos_harina, sobres_levadura, vasos_agua); 
      return 0; 
      } 
-La función printf() formateará los valores de kilos_harina, sobres_levadura y vasos_agua según los 
-especificadores %.2f y %d, respectivamente, y los reemplazará en la cadena de formato antes de 
+La función printf() formateará los valores de kilos_harina, sobres_levadura y vasos_agua según los \nespecificadores %.2f y %d, respectivamente, y los reemplazará en la cadena de formato antes de 
 imprimir el mensaje. Vemos en el caso del especificador del número real se agrega un ".2" que indicará 
 que se requieren 2 decimales. 
 Así pues, en la función printf usaremos literales y especificadores que serán sustituidos en la ejecución 
@@ -2678,8 +2620,7 @@ Basado en el lenguaje de programación C, utiliza mecanismos que permiten la man
 En ese sentido, desde el punto de vista de los lenguajes orientados a objetos, el C++ es un lenguaje 
 híbrido. 
 Posteriormente, se añadieron facilidades de programación genérica, que se sumaron a los paradigmas 
-de programación estructurada y programación orientada a objetos. Por esto se suele decir que el C++ 
-es un lenguaje de programación multiparadigma. 
+de programación estructurada y programación orientada a objetos. Por esto se suele decir que el C++ \nes un lenguaje de programación multiparadigma. 
 7.1.2.1. Características del lenguaje C++ 
 Las características principales del lenguaje de programación C++ son las siguientes: 
 • Sintaxis heredada del lenguaje C. 
@@ -2712,15 +2653,11 @@ operativos.
 7.1.2.2. Sentencias en C++. Clasificación 
 En C++, las sentencias se denominan Statements, y especifican y controlan el flujo de ejecución del 
 programa. 
-Si no existen sentencias específicas de selección o salto, el programa se ejecuta de forma secuencial en 
-el mismo orden en que se ha escrito el código fuente (podríamos considerarlo orden "natural" de 
-ejecución). 
+Si no existen sentencias específicas de selección o salto, el programa se ejecuta de forma secuencial en \nel mismo orden en que se ha escrito el código fuente (podríamos considerarlo orden "natural" de \nejecución). 
 Una sentencia consta de palabras clave o reservadas, expresiones, declaraciones, o llamadas a 
-funciones. Es una secuencia de operadores; operandos; elementos de puntuación y palabras clave, que 
-especifican la realización de un proceso. Tiene sentido computacional en sí misma, por lo que puede 
+funciones. Es una secuencia de operadores; operandos; elementos de puntuación y palabras clave, que \nespecifican la realización de un proceso. Tiene sentido computacional en sí misma, por lo que puede 
 producir un resultado. 
-Ejemplo: 
-extern x; // No produce un valor 
+Ejemplo: \nextern x; // No produce un valor 
 y = 22; // Produce un valor 
 z = i++; // Valor + efectos laterales 
 
@@ -2751,8 +2688,7 @@ foo(c);
 Se utilizan en aquellas situaciones en que la sintaxis espera una sentencia, pero se necesita usar 
 varias. 
 Ejemplo: 
-if (first) ++x; 
-else{ 
+if (first) ++x; \nelse{ 
 --x; z=a; 
 } 
 
@@ -2880,8 +2816,7 @@ Puesto que la sintaxis varía según el compilador, debemos evitar este tipo de 
 facilitar la portabilidad del código. 
 7.1.2.3. Caso especial: la sentencia nula 
 Consiste en un punto y coma (;) aislado. 
-Una sentencia nula no hace nada, pero puede ser necesaria en situaciones en que la sintaxis del lenguaje 
-espere una sentencia, pero nuestro programa no necesita hacer nada. 
+Una sentencia nula no hace nada, pero puede ser necesaria en situaciones en que la sintaxis del lenguaje \nespere una sentencia, pero nuestro programa no necesita hacer nada. 
 La sentencia nula (; sola) es útil en bucles donde toda la lógica está en la condición: while (rs.next()) ; 
 procesa todo el ResultSet, pero es confusa. La norma del CTTI es prohibirla, requiriendo cuerpo vacío 
 con comentario: while (rs.next()) { /* procesado en el DAO */ }. 
@@ -2927,16 +2862,13 @@ La lógica del mecanismo es:
 • Dentro de un bloque try se pretende evaluar una o más expresiones y si dentro de dicho bloque 
 se produce "un algo", que no se espera se lanza por medio de throw una excepción, la misma 
 que deberá ser capturada por un catch específico. 
-• Puesto que desde un bloque try pueden ser lanzados diferentes tipos de errores de excepción, 
-es que puede haber más de un catch para capturar a cada uno de los mismos. 
-• Si desde un try se lanza una excepción y no existe el mecanismo catch para tratar dicha 
-excepción, el programa se interrumpirá abruptamente después de haber pasado por todos los 
+• Puesto que desde un bloque try pueden ser lanzados diferentes tipos de errores de excepción, \nes que puede haber más de un catch para capturar a cada uno de los mismos. 
+• Si desde un try se lanza una excepción y no existe el mecanismo catch para tratar dicha \nexcepción, el programa se interrumpirá abruptamente después de haber pasado por todos los 
 catchs que se hayan definido y de no haber encontrado el adecuado. 
 • Los tipos de excepciones lazados pueden ser de un tipo primitivo tal como: int, float, char, etc. 
 aunque normalmente las excepciones son lanzadas por alguna clase escrita por el usuario o por 
 una clase de las que vienen incluidas con el compilador. 
-C++ diferencia std::exception (lógica) y std::runtime_error (condiciones irrecuperables). No hay 
-excepciones checked; cualquier función puede lanzar. Esto exige documentar excepciones en 
+C++ diferencia std::exception (lógica) y std::runtime_error (condiciones irrecuperables). No hay \nexcepciones checked; cualquier función puede lanzar. Esto exige documentar excepciones en 
 comentarios: 
 /** @throws std::invalid_argument si NIF mal formado */ 
 
@@ -2984,8 +2916,7 @@ Lenguajes de programación
 Vamos a ver diferentes usos de Using, incluyendo el del ejemplo. 
 • Para importar namespace (espacios de nombre) 
 Un espacio de nombres es un conjunto de nombres de recursos en el cual todos los 
-nombres son únicos. Se utiliza para crear un bloque, y así todas las funciones que lo forman, 
-están asociadas a ese namespace. 
+nombres son únicos. Se utiliza para crear un bloque, y así todas las funciones que lo forman, \nestán asociadas a ese namespace. 
 Todos los elementos de la biblioteca estándar de C++ se declaran dentro de un espacio de 
 nombres llamado std. 
 "using namespace std" indica que vamos a usar este espacio de nombres. 
@@ -2997,8 +2928,7 @@ miembros estáticos (métodos, campos y propiedades), re-sulta muy útil el uso 
 static. 
 (Como ejemplo de clases estáticas tenemos: System.IO.File, System.Console y System.Math) 
 • Para crear un alias 
-No suele suceder, pero en alguna ocasión, coincide que dos o más tipos en diferentes 
-ensamblados tienen el mismo, y si se usan ambos en una clase, se produce una colisión de 
+No suele suceder, pero en alguna ocasión, coincide que dos o más tipos en diferentes \nensamblados tienen el mismo, y si se usan ambos en una clase, se produce una colisión de 
 nombres y el compilador no sabe que tipo debe elegir. 
 Este problema lo evitamos creando un alias para un tipo, mediante la palabra using seguida 
 del alias, el símbolo igual y el nombre completo de la clase. 
@@ -3033,8 +2963,7 @@ La siguiente sintaxis es equivalente a la anterior:
   // se realizan las operaciones de la conexión 
 } // se libera aquí la conexión 
 Así, utilizando using, nos aseguramos de que al acabar el bloque de código indicado entre sus 
-llaves, se llama al método Dispose() del objeto con el que se ha declarado su bloque inicial, y es 
-este método Dispose() el que se asegura de que se liberen los recursos de la conexión de forma 
+llaves, se llama al método Dispose() del objeto con el que se ha declarado su bloque inicial, y es \neste método Dispose() el que se asegura de que se liberen los recursos de la conexión de forma 
 correcta, y se cierre la conexión. Esto se realiza, aunque haya un error. La aplicación no deja 
 recursos mal liberados y el programador no debe preocuparse de liberarlos ni de que una 
 conexión este o no abierta antes de cerrarla. 
@@ -3072,8 +3001,7 @@ class BienvenidoamasterD
         } 
        }; 
 Hemos creado una clase " BienvenidoamasterD " con una función pública ImprimirBienvenidoamasterD (). 
-Al ser pública, otras funciones fuera de esta clase pueden llamarla directamente. Como vimos en el 
-ejemplo anterior, cout imprime la frase por pantalla. Esta vez hemos usado el espacio de nombres 
+Al ser pública, otras funciones fuera de esta clase pueden llamarla directamente. Como vimos en el \nejemplo anterior, cout imprime la frase por pantalla. Esta vez hemos usado el espacio de nombres 
 directamente con cout. 
 
 <!-- Page 84 -->
@@ -3091,8 +3019,7 @@ Este código debe ir en la función main() para poder ejecutarse.
 Fuente: 
 https://commons.wikimedia.or
 g/wiki/File:Csharp_Logo.png 
-También llamado C Sharp, es un lenguaje de programación orientado a objetos desarrollado y 
-estandarizado por Microsoft como parte de su plataforma .NET. 
+También llamado C Sharp, es un lenguaje de programación orientado a objetos desarrollado y \nestandarizado por Microsoft como parte de su plataforma .NET. 
 Su sintaxis básica deriva de C/C++ y utiliza el modelo de objetos de la plataforma .NET, similar al de 
 Java, aunque incluye mejoras derivadas de otros lenguajes. 
 C# es un lenguaje moderno y versátil que ofrece múltiples características para facilitar el desarrollo de 
@@ -3118,8 +3045,7 @@ string nombre = persona?.Nombre; // No lanza excepción, nombre será null
 C# también incluye características modernas como las expresiones switch, que permiten evaluar 
 patrones de forma concisa y clara, y la inferencia de tipos con var, que permite al compilador deducir el 
 tipo de la variable. Otra funcionalidad destacada son las funciones locales, que pueden definirse dentro 
-de otras funciones, mejorando la encapsulación y claridad del código. Además, los records, introducidos 
-en C# 9.0, son tipos inmutables diseñados específicamente para manejar datos estructurados. 
+de otras funciones, mejorando la encapsulación y claridad del código. Además, los records, introducidos \nen C# 9.0, son tipos inmutables diseñados específicamente para manejar datos estructurados. 
 En cuanto a la programación asíncrona, C# tiene soporte nativo mediante las palabras clave async y 
 await, facilitando el manejo de tareas no bloqueantes. También cuenta con características avanzadas 
 como la sintaxis para trabajar con rangos y expresiones de índice, que permite seleccionar subconjuntos 
@@ -3130,12 +3056,10 @@ inicializar listas o arrays directamente en una sola línea. Estas característi
 orientación a objetos y soporte para programación funcional, hacen de C# una herramienta potente 
 para desarrollar aplicaciones modernas y robustas. 
 7.1.3.1. Estructura, Tipos y Operadores 
-C# nació con una filosofía de claridad que lo hace idóneo para técnicos auxiliares que migran desde 
-entornos de script. El namespace organiza código de forma lógica, reflejando la estructura orgánica: 
+C# nació con una filosofía de claridad que lo hace idóneo para técnicos auxiliares que migran desde \nentornos de script. El namespace organiza código de forma lógica, reflejando la estructura orgánica: 
 namespace SEPE.Gestion.RRHH.Validacion. El using evita nombres completos (System.DateTime vs 
 DateTime), pero abusar de using static System.Math reduce legibilidad en equipo. 
-La inferencia con var es potente: var lista = new List<Empleado>(); previene repeticiones. Sin embargo, 
-en var resultado = Calcular(); sin nombre método claro, el tipo se oculta. La guía de estilo del INTEF 
+La inferencia con var es potente: var lista = new List<Empleado>(); previene repeticiones. Sin embargo, \nen var resultado = Calcular(); sin nombre método claro, el tipo se oculta. La guía de estilo del INTEF 
 limita var a inicializaciones con new o Create(). Para datos públicos, la claridad prima sobre la brevedad. 
 Los operadores nulos (??, ?.) son revolucionarios en integración con sistemas legados que devuelven 
 null. string nombre = usuario?.Nombre ?? "DESCONOCIDO"; evita NullReferenceException sin verbose 
@@ -3171,8 +3095,7 @@ técnicos junior
 Concatenación 
 + 
 $"{var}" 
-Interpolación evita 
-errores de formato 
+Interpolación evita \nerrores de formato 
 7.1.3.2. Arrays, Colecciones y Métodos con Parámetros Opcionales 
 En C#, los arrays son objetos con métodos: int[] codigos = new int[50]; codigos.Length (no length). La 
 inicialización int[] {1,2,3} es limpia. Para colecciones dinámicas, List<T> reemplaza ArrayList, y 
@@ -3241,8 +3164,7 @@ public class ValidacionService
 Lenguajes de programación 
 88 
 7.1.3.3. Clases, Modificadores y Patrón IDisposable 
-La jerarquía de acceso en C# (private, protected, internal, public) incluye internal, que restringe al 
-ensamblado actual. En proyectos de la AGE con múltiples DLLs, internal oculta implementación de 
+La jerarquía de acceso en C# (private, protected, internal, public) incluye internal, que restringe al \nensamblado actual. En proyectos de la AGE con múltiples DLLs, internal oculta implementación de 
 servicios internos, exponiendo solo public interfaces. El modificador sealed evita herencia, útil en 
 validadores de cálculo que no deben alterarse. 
 Modificadores de acceso clave: 
@@ -3359,8 +3281,7 @@ catch (SqlException ex) when (ex.Number == 2627)
     // Solo entra aquí si es un error de clave duplicada 
     _logger.Warning("Intento de duplicación en tabla {Tabla}", tabla); 
 } 
-El operador when es tu mejor aliado: evalúa condiciones sin entrar en el catch, evitando que captures 
-excepciones que no entiendes. 
+El operador when es tu mejor aliado: evalúa condiciones sin entrar en el catch, evitando que captures \nexcepciones que no entiendes. 
 7.1.3.5. Delegados, Lambdas y Expresiones LINQ Básicas 
 Delegados: intercambia métodos como si fueran variables 
 Un delegado es un "puntero limpio" a un método. Útil cuando necesitas cambiar el comportamiento sin 
@@ -3417,13 +3338,11 @@ Lenguajes de programación
 7.1.4. Java 
  
 Fuente: 
-https://en.wikipedia.org/wiki/Fil
-e:Java_programming_language_l
+https://en.wikipedia.org/wiki/Fil\ne:Java_programming_language_l
 ogo.svg 
 Es un lenguaje de programación de propósito general, concurrente, orientado a objetos, que fue 
 diseñado específicamente para tener tan pocas dependencias de implementación como fuera posible. 
-Su intención es permitir que los desarrolladores de aplicaciones escriban el programa una vez y lo 
-ejecuten en cualquier dispositivo, lo que quiere decir que el código que es ejecutado en una plataforma 
+Su intención es permitir que los desarrolladores de aplicaciones escriban el programa una vez y lo \nejecuten en cualquier dispositivo, lo que quiere decir que el código que es ejecutado en una plataforma 
 no tiene que ser recompilado para correr en otra. Para ello hace uso de la máquina virtual de Java. 
 7.1.5. Javascript 
  
@@ -3442,8 +3361,7 @@ Se define como orientado a objetos, basado en prototipos, imperativo, débilment
 Aunque comparte muchas de las características y de las estructuras del lenguaje Java, fue desarrollado 
 de forma independiente. 
 El lenguaje JavaScript puede interactuar con el código HTML, estando embebido en el código fuente de 
-la página web, permitiendo a los programadores utilizar contenido dinámico para ejecutar acciones en 
-el lado del cliente. 
+la página web, permitiendo a los programadores utilizar contenido dinámico para ejecutar acciones en \nel lado del cliente. 
 El lenguaje JavaScript es opensource, por lo que cualquier persona puede utilizarlo sin comprar una 
 licencia. 
 7.1.6. PHP 
@@ -3460,8 +3378,7 @@ pero a su vez ofrece muchas características avanzadas para los programadores pr
 7.1.7. Python 
  
 Fuente: 
-https://commons.wikim
-edia.org/wiki/File:Pytho
+https://commons.wikim\nedia.org/wiki/File:Pytho
 n-logo-notext.svg 
 
 <!-- Page 95 -->
@@ -3479,11 +3396,9 @@ programación funcional.
 Administrado por la Python Software Foundation, posee una licencia de código abierto, denominada 
 Python Software Foundation License. 
 Puesto que Python tiene como objetivo ser un lenguaje de fácil lectura, su formato es visualmente 
-ordenado y, en muchas ocasiones se utilizan palabras clave en inglés en lugar de símbolos como ocurre 
-en otros lenguajes. 
+ordenado y, en muchas ocasiones se utilizan palabras clave en inglés en lugar de símbolos como ocurre \nen otros lenguajes. 
 Por ejemplo, los operadores lógicos !, || y && en Python se escriben NOT, OR y AND, respectivamente. 
-Python utiliza la identación (sangrado) para delimitar la estructura del programa permitiendo 
-establecer bloques de código (bucles, funciones, clases, etc.) antes de cada línea de órdenes 
+Python utiliza la identación (sangrado) para delimitar la estructura del programa permitiendo \nestablecer bloques de código (bucles, funciones, clases, etc.) antes de cada línea de órdenes 
 pertenecientes al bloque, mejorando así la legibilidad del código fuente. Esto diferencia a Python de 
 otros lenguajes de programación que mantienen como costumbre declarar los bloques mediante un 
 conjunto de caracteres (normalmente entre llaves). 
@@ -3528,8 +3443,7 @@ previamente. Para asignar valores se utiliza el símbolo =.
 + Info 
 El intérprete de Python estándar incluye un modo interactivo, en el 
 cual se escriben las instrucciones una a una en una especie de 
-intérprete de comandos, pudiendo verse el resultado de su 
-evaluación inmediatamente, lo que da la posibilidad de probar 
+intérprete de comandos, pudiendo verse el resultado de su \nevaluación inmediatamente, lo que da la posibilidad de probar 
 porciones de código en el modo interactivo antes de integrarlo 
 como parte de un programa. 
  
@@ -3541,8 +3455,7 @@ tipos, pero existen diferencian entre ambas:
 • Listas. 
 • Para declarar una lista se usan los corchetes [ ]. 
 • Suelen usarse para elementos del mismo tipo en cantidad variable. 
-• Se caracterizan por ser mutables, es decir, se puede cambiar su contenido en tiempo de 
-ejecución. 
+• Se caracterizan por ser mutables, es decir, se puede cambiar su contenido en tiempo de \nejecución. 
 • Tuplas. 
 • Para declarar una tupla se usan los paréntesis () y es necesario que tengan como mínimo 
 una coma. 
@@ -3576,8 +3489,7 @@ https://www.python.org/
 Python para el Machine Learning 
 El Machine Learning (ML), traducido como Aprendizaje Automático, es una disciplina del campo de la 
 Inteligencia Artificial que, a través de algoritmos, permite a los ordenadores tener la capacidad de 
-identificar patrones en datos masivos y elaborar predicciones (análisis predictivo). Se automatiza 
-eficientemente el proceso de creación de modelos analíticos y así las máquinas se adapten a nuevas 
+identificar patrones en datos masivos y elaborar predicciones (análisis predictivo). Se automatiza \neficientemente el proceso de creación de modelos analíticos y así las máquinas se adapten a nuevas 
 situaciones de manera independiente. 
 
 <!-- Page 98 -->
@@ -3612,8 +3524,7 @@ herramientas necesarias para crear una red neuronal como:
 • Normalización por lotes. 
 • PyTorch: Desarrollado por Facebook, es una librería de aprendizaje automático para Python. 
 (También soporta C++). 
-Considerado por muchos como framework de aprendizaje automático y aprendizaje profundo, 
-es la competencia directa de TensorFlow. 
+Considerado por muchos como framework de aprendizaje automático y aprendizaje profundo, \nes la competencia directa de TensorFlow. 
 • Scikit-learn: Incluye una fácil integración con varias librerías de programación ML como NumPy 
 y Pandas. Se centra en el modelado de datos. 
 
@@ -3646,13 +3557,10 @@ funciones muy similares a éste.
 • Seaborn: basado en la librería Matplotlib, está totalmente adaptado a los DataFrames de Pandas 
 para la visualización de datos, especializada en el análisis estadístico. Permite producir de forma 
 rápida e intuitiva gráficos estadísticos de alta calidad. 
-• Statsmodels: librería que proporciona clases y funciones para estimar muchos modelos 
-estadísticos diferentes, así como para realizar pruebas estadísticas y minería de datos 
-estadísticos. 
+• Statsmodels: librería que proporciona clases y funciones para estimar muchos modelos \nestadísticos diferentes, así como para realizar pruebas estadísticas y minería de datos \nestadísticos. 
 • NetworkX: librería para crear, manipular y estudiar la estructura, la dinámica y las funciones de 
 redes complejas. Muy popular para el manejo de datos gráficos, ya que incluye muchas 
-funciones que permiten la generación de gráficos y también múltiples características para leer y 
-escribir gráficos en varios formatos. 
+funciones que permiten la generación de gráficos y también múltiples características para leer y \nescribir gráficos en varios formatos. 
 • BeautifulSoup: librería para extraer datos de archivos HTML y XML, compatible con la mayoría 
 de los navegadores. Se utiliza mucho para el web scraping, una técnica de extracción de 
 contenidos de sitios web. 
@@ -3675,24 +3583,21 @@ SQL Server.
  
 + Info 
 Machine Learning Services, tal y como indica Microsoft "es una 
-característica de SQL Server que proporciona la capacidad de 
-ejecutar scripts de Python y R con datos relacionales. Para llevar a 
+característica de SQL Server que proporciona la capacidad de \nejecutar scripts de Python y R con datos relacionales. Para llevar a 
 cabo análisis predictivo y aprendizaje automático, se pueden usar 
 marcos y paquetes de código abierto, además de paquetes de 
 Python y R de Microsoft. Los scripts se ejecutan en la base de 
 datos sin mover los datos fuera de SQL Server o a través de la red. 
 En este artículo se explican los conceptos básicos de SQL Server 
 Machine Learning Services y cómo empezar a usarlo". 
-A continuación te facilitamos el enlace web donde podrás 
-encontrar la Información completa: ¿Qué es Machine Learning 
+A continuación te facilitamos el enlace web donde podrás \nencontrar la Información completa: ¿Qué es Machine Learning 
 Services para SQL Server con Python y R? 
  
 Paquetes de Python y R 
 En el enlace indicado en el Autotexto veremos cómo además de existir paquetes de Python y R de 
 código abierto preinstalados en Machine Learning Services podemos encontrar diversos paquetes de 
 Microsoft en los mismos lenguajes. 
-A continuación citaremos textualmente una pincelada, obtenida en la misma página enlazada, sobre 
-estos mismos: 
+A continuación citaremos textualmente una pincelada, obtenida en la misma página enlazada, sobre \nestos mismos: 
 Lenguaje Python: 
 • Revoscalepy: paquete principal para Python escalable. Transformaciones y manipulación de 
 datos, resumen estadístico, visualización y muchas formas de modelado... 
@@ -3775,16 +3680,14 @@ Fuente: https://pixabay.com/es/visual-
 basic-programaci%C3%B3n-idioma-
 906838/ 
 Es un lenguaje dirigido por eventos, desarrollado por Microsoft. 
-Este lenguaje de programación es un dialecto de BASIC, con importantes agregados cuya intención 
-es simplificar la programación utilizando un IDE de desarrollo. 
+Este lenguaje de programación es un dialecto de BASIC, con importantes agregados cuya intención \nes simplificar la programación utilizando un IDE de desarrollo. 
 La última versión fue la 6, liberada en 1998, para la que Microsoft extendió el soporte hasta marzo de 
 2008. Aunque Visual Basic es de propósito general, también provee facilidades para el desarrollo de 
 aplicaciones de bases de datos usando Data Access Objects, Remote Data Objects o ActiveX Data 
 Objects. 
 7.1.10. SQL 
  
-SQL (Structured Query Language o lenguaje de consulta estructurado) es un lenguaje de dominio 
-específico diseñado para administrar sistemas de gestión de bases de datos relacionales. 
+SQL (Structured Query Language o lenguaje de consulta estructurado) es un lenguaje de dominio \nespecífico diseñado para administrar sistemas de gestión de bases de datos relacionales. 
 Una de sus principales características es el manejo del álgebra y el cálculo relacional para efectuar 
 consultas con el fin de recuperar, de forma sencilla, información de bases de datos, así como realizar 
 cambios en ellas. 
@@ -3805,8 +3708,7 @@ En un entorno de base de datos los programadores pueden construir bloques PL/SQL
 como procedimientos o funciones, o bien pueden escribir estos bloques como parte de scripts SQL*Plus. 
 PL/SQL es una extensión del lenguaje SQL y se usa fundamentalmente en los sistemas de gestión de 
 bases de datos Oracle. Permite definir funciones (que pueden devolver resultados) y procedimientos 
-que aceptan argumentos, se almacenan compilados en las propias bases de datos y son invocados desde 
-estas mismas. Otra de sus particularidades son los triggers o disparadores (pequeñas rutinas) que 
+que aceptan argumentos, se almacenan compilados en las propias bases de datos y son invocados desde \nestas mismas. Otra de sus particularidades son los triggers o disparadores (pequeñas rutinas) que 
 responden a determinados eventos de la base de datos (inserciones, actualizaciones, eliminaciones). 
 Este lenguaje posee una estructura robusta que le permite manejar errores y excepciones. 
 7.2. Otros lenguajes de programación 
@@ -3861,8 +3763,7 @@ Lenguajes de programación
 106 
 Matlab (MATrix LABoratory) es una herramienta de software matemático que ofrece un entorno de 
 desarrollo integrado (IDE) con un lenguaje de programación propio (lenguaje M). 
-Está disponible para las plataformas Unix, Windows, Mac OS X y GNU/Linux. Es un software muy usado 
-en universidades y centros de investigación y desarrollo. 
+Está disponible para las plataformas Unix, Windows, Mac OS X y GNU/Linux. Es un software muy usado \nen universidades y centros de investigación y desarrollo. 
 Perl 
  
 Fuente: 
@@ -3877,11 +3778,9 @@ de los otros lenguajes de script.
 R 
  
 Fuente: 
-https://commons.wikimedia.org/wiki/Fil
-e:R_logo.svg 
+https://commons.wikimedia.org/wiki/Fil\ne:R_logo.svg 
 Es un entorno y lenguaje de programación con un enfoque al análisis estadístico. Se trata de uno de los 
-lenguajes más utilizados en investigación por la comunidad estadística, siendo además muy popular en 
-el campo de la minería de datos, la investigación biomédica, la bioinformática y las matemáticas 
+lenguajes más utilizados en investigación por la comunidad estadística, siendo además muy popular en \nel campo de la minería de datos, la investigación biomédica, la bioinformática y las matemáticas 
 financieras. 
 
 <!-- Page 107 -->
@@ -3931,8 +3830,7 @@ principal de programación para Mac OS X, iOS y GNUstep, además de Swift.
 Pascal 
 Pascal es un lenguaje de programación creado por el profesor suizo Niklaus Wirth entre los años 1968 y 
 1969 y publicado en 1970. 
-Su objetivo era crear un lenguaje para el aprendizaje se sus alumnos en programación estructurada y 
-estructuración de datos. 
+Su objetivo era crear un lenguaje para el aprendizaje se sus alumnos en programación estructurada y \nestructuración de datos. 
 Con el tiempo su utilización excedió el ámbito académico para convertirse en una herramienta para la 
 creación de aplicaciones de todo tipo. 
 Pascal se caracteriza por ser un lenguaje de programación estructurado fuertemente tipado, por tanto: 
@@ -3997,8 +3895,7 @@ tales como Jython o JRuby.
  
 + Info 
 Groovy 1.0 apareció el 2 de enero de 2007. 
-Después de varias versiones beta y otras tantas candidatas a release, 
-el 7 de diciembre de 2007 apareció la versión Groovy 1.1 que 
+Después de varias versiones beta y otras tantas candidatas a release, \nel 7 de diciembre de 2007 apareció la versión Groovy 1.1 que 
 finalmente fue renombrada a Groovy 1.5 con el fin de notar la gran 
 cantidad de cambios que ha sufrido con respecto a la versión 1.0. 
 En diciembre de 2009 se publicó la versión 1.7. 
@@ -4018,8 +3915,7 @@ aplicaciones para iOS y macOS.
 Lenguajes de programación 
 111 
 Está diseñado para integrarse con los frameworks Cocoa y Cocoa Touch, y puede usar cualquier 
-biblioteca programada en Objective-C y llamar a funciones de C. También es posible desarrollar código 
-en Swift compatible con Objective-C bajo ciertas condiciones. 
+biblioteca programada en Objective-C y llamar a funciones de C. También es posible desarrollar código \nen Swift compatible con Objective-C bajo ciertas condiciones. 
 Swift tiene la intención de ser un lenguaje seguro, de desarrollo rápido y conciso. En el año 2015 pasó a 
 ser de código abierto. 
 8. Generaciones de los lenguajes de programación 

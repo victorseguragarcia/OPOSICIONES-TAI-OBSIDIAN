@@ -36,9 +36,9 @@ La **fibra óptica** es el medio de transmisión guiado por excelencia para rede
 
 ## 🌈 Ventanas de Transmisión en Fibra de Sílice
 
-1. **1ª Ventana (850 nm)**: Utilizada en fibra multimodo con emisores LED/VCSEL económicos (alta atenuación $\sim 2.5 	ext{ dB/km}$).
-2. **2ª Ventana (1310 nm)**: Coincide con el punto de **dispersión cromática cero** en fibra monomodo estándar (atenuación $\sim 0.35 	ext{ dB/km}$).
-3. **3ª Ventana (1550 nm)**: Coincide con el punto de **mínima atenuación óptica** ($\sim 0.2 	ext{ dB/km}$), ideal para enlaces de larga distancia y amplificadores EDFA.
+1. **1ª Ventana (850 nm)**: Utilizada en fibra multimodo con emisores LED/VCSEL económicos (alta atenuación $\sim 2.5 \text{ dB/km}$).
+2. **2ª Ventana (1310 nm)**: Coincide con el punto de **dispersión cromática cero** en fibra monomodo estándar (atenuación $\sim 0.35 \text{ dB/km}$).
+3. **3ª Ventana (1550 nm)**: Coincide con el punto de **mínima atenuación óptica** ($\sim 0.2 \text{ dB/km}$), ideal para enlaces de larga distancia y amplificadores EDFA.
 4. **4ª Ventana (1625 nm / Banda L)**: Empleada para multiplexación densa DWDM y monitorización de fibra en servicio.
 
 ---
@@ -65,7 +65,7 @@ La **fibra óptica** es el medio de transmisión guiado por excelencia para rede
 | Velocidades GPON | **2.488 Gbps bajada / 1.244 Gbps subida** |
 | Longitud de onda Downstream GPON | **1490 nm** (Descarga) |
 | Longitud de onda Upstream GPON | **1310 nm** (Subida) |
-| Mínima atenuación fibra sílice | **1550 nm (3ª ventana $\sim 0.2 	ext{ dB/km}$)** |
+| Mínima atenuación fibra sílice | **1550 nm (3ª ventana $\sim 0.2 \text{ dB/km}$)** |
 
 ---
 

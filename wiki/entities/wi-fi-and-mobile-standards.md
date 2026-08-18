@@ -51,7 +51,7 @@ Las tecnologías de comunicaciones inalámbricas abarcan las redes de área loca
 - **Pilares de 5G NR**:
   1. **eMBB (Enhanced Mobile Broadband)**: Alta velocidad de descarga (hasta 10-20 Gbps).
   2. **URLLC (Ultra-Reliable Low-Latency Communications)**: Latencia ultra baja (<1 ms) para vehículos autónomos e industria 4.0.
-  3. **mMTC (Massive Machine-Type Communications)**: Conexión simultánea de hasta $10^6$ dispositivos IoT por $	ext{km}^2$.
+  3. **mMTC (Massive Machine-Type Communications)**: Conexión simultánea de hasta $10^6$ dispositivos IoT por $\text{km}^2$.
 - **Modos de Despliegue**:
   - **NSA (Non-Standalone)**: Señalización sobre núcleo 4G (EPC) y radio 5G NR.
   - **SA (Standalone)**: Radio 5G NR conectada directamente al nuevo núcleo nativo **5G Core (5GC)**.

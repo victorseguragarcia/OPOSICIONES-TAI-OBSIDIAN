@@ -6,8 +6,7 @@ tags:
   - temario-extendido
   - bloque-4
   - tema-05
-  - oposiciones-tai
-estado: "🔴 Por Estudiar"
+  - oposiciones-tai\nestado: "🔴 Por Estudiar"
 dificultad: "⭐⭐⭐"
 prioridad: "Máxima"
 sources:
@@ -406,8 +405,7 @@ Algunos estándares añaden un objetivo más denominado no repudio. Este objetiv
 participación de las partes en una comunicación. 
 En toda comunicación existe un emisor y un receptor, por lo que podemos distinguir dos tipos de no 
 repudio: 
-• No repudio en origen: garantiza que la persona que envía el mensaje no puede negar que es el 
-emisor del mensaje ni que lo ha enviado. El receptor tendrá pruebas del ello. 
+• No repudio en origen: garantiza que la persona que envía el mensaje no puede negar que es el \nemisor del mensaje ni que lo ha enviado. El receptor tendrá pruebas del ello. 
 • No repudio en destino: el receptor no puede negar que recibió el mensaje. El emisor tendrá 
 pruebas de la recepción del mensaje. 
 Este servicio es muy importante en las transacciones comerciales por Internet y en temas legales.
@@ -430,8 +428,7 @@ ACCEDE DIRECTAMENTE DESDE AQUÍ
 1.1. Principales términos de Seguridad Informática 
 Existen varios términos que suelen confundirse entre sí y que no están demasiado claros. Distintos 
 autores los definen de distintas formas e incluso utilizan solo algunos de los términos. 
-Vamos a intentar darte una visión clara de estos elementos con gráficos y un ejemplo para que puedas 
-entenderlo, ya que puede ser un poco lioso. 
+Vamos a intentar darte una visión clara de estos elementos con gráficos y un ejemplo para que puedas \nentenderlo, ya que puede ser un poco lioso. 
 Términos que vamos a analizar: 
 • Activo. 
 • Criticidad. 
@@ -554,10 +551,8 @@ Nivel de riesgo
 Es la probabilidad de que el sistema se vea sometido a un determinado nivel de impacto (determinado a 
 su vez por las consecuencias de la agresión). 
 Su estimación se basa en la combinación de dos factores: 
-• La frecuencia con la que se materializan las amenazas (probabilidad de que las amenazas 
-exploten las vulnerabilidades de los activos). 
-• Nivel de impacto causado en el sistema en caso de que las amenazas consideradas se hagan 
-efectivas. 
+• La frecuencia con la que se materializan las amenazas (probabilidad de que las amenazas \nexploten las vulnerabilidades de los activos). 
+• Nivel de impacto causado en el sistema en caso de que las amenazas consideradas se hagan \nefectivas. 
 Resumiendo: 
 Nivel de riesgo = Amenaza x Vulnerabilidad x Impacto = Probabilidad x Impacto 
 1.1.1. Relaciones entre los conceptos 
@@ -580,8 +575,7 @@ partido con la selección española contra Portugal.
 • Bajo: un ligero dolor que se pasa al poco tiempo. 
 • Medio: cae al suelo y tiene molestias durante parte del partido. 
 • Alto: cae lesionado y tiene que retirarse del partido. 
-• Probabilidad: depende de la amenaza y la vulnerabilidad. Es la probabilidad de que se produzca 
-el ataque. 
+• Probabilidad: depende de la amenaza y la vulnerabilidad. Es la probabilidad de que se produzca \nel ataque. 
 Puede aumentar o disminuir en función de diversos factores: 
 • La entrada la producen varios jugadores al mismo tiempo (aumenta la amenaza). 
 • El jugador conoce la vulnerabilidad (aumenta la amenaza). 
@@ -669,8 +663,7 @@ Seguridad de los Sistemas de Información. Infraestructura física de un CPD. Si
 Control Remoto de puestos de Usuario 
 17 
 2.1. Seguridad física 
-Normalmente nos centramos en proteger el sistema informático contra ataques de hackers, virus, 
-etcétera, y no prestamos atención a un aspecto importante de la seguridad informática: la seguridad 
+Normalmente nos centramos en proteger el sistema informático contra ataques de hackers, virus, \netcétera, y no prestamos atención a un aspecto importante de la seguridad informática: la seguridad 
 física. 
 La seguridad física es aquella que trata de proteger el sistema de: 
 • De incendios. 
@@ -686,8 +679,7 @@ Incendios
 seguridad, etcétera) debe ser ignífugo. 
 • No se debe colocar el CPD (centro de procesamiento de datos) cerca de zonas donde se 
 manejen o almacenen sustancias inflamables o explosivos. 
-• Deben existir sistemas antiincendios para sofocar el incendio en el menor tiempo posible y 
-evitar daños a personas o materiales. 
+• Deben existir sistemas antiincendios para sofocar el incendio en el menor tiempo posible y \nevitar daños a personas o materiales. 
 • Detectores de humo. 
 • Rociadores de gas. 
 • Extintores. 
@@ -725,8 +717,7 @@ Afecciones Eléctricas
 El suministro eléctrico puede provocar diferentes problemas en nuestros equipos, que son y pueden 
 prevenirse de diferentes formas: 
 • Señales electromagnéticas: 
-• Evitar la ubicación de los centros de cálculo cerca de lugares con gran radiación de señales 
-electromagnéticas. Estas pueden interferir en el correcto funcionamiento de los equipos 
+• Evitar la ubicación de los centros de cálculo cerca de lugares con gran radiación de señales \nelectromagnéticas. Estas pueden interferir en el correcto funcionamiento de los equipos 
 informáticos y del cableado de red y de las comunicaciones inalámbricas.
 
 ---
@@ -740,16 +731,14 @@ mediante:
 » Cableado especial. 
 » Fibra óptica. 
 • Corte del suministro eléctrico: 
-• Debemos utilizar sistemas de alimentación ininterrumpida (SAl) que proporcionen 
-electricidad durante un tiempo suficiente, al menos, para poder apagar los sistemas de 
+• Debemos utilizar sistemas de alimentación ininterrumpida (SAl) que proporcionen \nelectricidad durante un tiempo suficiente, al menos, para poder apagar los sistemas de 
 forma no forzada. 
 • Sobrecargas eléctricas: 
 • La mayoría de SAI protegen contra sobrecargas eléctricas. 
 • Dotar a la red eléctrica del edificio con enchufes conectados a un SAI central. 
 • Utilizar regletas con filtros que protegen de los picos de tensión. 
 Desastres naturales 
-• Informarse diariamente sobre movimientos sísmicos, meteorología, etcétera, en el lugar donde 
-esté ubicado (en nuestro caso, España). 
+• Informarse diariamente sobre movimientos sísmicos, meteorología, etcétera, en el lugar donde \nesté ubicado (en nuestro caso, España). 
 • Consultar diariamente la información ofrecida por el Instituto Geográfico Nacional y la Agencia 
 Estatal de Meteorología sobre movimientos sísmicos, meteorología, etcétera, en España. 
 2.2. Seguridad lógica 
@@ -777,8 +766,7 @@ producidos.
 • Mejorar la arquitectura de red. 
 • Revisar periódicamente las medidas de seguridad adoptadas. 
 2.2.1. Salvaguardas 
-Los sistemas RAID, ayudan a evitar pérdidas de información sin tener que apagar el ordenador, pero no 
-evita tener que realizar copias de seguridad. 
+Los sistemas RAID, ayudan a evitar pérdidas de información sin tener que apagar el ordenador, pero no \nevita tener que realizar copias de seguridad. 
 Las copias de seguridad son uno de los elementos más importantes y que requieren mayor atención a la 
 hora de definir las medidas de seguridad del sistema de información, la misión de las mismas es la 
 recuperación de los ficheros al estado inmediatamente anterior al momento de realización de la copia. 
@@ -796,8 +784,7 @@ Entendemos por salvaguarda a las políticas, procedimientos,
 normas, procesos, contramedidas, controles o mecanismos que 
 contribuyen a: 
 • Reducir las vulnerabilidades de los activos. 
-• Reducir la probabilidad de que las amenazas puedan 
-explotar vulnerabilidades. 
+• Reducir la probabilidad de que las amenazas puedan \nexplotar vulnerabilidades. 
 • Reducir el impacto producido en el negocio por la 
 materialización de amenazas. 
 Las salvaguardas se miden basándose en dos factores: coste de 
@@ -860,8 +847,7 @@ Hay que dividir el análisis de riesgos en dos partes:
 Las métricas asociadas al impacto causado por la materialización de las amenazas se valoran en 
 cifras concretas de forma objetiva. 
 Un modelo cuantitativo habitual es aquel en el que las consecuencias de la materialización de 
-amenazas se asocian a un determinado nivel de impacto en función de la estimación del coste 
-económico que suponen para la organización. 
+amenazas se asocian a un determinado nivel de impacto en función de la estimación del coste \neconómico que suponen para la organización. 
 • Análisis de riesgos cualitativo: 
 Las métricas asociadas al impacto causado por la materialización de las amenazas se valoran en 
 términos subjetivos (muy alto, alto, medio, bajo o muy bajo). 
@@ -895,14 +881,12 @@ Esta relación nos ayudará a tomar las decisiones necesarias para:
  
  
 + Info 
-SoA es un documento que enlista los controles de seguridad 
-establecidos en el estándar ISO/IEC 27001 (anexo A). 
+SoA es un documento que enlista los controles de seguridad \nestablecidos en el estándar ISO/IEC 27001 (anexo A). 
 Se utiliza para: 
 • Implementar medidas de protección de la información. 
 • Comprobar si no se han considerado algunas medidas de 
 seguridad necesarias. 
-Un SoA no está limitado a los controles que se encuentran listados 
-en el anexo. Se pueden utilizar otros controles que estimemos 
+Un SoA no está limitado a los controles que se encuentran listados \nen el anexo. Se pueden utilizar otros controles que estimemos 
 oportunos. 
  
 2.2.3. Esquemas de Arquitectura de Red 
@@ -920,8 +904,7 @@ Hay tres elementos básicos para aumentar la seguridad:
 • División de la red interna: para aumentar la seguridad se puede dividir la red interna en varias 
 redes para controlar (permitir o denegar) el tráfico entre ellas. 
 • Establecer una zona desmilitarizada (protección perimetral). Red ubicada entre dos redes para 
-proteger una de ellas. En esta red suelen estar ubicados los servidores de la empresa. Por ejemplo, 
-el CNN-CERT aconseja tener en ellos los servidores de correo corporativo. De esta forma, si hay 
+proteger una de ellas. En esta red suelen estar ubicados los servidores de la empresa. Por ejemplo, \nel CNN-CERT aconseja tener en ellos los servidores de correo corporativo. De esta forma, si hay 
 una intrusión en uno de los servidores, la red interna estará aislada y no se le permitirá el acceso. 
 A continuación, vamos a ver algunos ejemplos de esquemas de red sencillos. La elección de uno u otro 
 dependerá de las necesidades de la organización. 
@@ -933,10 +916,8 @@ que ubicar los servidores accesibles desde el exterior. Es más común verlo en 
 grandes, por la elevada complejidad de configuración y superior coste. 
 El de Zona neutra con red interna y un solo enrutador con tres conexiones, a la zona neutra, a internet, 
 y a la red interna, es más económico y fácil de mantener, pero menos seguro. 
-A partir de aquí podemos ver redes con más de una zona neutra y con dos o más redes internas, según 
-el tamaño y complejidad de la empresa. 
-Pero lo que es imprescindible, es la correcta programación, actualización y mantenimiento de los 
-enrutadores. Si quedan huecos de seguridad nuestra red interna se puede ver fácilmente comprometida. 
+A partir de aquí podemos ver redes con más de una zona neutra y con dos o más redes internas, según \nel tamaño y complejidad de la empresa. 
+Pero lo que es imprescindible, es la correcta programación, actualización y mantenimiento de los \nenrutadores. Si quedan huecos de seguridad nuestra red interna se puede ver fácilmente comprometida. 
 2.2.4. Auditorías del sistema 
  
 Fuente: 
@@ -964,8 +945,7 @@ dispositivos electrónicos y también trabajando de manera convencional con la i
 El proceso se puede dividir, por ejemplo, en seis etapas: 
 1. Disponibilidad 
 La preparación forense es una etapa importante y ocasionalmente pasada por alto en el proceso. En 
-informática forense comercial, podría incluir educar a los clientes sobre la preparación del sistema. Por 
-ejemplo, los análisis forenses ofrecen evidencia más sólida cuando las funciones de auditoría de un 
+informática forense comercial, podría incluir educar a los clientes sobre la preparación del sistema. Por \nejemplo, los análisis forenses ofrecen evidencia más sólida cuando las funciones de auditoría de un 
 dispositivo están activadas previamente a que suceda un incidente. 
 Para el examinador forense, la preparación incluye capacitación, pruebas y verificación apropiadas de su 
 propio software y equipo. 
@@ -973,8 +953,7 @@ Estos analistas deben conocer la legislación, saber cómo hacer frente a proble
 hacer si durante el análisis de un fraude encuentran imágenes de abuso infantil) y garantizar la 
 adecuación para esa tarea de su ordenador de adquisición de datos y los elementos asociados. 
 2. Evaluación 
-Durante la etapa de evaluación, el examinador recibe instrucciones y busca aclaraciones si alguna de 
-ellas no es clara o ambigua, realiza un análisis de riesgos y asigna roles y recursos. 
+Durante la etapa de evaluación, el examinador recibe instrucciones y busca aclaraciones si alguna de \nellas no es clara o ambigua, realiza un análisis de riesgos y asigna roles y recursos. 
 Para la aplicación de la ley, el análisis de riesgos puede incluir la evaluación de la probabilidad de una 
 amenaza física al ingresar a la propiedad de un sospechoso y la mejor manera de lidiar con ella. 
 Las organizaciones comerciales también deben tener en cuenta los problemas de salud y seguridad, los 
@@ -988,13 +967,11 @@ Control Remoto de puestos de Usuario
 26 
 3. Colección 
 Si la adquisición de datos se lleva a cabo en el sitio en lugar de en la oficina del examinador forense del 
-ordenador, esta etapa incluye la identificación y protección de dispositivos que pueden almacenar 
-evidencia y documentar la escena. 
+ordenador, esta etapa incluye la identificación y protección de dispositivos que pueden almacenar \nevidencia y documentar la escena. 
 El examinador también mantendría entrevistas o reuniones con el personal que podría tener 
 información relevante para el examen, como los usuarios finales del ordenador, el gerente y la persona 
 responsable de los servicios informáticos, es decir, un administrador de TI. 
-La etapa de recolección también puede involucrar el etiquetado de artículos del sitio que pueden usarse 
-en la investigación; estos se sellan en bolsas numeradas a prueba de manipulaciones. Luego, el material 
+La etapa de recolección también puede involucrar el etiquetado de artículos del sitio que pueden usarse \nen la investigación; estos se sellan en bolsas numeradas a prueba de manipulaciones. Luego, el material 
 debe transportarse de manera segura a la oficina del examinador o al laboratorio. 
 4. Análisis 
 El análisis incluye el descubrimiento y la extracción de información recopilada en la etapa de 
@@ -1028,12 +1005,10 @@ Control Remoto de puestos de Usuario
 6. Revisión 
 Al igual que en la etapa de preparación, la revisión a menudo se pasa por alto o se ignora, porque no es 
 un trabajo facturable o porque el examinador necesita continuar con el próximo trabajo. Pero llevar a 
-cabo una revisión de cada examen puede hacer que los proyectos futuros sean más eficientes y eficaces 
-en el tiempo, lo que ahorra dinero y mejora la calidad a largo plazo. 
+cabo una revisión de cada examen puede hacer que los proyectos futuros sean más eficientes y eficaces \nen el tiempo, lo que ahorra dinero y mejora la calidad a largo plazo. 
 La revisión de un examen puede ser simple, rápida y comenzar durante cualquiera de las etapas 
 anteriores. Podría incluir un análisis básico de lo que salió mal y lo que salió bien, junto con los 
-comentarios de la persona o empresa que solicitó la investigación. Cualquier lección aprendida de esta 
-etapa debe aplicarse a futuros exámenes y alimentarse en la etapa de Preparación. 
+comentarios de la persona o empresa que solicitó la investigación. Cualquier lección aprendida de esta \netapa debe aplicarse a futuros exámenes y alimentarse en la etapa de Preparación. 
  
  
  
@@ -1044,8 +1019,7 @@ Nacional de Ingenieros Peritos Judiciales para completar el estudio:
 Análisis Forense Tecnológico 
  
 2.2.4.2. Test de intrusión (Pen Test) 
-Llamado también prueba de penetración, es una simulación de ataque a un sistema informático para 
-encontrar las debilidades de seguridad. Se determina el nivel de seguridad del sistema y el grado de 
+Llamado también prueba de penetración, es una simulación de ataque a un sistema informático para \nencontrar las debilidades de seguridad. Se determina el nivel de seguridad del sistema y el grado de 
 acceso que tiene un atacante con intenciones maliciosas. 
 Hay diferentes tipos de enfoque al realizar es Pen Test, que son: 
 • Caja Negra (Black-box): En este enfoque, el evaluador carece de cualquier información sobre el 
@@ -1130,25 +1104,20 @@ Seguridad de los Sistemas de Información. Infraestructura física de un CPD. Si
 Control Remoto de puestos de Usuario 
 30 
 Sniffing es un tipo de ciberataque, es un programa de captura de las tramas de una red de 
-computadoras. (para escuchar todo lo que sucede en una red). Estos ataques son especialmente 
-en redes internas. 
+computadoras. (para escuchar todo lo que sucede en una red). Estos ataques son especialmente \nen redes internas. 
 • Ciberterroristas: 
-Expertos en informática e intrusiones en la red que trabajan para países y organizaciones como 
-espías y saboteadores informáticos. 
+Expertos en informática e intrusiones en la red que trabajan para países y organizaciones como \nespías y saboteadores informáticos. 
 • Programadores de virus: 
-Expertos en programación, redes y sistemas que crean programas dañinos que producen 
-efectos no deseados en los sistemas o aplicaciones. 
+Expertos en programación, redes y sistemas que crean programas dañinos que producen \nefectos no deseados en los sistemas o aplicaciones. 
 • Carders: 
 Personas que se dedican al ataque de los sistemas de tarjetas, como los cajeros automáticos. 
 • Hacktivista: 
 Es una moda creciente en los últimos años, utilizan sus conocimientos y habilidades para fines 
 políticos, uno de los ejemplos más representativos sería Anonymous. 
 Anonymous es un pseudónimo utilizado mundialmente por diferentes individuos y colectivos, 
-que, coordinándose con otros, realizan acciones o publicaciones individuales o concertadas, 
-especialmente ataques cibernéticos contra gobiernos, corporaciones, instituciones y agencias 
+que, coordinándose con otros, realizan acciones o publicaciones individuales o concertadas, \nespecialmente ataques cibernéticos contra gobiernos, corporaciones, instituciones y agencias 
 gubernamentales.  
-Anonymous surgió inicialmente como un grupo de usuarios que realizaban bromas e incursiones 
-en internet en 2003 en el imageboard 4chan y en el foro Hackers. 
+Anonymous surgió inicialmente como un grupo de usuarios que realizaban bromas e incursiones \nen internet en 2003 en el imageboard 4chan y en el foro Hackers. 
 Desde 2008, tras el Proyecto Chanology, Anonymous se manifiesta en acciones de protesta a 
 favor de la libertad de expresión, acceso a la información, la independencia de Internet, y en 
 contra de diversas organizaciones. 
@@ -1228,11 +1197,9 @@ caza pues de ballenas que sería gente influyente, altos ejecutivos, políticos,
 3.2.1.1.3. Ataques de ingeniería social 
 Tailgating o piggybacking 
 Es un ataque en el que un atacante sigue a una persona autorizada para ganar acceso físico a un área 
-restringida sin que la víctima se percate. El atacante puede hacer pasar por una persona legítima para 
-entrar detrás de alguien con permiso. 
+restringida sin que la víctima se percate. El atacante puede hacer pasar por una persona legítima para \nentrar detrás de alguien con permiso. 
 Quid pro quo 
-En este ataque, el atacante ofrece algo a cambio de obtener acceso o información confidencial. Por 
-ejemplo, puede ofrecer soporte técnico, pero solicita información sensible a cambio, como contraseñas. 
+En este ataque, el atacante ofrece algo a cambio de obtener acceso o información confidencial. Por \nejemplo, puede ofrecer soporte técnico, pero solicita información sensible a cambio, como contraseñas. 
 Pretexto 
 Este ataque consiste en que el atacante crea una historia falsa para obtener información. Se hace pasar 
 por alguien legítimo (como un empleado de una empresa, o una autoridad de confianza) para que la 
@@ -1272,8 +1239,7 @@ humanos. En este caso, los antibióticos serían los programas antivirus. Infect
 incrustando código malicioso, transformándolos en fuentes de infección. 
 Gusanos 
 Se reproducen sin necesidad de un archivo anfitrión y se propagan a través de redes y dispositivos. 
-Pueden reproducirse utilizando diferentes medios de comunicación como las redes locales, el correo 
-electrónico, los programas de mensajería instantánea, redes P2P, dispositivos USB y las redes sociales.
+Pueden reproducirse utilizando diferentes medios de comunicación como las redes locales, el correo \nelectrónico, los programas de mensajería instantánea, redes P2P, dispositivos USB y las redes sociales.
 
 ---
 
@@ -1292,8 +1258,7 @@ Ransom, rescate, así que la traducción literal sería algo así como "programa
 para obtener la contraseña que libera la información, debe pagar al atacante una suma de dinero, según 
 las instrucciones que este disponga. 
 Spyware 
-Recopila información del usuario sin su consentimiento. El objetivo más común es distribuirlo a 
-empresas publicitarias u otras organizaciones interesadas. Normalmente, este software envía 
+Recopila información del usuario sin su consentimiento. El objetivo más común es distribuirlo a \nempresas publicitarias u otras organizaciones interesadas. Normalmente, este software envía 
 información a sus servidores, en función de los hábitos de navegación del usuario. También recoge 
 datos acerca de las webs que se navegan y la información que se solicita en esos sitios, así como 
 direcciones IP y URL que se visitan. 
@@ -1328,23 +1293,19 @@ al creador de esta aplicación tener acceso al sistema y hacer lo que desee con 
 una gran cantidad de computadoras infectadas para disponer de ellas libremente. 
 Botnets 
 Redes de dispositivos infectados, controlados por un atacante, que realizan tareas maliciosa de forma 
-conjunta y distribuida. Cuando un ordenador ha sido afectado por un malware de este tipo, se dice que 
-es un equipo es un robot (de ahí su denominación robot de red) o zombi. 
+conjunta y distribuida. Cuando un ordenador ha sido afectado por un malware de este tipo, se dice que \nes un equipo es un robot (de ahí su denominación robot de red) o zombi. 
 Hoax 
 Correos electrónicos en cadena con información falsa. Cuentan que su etimología podría proceder del 
-término latino "hocus", abreviación de "hocus pocus" interjección usada en los hechizos o 
-encantamientos, trascendiendo al significado de engaño o truco perpetrado para hacer creer a las 
+término latino "hocus", abreviación de "hocus pocus" interjección usada en los hechizos o \nencantamientos, trascendiendo al significado de engaño o truco perpetrado para hacer creer a las 
 personas algo incierto. Se crean para confundir, alarmar o manipular a las personas. Se propagan 
 rápidamente debido a la facilidad con la que se pueden compartir en línea. 
 Hijacking 
 Hijack se traduce como secuestro, el hijacking sería pues el secuestro de recursos, como navegadores, 
 sesiones (cuentas de usuario) o servidores DNS (mapeando ips), realizado mediante programas 
 denominados hijackers. El término antes de trascender al mundo digital, definía el secuestro de aviones 
-o vehículos. En muchos el usuario no es consciente del hijacking pues el atacante actúa de manera 
-encubierta, manipulando sesiones, redirigiendo el tráfico. 
+o vehículos. En muchos el usuario no es consciente del hijacking pues el atacante actúa de manera \nencubierta, manipulando sesiones, redirigiendo el tráfico. 
 El browser hijacking es quizás el más indiscreto pues el usuario puede notar comportamientos 
-sospechosos como cambios en la página de inicio del navegador, ventanas emergentes frecuente. Sin 
-embargo en técnicas como el DNS hijacking, el ataque puede pasar totalmente desapercibido hasta que 
+sospechosos como cambios en la página de inicio del navegador, ventanas emergentes frecuente. Sin \nembargo en técnicas como el DNS hijacking, el ataque puede pasar totalmente desapercibido hasta que 
 haya consecuencias drásticas. 
 El DNS hijacking implica modificar configuraciones DNS en el dispositivo, router o servidor DNS para 
 redirigir todo el tráfico de manera persistente. 
@@ -1358,8 +1319,7 @@ Seguridad de los Sistemas de Información. Infraestructura física de un CPD. Si
 Control Remoto de puestos de Usuario 
 36 
 PUPs 
-Programas potencialmente no deseados (potentially unwanted programs) que afectan la privacidad o 
-el rendimiento del sistema. Se instalan sin el consentimiento del usuario y realizan acciones o tienen 
+Programas potencialmente no deseados (potentially unwanted programs) que afectan la privacidad o \nel rendimiento del sistema. Se instalan sin el consentimiento del usuario y realizan acciones o tienen 
 características que pueden menoscabar el control del usuario sobre su privacidad, confidencialidad, uso 
 de recursos del ordenador, etcétera. 
 Spam 
@@ -1372,10 +1332,8 @@ comunicación llamada Usenet, creada en 1980 en la que servía para describir el
 mensajes irrelevantes o indeseados. Trascender al mundo del correo electrónico, redes sociales o SMS y 
 llamadas solo fue cuestión de tiempo. 
 Rogue Software 
-Programas falsos que pretenden ser útiles (como antivirus o herramientas de optimización) pero que 
-en realidad son dañinos. Con la proliferación del spyware, el rogue software comenzó a surgir como un 
-importante negocio para los ciberdelincuentes en formato de falso antispyware. Con el tiempo fueron 
-evolucionando, creando falsos optimizadores de Windows y falsos antivirus. Al ejecutarlos nos 
+Programas falsos que pretenden ser útiles (como antivirus o herramientas de optimización) pero que \nen realidad son dañinos. Con la proliferación del spyware, el rogue software comenzó a surgir como un 
+importante negocio para los ciberdelincuentes en formato de falso antispyware. Con el tiempo fueron \nevolucionando, creando falsos optimizadores de Windows y falsos antivirus. Al ejecutarlos nos 
 muestran información sobre una falsa infección o falso problema en el sistema. Si queremos arreglarlos 
 debemos comprar su versión de pago (que en realidad no arregla nada). Rogue en inglés significa pícaro 
 o tramposo. 
@@ -1387,17 +1345,14 @@ Estos ataques se centran en interceptar y manipular las comunicaciones:
 Man-in-the-Middle (MitM) 
 Se divide en dos partes: posicionamiento activo entre comunicantes (con ARP spoofing o DNS 
 spoofing, suplantación de certificados, u otros métodos) y la interceptación de comunicaciones de los 
-dialogantes. La denominación 'hombre en el medio' refleja que la información no viaja directamente 
-entre el remitente y el receptor, sino que cuenta con un tercer actor, un intruso. Su función es capturar 
-el tráfico, ya sea para observarlo, almacenarlo o modificarlo más adelante.
+dialogantes. La denominación 'hombre en el medio' refleja que la información no viaja directamente \nentre el remitente y el receptor, sino que cuenta con un tercer actor, un intruso. Su función es capturar \nel tráfico, ya sea para observarlo, almacenarlo o modificarlo más adelante.
 
 ---
 
 Seguridad de los Sistemas de Información. Infraestructura física de un CPD. Sistemas de gestión de incidencias. 
 Control Remoto de puestos de Usuario 
 37 
-Una vez que se lleva a cabo la interceptación, el intruso decide qué técnica o acción específica usar: 
-eavesdropping, manipulación activa (cambiar o inyectar datos en la comunicación) o redirección de los 
+Una vez que se lleva a cabo la interceptación, el intruso decide qué técnica o acción específica usar: \neavesdropping, manipulación activa (cambiar o inyectar datos en la comunicación) o redirección de los 
 datos interceptados a otro destino. 
 Este tipo de ataque puede ocurrir en redes cableadas comprometidas o en redes Wi-Fi no seguras. 
 Aunque es especialmente peligroso para protocolos sin cifrado, como HTTP, otros protocolos también 
@@ -1405,26 +1360,20 @@ pueden ser vulnerables si no se implementan correctamente medidas de seguridad c
 Eavesdropping 
 La denominación proviene de 'eaves', que en inglés antiguo se refería a los aleros de los tejados. El 
 término 'eavesdropping' describe la acción de ocultarse bajo esos aleros para escuchar conversaciones 
-privadas que se filtran o se dejan caer ('dropping') hacia el exterior de los muros. En redes no cifradas, 
-es una técnica altamente efectiva. Es una forma de espionaje que no manipula la información, ya que 
-está enfocada exclusivamente en escuchar y robar datos. 
+privadas que se filtran o se dejan caer ('dropping') hacia el exterior de los muros. En redes no cifradas, \nes una técnica altamente efectiva. Es una forma de espionaje que no manipula la información, ya que \nestá enfocada exclusivamente en escuchar y robar datos. 
 Es un término genérico que se refiere a cualquier activdad de espionaje ya sea en el mundo digital o no. 
 En el contexto de redes abarca distintos métodos como pueden ser entre otros el Sniffing o la Escucha 
 pasiva en llamadas VoIP. 
 IP Splicing 
 Es una característica inherente al protocolo IP diseñada para fragmentar paquetes y adaptarlos a las 
 limitaciones de las redes intermedias. Esta funcionalidad, completamente neutral, es ejecutada 
-automáticamente por los routers cuando el tamaño del paquete supera el MTU de la red de salida. Sin 
-embargo, también puede ser explotada por un atacante con fines maliciosos. 
-Un atacante puede aprovechar la fragmentación legítima o inducida del paquete IP para manipular 
-estos fragmentos (inyección de código, manipulación de offsets, etc.) con el objetivo de comprometer 
-el sistema de destino. Esta funcionalidad es explotada frecuentemente en ataques como DoS, DDoS y 
+automáticamente por los routers cuando el tamaño del paquete supera el MTU de la red de salida. Sin \nembargo, también puede ser explotada por un atacante con fines maliciosos. 
+Un atacante puede aprovechar la fragmentación legítima o inducida del paquete IP para manipular \nestos fragmentos (inyección de código, manipulación de offsets, etc.) con el objetivo de comprometer \nel sistema de destino. Esta funcionalidad es explotada frecuentemente en ataques como DoS, DDoS y 
 Hijacking. 
 Pharming 
 El pharming, en esencia, es un ataque que explota la resolución de nombres de dominio (DNS), ya sea 
 manipulando el archivo hosts local del sistema atacado o comprometiendo un servidor DNS para 
-redirigir el tráfico hacia una dirección controlada por el atacante (IP Spoofing). Esta dirección maliciosa 
-es donde se lleva a cabo el ataque. Combina técnicas de hijacking y spoofing. La persistencia dependerá 
+redirigir el tráfico hacia una dirección controlada por el atacante (IP Spoofing). Esta dirección maliciosa \nes donde se lleva a cabo el ataque. Combina técnicas de hijacking y spoofing. La persistencia dependerá 
 de la técnica utilizada. 
 A diferencia del secuestro o hijacking el objetivo es el robo de información. La denominación es un 
 juego de palabras entre 'phishing', y 'farming', cultivo.
@@ -1436,14 +1385,12 @@ Control Remoto de puestos de Usuario
 38 
 Clickjacking 
 Engaño mediante interfaces web para realizar acciones no deseadas al usuario, como revelar 
-información confidencial o redirigir a páginas maliciosas. El atacante puede superponer, por ejemplo, un 
-elemento HTML transparente en la interfaz y cuando el usuario pretenda hacer click sobre el elemento 
+información confidencial o redirigir a páginas maliciosas. El atacante puede superponer, por ejemplo, un \nelemento HTML transparente en la interfaz y cuando el usuario pretenda hacer click sobre el elemento 
 que está debajo, pues es el único que ve, efectuará una acción no deseada (compartir permisos o 
 realizar compras online). Se denomina así porque se entiende como un "secuestro de click". 
 Sniffing 
 Técnica que implica la interceptación y monitoreo del tráfico de red con el objetivo de capturar 
-información sensible, como credenciales de inicio de sesión o datos confidenciales. Es especialmente 
-efectivo en redes no cifradas. Sniffing viene de "to sniff" que significa olfatear o husmear. En 
+información sensible, como credenciales de inicio de sesión o datos confidenciales. Es especialmente \nefectivo en redes no cifradas. Sniffing viene de "to sniff" que significa olfatear o husmear. En 
 ciberseguridad este olfateo describe la captura y análisis de paquetes de datos que circulan a través de 
 una red. El sniffing se refiere específicamente a la acción de capturar tráfico en una red, mientras que el 
 MITM (Man-in-the-Middle) posicionarse activamente entre dos partes que están comunicándose e 
@@ -1453,8 +1400,7 @@ Término que viene del verbo inglés "to spoof", que sería algo así como falsi
 una técnica que consiste en la suplantación de identidad de dispositivos o usuarios dentro de una red. El 
 spoofing incluye, entre otras técnicas: 
 • IP Spoofing: El atacante crea generalmente paquetes ip maliciosos desde su dispositivo, 
-alterando manualmente los encabezados para falsificar la dirección IP de origen. Generalmente 
-el IP spoofing no requiere interceptar ni modificar paquetes existentes porque el atacante no 
+alterando manualmente los encabezados para falsificar la dirección IP de origen. Generalmente \nel IP spoofing no requiere interceptar ni modificar paquetes existentes porque el atacante no 
 necesita controlar la respuesta. 
 • DNS Spoofing: Envío de respuestas DNS falsas al usuario para redirigirlo a un sitio malicioso. 
 Ataque temporal pues el ataque afecta solo a la sesión, caché del usuario o servidor DNS. No 
@@ -1464,8 +1410,7 @@ Un ejemplo sería la intercepción de una consulta DNS por parte de un atacante 
 una IP falsa al solicitante.  
 • ARP Spoofing: El ARP spoofing ocurre cuando un atacante responde de manera falsa a una 
 solicitud ARP, proporcionando su propia dirección MAC en adelantándose al equipo legítimo. 
-Esto permite que un mapeo falso en las tablas ARP en la que la dirección MAC del atacante 
-estará mapeada a una IP legítima. 
+Esto permite que un mapeo falso en las tablas ARP en la que la dirección MAC del atacante \nestará mapeada a una IP legítima. 
 • Como resultado, el atacante puede interceptar o redirigir el tráfico destinado al dispositivo 
 suplantado, haciéndose pasar por él en la red. Es un técnica comunmente usada en ataques 
 MitM.
@@ -1487,8 +1432,7 @@ Se basan en características físicas de los dispositivos:
 • Monitorización de ondas electromagnéticas para descifrar actividades del sistema. 
 3.2.1.1.8. Software de Riesgo 
 Riskware 
-Software de riesgo también llamado Riskware son programas legítimos que contienen vulnerabilidades 
-explotables por atacantes para realizar acciones dañinas. No es intrínsecamente defectuoso, pero 
+Software de riesgo también llamado Riskware son programas legítimos que contienen vulnerabilidades \nexplotables por atacantes para realizar acciones dañinas. No es intrínsecamente defectuoso, pero 
 puede ser utilizado para fines maliciosos o configurado de manera insegura. 
 3.2.1.1.9. Otras vulnerabilidades 
 Heartbleed: Una vulnerabilidad crítica en la biblioteca de OpenSSL (solo en su versión 1.0.1f), que 
@@ -1601,11 +1545,9 @@ web, la petición maliciosa es enviada con las credenciales de autenticación de
 Un sitio web malicioso o un correo electrónico fraudulento hacen que un usuario envíe una 
 petición no deseada a otro sitio web, como hacer una compra, cambiar una contraseña o 
 publicar comentarios. 
-El uso, por ejemplo, de tokens CSRF únicos para cada solicitud y verificaciones de referido evitan 
-esta vulnerabilidad. 
+El uso, por ejemplo, de tokens CSRF únicos para cada solicitud y verificaciones de referido evitan \nesta vulnerabilidad. 
 Un token CSRF es un valor secreto único e impredecible que se genera por una aplicación del 
-lado del servidor y es enviado al cliente para su inclusión en las solicitudes HTTP posteriores 
-emitidas por el cliente. 
+lado del servidor y es enviado al cliente para su inclusión en las solicitudes HTTP posteriores \nemitidas por el cliente. 
 Con el fin de mitigar este tipo de ataques se implementa el atributo de seguridad de las cookies 
 SameSite que permitirá al navegador enviar la cookie en cuestión solo si ésta se originó en el 
 mismo sitio con el que está contactando. Es un atributo que se establece en el lado del servidor 
@@ -1644,8 +1586,7 @@ incorrecta (por ejemplo, Access-Control-Allow-Origin: *) puede permitir que siti
 maliciosos realicen peticiones autenticadas a APIs o servicios protegidos desde el navegador del 
 usuario, y accedan a los datos devueltos, especialmente si coexisten vulnerabilidades como XSS 
 o CSRF. 
-Para mitigar este riesgo, es necesario limitar los orígenes autorizados, validar los métodos y 
-encabezados permitidos, y evitar el uso innecesario de credenciales compartidas (Access-
+Para mitigar este riesgo, es necesario limitar los orígenes autorizados, validar los métodos y \nencabezados permitidos, y evitar el uso innecesario de credenciales compartidas (Access-
 Control-Allow-Credentials: true). El control de CORS debe ser gestionado desde el backend, 
 alineado con los orígenes legítimos de la aplicación web. 
  
@@ -1672,8 +1613,7 @@ Load), al que le fue asignado.
  
 4. Técnicas criptograficas y protocolos seguros 
 Para asegurar la información, se realiza un cifrado de la misma, mediante la criptografía, que consiste en 
-utilizar unas herramientas criptográficas para ofuscar la información mediante técnicas de codificación, 
-evitando que los datos sean legibles por cualquier persona que desconozca la clave de decodificación. 
+utilizar unas herramientas criptográficas para ofuscar la información mediante técnicas de codificación, \nevitando que los datos sean legibles por cualquier persona que desconozca la clave de decodificación. 
 La criptografía (escritura oculta) se define, como el ámbito de la criptología que se ocupa de las 
 técnicas de cifrado o codificado destinadas a alterar los mensajes o representaciones lingüísticas para 
 hacerlos ininteligibles a receptores no autorizados. 
@@ -1811,8 +1751,7 @@ Son algoritmos simétricos:
 • Cifrado TwoFish 
 • Criptografía asimétrica o de clave pública o criptografía de dos claves. 
 Son algoritmos asimétricos: 
-• Diffie-Hellman: (No es un algoritmo asimétrico propiamente dicho, es un protocolo de 
-establecimiento de claves, se usa para generar una clave privada a ambos extremos de un 
+• Diffie-Hellman: (No es un algoritmo asimétrico propiamente dicho, es un protocolo de \nestablecimiento de claves, se usa para generar una clave privada a ambos extremos de un 
 canal de comunicación inseguro) 
 • ElGamal 
 • RSA 
@@ -1876,11 +1815,9 @@ forma de agrandar el largo de la clave sin necesidad de cambiar de algoritmo de 
 Este método de cifrado es inmune al ataque por encuentro a medio camino, doblando la 
 longitud efectiva de la clave (112 bits), pero en cambio es preciso triplicar el número de 
 operaciones de cifrado, haciendo este método de cifrado muchísimo más seguro que el DES. Por 
-tanto, la longitud de la clave usada será de 168 bits (3x56 bits), aunque como se ha dicho su 
-eficacia solo sea de 112 bits. Se continúa cifrando bloques de 64 bits. 
+tanto, la longitud de la clave usada será de 168 bits (3x56 bits), aunque como se ha dicho su \neficacia solo sea de 112 bits. Se continúa cifrando bloques de 64 bits. 
 El Triple DES está siendo reemplazado por el algoritmo AES, aunque todavía (principios de 
-2020) la mayoría de las tarjetas de crédito y otros medios de pago electrónicos tienen como 
-estándar el algoritmo Triple DES (anteriormente usaban el DES). 
+2020) la mayoría de las tarjetas de crédito y otros medios de pago electrónicos tienen como \nestándar el algoritmo Triple DES (anteriormente usaban el DES). 
 Por su diseño, el DES y por lo tanto el TDES son algoritmos lentos. 
 • RC2: 
 También conocido como ARC2. 
@@ -1912,8 +1849,7 @@ utilizado y se usa en algunos de los protocolos más populares como Transport La
 Wired Equivalent Privacy (WEP) (para añadir seguridad en las redes inalámbricas). 
 RC4 fue excluido enseguida de los estándares de alta seguridad por los criptógrafos y algunos 
 modos de usar el algoritmo de criptografía RC4 lo han llevado a ser un sistema de criptografía muy 
-inseguro, incluyendo su uso WEP. No está recomendada su aplicación en proyectos nuevos; sin 
-embargo, algunos sistemas basados en RC4 son lo suficientemente seguros para un uso común. 
+inseguro, incluyendo su uso WEP. No está recomendada su aplicación en proyectos nuevos; sin \nembargo, algunos sistemas basados en RC4 son lo suficientemente seguros para un uso común. 
 • RC5: 
 Siglas en inglés de "Cifrado de Rivest". 
 Tiene tamaño variable de bloques (32, 64 o 128 bits), con tamaño de clave (entre 0 y 2040 
@@ -1954,8 +1890,7 @@ Desde 2006, el AES es uno de los algoritmos más populares usados en criptograf�
 • Blowfish: 
 Usa bloques de 64 bits y claves que van desde los 32 bits hasta 448 bits. 
 No se han encontrado técnicas de criptoanálisis efectivas contra el Blowfish. 
-Criptoanálisis es la parte de la criptología que se dedica al estudio de sistemas criptográficos con 
-el fin de encontrar debilidades en los sistemas y romper su seguridad sin el conocimiento de 
+Criptoanálisis es la parte de la criptología que se dedica al estudio de sistemas criptográficos con \nel fin de encontrar debilidades en los sistemas y romper su seguridad sin el conocimiento de 
 información secreta. 
 • ChaCha20: 
 A diferencia de AES que es un cifrado por bloques, ChaCha20 es un cifrado de flujo. 
@@ -1970,8 +1905,7 @@ bits. Aunque es muy seguro y se estableció como uno de los mejores algoritmos d
 sustitución de DES, fue descartado por resultar muy lento en comparación con otros algoritmos. 
 Utiliza una clave para cifrar y descifrar todos los datos e información, soporta las claves junto 
 con la información sin ningún tipo de formato. Una vez recibida toda la información, la cifra, por 
-lo cual, ya no es visible sin pasar por el proceso de descodificación. Todos estos datos, se 
-enviarán al usuario o sistema final, acompañados de la clave de cifrado, para que se pueda ver la 
+lo cual, ya no es visible sin pasar por el proceso de descodificación. Todos estos datos, se \nenviarán al usuario o sistema final, acompañados de la clave de cifrado, para que se pueda ver la 
 misma. 
 Sus cajas de sustitución (S-Boxes) son calculadas previamente y se utilizan para hacer menos 
 visible la relación entre un texto plano y uno cifrado, pero pueden ser vulnerables a ataques de 
@@ -2037,15 +1971,13 @@ Es válido tanto para cifrar como para firmar digitalmente.
 La seguridad de este algoritmo radica en el problema de la factorización de números enteros. 
 Los mensajes enviados se representan mediante números, y el funcionamiento se basa en el 
 producto, conocido, de dos números primos grandes elegidos al azar y mantenidos en secreto. 
-Este algoritmo necesita una clave privada y otra pública. Es decir, para intercambiar mensajes 
-entre 3 usuarios es necesario que cada uno de ellos conozca la clave pública y la privada de sus 
+Este algoritmo necesita una clave privada y otra pública. Es decir, para intercambiar mensajes \nentre 3 usuarios es necesario que cada uno de ellos conozca la clave pública y la privada de sus 
 otros dos compañeros. 
 • ElGamal: 
 Se refiere a un esquema de cifrado basado en el problema matemático del logaritmo discreto. Es 
 un algoritmo basado en la idea de Diffie-Hellman y que funciona de una forma parecida a este 
 algoritmo discreto. 
-(Un algoritmo discreto es un término que se utiliza en álgebra abstracta, dónde se usan 
-elementos d un grupo cíclico finito.) 
+(Un algoritmo discreto es un término que se utiliza en álgebra abstracta, dónde se usan \nelementos d un grupo cíclico finito.) 
 Puede ser utilizado tanto para generar firmas digitales como para cifrar o descifrar. 
 • Criptografía de curva elíptica (CCE): 
 Del inglés: Elliptic curve cryptography, ECC. 
@@ -2078,8 +2010,7 @@ Los algoritmos de cifrado híbridos más conocidos son:
 • GnuPG. 
 4.2. CCN-CERT 
 El Centro Criptológico Nacional (CCN) es un organismo del estado español adscrito al Centro Nacional 
-de Inteligencia que se dedica a criptoanalizar y descifrar por procedimientos manuales, medios 
-electrónicos y criptofonía, así como realizar investigaciones tecnológico-criptográficas y formar al 
+de Inteligencia que se dedica a criptoanalizar y descifrar por procedimientos manuales, medios \nelectrónicos y criptofonía, así como realizar investigaciones tecnológico-criptográficas y formar al 
 personal especializado en criptología. 
 El CCN quedó legalmente regulado por el Real Decreto 421/2004 el 12 de marzo. 
 El CCN no se trata de una agencia independiente al CNI, sino que, siguiendo el modelo de Alemania o 
@@ -2217,8 +2148,7 @@ aplicaciones, incluyendo la firma electrónica.
 La clave pública y la clave privada de ECDSA están relacionadas por una curva elíptica. Una 
 curva elíptica es una curva plana que satisface una ecuación particular. 
 Para generar una firma, el firmante selecciona un punto aleatorio en la curva elíptica. Luego, 
-multiplica el punto aleatorio por su clave privada. El resultado de la multiplicación es un punto 
-en la curva elíptica. El punto en la curva elíptica es la firma del mensaje. 
+multiplica el punto aleatorio por su clave privada. El resultado de la multiplicación es un punto \nen la curva elíptica. El punto en la curva elíptica es la firma del mensaje. 
 Para verificar una firma, el destinatario utiliza la clave pública del firmante para multiplicar el 
 punto de la firma por la clave pública. El resultado de la multiplicación debe ser el punto 
 aleatorio que utilizó el firmante para generar la firma. 
@@ -2248,8 +2178,7 @@ seguridad de los documentos firmados electrónicamente. Estos formatos permiten 
 añadir elementos esenciales como firmas digitales, certificados, y sellos de tiempo, asegurando la 
 autenticidad e integridad de los documentos. 
 4.3.2.1. Estándares 
-Los formatos de firma digital están basados en una serie de estándares técnicos que definen cómo 
-estructurar, encapsular y proteger los datos. Los principales estándares incluyen:  
+Los formatos de firma digital están basados en una serie de estándares técnicos que definen cómo \nestructurar, encapsular y proteger los datos. Los principales estándares incluyen:  
 CMS (Cryptographic Message Syntax) 
 Definido en la RFC 5652, es un estándar para encapsular datos de manera segura, soportando 
 operaciones como firmas digitales y cifrado. Es la base para formatos avanzados como CAdES y para 
@@ -2257,8 +2186,7 @@ correos seguros mediante S/MIME. Se utiliza en firmas digitales en documentos bi
 protección de mensajes. 
 XML (Extensible Markup Language) 
 Estándar utilizado para comprimir y combinar múltiples archivos. Su función principal en el contexto de 
-firmas digitales es contener documentos firmados junto con sus metadatos en un solo archivo, como en 
-el estándar ASiC. Es ideal para proyectos que requieren almacenar y firmar varios documentos 
+firmas digitales es contener documentos firmados junto con sus metadatos en un solo archivo, como en \nel estándar ASiC. Es ideal para proyectos que requieren almacenar y firmar varios documentos 
 simultáneamente.
 
 ---
@@ -2310,8 +2238,7 @@ Es un formato contenedor que puede comprender firmas CAdES, XAdES o PAdfES. Usad
 veíamos para archivos que integran varios documentos, auditorías, paquetes de y archivos de 
 cumplimiento normativo. 
 4.4. Uso de protocolos 
-Para garantizar la confidencialidad de la información, debemos proporcionar a los usuarios de los 
-equipos, la formación y herramientas necesarias (protocolos criptográficos). 
+Para garantizar la confidencialidad de la información, debemos proporcionar a los usuarios de los \nequipos, la formación y herramientas necesarias (protocolos criptográficos). 
 También utilizamos en las comunicaciones los diferentes protocolos actuales. Entre otros se incluyen 
 los siguientes: 
 • SSH para el acceso seguro remoto a la administración de equipos (no utilizar Telnet que no va 
@@ -2352,8 +2279,7 @@ código abierto ofrece a quien lo solicite los certificados SSL/TLS.
 • Entrust Datacard. 
 • SSL.com. 
 Autoridades de Registro 
-La RA (Autoridad de Registro) actúa como intermediaria entre el solicitante y la CA. Su función principal 
-es validar la identidad de los solicitantes antes de que se emita el certificado. Aunque en muchos casos la 
+La RA (Autoridad de Registro) actúa como intermediaria entre el solicitante y la CA. Su función principal \nes validar la identidad de los solicitantes antes de que se emita el certificado. Aunque en muchos casos la 
 RA y la CA pueden ser parte de la misma entidad, algunas veces están separadas. La RA verifica los 
 documentos del solicitante y garantiza que la información proporcionada sea legítima y precisa. 
 4.5.3. Funciones 
@@ -2395,8 +2321,7 @@ dominios y sellos de sitio.
 Son unos documentos que suelen estar formados por una clave pública, el nombre del propietario, el de 
 la entidad emisora, indica asimismo el periodo de validez (el certificado caduca y ha de ser mantenido) 
 y la firma digital de la CA. 
-Además de los certificados orientados a servidores web (SSL/TLS), existen también certificados 
-electrónicos personales que permiten la identificación del titular y la firma digital. Estos certificados no 
+Además de los certificados orientados a servidores web (SSL/TLS), existen también certificados \nelectrónicos personales que permiten la identificación del titular y la firma digital. Estos certificados no 
 se utilizan en servidores, sino por ciudadanos o empleados públicos, y requieren mecanismos de 
 custodia más estrictos para proteger la clave privada. 
 Las smart cards son tarjetas criptográficas que incorporan un chip con capacidad para generar y 
@@ -2422,15 +2347,13 @@ Los certificados pueden ser específicos (para un protocolo determinado) o bien 
 SFTP, SMTPS, IMAPS, POP3S). 
 4.5.7. Proceso de obtención 
 El proceso de obtención de un certificado digital consta de varios pasos: 
-1. Generación claves: el solicitante generará las claves privada y pública a través de un software 
-específico que usará un algoritmo criptográfico como el de curva elíptica (Elliptic Curve 
+1. Generación claves: el solicitante generará las claves privada y pública a través de un software \nespecífico que usará un algoritmo criptográfico como el de curva elíptica (Elliptic Curve 
 Cryptography, ECC) o RSA. 
 Mantendrá la clave privada secreta y en lugar seguro (archivo cifrado o módulo de seguridad 
 de hardware -HSM), alejada de accesos no autorizados. 
 Creará una solicitud, por último, que deberá incluir la clave pública y la información del 
 solicitante. 
-2. Solicitud: Envío de solicitud a la Autoridad Certificadora (CA) para el nombre de dominio 
-elegido. 
+2. Solicitud: Envío de solicitud a la Autoridad Certificadora (CA) para el nombre de dominio \nelegido. 
 3. Instalación: Tras esto la CA emitirá el certificado en formato electrónico y lo enviará al 
 solicitante que habrá de instalarlo en el servidor o dispositivo solicitante. 
 4.5.8. Mantenimiento, renovación y revocación 
@@ -2446,8 +2369,7 @@ asegurarse de que ya no son válidos.
 Seguridad de los Sistemas de Información. Infraestructura física de un CPD. Sistemas de gestión de incidencias. 
 Control Remoto de puestos de Usuario 
 66 
-Las auditorías periódicas son importantes para identificar y corregir fallas de seguridad relacionadas con 
-estos documentos electrónicos. Monitorización y auditorías para comprobar fechas y estado de 
+Las auditorías periódicas son importantes para identificar y corregir fallas de seguridad relacionadas con \nestos documentos electrónicos. Monitorización y auditorías para comprobar fechas y estado de 
 revocación son esenciales. 
 Se pueden encontrar diversas herramientas para la gestión automática de las renovaciones, 
 revocaciones, detección de amenazas y monitorizaciones de estado. 
@@ -2465,8 +2387,7 @@ mismas sino todos los certificados firmados por estas últimas, intermedias.
 Las CAs intermedias proporcionarán certificados a los propietarios de dominios o a los usuarios finales. 
 Los clientes web antes de establecer una comunicación con cifrado simétrico verificarán la cadena de 
 confianza hasta llegar a una autoridad raíz. El proceso de verificación de un certificado consta de varios 
-pasos: verificación de la firma digital (encriptación del hash), descifrándola con la clave pública incluida 
-en propio navegador. Comprobación de la vigencia del certificado. Cálculo del hash especificado en el 
+pasos: verificación de la firma digital (encriptación del hash), descifrándola con la clave pública incluida \nen propio navegador. Comprobación de la vigencia del certificado. Cálculo del hash especificado en el 
 propio certificado y comparación del recién calculado con el desencriptado. Se le dará validez si se 
 cumplen estos pasos. El proceso se repetirá hasta llegar a la CA raíz en la que el certificado no nos 
 llevará más atrás. 
@@ -2478,8 +2399,7 @@ Hay cinco tipos principales de SSO, también se les llama reduced sign on system
 autenticación reducida"). 
 • Enterprise SSO (E-SSO) 
 También llamado Legacy SSO, funciona para una autenticación primaria, interceptando los 
-requisitos de login presentados por las aplicaciones secundarias para completar los mismos con 
-el usuario y contraseña. Los sistemas E-SSO permiten interactuar con sistemas que pueden 
+requisitos de login presentados por las aplicaciones secundarias para completar los mismos con \nel usuario y contraseña. Los sistemas E-SSO permiten interactuar con sistemas que pueden 
 deshabilitar la presentación de la pantalla de login.
 
 ---
@@ -2492,16 +2412,14 @@ También llamado gestión de acceso web (web access management, Web-AM o WAM) tr
 solamente con aplicaciones y recursos accedidos vía web. 
 El objetivo es permitir autenticar a los usuarios en diversas aplicaciones, sin necesidad de volver 
 a autenticar. 
-Los accesos son interceptados con la ayuda de un servidor proxy o de un componente instalado 
-en el servidor web o en la aplicación web destino. 
+Los accesos son interceptados con la ayuda de un servidor proxy o de un componente instalado \nen el servidor web o en la aplicación web destino. 
 Los usuarios no autenticados que tratan de acceder son redirigidos a un servidor o servicio web 
 de autenticación y regresan solamente después de haber logrado un acceso exitoso o con un 
 TOKEN de autenticación para la aplicación destino. 
 Se utilizan cookies, parámetros por GET (más inseguro) o POST para reconocer aquellos 
 usuarios que acceden y su estado de autenticación. 
 • Kerberos 
-Es un método popular de externalizar la autenticación de los usuarios. Los usuarios se registran 
-en el servidor Kerberos y reciben un tique, luego las aplicaciones cliente lo presentan para 
+Es un método popular de externalizar la autenticación de los usuarios. Los usuarios se registran \nen el servidor Kerberos y reciben un tique, luego las aplicaciones cliente lo presentan para 
 obtener acceso. 
 • Identidad federada 
 Es una nueva manera de enfrentar el problema de la autenticación, también para aplicaciones 
@@ -2513,11 +2431,9 @@ Localizador Uniforme de Recursos (URL) que cualquier aplicación o servidor pued
 6. Infraestructura física de un CPD: acondicionamiento 
 y equipamiento 
 CPD es un centro de proceso de datos, o también llamado Data Center. 
-Son grandes edificios seguros que cuentan con una serie de instalaciones de servidores en red. Permiten 
-el almacenamiento de datos y disponen de unos sistemas de recuperación, redundancia y seguridad que 
+Son grandes edificios seguros que cuentan con una serie de instalaciones de servidores en red. Permiten \nel almacenamiento de datos y disponen de unos sistemas de recuperación, redundancia y seguridad que 
 proporcionan entornos controlados seguros de almacenaje de datos. 
-Las grandes compañías gestionan centros de datos que les permiten almacenar datos operativos de su 
-empresa, o bien ofrecer servicios cloud (en la nube) a sus clientes.
+Las grandes compañías gestionan centros de datos que les permiten almacenar datos operativos de su \nempresa, o bien ofrecer servicios cloud (en la nube) a sus clientes.
 
 ---
 
@@ -2543,8 +2459,7 @@ para otra.
 Diferentes empresas competitivas con infraestructuras de Data Center totalmente diferentes pueden 
 proclamar que poseen alta disponibilidad, esto puede ser cierto ya que, dependerá de la interpretación 
 subjetiva de disponibilidad que se realice para el tipo de negocio en que se encuentre una compañía. 
-Para aumentar la redundancia y los niveles de con?abilidad, los puntos únicos de falla deben ser 
-eliminados tanto en el Data Center como en la infraestructura que le da soporte. 
+Para aumentar la redundancia y los niveles de con?abilidad, los puntos únicos de falla deben ser \neliminados tanto en el Data Center como en la infraestructura que le da soporte. 
 La industria tecnológica distingue cuatro modalidades de tipos de Data Center clasificándolos en cuatro 
 niveles distintos, (definidos en la norma TIA 942). 
 Los veremos al estudiar la norma TIA 942, pero veamos un primer resumen: 
@@ -2555,8 +2470,7 @@ En un Data Center de Tier 1 se puede interrumpir el servicio sin previo aviso. N
 además, con sistemas de redundancia y refrigeración. 
 • Tier II: 
 Su disponibilidad es algo superior a la del anterior, del 99,741%. 
-Disponen de sistemas de redundancia, generadores auxiliares de energía y suelos elevados, 
-entre otras ventajas. Sin embargo, aún pueden presentar interrupciones imprevistas.
+Disponen de sistemas de redundancia, generadores auxiliares de energía y suelos elevados, \nentre otras ventajas. Sin embargo, aún pueden presentar interrupciones imprevistas.
 
 ---
 
@@ -2604,24 +2518,20 @@ Control Remoto de puestos de Usuario
 Subsistemas de un CPD 
 De acuerdo con el estándar TIA-942, la infraestructura de soporte de un CPD estará compuesta por 
 cuatro subsistemas: 
-• Telecomunicaciones: Cableado de armarios y horizontal, accesos redundantes, cuarto de 
-entrada, área de distribución, backbone, elementos activos y alimentación redundantes, patch 
+• Telecomunicaciones: Cableado de armarios y horizontal, accesos redundantes, cuarto de \nentrada, área de distribución, backbone, elementos activos y alimentación redundantes, patch 
 panels y latiguillos, documentación. 
 • Arquitectura: Selección de ubicación, tipo de construcción, protección ignífuga y 
 requerimientos NFPA 75(Sistemas de protección contra el fuego para información), barreras de 
 vapor, techos y pisos, áreas de oficina, salas de UPS y baterías, sala de generador, control de 
 acceso, CCTV, NOC (Network Operations Center – Centro operativo). 
 • Sistema eléctrico: Número de accesos, puntos de fallo, cargas críticas, redundancia de UPS y 
-topología de UPS, puesta a tierra, EPO (Emergency Power Off- sistemas de corte de 
-emergencia) baterías, monitorización, generadores, sistemas de transferencia. 
+topología de UPS, puesta a tierra, EPO (Emergency Power Off- sistemas de corte de \nemergencia) baterías, monitorización, generadores, sistemas de transferencia. 
 • Sistema mecánico: Climatización, presión positiva, tuberías y drenajes, CRACs y condensadores, 
-control de HVAC (High Ventilating Air Conditionning), detección de incendios y sprinklers, 
-extinción por agente limpio (NFPA 2001), detección por aspiración (ASD), detección de líquidos. 
+control de HVAC (High Ventilating Air Conditionning), detección de incendios y sprinklers, \nextinción por agente limpio (NFPA 2001), detección por aspiración (ASD), detección de líquidos. 
 El estándar TIA 942, indica una clasificación a los CPD, indicando así su nivel de fiabilidad en función del 
 nivel de disponibilidad. Esta clasificación se establece en 4 niveles denominados TIER. 
 6.1.1. El concepto de TIER 
-El estándar TIA 942, en su anexo G (informativo) y basado en recomendaciones del Uptime Institute, 
-establece cuatro niveles (tiers) en función de la redundancia necesaria para alcanzar niveles de 
+El estándar TIA 942, en su anexo G (informativo) y basado en recomendaciones del Uptime Institute, \nestablece cuatro niveles (tiers) en función de la redundancia necesaria para alcanzar niveles de 
 disponibilidad de hasta el 99.995%. 
  
  
@@ -2687,8 +2597,7 @@ Control Remoto de puestos de Usuario
 72 
 TIER III- Nivel III (Mantenimiento concurrente): 
 • Disponibilidad 99,982 %. 
-• Interrupciones planificadas sin interrupción de funcionamiento, pero posibilidad de problemas 
-en las no previstas. 
+• Interrupciones planificadas sin interrupción de funcionamiento, pero posibilidad de problemas \nen las no previstas. 
 • Múltiples accesos de energía y refrigeración, por un solo encaminamiento activo. Incluye 
 componentes redundantes (N+1). 
 • Plazo de implementación: 15 a 20 meses. 
@@ -2707,11 +2616,9 @@ global del Data Center será igual a la de aquel subsistema que tenga el menor n
 Por tanto, si un Data Center tiene todos los subsistemas Tier IV excepto el eléctrico que es Tier III, la 
 clasificación global será Tier III. 
 Si se quiere actualizar un Data Center que tiene una clasificación global de Tier III, para que tenga un 
-Tier IV, hay que tener en cuenta, que en ocasiones hay limitaciones físicas difíciles de salvar en los 
-emplazamientos edilicios actuales. (como en lugares como América Latina). Por ejemplo, es muy difícil 
+Tier IV, hay que tener en cuenta, que en ocasiones hay limitaciones físicas difíciles de salvar en los \nemplazamientos edilicios actuales. (como en lugares como América Latina). Por ejemplo, es muy difícil 
 lograr la provisión de energía de dos subestaciones independientes o poder lograr las alturas que 
-requiere el estándar en los edificios existentes (3 m mínimo sobre piso elevado y no menor de 60 cm 
-entre el techo y el equipo más alto). 
+requiere el estándar en los edificios existentes (3 m mínimo sobre piso elevado y no menor de 60 cm \nentre el techo y el equipo más alto). 
 En general, para lograr un Data Center Tier IV hay que diseñarlos desde cero siguiendo el estándar 
 como guía.
 
@@ -2734,14 +2641,12 @@ En su actualización de 2013 se incorporan las siguientes novedades:
 • La utilización en los DC de fibras multimodo queda reservada a los tipos OM3 y OM4 (50/125), 
 y equipos con emisores LASER 850 nm. Quedando prohibida la utilización de fibras de los tipos 
 OM1 y OM2 anteriormente empleados. 
-• Para los cableados de cobre, se recomienda el empleo de Cat6 (mínimo) y Cat6A apantallados. En 
-este campo se coincide con ISO/IEC 24764, que reconoce únicamente enlaces Clase EA (Cat 6aA). 
+• Para los cableados de cobre, se recomienda el empleo de Cat6 (mínimo) y Cat6A apantallados. En \neste campo se coincide con ISO/IEC 24764, que reconoce únicamente enlaces Clase EA (Cat 6aA). 
 • Queda suprimida la limitación de 100 m. de longitud en cableados horizontales, para la fibra 
 óptica, quedando la definición de este concepto a la responsabilidad del fabricante. 
 • Conectores ópticos: queda reducida la selección a los tipos LC Dúplex, para cables dúplex, y 
 MPO para más de 12 fibras. 
-• Se recomienda el uso de arquitecturas centralizadas y jerárquicas, por ser más flexible que los 
-enlaces directos. 
+• Se recomienda el uso de arquitecturas centralizadas y jerárquicas, por ser más flexible que los \nenlaces directos. 
 • Queda reestructurada la organización de los entornos DC, incluyendo tres tipos de áreas: MDA 
 Main Distribution Area), IDA (Intermediate Distribution Area, HDA (Horizontal distribution 
 Area) y ZDA (Optional Zone Distribution Area); algunas de las cuales pueden precisar de 
@@ -2805,8 +2710,7 @@ registre los tiempos de acceso/fechas/usuario durante 180 días.
 áreas de seguridad). 
 • El control de acceso debe autenticar a cada titular de la tarjeta por PIN/biométrico/Two 
 Person Integrity. 
-• Debe haber video vigilancia monitorizada y activada por movimiento para las entradas y los 
-espacios del servicio. El sistema debe ser de 15 imágenes/segundo y una grabación mínima 
+• Debe haber video vigilancia monitorizada y activada por movimiento para las entradas y los \nespacios del servicio. El sistema debe ser de 15 imágenes/segundo y una grabación mínima 
 de 90 días. 
 • Debe estar segurizado el acceso a los activos y redes de los sistemas críticos: seguridad, 
 telecomunicaciones, refrigeración y potencia. 
@@ -2834,8 +2738,7 @@ Control Remoto de puestos de Usuario
 • Como mínimos semestralmente, el equipo de seguridad realizará evaluaciones de amenazas 
 de seguridad de acuerdo con los métodos cuantitativos y cualitativos establecidos para la 
 instalación. 
-• No puede haber instalaciones vecinas de alto riesgo (materiales peligrosos, inflamables, 
-explosivos o riesgos nucleares). 
+• No puede haber instalaciones vecinas de alto riesgo (materiales peligrosos, inflamables, \nexplosivos o riesgos nucleares). 
 • Las operaciones de seguridad emplearán las más estrictas herramientas de seguridad física 
 permitidas por la ley. 
 • Protección contra el agua: 
@@ -2855,8 +2758,7 @@ El PUE es el resultado de dividir los consumos eléctricos totales en un CPD ent
 consumo exclusivo de los sistemas IT (aislado de tierra). 
 Cableado de fibra óptica de alta densidad MTP / MPO 
 Puesto que el crecimiento de datos transmitidos es cada vez mayor, se van desarrollando nuevos 
-cableados. A pesar de la utilización en los CPD de cables de fibra tradicionales, puede haber momentos 
-en que el centro esté saturado. 
+cableados. A pesar de la utilización en los CPD de cables de fibra tradicionales, puede haber momentos \nen que el centro esté saturado. 
 Por ello, han aparecido los cables MTP / MPO, que unen 8, 12 o 24 fibras en una sola interfaz. 
 Los conectores MPO están disponibles en una versión hembra (sin clavijas) o en una versión macho 
 (con clavijas). La conexión asegura una alineación exacta, y evita que las caras finales de las fibras 
@@ -2882,12 +2784,10 @@ conjunto de procedimientos llamado plan de contingencias.
 • Vibraciones. 
 • Zonas de trabajo pesado. 
 • Zonas con excesivo tráfico de personas y materiales. 
-• Zonas donde se almacene o se puedan acumular materiales combustibles o gases 
-explosivos. 
+• Zonas donde se almacene o se puedan acumular materiales combustibles o gases \nexplosivos. 
 • Fuentes de interferencia de radio o radar. 
 • Con acceso adecuado para la entrega y el movimiento normal de suministros y máquinas: 
-• El muelle de carga, los pasadizos, los pasillos, las puertas y los montacargas deben permitir 
-el movimiento de elementos pesados y de grandes dimensiones. 
+• El muelle de carga, los pasadizos, los pasillos, las puertas y los montacargas deben permitir \nel movimiento de elementos pesados y de grandes dimensiones. 
 • Se definirá una ruta libre de obstáculos desde el muelle de carga hasta el CPD. 
 6.2.2. Dimensiones 
 • El suelo debe soportar el peso del: 
@@ -2965,8 +2865,7 @@ Seguridad de los Sistemas de Información. Infraestructura física de un CPD. Si
 Control Remoto de puestos de Usuario 
 80 
 6.2.7. Contaminación y limpieza del aire 
-Dependiendo de la contaminación en el aire, se deberán utilizar filtros especiales, mecánicos o 
-electrostáticos, apropiados contra ellos. 
+Dependiendo de la contaminación en el aire, se deberán utilizar filtros especiales, mecánicos o \nelectrostáticos, apropiados contra ellos. 
 El polvo contribuye a problemas asociados a los medios de soporte magnéticos (cintas y discos). La 
 protección contra el polvo se puede conseguir: 
 • Verificando el correcto cierre de las ventanas y manteniendo las puertas cerradas. 
@@ -2987,8 +2886,7 @@ sistema de protección contra incendios debe constar de:
 • En la zona de almacenamiento de datos. 
 • Un sistema de extinción con elementos: 
 • Fijos: para incendios de grandes dimensiones. 
-Se debe instalar con él un sistema de alarma que entre en funcionamiento con el sistema de 
-extinción. 
+Se debe instalar con él un sistema de alarma que entre en funcionamiento con el sistema de \nextinción. 
 Debido al hecho de que se produce la descarga de un gran volumen de agua, es necesario 
 prever en el suelo del edificio un sistema de drenaje y desagüe para evacuar el agua y evitar 
 la acumulación en el falso suelo.
@@ -3095,8 +2993,7 @@ orden de 100.000 horas/fallo y para cargas poco críticas de unas 20.000 horas/f
 • El cuadro eléctrico debe ser exclusivo para los equipos informáticos. 
 • Es recomendable instalar sistemas automáticos de alarma y corte de la alimentación eléctrica 
 para casos de emergencia. 
-• El sistema de aire acondicionado debe tener su propio circuito eléctrico desde el cuadro de 
-entrada del edificio. 
+• El sistema de aire acondicionado debe tener su propio circuito eléctrico desde el cuadro de \nentrada del edificio. 
 • Se aconseja instalar al menos dos bases de enchufe de 230 V libres y próximas al ordenador, 
 pertenecientes a un circuito diferente al que lo alimenta, para el servicio de limpieza y 
 mantenimiento. 
@@ -3113,27 +3010,23 @@ Control Remoto de puestos de Usuario
 La electricidad estática puede ser causa de interrupciones en el normal funcionamiento de los sistemas, 
 así como del deterioro de la información o del propio equipo (principalmente componentes lógicos). 
 Los materiales aislantes, como el material que recubre el suelo, son los principales responsables de la 
-acumulación de electricidad estática como resultado del movimiento de personas, carros, sillas, 
-etcétera. 
+acumulación de electricidad estática como resultado del movimiento de personas, carros, sillas, \netcétera. 
 Para evitarla es conveniente: 
 • Cuidar la humedad relativa del aire, evitando que sea muy seco. 
 • Utilizar moquetas para el suelo y tejidos para las sillas que tengan baja resistividad eléctrica. 
 • Se debe evitar poner goma y rodamientos aislantes al mobiliario. 
 • Al manipular el interior de equipos informáticos es recomendable tocar las masas del equipo 
 (partes metálicas) de forma periódica. 
-• Siempre que se utilicen destornilladores, alicates o utensilios metálicos puntiagudos deberán 
-estar revestidos de material aislante. 
+• Siempre que se utilicen destornilladores, alicates o utensilios metálicos puntiagudos deberán \nestar revestidos de material aislante. 
 6.3.5. Compatibilidad electromagnética 
 Los equipos eléctricos y electrónicos producen interferencias de alta frecuencia en sus proximidades 
 que se propagan por los cables (emisiones conducidas), ya sean de alimentación eléctrica, de señal o de 
 tierra, o por el aire (emisiones radiadas) que pueden afectar al funcionamiento de los equipos 
-informáticos e incluso dañarlos, así como causar deterioros permanentes en la información almacenada 
-en memorias, discos y cintas. 
+informáticos e incluso dañarlos, así como causar deterioros permanentes en la información almacenada \nen memorias, discos y cintas. 
 La compatibilidad electromagnética estudia y limita las emisiones producidas por los equipos eléctricos 
 y electrónicos, y se establece condiciones de inmunidad de los equipos a los campos en función del 
 ambiente electromagnético en el que se instalan. 
-En líneas generales, se recomienda que los sistemas estén instalados en áreas cuyo campo 
-electromagnético no sea superior a 2 V/m para frecuencias comprendidas entre 10 kHz y 1 GHz. 
+En líneas generales, se recomienda que los sistemas estén instalados en áreas cuyo campo \nelectromagnético no sea superior a 2 V/m para frecuencias comprendidas entre 10 kHz y 1 GHz. 
 6.4. Recomendaciones en el uso de la sala 
 • Minimizar el tráfico de personal. 
 • No superar la temperatura recomendada de operación, estableciendo un valor nominal de 21 °C. 
@@ -3153,8 +3046,7 @@ aumentos excesivos de temperatura.
 6.5. Seguridad de los equipos y de la información 
 Para proteger la información y los equipos es recomendable: 
 • Instalación de dispositivos detectores de fuego, y de sistemas de extintores automáticos. 
-• Instalación de un sistema de control de acceso de entrada para evitar la manipulación de 
-equipos por personal no autorizado. 
+• Instalación de un sistema de control de acceso de entrada para evitar la manipulación de \nequipos por personal no autorizado. 
 • Las copias de seguridad deben estar almacenadas fuera de la sala (e incluso del edificio) y en 
 contenedores especiales protegidos contra la humedad, temperaturas excesivas, fuego, 
 sabotaje, etcétera. 
@@ -3182,8 +3074,7 @@ Control Remoto de puestos de Usuario
 • Evidentemente, la instalación debe disponer en su instalación eléctrica de "Interruptores 
 Diferenciales", que protegen a las personas de electrocución por un eventual contacto con algún 
 dispositivo con problemas de aislamiento, como por ejemplo cables pelados. 
-• Se debe evitar almacenar los soportes magnéticos en lugares donde existan o sean susceptibles 
-existir campos magnéticos. 
+• Se debe evitar almacenar los soportes magnéticos en lugares donde existan o sean susceptibles \nexistir campos magnéticos. 
 • Entrenar al personal en operaciones de emergencia para casos de fuego, caídas de tensión, 
 ausencia del responsable del sistema y en los procesos de parada programada. 
 7. Sistemas de gestión de incidencias 
@@ -3202,8 +3093,7 @@ Una incidencia es aquel fallo en la operativa normal que se encuentra dentro de 
  
  
 + Info 
-Un SLA (Service Level Agreement o Acuerdo de Nivel de servicio) 
-es un documento contractual vinculante que establecen proveedor 
+Un SLA (Service Level Agreement o Acuerdo de Nivel de servicio) \nes un documento contractual vinculante que establecen proveedor 
 de servicios y cliente. 
  
  
@@ -3367,13 +3257,11 @@ Normalmente, las organizaciones se estructuran en funciones.
 "Una función es una unidad especializada en la realización de una cierta actividad y es la 
 responsable de su resultado. La función engloba tanto al equipo de personas que la compone 
 como a los medios que el equipo utiliza para llevarla a cabo". 
-Las funciones suelen ser eficientes en su desempeño gracias a la especialización, pero esta 
-especialización puede llegar a ser un problema si las funciones no trabajan de forma coordinada 
+Las funciones suelen ser eficientes en su desempeño gracias a la especialización, pero esta \nespecialización puede llegar a ser un problema si las funciones no trabajan de forma coordinada 
 para la consecución de los objetivos globales de la organización. 
 Para evitar este problema se utilizan los procesos, que mejoran la coordinación y el control 
 sobre las funciones. 
-Un proceso es un conjunto de actividades interrelacionadas orientadas a cumplir un objetivo 
-específico. 
+Un proceso es un conjunto de actividades interrelacionadas orientadas a cumplir un objetivo \nespecífico. 
 Todos los procesos presentan las siguientes características: 
 • Tienen unas entradas, unas salidas y unos resultados específicos. 
 • Se inician como respuesta a un evento. 
@@ -3419,8 +3307,7 @@ personas y de servir como lugar en el que buscar ayuda".
  
 Diferencia entre un help desk y un service desk 
 Algunas empresas utilizan el término service desk en vez de help desk. 
-Otras sostienen que la diferencia entre un help desk y un service desk es que un service desk es la 
-evolución de un help desk al centrarse en atender a los usuarios finales de forma rápida y personalizada. 
+Otras sostienen que la diferencia entre un help desk y un service desk es que un service desk es la \nevolución de un help desk al centrarse en atender a los usuarios finales de forma rápida y personalizada. 
 Beneficios de uso de un help desk 
 Un help desk puede beneficiar a cualquier tipo de empresa u organización, ya que permite que el 
 consumidor, ya sea un usuario interno de la misma empresa u organización, o externo, pueda recibir 
@@ -3434,8 +3321,7 @@ Control Remoto de puestos de Usuario
 Esto se puede resumir estructurándolo en las siguientes ventajas: 
 • Mejora la satisfacción de los clientes (externos). 
 • Impulsa la satisfacción de los empleados. 
-Un mejor soporte para los empleados (sus clientes internos), mejora la resolución de problemas 
-en las tareas que tiene que realizar el empleado, y, por tanto, la calidad de su trabajo y también 
+Un mejor soporte para los empleados (sus clientes internos), mejora la resolución de problemas \nen las tareas que tiene que realizar el empleado, y, por tanto, la calidad de su trabajo y también 
 su satisfacción con la empresa, lo que repercute directamente con el servicio que recibirá el 
 cliente externo. 
 • Facilita el crecimiento de la empresa u organización. 
@@ -3465,8 +3351,7 @@ Seguridad de los Sistemas de Información. Infraestructura física de un CPD. Si
 Control Remoto de puestos de Usuario 
 94 
 • Un rastreador de problemas eficaz. 
-Es una herramienta clave para un help desk de TI, ya que permite registrar los problemas y los 
-errores que experimentan los clientes con un producto de software. 
+Es una herramienta clave para un help desk de TI, ya que permite registrar los problemas y los \nerrores que experimentan los clientes con un producto de software. 
 Podemos asegurar que se realiza un seguimiento del problema hasta que se haya resuelto 
 satisfactoriamente, y también se va informando al usuario de cómo evoluciona esa resolución. 
 • Autoservicio. 
@@ -3482,8 +3367,7 @@ Esto proporciona a los administradores del help desk información exhaustiva de 
 • Se detectan qué áreas del producto necesitan de mejoras o de un mayor desarrollo. 
 • Comentarios de los clientes. 
 Si el software de help desk incorporar la opción de comentarios, se permite al equipo de soporte 
-un contacto con los clientes después de solucionar un problema para evaluar su satisfacción con 
-el trabajo realizado, mejorando la satisfacción de los clientes. 
+un contacto con los clientes después de solucionar un problema para evaluar su satisfacción con \nel trabajo realizado, mejorando la satisfacción de los clientes. 
 • Automatización, aplicaciones e integraciones. 
 En función de cada empresa, será necesaria la automatización, las aplicaciones y las 
 integraciones de diferentes servicios, haciendo posibles cosas como: 
@@ -3593,8 +3477,7 @@ En este caso, el equipo de Service Desk también continuará con el seguimiento 
 incidencia hasta su cierre. 
 Cuando se produce un fallo en el sistema, hay que saber la causa, para además de que 
 solucionarlo, evitar que se produzca de nuevo. 
-Es importante analizar si ha sido como consecuencia de una modificación o implementación en 
-el sistema. 
+Es importante analizar si ha sido como consecuencia de una modificación o implementación en \nel sistema. 
 Se debe concretar bien que es lo que no funciona para resolverlo con la mayor precisión y 
 rapidez, pudiendo buscar en la base de datos si ya se ha producido con anterioridad, y buscar 
 posibles soluciones (workarounds).
@@ -3654,8 +3537,7 @@ contrato del servicio de internet, luz… Esto son ejemplos de ITSM.
  
  
 ITSM propone cambiar el paradigma de gestión de TI, por una colección de componentes enfocados en 
-servicios de punta a cabo usando distintos marcos de trabajo con las "mejores prácticas", como por 
-ejemplo la Information Technology Infrastructure Library (ITIL) o el eSCM (enabled Service Capability 
+servicios de punta a cabo usando distintos marcos de trabajo con las "mejores prácticas", como por \nejemplo la Information Technology Infrastructure Library (ITIL) o el eSCM (enabled Service Capability 
 Model). 
  
  
@@ -3679,8 +3561,7 @@ La Gestión de Servicios de TI requiere de una integración correcta de tres fac
 Seguridad de los Sistemas de Información. Infraestructura física de un CPD. Sistemas de gestión de incidencias. 
 Control Remoto de puestos de Usuario 
 100 
-Los proveedores de los servicios de TI deben considerar la calidad de los servicios que proveen y 
-enfocarse en sus relaciones con los clientes. 
+Los proveedores de los servicios de TI deben considerar la calidad de los servicios que proveen y \nenfocarse en sus relaciones con los clientes. 
 Generalmente, la gestión de servicios de TI involucra el uso de: 
 • Outsourcings. 
 El outsourcing o subcontratación se define como un modelo de negocio en el cual, las empresas 
@@ -3688,29 +3569,24 @@ subcontratan a personas para que realicen actividades específicas. (No podrá c
 tareas iguales o similares a las que realizan el resto de los trabajadores al servicio de la persona 
 que contrata). 
 Es, por tanto, el proceso económico empresarial en el que una sociedad mercantil transfiere los 
-recursos y las responsabilidades referentes al cumplimiento de ciertas tareas a una sociedad 
-externa, empresa de gestión o subcontratista, que precisamente se dedica a la prestación de 
+recursos y las responsabilidades referentes al cumplimiento de ciertas tareas a una sociedad \nexterna, empresa de gestión o subcontratista, que precisamente se dedica a la prestación de 
 diferentes servicios especializados. 
 Para ello, estas últimas, pueden contratar solo al personal, caso en el cual los recursos los 
 aportará el cliente (instalaciones, hardware y software), o contratar tanto el personal como los 
 recursos. 
 • Insourcing. 
-El insourcing es definido como la internalización de un servicio que se realizaba de forma 
-externa. 
+El insourcing es definido como la internalización de un servicio que se realizaba de forma \nexterna. 
 Para efectos de la subcontratación laboral, no es otra cosa más que manejar de manera interna 
 la administración de la nómina a través de una empresa que se diseñó de forma exclusiva para 
 ofrecer estos servicios a las diferentes compañías de un grupo, que comparten en común una 
 sociedad. 
 De esta manera, utilizar los servicios del insourcing entre filiales del grupo puede resultar 
-beneficioso, ya que lo que se busca con esta figura es realizar una actividad especializada para 
-estos efectos, y con ello, vigilar el correcto cumplimiento. Así se puede generar una mayor 
+beneficioso, ya que lo que se busca con esta figura es realizar una actividad especializada para \nestos efectos, y con ello, vigilar el correcto cumplimiento. Así se puede generar una mayor 
 certeza y seguridad en todas las obligaciones fiscales de la subcontratación laboral, y como 
 consecuencia, se crea una mayor fidelización en los empleados al pertenecer al mismo grupo. 
 Esta figura no evita el cumplimiento normativo de la subcontratación laboral y tampoco 
-significa que el outsourcing sea una figura que se deba de evitar. Cada empresa debe realizar un 
-exhaustivo análisis que lo lleve a validar cada una de las aristas de su actividad y la 
-preponderancia del enfoque de su naturaleza per se y, con la ayuda de especialistas, definir la 
-estrategia que más se alinea a cada necesidad. 
+significa que el outsourcing sea una figura que se deba de evitar. Cada empresa debe realizar un \nexhaustivo análisis que lo lleve a validar cada una de las aristas de su actividad y la 
+preponderancia del enfoque de su naturaleza per se y, con la ayuda de especialistas, definir la \nestrategia que más se alinea a cada necesidad. 
 • Servicios compartidos.
 
 ---
@@ -3722,9 +3598,7 @@ Control Remoto de puestos de Usuario
  
  
 + Info 
-Según explicó Guadalupe Sánchez, directora del Grupo EAP, 
-empresa especialista en administración de personal, para una 
-entrevista en Entrepreneur: 
+Según explicó Guadalupe Sánchez, directora del Grupo EAP, \nempresa especialista en administración de personal, para una \nentrevista en Entrepreneur: 
 "La diferencia fundamental es que los outsourcing son empresas 
 independientes dedicadas a la contratación de personal para 
 diferentes empresas. Por su parte, las insourcing son empresas 
@@ -3764,8 +3638,7 @@ La Gobernanza de TI, traducción del conjunto de mejores prácticas establecidas
 (Information Technology Service Management) acuñado a partir de la creación e implementación de 
 los principios y fundamentos ingleses promovidos en el conjunto de prácticas documentadas en ITIL 
 (Information Technology Infraestructure Library). 
-Gobierno de TI es el alineamiento de las Tecnologías de la información y la comunicación (TI) con la 
-estrategia del negocio. 
+Gobierno de TI es el alineamiento de las Tecnologías de la información y la comunicación (TI) con la \nestrategia del negocio. 
 El Gobierno de TI consiste en un completo marco de estructuras, procesos y mecanismos relacionales. 
 Las estructuras implican la existencia de funciones de responsabilidad, como los ejecutivos y 
 responsables de las cuentas de TI, así como diversos comités de TI. Los procesos se refieren a la 
@@ -3787,8 +3660,7 @@ objetivos estratégicos definidos.
 • TI está alineada con la estrategia del negocio. 
 • Los servicios y funciones de TI se proporcionan con el máximo valor posible o de la forma 
 más eficiente. 
-• Todos los riesgos relacionados con TI son conocidos y administrados y los recursos de TI 
-están seguros.
+• Todos los riesgos relacionados con TI son conocidos y administrados y los recursos de TI \nestán seguros.
 
 ---
 
@@ -3844,13 +3716,10 @@ garantizar la continuidad ininterrumpida de las operaciones comerciales. Sin emb
 varios incidentes a la vez o el mismo incidente ocurre varias veces, no es posible avanzar 
 proporcionando soluciones de remiendo u ofreciendo las mismas resoluciones una y otra vez. 
 La gestión de problemas de ITIL es un procedimiento para minimizar los incidentes causados por las 
-operaciones de infraestructura de TI al profundizar en los incidentes para determinar la causa raíz y 
-encontrar soluciones, y también para reducir la gravedad de los incidentes al documentar los problemas 
-existentes y proporcionar soluciones alternativas. 
+operaciones de infraestructura de TI al profundizar en los incidentes para determinar la causa raíz y \nencontrar soluciones, y también para reducir la gravedad de los incidentes al documentar los problemas \nexistentes y proporcionar soluciones alternativas. 
 La gestión de problemas es un enfoque metódico para identificar la causa de un incidente y gestionar el 
 ciclo de vida de todos los problemas. 
-El objetivo del proceso de gestión de problemas de ITIL es minimizar el impacto de los incidentes y 
-eliminar los incidentes recurrentes. 
+El objetivo del proceso de gestión de problemas de ITIL es minimizar el impacto de los incidentes y \neliminar los incidentes recurrentes. 
 Si bien ITIL no establece ninguna técnica específica para realizar la gestión de problemas, recomienda 
 las siguientes tres fases, que se estudiarán más adelante: 
 • Identificación del problema. 
@@ -3872,8 +3741,7 @@ Seguridad de los Sistemas de Información. Infraestructura física de un CPD. Si
 Control Remoto de puestos de Usuario 
 105 
 • Un menor costo de los servicios y problemas de TI. 
-• Además, es probable que una organización que implemente la gestión proactiva de problemas 
-encuentre un gran valor al identificar y eliminar los problemas antes de que interrumpan los 
+• Además, es probable que una organización que implemente la gestión proactiva de problemas \nencuentre un gran valor al identificar y eliminar los problemas antes de que interrumpan los 
 procesos comerciales. 
 La gestión de problemas vista como una práctica de ITIL es más útil cuando se usa con otras prácticas 
 de ITIL en la cadena de valor general del servicio. 
@@ -3944,8 +3812,7 @@ Control Remoto de puestos de Usuario
 107 
 A veces, a pesar de conocer la causa raíz, la solución más factible es implementar una solución 
 alternativa y documentarla como un error conocido. 
-A pesar de ser diferentes, la gestión de incidentes y la gestión de problemas se complementan entre sí y 
-están estrechamente alineadas: 
+A pesar de ser diferentes, la gestión de incidentes y la gestión de problemas se complementan entre sí y \nestán estrechamente alineadas: 
 • La gestión de incidentes garantiza la continuidad en las operaciones comerciales. 
 • Mientras que la gestión de problemas se ocupa de los problemas y problemáticas subyacentes. 
 7.3.2. Gestión de problemas reactiva frente a gestión 
@@ -3976,8 +3843,7 @@ Seguridad de los Sistemas de Información. Infraestructura física de un CPD. Si
 Control Remoto de puestos de Usuario 
 108 
 Elegir entre los enfoques de gestión de problemas reactivos y proactivos 
-Las organizaciones que apenas están comenzando a usar la gestión de problemas deben centrar sus 
-esfuerzos en implementar un proceso de gestión de problemas reactivo. 
+Las organizaciones que apenas están comenzando a usar la gestión de problemas deben centrar sus \nesfuerzos en implementar un proceso de gestión de problemas reactivo. 
 El personal existente de la mesa de servicio que tiene experiencia en la resolución de problemas con 
 incidentes diarios proporciona una valiosa experiencia antes de implementar una gestión de problemas 
 proactiva. 
@@ -3990,8 +3856,7 @@ Es importante incluir a todos los interesados en el proceso de gestión de probl
 proporcionan valor a las diferentes facetas de la organización. 
 Estos beneficios incluyen: 
 • Elimina las fallas en los servicios de una organización a través de una documentación adecuada. 
-• Mejora el diseño del servicio al identificar y resolver los puntos débiles, garantizando la ruta más 
-efectiva y eficiente para la entrega del servicio. 
+• Mejora el diseño del servicio al identificar y resolver los puntos débiles, garantizando la ruta más \nefectiva y eficiente para la entrega del servicio. 
 • Aumenta la tasa de corrección a la primera vez en las fallas del servicio al proporcionar 
 soluciones permanentes para los incidentes en lugar de limitarse a las soluciones alternativas. 
 • Disminuye el impacto de los incidentes que afectan a varios usuarios o a un solo usuario en un 
@@ -4001,8 +3866,7 @@ lo que aumenta la productividad del usuario.
 • Fortalece la confianza que los usuarios tienen en los servicios de TI de la organización. 
 • Disminuye el tiempo que lleva recuperarse de los fallos a través del mantenimiento sistemático 
 de una KEDB. 
-• Previene los incidentes recurrentes a través de correcciones únicas, ahorrando valiosos 
-esfuerzos a la mesa de servicio para su resolución. 
+• Previene los incidentes recurrentes a través de correcciones únicas, ahorrando valiosos \nesfuerzos a la mesa de servicio para su resolución. 
 • Fomenta la maduración de los servicios de TI ya que la organización se desarrolla aprendiendo 
 de los problemas resueltos. 
 • Desarrolla el talento de TI dentro de la organización a través de la concienciación técnica y 
@@ -4018,8 +3882,7 @@ Los roles de un equipo de gestión de problemas están directamente relacionados
 organizativa existente. 
 La edad, la cultura, la tecnología y el número de ubicaciones de la organización en todo el mundo 
 afectan la composición de su equipo de gestión de problemas. 
-En el caso de las pequeñas empresas de TI, las responsabilidades del equipo pueden estar combinadas, o 
-en el caso de las grandes empresas multinacionales, pueden estar especializadas. 
+En el caso de las pequeñas empresas de TI, las responsabilidades del equipo pueden estar combinadas, o \nen el caso de las grandes empresas multinacionales, pueden estar especializadas. 
 Depende de la conveniencia y flexibilidad del equipo de TI diseñar un entorno que garantice que los 
 problemas se aborden de manera eficiente en términos de las recomendaciones de ITIL. 
 Es aconsejable conocer la estrategia general de la organización para iniciar la formación del equipo, y 
@@ -4030,8 +3893,7 @@ tecnología de la organización.
 Rol 
 Responsabilidad 
 Gestor de problemas 
-Responsable de la efectividad y eficiencia de toda la práctica. Similar al líder del 
-equipo. 
+Responsable de la efectividad y eficiencia de toda la práctica. Similar al líder del \nequipo. 
 Propietario del 
 problema 
 Responsable del ciclo de vida de cualquier ticket de problema que se le asigne. 
@@ -4228,8 +4090,7 @@ Gestión de
 problemas, gestión de 
 activos de TI 
 El técnico tenía sospechas sobre el flujo de tráfico al final de cada mes, e instaló un 
-software en los routers y switches para analizar el tráfico y agregar los datos 
-estadísticamente. 
+software en los routers y switches para analizar el tráfico y agregar los datos \nestadísticamente. 
 Gestión de 
 problemas, gestión de 
 activos de TI
@@ -4259,10 +4120,8 @@ El análisis de problemas es la única parte que concierne a la gestión de prob
 5 pasos siguientes: 
 7.3.7.1. Definir el problema 
 Identificar cuál es realmente el problema puede ser un problema en sí mismo. Dado que la gestión de 
-problemas es inherentemente un esfuerzo de colaboración, definir el problema de manera exhaustiva 
-elimina las nociones preconcebidas que podría tener algún participante, lo cual ahorra mucho tiempo. 
-Por ejemplo, si la copia de seguridad automática de datos de una organización en un servidor ha fallado, 
-el problema se puede definir como: "Copia de seguridad fallida en el servidor". 
+problemas es inherentemente un esfuerzo de colaboración, definir el problema de manera exhaustiva \nelimina las nociones preconcebidas que podría tener algún participante, lo cual ahorra mucho tiempo. 
+Por ejemplo, si la copia de seguridad automática de datos de una organización en un servidor ha fallado, \nel problema se puede definir como: "Copia de seguridad fallida en el servidor". 
 Esta definición de hecho describe la situación inusual, pero requiere de más preguntas e información. 
 Un buen modelo de definición debe ser inequívoco y fácil de entender. 
 Para eliminar la ambigüedad, la definición se puede modificar de la siguiente manera: "La copia de 
@@ -4348,8 +4207,7 @@ Solo en el servidor #17-P
 Cualquier otro servidor 
 Ninguno identificado 
  
-Las nuevas causas posibles se hacen evidentes cuando la información se analiza en conjunto. En el 
-ejemplo, la causa raíz se puede reducir a: 
+Las nuevas causas posibles se hacen evidentes cuando la información se analiza en conjunto. En el \nejemplo, la causa raíz se puede reducir a: 
 • Error de procedimiento causado por la transferencia de conocimiento inadecuada por parte de 
 los ingenieros. 
 • Cualquiera que sea el problema, se puede realizar un análisis detallado de las posibles causas con 
@@ -4460,8 +4318,7 @@ Estas 4 categorías pueden ser cualquier cosa que sea relevante para su problema
 o industria. 
 Una vez que estas categorías forman las espinas del pescado, se comienza a asociar las posibles causas 
 de cada categoría. Cada posible causa también se puede ramificar para detallar la razón de esa 
-ocurrencia. Esto podría convertirse en un diagrama complejo con cuatro a cinco niveles de causas y 
-efectos, que posteriormente se derivan en la causa raíz del problema. 
+ocurrencia. Esto podría convertirse en un diagrama complejo con cuatro a cinco niveles de causas y \nefectos, que posteriormente se derivan en la causa raíz del problema. 
  
 Resulta más cómodo dividir las espinas densas en espinas adicionales según sea necesario, y también, 
 combinar las espinas vacías con otras espinas relacionadas así se ordenar y comprende mejor el 
@@ -4477,8 +4334,7 @@ Este análisis también es un esfuerzo de colaboración y requiere un moderador 
 lluvia de ideas de manera efectiva, todos los participantes tienen la oportunidad de proporcionar una 
 visión integral del problema. 
 7.3.8.4. Análisis de Pareto 
-El principio de Pareto es una observación que sugiere que aproximadamente el 80 por ciento de los 
-efectos provienen de aproximadamente el 20 por ciento de las causas. 
+El principio de Pareto es una observación que sugiere que aproximadamente el 80 por ciento de los \nefectos provienen de aproximadamente el 20 por ciento de las causas. 
 Esta observación se aplica a una amplia gama de temas, incluida la gestión de problemas. 
 Cuando se trata de reducir la cantidad de incidentes que ocurren en una organización, es muy útil 
 aplicar el análisis de Pareto antes de comenzar a resolver los problemas, ya que prioriza las causas de los 
@@ -4555,15 +4411,12 @@ Este proceso iterativo revela que no existe un formato estandarizado, lo que ha 
 la falla de la copia de seguridad de datos. 
 En nuestro contexto, el ejemplo anterior es una ejecución simple del método. En un escenario real, la 
 siguiente pregunta depende de la respuesta a la pregunta anterior, por lo que es imprescindible 
-colaborar con las partes interesadas que tienen un conocimiento detallado del dominio en el que reside 
-el problema. 
-Al adoptar partes del método K-T junto con la técnica de los cinco porqués, como proporcionar 
-evidencia a cada respuesta antes de validarla con una pregunta de respuesta, puede garantizar la 
+colaborar con las partes interesadas que tienen un conocimiento detallado del dominio en el que reside \nel problema. 
+Al adoptar partes del método K-T junto con la técnica de los cinco porqués, como proporcionar \nevidencia a cada respuesta antes de validarla con una pregunta de respuesta, puede garantizar la 
 precisión del análisis durante las sesiones de resolución de problemas. 
 7.3.8.6. Otras técnicas 
 Existen muchas otras técnicas, cada una con sus propias fortalezas. Algunas de ellas son las pruebas 
-cronológicas, el análisis del árbol de fallas, el método de aislamiento de fallas, las pruebas de hipótesis y 
-el análisis de puntos débiles. 
+cronológicas, el análisis del árbol de fallas, el método de aislamiento de fallas, las pruebas de hipótesis y \nel análisis de puntos débiles. 
 Normalmente se utiliza una combinación de técnicas en función de cada situación.
 
 ---
@@ -4679,25 +4532,20 @@ problemas
 El tiempo promedio transcurrido 
 desde la identificación hasta la 
 resolución de un problema. 
-Los problemas pueden tardar mucho tiempo 
-en resolverse. Para acelerar el proceso, se 
-recomienda medir los esfuerzos de mejora 
-en el RCA y el proceso de gestión de 
+Los problemas pueden tardar mucho tiempo \nen resolverse. Para acelerar el proceso, se 
+recomienda medir los esfuerzos de mejora \nen el RCA y el proceso de gestión de 
 problemas. 
-Número total de 
-errores conocidos 
+Número total de \nerrores conocidos 
 El recuento de errores conocidos en la 
 KEDB. 
 Esto resalta los esfuerzos de documentación 
 de su organización. Si la relación entre el 
-número de problemas registrados y los 
-errores conocidos es baja, es una buena 
+número de problemas registrados y los \nerrores conocidos es baja, es una buena 
 señal. 
 Número total de 
 problemas sin 
 resolver 
-El recuento de problemas no resueltos 
-en la mesa de servicio. 
+El recuento de problemas no resueltos \nen la mesa de servicio. 
 Los problemas no resueltos son aquellos 
 cuyo RCA está en curso. 
 Número total / 
@@ -4773,8 +4621,7 @@ Solución del
 problema 
 Agregar tareas con dependencias 
 dentro de un problema 
-Asignar la implementación de la solución a técnicos 
-específicos con fechas de vencimiento 
+Asignar la implementación de la solución a técnicos \nespecíficos con fechas de vencimiento 
 Marcar las soluciones alternativas 
 como soluciones y asociar un cambio 
 con el problema 
@@ -4817,8 +4664,7 @@ problemas y mantener una KEDB.
 A medida que la experiencia del equipo de gestión de problemas crece junto con la organización, el 
 proceso también debe madurar. 
 Para una organización que ya practica la gestión de problemas, sus aspiraciones deberían consistir en 
-reducir los incidentes a un mínimo histórico. Esto se puede lograr más fácilmente a través de un 
-enfoque proactivo para la gestión de problemas. 
+reducir los incidentes a un mínimo histórico. Esto se puede lograr más fácilmente a través de un \nenfoque proactivo para la gestión de problemas. 
 Para implementar el proceso de gestión de problemas, un primer paso consiste en utilizar una 
 herramienta de mesa de servicio con los módulos correctos para garantizar la integridad de las 
 operaciones de la mesa de servicio de TI y un control centralizado para los tickets, incidentes y 
@@ -4840,8 +4686,7 @@ organización del trabajo y por tanto la respuesta y resolución del problema.
 Si se repiten el mismo tipo de dudas o problemas, se detecta rápidamente la necesidad de hacer 
 una corrección en el origen, de modo que esas incidencias podrán desaparecer en un futuro. 
 • Permitir al usuario seguir la evolución de su ticket. 
-La satisfacción del cliente o usuario es mayor, si puede hacer un seguimiento de su incidencia, si 
-está en proceso de resolución etc. 
+La satisfacción del cliente o usuario es mayor, si puede hacer un seguimiento de su incidencia, si \nestá en proceso de resolución etc. 
 • Detectar y clasificar usuario. 
 Si se detectan diferentes perfiles de usuarios, se puede realizar una mejor atención 
 personalizada.
@@ -4864,8 +4709,7 @@ proceso de atención.
 El funcionamiento básico de una herramienta de ticketing es generar un ticket por cada consulta que se 
 realiza en el servicio de atención, y categorizarlo para que sea enviado al técnico o agente más 
 adecuado para su resolución. 
-Lo hace de forma que el sistema procesa, clasifica, administra, gestiona, automatiza y organiza las 
-entradas y, cuando ya se ha resuelto la incidencia, se cierra la consulta. 
+Lo hace de forma que el sistema procesa, clasifica, administra, gestiona, automatiza y organiza las \nentradas y, cuando ya se ha resuelto la incidencia, se cierra la consulta. 
 Las acciones concretas que se realizan en una empresa son: 
 • Convertir automáticamente los emails recibidos en tickets. 
 Cuando un cliente envía un nuevo ticket, se genera una notificación automáticamente. 
@@ -4901,8 +4745,7 @@ Vamos a ver a continuación algunos de los softwares existentes en el mercado co
 principales. 
 • Freshdesk. 
 Esta plataforma se encuentra en la Nube, y proporciona un plan de suscripción. 
-Una de sus características más destacadas es la omnicanalidad, pues permite la interacción con 
-el cliente desde cualquier vía y lugar. 
+Una de sus características más destacadas es la omnicanalidad, pues permite la interacción con \nel cliente desde cualquier vía y lugar. 
 La omnicanalidad, es una estrategia de comunicación utilizado para estar en contacto con los 
 clientes o prospectos a través de diferentes canales (email, redes sociales, sitio web, etc.). En vez 
 de usar los canales por separado, se utilizan de forma unificada para llegar a los consumidores. 
@@ -4998,8 +4841,7 @@ Permite preestablecer respuestas automáticas, simplificando más el trabajo de 
 OsTicket es un sistema automatizado de soporte al cliente, fácil de usar y de administrar, que 
 integra discretamente todos los tickets creados vía correo electrónico o por formulario web, 
 dentro de una interfaz web simple. Administra, organiza y archiva fácilmente todas las 
-solicitudes de soporte. En ambos casos, los clientes, al abrir una consulta, recibirán un correo 
-electrónico de autorrespuesta. 
+solicitudes de soporte. En ambos casos, los clientes, al abrir una consulta, recibirán un correo \nelectrónico de autorrespuesta. 
 Los clientes podrán ver el estado de los tickets que han abierto y su historial en línea, utilizando 
 para ello su número de consulta. 
 Es una alternativa atractiva a otros sistemas de soporte al cliente que son mucho más costosos y 
@@ -5029,8 +4871,7 @@ Seguridad de los Sistemas de Información. Infraestructura física de un CPD. Si
 Control Remoto de puestos de Usuario 
 134 
 BMC Remedy ITSM, es un Descktop Service (Gestor de Atención al Usuario) ofrece un soporte 
-integrado para las mejores prácticas de ITIL, que permite a las organizaciones obtener valor de 
-esta herramienta en un plazo de tiempo inferior. Es software propietario. 
+integrado para las mejores prácticas de ITIL, que permite a las organizaciones obtener valor de \nesta herramienta en un plazo de tiempo inferior. Es software propietario. 
 • Freshservice. 
 Freshservice es un servicio de asistencia TI en línea con un toque nuevo. Ofrece una experiencia 
 de usuario refrescante además de potentes funciones de administración de activos y tickets, 
@@ -5081,10 +4922,8 @@ Características:
 permitidos. 
 • Visualiza la condición de cada activo de TI en tu compañía en tiempo real con nuestro inventario 
 multiplataforma automático incorporado en GLPI. 
-• Controla el seguimiento del ciclo de vida de tus activos, supervisa su obsolescencia y se obtiene 
-en tiempo real el estatus de las licencias y la obsolescencia del software. 
-Detecta con anticipación renovaciones o actualizaciones de software o hardware a ser 
-ejecutados. 
+• Controla el seguimiento del ciclo de vida de tus activos, supervisa su obsolescencia y se obtiene \nen tiempo real el estatus de las licencias y la obsolescencia del software. 
+Detecta con anticipación renovaciones o actualizaciones de software o hardware a ser \nejecutados. 
 • Es compatible con ITIL V2.
 
 ---
@@ -5116,8 +4955,7 @@ objetos ahora tienen una pestaña de línea de tiempo para reagrupar sus seguimi
 documentos y soluciones. 
 • Followups split and Tickets merge. 
 Con Curtis Conard, los boletos ahora tienen 2 nuevas acciones: 
-• Divida un seguimiento: cree un nuevo ticket copiando un seguimiento (se mantiene un 
-enlace en el ticket anterior). 
+• Divida un seguimiento: cree un nuevo ticket copiando un seguimiento (se mantiene un \nenlace en el ticket anterior). 
 • Combine un ticket como un nuevo seguimiento en un ticket existente con la opción de 
 acciones masivas.
 
@@ -5131,8 +4969,7 @@ Se proporciona un nuevo motor de reglas para actualizar automáticamente algunos
 cuando se crea o actualiza un activo. Por ejemplo, puede asignar un técnico específico cuando 
 una computadora se convierte en parte de una entidad. 
 • Centralized command line tool. 
-La carpeta de scripts proporcionada en los archivos GLPI tenía muchos archivos dispersos. Con 
-esta versión, iniciamos una consola (disponible mediante el comando php bin / console,) que 
+La carpeta de scripts proporcionada en los archivos GLPI tenía muchos archivos dispersos. Con \nesta versión, iniciamos una consola (disponible mediante el comando php bin / console,) que 
 centraliza los scripts antiguos. No se han migrado todos los scripts, es algo que se espera que se 
 realice en futuras versiones. 
 • Misc. 
@@ -5190,8 +5027,7 @@ Las TIC en La Educación
 Las herramientas TIC ayudan a responder a las necesidades del alumnado, reuniendo aspectos 
 fundamentales como: 
 • Flexibilidad: 
-Tanto el alumno como el profesor pueden decidir el uso del material informático o dispositivo 
-electrónico que se adapta a sus necesidades para realizar una tarea en concreto.
+Tanto el alumno como el profesor pueden decidir el uso del material informático o dispositivo \nelectrónico que se adapta a sus necesidades para realizar una tarea en concreto.
 
 ---
 
@@ -5208,8 +5044,7 @@ contenidos que les facilite el logro en la consecución de las tareas.
 Los alumnos pueden comunicarse, compartir e intercambiar información por medio del uso de 
 redes sociales o de plataformas virtuales en las cuales pueden aportar y ofrecer sus puntos de 
 vista referidos a un tema en específico. 
-Hay que destacar la importancia de una serie de condiciones que deben seguirse para asegurar que con 
-el uso de las herramientas digitales en las diferentes tareas de clase aportan esa ayuda necesaria para 
+Hay que destacar la importancia de una serie de condiciones que deben seguirse para asegurar que con \nel uso de las herramientas digitales en las diferentes tareas de clase aportan esa ayuda necesaria para 
 que el proceso de enseñanza-aprendizaje del alumnado sea favorable, teniendo en cuenta los siguientes 
 aspectos: 
 • Adecuación de las exigencias al nivel del desarrollo del alumno y de sus capacidades personales. 
@@ -5243,8 +5078,7 @@ creativos e interdisciplinares, por medio de un aprendizaje basado por proyectos
 • Invención: 
 Se descubren nuevos usos de la tecnología y se combinan con otros usos de forma creativa. 
 7.5.1. Las claves del uso de las TIC en el aula 
-El uso de los TIC en las aulas debe aportar el máximo de beneficios posibles, para lo que hay que tener 
-en cuenta los siguientes aspectos: 
+El uso de los TIC en las aulas debe aportar el máximo de beneficios posibles, para lo que hay que tener \nen cuenta los siguientes aspectos: 
 • Planificación. 
 No basta con facilitar Tablet u ordenadores a los alumnos, es necesario realizar una planificación 
 sobre cómo comenzar a introducir la tecnología en el aula, analizando sus implicaciones 
@@ -5252,9 +5086,7 @@ sobre cómo comenzar a introducir la tecnología en el aula, analizando sus impl
 gradual de implementación de las TIC. 
 • Creación de experiencias de aprendizaje. 
 Para poder utilizar las TIC en el aula, se deberán planificar experiencias de aprendizaje con las 
-que los alumnos puedan adquirir los conocimientos y las habilidades deseadas, como, por 
-ejemplo: búsqueda de información, comunicación virtual, resolución de problemas, trabajos en 
-equipo, creación de información, etc. 
+que los alumnos puedan adquirir los conocimientos y las habilidades deseadas, como, por \nejemplo: búsqueda de información, comunicación virtual, resolución de problemas, trabajos en \nequipo, creación de información, etc. 
 • Autonomía del alumno. 
 Las tecnologías utilizadas deben de promover la participación de los alumnos en su aprendizaje 
 de forma autónoma y responsable. Existen nuevos modelos que se van implementando poco a 
@@ -5266,8 +5098,7 @@ que las TIC se integren a las estrategias que ya se utilicen dentro del aula, y 
 ajena a lo que se realiza normalmente dentro de la escuela. 
 • Capacitación de los profesores. 
 Como último punto, cabe resaltar la importancia de que, para poder implementar 
-adecuadamente las TIC dentro del aula, los profesores deberán estar debidamente capacitados 
-en el uso de la tecnología. De hecho, esta es la verdadera clave del éxito de este proceso, que 
+adecuadamente las TIC dentro del aula, los profesores deberán estar debidamente capacitados \nen el uso de la tecnología. De hecho, esta es la verdadera clave del éxito de este proceso, que 
 tanto el centro educativo como los profesores conozcan y sepan usar estas tecnologías para 
 ponerlas en práctica con eficacia.
 
@@ -5353,8 +5184,7 @@ No hay que confundir el Control remoto de puestos de usuario con el arranque rem
 ordenador, que está apagado (aunque debe estar con señal de corriente eléctrica, y otras 
 características para poder realizar el encendido remoto). 
 Existen servicios que nos permiten conectarnos de forma remota a otros equipos, (ya encendidos y en 
-funcionamiento con un determinado software) de forma que podemos trabajar con un ordenador que 
-está en una ubicación física diferente a la que estamos nosotros. 
+funcionamiento con un determinado software) de forma que podemos trabajar con un ordenador que \nestá en una ubicación física diferente a la que estamos nosotros. 
 El acceso remoto (o escritorio remoto) es la capacidad de acceder a una computadora o dispositivo 
 desde cualquier lugar remoto. 
 Con un software de acceso remoto instalado en un ordenador, se tiene la libertad de conectarte a él con 
@@ -5420,16 +5250,14 @@ Control Remoto de puestos de Usuario
 145 
 • Muchos de sus diseños están patentados. 
 • Esta opción de producción es utilizada por grandes fabricantes chinos que ya tienen un 
-posicionamiento internacional, una marca registrada y determinados volúmenes de 
-exportación. (Marcas como LENOVO, HTC, etc.). 
+posicionamiento internacional, una marca registrada y determinados volúmenes de \nexportación. (Marcas como LENOVO, HTC, etc.). 
 • OEM (Original Equipment Manufacturer). 
 Fabricante de equipos originales (marcas blancas). 
 Son aquellos fabricantes que dan la opción de producir sus diseños en blanco (sin marca) para 
 que puedan ser usados por ti y personalizarlos con tu marca. 
 Características: 
 • Los diseños son usados por cualquier marca que quiera contratarlos. 
-Por ello puede haber en el mercado el mismo producto con diferentes marcas, sobre todo 
-en líneas económicas. 
+Por ello puede haber en el mercado el mismo producto con diferentes marcas, sobre todo \nen líneas económicas. 
 • Los diseños perduran en el tiempo. 
 Se puede realizar una planificación, un esquema de compra, distribución y asistencia técnica 
 a largo plazo. 
@@ -5457,21 +5285,17 @@ Control Remoto de puestos de Usuario
  
  
  
-Son aquellas compañías que diseñan un producto propio y 
-encargan la producción a un fabricante con sus requisitos 
-específicos. Ni estos productos ni su marca pueden ser 
+Son aquellas compañías que diseñan un producto propio y \nencargan la producción a un fabricante con sus requisitos \nespecíficos. Ni estos productos ni su marca pueden ser 
 comercializados a no ser que tengas los permisos de distribución y 
 venta del propietario. 
 Estas son las marcas reconocidas internacionalmente que están 
 presentes en todos los mercados. 
  
  
-Supongamos que ha surgido una idea genial en tu cerebro y decides llevarla a la práctica, deberás elegir 
-entre OEM y ODM, en función de tu idea y conocimientos: 
+Supongamos que ha surgido una idea genial en tu cerebro y decides llevarla a la práctica, deberás elegir \nentre OEM y ODM, en función de tu idea y conocimientos: 
 • Si eres un profesional y tienes todo el desarrollo de tu "idea", elegirás OEM (Original Equipment 
 Manufacturer): 
-En este tipo de fábricas entregas tus especificaciones, requisitos, detalles y vistas particulares y 
-ellos empiezan a fabricar tu producto partiendo de cero con tus ideas. 
+En este tipo de fábricas entregas tus especificaciones, requisitos, detalles y vistas particulares y \nellos empiezan a fabricar tu producto partiendo de cero con tus ideas. 
 Te permitirán (y aconsejan) modificaciones y actualizaciones en tu diseño hasta conseguir y 
 producir tu modelo final. 
 Luego entregaran la mercancía en donde se haya acordado y a partir de ese punto ellos han 
@@ -5505,12 +5329,10 @@ operativo.
 Esta solución puede ser más económica, pero no permite el acceso a la configuración del 
 firmware (BIOS o UEFI), no permite reinstalar el sistema operativo de forma remota y no se 
 puede utilizar para solucionar problemas que impiden que el sistema se inicie. 
-En redes, no permite la gestión de componentes de red remotos independientemente del 
-estado actual de otros componentes de red. 
+En redes, no permite la gestión de componentes de red remotos independientemente del \nestado actual de otros componentes de red. 
 • Fuera de banda (Smart Out-of-Band, OOB). 
 Se envía a través de un canal diferente, o incluso a través de una red separada. 
-Implica el uso de interfaces de administración, (o puertos seriales), para administrar y conectar 
-equipos en red. 
+Implica el uso de interfaces de administración, (o puertos seriales), para administrar y conectar \nequipos en red. 
 Las señales fuera de banda son inaccesibles para el usuario. 
 La gestión fuera de banda permite que un administrador del sistema supervise y gestione 
 servidores y otros equipos conectados a la red mediante control remoto, independientemente 
@@ -5537,8 +5359,7 @@ Una forma de administración fuera de banda a veces se denomina administración 
 (LOM) e implica el uso de un canal de administración dedicado para el mantenimiento del dispositivo. 
 La gestión fuera de banda permite un completo sistema de administración remota: 
 • Permite el reinicio, apagado y encendido remotos. 
-• Monitoreo de sensores de hardware (velocidad del ventilador, voltajes de potencia, intrusión en 
-el chasis, etc.) 
+• Monitoreo de sensores de hardware (velocidad del ventilador, voltajes de potencia, intrusión en \nel chasis, etc.) 
 • Transmisión de salida de video a terminales remotos. 
 • Recepción de entrada desde teclado y mouse remotos (kvm sobre ip). 
 • También puede acceder a medios locales como una unidad de dvd o imágenes de disco desde la 
@@ -5549,8 +5370,7 @@ máquina remota.
  
 + Info 
 La administración remota se puede utilizar para ajustar la 
-configuración del BIOS que puede no ser accesible después de que 
-el sistema operativo ya se haya iniciado. 
+configuración del BIOS que puede no ser accesible después de que \nel sistema operativo ya se haya iniciado. 
 La configuración de los tiempos de RAM o RAID de hardware 
 también se puede ajustar ya que la tarjeta de administración no 
 necesita discos duros ni memoria principal para funcionar. 
@@ -5618,11 +5438,9 @@ Es un subsistema autónomo que ha sido incorporado en prácticamente la totalida
 procesador conjuntos de chips desde 2008. Está ubicado en el Platform Controller Hub de las placas 
 base Intel modernas. 
 El subsistema consiste principalmente en firmware propietario que se ejecuta en un microprocesador 
-separado que realiza tareas durante el arranque, mientras la computadora está funcionando y mientras 
-está inactiva. Siempre que el chipset o SoC (chip, o circuito integrado) esté conectado a la corriente (a 
+separado que realiza tareas durante el arranque, mientras la computadora está funcionando y mientras \nestá inactiva. Siempre que el chipset o SoC (chip, o circuito integrado) esté conectado a la corriente (a 
 través de la batería o fuente de alimentación), continúa funcionando incluso cuando el sistema está 
-apagado, es decir, Intel Management Engine siempre se ejecuta mientras la placa base esté recibiendo 
-energía, incluso cuando la computadora está apagada. 
+apagado, es decir, Intel Management Engine siempre se ejecuta mientras la placa base esté recibiendo \nenergía, incluso cuando la computadora está apagada. 
 Esto se puede evitar con la implementación de un dispositivo de hardware, que puede desconectar la 
 alimentación de red, evitando así que la placa reciba corriente eléctrica. 
  
@@ -5731,8 +5549,7 @@ utilizados ampliamente en los ordenadores para facilitar la corrección automát
 temporales de hardware y para evitar que el software errante o malévolo interrumpa el 
 funcionamiento del sistema. 
 Durante el funcionamiento normal, la computadora reinicia regularmente el temporizador de 
-vigilancia para evitar que se agote o "se agote el tiempo". Si, debido a una falla de hardware o un 
-error del programa, la computadora no reinicia, el temporizador pasará y generará una señal de 
+vigilancia para evitar que se agote o "se agote el tiempo". Si, debido a una falla de hardware o un \nerror del programa, la computadora no reinicia, el temporizador pasará y generará una señal de 
 tiempo de espera, que se utiliza para iniciar acciones correctivas, las cuales generalmente 
 incluyen colocar el ordenador y el hardware asociado en un estado seguro e invocar un reinicio 
 del ordenador. 
@@ -5740,8 +5557,7 @@ El estándar también define un mecanismo de alerta para que el sistema envíe u
 de plataforma (PET) de protocolo de administración de red simple (SNMP). 
 El sistema monitoreado puede estar apagado, pero debe estar conectado a una fuente de energía y al 
 medio de monitoreo, generalmente una conexión de red de área local (LAN). 
-IPMI también puede funcionar después de que se haya iniciado el sistema operativo y expone las 
-estructuras y los datos de gestión al software de gestión del sistema. 
+IPMI también puede funcionar después de que se haya iniciado el sistema operativo y expone las \nestructuras y los datos de gestión al software de gestión del sistema. 
 IPMI prescribe solo la estructura y el formato de las interfaces como estándar, mientras que las 
 implementaciones detalladas pueden variar. 
 Una implementación de IPMI versión 1.5 puede comunicarse a través de una red de área local (LAN) 
@@ -5768,8 +5584,7 @@ DCMI (Data Center Manageability Interface) es un estándar similar
 basado en IPMI, pero diseñado para ser más adecuado en la gestión 
 de Data Center. 
 Utiliza las interfaces definidas en IPMI, pero minimiza el número de 
-interfaces opcionales e incluye control de limitación de energía, 
-entre otras diferencias. 
+interfaces opcionales e incluye control de limitación de energía, \nentre otras diferencias. 
  
  
 Además de utilizar una conexión LAN de administración dedicada separada, IPMI también permite la 
@@ -5813,8 +5628,7 @@ información sobre vulnerabilidades de seguridad y ayuda en las pruebas de penet
 desarrollo de firmas IDS. 
 Metasploit Framework de código abierto, es una herramienta para desarrollar y ejecutar código 
 de explotación contra una máquina de destino remota. 
-El Proyecto Metasploit incluye herramientas anti-forenses y de evasión, algunas de las cuales 
-están integradas en Metasploit Framework. Metasploit está preinstalado en el sistema operativo 
+El Proyecto Metasploit incluye herramientas anti-forenses y de evasión, algunas de las cuales \nestán integradas en Metasploit Framework. Metasploit está preinstalado en el sistema operativo 
 Kali Linux. 
 (Otros subproyectos importantes de Rapid7 incluyen la base de datos Opcode, el archivo 
 shellcode y la investigación relacionada). 
@@ -5847,9 +5661,7 @@ Control Remoto de puestos de Usuario
 Soluciones potenciales fuera del estándar IPMI 
 Existen algunas soluciones potenciales fuera del estándar IPMI, dependiendo de las implementaciones 
 propietarias. 
-El uso de contraseñas cortas predeterminadas o hackeos de "cifrado 0" se puede superar fácilmente con 
-el uso de un servidor RADIUS para autenticación, autorización y contabilidad sobre SSL, como es típico 
-en un centro de datos o en cualquier implementación de tamaño mediano a grande. 
+El uso de contraseñas cortas predeterminadas o hackeos de "cifrado 0" se puede superar fácilmente con \nel uso de un servidor RADIUS para autenticación, autorización y contabilidad sobre SSL, como es típico \nen un centro de datos o en cualquier implementación de tamaño mediano a grande. 
 El servidor RADIUS del usuario se puede configurar para almacenar AAA de forma segura en una base 
 de datos LDAP utilizando FreeRADIUS / OpenLDAP o Microsoft Active Directory y servicios 
 relacionados. 
@@ -5886,8 +5698,7 @@ Ejemplo
 En RADIUS un rol puede tener su configuración Auth-Type 
 cambiada a: 
 Auth-Type: = Rechazar 
-Si lo hace, evitará que los ataques hash RAKP tengan éxito ya que 
-el servidor RA-DIUS rechazará el nombre de usuario. 
+Si lo hace, evitará que los ataques hash RAKP tengan éxito ya que \nel servidor RA-DIUS rechazará el nombre de usuario. 
  
 8.2. Servicio de acceso remoto 
 Existen servicios que nos permiten conectarnos de forma remota a otros equipos de dos formas: 
@@ -5903,8 +5714,7 @@ Son protocolos de administración remota que le permite a los usuarios controlar
 servidores remotos a través de Internet. 
 Son protocolos cliente-servidor basado en el intercambio de datos orientados a caracteres a través de 
 conexiones TCP. 
-Permite el control remoto de los ordenadores por medio de entradas y salidas basadas en texto. Con 
-este objetivo, se crea una conexión cliente-servidor a través del protocolo TCP, donde el dispositivo 
+Permite el control remoto de los ordenadores por medio de entradas y salidas basadas en texto. Con \neste objetivo, se crea una conexión cliente-servidor a través del protocolo TCP, donde el dispositivo 
 controlado ejerce de servidor y espera a los comandos pertinentes. 
 Podemos abrir una terminal en un equipo remoto a través de servicios como Telnet 
 (Telecommunication Network) o SSH (Secure Shell). 
@@ -5956,8 +5766,7 @@ Seguridad de los Sistemas de Información. Infraestructura física de un CPD. Si
 Control Remoto de puestos de Usuario 
 159 
 Problemas de seguridad y SSH de Telnet 
-Su mayor problema es de seguridad, ya que todos los nombres de usuario y contraseñas necesarias para 
-entrar en las máquinas viajan por la red como texto plano (cadenas de texto sin cifrar). 
+Su mayor problema es de seguridad, ya que todos los nombres de usuario y contraseñas necesarias para \nentrar en las máquinas viajan por la red como texto plano (cadenas de texto sin cifrar). 
 Esto facilita que cualquiera que espíe el tráfico de la red pueda obtener los nombres de usuario y 
 contraseñas, y así acceder él también a todas esas máquinas. 
 Por esta razón dejó de usarse, casi totalmente, hace unos años, cuando apareció y se popularizó el SSH, 
@@ -6060,8 +5869,7 @@ comunes, Linux, Windows y macOS.
 Trabaja leyendo los datos de la capa de enlace de datos de la red. Los datos contienen las cabeceras de los 
 paquetes de red, e incluyen información sobre origen, destino y contenido de los paquetes. Tcpdump 
 tiene la capacidad de capturar datos de cualquier protocolo de red, como TCP, UDP, ICMP, etc. 
-Su función comprende la resolución de problemas de red (pérdidas de paquetes o congestión) y la 
-ejecución de auditorías de seguridad (identificación de amenazas: malware, o tráfico malicioso). 
+Su función comprende la resolución de problemas de red (pérdidas de paquetes o congestión) y la \nejecución de auditorías de seguridad (identificación de amenazas: malware, o tráfico malicioso). 
 Tcpdump es una herramienta poderosa que puede ser utilizada por administradores de sistemas, 
 ingenieros de redes y profesionales de la seguridad. 
 Para usar el comando se pueden emplear distintas opciones o argumentos: 
@@ -6089,8 +5897,7 @@ Acceso remoto con Telnet
 Dentro de las labores de un administrador de sistemas está el acceso remoto a los mismos, ya sea para 
 buscar información en algún fichero del sistema, para copiar información o ejecutando en remoto algún 
 comando. 
-Usando telnet podemos acceder a una máquina remota de la misma forma que lo haríamos si 
-estuviéramos sentados delante de la consola y utilizásemos su teclado para introducir los comandos. 
+Usando telnet podemos acceder a una máquina remota de la misma forma que lo haríamos si \nestuviéramos sentados delante de la consola y utilizásemos su teclado para introducir los comandos. 
 Los comandos que se teclean por parte del usuario son transmitidos directamente a la máquina remota 
 y la respuesta de ésta es mostrada en la pantalla del usuario. De esta forma el sistema local es 
 transparente al usuario, el cual tiene la sensación de estar conectado directamente a la máquina 
@@ -6136,8 +5943,7 @@ Seguridad de los Sistemas de Información. Infraestructura física de un CPD. Si
 Control Remoto de puestos de Usuario 
 164 
 SSH (o Secure SHell) es el nombre de un protocolo y del programa que lo implementa cuya principal 
-función es el acceso remoto a un servidor por medio de un canal seguro en el que toda la información 
-está cifrada. 
+función es el acceso remoto a un servidor por medio de un canal seguro en el que toda la información \nestá cifrada. 
 Además de la conexión a otros dispositivos, SSH permite copiar datos de forma segura (tanto archivos 
 sueltos como simular sesiones FTP cifradas), gestionar claves RSA para no escribir contraseñas al 
 conectar a los dispositivos y pasar los datos de cualquier otra aplicación por un canal seguro tunelizado 
@@ -6150,22 +5956,18 @@ La primera versión del protocolo y el programa eran libres y los creó un finla
 pero su licencia fue cambiando y terminó apareciendo la compañía SSH Communications Security, que 
 lo ofrecía gratuitamente para uso doméstico y académico, pero exigía el pago a otras empresas. En el 
 año 1997 (dos años después de que se creara la primera versión) se propuso como borrador en la IETF. 
-A principios de 1999 se empezó a escribir una versión que se convertiría en la implementación libre por 
-excelencia, la de OpenBSD, llamada OpenSSH. 
+A principios de 1999 se empezó a escribir una versión que se convertiría en la implementación libre por \nexcelencia, la de OpenBSD, llamada OpenSSH. 
 SCP 
 SCP (Secure Copy Protocol o Protocolo de copia seguro) es un protocolo basado en SSH, como 
 acabamos de ver un protocolo de conexión remota segura. La autenticación y cifrado de datos que 
 ofrece SSH es aprovechada por SCP para realizar transferencias de ficheros de manera confiable y 
-confidencial. Se emplea cuando la seguridad en entornos de red sea importante. Se puede emplear para 
-enviar ficheros como datos financieros o información médica, personal. 
+confidencial. Se emplea cuando la seguridad en entornos de red sea importante. Se puede emplear para \nenviar ficheros como datos financieros o información médica, personal. 
 El protocolo SSH está configurado para escuchar en el puerto 22, SCP se servirá de esto para realizar su 
 tarea. 
 8.2.2. Modo gráfico 
-Permite conectarnos a otro equipo de la red, de forma que podemos ver su pantalla e interactuar con 
-ella como si fuera nuestro propio ordenador. Por otra parte, también podemos ver las acciones que 
+Permite conectarnos a otro equipo de la red, de forma que podemos ver su pantalla e interactuar con \nella como si fuera nuestro propio ordenador. Por otra parte, también podemos ver las acciones que 
 realiza el usuario de dicho equipo. 
-Los programas de acceso en modo grafico nos permiten controlar el ordenador remoto como si 
-estuviésemos sentados enfrente de su consola. 
+Los programas de acceso en modo grafico nos permiten controlar el ordenador remoto como si \nestuviésemos sentados enfrente de su consola. 
 Para ello se utilizan determinados servicios o aplicaciones, que en algunos casos tienen versiones 
 gratuitas que permiten probarlos con ciertas limitaciones.
 
@@ -6301,8 +6103,7 @@ Control Remoto de puestos de Usuario
 Para permitir las conexiones remotas lo primero es abrir una ventana del Explorador de Windows, 
 pinchar con el botón derecho sobre Este Equipo, seleccionar la opción Propiedades y en la nueva 
 ventana que se despliega pinchar sobre Configuración de acceso remoto. 
-A continuación, en la nueva ventana hay que marcar la casilla Permitir las conexiones remotas a este 
-equipo y pincha aceptar, y ya el equipo aceptará conexiones remotas de cualquier usuario que tenga 
+A continuación, en la nueva ventana hay que marcar la casilla Permitir las conexiones remotas a este \nequipo y pincha aceptar, y ya el equipo aceptará conexiones remotas de cualquier usuario que tenga 
 permisos de administrador en el equipo. 
 Si se necesita conectar con algún usuario que no sea administrador, hay que pinchar sobre el botón 
 "Seleccionar usuarios" y después añadir a la lista los usuarios a los que se quiere conceder acceso 
@@ -6325,8 +6126,7 @@ para acceder más rápido).
 • En el campo Equipo teclear los datos de conexión del PC. 
  
 En caso de que el ordenador esté dentro de la misma red local que el PC desde el que se va a conectar 
-remotamente, hay que escribir el nombre del equipo o la IP de la red local (que se puede saber 
-ejecutando CMD y tecleando ipconfig en el ordenador remoto). 
+remotamente, hay que escribir el nombre del equipo o la IP de la red local (que se puede saber \nejecutando CMD y tecleando ipconfig en el ordenador remoto). 
 Si el PC no está dentro de la red local y se precisa conectarse a él a través de Internet hay que teclear la 
 IP pública para acceder, para averiguarla se puede acceder a https://www.cual-es-mi-ip.net/ desde el 
 ordenador remoto. 
@@ -6477,8 +6277,7 @@ Los computadores portátiles con el chipset Intel 3945 o posterior
 Esto es llamado Wake on Wireless LAN (WoWLAN). 
  
 8.3.1. Funcionamiento 
-Conexiones Ethernet, incluyendo redes domésticas y de trabajo, redes inalámbricas y la misma Internet, 
-están basadas en paquetes de datos enviados entre ordenadores. 
+Conexiones Ethernet, incluyendo redes domésticas y de trabajo, redes inalámbricas y la misma Internet, \nestán basadas en paquetes de datos enviados entre ordenadores. 
 Para encender un ordenador de forma remota, hay que enviarle un paquete (llamado paquete mágico) 
 a través de la red, donde se indica la dirección MAC del equipo que se quiere encender.
 
@@ -6487,8 +6286,7 @@ a través de la red, donde se indica la dirección MAC del equipo que se quiere 
 Seguridad de los Sistemas de Información. Infraestructura física de un CPD. Sistemas de gestión de incidencias. 
 Control Remoto de puestos de Usuario 
 176 
-Las computadoras que están apagadas y tienen activado el sistema Wake-on-LAN, "escuchan" paquetes 
-entrantes en modo de bajo consumo de energía mientras la máquina está apagada. 
+Las computadoras que están apagadas y tienen activado el sistema Wake-on-LAN, "escuchan" paquetes \nentrantes en modo de bajo consumo de energía mientras la máquina está apagada. 
 Cuando en esta escucha, la tarjeta de red reconoce que tiene la dirección MAC especificada, responde 
 "despertando" al equipo mediante una señal enviada a la placa base del mismo, produciéndose el 
 arranque de la máquina (como cuando se pulsa el botón de encendido). 
@@ -6529,26 +6327,22 @@ Control Remoto de puestos de Usuario
  
  
  
-En caso de que el router no disponga de esta opción, habrá que 
-establecer en él las rutas estáticas que cada PC tiene en la red 
+En caso de que el router no disponga de esta opción, habrá que \nestablecer en él las rutas estáticas que cada PC tiene en la red 
 interna (dirección IP <---> dirección física). 
  
 Datagrama 
 Un datagrama es un paquete de datos que constituye el mínimo bloque de información en una red de 
 conmutación por datagramas, la cual es uno de los dos tipos de protocolo de comunicación por 
-conmutación de paquetes usados para encaminar por rutas diversas dichas unidades de información 
-entre nodos de una red, por lo que se dice que no está orientado a conexión. La alternativa a esta 
+conmutación de paquetes usados para encaminar por rutas diversas dichas unidades de información \nentre nodos de una red, por lo que se dice que no está orientado a conexión. La alternativa a esta 
 conmutación de paquetes es el circuito virtual, orientado a conexión. 
 Los datagramas se componen de: 
 • Una cabecera con información de control. 
 • Los propios datos que se desean transmitir. 
 En la técnica de datagramas, cada paquete se trata de forma independiente gracias a que puede 
 contener en la cabecera la dirección de origen y destinatario. Mediante un encaminador, también 
-conocido como enrutador o, más popularmente, router, la red puede encaminar cada fragmento hacia 
-el receptor o ETD (Equipo Terminal de Datos) por rutas diferentes. 
+conocido como enrutador o, más popularmente, router, la red puede encaminar cada fragmento hacia \nel receptor o ETD (Equipo Terminal de Datos) por rutas diferentes. 
 Este funcionamiento es la diferencia esencial con la conmutación por circuito virtual y determina sus 
-virtudes y defectos, que también condicionan su idoneidad al tipo de aplicación de la red. Tiene ventajas 
-e inconvenientes: 
+virtudes y defectos, que también condicionan su idoneidad al tipo de aplicación de la red. Tiene ventajas \ne inconvenientes: 
 • Como ventajas, esta flexibilidad permite: 
 • Control del tráfico para aprovechar la capacidad de canal de cada tramo de red. 
 • Adaptarse ante congestiones y caídas de nodos intermedios, evitando bloqueos. 
@@ -6648,8 +6442,7 @@ consolidación de registros.
 Depicus Wake-on-LAN Tools 
 Depicus es una empresa de desarrollo de software, que tiene una herramienta Wake-on-LAN basada en 
 la web que se puede utilizar para iniciar una computadora de forma remota desde cualquier lugar de la 
-web, su uso es principalmente para computadoras domésticas y requiere una configuración complicada 
-en el router. 
+web, su uso es principalmente para computadoras domésticas y requiere una configuración complicada \nen el router. 
 NirSoft WakeMeOnLan 
 WakeMeOnLan escanea la red cuando todas las computadoras están encendidas y recopila todas sus 
 direcciones MAC, guardando la información en un archivo, de forma que cuando se necesita arrancar de 
@@ -6682,8 +6475,7 @@ admite entornos de red complejos mediante el uso de difusiones dirigidas a subre
 Wake On LAN de HM Software NL 
 Es una herramienta gratuita de Windows que solo funciona en las versiones de Windows 10 y Windows 
 10 Mobile. 
-Es una utilidad simple que solo proporciona el propósito de enviar un paquete mágico al host 
-especificado. 
+Es una utilidad simple que solo proporciona el propósito de enviar un paquete mágico al host \nespecificado. 
 La configuración inicial de la herramienta requiere que cree dispositivos "wakeable", cada uno de los 
 cuales tiene un nombre, un icono y, por supuesto, su dirección MAC, y aparecerán en las ventanas 
 principales de la herramienta. 
@@ -6748,10 +6540,8 @@ comunicación (a través de la pila TCP / IP) que es diferente de la comunicaci�
 software (que es a través de la pila de software en el sistema operativo). 
 • No depende de la presencia de un sistema operativo o un agente de administración instalado 
 localmente. 
-• Ha estado disponible en computadoras basadas en intel / amd en el pasado, pero se ha limitado 
-en gran medida a la configuración automática mediante dhcp o bootp para la asignación 
-dinámica de direcciones ip y estaciones de trabajo sin disco, así como wake-on-lan (wol) para 
-encender sistemas de forma remota. 
+• Ha estado disponible en computadoras basadas en intel / amd en el pasado, pero se ha limitado \nen gran medida a la configuración automática mediante dhcp o bootp para la asignación 
+dinámica de direcciones ip y estaciones de trabajo sin disco, así como wake-on-lan (wol) para \nencender sistemas de forma remota. 
 AMT no está destinado a ser utilizado por sí mismo, sino a ser utilizado con una aplicación de 
 gestión de software. Le da a una aplicación de gestión (y, por lo tanto, al administrador del 
 sistema que la usa) acceso a la PC a través del cable, para realizar de forma remota tareas que 
@@ -6761,8 +6551,7 @@ AMT está diseñado en un procesador secundario (de servicio) ubicado en la plac
 comunicación protegida por TLS y encriptación sólida para brindar seguridad adicional. 
 AMT está integrado en PC con tecnología Intel vPro y se basa en Intel Management Engine (ME). 
 AMT ha avanzado hacia un mayor soporte para los estándares DMTF Desktop y Mobile Architecture for 
-System Hardware (DASH) y AMT Release 5.1 y versiones posteriores son una implementación de los 
-estándares DASH versión 1.0 / 1.1 para la gestión fuera de banda. 
+System Hardware (DASH) y AMT Release 5.1 y versiones posteriores son una implementación de los \nestándares DASH versión 1.0 / 1.1 para la gestión fuera de banda. 
 AMT proporciona una funcionalidad similar a IPMI, aunque AMT está diseñado para sistemas 
 informáticos de cliente en comparación con el IPMI típicamente basado en servidor. 
  
@@ -6817,8 +6606,7 @@ Control Remoto de puestos de Usuario
 185 
 8.4.1. Funciones y tareas de administración de AMT 
 Intel AMT incluye funciones: 
-• De administración remota, seguridad, administración de energía y configuración remota basadas 
-en hardware que permiten el acceso remoto independiente a las PC habilitadas para AMT. 
+• De administración remota, seguridad, administración de energía y configuración remota basadas \nen hardware que permiten el acceso remoto independiente a las PC habilitadas para AMT. 
 Intel AMT es una tecnología de seguridad y administración integrada en las PC con tecnología 
 Intel vPro. 
 • Intel AMT utiliza un canal de comunicación fuera de banda (OOB) basado en hardware que 
@@ -6826,20 +6614,17 @@ funciona independientemente de la presencia de un sistema operativo en funcionam
 canal de comunicación es independiente del estado de energía de la PC, la presencia de un 
 agente de administración y el estado de muchos componentes de hardware, como unidades de 
 disco duro y memoria. 
-Las funciones basadas en hardware se pueden combinar con secuencias de comandos para automatizar 
-el mantenimiento y el servicio. 
+Las funciones basadas en hardware se pueden combinar con secuencias de comandos para automatizar \nel mantenimiento y el servicio. 
 Las características de AMT basadas en hardware en computadoras portátiles y de escritorio incluyen: 
 • Canal de comunicación remoto cifrado para el tráfico de red entre la consola de TI e Intel AMT. 
-• Capacidad para una PC con cable (conectada físicamente a la red) fuera del firewall de la 
-empresa en una LAN abierta para establecer un túnel de comunicación seguro (a través de 
+• Capacidad para una PC con cable (conectada físicamente a la red) fuera del firewall de la \nempresa en una LAN abierta para establecer un túnel de comunicación seguro (a través de 
 AMT) de regreso a la consola de TI. Los ejemplos de una LAN abierta incluyen una computadora 
 portátil con cable en casa o en un sitio SMB que no tiene un servidor proxy. 
 • Encendido / apagado / ciclo de encendido remotos a través de WOL encriptado. 
 • Arranque remoto, mediante redireccionamiento de dispositivos electrónicos integrados (IDE-R). 
 • Redirección de consola, vía serial sobre LAN (SOL). 
 • Teclado, video, mouse (KVM) a través de la red. 
-• Filtros basados en hardware para monitorear los encabezados de paquetes en el tráfico de red 
-entrante y saliente en busca de amenazas conocidas (basados en temporizadores 
+• Filtros basados en hardware para monitorear los encabezados de paquetes en el tráfico de red \nentrante y saliente en busca de amenazas conocidas (basados en temporizadores 
 programables) y para monitorear amenazas conocidas / desconocidas basadas en heurísticas 
 basadas en el tiempo. Las computadoras portátiles y de escritorio tienen filtros para monitorear 
 los encabezados de los paquetes. Las PC de escritorio tienen filtros de encabezado de paquete y 
@@ -6860,8 +6645,7 @@ Control Remoto de puestos de Usuario
 • Registro de eventos persistente, almacenado en memoria protegida (no en el disco duro). 
 • Acceda (prearranque) al identificador único universal (UUID) de la PC. 
 • Acceda a la información de activos de hardware (prearranque), como el fabricante y el modelo 
-de un componente, que se actualiza cada vez que el sistema pasa por la autoprueba de 
-encendido (POST). 
+de un componente, que se actualiza cada vez que el sistema pasa por la autoprueba de \nencendido (POST). 
 • Acceda (prearranque) al almacén de datos de terceros (TPDS), un área de memoria protegida 
 que los proveedores de software pueden usar, en la que se puede obtener información sobre la 
 versión, archivos .DAT y otra información. 
@@ -6874,8 +6658,7 @@ DRM.
 • Extensiones compatibles con Cisco para voz sobre WLAN. 
 8.4.2. Aplicaciones 
 La mayoría de las funciones de AMT están disponibles OOB, independientemente del estado de energía 
-de la PC, es decir incluso si el ordenador está apagado, pero con el cable de alimentación conectado, si 
-el sistema operativo se ha bloqueado, si falta el agente de software o si el hardware (como un disco 
+de la PC, es decir incluso si el ordenador está apagado, pero con el cable de alimentación conectado, si \nel sistema operativo se ha bloqueado, si falta el agente de software o si el hardware (como un disco 
 duro o memoria) ha fallado. 
 Hay otras funciones que requieren que la PC esté encendida, como la redirección de la consola a través 
 de serie sobre LAN (SOL), verificación de presencia de agentes y los filtros de tráfico de red están 
@@ -6903,8 +6686,7 @@ configuración. Esta función admite actualizaciones completas de BIOS, no solo 
 configuraciones específicas. 
 • Detecta tráfico de red sospechoso. 
 En las computadoras portátiles y de escritorio, esta función permite que un administrador del 
-sistema defina los eventos que podrían indicar una amenaza entrante o saliente en un 
-encabezado de paquete de red. 
+sistema defina los eventos que podrían indicar una amenaza entrante o saliente en un \nencabezado de paquete de red. 
 En las PC de escritorio, esta función también admite la detección de amenazas conocidas y / o 
 desconocidas (incluidos gusanos informáticos de movimiento lento y rápido) en el tráfico de 
 red a través de filtros basados en heurística basados en el tiempo. 
@@ -6949,8 +6731,7 @@ o activos de software para aplicaciones locales en la memoria protegida Intel AM
 (Este es el almacén de datos de terceros protegido, que es diferente de la memoria AMT 
 protegida para información de componentes de hardware y otra información del sistema). 
 El administrador del sistema puede acceder OOB al almacén de datos de terceros. Por ejemplo, 
-un programa antivirus podría almacenar información de la versión en la memoria protegida que 
-está disponible para datos de terceros. 
+un programa antivirus podría almacenar información de la versión en la memoria protegida que \nestá disponible para datos de terceros. 
 Un script de computadora podría usar esta función para identificar las PC que deben 
 actualizarse. 
 • Realice un inventario de hardware cargando la lista de activos de hardware de la PC remota. 
@@ -6980,8 +6761,7 @@ Control Remoto de puestos de Usuario
  
 Los clientes como VNC Viewer Plus de RealVNC también brindan 
 funcionalidad adicional que podría facilitar la realización (y 
-observación) de ciertas operaciones de Intel AMT, como apagar y 
-encender la computadora, configurar el BIOS y montar una imagen 
+observación) de ciertas operaciones de Intel AMT, como apagar y \nencender la computadora, configurar el BIOS y montar una imagen 
 remota (IDER). 
  
 8.4.3. Aprovisionamiento e integración 
@@ -7061,8 +6841,7 @@ firmware TCP / IP diseñada en el hardware del sistema, y puesto que se basa en 
 comunicación remota con AMT se produce a través de la ruta de datos de la red antes de que la 
 comunicación pase al sistema operativo. 
 Intel AMT admite redes cableadas e inalámbricas. 
-Para portátiles inalámbricos con alimentación por batería, la comunicación OOB está disponible cuando 
-el sistema está activo y conectado a la red corporativa, incluso si el sistema operativo no funciona. 
+Para portátiles inalámbricos con alimentación por batería, la comunicación OOB está disponible cuando \nel sistema está activo y conectado a la red corporativa, incluso si el sistema operativo no funciona. 
 La comunicación OOB también está disponible para portátiles inalámbricos o con cable conectados a la 
 red corporativa a través de una red privada virtual (VPN) basada en el sistema operativo host cuando 
 los portátiles están activos y funcionando correctamente. 
@@ -7076,8 +6855,7 @@ Una PC AMT almacena la información de configuración del sistema en una memoria
 Para PC con la versión 4.0 y superior, esta información puede incluir los nombres de los servidores de 
 administración de "lista blanca" apropiados para la empresa. 
 La lista blanca (también conocida como lista de permisos) es la práctica de permitir explícitamente a 
-algunas entidades identificadas el acceso a un privilegio, servicio, movilidad, acceso o reconocimiento 
-en particular. (Es lo opuesto a las listas negras). 
+algunas entidades identificadas el acceso a un privilegio, servicio, movilidad, acceso o reconocimiento \nen particular. (Es lo opuesto a las listas negras). 
 Cuando un usuario intenta iniciar una sesión remota entre la PC cableada y un servidor de la empresa 
 desde una LAN abierta, AMT envía la información almacenada a un servidor de presencia de 
 administración (MPS) en la "zona desmilitarizada" ("DMZ") que existe entre los cortafuegos 
@@ -7103,22 +6881,19 @@ Intel Management Engine siempre se ejecuta mientras la placa base esté recibien
 cuando la computadora está apagada. Este problema se puede mitigar con la implementación de un 
 dispositivo de hardware, que puede desconectar la alimentación de red. 
 Intel ME es un objetivo atractivo para los piratas informáticos, ya que tiene acceso de nivel superior a 
-todos los dispositivos y evita por completo el sistema operativo. La Electronic Frontier Foundation ha 
-expresado su preocupación por Intel ME y algunos investigadores de seguridad han expresado su 
+todos los dispositivos y evita por completo el sistema operativo. La Electronic Frontier Foundation ha \nexpresado su preocupación por Intel ME y algunos investigadores de seguridad han expresado su 
 preocupación de que sea una puerta trasera. 
 El principal competidor de Intel, AMD, ha incorporado la tecnología AMD Secure equivalente 
 (formalmente llamada Platform Security Processor) en prácticamente todas sus CPU posteriores a 
 2013. 
 El motor de administración se confunde a menudo con Intel AMT (tecnología de administración activa 
 de Intel). AMT se ejecuta en ME, pero solo está disponible en procesadores con vPro. 
-AMT ofrece a los propietarios de dispositivos la administración remota de su computadora, como 
-encenderla o apagarla y reinstalar el sistema operativo. 
+AMT ofrece a los propietarios de dispositivos la administración remota de su computadora, como \nencenderla o apagarla y reinstalar el sistema operativo. 
 Sin embargo, el ME en sí está integrado en todos los conjuntos de chips de Intel desde 2008, no solo en 
 aquellos con AMT. Si bien el propietario puede desaprovisionar AMT, no existe una forma oficial y 
 documentada de desactivar el ME. 
 El subsistema consiste principalmente en firmware propietario que se ejecuta en un microprocesador 
-separado que realiza tareas durante el arranque, mientras la computadora está funcionando y mientras 
-está inactiva. Siempre que el chipset o SoC esté conectado a la corriente (a través de la batería o fuente 
+separado que realiza tareas durante el arranque, mientras la computadora está funcionando y mientras \nestá inactiva. Siempre que el chipset o SoC esté conectado a la corriente (a través de la batería o fuente 
 de alimentación), continúa funcionando incluso cuando el sistema está apagado. Intel afirma que él ME 
 debe proporcionar un rendimiento completo. Su funcionamiento exacto está en gran parte 
 indocumentado y su código está ofuscado usando tablas confidenciales de Huffman almacenadas 
@@ -7207,8 +6982,7 @@ Hay protocolos para la administración remota en banda que utilizan un canal de 
 seguro (por ejemplo, Secure Shell), pero algunos otros protocolos no están protegidos, por lo tanto, 
 algunas empresas han tenido que elegir entre tener una red segura o permitir que TI use aplicaciones de 
 administración remota sin comunicaciones seguras para mantener y reparar las PC. 
-Las tecnologías de seguridad y los diseños de hardware modernos permiten la gestión remota incluso 
-en entornos más seguros. Por ejemplo, Intel AMT es compatible con: 
+Las tecnologías de seguridad y los diseños de hardware modernos permiten la gestión remota incluso \nen entornos más seguros. Por ejemplo, Intel AMT es compatible con: 
 • IEEE 802.1x. 
 • Entorno de ejecución de prearranque (PXE). 
 • Cisco SDN. 
@@ -7273,8 +7047,7 @@ habilitada. El coprocesador ME, creado para proporcionar funciones de gestión r
 un nivel muy bajo del sistema, resultando un objetivo muy interesante para los atacantes. Al 
 alcanzar el ME, un rootkit podría persistir en el sistema incluso en estados de bajo consumo 
 como S3, esquivando múltiples técnicas de rastreo y eliminación tradicionales. 
-Para el chipset Q35 vulnerable, un registrador de pulsaciones de teclasPatrick Stewin demostró 
-el rootkit basado en ME.
+Para el chipset Q35 vulnerable, un registrador de pulsaciones de teclasPatrick Stewin demostró \nel rootkit basado en ME.
 
 ---
 
@@ -7321,18 +7094,15 @@ Control Remoto de puestos de Usuario
 198 
 Específicamente, si user_response es la cadena vacía (con longitud 0), esta "comparación" 
 siempre devolverá True y, por lo tanto, validará al usuario. Esto permitió a cualquier persona 
-simplemente iniciar sesión en la admin cuenta en los dispositivos editando su paquete HTTP 
-enviado para usar la cadena vacía como response valor del campo. 
+simplemente iniciar sesión en la admin cuenta en los dispositivos editando su paquete HTTP \nenviado para usar la cadena vacía como response valor del campo. 
 • PLATINO. 
 En junio de 2017, el grupo de delitos informáticos PLATINUM se destacó por explotar las 
 capacidades de serie sobre LAN (SOL) de AMT para realizar la exfiltración de datos de 
 documentos robados. 
 • SA-00086. 
 En noviembre de 2017, la firma de seguridad Positive Technologies detectó serias fallas en el 
-firmware de Management Engine (ME), quien afirmó haber desarrollado un exploit funcional de 
-este sistema para alguien que tenga acceso físico a un puerto USB. 
-El 20 de noviembre de 2017, Intel confirmó que se habían encontrado una serie de fallas graves 
-en el motor de administración, el motor de ejecución confiable, los servicios de plataforma de 
+firmware de Management Engine (ME), quien afirmó haber desarrollado un exploit funcional de \neste sistema para alguien que tenga acceso físico a un puerto USB. 
+El 20 de noviembre de 2017, Intel confirmó que se habían encontrado una serie de fallas graves \nen el motor de administración, el motor de ejecución confiable, los servicios de plataforma de 
 servidor y lanzó una "actualización de firmware crítica". 
 8.4.8. Evitación y mitigación 
 Las PC con AMT suelen ofrecer una opción en el menú de la BIOS para apagar la AMT, aunque los OEM 
@@ -7353,8 +7123,7 @@ Management Engine (ME); siempre está encendido, a menos que el OEM no lo habili
  
 + Info 
 En 2015, una pequeña cantidad de proveedores de la competencia 
-comenzaron a ofrecer PC basadas en Intel diseñadas o modificadas 
-específicamente para abordar posibles vulnerabilidades de AMT y 
+comenzaron a ofrecer PC basadas en Intel diseñadas o modificadas \nespecíficamente para abordar posibles vulnerabilidades de AMT y 
 preocupaciones relacionadas.
 
 ---
@@ -7400,8 +7169,7 @@ dirección IP independientes para Intel ME que la CPU de su host. Si elige DHCP,
 mismo nombre de host y dirección IP para Intel ME como la CPU del host. 
 • Aprovisionamiento: Pequeña Mediana Empresa (SMB) / Empresa. 
 • Habilitar SOL / IDE-R. 
-Hay que pulsar F10 para guardar la configuración y reiniciar el sistema y a continuación confirmar que 
-están los siguientes controladores instalados en el sistema: 
+Hay que pulsar F10 para guardar la configuración y reiniciar el sistema y a continuación confirmar que \nestán los siguientes controladores instalados en el sistema: 
 • Controlador de interfaz de red Intel 82566DM. 
 • Intel Management Engine Interface (también conocido como controlador HECI). 
 • Serial-Over-Lan (SOL) Driver. 
@@ -7443,8 +7211,7 @@ septiembre de 1999.
 (UUID) y Universal Network Device Interface (UNDI). 
 El término cliente PXE sólo se refiere al papel que la máquina juega en el proceso de arranque mediante 
 PXE. 
-Un cliente PXE puede ser un servidor, una computadora de mesa, portátil o cualquier otra máquina que 
-esté equipada con código de arranque PXE. 
+Un cliente PXE puede ser un servidor, una computadora de mesa, portátil o cualquier otra máquina que \nesté equipada con código de arranque PXE. 
  
  
  
@@ -7456,10 +7223,8 @@ servidores de arranque PXE disponibles.
 Tras analizar la respuesta, el firmware solicitará al servidor de 
 arranque apropiado el file path de un network bootstrap program 
 (NBP), lo descargará en la memoria RAM del computador 
-mediante TFTP, probablemente lo verificará, y finalmente lo 
-ejecutará. 
-Si se utiliza un único NBP para todos los clientes PXE se puede 
-especificar mediante BOOTP sin necesidad de un proxy DHCP, 
+mediante TFTP, probablemente lo verificará, y finalmente lo \nejecutará. 
+Si se utiliza un único NBP para todos los clientes PXE se puede \nespecificar mediante BOOTP sin necesidad de un proxy DHCP, 
 pero aún será necesario un servidor TFTP.
 
 ---
@@ -7491,12 +7256,10 @@ La versión 2.1 de la especificación asigna identificadores de
 arquitectura a seis tipos distintos de sistemas, incluyendo IA-64 y 
 DEC Alpha. 
 Aunque la especificación sólo soporta completamente IA-32. Intel 
-incluyó PXE en la EFI para IA-64, creando un estándar de facto con 
-esta implementación. 
+incluyó PXE en la EFI para IA-64, creando un estándar de facto con \nesta implementación. 
  
 Funcionamiento 
-Para iniciar una sesión de arranque con PXE el firmware envía un paquete de tipo DHCPDISCOVER 
-extendido con algunas opciones específicas de PXE al puerto 67/UDP (puerto estándar del servicio 
+Para iniciar una sesión de arranque con PXE el firmware envía un paquete de tipo DHCPDISCOVER \nextendido con algunas opciones específicas de PXE al puerto 67/UDP (puerto estándar del servicio 
 DHCP).
 
 ---
@@ -7524,16 +7287,14 @@ Tras elegir el servidor de arranque PXE apropiado:
 • El firmware envía un paquete DHCPREQUEST extendido mediante multicast o unicast al puerto 
 4011/UDP o broadcast al puerto 67/UDP. 
 (El paquete DHCPREQUEST extendido también puede ser un paquete DHCPINFORM). 
-• Este paquete contiene el servidor de arranque PXE y la capa de arranque PXE, permitiendo 
-ejecutar múltiples tipos de servidores de arranque mediante un único daemon (o programa) de 
+• Este paquete contiene el servidor de arranque PXE y la capa de arranque PXE, permitiendo \nejecutar múltiples tipos de servidores de arranque mediante un único daemon (o programa) de 
 arranque. 
 Si un servidor de arranque PXE recibe un paquete DHCPREQUEST extendido como el descrito 
 anteriormente y si está configurado para el tipo de servidor de arranque PXE y la arquitectura de cliente 
 solicitados: 
 • Debe responder devolviendo un paquete DHCPACK donde se incluyen unos campos iniciales 
 con cierta información. 
-Tras recibir el paquete DHCPACK solicitado, el Network Bootstrap Program es descargado y ejecutado 
-en la RAM del cliente. Tiene acceso a las APIs del firmware PXE (Pre-boot, UDP, TFTP, Universal 
+Tras recibir el paquete DHCPACK solicitado, el Network Bootstrap Program es descargado y ejecutado \nen la RAM del cliente. Tiene acceso a las APIs del firmware PXE (Pre-boot, UDP, TFTP, Universal 
 Network Device Interface, UNDI).
 
 ---
@@ -7546,8 +7307,7 @@ Control Remoto de puestos de Usuario
  
 + Info 
 Puedes consultar más información en la web oficial de Mictrosoft. 
-https://docs.microsoft.com/es-
-es/troubleshoot/mem/configmgr/boot-from-pxe-server 
+https://docs.microsoft.com/es-\nes/troubleshoot/mem/configmgr/boot-from-pxe-server 
  
 9. Bibliografía 
 • http://es.wikipedia.org 

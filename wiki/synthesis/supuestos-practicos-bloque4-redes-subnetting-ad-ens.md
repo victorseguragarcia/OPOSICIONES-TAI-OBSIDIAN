@@ -109,7 +109,7 @@ organismo.age.es (Dominio)
 - **Trazabilidad (T)**: Nivel **ALTO** (registro obligatorio de accesos y auditoría de firmas según NTI).
 
 #### B. Categoría Global del Sistema:
-$$	ext{Categoría Global} = \max(D, A, I, C, T) = \mathbf{ALTA}$$
+$$\text{Categoría Global} = \max(D, A, I, C, T) = \mathbf{ALTA}$$
 
 #### C. Medidas Obligatorias Destacadas del Anexo II del RD 311/2022:
 1. **[op.acc.4] Identificación y Autenticación**: Doble factor de autenticación (**MFA**) preceptivo para todos los accesos de administradores y usuarios con acceso a datos de nivel Alto.

@@ -8,8 +8,7 @@ tags:
   - tema-04
   - hardware
   - sistemas-operativos
-  - bbdd
-estado: "🔴 Pendiente"
+  - bbdd\nestado: "🔴 Pendiente"
 dificultad: "⭐⭐⭐"
 prioridad: "Alta"
 sources:
@@ -38,7 +37,16 @@ updated: "2026-08-18"
 - **El Bloque de Control del Proceso (PCB - Process Control Block)**:
   - Estructura de datos que contiene el estado del proceso, PID, contador de programa (PC), registros de la CPU, información de planificación, límites de memoria y tabla de descriptores de ficheros abiertos.
 - **Diagrama de Estados del Proceso**:
-  - **Nuevo** $ightarrow$ *Admitido* $ightarrow$ **Listo (Ready)** $ightleftharpoons$ *Despachado (Dispatch) / Expiración Quantum* $ightleftharpoons$ **En Ejecución (Running)** $ightarrow$ *Espera E/S o evento* $ightarrow$ **Bloqueado (Waiting)** $ightarrow$ *Fin de evento* $ightarrow$ **Listo** $ightarrow$ *Terminado*.
+  - **Nuevo** $
+ightarrow$ *Admitido* $
+ightarrow$ **Listo (Ready)** $
+ightleftharpoons$ *Despachado (Dispatch) / Expiración Quantum* $
+ightleftharpoons$ **En Ejecución (Running)** $
+ightarrow$ *Espera E/S o evento* $
+ightarrow$ **Bloqueado (Waiting)** $
+ightarrow$ *Fin de evento* $
+ightarrow$ **Listo** $
+ightarrow$ *Terminado*.
 - **Algoritmos de Planificación de CPU**:
   - *No Apropiativos (Non-Preemptive)*: La CPU no puede ser retirada al proceso hasta que éste termine o se bloquee voluntariamente:
     - **FCFS (First-Come, First-Served)**: Por orden de llegada. Sufre el *efecto convoy* (procesos cortos esperando a uno muy largo).
@@ -94,19 +102,24 @@ updated: "2026-08-18"
 | **Sticky Bit** | `t` (en otros) | **1000** | Sin efecto estándar. | **Solo el propietario del archivo (o root) puede borrarlo o renombrarlo** dentro del directorio (ej. `/tmp` - permisos `1777`). |
 
 - **Cálculo de Umask**: Define los permisos por defecto restando la máscara a los permisos base:
-  - Permiso base directorios: `777` ($rwxrwxrwx$). Con `umask 022` $ightarrow$ `755` ($rwxr-xr-x$). Con `umask 027` $ightarrow$ `750` ($rwxr-x---$).
-  - Permiso base ficheros: `666` ($rw-rw-rw-$). Con `umask 022` $ightarrow$ `644` ($rw-r--r--$). Con `umask 027` $ightarrow$ `640` ($rw-r-----).
+  - Permiso base directorios: `777` ($rwxrwxrwx$). Con `umask 022` $
+ightarrow$ `755` ($rwxr-xr-x$). Con `umask 027` $
+ightarrow$ `750` ($rwxr-x---$).
+  - Permiso base ficheros: `666` ($rw-rw-rw-$). Con `umask 022` $
+ightarrow$ `644` ($rw-r--r--$). Con `umask 027` $
+ightarrow$ `640` ($rw-r-----).
 
 > [!trampa] ⚠️ **Trampas Oficiales del Tribunal en el Tema 04 (Bloque 2)**
 > 1. **Contenido del Inodo en Linux**: El inodo contiene permisos, propietario, tamaño y punteros a bloques, pero **NUNCA contiene el nombre del fichero** (se guarda en la tabla del directorio).
-> 2. **Límite de Fichero en FAT32**: Es de **4 GB** (exactamente $4 	ext{ GiB} - 1 	ext{ byte} = 4.294.967.295 	ext{ bytes}$).
+> 2. **Límite de Fichero en FAT32**: Es de **4 GB** (exactamente $4 \text{ GiB} - 1 \text{ byte} = 4.294.967.295 \text{ bytes}$).
 > 3. **Anomalía de Bélády**: Afecta exclusivamente a algoritmos como **FIFO** (donde dar más memoria puede aumentar los fallos de página). Algoritmos de pila como **LRU y Óptimo NUNCA sufren esta anomalía**.
 > 4. **Sticky Bit (Valor Octal 1000)**: En directorios como `/tmp` impide que un usuario borre archivos de otros usuarios aunque tenga permisos de escritura en el directorio.
 
 > [!mnemo] 🧠 **Reglas Mnemotécnicas de Retención Visual**
 > - **Bits Especiales**: **SUID 4 / SGID 2 / Sticky 1** (Suma octal: $4+2+1=7$).
 > - **Permisos R-W-X**: **Read $=4$, Write $=2$, eXecute $=1$** ($rwx = 4+2+1=7$).
-> - **Condiciones Deadlock de Coffman**: **EX-RE-NO-CIR** $ightarrow$ **EX**clusión mutua, **RE**tención y espera, **NO** apropiación, espera **CIR**cular.
+> - **Condiciones Deadlock de Coffman**: **EX-RE-NO-CIR** $
+ightarrow$ **EX**clusión mutua, **RE**tención y espera, **NO** apropiación, espera **CIR**cular.
 
 ---
 

@@ -8,8 +8,7 @@ tags:
   - tema-05
   - desarrollo
   - bbdd
-  - ingenieria-software
-estado: "🔴 Pendiente"
+  - ingenieria-software\nestado: "🔴 Pendiente"
 dificultad: "⭐⭐⭐"
 prioridad: "Alta"
 sources:

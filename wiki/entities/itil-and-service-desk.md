@@ -52,7 +52,7 @@ aliases:
 | Término | Definición / Fórmula |
 |---------|----------------------|
 | **Incidencia vs Problema** | Incidencia restaura servicio rápido; Problema busca la **causa raíz** |
-| **Cálculo de Prioridad** | $	ext{Prioridad} = 	ext{Impacto} 	imes 	ext{Urgencia}$ |
+| **Cálculo de Prioridad** | $\text{Prioridad} = \text{Impacto} \times \text{Urgencia}$ |
 | **KEDB** | *Known Error Database* (Base de datos de errores conocidos y workarounds) |
 | **CMDB** | *Configuration Management Database* (Almacena los Elementos de Configuración o CIs) |
 

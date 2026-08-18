@@ -6,8 +6,7 @@ tags:
   - temario-extendido
   - bloque-4
   - tema-09
-  - oposiciones-tai
-estado: "🔴 Por Estudiar"
+  - oposiciones-tai\nestado: "🔴 Por Estudiar"
 dificultad: "⭐⭐⭐"
 prioridad: "Máxima"
 sources:
@@ -31,8 +30,7 @@ Seguridad y protección en redes
 de comunicaciones. CNN. 
 Seguridad perimetral. Redes 
 virtuales VPN. Acceso remoto 
-seguro a redes. Seguridad 
-en el puesto de usuario 
+seguro a redes. Seguridad \nen el puesto de usuario 
 
 ---
 
@@ -224,8 +222,7 @@ Pilares de la protección de la información
 Según el estándar ISO/IEC 27002. 
 "La seguridad de la información se puede caracterizar por la 
 preservación de: 
-• Confidencialidad: asegura que el acceso a la información 
-está adecuadamente autorizado. 
+• Confidencialidad: asegura que el acceso a la información \nestá adecuadamente autorizado. 
 • Integridad: salvaguarda la precisión y completitud de la 
 información y sus métodos de proceso. 
 • Disponibilidad: Asegura que los usuarios autorizados 
@@ -250,8 +247,7 @@ Acceso remoto seguro a redes. Seguridad en el puesto de usuario
  
 Ejemplo 
 Por ejemplo: 
-Implantar un control de acceso para proteger la confidencialidad 
-en un aparato médico de una sala de operaciones. 
+Implantar un control de acceso para proteger la confidencialidad \nen un aparato médico de una sala de operaciones. 
 Esto produciría un retardo en el acceso a la información. 
 Por lo tanto, se ve afectada su disponibilidad. 
  
@@ -320,8 +316,7 @@ Ejemplos de Vulnerabilidades:
  
 Una Amenaza es todo elemento o acción capaz de atentar contra la seguridad del sistema de 
 información. 
-Las amenazas surgen a partir de la existencia de vulnerabilidades, una amenaza sólo puede existir si 
-existe una vulnerabilidad que pueda ser aprovechada.
+Las amenazas surgen a partir de la existencia de vulnerabilidades, una amenaza sólo puede existir si \nexiste una vulnerabilidad que pueda ser aprovechada.
 
 ---
 
@@ -333,8 +328,7 @@ Las amenazas pueden clasificarse en dos tipos:
 • Intencionadas. 
 Se intenta producir un daño deliberadamente. 
 • No intencionadas. 
-Se producen por omisiones o acciones que no buscan explotar la vulnerabilidad, pero que ponen 
-en riesgo los activos y pueden producir un daño. 
+Se producen por omisiones o acciones que no buscan explotar la vulnerabilidad, pero que ponen \nen riesgo los activos y pueden producir un daño. 
  
  
  
@@ -662,12 +656,9 @@ Acceso remoto seguro a redes. Seguridad en el puesto de usuario
 21 
 2. Centro Criptológico Nacional (CCN) 
 El Centro Criptológico Nacional (CCN) es un organismo del Estado español adscrito al Centro Nacional 
-de Inteligencia que se dedica a criptoanalizar y descifrar por procedimientros manuales, medios 
-electrónicos y criptofonía, así como realizar investigaciones tecnológico-criptográficas y formar al 
-personal especializado en criptología. El CCN quedó legalmente regulado por el Real Decreto 421/2004 
-el 12 de marzo. 
-El CCN no es una agencia independiente del CNI, sino que, está integrado en el servicio de inteligencia 
-español, siendo parte y responsabilidad de éste (siguiendo el modelo de Alemania o Francia). 
+de Inteligencia que se dedica a criptoanalizar y descifrar por procedimientros manuales, medios \nelectrónicos y criptofonía, así como realizar investigaciones tecnológico-criptográficas y formar al 
+personal especializado en criptología. El CCN quedó legalmente regulado por el Real Decreto 421/2004 \nel 12 de marzo. 
+El CCN no es una agencia independiente del CNI, sino que, está integrado en el servicio de inteligencia \nespañol, siendo parte y responsabilidad de éste (siguiendo el modelo de Alemania o Francia). 
 Las funciones son: 
 • Elaborar y difundir normas, instrucciones, guías y recomendaciones para garantizar la seguridad 
 de los sistemas de las tecnologías de la información y las comunicaciones de la administración 
@@ -687,8 +678,7 @@ Seguridad de las Tecnologías de Información (ENECSTI).
 • El Centro Criptológico Nacional Computer Emergency Response Team (CCN-CERT). 
 Es el organismo español, creado en 2006, encargado de contribuir a la ciberseguridad de la 
 administración pública, los organismos públicos y empresas estratégicas del país. 
-El CCN-CERT presta los siguientes servicios a las administraciones públicas y empresas 
-estratégicas españolas, y pueden consultarse en su web. 
+El CCN-CERT presta los siguientes servicios a las administraciones públicas y empresas \nestratégicas españolas, y pueden consultarse en su web. 
 • Gestión de incidentes. 
 • Sistema de alerta temprana, SAT. 
 • Formación y sensibilización.
@@ -706,9 +696,7 @@ soluciones que garanticen la seguridad de los sistemas y contribuyan a una mejor
 de la ciberseguridad frente a los ciberataques. 
 Estas soluciones tienen nombre de mujer (Excepto CCNDroid): 
 » ADA: Plataforma de análisis avanzado de malware. 
-» Integra las capacidades de análisis dinámico (MARTA) y las capacidades de análisis 
-estático (MARÍA), e incluye además capacidades adicionales orientadas al 
-enriquecimiento de los resultados obtenidos. 
+» Integra las capacidades de análisis dinámico (MARTA) y las capacidades de análisis \nestático (MARÍA), e incluye además capacidades adicionales orientadas al \nenriquecimiento de los resultados obtenidos. 
 » Solución para controlar, gestionar y acceder a los resultados de todas las 
 tecnologías de análisis que integra desde un solo interfaz unificado. 
 » AMPARO: Implantación de seguridad y conformidad del ENS. 
@@ -739,8 +727,7 @@ través de técnicas de correlación compleja de eventos. Basado en los sistemas
 (Security Information and Event Management). Gestor de logs para responder ante 
 incidentes y amenazas. 
 » INES: solución desarrollada por el CCN para la gobernanza de la ciberseguridad, que 
-permite evaluar regularmente el estado de la seguridad de los sistemas TIC de las 
-entidades, organismos y organizaciones. 
+permite evaluar regularmente el estado de la seguridad de los sistemas TIC de las \nentidades, organismos y organizaciones. 
 Existen dos modalidades de INES: 
 » Entidad matriz: entidad con entidades vinculadas o dependientes de ella. 
 » Entidad individual: una única entidad sin entidades vinculadas o dependientes. 
@@ -748,8 +735,7 @@ Existen dos modalidades de INES:
 situación de la ciberamenaza a nivel nacional. 
 » LORETO: Plataforma de Colaboración de Contenidos (CCP-Content Collaboration 
 Platforms) para mejorar la productividad, al permitir impulsar cambios en los procesos 
-de trabajo, haciéndolos más eficientes a la hora de colaborar con usuarios internos y 
-externos. 
+de trabajo, haciéndolos más eficientes a la hora de colaborar con usuarios internos y \nexternos. 
 » LUCIA: (Listado Unificado de Coordinación de Incidentes y Amenazas). Herramienta 
 para la Gestión de Ciberincidentes con la que se quiere mejorar la coordinación entre el 
 CERT Gubernamental Nacional y los distintos organismos y organizaciones con las que 
@@ -844,8 +830,7 @@ innovación, y el establecimiento de las decisiones y directrices necesarias par
 Seguridad y protección en redes de comunicaciones. CNN. Seguridad perimetral. Redes virtuales VPN. 
 Acceso remoto seguro a redes. Seguridad en el puesto de usuario 
 26 
-• Actuación como órgano referente nacional e interlocutor ante organismos e instituciones 
-europeas e internacionales en el ámbito de la Administración Digital. 
+• Actuación como órgano referente nacional e interlocutor ante organismos e instituciones \neuropeas e internacionales en el ámbito de la Administración Digital. 
 • Elaboración y tramitación de los proyectos de disposición de carácter general en materia de 
 organización y procedimiento que afecten a la actuación y funcionamiento del sector público 
 por medios electrónicos. 
@@ -858,8 +843,7 @@ impulso de programas y proyectos para facilitar el acceso de los ciudadanos y la
 a los servicios públicos. 
 • Elaboración y desarrollo de programas de atención, información y asistencia a los 
 ciudadanos a través de los distintos canales disponibles. 
-• La colaboración con la Dirección General de Racionalización y Centralización de la Contratación 
-en la gestión centralizada de la contratación en el ámbito competencial de la Secretaría General 
+• La colaboración con la Dirección General de Racionalización y Centralización de la Contratación \nen la gestión centralizada de la contratación en el ámbito competencial de la Secretaría General 
 de Administración Digital. 
 Estructura de la SGAD 
 De la Secretaría General dependen los siguientes órganos, a través de los cuales ejerce el resto de sus 
@@ -885,8 +869,7 @@ Acceso remoto seguro a redes. Seguridad en el puesto de usuario
 La Subdirección General de Planificación y Gobernanza de la Administración Digital y la 
 Subdirección General de Impulso de la Digitalización de la Administración se encargan 
 conjuntamente de: 
-• El diseño técnico, implantación y gestión de los medios y servicios digitales necesarios para 
-evolucionar los servicios públicos actuales hacia servicios públicos universales de calidad, 
+• El diseño técnico, implantación y gestión de los medios y servicios digitales necesarios para \nevolucionar los servicios públicos actuales hacia servicios públicos universales de calidad, 
 orientados a los ciudadanos y empresas, promoviendo la incorporación de las tecnologías 
 de la información y las comunicaciones y la digitalización a los procedimientos 
 administrativos y la adaptación de la gestión pública al uso de medios digitales, en 
@@ -903,8 +886,7 @@ Administración del Estado que sean necesarios a efectos de un procedimiento
 administrativo, mediante el uso de instrumentos como la Plataforma de Intermediación de 
 Datos, y para implementar los mecanismos de conexión con la pasarela digital única de la 
 Unión Europea. 
-• La definición de estándares, de directrices técnicas y de gobierno TIC, de normas de calidad 
-e interoperabilidad de aplicación a las Administraciones Públicas. 
+• La definición de estándares, de directrices técnicas y de gobierno TIC, de normas de calidad \ne interoperabilidad de aplicación a las Administraciones Públicas. 
 • La colaboración con la Dirección General de Gobernanza Pública en la gobernanza y 
 gestión del registro de funcionarios habilitados, del registro electrónico de apoderamientos, 
 del registro electrónico general de la Administración General del Estado, del Sistema de 
@@ -954,8 +936,7 @@ Centralización de la Contratación, de propuestas relacionadas con las polític
 adquisiciones de bienes informáticos y en la contratación pública de estos bienes y servicios 
 TIC en la Administración General del Estado y sus Organismos Públicos. 
 • Todo lo relacionado con la gestión económico-presupuestaria en el ámbito de la Secretaría 
-General y el estudio, planificación, impulso y seguimiento de los procesos de contratación 
-en materia TIC y aquellos otros ámbitos relacionados. 
+General y el estudio, planificación, impulso y seguimiento de los procesos de contratación \nen materia TIC y aquellos otros ámbitos relacionados. 
 • Es responsable de la definición y gestión de un sistema común de imputación de costes TIC 
 para toda la Administración General del Estado y sus Organismos Públicos. 
 • La División de Planificación y Coordinación de Ciberseguridad. 
@@ -987,8 +968,7 @@ Accesibilidad Web.
 https://administracionelectronica.gob.es/pae_Home/ 
  
 3.1.1. Esquema Nacional de Seguridad (ENS) 
-Es una normativa que tiene por objetivo establecer la política de seguridad en la utilización de medios 
-electrónicos relacionados con la Administración Pública, y está constituido por principios básicos y 
+Es una normativa que tiene por objetivo establecer la política de seguridad en la utilización de medios \nelectrónicos relacionados con la Administración Pública, y está constituido por principios básicos y 
 requisitos mínimos que permitan una protección adecuada de la información. 
 El ámbito de aplicación del Esquema Nacional de Seguridad comprende: 
 • Todo el Sector Público, en los términos previstos en el artículo 2 de la Ley 40/2015, de 1 de 
@@ -1009,11 +989,9 @@ contexto regulatorio internacional y europeo.
 Seguridad y protección en redes de comunicaciones. CNN. Seguridad perimetral. Redes virtuales VPN. 
 Acceso remoto seguro a redes. Seguridad en el puesto de usuario 
 30 
-En mayo de 2022 entró en vigor una nueva versión del ENS (fecha a partir de la que los sistemas ya 
-existentes disponían de 24 meses para adaptarse a los cambios). 
+En mayo de 2022 entró en vigor una nueva versión del ENS (fecha a partir de la que los sistemas ya \nexistentes disponían de 24 meses para adaptarse a los cambios). 
 Dispones de la información en los siguientes enlaces: 
-• https://portal.mineco.gob.es/es-
-es/ministerio/estrategias/Paginas/Esquema_Nacional_de_Seguridad.aspx 
+• https://portal.mineco.gob.es/es-\nes/ministerio/estrategias/Paginas/Esquema_Nacional_de_Seguridad.aspx 
 • Real Decreto 311/2022, de 3 de mayo, por el que se regula el Esquema Nacional de Seguridad. 
 https://www.boe.es/eli/es/rd/2022/05/03/311/con 
 3.1.2. MAGERIT 
@@ -1021,8 +999,7 @@ MAGERIT versión 3, es la Metodología de Análisis y Gestión de Riesgos de los
 Fue elaborada en su día por el antiguo Consejo Superior de Administración Electrónica. 
 Actualmente, es mantenida por la Secretaría General de Administración Digital (Ministerio de Asuntos 
 Económicos y Transformación Digital) con la colaboración del Centro Criptológico Nacional (CCN). 
-Su objetivo es minimizar los riesgos de la implantación y uso de las Tecnologías de la Información, 
-enfocada a las Administraciones Públicas, para lo que ofrece una aplicación para el análisis y gestión de 
+Su objetivo es minimizar los riesgos de la implantación y uso de las Tecnologías de la Información, \nenfocada a las Administraciones Públicas, para lo que ofrece una aplicación para el análisis y gestión de 
 riesgos de un sistema de información. 
 Método de Análisis de Riesgos (MAR) 
 Constituye el núcleo del enfoque de Magerit v3 proporcionando una estructura sistemática y bien 
@@ -1042,13 +1019,11 @@ Seguridad y protección en redes de comunicaciones. CNN. Seguridad perimetral. R
 Acceso remoto seguro a redes. Seguridad en el puesto de usuario 
 31 
 Proyectos de análisis de riesgos (PAR) 
-Estos proyectos son implementaciones específicas del MAR en entornos concretos, y se llevan a cabo 
-en organizaciones para evaluar los riesgos asociados con sus sistemas de información y establecer 
+Estos proyectos son implementaciones específicas del MAR en entornos concretos, y se llevan a cabo \nen organizaciones para evaluar los riesgos asociados con sus sistemas de información y establecer 
 medidas de seguridad adecuadas. 
 Los PAR se inician con la definición de los objetivos y alcance del proyecto, seguidos de la identificación 
 y valoración de activos críticos, amenazas relevantes y vulnerabilidades existentes. 
-Permiten, a través de un enfoque sistemático, identificar los riesgos más significativos y diseñar 
-estrategias de mitigación adecuadas. 
+Permiten, a través de un enfoque sistemático, identificar los riesgos más significativos y diseñar \nestrategias de mitigación adecuadas. 
 Los resultados obtenidos de los PAR proporcionan una base sólida para la toma de decisiones en 
 materia de seguridad. 
 Plan de Seguridad (PS) 
@@ -1151,8 +1126,7 @@ Todas las capas de TCP/IP presentan de forma implícita puntos débiles.
 » HTTP. 
 » Telnet. 
 » FTP. 
-Aún se siguen utilizando protocolos inseguros, a pesar de que algunos protocolos han 
-evolucionado y otros presentan alternativas seguras: 
+Aún se siguen utilizando protocolos inseguros, a pesar de que algunos protocolos han \nevolucionado y otros presentan alternativas seguras: 
 • SNMP ha evolucionado. SNMPv3 incorpora seguridad. 
 • HTTP → Se puede usar HTTPs. 
 • FTP → Se puede usar SFTP. 
@@ -1372,8 +1346,7 @@ Las VLANs no fueron creadas por temas de seguridad, sino para limitar el efecto 
 y multicast en redes grandes. 
 Se han revelado diversas vulnerabilidades que permiten introducir tráfico de forma no autorizada desde 
 una VLAN a otra distinta (salto de VLAN o VLAN Hopping). 
-Los switches de gama alta disponen de medidas de seguridad para detectar y mitigar ataques a nivel del 
-enlace de datos. 
+Los switches de gama alta disponen de medidas de seguridad para detectar y mitigar ataques a nivel del \nenlace de datos. 
 Los switches desempeñan un papel fundamental en la gestión de VLANs al segmentar el tráfico de red y 
 permitir una administración eficiente. Su uso permite la implementación de redes más seguras y 
 organizadas, ya que separan los dispositivos en distintos dominios de difusión. 
@@ -1407,8 +1380,7 @@ general).
 Dado que para ofrecer un servicio hay que proporcionar acceso de una u otra forma a programas 
 corriendo en el sistema. 
 Estos servicios introducen un riesgo para el propio servidor. 
-Sin embargo, a través del servidor, también traslada este riesgo a los sistemas y dispositivos de su 
-entorno. 
+Sin embargo, a través del servidor, también traslada este riesgo a los sistemas y dispositivos de su \nentorno. 
 No todos los servicios introducen el mismo riesgo de seguridad. 
 Los que más peligro afrontan son los que interactúan con entornos hostiles como internet. 
 Igualmente, hay que tener en cuenta la criticidad de los servicios que ofrecen. 
@@ -1444,11 +1416,9 @@ de seguridad para cualquier servidor conectado a la red, de manera que gracias a
 mantener la seguridad de nuestro servidor o dispositivo conectado a la red lo más seguro 
 posible frente a amenazas comunes. 
 • Es una herramienta escalable. 
-Este monitor de seguridad hace uso de las funciones multi-hilo de manera que solo con 
-ejecutarse en una instancia el monitor balanceará su carga entre todos los procesadores 
+Este monitor de seguridad hace uso de las funciones multi-hilo de manera que solo con \nejecutarse en una instancia el monitor balanceará su carga entre todos los procesadores 
 disponibles, evitando incluso alguno de ellos si así lo especificamos. Gracias a ello, esta 
-herramienta es capaz de procesar un ancho de banda de hasta 10 gigabits por segundo sin que 
-ello repercuta sobre el rendimiento. 
+herramienta es capaz de procesar un ancho de banda de hasta 10 gigabits por segundo sin que \nello repercuta sobre el rendimiento. 
 • Es capaz de identificar los principales protocolos de red, siendo capaz de controlar en todo 
 momento todo el tráfico que se genera en el sistema y controlando posibles amenazas de 
 malware. 
@@ -1476,17 +1446,13 @@ Acceso remoto seguro a redes. Seguridad en el puesto de usuario
 44 
 • Proxy caché: 
 Otra opción es la de un servidor proxy caché. En este caso este servidor actúa como 
-intermediario entre la red e Internet para cachear contenido. Puede ser contenido de tipo 
-estático como HTML, CSS, imágenes… Se utiliza para acelerar el contenido de un sitio al 
+intermediario entre la red e Internet para cachear contenido. Puede ser contenido de tipo \nestático como HTML, CSS, imágenes… Se utiliza para acelerar el contenido de un sitio al 
 navegar. 
 Si una persona entra en una página por segunda vez, esa información que está cargando ya 
 puede estar cacheada. De esta forma no necesita descargarla de nuevo y va más rápido. 
-Si queremos que nuestro proxy-caché acepte protocolos HTTP, HTTP/2, HTTPS podemos 
-encontrar distintas soluciones como Squid, Apache Traffic Server, Varnish, Nginx, HAProxy. 
+Si queremos que nuestro proxy-caché acepte protocolos HTTP, HTTP/2, HTTPS podemos \nencontrar distintas soluciones como Squid, Apache Traffic Server, Varnish, Nginx, HAProxy. 
 • Proxy inverso: 
-Un proxy inverso se sitúa entre un grupo de servidores y los clientes que desean utilizarlos, de 
-esta forma la petición del cliente verá como una sola unidad al equipo de servidores, 
-encargándose el proxy de dirigir la petición al servidor correspondiente. 
+Un proxy inverso se sitúa entre un grupo de servidores y los clientes que desean utilizarlos, de \nesta forma la petición del cliente verá como una sola unidad al equipo de servidores, \nencargándose el proxy de dirigir la petición al servidor correspondiente. 
 Se utiliza generalmente para controlar el tráfico entrante hacia una o varias aplicaciones o 
 servidores web. Optimiza y protege los servidores internos facilitando balanceo de carga, 
 ocultamiento de infraestructura de red y manejo de caché. 
@@ -1530,9 +1496,7 @@ La mejor forma de prevenir estas amenazas es manteniendo actualizado el sistema 
 aplicaciones, instalando software antivirus y formando a los usuarios en seguridad. 
 Dentro de los sistemas de usuario merecen una mención especial los sistemas móviles, tales como 
 portátiles, smartphones, tabletas, etc. 
-Cuando a dichos sistemas se les permite acceso a la Organización desde fuera de la misma están 
-extendiendo de forma natural su perímetro, por lo que es necesario controlar especialmente todos los 
-elementos que introduzcan movilidad en la información corporativa. 
+Cuando a dichos sistemas se les permite acceso a la Organización desde fuera de la misma están \nextendiendo de forma natural su perímetro, por lo que es necesario controlar especialmente todos los \nelementos que introduzcan movilidad en la información corporativa. 
  
  
  
@@ -1562,8 +1526,7 @@ Es la propiedad que impide la divulgación de información a individuos, entidad
 autorizados. A grandes rasgos, asegura el acceso a la información únicamente a aquellas 
 personas que cuenten con la debida autorización. 
 La pérdida de la confidencialidad de la información puede adoptar muchas formas. 
-Cuando alguien mira por encima de su hombro, mientras usted tiene información confidencial 
-en la pantalla, cuando se publica información privada, cuando un laptop con información 
+Cuando alguien mira por encima de su hombro, mientras usted tiene información confidencial \nen la pantalla, cuando se publica información privada, cuando un laptop con información 
 sensible sobre una empresa es robado, cuando se divulga información confidencial a través del 
 teléfono, etc. 
 Todos estos casos pueden constituir una violación de la confidencialidad. 
@@ -1737,8 +1700,7 @@ como un switch o un enrutador.
 Esté donde esté, monitorizará diversas máquinas y no una sola. 
 • IDS Basado en host (HIDS o Host based IDS). 
 Realizan su función protegiendo un único sistema. 
-El IDS busca patrones que puedan denotar una intrusión y alerta o toma las medidas oportunas 
-en caso de que uno de estos patrones sea detectado. 
+El IDS busca patrones que puedan denotar una intrusión y alerta o toma las medidas oportunas \nen caso de que uno de estos patrones sea detectado. 
 Dentro de esta categoría se suelen diferenciar: 
 • Los verificadores de integridad del sistema (SIV o System Integrity Verifiers). 
 Monitorizan archivos de un Sistema en busca de posibles modificaciones no autorizadas.
@@ -1758,8 +1720,7 @@ se está utilizando para registrar todas sus actividades.
 Según cómo operan estos sistemas vamos a indicar dos grandes técnicas: 
 • Basadas en la detección de anomalías (anomaly detection). 
 Se basa en la suposición de que una intrusión se puede considerar una anomalía del entorno. 
-Se establece un perfil del comportamiento habitual que permitirá detectar las intrusiones por 
-estadística. 
+Se establece un perfil del comportamiento habitual que permitirá detectar las intrusiones por \nestadística. 
 Se crea un modelo predictivo o una función que permite identificar la normalidad y la 
 anormalidad. 
 • Basadas en la detección de usos indebidos (misuse detection). 
@@ -1786,8 +1747,7 @@ Seguridad y protección en redes de comunicaciones. CNN. Seguridad perimetral. R
 Acceso remoto seguro a redes. Seguridad en el puesto de usuario 
 53 
 • Sistema de detección de intrusos (HIDS): 
-Se ejecuta en todos los dispositivos en la red con acceso a Internet o a la red interna de la 
-empresa. 
+Se ejecuta en todos los dispositivos en la red con acceso a Internet o a la red interna de la \nempresa. 
 Un HIDS puede identificar tráfico malicioso que se origina en el propio host, (como cuando el 
 host ha sido infectado con malware y está intentando propagarse a otros sistemas), y puede 
 detectar paquetes de red anómalos que se originan dentro de la organización o tráfico malicioso 
@@ -1839,8 +1799,7 @@ HIPS monitorea la actividad del sistema y emplea un conjunto de reglas predefini
 reconocer un comportamiento sospechoso del sistema. 
 (HIPS se encuentra incluido en ESET NOD32 Antivirus y ESET Smart Security 5). 
 4.3.2.1.2. NIPS (Network-based Intrusion Prevention System) 
-Traducido como "Sistema de prevención de intrusiones basado en red", este sistema monitorea la red 
-en busca de actividad maliciosa o tráfico sospechoso mediante el análisis de la actividad del protocolo. 
+Traducido como "Sistema de prevención de intrusiones basado en red", este sistema monitorea la red \nen busca de actividad maliciosa o tráfico sospechoso mediante el análisis de la actividad del protocolo. 
 Cuando NIPS se instala en una red, se utiliza para crear zonas de seguridad física, lo que provoca que la 
 red sea inteligente y distinga rápidamente el buen tráfico del mal tráfico, como si se convirtiera en una 
 prisión para todo el tráfico hostil, como gusanos, troyanos, virus y amenazas polimórficas. 
@@ -1940,8 +1899,7 @@ Son ataques de denegación de servicio (interrumpiendo el servicio wifi, bloquea
 colapsarlo…). Se realiza enviando tramas de desconexión a los clientes, impidiendo así que 
 puedan utilizar los puntos de acceso. 
 • DoS Flooding. 
-El ataque se puede realizar de con diferentes finalidades, como saturar las tablas de 
-enrutamiento de los switchs (y así obtener información de las conexiones), hasta inhabilitar los 
+El ataque se puede realizar de con diferentes finalidades, como saturar las tablas de \nenrutamiento de los switchs (y así obtener información de las conexiones), hasta inhabilitar los 
 puntos de acceso. Si no se dispone de un WIPS, ka única opción posible es reinicias los equipos. 
 • DoS Jamming. 
 Se conocen popularmente como jammers o inhibidores, ya que se trata de interferir la 
@@ -1956,8 +1914,7 @@ Hay dos tipos de jamming (ataques de interferencia) que se pueden realizar:
 Se trata de clientes que están correctamente autorizados para utilizar una red, pero que están 
 permitiendo a través de ellos la conexión de otros dispositivos que no están siendo 
 supervisados. 
-Por ejemplo, un portátil conectado legítimamente, pero que está dando conexión a una Tablet, 
-es decir la Tablet, aunque no tenga permisos, se está conectando a través del portátil.
+Por ejemplo, un portátil conectado legítimamente, pero que está dando conexión a una Tablet, \nes decir la Tablet, aunque no tenga permisos, se está conectando a través del portátil.
 
 ---
 
@@ -1991,8 +1948,7 @@ seguridad, es una solución de tecnología híbrida centralizada que engloba:
 SIEM proporciona: 
 • Un análisis en tiempo real de las alertas de seguridad generadas por los distintos dispositivos 
 hardware y software de la red. 
-• Recoge los registros de actividad (logs) de los distintos sistemas, los relaciona y detecta 
-eventos de seguridad.
+• Recoge los registros de actividad (logs) de los distintos sistemas, los relaciona y detecta \neventos de seguridad.
 
 ---
 
@@ -2015,8 +1971,7 @@ pública, normalmente Internet (por ello el termino virtual).
 Hemos visto por encima lo que es una VPN desde el punto de vista de la seguridad perimetral, pero 
 ahora vamos a profundizar más en su estudio. 
 Cuando necesitamos conectarnos a los recursos de la empresa (por ejemplo, si teletrabajamos desde 
-casa) debemos asegurar la confidencialidad e integridad de los datos que estamos transmitiendo. Para 
-ello debemos tomar algunas precauciones para proteger esta información. 
+casa) debemos asegurar la confidencialidad e integridad de los datos que estamos transmitiendo. Para \nello debemos tomar algunas precauciones para proteger esta información. 
 Podemos tener muchos problemas al trabajar desde fuera del entorno de trabajo ya que la red de casa 
 no es segura y mucho menos las redes abiertas del tren, bar, hotel, etc. Si trabajas mientras viajas o te 
 tomas un "descanso".
@@ -2072,8 +2027,7 @@ Es necesario el acceso a estas redes mediante un usuario y contraseña autorizad
 • Escalabilidad: 
 El aumento de usuarios que pueden utilizarlo es fácil de realizar y gestionar. 
 • Desventajas: 
-• Es necesario instalar, configurar y poner en marcha el servicio, lo cual conlleva un coste 
-económico. 
+• Es necesario instalar, configurar y poner en marcha el servicio, lo cual conlleva un coste \neconómico. 
 • La red de la empresa se debe reestructurar y configurar para poder acceder a ella, lo que 
 implica modificaciones por parte de nuestro servicio o proveedor de comunicaciones. 
 • Deben configurarse los dispositivos móviles que accedan a la red VPN. 
@@ -2097,8 +2051,7 @@ Acceso remoto seguro a redes. Seguridad en el puesto de usuario
 62 
 • Para interconectar redes separadas de forma segura. 
 Sedes separadas geográficamente, o equipos utilizados en teletrabajo debe funcionar de forma 
-segura como si fuese la misma red sin tener que contratar una línea de conexión dedicada en 
-exclusiva. 
+segura como si fuese la misma red sin tener que contratar una línea de conexión dedicada en \nexclusiva. 
 • Uso para Teletrabajo. 
 Para trabajadores que están físicamente fuera de la empresa, y que necesitan acceder a una 
 única red privada, el uso de una conexión VPN, proporciona un acceso protegido, conexión 
@@ -2113,8 +2066,7 @@ VPN, también proporciona lo que se conoce como "falsear dónde estás".
 Puesto que el usuario se conecta a un VPN, será esta la que proporcione la ubicación física 
 cuando se comunique con Internet, de forma que si el usuario está por ejemplo en China, y el 
 servidor VPN se encuentra en Estados unidos, la mayoría se servidores web, creerán que 
-accedes desde Estados Unidos, por lo que te proporcionaran acceso a los contenidos disponibles 
-en Estados Unidos (por ejemplo Netflix), y no se bloquearan los contenidos que puedan estar 
+accedes desde Estados Unidos, por lo que te proporcionaran acceso a los contenidos disponibles \nen Estados Unidos (por ejemplo Netflix), y no se bloquearan los contenidos que puedan estar 
 censurados o bloqueados en el país donde el usuario está realmente. 
 China, en nuestro ejemplo, tiene millones de ciudadanos que logran de esta forma conectarse 
 por ejemplo a Facebook y a otras más de 3.000 webs bloqueada, ya que El firewall de China 
@@ -2266,13 +2218,11 @@ autenticación en redes cableadas, es más frecuente su uso en las primeras.
 Recientemente los estándares WPA y WPA2 han adoptado cinco tipos de EAP como sus 
 mecanismos oficiales de autenticación. 
 Es una estructura de soporte, no un mecanismo específico de autenticación. 
-Provee algunas funciones comunes y negociaciones para el o los mecanismos de autenticación 
-escogidos. Estos mecanismos son llamados métodos EAP, de los cuales se conocen actualmente 
+Provee algunas funciones comunes y negociaciones para el o los mecanismos de autenticación \nescogidos. Estos mecanismos son llamados métodos EAP, de los cuales se conocen actualmente 
 unos 40. 
 Además de algunos específicos de proveedores comerciales, los definidos por RFC de la IETF 
 incluyen EAP-MD5, EAP-OTP, EAP-GTC, EAP-TLS, EAP-IKEv2, EAP-SIM, y EAP-AKA. 
-Es un método de autenticación remota o inalámbrica. Diversos proveedores de servicios 
-emplean CHAP. Por ejemplo, para autenticar a un usuario frente a un ISP. 
+Es un método de autenticación remota o inalámbrica. Diversos proveedores de servicios \nemplean CHAP. Por ejemplo, para autenticar a un usuario frente a un ISP. 
 5.2.2. Protocolo IKE para VPN 
 IKE es un protocolo de nivel de aplicación sobre UDP en el puerto 500 y/o 4500. 
 Se construye sobre el de intercambio de claves de Internet (Internet Security Association and Key 
@@ -2359,8 +2309,7 @@ código abierto (open source) que también tiene su propia aplicación de códig
 otro). 
 El protocolo OpenVPN es responsable de manejar las comunicaciones cliente-servidor. Básicamente, 
 ayuda a establecer un "túnel" seguro entre el cliente VPN y el servidor VPN usando el estándar SSL/TLS. 
-Cuando OpenVPN maneja el cifrado y la autenticación, usa la biblioteca OpenSSL de manera bastante 
-extensa. 
+Cuando OpenVPN maneja el cifrado y la autenticación, usa la biblioteca OpenSSL de manera bastante \nextensa. 
 Además, OpenVPN puede usar UDP (Protocolo de Datagramas de Usuario) o TCP (Protocolo de 
 Control de Transmisión) para transmitir datos. 
  
@@ -2368,8 +2317,7 @@ Control de Transmisión) para transmitir datos.
  
  
 Ejemplo 
-Al principio, Netflix tenía muy pocos contenidos en España. Sin 
-embargo, en E.E.U.U. tenía una gran cantidad de películas y series. 
+Al principio, Netflix tenía muy pocos contenidos en España. Sin \nembargo, en E.E.U.U. tenía una gran cantidad de películas y series. 
 Netflix controla tu IP y te ofrece los servicios de tu país. 
 Sin embargo, si te conectas a un servidor VPN de E.E.U.U., al 
 conectarte a Netflix creerá que estás en Estados Unidos y te 
@@ -2401,8 +2349,7 @@ Este protocolo no es compatible con IPSec, IKE, PPTP y L2TP.
 Consulta la información indicada por el organismo CCN: 
 CCN-STIC 836: Seguridad en Redes Privadas Virtuales (VPN) 
 https://www.ccn-cert.cni.es/series-ccn-stic/800-guia-esquema-
-nacional-de-seguridad/2299-ccn-stic-836-seguridad-en-vpn-en-
-el-marco-del-ens/file.html 
+nacional-de-seguridad/2299-ccn-stic-836-seguridad-en-vpn-en-\nel-marco-del-ens/file.html 
  
 5.3. Tipos de VPN 
 Como una primera clasificación, la conocida inicialmente, dependiendo del objetivo de la conexión, se 
@@ -2413,14 +2360,12 @@ Como hemos indicado, es una de las clasificaciones iniciales que se hicieron de 
 VPN Sitio a Sitio. 
 VPDN son las siglas de Virtual Private Dial-up Network, también denominada Red telefónica 
 privada virtual, o Acceso Remoto. 
-Se trata de una conexión de usuario a LAN utilizada para empleados que necesitan trabajar en su 
-empresa desde diferentes ubicaciones remotas. 
+Se trata de una conexión de usuario a LAN utilizada para empleados que necesitan trabajar en su \nempresa desde diferentes ubicaciones remotas. 
 Permiten la conexión directamente a la red local de la empresa (o doméstica), y tener acceso a 
 todos los recursos compartidos que existan, como si estuviéramos físicamente en la empresa. 
 utilizando Internet como vínculo de acceso, una vez realizada una autenticación. 
 Las VPN de acceso remoto también pueden se pueden usar para aislar ciertas zonas y servicios 
-de la red interna, así, solamente conectándonos a través de la VPN se podrá tener acceder a 
-esos determinados servicios.
+de la red interna, así, solamente conectándonos a través de la VPN se podrá tener acceder a \nesos determinados servicios.
 
 ---
 
@@ -2439,8 +2384,7 @@ Denomina también VPN de rúter a rúter, crea un puente virtual que une redes e
 lugares para conectarlas a internet y mantener una comunicación segura y privada entre ellas. 
 Permiten establecer un túnel entre dos sedes remotas, de forma que cualquier persona de una 
 sede pueda tener visibilidad sobre la otra. 
-La puerta de enlace VPN encapsula y encripta el tráfico saliente para todo el tráfico de un sitio 
-en particular, después envía el tráfico a través de un túnel VPN a través de Internet a una puerta 
+La puerta de enlace VPN encapsula y encripta el tráfico saliente para todo el tráfico de un sitio \nen particular, después envía el tráfico a través de un túnel VPN a través de Internet a una puerta 
 de enlace VPN en el sitio de destino. Cuando la puerta de enlace VPN receptora recibe la 
 información desencripta el contenido y retransmite el paquete hacia el usuario de destino 
 dentro de su red privada. 
@@ -2450,8 +2394,7 @@ que la conexión se negocie adecuadamente.
 Su uso común es en empresas con sucursales ubicadas físicamente dentro y/o fuera del país, las 
 cuales utilizan una VPN de sitio a sitio para conectar la red de la oficina principal con el resto de 
 sucursales, (conocido como VPN basada en intranet. Si las empresas utilizan estas VPN de la 
-misma forma, pero para conectarse con otras compañías, se clasifica como una VPN basada en 
-extranet. 
+misma forma, pero para conectarse con otras compañías, se clasifica como una VPN basada en \nextranet. 
 Las VPN de sitio a sitio generalmente utilizan el protocolo IPsec, pero también es posible utilizar 
 otros protocolos VPN que permitan una gran configurabilidad como OpenVPN. 
 • VPN PPTP. 
@@ -2506,8 +2449,7 @@ Utiliza los protocolos SSL (Secure Sockets Layer) y TLS (Transport Layer Securit
 una conexión VPN. 
 En esta conexión, el navegador web funciona como cliente, y el acceso del usuario está 
 restringido a aplicaciones específicas en lugar de poder acceder a toda la red. 
-Una VPN SSL y TLS ofrece una sesión segura desde el navegador del ordenador del usuario hacia 
-el servidor de la aplicación, debido a que los navegadores web (con SSL y TLS integrado) 
+Una VPN SSL y TLS ofrece una sesión segura desde el navegador del ordenador del usuario hacia \nel servidor de la aplicación, debido a que los navegadores web (con SSL y TLS integrado) 
 cambian a SSL con facilidad sin requerir casi ninguna acción por parte del usuario. 
 Cuando la conexión a Internet es SSL tienen https al inicio de la dirección URL en lugar de http. 
 Este tipo de VPN es muy utilizado en sitios webs de compras. 
@@ -2609,13 +2551,11 @@ Acceso remoto seguro a redes. Seguridad en el puesto de usuario
 76 
 Ventajas y Funciones 
 Una de las ventajas es la versatilidad existente, este servicio funciona a través del puerto UDP 1812. 
-Existe una gran variedad de dispositivos que se pueden utilizar, muchos routers son capaces de ofrecer 
-este servicio. 
+Existe una gran variedad de dispositivos que se pueden utilizar, muchos routers son capaces de ofrecer \neste servicio. 
 Los operadores de servicios de Internet, lo utilizan para que los routers domésticos de los usuarios se 
 autentiquen y así acceder al recurso de red que en esta ocasión les permite el acceso a Internet. 
 Este servidor y protocolo, tiene como uso por excelencia garantizar el acceso restringido a las redes 
-inalámbricas, lo que lo hace muy utilizado en Hostelería, establecimientos hoteleros, colegios, bibliotecas 
-etc. donde los responsables de administración de la red generan unas credenciales temporales que 
+inalámbricas, lo que lo hace muy utilizado en Hostelería, establecimientos hoteleros, colegios, bibliotecas \netc. donde los responsables de administración de la red generan unas credenciales temporales que 
 permiten el acceso limitado en lo que se refiere a temporalidad. Una vez sobrepasada la fecha fijada, las 
 credenciales no tendrán vigencia y el servidor RADIUS no validará la utilización de la red. 
 También pueden utilizarse servidores, OLTs, y servidores NAS. 
@@ -2623,8 +2563,7 @@ Radius ofrece un mecanismo de autenticación de usuarios para acceder a un recur
 permitiendo autorizar a un usuario a este recurso. A continuación, se produce el Accounting, análisis 
 del tiempo de la sesión y registros estadísticos. 
 Relación con WPA3-Enterprise y EAP-TLS 
-WPA3-Enterprise es una versión del protocolo de seguridad Wi-Fi WPA3 diseñada para entornos 
-empresariales y de gran escala. A diferencia de WPA3-Personal, que utiliza una clave compartida para la 
+WPA3-Enterprise es una versión del protocolo de seguridad Wi-Fi WPA3 diseñada para entornos \nempresariales y de gran escala. A diferencia de WPA3-Personal, que utiliza una clave compartida para la 
 autenticación, WPA3-Enterprise se basa en mecanismos de autenticación más robustos como EAP 
 (Extensible Authentication Protocol), que se utiliza para permitir la autenticación mutua entre el cliente 
 y el servidor. 
@@ -2664,8 +2603,7 @@ Esto es posible con la tecnología de «Red Privada Virtual» (VPN) que permite 
 sobre una red no controlada como Internet. 
 Existen soluciones tanto hardware como software para implementar redes privadas virtuales con 
 distintos protocolos (IPSec, SSH, L2F, etc.) para cifrar los datos que viajan entre la conexión. 
-El protocolo más extendido es el SSL/TSL. Estos protocolos permiten a las aplicaciones comunicarse 
-evitando escuchas, la falsificación de la identidad del remitente (phishing) y la alteración de la 
+El protocolo más extendido es el SSL/TSL. Estos protocolos permiten a las aplicaciones comunicarse \nevitando escuchas, la falsificación de la identidad del remitente (phishing) y la alteración de la 
 integridad del mensaje. 
 Otro aspecto muy importante a la hora de implementar un acceso remoto es definir las políticas de 
 seguridad y los perfiles de usuarios. Las políticas de seguridad garantizan los derechos de acceso a los 
@@ -2673,8 +2611,7 @@ datos y recursos con herramientas de control y mecanismos de identificación.
 Se trata de establecer normas, franjas horarias, etc. para permitir el acceso al usuario sólo a aquellos 
 recursos que necesitan para su trabajo y decidir la forma de actuar en caso de incidente. 
 En cuanto a los perfiles, establecen las características propias de un conjunto de usuarios con permisos 
-particulares sobre los distintos recursos. No debe tener los mismos derechos un usuario de la propia 
-empresa que un colaborador externo, o si se accede desde un móvil o desde un PC. 
+particulares sobre los distintos recursos. No debe tener los mismos derechos un usuario de la propia \nempresa que un colaborador externo, o si se accede desde un móvil o desde un PC. 
  
  
  
@@ -2700,8 +2637,7 @@ servidor verifican la identidad uno del otro.
 2FA (Doble Factor de Autenticación) 
 El Doble Factor de Autenticación, obligará al usuario a facilitar dos maneras distintas de verificar su 
 identidad antes de poder acceder a los recursos ofrecidos. El 2FA es un tipo de validación que puede ser 
-utilizada en multitud de contextos diferentes, acceso a redes privadas, a aplicaciones móviles, a correo 
-electrónico, a servidores en la nube, plataformas de desarrollo, CMS, portales web, banca online, etc. 
+utilizada en multitud de contextos diferentes, acceso a redes privadas, a aplicaciones móviles, a correo \nelectrónico, a servidores en la nube, plataformas de desarrollo, CMS, portales web, banca online, etc. 
 Su diseño implemente generalmente dos de las tres categorías mencionadas a continuación, 
 conocimiento, posesión e identidad personal. 
 • Conocimiento: p.e usuario/contraeña. 
@@ -2714,8 +2650,7 @@ Portal Cautivo
 Herramienta que se utiliza fundamentalmente en los entornos públicos o semipúblicos tipo cafeterías, 
 campings, piscinas, aeropuertos u hoteles. El portal cautivo nos ayudará a garantizar la seguridad 
 mediante la autenticación de los usuarios que accedan a la red. 
-La herramienta, redirigirá a una página web concreta al usuario que intente conectarse a la red Wi-Fi. En 
-esta página el usuario suele ser conminado a autenticarse de alguna manera, generalmente con usuario 
+La herramienta, redirigirá a una página web concreta al usuario que intente conectarse a la red Wi-Fi. En \nesta página el usuario suele ser conminado a autenticarse de alguna manera, generalmente con usuario 
 y contraseña y aceptar asimismo determinadas condiciones. Si las credenciales del usuario son válidas, 
 automáticamente será redirigido al servicio al trataba de acceder.
 
@@ -2757,8 +2692,7 @@ Acceso remoto seguro a redes. Seguridad en el puesto de usuario
 Recuerda 
 Otra forma de controlar el acceso a los recursos son los "Token de 
 seguridad". 
-Un token de seguridad (también llamado llave digital o llave 
-electrónica) es un dispositivo físico utilizado para acceder a un 
+Un token de seguridad (también llamado llave digital o llave \nelectrónica) es un dispositivo físico utilizado para acceder a un 
 recurso restringido electrónicamente. 
 El token se utiliza como complemento o en lugar de una 
 contraseña. 
@@ -2879,8 +2813,7 @@ Hay cinco tipos principales de Single Sign-On, llamados también reduced sign on
 autenticación reducida"): 
 • Enterprise SSO (E-SSO). 
 Denominado también Legacy SSO, funciona para una autenticación primaria, interceptando los 
-requisitos de login presentados por las aplicaciones secundarias para completar los mismos con 
-el usuario y contraseña. 
+requisitos de login presentados por las aplicaciones secundarias para completar los mismos con \nel usuario y contraseña. 
 Estos sistemas E-SSO permiten interactuar con sistemas que pueden deshabilitar la presentación 
 de la pantalla de login. 
 • Web SSO (Web-SSO). 
@@ -2895,8 +2828,7 @@ TOKEN de autenticación para la aplicación destino.
 Se utilizan cookies, parámetros por GET (más inseguro) o POST para reconocer aquellos 
 usuarios que acceden y su estado de autenticación. 
 • Kerberos. 
-Es un método popular de externalizar la autenticación de los usuarios. Los usuarios se registran 
-en el servidor Kerberos y reciben un tique, luego las aplicaciones cliente lo presentan para 
+Es un método popular de externalizar la autenticación de los usuarios. Los usuarios se registran \nen el servidor Kerberos y reciben un tique, luego las aplicaciones cliente lo presentan para 
 obtener acceso. 
 • Identidad federada. 
 Utiliza protocolos basados en estándares para habilitar que las aplicaciones puedan identificar 
@@ -2931,8 +2863,7 @@ Ejemplos de soluciones EPP:
 • Symantec Endpoint Protection: combina antivirus clásico, firewall y control de aplicaciones. 
 • McAfee Endpoint Security: incluye protección contra amenazas web y administración 
 centralizada. 
-• Kaspersky Endpoint Security: ofrece prevención frente a malware y control de dispositivos 
-externos (USB). 
+• Kaspersky Endpoint Security: ofrece prevención frente a malware y control de dispositivos \nexternos (USB). 
 8.5.2. Endpoint Detection and Response (EDR) 
 Las soluciones EDR surgen para complementar a las EPP. Mientras estas se centran en la prevención, el 
 EDR se ocupa de la detección temprana y la respuesta rápida cuando una amenaza ha conseguido 
@@ -2951,8 +2882,7 @@ Seguridad y protección en redes de comunicaciones. CNN. Seguridad perimetral. R
 Acceso remoto seguro a redes. Seguridad en el puesto de usuario 
 85 
 Ejemplos de soluciones EDR: 
-• CrowdStrike Falcon: monitoriza continuamente los endpoints y ofrece respuesta automatizada 
-en la nube. 
+• CrowdStrike Falcon: monitoriza continuamente los endpoints y ofrece respuesta automatizada \nen la nube. 
 • Microsoft Defender for Endpoint: integra capacidades EDR con protección en tiempo real 
 dentro del ecosistema Windows. 
 • Sophos Intercept X: combina EPP y EDR en una sola herramienta, con capacidad de análisis de 

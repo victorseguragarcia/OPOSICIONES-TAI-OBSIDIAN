@@ -6,8 +6,7 @@ tags:
   - temario-extendido
   - bloque-2
   - tema-02
-  - oposiciones-tai
-estado: "🔴 Por Estudiar"
+  - oposiciones-tai\nestado: "🔴 Por Estudiar"
 dificultad: "⭐⭐⭐"
 prioridad: "Máxima"
 sources:
@@ -331,10 +330,8 @@ pueda recuperarse y utilizarse cuando se requiera. Ejemplo: pendrive, disco duro
  
  
 Ejemplo 
-Si queremos escribir una carta con el ordenador, e imprimirla, se 
-ejecutarán los siguientes pasos: 
-1. Utilizamos un teclado para escribir el texto. (periférico de 
-entrada). 
+Si queremos escribir una carta con el ordenador, e imprimirla, se \nejecutarán los siguientes pasos: 
+1. Utilizamos un teclado para escribir el texto. (periférico de \nentrada). 
 2. Esta entrada se codifica (utilizando un sistema de 
 representación como ASCII o Unicode). Y será tratada por 
 la memoria y procesador. 
@@ -351,13 +348,11 @@ Periféricos: conectividad y administración
 Toda clasificación se estructura de una determinada manera dependiendo del prisma desde el que se 
 aborde. En este caso al igual que un disco duro externo se puede considerar periférico de entrada, se 
 puede considerar asimismo de salida, pero también tanto de entrada y salida como de almacenamiento. 
-En el examen hay que estar siempre atentos a entender un enunciado que deberá sacarnos de dudas si 
-está planteado correctamente. 
+En el examen hay que estar siempre atentos a entender un enunciado que deberá sacarnos de dudas si \nestá planteado correctamente. 
 Partes de un periférico 
 Los periféricos suelen estar formados por dos partes: 
 • Elementos mecánicos: constituidos por dispositivos electromecánicos (conmutadores 
-manuales, relés, motores, electroimanes, servomecanismos, etcétera), controlados por los 
-elementos electrónicos. 
+manuales, relés, motores, electroimanes, servomecanismos, etcétera), controlados por los \nelementos electrónicos. 
 • Elementos electrónicos: constituyen el controlador del periférico. Se encargan de interpretar las 
 órdenes que le llegan del procesador para la recepción o emisión de datos y de generar las 
 señales de control para la activación de los elementos electromecánicos del periférico que 
@@ -375,8 +370,7 @@ Puede ser:
 • Puertos virtuales. 
 1.2.1. Puertos físicos 
 Son entradas físicas en el ordenador para que se conecte un periférico. 
-En un ordenador nos podemos encontrar numerosos tipos de conectores (como dispositivo 
-electrónico) que nos permitirán la conexión de periféricos. 
+En un ordenador nos podemos encontrar numerosos tipos de conectores (como dispositivo \nelectrónico) que nos permitirán la conexión de periféricos. 
 
 <!-- Page 9 -->
 
@@ -464,14 +458,12 @@ velocidad que el anterior, pero permite reconocer un dispositivo al conectarlo.
  
 También denominado mini-DIM de 6 pines. Es un puerto que se utiliza para conectar el teclado y el 
 ratón al ordenador. Están siendo sustituidos por el USB. 
-Antiguamente el ordenador tenía 2 de estos puertos, uno para el teclado y otro para el ratón, que no 
-eran compatibles entre sí (no se podían intercambiar). Eran de diferente color evitar que el usuario los 
+Antiguamente el ordenador tenía 2 de estos puertos, uno para el teclado y otro para el ratón, que no \neran compatibles entre sí (no se podían intercambiar). Eran de diferente color evitar que el usuario los 
 conectará erróneamente (morado para el teclado y verde para el ratón, también los periféricos de 
 teclado y ratón solían tener el conector del mismo color). 
 Actualmente, los ordenadores ya no llevan este puerto o incorporan un único puerto que sí es 
 intercambiable (se puede conectar tanto el ratón como el teclado). 
-Características puerto PS/2: No se pueden conectar el dispositivo en caliente. Hay que conectarlo con 
-el ordenador apagado para que al encenderlo lo reconozca. (En algunos ordenadores modernos sí que 
+Características puerto PS/2: No se pueden conectar el dispositivo en caliente. Hay que conectarlo con \nel ordenador apagado para que al encenderlo lo reconozca. (En algunos ordenadores modernos sí que 
 los reconoce en caliente). 
 1.2.1.4. Puerto Firewire 
  
@@ -496,8 +488,7 @@ superando por tanto las velocidades de los USB 1.0 y 1.1.
 Conector de 9 pines en lugar de 6. Soporta trasferencias de 786 Mbits/s (100 MB/s) pudiendo 
 alcanzar distancias de 100 metros de cable. 
 • Firewire s1600: 
-Continuando con 9 pines, amplió el ancho de banda hasta los 1,6 Gbps (200 MB/s), superando 
-entonces a la versión USB 2.0 (solamente alcanzaba los 60 MB/s). 
+Continuando con 9 pines, amplió el ancho de banda hasta los 1,6 Gbps (200 MB/s), superando \nentonces a la versión USB 2.0 (solamente alcanzaba los 60 MB/s). 
 • Firewire s3200 (IEEE 1394b): 
 Amplió la velocidad hasta los 3,2 Gbps (400 MB/s). 
 • Firewire s800T (IEEE 1394c): 
@@ -537,8 +528,7 @@ velocidades, convirtiéndolo en un estándar cada vez más popular.
  
  
 Características de USB: 
-• Plug and play: Conexión y configuración automáticas de dispositivos, sin necesidad de reiniciar 
-el equipo en la mayoría de los casos. 
+• Plug and play: Conexión y configuración automáticas de dispositivos, sin necesidad de reiniciar \nel equipo en la mayoría de los casos. 
 • Conexión en caliente: Permite conectar y desconectar dispositivos sin apagar el equipo ni 
 afectar su funcionamiento. 
 • Detección automática de controladores: El sistema operativo instala automáticamente los 
@@ -681,8 +671,7 @@ USB 10 Gbps"
 (100W) 
 Bi-
 directional 
-Type-C both 
-ends, reversible 
+Type-C both \nends, reversible 
 plug orientation 
 USB 3.2 
 "SuperSpeed 
@@ -757,8 +746,7 @@ Periféricos: conectividad y administración
  
  
 + Info 
-Wikipedia pública una tabla interesante en su web basándose en la 
-especificación original. 
+Wikipedia pública una tabla interesante en su web basándose en la \nespecificación original. 
 https://en.wikipedia.org/wiki/USB4 
  
  
@@ -860,8 +848,7 @@ un ordenador a otro.
 1.2.1.8. Puertos y conectores TS/TRS/TRRS 
 Los puertos y conectores TS sirven de entrada para micros, teclados, guitarras... o salida para altavoces 
 o amplificadores. Los puertos y conectores TRS se usan para auriculares, micrófonos, smartphones y 
-tablets y de salida para altavoces, auriculares, tarjetas de sonido e interfaces de audio. Su tamaño 
-estándar es de 6.35mm pero existen tamaños de 3.5mm para ordenadores portátiles, tablets, 
+tablets y de salida para altavoces, auriculares, tarjetas de sonido e interfaces de audio. Su tamaño \nestándar es de 6.35mm pero existen tamaños de 3.5mm para ordenadores portátiles, tablets, 
 smartphones, de 2.5mm para auriculares o micrófonos miniatura. 
  
 
@@ -901,8 +888,7 @@ respuesta de dichos periféricos no es previsible, por lo que necesitamos un mec
 coordinar adecuadamente las transferencias de datos entre ambos. 
 Objetivos 
 Los objetivos de la administración del sistema de E/S son: 
-• Facilitar el manejo de los dispositivos periféricos ofreciendo una interfaz entre los dispositivos y 
-el resto del sistema. 
+• Facilitar el manejo de los dispositivos periféricos ofreciendo una interfaz entre los dispositivos y \nel resto del sistema. 
 • Optimizar las operaciones de E/S. 
 
 <!-- Page 23 -->
@@ -1048,8 +1034,7 @@ Periféricos: conectividad y administración
  
 El experto opina 
 Nosotros preferimos el mecánico. Aunque a algunas personas les 
-molesta el sonido, a nosotros nos encanta que suene cuando 
-escribimos. 
+molesta el sonido, a nosotros nos encanta que suene cuando \nescribimos. 
 Además, se adquiere mayor velocidad de escritura y los dedos se 
 cansan menos (gracias al muelle de retorno). Si no tienes uno, 
 ¡deberías probarlos! 
@@ -1070,8 +1055,7 @@ pantallas táctiles para simular uno real y el proyectado, el cual utiliza senso
 las pulsaciones sobre una proyección de un teclado (parecido a los que puedes ver en las 
 películas de ciencia ficción como Minority Report). 
 • Braille. Teclado adaptado para el uso de invidentes. 
-• Teclado touch. Es una pantalla que muestra un teclado que puedes configurar (añadir teclas, 
-etcétera). 
+• Teclado touch. Es una pantalla que muestra un teclado que puedes configurar (añadir teclas, \netcétera). 
 • Ergonómico. Diseñado para las personas que hacen un uso extensivo del teclado. Buscan el 
 mínimo esfuerzo y la máxima comodidad. 
  
@@ -1200,13 +1184,11 @@ impidiendo dicho contacto.
 Sujetan las cabezas lectoras, y las desplazan de forma lineal desde el interior al exterior de 
 los platos de forma muy rápida para permitir el acceso a la información de los platos. 
 • Motores: 
-Hay dos motores dentro de un disco duro, uno para hacer girar los platos, (velocidad de 
-entre 5000 y 7200 revoluciones por minuto (rpm)), y otro para el movimiento de los 
+Hay dos motores dentro de un disco duro, uno para hacer girar los platos, (velocidad de \nentre 5000 y 7200 revoluciones por minuto (rpm)), y otro para el movimiento de los 
 brazos mecánicos. 
 • Otros componentes físicos: 
 • Circuito electrónico: 
-Se encarga de gestionar las funciones de posicionamiento del cabezal y la lectura y 
-escritura de este, y también de comunicar el disco duro con el resto de componentes del 
+Se encarga de gestionar las funciones de posicionamiento del cabezal y la lectura y \nescritura de este, y también de comunicar el disco duro con el resto de componentes del 
 ordenador, traduce las posiciones de las celdas de los platos a direcciones comprensibles 
 por la memoria RAM y CPU. 
 • Memoria caché: 
@@ -1224,11 +1206,9 @@ para seleccionarlo como master, esclavo o cable select).
 Periféricos: conectividad y administración 
 32 
 Existe una estructura física y lógica en un disco duro, en cada plato del disco duro, no se trata 
-simplemente de grabar la información aleatoriamente, tienen su propia estructura lógica que permiten 
-el acceso a información concreta almacenada en ellos: 
+simplemente de grabar la información aleatoriamente, tienen su propia estructura lógica que permiten \nel acceso a información concreta almacenada en ellos: 
 • Pista (track): 
-Cada una de las caras del disco se divide en anillos concéntricos, desde el interior hasta el 
-exterior de cada cara. El borde exterior del disco duro es la pista 0. 
+Cada una de las caras del disco se divide en anillos concéntricos, desde el interior hasta el \nexterior de cada cara. El borde exterior del disco duro es la pista 0. 
 • Cilindro: 
 Es un concepto que engloba un conjunto de varias pistas. Un cilindro lo forman todas las 
 circunferencias que están alineadas en forma vertical de cada uno de los platos y caras, (como 
@@ -1304,8 +1284,7 @@ bytes.
  
 Periféricos: conectividad y administración 
 34 
-De estos derivan el tiempo de acceso. Es el tiempo que tarda la cabeza en posicionarse sobre el sector y 
-equivale a la suma del tiempo de búsqueda y el tiempo de espera. 
+De estos derivan el tiempo de acceso. Es el tiempo que tarda la cabeza en posicionarse sobre el sector y \nequivale a la suma del tiempo de búsqueda y el tiempo de espera. 
 Hay que tener en cuenta los siguientes conceptos: 
 • Sectorización hardware o física. 
 Los platos de discos suelen tener una o varias referencias físicas (orificios o muescas) para 
@@ -1424,8 +1403,7 @@ frente a la competencia.
 Tipos de SSD según su conexión física 
 Los dos tipos de SSD, más usadas a principios del 2022, según su conexión física, son la SATA y la PCIe: 
 • SATA en su versión 3 nos permite un ancho de banda de 600 MB/s por canal. 
-• PCIe Gen 4 admite hasta 2000 MB/s, siendo claramente más rápida y la que (a fecha actual) 
-está imponiéndose en el mercado. 
+• PCIe Gen 4 admite hasta 2000 MB/s, siendo claramente más rápida y la que (a fecha actual) \nestá imponiéndose en el mercado. 
 Protocolos 
 En Los discos SSD podemos encontrarnos con el veterano AHCI (Advanced Host Controller Interface) 
 heredado de los discos duros clásicos y utilizado en la interface SATA. 
@@ -1457,8 +1435,7 @@ También existe una versión mSATA, abandonada al salir el formato M.2.
 SSD M2 es un formato de las unidades de estado sólido (Solid State Drive), de un tamaño muy 
 pequeño, que proporciona una unidad de almacenamiento ultrarrápida. 
 Las unidades SSD M2 se conectan a un zócalo distinto, y que tan solo está incluido en las placas base 
-más modernas. El formato más utilizado en el M2 2280 (22 mm de ancho y longitud de 80 mm), 
-estando también el formato 2260 (22 mm de ancho y longitud de 60 mm), y el 2242 (22 mm de ancho 
+más modernas. El formato más utilizado en el M2 2280 (22 mm de ancho y longitud de 80 mm), \nestando también el formato 2260 (22 mm de ancho y longitud de 60 mm), y el 2242 (22 mm de ancho 
 y longitud de 42 mm). 
 El formato M.2 está disponible para conexiones SATA y PCIe. 
 • M2 SATA: velocidad de transferencia de datos de hasta 6 Gbps. 
@@ -1474,8 +1451,7 @@ Es solo compatible con placas base que cuentan con conectores PCIe de NVMe.
  
 + Info 
 Puedes utilizar SSD NVME como una unidad externa USB utilizando 
-una carcasa compatible. Si deseas consultar más información sobre 
-esto puedes visitar la web: 
+una carcasa compatible. Si deseas consultar más información sobre \nesto puedes visitar la web: 
 https://www.profesionalreview.com/2020/12/22/convertir-ssd-
 m2-nvme-en-externo-usb/ 
  
@@ -1506,8 +1482,7 @@ Conforme aumenta la cantidad de bits que se pueden almacenar por celda, la corru
 incrementa y por ello los fabricantes deben integrar mejores y más precisos mecanismos de corrección 
 de errores, los cuales se incluyen en el controlador. 
 Esos mecanismos se encargan, entre otros menesteres, de detectar las celdas que por desgaste ya no 
-son fiables a la hora de almacenar la información. Con el tiempo, si la unidad SSD es muy propensa a 
-esos errores, esas celdas se irán perdiendo y con ello la capacidad de almacenamiento de la unidad SSD. 
+son fiables a la hora de almacenar la información. Con el tiempo, si la unidad SSD es muy propensa a \nesos errores, esas celdas se irán perdiendo y con ello la capacidad de almacenamiento de la unidad SSD. 
 Por tanto, dependiendo del uso al que vayamos a someter a la unidad SSD, deberemos elegir entre los 
 diferentes tipos, lo que a su vez y junto con la calidad, nos marcara el precio de nuestra unidad. 
 Evolución 
@@ -1558,8 +1533,7 @@ que se suele realizar cuando el SSD no está en uso intensivo, y en el que el co
 periódica, copia todos los datos válidos de una página en uso y los pasa a páginas vacías de otro bloque, 
 de esta forma, ya se puede realizar el borrado de las celdas del bloque actual y dejarlo preparado para 
 que cuando sea necesario, el SSD pueda escribir nuevos datos. 
-Todo ese proceso de borrado conlleva un desgaste de los transistores, el cual puede llegar un momento 
-en que el controlador los deje marcados como no válidos para almacenar información. Ese proceso se 
+Todo ese proceso de borrado conlleva un desgaste de los transistores, el cual puede llegar un momento \nen que el controlador los deje marcados como no válidos para almacenar información. Ese proceso se 
 denomina P/E (Program/Erase) y es lo que marca la durabilidad de un SSD. 
 
 <!-- Page 41 -->
@@ -1568,8 +1542,7 @@ denomina P/E (Program/Erase) y es lo que marca la durabilidad de un SSD.
  
 Periféricos: conectividad y administración 
 41 
-El ciclo de vida de un disco SSD se puede indicar en ciclos de P/E o en información total que se puede 
-escribir en el SSD antes de que comiencen a aparecer errores. 
+El ciclo de vida de un disco SSD se puede indicar en ciclos de P/E o en información total que se puede \nescribir en el SSD antes de que comiencen a aparecer errores. 
 La unidad es TW (TeraBytes Written). Otra medida de la fiabilidad de un disco SSD es MTBF (Mean 
 Time Between Failures), que cambia el valor de fiabilidad a tiempo en vez de a cantidad de información 
 que puede escribir. 
@@ -1595,13 +1568,11 @@ Si un disco SSD carece de caché DRAM, será más económica pero su funcionamie
 lo ideal. 
 3.2.3. Comparativa Discos HDD y SSD 
 Los HDD tienen un factor más alto de averías por desgaste de los motores de rotación o de los 
-cabezales, cosa que no ocurre en los SSD que no tienen partes móviles, y al no tenerlas, la latencia se 
-elimina, por lo que son más rápidos, el acceso a los datos es instantáneo. 
+cabezales, cosa que no ocurre en los SSD que no tienen partes móviles, y al no tenerlas, la latencia se \nelimina, por lo que son más rápidos, el acceso a los datos es instantáneo. 
 El riesgo de fallo de los SSD, es el propio uso de ellos, tienen un número limita-do de ciclos de escritura-
 borrado de cada celda (la lectura no afecta), cuando se llega a ese límite, puede comenzar a fallar o 
 volverse inservible. Sin embargo, hoy en día, ese número de ciclos es tan elevado que un usuario 
-doméstico es muy difícil que lo alcance, en caso de que ocurriera, el tiempo transcurrido sería 
-equiparable al desgaste físico de un disco HDD. 
+doméstico es muy difícil que lo alcance, en caso de que ocurriera, el tiempo transcurrido sería \nequiparable al desgaste físico de un disco HDD. 
 
 <!-- Page 42 -->
 
@@ -1612,8 +1583,7 @@ Periféricos: conectividad y administración
 3.2.4. Formatear Discos Duros (Sectorización) 
 Para poder utilizar cualquier tipo de dispositivo de almacenamiento externo: discos duros magnéticos, 
 Discos SSD, memoria USB, tarjeta SD, debemos "formatearlos", es decir, indicar un sistema de archivos. 
-Si no están "formateados", no podemos utilizarlos. Su estructura lógica debe tener un formato para que 
-el sistema operativo sea capaz de comprender su estructura y de trabajar con ella. El sistema operativo 
+Si no están "formateados", no podemos utilizarlos. Su estructura lógica debe tener un formato para que \nel sistema operativo sea capaz de comprender su estructura y de trabajar con ella. El sistema operativo 
 no nos indica las diferencias entre ellos. 
 Un sistema de archivos es un método que almacena y organiza los datos contenidos en los archivos 
 informáticos y mantiene la ubicación física para que fácilmente se puedan encontrar y acceder a los 
@@ -1622,8 +1592,7 @@ Existen varios tipos de formato diferentes en Windows, concretamente, podemos el
 de formatos diferentes: FAT, NTFS y ExFAT, veamos cómo de elegir el formato adecuado. 
 3.2.4.1. FAT 
 FAT, del inglés File Allocation Table, traducido como Tabla de asignación de archivos, es un sistema de 
-archivos desarrollado para MS-DOS, que paso a ser también el sistema de archivos principal de las 
-ediciones de Microsoft Windows hasta Windows Me. 
+archivos desarrollado para MS-DOS, que paso a ser también el sistema de archivos principal de las \nediciones de Microsoft Windows hasta Windows Me. 
 Las implementaciones más extendidas de FAT tienen algunas desventajas., cono son: 
 • Cuando se borran y se escriben nuevos archivos tiende a dejar fragmentos dispersos de estos 
 por todo el soporte. 
@@ -1669,8 +1638,7 @@ rendimiento y eficiencia, lo que hizo que los clústeres de 64 KB no se utilizar
  
  
 + Info 
-Volúmenes FAT16 mayores de 2 GB no son accesibles desde 
-equipos con otros sistemas operativos MS-DOS, Windows 95, 
+Volúmenes FAT16 mayores de 2 GB no son accesibles desde \nequipos con otros sistemas operativos MS-DOS, Windows 95, 
 Windows 98, Windows Millennium Edition (Me). 
 Esta limitación se debe a que estos sistemas operativos no son 
 compatibles con tamaños de cluster mayores de 32 KB, lo que 
@@ -1702,8 +1670,7 @@ archivos mayores de 4GB, y queramos que sean compatibles con la
 mayoría de todo tipo de dispositivos. 
  
 3.2.4.2. NTFS 
-NTFS es el sistema de archivos más avanzado desarrollado por Microsoft y se ha convertido en el 
-estándar para las versiones modernas de Windows, desde Windows NT hasta las ediciones actuales. Fue 
+NTFS es el sistema de archivos más avanzado desarrollado por Microsoft y se ha convertido en el \nestándar para las versiones modernas de Windows, desde Windows NT hasta las ediciones actuales. Fue 
 diseñado específicamente para superar las limitaciones del antiguo sistema FAT32, ofreciendo 
 importantes mejoras en capacidad, seguridad y funcionalidad. A diferencia de FAT32, NTFS permite 
 trabajar con archivos de más de 4 GB y admite particiones de gran tamaño, con un límite teórico de 
@@ -1716,8 +1683,7 @@ Además, utiliza una técnica llamada journaling, que registra los cambios reali
 archivos para facilitar la recuperación de datos en caso de fallos o cortes de energía. 
 Otras características notables incluyen la compresión nativa de archivos, la capacidad de crear puntos 
 de montaje para integrar diferentes unidades de almacenamiento sin necesidad de asignarles letras de 
-unidad, y el soporte para enlaces simbólicos. Estas funcionalidades hacen de NTFS una opción ideal para 
-entornos profesionales y corporativos donde se requieren altos niveles de seguridad y rendimiento. 
+unidad, y el soporte para enlaces simbólicos. Estas funcionalidades hacen de NTFS una opción ideal para \nentornos profesionales y corporativos donde se requieren altos niveles de seguridad y rendimiento. 
 
 <!-- Page 45 -->
 
@@ -1727,8 +1693,7 @@ Periféricos: conectividad y administración
 45 
 Limitaciones 
 Sin embargo, NTFS presenta limitaciones en cuanto a compatibilidad con otros sistemas operativos. En 
-macOS, por ejemplo, solo es posible leer unidades NTFS de forma nativa, mientras que para escribir en 
-ellas es necesario instalar software adicional como Paragon NTFS o Tuxera. En sistemas Linux, el 
+macOS, por ejemplo, solo es posible leer unidades NTFS de forma nativa, mientras que para escribir en \nellas es necesario instalar software adicional como Paragon NTFS o Tuxera. En sistemas Linux, el 
 soporte es más amplio gracias al driver ntfs-3g, que permite tanto lectura como escritura, aunque con 
 algunas restricciones en permisos avanzados. Por otro lado, dispositivos como televisores, consolas o 
 reproductores multimedia generalmente no son compatibles con NTFS, ya que suelen utilizar sistemas 
@@ -1748,17 +1713,14 @@ NTFS, es el mejor formato para trabajar con discos duros internos
 dónde tengamos instalado el Sistema Operativo Windows, y/o 
 como dispositivo de almacenamiento de información. 
  
-3.2.4.3. exFAT 
-exFAT, siglas de Extended File Allocation Table, tabla extendida de asignación de archivos), también 
+3.2.4.3. exFAT \nexFAT, siglas de Extended File Allocation Table, tabla extendida de asignación de archivos), también 
 conocido como FAT 64, es un sistema de archivos, patentado y privativo de Microsoft, especialmente 
-optimizado para memorias flash presentado con Windows CE (Windows Embedded CE 6.0). 
-exFAT apareció en 2006 y se introdujo en la mayoría de los sistemas operativos modernos, incluido 
+optimizado para memorias flash presentado con Windows CE (Windows Embedded CE 6.0). \nexFAT apareció en 2006 y se introdujo en la mayoría de los sistemas operativos modernos, incluido 
 Windows XP. Está pensado para unidades flash, no tiene las características de seguridad de NTFS, pero 
 tampoco las limitaciones de FAT32 (4GB por archivo y 8 TB de tamaño máximo de partición). 
 Todos los sistemas operativos de PC (Windows, Mac y Linux -aunque en este último es posible que 
 tengamos que instalar algunas librerías) son compatibles de forma nativa con exFAT, a diferencia de 
-NTFS. 
-exFAT es compatible con un gran número de dispositivos tipo televisiones, reproductores multimedia, 
+NTFS. \nexFAT es compatible con un gran número de dispositivos tipo televisiones, reproductores multimedia, 
 videoconsolas, etc., aunque es tan compatible como FAT32. 
 El límite máximo de tamaño de archivo de exFAT es 16EiB (Exbibyte). 
 
@@ -1782,17 +1744,14 @@ sistemas de archivo).
 soportan lectura y escritura de forma nativa. 
  
  
-Al igual que NTFS, exFAT puede preasignar espacio en disco para un archivo simplemente marcando el 
-espacio arbitrario en el disco como 'asignado'. 
-exFAT y el resto de la familia de sistemas de archivos FAT no utiliza índices para nombres de archivos, a 
+Al igual que NTFS, exFAT puede preasignar espacio en disco para un archivo simplemente marcando el \nespacio arbitrario en el disco como 'asignado'. \nexFAT y el resto de la familia de sistemas de archivos FAT no utiliza índices para nombres de archivos, a 
 diferencia de NTFS y ext que utilizan árboles para la búsqueda de archivos. Cuando se accede a un 
 archivo, el directorio debe buscarse secuencialmente hasta que se encuentre una coincidencia. 
  
  
  
  
-El experto opina 
-exFAT, lo recomendamos para unidades externas (USB o SD) 
+El experto opina \nexFAT, lo recomendamos para unidades externas (USB o SD) 
 donde vayamos a guardar archivos de más de 4 GB y que 
 queramos que sea compatible con el mayor número de dispositivos 
 posibles. 
@@ -1879,8 +1838,7 @@ desenchufarlo.
 Debido a su alta velocidad, durabilidad y bajo consumo de energía, la memoria flash resulta ideal para 
 muchos usos, como por ejemplo en cámaras digitales, tablets y teléfonos móviles. 
 Al no tener partes móviles, son resistentes a golpes. 
-Algunos ordenadores, especialmente los portátiles, incorporan lector para estos dispositivos, y también 
-existen lectores externos que se conectan al ordenador mediante puerto USB. 
+Algunos ordenadores, especialmente los portátiles, incorporan lector para estos dispositivos, y también \nexisten lectores externos que se conectan al ordenador mediante puerto USB. 
 
 <!-- Page 49 -->
 
@@ -1904,14 +1862,11 @@ Smart Media. También conocidas como Solid State Flash Digital Card (SSFDC). Par
 tarjetas compact flash, pero más finas. 
 4. Sistemas de almacenamiento 
 Los sistemas de almacenamiento informático, son elementos, dispositivos, etc., capaces de almacenar 
-información. Puesto que almacenan miles de datos con gran valor, una buena gestión de los mismos es 
-esencial. 
+información. Puesto que almacenan miles de datos con gran valor, una buena gestión de los mismos es \nesencial. 
 Se estima que el incremento de la información guardada de año en año, crece entre un 50% y un 100%. 
-En una primera división de los tipos de datos, podemos diferenciar estos entre "estructurados" y "no 
-estructurados". 
+En una primera división de los tipos de datos, podemos diferenciar estos entre "estructurados" y "no \nestructurados". 
 • Estructurados: 
-Cuando hablamos de datos estructurados nos referimos a la información que se suele encontrar 
-en la mayoría de bases de datos. Son archivos de tipo texto que se suelen mostrar en filas y 
+Cuando hablamos de datos estructurados nos referimos a la información que se suele encontrar \nen la mayoría de bases de datos. Son archivos de tipo texto que se suelen mostrar en filas y 
 columnas con títulos. Son datos que pueden ser ordenados y procesados fácilmente por todas 
 las herramientas de minería de datos. 
 • No estructurados: 
@@ -1933,8 +1888,7 @@ información, incluyendo las decisiones necesarias para la optimización de los 
 A la hora de tomar las medidas adecuadas, debemos tener en cuenta: 
 • La capacidad: 
 Consiste en proporcionar el suficiente almacenamiento dentro de unos costes razonables. Se 
-debe saber planificar no solo la capacidad necesaria actualmente sino tener en cuenta las 
-expectativas de crecimiento. 
+debe saber planificar no solo la capacidad necesaria actualmente sino tener en cuenta las \nexpectativas de crecimiento. 
 • El rendimiento: 
 A la hora de planificar los sistemas de almacenamiento hay que tener en cuenta varios 
 parámetros, por ejemplo: no usaremos los mismos dispositivos para almacenamiento de 
@@ -2045,8 +1999,7 @@ servicios que se comparten en ella.
 Para que esto ocurra, el otro sistema también debe haber implementado el protocolo de red, para así 
 recibir y procesar la solicitud del cliente respectivo utilizando una aplicación de servidor SMB. 
 Sin embargo, ambas partes deben primero establecer una conexión, por lo que primero intercambian 
-los mensajes con este fin. En las redes IP, SMB utiliza el Transmission Control Protocol (TCP) que 
-emplea un triple apretón de manos (three-way handshake) entre cliente y servidor antes de establecer 
+los mensajes con este fin. En las redes IP, SMB utiliza el Transmission Control Protocol (TCP) que \nemplea un triple apretón de manos (three-way handshake) entre cliente y servidor antes de establecer 
 una conexión definitiva. 
  
  
@@ -2289,8 +2242,7 @@ corregir fallos de 1 bit.
  
 Se crean dos grupos. En el primero se distribuye la información y en el segundo se guardan los códigos 
 de corrección de errores. 
-Para perder información debe fallar un disco de datos y el que contiene su código de corrección de 
-errores. 
+Para perder información debe fallar un disco de datos y el que contiene su código de corrección de \nerrores. 
 
 <!-- Page 61 -->
 
@@ -2314,8 +2266,7 @@ conjunto de bits, es par o impar.
 Los bits de paridad conforman el método de detección de errores más simple. 
 La idea básica es contar el nº de unos (1) que hay. 
 • En el caso de la PARIDAD PAR: 
-» Si el conteo de bits con valor 1 es impar, el bit de paridad se establece con valor 1, y así 
-el valor de la suma ya es par. 
+» Si el conteo de bits con valor 1 es impar, el bit de paridad se establece con valor 1, y así \nel valor de la suma ya es par. 
 Ejemplo: 
 1001001( ) hay 3 unos, por lo que es un valor impar, para cumplir la paridad PAR, 
 debemos añadir otro uno 1001001(1), ahora hay 4 unos y se cumple la paridad par. 
@@ -2468,8 +2419,7 @@ Periféricos: conectividad y administración
 reservados distribuidos entre todos los discos sanos del array, que funcionan colectivamente 
 como un 'disco virtual de emergencia'. Cuando ocurre un fallo, estos espacios almacenan 
 temporalmente los datos reconstruidos (utilizando la información de paridad de los discos 
-restantes). Posteriormente, al insertar un nuevo disco físico, los datos se vuelcan desde estos 
-espacios distribuidos a la nueva unidad, liberando así la capacidad reservada y restaurando la 
+restantes). Posteriormente, al insertar un nuevo disco físico, los datos se vuelcan desde estos \nespacios distribuidos a la nueva unidad, liberando así la capacidad reservada y restaurando la 
 configuración original del array. 
 4.2.1.2. Sistemas RAID multinivel 
 RAID 0+1 
@@ -2808,8 +2758,7 @@ Periféricos: conectividad y administración
 Las impresoras tienen dos partes: 
 • Parte mecánica. Accionan los elementos que producen la impresión y se encarga de la 
 alimentación y arrastre del papel. 
-• Parte electrónica. Se encarga de convertir las señales procedentes del PC en estímulos 
-eléctricos que producirán la impresión sobre el papel de las partes mecánicas. 
+• Parte electrónica. Se encarga de convertir las señales procedentes del PC en estímulos \neléctricos que producirán la impresión sobre el papel de las partes mecánicas. 
 5.2. Clasificación 
 Existen diversas formas de clasificar las impresoras. Algunas de ellas son: 
 5.2.1. Según el mecanismo de impresión 
@@ -2890,8 +2839,7 @@ cuarzo), el cual hace saltar una gota de tinta (del orden de micras) por cada in
  
  
 + Info 
-Un material piezoeléctrico es aquel que produce una corriente 
-eléctrica al aplicar presión sobre él. 
+Un material piezoeléctrico es aquel que produce una corriente \neléctrica al aplicar presión sobre él. 
  
  
 
@@ -2954,8 +2902,7 @@ aunque en el caso del fusor el número es tan alto que no es corriente).
 5.3.4. Impresoras térmicas 
 Posee un mecanismo similar al de las impresoras matriciales. Utiliza papel termo sensible y agujas que 
 imprimen por calentamiento o fricción (produciendo calentamiento. 
-Son silenciosas y su mecánica es sencilla, pero no son recomendables porque el papel térmico no es 
-estable, se borra con el tiempo. 
+Son silenciosas y su mecánica es sencilla, pero no son recomendables porque el papel térmico no es \nestable, se borra con el tiempo. 
 Otro tipo de impresoras térmicas utilizan una cinta con tinta térmica. Al aplicar calor sobre la cera de la 
 tinta, esta se plasma sobre el papel. 
 Antiguamente se utilizaban mucho en los aparatos de fax. En la actualidad se utilizan en comercios 
@@ -2995,8 +2942,7 @@ imprimen toda la página al mismo tiempo.
  
 5.3.8. Multifunción 
 En el mismo dispositivo, tenemos impresora y escáner, y por tanto función de copiadora. Algunos 
-modelos también incorporan fax, aunque cada vez el fax se utiliza menos, sigue usándose en algunas 
-empresas. 
+modelos también incorporan fax, aunque cada vez el fax se utiliza menos, sigue usándose en algunas \nempresas. 
 Pueden ser de inyección de tinta o laser (sólo blanco/negro y color). 
 5.3.9. 3D 
 Producen una pieza volumétrica partiendo de un diseño tridimensional (desarrollado por un programa 
@@ -3066,8 +3012,7 @@ gráficas.
 Hasta principios de los años 80, hablamos de adaptadores de imagen más que de tarjetas gráficas en el 
 sentido moderno. El recorrido moderno de estas tarjetas comienza en 1981 con el MDA (Monochrome 
 Display Adapter), diseñado principalmente para mostrar texto de alta calidad en blanco y negro. 
-Ese mismo año, IBM introdujo el CGA (Color Graphics Adapter), que permitió la incorporación del color 
-en las pantallas y es considerado uno de los primeros adaptadores gráficos con soporte para gráficos en 
+Ese mismo año, IBM introdujo el CGA (Color Graphics Adapter), que permitió la incorporación del color \nen las pantallas y es considerado uno de los primeros adaptadores gráficos con soporte para gráficos en 
 color. 
 En 1984, apareció el EGA (Enhanced Graphics Adapter), uno de los pioneros en incorporar la memoria y 
 un chipset muy básico dedicado al procesamiento de gráficos. 
@@ -3154,8 +3099,7 @@ Periféricos: conectividad y administración
 El experto opina 
 Actualmente, la industria del videojuego es importantísima y 
 genera una gran cantidad de dinero. 
-Por ello, las tarjetas gráficas han experimentado una gran 
-evolución, presentando una tecnología más avanzada que el resto 
+Por ello, las tarjetas gráficas han experimentado una gran \nevolución, presentando una tecnología más avanzada que el resto 
 de los componentes. 
 También resulta muy importante para programas de diseño, 
 arquitectura, etc. 
@@ -3178,13 +3122,11 @@ Periféricos: conectividad y administración
 88 
 Antiguamente los monitores utilizaban la tecnología CRT (tubo de rayos catódicos), pero hoy en día se 
 ha dejado de comercializar y han sido superados con creces por las nuevas tecnologías, que nos 
-permiten mayor definición con pantalla plana. Te vamos a mostrar las principales tecnologías utilizadas 
-en la actualidad: 
+permiten mayor definición con pantalla plana. Te vamos a mostrar las principales tecnologías utilizadas \nen la actualidad: 
 • LCD: es la tecnología en que se basan la mayoría de los monitores. Utiliza cristal líquido, el cual 
 produce color al ser retro iluminado por lámparas fluorescentes. Existen diversas variantes que 
 se adaptan a diferentes necesidades: 
-• IPS (In-Plane Switching): Proporciona amplios ángulos de visión y una excelente precisión 
-en la reproducción de colores, ideal para trabajos gráficos y diseño. 
+• IPS (In-Plane Switching): Proporciona amplios ángulos de visión y una excelente precisión \nen la reproducción de colores, ideal para trabajos gráficos y diseño. 
 • TN (Twisted Nematic): Ofrece tiempos de respuesta rápidos y es común en monitores para 
 videojuegos competitivos. Sin embargo, tiene colores menos vibrantes y ángulos de visión 
 limitados. 
@@ -3241,8 +3183,7 @@ nuevas ratios, 16:10 y 16:9. Actualmente el formato 16:10 es usado en monitores 
 mientras que el formato 16:9 es menos profesional, para usuarios domésticos. 
 Tasa de refresco 
 Es la cantidad de imágenes que puede mostrar el dispositivo por segundo. Se mide en hercios (Hz) ya 
-que se trata de una frecuencia de actualización. Una pantalla puede tener 60 Hz, y esto significaría que 
-es capaz de actualizar la imagen mostrada hasta 60 veces por segundo. 
+que se trata de una frecuencia de actualización. Una pantalla puede tener 60 Hz, y esto significaría que \nes capaz de actualizar la imagen mostrada hasta 60 veces por segundo. 
 La tasa de refresco está directamente relacionada con las capacidades de la visión humana. 
 Supuestamente, el ojo humano es capaz de captar hasta unas 220 imágenes diferentes por segundo. 
 Cuantas más imágenes muestra una pantalla por segundo, más fluido es el movimiento en forma de 
@@ -3253,8 +3194,7 @@ refresco.
 Si la pantalla, solo soporta 60 Hz, y tienes una Tarjeta Gráfica está produciendo 200 imágenes 
 diferentes por segundo (200 fps), que es lo que define al frame rate, pero la pantalla solo es capaz de 
 actualizarse 60 veces en ese mismo segundo, se están perdiendo 140 imágenes que no se pueden 
-mostrar por las capacidades máximas de la pantalla. Esto provoca una pérdida de frames, y en ocasiones 
-efectos negativos sobre la imagen. 
+mostrar por las capacidades máximas de la pantalla. Esto provoca una pérdida de frames, y en ocasiones \nefectos negativos sobre la imagen. 
 
 <!-- Page 90 -->
 
@@ -3264,10 +3204,8 @@ Periféricos: conectividad y administración
 90 
 Diferencia entre " p " y " i " 
 La diferencia entre 1080p y 1080i estriba en la forma de desplegar las imágenes en cada segundo, pese 
-a que ambos tienen la misma resolución de 1920 x 1080 píxeles. Pero no son iguales técnicamente y 
-esto también es distinguible para el ojo humano en ciertas circunstancias. 
-La resolución de 1920×1080 corresponde a 1080 líneas horizontales de 1920 píxeles cada una. Pero 
-esta información se despliega de forma diferente en 1080p y en 1080i. 
+a que ambos tienen la misma resolución de 1920 x 1080 píxeles. Pero no son iguales técnicamente y \nesto también es distinguible para el ojo humano en ciertas circunstancias. 
+La resolución de 1920×1080 corresponde a 1080 líneas horizontales de 1920 píxeles cada una. Pero \nesta información se despliega de forma diferente en 1080p y en 1080i. 
 La 'p' en el formato 1080p significa progresivo, los frames aparecen progresivamente, uno detrás de 
 otro. Las líneas pares e impares se despliegan a la vez. En un segundo se muestran 60 frames, que 
 coinciden con el número de actualizaciones de la imagen, cada una tiene 1080 líneas de 1920 píxeles. 
@@ -3314,8 +3252,7 @@ Periféricos: conectividad y administración
 Fuente: Pixabay y PxFuel 
 La pantalla táctil es un dispositivo de entrada y salida al mismo tiempo, que permite al usuario introducir 
 datos en el sistema mediante pulsaciones en la pantalla y recibir la información procesada en esta. 
-Actualmente tienen un uso muy extendido, utilizándose en móviles, portátiles, cajeros automáticos, 
-etcétera. 
+Actualmente tienen un uso muy extendido, utilizándose en móviles, portátiles, cajeros automáticos, \netcétera. 
 Existen dos tipos básicos de pantallas táctiles: 
 • Resistivas. Tiene varias capas entre las que destacan dos de material conductor, entre las cuales 
 hay una pequeña separación. Al ejercer presión sobre un punto concreto, estas capas se unen, 
@@ -3334,8 +3271,7 @@ Desventajas:
 Periféricos: conectividad y administración 
 93 
 • Capacitivas. Están cubiertas de un material que conduce una corriente eléctrica a través del 
-sensor, adquiriendo esté capacitancia. El cuerpo humano también tiene capacitancia. Al entrar 
-en contacto el dedo con la pantalla se produce una distorsión que nos permite detectar la 
+sensor, adquiriendo esté capacitancia. El cuerpo humano también tiene capacitancia. Al entrar \nen contacto el dedo con la pantalla se produce una distorsión que nos permite detectar la 
 posición. 
 Ventajas: 
 • Es multitouch. 
@@ -3358,8 +3294,7 @@ procesamiento (lo traduce a formato digital).
 7.1. Conexión con el ordenador 
 Con la mejora de la digitalización, los ficheros resultantes de escanear pueden ser muy grandes (una 
 imagen con calidad de 24 bits, tamaño algo mayor que A4 y descomprimida, puede ocupar unos 100 
-megabytes). Los escáneres de actuales, de alta calidad y rápidos en el escaneo, generan la información 
-en pocos segundos, por hay que tener una conexión lo más rápida posible. 
+megabytes). Los escáneres de actuales, de alta calidad y rápidos en el escaneo, generan la información \nen pocos segundos, por hay que tener una conexión lo más rápida posible. 
 Antes los escáneres usaban conexiones paralelas que no podían ir más rápido de los 70 
 kilobytes/segundo, SCSI-II se adoptó para los modelos profesionales y aunque era algo más rápido 
 (unos cuantos megabytes por segundo) era bastante más caro. 
@@ -3384,8 +3319,7 @@ Es un modelo de controlador e interfaz de programación de aplicaciones (API) pa
 modernas del sistema operativo Microsoft Windows que permite a las aplicaciones de gráficos 
 comunicarse con dispositivos de imagen tales como escáneres, cámaras digitales y equipos de vídeo 
 digital. 
-Fue introducido por primera vez en el año 2000 como parte de Windows Me, y continúa siendo el 
-estándar de dispositivos de imagen y modelo API a través de las sucesivas versiones de Windows. A 
+Fue introducido por primera vez en el año 2000 como parte de Windows Me, y continúa siendo el \nestándar de dispositivos de imagen y modelo API a través de las sucesivas versiones de Windows. A 
 partir de Windows XP, es implementado como un servicio bajo-demanda. 
 WIA es un conjunto de utilidades significativo para el soporte de imágenes digitales proporcionado por 
 Still Image Architecture (STI) en Windows 2000. Mientras que STI sólo proporciona una interfaz de 
@@ -3398,8 +3332,7 @@ y un componente núcleo del controlador, cargados en dos procesos diferentes: UI
 aplicación y el núcleo del controlador en el servicio WIA. 
 En comparación con TWAIN, se dice que WIA es más flexible, porque es una interfaz estandarizada que 
 no requiere una unión fuerte entre el software del escáner y el controlador (los escáneres sólo-TWAIN a 
-menudo están limitados a las funciones activadas en su unión controlador-aplicación). La mayoría de los 
-escáneres recientes soportan WIA. 
+menudo están limitados a las funciones activadas en su unión controlador-aplicación). La mayoría de los \nescáneres recientes soportan WIA. 
 
 <!-- Page 95 -->
 
@@ -3459,8 +3392,7 @@ Periféricos: conectividad y administración
  
  
 + Info 
-OCR (Optical Character Recognition) es un proceso que permite 
-extraer el texto contenido en una imagen a través del 
+OCR (Optical Character Recognition) es un proceso que permite \nextraer el texto contenido en una imagen a través del 
 reconocimiento de los caracteres que aparecen en dicha imagen. El 
 resultado se puede abrir con un editor de textos. 
  
@@ -3547,8 +3479,7 @@ Es un listado secuencial de instrucciones que ejecutará la máquina.
 Está escrito en un lenguaje de bajo nivel, llamado G y M, estandarizado por las normas 6983 de ISO y 
 RS274 de EIA y compuesto por instrucciones Generales (código G) y Misceláneas (código M). 
 El programa presenta un formato de fases conformadas por bloques, encabezados por la letra N. 
-Como vemos en la figura inferior, cada movimiento o acción se realiza secuencialmente y cada bloque 
-está numerado y generalmente contiene un solo comando. 
+Como vemos en la figura inferior, cada movimiento o acción se realiza secuencialmente y cada bloque \nestá numerado y generalmente contiene un solo comando. 
  
 • El código G describe las funciones de movimiento de la máquina. 
 • Por ejemplo, movimientos rápidos, avances, avances radiales, pausas, ciclos. 
@@ -3578,8 +3509,7 @@ A medida que lee el programa, el controlador activa las funciones apropiadas de 
 movimiento de los ejes, y en general, sigue las instrucciones dadas en el programa. 
 Además de interpretar el programa CNC, el controlador tiene varios otros propósitos, por ejemplo: 
 • Modificar (editar) los programas si se detectan errores. 
-• Realizar funciones de verificación especial (como el funcionamiento en vacío) para confirmar la 
-exactitud del programa CNC. 
+• Realizar funciones de verificación especial (como el funcionamiento en vacío) para confirmar la \nexactitud del programa CNC. 
 • Especificar ciertas entradas importantes del operador, tales como los valores de longitud de las 
 herramientas. 
 8.1.5. Programa CAM 
@@ -3662,8 +3592,7 @@ Muchos autores atribuyen el descubrimiento del rayo láser a Einstein en 1917, p
 sigue habiendo polémica sobre ello. 
 Su origen se remonta a 1965, cuando la Western Electric Engineering Research Center utilizó esta 
 máquina por primera vez para perforar agujeros en los troqueles de diamantes. 
-En el corte de metales por chorro de oxígeno asistido por láser, los británicos fueron pioneros en 1967 y 
-en los 70, esta tecnología fue puesta en producción para cortar titanio en aplicaciones aeroespaciales. 
+En el corte de metales por chorro de oxígeno asistido por láser, los británicos fueron pioneros en 1967 y \nen los 70, esta tecnología fue puesta en producción para cortar titanio en aplicaciones aeroespaciales. 
 Simultáneamente para poder realizar cortes en materiales no metálicos como por ejemplo el textil, se 
 adaptaron láseres de CO2. 
 
@@ -3812,8 +3741,7 @@ independientemente de su saturación.
 10.1. Resolución de imágenes 
 La resolución de una imagen indica la cantidad de detalles que puede observarse en esta. 
 También nos indica la cantidad de nitidez, (como antónimo de granular) en una imagen de fotografía 
-convencional (o fotografía química). Es bueno señalar que, si la imagen aparece como granular, se le da 
-el nombre de pixelada. 
+convencional (o fotografía química). Es bueno señalar que, si la imagen aparece como granular, se le da \nel nombre de pixelada. 
 Tener mayor resolución se traduce en obtener una imagen con más detalle o calidad visual. 
 Para las imágenes digitales almacenadas como mapa de bits, la convención es describir la resolución de 
 la imagen con dos números enteros, donde el primero es la cantidad de columnas de píxeles (cuántos 
@@ -3844,8 +3772,7 @@ Periféricos: conectividad y administración
 109 
 10.2. Modelos de color 
  
-Archivo: Pixel geometry 01 Pengo.jpg - Wikipedia, la 
-enciclopedia libre 
+Archivo: Pixel geometry 01 Pengo.jpg - Wikipedia, la \nenciclopedia libre 
 Existen diferentes modelos de color que podemos usar dependiendo de nuestras necesidades: RGB, 
 CMYK, HSV (HSB). 
 10.2.1. RGB 
@@ -3854,8 +3781,7 @@ RGB: sigla en inglés de red, green, blue, en español «rojo, verde y azul»
 Definimos la composición del color en términos de la intensidad de los colores primarios de la luz: rojo, 
 verde y azul. 
 RGB está basado en la síntesis aditiva, es posible representar un color mediante la mezcla por adición de 
-los tres colores de luz primarios. El modelo de color RGB no define por sí mismo lo que significa 
-exactamente rojo, verde o azul, por lo que los mismos valores RGB pueden mostrar colores 
+los tres colores de luz primarios. El modelo de color RGB no define por sí mismo lo que significa \nexactamente rojo, verde o azul, por lo que los mismos valores RGB pueden mostrar colores 
 notablemente diferentes en distintos dispositivos que usen este modelo de color. Aunque utilicen un 
 mismo modelo de color, sus espacios de color pueden variar considerablemente. 
 
@@ -3885,8 +3811,7 @@ HSB (Hue, Saturation, Brightness – Matiz, Saturación, Brillo)
 Para elegir un color adecuado en una aplicación, resulta muy útil usar la ruleta de color HSV. 
 En ella el matiz se representa por una región circular; una región triangular separada, puede ser usada 
 para representar la saturación y el valor del color. Normalmente, el eje horizontal del triángulo denota la 
-saturación, mientras que el eje vertical corresponde al valor del color. De este modo, un color puede ser 
-elegido al tomar primero el matiz de una región circular, y después seleccionar la saturación y el valor 
+saturación, mientras que el eje vertical corresponde al valor del color. De este modo, un color puede ser \nelegido al tomar primero el matiz de una región circular, y después seleccionar la saturación y el valor 
 (brillo) del color deseado de la región triangular. 
 10.3. Profundidad de color 
 La profundidad de color o bits por píxel (bpp), se refiere a la cantidad de bits de información necesarios 

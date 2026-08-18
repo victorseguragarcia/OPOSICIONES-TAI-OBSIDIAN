@@ -40,8 +40,8 @@ Ejemplo: Convertir el número decimal **$-13.625$** a formato IEEE 754 de 32 bit
    - $13_{10} = 1101_2$.
    - $0.625_{10} = 0.5 + 0.125 = 0.101_2$.
    - Número en binario sin signo: $1101.101_2$.
-3. **Normalizar en formato $1.M 	imes 2^e$**:
-   - Desplazar la coma 3 posiciones a la izquierda: $1.101101_2 	imes 2^3$.
+3. **Normalizar en formato $1.M \times 2^e$**:
+   - Desplazar la coma 3 posiciones a la izquierda: $1.101101_2 \times 2^3$.
    - Mantisa ($M$): $10110100000000000000000_2$ (rellenada con ceros hasta 23 bits).
 4. **Calcular el Exponente sesgado ($E$)**:
    - Exponente real $e = 3$.

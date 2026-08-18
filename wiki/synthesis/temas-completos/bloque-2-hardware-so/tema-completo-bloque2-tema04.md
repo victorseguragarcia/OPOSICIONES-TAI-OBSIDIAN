@@ -6,8 +6,7 @@ tags:
   - temario-extendido
   - bloque-2
   - tema-04
-  - oposiciones-tai
-estado: "🔴 Por Estudiar"
+  - oposiciones-tai\nestado: "🔴 Por Estudiar"
 dificultad: "⭐⭐⭐"
 prioridad: "Máxima"
 sources:
@@ -331,14 +330,11 @@ acceso al sistema y a los distintos recursos los usuarios autorizados.
 • Informes. Debe poder facilitar informes de utilización de recursos, rendimiento, etc. 
 2.2. Gestor de recursos 
 El kernel, núcleo del sistema operativo, debe gestionar los recursos que hay en el sistema 
-(procesadores, memoria, periféricos, etc.) y planificar la utilización de los recursos de manera justa y 
-eficiente. 
+(procesadores, memoria, periféricos, etc.) y planificar la utilización de los recursos de manera justa y \neficiente. 
 Su función es proporcionar una asignación ordenada y controlada a los programas que compiten por los 
 distintos recursos (procesadores, memoria, periféricos, etc.). 
-Todos los procesos que compiten por un determinado recurso deben disponer de él de una forma 
-equitativa. 
-Por otro lado, se debe tener en cuenta la prioridad de cada trabajo y planificar la asignación de recursos 
-en base a los requerimientos de cada proceso. 
+Todos los procesos que compiten por un determinado recurso deben disponer de él de una forma \nequitativa. 
+Por otro lado, se debe tener en cuenta la prioridad de cada trabajo y planificar la asignación de recursos \nen base a los requerimientos de cada proceso. 
 
 <!-- Page 9 -->
 
@@ -361,10 +357,8 @@ Un Sistema Operativo NO es una máquina virtual.
 Una máquina virtual es un software que se instala sobre un sistema 
 operativo, y que es capaz de cargar en su interior otro sistema 
 operativo haciéndole creer que es un PC de verdad. Crea una 
-máquina (PC, consola, móvil o lo que sea) que en vez de ser física 
-es virtual o emulada. 
-Su uso ofrece muchas ventajas para realizar pruebas etc., sin dañar 
-el S.O. real instalado en el ordenador. 
+máquina (PC, consola, móvil o lo que sea) que en vez de ser física \nes virtual o emulada. 
+Su uso ofrece muchas ventajas para realizar pruebas etc., sin dañar \nel S.O. real instalado en el ordenador. 
  
 Driver 
 Es un término inglés, device driver, o simplemente driver. 
@@ -450,15 +444,13 @@ memoria principal o virtual. Para el programa aparece todo como una sola memoria
 + Info 
 Con la memoria virtual, que es es una técnica que permite que un 
 proceso vea un espacio de direcciones contiguo, los programas 
-creen que tienen más memoria principal de la que realmente 
-existe, porque el sistema operativo usa memoria secundaria como 
+creen que tienen más memoria principal de la que realmente \nexiste, porque el sistema operativo usa memoria secundaria como 
 apoyo y gestiona de forma transparente la asignación y el 
 movimiento de datos 
  
 2.6. Sistema de archivos 
 Define el sistema de archivos que va a ser utilizado para el almacenamiento de larga duración. 
-La información se almacenará en archivos y estarán ubicados dentro de directorios que a su vez pueden 
-estar dentro de otros directorios. Tiene una estructura de árbol. 
+La información se almacenará en archivos y estarán ubicados dentro de directorios que a su vez pueden \nestar dentro de otros directorios. Tiene una estructura de árbol. 
 
 <!-- Page 12 -->
 
@@ -526,8 +518,7 @@ Los niveles de planificación están basados en la frecuencia con la que se real
 En los sistemas operativos de propósito general, existen tres tipos de planificadores. 
 • Short term scheduler: a corto plazo, (también se denomina dispatcher) es el, más importante. 
 Decide qué proceso entra al procesador para su ejecución. 
-• Mid term scheduler: a mediano plazo, relacionado con aquellos procesos que no se encuentran 
-en memoria principal. Su misión es mover procesos entre memoria principal y disco (swapping). 
+• Mid term scheduler: a mediano plazo, relacionado con aquellos procesos que no se encuentran \nen memoria principal. Su misión es mover procesos entre memoria principal y disco (swapping). 
 • Long term scheduler: a largo plazo, es el encargado de ingresar nuevos procesos al sistema y de 
 finalizarlos. 
 
@@ -601,8 +592,7 @@ interfaces gráficas que permiten un rápido intercambio entre las tareas para e
 mejorando su productividad. 
 • Por el número de procesos. 
 • Monoproceso: únicamente permiten realizar un proceso a la vez. 
-• Multiproceso: los sistemas de multiprocesamiento tienen más de un procesador y pueden 
-ejecutar múltiples procesos simultáneamente. Existen dos tipos de multiprocesamiento: 
+• Multiproceso: los sistemas de multiprocesamiento tienen más de un procesador y pueden \nejecutar múltiples procesos simultáneamente. Existen dos tipos de multiprocesamiento: 
 » Simétricos: distribuyen la carga de procesamiento por igual entre todos los 
 procesadores existentes. 
 
@@ -623,8 +613,7 @@ reparten entre el resto de los procesadores.
 + Info 
 Los sistemas monoproceso pueden simular la multitarea haciendo 
 que el sistema asigne pequeñas porciones de tiempo a varias tareas 
-de forma rotatoria, de forma que el usuario lo perciba como si se 
-ejecutaran al mismo tiempo (pero aumentando el tiempo que 
+de forma rotatoria, de forma que el usuario lo perciba como si se \nejecutaran al mismo tiempo (pero aumentando el tiempo que 
 tarda en ejecutarse). 
 Por ejemplo, si tenemos dos procesos (proc1 y proc2) ejecutaría 
 una parte de proc1, luego una parte de proc2, luego otra de proc1, 
@@ -746,8 +735,7 @@ En cambio, en procesos multiusuario y multitarea, la gestión de memoria es fund
 realizar el reparto de memoria para los procesos de la forma más eficiente. 
 Vamos a ver los conceptos clave en la gestión de memoria en ordenadores modernos: 
 Memoria Virtual 
-La memoria virtual es el espacio de direcciones reservado por el sistema operativo para un proceso. Este 
-espacio está definido por el memory map, que se compone de múltiples áreas de memoria virtual 
+La memoria virtual es el espacio de direcciones reservado por el sistema operativo para un proceso. Este \nespacio está definido por el memory map, que se compone de múltiples áreas de memoria virtual 
 (VMAs, Virtual Memory Areas). Cada VMA representa una región lógica del programa (por ejemplo, 
 .text, heap, stack o archivos mapeados), con atributos específicos como dirección de inicio y fin, y 
 permisos de acceso (lectura, escritura, ejecución). 
@@ -815,13 +803,11 @@ En casos extremos, si el sistema pasa más tiempo intercambiando páginas que ej
 memoria de la disponible y el sistema entra en un bucle de swap constante, afectando gravemente al 
 rendimiento global. Es un signo de saturación de la memoria. 
 MMU (Memory Management Unit) 
-La Unidad de Gestión de Memoria (MMU, por sus siglas en inglés) es el componente de hardware 
-encargado de traducir, en tiempo real, las direcciones virtuales generadas por la CPU en direcciones 
+La Unidad de Gestión de Memoria (MMU, por sus siglas en inglés) es el componente de hardware \nencargado de traducir, en tiempo real, las direcciones virtuales generadas por la CPU en direcciones 
 físicas de RAM. Esta traducción se realiza mediante la tabla de páginas, una estructura mantenida por el 
 sistema operativo pero consultada continuamente por la MMU durante la ejecución de un proceso. 
 La MMU no interpreta el contenido de dicha tabla, simplemente la recorre siguiendo reglas predefinidas 
-por la arquitectura del sistema (como x86 o ARM). Si encuentra una entrada inválida (por ejemplo, con 
-el bit de presencia desactivado), genera una excepción de hardware (page fault) que transfiere el 
+por la arquitectura del sistema (como x86 o ARM). Si encuentra una entrada inválida (por ejemplo, con \nel bit de presencia desactivado), genera una excepción de hardware (page fault) que transfiere el 
 control al kernel. A partir de ahí, será el sistema operativo quien consulte el mapa de memoria (VMAs) 
 o el área de swap para decidir cómo resolver la falta. 
 En este sentido, la MMU y la paginación forman una unidad tecnológica inseparable: la paginación 
@@ -853,8 +839,7 @@ válida o el acceso es incorrecto, se termina el proceso con una señal de error
 No indica necesariamente un fallo del programa. Es un mecanismo normal del sistema de memoria 
 virtual que permite la carga bajo demanda y el uso eficiente de la RAM. 
 Fragmentación externa e interna 
-Antes de la paginación, la memoria se asignaba de forma contigua, lo que generaba fragmentación 
-externa: con el tiempo, al cargarse y descargarse procesos, quedaban huecos dispersos entre bloques 
+Antes de la paginación, la memoria se asignaba de forma contigua, lo que generaba fragmentación \nexterna: con el tiempo, al cargarse y descargarse procesos, quedaban huecos dispersos entre bloques 
 ocupados que no podían aprovecharse si no eran lo bastante grandes y continuos. Así, aunque hubiese 
 memoria libre suficiente en total, no se podía utilizar eficientemente. La paginación resolvió este 
 problema dividiendo la memoria lógica de los procesos y la memoria física en bloques del mismo 
@@ -872,8 +857,7 @@ contiguo tradicional.
 Mapa de memoria y segmentación 
 Cuando un programa se ejecuta, el sistema operativo construye lo que llamamos su mapa de memoria 
 (memory map), que representa cómo está distribuido su espacio de direcciones. Este mapa se basa 
-directamente en los segmentos definidos durante la compilación y el enlazado, pero en tiempo de 
-ejecución estos segmentos se traducen en áreas de memoria virtual (VMAs), que el sistema operativo 
+directamente en los segmentos definidos durante la compilación y el enlazado, pero en tiempo de \nejecución estos segmentos se traducen en áreas de memoria virtual (VMAs), que el sistema operativo 
 utiliza para representar regiones válidas con atributos como permisos, tamaño y tipo de acceso. Así, la 
 segmentación define las regiones lógicas del programa, y el mapa de memoria las ubica en direcciones 
 concretas, con sus respectivos permisos. 
@@ -903,8 +887,7 @@ Pixabay
 Historia de Microsoft Windows 
 Microsoft Windows es el nombre de una familia de distribuciones de software para PC, Smartphone, 
 servidores y sistemas empotrados desarrollados y comercializados por Microsoft. 
-La palabra Windows, en español se traduce como ventana. Se llama así porque utiliza un interfaz basado 
-en ventanas. Las "ventanas" es la forma en que el sistema presenta al usuario los recursos de su 
+La palabra Windows, en español se traduce como ventana. Se llama así porque utiliza un interfaz basado \nen ventanas. Las "ventanas" es la forma en que el sistema presenta al usuario los recursos de su 
 ordenador, facilitando su uso. 
 Microsoft Windows es el sistema operativo más usado del mundo en ordenadores personales, con gran 
 diferencia (alrededor del 90% de cuota de mercado). 
@@ -933,8 +916,7 @@ Microsoft ha seguido dos rutas paralelas en sus Sistemas operativos:
 • Usuarios profesionales. Menor soporte multimedia y más funcionalidades en redes y seguridad. 
 4.1. Versiones 
 Windows ha tenido numerosas versiones, y casi todas han tenido diferentes ediciones o subversiones. 
-Además de las versiones, Microsoft popularizo los Service Pack. (SP), son varias actualizaciones 
-empaquetadas (agrupadas) llamadas parches, que mejoran o corrigen errores de Windows o 
+Además de las versiones, Microsoft popularizo los Service Pack. (SP), son varias actualizaciones \nempaquetadas (agrupadas) llamadas parches, que mejoran o corrigen errores de Windows o 
 aplicaciones. Con el avance de Internet y su velocidad, desaparecieron estos Service Pack, y se 
 implementó en Windows la herramienta Windows Update, para descargas los "parches" o 
 actualizaciones de los diferentes componentes de Windows. 
@@ -1065,8 +1047,7 @@ Windows NT 4.0, se utilizó durante mucho tiempo, incluso después
 de que Microsoft lo considerara obsoleto. 
 Sus usuarios, aunque en muchas ocasiones no lo utilizaban como 
 servidor, estaban muy satisfechos con él. 
-Apenas era sensible a virus, ya que no se creaban para afectar a 
-esta versión de Windows. 
+Apenas era sensible a virus, ya que no se creaban para afectar a \nesta versión de Windows. 
  
 Windows 95 (1995) 
  
@@ -1103,9 +1084,7 @@ plataforma común para las aplicaciones y juegos, asegurando que puedan ejecutar
 configuraciones de hardware sin necesidad de adaptaciones específicas para cada dispositivo. 
 DirectX incluye varias API específicas, como Direct3D para los gráficos 3D, DirectDraw para los gráficos 
 2D, y DirectSound para el audio, entre otras. A través de DirectX, los desarrolladores pueden acceder a 
-las capacidades avanzadas del hardware, como tarjetas gráficas y tarjetas de sonido, para ofrecer 
-experiencias visuales y auditivas de alta calidad. Además, DirectX ayuda a mejorar el rendimiento y la 
-eficiencia de los videojuegos y aplicaciones multimedia, ya que permite realizar una mejor utilización de 
+las capacidades avanzadas del hardware, como tarjetas gráficas y tarjetas de sonido, para ofrecer \nexperiencias visuales y auditivas de alta calidad. Además, DirectX ayuda a mejorar el rendimiento y la \neficiencia de los videojuegos y aplicaciones multimedia, ya que permite realizar una mejor utilización de 
 los recursos del sistema, como la memoria y los procesadores gráficos. 
 
 <!-- Page 31 -->
@@ -1139,8 +1118,7 @@ descargarse la utilidad, a pesar de que no fue diseñado para ellos.
 + Info 
 ACPI (Advanced Configuration and Power Interface o Interfaz 
 Avanzada de Configuración y Energía) es un estándar que 
-proporciona mecanismos avanzados para la gestión y ahorro de la 
-energía. 
+proporciona mecanismos avanzados para la gestión y ahorro de la \nenergía. 
  
 
 <!-- Page 32 -->
@@ -1196,8 +1174,7 @@ El experto opina
 Aunque la mayoría de los técnicos no lo recomendaban, siempre 
 hay usuarios que desean la última versión, aunque funcionen 
 correctamente con la instalada en su equipo. 
-Se convirtió en la pesadilla de los técnicos informáticos, incapaces 
-en muchos casos de hacer que funcionaran correctamente. 
+Se convirtió en la pesadilla de los técnicos informáticos, incapaces \nen muchos casos de hacer que funcionaran correctamente. 
  
 Windows 2000 (2000) 
  
@@ -1549,8 +1526,7 @@ basa Microsoft Edge.
 que se ejecutarán en Windows 11, con soporte para Amazon Appstore y paquetes instalados 
 manualmente. 
 • Requiere el arranque seguro UEFI y chip TPM (compatibilidad con Trusted Platform Module 2.0). 
-Existen métodos para instalar Windows 11 en equipos sin TPM, peroMicrosoft ha indicado que 
-estos ordenadores tendrán más errores, y no recibirán actualizaciones de seguridad del Sistema 
+Existen métodos para instalar Windows 11 en equipos sin TPM, peroMicrosoft ha indicado que \nestos ordenadores tendrán más errores, y no recibirán actualizaciones de seguridad del Sistema 
 Operativo, ni tampoco las actualizaciones periódicas que vayan lanzando con nuevas 
 características. 
 • Windows 11 ya no es compatible con la arquitectura x86 de 32 bits o los sistemas que usan 
@@ -1596,8 +1572,7 @@ que pulsar en él para acceder.
 tiene el chip TPM, y que no podrá actualizar a Windows 11. 
 Será necesario, instalar el chip en la placa base (si dispone de esa opción, o bien cambiar la 
 placa base. 
-• Si dentro de este programa sí te aparece información sobre TPM, entonces es que sí que 
-esta esté chip instalado. 
+• Si dentro de este programa sí te aparece información sobre TPM, entonces es que sí que \nesta esté chip instalado. 
 Puede ser que ya esté activado o que sea necesario activarlo manualmente (en la opción 
 Preparar TPM de la columna de la derecha, o desde UEFI). 
 • Tarjeta gráfica: necesita ser compatible con DirectX 12 o posterior, y con el controlador 
@@ -1697,8 +1672,7 @@ Desde aquí podemos crear, copiar o borrar archivos y carpetas, etc.
  
  
 Atención 
-El explorador de Windows, NO es para administrar el equipo, para 
-ello se utiliza el Panel de Control. 
+El explorador de Windows, NO es para administrar el equipo, para \nello se utiliza el Panel de Control. 
  
 
 <!-- Page 49 -->
@@ -1739,16 +1713,13 @@ y para dispositivos móviles
 Estos planes están disponibles a través de la aplicación de Configuración en el apartado de Sistema > 
 Energía y suspensión, o desde el clásico Panel de control > Opciones de energía. En estas versiones, los 
 usuarios pueden modificar aspectos como el tiempo de suspensión de la pantalla o del sistema, pero no 
-disponen de herramientas administrativas avanzadas para aplicar políticas centralizadas sobre la 
-energía. 
+disponen de herramientas administrativas avanzadas para aplicar políticas centralizadas sobre la \nenergía. 
 4.3.2. Opciones de energía en Windows 10/11 Pro 
 Las opciones de energía en Windows 10 y Windows 11 Pro son fundamentales para controlar el 
-comportamiento del sistema en relación con el consumo energético y el rendimiento. Esto resulta 
-especialmente relevante en dispositivos portátiles, como ordenadores portátiles y convertibles, donde 
+comportamiento del sistema en relación con el consumo energético y el rendimiento. Esto resulta \nespecialmente relevante en dispositivos portátiles, como ordenadores portátiles y convertibles, donde 
 la autonomía de la batería es un recurso clave. Ambas versiones del sistema ofrecen planes de energía 
 predefinidos como "Equilibrado", "Alto rendimiento" y "Ahorro de energía". 
-El plan Equilibrado ajusta automáticamente el uso de recursos del sistema según las tareas que se estén 
-ejecutando, tratando de mantener un equilibrio entre rendimiento y eficiencia energética. El plan de 
+El plan Equilibrado ajusta automáticamente el uso de recursos del sistema según las tareas que se estén \nejecutando, tratando de mantener un equilibrio entre rendimiento y eficiencia energética. El plan de 
 Alto rendimiento maximiza el rendimiento del procesador y de los componentes, aunque a costa de un 
 mayor consumo eléctrico, mientras que el plan de Ahorro de energía reduce la actividad de los 
 componentes no esenciales para conservar batería, sacrificando rendimiento. 
@@ -1770,8 +1741,7 @@ operativos en condiciones de carga variable.
 4.4. Variables de entorno 
 Las variables del entorno son valores del sistema operativo que permiten definir configuraciones 
 fundamentales que afectan al funcionamiento de programas, scripts y procesos del sistema. Aunque su 
-propósito es el mismo en todas las versiones de Windows, su uso y nivel de acceso varían según la 
-edición del sistema. 
+propósito es el mismo en todas las versiones de Windows, su uso y nivel de acceso varían según la \nedición del sistema. 
 
 <!-- Page 51 -->
 
@@ -1785,12 +1755,10 @@ En las versiones Home, las variables de entorno pueden visualizarse y configurar
 del sistema > Configuración avanzada del sistema > Variables de entorno. Desde esta interfaz, el usuario 
 puede definir variables propias de su sesión (variables de usuario), como TEMP, USERNAME o PATH, y 
 también, con permisos de administrador, modificar variables del sistema. 
-Un uso habitual es el de añadir rutas de programas a la variable PATH, de manera que estos puedan 
-ejecutarse desde cualquier ubicación en la línea de comandos sin necesidad de desplazarse hasta el 
+Un uso habitual es el de añadir rutas de programas a la variable PATH, de manera que estos puedan \nejecutarse desde cualquier ubicación en la línea de comandos sin necesidad de desplazarse hasta el 
 directorio donde están instalados. 
 Aunque los usuarios domésticos pueden configurar estas variables para facilitar el uso de ciertos 
-programas o entornos de desarrollo, la funcionalidad se limita a configuraciones individuales, y no 
-existen herramientas para distribuir o imponer configuraciones comunes en varios equipos desde una 
+programas o entornos de desarrollo, la funcionalidad se limita a configuraciones individuales, y no \nexisten herramientas para distribuir o imponer configuraciones comunes en varios equipos desde una 
 consola central. 
 4.4.2. Variables de entorno en Windows 10/11 Pro 
 En las ediciones Pro, el funcionamiento de las variables del entorno es el mismo que en la versión Home, 
@@ -1798,8 +1766,7 @@ pero con una importante diferencia: se pueden gestionar a través de directivas 
 aplicar variables a múltiples usuarios o estaciones de trabajo desde una administración centralizada. 
 Esto resulta especialmente útil en entornos corporativos o educativos donde se requiere coherencia en 
 la configuración de entornos de desarrollo, rutas de herramientas, carpetas temporales o scripts. 
-Además, muchos scripts administrativos (tanto en PowerShell como en Batch) utilizan variables del 
-entorno para realizar tareas automatizadas. La existencia de variables de sistema como %SystemRoot%, 
+Además, muchos scripts administrativos (tanto en PowerShell como en Batch) utilizan variables del \nentorno para realizar tareas automatizadas. La existencia de variables de sistema como %SystemRoot%, 
 %ProgramData% o %USERPROFILE% facilita la creación de scripts portables y adaptables a cualquier 
 usuario o instalación. 
 4.4.3. Variables de entornos en Windows Server 
@@ -1832,15 +1799,13 @@ gráfica. Por ejemplo, es posible modificar parámetros ocultos del explorador d
 funciones específicas del sistema o establecer restricciones en el comportamiento del usuario. 
 Sin embargo, cualquier modificación en el registro debe hacerse con precaución, ya que errores pueden 
 comprometer la estabilidad del sistema, impedir su arranque o afectar el funcionamiento de 
-aplicaciones. Aunque las versiones Home no permiten aplicar políticas mediante GPO, muchos ajustes 
-equivalentes pueden realizarse directamente mediante cambios en el registro, siguiendo guías 
+aplicaciones. Aunque las versiones Home no permiten aplicar políticas mediante GPO, muchos ajustes \nequivalentes pueden realizarse directamente mediante cambios en el registro, siguiendo guías 
 avanzadas. 
 4.5.2. Registros en Windows 10/11 Pro 
 Las versiones Pro permiten las mismas ediciones que Home, pero además complementan la gestión del 
 registro con herramientas de administración como el Editor de directivas de grupo. Muchas de las 
 políticas aplicadas mediante GPO se traducen internamente en modificaciones en el registro, lo que 
-permite a los administradores definir de forma centralizada valores de configuración para múltiples 
-equipos sin tener que editar manualmente las claves en cada uno de ellos. 
+permite a los administradores definir de forma centralizada valores de configuración para múltiples \nequipos sin tener que editar manualmente las claves en cada uno de ellos. 
 Además, los administradores pueden exportar configuraciones del registro y distribuirlas como archivos 
 .reg, que se pueden ejecutar en otros sistemas para replicar configuraciones personalizadas. 
 4.5.3. Registros en Windows Server 
@@ -1860,8 +1825,7 @@ despliegue o restauración de configuraciones.
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
 53 
-La modificación del registro en Windows Server debe realizarse con especial precaución, ya que los 
-errores pueden tener un impacto en múltiples usuarios o afectar servicios críticos como controladores 
+La modificación del registro en Windows Server debe realizarse con especial precaución, ya que los \nerrores pueden tener un impacto en múltiples usuarios o afectar servicios críticos como controladores 
 de dominio, servicios de archivos o aplicaciones empresariales. 
 4.6. Microsoft Azure 
  
@@ -1907,8 +1871,7 @@ Vamos a ver algunas de ellas.
 ActiveSync es un programa de sincronización de datos desarrollado por Microsoft para su uso con sus 
 sistemas operativos Microsoft Windows. 
 Originalmente lanzado con el nombre "Explorador de PC Móvil" en 1996, proporciona a los usuarios de 
-Microsoft Windows una manera de transportar los documentos, calendarios, listas de contacto y correo 
-electrónico entre la computadora de escritorio y un dispositivo móvil, como un PC de mano, teléfonos 
+Microsoft Windows una manera de transportar los documentos, calendarios, listas de contacto y correo \nelectrónico entre la computadora de escritorio y un dispositivo móvil, como un PC de mano, teléfonos 
 móviles o cualquier otro dispositivo portátil que soporte el protocolo de ActiveSync. 
 ActiveSync está disponible como una descarga gratuita desde el sitio web de Microsoft. 
 ActiveSync utiliza Exchange ActiveSync, un protocolo propietario que requiere de otros proveedores de 
@@ -1940,12 +1903,10 @@ reglas basadas en el atributo Editor persistente a través de las actualizacione
 crear reglas para una versión específica de un archivo. 
 • Asignar una regla a un grupo de seguridad o a un usuario individual. 
 • Crear excepciones a ciertas reglas. 
-• Por ejemplo, puede crear una regla que permita que se ejecuten todos los procesos de Windows 
-excepto el editor del registro (regedit. exe). 
+• Por ejemplo, puede crear una regla que permita que se ejecuten todos los procesos de Windows \nexcepto el editor del registro (regedit. exe). 
 • Usar el modo de solo auditoría para implementar la directiva y ver qué impacto tendría antes de 
 aplicarla. 
-• Importar y exportar reglas. La importación y la exportación afectan a toda la Directiva. Por 
-ejemplo, si exporta una directiva, se exportan todas las reglas de todas las colecciones de reglas, 
+• Importar y exportar reglas. La importación y la exportación afectan a toda la Directiva. Por \nejemplo, si exporta una directiva, se exportan todas las reglas de todas las colecciones de reglas, 
 incluida la configuración de aplicación de las colecciones de reglas. Si importa una directiva, se 
 sobrescriben todos los criterios de la directiva existente. 
 • Simplificar la creación y la administración de reglas de AppLocker mediante cmdlets de 
@@ -1984,11 +1945,9 @@ que permiten los archivos por lotes, como el control de aplicaciones, la manipul
 Windows o el acceso a objetos COM (Component Object Model). 
 Para ejecutar scripts de Windows Script Host (WSH), se puede hacer de varias maneras: haciendo doble 
 clic en el archivo de script (.vbs o .js) desde el Explorador de Windows, lo que utilizará el intérprete 
-predeterminado; o mediante la línea de comandos usando el Símbolo del Sistema o PowerShell, 
-ejecutando el script con los comandos cscript o wscript. Simplemente abre el Símbolo del Sistema o 
+predeterminado; o mediante la línea de comandos usando el Símbolo del Sistema o PowerShell, \nejecutando el script con los comandos cscript o wscript. Simplemente abre el Símbolo del Sistema o 
 PowerShell, navega al directorio que contiene el script y utiliza uno de estos comandos para ejecutarlo. 
-Aunque se pueden ejecutar scripts más complejos en el símbolo del sistema utilizando WSH, no permite 
-ejecutar cmdlets de PowerShell. La automatización de tareas es generalmente más eficiente y versátil 
+Aunque se pueden ejecutar scripts más complejos en el símbolo del sistema utilizando WSH, no permite \nejecutar cmdlets de PowerShell. La automatización de tareas es generalmente más eficiente y versátil 
 con PowerShell, que proporciona un lenguaje de scripting mucho más potente y extensible que el 
 disponible en el símbolo del sistema o Windows Script Host. 
 4.7.5. PowerShell 
@@ -2147,8 +2106,7 @@ complementan (parecido al concepto de microkernel).
  
 + Info 
 Es posible que te preguntes qué es software libre. 
-• Software libre significa que los usuarios tienen la libertad de 
-ejecutar, copiar, distribuir, estudiar, modificar y mejorar el 
+• Software libre significa que los usuarios tienen la libertad de \nejecutar, copiar, distribuir, estudiar, modificar y mejorar el 
 software. 
 • Para ello, los usuarios tienen las siguientes libertades: 
 1. Libertad para ejecutar el programa como lo desee, con 
@@ -2179,8 +2137,7 @@ Shell
 Shell (intérprete de comandos) es el programa que provee una interfaz de usuario para acceder a los 
 servicios del sistema operativo. 
 Por lo tanto, la shell actúa como un intermediario entre el sistema operativo y el usuario. 
-Su función es la de leer la línea de comandos, interpretar su significado, ejecutar el comando y mostrar 
-el resultado. 
+Su función es la de leer la línea de comandos, interpretar su significado, ejecutar el comando y mostrar \nel resultado. 
 El usuario se comunica con el sistema operativo mediante las líneas de comando que introduce en la shell. 
 La shell es un archivo ejecutable cuyo nombre de fichero suele coincidir con el nombre de Shell. 
 Algunas de las más comunes son: sh (Borune Shell), bash (Bourne again Shell) y csh (C Shell). 
@@ -2222,14 +2179,12 @@ Un archivo ordinario tendrá las propiedades siguientes:
 del grupo y de otros usuarios. 
 • Las marcas de tiempo con las fechas de última modificación (mtime), acceso (atime) y de 
 alteración del propio inodo (ctime). 
-• El número de enlaces, esto es, el número de nombres (entradas de directorio) asociados con 
-este inodo. El número de enlaces se emplea por el sistema operativo para eliminar el archivo del 
+• El número de enlaces, esto es, el número de nombres (entradas de directorio) asociados con \neste inodo. El número de enlaces se emplea por el sistema operativo para eliminar el archivo del 
 sistema de ficheros, tanto el inodo como el contenido, cuando se han borrado todos los enlaces 
 y el contador queda a cero. 
 • La estructura de punteros, para direccionar hacia los bloques de datos (contenido) del archivo. 
 Daemon 
-Es una expresión que se refiere a un tipo especial de proceso informático no interactivo, es decir, que se 
-ejecuta en segundo plano (background) en vez de ser controlado directamente por el usuario. 
+Es una expresión que se refiere a un tipo especial de proceso informático no interactivo, es decir, que se \nejecuta en segundo plano (background) en vez de ser controlado directamente por el usuario. 
 5.3. Gestor de arranque (Linux Boot Loaders) 
 Su función es gestionar varios sistemas operativos en un mismo ordenador, y poder seleccionar cual 
 arrancar al encender el ordenador, dependiendo de nuestras necesidades en ese momento. 
@@ -2271,11 +2226,9 @@ Surge de GNU GRUB, pero, aunque su programación interna es totalmente basada en
 versión de GRUB, fue reescrita completamente por el equipo de desarrollo, pero imitando la 
 configuración exacta de GRUB, de esta forma, su configuración es exactamente idéntica. Es usado 
 principalmente en sistemas operativos GNU Linux. 
-Aunque tiene algunas de las características principales de GRUB, ofrece nuevas características 
-excelentes, soporta un menú de arranque de texto y modo gráfico muy configurable y también un 
+Aunque tiene algunas de las características principales de GRUB, ofrece nuevas características \nexcelentes, soporta un menú de arranque de texto y modo gráfico muy configurable y también un 
 nuevo formato de objeto para soportar múltiples plataformas (Windows, Mac OS, FreeBSD, etc.). 
-La idea de BURG es proveer un cargador de arranque con aspecto visual, capaz de mostrar fondos de 
-escritorio, iconos, y animaciones en lugar de solo texto como GRUB. 
+La idea de BURG es proveer un cargador de arranque con aspecto visual, capaz de mostrar fondos de \nescritorio, iconos, y animaciones en lugar de solo texto como GRUB. 
 Existen miles de temas y diseños creados por la comunidad, y que se pueden descargar desde diversas 
 páginas web. 
 
@@ -2295,8 +2248,7 @@ para Linux, y archivos como FAT para MS-DOS.
 Una distribución o distro Linux es una recopilación que contiene el núcleo de Linux y una serie de 
 paquetes de software (normalmente software libre) para satisfacer las necesidades de un determinado 
 grupo de usuarios. 
-Existen distribuciones de uso doméstico, servidores, jugadores, investigación, empresas, niños, 
-educación, etc. 
+Existen distribuciones de uso doméstico, servidores, jugadores, investigación, empresas, niños, \neducación, etc. 
 Además del núcleo, se suele incluir las bibliotecas y herramientas del proyecto GNU/Linux y el sistema 
 de ventanas X Windows System. Si incluye paquetes de código del proyecto GNU, se denomina 
 distribución GNU/Linux. 
@@ -2338,8 +2290,7 @@ preinstaladas (Abrowser, Gnumeric).
 • Enfoque en privacidad y software 100% libre (elimina firmware no libre). 
 • MINT. 
 • Para muchos la mejor distribución actualmente. Posiblemente la más completa. 
-• Basada en Ubuntu LTS y compatible con sus repositorios. Versión LMDE disponible (basada 
-en Debian). 
+• Basada en Ubuntu LTS y compatible con sus repositorios. Versión LMDE disponible (basada \nen Debian). 
 • Estable y con buena experiencia de usuario. 
 • La instalación de software es muy sencilla. 
 • Escritorio Cinnamon (antes pesado, ahora optimizado. Estilo similar a Windows 10/11). 
@@ -2416,8 +2367,7 @@ desinstalaciones y actualizaciones con un solo clic.
 • Orientado a servidores. 
 • Entorno empresarial y profesional. 
 • Sitios como Facebook, Twitter y Google utilizan distribuciones de este tipo, pero con el 
-cambio hacia CentOS Stream en 2020, que ahora actúa como una versión más dinámica 
-entre las versiones de RHEL, algunas organizaciones han migrado a alternativas como 
+cambio hacia CentOS Stream en 2020, que ahora actúa como una versión más dinámica \nentre las versiones de RHEL, algunas organizaciones han migrado a alternativas como 
 Rocky Linux y AlmaLinux para mantener una estabilidad similar a la de las versiones 
 anteriores de CentOS. 
 A continuación vamos a indicar algunas distribuciones que consumen pocos recursos y por tanto son 
@@ -2453,15 +2403,13 @@ Utiliza recursos muy limitados y es una distribución que recuerda a GNOME.
 Se basa en Ubuntu, pero más ligera, cambiando el escritorio y algunas aplicaciones 
 preinstaladas. 
 • Xubuntu (https://xubuntu.org/): 
-También basada en Ubuntu, es mantenido por una gran comunidad de usuarios, se utiliza el 
-entorno de escritorio XFCE y lleva aplicaciones preinstaladas como por ejemplo reproductor 
+También basada en Ubuntu, es mantenido por una gran comunidad de usuarios, se utiliza el \nentorno de escritorio XFCE y lleva aplicaciones preinstaladas como por ejemplo reproductor 
 multimedia para música, vídeos y fotografías, navegador web, cliente de correo electrónico, 
 procesador de textos, hoja de cálculo. También se pueden instalar otras desde el repositorio de 
 Ubuntu. 
 • LXLE (https://www.lxle.net/): 
 Basadas en Lubuntu, por tanto, también es posible acceder al repositorio de aplicaciones de 
-Ubuntu. Dispone de aplicaciones reinstaladas como LibreOffice y GIM y utiliza el entorno de 
-escritorio LXDE. 
+Ubuntu. Dispone de aplicaciones reinstaladas como LibreOffice y GIM y utiliza el entorno de \nescritorio LXDE. 
 • Antix (https://antixlinux.com/): 
 Para usar con equipos con muy pocos recursos ya que requiere un mínimo de 128MB de RAM, 
 perfecto también para usar en máquinas virtuales. Dispone de diversas utilidades como 
@@ -2504,8 +2452,7 @@ Es una de las mejores distribuciones para VPS (servidor privado virtual), muy es
 por su compatibilidad total con RHEL, (Red Hat Enterprise Linux), por tanto, compatible con la 
 gran parte del software de Red Hat. 
 Muchos lo consideran el sustituto de CentOS, ya que es utilizable por empresas y 
-organizaciones, disponiendo de una migración sencilla entre equipos y segura, mediante la 
-ejecución de un script que hace que se instalen los paquetes de forma automática. Este script 
+organizaciones, disponiendo de una migración sencilla entre equipos y segura, mediante la \nejecución de un script que hace que se instalen los paquetes de forma automática. Este script 
 solo funciona en sistemas CentOS Stream, CentOS Linux, Oracle Linux, Alma Linex y Red Hat. 
  
 
@@ -2581,8 +2528,7 @@ aplicaciones instaladas a posteriori.
 • /lib: Librerías del sistema (libraries). 
 • /lost+found: Proporciona un sistema de "perdido+encontrado" (lost+found) para los ficheros 
 que existen debajo del directorio raíz (/). 
-• /media: Particiones montadas (cargadas) automáticamente en el disco duro y medios (media) 
-extraíbles como CDs, cámaras digitales, etc. 
+• /media: Particiones montadas (cargadas) automáticamente en el disco duro y medios (media) \nextraíbles como CDs, cámaras digitales, etc. 
 
 <!-- Page 72 -->
 
@@ -2783,8 +2729,7 @@ Este paquete incluye:
 Se debe de usar e2fsck exclusivamente en particiones desmontadas, ya que esta herramienta 
 opera a bajo nivel accediendo directamente al dispositivo de bloque (/dev/sdXN) sin necesidad 
 de montaje. El sistema operativo reconoce las particiones como dispositivos de bloque mediante 
-la tabla de particiones, aunque solo puede gestionar archivos cuando están montadas. Si se 
-ejecuta e2fsck sobre una partición montada, se puede interferir con las operaciones de 
+la tabla de particiones, aunque solo puede gestionar archivos cuando están montadas. Si se \nejecuta e2fsck sobre una partición montada, se puede interferir con las operaciones de 
 lectura/escritura que el kernel realiza constantemente (actualizaciones de metadatos, 
 journaling, etc.), causando posibles inconsistencias o daños permanentes en el sistema de 
 archivos. Regla de oro: desmontar antes de verificar o reparar. 
@@ -2843,8 +2788,7 @@ y para dispositivos móviles
 78 
 5.8.1.6. Uname 
 El comando uname es una utilidad de línea de comandos en Linux que permite obtener información 
-sobre el sistema operativo y el núcleo. Es muy útil para conocer detalles sobre el entorno del sistema en 
-el que estás trabajando. 
+sobre el sistema operativo y el núcleo. Es muy útil para conocer detalles sobre el entorno del sistema en \nel que estás trabajando. 
 uname significa Unix Name. Este comando muestra información básica del sistema, como el nombre del 
 kernel, la arquitectura del hardware y la versión del sistema operativo. Es especialmente útil para tareas 
 de diagnóstico y desarrollo. 
@@ -2913,11 +2857,9 @@ y para dispositivos móviles
 • wc -w <fichero> imprime el número de palabras. 
 5.8.2.4. cat 
 Se usa para concatenar y mostrar archivos. La Single Unix Specification, establece que cat, escribirá a la 
-salida estándar el contenido de cada uno de los archivos dados como argumentos, en el mismo orden en 
-el que fueron dados, y obliga el uso de una opción, -u, con la que cada byte se imprime en cuanto se lee. 
+salida estándar el contenido de cada uno de los archivos dados como argumentos, en el mismo orden en \nel que fueron dados, y obliga el uso de una opción, -u, con la que cada byte se imprime en cuanto se lee. 
 Si introducimos el símbolo menos "-" como nombre de archivo, cat leerá de la entrada estándar cuando 
-llegue a él. Si no se especifica ningún archivo, cat leerá solo de la entrada estándar. Cuando hablamos de 
-entrada estándar nos referimos a lo introducido en el prompt o intérprete de comandos del sistema 
+llegue a él. Si no se especifica ningún archivo, cat leerá solo de la entrada estándar. Cuando hablamos de \nentrada estándar nos referimos a lo introducido en el prompt o intérprete de comandos del sistema 
 operativo. 
 5.8.2.5. less 
 Mostrar contenido de un archivo. 
@@ -2983,8 +2925,7 @@ anchas que la terminal.
 • +[n]: Comienza la visualización desde la línea "n" 
 5.8.2.7. tac 
 Mostrar ficheros. Acrónimo de "concatenate", pero al revés cat -> tac. 
-Tac te muestra el contenido de un fichero en orden contrario. Muestra un archivo línea por línea, pero 
-en orden inverso (la última línea primero y la primera última). Te permite concatenar ficheros y 
+Tac te muestra el contenido de un fichero en orden contrario. Muestra un archivo línea por línea, pero \nen orden inverso (la última línea primero y la primera última). Te permite concatenar ficheros y 
 mostrarlos a la inversa. 
 5.8.2.8. du 
 Gestión de espacio en disco. 
@@ -3032,12 +2973,10 @@ de párrafos.
 Con frecuencia es utilizado por programadores para escribir código fuente de software. 
 El editor vi tiene dos modos de operación: 
 • Modo de comandos: comandos, podemos desplazarnos dentro de un archivo y efectuar 
-operaciones de edición como buscar texto, eliminar texto, modificar texto, etc. Vi suele iniciarse 
-en modo de comandos. 
+operaciones de edición como buscar texto, eliminar texto, modificar texto, etc. Vi suele iniciarse \nen modo de comandos. 
 • Modo insertar: podemos escribir texto nuevo en el punto de inserción de un archivo, editar, 
 borrar, copiar y pegar. 
-Normalmente vi se inicia en modo comandos, una vez realizado un comando y escrito el testo (estamos 
-en modo insertar), volvemos al modo de comandos, presionando la tecla esc (escape). 
+Normalmente vi se inicia en modo comandos, una vez realizado un comando y escrito el testo (estamos \nen modo insertar), volvemos al modo de comandos, presionando la tecla esc (escape). 
 Para desplazarse sobre el archivo se emplean las teclas j (abajo), k (arriba), h (izquierda) y l (derecha). 
 
 <!-- Page 84 -->
@@ -3172,8 +3111,7 @@ Donde:
 • c: Flag o bandera que representa la acción "create" e informa al comando principal que se 
 desea crear un archivo .TAR con los archivos o carpetas señalados en el comando. 
 • v: Flag o bandera que representa la acción "verbose" e informa al comando principal que se 
-desea mostrar todo lo que sucede en la ejecución, mostrando los archivos agregados o 
-extraídos según corresponda y al mismo tiempo mostrar el progreso de la operación. 
+desea mostrar todo lo que sucede en la ejecución, mostrando los archivos agregados o \nextraídos según corresponda y al mismo tiempo mostrar el progreso de la operación. 
 • f: Flag o bandera que representa la acción "file" e informa al comando principal que se desea 
 definir un nombre específico al archivo resultante. 
 • nombre-del-archivo.tar: Corresponde al nombre del archivo .TAR a crear. Este nombre 
@@ -3202,11 +3140,9 @@ se desea comprimir el .TAR resultante con GZip para disminuir el peso del archiv
 • Abrir un archivo .TAR: 
 tar -xvf [nombre-del-archivo-contenedor].tar 
 Donde: 
-• f: Flag o bandera que representa la acción "file" e informa al comando principal el nombre 
-específico del archivo a descomprimir. 
+• f: Flag o bandera que representa la acción "file" e informa al comando principal el nombre \nespecífico del archivo a descomprimir. 
 • v: Flag o bandera que representa la acción "verbose" e informa al comando principal que se 
-desea mostrar todo lo que sucede en la ejecución, mostrando los archivos agregados o 
-extraídos según corresponda y al mismo tiempo mostrar el progreso de la operación. 
+desea mostrar todo lo que sucede en la ejecución, mostrando los archivos agregados o \nextraídos según corresponda y al mismo tiempo mostrar el progreso de la operación. 
 • x: Flag o bandera que representa la acción "extraer" e informa al comando principal que se 
 desea extraer el contenido de un archivo .TAR. 
 • z: Flag o bandera que representa la acción "descomprimir con gzip" e informa al comando 
@@ -3230,8 +3166,7 @@ y para dispositivos móviles
 En ocasiones surge la necesidad de cambiar los formatos de 
 archivos .TAR, .TAR.GZ, etc. a otros que permitan su uso o 
 manipulación en otros sistemas operativos. Para ello existen 
-aplicaciones que permiten la conversión de estos archivos a otros 
-equivalentes. Algunas de ellas son: 
+aplicaciones que permiten la conversión de estos archivos a otros \nequivalentes. Algunas de ellas son: 
 • Convertio (Online). 
 • Zamzar (Online). 
 • Online-Convert.com (Online). 
@@ -3375,8 +3310,7 @@ y para dispositivos móviles
 • Cambia el grupo propietario de archivos o directorios. 
 • Formato: chgrp [opciones)] nombreGrupo archivos. 
 • gzip. 
-• Comprime un archivo. Reemplaza el fichero original con la versión comprimida y la añade la 
-extensión .gz (de texto.txt a texto.txt.gz). 
+• Comprime un archivo. Reemplaza el fichero original con la versión comprimida y la añade la \nextensión .gz (de texto.txt a texto.txt.gz). 
 • Para comprimir un grupo de ficheros se debe agrupar primero con tar y luego aplicar gzip. 
 • Formato: gzip [opciones] archivo. 
 • Opciones: 
@@ -3386,8 +3320,7 @@ El comando sort en Linux es una herramienta de la shell diseñada para reordenar
 de texto o de cualquier entrada de datos basándose en reglas específicas (alfabéticas por defecto, 
 numéricas, o por claves). 
 La utilidad lee el contenido línea por línea, aplica la ordenación y solamente imprime el resultado 
-reordenado en la salida estándar (como la pantalla o una tubería), sin alterar en modo alguno la 
-estructura ni el contenido del archivo de entrada original. 
+reordenado en la salida estándar (como la pantalla o una tubería), sin alterar en modo alguno la \nestructura ni el contenido del archivo de entrada original. 
 Sintaxis: 
 $ sort [opciones] [archivo] 
 Parámetros: 
@@ -3578,8 +3511,7 @@ Sistemas Operativos. Características y elementos constitutivos. Sistemas Window
 y para dispositivos móviles 
 99 
 • grep. 
-• Busca dentro de archivos, líneas que concuerden con el patrón dado. Si tiene éxito devuelve 
-el nombre del archivo y la línea donde se encuentra el término buscado, y también puede 
+• Busca dentro de archivos, líneas que concuerden con el patrón dado. Si tiene éxito devuelve \nel nombre del archivo y la línea donde se encuentra el término buscado, y también puede 
 devolver el número de líneas donde ha encontrado el termino buscado. 
 Puede usar expresiones regulares. Cualquier meta-carácter con un significado especial debe 
 ser protegido precediéndolo con una barra inclinada inversa ( ). 
@@ -3632,8 +3564,7 @@ Formato: ping [opciones] nombreOrdenadorODirecciónIP
 Envía paquetes de datos a otro ordenador de la red, ordenando que lo devuelva una vez 
 recibido. Sirve para comprobar el estado de una red y los ordenadores conectados. 
 • ifconfig. 
-Muestra información de red como adaptadores de red presentes, dirección IP, puerta de 
-enlace, etc. 
+Muestra información de red como adaptadores de red presentes, dirección IP, puerta de \nenlace, etc. 
 Disponible en varias versiones del sistema operativo UNIX. 
 Permite configurar o desplegar numerosos parámetros de las interfaces de red. 
 Si se llama sin argumentos suele mostrar la configuración vigente de las interfaces de red 
@@ -3691,8 +3622,7 @@ bifurcación, es realizar un desarrollo tomando como base un código fuente que 
 la ramificación de un proyecto madre en varios proyectos que son independientes entre sí y que 
 cuentan con objetivos o desarrolladores diferentes. 
 • Comando route/ip route. 
-El comando route (o el más moderno ip route) se utiliza para mostrar y modificar la tabla de 
-enrutamiento que gestiona el kernel para determinar cómo se enrutan los paquetes hacia redes 
+El comando route (o el más moderno ip route) se utiliza para mostrar y modificar la tabla de \nenrutamiento que gestiona el kernel para determinar cómo se enrutan los paquetes hacia redes 
 y hosts. 
 Sintaxis: 
 //comando antiguo y ya obsoleto 
@@ -3790,15 +3720,10 @@ ls salou202[34].jpg //coincide con salou2023.jpg, salou2024.jpg,
 //no COINCIDE con salou2025.jpg 
 • ~: representa el directorio de inicio del usuario actual. 
 cd ~ //cambia al directorio de inicio del usuario 
-• " ": preservan los espacios y permiten la expansión de variables. 
-echo "Bienvenido, $USER" //mostrará Bienvenido, [usuario actual] 
-• ' ': preservan los espacios y no permiten la expansión de variables. 
-echo 'Bienvenido $USER' //imprimirá literalmente Bienvenido, [usuario actual] 
-• \: escapan el carácter siguiente, permitiendo que caracteres especiales se traten como literales. 
-echo \$USER //mostrará $USER 
-• {}: se utilizan para la expansión de llaves, permitiendo generar una serie de cadenas. 
-echo {A..J} //mostrará A B C D E F G H I J  
-echo {1..9} //mostrará 1 2 3 4 5 6 7 8 9 
+• " ": preservan los espacios y permiten la expansión de variables. \necho "Bienvenido, $USER" //mostrará Bienvenido, [usuario actual] 
+• ' ': preservan los espacios y no permiten la expansión de variables. \necho 'Bienvenido $USER' //imprimirá literalmente Bienvenido, [usuario actual] 
+• \: escapan el carácter siguiente, permitiendo que caracteres especiales se traten como literales. \necho \$USER //mostrará $USER 
+• {}: se utilizan para la expansión de llaves, permitiendo generar una serie de cadenas. \necho {A..J} //mostrará A B C D E F G H I J  \necho {1..9} //mostrará 1 2 3 4 5 6 7 8 9 
 
 <!-- Page 106 -->
 
@@ -3821,8 +3746,7 @@ comando1 || comando2
 • ;: separa comandos para ser ejecutados secuencialmente. 
 comando1;comando2 //ejecuta comando1 seguido de comando2 sin importar si command1 
 tuvo éxito. 
-• $: referencia a una variable. 
-echo $HOME //mostrará el directorio personal del usuario actual: /home/[usuario] 
+• $: referencia a una variable. \necho $HOME //mostrará el directorio personal del usuario actual: /home/[usuario] 
 
 <!-- Page 107 -->
 
@@ -3847,8 +3771,7 @@ se atiende cuando se regresa a modo usuario, esto puede causar un
 pequeño retraso. 
  
  
-Si un proceso recibe una señal, se interrumpe su ejecución y se almacena su estado para reanudar su 
-ejecución posteriormente. Se pasa a ejecutar la función que atiende esa señal, definida en el proceso 
+Si un proceso recibe una señal, se interrumpe su ejecución y se almacena su estado para reanudar su \nejecución posteriormente. Se pasa a ejecutar la función que atiende esa señal, definida en el proceso 
 receptory cuando finaliza se reanuda la ejecución del primer proceso en el punto que se interrumpió. 
  
  
@@ -3874,11 +3797,9 @@ del proceso.
 Cada señal tiene un nombre SIGxxx con un significado específico. La comunicación es rápida y 
 unidireccional. 
 Podemos clasificar las señales en dos tipos: 
-• Señales no tiempo real: son las clásicas, son las primeras 31 señales, cuando se envían solo se 
-envía su número de señal. 
+• Señales no tiempo real: son las clásicas, son las primeras 31 señales, cuando se envían solo se \nenvía su número de señal. 
 • Señales tiempo real: son configurables por los procesos, se puede mandar información extra a 
-través de la estructura info, y si se está atendiendo a la primera señal, y se reciben más señales, 
-estas se encolan. Están Definidas por la norma POSIX 1003. 
+través de la estructura info, y si se está atendiendo a la primera señal, y se reciben más señales, \nestas se encolan. Están Definidas por la norma POSIX 1003. 
 Listado señales no tiempo real 
 1 
 SIGHUP 
@@ -4019,8 +3940,7 @@ A no ser que el usuario especifique otro valor como un parámetro de autoarranqu
 sistema intentará entrar (iniciar) al nivel de ejecución por defecto. 
 La mayoría de las distribuciones Linux, definen los siguientes niveles de ejecución adicionales: 
 Los 7 niveles de ejecución (runlevels) estándars 
-Nivel de 
-ejecución 
+Nivel de \nejecución 
 Nombre o 
 denominación 
 Descripción 
@@ -4032,8 +3952,7 @@ Modo de usuario
 único (Monousuario) 
 No configura la interfaz de red o los demonios de inicio, ni permite que 
 ingresen otros usuarios que no sean el usuario root, sin contraseña. 
-Este nivel de ejecución permite reparar problemas, o hacer pruebas en 
-el sistema 
+Este nivel de ejecución permite reparar problemas, o hacer pruebas en \nel sistema 
 2 
 Multiusuario 
 Multiusuario sin soporte de red 
@@ -4110,14 +4029,12 @@ rendimiento.
 • Mac OS X 10.4 "Tiger" (2005): Se introduce el "Dashboard y Spotlight", entre otras 
 particularidades. 
 • Mac OS X 10.5 "Leopard" (2007): Se incorpora Time Machine y Boot Camp, y varias novedades. 
-• Mac OS X 10.6 "Snow Leopard" (2009): la estabilidad y la mejora de rendimiento es lo esencial 
-en esta versión. 
+• Mac OS X 10.6 "Snow Leopard" (2009): la estabilidad y la mejora de rendimiento es lo esencial \nen esta versión. 
 • OS X 10.7 "Lion" (2011): la nomenclatura cambia a "OS X". 
 • OS X 10.8 "Mountain Lion" (2012): intensifica la integración con iCloud. 
 • OS X 10.9 "Mavericks" (2013): Implementa Maps y iBooks. 
 • OS X 10.10 "Yosemite" (2014): Nuevo diseño más moderno y mejoras en la integración con iOS. 
-• OS X 10.11 "El Capitan" (2015): Trabaja en el rendimiento, la estabilidad y profundiza en la 
-experiencia de usuario de la versión anterior. 
+• OS X 10.11 "El Capitan" (2015): Trabaja en el rendimiento, la estabilidad y profundiza en la \nexperiencia de usuario de la versión anterior. 
 • macOS 10.12 "Sierra" (2016): Aparece Siri en la plataforma Mac. 
 • macOS 10.13 "High Sierra" (2017): mejora la gestión de archivos, la seguridad del sistema, e 
 introduce el soporte de videos de alta eficiencia HEVC. 
@@ -4139,16 +4056,14 @@ que los usuarios puedan automatizar flujos de trabajo personalizados.
 Sistemas Operativos. Características y elementos constitutivos. Sistemas Windows, Linux, 
 y para dispositivos móviles 
 113 
-• macOS 13: "Ventura" (2022): trae nuevas aplicaciones, mejoras en su gestor de correo 
-electrónico Mail, una nueva versión de Safari, nuevas funciones para las videoconferencias... 
+• macOS 13: "Ventura" (2022): trae nuevas aplicaciones, mejoras en su gestor de correo \nelectrónico Mail, una nueva versión de Safari, nuevas funciones para las videoconferencias... 
 • macOS 14: "Sonoma" (2023): vigésima versión. Widgets en el escritorio: permite además de 
 tener widgets en el centro de notificaciones, incluirlos directamente en el escritorio, mejora del 
 sistema de videoconferencia, mejoras en la navegación privada, en el compartir pantalla... 
 • macOS 15 Sequoia (2024): destacando funciones como iPhone Mirroring para controlar el 
 iPhone desde el Mac, una nueva aplicación de Contraseñas, mejoras en la organización de 
 ventanas y herramientas avanzadas para videoconferencias. Además, se anunció Apple 
-Intelligence, su sistema de IA, aunque su lanzamiento se programó para finales de 2024 y solo 
-en Macs con chips M1 o posteriores. Actualmente, la versión más reciente es macOS Sequoia 
+Intelligence, su sistema de IA, aunque su lanzamiento se programó para finales de 2024 y solo \nen Macs con chips M1 o posteriores. Actualmente, la versión más reciente es macOS Sequoia 
 15.3, lanzada en enero de 2025, con mejoras en rendimiento y seguridad, correcciones en 
 AirPlay, FaceTime, iCloud y Safari, además de la función beta GenEmoji para crear emojis 
 personalizados mediante texto. También se optimizó Apple Intelligence, se mejoró la 
@@ -4178,8 +4093,7 @@ El experto opina
 Consideramos dispositivos móviles a los teléfonos móviles, tablets, 
 pdas y similares. 
 Los netbooks se consideran a menudo dispositivos móviles, pero 
-dado que el tamaño del dispositivo impide un manejo cómodo (por 
-ejemplo, sin la ayuda de una mesa) no lo consideraremos un 
+dado que el tamaño del dispositivo impide un manejo cómodo (por \nejemplo, sin la ayuda de una mesa) no lo consideraremos un 
 dispositivo móvil en este documento. 
  
  
@@ -4211,8 +4125,7 @@ y para dispositivos móviles
 7.1. Android 
  
 El sistema operativo Android es sin duda el líder del mercado móvil en sistemas operativos. 
-Android se utiliza para teléfonos inteligentes y tabletas, así como también algunas distribuciones 
-enfocadas a su uso en ordenadores personales de escritorio y portátiles (Note y Netbook 
+Android se utiliza para teléfonos inteligentes y tabletas, así como también algunas distribuciones \nenfocadas a su uso en ordenadores personales de escritorio y portátiles (Note y Netbook 
 respectivamente) ejemplo: Remix OS. 
 Características 
 • Código abierto. 
@@ -4225,8 +4138,7 @@ compiladores que permiten a los desarrolladores crear aplicaciones en Java y Kot
 lenguajes oficialmente soportados por Android. 
 • Si bien Java se sigue utilizando, en los últimos años Kotlin se ha convertido en el lenguaje 
 recomendado por Google (desde 2017). 
-• Las aplicaciones Android se empaquetan con la extensión .apk (Android Application Package, en 
-español: Paquete de Aplicación Android), que permite su instalación en dispositivos Android. 
+• Las aplicaciones Android se empaquetan con la extensión .apk (Android Application Package, en \nespañol: Paquete de Aplicación Android), que permite su instalación en dispositivos Android. 
 • Android cuenta con su propia máquina virtual para ejecutar estas aplicaciones: 
 • Dalvik hasta la versión 4.3 (Jelly Bean). 
 • ART (Android Run Time) a partir de la versión 4.4 (Kit Kat). 

@@ -6,8 +6,7 @@ tags:
   - temario-extendido
   - bloque-3
   - tema-01
-  - oposiciones-tai
-estado: "🔴 Por Estudiar"
+  - oposiciones-tai\nestado: "🔴 Por Estudiar"
 dificultad: "⭐⭐⭐"
 prioridad: "Máxima"
 sources:
@@ -199,8 +198,7 @@ Diseño lógico y físico. El modelo lógico relacional. Normalización
  
 Fuente: Public domain vectors 
 El diseño de la base de datos es la base de todo el funcionamiento de un programa, nos debe 
-proporcionar las mejores condiciones del tratamiento de datos para que el programa que creemos sea 
-eficaz y eficiente. 
+proporcionar las mejores condiciones del tratamiento de datos para que el programa que creemos sea \neficaz y eficiente. 
 Todo debe estar totalmente especificado y concretado al máximo. 
 El diseño de bases de datos, lo realiza un analista y/o un programador. 
  
@@ -313,8 +311,7 @@ Deben cumplir unas determinadas normas, para que el uso de datos sea eficiente y
 Forma un conjunto de archivos electrónicos. Las bases de datos tradicionales se organizan por campos, 
 registros y archivos. 
 El diseño, desarrollo y gestión de bases de datos ha evolucionado mucho y, en la actualidad, es una 
-parte esencial de cualquier entorno informático, por lo que es imprescindible tener conocimiento sobre 
-ellas. 
+parte esencial de cualquier entorno informático, por lo que es imprescindible tener conocimiento sobre \nellas. 
  
  
  
@@ -342,19 +339,16 @@ integridad, confidencialidad y seguridad de dichos datos.
 Modelado de datos, metodologías y reglas. Entidades, atributos y relaciones. Diseño de bases de datos. 
 Diseño lógico y físico. El modelo lógico relacional. Normalización 
 9 
-(Un software, sabemos que es un conjunto coordinado de programas, procedimientos, lenguajes, 
-etcétera). 
+(Un software, sabemos que es un conjunto coordinado de programas, procedimientos, lenguajes, \netcétera). 
 Su objetivo principal es simplificar y facilitar el acceso a datos, de forma rápida y fiable. 
 1.2.2.1. Tipos de bases de datos por clasificaciones 
 La elección de una base de datos depende de factores como la estructura de los datos, el volumen de 
 información o los requisitos de escalabilidad. Existen múltiples clasificaciones, siendo la más 
 fundamental la basada en el modelo de datos. 
 1.2.2.1.1. Clasificación por modelo de datos 
-El modelo de datos determina cómo se organiza y accede la información. Cada modelo ofrece ventajas 
-específicas para distintos tipos de aplicaciones. 
+El modelo de datos determina cómo se organiza y accede la información. Cada modelo ofrece ventajas \nespecíficas para distintos tipos de aplicaciones. 
 Modelo relacional 
-Organiza los datos en tablas compuestas por filas y columnas. Utiliza claves primarias y foráneas para 
-establecer relaciones entre tablas y garantizar la integridad referencial. Es ideal para aplicaciones que 
+Organiza los datos en tablas compuestas por filas y columnas. Utiliza claves primarias y foráneas para \nestablecer relaciones entre tablas y garantizar la integridad referencial. Es ideal para aplicaciones que 
 requieren consistencia y transacciones ACID, como sistemas financieros o gestores de contenidos. 
 Modelo NoSQL 
 Las bases de datos no relacionales (NoSQL) surgieron como alternativa al modelo relacional para 
@@ -362,8 +356,7 @@ manejar grandes volúmenes de datos no estructurados. Se caracterizan por esquem
 requieren estructuras fijas como tablas, y priorizan la escalabilidad horizontal. 
 A diferencia de los SGBDR, no siempre utilizan SQL como lenguaje principal y suelen optimizarse para 
 patrones de acceso específicos, evitando operaciones complejas como JOINs para mantener el 
-rendimiento distribuidor. Si bien inicialmente relajaban las garantías ACID para lograr mayor 
-escalabilidad, muchas bases NoSQL modernas (como MongoDB o Google Spanner) ofrecen 
+rendimiento distribuidor. Si bien inicialmente relajaban las garantías ACID para lograr mayor \nescalabilidad, muchas bases NoSQL modernas (como MongoDB o Google Spanner) ofrecen 
 actualmente transacciones ACID completas. 
 • Modelo orientado a documentos: 
 MongoDB es el principal exponente. Almacena la información en documentos flexibles que 
@@ -394,14 +387,12 @@ Representan los datos como nodos (entidades) y aristas (relaciones entre entidad
 perfecto para redes sociales, sistemas de recomendación o detección de fraudes. 
 • Modelo orientado a columnas: 
 Almacena los datos por columnas en lugar de por filas, agrupando valores del mismo tipo. Esto 
-acelera las consultas analíticas que procesan grandes volúmenes de datos. Es común en 
-entornos de business intelligence o data warehousing. 
+acelera las consultas analíticas que procesan grandes volúmenes de datos. Es común en \nentornos de business intelligence o data warehousing. 
 Modelos históricos 
 Fueron populares antes de la llegada del modelo relacional. Aportaron ideas fundamentales pero 
 carecían de la flexibilidad de los modelos modernos. 
 • Modelo jerárquico: 
-Organiza los datos en una estructura de árbol donde cada registro tiene un único padre. Es 
-eficiente para datos con relaciones one-to-many predefinidas. Sin embargo, su rigidez lo hace 
+Organiza los datos en una estructura de árbol donde cada registro tiene un único padre. Es \neficiente para datos con relaciones one-to-many predefinidas. Sin embargo, su rigidez lo hace 
 difícil de adaptar a cambios en los requisitos. 
 • Modelo en red: 
 Extiende el modelo jerárquico permitiendo que un registro tenga múltiples padres. Facilita la 
@@ -428,8 +419,7 @@ mayoría de las bases de datos tradicionales son unimodelo. Por ejemplo:
 • MySQL es unimodelo (relacional), ya que se optimiza para trabajar con tablas y SQL. 
 • MongoDB es unimodelo (documentos), diseñado específicamente para almacenar y consultar 
 documentos BSON. 
-Un sistema unimodelo suele ofrecer un rendimiento y una optimización superiores para su modelo 
-específico, al estar especializado. 
+Un sistema unimodelo suele ofrecer un rendimiento y una optimización superiores para su modelo \nespecífico, al estar especializado. 
 Base de datos multimodelo 
 Una base de datos multimodelo es un sistema integrado capaz de gestionar datos utilizando múltiples 
 modelos de forma simultánea sobre un mismo motor de almacenamiento. A diferencia de las bases de 
@@ -448,8 +438,7 @@ Manejan operaciones frecuentes y cortas, como inserciones, actualizaciones o con
 Garantizan las propiedades ACID para asegurar la integridad de cada transacción. Son propias de 
 sistemas de comercio electrónico, reservas o banca. 
 Bases de datos analíticas (OLAP) 
-Se especializan en consultas complejas que analizan grandes volúmenes de datos históricos. Su 
-estructura está optimizada para operaciones de agregación y generación de informes. Forman el núcleo 
+Se especializan en consultas complejas que analizan grandes volúmenes de datos históricos. Su \nestructura está optimizada para operaciones de agregación y generación de informes. Forman el núcleo 
 de herramientas de business intelligence y data mining. 
 
 <!-- Page 12 -->
@@ -463,16 +452,14 @@ Diseño lógico y físico. El modelo lógico relacional. Normalización
 Están diseñadas para tipos de datos o dominios de aplicación muy concretos. Su diseño optimiza 
 rendimiento y funcionalidades para casos de uso específicos. 
 Bases de datos geográficas (GIS) 
-Manejan datos espaciales como coordenadas, mapas o formas geométricas. Incluyen operaciones 
-especializadas para calcular distancias, áreas o intersecciones. Son esenciales en sistemas de 
+Manejan datos espaciales como coordenadas, mapas o formas geométricas. Incluyen operaciones \nespecializadas para calcular distancias, áreas o intersecciones. Son esenciales en sistemas de 
 navegación, urbanismo o gestión de recursos naturales. 
 Bases de datos de series de tiempo 
 Almacenan puntos de datos indexados por tiempo, como lecturas de sensores o cotizaciones bursátiles. 
 Comprimen datos eficientemente y optimizan consultas por rangos temporales. Se usan en 
 monitorización industrial, finanzas o IoT. 
 Bases de datos en memoria 
-Almacenan los datos primarily en memoria RAM para minimizar latencias de acceso. Logran velocidades 
-extremadamente altas en operaciones de lectura y escritura. Son ideales para cachés, sesiones de 
+Almacenan los datos primarily en memoria RAM para minimizar latencias de acceso. Logran velocidades \nextremadamente altas en operaciones de lectura y escritura. Son ideales para cachés, sesiones de 
 usuario o aplicaciones en tiempo real. 
 1.3. Objetivos y cualidades de un buen diseño 
 Un buen diseño debe definir cosas primordiales como la estructura de datos, tipo de dato, si es o no un 
@@ -516,8 +503,7 @@ Es muy importante, debe evitar:
  
 Atención 
 Integridad: 
-Si un dato está en varias tablas (o ficheros) y se modifica en una de 
-ellas, (modificamos el DNI en la tabla de empleados), este debe 
+Si un dato está en varias tablas (o ficheros) y se modifica en una de \nellas, (modificamos el DNI en la tabla de empleados), este debe 
 modificarse en todas las tablas o ficheros donde aparezca). 
  
  
@@ -677,16 +663,14 @@ serie de conceptos:
 Modelado de datos, metodologías y reglas. Entidades, atributos y relaciones. Diseño de bases de datos. 
 Diseño lógico y físico. El modelo lógico relacional. Normalización 
 18 
-En el diseño conceptual, las restricciones de consistencia se expresan mediante reglas semánticas y 
-estructurales en el modelo Entidad-Relación (DER). 
+En el diseño conceptual, las restricciones de consistencia se expresan mediante reglas semánticas y \nestructurales en el modelo Entidad-Relación (DER). 
 Restricciones de: 
 • Integridad de clave: garantizan que cada instancia de una entidad sea única e identificable (el 
 DNI de un Cliente debe ser único y no nulo). 
 • Integridad de entidad: establecen la participación obligatoria de una entidad en una relación 
 (para poder tener la condición de alumno se ha de estar matriculado como mínimo en una 
 asignatura). 
-• Cardinalidad: definen los límites numéricos de una relación entre entidades (1:1, 1:N, N:M), lo 
-estudiaremos en detalle un poco más adelante en esta misma unidad. 
+• Cardinalidad: definen los límites numéricos de una relación entre entidades (1:1, 1:N, N:M), lo \nestudiaremos en detalle un poco más adelante en esta misma unidad. 
 • Dominio o valor: definen el conjunto de valores válidos que puede tomar un atributo (la Edad de 
 una entidad persona ha de ser un entero mayor que 0...). 
 • Semánticas o reglas de negocio: las más específicas y dependen completamente del contexto 
@@ -711,8 +695,7 @@ sistema. Utiliza una notación específica (entidades, atributos, relaciones y c
 crear un esquema conceptual que es independiente de la tecnología de base de datos que se vaya a 
 utilizar posteriormente. 
 El objetivo es, de una forma gráfica, representar la descripción de datos, relaciones entre datos, 
-semántica de los datos y restricciones de consistencia, creando una visión real y natural (mediante 
-entidades e interrelaciones). 
+semántica de los datos y restricciones de consistencia, creando una visión real y natural (mediante \nentidades e interrelaciones). 
 
 <!-- Page 19 -->
 
@@ -725,8 +708,7 @@ El modelo original utilizaba 3 conceptos:
 • Entidad. 
 • Relación entre entidades. 
 • Atributo. 
-• Cardinalidad. Como concepto importante, para determinar los tipos de relación entre 
-entidades. 
+• Cardinalidad. Como concepto importante, para determinar los tipos de relación entre \nentidades. 
 Más adelante, también se han ido añadiendo nuevos conceptos para mejorar su capacidad expresiva, 
 convirtiéndolo en modelo Entidad/Relación extendido mediante: 
 • Dominios de atributos. 
@@ -743,8 +725,7 @@ Cada tipo de entidad debe tener un nombre único en el esquema.
  
  
 CONVO 2022 
-En el examen de la convocatoria del 22 se decía que Métrica v3 
-entendía Entidad en el Modelo Entidad-Relación Extendido, como 
+En el examen de la convocatoria del 22 se decía que Métrica v3 \nentendía Entidad en el Modelo Entidad-Relación Extendido, como 
 "aquel objeto, real o abstracto, acerca del cual se desea almacenar 
 información en la base de datos". 
  
@@ -793,8 +774,7 @@ Diseño lógico y físico. El modelo lógico relacional. Normalización
 21 
 2.1.2.2. Atributo (attribute) 
 Atributo es una característica o propiedad de un tipo de entidad. 
-Los atributos son la unidad básica de información que sirve para describir las características de la 
-entidad; "para identificar la entidad". 
+Los atributos son la unidad básica de información que sirve para describir las características de la \nentidad; "para identificar la entidad". 
 (Puede ser un número elevado, el diseñador decidirá cuales indicar, los más relevantes para el sistema). 
 Cada entidad debe contener un número mínimo de distintos atributos, que la identifiquen 
 inequívocamente. 
@@ -838,8 +818,7 @@ serían:
 • Motor. Ejemplo: gasolina (tipo texto). 
  
  
-Este ejemplo muestra atributos descriptivos, pero falta especificar el atributo identificador. Para la 
-entidad coche, el identificador principal sería normalmente la matrícula. 
+Este ejemplo muestra atributos descriptivos, pero falta especificar el atributo identificador. Para la \nentidad coche, el identificador principal sería normalmente la matrícula. 
 Atributo Identificador de una Entidad (Identificadores) 
 El identificador de una entidad es un atributo o conjunto de atributos que identifica unívocamente a 
 cada ocurrencia de esa entidad. 
@@ -901,9 +880,7 @@ Cuando un atributo no tiene un valor determinado, recibe el valor nulo.
  
  
 Ejemplo de Dominios de atributos 
-El atributo "kilómetros" puede tomar un valor entero positivo. Si 
-establecemos que no se venderán coches con más de 500.000 km, 
-el dominio sería [0-500000] (el conjunto de los números enteros 
+El atributo "kilómetros" puede tomar un valor entero positivo. Si \nestablecemos que no se venderán coches con más de 500.000 km, \nel dominio sería [0-500000] (el conjunto de los números enteros 
 comprendidos entre 0 y 500.000). 
 El atributo "motor" puede tomar varios valores específicos. Su 
 dominio de atributos sería la lista: {"gasolina", "diésel", "eléctrico", 
@@ -998,16 +975,14 @@ Diseño lógico y físico. El modelo lógico relacional. Normalización
 El nombre de la relación la distingue unívocamente del resto de relaciones del modelo. 
 2.1.2.4.2. Cardinalidad 
 En el modelo Entidad–Relación es fundamental distinguir entre la determinación de la cardinalidad de 
-una relación y la forma en que dicha cardinalidad se expresa mediante una notación estándar, como es 
-el caso de 1:N. Aunque ambos conceptos están relacionados, no son equivalentes y conviene tratarlos 
+una relación y la forma en que dicha cardinalidad se expresa mediante una notación estándar, como es \nel caso de 1:N. Aunque ambos conceptos están relacionados, no son equivalentes y conviene tratarlos 
 de forma separada. 
 Determinación de la cardinalidad de una relación. 
 La cardinalidad de una relación se determina a partir de la participación de las entidades en dicha 
 relación. Para cada entidad se establece una dupla de participación (mínimo, máximo), que indica el 
 número mínimo y máximo de veces que una ocurrencia de la entidad puede intervenir en la relación. 
 Una vez determinadas las duplas de participación de todas las entidades implicadas, la cardinalidad de la 
-relación se obtiene considerando los valores máximos de dichas participaciones. Es decir, la cardinalidad 
-expresa cuántas ocurrencias de una entidad pueden asociarse, como máximo, con una ocurrencia de la 
+relación se obtiene considerando los valores máximos de dichas participaciones. Es decir, la cardinalidad \nexpresa cuántas ocurrencias de una entidad pueden asociarse, como máximo, con una ocurrencia de la 
 otra entidad a través de la relación. 
 Por tanto, la cardinalidad no depende del sentido de lectura de la relación ni de la forma en que se 
 describa verbalmente, sino únicamente de los límites máximos de participación de las entidades. La 
@@ -1019,11 +994,9 @@ con las de otras dentro de una relación. Este concepto se utiliza para clasific
 del número máximo de ocurrencias que pueden asociarse entre sí las entidades implicadas. 
 El tipo de correspondencia se determina a partir de la cardinalidad máxima de la relación, y permite 
 identificar si una relación es de uno a uno, de uno a varios o de varios a varios. Por tanto, no describe la 
-obligatoriedad de participación ni los mínimos, sino únicamente el tipo de asociación máxima existente 
-entre las entidades. 
+obligatoriedad de participación ni los mínimos, sino únicamente el tipo de asociación máxima existente \nentre las entidades. 
 En un conjunto de relaciones en el que participan dos o más entidades, el tipo de correspondencia indica 
-con cuántas ocurrencias de una entidad puede relacionarse, como máximo, una ocurrencia de la otra 
-entidad. 
+con cuántas ocurrencias de una entidad puede relacionarse, como máximo, una ocurrencia de la otra \nentidad. 
 
 <!-- Page 28 -->
 
@@ -1044,16 +1017,14 @@ En una relación uno a varios, una ocurrencia de una entidad puede relacionarse 
 ocurrencias de la otra entidad, mientras que cada ocurrencia de esta última solo puede 
 relacionarse con una ocurrencia de la primera. 
 Una vez determinada la cardinalidad de la relación a partir de las participaciones máximas, esta 
-se representa mediante la notación estándar 1:N. Esta notación responde a una convención de 
-escritura, cuyo objetivo es unificar la forma de representar las cardinalidades. El valor 1 
+se representa mediante la notación estándar 1:N. Esta notación responde a una convención de \nescritura, cuyo objetivo es unificar la forma de representar las cardinalidades. El valor 1 
 corresponde a la entidad cuya participación máxima es uno, mientras que el valor N 
 corresponde a la entidad cuya participación máxima es muchos. 
 Aunque conceptualmente la relación pueda describirse desde cualquiera de las entidades 
 implicadas, la cardinalidad es única y no varía. La notación 1:N no implica una elección ni 
 depende del punto de partida, sino que representa de forma normalizada una cardinalidad 
 previamente determinada. 
-Para describir con mayor precisión el comportamiento de las entidades en la relación, 
-especialmente en lo relativo a la obligatoriedad de participación, es necesario recurrir a las 
+Para describir con mayor precisión el comportamiento de las entidades en la relación, \nespecialmente en lo relativo a la obligatoriedad de participación, es necesario recurrir a las 
 duplas de participación (mínimo, máximo), ya que la notación 1:N únicamente refleja los valores 
 máximos y no aporta información sobre los mínimos. 
 • Relaciones Varios a Varios (N:M). 
@@ -1148,8 +1119,7 @@ Diseño lógico y físico. El modelo lógico relacional. Normalización
 31 
 3. Identificar las relaciones entre entidades 
 Asignar nombre a las relaciones 
-Les asignamos un nombre a las relaciones de las entidades definidas en el punto anterior: verbos o 
-expresiones verbales. 
+Les asignamos un nombre a las relaciones de las entidades definidas en el punto anterior: verbos o \nexpresiones verbales. 
 4. Identificar atributos 
 Identificar características posibles 
 Buscamos las características de cada entidad, y les asignamos un nombre (nombre del atributo). 
@@ -1180,14 +1150,12 @@ general y el resto en las entidades especializadas.
 Especificar las relaciones entre las entidades 
 Determinamos si las entidades son entidades fuertes (independientes) o débiles (dependientes). 
 Una entidad débil sufre dependencia de identificación. 
-Para identificarse necesita la ocurrencia de otras entidades con las que está relacionada. Debemos 
-especificar la relación o relaciones que identifican a cada entidad débil. 
+Para identificarse necesita la ocurrencia de otras entidades con las que está relacionada. Debemos \nespecificar la relación o relaciones que identifican a cada entidad débil. 
 9. Comprobar si hay redundancia 
 No debe haber redundancia 
 Tras construir el modelo entidad/relación, debe ser analizado para comprobar si se presentan 
 redundancias. 
-Los atributos redundantes, que se derivan de otros elementos mediante algún calculo, deben ser 
-eliminados o marcarse como redundantes. 
+Los atributos redundantes, que se derivan de otros elementos mediante algún calculo, deben ser \neliminados o marcarse como redundantes. 
 Hay que estudiar detenidamente las cardinalidades mínimas de las entidades, y la semántica de las 
 relaciones. Las relaciones redundantes deben eliminarse del modelo, asegurándose que eliminándolas 
 sigue siendo posible el paso, tanto en un sentido como en el inverso, entre las dos entidades que unían. 
@@ -1215,8 +1183,7 @@ Antes de repasar el modelo con el usuario, es importante repasarlo, para garanti
 requisitos. 
 11. Repasar el modelo conceptual con los usuarios 
 Mostrar el trabajo realizado a los usuarios, nuestro objetivo es que lo entiendan 
-Los usuarios deben estar implicados en este proceso y deben entender y validar que lo representado en 
-el modelo conceptual es lo que ellos necesitan. 
+Los usuarios deben estar implicados en este proceso y deben entender y validar que lo representado en \nel modelo conceptual es lo que ellos necesitan. 
 Si no entienden el modelo, generalmente, habrá que revisarlo hasta que se cumpla este requisito. 
 12. Generar documentación 
 Imprescindible tener el trabajo bien documentado 
@@ -1255,8 +1222,7 @@ El DFD establece las funciones que hay que desarrollar sin indicar cómo hacerlo
 Es independiente de las restricciones físicas del entorno. 
 Objetivo 
 El objetivo principal es simplificar el entendimiento y mantenimiento del sistema. 
-Proporcionar una representación del sistema a nivel lógico y conceptual que facilite su comprensión al 
-equipo de desarrollo y a los usuarios. 
+Proporcionar una representación del sistema a nivel lógico y conceptual que facilite su comprensión al \nequipo de desarrollo y a los usuarios. 
 Permite representar gráficamente: 
 • El flujo o movimiento de los datos a través del sistema. 
 • La lógica de los procesos. 
@@ -1327,8 +1293,7 @@ datos de entrada, generando datos de salida.
 • Una entidad externa y un almacén de datos solamente se pueden relacionar a través de un 
 proceso (no directamente). 
 • Un proceso puede transformar un flujo de datos en varios. 
-• Los procesos representan transformaciones lógicas de datos y no describen control de 
-ejecución, inicio ni finalización. 
+• Los procesos representan transformaciones lógicas de datos y no describen control de \nejecución, inicio ni finalización. 
 Un proceso, representa una función que tiene que realizar el sistema para transformar o 
 manipular datos, debe generar los flujos de datos de salida a partir de los de entrada, más 
 una información constante o variable al proceso. 
@@ -1340,11 +1305,8 @@ una información constante o variable al proceso.
 Modelado de datos, metodologías y reglas. Entidades, atributos y relaciones. Diseño de bases de datos. 
 Diseño lógico y físico. El modelo lógico relacional. Normalización 
 37 
-El proceso nunca es el origen ni el final de los datos, puede transformar un flujo de datos de 
-entrada en varios de salida, y es necesario siempre, como intermediario entre entidad 
-externa y almacén de datos. 
-Todo proceso, independientemente del nivel del diagrama, debe tener al menos una 
-entrada y una salida. 
+El proceso nunca es el origen ni el final de los datos, puede transformar un flujo de datos de \nentrada en varios de salida, y es necesario siempre, como intermediario entre entidad \nexterna y almacén de datos. 
+Todo proceso, independientemente del nivel del diagrama, debe tener al menos una \nentrada y una salida. 
 • Flujo de datos: 
 • Representa el movimiento de los datos. 
 • Muestra la comunicación entre los procesos y los almacenes o entidades externas. 
@@ -1354,8 +1316,7 @@ implicar sincronización temporal ni control de ejecución entre ellos.
 » De consulta. 
 El flujo es desde el almacén al proceso que consulta los datos. 
 » De actualización. 
-Es un Flujo, dónde los datos se alteran, creando, modificando o eliminando los ya 
-existentes. Hay dos tipos de actualizaciones: 
+Es un Flujo, dónde los datos se alteran, creando, modificando o eliminando los ya \nexistentes. Hay dos tipos de actualizaciones: 
 » Actualización completa: Realiza un vaciado completo y una recarga de los datos. 
 » Actualización incremental: Procesa un subconjunto de los datos en función de las 
 reglas basadas en el tiempo, expresadas como un filtro, que haya configurado. 
@@ -1365,12 +1326,10 @@ salida de información).
 DFD orientados al control (modelo extendido) 
 • Proceso de control: (En sistemas orientados al control de datos). 
 Representa procesos que coordinan y sincronizan las actividades de otros procesos del 
-diagrama de flujo de datos. Es un proceso que no transforma datos sino que decide cuando se 
-ejecuta otro proceso (si debe de activarse, de esperar, de detenerse). 
+diagrama de flujo de datos. Es un proceso que no transforma datos sino que decide cuando se \nejecuta otro proceso (si debe de activarse, de esperar, de detenerse). 
 • Flujo de control: (En sistemas orientados al control de datos). 
 Representa el flujo entre un proceso de control y otro proceso. 
-El flujo de control que sale de un proceso de control activa al proceso que lo recibe y el que 
-entra le informa de la situación de un proceso. 
+El flujo de control que sale de un proceso de control activa al proceso que lo recibe y el que \nentra le informa de la situación de un proceso. 
 
 <!-- Page 38 -->
 
@@ -1449,8 +1408,7 @@ necesite ser particionado en uno o varios niveles más y otro nivel contenga un 
 Composición 
 El modelo de procesos deberá contener: 
 • Diagrama de contexto (nivel 0). 
-El diagrama de contexto tiene como objetivo delimitar el ámbito del sistema con el mundo 
-exterior definiendo sus interfaces. 
+El diagrama de contexto tiene como objetivo delimitar el ámbito del sistema con el mundo \nexterior definiendo sus interfaces. 
 • Diagrama 0 (nivel 1). 
 N diagramas de nivel 2, donde N es el número de procesos del nivel1. 
 En función a la complejidad del proceso habrá: 
@@ -1460,8 +1418,7 @@ Construcción
 Aunque el número de niveles depende del sistema y de su tamaño, seguiremos normalmente los 
 siguientes pasos: 
 1. Se crea el diagrama de contexto, conocido como DFD de Nivel "0". 
-Diagrama de contexto tiene como objetivo delimitar el ámbito del sistema con el mundo 
-exterior definiendo sus interfaces. Es el de más alto nivel. 
+Diagrama de contexto tiene como objetivo delimitar el ámbito del sistema con el mundo \nexterior definiendo sus interfaces. Es el de más alto nivel. 
 Es de gran utilidad para los niveles posteriores de análisis como herramienta de balanceo. 
 Contendrá: 
 • Un único proceso que corresponde con el sistema en estudio. 
@@ -1487,8 +1444,7 @@ Donde N es el número de procesos del nivel1.
 Se siguen descomponiendo los procesos hasta llegar a nivel suficiente de detalle. 
 5. Procesos primitivos. 
 DFD en el último nivel de detalle, aquel que no se puede descomponer. Se detallará su entrada, 
-su salida y una descripción de lo que realiza. También se denomina función elemental o proceso 
-elemental. 
+su salida y una descripción de lo que realiza. También se denomina función elemental o proceso \nelemental. 
 Niveles de DFD 
 • Contexto. 
 • Nivel 1: subsistemas. 
@@ -1525,8 +1481,7 @@ Modelado de datos, metodologías y reglas. Entidades, atributos y relaciones. Di
 Diseño lógico y físico. El modelo lógico relacional. Normalización 
 43 
 Ejemplo 
-Vamos a ver un ejemplo, para que veas de forma gráfica la técnica top-down, y comprendas mejor lo 
-estudiado. 
+Vamos a ver un ejemplo, para que veas de forma gráfica la técnica top-down, y comprendas mejor lo \nestudiado. 
 Ejemplo de un servicio técnico de informática, teniendo en cuenta sólo averías de hardware: 
  
  
@@ -1692,8 +1647,7 @@ derecha (left to right).
 La notación utilizada en el diagrama de flujo no debe depender del lenguaje de programación. 
 La solución presentada se puede escribir después en varios lenguajes de programación. 
 • Regla 6. 
-Al realizar una tarea compleja, es conveniente escribir comentarios que expresen o ayuden a 
-entender lo que hayamos hecho. 
+Al realizar una tarea compleja, es conveniente escribir comentarios que expresen o ayuden a \nentender lo que hayamos hecho. 
 • Regla 7. 
 Si la construcción del diagrama de flujo ocupara más de una hoja, utilizaríamos los conectores 
 adecuados y enumeraríamos las páginas correspondientes. 
@@ -1739,10 +1693,8 @@ Para comprobar todo lo que has aprendido, vamos a ver un algoritmo de para queda
  
  
 Reto 
-Hay una posible situación, que no está reflejada, intenta saber cuál 
-es antes de continuar al siguiente apartado. Ahora tienes que 
-utilizar la lógica de ser programador. Y también te sirve tu 
-experiencia a la hora de quedar con amigos o amigas… 
+Hay una posible situación, que no está reflejada, intenta saber cuál \nes antes de continuar al siguiente apartado. Ahora tienes que 
+utilizar la lógica de ser programador. Y también te sirve tu \nexperiencia a la hora de quedar con amigos o amigas… 
  
 
 <!-- Page 52 -->
@@ -1860,8 +1812,7 @@ propiedades:
 • Unicidad. 
 • Minimalidad. 
 • Clave (o llave) primaria. 
-Si una relación (tabla) tiene más de una clave candidata, se escoge una de ellas como primaria y 
-el resto pasan a ser claves alternativas. 
+Si una relación (tabla) tiene más de una clave candidata, se escoge una de ellas como primaria y \nel resto pasan a ser claves alternativas. 
 • Clave foránea (ajena o extranjera). 
 Es un atributo (o conjunto de atributos) de una relación (tabla) que es clave primaria de otra 
 relación (tabla). 
@@ -2000,8 +1951,7 @@ Diseño lógico y físico. El modelo lógico relacional. Normalización
 Formas de mantener la integridad referencial: 
 Podemos utilizar diferentes métodos para mantener la integridad referencial. Son los siguientes: 
 • Restricción: 
-Garantizar, que no se puedan realizar cambios en los datos de la tabla de la clave principal, si 
-esos cambios anulan el vínculo con los datos de la tabla de la clave foránea. 
+Garantizar, que no se puedan realizar cambios en los datos de la tabla de la clave principal, si \nesos cambios anulan el vínculo con los datos de la tabla de la clave foránea. 
 • La restricción en caso de modificación, consiste en no permitir modificar ningún atributo de 
 la clave primaria de una tupla si tiene una clave primaria referenciada por alguna clave 
 foránea. 
@@ -2043,8 +1993,7 @@ Algunos atributos deben contener valores en todo momento, es decir, no admiten v
 Los atributos deben tomar valores dentro de su dominio que se le ha definido. 
 Está relacionada con la noción de dominio. Esta regla establece dos condiciones. 
 • Primera condición. 
-Consiste en que un valor no nulo de un atributo Ax debe pertenecer al dominio del atributo Ax; 
-es decir, debe pertenecer a dominio(Ax). Esta condición implica que todos los valores no nulos 
+Consiste en que un valor no nulo de un atributo Ax debe pertenecer al dominio del atributo Ax; \nes decir, debe pertenecer a dominio(Ax). Esta condición implica que todos los valores no nulos 
 que contiene la base de datos para un determinado atributo deben ser del dominio declarado 
 para dicho atributo. 
 • Segunda condición. 
@@ -2112,8 +2061,7 @@ relaciones binarias dependerá de cada caso.
 tabla). 
 • Relaciones con atributos. 
 • Atributos multivaluados. 
-• Relaciones uno a uno. Hay que revisar las relaciones uno a uno porque normalmente las dos 
-entidades relacionadas podrían combinarse en una sola entidad. 
+• Relaciones uno a uno. Hay que revisar las relaciones uno a uno porque normalmente las dos \nentidades relacionadas podrían combinarse en una sola entidad. 
 • Relaciones redundantes. Una relación es redundante cuando se puede obtener la misma 
 información que ella aporta mediante otras relaciones. 
 2) Derivar un conjunto de relaciones (tablas) para cada esquema lógico local 
@@ -2150,8 +2098,7 @@ Diseño lógico y físico. El modelo lógico relacional. Normalización
 como clave foránea en la tabla que representa a la entidad hijo. 
 • Puede darse el caso de que ambas entidades participen bien sea de forma parcial o total en 
 la relación. 
-» Si una de las entidades no participa en ninguna otra relación, se integran las dos 
-entidades en una sola relación-entidad (tabla). 
+» Si una de las entidades no participa en ninguna otra relación, se integran las dos \nentidades en una sola relación-entidad (tabla). 
 » La elección de padre e hijo es arbitraria. 
 • Relaciones binarias 1:N. 
 • Entidad padre. Es la entidad en la que cada elemento se relaciona con N elementos de la 
@@ -2237,12 +2184,10 @@ usuario están en la especificación de requisitos. Debe ser capaz de realizar t
 Se plasma el esquema lógico local como conjunto de tablas con sus claves y restricciones, reflejando la 
 visión de datos del usuario y validado previamente por normalización y transacciones. 
 6) Definir las restricciones de integridad 
-Las restricciones de integridad son reglas que se imponen para proteger la base de datos y evitar un 
-estado de inconsistencia. 
+Las restricciones de integridad son reglas que se imponen para proteger la base de datos y evitar un \nestado de inconsistencia. 
 Las Reglas de Integridad, se estudiarán más adelante en mayor profundidad. 
 7) Revisar cada esquema lógico local con el usuario correspondiente 
-Para garantizar que cada esquema lógico local es una fiel representación de la vista del usuario, lo mejor 
-es comprobar el esquema y la documentación con el usuario para ver si es correcto y está completo. 
+Para garantizar que cada esquema lógico local es una fiel representación de la vista del usuario, lo mejor \nes comprobar el esquema y la documentación con el usuario para ver si es correcto y está completo. 
 
 <!-- Page 67 -->
 
@@ -2301,8 +2246,7 @@ Si una base de datos no está normalizada, las principales consecuencias son:
 • Actualización. 
 • Redundancia de datos. 
 Los datos redundantes desperdician el espacio de disco y crean problemas de mantenimiento (ya que, 
-al hacer un cambio, hay que asegurarse de hacer el cambio en todas las ubicaciones donde se 
-encuentre). 
+al hacer un cambio, hay que asegurarse de hacer el cambio en todas las ubicaciones donde se \nencuentre). 
 Con la normalización convertimos una tabla con datos complejos en una o más tablas simples que son 
 más fáciles de utilizar. 
 Es mejor invertir esfuerzo en la fase de diseño de la base de datos que gastarlo en el desarrollo del 
@@ -2584,8 +2528,7 @@ Informática
 22 
 Contabilidad 
 3.4.1.4. FNBC (forma normal de Boyce-Codd) 
-Es una versión de la 3FN algo más restrictiva. Una tabla está en la forma normal de Boyce-Codd si está 
-en 3NF y cada dependencia funcional no trivial tiene una clave candidata como determinante. 
+Es una versión de la 3FN algo más restrictiva. Una tabla está en la forma normal de Boyce-Codd si está \nen 3NF y cada dependencia funcional no trivial tiene una clave candidata como determinante. 
 Por lo tanto, una relación está en forma normal Boyce Codd si cada determinante de la relación es una 
 clave candidata. 
 Una forma sencilla de comprobar si una relación se encuentra en FNBC consiste en comprobar lo 
@@ -2600,10 +2543,8 @@ siguiente:
 Modelado de datos, metodologías y reglas. Entidades, atributos y relaciones. Diseño de bases de datos. 
 Diseño lógico y físico. El modelo lógico relacional. Normalización 
 75 
-• Si existen varias claves candidatas compuestas y estas tienen un elemento común, puede no 
-estar en FNBC. 
-Solo si, para cada dependencia funcional en la relación, el determinante es una clave candidata, 
-estará en FNBC. 
+• Si existen varias claves candidatas compuestas y estas tienen un elemento común, puede no \nestar en FNBC. 
+Solo si, para cada dependencia funcional en la relación, el determinante es una clave candidata, \nestará en FNBC. 
 Ejemplo FNBC 
 Vamos a ver un ejemplo de tabla que está en 3FN y no está en FNBC. 
 IDDTrabajador 
@@ -2650,8 +2591,7 @@ Pintura
 Para que una tabla esté en 4NF, debe cumplir dos condiciones: primero, debe estar en BCNF (lo que 
 implica que ya está en 1NF, 2NF y 3NF), y segundo, no debe tener ninguna dependencia multivaluada 
 no trivial. 
-Las dependencias multivaluadas se presentan en relaciones con al menos tres atributos (X, Y, Z) y se da 
-el caso de que Y es multidependiente de X y Z es también multidependiente de X. 
+Las dependencias multivaluadas se presentan en relaciones con al menos tres atributos (X, Y, Z) y se da \nel caso de que Y es multidependiente de X y Z es también multidependiente de X. 
 Ejemplo 4FN 
 Tenemos una tabla que nos indica las distintas empresas que distribuyen pollos asados. La tabla tendrá 
 los campos restaurante, tipoSalsa y areaEnvio. 
@@ -3124,8 +3064,7 @@ Modelado de datos, metodologías y reglas. Entidades, atributos y relaciones. Di
 Diseño lógico y físico. El modelo lógico relacional. Normalización 
 88 
 4. Considerar la introducción de redundancias controladas. 
-Cuando una base de datos normalizada no alcanza las prestaciones deseadas en cuanto a 
-eficiencia, puede ser conveniente desnormalizarla introduciendo redundancias controladas. 
+Cuando una base de datos normalizada no alcanza las prestaciones deseadas en cuanto a \neficiencia, puede ser conveniente desnormalizarla introduciendo redundancias controladas. 
 Es una opción viable cuando las prestaciones no son las deseadas y la relación tiene muchas 
 consultas y pocas actualizaciones. 
 Las redundancias pueden ser de varios tipos: 

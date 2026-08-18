@@ -65,9 +65,9 @@ Resumen procesado y profundizado a partir de la fuente oficial [[raw/sources/blo
 ## 🔵 3. Buses Internos de Expansión: PCI Express y NVMe
 
 - **PCI Express (PCIe)**: Arquitectura serie punto a punto basada en carriles (*lanes* $x1, x4, x8, x16$ full-duplex con codificación 8b/10b o 128b/130b):
-  - **PCIe 3.0**: ~1 GB/s por carril ($pprox 16	ext{ GB/s}$ en $x16$).
-  - **PCIe 4.0**: ~2 GB/s por carril ($pprox 32	ext{ GB/s}$ en $x16$).
-  - **PCIe 5.0**: ~4 GB/s por carril ($pprox 64	ext{ GB/s}$ en $x16$).
+  - **PCIe 3.0**: ~1 GB/s por carril ($\approx 16\text{ GB/s}$ en $x16$).
+  - **PCIe 4.0**: ~2 GB/s por carril ($\approx 32\text{ GB/s}$ en $x16$).
+  - **PCIe 5.0**: ~4 GB/s por carril ($\approx 64\text{ GB/s}$ en $x16$).
 - **Protocolo NVMe (Non-Volatile Memory Express)**:
   - Diseñado específicamente para almacenamiento SSD sobre bus PCIe (reemplazando el cuello de botella del protocolo AHCI sobre SATA).
   - Soporta hasta **64.000 colas de comandos**, con hasta **64.000 comandos por cola** en paralelo.

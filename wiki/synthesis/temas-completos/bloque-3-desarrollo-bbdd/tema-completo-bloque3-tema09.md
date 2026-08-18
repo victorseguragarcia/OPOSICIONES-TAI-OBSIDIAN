@@ -6,8 +6,7 @@ tags:
   - temario-extendido
   - bloque-3
   - tema-09
-  - oposiciones-tai
-estado: "🔴 Por Estudiar"
+  - oposiciones-tai\nestado: "🔴 Por Estudiar"
 dificultad: "⭐⭐⭐"
 prioridad: "Máxima"
 sources:
@@ -246,8 +245,7 @@ objetivos, los recursos disponibles y las posibles alternativas antes de tomar l
 proyecto. 
 Análisis del sistema 
 Se examinan los procesos existentes y se definen los requisitos que deberá cumplir el sistema. En este 
-punto se concreta qué funciones tendrá el sistema y qué información deberá manejar, sin entrar todavía 
-en detalles técnicos. 
+punto se concreta qué funciones tendrá el sistema y qué información deberá manejar, sin entrar todavía \nen detalles técnicos. 
 
 <!-- Page 6 -->
 
@@ -260,8 +258,7 @@ Diseño del sistema
 Se define cómo va a construirse el sistema desde el punto de vista técnico. Se establecen la 
 arquitectura, los componentes, los modelos de datos y las medidas de seguridad necesarias. 
 Desarrollo o construcción 
-Se desarrollan los distintos elementos del sistema, principalmente el software, y se configuran los 
-entornos necesarios. También se genera la documentación técnica asociada. 
+Se desarrollan los distintos elementos del sistema, principalmente el software, y se configuran los \nentornos necesarios. También se genera la documentación técnica asociada. 
 Pruebas 
 Se comprueba que el sistema funciona correctamente y que cumple los requisitos definidos. Esta fase 
 permite detectar errores antes de la puesta en producción. 
@@ -353,10 +350,8 @@ como la dimensionalidad del vector.
 Los límites de cada uno de los enteros que forman parte del índice determinan la dimensión del 
 vector. 
 • A un vector con dimensionalidad k se le suele llamar k-dimensional. 
-• Los vectores 1-dimensional se corresponden con los vectores ordinarios en los que los 
-elementos están dispuestos en una única fila (o columna). 
-• Los vectores 2-dimensional son otra forma de llamar a las clásicas matrices en las que sus 
-elementos están dispuestos en varias filas y columnas (dos dimensiones). 
+• Los vectores 1-dimensional se corresponden con los vectores ordinarios en los que los \nelementos están dispuestos en una única fila (o columna). 
+• Los vectores 2-dimensional son otra forma de llamar a las clásicas matrices en las que sus \nelementos están dispuestos en varias filas y columnas (dos dimensiones). 
 • Base de datos multidimensional. 
 Se utilizan para crear aplicaciones OLAP y pueden verse como bases de datos de una sola tabla. 
 Por cada dimensión tienen un campo (o columna), y otro campo por cada métrica o hecho, es 
@@ -374,8 +369,7 @@ Donde:
 • Los campos d1 hacen referencia a las dimensiones de la tabla. 
 • Los campos f1 a las métricas o hechos que se quiere almacenar, estudiar o analizar. 
 Cada una de estas tablas puede asimilarse a un cubo OLAP, donde las dimensiones del mismo se 
-corresponden con los campos de dimensiones de la tabla (campos d1…), y el valor almacenado 
-en cada celda del cubo equivale a la métrica o métricas (campos f1…) almacenadas en la tabla. 
+corresponden con los campos de dimensiones de la tabla (campos d1…), y el valor almacenado \nen cada celda del cubo equivale a la métrica o métricas (campos f1…) almacenadas en la tabla. 
  
  
  
@@ -448,9 +442,7 @@ Repositorios: estructura y actualización. Generación de código y documentaci�
 Pruebas. Programas para control de versiones. Plataformas de desarrollo colaborativo de software 
 11 
 2.1.2. Data Mart 
-Un Data Mart (o datamart) es una base de datos departamental, se denomina así por estar 
-especializada en el almacenamiento de los datos de tema específico, normalmente alineado con un área 
-específica como puede ser ventas, marketing, recursos humanos etc. 
+Un Data Mart (o datamart) es una base de datos departamental, se denomina así por estar \nespecializada en el almacenamiento de los datos de tema específico, normalmente alineado con un área \nespecífica como puede ser ventas, marketing, recursos humanos etc. 
 Puesto que solo incluye los datos de un tema o área específica, su tamaño es más pequeño, por lo que 
 resulta ser una forma económica y rápida de acceder más fácilmente a datos relevantes, adquiriendo así 
 conocimientos procesables rápida y fácilmente. 
@@ -469,8 +461,7 @@ OLAP tiene las siguientes características:
 borrados. 
 • Los datos se estructuran dependiendo del área de negocio. 
 • El historial de datos es a largo plazo, mínimo de dos a cinco años. 
-• Las bases de datos OLAP suelen obtener la información de los sistemas operacionales 
-existentes, utilizando un proceso ETL. 
+• Las bases de datos OLAP suelen obtener la información de los sistemas operacionales \nexistentes, utilizando un proceso ETL. 
 • Proporciona gran rapidez de respuesta en las consultas, por ello su uso en la toma de decisiones, 
 Data Mining, etc. 
  
@@ -498,14 +489,12 @@ cantidades de datos observacionales, para encontrar relaciones
 insospechadas. 
 KDD, siglas del inglés "Knowledge Discovery in Data-bases", 
 (extracción de conocimiento en BB.DD), es la creación de 
-conocimiento a partir de fuentes estructu-radas y no 
-estructuradas. Implica la evaluación e interpretación de patrones y 
+conocimiento a partir de fuentes estructu-radas y no \nestructuradas. Implica la evaluación e interpretación de patrones y 
 modelos para tomar decisiones con respecto a lo que constituye 
 conocimiento y lo que no lo es. 
  
  
-El objetivo de OLAP, es agilizar la consulta de grandes cantidades de datos, para lograrlo, utiliza 
-estructuras de datos diversas, normalmente multidimensionales (o Cubos OLAP), que contienen datos 
+El objetivo de OLAP, es agilizar la consulta de grandes cantidades de datos, para lograrlo, utiliza \nestructuras de datos diversas, normalmente multidimensionales (o Cubos OLAP), que contienen datos 
 resumidos de grandes Bases de datos o de OLTP. 
 En la base de cualquier sistema OLAP se encuentra el concepto de cubo OLAP. 
 OLTP son sistemas transaccionales diseñados para dar soporte al procesamiento diario de datos de las 
@@ -587,8 +576,7 @@ Trimestre de 2007", que a su vez se incluye en "Año 2007".
 • Si se refleja una situación geográfica, las ciudades se pueden incluir en regiones, países y 
 Continentes. 
 El analista puede comenzar en un nivel muy resumido y posteriormente des-cender en el cubo (en sus 
-jerarquías) observando así con mayor detalle los datos, pudiendo obtener gran información, viendo en 
-el cubo los lugares en los que se ha producido esta diferencia, según los productos y períodos. 
+jerarquías) observando así con mayor detalle los datos, pudiendo obtener gran información, viendo en \nel cubo los lugares en los que se ha producido esta diferencia, según los productos y períodos. 
  
  
  
@@ -597,8 +585,7 @@ Atención
 Utilizar los cubos OLAP, permiten que las consultas de selección 
 sean muy rápidas (casi instantáneas), pero se presenta el problema 
 de que una vez definida la base de datos, ésta no puede recibir 
-cambios en su estructura, ya que para ello sería necesario rediseñar 
-el cubo. 
+cambios en su estructura, ya que para ello sería necesario rediseñar \nel cubo. 
  
  
 En un cubo OLAP pueden darse las siguientes situaciones: 
@@ -624,8 +611,7 @@ La vinculación asegura que los datos de los dos cubos mantengan una coherencia.
 Cubo OLAP. 
 Se compone de hechos numéricos o medidas, que se clasifican por 
 dimensiones. 
-El cubo de metadatos es típicamente creado a partir de un 
-esquema en estrella o copo de nieve, de las tablas en una base de 
+El cubo de metadatos es típicamente creado a partir de un \nesquema en estrella o copo de nieve, de las tablas en una base de 
 datos relacional. Las medidas se obtienen de los registros de una 
 tabla de hechos y las dimensiones se derivan de la dimensión de los 
 cuadros. 
@@ -644,8 +630,7 @@ función de proespección qeu te permite navegar jerárquicamente manteniendo el
 general. Una muñeca rusa sería un buen ejemplo, las vemos todas. Un árbol genealógico sería un 
 buen ejemplo. Con un drill-down se cambia de vista, con un expand se conserva la vista y se le 
 añade detalle. 
-• Colapsar (Collapse): operación inversa a la anterior. Si bien el expand permite añadir detalles y 
-expandir dimensiones, colapse contrae una dimensión desplegada. 
+• Colapsar (Collapse): operación inversa a la anterior. Si bien el expand permite añadir detalles y \nexpandir dimensiones, colapse contrae una dimensión desplegada. 
 
 <!-- Page 16 -->
 
@@ -660,13 +645,11 @@ pivotar para ver las ventas por cliente. Se pueden ver los datos desde diferente
 obtener una comprensión más completa de los mismos. 
 • Rotar (Swap): permutar dos dimensiones de análisis, mover los objetos de filas a columnas y de 
 columnas a filas. 
-• Enrollar (Roll-up): esta operación nos permite agrupar datos de niveles inferiores de una jerarquía 
-en un nivel superior obteniendo sumas, promedios, cálculos de máximos y mínimos, etc. 
+• Enrollar (Roll-up): esta operación nos permite agrupar datos de niveles inferiores de una jerarquía \nen un nivel superior obteniendo sumas, promedios, cálculos de máximos y mínimos, etc. 
 • Filtrar (Dice): permite seleccionar subconjuntos específicos de datos a lo largo de una o varias 
 dimensiones para crear vistas personalizadas y realizar análisis detallados según nuestras 
 necesidades y criterios específicos. 
-• Cortar (Slice): operación que nos permite navegar por los datos de forma más precisa y 
-eficiente pues podemos seleccionar subconjuntos de una sola dimensión. 
+• Cortar (Slice): operación que nos permite navegar por los datos de forma más precisa y \neficiente pues podemos seleccionar subconjuntos de una sola dimensión. 
 2.1.2.2. Tipos de Arquitecturas OLAP 
 Los sistemas OLAP se clasifican principalmente según las categorías MOLAP, ROLAP y HOLAP, aunque 
 también hay otros tipos. Los vemos a continuación: 
@@ -789,8 +772,7 @@ relacional debido a técnicas de compresión.
 Desventajas de MOLAP 
 • La etapa de procesamiento (carga de datos) puede ser bastante larga, sobre todo para grandes 
 volúmenes de datos. Normalmente, esto se puede evitar con un procesamiento incremental, es 
-decir, sólo el procesamiento de los datos que han cambiado (por lo general, los nuevos datos) 
-en lugar de volver a procesar de todo el conjunto de datos. 
+decir, sólo el procesamiento de los datos que han cambiado (por lo general, los nuevos datos) \nen lugar de volver a procesar de todo el conjunto de datos. 
 • Las herramientas MOLAP tradicionalmente tienen dificultades para consultar con modelos con 
 dimensiones muy altas (del orden de millones de miembros). 
 • Algunas herramientas MOLAP (como Essbase) tienen dificultades para actualizar y consultar los 
@@ -834,10 +816,8 @@ alta calidad para ayudar a la toma de decisiones.
 Según la tendencia marcada por Bill Inmon sobre los Data Warehouse, un Data Mart dependiente es un 
 subconjunto lógico (vista) o un subconjunto físico (extracto) de un almacén de datos más grande 
 (Data WareHouse), que se ha aislado por alguna de las siguientes razones: 
-• Necesidad de un esquema: Se necesita para un esquema o modelo de datos espacial (por 
-ejemplo, para reestructurar los datos para alguna herramienta OLAP). 
-• Prestaciones: Para descargar el Data Mart a un ordenador independiente para mejorar la 
-eficiencia o para obviar las necesidades de gestionar todo el volumen del Data Warehouse 
+• Necesidad de un esquema: Se necesita para un esquema o modelo de datos espacial (por \nejemplo, para reestructurar los datos para alguna herramienta OLAP). 
+• Prestaciones: Para descargar el Data Mart a un ordenador independiente para mejorar la \neficiencia o para obviar las necesidades de gestionar todo el volumen del Data Warehouse 
 centralizado. 
 • Seguridad: Para separar un subconjunto de datos de forma selectiva a los que queremos permitir 
 o restringir el acceso. 
@@ -855,13 +835,10 @@ Pruebas. Programas para control de versiones. Plataformas de desarrollo colabora
 antes de migrarla al Data Warehouse de la Empresa. 
 • Política: Razones internas de la organización para hacer esta división o separación de los datos 
 del almacén de datos, por ejemplo: 
-• Cuando se decide una estrategia para las TI (Tecnologías de la información) en situaciones 
-en las que un grupo de usuarios tiene más influencia, para determinar si se financia dicha 
-estrategia o descubrir si ésta no sería buena para el almacén de datos centralizado. 
+• Cuando se decide una estrategia para las TI (Tecnologías de la información) en situaciones \nen las que un grupo de usuarios tiene más influencia, para determinar si se financia dicha \nestrategia o descubrir si ésta no sería buena para el almacén de datos centralizado. 
 • Estrategia para los consumidores de los datos en situaciones en las que un equipo de 
 almacén de datos no está en condiciones de crear un almacén de datos utilizable. 
-Según la escuela Inmon de Data Warehouse, entre las pérdidas inherentes al uso de Data Marts están la 
-escalabilidad limitada, la duplicación de datos, la inconsistencia de los datos con respecto a otros 
+Según la escuela Inmon de Data Warehouse, entre las pérdidas inherentes al uso de Data Marts están la \nescalabilidad limitada, la duplicación de datos, la inconsistencia de los datos con respecto a otros 
 almacenes de información y la incapacidad para aprovechar las fuentes de datos de la empresa. Así y 
 todo, estas herramientas son de gran importancia. 
  
@@ -894,8 +871,7 @@ Pruebas. Programas para control de versiones. Plataformas de desarrollo colabora
 22 
 Los datos de diferentes aplicaciones de procesamiento de transacciones Online (OLTP) y otras fuentes 
 se extraen selectivamente para su uso por aplicaciones analíticas y de consultas por usuarios, ayudando 
-a los ejecutivos de negocios organizar, comprender y utilizar sus datos para tomar decisiones 
-estratégicas. 
+a los ejecutivos de negocios organizar, comprender y utilizar sus datos para tomar decisiones \nestratégicas. 
 Los sistemas de soporte a la decisión usando tecnologías de Data Warehouse, se llaman sistemas 
 OLAP (siglas de On Line Analytical Processing (OLAP). 
  
@@ -934,21 +910,16 @@ Pruebas. Programas para control de versiones. Plataformas de desarrollo colabora
 23 
 Tratamiento de los datos en el Data Warehouse 
 En un principio, los Data Warehouses se formaban utilizando datos repetitivos estructurados que eran 
-filtrados antes de entrar en el Data Warehouse. Sin embargo, en los últimos años, el Data Warehouse ha 
-evolucionado pudiendo almacenar también información contextual que se puede adjuntar a los datos 
+filtrados antes de entrar en el Data Warehouse. Sin embargo, en los últimos años, el Data Warehouse ha \nevolucionado pudiendo almacenar también información contextual que se puede adjuntar a los datos 
 no estructurados. 
 Los datos relacionales estructurados no podían ser mezclados y emparejados para temas analíticos con 
 datos textuales no estructurados. Pero ahora, con la contextualización, estos tipos de análisis pueden 
 hacerse de forma natural y fácil. 
 Hay que diferenciar entre datos repetitivos y no repetitivos. 
 Los datos no repetitivos, como los comentarios en una encuesta, correos electrónicos y conversaciones 
-se tratan de forma diferente a las ocurrencias repetitivas de datos, como el flujo de clics, mediciones o 
-el procesamiento máquina o analógico. 
+se tratan de forma diferente a las ocurrencias repetitivas de datos, como el flujo de clics, mediciones o \nel procesamiento máquina o analógico. 
 Los datos no repetitivos son datos basados en textos que fueron generados por la palabra escrita o 
-hablada, leída y reformateada y, lo que es más importante, ahora puede ser contextualizada. Para poder 
-extraer sentido y conocimiento de estos datos no repetitivos deben tener el contexto de los datos 
-establecidos. Este contexto incluso puede ser más importante que los datos en sí. Por ello, si no se ha 
-establecido el contexto, estos datos no repetitivos no se pueden utilizar para la toma de decisiones. 
+hablada, leída y reformateada y, lo que es más importante, ahora puede ser contextualizada. Para poder \nextraer sentido y conocimiento de estos datos no repetitivos deben tener el contexto de los datos \nestablecidos. Este contexto incluso puede ser más importante que los datos en sí. Por ello, si no se ha \nestablecido el contexto, estos datos no repetitivos no se pueden utilizar para la toma de decisiones. 
 El Data Warehouse continúa evolucionando diariamente. 
  
  
@@ -962,8 +933,7 @@ Es el software que se utiliza para la construcción de Data
 Warehouse o almacenamiento de datos. 
 Las ETL conforman el proceso de alimentación del repositorio de 
 datos o estructura de datos multidimensional, asegurando que los 
-datos sean extraídos, transformados y cargados de manera 
-eficiente y precisa. 
+datos sean extraídos, transformados y cargados de manera \neficiente y precisa. 
  
 
 <!-- Page 24 -->
@@ -1095,17 +1065,14 @@ con el evento), y claves foráneas que referencian a tablas de datos dimensional
 información descriptiva. (En el ejemplo de la compra de zapatillas, hay datos que, por poder ser 
 repetitivos en otros sucesos, como es la sucursal, se hace otra tabla aparte que contenga todos los 
 datos de las sucursales…, en caso de que la sucursal se cambie de dirección etc, solo será necesario 
-hacer un solo cambio en la base de datos, en esa tabla de sucursales y no hay que hacerlo en la tabla de 
-eventos, en cada transacción que se efectuó en esa sucursal). 
+hacer un solo cambio en la base de datos, en esa tabla de sucursales y no hay que hacerlo en la tabla de \neventos, en cada transacción que se efectuó en esa sucursal). 
 Las tablas de hechos se diseñan para contener detalles uniformes a bajo nivel (referidos como 
 "granularidad" o "grano"), o sea que los hechos pueden registrar eventos a un gran nivel de atomicidad. 
 Esto puede resultar en la acumulación de un gran número de registros en la tabla de hechos, a lo largo 
 del tiempo. 
 Las tablas de hechos se definen como uno de los siguientes tres tipos: 
-• Tablas de hechos transaccionales: registran hechos relativos a eventos específicos (por 
-ejemplo, el evento de una venta). 
-• Tablas de hechos Snapshot: registran hechos en un punto dado en el tiempo, con un intervalo 
-específico para realizar la medición sobre la entidad objeto de observación. (Ejemplo: detalles de 
+• Tablas de hechos transaccionales: registran hechos relativos a eventos específicos (por \nejemplo, el evento de una venta). 
+• Tablas de hechos Snapshot: registran hechos en un punto dado en el tiempo, con un intervalo \nespecífico para realizar la medición sobre la entidad objeto de observación. (Ejemplo: detalles de 
 una cuenta al final del mes). 
 • Tablas Snapshot Acumulativas: registran hechos agregados, acumulados a un punto dado en el 
 tiempo. (Ejemplo, ventas totales mensuales para un producto dado). 
@@ -1144,12 +1111,9 @@ La finalidad es normalizar las tablas y así reducir el espacio de almacenamient
 redundancia de datos; pero tiene la contrapartida de generar peores rendimientos al tener que crear 
 más tablas de dimensiones y más relaciones entre las tablas (JOINS) lo que tiene un impacto directo 
 sobre el rendimiento. 
-En las aplicaciones OLAP implementadas sobre bases de datos relacionales (ROLAP), un elemento clave 
-es el Cubo OLAP, que almacenan grandes volúmenes de datos que posteriormente deben ser analizados 
-en función de unos determinados parámetros. 
+En las aplicaciones OLAP implementadas sobre bases de datos relacionales (ROLAP), un elemento clave \nes el Cubo OLAP, que almacenan grandes volúmenes de datos que posteriormente deben ser analizados \nen función de unos determinados parámetros. 
 Al diseñar las tablas en las que se han de almacenar estos datos y parámetros, si se aplican las técnicas 
-de Normalización de bases de datos para optimizar el espacio requerido para guardar estos datos 
-eliminando las redundancias, es habitual que se termine obteniendo un esquema en copo de nieve. 
+de Normalización de bases de datos para optimizar el espacio requerido para guardar estos datos \neliminando las redundancias, es habitual que se termine obteniendo un esquema en copo de nieve. 
 En este tipo de esquemas en copo de nieve, se tiene una tabla central de hechos en la que se guardan las 
 medidas del negocio que se quiere analizar, y en las tablas adyacentes se tendrán las dimensiones 
 (parámetros) de que dependen los datos del negocio. Si por alguna dimensión se requiere más de una 
@@ -1173,8 +1137,7 @@ Las ventajas de usar el esquema en copo de nieve son:
 • Al estar normalizadas las tablas de dimensiones, se evita la redundancia de datos y con ello se 
 ahorra espacio. 
 • Como actualmente el espacio en disco no es un problema, y lo que se debe tener es un buen 
-rendimiento, se usa copo de nieve cuando una tabla de dimensiones es relativamente grande. (y 
-el de estrella cuando tiene menos filas en la tabla de dimensiones) 
+rendimiento, se usa copo de nieve cuando una tabla de dimensiones es relativamente grande. (y \nel de estrella cuando tiene menos filas en la tabla de dimensiones) 
  
 
 <!-- Page 30 -->
@@ -1300,8 +1263,7 @@ herramientas de diseño gráfico y editores de texto.
 El repositorio es la base de datos central de una herramienta CASE. Amplía el concepto de diccionario 
 de datos para incluir toda la información que se va generando a lo largo del ciclo de vida del sistema, 
 como, por ejemplo: componentes de análisis y diseño (diagramas de flujo de datos, diagramas entidad-
-relación, esquemas de bases de datos, diseños de pantallas), estructuras de programas, algoritmos, 
-etcétera. 
+relación, esquemas de bases de datos, diseños de pantallas), estructuras de programas, algoritmos, \netcétera. 
 La mayoría de las herramientas CASE poseen un repositorio propio, o bien trabajan sobre un repositorio 
 suministrado por otro fabricante o vendedor. 
 En el repositorio se almacena toda la información de uno o varios sistemas de información. Por ejemplo, 
@@ -1377,8 +1339,7 @@ Hay dos tipos de actualización:
 por todos los usuarios. 
 • Batch: se realiza mediante un proceso por lotes. El resto de los usuarios no lo verán hasta 
 que sincronicen con el repositorio. 
-• Módulos reutilizables para otros proyectos: el repositorio es la clave para identificar, localizar y 
-extraer código para su reutilización. 
+• Módulos reutilizables para otros proyectos: el repositorio es la clave para identificar, localizar y \nextraer código para su reutilización. 
 • Interfaz para importación y exportación: extrae información del repositorio para tratarla con 
 otra herramienta o incorporar al repositorio información generada por otros medios. 
 • Interfaces automáticas: pueden conectarse con otros repositorios o bases de datos externas. 
@@ -1468,15 +1429,13 @@ Estas herramientas ayudan en el diseño de páginas web:
 • Secuencias de comandos. 
 • Gráficos. 
 • Aseguramiento de la calidad. Es la supervisión del proceso de Ingeniería y de los métodos 
-adoptados para desarrollar el producto software. Se trata de asegurar la conformidad con los 
-estándares de calidad adoptados por la organización. 
+adoptados para desarrollar el producto software. Se trata de asegurar la conformidad con los \nestándares de calidad adoptados por la organización. 
 Las herramientas de aseguramiento de la calidad suelen estar formadas por: 
 • Herramientas de control de cambios. 
 • Herramientas de gestión de la configuración. 
 • Herramientas para pruebas de software. 
 • Mantenimiento. 
-El mantenimiento del software incluye modificaciones en el producto software una vez puesto 
-en producción. Algunas de las técnicas utilizadas son: 
+El mantenimiento del software incluye modificaciones en el producto software una vez puesto \nen producción. Algunas de las técnicas utilizadas son: 
 • Inicio automático. 
 • Reporte de error. 
 • Producción automática de etiqueta de error. 
@@ -1492,8 +1451,7 @@ Pruebas. Programas para control de versiones. Plataformas de desarrollo colabora
 3.1.2. Según su amplitud 
 Según su amplitud (etapas de la vida del software a las que dan soporte) existen dos tipos: 
 • Toolkit: 
-Herramientas sueltas, no necesariamente integradas, enfocadas en tareas concretas (ej. 
-editores de diagramas, generadores de código). 
+Herramientas sueltas, no necesariamente integradas, enfocadas en tareas concretas (ej. \neditores de diagramas, generadores de código). 
 • Toolset: 
 Un Toolset es un conjunto de herramientas CASE con cierta relación entre sí, pero sin 
 integración completa. Su amplitud es mayor que la de un Toolkit. 
@@ -1667,8 +1625,7 @@ Antipatrones:
 • Ir directamente de requerimientos vagos de alto nivel a código hecho a mano. 
 • Dado que se utilizan pocas abstracciones, existen conflictos entre el nivel de código y el 
 nivel conceptual, por lo que se pierden oportunidades de reutilización. 
-• La captura informal de requerimientos y de otra información hace necesario el revisar las 
-especificaciones continuamente. 
+• La captura informal de requerimientos y de otra información hace necesario el revisar las \nespecificaciones continuamente. 
 • Si se hace poco énfasis en la arquitectura se incurrirá en retrabajos en el futuro. 
 • Diseño de la base de datos: 
 Para el desarrollo de un software es importante que se pueda emplear una herramienta que 
@@ -1689,8 +1646,7 @@ Fichier:Visio_2016.png
 Repositorios: estructura y actualización. Generación de código y documentación. Metodologías de desarrollo. 
 Pruebas. Programas para control de versiones. Plataformas de desarrollo colaborativo de software 
 45 
-Microsoft Visio es un software de pago que funciona con el sistema Windows y que fue ideado 
-específicamente para crear todo tipo de gráficos y diagramas. 
+Microsoft Visio es un software de pago que funciona con el sistema Windows y que fue ideado \nespecíficamente para crear todo tipo de gráficos y diagramas. 
 No es una herramienta destinada a la gestión de proyectos como tal. Se trata de un programa de dibujo 
 vectorial versátil y muy fácil de utilizar, pues ofrece numerosas posibilidades de edición. 
 Permite, entre otras cosas, diseñar: 
@@ -1759,8 +1715,7 @@ Se puede reusar diagramas o partes de diagramas para economizar el diseño de un
 • Posee herramientas de corrección avanzadas que permiten revisiones generales. 
 • Soporta una gama amplia de metodologías estructuradas, permitiendo escoger los métodos más 
 apropiados para realizar las tareas. 
-• Determina los tipos de esquemas según la metodología del proyecto seleccionada y notifica de 
-errores a medida que el modelo vaya construyéndose. 
+• Determina los tipos de esquemas según la metodología del proyecto seleccionada y notifica de \nerrores a medida que el modelo vaya construyéndose. 
 • Soporte comprensivo al modelado de datos, procesos y eventos. 
 • Posee desde el editor de diagramas flexible y un diccionario de los datos, así como una extensa 
 cantidad de reportes y análisis. 
@@ -1776,14 +1731,12 @@ diccionario de datos (DD).
  
  
 Atención 
-EasyCASE Profesional, es un producto para la generación de 
-esquemas de base de datos e ingeniería reversa, trabaja para 
+EasyCASE Profesional, es un producto para la generación de \nesquemas de base de datos e ingeniería reversa, trabaja para 
 proveer una solución comprensible para el diseño, consistencia y 
 documentación del sistema en conjunto. 
  
 3.1.3.3. L-CASE 
-Son herramientas que semiautomatizan la generación de código, crean programas de detección de 
-errores, soportan la depuración de programas y pruebas. 
+Son herramientas que semiautomatizan la generación de código, crean programas de detección de \nerrores, soportan la depuración de programas y pruebas. 
 Además, automatizan la documentación completa de la aplicación (en todas las fases). 
 
 <!-- Page 48 -->
@@ -1809,8 +1762,7 @@ de Análisis de código, para evaluarlo, esta evaluación supone buscar problema
 código y mejorarlo. 
 Algunas de las características deseables son: 
 • Generación de código: 
-Algunos frameworks permiten generar código y formularios a partir de los procesos que se 
-encuentran bien definidos a partir de determinados modelos. 
+Algunos frameworks permiten generar código y formularios a partir de los procesos que se \nencuentran bien definidos a partir de determinados modelos. 
 También existen IDE que, mediante herramientas de arrastre drag & drop, permiten modelar 
 formularios de software de manera automática. 
 • Manejo de versiones y repositorios: 
@@ -1837,8 +1789,7 @@ Las características más importantes de los generadores de código son:
 • Lenguaje estándar. 
 • Lenguaje propietario. 
 • Portabilidad del código generado: capacidad para poder ejecutarlo en distintas plataformas. 
-• Generación del esqueleto del programa o del programa completo: si únicamente genera el 
-esqueleto será necesario codificar el resto. 
+• Generación del esqueleto del programa o del programa completo: si únicamente genera el \nesqueleto será necesario codificar el resto. 
 • Posibilidad de modificación del código generado: suele ser aconsejable modificar el código 
 generado para optimizarlo. 
 • Generación del código del interfaz de usuario e informes de la aplicación. 
@@ -1877,15 +1828,11 @@ casos se realiza en el código objeto.
 El término se aplica generalmente a los análisis realizados por una herramienta automática, el 
 análisis realizado por un humano es llamado comprensión de programas (o entendimiento de 
 programas) como también revisión de código. 
-La sofisticación de los análisis realizados por las herramientas varía de aquellos que sólo tienen 
-en cuenta el comportamiento de instrucciones y declaraciones individuales, a los que se incluye 
-el código fuente completo de un programa en su análisis. 
+La sofisticación de los análisis realizados por las herramientas varía de aquellos que sólo tienen \nen cuenta el comportamiento de instrucciones y declaraciones individuales, a los que se incluye \nel código fuente completo de un programa en su análisis. 
 Los usos de la información obtenida de un análisis varían desde indicar posibles errores de 
 codificación hasta demostrar matemáticamente con métodos formales ciertas propiedades 
-acerca de un programa dado (por ejemplo, que su comportamiento coincide con el de su 
-especificación) dependiendo de qué programa se utilice para el análisis. 
-Las métricas del software y la ingeniería inversa pueden ser descritas como forma de análisis 
-estático de software. El análisis estático y las métricas del software se han comenzado a 
+acerca de un programa dado (por ejemplo, que su comportamiento coincide con el de su \nespecificación) dependiendo de qué programa se utilice para el análisis. 
+Las métricas del software y la ingeniería inversa pueden ser descritas como forma de análisis \nestático de software. El análisis estático y las métricas del software se han comenzado a 
 desarrollar a la par, sobre todo en sistemas embebidos donde se definen lo que se llama 
 objetivos del software de calidad. 
 • Análisis Dinámico de código: 
@@ -1918,8 +1865,7 @@ El objetivo de estas pruebas es comprobar que las salidas son correctas. No se p
 atención al modo en que dichas salidas se realizan. Se atiende a una independencia modular 
 para una implementación más fácil de cada módulo. Así resulta más sencillo abordar el fallo. 
 • De caja blanca. 
-Se centran en los fallos de procedimiento relativos a las entradas. El método suele consistir 
-en realizar todas las entradas posibles para obtener una salida determinada. Este tipo de 
+Se centran en los fallos de procedimiento relativos a las entradas. El método suele consistir \nen realizar todas las entradas posibles para obtener una salida determinada. Este tipo de 
 pruebas debe modificarse cada vez que varía la implementación en el proyecto. 
 SonarQube 
 Solución diseñada para realizar análisis estático de código fuente de manera automatizada. 
@@ -1996,16 +1942,13 @@ Un artefacto es un producto tangible resultante del proceso de desarrollo de sof
 Algunos artefactos como los casos de uso, diagrama de clases u otros modelos UML ayudan a la 
 descripción de la función, la arquitectura o el diseño del software. 
 Otros se enfocan en el proceso de desarrollo en sí mismo, como planes de proyecto, casos de negocios 
-o enfoque de riesgos. El código fuente compilado para el testeo se suele considerar un artefacto, ya que 
-el ejecutable es necesario para el plan de testeo. 
+o enfoque de riesgos. El código fuente compilado para el testeo se suele considerar un artefacto, ya que \nel ejecutable es necesario para el plan de testeo. 
 En ocasiones un artefacto puede referirse a un producto terminado, como el código o el ejecutable, 
-pero más habitualmente se refiere a la documentación generada a lo largo del desarrollo del producto 
-en lugar del producto en sí. 
+pero más habitualmente se refiere a la documentación generada a lo largo del desarrollo del producto \nen lugar del producto en sí. 
 Los artefactos pueden variar en su necesidad de mantenimiento y actualización: 
 • Los artefactos que detallan el diseño pretendido para el producto suelen realizarse al principio 
 del proyecto y no necesitan mantenerse. 
-• Hay otros que se mantienen a lo largo del ciclo de vida con información que se actualiza durante 
-el desarrollo. 
+• Hay otros que se mantienen a lo largo del ciclo de vida con información que se actualiza durante \nel desarrollo. 
 3.1.3.3.4. Pruebas de implantación y aceptación del sistema 
 Con las pruebas de implantación debemos comprobar el funcionamiento correcto del sistema integrado 
 de hardware y software en el entorno de operación. 
@@ -2031,8 +1974,7 @@ Repositorios: estructura y actualización. Generación de código y documentaci�
 Pruebas. Programas para control de versiones. Plataformas de desarrollo colaborativo de software 
 54 
 Pruebas Beta 
-Las pruebas beta, del inglés beta testing, son las pruebas de software que se realizan cuando el sistema 
-está teóricamente correcto y pasa a ejecutarse en un entorno real. 
+Las pruebas beta, del inglés beta testing, son las pruebas de software que se realizan cuando el sistema \nestá teóricamente correcto y pasa a ejecutarse en un entorno real. 
 Es la fase siguiente a las pruebas Alpha. No importa lo bueno que sea nuestro proceso de desarrollo, 
 siempre habrá fallos que no han sido descubiertos por los desarrolladores ni por el equipo de pruebas. 
 Las pruebas beta son pruebas para localizar esos problemas que no han sido detectados y poder 
@@ -2074,12 +2016,10 @@ Tipos de regresión:
 • Clasificación de ámbito: 
 • Local: los cambios introducen nuevos errores. 
 • Desenmascarada: los cambios revelan errores previos. 
-• Remota: los cambios vinculan algunas partes del programa (módulo) e introducen errores 
-en ella. 
+• Remota: los cambios vinculan algunas partes del programa (módulo) e introducen errores \nen ella. 
 • Clasificación temporal: 
 • Nueva característica: 
-Los cambios realizados con respecto a nuevas funcionalidades en la versión introducen 
-errores en otras novedades en la misma versión del software. 
+Los cambios realizados con respecto a nuevas funcionalidades en la versión introducen \nerrores en otras novedades en la misma versión del software. 
 • Característica preexistente: 
 Los cambios realizados con respecto a nuevas funcionalidades introducen errores en 
 funcionalidad existente de previas versiones. 
@@ -2094,8 +2034,7 @@ Como mitigar los riesgos:
 Estos parches se publican inmediatamente, y serán incluidos en releases (lanzamientos) de 
 mantenimiento futuras. 
 3.1.4. Otras clasificaciones 
-Existen otros nombres que se le dan a este tipo de herramientas, y que no es una clasificación 
-excluyente entre sí, ni con las fases del ciclo de vida del desarrollo: 
+Existen otros nombres que se le dan a este tipo de herramientas, y que no es una clasificación \nexcluyente entre sí, ni con las fases del ciclo de vida del desarrollo: 
 • Integrated CASE (I-CASE). 
 Herramientas que engloban todo el proceso de desarrollo software, desde el análisis hasta la 
 implementación. 
@@ -2119,8 +2058,7 @@ Herramientas de soporte a la prueba de software.
 Herramientas que soportan todo el ciclo de vida, incluyen componentes para la gestión de 
 proyectos y gestión de la configuración activa. 
 3.2. Generar documentación 
-El módulo generador de la documentación se alimenta del repositorio para transcribir las 
-especificaciones que este contiene. 
+El módulo generador de la documentación se alimenta del repositorio para transcribir las \nespecificaciones que este contiene. 
 Algunas características de los generadores de documentación son: 
 • Generación automática: genera la documentación de forma automática a partir de los datos del 
 repositorio. 
@@ -2206,8 +2144,7 @@ novela El juego de Ender,7 y originalmente inventado por Ursula K.
 Le Guin en su novela de 1966 El mundo de Rocannon. 
  
  
-Generalmente Ansible es agrupado con otras herramientas de Gestión de la Configuración, no puede 
-encasillarse solo a Gestión de la Configuración ya que puede ser usada en otros tipos de escenarios. 
+Generalmente Ansible es agrupado con otras herramientas de Gestión de la Configuración, no puede \nencasillarse solo a Gestión de la Configuración ya que puede ser usada en otros tipos de escenarios. 
 Características: 
 • Aprovisionamiento: 
 Con Ansible se pueden aprovisionar las últimas plataformas en la nube, host virtualizados e 
@@ -2270,8 +2207,7 @@ tipos de base de datos.
 Oracle Designer 
 Es un juego de herramientas para guardar las definiciones que necesita el usuario y automatizar la 
 construcción rápida de aplicaciones cliente/servidor flexibles y gráficas. 
-Integrado con Oracle Developer, Oracle Designer provee una solución para desarrollar sistemas 
-empresariales cliente/servidor de segunda generación. 
+Integrado con Oracle Developer, Oracle Designer provee una solución para desarrollar sistemas \nempresariales cliente/servidor de segunda generación. 
 PowerDesigner 
 Aplicaciones de Powersoft para la construcción, diseño y modelado de datos a través. Es la herramienta 
 para el análisis, diseño inteligente y construcción sólida de una base de datos y un desarrollo orientado a 
@@ -2316,8 +2252,7 @@ permite utilizar HTML 5, JavaScript y CSS...
 También permite importar proyectos realizados con Eclipse. 
 3.3.1. Herramientas de Análisis de Seguridad 
 SAST (Static Application Security Testing) 
-Se usa para el análisis del código fuente de una aplicación sin ejecutar. Examina el código buscando 
-errores, debilidades y vulnerabilidades potencialmente explotables. 
+Se usa para el análisis del código fuente de una aplicación sin ejecutar. Examina el código buscando \nerrores, debilidades y vulnerabilidades potencialmente explotables. 
 Es últil para encontrar problemas en fases tempranas antes de llevar la aplicación a producción. Detecta 
 problemas como la exposición de datos sensibles, los errores de configuración o la vulnerabilidad a 
 inyecciones SQL. 
@@ -2332,8 +2267,7 @@ Pruebas. Programas para control de versiones. Plataformas de desarrollo colabora
 62 
 DAST (Dynamic Application Security Testing) 
 En este caso DAST se usa para identificar las vulnerabilidades en tiempo de ejecución, esto es en uso 
-real. Subraya las deficiencias en la lógica de la aplicación y los problemas de configuración en tiempo de 
-ejecución. 
+real. Subraya las deficiencias en la lógica de la aplicación y los problemas de configuración en tiempo de \nejecución. 
 Entre otras herramientas encontramos Burp Suite, OWASP ZAP, Acunetix. 
 SCA (Software Composition Analysis) 
 Examina bibliotecas y componentes de terceros usados por la aplicación. Comprueba si las 
@@ -2504,14 +2438,12 @@ hecho, es común implementar modelos híbridos, donde se emplean prácticas estr
 PMBOK o PRINCE2) para la planificación estratégica, mientras se utilizan métodos ágiles para el 
 desarrollo iterativo y la entrega incremental. 
 4.1.4. Herramientas de gestión de proyectos 
-El uso de herramientas digitales facilita enormemente la aplicación de estas metodologías, 
-especialmente en contextos distribuidos, colaborativos o de alta complejidad. Existen plataformas que 
+El uso de herramientas digitales facilita enormemente la aplicación de estas metodologías, \nespecialmente en contextos distribuidos, colaborativos o de alta complejidad. Existen plataformas que 
 permiten gestionar tareas, cronogramas, recursos, comunicación y seguimiento del proyecto de 
 manera centralizada. 
 Entre las más utilizadas se encuentran Trello y Jira, que ofrecen funcionalidades específicas para aplicar 
 metodologías ágiles y visualizar el progreso de los trabajos. Estas herramientas permiten organizar 
-tareas mediante tableros y columnas que representan estados del flujo de trabajo, asignar responsables, 
-establecer plazos y generar métricas de rendimiento. 
+tareas mediante tableros y columnas que representan estados del flujo de trabajo, asignar responsables, \nestablecer plazos y generar métricas de rendimiento. 
 
 <!-- Page 67 -->
 
@@ -2521,8 +2453,7 @@ Repositorios: estructura y actualización. Generación de código y documentaci�
 Pruebas. Programas para control de versiones. Plataformas de desarrollo colaborativo de software 
 67 
 Aunque su funcionamiento detallado será tratado más adelante, conviene señalar aquí que 
-herramientas como Trello resultan especialmente útiles en equipos que adoptan Kanban, gracias a su 
-estructura visual y flexible, mientras que Jira está más orientado a entornos técnicos complejos, como el 
+herramientas como Trello resultan especialmente útiles en equipos que adoptan Kanban, gracias a su \nestructura visual y flexible, mientras que Jira está más orientado a entornos técnicos complejos, como el 
 desarrollo de software, con control más estricto de versiones, seguimiento de incidencias y planificación 
 de releases. En ambos casos, se trata de entornos escalables que contribuyen a mejorar la visibilidad del 
 trabajo y la eficiencia del equipo. 
@@ -2558,9 +2489,7 @@ posible.
 Repositorios: estructura y actualización. Generación de código y documentación. Metodologías de desarrollo. 
 Pruebas. Programas para control de versiones. Plataformas de desarrollo colaborativo de software 
 68 
-Antes de poder avanzar a la siguiente etapa, es necesario haber finalizado completamente la 
-etapa anterior (se presupone que no habrá errores ni variaciones del software). Si hay algún 
-error durante el proceso hay que empezar desde el principio. 
+Antes de poder avanzar a la siguiente etapa, es necesario haber finalizado completamente la \netapa anterior (se presupone que no habrá errores ni variaciones del software). Si hay algún \nerror durante el proceso hay que empezar desde el principio. 
 • En su definición formal, no permite modificaciones ni actualizaciones del software. 
 Inevitablemente, cuando se utiliza este modelo, hay que retomar a situaciones anteriores porque hay 
 requisitos que hay que volver a restablecer, por ello existe una variación del modelo en cascada que es 
@@ -2668,8 +2597,7 @@ Operativo.
  
 + Info 
 Al ser un modelo de Ciclo de Vida orientado a la gestión de riesgo 
-se dice que uno de los aspectos fundamentales de su éxito radica 
-en que el equipo que lo aplique tenga la necesaria experiencia y 
+se dice que uno de los aspectos fundamentales de su éxito radica \nen que el equipo que lo aplique tenga la necesaria experiencia y 
 habilidad para detectar y catalogar correctamente los riesgos. 
  
 Tareas 
@@ -2686,8 +2614,7 @@ Hay tener en cuenta los riesgos de cada uno de los ámbitos.
 deseados y los daños y consecuencias que éstas puedan producir. 
 • Se evalúan alternativas. 
 Se debe tener un prototipo antes de comenzar a desarrollar y probar. 
-Dependiendo del resultado de la evaluación de los riesgos, se elige un modelo para el desarrollo, 
-el que puede ser cualquiera de los otros existentes, como formal, evolutivo, cascada, etc. 
+Dependiendo del resultado de la evaluación de los riesgos, se elige un modelo para el desarrollo, \nel que puede ser cualquiera de los otros existentes, como formal, evolutivo, cascada, etc. 
 
 <!-- Page 72 -->
 
@@ -2811,9 +2738,7 @@ Pruebas. Programas para control de versiones. Plataformas de desarrollo colabora
  
  
  
-Este modelo es un conjunto de tareas agrupadas en pequeñas 
-etapas repetitivas (iteraciones), es uno de los más utilizado, 
-empleado en metodologías diversas. 
+Este modelo es un conjunto de tareas agrupadas en pequeñas \netapas repetitivas (iteraciones), es uno de los más utilizado, \nempleado en metodologías diversas. 
 El modelo consta de diversas etapas de desarrollo en cada 
 incremento, las cuales inician con el análisis y finalizan con la 
 instauración y aprobación del sistema. 
@@ -2841,8 +2766,7 @@ inconsistente con las formas de desarrollo de software que realmente realizaban 
 Los métodos de desarrollo ágiles e iterativos pueden ser vistos como un retroceso a las prácticas 
 observadas en los primeros años del desarrollo de software (aunque en ese tiempo no había 
 metodologías para hacerlo). 
-En el año 2001, miembros prominentes de la comunidad se reunieron en Snowbird, Utah, y adoptaron 
-el nombre de "métodos ágiles". 
+En el año 2001, miembros prominentes de la comunidad se reunieron en Snowbird, Utah, y adoptaron \nel nombre de "métodos ágiles". 
 
 <!-- Page 76 -->
 
@@ -2900,8 +2824,7 @@ organizados, que en la calidad de los procesos empleados.
 Solapar las diferentes fases del desarrollo, en lugar de realizar una tras otra en un ciclo secuencial o en 
 cascada. 
 El núcleo central del marco de trabajo 'Scrum' es el 'sprint'. 
-Sprint es el nombre de cada uno de los ciclos o iteraciones que tenemos dentro de un proyecto que 
-estamos construyendo, y que tiene que dar como resultado un incremento del producto que aporte 
+Sprint es el nombre de cada uno de los ciclos o iteraciones que tenemos dentro de un proyecto que \nestamos construyendo, y que tiene que dar como resultado un incremento del producto que aporte 
 valor al cliente, lo que se denomina un entregable al cliente, debe ser un producto que esté 
 funcionando. 
 Un sprint, tiene un tiempo de duración prefijado, que suele ser entre una y cuatro semanas (aunque la 
@@ -3007,8 +2930,7 @@ Repositorios: estructura y actualización. Generación de código y documentaci�
 Pruebas. Programas para control de versiones. Plataformas de desarrollo colaborativo de software 
 80 
 • Desarrollador. 
-Cada uno de los profesionales que realizan la entrega del incremento de producto generado 
-en cada sprint (denominado incremento). 
+Cada uno de los profesionales que realizan la entrega del incremento de producto generado \nen cada sprint (denominado incremento). 
 Es recomendable un pequeño equipo de 3 a 9 personas con las habilidades transversales 
 necesarias para realizar el trabajo (análisis, diseño, desarrollo, pruebas, documentación, etc.). 
 • Roles Auxiliares. 
@@ -3035,10 +2957,8 @@ reunión de Sprint Planning, en la que el Product Owner identifica los elementos
 Backlog que quiere ver completados y los da a conocer al equipo. 
 • Entonces, el equipo conversa con el Product Owner buscando la claridad y magnitud adecuadas 
 (Cumpliendo el INVEST). 
-• Luego se determina la cantidad de ese trabajo que puede comprometerse a completar durante 
-el siguiente sprint. 
-• Durante el sprint, nadie puede cambiar el Sprint Backlog, lo que significa que los requisitos 
-están congelados durante el sprint. 
+• Luego se determina la cantidad de ese trabajo que puede comprometerse a completar durante \nel siguiente sprint. 
+• Durante el sprint, nadie puede cambiar el Sprint Backlog, lo que significa que los requisitos \nestán congelados durante el sprint. 
 
 <!-- Page 81 -->
 
@@ -3059,10 +2979,8 @@ Es el resultado de cada sprint.
 Flujo de trabajo 
 • Sprint. 
 Es el período en el cual se lleva a cabo el trabajo en sí. 
-Es recomendado que la duración de los sprints sea constante y definida por el equipo con base 
-en su propia experiencia. 
-Al final de cada sprint, el equipo deberá presentar los avances logrados, y el resultado obtenido 
-es un producto que, potencialmente, se puede entregar al cliente. 
+Es recomendado que la duración de los sprints sea constante y definida por el equipo con base \nen su propia experiencia. 
+Al final de cada sprint, el equipo deberá presentar los avances logrados, y el resultado obtenido \nes un producto que, potencialmente, se puede entregar al cliente. 
 Se recomienda no agregar objetivos al sprint o sprint backlog a menos que su falta amenace al 
 éxito del proyecto. 
 La constancia permite la concentración y mejora la productividad del equipo de trabajo. 
@@ -3081,12 +2999,9 @@ Cada día durante la iteración, tiene lugar una reunión de estado del proyecto
 Repositorios: estructura y actualización. Generación de código y documentación. Metodologías de desarrollo. 
 Pruebas. Programas para control de versiones. Plataformas de desarrollo colaborativo de software 
 82 
-Su objetivo es que los miembros del equipo se mantengan actualizados unos a otros sobre 
-el trabajo de cada uno desde el último standup, qué problemas han encontrado o prevén 
-encontrar, y qué planean hacer. 
+Su objetivo es que los miembros del equipo se mantengan actualizados unos a otros sobre \nel trabajo de cada uno desde el último standup, qué problemas han encontrado o prevén \nencontrar, y qué planean hacer. 
 » La reunión tiene una duración fija de entre 5 y 15 minutos. 
-» Se recomienda hacerla de pie para recordar que debe ser una reunión breve y centrada 
-en su objetivo, sin divagaciones. Es obligatorio parar todo lo que se está haciendo para 
+» Se recomienda hacerla de pie para recordar que debe ser una reunión breve y centrada \nen su objetivo, sin divagaciones. Es obligatorio parar todo lo que se está haciendo para 
 concentrarse en la reunión. 
 » Si se requiere ampliar un tema, se hará tras el Daily Standup, pero no se interrumpe la 
 dinámica del Standup para elaborar una discusión. 
@@ -3098,8 +3013,7 @@ del sprint.
 En la reunión de revisión de sprint se presentan los trabajos completados y su duración no 
 debería ser superior a 4 horas para un Sprint de 1 mes. 
 • Retrospectiva del sprint. 
-Después de cada sprint, se lleva a cabo una retrospectiva del sprint (Sprint Retrospective), 
-en la cual todos los miembros del equipo dejan sus impresiones sobre el sprint recién 
+Después de cada sprint, se lleva a cabo una retrospectiva del sprint (Sprint Retrospective), \nen la cual todos los miembros del equipo dejan sus impresiones sobre el sprint recién 
 superado (qué ha ido bien, qué es lo que ha fallado, si ha habido malas prácticas, etc.). 
 El propósito de la retrospectiva es realizar una mejora continua del proceso. 
 Esta reunión tiene un tiempo fijo de cuatro horas. 
@@ -3135,8 +3049,7 @@ horas, deberá ser dividida en otras menores.
 Las tareas en el sprint backlog nunca son asignadas, son tomadas por los miembros del equipo 
 del modo que les parezca adecuado. 
 • Burn down chart. 
-La burn down chart es una gráfica mostrada públicamente que mide la cantidad de requisitos en 
-el Backlog del proyecto pendientes al comienzo de cada Sprint. 
+La burn down chart es una gráfica mostrada públicamente que mide la cantidad de requisitos en \nel Backlog del proyecto pendientes al comienzo de cada Sprint. 
 Dibujando una línea que conecte los puntos de todos los Sprints completados, podremos ver el 
 progreso del proyecto. 
 Lo normal es que esta línea sea descendente (en casos en que todo va bien en el sentido de que 
@@ -3168,8 +3081,7 @@ detectar posibles bloqueos o retrasos en el flujo de trabajo.
 • Limitación del trabajo en progreso (WIP: Work In Progress). Kanban establece límites estrictos 
 sobre cuántas tareas pueden estar activas simultáneamente en cada fase del proceso. Esta 
 restricción evita la sobrecarga del equipo y previene la acumulación de trabajos a medio 
-terminar. Al completar una tarea antes de iniciar otra nueva, se mejora el enfoque y se optimiza 
-el tiempo dedicado a cada actividad. 
+terminar. Al completar una tarea antes de iniciar otra nueva, se mejora el enfoque y se optimiza \nel tiempo dedicado a cada actividad. 
 • Optimización continua de la eficiencia. El sistema promueve la mejora progresiva mediante el 
 análisis periódico de métricas como el tiempo de ciclo o la tasa de entrega. Los equipos realizan 
 ajustes incrementales para agilizar procesos, eliminar pasos innecesarios y resolver cuellos de 
@@ -3219,12 +3131,9 @@ independientes con configuraciones personalizables. Cada proyecto contiene "issu
 diversa complejidad, asignables a usuarios o equipos para distribuir responsabilidades. 
 El sistema permite gestionar permisos de acceso con roles personalizados, desde administradores hasta 
 usuarios básicos, garantizando seguridad y control. Además, ofrece herramientas como etiquetas para 
-clasificar tareas, subtareas para dividir trabajos complejos y "épicas" para agrupar objetivos 
-estratégicos.  
-Para desarrollo de software, Jira incluye funciones como versiones, que vinculan tareas a releases 
-específicos, facilitando el seguimiento del ciclo de vida del producto. Su flexibilidad permite adaptar 
-flujos de trabajo, relaciones entre tareas y métricas de progreso, ofreciendo un entorno escalable para 
-equipos que requieren precisión en la gestión. La plataforma integra todas estas funcionalidades en un 
+clasificar tareas, subtareas para dividir trabajos complejos y "épicas" para agrupar objetivos \nestratégicos.  
+Para desarrollo de software, Jira incluye funciones como versiones, que vinculan tareas a releases \nespecíficos, facilitando el seguimiento del ciclo de vida del producto. Su flexibilidad permite adaptar 
+flujos de trabajo, relaciones entre tareas y métricas de progreso, ofreciendo un entorno escalable para \nequipos que requieren precisión en la gestión. La plataforma integra todas estas funcionalidades en un 
 sistema cohesivo, equilibrando estructura y adaptabilidad para proyectos de cualquier envergadura. 
 4.2.3.2.2. Lean Software Development 
 LEAN es una metodología de gestión que busca maximizar el valor para el cliente eliminando 
@@ -3253,8 +3162,7 @@ Kanban ayudan a visualizar y controlar este flujo.
 fomenta la participación de todos los colaboradores en la identificación de oportunidades de 
 mejora, por pequeñas que sean. 
 Los 7 desperdicios (Muda) en LEAN 
-• Sobreproducción: producir más de lo necesario o antes de que se requiera. Esto genera 
-excedentes que ocupan espacio, aumentan costos de almacenamiento y pueden volverse 
+• Sobreproducción: producir más de lo necesario o antes de que se requiera. Esto genera \nexcedentes que ocupan espacio, aumentan costos de almacenamiento y pueden volverse 
 obsoletos. Es considerado el peor desperdicio porque ocasiona los demás. 
 • Esperas: tiempos muertos por descoordinación entre procesos, falta de materiales o espera de 
 aprobaciones. Esto incluye tanto a personas inactivas como máquinas paradas. 
@@ -3264,8 +3172,7 @@ distantes del punto de uso.
 • Exceso de inventario: acumular materias primas, productos en proceso o terminados más allá de 
 lo estrictamente necesario. Esto incrementa costos de almacenamiento, riesgos de 
 obsolescencia y oculta problemas de calidad o planificación. 
-• Movimientos redundantes: acciones innecesarias de operarios, como desplazamientos 
-excesivos, búsqueda de herramientas o posturas incómodas. Esto reduce la eficiencia y puede 
+• Movimientos redundantes: acciones innecesarias de operarios, como desplazamientos \nexcesivos, búsqueda de herramientas o posturas incómodas. Esto reduce la eficiencia y puede 
 causar fatiga o lesiones. 
 • Defectos: errores que generan retrabajo, desperdicio de materiales o productos no conformes. 
 Además del costo directo, afectan la reputación y la confianza del cliente. 
@@ -3281,8 +3188,7 @@ Repositorios: estructura y actualización. Generación de código y documentaci�
 Pruebas. Programas para control de versiones. Plataformas de desarrollo colaborativo de software 
 87 
 Herramientas clave en LEAN 
-El enfoque LEAN se apoya en diversas herramientas prácticas diseñadas para optimizar procesos y 
-eliminar desperdicios. La metodología 5S proporciona un marco sistemático para organizar los espacios 
+El enfoque LEAN se apoya en diversas herramientas prácticas diseñadas para optimizar procesos y \neliminar desperdicios. La metodología 5S proporciona un marco sistemático para organizar los espacios 
 de trabajo, basado en cinco pasos fundamentales: clasificación, orden, limpieza, estandarización y 
 mantenimiento de las mejoras. 
 Para la gestión visual del flujo de trabajo, Kanban emerge como una solución efectiva, permitiendo 
@@ -3294,17 +3200,13 @@ actividades que aportan valor como los desperdicios presentes en el proceso. Com
 los KPIs (Indicadores Clave de Desempeño) como el tiempo de ciclo, la eficiencia global de los equipos 
 (OEE) y los índices de defectos, proporcionan mediciones objetivas para evaluar y mejorar el 
 rendimiento. 
-Como marco de mejora continua, el ciclo Planificar-Hacer-Verificar-Actuar (PDCA) establece un 
-enfoque iterativo para la resolución de problemas y la implementación de mejoras sostenibles. 
+Como marco de mejora continua, el ciclo Planificar-Hacer-Verificar-Actuar (PDCA) establece un \nenfoque iterativo para la resolución de problemas y la implementación de mejoras sostenibles. 
 Integración y beneficios 
 La naturaleza flexible de LEAN permite su integración sinérgica con otras metodologías como Six 
-Sigma, que aporta herramientas estadísticas para reducir la variabilidad, o Agile, particularmente útil en 
-entornos de desarrollo de software. La implementación exitosa requiere más que la aplicación de 
+Sigma, que aporta herramientas estadísticas para reducir la variabilidad, o Agile, particularmente útil en \nentornos de desarrollo de software. La implementación exitosa requiere más que la aplicación de 
 técnicas; exige un cambio cultural donde la mejora continua se convierta en un compromiso 
 compartido por todos los niveles organizacionales. 
-Entre los beneficios tangibles se destacan la reducción significativa de costos y tiempos de producción, 
-el incremento en la calidad entregada al cliente, la optimización del uso de espacios y recursos, así como 
-el fortalecimiento del compromiso de los equipos y la agilidad de los procesos. 
+Entre los beneficios tangibles se destacan la reducción significativa de costos y tiempos de producción, \nel incremento en la calidad entregada al cliente, la optimización del uso de espacios y recursos, así como \nel fortalecimiento del compromiso de los equipos y la agilidad de los procesos. 
 En su esencia, LEAN trasciende el concepto de simple metodología operativa para convertirse en una 
 filosofía gerencial orientada a maximizar el valor entregado al cliente mientras se minimiza el uso de 
 recursos. Esta dualidad entre eficiencia y creación de valor constituye el núcleo de su propuesta 
@@ -3346,9 +3248,7 @@ automatiza procesos y fomenta equipos unificados. Además, en lugar de feedback 
 lanzamiento, DevOps ofrece retroalimentación constante mediante monitoreo en tiempo real. Su 
 flexibilidad permite adaptarse frente a enfoques rígidos y secuenciales. 
 Los beneficios de DevOps incluyen mayor velocidad de entrega con lanzamientos frecuentes y 
-confiables, mejor calidad del software gracias a pruebas automatizadas y detección temprana de 
-errores, reducción de costos al minimizar fallos en producción y optimizar recursos, escalabilidad 
-eficiente con gestión de infraestructura en la nube, y seguridad mejorada mediante prácticas 
+confiables, mejor calidad del software gracias a pruebas automatizadas y detección temprana de \nerrores, reducción de costos al minimizar fallos en producción y optimizar recursos, escalabilidad \neficiente con gestión de infraestructura en la nube, y seguridad mejorada mediante prácticas 
 integradas desde el diseño. 
 Sin embargo, DevOps también presenta retos. Requiere un cambio cultural para romper silos y 
 fomentar colaboración, tiene una curva de aprendizaje por la necesidad de dominar herramientas 
@@ -3375,8 +3275,7 @@ Pruebas. Programas para control de versiones. Plataformas de desarrollo colabora
 • Docker: plataforma de contenedorización que permite empaquetar aplicaciones y sus 
 dependencias en contenedores ligeros y portables. Los contenedores se ejecutan de manera 
 aislada en cualquier entorno con Docker Engine. 
-• Kubernetes: orquestador de contenedores open-source para automatizar el despliegue, 
-escalado y gestión de aplicaciones en contenedores. Organiza contenedores en pods, maneja 
+• Kubernetes: orquestador de contenedores open-source para automatizar el despliegue, \nescalado y gestión de aplicaciones en contenedores. Organiza contenedores en pods, maneja 
 balanceo de carga, auto-reparación y actualizaciones sin downtime. 
 • Terraform: herramienta de infraestructura como código de HashiCorp que permite definir y 
 provisionar recursos en la nube o locales usando archivos de configuración declarativos. 
@@ -3398,8 +3297,7 @@ pilares clave:
 • Automatización avanzada de controles que va más allá del simple escaneo. 
 • El principio "Shift Left" aplicado mediante prácticas como threat modeling colaborativo. 
 • Una monitorización proactiva que evoluciona hacia observabilidad de seguridad predictiva. 
-Este modelo exige una transformación cultural hacia la "propiedad compartida de seguridad", donde los 
-equipos adoptan responsabilidad colectiva. Se implementa mediante plataformas internas que ofrecen 
+Este modelo exige una transformación cultural hacia la "propiedad compartida de seguridad", donde los \nequipos adoptan responsabilidad colectiva. Se implementa mediante plataformas internas que ofrecen 
 seguridad como servicio autoservicio, permitiendo autonomía con guardrails automatizados. La 
 verdadera innovación no está solo en prevenir vulnerabilidades, sino en crear sistemas que mejoren 
 continuamente su postura de seguridad mediante aprendizaje automático y retroalimentación en 
@@ -3463,8 +3361,7 @@ Repositorios: estructura y actualización. Generación de código y documentaci�
 Pruebas. Programas para control de versiones. Plataformas de desarrollo colaborativo de software 
 91 
 A diferencia de modelos tradicionales donde la seguridad se aplica al final, DevSecOps exige 
-colaboración entre desarrolladores, operaciones y equipos de seguridad, con formación continua en 
-estándares como OWASP Top 10. Su implementación requiere compromiso organizacional y 
+colaboración entre desarrolladores, operaciones y equipos de seguridad, con formación continua en \nestándares como OWASP Top 10. Su implementación requiere compromiso organizacional y 
 automatización robusta, pero ofrece beneficios como reducción de brechas de seguridad, cumplimiento 
 normativo más ágil y mayor confianza del cliente. 
 4.2.3.4. Beneficios 
@@ -3486,8 +3383,7 @@ proporcionado por el hecho de que pueden estructurarse de manera autónoma.
 Creación de software solamente con las prestaciones que contribuyen a un mayor valor de 
 negocio gracias a la priorización por retorno de inversión. 
 • Predicciones de tiempos. 
-A través de este marco de trabajo se conoce la velocidad media del equipo por sprint, con lo que 
-es posible estimar de manera fácil cuando se podrá hacer uso de una determinada funcionalidad 
+A través de este marco de trabajo se conoce la velocidad media del equipo por sprint, con lo que \nes posible estimar de manera fácil cuando se podrá hacer uso de una determinada funcionalidad 
 que todavía está en el Backlog. 
 • Reducción de riesgos. 
 El hecho de desarrollar, en primer lugar, las funcionalidades de mayor valor y de saber la 
@@ -3548,8 +3444,7 @@ Está diseñado para cubrir todas las actividades que requieren gestionar, estab
 Servicios. 
 Evaluación (appraisal) 
 Muchas organizaciones valoran el medir su progreso llevando a cabo una evaluación (appraisal) y 
-ganando una clasificación del nivel de madurez o de un nivel de capacidad de logro. Este tipo de 
-evaluaciones son realizadas normalmente por una o más de las siguientes razones: 
+ganando una clasificación del nivel de madurez o de un nivel de capacidad de logro. Este tipo de \nevaluaciones son realizadas normalmente por una o más de las siguientes razones: 
 • Para determinar que tan bien los procesos de la organización se comparan con las mejores 
 prácticas CMMI y determinar qué mejoras se pueden hacer. 
 • Como requisito del cliente en licitaciones públicas o concursos privados. 
@@ -3660,8 +3555,7 @@ Las herramientas de SCM como Git, Subversion y Microsoft Team Foundation Server 
 combinadas con TDD, permiten: 
 • Versionado del código: Mantener un historial detallado de cada cambio en el código, junto con 
 sus pruebas asociadas. 
-• Ejecución automatizada de pruebas: Cada vez que se realiza un commit o push, las pruebas se 
-ejecutan automáticamente para asegurar la estabilidad del software. 
+• Ejecución automatizada de pruebas: Cada vez que se realiza un commit o push, las pruebas se \nejecutan automáticamente para asegurar la estabilidad del software. 
 Beneficios de TDD dentro de SCM: 
 Existe un menor riesgo de errores en producción pues las pruebas están integradas en cada fase, 
 reduciendo significativamente los errores en las versiones finales. 
@@ -3685,8 +3579,7 @@ funcionamiento.
 Repositorios: estructura y actualización. Generación de código y documentación. Metodologías de desarrollo. 
 Pruebas. Programas para control de versiones. Plataformas de desarrollo colaborativo de software 
 97 
-La base del sistema de monitorización es la recopilación de valores, qué al analizarlos, permiten 
-entender el comportamiento, las tendencias, los riesgos y poder prever el impacto que tendrán posibles 
+La base del sistema de monitorización es la recopilación de valores, qué al analizarlos, permiten \nentender el comportamiento, las tendencias, los riesgos y poder prever el impacto que tendrán posibles 
 futuros cambios. 
 6.1. Métrica 
 Se llama métrica a aquellas características del sistema, que, al ser medidas, proporcionan una secuencia 
@@ -3723,8 +3616,7 @@ Repositorios: estructura y actualización. Generación de código y documentaci�
 Pruebas. Programas para control de versiones. Plataformas de desarrollo colaborativo de software 
 98 
 Tipos de información usada en las métricas 
-Las métricas sobre las que se recogen los valores son distintas para cada sistema, por ello distinguimos 
-entre distintos niveles al planificar la estrategia de monitorización: 
+Las métricas sobre las que se recogen los valores son distintas para cada sistema, por ello distinguimos \nentre distintos niveles al planificar la estrategia de monitorización: 
 • Métricas basadas en las máquinas. 
 En lo más bajo de la jerarquía de métricas están los indicadores de las máquinas. Aquí se incluyen 
 cualquier métrica involucrada en evaluar el estado o rendimiento de la máquina individual 
@@ -3740,8 +3632,7 @@ conectividad desde el exterior y para asegurar que los servicios son accesibles 
 del sistema. Ejemplos: conectividad, tasa de error y paquetes perdidos, latencia, utilización del 
 ancho de banda. 
 • Métricas de pool de servidores. 
-Las métricas sobre servidores individuales son importantes. Sin embargo, en sistemas grandes 
-es mejor evaluar la habilidad de una colección de máquinas para desarrollar un trabajo y 
+Las métricas sobre servidores individuales son importantes. Sin embargo, en sistemas grandes \nes mejor evaluar la habilidad de una colección de máquinas para desarrollar un trabajo y 
 responder adecuadamente a las peticiones. Ejemplos: uso de los recursos del pool, indicadores 
 de ajuste de escala, instancias degradadas. 
 • Métricas de dependencias externas. 
@@ -3753,8 +3644,7 @@ puede afectar a las operaciones. Ejemplos: Estado del servicio y disponibilidad,
 Tipos de comportamiento de métricas 
 Podemos distinguir distintos tipos de métricas, dependiendo de sus características: 
 • Contador. 
-Es una métrica acumulativa que representa un valor numérico que solo puede subir. Por 
-ejemplo, un contador de peticiones servidas, tareas completadas, errores ocurridos, etc. 
+Es una métrica acumulativa que representa un valor numérico que solo puede subir. Por \nejemplo, un contador de peticiones servidas, tareas completadas, errores ocurridos, etc. 
 
 <!-- Page 99 -->
 
@@ -3764,8 +3654,7 @@ Repositorios: estructura y actualización. Generación de código y documentaci�
 Pruebas. Programas para control de versiones. Plataformas de desarrollo colaborativo de software 
 99 
 • Calibrador. 
-Es una métrica que representa un valor numérico que puede arbitrariamente subir o bajar. Por 
-ejemplo, una medida de la temperatura, una medida de la memoria usada o el número de 
+Es una métrica que representa un valor numérico que puede arbitrariamente subir o bajar. Por \nejemplo, una medida de la temperatura, una medida de la memoria usada o el número de 
 procesos en ejecución. 
 • Histograma. 
 Muestra observaciones (normalmente cosas con duraciones de peticiones o tamaños de 
@@ -3805,8 +3694,7 @@ Pruebas. Programas para control de versiones. Plataformas de desarrollo colabora
 100 
 Este Ministerio, ofrece a las Organizaciones, desde el Consejo Superior de Informática, un método para 
 la sistematización de las actividades que dan soporte al ciclo de vida del software en el desarrollo de 
-Sistemas de Información, y un marco de gestión para asegurar que los proyectos cumplen sus objetivos 
-en términos de calidad, coste y plazos. 
+Sistemas de Información, y un marco de gestión para asegurar que los proyectos cumplen sus objetivos \nen términos de calidad, coste y plazos. 
  
  
  
@@ -3870,8 +3758,7 @@ IEEE, OMG entre otras.
 Métrica para su creación está basada en estos estándares. los principales que podríamos enumerar 
 serían: 
 • ISO 12207 Information technology -Software life cycle processes. 
-Esta norma propone un Modelo de Ciclo de Vida de Desarrollo, el cual se ha seguido en la 
-elaboración de la estructura de Métrica versión 3. 
+Esta norma propone un Modelo de Ciclo de Vida de Desarrollo, el cual se ha seguido en la \nelaboración de la estructura de Métrica versión 3. 
 • ISO/IEC TR 15.504 (SPICE) Software Process Improvement and assurance standards Capability 
 Determination. 
 
@@ -3893,8 +3780,7 @@ orientado a objetos para ello utiliza:
 • Procesos principales. 
 • Interfaces (Las interfaces son tareas comunes a todos los procesos). 
 Procesos principales 
-Los procesos principales corresponden a las fases del proceso de desarrollo y dentro de cada una de 
-ellas vamos a tener una serie de actividades o subprocesos que van a establecer una determinada 
+Los procesos principales corresponden a las fases del proceso de desarrollo y dentro de cada una de \nellas vamos a tener una serie de actividades o subprocesos que van a establecer una determinada 
 documentación y constituir hitos (momentos concretos con parte del producto terminados). 
 En cada proceso detalla las Actividades y Tareas a realizar. 
 Para cada tarea se indican: 
@@ -3942,10 +3828,8 @@ El sistema de monitorización asistirá a dicho operador, haciendo disponible la
 gestiona, para que pueda identificar la(s) causa(s). La definición de las alertas tiene dos 
 componentes: una condición basada en las métricas y una acción a desarrollar cuando los 
 valores caen fuera de condiciones aceptables. 
-La notificación de alerta debería contener suficiente información para diagnosticar que es lo que 
-está pasando. Dependiendo de la importancia de las alertas se puede usar un sistema distinto de 
-notificación (correo electrónico, llamadas, etcétera). Las alertas permiten a los operadores no 
-estar tan pendiente de la monitorización del sistema. 
+La notificación de alerta debería contener suficiente información para diagnosticar que es lo que \nestá pasando. Dependiendo de la importancia de las alertas se puede usar un sistema distinto de 
+notificación (correo electrónico, llamadas, etcétera). Las alertas permiten a los operadores no \nestar tan pendiente de la monitorización del sistema. 
 Algunas de las mejores herramientas para la monitorización son: 
 • Acronis Monitoring Service. 
 • New Relic. 
@@ -3969,8 +3853,7 @@ Pruebas. Programas para control de versiones. Plataformas de desarrollo colabora
 Se le da el nombre de SVC (System Version Control), en castellano SCV (Sistema de Control de 
 Versiones). 
 Se llama control de versiones a la gestión de los diversos cambios que se realizan sobre los elementos de 
-algún producto o una configuración del mismo. Una versión, revisión o edición de un producto, es el 
-estado en el que se encuentra el mismo, en un momento dado de su desarrollo o modificación. 
+algún producto o una configuración del mismo. Una versión, revisión o edición de un producto, es el \nestado en el que se encuentra el mismo, en un momento dado de su desarrollo o modificación. 
 Un sistema de control de versiones es una herramienta que registra los cambios realizados sobre un 
 archivo o conjunto de archivos de un proyecto a lo largo del tiempo. 
 El sistema de control de versiones es de gran utilidad para entornos de desarrollo colaborativo donde 
@@ -4012,8 +3895,7 @@ se pueden realizar cambios subsiguientes.
 unificada. 
 • Conflicto: sucede cuando dos o más personas intentan realizar diferentes cambios en la misma 
 porción de código. 
-• Commit: consiste en realizar un cambio local en el proyecto y luego almacenar dicho cambio en 
-el repositorio. 
+• Commit: consiste en realizar un cambio local en el proyecto y luego almacenar dicho cambio en \nel repositorio. 
  
 
 <!-- Page 106 -->
@@ -4093,8 +3975,7 @@ Apache Subversion (SVN) es una herramienta de control de versiones open source b
 repositorio cuyo funcionamiento se asemeja enormemente al de un sistema de ficheros. Es software 
 libre bajo una licencia de tipo Apache/BSD. Utiliza el concepto de revisión para guardar los cambios 
 producidos en el repositorio. 
-Entre dos revisiones guarda solo el conjunto de modificaciones, optimizando así al máximo el uso de 
-espacio en disco. SVN permite al usuario crear, copiar y borrar carpetas con la misma flexibilidad con la 
+Entre dos revisiones guarda solo el conjunto de modificaciones, optimizando así al máximo el uso de \nespacio en disco. SVN permite al usuario crear, copiar y borrar carpetas con la misma flexibilidad con la 
 que lo haría si estuviese en su disco duro local. 
 Subversion puede acceder al repositorio a través de redes, lo que le permite ser usado por personas que 
 se encuentran en distintas computadoras. 
@@ -4106,8 +3987,7 @@ control de versiones que son basados en Cliente-Servidor donde el repositorio de
 reside en el equipo servidor y los clientes toman de allí la última versión para modificarla y 
 posteriormente ingresarla con las modificaciones realizadas. Como en todos los programas de control 
 de versiones, se basa en obtener una copia de trabajo ("check-out" o "desproteger"), realizar cambios 
-sobre la copia y reingresarla al repositorio. Para lograr el acceso compartido al repositorio, VSS emplea 
-el protocolo de archivos compartidos SMB (lo cual crea algunos inconvenientes). 
+sobre la copia y reingresarla al repositorio. Para lograr el acceso compartido al repositorio, VSS emplea \nel protocolo de archivos compartidos SMB (lo cual crea algunos inconvenientes). 
 SMB, Server Message Block, protocolo de red utilizado en el sistema operativo Windows, que permite 
 compartir archivos, impresoras, etcétera, entre nodos de una red de computadoras que usan el sistema 
 operativo Microsoft Windows. 
@@ -4177,13 +4057,11 @@ grandes empresas y es el que nosotros aconsejamos usar para
 proyectos de cierta envergadura. 
  
 Git (pronunciado "guit) es un software de control de versiones diseñado por Linux Torvalds 
-Está orientado a la eficiencia y la confiabilidad del mantenimiento de versiones de aplicaciones cuando 
-estas tienen un gran número de archivos de código fuente. 
+Está orientado a la eficiencia y la confiabilidad del mantenimiento de versiones de aplicaciones cuando \nestas tienen un gran número de archivos de código fuente. 
 Su propósito es llevar registro de los cambios en archivos de computadora y coordinar el trabajo que 
 varias personas realizan sobre archivos compartidos. 
 Git, se pensó como un motor de bajo nivel sobre el cual otros pudieran escribir la interfaz de usuario o 
-front end, pero actualmente es un sistema de control de versiones con plena funcionalidad, por lo que 
-es usado en algunos proyectos de mucha relevancia como el grupo de programación del núcleo Linux. 
+front end, pero actualmente es un sistema de control de versiones con plena funcionalidad, por lo que \nes usado en algunos proyectos de mucha relevancia como el grupo de programación del núcleo Linux. 
 En cuanto a derechos de autor, Git es un software libre distribuible bajo los términos de la versión 2 de 
 la Licencia Pública General de GNU. 
 
@@ -4238,8 +4116,7 @@ El comando se utiliza para crear una nueva rama y cambiar a ella en un solo paso
 Establece una nueva rama local para rastrear automáticamente una rama remota en el 
 repositorio remoto llamado "origin". 
 • git branch: 
-Lista de todas las ramas locales presentes en tu repositorio incluida la rama en la que te 
-encuentras actualmente (que marca en esa lista con un asterisco *). 
+Lista de todas las ramas locales presentes en tu repositorio incluida la rama en la que te \nencuentras actualmente (que marca en esa lista con un asterisco *). 
 • git branch -a: 
 Lista todas las ramas locales y remotas. 
 • git branch -d <nombre de la rama>: 
@@ -4327,8 +4204,7 @@ Una plataforma de desarrollo colaborativo de software, también conocida como fo
 cooperación entre desarrolladores para la difusión de software y el soporte al usuario. 
 En este tipo de plataformas se albergan múltiples proyectos de software, en los que los desarrolladores 
 han de registrarse para poder contribuir. 
-Consta de numerosas aplicaciones normalmente con interfaz web para la administración y desarrollo de 
-estos proyectos en común. 
+Consta de numerosas aplicaciones normalmente con interfaz web para la administración y desarrollo de \nestos proyectos en común. 
 En las plataformas de desarrollo colaborativo es muy importante que los requisitos estén muy bien 
 definidos, para poder crear un plan de desarrollo y determinar qué tareas realizará cada uno. 
 8.1. Principales plataformas 
@@ -4521,8 +4397,7 @@ software en plataformas de desarrollo colaborativo como GitHub, GitLab, Bitbucke
 plataformas similares. Sin embargo, no todos estos archivos son obligatorios en todos los proyectos, y 
 su presencia depende en gran medida de las necesidades del proyecto, del equipo de desarrollo y de la 
 plataforma utilizada. 
-• README.md: Archivo fundamental para cualquier proyecto. Contiene información crucial como 
-el propósito del proyecto, cómo instalarlo, cómo usarlo, cómo contribuir y detalles generales 
+• README.md: Archivo fundamental para cualquier proyecto. Contiene información crucial como \nel propósito del proyecto, cómo instalarlo, cómo usarlo, cómo contribuir y detalles generales 
 sobre el funcionamiento. 
 • LICENSE: Especifica los términos de la licencia bajo la cual se distribuye el proyecto. Es 
 importante para determinar cómo otros pueden usar, modificar y distribuir el código. 
@@ -4536,8 +4411,7 @@ Facilita la revisión del código y ayuda a gestionar el flujo de contribuciones
 • CHANGELOG.md: Archivo que contiene un registro de los cambios y mejoras realizadas en el 
 proyecto a lo largo del tiempo. Es útil para mantener un historial detallado de las versiones del 
 proyecto. 
-• ARCHITECTURE.md: Proporciona información sobre la arquitectura del proyecto, cómo están 
-estructurados los componentes y cómo interactúan entre sí. Este archivo es importante para 
+• ARCHITECTURE.md: Proporciona información sobre la arquitectura del proyecto, cómo están \nestructurados los componentes y cómo interactúan entre sí. Este archivo es importante para 
 desarrolladores que desean comprender la estructura interna del sistema. 
 • SECURITY.md: Ofrece pautas sobre cómo manejar vulnerabilidades de seguridad en el proyecto, 
 cómo reportar problemas de seguridad y prácticas recomendadas. 

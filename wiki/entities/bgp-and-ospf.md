@@ -31,7 +31,7 @@ El enrutamiento dinámico permite a los routers intercambiar información de top
 | **Algoritmo** | **Estado de Enlace** (*Link-State* - Dijkstra SPF) | **Vector de Caminos** (*Path-Vector*) |
 | **Ámbito** | Dentro de un único Sistema Autónomo (AS) | Interconexión entre distintos Sistemas Autónomos |
 | **Protocolo de Transporte** | Encapsulado directo en **IP (Protocolo 89)** | Sesión sobre **TCP (Puerto 179)** |
-| **Métrica Principal** | **Coste** ($	ext{Coste} = 	ext{Ancho de Banda de Referencia} / 	ext{Ancho de Banda del Enlace}$) | Atributos de ruta (**AS-PATH**, Local Preference, MED, Weight) |
+| **Métrica Principal** | **Coste** ($\text{Coste} = \text{Ancho de Banda de Referencia} / \text{Ancho de Banda del Enlace}$) | Atributos de ruta (**AS-PATH**, Local Preference, MED, Weight) |
 | **Estructura Jerárquica** | Jerarquía de Áreas (Área `0` / *Backbone Area*) | Sistemas Autónomos identificados por números **ASN** |
 | **Convergencia** | Ultrarrápida | Diseñado para estabilidad y políticas de tráfico global |
 

@@ -27,7 +27,7 @@ Matriz comparativa de características técnicas entre el protocolo IPv4 tradici
 | Parámetro | IPv4 (RFC 791) | IPv6 (RFC 8200) |
 |-----------|----------------|-----------------|
 | **Tamaño de Dirección** | **32 bits (4 octetos)** | **128 bits (16 octetos)** |
-| **Número Total de Direcciones** | $2^{32} pprox 4.29 	imes 10^9$ | $2^{128} pprox 3.4 	imes 10^{38}$ |
+| **Número Total de Direcciones** | $2^{32} \approx 4.29 \times 10^9$ | $2^{128} \approx 3.4 \times 10^{38}$ |
 | **Notación Textual** | Decimal con puntos: `192.168.1.254` | Hexadecimal con dos puntos: `2001:db8::1` |
 | **Tamaño Cabecera Base** | **20 a 60 bytes** (variable) | **40 bytes FIJOS** (procesamiento óptimo por hardware) |
 | **Checksum en Cabecera** | Sí (debe recalcularse en cada router) | **No** (se delega la detección de errores a L2 y L4) |

@@ -28,7 +28,7 @@ El **Protocolo de Internet (IP)** es el protocolo fundamental de la capa de red 
 | Característica | IPv4 (RFC 791) | IPv6 (RFC 8200) |
 |----------------|----------------|-----------------|
 | **Longitud de Dirección** | **32 bits (4 bytes)** | **128 bits (16 bytes)** |
-| **Espacio de Direcciones** | $pprox 4.29 	imes 10^9$ ($2^{32}$) | $pprox 3.4 	imes 10^{38}$ ($2^{128}$) |
+| **Espacio de Direcciones** | $\approx 4.29 \times 10^9$ ($2^{32}$) | $\approx 3.4 \times 10^{38}$ ($2^{128}$) |
 | **Notación** | Decimal con puntos (`192.168.1.1`) | Hexadecimal con dos puntos (`2001:db8::1`) |
 | **Tamaño Cabecera Base** | **20 a 60 bytes** (variable) | **40 bytes FIJOS** |
 | **Checksum en Cabecera** | Sí (recalculado en cada salto) | **No** (eliminado para mayor velocidad) |

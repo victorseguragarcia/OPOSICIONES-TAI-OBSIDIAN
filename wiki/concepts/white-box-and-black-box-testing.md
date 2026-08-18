@@ -25,7 +25,7 @@ Estrategias fundamentales de diseño de casos de prueba en ingeniería de softwa
 ## 🏛️ Comparativa y Fórmulas
 
 - **Caja Blanca (Estructural)**: Analiza el código interno.
-  - **Fórmula de McCabe**: $$V(G) = E - N + 2P = 	ext{Nodos Predicado} + 1$$
+  - **Fórmula de McCabe**: $$V(G) = E - N + 2P = \text{Nodos Predicado} + 1$$
   - Determina el número de caminos independientes básicos para cobertura total.
 - **Caja Negra (Funcional)**: Basada en especificación.
   - **Técnicas**: Particiones de equivalencia (clases válidas/inválidas) y análisis de valores límite (BVA).

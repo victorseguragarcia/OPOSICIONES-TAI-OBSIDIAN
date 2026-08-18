@@ -6,8 +6,7 @@ tags:
   - temario-extendido
   - bloque-4
   - tema-06
-  - oposiciones-tai
-estado: "🔴 Por Estudiar"
+  - oposiciones-tai\nestado: "🔴 Por Estudiar"
 dificultad: "⭐⭐⭐"
 prioridad: "Máxima"
 sources:
@@ -30,8 +29,7 @@ updated: "2026-08-18"
 Comunicaciones: Modos, 
 Medios y Equipos. Redes de 
 conmutación y de difusión. 
-Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones móviles \ne inalámbricas 
 
 ---
 
@@ -242,8 +240,7 @@ e inalámbricas
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 6 
 1. Comunicaciones 
 La comunicación consiste en el intercambio o compartición de información. 
@@ -278,8 +275,7 @@ software (programas).
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 7 
 1.1. Efectividad de la comunicación 
 La efectividad del sistema de comunicación de datos depende de cuatro características fundamentales: 
@@ -309,8 +305,7 @@ retardo significativo.
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 8 
 1.2. Componentes de la comunicación 
 Un sistema de transmisión de datos está formado por cinco componentes básicos: 
@@ -339,16 +334,14 @@ Componentes de un sistema de transmisión de datos
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 9 
 1.3. Estándares y organizaciones de estandarización 
 Los estándares son esenciales para garantizar la interoperabilidad nacional e internacional de los datos, 
 la tecnología y los procesos de telecomunicaciones. 
 Proporcionan guías a los fabricantes, vendedores, agencias del gobierno y otros proveedores de 
 servicios, para asegurar la interconectividad de sus productos o servicios. 
-Los estándares son desarrollados mediante Organizadores de Estandarización, con la cooperación 
-entre: 
+Los estándares son desarrollados mediante Organizadores de Estandarización, con la cooperación \nentre: 
 • Comités de creación de estándares. 
 • Foros. 
 • Agencias reguladoras de los gobiernos. 
@@ -374,8 +367,7 @@ Telecomunicaciones-Sector de Estándares de Telecomunicaciones (ITU-T).
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 10 
 • The American National Standards Institute (ANSI). 
 El Instituto Nacional Americano para la Estandarización (ANSI) es una corporación privada sin 
@@ -389,18 +381,15 @@ ramas relacionadas de la ingeniería.
 Como uno de sus objetivos principales, el IEEE prevé el desarrollo y adopción de estándares 
 internacionales para computación y comunicación. 
 • The Electronic Industries Association (EIA). 
-Es una organización sin ánimo de lucro dedicada a la promoción de aspectos de la fabricación 
-electrónica. 
+Es una organización sin ánimo de lucro dedicada a la promoción de aspectos de la fabricación \nelectrónica. 
 En el campo de la tecnología de la información, la EIA ha hecho contribuciones significativas 
-mediante la definición de interfaces de conexión física y de especificaciones de señalización 
-eléctrica para la comunicación de datos. 
+mediante la definición de interfaces de conexión física y de especificaciones de señalización \neléctrica para la comunicación de datos. 
 Foros 
 El desarrollo de la tecnología de las telecomunicaciones se está produciendo más rápidamente que lo 
 que permite la habilidad de los comités de estandarización para ratificar los estándares. 
 Los comités de estandarización son organizaciones procedimentales y actúan lentamente por 
 naturaleza. 
-Para acomodar la necesidad de tener modelos de trabajo y acuerdos y facilitar los procesos de 
-estandarización, muchos grupos de interés especial han desarrollado foros compuestos por miembros 
+Para acomodar la necesidad de tener modelos de trabajo y acuerdos y facilitar los procesos de \nestandarización, muchos grupos de interés especial han desarrollado foros compuestos por miembros 
 que representan a las empresas interesadas. 
 Los foros trabajan con las universidades y los usuarios para probar, evaluar y estandarizar nuevas 
 tecnologías. 
@@ -410,12 +399,10 @@ Los foros presentan sus conclusiones a los organismos de estandarización.
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 11 
 Agencias reguladoras 
-Toda la tecnología de comunicaciones está sujeta a regulación por las agencias del gobierno (por 
-ejemplo, la Comisión Federal de Comunicaciones (FCC) en Estados Unidos). 
+Toda la tecnología de comunicaciones está sujeta a regulación por las agencias del gobierno (por \nejemplo, la Comisión Federal de Comunicaciones (FCC) en Estados Unidos). 
 El objetivo de estas agencias es proteger el interés público mediante la regulación de la radio, la 
 televisión y las comunicaciones por cable. 
 Tecnologías de Información y Comunicaciones (TIC). Normativas 
@@ -428,8 +415,7 @@ Sus usos son ilimitados y pueden manejarse con facilidad, sin necesidad de ser u
  
 Ejemplo 
 Televisores, teléfonos celulares, computadores, radios, 
-reproductores de audio y video, consolas de videojuegos, tabletas 
-e Internet. 
+reproductores de audio y video, consolas de videojuegos, tabletas \ne Internet. 
  
  
 Su utilización es diversa, para divertirnos, aprender, mantenernos en contacto, saber lo que está 
@@ -447,8 +433,7 @@ Parlamento Europeo y del Consejo. Esta decisión se aplica al contexto español 
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 12 
 Con la publicación de esta decisión se establece: 
 • Que el estándar de aplicación para el cumplimiento de los requisitos es la norma "EN 301 549 
@@ -481,8 +466,7 @@ de un único enlace de datos.
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 13 
 En toda transmisión multiplexada se necesita: 
 • Un multiplexor en el transmisor. 
@@ -508,8 +492,7 @@ datos necesaria requerida por los dispositivos transmisores y receptores.
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 14 
 Se divide el enlace en el tiempo y no en frecuencia. 
 Tipos: 
@@ -540,8 +523,7 @@ Tipos de Modulación según el sistema de transmisión
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 15 
 • Señal portadora analógica y moduladora digital: 
 • Desplazamiento de amplitud, ASK. 
@@ -569,8 +551,7 @@ Puede ser:
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 16 
 2.3.1. UniCast 
  
@@ -596,8 +577,7 @@ Ejemplos:
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 17 
 • Receptor simplex: 
 • Impresora. 
@@ -622,8 +602,7 @@ Comunicación Semi-Dúplex
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 18 
 2.3.1.3. Dúplex o Full-dúplex 
 En el modo dúplex ambas estaciones pueden enviar y recibir simultáneamente. 
@@ -648,8 +627,7 @@ los grupos multicast.
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 19 
 Estos grupos multicast pueden crecer o disminuir dinámicamente. 
 Los nodos se unen (join) a un grupo multicast si están interesados en recibir tráfico dirigido a la 
@@ -660,10 +638,8 @@ y los conmutadores de la red.
  
 Fuente: (https://commons.wikimedia.org/wiki/File:Broadcast.svg) 
 La comunicación broadcast es comparable con la comunicación multicast ya que existe un solo emisor. 
-En cambio, con broadcast un solo mensaje se entrega a todos los potenciales receptores (por ejemplo, 
-en una subred), mientras que con multicast solo lo reciben los nodos interesados en el tráfico. 
-La manera más común de lograr la comunicación broadcast es utilizar una dirección de difusión 
-especial, en la cual se indica al mecanismo de comunicación que el mensaje debe ser entregado a todos 
+En cambio, con broadcast un solo mensaje se entrega a todos los potenciales receptores (por ejemplo, \nen una subred), mientras que con multicast solo lo reciben los nodos interesados en el tráfico. 
+La manera más común de lograr la comunicación broadcast es utilizar una dirección de difusión \nespecial, en la cual se indica al mecanismo de comunicación que el mensaje debe ser entregado a todos 
 los nodos de la subred. 
 Al enviar un mensaje broadcast, el emisor no necesita conocer el número de receptores. 
 Broadcast es menos eficiente porque ocupa más infraestructura de la red al enviarlo a todos los nodos 
@@ -673,8 +649,7 @@ o Address Resolution Protocol (ARP).
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 20 
 2.3.4. AnyCast 
  
@@ -699,8 +674,7 @@ Solamente se envía un bit con cada pulso de reloj. Hay tres tipos de transmisio
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 21 
 2.4.1. Transmisión paralela 
 Los datos binarios (formados por unos y ceros) se organizan en grupos de n bits. 
@@ -722,8 +696,7 @@ lugar de n) para transmitir datos entre dispositivos.
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 22 
  
 Transmisión serie 
@@ -738,8 +711,7 @@ En la transmisión asíncrona, la temporización de la señal no es importante.
 La información se recibe y se traduce usando unos patrones acordados basados en la agrupación el flujo 
 de bits en bytes. 
 Cada grupo (habitualmente 8 bits) se envía como una unidad. 
-El sistema que lo envía gestiona cada grupo independientemente, entregándolo al enlace en cuanto 
-está listo. 
+El sistema que lo envía gestiona cada grupo independientemente, entregándolo al enlace en cuanto \nestá listo. 
 El receptor no sabe cuándo va a llegar el grupo siguiente. 
 Para avisar al receptor de la llegada de un nuevo grupo se añade un bit extra al principio de cada byte 
 (habitualmente un cero) denominado bit de inicio. 
@@ -749,8 +721,7 @@ Usando este método estamos aumentando el tamaño del grupo de bits al menos en 
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 23 
 Además, la transmisión de cada grupo de bits puede ir seguida de un intervalo de duración variable. 
 Este modo es asíncrono a nivel de grupo de n bits, pero la recepción de bits de un grupo debe tener 
@@ -773,8 +744,7 @@ Transmisión síncrona
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 24 
 Aunque en la figura se han incluido divisiones entre los bytes, en realidad estas divisiones no existen. 
 El emisor puede enviar los datos en ráfagas separadas. Los intervalos entre ráfagas se deben rellenar 
@@ -783,8 +753,7 @@ El receptor cuenta los bits a medida que llega y los agrupa en unidades de n bit
 En este caso la temporización es muy importante, ya que la exactitud de la información recibida 
 depende de la habilidad del receptor de llevar exactamente la cuenta de los bits a medida que llegan. 
 Ventaja: Mayor velocidad al no haber bits extra ni intervalos. 
-La transmisión síncrona es útil para aplicaciones de alta velocidad como la transmisión de datos 
-entre dos ordenadores. 
+La transmisión síncrona es útil para aplicaciones de alta velocidad como la transmisión de datos \nentre dos ordenadores. 
  
  
  
@@ -805,8 +774,7 @@ Transmisión isócrona
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 25 
 3. Medios de transmisión 
 Los medios de transmisión son las vías por las cuales se comunican los datos. 
@@ -829,8 +797,7 @@ se seleccionará en función de estos criterios, pudiendo ser cableado (cobre, f
 (Wi-Fi, 5G, Bluetooth, LoRa). Los factores a evaluar incluirán la velocidad, la seguridad, la interferencia 
 (ruido) y la distancia de transmisión. 
 Ethernet (10Mbs) 
-Primera versión de Ethernet, desarrollada en los años 70. 10 Mbps (megabits por segundo). Se utiliza 
-en redes antiguas y conexiones básicas. 
+Primera versión de Ethernet, desarrollada en los años 70. 10 Mbps (megabits por segundo). Se utiliza \nen redes antiguas y conexiones básicas. 
 Estándar: IEEE 802.3. 
 Cableado: 
 • Par trenzado (CAT 3 o superior). 
@@ -839,8 +806,7 @@ Cableado:
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 26 
 Fast Ethernet (100 Mbps) 
 Evolución de Ethernet que permitió aumentar la velocidad a 100 Mbps. 100 Mbps. Se usa en redes 
@@ -869,8 +835,7 @@ Cableado:
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 27 
 40 Gigabit Ethernet (40 Gbps) y 100 Gigabit Ethernet (100 Gbps) 
 Tecnologías diseñadas para infraestructura de redes de alto rendimiento, como interconexiones en 
@@ -900,8 +865,7 @@ Esto se hace porque dos alambres paralelos constituyen una antena simple.
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 28 
 Cuando se entrelazan los alambres helicoidalmente, las ondas se cancelan, por lo que la interferencia 
 producida por los mismos es reducida lo que permite una mejor transmisión de datos. 
@@ -935,8 +899,7 @@ mejoras de una determinada categoría. Las más importantes actualmente son:
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 29 
 • Categoría 5e: 
 • Ancho de banda: 100 MHz Clase D. 
@@ -967,8 +930,7 @@ mismo cable.
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 30 
 • Cable S/FTP (pares blindados y cable blindado). 
 • Conector: GG-45 (compatible con RJ45), TERA. 
@@ -1016,13 +978,11 @@ ETHERNET CAT 8
  
  
 Atención 
-Si se utilizan conectores RJ49, se debería conectar la masa a tierra 
-en uno de los extremos para evitar daños a los equipos.
+Si se utilizan conectores RJ49, se debería conectar la masa a tierra \nen uno de los extremos para evitar daños a los equipos.
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 31 
 3.1.2.1.1. Tipos de cable par trenzado 
 Para que todo quede más claro, vamos a mostrar unos gráficos. Los símbolos que vamos a utilizar son 
@@ -1045,8 +1005,7 @@ El conjunto de pares se recubre con una lámina de aluminio.
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 32 
 Características: 
 • Esta técnica permite tener un apantallamiento mejor que UTP (aunque menor que STP). 
@@ -1069,8 +1028,7 @@ Desventajas:
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 33 
 • SF/UTP. 
  
@@ -1095,8 +1053,7 @@ Es el más utilizado en redes de área local en EE.UU.
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 34 
 Cada par se cubre con una lámina de aluminio y el conjunto de pares se recubre material LSZH. 
 Ventajas: 
@@ -1117,8 +1074,7 @@ término:
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 35 
 Segundo, recordemos que lo que va a la izquierda del separador "/" alude a las características del 
 blindaje global de los pares (en azul en la tabla), y a la derecha a las características de cada par (rojo y 
@@ -1143,9 +1099,7 @@ Para que todos los cables funcionen en cualquier red, se sigue un estándar a la
 conexiones. (Un orden de colores en el conector). 
 El cable directo de red sirve para conectar dispositivos desiguales, como un computador con un hub o 
 switch. 
-En este caso, ambos extremos del cable deben tener la misma distribución. No existe diferencia alguna 
-en la conectividad entre la distribución 568B y la distribución 568A siempre y cuando en ambos 
-extremos se use la misma, en caso contrario hablamos de un cable cruzado. 
+En este caso, ambos extremos del cable deben tener la misma distribución. No existe diferencia alguna \nen la conectividad entre la distribución 568B y la distribución 568A siempre y cuando en ambos \nextremos se use la misma, en caso contrario hablamos de un cable cruzado. 
 Tipos de cable directo: 
 • Cable Directo Norma 568a. 
 1. Blanco/verde. 
@@ -1154,8 +1108,7 @@ Tipos de cable directo:
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 36 
 4. Azul. 
 5. Blanco/Azul. 
@@ -1195,8 +1148,7 @@ Naranja
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 37 
 3.1.2.1.4. Tecnologías xDSL sobre par trenzado 
 Las tecnologías de acceso xDSL (Digital Subscriber Line) son un conjunto de soluciones que permiten 
@@ -1238,8 +1190,7 @@ puede afectar la calidad de la señal.
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 38 
 3.1.2.2. Coaxial 
  
@@ -1251,8 +1202,7 @@ El cable coaxial contiene:
 • Un conductor de cobre en su interior. 
 • Un aislante dieléctrico que envuelve al conductor de cobre para aislarlo del apantallado 
 metálico. 
-• Un apantallado metálico en forma de malla entretejida que aísla el cable de perturbaciones 
-externas. 
+• Un apantallado metálico en forma de malla entretejida que aísla el cable de perturbaciones \nexternas. 
 • Un envoltorio de plástico que protege el resto de los elementos. 
 Ventajas frente al par trenzado 
 • Tiene un alto grado de resistencia a las interferencias. 
@@ -1264,8 +1214,7 @@ Aplicaciones del Cable Coaxial
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 39 
 • Transmisión digital de corta distancia. 
 • Sistemas de Audio. 
@@ -1288,8 +1237,7 @@ Conector BNC. Fuente:
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 40 
  
 Conector tipo N. Fuente: 
@@ -1313,8 +1261,7 @@ confinados en el núcleo, siendo guiados por la fibra hasta el otro extremo.
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 41 
 • La camisa o cubierta. 
 Normalmente de plástico. Protege al núcleo y al revestimiento. 
@@ -1338,8 +1285,7 @@ La longitud de onda de fibra monomodo de uso común es 1310nm y 1550nm.
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 42 
  
  
@@ -1355,8 +1301,7 @@ Una fibra multimodo es aquella en la que los haces de luz pueden circular por m�
 camino. 
 Los haces de luz, dependiendo del modo, pueden tardar más o menos. 
 Una fibra multimodo puede tener más de mil modos de propagación de luz. 
-Las fibras multimodo se usan comúnmente en aplicaciones de corta distancia, menores a 2 km, 
-es simple de diseñar y económico. 
+Las fibras multimodo se usan comúnmente en aplicaciones de corta distancia, menores a 2 km, \nes simple de diseñar y económico. 
 El núcleo de una fibra multimodo es mayor que el de las monomodo. 
 Dependiendo el tipo de índice de refracción del núcleo, tenemos dos tipos de fibra multimodo: 
 • Índice escalonado: 
@@ -1369,8 +1314,7 @@ Dependiendo el tipo de índice de refracción del núcleo, tenemos dos tipos de 
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 43 
  
 Fuente: (https://cs.m.wikipedia.org/wiki/Soubor:Optical_fiber_types.svg) 
@@ -1393,8 +1337,7 @@ denso por división en longitudes de onda.
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 44 
 DWDM es una técnica de transmisión de señales a través de fibra óptica usando la banda C 
 (1550 nm (nanómetros)). 
@@ -1428,8 +1371,7 @@ tres tipos:
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 45 
 • OM3. 
 • Fibra 50/125 µm. 
@@ -1454,8 +1396,7 @@ Se usa en redes de edificios y en sistemas de seguridad.
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 46 
  
 Fuente: 
@@ -1481,13 +1422,11 @@ fibra_optica.jpg)
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 47 
 3.1.2.3.2. Fibra Óptica Plástica 
 La gran diferencia con respecto a la de vidrio es que está fabricada con plástico es más flexible y 
-maleable (permitiendo su uso en instalaciones donde los tubos son antiguos) y resistente. El plástico 
-empleado es uno de los plásticos de ingeniería, el polimetilmetacrilato envuelto en polímeros fluoruros. 
+maleable (permitiendo su uso en instalaciones donde los tubos son antiguos) y resistente. El plástico \nempleado es uno de los plásticos de ingeniería, el polimetilmetacrilato envuelto en polímeros fluoruros. 
 Su composición le permite aprovechar todo el ancho de banda sin pérdidas sensibles en distancias 
 cortas. Cuenta con un núcleo conductor es entre 20 y 100 veces mayor que el de la fibra de vídrio, 
 diseñado para instalaciones donde la distancia de transmisión no es un elemento crítico. Su uso suele 
@@ -1517,17 +1456,14 @@ puede realizarse con una o dos fibras ópticas dedicadas a cada usuario (una con
 resulta en una topología en estrella) o una red óptica pasiva (del inglés Passive Optical Network, PON) 
 que usa una estructura arborescente con una fibra en el lado de la red y varias fibras en el lado usuario. 
 Una red óptica pasiva permite eliminar todos los componentes activos existentes entre el servidor y el 
-cliente introduciendo en su lugar componentes ópticos pasivos para guiar el tráfico por la red, cuyo 
-elemento principal es el dispositivo divisor óptico. La utilización de estos sistemas pasivos reduce 
+cliente introduciendo en su lugar componentes ópticos pasivos para guiar el tráfico por la red, cuyo \nelemento principal es el dispositivo divisor óptico. La utilización de estos sistemas pasivos reduce 
 considerablemente los costes y son utilizados en las redes FTTH.
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 48 
-Las arquitecturas basadas en divisores ópticos pasivos se definen como sistemas sin elementos 
-electrónicos activos en el bucle y cuyo elemento principal es el dispositivo splitter (divisor de haz: un 
+Las arquitecturas basadas en divisores ópticos pasivos se definen como sistemas sin elementos \nelectrónicos activos en el bucle y cuyo elemento principal es el dispositivo splitter (divisor de haz: un 
 divisor de haz es un instrumento óptico que divide un rayo de luz en dos). 
 Dependiendo de la dirección del haz de luz, divide el haz entrante y lo distribuye hacia múltiples fibras o 
 lo combina dentro de una misma fibra. La filosofía de esta arquitectura se basa en compartir los costes 
@@ -1566,8 +1502,7 @@ permitir que varios operadores puedan usar la red GPON.
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 49 
 La GPON (Red Óptica Pasiva con Capacidad de Gigabit) es una tecnología de acceso de 
 telecomunicaciones que utiliza cableado de fibra óptica para llegar hasta el usuario, es decir, la 
@@ -1608,8 +1543,7 @@ residenciales.
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 50 
 Desde el punto de vista técnico, las redes HFC utilizan el estándar DOCSIS (Data Over Cable Service 
 Interface Specification) para la transmisión de datos sobre cable coaxial. DOCSIS 3.0 permite 
@@ -1617,8 +1551,7 @@ velocidades de hasta 1 Gbps de bajada y 200 Mbps de subida, mientras que DOCSIS 
 valores teóricos por encima de los 10 Gbps de descarga. Estas redes funcionan con acceso compartido, 
 lo que significa que varios usuarios conectados al mismo nodo dividen el ancho de banda disponible. La 
 señal se transmite mediante modulación QAM, y la comunicación entre cliente y proveedor se realiza 
-mediante duplexación por división de frecuencia (FDD). Además, la fibra óptica suele cubrir tramos de 
-entre 10 y 30 km hasta el nodo, y el cable coaxial entre 100 y 500 metros hasta el usuario final. 
+mediante duplexación por división de frecuencia (FDD). Además, la fibra óptica suele cubrir tramos de \nentre 10 y 30 km hasta el nodo, y el cable coaxial entre 100 y 500 metros hasta el usuario final. 
 Aunque no ofrece las mismas prestaciones que una red de fibra óptica hasta el hogar (FTTH), HFC 
 sigue siendo una solución ampliamente utilizada por operadores de telecomunicaciones, ya que reduce 
 costes de despliegue y mantiene un buen nivel de servicio. 
@@ -1645,8 +1578,7 @@ La antena transmisora emite en todas las direcciones.
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 51 
 Los principales sistemas son: 
 • Sistemas de ondas de radio. 
@@ -1672,8 +1604,7 @@ Sus principales características son:
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 52 
 • Dependen de la frecuencia: 
 • Bajas frecuencias: 
@@ -1698,8 +1629,7 @@ de-microondas-la-comunicaci%C3%B3n-
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 53 
 Es un enlace de radio que provee conectividad entre dos sitios alineados. 
 Sus principales características son: 
@@ -1723,8 +1653,7 @@ Sus principales características son:
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 54 
 • Para la comunicación se usan dos bandas de frecuencia: 
 • Canal ascendente: desde la Tierra al satélite. 
@@ -1753,8 +1682,7 @@ remoto-televisi%C3%B3n-28001/)
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 55 
 Son transmisores y receptores que modulan luz infrarroja no coherente (no tiene una frecuencia 
 única de luz, sino que posee cierto ancho en el espectro). 
@@ -1782,8 +1710,7 @@ oportunidades para transmitir datos.
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 56 
 • Óptica del espacio libre (FSO). 
  
@@ -1797,14 +1724,12 @@ pequeño tamaño, generalmente menores de 3 metros, que permiten establecer enla
 comunicación vía satélite tanto para voz como para datos. Estas estaciones, que pueden instalarse en 
 ubicaciones fijas o móviles, se comunican con satélites en órbita geoestacionaria mediante ondas de 
 radio en frecuencias de microondas. Utilizan dos canales diferenciados: el canal ascendente (uplink), 
-que va desde la Tierra al satélite, y el canal descendente (downlink), que realiza el camino inverso desde 
-el satélite a la Tierra. 
+que va desde la Tierra al satélite, y el canal descendente (downlink), que realiza el camino inverso desde \nel satélite a la Tierra. 
 VSAT opera principalmente en tres bandas de frecuencia: la banda C (4-8 GHz), menos afectada por las 
 condiciones atmosféricas pero que requiere antenas más grandes; la banda Ku (12-18 GHz), la más 
 utilizada en aplicaciones comerciales por su equilibrio entre tamaño de antena y rendimiento; y la banda 
 Ka (26-40 GHz), que ofrece mayor capacidad pero es más sensible a la atenuación por lluvia. En todos 
-los casos, los transpondedores del satélite se encargan de recibir las señales, amplificarlas y reemitirlas 
-en una frecuencia diferente, permitiendo así la comunicación entre la estación central (hub) y las 
+los casos, los transpondedores del satélite se encargan de recibir las señales, amplificarlas y reemitirlas \nen una frecuencia diferente, permitiendo así la comunicación entre la estación central (hub) y las 
 numerosas estaciones remotas distribuidas en tierra. 
 Entre sus principales ventajas destaca su amplia cobertura geográfica, lo que la hace ideal para zonas 
 rurales o remotas carentes de infraestructura terrestre, así como su capacidad para desplegarse 
@@ -1821,8 +1746,7 @@ solución de conectividad inmediata y fiable en entornos remotos o de difícil a
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 57 
 3.2. Tipos de transmisión según el tipo de señal 
 Hay 4 tipos de transmisión según el tipo de señal: 
@@ -1835,8 +1759,7 @@ En este caso los datos se envían tal cual.
 Se tendrán que modular los datos. 
 • Señal analógica a señal digital. 
 Analógica-Digital. 
-Los datos analógicos se codifican utilizando un código para generar una cadena de bits que se 
-envía al receptor. 
+Los datos analógicos se codifican utilizando un código para generar una cadena de bits que se \nenvía al receptor. 
 • Señal digital a señal analógica. 
 Digital-Analógica. 
 Los datos digitales se codifican usando un dispositivo (como un modem) para generar señales 
@@ -1850,13 +1773,11 @@ deseadas.
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 58 
 3.3. Perturbaciones en la transmisión 
 Durante la comunicación se pueden producir diferentes alteraciones. 
-Cuando ocurren en el entorno de las comunicaciones de datos o redes, este tipo de alteraciones reciben 
-el nombre de perturbaciones. 
+Cuando ocurren en el entorno de las comunicaciones de datos o redes, este tipo de alteraciones reciben \nel nombre de perturbaciones. 
 Atenuación 
 En telecomunicación, se denomina atenuación de una señal (acústica, eléctrica u óptica) a la pérdida de 
 potencia sufrida por la misma al transitar por cualquier medio de transmisión. 
@@ -1886,8 +1807,7 @@ rayos, eclipses, etc.
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 59 
 Distorsión por retardo 
 En los medios de transmisión por cable, la velocidad de propagación de una señal varía con la 
@@ -1896,8 +1816,7 @@ Hay frecuencias que llegan antes que otras dentro de la misma señal y por tanto
 componentes en frecuencia de la señal llegan en instantes diferentes al receptor. 
 Para atenuar este problema se usan técnicas de ecualización. 
 Reflexión 
-La reflexión es el cambio de dirección de un rayo o una onda que ocurre en la superficie de separación 
-entre dos medios, de tal forma que regresa al medio inicial. 
+La reflexión es el cambio de dirección de un rayo o una onda que ocurre en la superficie de separación \nentre dos medios, de tal forma que regresa al medio inicial. 
 Ejemplos comunes son la reflexión de la luz, el sonido y las ondas en el agua. 
 Dispersión 
 Es el fenómeno por el cual un conjunto de partículas que se mueve en una dirección determinada rebota 
@@ -1917,8 +1836,7 @@ Otros factores que influyen en la latencia de una red son:
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 60 
 Diafonía 
 En el campo de las telecomunicaciones, se dice que entre dos circuitos existe diafonía, cuando parte de 
@@ -1953,8 +1871,7 @@ Esto también es conocido como comunicación vertical.
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 61 
 Encapsulación y desencapsulación 
 La transmisión de información en una red requiere de un proceso de conversión tanto para enviar como 
@@ -1977,8 +1894,7 @@ pasa a la capa de presentación (nivel 6).
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 62 
 4. La capa de sesión agrega el encabezado L5H y lo pasa a la capa de Transporte (nivel 4). 
 5. La capa de transporte agrega el encabezado L4H y lo pasa a la capa de red (nivel 3). 
@@ -1989,15 +1905,13 @@ FCS (Frame Check Secuence) y se utiliza para detectar en el receptor si los dato
 bien o contienen algún error. 
 A continuación, la capa física transmite los datos en forma de bits por la red física. 
 La Desencapsulasión, es el proceso inverso. 
-Cuando recibe la secuencia de bits de la capa física, los datos empiezan el proceso opuesto a la 
-encapsulación, es decir, van subiendo de nivel. 
+Cuando recibe la secuencia de bits de la capa física, los datos empiezan el proceso opuesto a la \nencapsulación, es decir, van subiendo de nivel. 
 Los pasos son los siguientes: 
 1. La capa de enlace de datos verifica la información contenida en el (FCS). 
 • Si encuentra un error. 
 Los datos son descartados y solicita su reenvío. 
 • Si no hay error. 
-La capa de enlace de datos lee e interpreta la información de control contenida en el 
-encabezado L2H (encabezado de la capa 2). 
+La capa de enlace de datos lee e interpreta la información de control contenida en el \nencabezado L2H (encabezado de la capa 2). 
 A continuación, retira el encabezado L2H y el finalizador L2F (FCS) y lo envía a la capa de 
 red (nivel 3). 
 2. La capa de red lee e interpreta la información de control contenida en el encabezado L3H, 
@@ -2013,8 +1927,7 @@ L7H, retira el encabezado y muestra los resultados al receptor.
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 63 
 Las unidades de protocolo de datos 
 También llamadas PDU (del inglés Protocol Data Unit). 
@@ -2050,8 +1963,7 @@ unos servicios.
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 64 
 • Los niveles inferiores prestarán servicios a las superiores a través de los puntos de acceso al 
 servicio (SAP o Service Access Point). 
@@ -2066,22 +1978,19 @@ protocolos.
 • Facilidad de uso e implantación. 
 • Confiabilidad. 
 • Poder ser modificado fácilmente. 
-A continuación, veremos una arquitectura básica de red mediante niveles o capas que ayudará a que 
-entiendas los distintos conceptos: 
+A continuación, veremos una arquitectura básica de red mediante niveles o capas que ayudará a que \nentiendas los distintos conceptos: 
  
 Modelo de capas de una red
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 65 
 4.1. Control de acceso a la red (NAC) 
 El control de acceso a la red, conocido por sus siglas en inglés NAC (Network Access Control), es una 
 tecnología de seguridad que regula quién o qué puede conectarse a una red informática. Su objetivo 
 principal es garantizar que solo los dispositivos que cumplen ciertos requisitos de seguridad puedan 
-acceder a los recursos de red, protegiendo así la infraestructura frente a amenazas tanto internas como 
-externas. NAC actúa como una primera línea de defensa, evaluando a cada dispositivo antes de 
+acceder a los recursos de red, protegiendo así la infraestructura frente a amenazas tanto internas como \nexternas. NAC actúa como una primera línea de defensa, evaluando a cada dispositivo antes de 
 permitir su conexión y controlando su comportamiento una vez que ya está conectado. 
 El funcionamiento de NAC se basa en dos fases fundamentales: 
 • pre-admisión: en primer lugar, antes de que un dispositivo obtenga acceso a la red, el sistema 
@@ -2094,8 +2003,7 @@ completo, o bien permitir solo un acceso limitado, redirigiéndolo a una red de 
 podrá actualizarse o corregir su situación. 
 • post-admisión: una vez superada la fase de admisión, el control de acceso continúa activo 
 durante toda la sesión. Esta vigilancia permanente permite al sistema NAC monitorizar el 
-comportamiento del dispositivo conectado y detectar posibles desviaciones, como intentos de 
-escaneo de red o patrones de tráfico sospechosos. En estos casos, el acceso puede ser revocado 
+comportamiento del dispositivo conectado y detectar posibles desviaciones, como intentos de \nescaneo de red o patrones de tráfico sospechosos. En estos casos, el acceso puede ser revocado 
 o modificado de forma dinámica, reforzando así la protección de la red frente a ataques internos 
 o dispositivos comprometidos después de la conexión inicial. 
 Los sistemas NAC suelen integrarse con otros elementos de la red como switches, routers o puntos de 
@@ -2119,8 +2027,7 @@ diversos medios (aire, vacío, cable de cobre, fibra óptica, etc.).
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 66 
 La información se puede transmitir de forma analógica, digital o mixta, pero en cualquier caso las 
 conversiones, si las hay, siempre se realizan de forma transparente al usuario, el cual maneja la 
@@ -2155,8 +2062,7 @@ de onda).
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 67 
 Control de flujo 
 Capacidad del receptor de enviar un mensaje al emisor para indicarle que deje de enviar datos (al menos 
@@ -2184,8 +2090,7 @@ local
 Hasta 100 metros 
 Edificio 
 LAN 
-Red local en un solo 
-edificio 
+Red local en un solo \nedificio 
 Hasta 1 km 
 Campus / complejo 
 LAN 
@@ -2218,8 +2123,7 @@ real y masivo de GAN
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 68 
  
  
@@ -2248,12 +2152,10 @@ ordenadores portátiles o equipos de escritorio permiten asociarse ad hoc a una 
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 69 
 Esto puede realizarse por cable, adoptando la forma de una red PAN. 
-La variante inalámbrica se denomina WPAN (Wireless Personal Area Network) y se basa en 
-especificaciones como: 
+La variante inalámbrica se denomina WPAN (Wireless Personal Area Network) y se basa en \nespecificaciones como: 
 • Bluetooth LE. 
 • Wireless USB. 
 • Insteon. 
@@ -2287,8 +2189,7 @@ poder compartir la misma portadora de salto.
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 70 
 El ámbito de acción de las redes PAN y WPAN es de unos pocos metros, y no son aptas para conectar 
 dispositivos que se encuentran en habitaciones diferentes. 
@@ -2322,8 +2223,7 @@ las bibliotecas.
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 71 
  
 Ejemplo de red PAN 
@@ -2346,8 +2246,7 @@ Area Network).
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 72 
 Una tecnología de red es la aplicación práctica de un estándar en el que se definirían formato de los 
 datos, protocolos de comunicación, topología de red y velocidad de transmisión. Cuando hablamos de 
@@ -2360,8 +2259,7 @@ tienen sus propios estándares.
 La transmisión de datos tiene lugar o bien de manera electrónica a través de cables de cobre o mediante 
 fibra óptica de vidrio. 
 Si se conectan más de dos ordenadores en una red LAN, se necesitan otros componentes de red como 
-concentradores (hubs), puentes (bridges) y conmutadores (switches) los cuales funcionan como 
-elementos de acoplamiento y nodos de distribución. 
+concentradores (hubs), puentes (bridges) y conmutadores (switches) los cuales funcionan como \nelementos de acoplamiento y nodos de distribución. 
 También pueden utilizar un enrutador para la salida a internet. 
 Las redes LAN permiten una transmisión rápida de grandes cantidades de datos. 
 Además, las redes LAN permiten un intercambio de información cómodo entre los diversos dispositivos 
@@ -2380,16 +2278,14 @@ puede aumentar mediante el uso de repetidores.
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 73 
 VLAN 
 El estándar IEEE 802.3, comúnmente conocido como Ethernet, es hasta ahora el tipo más común de 
 LAN alámbrica. 
 Sin embargo, es posible dividir una gran LAN física en dos o más redes LAN lógicas más pequeñas 
 denominadas LAN virtual o VLAN. 
-Esto es útil cuando se quieren aislar dos segmentos de la red, por ejemplo, cuando la distribución del 
-equipo de red no coincide con la estructura de la organización. 
+Esto es útil cuando se quieren aislar dos segmentos de la red, por ejemplo, cuando la distribución del \nequipo de red no coincide con la estructura de la organización. 
 De esta forma, los paquetes de difusión que se envíen por una red lógica no se reciben por los equipos 
 del resto de redes lógicas (aunque estén en la misma red física). 
  
@@ -2398,8 +2294,7 @@ del resto de redes lógicas (aunque estén en la misma red física).
  
 Ejemplo 
 Los departamentos de informática y personal de una empresa 
-podrían tener ordenadores en la misma LAN física debido a que se 
-encuentran en la misma ala del edificio. 
+podrían tener ordenadores en la misma LAN física debido a que se \nencuentran en la misma ala del edificio. 
 Sería más sencillo administrar el sistema si cada departamento 
 tuviera su propia red lógica. 
 Si una persona de informática necesita enviar información a todo 
@@ -2418,8 +2313,7 @@ tiene asignado no necesita utilizarlo.
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 74 
 • Dinámicos. Es el más utilizado. Hay dos métodos: 
 • Centralizados. 
@@ -2444,8 +2338,7 @@ por cable disponibles en muchos pueblos o ciudades.
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 75 
 Puede tratarse de cada una de las sedes de una empresa que se agrupan en una MAN por medio de 
 líneas arrendadas. 
@@ -2472,15 +2365,13 @@ microondas) es una norma de transmisión de datos que utiliza las ondas de radio
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 76 
 Permite la recepción de datos por microondas y retransmisión por ondas de radio. 
 Esta tecnología está definida en el estándar IEEE 802.16. 
 Una de sus ventajas es dar servicios de banda ancha en zonas donde el despliegue de cable o fibra por la 
 baja densidad de población presenta unos costos por usuario muy elevados (zonas rurales). 
-El único organismo habilitado para certificar el cumplimiento del estándar y la interoperabilidad entre 
-equipamiento de distintos fabricantes es el Wimax Forum. 
+El único organismo habilitado para certificar el cumplimiento del estándar y la interoperabilidad entre \nequipamiento de distintos fabricantes es el Wimax Forum. 
  
 Fuente: 
 (https://sco.m.wikipedia.org/wiki/File:
@@ -2491,8 +2382,7 @@ Fuente: (https://commons.wikimedia.org/wiki/File:Lanwan.gif)
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 77 
 Una red WAN (Wide Area Networks o redes de área extensa) se extiende por zonas geográficas como 
 países o continentes. 
@@ -2523,18 +2413,15 @@ Suelen cifrarse para garantizar la confidencialidad de los datos.
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 78 
  
 Fuente: 
 (https://commons.wikimedia.org/wiki/File:Virtual_Private_Network_overview.svg) 
 5.1.1.4.1. Low Power Wide Area Network 
 LPWAN (Low Power Wide Area Network) es una tecnología de red diseñada para conectar dispositivos 
-que necesitan enviar pequeñas cantidades de datos a largas distancias, con un consumo de energía 
-extremadamente bajo. Es ideal para aplicaciones de IoT (Internet of Things), como sensores, 
-rastreadores y dispositivos industriales. Las principales características incluyen bajo consumo 
-energético, larga cobertura (hasta 15 km o más), baja velocidad de transmisión de datos y escalabilidad 
+que necesitan enviar pequeñas cantidades de datos a largas distancias, con un consumo de energía \nextremadamente bajo. Es ideal para aplicaciones de IoT (Internet of Things), como sensores, 
+rastreadores y dispositivos industriales. Las principales características incluyen bajo consumo \nenergético, larga cobertura (hasta 15 km o más), baja velocidad de transmisión de datos y escalabilidad 
 para conectar una gran cantidad de dispositivos. Además, su bajo costo en infraestructura y hardware la 
 hace especialmente atractiva para aplicaciones a gran escala. 
 Principales tecnologías y aplicaciones: 
@@ -2550,8 +2437,7 @@ paquetes y contenedores).
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 79 
 Ventajas, desventajas y factores clave para elegir LPWAN: 
 Entre las ventajas de LPWAN destacan la larga vida útil de las baterías, amplia cobertura y su coste 
@@ -2575,23 +2461,20 @@ Networks) y las agrupan mediante cables submarinos internacionales o transmisió
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 80 
 5.1.2. Según su arquitectura 
 Podemos clasificarlas en redes conmutadas y redes de difusión 
 Lo estudiamos a continuación. 
 5.1.2.1. Tipo de red: conmutación 
 (Redes conmutadas o redes de conmutación). 
-La Conmutación consiste en establecer un canal entre un emisor y un receptor a través de nodos o 
-equipos de transmisión. 
+La Conmutación consiste en establecer un canal entre un emisor y un receptor a través de nodos o \nequipos de transmisión. 
 La conmutación permite la entrega de la señal desde el origen hasta el destino. 
 Encaminamiento 
 En las redes de conmutación existe más de un camino entre dos estaciones dadas y hay que determinar 
 cuál es la ruta de encaminamiento óptima para el intercambio de información. 
 Los protocolos que proporcionan técnicas para encaminar la información y que además proporcionan 
-mecanismos para compartir la información de encaminamiento son los denominados protocolos de 
-encaminamiento. 
+mecanismos para compartir la información de encaminamiento son los denominados protocolos de \nencaminamiento. 
 Los métodos de encaminamiento se pueden clasificar en función de la adaptabilidad a los cambios en: 
 • No adaptativos (estáticos). 
 Las tablas de encaminamiento de los nodos se configuran manualmente y permanecen fijas 
@@ -2605,13 +2488,11 @@ de enrutamiento de cada uno de ellos.
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 81 
 • Adaptativos aislados. 
 En cada nodo sólo se cuenta con información local. 
-Cada vez que un nodo recibe un paquete que no es para él lo reenvía por todos los enlaces 
-excepto por el que llegó. 
+Cada vez que un nodo recibe un paquete que no es para él lo reenvía por todos los enlaces \nexcepto por el que llegó. 
 Los principales métodos de encaminamiento adaptativo aislado son los algoritmos de 
 inundación y de estado de enlaces. 
 • Adaptativos distribuidos. 
@@ -2640,8 +2521,7 @@ No necesitan que se establezca o termine la conexión porque estará siempre act
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 82 
 X.25 tiene tres niveles que se corresponden con las tres primeras capas de la arquitectura de siete 
 niveles del modelo de referencia OSI de ISO: 
@@ -2667,15 +2547,13 @@ Permanentes).
 Frame Relay (FR) 
 Se diseñó originalmente para operar con las interfaces de RDSI, pero en la actualidad se usa también 
 sobre otras interfaces de red. 
-Frame Relay es un ejemplo de tecnología de conmutación de paquetes que se considera como una 
-evolución de X.25 y un paso de transición hacia ATM. 
+Frame Relay es un ejemplo de tecnología de conmutación de paquetes que se considera como una \nevolución de X.25 y un paso de transición hacia ATM. 
 Consigue rendimientos superiores a los de X.25 entre otras razones porque elimina la mayoría de los 
 controles de errores.
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 83 
 Soporta velocidades de transmisión de hasta 45 Mbps, aunque las implementaciones típicas no pasan de 
 1.5/2 Mbps. 
@@ -2708,8 +2586,7 @@ de red solicitados.
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 84 
 Se han definido cuatro categorías de servicio: 
 • CBR (Constant Bit Rate). 
@@ -2743,8 +2620,7 @@ Hay 5 protocolos ALL:
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 85 
 MPLS 
 La conmutación de etiquetas multiprotocolo (MPLS o Multiprotocol Label Switching) es un estándar de 
@@ -2760,8 +2636,7 @@ La conmutación de etiquetas de protocolo múltiple (MPLS) establece rutas prede
 altamente eficientes. 
 Con MPLS, la primera vez que un paquete ingresa a la red, se asigna a una clase de equivalencia de 
 reenvío específica (FEC), que se indica al agregar una secuencia de bit corto (la etiqueta) al paquete. 
-Cada enrutador de la red tiene una tabla que indica cómo manejar los paquetes de un tipo de FEC 
-específico, por lo que una vez que el paquete ha ingresado a la red, los enrutadores no necesitan realizar 
+Cada enrutador de la red tiene una tabla que indica cómo manejar los paquetes de un tipo de FEC \nespecífico, por lo que una vez que el paquete ha ingresado a la red, los enrutadores no necesitan realizar 
 un análisis de encabezado. 
 En cambio, los enrutadores posteriores usan la etiqueta como un índice en una tabla que les 
 proporciona un nuevo FEC para ese paquete. 
@@ -2780,8 +2655,7 @@ y en las redes empresariales.
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 86 
 Elementos de MPLS: 
 • LER (Label Edge Router o enrutador frontera de etiquetado): elemento que inicia o termina el 
@@ -2814,8 +2688,7 @@ cola donde almacena los mensajes que le son enviados por otros nodos.
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 87 
 • A continuación, cuando llega su turno, lo reenviará a otro y éste a otro y así las veces que sean 
 necesarias antes de llegar al receptor. 
@@ -2829,8 +2702,7 @@ comparado con la conmutación de circuito y por paquetes.
 al mismo tiempo sin necesidad de esperar a que se libere el circuito, esto provoca que el canal se 
 libere mucho antes que, en la conmutación de circuitos, lo que reduce el tiempo de espera 
 necesario para que otro remitente envíe mensajes. 
-• El tamaño del mensaje es mayor en la conmutación de mensaje ya que se añade información 
-extra de encaminamiento lo que implica: 
+• El tamaño del mensaje es mayor en la conmutación de mensaje ya que se añade información \nextra de encaminamiento lo que implica: 
 • Disminución del rendimiento del canal. 
 • Mayor complejidad en los nodos intermedios. 
 • Es necesario contar con capacidad de almacenamiento para poder verificar y retransmitir el 
@@ -2852,13 +2724,11 @@ del conmutador.
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 88 
 • Conmutación por división en el tiempo. 
 La conmutación por división en el tiempo implica la partición de la cadena de bits de menor 
-velocidad en fragmentos que compartirán una cadena de mayor velocidad con otras líneas de 
-entrada. 
+velocidad en fragmentos que compartirán una cadena de mayor velocidad con otras líneas de \nentrada. 
 Los fragmentos se manipulan por lógica de control para encaminar los datos desde la entrada 
 hasta la salida. 
 Una de las técnicas más utilizadas de conmutación por división en el tiempo es la conmutación 
@@ -2890,12 +2760,10 @@ y descubrir los parámetros del enlace.
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 89 
 • El encabezado del paquete puede ser pequeño, ya que solo necesita contener este código y 
-cualquier información, como la longitud, la marca de tiempo o el número de secuencia, que 
-es diferente para los distintos paquetes. 
+cualquier información, como la longitud, la marca de tiempo o el número de secuencia, que \nes diferente para los distintos paquetes. 
 • El protocolo utilizado para transporte es TCP. 
 • TCP garantiza que todos los datos lleguen correctamente y en orden. 
 • Ejemplos de tecnologías de conmutación de paquetes de circuito virtual son X.25, Frame 
@@ -2906,15 +2774,13 @@ Los paquetes que envía una máquina son recibidos por todas las demás.
 Un campo de dirección dentro del paquete indica a quien se dirige (o si se dirige a todos). 
 Al recibir un paquete, una máquina verifica el campo de dirección. Si el paquete está dirigido a ella, lo 
 procesa; y si no lo ignora. 
-En las redes de difusión, la comunicación se realiza siempre en un único sentido (de uno o varios 
-emisores a uno o varios receptores) y no se espera respuesta. 
+En las redes de difusión, la comunicación se realiza siempre en un único sentido (de uno o varios \nemisores a uno o varios receptores) y no se espera respuesta. 
  
  
  
  
 + Info 
-Un ejemplo de difusión sería una lista de correo de noticias que 
-envía a sus subscriptores correos con las nuevas noticias. 
+Un ejemplo de difusión sería una lista de correo de noticias que \nenvía a sus subscriptores correos con las nuevas noticias. 
 Obviamente no esperan respuesta a dichos correos y si las hubiera, 
 no se procesarían. 
  
@@ -2925,8 +2791,7 @@ Tenemos dos tipos de Equipos Terminales:
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 90 
 Un equipo terminal de datos (ETD) 
 También llamado DTE, del inglés Data Terminal Equipment. 
@@ -2961,8 +2826,7 @@ de software para seleccionar si actúa como DTE o DCE.
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 91 
  
 Diversas organizaciones de referencia internacionales establecen, con el fin de lograr compatibilizar la 
@@ -2990,8 +2854,7 @@ Comisión Electrotécnica Internacional (International Electrotechnical Commissi
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 92 
 • EIA (Electronic Industries Alliance). 
 Es una organización formada por la asociación de las compañías electrónicas y de alta 
@@ -3026,8 +2889,7 @@ Vamos a estudiar los siguientes dispositivos:
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 93 
 • Puente (Bridge). 
 • Enrutador (Router). 
@@ -3066,8 +2928,7 @@ Características:
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 94 
 • Permite que los bits viajen a mayor distancia a través de los medios. 
 • No entiende de formatos, simplemente copia cualquier señal eléctrica (incluido ruido e 
@@ -3092,8 +2953,7 @@ No regeneran la señal. Simplemente interconectan los dispositivos.
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 95 
 Funcionamiento 
 Cuando un equipo envía un mensaje, los datos llegan al hub y éste los regenera (si es activo) y los 
@@ -3125,8 +2985,7 @@ protocolos a nivel físico y de enlace.
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 96 
 • Filtran y dirigen tramas entre los segmentos de la red de área local proporcionando un ancho de 
 banda dedicado. 
@@ -3138,8 +2997,7 @@ medida que circula información a través de él.
 • Cuando un switch no conoce la dirección MAC de destino envía la trama por todos sus puertos, 
 al igual que un HUB. 
 • Cuando hay más de un ordenador conectado a un puerto de un switch este aprende sus 
-direcciones MAC y cuando se envían información entre ellos no la propaga al resto de la red (a 
-esto se llama filtrado). 
+direcciones MAC y cuando se envían información entre ellos no la propaga al resto de la red (a \nesto se llama filtrado). 
 • Operan a velocidades mucho más altas que los puentes. 
 • Los datos pueden conducirse por rutas separadas, mientras que, en el hub, las tramas son 
 conducidas por todos los puertos. 
@@ -3153,16 +3011,13 @@ por la red.
 • Naranja o ámbar intermitente: Puede indicar diversas situaciones, tales como: 
 • La tarjeta de red está funcionando a una velocidad inferior a la máxima soportada por la red 
 (por ejemplo, 100 Mbps en lugar de 1 Gbps). 
-• El dispositivo está negociando la velocidad de conexión con el switch y aún no ha 
-establecido la velocidad óptima. 
-• Existen perturbaciones en la transmisión, como cables de baja calidad, interferencias 
-electromagnéticas o configuraciones incorrectas en los dispositivos de red. 
+• El dispositivo está negociando la velocidad de conexión con el switch y aún no ha \nestablecido la velocidad óptima. 
+• Existen perturbaciones en la transmisión, como cables de baja calidad, interferencias \nelectromagnéticas o configuraciones incorrectas en los dispositivos de red. 
 • Rojo o apagado: Puede indicar una conexión defectuosa o la ausencia de conexión.
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 97 
 Posibles causas de un piloto naranja en una tarjeta de red 
 Un indicador LED naranja o ámbar en una tarjeta de red puede ser señal de diversas situaciones que 
@@ -3191,16 +3046,14 @@ necesario.
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 98 
 Los puentes son dispositivos que pueden conectar a varias LAN entre sí. 
 Características 
 • Generalmente conectan LAN con idénticos protocolos de capa física y de acceso al medio (MAC). 
 • Deben tener una memoria temporal para albergar las tramas a intercambiar de LAN. 
 • Mantienen una tabla de direcciones físicas MAC para saber qué tramas van a una LAN o a otra. 
-• Desde el punto de vista de cada estación, todas las demás estaciones están en su misma LAN y 
-es el puente el encargado de encaminar las tramas. 
+• Desde el punto de vista de cada estación, todas las demás estaciones están en su misma LAN y \nes el puente el encargado de encaminar las tramas. 
 Funciones 
 Las funciones de un puente son: 
 • Dividir una red de área local en dos redes de menor tamaño. 
@@ -3211,8 +3064,7 @@ Pueden tener protocolos de nivel de enlace o medios de transmisión distintos.
 Ejemplo: Interconexión de una red inalámbrica a una de cable. 
 • Controlar las tramas defectuosas. 
 Funcionamiento 
-El puente entrará en funcionamiento, pasando la información, sólo cuando el nodo de un segmento 
-envíe información al nodo del segmento al otro lado del puente. 
+El puente entrará en funcionamiento, pasando la información, sólo cuando el nodo de un segmento \nenvíe información al nodo del segmento al otro lado del puente. 
 Cada puente va almacenando en memoria una tabla de direcciones MAC asignada a cada uno de sus 
 puertos. 
 De esta manera, cuando llega una trama, comprueba la dirección MAC, la compara con el "mapa" que 
@@ -3220,8 +3072,7 @@ posee en memoria y la envía por el puerto adecuado.
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 99 
 Ventajas 
 • Cuando se conectan varias LAN con puentes, el fallo en una LAN no implica el fallo en la otra. 
@@ -3247,8 +3098,7 @@ interconectada.
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 100 
 Funcionamiento 
 Al recibir un paquete, debe extraer de éste la dirección del destinatario y decidir cuál es la mejor ruta. 
@@ -3267,8 +3117,7 @@ La ruta escogida es aquella que tiene el menor valor de la métrica utilizada.
  
  
 + Info 
-La métrica es un valor generado por el enrutador o asignador por 
-el administrador para cada ruta en base a una función que depende 
+La métrica es un valor generado por el enrutador o asignador por \nel administrador para cada ruta en base a una función que depende 
 de diversos factores a los cuales se le asignan pesos para indicar 
 que unos son más importantes que otros. 
 Algunos factores pueden ser: 
@@ -3281,24 +3130,21 @@ Algunos factores pueden ser:
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 101 
 Algoritmos de las tablas de enrutamiento 
 • No adaptativos o estáticos. 
 No tienen en cuenta los cambios. 
 Las rutas se calculan manualmente y luego se introducen en la tabla de rutas (inundación). 
 • Adaptativos o dinámicos. 
-Tienen en cuenta los cambios de la topología y otros factores (vector de distancia, estado del 
-enlace, jerarquía, etc.). 
+Tienen en cuenta los cambios de la topología y otros factores (vector de distancia, estado del \nenlace, jerarquía, etc.). 
  
  
  
  
 Atención 
 Enrutador software. 
-Es un software que realiza las funciones de un enrutador, un 
-ejemplo de ello es IP-Masquerade en Linux, con él es posible tener 
+Es un software que realiza las funciones de un enrutador, un \nejemplo de ello es IP-Masquerade en Linux, con él es posible tener 
 acceso a Internet en ordenadores conectados a una red local 
 donde al menos uno de ellos sí que posea conexión al exterior (el 
 ordenador pasarela). 
@@ -3309,8 +3155,7 @@ Una compuerta que une una red SNA de IBM con una red NetWare de Novell
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 102 
 Una compuerta actúa como traductor entre sistemas que no utilizan los mismos protocolos de 
 comunicaciones, formatos de estructuras de datos, lenguajes y/o arquitecturas. 
@@ -3341,13 +3186,11 @@ sus oficinas, por lo que las tecnologías de comunicación móviles han experime
 crecimiento. 
 La necesidad de no abandonar el ritmo de trabajo al viajar para seguir siendo productivo ha llevado al 
 desarrollo de la conectividad móvil. 
-Los profesionales necesitan disponer de toda la información necesaria en cualquier lugar en el que se 
-encuentren.
+Los profesionales necesitan disponer de toda la información necesaria en cualquier lugar en el que se \nencuentren.
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 103 
 8.1. Generaciones 
 La conectividad móvil ha ido evolucionando y se habla de generaciones de comunicaciones móviles. 
@@ -3373,8 +3216,7 @@ X.jpg)
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 104 
 Fue en el año 1970 cuando un nuevo estándar de comunicación se hacía conocido y dentro de las 
 principales características tenía que ya no era necesario una comunicación mediante sistema de cables, 
@@ -3408,8 +3250,7 @@ considerados de tercera generación.
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 105 
 Sus principales características son: 
 • Capacidades multimedia. 
@@ -3441,8 +3282,7 @@ comunicación de la red UMTS.
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 106 
 W-CDMA 
 W-CDMA (Wideband Code Division Multiple Access ol Acceso múltiple por división de código de banda 
@@ -3450,8 +3290,7 @@ ancha) es la tecnología de acceso móvil en la que se basan varios estándares 
 tercera generación (3G), entre ellos el estándar UMTS. 
 En WCDMA existen dos modos de operación: 
 • TDD. 
-En este método bidireccional, las transmisiones de los enlace subida y bajada son transportadas 
-en la misma banda de frecuencia usando intervalos de tiempo (intervalos de trama) de forma 
+En este método bidireccional, las transmisiones de los enlace subida y bajada son transportadas \nen la misma banda de frecuencia usando intervalos de tiempo (intervalos de trama) de forma 
 síncrona. 
 Así los intervalos de tiempo en un canal físico se asignan para los flujos de datos de transmisión 
 y de recepción. 
@@ -3478,12 +3317,10 @@ Para conseguirlo utiliza:
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 107 
 8.1.4. 4ª Generación (4G) 
-la Unión Internacional de Telecomunicaciones (UIT) creó un comité (IMT-Advanced) que definió las 
-especificaciones de 4G los requisitos necesarios para que un estándar sea considerado de la 
+la Unión Internacional de Telecomunicaciones (UIT) creó un comité (IMT-Advanced) que definió las \nespecificaciones de 4G los requisitos necesarios para que un estándar sea considerado de la 
 generación 4G. 
 El principal requisito es que las velocidades máximas de transmisión de datos deben estar entre 100 
 Mbit/s (12,5 MB/s) para una movilidad alta y 1 Gbit/s (125 MB/s) para movilidad baja. 
@@ -3514,8 +3351,7 @@ las 700 MHz
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 108 
 Las características ventajosas más llamativas de esta tecnología son: 
 Las mejoras de 5G son: 
@@ -3551,8 +3387,7 @@ millones de dispositivos estén conectados a la vez.
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 109 
 8.1.6. 6ª Generación (6G) 
 Con la sexta generación de la conectividad móvil, se pretende mejorar las tres características principales 
@@ -3563,8 +3398,7 @@ Se espera pasar por un estado intermedio denominado como 5G+ o 5G avanzado, en f
 antes de 2024. 
 El Ministerio de Industria y Tecnología de la Información chino confirmó a finales de 2018 que China 
 llevaba desde marzo de ese año investigando el 6G. Según las previsiones de aquel momento, el 
-desarrollo oficial de esta nueva conectividad en el país asiático comenzaría en 2020, pero habría que 
-esperar hasta 2030 para su comercialización. 
+desarrollo oficial de esta nueva conectividad en el país asiático comenzaría en 2020, pero habría que \nesperar hasta 2030 para su comercialización. 
 Antes del despliegue de la tecnología 5G, China ya estaba desarrollando la 6G en marzo de 2018, 
 (confirmado por El Ministerio de Industria y Tecnología de la Información chino) con intención de 
 tenerlo a finales de esta década. 
@@ -3585,14 +3419,12 @@ comunicaciones móviles) ha elaborado un primer informe técnico
 sobre el 6G donde asegura que la próxima generación de redes 
 revolucionará el modo en que la Inteligencia Artificial aprende, 
 interactúa y es aplicada. 
-https://www.oppo.com/content/dam/oppo/ 
-en/mkt/newsroom/press/oppo-unveils-6g-white-
+https://www.oppo.com/content/dam/oppo/ \nen/mkt/newsroom/press/oppo-unveils-6g-white-
 paper/6G%20AI-Cube%20Intelligent%20Networking.pdf
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 110 
 8.2. Itinerancia o Roaming 
 La itinerancia (del inglés roaming) es un concepto utilizado en telecomunicaciones para referirse a la 
@@ -3602,17 +3434,14 @@ En telefonía móvil, el término se usa para indicar la posibilidad ofrecida a 
 usar el servicio en una red móvil distinta de la suya, y normalmente fuera del territorio nacional. Esta 
 identificación se hace a través de la tarjeta SIM, que permite conectar al cliente con su operador de otra 
 red mediante acuerdos entre operadores. 
-En el caso de redes wifi, significa que el dispositivo wifi del cliente puede desplazarse e ir registrándose 
-en diferentes redes inalámbricas. En este caso la identificación normalmente se hace a través de un 
+En el caso de redes wifi, significa que el dispositivo wifi del cliente puede desplazarse e ir registrándose \nen diferentes redes inalámbricas. En este caso la identificación normalmente se hace a través de un 
 usuario y contraseña personal compartida por distintas redes. 
 En el caso del arte, "itinerancia" hace referencia a las exposiciones temporales que rotan por diferentes 
 instituciones. 
 9. Comunicaciones inalámbricas 
 La comunicación inalámbrica (o sin cables), es aquella en la que la comunicación (emisor/receptor) no 
-se encuentra unida por un medio de propagación físico, sino que se utiliza la modulación de ondas 
-electromagnéticas a través del espacio. 
-Los dispositivos físicos solo están presentes en los emisores y receptores de la señal, entre los cuales 
-encontramos: antenas, puntos de acceso etc. 
+se encuentra unida por un medio de propagación físico, sino que se utiliza la modulación de ondas \nelectromagnéticas a través del espacio. 
+Los dispositivos físicos solo están presentes en los emisores y receptores de la señal, entre los cuales \nencontramos: antenas, puntos de acceso etc. 
 El término red inalámbrica se utiliza para designar la conexión de nodos sin necesidad de una conexión 
 física (cables), ésta se da por medio de ondas electromagnéticas. La transmisión y la recepción se 
 realizan a través de puertos. 
@@ -3620,8 +3449,7 @@ Una de sus principales ventajas es notable en los costos, ya que se elimina todo
 conexiones físicas entre nodos, pero también tiene una desventaja considerable ya que para este tipo 
 de red se debe tener una seguridad mucho más exigente y robusta para evitar a los intrusos. 
 Arquitectura de antenas Mimo y Mu-Mimo 
-La tecnología MIMO, es el acrónimo en inglés de Multiple-input Multiple-output (en español, Múltiple 
-entrada múltiple salida). También se le denomina SU-MIMO. 
+La tecnología MIMO, es el acrónimo en inglés de Multiple-input Multiple-output (en español, Múltiple \nentrada múltiple salida). También se le denomina SU-MIMO. 
 Se refiere específicamente a la forma como son manejadas las ondas de transmisión y recepción en 
 antenas para dispositivos inalámbricos como enrutadores. 
 En el formato de transmisión inalámbrica tradicional la señal se ve afectada por reflexiones, lo que 
@@ -3629,8 +3457,7 @@ ocasiona degradación o corrupción de la misma y por lo tanto pérdida de datos
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 111 
 MIMO aprovecha fenómenos físicos como la propagación multicamino para incrementar la tasa de 
 transmisión y reducir la tasa de error. En breves palabras MIMO aumenta la eficiencia espectral de un 
@@ -3646,8 +3473,7 @@ MU-MIMO permite que múltiples dispositivos puedan recibir de manera simultánea
 datos para aumentar la velocidad y el rendimiento de toda la red. 
 Se aplica únicamente a las conexiones de enlace descendente. 
 Es importante saber que a diferencia de SU-MIMO, MU-MINO a día de hoy únicamente funciona con 
-conexiones inalámbricas de enlace descendente. Sólo los routers inalámbricos y puntos de acceso pueden 
-enviar de manera simultánea datos de varios usuarios, ya sea uno o más flujos de datos a cada uno. 
+conexiones inalámbricas de enlace descendente. Sólo los routers inalámbricos y puntos de acceso pueden \nenviar de manera simultánea datos de varios usuarios, ya sea uno o más flujos de datos a cada uno. 
 Por su parte, los dispositivos como smartphones, tablets u ordenadores portátiles tiene que esperar su 
 turno para enviar datos al router o punto de acceso, aunque se pueden utilizar individualmente SU-
 MIMO para enviar múltiples flujos de datos cuando les toca el turno. Por lo tanto, MU-MO es muy útil en 
@@ -3671,8 +3497,7 @@ poder suministrar datos de esta manera a un máximo de 3 o 4 dispositivos.
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 112 
 • Los dispositivos no requieren múltiples antenas. 
 Sólo los dispositivos inalámbricos con soporte incorporado para MU-MIMO pueden recibir 
@@ -3692,8 +3517,7 @@ aunque el propio usuario no lo sepa, para que con una simple actualización de s
 pueda añadir soporte para esta nueva tecnología. 
 • Aumenta la capacidad de la red. 
 Al aumentar la velocidad WiFi también aumenta la capacidad de la red, ya que los dispositivos 
-reciben sus datos con mayor rapidez y por lo tanto el router dispone de más tiempo libre para 
-enviar flujos de datos a más dispositivos. De esta manera, se puede decir que MU-MIMO puede 
+reciben sus datos con mayor rapidez y por lo tanto el router dispone de más tiempo libre para \nenviar flujos de datos a más dispositivos. De esta manera, se puede decir que MU-MIMO puede 
 ayudar a aliviar la congestión en redes muy ocupadas. 
 • Soporta cualquier ancho de canal. 
 Una manera de aumentar en rendimiento de un canal de conexión WiFi es realizando una unión 
@@ -3711,8 +3535,7 @@ más complejo y menos eficaz. Esto hace que la tecnología no aporte los mismos 
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 113 
 Comparativa entre MIMO y MU-MIMO: 
 Mientras que SU-MIMO funciona en las bandas de frecuencia WiFi de 2,4GHz y de 5 GHz, MU-MIMO 
@@ -3735,8 +3558,7 @@ acceso, Bridge Inalámbrico, Router Inalámbrico y adaptadores.
 • Antenas: 
 Es un dispositivo que permite transmitir y recibir ondas de radio. 
 Una de las cosas que hace es convertir la onda guiada (señales digitales) por la línea de 
-transmisión (cable o guía de onda) en ondas electromagnéticas que se pueden transmitir por el 
-espacio libre. 
+transmisión (cable o guía de onda) en ondas electromagnéticas que se pueden transmitir por el \nespacio libre. 
 Tipos de Antenas: 
 • Antenas Direccionales (Directivas): 
 Orientan la señal en una dirección muy determinada con un haz estrecho, pero de largo 
@@ -3749,8 +3571,7 @@ Fuera de la zona de cobertura, la recepción es nula.
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 114 
 • Antenas Omnidireccionales: 
 Son buenas para cubrir áreas grandes, ya que la radiación trata de ser pareja para todos 
@@ -3787,8 +3608,7 @@ al ancho de banda).
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 115 
 • Router Inalámbrico: 
 Es un dispositivo utilizado en redes como guía que permite la conexión de redes inalámbricas, y 
@@ -3824,8 +3644,7 @@ ordenadores dentro de un rango de transmisión definido pueden comunicarse entre
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 116 
 Cuando un adaptador WIRELESS es activado, primero pasa a un estado de escucha en el cual 
 dura 6 segundos, busca una conversión activa y le avisa al usuario, en el supuesto que no pueda 
@@ -3866,8 +3685,7 @@ armada de los Estados Unidos no adpotaría hasta la década de los
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 117 
  
  
@@ -3894,17 +3712,14 @@ global eficaz de 802.11a es menor que el de 802.11b / g. En teoría, las señale
 absorbidas más fácilmente por paredes y otros objetos sólidos en su trayectoria debido a su 
 longitud de onda más pequeña, y, como resultado, no pueden penetrar hasta los de 802.11b. En 
 la práctica, 802.11b normalmente tiene un rango más alto a bajas velocidades. 802.11a también 
-sufre de interferencia, pero localmente puede haber menos señales para interferir, resultando 
-en menos interferencia y mejor rendimiento.
+sufre de interferencia, pero localmente puede haber menos señales para interferir, resultando \nen menos interferencia y mejor rendimiento.
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 118 
 802.11a tiene 12 canales sin solapamiento, 8 para red inalámbrica y 4 para conexiones punto a 
-punto. No puede interoperar con equipos del estándar 802.11b, excepto si se dispone de 
-equipos que implementen ambos estándares. 
+punto. No puede interoperar con equipos del estándar 802.11b, excepto si se dispone de \nequipos que implementen ambos estándares. 
 • IEEE 802.11ac: 
 Utiliza la banda de 5 GHz. Velocidad máxima 300Mbit/s. Conocido como WIFI 5. 
 Esta banda no se utiliza por otras tecnologías como el bluetooth o las microondas. 
@@ -3941,8 +3756,7 @@ de instalación.
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 119 
 "El estándar combinado 802.11c no ofrece ningún interés para el público general. Es solamente 
 una versión modificada del estándar 802.11d que permite combinar el 802.11d con dispositivos 
@@ -3962,15 +3776,12 @@ negocios y usuarios residenciales, con la capacidad añadida de resolver las nec
 sector. A diferencia de otras iniciativas de conectividad sin cables, ésta puede considerarse 
 como uno de los primeros estándares inalámbricos que permite trabajar en entornos 
 domésticos y empresariales. La especificación añade, respecto de los estándares 802.11b y 
-802.11a, características QoS y de soporte multimedia, a la vez que mantiene compatibilidad con 
-ellos. Estas prestaciones resultan fundamentales para las redes domésticas y para que los 
+802.11a, características QoS y de soporte multimedia, a la vez que mantiene compatibilidad con \nellos. Estas prestaciones resultan fundamentales para las redes domésticas y para que los 
 operadores y proveedores de servicios conformen ofertas avanzadas. El sistema de gestión 
-centralizado integrado en QoS evita la colisión y cuellos de botella, mejorando la capacidad de 
-entrega en tiempo crítico de las cargas. 
+centralizado integrado en QoS evita la colisión y cuellos de botella, mejorando la capacidad de \nentrega en tiempo crítico de las cargas. 
 • IEEE 802.11f. 
 Nace con el objetivo de lograr la interoperabilidad de puntos de acceso IEEE 802.11b/g dentro 
-de una red WLAN con puntos de acceso de diferentes fabricantes dentro de la misma red. El 
-estándar define un protocolo para la comunicación entre puntos de acceso que permite la 
+de una red WLAN con puntos de acceso de diferentes fabricantes dentro de la misma red. El \nestándar define un protocolo para la comunicación entre puntos de acceso que permite la 
 transferencia de usuarios entre puntos de acceso. El protocolo IAPP (Inter Access Points 
 Protocol) es el encargado de transferir la información de contexto para permitir el traspaso de 
 usuarios entre puntos de acceso. 
@@ -3988,8 +3799,7 @@ para el estándar b.
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 120 
 Actualmente se venden equipos con esta especificación, con potencias de hasta medio vatio, 
 que permite hacer comunicaciones de más de 50 km con antenas parabólicas o equipos de radio 
@@ -4010,8 +3820,7 @@ DFS (Dynamic Frequency Selection) es una funcionalidad requerida por las WLAN qu
 operan en la banda de 5 GHz con el fin de evitar interferencias co-canal con sistemas de 
 radar y para asegurar una utilización uniforme de los canales disponibles. 
 • Control de Potencia del Transmisor. 
-TPC (Transmitter Power Control) es una funcionalidad requerida por las WLAN que operan 
-en la banda de 5 GHz para asegurar que se respetan las limitaciones de potencia 
+TPC (Transmitter Power Control) es una funcionalidad requerida por las WLAN que operan \nen la banda de 5 GHz para asegurar que se respetan las limitaciones de potencia 
 transmitida que puede haber para diferentes canales en una determinada región, de manera 
 que se minimiza la interferencia con sistemas de satélite. 
 • IEEE 802.11i. 
@@ -4027,8 +3836,7 @@ norma IEEE 802.11-2077 publicada.
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 121 
 • IEEE 802.11k. 
 Permite a los conmutadores y puntos de acceso inalámbricos calcular y valorar los recursos de 
@@ -4039,8 +3847,7 @@ los clientes (adaptadores y tarjetas WLAN) como la infraestructura (puntos de ac
 conmutadores WLAN). 
 • IEE 802.11m. 
 Complemento de mantenimiento del estándar IEEE 802.11 para llevar a cabo correcciones 
-técnicas y aclaraciones sobre los distintos estándares. El grupo de trabajo del mismo nombre se 
-encarga del mantenimiento del estándar, respondiendo a las peticiones de información y 
+técnicas y aclaraciones sobre los distintos estándares. El grupo de trabajo del mismo nombre se \nencarga del mantenimiento del estándar, respondiendo a las peticiones de información y 
 definiendo las líneas de trabajo del mantenimiento futuro del estándar. Estándar en desarrollo. 
 • IEEE 802.11n. 
 Su principal objetivo es ofrecer una mayor velocidad de transmisión en redes WLAN, con un 
@@ -4048,9 +3855,7 @@ objetivo inicial de alcanzar los 100mbps. En enero de 2004, el IEEE anunció la 
 grupo de trabajo 802.11 (Tgn) para desarrollar una nueva revisión del estándar 802.11. La 
 velocidad real de transmisión podría llegar a los 600 Mbps (lo que significa que las velocidades 
 teóricas de transmisión serían aún mayores), y debería ser hasta diez veces más rápida que una 
-red bajo los estándares 802.11a y 802.11g, y unas cuarenta veces más rápida que una red bajo 
-el estándar 802.11b. También se espera que el alcance de operación de las redes sea mayor con 
-este nuevo estándar gracias a la tecnología MIMO (Multiple Input – Multiple Output), que 
+red bajo los estándares 802.11a y 802.11g, y unas cuarenta veces más rápida que una red bajo \nel estándar 802.11b. También se espera que el alcance de operación de las redes sea mayor con \neste nuevo estándar gracias a la tecnología MIMO (Multiple Input – Multiple Output), que 
 permite utilizar varios canales a la vez para enviar y recibir datos gracias a la incorporación de 
 varias antenas y la utilización de bandas de uso común .La mayor parte de los fabricantes ya 
 incorpora a sus líneas de producción equipos wifi 802.11n, por este motivo la oferta ADSL, ya 
@@ -4068,16 +3873,13 @@ vehículos y la infraestructura de las carreteras por las que circulan.
 • IEEE802.11r. 
 También se conoce como Fast Basic Service Set Transition, y su principal característica es 
 permitir a la red que establezca los protocolos de seguridad que identifican a un dispositivo en el 
-nuevo punto de acceso antes de que abandone el actual y se pase a él. Esta función, que una vez 
-enunciada parece obvia e indispensable en un sistema de datos inalámbricos, permite que la 
-transición entre nodos demore menos de 50 milisegundos. Un lapso de tiempo de esa magnitud 
-es lo suficientemente corto como para mantener una comunicación vía VoIP sin que haya cortes 
+nuevo punto de acceso antes de que abandone el actual y se pase a él. Esta función, que una vez \nenunciada parece obvia e indispensable en un sistema de datos inalámbricos, permite que la 
+transición entre nodos demore menos de 50 milisegundos. Un lapso de tiempo de esa magnitud \nes lo suficientemente corto como para mantener una comunicación vía VoIP sin que haya cortes 
 perceptibles.
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 122 
 • IEEE 802.11s. 
 Es el estándar en desarrollo para redes Wi-Fi malladas, también conocidas como redes Mesh. La 
@@ -4095,8 +3897,7 @@ conocida como ESS (Extended Service Set).
 Fue publicada en 2011. Y servirá para permitir la configuración remota de los dispositivos 
 cliente. Esto permitirá una gestión de las estaciones de forma centralizada (similar a una red 
 celular) o distribuida, a través de un mecanismo de capa de enlace de datos (capa 2). Esto 
-incluye, por ejemplo, la capacidad de la red para supervisar, configurar y actualizar las 
-estaciones cliente. Además de la mejora de la gestión, las nuevas capacidades proporcionadas 
+incluye, por ejemplo, la capacidad de la red para supervisar, configurar y actualizar las \nestaciones cliente. Además de la mejora de la gestión, las nuevas capacidades proporcionadas 
 por el "11v" se desglosan en cuatro categorías: 
 1. Mecanismos de ahorro de energía con dispositivos de mano VoIP Wi-Fi en mente. 
 2. Posicionamiento, para proporcionar nuevos servicios dependientes de la ubicación. 
@@ -4108,16 +3909,14 @@ Es un protocolo que hace parte de IEEE 802.11 basado en el protocolo 802.11i, si
 proteger redes WLAN contra ataques sutiles en las tramas de gestión inalámbricas (WLAN). 
 Todavía no concluido. TGw está trabajando en mejorar la capa del control de acceso del medio de 
 IEEE 802.11 para aumentar la seguridad de los protocolos de autenticación y codificación. 
-Las WLAN envían la información del sistema en tramas desprotegidas, que las hace vulnerables. Este 
-estándar podrá proteger las redes contra la interrupción causada por los sistemas malévolos que crean 
+Las WLAN envían la información del sistema en tramas desprotegidas, que las hace vulnerables. Este \nestándar podrá proteger las redes contra la interrupción causada por los sistemas malévolos que crean 
 peticiones desasociadas que parecen ser enviadas por el equipo válido. 
 Se intenta extender la protección que aporta el estándar 802.11i más allá de los datos hasta las tramas 
 de gestión, responsables de las principales operaciones de una red.
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 123 
 Algunos de los protocolos inalámbricos con sus velocidades: 
 Nombre 
@@ -4149,8 +3948,7 @@ Una red inalámbrica se identifica por el SSID.
 Habrá un único SSID en una red inalámbrica. 
 Puede haber varios BSSID en una red inalámbrica (uno por punto de acceso). 
 Seguridad 
-Una red inalámbrica puede tener un sistema de cifrado para su seguridad o no tener ninguno (lo cual no 
-es muy recomendable, salvo que sea una red pública). 
+Una red inalámbrica puede tener un sistema de cifrado para su seguridad o no tener ninguno (lo cual no \nes muy recomendable, salvo que sea una red pública). 
 A continuación, vamos a ver los sistemas de cifrado utilizados: 
 • WEP. 
 El esquema de seguridad inicial de 802.11 se llamó WEP (Wired Equivalent Privacy). 
@@ -4162,8 +3960,7 @@ inicialización).
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 124 
 Posteriormente se comenzó a usar una clave de 128 bits (WEP-104). 
 Los problemas de WEP con RC4 tienen mucho que ver con el vector de inicialización y la 
@@ -4190,13 +3987,11 @@ WPA2 con clave precompartida (AES PreShared Key).
 WPA2 con servidores RADIUS (EAP-TLS). 
 • WPS. 
 WPS es el acrónimo de Wi-Fi Protected Setup, introducido en 2006 con el fin de posibilitar la 
-configuración segura de las redes wifi en domicilios y oficinas. Su propósito esencial es facilitar 
-el proceso de conexión de los dispositivos Wi-Fi a la red sin comprometer la seguridad.
+configuración segura de las redes wifi en domicilios y oficinas. Su propósito esencial es facilitar \nel proceso de conexión de los dispositivos Wi-Fi a la red sin comprometer la seguridad.
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 125 
 WPS propone distintos procedimientos de conexión evitando la introducción manual de la 
 contraseña de red. Pasamos amencionar los métodos más conocidos: 
@@ -4204,8 +3999,7 @@ contraseña de red. Pasamos amencionar los métodos más conocidos:
 PIN numérico de ocho dígitos. 
 • PBC (Push Button Configuration): El añadido de un botón en el enrutador, permite pulsarlo 
 para luego conectar el dispositivo que lo solicite. 
-• NFC (Near Field Communication): La tecnología NFC posibilita que se conecten al entrar 
-en contacto los dispositivos compatibles. 
+• NFC (Near Field Communication): La tecnología NFC posibilita que se conecten al entrar \nen contacto los dispositivos compatibles. 
 • USB (Universal Serial Bus): La simple conexión de un dispositivo USB al enrutador a través 
 del puerto USB del mismo establecerá la conexión permitiendo que el enrutador acceda a la 
 información de configuración. 
@@ -4218,8 +4012,7 @@ dispositivos mediante un enlace por radiofrecuencia en la banda ISM de los 2.4 G
 objetivos que se pretenden conseguir con esta norma son: 
 • Facilitar las comunicaciones entre equipos móviles. 
 • Eliminar los cables y conectores entre estos. 
-• Ofrecer la posibilidad de crear pequeñas redes inalámbricas y facilitar la sincronización de datos 
-entre equipos personales. 
+• Ofrecer la posibilidad de crear pequeñas redes inalámbricas y facilitar la sincronización de datos \nentre equipos personales. 
 Los dispositivos que incorporan este protocolo pueden comunicarse entre sí cuando se encuentran 
 dentro de su alcance. Las comunicaciones se realizan por radiofrecuencia de forma que los dispositivos 
 no tienen que estar alineados y pueden incluso estar en habitaciones separadas si la potencia de 
@@ -4232,8 +4025,7 @@ interfaz de alto nivel, define el uso del canal Bluetooth.
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 126 
 Arquitectura hardware 
 El hardware que compone el dispositivo Bluetooth está compuesto por dos partes: 
@@ -4258,21 +4050,18 @@ las siguientes:
 • Establecimiento del tipo de cuerpo de cada paquete. 
 • Establecer el dispositivo en modo sniff o hold: El primero, sniff, significa olfatear, pero en 
 castellano y en informática se traduce por escuchar (el medio): en este caso es la frecuencia o 
-frecuencias en la que está funcionando el dispositivo. Así, cualquier paquete de datos enviado en 
-esa frecuencia será "leído" por el dispositivo, aunque no vaya dirigido a él. Leerá todos los datos 
+frecuencias en la que está funcionando el dispositivo. Así, cualquier paquete de datos enviado en \nesa frecuencia será "leído" por el dispositivo, aunque no vaya dirigido a él. Leerá todos los datos 
 que se envíen en esa frecuencia por cualquier otro dispositivo Bluetooth, es lo que se denomina 
 rastreo de paquetes. 
 • Una técnica parecida, pero a nivel de frecuencias es la que se utiliza para detectar redes Wi-Fi, 
 generalmente para encontrar redes abiertas (sin contraseña), al escanear todas las frecuencias 
 se obtiene información de cada frecuencia o canal de las redes Wi-Fi disponibles. 
-• Hold por su parte significa mantener, retener; esto quiere decir que el dispositivo se mantendrá 
-en esa frecuencia, aunque no emita ni reciba nada, manteniendo esa frecuencia siempre 
+• Hold por su parte significa mantener, retener; esto quiere decir que el dispositivo se mantendrá \nen esa frecuencia, aunque no emita ni reciba nada, manteniendo esa frecuencia siempre 
 disponible, aunque otros dispositivos la utilicen.
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 127 
 Usos de Bluetooth 
 Su uso es adecuado cuando puede haber dos o más dispositivos en un área reducida sin grandes 
@@ -4294,8 +4083,7 @@ Aplicaciones de Bluetooth:
 podría enviar publicidad a teléfonos móviles cuyo Bluetooth (los que lo posean) estuviera 
 activado al pasar cerca. 
 • Las consolas Sony PlayStation 3, PlayStation 4, Microsoft Xbox 360, Xbox One, Wii U y 
-Nintendo Switch incorporan Bluetooth, lo que les permite utilizar mandos inalámbricos, aunque 
-el Gamepad original de Wii U se conecta a la consola mediante Wi-Fi y los mandos de Wii 
+Nintendo Switch incorporan Bluetooth, lo que les permite utilizar mandos inalámbricos, aunque \nel Gamepad original de Wii U se conecta a la consola mediante Wi-Fi y los mandos de Wii 
 utilizan tecnología infrarroja para la función de puntero. 
 Etimología y logo 
 Si traducimos Blue tooth del inglés, su significado en español, es "Diente azul". 
@@ -4306,8 +4094,7 @@ comunicarse con los ordenadores y unificar la comunicación inalámbrica.
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 128 
  
 Fuente: Wikipedia 
@@ -4338,8 +4125,7 @@ siendo totalmente compatibles los dispositivos de una caja de ordenador.
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 129 
 Clase 
 Potencia máxima 
@@ -4387,13 +4173,11 @@ La utilidad se basa en la tecnología de saltos de frecuencia de amplio espectro
 En sus inicios, la tecnología Bluetooth podía transmitir datos a una velocidad de 720 kbs, una capacidad 
 increíble para la década de los noventa pero que hoy ya es muy limitada. 
 Tras más de dos décadas de mejoras, los diferentes tipos de Bluetooth han llegado a contar con 
-velocidades de hasta 50Mbs, y también el rango de conexión ha mejorado mucho, pasando de funcionar 
-en distancias menores a un metro, a los más de 100 metros que pueden alcanzar hoy en día.
+velocidades de hasta 50Mbs, y también el rango de conexión ha mejorado mucho, pasando de funcionar \nen distancias menores a un metro, a los más de 100 metros que pueden alcanzar hoy en día.
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 130 
 Las prestaciones fueron publicadas formalmente por el Bluetooth Special Interest Group (SIG), el 20 de 
 mayo de 1998. Fue creado por Ericsson, IBM, Intel, Toshiba y Nokia, y posteriormente se sumaron 
@@ -4424,8 +4208,7 @@ Añadido soporte para canales no cifrados, e indicador de señal recibida (RSSI)
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 131 
 Bluetooth v1.2 (2003) 
 Esta versión es compatible con USB 1.1 y las principales mejoras son las siguientes: 
@@ -4454,14 +4237,12 @@ Bluetooth v2.1 + EDR (2007)
 Fue adoptada por el Bluetooth SIG (Bluetooth Special Interest Group) el 26 de julio de 2007. 
 La función que incorpora, es Secure Simple Pairing (SSP): se mejora la experiencia de emparejamiento 
 de dispositivos Bluetooth, mientras que aumenta el uso y la fuerza de seguridad. 
-También se incluye la "respuesta amplia investigación" (EIR), que proporciona más información durante 
-el procedimiento de investigación para permitir un mejor filtrado de los dispositivos antes de la 
+También se incluye la "respuesta amplia investigación" (EIR), que proporciona más información durante \nel procedimiento de investigación para permitir un mejor filtrado de los dispositivos antes de la 
 conexión, y oler subrating, lo que reduce el consumo de energía en modo de bajo consumo.
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 132 
 Bluetooth v3.0 + HS xxx (2009) 
 La especificación Core Bluetooth9 fue aprobada por el Bluetooth SIG el 21 de abril de 2009. 
@@ -4501,16 +4282,14 @@ mecanismo de AMP se diseñó para ser utilizado también con otros radios.
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 133 
 Originalmente, fue pensado para UWB, pero la WiMedia Alliance, el organismo responsable por el sabor de 
 la UWB destinado a Bluetooth, anunciado en marzo de 2009 que fue la disolución. El 16 de marzo de 
 2009, la WiMedia Alliance anunció que iba a firmar un acuerdo de transferencia de tecnología para la 
 WiMedia Ultra-Wideband (UWB) especificaciones. WiMedia transfiere entonces todas las especificaciones 
 actuales y futuras, incluido el trabajo sobre el futuro de alta velocidad y la optimización de las 
-implementaciones de energía, el Bluetooth Special Interest Group (SIG), Wireless USB Promoter Group y 
-el Foro de Implementadores USB. Después de la finalización con éxito de la transferencia de tecnología, 
+implementaciones de energía, el Bluetooth Special Interest Group (SIG), Wireless USB Promoter Group y \nel Foro de Implementadores USB. Después de la finalización con éxito de la transferencia de tecnología, 
 marketing y relacionados con cuestiones administrativas, la WiMedia Alliance dejo de operar. 
 En octubre de 2009, el Bluetooth Special Interest Group suspendió el desarrollo de UWB como parte de 
 la alternativa MAC / PHY, Bluetooth 3.0 + HS solution. Un número pequeño, pero significativo, de 
@@ -4545,14 +4324,11 @@ Los diseños de chips permiten tres tipos de implementación:
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 134 
 En implementaciones de modo único solo se incluye la pila de protocolo de baja energía. CSR, Nordic 
-Semiconductor y Texas Instruments han dado a conocer solo las soluciones modo Bluetooth de baja 
-energía. 
-Bluetooth LE soporta topologías como punto a punto, transmisión en difusión (broadcasting) y redes 
-en malla (mesh), haciéndolo versátil para aplicaciones domésticas, industriales y de proximidad. 
+Semiconductor y Texas Instruments han dado a conocer solo las soluciones modo Bluetooth de baja \nenergía. 
+Bluetooth LE soporta topologías como punto a punto, transmisión en difusión (broadcasting) y redes \nen malla (mesh), haciéndolo versátil para aplicaciones domésticas, industriales y de proximidad. 
 Bluetooth v5.0 (2016-2017) 
 A mediados de 2016, SIG anuncia la llegada de Bluetooth 5 para finales del año 2016 o principios de 
 2017 en su página oficial www.bluetooth.com. Afirman que tendrá el doble de velocidad, mejor 
@@ -4567,8 +4343,7 @@ podrán saber la ubicación de otros dispositivos a los que estén conectados.
 Esta detección no será 100% precisa como el caso del GPS, pero sí podrá determinar una ubicación con 
 un margen de unos cuantos centímetros. 
 Bluetooth v5.2 (2020) 
-El 6 de enero de 2020 SIG presentó la versión 5.2 del protocolo Bluetooth con mejoras importantes en 
-el modo de radiofrecuencia Bluetooth LE (Low Energy). 
+El 6 de enero de 2020 SIG presentó la versión 5.2 del protocolo Bluetooth con mejoras importantes en \nel modo de radiofrecuencia Bluetooth LE (Low Energy). 
 Mejoras: 
 • Se presenta el nuevo perfil EATT (Enhanced Attribute Protocol) que mejora el rendimiento 
 cuando hay varios dispositivos BLE conectados de forma simultánea. 
@@ -4580,8 +4355,7 @@ Isochronous Channels).
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 135 
 9.2.3. Información electrónica 
 La especificación de Bluetooth define un canal de comunicación a un máximo 720 kbit/s (1 Mbit/s de 
@@ -4614,14 +4388,12 @@ Bluetooth está definido como un protocolo de arquitectura de capa que está for
 Como mínimo, toda pila de protocolos de Bluetooth debe tener los siguientes protocolos: LMP, L2CAP 
 y SDP. 
 • LMP. 
-El protocolo de control de enlace (Link Management Protocol, LMP) se usa para el 
-establecimiento y control del enlace de radio entre dos dispositivos. Está implementado en el 
+El protocolo de control de enlace (Link Management Protocol, LMP) se usa para el \nestablecimiento y control del enlace de radio entre dos dispositivos. Está implementado en el 
 controlador.
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 136 
 • L2CAP. 
 El protocolo de control y adaptación del enlace lógico (Logical Link Control and Adaptation 
@@ -4653,19 +4425,15 @@ Además, los dispositivos que se comunican por Bluetooth pueden usar casi siempr
 HCIy RFCOMM. 
 • Protocolo RFCOMM. 
 RFCOMM (Radio Frequency Communications) es un protocolo de reemplazo de cable usado 
-para generar un flujo de datos virtual en serie. RFCOMM ofrece transporte de datos binarios y 
-emula las señales de control de EIA-232 a través de la capa de banda base de Bluetooth.
+para generar un flujo de datos virtual en serie. RFCOMM ofrece transporte de datos binarios y \nemula las señales de control de EIA-232 a través de la capa de banda base de Bluetooth.
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 137 
 RFCOMM ofrece un flujo de datos confiable y sencillo para el usuario, similar a TCP. Es utilizado 
 por muchos perfiles relacionados con la telefonía. 
-Muchas aplicaciones Bluetooth utilizan RFCOMM debido a su amplio soporte y la posibilidad de 
-encontrar API públicas en la mayoría de sistemas operativos. Además, las aplicaciones que usen 
-el puerto serie para comunicarse, podrán ser portadas a RFCOMM fácilmente. 
+Muchas aplicaciones Bluetooth utilizan RFCOMM debido a su amplio soporte y la posibilidad de \nencontrar API públicas en la mayoría de sistemas operativos. Además, las aplicaciones que usen \nel puerto serie para comunicarse, podrán ser portadas a RFCOMM fácilmente. 
 Otros protocolos: 
 • BNEP. 
 El protocolo de encapsulación de red de Bluetooth (Bluetooth Network Encapsulation Protocol, 
@@ -4677,15 +4445,11 @@ El protocolo de control de transporte de audio y vídeo (Control Transport Proto
 por el perfil de control remoto para transferir órdenes de control de audio/vídeo a través de un 
 canal L2CAP. Los botones de control en unos auriculares estéreo usan este protocolo para 
 controlar el reproductor de música. 
-Se usa para el perfil de distribución avanzada de audio para transferir música a los auriculares 
-estéreo a través de un canal L2CAP pensado para la distribución de video. 
+Se usa para el perfil de distribución avanzada de audio para transferir música a los auriculares \nestéreo a través de un canal L2CAP pensado para la distribución de video. 
 • TCS. 
-El protocolo de control de telefonía binario (Telephony Control Protocol - Binary, TCS BIN) es 
-el protocolo orientado a bits que define la señalización del control de llamadas para el 
-establecimiento de las llamadas de voz y datos entre dispositivos Bluetooth. 
+El protocolo de control de telefonía binario (Telephony Control Protocol - Binary, TCS BIN) es \nel protocolo orientado a bits que define la señalización del control de llamadas para el \nestablecimiento de las llamadas de voz y datos entre dispositivos Bluetooth. 
 • Protocolos adoptados. 
-Los protocolos adoptados son aquellos que han sido definidos por otras organizaciones de 
-estandarización y han sido incorporados en la pila de protocolos de Bluetooth, permitiendo a 
+Los protocolos adoptados son aquellos que han sido definidos por otras organizaciones de \nestandarización y han sido incorporados en la pila de protocolos de Bluetooth, permitiendo a 
 Bluetooth codificar protocolos solamente cuando sea necesario. Los protocolos adoptados 
 incluyen: 
 • Protocolo punto a punto (PPP). 
@@ -4698,12 +4462,10 @@ para la representación de los objetos y las operaciones.
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 138 
 • Wireless Application Environment/Wireless Application Protocol (WAE/WAP). 
-WAE especifica un marco de aplicación para los dispositivos inalámbricos y WAP es un 
-estándar abierto que permite a los usuarios móviles acceder a los servicios de información y 
+WAE especifica un marco de aplicación para los dispositivos inalámbricos y WAP es un \nestándar abierto que permite a los usuarios móviles acceder a los servicios de información y 
 telefonía. 
 9.2.5. Comparaciones de bluetooth con Wi-Fi 
 Puede compararse la efectividad de varios protocolos de transmisión inalámbrica, como Bluetooth y 
@@ -4725,8 +4487,7 @@ distancias mayor y mejores mecanismos de seguridad.
 Wi-Fi Direct. 
 • Es un programa de certificación que permite que varios dispositivos Wi-Fi se conecten entre sí 
 sin necesidad de un punto de acceso intermedio. 
-• Cuando un dispositivo ingresa al rango del anfitrión Wi-Fi Direct, éste se puede conectar usando 
-el protocolo ad hoc existente, y luego recolecta información de configuración usando una 
+• Cuando un dispositivo ingresa al rango del anfitrión Wi-Fi Direct, éste se puede conectar usando \nel protocolo ad hoc existente, y luego recolecta información de configuración usando una 
 transferencia del mismo tipo de la de Protected Setup. 
 • La conexión y configuración se simplifican de tal forma que algunos sugieren que esto podría 
 reemplazar al Bluetooth en algunas situaciones. 
@@ -4737,8 +4498,7 @@ de Bluetooth.
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 139 
 Sin embargo, las ventajas que ofrece la tecnología Bluetooth en contrapartida son un menor 
 consumo de energía, la posibilidad de usar más de un dispositivo a la vez y que la distancia reducida 
@@ -4771,8 +4531,7 @@ indefinidamente tras publicar el estándar IEEE 802.15.2-2003 en 2003.
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 140 
 • Grupo de trabajo 3: WPAN de alta velocidad. 
 • 3.1 IEEE 802.15.3-2003 (WPAN de alta velocidad). 
@@ -4787,13 +4546,11 @@ UWB en dos propuestas utilizando multiplexación por división de frecuencias or
 multibanda (Multi-Band Orthogonal Frequency Division Multiplexing, MB-OFDM) en UWB 
 y UWB en secuencia directa (DS-UWB, soportada por el UWB Forum). 
 El 19 de enero de 2006, los miembros del grupo votaron para anular la petición de proyecto 
-que iniciaba el desarrollo de estándares de alta velocidad para UWB, pues el proceso se 
-encontraba bloqueado por completo. Había dos propuestas distintas respaldadas por dos 
+que iniciaba el desarrollo de estándares de alta velocidad para UWB, pues el proceso se \nencontraba bloqueado por completo. Había dos propuestas distintas respaldadas por dos 
 alianzas distintas, una de las cuales estaba dispuesta a aunar esfuerzos (mientras que la otra 
 no lo estaba, pero poseía votos suficientes para vetar decisiones). 
 Finalmente se acordó que el mercado decidiera. La tecnología presenta bastantes 
-problemas con su regulación debido a que, desde el punto de vista del desarrollo de 
-estándares, seguramente es aún demasiado pronto para estandarizar UWB dado el 
+problemas con su regulación debido a que, desde el punto de vista del desarrollo de \nestándares, seguramente es aún demasiado pronto para estandarizar UWB dado el 
 desconocimiento del mercado a nivel mundial. 
 Los documentos relacionados con el desarrollo del IEEE 802.15.3a fueron archivados y se 
 pueden consultar en el servidor de documentos del IEEE. 
@@ -4811,8 +4568,7 @@ Entre otros cambios, define las siguientes características:
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 141 
 » Un método para ceder el tiempo del canal a otro dispositivo del área personal. 
 » Recuperación de la red más rápida en el caso de que el coordinador de la red se 
@@ -4849,13 +4605,11 @@ redes 802.15.4.
 • IEEE 802.15.4a (PHY alternativa). 
 Es una mejora de IEEE 802.15.4 que añade capas físicas adicionales al estándar original. El 
 principal interés de este grupo es permitir comunicaciones y facilidades de localización de 
-alta precisión (de un metro y mejor), alta productividad agregada y necesidades 
-energéticas extremadamente reducidas.
+alta precisión (de un metro y mejor), alta productividad agregada y necesidades \nenergéticas extremadamente reducidas.
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 142 
 También busca la escalabilidad en las tasas de transferencia de datos, distancia de 
 transmisión, coste y consumo. 
@@ -4896,13 +4650,11 @@ China.
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 143 
 • IEEE 802.15.4f (Modificación en la capa física y la identificación por radiofrecuencia o 
 RFID). 
-Fue constituido para definir nuevas capas físicas inalámbricas y mejoras con respecto al 
-estándar de la capa MAC 802.15.4 del 2006 necesarias en las nuevas capas físicas para la 
+Fue constituido para definir nuevas capas físicas inalámbricas y mejoras con respecto al \nestándar de la capa MAC 802.15.4 del 2006 necesarias en las nuevas capas físicas para la 
 identificación por frecuencia o RFID bidireccional. 
 • IEEE 802.15.4g Modificación de la capa física para Herramientas de Red Inteligentes 
 (SUN). 
@@ -4912,8 +4664,7 @@ de redes inteligentes capaces de soportar geográficamente diversas redes con un
 infraestructura. Recientemente han surgido noticias sobre el estándar de radio 802.15.4g. 
 • Grupo de trabajo 5: Redes en malla. 
 IEEE 802.15.5 proporciona la estructura del marco de trabajo que permite a los dispositivos de 
-una WPAN promover una red inalámbrica en malla interoperable, estable y escalable. El 
-estándar está dividido en dos partes: redes WPAN en malla de baja tasa y redes WPAN en malla 
+una WPAN promover una red inalámbrica en malla interoperable, estable y escalable. El \nestándar está dividido en dos partes: redes WPAN en malla de baja tasa y redes WPAN en malla 
 de alta tasa. Las de baja tasa, utilizan la capa MAC de IEEE 802.15.4-2006 mientras que las de 
 alta tasa usan la capa MAC de IEEE 802.15.3/3b. Las características comunes de ambas incluyen 
 la inicialización de la red, el direccionamiento, y la unidifusión multisalto. Además, las de baja 
@@ -4924,23 +4675,18 @@ En diciembre de 2011, el IEEE 802.15.6 aprobó un borrador del estándar BAN. El
 aprobado el 22 de julio de 2011. El grupo de trabajo 6 se formó en noviembre de 2007 para 
 trabajar en un estándar inalámbrico de baja potencia y corto rango que estuviera optimizado 
 para su uso en o alrededor del cuerpo humano (aunque sin ser limitado a humanos). Este 
-podía servir para una gran variedad de aplicaciones, que incluían aplicaciones médicas, de 
-electrónica de consumo o de entretenimiento personal. Optimiza el bajo consumo de energía. 
+podía servir para una gran variedad de aplicaciones, que incluían aplicaciones médicas, de \nelectrónica de consumo o de entretenimiento personal. Optimiza el bajo consumo de energía. 
 Este estándar define tanto las capas físicas como de enlace, las cuales pueden satisfacer las 
 necesidades de las BAN. 
 • Grupo de trabajo 7: Comunicación de Luz Visible (Visible Light Communication, VLG). 
-En diciembre de 2011, el grupo de trabajo IEEE 802.15.7 completó el borrador 5c de un 
-estándar de capa física y de enlace para la comunicación a través de la luz visible. La conferencia 
-de inauguración del grupo de trabajo 7 se realizó en enero de 2009, en donde decidieron escribir 
-estándares para la comunicación óptica mediante luz visible a través del espacio libre. Este 
-método se caracteriza por la comunicación inalámbrica de corto alcance por medio de 
-espectros de luz. Su mayor ventaja es que permite altas velocidades de datos (hasta 96Mb/s). 
+En diciembre de 2011, el grupo de trabajo IEEE 802.15.7 completó el borrador 5c de un \nestándar de capa física y de enlace para la comunicación a través de la luz visible. La conferencia 
+de inauguración del grupo de trabajo 7 se realizó en enero de 2009, en donde decidieron escribir \nestándares para la comunicación óptica mediante luz visible a través del espacio libre. Este 
+método se caracteriza por la comunicación inalámbrica de corto alcance por medio de \nespectros de luz. Su mayor ventaja es que permite altas velocidades de datos (hasta 96Mb/s). 
 El espectro de luz visible se sitúa en longitudes de onda entre 380 - 789 nm.
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 144 
 • Grupo de trabajo 8: Comunicación por pares (Peer Aware Communication, PAC). 
 El IEEE 802.15.8 recibió la aprobación para formar un grupo de trabajo, el 29 de marzo de 2012, 
@@ -4956,8 +4702,7 @@ son los siguientes:
 • Posicionamiento relativo. 
 • Retransmisión multisalto. 
 • Seguridad. 
-El grupo de trabajo 8 sigue aún activo en 2017. La última actualización de su trabajo se realizó 
-en noviembre de 2016. 
+El grupo de trabajo 8 sigue aún activo en 2017. La última actualización de su trabajo se realizó \nen noviembre de 2016. 
 • Grupo de trabajo 9: Protocolo de Administración de Claves (Key Management Protocol, KMP). 
 El IEEE 802.15.9 recibió la aprobación para crear el grupo de trabajo 9 el 7 de diciembre de 2016 
 según la IEEE. Su intención era desarrollar unas prácticas recomendadas para el transporte de 
@@ -4978,15 +4723,12 @@ información acerca del estado del mismo en la web de IEEE 802.15.
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 145 
 • Grupo de trabajo 10: Enrutamiento de capa 2. 
 El IEEE 802.15.10 recibió la aprobación para formar el grupo de trabajo 10 el 23 de agosto de 
-2017 según la página oficial de IEEE. Su intención era desarrollar una práctica recomendada para 
-el enrutamiento de los paquetes en la red inalámbrica dinámica cambiante de 802.15.4. Estas 
-prácticas debían tener un impacto mínimo en el manejo del enrutamiento. El objetivo era 
-extender el área de cobertura conforme fuera aumentando el número de nodos. 
+2017 según la página oficial de IEEE. Su intención era desarrollar una práctica recomendada para \nel enrutamiento de los paquetes en la red inalámbrica dinámica cambiante de 802.15.4. Estas 
+prácticas debían tener un impacto mínimo en el manejo del enrutamiento. El objetivo era \nextender el área de cobertura conforme fuera aumentando el número de nodos. 
 Las características relacionadas con el enrutamiento que la práctica recomendada proporciona 
 son las siguientes: 
 • Establecimiento de la ruta. 
@@ -5005,8 +4747,7 @@ mismo en la web de IEEE 802.15.10.
 RFID es una tecnología que utiliza ondas de radio para identificar y rastrear objetos de manera 
 automática. Esta tecnología funciona mediante un sistema que consta de dos componentes principales: 
 un lector y una etiqueta RFID. La etiqueta RFID es un pequeño dispositivo que contiene un chip para 
-almacenar información y una antena que permite la transmisión y recepción de señales. El lector RFID 
-emite una señal de radio a una frecuencia específica, que es recibida por la etiqueta, la cual, al activarse, 
+almacenar información y una antena que permite la transmisión y recepción de señales. El lector RFID \nemite una señal de radio a una frecuencia específica, que es recibida por la etiqueta, la cual, al activarse, 
 transmite de vuelta al lector la información almacenada en su chip. 
 Existen dos tipos de etiquetas RFID: 
 • Las etiquetas pasivas, que no necesitan una fuente de alimentación propia y solo se activan 
@@ -5016,24 +4757,18 @@ manera autónoma.
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 146 
-Las etiquetas pasivas suelen ser más baratas y tienen un alcance de lectura más corto, mientras que las 
-etiquetas activas, al tener batería propia, pueden tener un alcance más largo y enviar señales por su 
+Las etiquetas pasivas suelen ser más baratas y tienen un alcance de lectura más corto, mientras que las \netiquetas activas, al tener batería propia, pueden tener un alcance más largo y enviar señales por su 
 cuenta. 
-El proceso de funcionamiento de RFID es el siguiente: el lector emite una señal de radio que activa la 
-etiqueta, la cual responde enviando la información almacenada en su chip al lector. Esta información 
+El proceso de funcionamiento de RFID es el siguiente: el lector emite una señal de radio que activa la \netiqueta, la cual responde enviando la información almacenada en su chip al lector. Esta información 
 puede ser un identificador único, que el sistema utiliza para registrar, rastrear o gestionar el objeto al 
 que la etiqueta está adherida. Una vez recibida la información, el lector la transmite al sistema de 
 gestión de datos, donde se procesa y se puede usar para tareas como seguimiento de inventarios, 
 control de acceso o pago sin contacto. 
 RFID es ampliamente utilizado en diversas aplicaciones, como la gestión de inventarios, el control de 
 acceso a edificios, el seguimiento de productos en la cadena de suministro, la identificación de 
-vehículos, el rastreo de bienes en almacenes y el pago sin contacto en sistemas de transporte público o 
-en comercios. La ventaja principal de RFID es que no requiere contacto físico entre el lector y la 
-etiqueta, lo que facilita la identificación rápida y remota de objetos, además de permitir el seguimiento 
-en tiempo real de los mismos. 
+vehículos, el rastreo de bienes en almacenes y el pago sin contacto en sistemas de transporte público o \nen comercios. La ventaja principal de RFID es que no requiere contacto físico entre el lector y la \netiqueta, lo que facilita la identificación rápida y remota de objetos, además de permitir el seguimiento \nen tiempo real de los mismos. 
 9.4. NFC (Near Field Communication) 
 NFC es una tecnología de comunicación inalámbrica de corto alcance que permite la interacción entre 
 dispositivos cuando se encuentran muy cerca, generalmente a unos 10 cm o menos. NFC se basa en la 
@@ -5044,8 +4779,7 @@ desde una etiqueta pasiva a un lector.
 El funcionamiento de NFC involucra la transmisión de datos mediante ondas de radio en la frecuencia de 
 13.56 MHz. Al igual que RFID, utiliza etiquetas y lectores, pero en el caso de NFC, ambos dispositivos 
 pueden actuar como emisor y receptor. Un dispositivo NFC puede estar en modo activo (transmitiendo 
-y recibiendo señales) o en modo pasivo (solo leyendo datos desde una etiqueta o dispositivo que esté 
-emitiendo señales). Cuando un dispositivo NFC, como un teléfono móvil, se acerca a una etiqueta NFC 
+y recibiendo señales) o en modo pasivo (solo leyendo datos desde una etiqueta o dispositivo que esté \nemitiendo señales). Cuando un dispositivo NFC, como un teléfono móvil, se acerca a una etiqueta NFC 
 o a otro dispositivo NFC, se establece una comunicación que permite el intercambio de información, 
 como datos de pago, información de contacto o acceso a servicios. 
 El proceso de interacción con NFC comienza cuando los dispositivos están lo suficientemente cerca uno 
@@ -5062,8 +4796,7 @@ dispositivos, como el intercambio de archivos o el emparejamiento de dispositivo
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 147 
 Una de las principales ventajas de NFC es su capacidad para facilitar interacciones rápidas y seguras, 
 debido a su corto alcance y su naturaleza bidireccional. Además, es fácil de implementar en dispositivos 
@@ -5072,8 +4805,7 @@ cotidiana. Sin embargo, su principal limitación es que su alcance limitado rest
 donde se necesita una comunicación de mayor distancia. 
 9.5. ZigBee 
 Tecnología y estándar IEEE 802.15.4 
-ZigBee es una tecnología de comunicación inalámbrica diseñada para redes de bajo consumo de 
-energía, bajo costo y aplicaciones de corto alcance. Está basada en el estándar IEEE 802.15.4, y está 
+ZigBee es una tecnología de comunicación inalámbrica diseñada para redes de bajo consumo de \nenergía, bajo costo y aplicaciones de corto alcance. Está basada en el estándar IEEE 802.15.4, y está 
 orientada a la creación de redes de dispositivos interconectados, principalmente en entornos de 
 automatización del hogar y Internet de las Cosas (IoT). A diferencia de otras tecnologías de 
 comunicación inalámbrica, como Wi-Fi o Bluetooth, ZigBee está específicamente optimizada para 
@@ -5096,16 +4828,14 @@ termostatos, persianas automáticas, sistemas de alarma, cerraduras inteligentes
 monitoreo de energía. 
 Tipos de dispositivos en la red 
 El proceso de funcionamiento de ZigBee incluye la creación de una red formada por tres tipos de 
-dispositivos: coordinador, enlace y dispositivo final. El coordinador es el encargado de gestionar la red, 
-estableciendo y manteniendo la conexión entre los dispositivos. Los enlaces ayudan a transmitir las 
+dispositivos: coordinador, enlace y dispositivo final. El coordinador es el encargado de gestionar la red, \nestableciendo y manteniendo la conexión entre los dispositivos. Los enlaces ayudan a transmitir las 
 señales entre los dispositivos, actuando como repetidores. Los dispositivos finales son aquellos que 
 realizan la acción principal de la red, como sensores o interruptores. Estos dispositivos pueden enviar y 
 recibir datos, pero no retransmiten señales.
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 148 
 Ventajas principales 
 Una de las grandes ventajas de ZigBee es su bajo consumo energético, lo que permite que los 
@@ -5141,8 +4871,7 @@ comparables al actual patrón GPRS.
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 149 
 • Mejor aprovechamiento del canal, ya que permite comunicaciones semidúplex como la radio 
 convencional o dúplex como el teléfono en casos necesarios, utilizando los canales 
@@ -5177,13 +4906,11 @@ disponer de un mercado masivo de clientes.
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 150 
 • Las transferencias de datos son más lentas (max 19 Kbps), aunque se está mejorando en 
 versiones más modernas de esta tecnología. 
-• Debido a la baja modulación de frecuencia, los terminales pueden interferir con dispositivos 
-electrónicos sensibles, como marcapasos o desfibriladores, lo cual es contraproducente dándole 
+• Debido a la baja modulación de frecuencia, los terminales pueden interferir con dispositivos \nelectrónicos sensibles, como marcapasos o desfibriladores, lo cual es contraproducente dándole 
 ventaja a la radio analógico UHF/VHF. 
 10.3. Frecuencias 
 La modulación usada en este protocolo es DQPSK, sigla de Dual-polarization quadrature phase shift 
@@ -5233,13 +4960,11 @@ https://www.boe.es/diario_boe/txt.php?id=BOE-A-2009-3110.
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 151 
 11. Bibliografía 
 • FOROUZAN, B., Transmisión de datos y redes de comunicaciones. Editorial MC Graw Hill. 
-• http://www.serbi.ula.ve/serbiula/libros-
-electronicos/Libros/trasmisiondedatos/pdf/librocompleto.pdf. 
+• http://www.serbi.ula.ve/serbiula/libros-\nelectronicos/Libros/trasmisiondedatos/pdf/librocompleto.pdf. 
 • https://radiosyculturalibre.com.ar/compartir/biblioteca/REDES/redes-de-
 comunicaciones.pdf. 
 • https://www.uaeh.edu.mx/scige/boletin/huejutla/n9/r1.html. 
@@ -5265,8 +4990,7 @@ digitales/transmision-datos-analogicos-y-digitales.shtml.
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 152 
 • http://normcableestruc.blogspot.com/2017/. 
 • https://www.c3comunicaciones.es/. 
@@ -5290,8 +5014,7 @@ mpls/mpls/4649-mpls-faq-4649.html.
 • https://ldc.usb.ve/~rgonzalez/Cursos/redes/laminas/Tema8_Parte1.pdf. 
 • http://www.ac.uma.es/~nico/docencia/ar/redes.pdf. 
 • https://gsitic.wordpress.com/2018/03/26/biv12-redes-conmutadas-y-de-difusion-
-conmutacion-de-circuitos-y-de-paquetes-integracion-voz-datos-protocolos-de-
-encaminamiento-ethernet-conmutada-mpls-calidad-de-servicios-qos/. 
+conmutacion-de-circuitos-y-de-paquetes-integracion-voz-datos-protocolos-de-\nencaminamiento-ethernet-conmutada-mpls-calidad-de-servicios-qos/. 
 • https://mastermoviles.gitbook.io/tecnologias2/. 
 • https://hipertextual.com/2017/12/5g-espana. 
 • http://www.abartiateam.com/conectividad-movil. 
@@ -5299,8 +5022,7 @@ encaminamiento-ethernet-conmutada-mpls-calidad-de-servicios-qos/.
 
 ---
 
-Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles 
-e inalámbricas 
+Comunicaciones: Modos, Medios y Equipos. Redes de conmutación y de difusión. Comunicaciones móviles \ne inalámbricas 
 153 
 • https://www.abc.es/economia/abci-espana-conecta-redes-201807280222_noticia.html. 
 • https://www.movilonia.com/noticias/calendario-5g-espana/. 

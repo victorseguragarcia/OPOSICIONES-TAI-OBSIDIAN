@@ -8,8 +8,7 @@ tags:
   - tema-03
   - sistemas
   - redes
-  - seguridad
-estado: "🔴 Pendiente"
+  - seguridad\nestado: "🔴 Pendiente"
 dificultad: "⭐⭐⭐"
 prioridad: "Alta"
 sources:

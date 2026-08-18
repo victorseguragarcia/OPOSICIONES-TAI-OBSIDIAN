@@ -23,7 +23,7 @@ El proceso de normalización organiza los atributos y relaciones de una base de 
 
 ## 🏛️ Jerarquía de Formas Normales
 
-$$	ext{1FN} \subset 	ext{2FN} \subset 	ext{3FN} \subset 	ext{BCNF} \subset 	ext{4FN} \subset 	ext{5FN}$$
+$$\text{1FN} \subset \text{2FN} \subset \text{3FN} \subset \text{BCNF} \subset \text{4FN} \subset \text{5FN}$$
 
 - **1FN**: Atributos con valores atómicos indivisibles.
 - **2FN**: 1FN + sin dependencias parciales de claves primarias compuestas.

@@ -8,8 +8,7 @@ tags:
   - tema-01
   - hardware
   - sistemas-operativos
-  - bbdd
-estado: "🔴 Pendiente"
+  - bbdd\nestado: "🔴 Pendiente"
 dificultad: "⭐⭐⭐"
 prioridad: "Alta"
 sources:
@@ -38,13 +37,13 @@ updated: "2026-08-18"
 
 | Sistema de Representación | Fórmula Rango de Representación ($n$ bits) | Rango con 8 bits ($n=8$) | Características / Cero |
 |:---|:---|:---:|:---|
-| **Signo y Magnitud (SM)** | $[-(2^{n-1}-1) 	ext{ a } +(2^{n-1}-1)]$ | $[-127 	ext{ a } +127]$ | MSB es signo ($0=+$, $1=-$). Doble representación del cero ($+0 = 00000000_2$, $-0 = 10000000_2$). |
-| **Complemento a 1 (C1)** | $[-(2^{n-1}-1) 	ext{ a } +(2^{n-1}-1)]$ | $[-127 	ext{ a } +127]$ | Los negativos se obtienen invirtiendo todos los bits. Doble cero ($+0 = 00000000_2$, $-0 = 11111111_2$). |
-| **Complemento a 2 (C2)** | $[-2^{n-1} 	ext{ a } +(2^{n-1}-1)]$ | **$[-128 	ext{ a } +127]$** | **Estándar universal**. Se invierten los bits y se suma 1 ($C2 = \overline{A} + 1$). **Cero único ($00000000_2$)**. Asimetría: permite representar un número negativo más. |
-| **Exceso a $2^{n-1}$ (Sesgo)** | $[-2^{n-1} 	ext{ a } +(2^{n-1}-1)]$ | $[-128 	ext{ a } +127]$ | Se suma un sesgo $K=2^{n-1}$ al valor real. Usado en los exponentes de coma flotante. |
+| **Signo y Magnitud (SM)** | $[-(2^{n-1}-1) \text{ a } +(2^{n-1}-1)]$ | $[-127 \text{ a } +127]$ | MSB es signo ($0=+$, $1=-$). Doble representación del cero ($+0 = 00000000_2$, $-0 = 10000000_2$). |
+| **Complemento a 1 (C1)** | $[-(2^{n-1}-1) \text{ a } +(2^{n-1}-1)]$ | $[-127 \text{ a } +127]$ | Los negativos se obtienen invirtiendo todos los bits. Doble cero ($+0 = 00000000_2$, $-0 = 11111111_2$). |
+| **Complemento a 2 (C2)** | $[-2^{n-1} \text{ a } +(2^{n-1}-1)]$ | **$[-128 \text{ a } +127]$** | **Estándar universal**. Se invierten los bits y se suma 1 ($C2 = \overline{A} + 1$). **Cero único ($00000000_2$)**. Asimetría: permite representar un número negativo más. |
+| **Exceso a $2^{n-1}$ (Sesgo)** | $[-2^{n-1} \text{ a } +(2^{n-1}-1)]$ | $[-128 \text{ a } +127]$ | Se suma un sesgo $K=2^{n-1}$ al valor real. Usado en los exponentes de coma flotante. |
 
 - **Estándar IEEE 754 para Coma Flotante**:
-  - Fórmula general: $V = (-1)^S 	imes (1.M) 	imes 2^{E - 	ext{Sesgo}}$ (para números normalizados con bit implícito 1).
+  - Fórmula general: $V = (-1)^S \times (1.M) \times 2^{E - \text{Sesgo}}$ (para números normalizados con bit implícito 1).
 
 | Formato IEEE 754 | Total Bits | Signo ($S$) | Exponente ($E$) | Mantisa ($M$) | Sesgo del Exponente ($K$) | Rango del Exponente Almacenado |
 |:---|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -82,7 +81,7 @@ updated: "2026-08-18"
 | **Thunderbolt** | Serie multiplexada (PCIe + DisplayPort) | • TB 3 / TB 4: **40 Gbps**<br>• TB 5: **hasta 80/120 Gbps** | Conector físico USB-C. Permite conexión en cadena (daisy chain) de hasta 6 dispositivos y entrega de energía (USB-PD hasta 100-240W). |
 
 > [!trampa] ⚠️ **Trampas Oficiales del Tribunal en el Tema 01 (Bloque 2)**
-> 1. **Rango de Complemento a 2 con 8 bits**: Es **$[-128 	ext{ a } +127]$** (el valor $-128$ se representa como $10000000_2$, sin equivalente positivo).
+> 1. **Rango de Complemento a 2 con 8 bits**: Es **$[-128 \text{ a } +127]$** (el valor $-128$ se representa como $10000000_2$, sin equivalente positivo).
 > 2. **Campos del IEEE 754 Simple Precisión (32 bits)**: **1 bit signo**, **8 bits exponente** (sesgo $127$), **23 bits mantisa**. Los distractores suelen cambiar el orden o los tamaños (ej. 1-11-20).
 > 3. **Límite de Dispositivos USB**: Un controlador USB puede direccionar un máximo de **127 dispositivos** (dirección de 7 bits, la dirección 0 es reservada para configuración).
 > 4. **Distancia de Hamming**: Para *corregir* 1 error se necesita distancia $d=3$; para *detectar* 1 error basta $d=2$.

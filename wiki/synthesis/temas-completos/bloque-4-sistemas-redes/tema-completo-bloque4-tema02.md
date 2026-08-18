@@ -6,8 +6,7 @@ tags:
   - temario-extendido
   - bloque-4
   - tema-02
-  - oposiciones-tai
-estado: "🔴 Por Estudiar"
+  - oposiciones-tai\nestado: "🔴 Por Estudiar"
 dificultad: "⭐⭐⭐"
 prioridad: "Máxima"
 sources:
@@ -215,8 +214,7 @@ Como recordatorio, pero sin repetir todo lo ya estudiado, vamos a repasar alguno
 Una de las definiciones de bases de datos más aceptadas es la propuesta por Flory en 1982: "Una base 
 de datos es un conjunto exhaustivo, no redundante de datos estructurados, organizados 
 independientemente de su utilización y su implementación en máquina, accesibles a tiempo real y 
-compatibles por usuarios concurrentes que tienen necesidad de información diferente y no predecible 
-en el tiempo." 
+compatibles por usuarios concurrentes que tienen necesidad de información diferente y no predecible \nen el tiempo." 
 Otras definiciones 
 • Conjunto, colección o depósito de datos almacenados en un soporte informático. Los datos 
 deben estar interrelacionados y estructurados de acuerdo con un modelo capaz de recoger el 
@@ -254,8 +252,7 @@ Principales objetivos de un sistema de base de datos
 • Proporcionar a los usuarios y desarrolladores una visión abstracta de los datos. 
 El sistema esconde ciertos detalles de cómo se almacenan y mantienen los datos. 
 • Independencia entre datos y aplicaciones. 
-Cuando se tenga que cambiar algo en la base de datos (como la forma de almacenar datos), 
-esto no repercutirá en los programas de aplicación que trabajan sobre esa base de datos. 
+Cuando se tenga que cambiar algo en la base de datos (como la forma de almacenar datos), \nesto no repercutirá en los programas de aplicación que trabajan sobre esa base de datos. 
 Evitar redundancias de datos (duplicidad de información). 
 • Evitar la inconsistencia de datos. 
 Se produce una inconsistencia de datos cuando existen varias copias de un mismo dato y no 
@@ -308,16 +305,13 @@ conocido por crear 12 reglas para el modelo relacional de bases de datos.
 Administración de Bases de Datos. Virtualización. Cloud 
 8 
 Codd se percató de que existían bases de datos en el mercado las cuales decían ser relacionales, pero lo 
-único que hacían era guardar la información en tablas, sin estar estas tablas literalmente normalizadas; 
-entonces publicó 13 reglas que un verdadero sistema relacional debería cumplir, aunque en la práctica 
-algunas de ellas son difíciles de realizar. Un sistema podrá considerarse "más relacional" cuanto más siga 
-estas reglas. 
+único que hacían era guardar la información en tablas, sin estar estas tablas literalmente normalizadas; \nentonces publicó 13 reglas que un verdadero sistema relacional debería cumplir, aunque en la práctica 
+algunas de ellas son difíciles de realizar. Un sistema podrá considerarse "más relacional" cuanto más siga \nestas reglas. 
 • Regla 0: Regla de fundación. Cualquier sistema que se proclame como relacional, debe ser 
 capaz de gestionar sus bases de datos enteramente mediante sus capacidades relacionales. 
 • Regla 1: Regla de la información. Toda la información en la base de datos es representada 
 unidireccionalmente por valores en posiciones de las columnas dentro de filas de tablas. Toda la 
-información en una base de datos relacional se representa explícitamente en el nivel Lógico 
-exactamente de una manera: con valores en tablas. 
+información en una base de datos relacional se representa explícitamente en el nivel Lógico \nexactamente de una manera: con valores en tablas. 
 • Regla 2: Regla del acceso garantizado. Todos los datos deben ser accesibles sin ambigüedad. 
 Esta regla es esencialmente una nueva exposición del requisito fundamental para las llaves 
 primarias. Dice que cada valor escalar individual en la base de datos debe ser lógicamente 
@@ -392,8 +386,7 @@ Por último, con el esquema lógico creado en la Fase 2, se realiza la última f
 Fase 3: Diseño Físico, la estudiaras en la siguiente unidad. 
  
 Etapa del diseño físico. Entradas y salidas 
-Esta parte es transparente al usuario. El diseño físico se adapta al SGBD específico que se va a utilizar. Se 
-expresa haciendo uso de un lenguaje de definición de datos soportado por el SGBD. 
+Esta parte es transparente al usuario. El diseño físico se adapta al SGBD específico que se va a utilizar. Se \nexpresa haciendo uso de un lenguaje de definición de datos soportado por el SGBD. 
  
  
  
@@ -503,13 +496,11 @@ Esta parte la desarrollan también los analistas.
 • Nivel interno. 
 En este nivel se debe seleccionar el SGBD utilizado. 
 El modelado se realizará sobre él. 
-Se utiliza un lenguaje de definición de datos (DDL) para crear las estructuras que definimos en 
-el nivel anterior. 
+Se utiliza un lenguaje de definición de datos (DDL) para crear las estructuras que definimos en \nel nivel anterior. 
 Algunos SGBD incluyen un interfaz para crear dichas estructuras de forma más sencilla. 
 Este nivel lo gestiona el DBA (administrador de la base de datos). 
 • Nivel físico. 
-En este nivel se decide dónde se van a almacenar los datos físicamente. Para ello hay que 
-estudiar diversos puntos: 
+En este nivel se decide dónde se van a almacenar los datos físicamente. Para ello hay que \nestudiar diversos puntos: 
 • En qué ordenador u ordenadores se guardará. 
 • Como están interconectados los equipos. 
 • Si es o no un sistema distribuido. 
@@ -567,8 +558,7 @@ Debido al crecimiento exponencial que está teniendo la
 información que debe ser almacenada y tratada, están cogiendo 
 fuerza conceptos como la inteligencia artificial, el big data, las 
 bases de datos NoSQL y otras tecnologías. 
-Debido a ello, los DBAs deberían ir reciclándose y aprendiendo 
-estas tecnologías. 
+Debido a ello, los DBAs deberían ir reciclándose y aprendiendo \nestas tecnologías. 
  
 2.2.1. Funciones y Responsabilidades del DBA 
 Nombramos las funciones y responsabilidades del Administrados de Bases de Datos, y las desarrollamos 
@@ -748,8 +738,7 @@ Administración de Bases de Datos. Virtualización. Cloud
 3.1. Políticas de backup 
 El diseño de una política de backup efectiva se erigirá teniendo en cuenta los recursos disponibles, los 
 costos asociados y la criticidad de los datos y sistemas para el negocio. Por ejemplo, para datos 
-altamente críticos y empresas solventes pueden requerirse soluciones de backup continuo y replicación 
-en tiempo real entre CPDs para minimizar la pérdida de datos y el tiempo de inactividad en caso de un 
+altamente críticos y empresas solventes pueden requerirse soluciones de backup continuo y replicación \nen tiempo real entre CPDs para minimizar la pérdida de datos y el tiempo de inactividad en caso de un 
 desastre. En el mundo actual, donde la disponibilidad de datos y la continuidad del negocio son 
 cruciales, la redundancia de datos es una estrategia fundamental para las empresas. 
 El RTO (Recovery Time Objective - Objetivo de Tiempo de Recuperación) es el tiempo máximo 
@@ -759,8 +748,7 @@ organización está dispuesta a aceptar la pérdida de datos en caso de un incid
 Podemos decir que la redundancia permite reducir significativamente el RPO, ya que en caso de un 
 desastre o fallo, se dispone de una copia reciente de los datos, minimizando la cantidad de información 
 perdida. La implementación de redundancia también contribuye a optimizar el RTO, agilizando la 
-recuperación de sistemas y datos críticos. Para elegir con rigor el tipo de copias de seguridad, la 
-empresa u orgamismo deberé tener en cuenta algunas pautas: 
+recuperación de sistemas y datos críticos. Para elegir con rigor el tipo de copias de seguridad, la \nempresa u orgamismo deberé tener en cuenta algunas pautas: 
 Medidas técnicas 
 Se deben tomar decisiones en cuanto a conceptos técnicos como son: 
 • Volumen de información a copiar. 
@@ -785,8 +773,7 @@ sistema de información.
 Administración de Bases de Datos. Virtualización. Cloud 
 23 
 • Soporte utilizado. 
-Es la primera decisión a tomar cuando se planea una estrategia de copia de seguridad, sin 
-embargo, esta decisión estará condicionada por un conjunto de variables, tales como la 
+Es la primera decisión a tomar cuando se planea una estrategia de copia de seguridad, sin \nembargo, esta decisión estará condicionada por un conjunto de variables, tales como la 
 frecuencia de realización, el volumen de datos a copiar, la disponibilidad de la copia, el tiempo 
 de recuperación del sistema, etc. 
 Inicialmente, los soportes más habituales eran: cintas magnéticas, discos compactos (como las 
@@ -827,8 +814,7 @@ un volumen de datos único, una tasa de cambio de información distinta y requis
 recuperación específicos. Factores que, junto con las regulaciones y la complejidad de los 
 sistemas informáticos, hacen que cada plan de respaldo sea personalizado. 
 Hay que guardar las copias de seguridad en un lugar seguro, cumpliendo con la normativa de la 
-Ley de Protección de Datos, (puede ser una caja de seguridad ignifuga, un lugar externo a la 
-empresa etc.). 
+Ley de Protección de Datos, (puede ser una caja de seguridad ignifuga, un lugar externo a la \nempresa etc.). 
 • Planificación de la copia. 
 Las copias de seguridad se pueden realizar en diferentes momentos día, pero se elegirá el 
 momento más adecuado dependiendo del funcionamiento de la empresa (normalmente 
@@ -883,8 +869,7 @@ información pero que fallan completamente al recuperar estos datos al sistema i
 Esto depende de la efectividad y calidad del sistema que realiza el respaldo y la recuperación. 
 Debemos comprobar que el tipo de sistema de backup que estemos utilizando, realice una 
 restauración de información correcta. 
-Existen varios softwares que automatizan la ejecución de backups, pero el funcionamiento básico de 
-estos paquetes depende del denominado archive bit. 
+Existen varios softwares que automatizan la ejecución de backups, pero el funcionamiento básico de \nestos paquetes depende del denominado archive bit. 
 Este archive bit indica un punto de respaldo, y puede existir por archivo o al nivel de "Bloque de 
 Información" (típicamente 4096 bytes), esto dependerá tanto del software que sea utilizado para los 
 respaldos, así como del archivo que sea respaldado.
@@ -947,8 +932,7 @@ Requiere del último
 Respaldo Completo y de 
 todos los Respaldos de 
 Incremento que le 
-siguieron para recuperar 
-el Sistema 
+siguieron para recuperar \nel Sistema 
 Diferencial 
 ("Differential") 
 Archivos con archive 
@@ -1281,8 +1265,7 @@ Para aprovechar al máximo la funcionalidad que otorga la virtualización, se de
 adecuadas para el monitoreo, la administración y, por supuesto, la protección de datos. 
 Dado que las máquinas virtuales difieren notablemente de los servidores físicos, las herramientas 
 designadas para estos últimos no sirven para las primeras. Esto aplica en especial para el backup. 
-La mejor forma de garantizar que las máquinas virtuales dispongan de una copia de seguridad fiable, 
-es realizarlas en la nube. 
+La mejor forma de garantizar que las máquinas virtuales dispongan de una copia de seguridad fiable, \nes realizarlas en la nube. 
 Los sistemas de copias de seguridad en la nube, garantiza que las máquinas virtuales y servidores: 
 • Disponen del espacio suficiente para realizar la copia de seguridad. El problema de disponer de 
 soportes con espacio suficiente para las copias será eliminado. 
@@ -1298,8 +1281,7 @@ seguridad en todo el proceso de copia de seguridad.
 • La copia de seguridad está replicada (múltiples copias en distintos dispositivos), para 
 proporcionar más tranquilidad. 
 Si una empresa hace uso de las ventajas de la virtualización, es recomendable que haga copias 
-periódicas de sus datos y máquinas virtuales. Realizando la copia externa a través de una compañía 
-especializada se obtiene la seguridad de disponer de un respaldo en caso de que se produzca alguna 
+periódicas de sus datos y máquinas virtuales. Realizando la copia externa a través de una compañía \nespecializada se obtiene la seguridad de disponer de un respaldo en caso de que se produzca alguna 
 incidencia.
 
 ---
@@ -1324,8 +1306,7 @@ compleja, tediosa y absorbente para el administrador, está la virtualización d
 Los mecanismos de protección del procesador son un conjunto de características y diseños 
 incorporados en la arquitectura de las CPU modernas (como Intel x86/x64 o ARM) que tienen como 
 objetivo principal aislar y proteger diferentes niveles de software y procesos entre sí, y especialmente, 
-proteger al sistema operativo del software de aplicación y de sí mismo. Sin estos mecanismos, un error 
-en una aplicación, o incluso un código malicioso, podría corromper la memoria del sistema operativo, 
+proteger al sistema operativo del software de aplicación y de sí mismo. Sin estos mecanismos, un error \nen una aplicación, o incluso un código malicioso, podría corromper la memoria del sistema operativo, 
 acceder a dispositivos críticos o colapsar todo el sistema. 
 Estos mecanismos son fundamentales para la estabilidad, seguridad y funcionalidad multiusuario y 
 multitarea de los sistemas operativos actuales. En el contexto de la virtualización, también son vitales, 
@@ -1355,8 +1336,7 @@ operativos modernos solo utilizan el 0 y el 3.
 En esencia, las operaciones privilegiadas son la llave de acceso a los componentes más sensibles del 
 hardware, y el mecanismo de virtualización se apoya en controlar rigurosamente su uso para mantener 
 tanto la eficiencia como el aislamiento en entornos virtualizado. 
-Las operaciones privilegiadas son aquellas instrucciones especiales del procesador que solo pueden 
-ejecutarse cuando el sistema operativo se encuentra en un modo de alto nivel de privilegio (como el 
+Las operaciones privilegiadas son aquellas instrucciones especiales del procesador que solo pueden \nejecutarse cuando el sistema operativo se encuentra en un modo de alto nivel de privilegio (como el 
 modo kernel o supervisor). 
 Estas operaciones permiten acceder y modificar recursos críticos del hardware, y su uso está restringido 
 precisamente para asegurar la estabilidad y la seguridad del sistema. 
@@ -1410,33 +1390,28 @@ dentro de otro ordenador. Así, se pueden tener varios sistemas operativos funci
 tiempo en la misma máquina física. 
 Las VMs se ejecutan sobre un sistema operativo principal (host) y cada una tiene su propio sistema 
 operativo invitado (guest), además de procesador, memoria y disco duro virtuales. Todo esto se 
-gestiona mediante un software especial llamado hipervisor, que reparte los recursos del ordenador real 
-entre las distintas máquinas virtuales. 
+gestiona mediante un software especial llamado hipervisor, que reparte los recursos del ordenador real \nentre las distintas máquinas virtuales. 
 5.2.3. Hypervisor 
 El hipervisor es un software especializado o VMM (Virtual Machine Monitor) encargado de gestionar y 
 abstraer el hardware físico, distribuyendo sus recursos entre las diferentes máquinas virtuales. Su 
 función principal es exponer recursos de hardware -físicos o simulados- a un entorno virtualizado, 
 donde los sistemas invitados los perciben como propios, aunque estén gestionados y compartidos por el 
 mismo. 
-Esto permite aislar, compartir y optimizar el uso de la infraestructura física subyacente, creando 
-entornos seguros, replicables y escalables. 
+Esto permite aislar, compartir y optimizar el uso de la infraestructura física subyacente, creando \nentornos seguros, replicables y escalables. 
 Cuando un sistema operativo invitado dentro de una máquina virtual intenta ejecutar una operación 
 privilegiada, el procesador no permite que esto suceda directamente si está en modo usuario. En su 
 lugar, se produce una interrupción especial (trap) que transfiere el control al hipervisor. Este sistema de 
-captura y gestión es crucial: el hipervisor es el encargado de decidir cómo y cuándo ejecutar realmente 
-esas instrucciones privilegiadas, asegurando el aislamiento entre máquinas virtuales y evitando que un 
+captura y gestión es crucial: el hipervisor es el encargado de decidir cómo y cuándo ejecutar realmente \nesas instrucciones privilegiadas, asegurando el aislamiento entre máquinas virtuales y evitando que un 
 sistema invitado pueda afectar a los demás. 
 Tipos de hipervisores: 
 • Tipo 1 (bare metal): se ejecuta directamente sobre el hardware, sin un sistema operativo por 
 debajo. El hipervisor actúa como un guarda de tráfico. No interpreta nada, pero controla y dirige 
 cómo cada sistema operativo invitado accede directamente al hardware. Está entre ellos y el 
-procesador, la RAM, los dispositivos… y gestiona el paso, pero no "traduce". Es el más empleado 
-en entornos empresariales y centros de datos. 
+procesador, la RAM, los dispositivos… y gestiona el paso, pero no "traduce". Es el más empleado \nen entornos empresariales y centros de datos. 
 Ejemplo: VMware ESXi, Microsoft Hyper-V en modo bare-metal, Xen. Ofrecen mayor 
 rendimiento y seguridad. 
 • Tipo 2 (hosted): se ejecuta como una aplicación sobre un sistema operativo anfitrión (Oracle 
-VirtualBox, VMware Workstation, Parallels Desktop). Más fáciles de instalar y usar para 
-entornos de desarrollo.
+VirtualBox, VMware Workstation, Parallels Desktop). Más fáciles de instalar y usar para \nentornos de desarrollo.
 
 ---
 
@@ -1449,8 +1424,7 @@ virtualización. Se trata de un conjunto de recursos virtualizados -vCPU, vRAM, 
 almacenamiento y E/S- proporcionados por el hipervisor mediante técnicas de emulación, 
 paravirtualización o virtualización completa, según el tipo de implementación. 
 Esta capa de abstracción permite que múltiples entornos invitados (guests) compartan 
-simultáneamente un conjunto limitado de recursos físicos (host), garantizando aislamiento, control y 
-eficiencia. Las instrucciones sensibles emitidas por las VMs son interceptadas por el Virtual Machine 
+simultáneamente un conjunto limitado de recursos físicos (host), garantizando aislamiento, control y \neficiencia. Las instrucciones sensibles emitidas por las VMs son interceptadas por el Virtual Machine 
 Monitor (VMM), que las redirige, traduce o emula según la arquitectura del sistema (virtualización 
 completa, virtualización asistida por hardware, etc.), mientras que las instrucciones no privilegiadas 
 pueden ejecutarse directamente sobre el hardware, si la CPU lo permite (como en Intel VT-x o AMD-V). 
@@ -1485,20 +1459,16 @@ permite crear máquinas virtuales (VMs) que simulan un conjunto completo de comp
 (CPU, memoria, disco, red, etc.) sobre una máquina real (el host). Cada máquina virtual actúa como si 
 fuera un ordenador independiente, capaz de ejecutar su propio sistema operativo y aplicaciones. 
 Virtualización de servidores 
-Uno de los usos más representativos de esta tecnología es la virtualización de servidores, que permite 
-ejecutar múltiples instancias virtuales de servidores físicos sobre una única máquina anfitriona. Esta 
+Uno de los usos más representativos de esta tecnología es la virtualización de servidores, que permite \nejecutar múltiples instancias virtuales de servidores físicos sobre una única máquina anfitriona. Esta 
 capacidad facilita la consolidación de servidores, reduciendo el número de equipos físicos necesarios y 
-mejorando significativamente la eficiencia del centro de datos. Gracias a esta arquitectura, se optimiza 
-el uso de los recursos, se simplifica la administración de sistemas y se mejora la escalabilidad en 
-entornos corporativos y de computación en la nube. 
+mejorando significativamente la eficiencia del centro de datos. Gracias a esta arquitectura, se optimiza \nel uso de los recursos, se simplifica la administración de sistemas y se mejora la escalabilidad en \nentornos corporativos y de computación en la nube. 
 Características de la virtualización de hardware: 
 • Aislamiento: cada VM funciona como si estuviera sola, sin interferir con otras ni con el host. 
 • Independencia: permite ejecutar distintos sistemas operativos (Linux, Windows…) 
 simultáneamente en el mismo host. 
 • Aprovechamiento de recursos: optimiza la utilización del hardware físico al consolidar múltiples 
 cargas de trabajo en un solo equipo. 
-Escalabilidad y flexibilidad: facilita la creación, modificación y eliminación rápida de entornos, ideal para 
-entornos de nube, desarrollo, pruebas o recuperación ante desastres. 
+Escalabilidad y flexibilidad: facilita la creación, modificación y eliminación rápida de entornos, ideal para \nentornos de nube, desarrollo, pruebas o recuperación ante desastres. 
 5.3.1. Virtualización Completa 
 El sistema operativo invitado ejecuta directamente la mayoría de las instrucciones, excepto las 
 privilegiadas, que requieren intervención del hipervisor. 
@@ -1516,16 +1486,14 @@ Administración de Bases de Datos. Virtualización. Cloud
 sistemas invitados quedan relegados a niveles de menor privilegio (anillo 1 o 3), lo que hace que 
 muchas de sus instrucciones privilegiadas fallen si se ejecutan directamente. 
 • En hipervisores hosted (tipo 2), el anillo 0 real sigue ocupado por el kernel del sistema anfitrión 
-(Linux, Windows, etc.). El hipervisor funciona en anillo 3, como una aplicación más, y delega en 
-el kernel del host el acceso al hardware. 
+(Linux, Windows, etc.). El hipervisor funciona en anillo 3, como una aplicación más, y delega en \nel kernel del host el acceso al hardware. 
 En ambos modelos, bare-metal y hosted, se repite el mismo desafío: cuando el guest intenta ejecutar 
 instrucciones privilegiadas, la CPU las rechaza porque no tiene permiso. Para que el sistema invitado 
 pueda seguir funcionando como si controlara la máquina, el hipervisor debe interceptar esas 
 instrucciones y gestionarlas de otra forma. 
 Binary translation 
 Una de las técnicas clásicas para lograr esto es la traducción binaria dinámica: el hipervisor analiza 
-bloques de código antes de ejecutarlos, detecta las instrucciones sensibles, las reemplaza por rutinas 
-equivalentes que emulan su comportamiento, guarda el bloque modificado en caché y coloca 
+bloques de código antes de ejecutarlos, detecta las instrucciones sensibles, las reemplaza por rutinas \nequivalentes que emulan su comportamiento, guarda el bloque modificado en caché y coloca 
 trampolines que redirigían la ejecución hacia y desde ese bloque traducido. 
 Los trampolines son fragmentos de código puente que redirigen la ejecución del procesador. En la 
 virtualización, desvían el flujo desde el código original del sistema invitado hacia las rutinas seguras del 
@@ -1578,8 +1546,7 @@ garantiza que el anillo 0 del sistema anfitrión quede protegido de cualquier op
 maliciosa o errónea del invitado, ya que todo se filtra previamente a través de las extensiones del 
 procesador y la configuración inicial realizada por el hipervisor. 
 Síntesis 
-La asistencia por hardware permite que los sistemas operativos invitados mantengan la ilusión de 
-ejecutarse en anillos 0-3, aunque físicamente se ejecuten en modo non-root. El hipervisor configura 
+La asistencia por hardware permite que los sistemas operativos invitados mantengan la ilusión de \nejecutarse en anillos 0-3, aunque físicamente se ejecuten en modo non-root. El hipervisor configura 
 previamente la estructura de control del procesador (VMCS/VMCB) para indicar qué operaciones 
 privilegiadas no son toleradas y deben generar un VM-Exit. Cuando el guest intenta ejecutar este tipo 
 de instrucción, el hardware intercepta la operación sin ejecutarla, genera un VM-Exit, y cede el control 
@@ -1599,8 +1566,7 @@ Los hypercalls son análogos a las syscalls (llamadas al sistema), pero mientras
 servicios del kernel del sistema operativo, las hypercalls se dirigen al hipervisor, que actúa como capa 
 intermedia para gestionar recursos de hardware como CPU, memoria o dispositivos de E/S. 
 Paravirtualización clásica 
-En los primeros sistemas de paravirtualización, el sistema operativo invitado debía ser modificado 
-expresamente para funcionar en un entorno virtualizado. Este enfoque se utilizó, por ejemplo, en el 
+En los primeros sistemas de paravirtualización, el sistema operativo invitado debía ser modificado \nexpresamente para funcionar en un entorno virtualizado. Este enfoque se utilizó, por ejemplo, en el 
 hipervisor Xen. 
 En Xen, operaciones críticas del kernel, como la gestión de memoria o el control de interrupciones, se 
 sustituían por hypercalls específicas. Por ejemplo, la instrucción MOV CR3 -usada para cambiar la tabla 
@@ -1628,8 +1594,7 @@ Como ejemplo, la tecnología virtio implementa la paravirtualización mediante u
 guest-host. Los drivers frontend en el sistema invitado envían solicitudes estructuradas (por ejemplo, 
 virtio-blk para disco o virtio-net para red) en lugar de emular hardware, mientras el backend (en QEMU, 
 Hyper-V o el propio hardware) las traduce a operaciones reales. 
-Virtio utiliza virtqueues (memoria compartida) y notificaciones directas para evitar la sobrecarga de la 
-emulación tradicional. Esto logra un rendimiento cercano al nativo en operaciones de E/S.
+Virtio utiliza virtqueues (memoria compartida) y notificaciones directas para evitar la sobrecarga de la \nemulación tradicional. Esto logra un rendimiento cercano al nativo en operaciones de E/S.
 
 ---
 
@@ -1638,13 +1603,11 @@ Administración de Bases de Datos. Virtualización. Cloud
 La tecnología es modular y se adapta a múltiples entornos, desde clouds (como AWS Nitro) hasta 
 implementaciones locales como WSL2 en Windows. 
 Virtio reduce la latencia de disco hasta un 80% frente a la emulación IDE y mejora notablemente el 
-throughput (cantidad de datos transferidos con éxito en un tiempo determinado) de red. Su 
-estandarización abierta -virtio o virtual I/O- lo ha convertido en el modelo dominante para la 
+throughput (cantidad de datos transferidos con éxito en un tiempo determinado) de red. Su \nestandarización abierta -virtio o virtual I/O- lo ha convertido en el modelo dominante para la 
 virtualización eficiente, combinando flexibilidad con altísimo rendimiento en operaciones de red y 
 almacenamiento. 
 Gracias a su estandarización abierta (virtio, o virtual I/O), esta forma de paravirtualización combina 
-compatibilidad, flexibilidad y alto rendimiento, siendo hoy el modelo predominante en la virtualización 
-eficiente de dispositivos. 
+compatibilidad, flexibilidad y alto rendimiento, siendo hoy el modelo predominante en la virtualización \neficiente de dispositivos. 
 5.4. Virtualización a Nivel de Sistema Operativo 
 (Contenedores) 
 La virtualización a nivel de sistema operativo, también conocida como virtualización basada en 
@@ -1659,8 +1622,7 @@ completo con su propio kernel; en su lugar, utiliza el kernel del sistema operat
 Ligeros y eficientes: Al compartir el kernel del host, los contenedores son más ligeros y rápidos que las 
 VMs. Consumen menos recursos y permiten más instancias por servidor físico. 
 Cuando se instala un contenedor, no se incluye un sistema operativo completo como ocurre en una 
-máquina virtual. En realidad, lo que se instala es únicamente el userland de una distribución Linux 
-específica, montado sobre su propio sistema de archivos aislado. Este userland incluye toda la jerarquía 
+máquina virtual. En realidad, lo que se instala es únicamente el userland de una distribución Linux \nespecífica, montado sobre su propio sistema de archivos aislado. Este userland incluye toda la jerarquía 
 de directorios (/bin, /etc, /lib), comandos básicos, bibliotecas compartidas, shells y el gestor de 
 paquetes correspondiente (apt, yum o apk), pero -crucialmente- excluye el kernel, que se comparte 
 con el sistema anfitrión. 
@@ -1669,8 +1631,7 @@ paquetes propios de una distribución, pero no el kernel. El contenedor comparte
 operativo anfitrión (host). 
 Por tanto, elegir una imagen base como ubuntu, alpine o debian implica elegir el userland de esa 
 distribución. Esto define qué herramientas están disponibles dentro del contenedor, qué compatibilidad 
-binaria ofrece, cómo se instalan paquetes y cuál es el comportamiento por defecto del entorno. Por 
-ejemplo, Alpine Linux usa musl y apk, lo que da lugar a imágenes muy ligeras, mientras que Ubuntu o 
+binaria ofrece, cómo se instalan paquetes y cuál es el comportamiento por defecto del entorno. Por \nejemplo, Alpine Linux usa musl y apk, lo que da lugar a imágenes muy ligeras, mientras que Ubuntu o 
 Debian utilizan glibc y apt, ofreciendo mayor compatibilidad.
 
 ---
@@ -1700,8 +1661,7 @@ Virtio (en VMs) para lograr soluciones completas como contenedores o paravirtual
 La combinación de namespaces para el aislamiento de la visibilidad y cgroups para el control del 
 consumo de recursos es lo que permite que múltiples contenedores compartan eficientemente un 
 mismo kernel de sistema operativo host de forma segura. 
-Portabilidad: Encapsulan la aplicación y dependencias, permitiendo su ejecución consistente en cualquier 
-entorno compatible con el motor de contenedores (ej., Docker), desde desarrollo hasta la nube. 
+Portabilidad: Encapsulan la aplicación y dependencias, permitiendo su ejecución consistente en cualquier \nentorno compatible con el motor de contenedores (ej., Docker), desde desarrollo hasta la nube. 
 No necesitan hipervisor: A diferencia de la virtualización de plataforma, los contenedores interactúan 
 directamente con el kernel del host sin una capa de hardware adicional. 
 Mismo sistema operativo base: Una limitación es que todos los contenedores en un host deben usar el 
@@ -1710,8 +1670,7 @@ mismo kernel del SO subyacente (ej., Linux en host Linux, no Windows).
 5.5.1. Virtualización de Aplicaciones 
 La virtualización de aplicaciones es una técnica que permite ejecutar una aplicación en un entorno 
 aislado del sistema, sin necesidad de instalarla de forma tradicional ni modificar el sistema operativo 
-base. En este modelo, la aplicación se empaqueta junto con sus bibliotecas y dependencias, creando un 
-entorno de ejecución controlado y portátil. Sin embargo, a diferencia de los contenedores, la 
+base. En este modelo, la aplicación se empaqueta junto con sus bibliotecas y dependencias, creando un \nentorno de ejecución controlado y portátil. Sin embargo, a diferencia de los contenedores, la 
 virtualización de aplicaciones no proporciona un userland completo; solo encapsula lo necesario para 
 que una única aplicación funcione correctamente.
 
@@ -1722,8 +1681,7 @@ Administración de Bases de Datos. Virtualización. Cloud
 Esta ausencia de userland propio es precisamente la diferencia fundamental con respecto a la 
 virtualización a nivel de sistema operativo, donde sí se simula un entorno de usuario completo. 
 Los contenedores (como los gestionados con Docker o LXC) incluyen su propio sistema de archivos, 
-conjunto de herramientas, bibliotecas del sistema, e incluso gestores de paquetes, aunque todos ellos se 
-ejecuten sobre el mismo kernel del host. Esto permite que los contenedores reproduzcan entornos más 
+conjunto de herramientas, bibliotecas del sistema, e incluso gestores de paquetes, aunque todos ellos se \nejecuten sobre el mismo kernel del host. Esto permite que los contenedores reproduzcan entornos más 
 complejos y consistentes, adecuados para múltiples procesos o servicios interconectados. 
 Por tanto, mientras que la virtualización de aplicaciones aísla solo la ejecución de una aplicación 
 concreta y su contexto más inmediato, la virtualización a nivel de sistema operativo aísla un entorno 
@@ -1748,8 +1706,7 @@ Estos escritorios virtuales se encapsulan en máquinas virtuales que se ejecutan
 mediante un hipervisor, lo que garantiza la separación y gestión eficiente de los recursos asignados a 
 cada usuario. 
 A cada usuario se le proporciona un escritorio virtual dedicado que se ejecuta en una máquina virtual 
-propia. Esto implica mayor aislamiento, flexibilidad y capacidad de personalización, ya que cada 
-escritorio tiene su propio sistema operativo y sus propias aplicaciones. 
+propia. Esto implica mayor aislamiento, flexibilidad y capacidad de personalización, ya que cada \nescritorio tiene su propio sistema operativo y sus propias aplicaciones. 
 Entre sus ventajas se encuentran el aumento de la seguridad, la reducción del soporte técnico, menores 
 costes de hardware, continuidad de negocio y un menor impacto ambiental. Además, los usuarios 
 pueden personalizar sus escritorios según sus necesidades, aunque trabajen desde una infraestructura 
@@ -1805,8 +1762,7 @@ almacenamiento como si se tratara de una única unidad.
 Esta técnica unifica recursos físicos y lógicos, simplificando su administración desde una consola central. 
 Una de sus principales ventajas es que permite prescindir de la dependencia directa del hardware, 
 aportando mayor flexibilidad, escalabilidad y disponibilidad del sistema. 
-Tener un sistema RAID, del tipo que sea, permite proteger la información frente a caídas del sistema y 
-evitar interrupciones de servicio, ya que no es necesario apagar el servidor. Sin embargo, con la 
+Tener un sistema RAID, del tipo que sea, permite proteger la información frente a caídas del sistema y \nevitar interrupciones de servicio, ya que no es necesario apagar el servidor. Sin embargo, con la 
 virtualización se da un paso más, permitiendo desligarse aún más del hardware físico y gestionar el 
 almacenamiento de forma centralizada y dinámica. 
 Esta tecnología se utiliza sobre todo en entornos SAN (Storage Area Network), donde se agrupan 
@@ -1824,8 +1780,7 @@ Por su parte, el acceso por ficheros utiliza protocolos como NFS (Network File S
 (Server Message Block/Common Internet File System), que permiten a los programas acceder y 
 manipular archivos ubicados en ordenadores remotos, siendo comunes en entornos NAS (Network 
 Attached Storage) o colaboración empresarial. 
-La virtualización del almacenamiento no es una tecnología reciente. Empresas como DataCore trabajan 
-en este campo desde finales de los años noventa, y su adopción ha aumentado en los últimos años 
+La virtualización del almacenamiento no es una tecnología reciente. Empresas como DataCore trabajan \nen este campo desde finales de los años noventa, y su adopción ha aumentado en los últimos años 
 gracias a fabricantes como IBM (SAN Volume Controller), HPE (3PAR), Dell EMC (PowerStore, Unity) 
 o VMware (vSAN), que han desarrollado soluciones específicas o integrado capacidades avanzadas en 
 sus plataformas. 
@@ -1844,8 +1799,7 @@ operaciones de entrada/salida, traduce las direcciones lógicas en direcciones f
 operación correspondiente sobre el dispositivo físico, permitiendo funcionalidades avanzadas como 
 snapshots, réplicas o tiering automático. 
 Evolución reciente: 
-• La irrupción del almacenamiento definido por software (SDS) ha extendido la virtualización a 
-entornos de nube y soluciones hiperconvergentes (Nutanix, vSAN). 
+• La irrupción del almacenamiento definido por software (SDS) ha extendido la virtualización a \nentornos de nube y soluciones hiperconvergentes (Nutanix, vSAN). 
 • Nuevos protocolos como NVMe over Fabrics (NVMe-oF) optimizan el rendimiento en 
 infraestructuras virtualizadas. 
 • La integración con la nube híbrida permite gestionar almacenamiento local y remoto de forma 
@@ -1878,8 +1832,7 @@ ya que el sistema simplemente marca los bloques como disponibles para reescritur
 limpieza inmediata. Para recuperar este espacio se requieren herramientas específicas como TRIM para 
 SSDs o UNMAP en entornos SAN. 
 5.5.3.2.2. Particionamiento/Zoning 
-El particionamiento, conocido como zoning en entornos SAN, permite dividir recursos físicos como el 
-espacio de disco o el ancho de banda de red en unidades lógicas más manejables y aisladas. En 
+El particionamiento, conocido como zoning en entornos SAN, permite dividir recursos físicos como el \nespacio de disco o el ancho de banda de red en unidades lógicas más manejables y aisladas. En 
 implementaciones Fibre Channel, esto puede lograrse mediante hard zoning (aislamiento físico a nivel 
 de puerto) o soft zoning (restricción lógica basada en identificadores WWN), cada uno con sus propias 
 ventajas en términos de seguridad y flexibilidad. 
@@ -1941,8 +1894,7 @@ Uno de los principales beneficios de la virtualización de red es que facilita l
 virtuales entre distintos servidores físicos, manteniendo la configuración de red estable y sin 
 interrupciones. También permite aplicar políticas de seguridad, calidad de servicio o aislamiento entre 
 redes desde una única consola de gestión, lo que mejora el control y reduce la complejidad operativa. 
-Esta tecnología es especialmente importante en centros de datos modernos, donde conviven múltiples 
-entornos virtualizados que comparten la misma infraestructura física. Entre las soluciones más 
+Esta tecnología es especialmente importante en centros de datos modernos, donde conviven múltiples \nentornos virtualizados que comparten la misma infraestructura física. Entre las soluciones más 
 conocidas destacan las redes definidas por software (SDN) y plataformas como VMware NSX, que 
 permiten gestionar topologías de red completas de forma virtual.
 
@@ -1953,8 +1905,7 @@ Administración de Bases de Datos. Virtualización. Cloud
 5.5.6. Virtualización de E/S (Input/Output) 
 La virtualización de entrada/salida se refiere a la capacidad de compartir y gestionar dispositivos físicos 
 de E/S, como tarjetas de red, controladoras de almacenamiento, GPU o adaptadores de fibra, entre 
-múltiples entornos virtuales. Esta técnica permite que las máquinas virtuales o contenedores accedan a 
-estos dispositivos como si fueran propios, aunque en realidad estén compartiendo un único recurso 
+múltiples entornos virtuales. Esta técnica permite que las máquinas virtuales o contenedores accedan a \nestos dispositivos como si fueran propios, aunque en realidad estén compartiendo un único recurso 
 físico. De esta forma, se consigue un uso más eficiente del hardware y se evita que cada máquina virtual 
 requiera una tarjeta o dispositivo físico exclusivo. 
 En los sistemas tradicionales, el acceso a dispositivos de entrada/salida puede suponer un cuello de 
@@ -1994,16 +1945,13 @@ Administración de Bases de Datos. Virtualización. Cloud
 53 
 5.6. Impacto y Tendencias: Virtualización y Green IT 
 La virtualización es una de las principales tecnologías asociadas a Green IT (informática verde), ya que 
-permite optimizar el uso de recursos informáticos, reducir el consumo energético y minimizar residuos 
-electrónicos, contribuyendo así a la sostenibilidad ambiental. 
+permite optimizar el uso de recursos informáticos, reducir el consumo energético y minimizar residuos \nelectrónicos, contribuyendo así a la sostenibilidad ambiental. 
 La virtualización consiste en ejecutar múltiples máquinas virtuales o servicios en un solo servidor físico, 
 lo que genera varios beneficios: 
-• Reducción de hardware físico: Al consolidar servidores y aplicaciones, se necesita menos 
-equipamiento, lo que disminuye la fabricación, transporte y disposición final de dispositivos 
+• Reducción de hardware físico: Al consolidar servidores y aplicaciones, se necesita menos \nequipamiento, lo que disminuye la fabricación, transporte y disposición final de dispositivos 
 • Menor consumo energético: Menos servidores implican menos energía para funcionamiento y 
 refrigeración; esto es clave en centros de datos donde la eficiencia energética es crítica 
-• Reducción de residuos electrónicos: Con menos dispositivos físicos, hay menos desecho de 
-equipos y se prolonga el ciclo de vida de los existentes 
+• Reducción de residuos electrónicos: Con menos dispositivos físicos, hay menos desecho de \nequipos y se prolonga el ciclo de vida de los existentes 
 • Optimización operativa: Permite apagar o reducir recursos activamente en función de la 
 demanda gracias a la flexibilidad de los entornos virtuales 
 • Facilita la transición a la nube: La virtualización es el pilar de muchos servicios cloud, que 
@@ -2040,13 +1988,11 @@ Se alcanzan índices de utilización del 60 al 80% para servidores x86.
 • Consolidación de recursos. 
 La virtualización permite consolidar múltiples recursos de TI; consolidación de almacenamiento, 
 consolidar la arquitectura de sistemas, infraestructura de aplicación, datos y base de datos, 
-interfaces, redes, escritorios, e incluso procesos de negocios, resultando en ahorros de costes y 
-en mayor eficiencia. 
+interfaces, redes, escritorios, e incluso procesos de negocios, resultando en ahorros de costes y \nen mayor eficiencia. 
 • Uso/coste menor de energía. 
 • Ahorros de espacio. 
 La ampliación del servidor aparece como un serio problema en la mayoría de los centros de 
-datos empresariales. La virtualización mediante la consolidación de muchos sistemas virtuales 
-en menos sistemas físicos, es una opción que soluciona este problema. 
+datos empresariales. La virtualización mediante la consolidación de muchos sistemas virtuales \nen menos sistemas físicos, es una opción que soluciona este problema. 
 • Recuperación de desastre/continuidad del negocio. 
 La virtualización puede incrementar la disponibilidad de los índices del nivel de servicio en 
 general y proporcionar nuevas opciones de soluciones para la recuperación de desastre. Hasta el 
@@ -2087,8 +2033,7 @@ Es el Retorno de la inversión, utilizado para estimar los beneficios que tendr�
 teniendo en cuenta el costo. También se puede considerar el tiempo que se tardará en 
 compensar los gastos hasta obtener beneficios. 
 • Reduce los tiempos de parada. 
-• Migración en caliente de máquinas virtuales (sin pérdida de servicio) de un servidor físico a otro, 
-eliminando la necesidad de paradas planificadas por mantenimiento de los servidores físicos. 
+• Migración en caliente de máquinas virtuales (sin pérdida de servicio) de un servidor físico a otro, \neliminando la necesidad de paradas planificadas por mantenimiento de los servidores físicos. 
 • Balanceo dinámico de máquinas virtuales entre los servidores físicos que componen el pool de 
 recursos, garantizando que cada máquina virtual ejecute en el servidor físico más adecuado y 
 proporcionando un consumo de recursos homogéneo y óptimo en toda la infraestructura. 
@@ -2182,9 +2127,7 @@ descargar una máquina virtual a personalizada.
 A la hora de seleccionar una solución de virtualización, es importante no solo distinguir entre software 
 de pago, gratuito o libre, sino también comprender las capacidades, limitaciones y casos de uso de cada 
 plataforma. 
-A continuación, se describen en detalle dos de las herramientas más representativas del sector, tanto en 
-entornos empresariales como personales, comenzando por las soluciones de tipo bare-metal más 
-extendidas en el ámbito profesional: Hyper-V, integrada en los sistemas de Microsoft, y vSphere, la 
+A continuación, se describen en detalle dos de las herramientas más representativas del sector, tanto en \nentornos empresariales como personales, comenzando por las soluciones de tipo bare-metal más \nextendidas en el ámbito profesional: Hyper-V, integrada en los sistemas de Microsoft, y vSphere, la 
 plataforma de virtualización líder de VMware. 
 5.9.1. Hyper-V 
 Hyper-V es una plataforma de virtualización de Microsoft integrada en Windows Server y versiones 
@@ -2199,10 +2142,8 @@ Generación 1 y Generación 2 (UEFI/Secure Boot), con almacenamiento en discos v
 checkpoints (snapshots) y conmutadores virtuales (vSwitch) para redes aisladas. 
 Hyper-V incluye capacidades avanzadas como Live Migration, que permite mover máquinas virtuales 
 (VMs) entre hosts físicos sin interrupción del servicio, garantizando alta disponibilidad y mantenimiento 
-sin downtime. Otra función clave es la Virtualización Anidada (Nested Virtualization), la cual habilita la 
-ejecución de Hyper-V dentro de una máquina virtual, ideal para entornos de desarrollo, pruebas y 
-formación. Esta última requiere habilitación manual mediante PowerShell y CPUs compatibles con 
-extensiones de virtualización.
+sin downtime. Otra función clave es la Virtualización Anidada (Nested Virtualization), la cual habilita la \nejecución de Hyper-V dentro de una máquina virtual, ideal para entornos de desarrollo, pruebas y 
+formación. Esta última requiere habilitación manual mediante PowerShell y CPUs compatibles con \nextensiones de virtualización.
 
 ---
 
@@ -2283,8 +2224,7 @@ La infraestructura hiperconvergente (HCI, Hyper-Converged Infrastructure) es un 
 arquitectura informática que integra en un único sistema físico los recursos de cómputo, 
 almacenamiento, red y virtualización, gestionándolos de forma unificada mediante software. 
 A diferencia de las infraestructuras tradicionales, donde cada componente (servidores, cabinas de 
-almacenamiento y switches) se administra de manera independiente, la HCI consolida todos esos 
-elementos en una plataforma centralizada y automatizada. 
+almacenamiento y switches) se administra de manera independiente, la HCI consolida todos esos \nelementos en una plataforma centralizada y automatizada. 
 Su objetivo principal es simplificar la gestión de los centros de datos y optimizar el uso de los recursos, 
 reduciendo la complejidad, el coste y los tiempos de despliegue. Gracias a la virtualización, los recursos 
 físicos se abstraen en capas lógicas que pueden asignarse dinámicamente según las necesidades del 
@@ -2308,12 +2248,9 @@ Administración de Bases de Datos. Virtualización. Cloud
 62 
 • Alta disponibilidad: los datos y máquinas virtuales se distribuyen automáticamente entre nodos, 
 garantizando tolerancia a fallos. 
-• Automatización: muchas tareas de mantenimiento, balanceo de carga y recuperación se 
-ejecutan de forma automática. 
-• Optimización del rendimiento: el software de gestión distribuye los recursos según la demanda 
-en tiempo real. 
-• Reducción de costes: disminuye el gasto en hardware especializado y en administración, al 
-eliminar cabinas o redes de almacenamiento externas. 
+• Automatización: muchas tareas de mantenimiento, balanceo de carga y recuperación se \nejecutan de forma automática. 
+• Optimización del rendimiento: el software de gestión distribuye los recursos según la demanda \nen tiempo real. 
+• Reducción de costes: disminuye el gasto en hardware especializado y en administración, al \neliminar cabinas o redes de almacenamiento externas. 
 En esencia, la infraestructura hiperconvergente representa la evolución natural de la virtualización 
 tradicional hacia un modelo más inteligente, escalable y eficiente, que prepara el camino para la 
 computación en la nube y los entornos híbridos. 
@@ -2371,8 +2308,7 @@ mantener entornos estables con un esfuerzo operativo significativamente menor.
 La infraestructura hiperconvergente (HCI) representa un cambio profundo respecto a los modelos 
 tradicionales de centros de datos. 
 En las infraestructuras convencionales, los recursos de cómputo, almacenamiento y red se gestionan 
-como sistemas separados, lo que implica una mayor complejidad operativa, costes de mantenimiento 
-elevados y procesos de escalado poco ágiles. 
+como sistemas separados, lo que implica una mayor complejidad operativa, costes de mantenimiento \nelevados y procesos de escalado poco ágiles. 
 Por el contrario, la HCI unifica todos esos recursos en una única capa de software, simplificando su 
 administración y ofreciendo una flexibilidad mucho mayor.
 
@@ -2387,8 +2323,7 @@ Escalabilidad ágil: basta con añadir nuevos nodos para ampliar la capacidad de
 almacenamiento sin necesidad de rediseñar la arquitectura. 
 Alta disponibilidad: la replicación automática de datos y la distribución de cargas entre nodos aseguran 
 continuidad del servicio incluso ante fallos de hardware. 
-Automatización: las tareas de mantenimiento, copia de seguridad y optimización del rendimiento se 
-ejecutan de forma automática mediante software inteligente. 
+Automatización: las tareas de mantenimiento, copia de seguridad y optimización del rendimiento se \nejecutan de forma automática mediante software inteligente. 
 Eficiencia en costes: al eliminar la necesidad de cabinas SAN o redes de almacenamiento dedicadas, se 
 reduce la inversión inicial y los gastos de operación. 
 Rápida implementación: la infraestructura puede desplegarse en cuestión de horas, frente a las 
@@ -2431,12 +2366,10 @@ Nutanix
 Las soluciones comerciales de infraestructura hiperconvergente (HCI) integran en un solo sistema los 
 recursos de cómputo, almacenamiento y red, gestionados mediante software especializado. Estas 
 plataformas combinan hardware estandarizado con herramientas de virtualización avanzadas, 
-ofreciendo entornos escalables, resilientes y de administración centralizada. Entre las más utilizadas 
-en entornos profesionales se encuentran VMware vSAN, Dell EMC VxRail y Nutanix, que representan los 
+ofreciendo entornos escalables, resilientes y de administración centralizada. Entre las más utilizadas \nen entornos profesionales se encuentran VMware vSAN, Dell EMC VxRail y Nutanix, que representan los 
 principales enfoques del mercado actual. 
 VMware y vSAN 
-VMware es una de las empresas pioneras en virtualización y una referencia en entornos corporativos. Su 
-ecosistema HCI se basa en vSphere (para la virtualización de servidores) y vSAN (para la virtualización 
+VMware es una de las empresas pioneras en virtualización y una referencia en entornos corporativos. Su \necosistema HCI se basa en vSphere (para la virtualización de servidores) y vSAN (para la virtualización 
 del almacenamiento). 
 vSAN (Virtual SAN) permite agrupar los discos duros y unidades SSD de varios servidores físicos (hosts 
 ESXi) en un único volumen lógico compartido. De esta forma, el almacenamiento se gestiona como un 
@@ -2485,8 +2418,7 @@ Administración de Bases de Datos. Virtualización. Cloud
 • Recuperación ante desastres y alta disponibilidad mediante replicación de datos y snapshots. 
 • Integración nativa con servicios de nube pública, permitiendo implementar estrategias híbridas 
 y multi-cloud. 
-Nutanix destaca por su flexibilidad, automatización avanzada y gran rendimiento, siendo muy popular 
-en entornos corporativos y administraciones públicas que buscan consolidar su infraestructura. 
+Nutanix destaca por su flexibilidad, automatización avanzada y gran rendimiento, siendo muy popular \nen entornos corporativos y administraciones públicas que buscan consolidar su infraestructura. 
 Estas soluciones comerciales representan el estándar de referencia en entornos empresariales y centros 
 de datos modernos. 
 Su adopción depende del tamaño de la organización, las necesidades de integración con 
@@ -2517,8 +2449,7 @@ Administración de Bases de Datos. Virtualización. Cloud
 • Cloud storage: 
 Se denomina así al almacenamiento de datos en ordenadores-servidores conectados a Internet, 
 los datos quedan alojados en espacios de almacenamiento virtuales en vez de físicos. No 
-guardamos nuestros datos en sitios físicos como el disco duro del PC, pendrives, discos 
-externos, etc. 
+guardamos nuestros datos en sitios físicos como el disco duro del PC, pendrives, discos \nexternos, etc. 
 Muchas empresas ofrecen este servicio de almacenamiento en la nube, que es contratado por 
 particulares y empresas para hacer uso de este tipo de almacenamiento. 
 En este servicio podemos diferenciar dos partes que deben participar para que el servicio 
@@ -2566,8 +2497,7 @@ El uso de una plataforma Cloud integrada, ofrece a las empresas la mejor posibil
 reducción del tiempo de salida de nuevos productos al mercado, sincronización entre unidades de 
 negocio y mejor optimización del servicio. 
 Una plataforma en la nube ofrece servicios: de computación, almacenamiento, redes, Big Data, 
-aprendizaje automático e Internet de las cosas (IoT), y herramientas: de gestión, seguridad y desarrollo 
-en la nube. 
+aprendizaje automático e Internet de las cosas (IoT), y herramientas: de gestión, seguridad y desarrollo \nen la nube. 
  
  
  
@@ -2590,8 +2520,7 @@ de Inteligencia Artificial.
 Administración de Bases de Datos. Virtualización. Cloud 
 70 
 La tecnología de computación en la nube, ha ido evolucionando rápidamente, ofreciéndose a partir de 
-2006-2008 de manera comercial, considerándose el almacenamiento de datos como un servicio donde 
-el usuario pagaba por lo que consumía (como un servicio de suministro de agua etc.) 
+2006-2008 de manera comercial, considerándose el almacenamiento de datos como un servicio donde \nel usuario pagaba por lo que consumía (como un servicio de suministro de agua etc.) 
 Actualmente es un uso común tanto por particulares como por grandes empresas, muchas de las cuales 
 utilizan servicios de terceros o servidores propios. 
  
@@ -2623,31 +2552,27 @@ servicio público.
 para que algún día cualquier persona desde cualquier lugar del mundo tenga acceso a este tipo 
 de programas. 
 • 1969: Se dearrolla Arpanet por el Departamento de Defensa de los Estados Unidos, siendo la 
-primera red de computadoras utilizada como medio de comunicación. (La aparición de Internet 
-es clave para que pueda desarrollarse el cloud computing ofreciendo servicios en la red).
+primera red de computadoras utilizada como medio de comunicación. (La aparición de Internet \nes clave para que pueda desarrollarse el cloud computing ofreciendo servicios en la red).
 
 ---
 
 Administración de Bases de Datos. Virtualización. Cloud 
 71 
-• 1983: con el cambio de ARPANET del protocolo NCP por TCP/IP, se produce la gran 
-estandarización de este protocolo, y se introduce así el concepto de una World Wide Web de 
+• 1983: con el cambio de ARPANET del protocolo NCP por TCP/IP, se produce la gran \nestandarización de este protocolo, y se introduce así el concepto de una World Wide Web de 
 redes interconectadas. 
 • 1989: La Organización Europea para la Investigación Nuclear (CERN) genera el nodo de 
 Internet más grande de Europa. Tim Berners-Lee ve la oportunidad de unir Internet y el 
 hipertexto (HTTP y HTML), y en diciembre de 1990 estableció la primera comunicación entre 
 un cliente y un servidor usando el protocolo HTTPS en diciembre de 1990. 
 • 1997: Ramnath Chellappa define Cloud Computing como un nuevo "paradigma en la 
-computación donde los límites de la computación serán determinados por razones económicas 
-en lugar de los límites técnicos". 
+computación donde los límites de la computación serán determinados por razones económicas \nen lugar de los límites técnicos". 
 • 1999: Aparecen los servicios Software as a Service (SaaS), donde el proveedor del servicio pone 
 a disposición de los clientes su propio software. 
 • 2000: Amazon moderniza sus centros de datos y el desarrollo de productos para ofrecer 
 servicios cloud a clientes externos. 
 • 2002: Blackberry presenta el primer teléfono móvil con voz, datos, mensajes, navegador y 
 aplicaciones. Es el primer Smartphone, con el que los usuarios pueden acceder a Internet. 
-• 2002: Nace la empresa masvoz cuyo objetivo es comercializar servicios de red inteligente para 
-empresas, y en pocos años se constituye como operador, desarrollando una plataforma de 
+• 2002: Nace la empresa masvoz cuyo objetivo es comercializar servicios de red inteligente para \nempresas, y en pocos años se constituye como operador, desarrollando una plataforma de 
 productos comercializados en un modelo SaaS (Software as a Service) y pago por uso (telefonía 
 inteligente en la nube). 
 • 2006: George Gilder publica un artículo en la revista Wired, titulado "Las fábricas de 
@@ -2658,8 +2583,7 @@ investigación a gran escala sobre Cloud computing. Esto hace que en 2008 aparez
 primera plataforma de código abierto AWS API que permite la creación de sistemas en la nube 
 compatibles con los servicios web de Amazon. Se facilita así el despliegue de nubes privadas. 
 • 2010: la nube comienza a crecer por la necesidad de las empresas de atender a los 
-consumidores de dispositivos móviles y tablets. Aumenta el uso de aplicaciones Cloud alojadas 
-en data centers. 
+consumidores de dispositivos móviles y tablets. Aumenta el uso de aplicaciones Cloud alojadas \nen data centers. 
 • 2011: la consultora Gartner indica su previsión de que en 2012 el 80% de las grandes compañías 
 de Fortune 1000 utilizará algún tipo de servicio Cloud y anuncia la previsión de las grandes cifras 
 de ingresos que se alcanzaran en el sector. 
@@ -2675,8 +2599,7 @@ de todas ellas.
 Administración de Bases de Datos. Virtualización. Cloud 
 72 
 6.2. Caracteriticas 
-Las características de la computación en la nube son diferentes en función del autor, vamos a indicar la 
-esenciales descritas en la publicación "The NIST Definition of Cloud Computing" (National Institute of 
+Las características de la computación en la nube son diferentes en función del autor, vamos a indicar la \nesenciales descritas en la publicación "The NIST Definition of Cloud Computing" (National Institute of 
 Standards and Technology): 
 • Servicio bajo demanda. 
 • Acceso amplio y ubicuo a toda la red: 
@@ -2689,8 +2612,7 @@ múltiples consumidores, con diferentes recursos físicos virtualizados que se a
 dinámicamente de acuerdo con la demanda. 
 Existe una sensación de independencia de ubicación en el sentido de que el cliente 
 generalmente no tiene control o conocimiento sobre la ubicación exacta de los recursos 
-proporcionados, pero puede especificar la ubicación en un nivel más alto de abstracción (por 
-ejemplo, país, estado o centro de datos). 
+proporcionados, pero puede especificar la ubicación en un nivel más alto de abstracción (por \nejemplo, país, estado o centro de datos). 
 Ejemplos de recursos: almacenamiento, procesamiento, memoria y ancho de banda de red. 
 • Rápida elasticidad: 
 los recursos se pueden aprovisionar y liberar rápidamente según la demanda. Para el 
@@ -2793,8 +2715,7 @@ Para poder asegurar la integridad de los datos hay que conocer las vulnerabilida
 aplicaciones. 
 • Responsabilidades: 
 Los usuarios deben estar informados de hasta dónde llega la competencia del proveedor de 
-servicios de la nube, y cuál es la protección de los datos responsabilidad única del usuario o 
-empresa. Cada usuario que conecta con los servicios Cloud tiene una responsabilidad individual. 
+servicios de la nube, y cuál es la protección de los datos responsabilidad única del usuario o \nempresa. Cada usuario que conecta con los servicios Cloud tiene una responsabilidad individual. 
  
  
  
@@ -2834,8 +2755,7 @@ procedentes de las redes sociales es complicado, y el uso de Cloud, permite que 
 realizar de forma más fácil y accesible para todo tipo de empresas, mediante plataformas como 
 por ejemplo Big Data Analytics y Apache Hadoop. 
 • Viabilidad: 
-Se facilita la escalabilidad de las empresas al nivel que deseen de potencia de procesamiento y 
-espacio de almacenamiento con el uso de la nube, mientras que con las soluciones tradicionales 
+Se facilita la escalabilidad de las empresas al nivel que deseen de potencia de procesamiento y \nespacio de almacenamiento con el uso de la nube, mientras que con las soluciones tradicionales 
 se necesitaba la adición de más servidores físicos al clúster para conseguirlo. 
 6.4. Tipos de servicios en la nube 
 Aunque todos los servicios asociados al Cloud, tienen características comunes, no todos son iguales, 
@@ -2868,8 +2788,7 @@ Se brinda a los desarrolladores de software acceso a un hosting escalable listo 
 productos. Al usuario se le ofrece la plataforma de desarrollo y las herramientas de programación por lo 
 que puede desarrollar aplicaciones propias y controlar la aplicación, pero no controla la infraestructura. 
 Permiten gran flexibilidad, pero puede ser restringida por las capacidades disponibles a través del 
-proveedor. La empresa puede desplegar sus propias aplicaciones en la infraestructura de nube elegida, y 
-es el proveedor quien administra la infraestructura subyacente en el cloud. 
+proveedor. La empresa puede desplegar sus propias aplicaciones en la infraestructura de nube elegida, y \nes el proveedor quien administra la infraestructura subyacente en el cloud. 
 PaaS permite evitar el coste y la complejidad de comprar y administrar licencias de software, la 
 infraestructura de aplicaciones subyacente y el middleware o las herramientas de desarrollo y otros 
 recursos; garantizando la escalabilidad, ya que el cliente adquiere los recursos que necesita de su 
@@ -2905,8 +2824,7 @@ No incluye alojamiento, sino que proporciona software de código abierto que per
 proveedor PaaS ejecutar aplicaciones en un entorno de código abierto. 
 • PaaS para el Desarrollo Rápido. 
 En 2014, Forrester Research (empresa independiente de investigación de mercados que brinda 
-asesoramiento sobre el impacto existente y potencial de la tecnología) definió Plataformas 
-empresariales públicas para desarrolladores rápidos como una tendencia emergente, 
+asesoramiento sobre el impacto existente y potencial de la tecnología) definió Plataformas \nempresariales públicas para desarrolladores rápidos como una tendencia emergente, 
 nombrando a varios proveedores incluyendo a Mendix, Salesforce.com, OutSystems y Acquia 
 Acquia. 
 6.4.3. IaaS, Infraestructure as a Service 
@@ -2947,9 +2865,7 @@ La integración puede realizarse a través de un Enterprise Service Bus, si se n
 aplicar ciertas reglas de negocio al integrar servicios y fuentes de información, iPaaS puede ofrecer un 
 orquestador de procesos. 
 iPaaS permite: 
-• Realizar una integración B2B (Business to Business) intercambiando información mediante 
-estándares como EDI (significa intercambio electrónico de datos, es un formato electrónico 
-estándar para intercambio de documentos, que sustituye documentos en papel, como pedidos 
+• Realizar una integración B2B (Business to Business) intercambiando información mediante \nestándares como EDI (significa intercambio electrónico de datos, es un formato electrónico \nestándar para intercambio de documentos, que sustituye documentos en papel, como pedidos 
 de compra o facturas.)
 
 ---
@@ -2968,8 +2884,7 @@ Internet, sin tener que realizar instalación o adquisición de servidores, no t
 mantenimiento ni actualizaciones, ya que es tarea del proveedor que ofrece el servicio. 
 Los costes para la empresa que contrata el servicio de iPaas es menor en comparación con sistemas 
 anteriores de integración en local, EAI (Enterprise Application Integration, soluciones de software y 
-principios de arquitectura de sistemas para integrar un conjunto de aplicaciones, dentro de cualquier 
-empresa). 
+principios de arquitectura de sistemas para integrar un conjunto de aplicaciones, dentro de cualquier \nempresa). 
 6.4.4.2. SECaaS, Security as a Service 
 SECaaS, traducido como Seguridad como Servicio, es aquel servicio que se ofrece consistente en 
 proporcionar las aplicaciones de seguridad tradicionales como un servicio basado en Internet, mediante 
@@ -2994,8 +2909,7 @@ seguridad.
 Administración de Bases de Datos. Virtualización. Cloud 
 81 
 6.4.4.3. FaaS, Function as a Service 
-FAAS, traducido como Funciones como servicio, se conoce como serverless architecture, 
-entendiéndose por serverless que los servidores se utilizan como un elemento más de la infraestructura 
+FAAS, traducido como Funciones como servicio, se conoce como serverless architecture, \nentendiéndose por serverless que los servidores se utilizan como un elemento más de la infraestructura 
 (no significa "sin servidor"). 
 Permite la ejecución de aplicaciones a través de contenedores momentáneos, de manera que el 
 desarrollador no debe preocuparse de la gestión de la infraestructura sobre la que se ejecuta su función, 
@@ -3090,8 +3004,7 @@ verifica.
 Se trata de una herramienta que gestiona el acceso a aplicaciones o APIs, basandose en políticas 
 más estrictas, con el objetivo de garantizar la seguridad más que cualquier Single sign-on. 
 6.5. Modelos de implementación 
-Un modelo de implementación es un tipo específico de entorno en la nube, basándose principalmente 
-en: la propiedad, el tamaño y el acceso. 
+Un modelo de implementación es un tipo específico de entorno en la nube, basándose principalmente \nen: la propiedad, el tamaño y el acceso. 
 Vamos a ver los modelos de implementación más comunes: 
 6.5.1. Nube Pública 
 Se trata de una infraestructura en base a una red abierta, está disponible para el público en general, se 
@@ -3123,12 +3036,10 @@ Son entornos de nube que se destinan exclusivamente a un usuario o grupo final.
 Permite centralizar el acceso a los recursos de tecnológicos de la organización, utilizando una 
 tecnología de Cloud Computing propia, por tanto, el cliente y el proveedor de servicios Cloud coinciden, 
 aunque la gestión de este entorno puede llevarla a cabo la misma compañía o subcontratarlo a terceros. 
-Aunque los recursos residan físicamente en las instalaciones de la organización, se consideran basados 
-en el Cloud, porque son accesibles de forma remota por los usuarios. 
+Aunque los recursos residan físicamente en las instalaciones de la organización, se consideran basados \nen el Cloud, porque son accesibles de forma remota por los usuarios. 
 Se diferencian de dos formas según su gestión: 
 • Nubes privadas gestionadas: 
-Los clientes crean y usan una nube privada que implementa, configura y gestiona un proveedor 
-externo. 
+Los clientes crean y usan una nube privada que implementa, configura y gestiona un proveedor \nexterno. 
 Facilita que las empresas sin personal de TI, o con poca formación, o tengan que realizar la 
 gestión.
 
@@ -3211,8 +3122,7 @@ Administración de Bases de Datos. Virtualización. Cloud
 • https://es.wikipedia.org/wiki/Anillo_(seguridad_informática). 
 • https://www.monografias.com/trabajos14/respaldoinfo/respaldoinfo.shtml. 
 • https://www.veeam.com/blog/es-lat/why-virtual-machine-backups-different.html. 
-• https://www.datos101.com/blog/copia-de-seguridad-maquinas-virtuales-y-como-
-externalizarlas/. 
+• https://www.datos101.com/blog/copia-de-seguridad-maquinas-virtuales-y-como-\nexternalizarlas/. 
 • https://www.serban.es/virtualizacion-del-puesto-de-trabajo-diferencias-vdi-sdi/. 
 • https://www.nakivo.com/blog/es/aprovisionamiento-thick-y-thin-cual-es-la-diferencia/ 
 • https://www.powerdata.es/cloud 

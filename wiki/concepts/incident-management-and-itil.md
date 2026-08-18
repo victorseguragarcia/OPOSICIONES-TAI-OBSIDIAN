@@ -34,7 +34,7 @@ El marco **ITIL (Information Technology Infrastructure Library)** proporciona un
 - **Fases del Ciclo de Vida de Incidencias**:
   1. *Registro*: Creación formal del ticket.
   2. *Categorización*: Clasificación temática del fallo.
-  3. *Priorización*: Determinada por la fórmula $	ext{Prioridad} = 	ext{Impacto} 	imes 	ext{Urgencia}$.
+  3. *Priorización*: Determinada por la fórmula $\text{Prioridad} = \text{Impacto} \times \text{Urgencia}$.
   4. *Diagnóstico Inicial*: Soporte de Nivel 1.
   5. *Escalado*: Funcional (a Nivel 2/3 especialistas) o Jerárquico.
   6. *Resolución y Recuperación*: Aplicación de solución o workaround.

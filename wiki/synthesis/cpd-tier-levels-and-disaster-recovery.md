@@ -38,10 +38,10 @@ TIER IV: Tolerante a Fallos (99.995%) ───────► 2 vías activas s
 
 | Nivel RAID | Mínimo Discos | Discos Tolerados | Capacidad Útil |
 |------------|---------------|------------------|----------------|
-| **RAID 0** | 2 | **0** | $100\%$ ($N 	imes S$) |
-| **RAID 1** | 2 | **1** | $50\%$ ($1 	imes S$) |
-| **RAID 5** | 3 | **1** | $(N - 1) 	imes S$ |
-| **RAID 6** | 4 | **2 simultáneos** | $(N - 2) 	imes S$ |
+| **RAID 0** | 2 | **0** | $100\%$ ($N \times S$) |
+| **RAID 1** | 2 | **1** | $50\%$ ($1 \times S$) |
+| **RAID 5** | 3 | **1** | $(N - 1) \times S$ |
+| **RAID 6** | 4 | **2 simultáneos** | $(N - 2) \times S$ |
 | **RAID 10**| 4 | **1 por sub-espejo** | $50\%$ |
 
 ---

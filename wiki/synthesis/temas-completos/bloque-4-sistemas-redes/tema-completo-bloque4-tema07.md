@@ -6,8 +6,7 @@ tags:
   - temario-extendido
   - bloque-4
   - tema-07
-  - oposiciones-tai
-estado: "🔴 Por Estudiar"
+  - oposiciones-tai\nestado: "🔴 Por Estudiar"
 dificultad: "⭐⭐⭐"
 prioridad: "Máxima"
 sources:
@@ -275,19 +274,15 @@ la red, como el protocolo Spanning Tree Protocol (STP), cuyo objetivo es evitar 
 conmutadas mediante la activación o bloqueo lógico de enlaces redundantes. 
 1.1.1.2.1. Protocolo STP 
 STP es un protocolo de red de capa 2 del modelo OSI (capa de enlace de datos). 
-Su función es la de gestionar la presencia de bucles en topologías de red debido a la existencia de 
-enlaces redundantes (necesarios en muchos casos para garantizar la disponibilidad de las conexiones). 
-El protocolo permite a los dispositivos de interconexión activar o desactivar automáticamente los 
-enlaces de conexión, de forma que se garantice la eliminación de bucles. 
+Su función es la de gestionar la presencia de bucles en topologías de red debido a la existencia de \nenlaces redundantes (necesarios en muchos casos para garantizar la disponibilidad de las conexiones). 
+El protocolo permite a los dispositivos de interconexión activar o desactivar automáticamente los \nenlaces de conexión, de forma que se garantice la eliminación de bucles. 
 STP es transparente a las estaciones de usuario. 
-Está basado en un algoritmo diseñado por Radia Perlman, creadora de software e ingeniera de redes, 
-experta en seguridad, más conocida como la Madre de Internet. (Trabajo para Intel, para la cual 
+Está basado en un algoritmo diseñado por Radia Perlman, creadora de software e ingeniera de redes, \nexperta en seguridad, más conocida como la Madre de Internet. (Trabajo para Intel, para la cual 
 consiguió más de 47 patentes, y después paso a trabajar para Dell EMC en Seattle). 
 El algoritmo de Spanning Tree fue desarrollado originalmente por Radia Perlman en Digital Equipment 
 Corporation (DEC) y posteriormente estandarizado por el IEEE como IEEE 802.1D. 
 Se recomienda utilizar la versión estandarizada por el IEEE 802.1D. 
-El algoritmo transforma una red física con forma de malla, en la que existen bucles, por una red lógica 
-en forma de árbol (libre de bucles). 
+El algoritmo transforma una red física con forma de malla, en la que existen bucles, por una red lógica \nen forma de árbol (libre de bucles). 
 Los puentes se comunican mediante mensajes de configuración llamados Bridge Protocol Data Units 
 (BPDU). 
 El protocolo establece identificadores por puente y elige el que tiene la prioridad más alta (el número 
@@ -299,8 +294,7 @@ Path Cost).
 designado, el de menor coste (en el caso que haya el mismo coste en dos puentes, se elige el 
 que tenga el menor identificador "dirección MAC"), para transmitir las tramas hacia la raíz. 
 » En cada segmento de red se elige un puerto designado, que será el puerto del switch 
-que ofrezca el menor coste hacia el puente raíz. Por otro lado, en cada switch que no 
-es raíz se selecciona un único puerto raíz, que es el puerto que proporciona el camino 
+que ofrezca el menor coste hacia el puente raíz. Por otro lado, en cada switch que no \nes raíz se selecciona un único puerto raíz, que es el puerto que proporciona el camino 
 de menor coste hacia el puente raíz. 
 Todos los demás puertos y caminos son bloqueados, esto es en un estado ya estacionario de 
 funcionamiento.
@@ -322,15 +316,13 @@ Todos los switches reciben las BPDU y determinan que el switch que cuyo valor de
 bajo será el puente raíz. En caso de empate, el switch root sería el que menor MAC tuviera. El 
 administrador de red puede establecer la prioridad de switch en un valor más pequeño que el del valor 
 por defecto (32768), el nuevo valor debe ser múltiplo de 4096, lo que hace que el BID sea más 
-pequeño. Esto sólo se debe implementar cuando se tiene un conocimiento profundo del flujo de tráfico 
-en la red. 
+pequeño. Esto sólo se debe implementar cuando se tiene un conocimiento profundo del flujo de tráfico \nen la red. 
 Una vez elegido el puente raíz hay que calcular el puerto raíz para los otros puentes que no son raíz. El 
 procedimiento a seguir para cada puente es el mismo: 
 • Entre todos los puertos del puente, se escoge como puerto raíz el puerto que tenga el menor 
 costo hasta el puente raíz. 
 En el caso de que haya dos o más puertos con el mismo coste hacia el puente raíz, se utilizan 
-criterios de desempate adicionales, como el Bridge ID y el identificador del puerto, para 
-establecer el puerto raíz. 
+criterios de desempate adicionales, como el Bridge ID y el identificador del puerto, para \nestablecer el puerto raíz. 
 Cuando se ha elegido el puente raíz y los puertos raíz de los otros puentes pasamos a calcular los 
 puertos designados de cada segmento de red. 
 • En cada enlace que exista entre dos switches habrá un puerto designado, el cual será el puerto 
@@ -341,8 +333,7 @@ Cada tipo de enlace tendrá un coste administrativo distinto, siendo de un coste
 con una mayor velocidad. Si hubiese empate entre los costes administrativos que tienen los dos 
 switches para llegar al root bridge, entonces se elegirá como Designated Port, el puerto del 
 switch que tenga un menor Bridge ID (BID). 
-Aquellos puertos que no sean elegidos como raíz ni como designados deben bloquearse. Estos puertos 
-evitan los lazos.
+Aquellos puertos que no sean elegidos como raíz ni como designados deben bloquearse. Estos puertos \nevitan los lazos.
 
 ---
 
@@ -351,14 +342,12 @@ Modelo ISO/OSI, TCP/IP. Protocolos
 En el mantenimiento del Spanning Tree, El cambio en la topología puede ocurrir de dos formas: 
 • El puerto se desactiva o se bloquea. 
 • El puerto pasa de estar bloqueado o desactivado a activado. 
-Cuando se detecta un cambio el switch notifica al puente raíz dicho cambio y entonces el puente raíz 
-envía por broadcast dicho cambio. Para ello, se introduce una BPDU especial denominada notificación 
+Cuando se detecta un cambio el switch notifica al puente raíz dicho cambio y entonces el puente raíz \nenvía por broadcast dicho cambio. Para ello, se introduce una BPDU especial denominada notificación 
 de cambio en la topología (TCN). Cuando un switch necesita avisar acerca de un cambio en la 
 topología, comienza a enviar TCN en su puerto raíz. 
 La TCN es una BPDU muy simple que no contiene información y se envía durante el intervalo de tiempo 
 de saludo. 
-El switch que recibe la TCN se denomina puente designado y realiza el acuse de recibo mediante el 
-envío inmediato de una BPDU normal con el bit de acuse de recibo de cambio en la topología (TCA). 
+El switch que recibe la TCN se denomina puente designado y realiza el acuse de recibo mediante el \nenvío inmediato de una BPDU normal con el bit de acuse de recibo de cambio en la topología (TCA). 
 Este intercambio continúa hasta que el puente raíz responde. 
 La unidad de información que transmite es la trama. 
 Ejemplo del STP:
@@ -392,12 +381,10 @@ Ethernet. Es un estándar que agrega una etiqueta identificativa que incluye un 
 Rapid Spanning Tree Protocol 
 El Rapid Spanning Tree Protocol (RSTP), definido en el estándar IEEE 802.1w, es una evolución del 
 Spanning Tree Protocol (STP) tradicional (IEEE 802.1D). Su principal mejora radica en la reducción 
-drástica de los tiempos de convergencia de la red, permitiendo una adaptación más rápida ante fallos en 
-enlaces o incorporación de nuevos dispositivos. 
+drástica de los tiempos de convergencia de la red, permitiendo una adaptación más rápida ante fallos en \nenlaces o incorporación de nuevos dispositivos. 
 Multiple Spanning Tree Protocol 
 Es definido por la norma 802.1s. Es un protocolo que extiende las capacidades de su predecesor, el 
-RSTP, soportando múltiples instancias de spanning tree en la misma red. Es una solución robusta y 
-eficiente para redes con VLANs múltiples ya que proporciona una redundancia optimizada para 
+RSTP, soportando múltiples instancias de spanning tree en la misma red. Es una solución robusta y \neficiente para redes con VLANs múltiples ya que proporciona una redundancia optimizada para 
 gestionar más eficientemente el tráfico. Y pese a ser más compleja que los modelos anteriores, son las 
 idóneas en términos de escalabilidad para las redes de alta disponibilidad.
 
@@ -420,9 +407,7 @@ datos y disminuye el número de paquetes transmitidos, reduciendo así la carga 
 aplicaciones de alto rendimiento como almacenamiento en red (NAS/SAN) y Big Data. Es importante 
 que todos los dispositivos de la red estén configurados para soportar el mismo tamaño de trama. 
 Control de Flujo (Flow Control) 
-Mecanismo que permite a los dispositivos Ethernet gestionar la congestión en la red regulando el tráfico 
-entre ellos. Su implementación evita la pérdida de paquetes en situaciones de alta carga y mejora la 
-estabilidad en redes con aplicaciones sensibles al tiempo. 
+Mecanismo que permite a los dispositivos Ethernet gestionar la congestión en la red regulando el tráfico \nentre ellos. Su implementación evita la pérdida de paquetes en situaciones de alta carga y mejora la \nestabilidad en redes con aplicaciones sensibles al tiempo. 
 Protocolo relevante: LACP (Link Aggregation Control Protocol), estandarizado actualmente por IEEE 
 802.1AX (anteriormente IEEE 802.3ad). 
 EtherChannel (Agregación de enlaces) 
@@ -441,8 +426,7 @@ Modelo ISO/OSI, TCP/IP. Protocolos
 13 
 VLANs (Redes de Área Local Virtual) 
 Permiten segmentar una red física en múltiples redes lógicas independientes, mejorando la seguridad al 
-aislar segmentos de red. También facilitan la gestión de grandes infraestructuras y optimizan la 
-eficiencia al reducir el tráfico de broadcast. 
+aislar segmentos de red. También facilitan la gestión de grandes infraestructuras y optimizan la \neficiencia al reducir el tráfico de broadcast. 
 Protocolo relevante: IEEE 802.1Q. 
 Descubrimiento del Tamaño Máximo de Unidad (MTU Discovery) 
 Aunque el tamaño máximo de trama afecta a la capa de enlace de datos, el descubrimiento automático 
@@ -544,8 +528,7 @@ RPC (Remote Procedure Call) es un mecanismo de comunicación de alto nivel utili
 arquitecturas cliente-servidor para invocar procedimientos remotos. Aunque conceptualmente 
 utiliza servicios de sesión, se implementa en la práctica en la capa de aplicación. 
 El protocolo es un gran avance sobre los sockets usados hasta el momento. 
-Las RPC son muy utilizadas dentro del paradigma cliente-servidor. Siendo el cliente el que inicia 
-el proceso solicitando al servidor que ejecute cierto procedimiento o función y enviando éste de 
+Las RPC son muy utilizadas dentro del paradigma cliente-servidor. Siendo el cliente el que inicia \nel proceso solicitando al servidor que ejecute cierto procedimiento o función y enviando éste de 
 vuelta el resultado de dicha operación al cliente. Hoy en día se está utilizando el XML como 
 lenguaje para definir el IDL y el HTTP como protocolo de red, dando lugar a lo que se conoce 
 como servicios web. 
@@ -669,8 +652,7 @@ Una dirección IP tiene dos partes diferenciadas:
 Son los números de la izquierda e indican la red. 
 • Host-ID (identificador de host): 
 Son los números de la derecha e indican los equipos dentro de esta red. 
-Se pueden usar uno, dos o tres bytes para el identificador de red (igual que para el de host), teniendo 
-en cuenta que siempre tienen que haber 4.
+Se pueden usar uno, dos o tres bytes para el identificador de red (igual que para el de host), teniendo \nen cuenta que siempre tienen que haber 4.
 
 ---
 
@@ -693,8 +675,7 @@ El rango de IPs para host será desde 192.168.13.1 hasta
 Algunas de las direcciones de red tienen significados especiales, ahora vamos a ver las más 
 significativas. 
 • Dirección de Red: 
-La dirección de red es aquella en la que todos los bits correspondientes al identificador de host 
-están a cero. Esta dirección identifica a la propia red y no puede asignarse a ningún equipo. 
+La dirección de red es aquella en la que todos los bits correspondientes al identificador de host \nestán a cero. Esta dirección identifica a la propia red y no puede asignarse a ningún equipo. 
 Ejemplo con la dirección 10.0.0.0: 
 Si se utiliza un byte para el identificador de red, una posible dirección de red sería 10.0.0.0, 
 donde todos los bits del identificador de host están a cero. 
@@ -704,11 +685,9 @@ un host concreto ni a una red específica.
 • Dirección de Difusión (o Broadcast): 
 Cuando todos los bits del identificador de host están en 1 (es decir, todos los bytes están a 
 255), la dirección que se obtiene es la denominada dirección de difusión. 
-Es una dirección específica que permite enviar un mensaje a todos los equipos de la red 
-especificados por el netID. 
+Es una dirección específica que permite enviar un mensaje a todos los equipos de la red \nespecificados por el netID. 
 Ejemplo: 
-Si utilizamos 2 bytes para red, la dirección de difusión o broadcast sería 172.16.255.255 (Si 
-enviamos un mensaje a esta dirección, les llegará a todos los equipos de la red 172.16.0.0).
+Si utilizamos 2 bytes para red, la dirección de difusión o broadcast sería 172.16.255.255 (Si \nenviamos un mensaje a esta dirección, les llegará a todos los equipos de la red 172.16.0.0).
 
 ---
 
@@ -730,8 +709,7 @@ Existen cinco tipos básicos:
 • En estas, el primer bit estará a cero, lo que permite un total de 27 redes posibles (o 128 
 redes), de las cuales se utilizan 126 (se excluyen 0 y 127) 
 • El rango de direcciones de clase A va desde 1.0.0.0 hasta 126.255.255.255. El bloque 
-127.0.0.0/8 está reservado para loopback, siendo 127.0.0.1 la dirección más utilizada para 
-este fin. 
+127.0.0.0/8 está reservado para loopback, siendo 127.0.0.1 la dirección más utilizada para \neste fin. 
 • Utiliza 3 bytes para hosts, por lo que puede tener 2²⁴ &minus; 2 direcciones utilizables, es 
 decir, 16.777.214 equipos por red. 
 0 
@@ -808,8 +786,7 @@ XXXXXXXX
 Red 
 Equipos 
 2.1.4. Direcciones IP reservadas en IPv4 
-Es habitual que en una empresa u organización un solo equipo tenga conexión a Internet y los otros 
-equipos de la red acceden a Internet a través de él (proxy o pasarela). 
+Es habitual que en una empresa u organización un solo equipo tenga conexión a Internet y los otros \nequipos de la red acceden a Internet a través de él (proxy o pasarela). 
 Como veremos más adelante, la ICANN (Internet Corporation for Assigned Names and Numbers) como 
 coordinadora de la asignación de identificadores únicos en Internet, gestiona las IPs a través de la IANA 
 (Internet Assigned Numbers Authority) que a su vez asigna bloques de IPs a los RIR (Registros 
@@ -932,10 +909,8 @@ Con lo que la máscara de red se quedaría como 255.255.192.0 o bien /18.
 Caso 2: 
 Partimos como antes de una red de clase B con máscara de red por defecto, 172.16.0.0/16 o bien 
 172.16.0.0 255.255.0.0. 
-En este supuesto se trata de hallar el número máximo de subredes posibles, siempre y cuando tengamos 
-en cada una de ellas un MÍNIMO de 10 equipos. 
-Conociendo nuestra configuración inicial, 2 octetos para la identificación de red y los dos restantes para 
-el direccionamiento de hosts, buscaremos cuantos bits mínimos necesitamos para tener el mínimo de 
+En este supuesto se trata de hallar el número máximo de subredes posibles, siempre y cuando tengamos \nen cada una de ellas un MÍNIMO de 10 equipos. 
+Conociendo nuestra configuración inicial, 2 octetos para la identificación de red y los dos restantes para \nel direccionamiento de hosts, buscaremos cuantos bits mínimos necesitamos para tener el mínimo de 
 hosts exigido. Sabiendo que cada subred necesita de una dirección para la red y otra dirección para el 
 broadcast, tendremos que tener presente que hay que restar esas 2 direcciones. 
 En esta ocasión la restricción de bits para asignar a la red depende del número de hosts requerido, 
@@ -950,8 +925,7 @@ No nos sirve
 No nos sirve 
 • 2^4 – 2 = 14  
 Con 4 bits se obtienen 16 direcciones totales, de las cuales 14 son utilizables para hosts, una vez 
-descontadas las direcciones de red y de broadcast, cumpliéndose así el mínimo de 10 equipos 
-exigido.
+descontadas las direcciones de red y de broadcast, cumpliéndose así el mínimo de 10 equipos \nexigido.
 
 ---
 
@@ -999,8 +973,7 @@ Modelo ISO/OSI, TCP/IP. Protocolos
 Cisco IOS es el software utilizado en la gran mayoría de routers y 
 switches de Cisco Systems. 
 IOS es un paquete de funciones de enrutamiento, conmutamiento, 
-trabajo de internet y telecomunicaciones que se integra 
-estrechamente con un sistema operativo multitarea. 
+trabajo de internet y telecomunicaciones que se integra \nestrechamente con un sistema operativo multitarea. 
  
  
 En un nivel simple, una máscara wildcard puede ser pensada como una máscara de subred. 
@@ -1048,15 +1021,13 @@ Que emparejará con las direcciones IP impares.
 10.10.10.1, 10.10.10.3, 10.10.10.5 etc. 
  
  
-Una combinación de la red y la máscara wildcard 1.1.1.1 0.0.0.0 emparejaría con la interfaz configurada 
-exactamente con 1.1.1.1, y ninguna otra. 
+Una combinación de la red y la máscara wildcard 1.1.1.1 0.0.0.0 emparejaría con la interfaz configurada \nexactamente con 1.1.1.1, y ninguna otra. 
 Esto es realmente útil si se quiere activar OSPF en una interfaz concreta en una manera muy clara y 
 sencilla. 
 Si se trata de emparejar un rango de redes, la combinación la red y de la máscara wildcard 1.1.0.0 
 0.0.255.255 emparejaría con cualquier interfaz en la gama de 1.1.0.0 a 1.1.255.255. 
 Debido a esto, es más sencillo y más seguro utilizar la máscara wildcard 0.0.0.0 e identificar cada 
-interfaz OSPF individualmente, pero una vez configurado, funcionan exactamente igual (una manera no 
-es mejor que la otra).
+interfaz OSPF individualmente, pero una vez configurado, funcionan exactamente igual (una manera no \nes mejor que la otra).
 
 ---
 
@@ -1138,8 +1109,7 @@ bits, 20 bytes) para una cabecera correcta, y el máximo de 15 palabras (15x32 =
 bytes). 
 • Tipo de Servicio (ToS): 8 bits. 
 Antes de 2001, el campo ToS, de 8 bits, estaba destinado a definir cómo los enrutadores debían 
-manejar los paquetes según características como retraso, rendimiento o fiabilidad, a partir de 
-esta fecha el campo se dividió en dos: 
+manejar los paquetes según características como retraso, rendimiento o fiabilidad, a partir de \nesta fecha el campo se dividió en dos: 
 • DSCP (Differentiated Services Code Point) de 6 bits para para clasificar el tráfico y QoS. 
 • ECN (Explicit Congestion Notification) de 2 bits, para notificación si el paquete había 
 atravesado una sección congestionada de la red.
@@ -1180,8 +1150,7 @@ tener un tamaño múltiplo de 8 bytes.
 Indica el máximo número de enrutadores que un paquete puede atravesar. 
 Cada vez que algún nodo procesa este paquete disminuye su valor en, como mínimo, una 
 unidad. Cuando llegue a ser 0, el paquete será descartado. 
-Típicamente toma el valor 64 o 128 en los datagramas. Básicamente impide que un mensaje 
-este dando vueltas indefinidamente.
+Típicamente toma el valor 64 o 128 en los datagramas. Básicamente impide que un mensaje \neste dando vueltas indefinidamente.
 
 ---
 
@@ -1288,8 +1257,7 @@ direcciones IP (4 octetos cada una) que se han de alcanzar ("procesar").
 » El puntero indica la posición de la siguiente dirección de la ruta, dentro de la 
 Opción; así, su valor mínimo es de 4. 
 » Cuando un nodo de Internet procesa la dirección de la lista apuntada por el 
-puntero (es decir, se alcanza esa dirección) incrementa el puntero en 4, y redirige 
-el paquete a la siguiente dirección. Si el puntero llega a ser mayor que el Tamaño 
+puntero (es decir, se alcanza esa dirección) incrementa el puntero en 4, y redirige \nel paquete a la siguiente dirección. Si el puntero llega a ser mayor que el Tamaño 
 de Opción significa que la información de ruta se ha procesado y registrado 
 completamente y se redirigirá el paquete a su dirección de destino. 
 » Si se alcanza la dirección de destino antes de haber procesado la lista de 
@@ -1324,8 +1292,7 @@ notifica el error, mediante ICMP, al originador del datagrama.
 
 Modelo ISO/OSI, TCP/IP. Protocolos 
 36 
-» Esta Opción no se copia en caso de fragmentación, y sólo puede aparecer una vez 
-en un paquete. 
+» Esta Opción no se copia en caso de fragmentación, y sólo puede aparecer una vez \nen un paquete. 
 » Identificador de flujo: Esta opción proporciona una manera para Identificador de flujo 
 SATNET de 16 bits para ser transportado a través de redes que no admiten el 
 concepto de flujo. 
@@ -1347,8 +1314,7 @@ desplazando a medida que dispositivos de cliente, equipos de red, aplicaciones, 
 se vayan adaptando a la nueva versión del protocolo de Internet. 
 El uso de IPv6 va a ser cada vez más generalizado, por lo que vamos a profundizar en el 
 conocimiento de este protocolo. 
-Una dirección IPv6 tiene un tamaño de 128 bits y se compone de ocho campos de 16 bits, cada uno de 
-ellos unido por dos puntos. 
+Una dirección IPv6 tiene un tamaño de 128 bits y se compone de ocho campos de 16 bits, cada uno de \nellos unido por dos puntos. 
 Cada campo debe contener un número hexadecimal, a diferencia de la notación decimal con puntos de 
 las direcciones IPv4. 
 En la figura siguiente, las equis representan números hexadecimales.
@@ -1370,8 +1336,7 @@ asignado por el administrador del sitio y describe la topología privada interna
 • Los últimos 4 campos, 64 bits, que están más a la derecha, 0000:0000:1a2f:1a2b, 
 contienen el ID de interfaz. 
 • El ID de interfaz puede configurarse automáticamente o manualmente. Inicialmente se 
-utilizó el formato EUI-64 derivado de la dirección MAC, aunque en la actualidad es habitual 
-el uso de identificadores aleatorios por motivos de privacidad. 
+utilizó el formato EUI-64 derivado de la dirección MAC, aunque en la actualidad es habitual \nel uso de identificadores aleatorios por motivos de privacidad. 
 El protocolo IPv6 define un conjunto de encabezados, que se dividen en básicos y de extensión. 
 Descripción de la función de cada campo de encabezados básicos 
 • Versión: 
@@ -1386,11 +1351,9 @@ Modelo ISO/OSI, TCP/IP. Protocolos
 • Etiqueta de flujo: 
 Campo de 20 bits. 
 • Tamaño de carga útil: 
-Entero sin signo de 16 bits, que representa el tamaño de la carga útil, es decir, el conjunto de 
-encabezados de extensión y los datos que siguen al encabezado IPv6. 
+Entero sin signo de 16 bits, que representa el tamaño de la carga útil, es decir, el conjunto de \nencabezados de extensión y los datos que siguen al encabezado IPv6. 
 • Encabezado siguiente: 
-Selector de 8 bits. Identifica el tipo de encabezado que va inmediatamente después del 
-encabezado de IPv6. Emplea los mismos valores que el campo de protocolo IPv4. 
+Selector de 8 bits. Identifica el tipo de encabezado que va inmediatamente después del \nencabezado de IPv6. Emplea los mismos valores que el campo de protocolo IPv4. 
 • Límite de salto: 
 Entero sin signo de 8 bits. Disminuye en uno cada nodo que reenvía el paquete. El paquete se 
 desecha si el límite de salto se reduce a cero. 
@@ -1450,8 +1413,7 @@ Ruta por defecto
  
 1 
 Software 
-Dirección sin 
-especificar 
+Dirección sin \nespecificar 
 ::1/128 
 ::1 
  
@@ -1526,8 +1488,7 @@ Documentación
 Direcciones 
 utilizadas en 
 documentación y 
-código fuente de 
-ejemplo 
+código fuente de \nejemplo 
 2002::/16 
 2002:: 
 2002:ffff:ffff:ffff 
@@ -1583,19 +1544,16 @@ separados por dos puntos. Cuando la aplicación está escuchando (listening) en 
 interfaces disponibles, aparece la dirección indefinida en dicho listado. 
 • Ruta por defecto. 
 ::/0 
-La ruta por defecto para tráfico unicast (correspondiente a la ruta a 0.0.0.0 con máscara 0.0.0.0 
-en IPv4). 
+La ruta por defecto para tráfico unicast (correspondiente a la ruta a 0.0.0.0 con máscara 0.0.0.0 \nen IPv4). 
 • Direcciones locales. 
 • ::1/128 
-La dirección de loopback es una dirección unicast del localhost. Si una aplicación en un host 
-envía paquetes a esta dirección, la pila IPv6 enviará de vuelta los paquetes al mismo 
+La dirección de loopback es una dirección unicast del localhost. Si una aplicación en un host \nenvía paquetes a esta dirección, la pila IPv6 enviará de vuelta los paquetes al mismo 
 interface virtual (correspondiente a 127.0.0.1 en IPv4). 
 • fe80::/10 
 Las direcciones de prefijo enlace-local (link-local) son válidas (utilizables) y únicas (no 
 repetidas) solo en la red local. Dentro de este rango de enlace local (fe80::/10), en la 
 práctica se utiliza el prefijo fe80::/64 para la asignación de direcciones a interfaces. Los 64 
-bits menos significativos suelen construirse a partir de la dirección hardware del interface 
-en formato EUI-64 modificado. 
+bits menos significativos suelen construirse a partir de la dirección hardware del interface \nen formato EUI-64 modificado. 
 Las direcciones de enlace local son requeridas en todos los interfaces con IPv6 habilitado; 
 por ello, las aplicaciones pueden aprovechar la existencia de direcciones de enlace local aun 
 cuando no haya encaminamiento IPv6. Estas direcciones son comparables a las direcciones 
@@ -1607,8 +1565,7 @@ locales. Son enrutables solo dentro de un ámbito cooperativo (similar a los ran
 direcciones privadas 10/8, 172.16/12, y 192.168/16 en IPv4). Las direcciones incluyen una 
 secuencia pseudoaleatoria en el prefijo de encaminamiento (routing prefix) para minimizar el 
 riesgo de conflictos en la interconexión de plataformas diferentes o si los paquetes se desvían a 
-Internet. A pesar del uso restringido y local de estas direcciones, su ámbito es global, es decir, se 
-esperan sean únicas (no repetidas) en todo el mundo.
+Internet. A pesar del uso restringido y local de estas direcciones, su ámbito es global, es decir, se \nesperan sean únicas (no repetidas) en todo el mundo.
 
 ---
 
@@ -1645,8 +1602,7 @@ mecanismo de transición IPv6).
 Asignado a Benchmarking Methodology Working Group (BMWG) para comparativas 
 (benchmarking) en IPv6 (similar a la red 198.18.0.0/15 para comparativas en IPv4). 
 • 2001:10::/28 
-ORCHID (Overlay Routable Cryptographic Hash Identifiers). Son direcciones IPv6 no-
-enrutables usadas para identificadores criptográficos Hash.
+ORCHID (Overlay Routable Cryptographic Hash Identifiers). Son direcciones IPv6 no-\nenrutables usadas para identificadores criptográficos Hash.
 
 ---
 
@@ -1763,8 +1719,7 @@ ff05::1:3
 All-dhcp-servers 
 5 (site-local) 
 FF02::1:FF00:0000/104 
-Dirección Solicited-Node. Véase 
-explicación más abajo 
+Dirección Solicited-Node. Véase \nexplicación más abajo 
 2 (enlace-local) 
 FF02:0:0:0:0:2:FF00::/104 
 Node Information Queries 
@@ -1794,8 +1749,7 @@ Para ello se utiliza una dirección multicast formada a partir del prefijo ff02:
 menos significativos de la dirección IPv6 unicast. 
 2.2.3. EUI-64 Modificado 
 El identificador de interfaz de 64 bits deriva comúnmente de los 48 bits de la dirección MAC. Una 
-dirección MAC 00:1D:BA:06:37:64 se convierte en una dirección EUI-64 de 64 bits insertando FF:FE en 
-el medio.
+dirección MAC 00:1D:BA:06:37:64 se convierte en una dirección EUI-64 de 64 bits insertando FF:FE en \nel medio.
 
 ---
 
@@ -1803,8 +1757,7 @@ Modelo ISO/OSI, TCP/IP. Protocolos
 46 
 Lo primero es separar la dirección MAC en dos bloques iguales, 3 octetos a cada lado, para insertar el 
 octeto FFFE tras los 24 primeros bits o 3 primeros octetos: 00:1D:BA:FF:FE:06:37:64 
-Cuando usamos EUI-64 para formar una dirección IPv6, invertimos el bit Universal/Local (U/L), que es 
-el segundo bit menos significativo del primer octeto del identificador EUI-64, de manera que un 0 en 
+Cuando usamos EUI-64 para formar una dirección IPv6, invertimos el bit Universal/Local (U/L), que es \nel segundo bit menos significativo del primer octeto del identificador EUI-64, de manera que un 0 en 
 dicho bit del EUI-64 resultará un 1 o a la inversa en el EUI-64 modificado. 
 Para que quede claro, y partiendo de la dirección señalada, 00:1D:BA:FF:FE:06:37:64 
 1. Nuestro primer octeto hexadecimal 00 corresponde a 00000000 en binario. 
@@ -1823,8 +1776,7 @@ La razón de modificar el bit U/L:
 • Es debido a que cuando asignamos direcciones de modo manual a un interfaz, es probable que 
 asignemos una del tipo 2001:db8:1:2::1/64 en lugar de la menos atractiva e intuitiva 
 2001:db8:1:2:0200::1/64. 
-• Cuando asignamos manualmente direcciones de enlace-local, la necesidad de esta modificación 
-es más evidente: configuraremos manualmente una dirección corta fe80::1 en lugar de una larga 
+• Cuando asignamos manualmente direcciones de enlace-local, la necesidad de esta modificación \nes más evidente: configuraremos manualmente una dirección corta fe80::1 en lugar de una larga 
 fe80:0:0:0:0200::1. 
 En resumen, la modificación del bit U/L en EUI-64 reduce la probabilidad de colisiones entre 
 direcciones generadas automáticamente y direcciones configuradas manualmente, facilitando 
@@ -1841,8 +1793,7 @@ Advertisement).
 Durante el proceso de verificación de disponibilidad, la dirección tiene un estado de dirección 
 tentativa. 
 ("Tentativa", significa que todavía no tenemos una dirección definitiva) 
-El nodo se une a la dirección multicast solicited-node para la dirección tentativa (si no lo ha hecho ya), y 
-envía neighbor solicitations utilizando como dirección origen la dirección indefinida (::/128) y como 
+El nodo se une a la dirección multicast solicited-node para la dirección tentativa (si no lo ha hecho ya), y \nenvía neighbor solicitations utilizando como dirección origen la dirección indefinida (::/128) y como 
 dirección destino la dirección multicast solicited-node correspondiente a la dirección tentativa. 
 El nodo también se une a la dirección de multicast all-nodes (todos los equipos) ff02::1, por lo que 
 recibirá los anuncios del resto de equipos (Neighbor Advertisements). 
@@ -1871,8 +1822,7 @@ Tras expirar dicho tiempo de vida, el estado pasa a deprecated (obsoleto) y la d
 usarse para nuevas conexiones. La dirección pasa a invalid (inválida) cuando expira también su valid-
 lifetime; la dirección se elimina del interfaz y deja de ser válida y utilizable. 
 Direcciones temporales 
-Las estáticas y mundialmente únicas direcciones MAC, usadas por la configuración automática sin 
-estado para crear identificadores de interface, ofrecen una oportunidad para hacer un seguimiento de 
+Las estáticas y mundialmente únicas direcciones MAC, usadas por la configuración automática sin \nestado para crear identificadores de interface, ofrecen una oportunidad para hacer un seguimiento de 
 los equipos y usuarios a través del tiempo y de las distintas redes IPv6. 
 Para reducir la atadura de la identidad del usuario a una porción de dirección IPv6, un host puede crear 
 direcciones temporales con identificadores de interfaces basados en números aleatorios y tiempos de 
@@ -1937,8 +1887,7 @@ direcciones de enlace-local, los índices de zona corresponden a identificadores
 Al escribir textualmente una dirección, añadimos el índice de zona a la dirección separado por un signo 
 de porcentaje (%). 
 La sintaxis actual de los índices de zona depende del sistema operativo: 
-• La pila IPv6 en Microsoft Windows utiliza índices de zona numéricos, p.ej. fe80::3%1. El índice se 
-establece por el número de interface. 
+• La pila IPv6 en Microsoft Windows utiliza índices de zona numéricos, p.ej. fe80::3%1. El índice se \nestablece por el número de interface. 
 • La mayoría de sistemas Unix (p.ej. BSD, Linux, Mac OS X) usa el nombre de interface como 
 índice de zona: fe80::3%eth0. 
 La notación de índice de zona causa conflictos de sintaxis al usar la dirección para URIs o URLs, ya que el 
@@ -1950,8 +1899,7 @@ Modelo ISO/OSI, TCP/IP. Protocolos
 50 
 2.2.8. Direcciones IPv6 en el DNS 
 Mediante el Domain Name System, los hostnames se mapean a direcciones IPv6 por registros AAAA, 
-también llamados registros cuádruple-A. La IANA (Internet Assigned Numbers Authority), siguiendo las 
-especificaciones definidas por la IETF, ha reservado el dominio ip6.arpa para la resolución inversa de DNS, 
+también llamados registros cuádruple-A. La IANA (Internet Assigned Numbers Authority), siguiendo las \nespecificaciones definidas por la IETF, ha reservado el dominio ip6.arpa para la resolución inversa de DNS, 
 dividiendo el espacio de nombres jerárquicamente por cada dígito hexadecimal de la dirección IPv6. 
 (Esta traducción se define en el RFC 3596.) 
 De igual modo que en IPv4, cada host puede estar representado en el DNS por dos registros, un registro 
@@ -1991,8 +1939,7 @@ Transición
 Históricamente, muchos dispositivos NAT y routers en los hogares han gestionado incorrectamente los 
 registros AAAA. 
 Algunos de ellos simplemente desechan las peticiones DNS a estos registros, en lugar de devolver una 
-respuesta negativa apropiada. Debido a que la petición es desechada, el host debe esperar el timeout de 
-esa petición. 
+respuesta negativa apropiada. Debido a que la petición es desechada, el host debe esperar el timeout de \nesa petición. 
 Esto, a menudo, causa una percepción de lentitud en la conexión de hosts IPv6. 
 2.2.9. Cabecera IPV6 
 Los primeros 40 bytes (320 bits) son la cabecera del paquete y contiene los siguientes campos: 
@@ -2015,17 +1962,13 @@ Hay dos versiones de IPv6 levemente diferentes. La ahora obsoleta versión inici
 1883, difiere de la versión actualmente estandarizada, descrita originalmente en el RFC 2460, en dos 
 campos: hay 4 bits que han sido reasignados desde "etiqueta de flujo" (flow label) a "clase de tráfico" 
 (traffic class). El resto de diferencias son menores. 
-En IPv6 la fragmentación se realiza solamente en el nodo origen del paquete, al contrario que en IPv4 
-en donde los routers pueden fragmentar un paquete. 
+En IPv6 la fragmentación se realiza solamente en el nodo origen del paquete, al contrario que en IPv4 \nen donde los routers pueden fragmentar un paquete. 
 En IPv6, las opciones también desaparecen de la cabecera estándar y son especificadas por el campo 
-"Cabecera Siguiente" (Next Header), similar en funcionalidad en IPv4 al campo Protocolo. Un ejemplo: 
-en IPv4 uno añadiría la opción "ruta fijada desde origen" (Strict Source and Record Routing) a la 
+"Cabecera Siguiente" (Next Header), similar en funcionalidad en IPv4 al campo Protocolo. Un ejemplo: \nen IPv4 uno añadiría la opción "ruta fijada desde origen" (Strict Source and Record Routing) a la 
 cabecera IPv4 si quiere forzar una cierta ruta para el paquete, pero en IPv6 uno modificaría el campo 
 "Cabecera Siguiente" indicando que viene una cabecera de encaminamiento. 
-La cabecera de encaminamiento podrá entonces especificar la información adicional de 
-encaminamiento para el paquete, e indicar que, por ejemplo, la cabecera TCP será la siguiente. Este 
-procedimiento es análogo al uso de AH y ESP en IPsec, que se implementa mediante cabeceras de 
-extensión en IPv6. 
+La cabecera de encaminamiento podrá entonces especificar la información adicional de \nencaminamiento para el paquete, e indicar que, por ejemplo, la cabecera TCP será la siguiente. Este 
+procedimiento es análogo al uso de AH y ESP en IPsec, que se implementa mediante cabeceras de \nextensión en IPv6. 
 2.3. Comparación de cabeceras IPv4 y IPv6 
 Entender la estructura de la cabecera de un protocolo y el tipo de información que se puede transportar 
 con la misma es el mejor camino para aprender a trabajar con un protocolo. 
@@ -2095,11 +2038,9 @@ Podemos enumerar ya algunas cuestiones generales relativas a las cabeceras de Ex
 cabecera del paquete. 
 • Cada cabecera de Extensión es identificada por el campo "Next Header" de la cabecera 
 precedente. 
-• Las cabeceras de Extensión son examinadas o procesadas únicamente por los nodos a los que 
-están destinadas, normalmente el nodo destino de la cabecera IPv6... 
+• Las cabeceras de Extensión son examinadas o procesadas únicamente por los nodos a los que \nestán destinadas, normalmente el nodo destino de la cabecera IPv6... 
 .. con una única excepción: 
-Si la cabecera de Extensión es del tipo Opciones Hop-by-Hop, la información que lleva debe ser 
-examinada y procesada por cada uno de los nodos que se encuentran en la ruta del paquete. 
+Si la cabecera de Extensión es del tipo Opciones Hop-by-Hop, la información que lleva debe ser \nexaminada y procesada por cada uno de los nodos que se encuentran en la ruta del paquete. 
 • Este tipo de cabecera debe seguir inmediatamente a la cabecera IPv6 y su valor de "Next 
 Header" es 0. 
 • Si en el campo "Dirección de destino" hay una dirección multicast, las cabeceras de Extensión 
@@ -2123,10 +2064,8 @@ Modelo ISO/OSI, TCP/IP. Protocolos
 55 
 • De fragmento (RFC 2460). 
 Un host IPv6 que quiere enviar un paquete a un destino IPv6 utiliza el llamado "Path MTU 
-discovery" para determinar el tamaño máximo de paquete que se puede utilizar en el path hasta 
-ese destino. Si el paquete que hay que enviar es más grande que el MTU soportado, el host 
-origen fragmenta el paquete. Gracias a esta forma de actuar, la fragmentación se gestiona de 
-extremo a extremo, liberando a los routers del path de este trabajo. 
+discovery" para determinar el tamaño máximo de paquete que se puede utilizar en el path hasta \nese destino. Si el paquete que hay que enviar es más grande que el MTU soportado, el host 
+origen fragmenta el paquete. Gracias a esta forma de actuar, la fragmentación se gestiona de \nextremo a extremo, liberando a los routers del path de este trabajo. 
 En caso de que el "Path MTU discovery" falle, se usará el valor mínimo de "Path MTU" en IPv6, 
 1280 bytes. El tamaño máximo de un paquete IPv6 es de 65.535 bytes, y el campo Payload 
 Length no incluye los 40 bytes de la cabecera IPv6. 
@@ -2150,8 +2089,7 @@ siguiente orden:
 • Cabecera IPv6. 
 • Cabecera de Opciones Hop-by-Hop. 
 • Cabecera de opciones de destino (para opciones que tienen que ser procesadas por el primer 
-destino que aparece en el campo de dirección de destino, además de los destinos posteriores 
-enumerados en la cabecera de Routing). 
+destino que aparece en el campo de dirección de destino, además de los destinos posteriores \nenumerados en la cabecera de Routing). 
 • Cabecera de enrutamiento (Routing). 
 • Cabecera de Fragmento.
 
@@ -2266,8 +2204,7 @@ del modelo OSI.
 
 Modelo ISO/OSI, TCP/IP. Protocolos 
 59 
-Para sistemas finales conectados a la misma red, la capa de acceso a la red se encarga del acceso y 
-encaminamiento de los datos. 
+Para sistemas finales conectados a la misma red, la capa de acceso a la red se encarga del acceso y \nencaminamiento de los datos. 
 Si los dos dispositivos están conectados a redes diferentes se necesitarán una serie de procedimientos 
 que permitan que los datos atraviesen redes distintas interconectadas. Esta es la función que desarrolla 
 la capa de internet. 
@@ -2309,12 +2246,10 @@ orden.
 • No orientado a la conexión. 
 • Permite mejores tiempos de respuesta. 
 3.1.4. Capa de Aplicación (Nivel 4) 
-Representa la consolidación de las capas 5 (Sesión), 6 (Presentación) y 7 (Aplicación) del modelo OSI 
-en una única capa. Esto elimina los límites difusos entre ellas y contiene la lógica específica necesaria 
+Representa la consolidación de las capas 5 (Sesión), 6 (Presentación) y 7 (Aplicación) del modelo OSI \nen una única capa. Esto elimina los límites difusos entre ellas y contiene la lógica específica necesaria 
 para cada aplicación de usuario. 
 3.2. Protocolos TCP/IP 
-Se llama familia de protocolos TCP/IP a la amplia colección de protocolos que se han especificado como 
-estándares de internet por parte del I.A.B. (Internet Architecture Board). 
+Se llama familia de protocolos TCP/IP a la amplia colección de protocolos que se han especificado como \nestándares de internet por parte del I.A.B. (Internet Architecture Board). 
 A continuación, vemos un gráfico con los principales protocolos del modelo TCP/IP.
 
 ---
@@ -2379,8 +2314,7 @@ cuenta, sin embargo, que las implicaciones de seguridad son bastante diferentes 
 modos de operación. 
 • La seguridad de comunicaciones extremo a extremo a escala Internet se ha desarrollado más 
 lentamente de lo esperado. Parte de la razón a esto es que no ha surgido infraestructura de 
-clave pública universal o universalmente de confianza (DNSSEC fue originalmente previsto para 
-esto); otra parte es que muchos usuarios no comprenden lo suficientemente bien ni sus 
+clave pública universal o universalmente de confianza (DNSSEC fue originalmente previsto para \nesto); otra parte es que muchos usuarios no comprenden lo suficientemente bien ni sus 
 necesidades ni las opciones disponibles como para promover su inclusión en los productos de los 
 vendedores. 
 • Como el Protocolo de Internet no provee intrínsecamente de ninguna capacidad de seguridad, 
@@ -2404,15 +2338,13 @@ En modo transporte, sólo la carga útil (los datos que se transfieren) del paqu
 autenticada. El enrutamiento permanece intacto, ya que no se modifica ni se cifra la cabecera IP; 
 sin embargo, cuando se utiliza la cabecera de autenticación (AH), las direcciones IP no pueden 
 ser traducidas, ya que eso invalidaría el hash. Las capas de transporte y aplicación están siempre 
-aseguradas por un hash, de forma que no pueden ser modificadas de ninguna manera (por 
-ejemplo, traduciendo los números de puerto TCP y UDP). El modo transporte se utiliza para 
+aseguradas por un hash, de forma que no pueden ser modificadas de ninguna manera (por \nejemplo, traduciendo los números de puerto TCP y UDP). El modo transporte se utiliza para 
 comunicaciones ordenador a ordenador. 
 Una forma de encapsular mensajes IPsec para atravesar NAT ha sido definido por RFCs que 
 describen el mecanismo de NAT transversal. 
 • Modo túnel. 
 En el modo túnel, todo el paquete IP (datos más cabeceras del mensaje) es cifrado o 
-autenticado. Debe ser entonces encapsulado en un nuevo paquete IP para que funcione el 
-enrutamiento. El modo túnel se utiliza para comunicaciones red a red (túneles seguros entre 
+autenticado. Debe ser entonces encapsulado en un nuevo paquete IP para que funcione el \nenrutamiento. El modo túnel se utiliza para comunicaciones red a red (túneles seguros entre 
 routers, p.e. para VPNs) o comunicaciones ordenador a red u ordenador a ordenador sobre 
 Internet. 
 3.2.2.2.2. Los 3 Protocolos que forman IPsec 
@@ -2539,21 +2471,16 @@ Proporciona comunicación directa entre aplicaciones que se ejecutan en hosts di
 segmentación, el control de flujo, la fiabilidad y el control de congestión. Los principales protocolos son: 
 Los principales protocolos son: 
 • TCP. 
-El Protocolo de Control de Transmisión (Transmission Control Protocol, TCP) es un estándar 
-esencial en las redes de computadoras y forma parte de la capa de transporte del modelo 
+El Protocolo de Control de Transmisión (Transmission Control Protocol, TCP) es un estándar \nesencial en las redes de computadoras y forma parte de la capa de transporte del modelo 
 TCP/IP. Se caracteriza por ser un protocolo orientado a la conexión, lo que implica que, antes 
 de intercambiar datos, establece un canal de comunicación fiable mediante el mecanismo 
 conocido como three-way handshake (SYN → SYN-ACK → ACK). Este proceso garantiza que 
 tanto el emisor como el receptor estén sincronizados y preparados para la transmisión de datos. 
-TCP está diseñado para ofrecer una entrega fiable, ordenada y libre de errores. Para lograrlo, 
-emplea mecanismos como las confirmaciones de recepción (ACK), la retransmisión automática 
-en caso de pérdida de paquetes y la numeración de secuencia, que asegura que los datos lleguen 
-en el orden correcto. Además, incorpora control de flujo, que evita la saturación del receptor, y 
+TCP está diseñado para ofrecer una entrega fiable, ordenada y libre de errores. Para lograrlo, \nemplea mecanismos como las confirmaciones de recepción (ACK), la retransmisión automática \nen caso de pérdida de paquetes y la numeración de secuencia, que asegura que los datos lleguen \nen el orden correcto. Además, incorpora control de flujo, que evita la saturación del receptor, y 
 control de congestión, que adapta la velocidad de transmisión en función de las condiciones de 
 la red. 
 Gracias a su robustez y a su capacidad para garantizar la integridad de la información, TCP es 
-ampliamente utilizado en aplicaciones críticas como la navegación web (HTTP/HTTPS), el 
-envío de correos electrónicos (SMTP, IMAP, POP3) o la transferencia de archivos (FTP). Su 
+ampliamente utilizado en aplicaciones críticas como la navegación web (HTTP/HTTPS), el \nenvío de correos electrónicos (SMTP, IMAP, POP3) o la transferencia de archivos (FTP). Su 
 diseño lo convierte en la opción preferida cuando la fiabilidad y la precisión de los datos son más 
 importantes que la velocidad.
 
@@ -2566,9 +2493,7 @@ El Protocolo de Datagramas de Usuario (UDP) es un protocolo de transporte del mo
 TCP/IP diseñado para transmisiones rápidas y ligeras. A diferencia de TCP, no establece 
 conexiones previas (es no orientado a la conexión), lo que elimina la sobrecarga del handshake 
 inicial y reduce la latencia. 
-Cada datagrama UDP incluye en su cabecera las direcciones IP y puertos necesarios para el 
-enrutamiento, junto con una suma de verificación básica. Sin embargo, no garantiza la entrega, 
-el orden ni la integridad de los datos, ya que carece de: 
+Cada datagrama UDP incluye en su cabecera las direcciones IP y puertos necesarios para el \nenrutamiento, junto con una suma de verificación básica. Sin embargo, no garantiza la entrega, \nel orden ni la integridad de los datos, ya que carece de: 
 • Confirmaciones de recepción (ACKs). 
 • Retransmisiones automáticas. 
 • Control de flujo o congestión. 
@@ -2582,13 +2507,11 @@ Al ser un protocolo "best-effort", delega el manejo de errores en las aplicacion
 perfecto para escenarios donde una pérdida ocasional de paquetes es preferible a los retrasos. 
 • DCCP (Datagram Congestion Control Protocol). 
 Protocolo de nivel de transporte orientado a mensajes, diseñado para aplicaciones que 
-necesitan control de congestión (como el streaming multimedia) pero no requieren la fiabilidad 
-estricta de TCP. Proporciona un servicio de datagramas con negociación de características y 
+necesitan control de congestión (como el streaming multimedia) pero no requieren la fiabilidad \nestricta de TCP. Proporciona un servicio de datagramas con negociación de características y 
 control de congestión, siendo útil para tráfico en tiempo real que puede tolerar cierta pérdida de 
 paquetes. 
 • uTP (Micro Transport Protocol o µTP). 
-Micro Transport Protocol (uTP) es un protocolo libre multiplataforma diseñado para ser usado 
-en las conexiones P2P del protocolo BitTorrent. 
+Micro Transport Protocol (uTP) es un protocolo libre multiplataforma diseñado para ser usado \nen las conexiones P2P del protocolo BitTorrent. 
 Está implementado sobre el protocolo UDP, como alternativa a TCP para la transferencia de 
 datos. 
 Se encuentra bajo la licencia MIT.
@@ -2607,15 +2530,12 @@ Los principales protocolos son:
 SSH o Secure SHell es un protocolo que facilita las comunicaciones seguras entre dos sistemas 
 usando una arquitectura cliente/servidor y que permite a los usuarios conectarse a un host 
 remotamente. 
-A diferencia de otros protocolos de comunicación remota tales como FTP o Telnet, SSH 
-encripta la sesión de conexión, haciendo imposible que alguien pueda obtener contraseñas no 
-encriptadas. 
+A diferencia de otros protocolos de comunicación remota tales como FTP o Telnet, SSH \nencripta la sesión de conexión, haciendo imposible que alguien pueda obtener contraseñas no \nencriptadas. 
 • FTP. 
 El Protocolo de transferencia de archivos (File Transfer Protocol o FTP) es un protocolo de red 
 para la transferencia de archivos entre sistemas conectados a una red TCP, basado en la 
 arquitectura cliente-servidor. 
-Desde un equipo cliente se puede conectar a un servidor para descargar archivos desde él o para 
-e9nviarle archivos, independientemente del sistema operativo utilizado en cada equipo. 
+Desde un equipo cliente se puede conectar a un servidor para descargar archivos desde él o para \ne9nviarle archivos, independientemente del sistema operativo utilizado en cada equipo. 
 • FTPS. 
 Es una extensión de FTP que añade el cifrado de comunicaciones gracias a SSL/TLS. 
 Implementa asimismo el uso de certificado digital, autenticación con usuario y contraseña o 
@@ -2645,10 +2565,8 @@ protocolo de red utilizado para el intercambio de mensajes de correo electrónic
 computadoras u otros dispositivos. 
 Su tarea principal es enviar correo (tiene limitaciones para la recepción). 
 • DHCP. 
-El protocolo de configuración dinámica de host (Dynamic Host Configuration Protocol o DHCP) 
-es un protocolo de red de tipo cliente/servidor mediante el cual un servidor DHCP asigna 
-dinámicamente una dirección IP y otros parámetros de configuración de red a cada dispositivo 
-en una red para que puedan comunicarse con otras redes IP. 
+El protocolo de configuración dinámica de host (Dynamic Host Configuration Protocol o DHCP) \nes un protocolo de red de tipo cliente/servidor mediante el cual un servidor DHCP asigna 
+dinámicamente una dirección IP y otros parámetros de configuración de red a cada dispositivo \nen una red para que puedan comunicarse con otras redes IP. 
 Este servidor posee una lista de direcciones IP dinámicas y las va asignando a los clientes 
 conforme éstas van quedando libres, sabiendo en todo momento quién ha estado en posesión 
 de esa IP, cuánto tiempo la ha tenido y a quién se la ha asignado después. 
@@ -2659,23 +2577,19 @@ Las DNS (Domain Name System o Sistema de Nombres de Dominio) se utiliza para tra
 dirección real (IP) en el nombre del dominio y viceversa. 
 • RIP. 
 El Protocolo de Información de Encaminamiento (Routing Information Protocol o RIP) es un 
-protocolo de puerta de enlace interna (Interior Gateway Protocol, IGP) utilizado por los 
-enrutadores para intercambiar información acerca de redes IP a las que se encuentran 
+protocolo de puerta de enlace interna (Interior Gateway Protocol, IGP) utilizado por los \nenrutadores para intercambiar información acerca de redes IP a las que se encuentran 
 conectados. 
 Su algoritmo de encaminamiento está basado en el vector de distancia, ya que calcula la métrica 
 o ruta más corta posible hasta el destino a partir del número de "saltos" o equipos intermedios 
 que los paquetes IP deben atravesar. 
-Este algoritmo usa el método Split Horizon (Horizonte dividido) para evitar los loops de 
-enrutamiento, prohíbe a un router publicar una ruta por la misma interfaz por la que se aprendió 
-en primer lugar.
+Este algoritmo usa el método Split Horizon (Horizonte dividido) para evitar los loops de \nenrutamiento, prohíbe a un router publicar una ruta por la misma interfaz por la que se aprendió \nen primer lugar.
 
 ---
 
 Modelo ISO/OSI, TCP/IP. Protocolos 
 71 
 • SNMP. 
-El Protocolo simple de administración de red (SNMP o Simple Network Management Protocol) 
-es un protocolo de la capa de aplicación que facilita el intercambio de información de 
+El Protocolo simple de administración de red (SNMP o Simple Network Management Protocol) \nes un protocolo de la capa de aplicación que facilita el intercambio de información de 
 administración entre dispositivos de red. 
 • HTTP. 
 El Protocolo de transferencia de hipertexto (HTTP o Hypertext Transfer Protocol) es el protocolo 
@@ -2745,8 +2659,7 @@ fundamental como:
 (también llamado datagrama IP). 
 • La cabecera IP contiene, entre otros, el campo crítico: la dirección IP lógica del destino final. 
 • IP determina, consultando su tabla de enrutamiento, cuál es el siguiente dispositivo al que 
-debe enviar el paquete (el "próximo salto" o next-hop), que puede ser el destino final o un 
-enrutador en la misma red local. 
+debe enviar el paquete (el "próximo salto" o next-hop), que puede ser el destino final o un \nenrutador en la misma red local. 
 • El paquete IP se pasa a la capa de acceso a la red. 
 4. Capa de Acceso a la Red (Capa de Enlace + Física): 
 • Esta capa encapsula el paquete IP dentro de una trama de red (por ejemplo, una trama 
@@ -2788,13 +2701,11 @@ En el Host Receptor final:
 • Utiliza la información de su cabecera (números de secuencia y puertos) para reensamblar 
 los segmentos en el orden correcto. 
 • Realiza el control de errores. Si un segmento se pierde o está corrupto (detectado 
-mediante el checksum o por falta de ACK), TCP en el receptor solicita su retransmisión al 
-emisor. 
+mediante el checksum o por falta de ACK), TCP en el receptor solicita su retransmisión al \nemisor. 
 • Una vez que todos los segmentos están correctos y en orden, TCP entrega el flujo de datos 
 original a la aplicación destino indicada por el puerto de destino. 
 Este proceso sería más largo si tuviera que pasar por más de dos subredes, y, por lo tanto, más de 
-dos enrutadores. Se repetirían los pasos de 5 al 8 por cada enrutador intermedio a atravesar hasta 
-el destino.
+dos enrutadores. Se repetirían los pasos de 5 al 8 por cada enrutador intermedio a atravesar hasta \nel destino.
 
 ---
 
@@ -2852,10 +2763,8 @@ OSI
 Hardware (TCP/IP no contempla esta capa) 
 1. Física 
 Correspondencia entre los modelos ISO/OSI y TCP/IP 
-Se usan 4 capas que se relacionan con las 6 capas superiores del modelo OSI. El modelo TCP/IP no toma 
-en cuenta las funciones de la capa física del modelo OSI. 
-La capa "Acceso a la red" es considerada el punto de interfaz entre el conjunto de protocolos TCP/IP y 
-el hardware de red. 
+Se usan 4 capas que se relacionan con las 6 capas superiores del modelo OSI. El modelo TCP/IP no toma \nen cuenta las funciones de la capa física del modelo OSI. 
+La capa "Acceso a la red" es considerada el punto de interfaz entre el conjunto de protocolos TCP/IP y \nel hardware de red. 
  
  
  

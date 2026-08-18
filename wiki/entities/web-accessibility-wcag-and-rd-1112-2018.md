@@ -28,11 +28,11 @@ Marco normativo y técnico de obligado cumplimiento para garantizar la accesibil
 1. **Perceptible**: La información y los componentes de la interfaz deben presentarse de forma que los usuarios puedan percibirlos con sus sentidos.
    - Alternativas textuales para contenido no textual (`alt`, `aria-label`).
    - Medios temporales: Subtítulos y audiodescripciones.
-   - **Ratio de Contraste Nivel AA**: Mínimo **4.5:1** para texto normal y **3:1** para texto grande ($\ge 18	ext{pt}$ o $\ge 14	ext{pt}$ negrita) y componentes gráficos/UI.
+   - **Ratio de Contraste Nivel AA**: Mínimo **4.5:1** para texto normal y **3:1** para texto grande ($\ge 18\text{pt}$ o $\ge 14\text{pt}$ negrita) y componentes gráficos/UI.
 2. **Operable**: Los componentes de navegación e interacción deben ser manejables.
    - **Accesibilidad total por teclado** (sin requerir ratón y sin trampas de foco).
    - Tiempo suficiente para leer y usar el contenido (mecanismos de pausa/ampliación).
-   - No diseñar contenido que provoque convulsiones o reacciones físicas (evitar destellos $> 3	ext{ Hz}$).
+   - No diseñar contenido que provoque convulsiones o reacciones físicas (evitar destellos $> 3\text{ Hz}$).
 3. **Comprensible**: La información y el manejo de la interfaz deben ser comprensibles y predecibles.
    - Idioma de la página declarado en HTML (`<html lang="es">`).
    - Navegación e identificación coherentes y predecibles.

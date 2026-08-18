@@ -26,11 +26,11 @@ Las tecnologías de almacenamiento masivo redundante proporcionan tolerancia a f
 
 | Nivel RAID | Nombre | Mínimo Discos | Tolerancia a Fallos | Capacidad Útil | Rendimiento |
 |------------|--------|---------------|---------------------|----------------|-------------|
-| **RAID 0** | Striping (Bandas) | 2 | **0 discos** (sin redundancia) | $N 	imes S$ (100%) | Máxima velocidad lectura/escritura |
-| **RAID 1** | Mirroring (Espejo) | 2 | **1 disco** | $1 	imes S$ (50%) | Buena lectura, escritura estándar |
-| **RAID 5** | Paridad Distribuida | 3 | **1 disco** | $(N - 1) 	imes S$ | Buena lectura, penalización en escritura |
-| **RAID 6** | Doble Paridad Distribuida | 4 | **2 discos simultáneos** | $(N - 2) 	imes S$ | Alta lectura, mayor penalización escritura |
-| **RAID 10 (1+0)** | Espejo de Bandas | 4 | **1 disco por sub-array** (hasta 2) | $(N / 2) 	imes S$ (50%) | Excelente lectura y escritura |
+| **RAID 0** | Striping (Bandas) | 2 | **0 discos** (sin redundancia) | $N \times S$ (100%) | Máxima velocidad lectura/escritura |
+| **RAID 1** | Mirroring (Espejo) | 2 | **1 disco** | $1 \times S$ (50%) | Buena lectura, escritura estándar |
+| **RAID 5** | Paridad Distribuida | 3 | **1 disco** | $(N - 1) \times S$ | Buena lectura, penalización en escritura |
+| **RAID 6** | Doble Paridad Distribuida | 4 | **2 discos simultáneos** | $(N - 2) \times S$ | Alta lectura, mayor penalización escritura |
+| **RAID 10 (1+0)** | Espejo de Bandas | 4 | **1 disco por sub-array** (hasta 2) | $(N / 2) \times S$ (50%) | Excelente lectura y escritura |
 
 ---
 

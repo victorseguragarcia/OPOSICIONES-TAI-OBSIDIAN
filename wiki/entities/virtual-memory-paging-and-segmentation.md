@@ -24,7 +24,7 @@ Mecanismo que permite a los programas ejecutar con un espacio de direccionamient
 
 ## 🏛️ Componentes y Algoritmos de Reemplazo
 
-- **Páginas y Marcos**: Páginas lógicas de tamaño fijo ($4	ext{ KB}$) mapeadas a marcos físicos mediante la **Tabla de Páginas** y aceleradas por la **TLB**.
+- **Páginas y Marcos**: Páginas lógicas de tamaño fijo ($4\text{ KB}$) mapeadas a marcos físicos mediante la **Tabla de Páginas** y aceleradas por la **TLB**.
 - **Algoritmos de Reemplazo**: **FIFO** (sufre la anomalía de Belady), **LRU** (menos recientemente usada), **Óptimo de Belady** y **Reloj** (segunda oportunidad).
 
 ---

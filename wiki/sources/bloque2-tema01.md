@@ -30,8 +30,8 @@ Resumen procesado y profundizado a partir de la fuente oficial [[raw/sources/blo
 ## 📖 1. Unidades de Medida y Sistemas de Numeración
 
 - **Unidades de Medida (SI vs IEC)**:
-  - Sistema Internacional (decimal): $1	ext{ KB} = 10^3 = 1.000	ext{ bytes}$, $1	ext{ MB} = 10^6	ext{ bytes}$, $1	ext{ GB} = 10^9	ext{ bytes}$.
-  - Estándar IEC (binario): $1	ext{ KiB} = 2^{10} = 1.024	ext{ bytes}$, $1	ext{ MiB} = 2^{20}	ext{ bytes}$, $1	ext{ GiB} = 2^{30}	ext{ bytes}$, $1	ext{ TiB} = 2^{40}	ext{ bytes}$.
+  - Sistema Internacional (decimal): $1\text{ KB} = 10^3 = 1.000\text{ bytes}$, $1\text{ MB} = 10^6\text{ bytes}$, $1\text{ GB} = 10^9\text{ bytes}$.
+  - Estándar IEC (binario): $1\text{ KiB} = 2^{10} = 1.024\text{ bytes}$, $1\text{ MiB} = 2^{20}\text{ bytes}$, $1\text{ GiB} = 2^{30}\text{ bytes}$, $1\text{ TiB} = 2^{40}\text{ bytes}$.
 - **Sistemas de Numeración**: Binario (base 2), Octal (base 8: grupos de 3 bits), Decimal (base 10) y Hexadecimal (base 16: grupos de 4 bits).
 
 ---
@@ -41,19 +41,17 @@ Resumen procesado y profundizado a partir de la fuente oficial [[raw/sources/blo
 ### A. Representación de Enteros con Signo ($n$ bits):
 1. **Signo y Magnitud (SM)**: Bit más significativo (MSB) para el signo ($0$ positivo, $1$ negativo). Rango: $[-(2^{n-1}-1), +(2^{n-1}-1)]$. Doble cero ($+0$ y $-0$).
 2. **Complemento a 1 (C1)**: Se invierten todos los bits para números negativos. Doble cero ($+0$ y $-0$).
-3. **Complemento a 2 (C2)**: Estándar universal. Se calcula invirtiendo los bits y sumando $1$ ($	ext{C2}(x) = \overline{x} + 1 = 2^n - |x|$).
+3. **Complemento a 2 (C2)**: Estándar universal. Se calcula invirtiendo los bits y sumando $1$ ($\text{C2}(x) = \overline{x} + 1 = 2^n - |x|$).
    - Rango: $[-2^{n-1}, +(2^{n-1}-1)]$. **Cero único** ($00...0$). Para 8 bits: $[-128, +127]$.
 
 ### B. Coma Flotante Estándar IEEE 754:
-$$N = (-1)^S 	imes 1.M 	imes 2^{E - 	ext{Sesgo}}$$
+$$N = (-1)^S \times 1.M \times 2^{E - \text{Sesgo}}$$
 - **Simple Precisión (32 bits)**: 1 bit de signo ($S$), **8 bits de exponente ($E$)** con sesgo **127**, y **23 bits de mantisa ($M$)**.
 - **Doble Precisión (64 bits)**: 1 bit de signo ($S$), **11 bits de exponente ($E$)** con sesgo **1023**, y **52 bits de mantisa ($M$)**.
 - **Valores Especiales**:
   - Exponente todo 1s y Mantisa 0: **$\pm\infty$** (Infinito).
-  - Exponente todo 1s y Mantisa $
-e 0$: **NaN** (*Not a Number*).
-  - Exponente todo 0s y Mantisa $
-e 0$: **Números desnormalizados** (sin el 1 implícito).
+  - Exponente todo 1s y Mantisa $\ne 0$: **NaN** (*Not a Number*).
+  - Exponente todo 0s y Mantisa $\ne 0$: **Números desnormalizados** (sin el 1 implícito).
 
 ---
 

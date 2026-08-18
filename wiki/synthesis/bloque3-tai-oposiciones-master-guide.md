@@ -60,9 +60,12 @@ Compendio estructurado de estudio para el **Bloque 3**, abarcando el ciclo de vi
 ### A. Normalización Relacional (1FN a 5FN y BCNF)
 - **1FN**: Valores atómicos, sin grupos repetitivos.
 - **2FN**: 1FN + Todo atributo no primo tiene **dependencia funcional completa** de toda la clave (elimina dependencias parciales en claves compuestas).
-- **3FN**: 2FN + Ningún atributo no primo depende transitivamente de la clave ($X ightarrow Y ightarrow Z$).
-- **BCNF (Boyce-Codd)**: Para toda dependencia funcional $X ightarrow A$, $X$ debe ser superclave.
-- **4FN**: Elimina dependencias multivaluadas independientes ($X 	woheadrightarrow Y$).
+- **3FN**: 2FN + Ningún atributo no primo depende transitivamente de la clave ($X 
+ightarrow Y 
+ightarrow Z$).
+- **BCNF (Boyce-Codd)**: Para toda dependencia funcional $X 
+ightarrow A$, $X$ debe ser superclave.
+- **4FN**: Elimina dependencias multivaluadas independientes ($X \twoheadrightarrow Y$).
 - **5FN**: Elimina dependencias de reunión (*join dependencies*).
 
 ---

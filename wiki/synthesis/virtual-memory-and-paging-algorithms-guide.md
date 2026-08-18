@@ -25,9 +25,9 @@ Manual de resolución de problemas de traducción de direcciones virtuales, tabl
 
 ## 📐 1. Estructura de Dirección Virtual
 
-$$	ext{Dirección Virtual} = 	ext{Número de Página (p)} \mathbin{\Vert} 	ext{Desplazamiento (d)}$$
-- Con páginas de $4	ext{ KB} = 2^{12}	ext{ bytes}$, el desplazamiento $d$ ocupa **12 bits**.
-- Si el bus de direcciones es de 32 bits, el número de página $p$ ocupa **20 bits** ($2^{20} = 1.048.576	ext{ páginas}$).
+$$\text{Dirección Virtual} = \text{Número de Página (p)} \mathbin{\Vert} \text{Desplazamiento (d)}$$
+- Con páginas de $4\text{ KB} = 2^{12}\text{ bytes}$, el desplazamiento $d$ ocupa **12 bits**.
+- Si el bus de direcciones es de 32 bits, el número de página $p$ ocupa **20 bits** ($2^{20} = 1.048.576\text{ páginas}$).
 
 ---
 

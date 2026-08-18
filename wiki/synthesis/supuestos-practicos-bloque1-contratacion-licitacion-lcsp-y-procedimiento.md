@@ -30,7 +30,7 @@ Cuaderno de resolución técnica y jurídica de supuestos prácticos de la Parte
 La Secretaría General Técnica de un Departamento Ministerial precisa contratar el **desarrollo, migración e implantación de un nuevo Sistema de Información de Tramitación Electrónica** para adaptarlo a las Normas Técnicas de Interoperabilidad (NTI) del ENI.
 
 ### Datos del Proyecto:
-1. **Presupuesto Base de Licitación (PBL)**: $150.000	ext{ €}$ (sin IVA) / $181.500	ext{ €}$ (con IVA del 21%).
+1. **Presupuesto Base de Licitación (PBL)**: $150.000\text{ €}$ (sin IVA) / $181.500\text{ €}$ (con IVA del 21%).
 2. **Duración del Contrato**: 12 meses, previéndose una posible prórroga de hasta 12 meses más.
 3. **Modificaciones Previstas**: Hasta un máximo del $20\%$ del PBL inicial.
 4. **Perfil del Contratante**: Alojado en la Plataforma de Contratación del Sector Público (**PLACSP**).
@@ -44,17 +44,17 @@ Calcule el **Valor Estimado del Contrato (VEC)** según el artículo 101 de la L
 
 > [!question]- 🔍 Solución Detallada Pregunta 1
 > **1. Fórmula del Valor Estimado (Art. 101 LCSP)**:
-> $$	ext{VEC} = 	ext{PBL (sin IVA)} + 	ext{Prórrogas (sin IVA)} + 	ext{Modificaciones Previstas (sin IVA)} + 	ext{Primas/Premios}$$
+> $$\text{VEC} = \text{PBL (sin IVA)} + \text{Prórrogas (sin IVA)} + \text{Modificaciones Previstas (sin IVA)} + \text{Primas/Premios}$$
 > 
-> - PBL inicial (12 meses): $150.000	ext{ €}$
-> - Prórroga prevista (12 meses): $150.000	ext{ €}$
-> - Modificación máxima ($20\%$ de $150.000	ext{ €}$): $30.000	ext{ €}$
+> - PBL inicial (12 meses): $150.000\text{ €}$
+> - Prórroga prevista (12 meses): $150.000\text{ €}$
+> - Modificación máxima ($20\%$ de $150.000\text{ €}$): $30.000\text{ €}$
 > 
-> $$\mathbf{	ext{VEC}} = 150.000 + 150.000 + 30.000 = \mathbf{330.000	ext{ €}}$$
+> $$\mathbf{\text{VEC}} = 150.000 + 150.000 + 30.000 = \mathbf{330.000\text{ €}}$$
 > 
 > **2. Sujeción a Regulación Armonizada (SARA - Art. 21 LCSP)**:
-> - Para contratos de **Servicios adjudicados por la Administración General del Estado**, el umbral SARA es de **$143.000	ext{ €}$** (bienio 2024-2025 / Orden HFP).
-> - Como $	ext{VEC} = 330.000	ext{ €} \ge 143.000	ext{ €}$, el contrato está **SUJETO A REGULACIÓN ARMONIZADA (SARA)**.
+> - Para contratos de **Servicios adjudicados por la Administración General del Estado**, el umbral SARA es de **$143.000\text{ €}$** (bienio 2024-2025 / Orden HFP).
+> - Como $\text{VEC} = 330.000\text{ €} \ge 143.000\text{ €}$, el contrato está **SUJETO A REGULACIÓN ARMONIZADA (SARA)**.
 > - **Consecuencia**: Exige publicación obligatoria en el **DOUE** (Diario Oficial de la Unión Europea) además del BOE y PLACSP.
 
 ---
@@ -65,7 +65,7 @@ Determine los importes de la **Garantía Provisional** y **Garantía Definitiva*
 > [!question]- 🔍 Solución Detallada Pregunta 2
 > **1. Garantía Provisional (Art. 106 LCSP)**:
 > - Carácter excepcional (solo si se justifica expresamente en el pliego).
-> - Máximo: **$3\%$ del Presupuesto Base de Licitación (sin IVA)** $= 0,03 	imes 150.000	ext{ €} = \mathbf{4.500	ext{ €}}$.
+> - Máximo: **$3\%$ del Presupuesto Base de Licitación (sin IVA)** $= 0,03 \times 150.000\text{ €} = \mathbf{4.500\text{ €}}$.
 > 
 > **2. Garantía Definitiva (Art. 107 LCSP)**:
 > - Obligatoria para el licitador que presente la mejor oferta.
@@ -82,7 +82,7 @@ Una empresa licitadora excluida desea impugnar los Pliegos de Cláusulas Adminis
 
 > [!question]- 🔍 Solución Detallada Pregunta 3
 > **1. Recurso Especial en Materia de Contratación (REMC - Art. 44 LCSP)**:
-> - Procede contra los pliegos de contratos de servicios con $	ext{VEC} > 100.000	ext{ €}$ (en este caso $330.000	ext{ €}$).
+> - Procede contra los pliegos de contratos de servicios con $\text{VEC} > 100.000\text{ €}$ (en este caso $330.000\text{ €}$).
 > - Órgano competente en el ámbito de la AGE: **Tribunal Administrativo Central de Recursos Contractuales (TACRC)**.
 > - **Plazo de Interposición**: **15 días hábiles** a contar desde la publicación de los pliegos en el perfil del contratante.
 > - **Efecto de la Interposición**: Si se recurre el acto de adjudicación, la suspensión del expediente es **automática** hasta la resolución del TACRC.
