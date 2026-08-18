@@ -1,15 +1,17 @@
 ---
-title: "Resumen Completo Tema 08 (Bloque 1): Régimen Jurídico del Sector Público y Administración Digital (Ley 40/2015)"
+title: "Resumen Completo y Profundo Tema 08 (Bloque 1): Régimen Jurídico del Sector Público y Administración Digital (Ley 40/2015)"
 type: "synthesis"
 tags:
   - resumen
-  - resumen-completo
+  - resumen-profundo
+  - temario-completo
   - bloque-1
   - tema-08
 estado: "🔴 Pendiente"
 dificultad: "⭐⭐⭐"
 prioridad: "Alta"
 sources:
+  - "[[raw/sources/bloque1-tema08.md]]"
   - "[[wiki/sources/bloque1-tema08]]"
 created: "2026-08-18"
 updated: "2026-08-18"
@@ -17,79 +19,51 @@ updated: "2026-08-18"
 
 > [[wiki/synthesis/resumenes/bloque-1-administracion/resumen-bloque1-tema07|⬅️ Tema 07]] &nbsp;|&nbsp; [[wiki/synthesis/resumenes/resumen-maestro-bloque1|🏠 Índice Bloque 1]] &nbsp;|&nbsp; [[wiki/synthesis/resumenes/bloque-1-administracion/resumen-bloque1-tema09|Tema 09 ➡️]]
 
-# 🔴 Resumen Completo Tema 08 (Bloque 1): Régimen Jurídico del Sector Público y Administración Digital (Ley 40/2015)
+# 🔴 Resumen Completo y Profundo Tema 08 (Bloque 1): Régimen Jurídico del Sector Público y Administración Digital (Ley 40/2015)
 
-> [!repaso] ⚡ **Puntos Clave y Objetivos de Examen del Tema 08**
-> Guía completa y exhaustiva que recopila todos los conceptos teóricos, marco legal/normativo, tablas técnicas, comandos y casos de examen oficiales de este tema.
-
----
-
-## 🟣 1. Desarrollo Temático Completo y Exhaustivo
-
-# 🔴 Resumen Fuente: Bloque 1 - Tema 08: Ley 40/2015 (LRJSP) y Administración Digital
-
-Resumen exhaustivo de las Unidades Didácticas **UD012192** y **UD012193** sobre la Ley 40/2015 de Régimen Jurídico del Sector Público, la organización central y territorial de la AGE, funcionamiento electrónico de órganos colegiados, convenios administrativos, el Esquema Nacional de Interoperabilidad (**ENI RD 4/2010**) y el catálogo de servicios comunes de administración digital.
+> [!repaso] ⚡ **Puntos Clave y Objetivos Oficiales del Tema 08**
+> Guía completa y exhaustiva que recopila todo el temario oficial, marco legal/normativo, detalles de arquitectura, tablas de datos críticos, protocolos, comandos de consola y casos prácticos.
 
 ---
 
-## 🗺️ 1. Organización Central de la AGE (Arts. 55 a 68 LRJSP)
+## 🟣 1. Desarrollo Temático Completo e Íntegro
 
-| Nivel Jerárquico | Denominación del Órgano | Categoría / Requisito | Nombramiento |
-|:---|:---|:---|:---|
-| **Órganos Superiores** | **Ministros** y **Secretarios de Estado** | Miembros del Gobierno (Ministros) / Altos Cargos | Real Decreto del Presidente (Ministros) / Consejo de Ministros (Secretarios de Estado). |
-| **Órganos Directivos** | **Subsecretarios** y **Secretarios Generales Técnicos (SGT)** | Rango de Subsecretario. Requiere ser **funcionario de carrera del Subgrupo A1**. | Real Decreto del Consejo de Ministros a propuesta del Ministro. |
-| **Órganos Directivos** | **Directores Generales (DG)** | Funcionario A1 (salvo excepciones motivadas en el RD de estructura). | Real Decreto del Consejo de Ministros. |
-| **Órganos Directivos** | **Subdirectores Generales (SG)** | Funcionario A1 con más de 2 años de antigüedad. | Libre designación por el Ministro o Secretario de Estado. |
+## 1. Estructura y Principios Generales de la Ley 40/2015, de 1 de octubre
+Consta de 158 artículos estructurados en 1 Título Preliminar y 3 Títulos numerados, 22 Disposiciones Adicionales, 4 Disposiciones Transitorias, 1 Disposición Derogatoria y 18 Disposiciones Finales.
+- **Principios Generales de Actuación (Art. 3)**: Eficacia, jerarquía, descentralización, desconcentración, coordinación, cooperación y colaboración, transparencia, servicio efectivo a los ciudadanos, simplicidad y racionalidad organizativa, buena fe y confianza legítima.
+- **Principio de Personalidad Jurídica (Art. 3.4)**: Cada una de las Administraciones Públicas actúa para el cumplimiento de sus fines con personalidad jurídica única.
 
-> [!trampa] ⚠️ Trampa Clásica de Examen
-> Los **Subdirectores Generales** son órganos directivos, pero **NO son Altos Cargos** (su nombramiento no se aprueba por Real Decreto en Consejo de Ministros, sino por orden ministerial de libre designación).
+## 2. Funcionamiento Electrónico del Sector Público (Art. 38 a 46)
+- **Sede Electrónica (Art. 38)**: Dirección electrónica disponible para los ciudadanos a través de redes de telecomunicaciones cuya titularidad corresponde a una Administración Pública. Garantiza identificación, integridad y confidencialidad mediante certificados electrónicos de sede.
+- **Portal de Internet (Art. 39)**: Punto de acceso electrónico que permite el acceso a información y sedes electrónicas.
+- **Punto de Acceso General Electrónico (PAGe - Art. 40)**: Facilita el acceso a los servicios, trámites e información de la AGE.
+- **Actuación Administrativa Automatizada (Art. 41)**: Cualquier acto o actuación realizada íntegramente a través de medios electrónicos por una Administración en el marco de un procedimiento, sin intervención directa de una persona física. Requiere definición previa de órganos competentes y sistemas de firma (Sello electrónico de órgano o Código Seguro de Verificación - CSV).
+- **Esquema Nacional de Interoperabilidad (ENI - Art. 45)** y **Esquema Nacional de Seguridad (ENS - Art. 46)**: Marcos de obligado cumplimiento para garantizar la interoperabilidad técnica, semántica y organizativa, y la seguridad integral de los sistemas y datos.
 
----
+## 3. Órganos Colegiados (Art. 15 a 24)
+- Formados por 3 o más miembros.
+- **Régimen de Funcionamiento**:
+  - Convocatoria: Remitida por el Secretario con antelación mínima de 2 días salvo urgencia, incluyendo el Orden del Día.
+  - Quórum para válidamente constituirse: Presencia del Presidente y Secretario (o sustitutos) y de al menos la mitad de los miembros.
+  - Votaciones: Mayoría simple. El Presidente ostenta voto de calidad en caso de empate. Los miembros no pueden abstenerse en las votaciones si ostentan la condición de autoridades o personal al servicio de las AAPP por razón de su cargo.
+  - **Acta de la Sesión**: Redactada por el Secretario, aprobada en la misma o en la siguiente sesión.
 
-## 🟣 2. Funcionamiento Electrónico de Órganos Colegiados (Arts. 15 a 19 LRJSP)
-- Los órganos colegiados pueden constituirse, celebrar sesiones, adoptar acuerdos y redactar actas a distancia por medios electrónicos (audioconferencia o videoconferencia).
-- **Adopción de acuerdos**: Se entenderán adoptados en el lugar donde tenga la sede el órgano colegiado o, en su defecto, donde esté ubicada la presidencia.
-- **Actas Electrónicas**: El acta podrá ser grabada en soporte digital audiovisual. El fichero resultante, acompañado de la **firma electrónica del Secretario**, constituirá el acta oficial de la sesión.
-
----
-
-## 🟣 3. Convenios Administrativos (Arts. 47 a 53 LRJSP)
-- **Eficacia**: Los convenios se perfeccionan por la prestación del consentimiento de las partes y resultarán eficaces una vez inscritos en el **Registro Electrónico estatal de Órganos e Instrumentos de Cooperación (REOICO)** y publicados en el BOE.
-- **Plazo de Duración**: Tendrán un plazo determinado que **no podrá ser superior a 4 años**, prorrogable expresamente por un período de hasta **4 años adicionales**.
-
----
-
-## 🟣 4. Esquema Nacional de Interoperabilidad (ENI - RD 4/2010) y Servicios Comunes
-
-### A. Normas Técnicas de Interoperabilidad (NTIs)
-1. **NTI de Documento Electrónico**: Metadatos mínimos obligatorios, contenido firmado en base64, formato XML y firma en formatos **XAdES, CAdES o PAdES**.
-2. **NTI de Expediente Electrónico**: Conjunto de documentos electrónicos foliados mediante un **índice electrónico autenticado**, metadatos del expediente y firma del índice.
-3. **NTI de Digitalización Certificada**: Generación de copia digital fiel a partir de soporte papel con resolución mínima de **200 ppp** e inclusión de metadatos NTI.
-
-### B. Catálogo de Servicios e Infraestructuras Comunes de la AGE:
-- **Red SARA**: Intranet segura de interconexión de todas las administraciones españolas conectada a **sTESTA** europea.
-- **SIR (Sistema de Interconexión de Registros)**: Transmisión electrónica de asientos registrales entre sedes y oficinas bajo estándar **SICRES 3.0**.
-- **GEISER y ORVE**: Aplicaciones de registro electrónico centralizado y ventanilla única.
-- **Plataforma de Intermediación de Datos (PID)**: Consulta y verificación telemática de certificados (identidad, IRPF, empadronamiento, estar al corriente con SS/AEAT) para no exigir documentos al ciudadano.
-- **FACe**: Punto General de Entrada de Facturas Electrónicas (*Facturae 3.2.x*).
-- **INSIDE y ARCHIVE**: Gestión del ciclo de vida, transferencia y preservación digital a largo plazo de expedientes según el modelo **OAIS (ISO 14721)**.
-
----
-
-## 🔵 5. Entidades y Conceptos Asociados
-- [[wiki/entities/ley-40-2015-lrjsp|Ley 40/2015 LRJSP]]
-- [[wiki/entities/esquema-nacional-interoperabilidad-eni|Esquema Nacional de Interoperabilidad (ENI)]]
-- [[wiki/entities/servicios-comunes-administracion-electronica|Servicios Comunes de Administración Electrónica]]
-- [[wiki/synthesis/gestion-documento-y-expediente-electronico-eni-guia|Guía de Documento y Expediente Electrónico NTI]]
-- [[wiki/tests/temas/test-bloque1-tema08-lrjsp-admon-digital|Test Tema 08: LRJSP y Administración Digital]]
+## 4. La Responsabilidad Patrimonial de las Administraciones Públicas (Art. 32 a 37)
+- **Principio General (Art. 32.1 y Art. 106.2 CE)**: Los particulares tendrán derecho a ser indemnizados por las Administraciones Públicas de toda lesión que sufran en cualquiera de sus bienes y derechos, salvo en los casos de fuerza mayor, siempre que la lesión sea consecuencia del funcionamiento normal o anormal de los servicios públicos.
+- **Requisitos de la Responsabilidad**:
+  1. Daño efectivo, evaluable económicamente e individualizado con relación a una persona o grupo de personas.
+  2. El daño no debe ser deber jurídico del particular de soportarlo de acuerdo con la Ley.
+  3. Relación de causalidad directa e inmediata entre el funcionamiento del servicio público y la lesión.
+- **Plazo de Prescripción del Derecho a Reclamar (Art. 67 Ley 39/2015)**: **1 año** desde que se produjo el hecho lesivo o desde la curación o determinación del alcance de las secuelas (en daños físicos/psíquicos).
+- **Responsabilidad Concurrente de varias AAPP**: Solidaria cuando derive de fórmulas conjuntas de actuación.
 
 ---
 
 ## 🔵 2. Enlaces de Autoevaluación y Recursos de Estudio
-- 📖 **Fuente Oficial Íntegra**: [[wiki/sources/bloque1-tema08|Nota Fuente del Tema 08]]
-- 📝 **Test Interactivo del Tema (10 Preguntas)**: [[wiki/tests/temas/test-bloque1-tema08-lrjsp-admon-digital|Test Tema 08]]
+- 📖 **Nota Fuente Oficial**: [[wiki/sources/bloque1-tema08|Fuente Oficial del Tema 08]]
+- 📝 **Test Interactivo de Examen (10 Preguntas)**: [[wiki/tests/temas/test-bloque1-tema08-lrjsp-admon-digital|Test Tema 08]]
 - 🃏 **Tarjetas de Memoria Rápida**: [[wiki/synthesis/tarjetas-memoria-flashcards-bloque1-administracion|Mazo Flashcards Bloque 1]]
-- 🏠 **Índice del Bloque**: [[wiki/synthesis/resumenes/resumen-maestro-bloque1|Resumen Maestro Bloque 1]]
+- 🏠 **Portada e Índice del Bloque**: [[wiki/synthesis/resumenes/resumen-maestro-bloque1|Resumen Maestro Bloque 1]]
 
 ---
 

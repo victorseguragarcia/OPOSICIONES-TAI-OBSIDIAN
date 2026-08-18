@@ -1,15 +1,17 @@
 ---
-title: "Resumen Completo Tema 05 (Bloque 1): El Régimen Jurídico del Empleado Público y el TREBEP"
+title: "Resumen Completo y Profundo Tema 05 (Bloque 1): El Régimen Jurídico del Empleado Público y el TREBEP"
 type: "synthesis"
 tags:
   - resumen
-  - resumen-completo
+  - resumen-profundo
+  - temario-completo
   - bloque-1
   - tema-05
 estado: "🔴 Pendiente"
 dificultad: "⭐⭐⭐"
 prioridad: "Alta"
 sources:
+  - "[[raw/sources/bloque1-tema05.md]]"
   - "[[wiki/sources/bloque1-tema05]]"
 created: "2026-08-18"
 updated: "2026-08-18"
@@ -17,93 +19,73 @@ updated: "2026-08-18"
 
 > [[wiki/synthesis/resumenes/bloque-1-administracion/resumen-bloque1-tema04|⬅️ Tema 04]] &nbsp;|&nbsp; [[wiki/synthesis/resumenes/resumen-maestro-bloque1|🏠 Índice Bloque 1]] &nbsp;|&nbsp; [[wiki/synthesis/resumenes/bloque-1-administracion/resumen-bloque1-tema06|Tema 06 ➡️]]
 
-# 🔴 Resumen Completo Tema 05 (Bloque 1): El Régimen Jurídico del Empleado Público y el TREBEP
+# 🔴 Resumen Completo y Profundo Tema 05 (Bloque 1): El Régimen Jurídico del Empleado Público y el TREBEP
 
-> [!repaso] ⚡ **Puntos Clave y Objetivos de Examen del Tema 05**
-> Guía completa y exhaustiva que recopila todos los conceptos teóricos, marco legal/normativo, tablas técnicas, comandos y casos de examen oficiales de este tema.
-
----
-
-## 🟣 1. Desarrollo Temático Completo y Exhaustivo
-
-# 🔴 Resumen Fuente: Bloque 1 - Tema 05: El Estatuto Básico del Empleado Público (TREBEP - RDL 5/2015)
-
-Resumen exhaustivo de la Unidad Didáctica **UD022580** sobre el Texto Refundido del Estatuto Básico del Empleado Público (**RDL 5/2015, de 30 de octubre**), tipologías de empleados públicos, carrera profesional, situaciones administrativas y régimen sancionador.
+> [!repaso] ⚡ **Puntos Clave y Objetivos Oficiales del Tema 05**
+> Guía completa y exhaustiva que recopila todo el temario oficial, marco legal/normativo, detalles de arquitectura, tablas de datos críticos, protocolos, comandos de consola y casos prácticos.
 
 ---
 
-## 🗺️ 1. Clases de Personal al Servicio de las Administraciones Públicas (Art. 8)
+## 🟣 1. Desarrollo Temático Completo e Íntegro
 
-| Clase de Empleado Público | Definición Legal (TREBEP) | Vínculo Jurídico | Régimen de Selección |
-|:---|:---|:---|:---|
-| **Funcionarios de Carrera** | Desempeñan servicios de carácter permanente, figuran en las correspondientes plantillas y perciben sueldos o asignaciones fijas. | **Relación estatutaria** regulada por el Derecho Administrativo. | Oposición o Concurso-Oposición (mérito, capacidad, igualdad y publicidad). |
-| **Funcionarios Interinos** | Nombrados por razones expresamente justificadas de necesidad y urgencia (máx. **3 años** por vacante). | Relación estatutaria temporal de Derecho Administrativo. | Procedimientos ágiles respetando igualdad, mérito y publicidad. |
-| **Personal Laboral** | Prestan servicios retribuidos en virtud de contrato de trabajo (fijo, por tiempo indefinido o temporal). | **Contrato de trabajo** (Estatuto de los Trabajadores y convenios colectivos). | Oposición, Concurso-Oposición o Concurso (solo en casos excepcionales por ley). |
-| **Personal Eventual** | Realiza funciones expresamente calificadas como de **confianza o asesoramiento especial**. Nombramiento y cese libres. | Relación administrativa no permanente. No genera mérito para acceso a la función pública. | Nombramiento libre por los órganos de gobierno (Ministros, Consejeros, Alcaldes). |
-| **Personal Directivo Profesional** | Desarrolla funciones directivas profesionales según el art. 13 TREBEP. | Sujeto a evaluación de eficacia, eficiencia y control de resultados. | Convocatoria pública y evaluación de competencias. |
+## 1. Clases de Personal al Servicio de las Administraciones Públicas (Art. 8 a 13 TREBEP)
+- **Funcionarios de Carrera (Art. 9)**: Quienes, en virtud de nombramiento legal, están vinculados a una Administración Pública por una relación estatutaria regulada por el Derecho Administrativo para el desempeño de servicios profesionales retribuidos de carácter permanente. En todo caso, el ejercicio de las funciones que impliquen la participación directa o indirecta en el ejercicio de las potestades públicas o en la salvaguardia de los intereses generales del Estado corresponden exclusivamente a los funcionarios públicos.
+- **Funcionarios Interinos (Art. 10)**: Nombrados por razones expresamente justificadas de necesidad y urgencia para plazas vacantes (máximo 3 años), sustitución transitoria de titulares, ejecución de programas temporales (máx 3 años ampliable 12 meses) o exceso/acumulación de tareas (máx 9 meses en 18 meses).
+- **Personal Laboral (Art. 11)**: En virtud de contrato de trabajo formalizado por escrito en cualquiera de las modalidades previstas en la legislación laboral (Fijo, Por tiempo indefinido o Temporal).
+- **Personal Eventual (Art. 12)**: Nombramiento libre y cese libre para funciones expresamente calificadas como de **confianza o asesoramiento especial**. No constituye mérito para el acceso a la función pública.
+- **Personal Directivo Profesional (Art. 13)**: Desarrolla funciones directivas profesionales sujetas a evaluación de resultados.
 
-> [!important] ⚠️ Reserva Exclusiva a Funcionarios Públicos (Art. 9.2 TREBEP)
-> El ejercicio de las funciones que impliquen la **participación directa o indirecta en el ejercicio de las potestades públicas o en la salvaguardia de los intereses generales del Estado y de las Administraciones Públicas** corresponden **exclusivamente** a los funcionarios públicos.
+### Grupos de Clasificación Profesional de Funcionarios (Art. 76 y Disp. Transitoria 3ª):
+- **Grupo A**: Dividido en dos subgrupos:
+  - **Subgrupo A1**: Título universitario de Grado (Doctor, Licenciado, Grado). Funciones directivas, de gestión, inspección y control.
+  - **Subgrupo A2**: Título universitario de Grado (Diplomado, Grado). Funciones de gestión y ejecución.
+- **Grupo B**: Título de Técnico Superior (Formación Profesional de Grado Superior).
+- **Grupo C**: Dividido en dos subgrupos:
+  - **Subgrupo C1**: Título de Bachiller o Técnico (FP Grado Medio).
+  - **Subgrupo C2**: Título de Graduado en ESO.
+- Otras agrupaciones profesionales sin requisito de titulación (antiguo Grupo E).
 
----
+## 2. Derechos y Deberes de los Empleados Públicos
+- **Derechos Individuales (Art. 14)**: Inamovilidad en la condición de funcionario de carrera, carrera profesional y promoción interna, retribuciones justas, formación continua, vacaciones, permisos y licencias, jubilación.
+- **Derechos de Ejercicio Colectivo (Art. 15)**: Libertad sindical, huelga, negociación colectiva, reunión.
+- **Código de Conducta (Art. 52 a 54)**:
+  - *Principios Éticos (Art. 53)*: Lealtad a la Constitución, neutralidad política, eficacia, confidencialidad, no aceptación de regalos que superen usos habituales, dedicación al servicio público.
+  - *Principios de Conducta (Art. 54)*: Trato respetuoso, diligencia, austeridad en el uso de recursos públicos, obediencia a instrucciones legítimas de superiores (salvo orden manifiestamente ilegal, en cuyo caso se pondrá por escrito a conocimiento del superior).
 
-## 🟣 2. Situaciones Administrativas de los Funcionarios de Carrera (Arts. 85 a 92)
-
-1. **Servicio Activo (Art. 86)**:
-   - Prestan servicios en su puesto de trabajo de plantilla o en adscripción provisional. Gozan de todos los derechos y deberes inherentes a su condición.
-2. **Servicios Especiales (Art. 87)**:
-   - Supuestos tasados: Miembros del Gobierno, Secretarios de Estado, parlamentarios, cargos electos retribuidos en Corporaciones Locales, miembros del TC, CGPJ, Defensor del Pueblo, funcionarios en organismos internacionales o UE.
-   - **Efectos**: Se les **reserva la plaza y destino** que ocupaban, y se les computa el tiempo a efectos de **trienios, carrera profesional y derechos pasivos**.
-3. **Servicio en otras Administraciones Públicas (Art. 88)**:
-   - Obtenido por procesos de provisión de puestos o transferencias autonómicas.
+## 3. Situaciones Administrativas de los Funcionarios de Carrera (Art. 85 a 92)
+1. **Servicio Activo (Art. 86)**: Desempeño de puesto de trabajo propio de su cuerpo/escala. Gozan de todos los derechos y deberes.
+2. **Servicios Especiales (Art. 87)**: Nombramiento como miembros del Gobierno, Ministros, Secretarios de Estado, Diputados, Senadores, miembros del TC, CGPJ, puestos en organismos internacionales o gabinete de Ministros. **Computa tiempo a efectos de trienios, carrera y derechos pasivos**. Reserva de plaza en la misma localidad y retribuciones del puesto desempeñado.
+3. **Servicio en otras Administraciones Públicas (Art. 88)**: Transferencias autonómicas o provisión de puestos por concurso/libre designación en otra Administración.
 4. **Excedencias (Art. 89)**:
-   - **Por Interés Particular**: Requiere haber prestado servicios efectivos durante un período mínimo de **2 años** inmediatamente anteriores. Duración mínima tasada según cada Administración. **NO** devenga retribuciones ni computa para trienios, promoción ni reserva de puesto de trabajo.
-   - **Por Agrupación Familiar**: Sin requisito de servicios previos si el cónyuge reside en otro municipio con puesto de trabajo definitivo en cualquier AAPP.
-   - **Por Cuidado de Familiares**:
-     - *Hijos*: Duración no superior a **3 años** por cada hijo.
-     - *Familiares hasta 2º grado*: Duración no superior a **3 años**.
-     - *Efectos*: Cómputo total a efectos de trienios, carrera y seguridad social. **Reserva del puesto de trabajo durante los 2 primeros años** (después, reserva a puesto en la misma localidad y de igual nivel).
-   - **Por Razón de Violencia de Género**: Sin tiempo mínimo de servicios. Los **6 primeros meses** con reserva de puesto y derecho a percibir retribuciones íntegras.
-   - **Por Razón de Violencia Terrorista**: Mismo régimen garantista de protección.
+   - *Por interés particular*: Exige haber prestado servicios efectivos durante un mínimo de **5 años** inmediatamente anteriores. Duración mínima continuada de **2 años**. No devenga retribuciones ni computa para trienios ni carrera.
+   - *Por agrupación familiar*: Cónyuge reside en otra localidad por haber obtenido puesto definitivo en cualquier Administración. Sin requisito de tiempo previo. No devenga retribuciones ni computa.
+   - *Por cuidado de familiares*: Cuidado de cada hijo (máximo **3 años** desde nacimiento/adopción) o familiar hasta 2º grado por consanguinidad/afinidad que no pueda valerse por sí mismo (máximo **3 años**). **Computa a efectos de trienios, carrera y derechos pasivos**. Reserva del puesto de trabajo durante los primeros **2 años** (el 3º año reserva de puesto en la misma localidad y de igual nivel).
+   - *Por razón de violencia de género / terrorismo*: Sin tiempo mínimo. Primeros **6 meses** con reserva del puesto y derecho a percibir retribuciones íntegras.
 5. **Suspensión de Funciones (Art. 90)**:
-   - **Provisional**: Dictada en procedimiento judicial o disciplinario. Duración máxima: **6 meses** (salvo paralización imputable al interesado). Percibe retribuciones básicas.
-   - **Firme**: Impuesta por condena penal o sanción disciplinaria grave/muy grave. Duración máxima: **6 años**. Pérdida del puesto de trabajo durante el tiempo de suspensión.
+   - *Provisional*: Durante tramitación de proceso penal o disciplinario. Máximo **6 meses** (salvo paralización imputable al funcionario). Percibe retribuciones básicas (sueldo y trienios).
+   - *Firme*: Por condena penal o sanción disciplinaria. No puede exceder de **6 años**. Pérdida del puesto de trabajo si excede de 6 meses.
 
----
-
-## 🟣 3. Régimen Disciplinario: Faltas y Prescripciones (Arts. 93 a 98)
-
-### A. Tipología de Faltas Disciplinarias (Art. 95)
-- **Faltas Muy Graves (Art. 95.2)**: Incumplimiento del deber de fidelidad a la Constitución, discriminación por razón de sexo, raza, religión; abandono del servicio; adopción de acuerdos manifiestamente ilegales que causen perjuicio grave; publicación indebida de secretos oficiales; notoria falta de rendimiento; acoso laboral o sexual.
-- **Faltas Graves y Leves**: Tipificadas por las leyes de Función Pública de desarrollo.
-
-### B. Plazos de Prescripción de Faltas y Sanciones (Art. 97)
-
-| Gravedad de la Infracción | Prescripción de la Falta | Prescripción de la Sanción Impuesta |
-|:---|:---:|:---:|
-| **Falta Muy Grave** | **3 años** | **3 años** |
-| **Falta Grave** | **2 años** | **2 años** |
-| **Falta Leve** | **6 meses** | **1 año** |
-
-> [!mnemo] 🧠 Mnemotecnia de Prescripción Disciplinaria TREBEP
-> - **Faltas**: 3 años (Muy Grave) $\rightarrow$ 2 años (Grave) $\rightarrow$ 6 meses (Leve). *(3 - 2 - 0.5)*
-> - **Sanciones**: 3 años (Muy Grave) $\rightarrow$ 2 años (Grave) $\rightarrow$ 1 año (Leve). *(3 - 2 - 1)*
-
----
-
-> [!trampa] ⚠️ Trampas Frecuentes de Examen: TREBEP y Personal
-> 1. **Diferencia de Plazo en Prescripciones Leves (Art. 97)**: La falta leve prescribe a los **6 meses**, pero la sanción leve prescribe al **1 año**. *(Muy graves: 3 años / 3 años; Graves: 2 años / 2 años)*.
-> 2. **Límite Temporal del Funcionario Interino por Vacante (Art. 10.1.a)**: Las plazas vacantes ocupadas por interinos **no pueden superar los 3 años**; transcurrido este plazo debe producirse el cese del interino y la plaza debe salir a oferta de empleo público.
-> 3. **Reserva de Potestades Públicas (Art. 9.2)**: El ejercicio de funciones que impliquen la participación directa o indirecta en el ejercicio de las potestades públicas o en la salvaguardia de los intereses generales del Estado corresponden **exclusivamente a los funcionarios públicos** (vetado al personal laboral).
-> 4. **Excedencia por Interés Particular (Art. 89.2)**: Requiere haber prestado servicios efectivos en cualquiera de las AAPP durante un periodo mínimo de **5 años** inmediatamente anteriores.
+## 4. Régimen Disciplinario (Art. 93 a 98)
+- **Faltas Muy Graves (Art. 95)**: Prescriben a los **3 años**. Entre ellas:
+  - Incumplimiento del deber de fidelidad a la Constitución en el ejercicio de la función pública.
+  - Discriminación por razón de sexo, raza, religión, discapacidad, orientación sexual.
+  - Abandono del servicio o no asunción de tareas encomendadas.
+  - Adopción de acuerdos manifiestamente ilegales que causen perjuicio grave.
+  - Publicación o utilización indebida de secretos oficiales o información reservada.
+  - Notoria falta de rendimiento continuada.
+  - Acoso laboral, sexual y por razón de sexo.
+- **Faltas Graves**: Prescriben a los **2 años**.
+- **Faltas Leves**: Prescriben a los **6 meses**.
+- **Sanciones Disciplinarias (Art. 96)**: Separación del servicio (solo para muy graves, priva de la condición de funcionario), despido disciplinario (personal laboral), suspensión firme de funciones (máximo 6 años), traslado forzoso con o sin cambio de localidad, demérito, apercibimiento.
+- **Prescripción de las Sanciones**: Sanciones muy graves prescriben a los **3 años**, graves a los **2 años**, leves al **1 año**.
 
 ---
 
 ## 🔵 2. Enlaces de Autoevaluación y Recursos de Estudio
-- 📖 **Fuente Oficial Íntegra**: [[wiki/sources/bloque1-tema05|Nota Fuente del Tema 05]]
-- 📝 **Test Interactivo del Tema (10 Preguntas)**: [[wiki/tests/temas/test-bloque1-tema05-trebep|Test Tema 05]]
+- 📖 **Nota Fuente Oficial**: [[wiki/sources/bloque1-tema05|Fuente Oficial del Tema 05]]
+- 📝 **Test Interactivo de Examen (10 Preguntas)**: [[wiki/tests/temas/test-bloque1-tema05-trebep|Test Tema 05]]
 - 🃏 **Tarjetas de Memoria Rápida**: [[wiki/synthesis/tarjetas-memoria-flashcards-bloque1-administracion|Mazo Flashcards Bloque 1]]
-- 🏠 **Índice del Bloque**: [[wiki/synthesis/resumenes/resumen-maestro-bloque1|Resumen Maestro Bloque 1]]
+- 🏠 **Portada e Índice del Bloque**: [[wiki/synthesis/resumenes/resumen-maestro-bloque1|Resumen Maestro Bloque 1]]
 
 ---
 

@@ -1,15 +1,17 @@
 ---
-title: "Resumen Completo Tema 06 (Bloque 1): Políticas de Igualdad de Género y Contra la Violencia de Género"
+title: "Resumen Completo y Profundo Tema 06 (Bloque 1): Políticas de Igualdad de Género y Contra la Violencia de Género"
 type: "synthesis"
 tags:
   - resumen
-  - resumen-completo
+  - resumen-profundo
+  - temario-completo
   - bloque-1
   - tema-06
 estado: "🔴 Pendiente"
 dificultad: "⭐⭐⭐"
 prioridad: "Alta"
 sources:
+  - "[[raw/sources/bloque1-tema06.md]]"
   - "[[wiki/sources/bloque1-tema06]]"
 created: "2026-08-18"
 updated: "2026-08-18"
@@ -17,58 +19,41 @@ updated: "2026-08-18"
 
 > [[wiki/synthesis/resumenes/bloque-1-administracion/resumen-bloque1-tema05|⬅️ Tema 05]] &nbsp;|&nbsp; [[wiki/synthesis/resumenes/resumen-maestro-bloque1|🏠 Índice Bloque 1]] &nbsp;|&nbsp; [[wiki/synthesis/resumenes/bloque-1-administracion/resumen-bloque1-tema07|Tema 07 ➡️]]
 
-# 🔴 Resumen Completo Tema 06 (Bloque 1): Políticas de Igualdad de Género y Contra la Violencia de Género
+# 🔴 Resumen Completo y Profundo Tema 06 (Bloque 1): Políticas de Igualdad de Género y Contra la Violencia de Género
 
-> [!repaso] ⚡ **Puntos Clave y Objetivos de Examen del Tema 06**
-> Guía completa y exhaustiva que recopila todos los conceptos teóricos, marco legal/normativo, tablas técnicas, comandos y casos de examen oficiales de este tema.
-
----
-
-## 🟣 1. Desarrollo Temático Completo y Exhaustivo
-
-# 🔴 Resumen Fuente: Bloque 1 - Tema 06: Políticas de Igualdad de Género y Contra la Violencia de Género
-
-Resumen exhaustivo de la Unidad Didáctica **UD011320** sobre la Ley Orgánica 3/2007 para la igualdad efectiva de mujeres y hombres, la Ley Orgánica 1/2004 de Medidas de Protección Integral contra la Violencia de Género, políticas LGTBI (Ley 4/2023) y Discapacidad (RDL 1/2013).
+> [!repaso] ⚡ **Puntos Clave y Objetivos Oficiales del Tema 06**
+> Guía completa y exhaustiva que recopila todo el temario oficial, marco legal/normativo, detalles de arquitectura, tablas de datos críticos, protocolos, comandos de consola y casos prácticos.
 
 ---
 
-## 🗺️ 1. Ley Orgánica 3/2007: Igualdad Efectiva de Mujeres y Hombres
+## 🟣 1. Desarrollo Temático Completo e Íntegro
 
-### A. Principios Generales
-- **Discriminación Directa (Art. 6.1)**: Situación en que se encuentra una persona que sea, haya sido o pudiera ser tratada de manera menos favorable que otra en situación comparable por razón de sexo.
-- **Discriminación Indirecta (Art. 6.2)**: Situación en que una disposición, criterio o práctica aparentemente neutros pone a personas de un sexo en desventaja particular con respecto a personas del otro sexo, salvo que responda a una finalidad legítima y los medios sean proporcionados y necesarios.
-- **Acoso Sexual y Acoso por Razón de Sexo (Art. 7)**: Se consideran discriminatorios en todo caso. El condicionamiento de un derecho o expectativa a la aceptación de una situación de acoso se considerará también acto de discriminación.
-- **Acción Positiva (Art. 11)**: Medidas específicas a favor de las mujeres para corregir situaciones patentes de desigualdad de hecho respecto de los hombres.
+## 1. Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres
+- **Objeto (Art. 1)**: Hacer efectivo el derecho de igualdad de trato y de oportunidades entre mujeres y hombres, en particular mediante la eliminación de la discriminación de la mujer en cualesquiera de los ámbitos de la vida.
+- **Conceptos Clave**:
+  - **Discriminación Directa por Razón de Sexo (Art. 6.1)**: Situación en que se encuentra una persona que haya sido, sea o pudiera ser tratada de manera menos favorable que otra en situación comparable por razón de su sexo.
+  - **Discriminación Indirecta (Art. 6.2)**: Situación en que una disposición, criterio o práctica aparentemente neutros pone a personas de un sexo en desventaja particular con respecto a personas del otro, salvo que dicha disposición, criterio o práctica puedan justificarse objetivamente con una finalidad legítima.
+  - **Acoso Sexual (Art. 7.1)**: Cualquier comportamiento, verbal o físico, de naturaleza sexual que tenga el propósito o produzca el efecto de atentar contra la dignidad de una persona, en particular cuando se crea un entorno intimidatorio, degradante u ofensivo.
+  - **Acoso por Razón de Sexo (Art. 7.2)**: Cualquier comportamiento realizado en función del sexo de una persona con el propósito o el efecto de atentar contra su dignidad.
+  - **Acciones Positivas (Art. 11)**: Medidas específicas a favor de las mujeres para corregir situaciones patentes de desigualdad de hecho respecto de los hombres.
+- **Transversalidad del Principio de Igualdad (Mainstreaming - Art. 15)**: Principio informador que debe presidir con carácter transversal la actuación de todos los poderes públicos.
+- **Planes de Igualdad en las Empresas (Art. 45 y 46)**: Conjunto ordenado de medidas evaluables adoptadas tras realizar un diagnóstico de situación. Obligatorios para empresas de **50 o más trabajadores**.
+- **Presencia Equilibrada (Disposición Adicional 1ª)**: Presencia de mujeres y hombres de forma que ningún sexo supere el 60% ni sea inferior al 40%.
 
-### B. Planes de Igualdad en las Empresas (Art. 45 y RDL 6/2019)
-- **Obligatoriedad**: Empresas con **50 o más trabajadores**.
-- **Registro Obligatorio**: En el Registro de Convenios y Acuerdos Colectivos de Trabajo (**REGCON**).
-- **Diagnóstico Previo**: Auditoría retributiva, clasificación profesional, condiciones de trabajo, conciliación y prevención del acoso.
-
-### C. El Principio de Presencia Equilibrada (Disposición Adicional 1ª)
-- Presencia equilibrada de mujeres y hombres en órganos colegiados, comités de selección y directivas de modo que las personas de cada sexo **no superen el 60% ni sean menos del 40%**.
-
----
-
-## 🟣 2. Ley Orgánica 1/2004: Protección Integral contra la Violencia de Género
-
-### A. Concepto y Ámbito
-Violencia ejercida sobre las mujeres por parte de quienes sean o hayan sido sus **cónyuges o de quienes estén o hayan estado ligados a ellas por relaciones similares de afectividad, aun sin convivencia**.
-
-### B. Derechos de las Funcionarias Víctimas de Violencia de Género
-1. **Reducción o Reordenación de Jornada**: Con disminución proporcional de retribuciones o flexibilización de horarios.
-2. **Movilidad Geográfica y Traslado**: Derecho preferente al traslado a otro puesto de trabajo en distinta localidad de análogas características sin necesidad de vacante pública.
-3. **Excedencia por Violencia de Género**: Sin requisito de tiempo previo de servicios. Los **6 primeros meses** con reserva de plaza y derecho al cobro de retribuciones íntegras (prorrogable por períodos de 3 meses hasta un máximo de **18 meses**).
-
----
+## 2. Ley Orgánica 1/2004, de 28 de diciembre, de Medidas de Protección Integral contra la Violencia de Género
+- **Concepto de Violencia de Género (Art. 1)**: La violencia que, como manifestación de la discriminación, la situación de desigualdad y las relaciones de poder de los hombres sobre las mujeres, se ejerce sobre éstas por parte de quienes sean o hayan sido sus **cónyuges o de quienes estén o hayan estado ligados a ellas por relaciones similares de afectividad, aun sin convivencia**.
+- **Derechos de las Víctimas**:
+  - Derecho a la información, asistencia jurídica gratuita inmediata y atención psicológica integral.
+  - Derechos laborales: Reducción o reordenación del tiempo de trabajo, movilidad geográfica forzosa con reserva de puesto, suspensión del contrato de trabajo y extinción voluntaria con derecho a desempleo.
+- **Juzgados de Violencia sobre la Mujer (JVM)**: Órganos judiciales especializados dentro del orden jurisdiccional penal con competencias mixtas (penal y civil en procesos de familia vinculados).
 
 ---
 
 ## 🔵 2. Enlaces de Autoevaluación y Recursos de Estudio
-- 📖 **Fuente Oficial Íntegra**: [[wiki/sources/bloque1-tema06|Nota Fuente del Tema 06]]
-- 📝 **Test Interactivo del Tema (10 Preguntas)**: [[wiki/tests/temas/test-bloque1-tema06-igualdad|Test Tema 06]]
+- 📖 **Nota Fuente Oficial**: [[wiki/sources/bloque1-tema06|Fuente Oficial del Tema 06]]
+- 📝 **Test Interactivo de Examen (10 Preguntas)**: [[wiki/tests/temas/test-bloque1-tema06-igualdad|Test Tema 06]]
 - 🃏 **Tarjetas de Memoria Rápida**: [[wiki/synthesis/tarjetas-memoria-flashcards-bloque1-administracion|Mazo Flashcards Bloque 1]]
-- 🏠 **Índice del Bloque**: [[wiki/synthesis/resumenes/resumen-maestro-bloque1|Resumen Maestro Bloque 1]]
+- 🏠 **Portada e Índice del Bloque**: [[wiki/synthesis/resumenes/resumen-maestro-bloque1|Resumen Maestro Bloque 1]]
 
 ---
 

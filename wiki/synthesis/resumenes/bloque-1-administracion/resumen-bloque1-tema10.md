@@ -1,15 +1,17 @@
 ---
-title: "Resumen Completo Tema 10 (Bloque 1): Transparencia, Acceso a la Información y Buen Gobierno (Ley 19/2013)"
+title: "Resumen Completo y Profundo Tema 10 (Bloque 1): Transparencia, Acceso a la Información y Buen Gobierno (Ley 19/2013)"
 type: "synthesis"
 tags:
   - resumen
-  - resumen-completo
+  - resumen-profundo
+  - temario-completo
   - bloque-1
   - tema-10
 estado: "🔴 Pendiente"
 dificultad: "⭐⭐⭐"
 prioridad: "Alta"
 sources:
+  - "[[raw/sources/bloque1-tema10.md]]"
   - "[[wiki/sources/bloque1-tema10]]"
 created: "2026-08-18"
 updated: "2026-08-18"
@@ -17,74 +19,55 @@ updated: "2026-08-18"
 
 > [[wiki/synthesis/resumenes/bloque-1-administracion/resumen-bloque1-tema09|⬅️ Tema 09]] &nbsp;|&nbsp; [[wiki/synthesis/resumenes/resumen-maestro-bloque1|🏠 Índice Bloque 1]] &nbsp;|&nbsp; [[wiki/synthesis/resumenes/resumen-maestro-bloque1|🏁 Fin de Bloque ➡️]]
 
-# 🔴 Resumen Completo Tema 10 (Bloque 1): Transparencia, Acceso a la Información y Buen Gobierno (Ley 19/2013)
+# 🔴 Resumen Completo y Profundo Tema 10 (Bloque 1): Transparencia, Acceso a la Información y Buen Gobierno (Ley 19/2013)
 
-> [!repaso] ⚡ **Puntos Clave y Objetivos de Examen del Tema 10**
-> Guía completa y exhaustiva que recopila todos los conceptos teóricos, marco legal/normativo, tablas técnicas, comandos y casos de examen oficiales de este tema.
-
----
-
-## 🟣 1. Desarrollo Temático Completo y Exhaustivo
-
-# 🔴 Resumen Fuente: Bloque 1 - Tema 10: Ley 19/2013 de Transparencia, Acceso a la Información Pública y Buen Gobierno
-
-Resumen exhaustivo de la Unidad Didáctica **UD022580** (Parte II) sobre la Ley 19/2013, de 9 de diciembre, los 3 ejes de transparencia (Publicidad Activa, Derecho de Acceso y Buen Gobierno) y el Consejo de Transparencia y Buen Gobierno (**CTBG**).
+> [!repaso] ⚡ **Puntos Clave y Objetivos Oficiales del Tema 10**
+> Guía completa y exhaustiva que recopila todo el temario oficial, marco legal/normativo, detalles de arquitectura, tablas de datos críticos, protocolos, comandos de consola y casos prácticos.
 
 ---
 
-## 🗺️ 1. Los Tres Pilares de la Ley 19/2013
+## 🟣 1. Desarrollo Temático Completo e Íntegro
 
-```
-                             LEY 19/2013 DE TRANSPARENCIA
-                                          │
-       ┌──────────────────────────────────┼──────────────────────────────────┐
-       ▼                                  ▼                                  ▼
-1. PUBLICIDAD ACTIVA             2. DERECHO DE ACCESO               3. BUEN GOBIERNO
-(Portal de Transparencia)        (Solicitud del Ciudadano)          (Altos Cargos)
- • Información Institucional      • Toda información en poder       • Principios éticos
- • Información Jurídica             de la Administración             • Principios de conducta
- • Información Económica          • Plazo de resolución: 1 mes       • Régimen sancionador
-   y Presupuestaria                 (prorrogable 1 mes más)            (inhabilitación 5-10 a.)
-```
+## 1. La Ley 19/2013, de 9 de diciembre, de Transparencia, Acceso a la Información Pública y Buen Gobierno
+Tiene por objeto ampliar y reforzar la transparencia de la actividad pública, regular y garantizar el derecho de acceso a la información relativa a aquella y establecer las obligaciones de buen gobierno que deben cumplir los responsables públicos.
+Estructurada en 3 Títulos:
+- Título I: Transparencia de la actividad pública (Publicidad activa y Derecho de acceso).
+- Título II: Buen gobierno (Principios éticos, de conducta y régimen sancionador de altos cargos).
+- Título III: Consejo de Transparencia y Buen Gobierno.
 
----
+## 2. Publicidad Activa (Título I, Capítulo II)
+- Los sujetos obligados deben publicar de forma periódica, actualizada, comprensible y en formatos reutilizables la información relevante para garantizar la transparencia:
+  - **Información Institucional y Organizativa (Art. 6)**: Estructura, organigramas, funciones, normativa.
+  - **Información de Relevancia Jurídica (Art. 7)**: Directrices, instrucciones, proyectos de ley y reglamentos.
+  - **Información Económica, Presupuestaria y Estadística (Art. 8)**: Contratos, convenios, subvenciones, presupuestos anuales, cuentas anuales, retribuciones de altos cargos, declaraciones de bienes e incompatibilidades.
+- **Portal de la Transparencia**: Plataforma oficial centralizada de la AGE para facilitar el acceso a la publicidad activa.
 
-## 🟣 2. El Derecho de Acceso a la Información Pública (Arts. 12 a 22)
+## 3. Derecho de Acceso a la Información Pública (Capítulo III)
+- Todas las personas tienen derecho a acceder a la información pública, entendida como los contenidos o documentos, cualquiera que sea su formato o soporte, que obren en poder de los sujetos obligados y que hayan sido elaborados o adquiridos en el ejercicio de sus funciones.
+- **Límites al Derecho de Acceso (Art. 14)**:
+  - Seguridad nacional, defensa, relaciones exteriores, seguridad pública, prevención e investigación de delitos, funciones administrativas de vigilancia y control, secreto comercial y propiedad intelectual, protección del medio ambiente.
+  - Aplicación justificada, proporcionada y caso por caso mediante el *test del daño* y el *test del interés público*.
+- **Procedimiento de Acceso (Art. 17 a 22)**:
+  - Solicitud por cualquier medio que permita tener constancia. No requiere motivar la solicitud.
+  - Plazo máximo para resolver y notificar: **1 mes** desde la recepción de la solicitud por el órgano competente (prorrogable otro mes en casos de volumen o complejidad).
+  - Silencio Administrativo: Si transcurre el plazo sin resolución expresa, la solicitud se entenderá **DESESTIMADA**.
+- **Reclamación ante el Consejo de Transparencia (Art. 23 y 24)**:
+  - Reclamación previa y potestativa a la vía judicial contencioso-administrativa.
+  - Plazo de interposición: **1 mes** desde la notificación del acto o desde el día siguiente a la producción del silencio.
+  - Plazo para resolver la reclamación: **3 meses** (el silencio es desestimatorio).
 
-### A. Titularidad y Requisitos
-- Todas las personas tienen derecho a acceder a la información pública, en los términos previstos en el art. 105.b) de la Constitución.
-- **NO requiere motivar la solicitud** (la ausencia de motivación no será motivo de rechazo).
-
-### B. Límites al Derecho de Acceso (Art. 14)
-El derecho de acceso podrá ser limitado cuando suponga un perjuicio para:
-- La seguridad nacional, la defensa o las relaciones exteriores.
-- La seguridad pública o la prevención/investigación de delitos.
-- El secreto profesional y la propiedad intelectual o industrial.
-- La garantía de confidencialidad en procesos de toma de decisión.
-- La protección del medio ambiente.
-
-### C. Procedimiento de Acceso (Arts. 17 a 20)
-- **Plazo de Resolución y Notificación**: **1 mes** desde la recepción de la solicitud por el órgano competente para resolver.
-- **Prórroga**: Ampliable por **otro mes más** en caso de que el volumen o complejidad de la información lo justifique.
-- **Sentido del Silencio**: Si no se resuelve en plazo, el silencio es **DESESTIMATORIO** (*Silencio Negativo*).
-
----
-
-## 🟣 3. Reclamaciones ante el Consejo de Transparencia (CTBG - Art. 24)
-- Contra toda resolución expresa o presunta en materia de derecho de acceso podrá interponerse una **Reclamación potestativa y gratuita** ante el **Consejo de Transparencia y Buen Gobierno (CTBG)**.
-- Esta reclamación sustituye a los recursos administrativos ordinarios (Alzada / Reposición).
-- **Plazo de Interposición**: **1 mes** a contar desde la notificación del acto o desde el día siguiente a aquel en que se produzcan los efectos del silencio.
-- **Plazo de Resolución del CTBG**: **3 meses** (el silencio de la reclamación es desestimatorio).
-
----
+## 4. El Consejo de Transparencia y Buen Gobierno (CTBG)
+- Organismo público independiente adscrito a efectos organizativos al Ministerio de Transformación Digital y Función Pública.
+- Vela por el cumplimiento de las obligaciones de publicidad activa y resuelve las reclamaciones frente a denegaciones del derecho de acceso a la información pública.
+- Presidido por el Presidente del Consejo de Transparencia, nombrado por Real Decreto para un mandato de **5 años no renovable**.
 
 ---
 
 ## 🔵 2. Enlaces de Autoevaluación y Recursos de Estudio
-- 📖 **Fuente Oficial Íntegra**: [[wiki/sources/bloque1-tema10|Nota Fuente del Tema 10]]
-- 📝 **Test Interactivo del Tema (10 Preguntas)**: [[wiki/tests/temas/test-bloque1-tema10-transparencia|Test Tema 10]]
+- 📖 **Nota Fuente Oficial**: [[wiki/sources/bloque1-tema10|Fuente Oficial del Tema 10]]
+- 📝 **Test Interactivo de Examen (10 Preguntas)**: [[wiki/tests/temas/test-bloque1-tema10-transparencia|Test Tema 10]]
 - 🃏 **Tarjetas de Memoria Rápida**: [[wiki/synthesis/tarjetas-memoria-flashcards-bloque1-administracion|Mazo Flashcards Bloque 1]]
-- 🏠 **Índice del Bloque**: [[wiki/synthesis/resumenes/resumen-maestro-bloque1|Resumen Maestro Bloque 1]]
+- 🏠 **Portada e Índice del Bloque**: [[wiki/synthesis/resumenes/resumen-maestro-bloque1|Resumen Maestro Bloque 1]]
 
 ---
 
